@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261025c" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261026a" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -1754,10 +1754,13 @@
                 placeholder="🔎 Filter workbook sections..."
                 style="width:195px; padding:6px 10px; font-size:0.78rem;"
               />
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-open-fillable-html" title="Open &amp; Print the Verb-Aligned Fillable Scout Workbook with Guide to Advancement Section 7.0.3.2 Banner" style="padding:7px 12px; font-size:0.79rem; font-weight:800;">
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-open-fillable-html" title="View &amp; Edit the Verb-Aligned Fillable Scout Workbook with Guide to Advancement Section 7.0.3.2 Banner" style="padding:7px 12px; font-size:0.79rem; font-weight:800;">
                 📝 Fillable Scout Workbook (GTA §7.0.3.2)
               </button>
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-open-cpp" title="Open &amp; Print the 1-Page Class Preparation Page (CPP) &amp; Syllabus Map" style="padding:7px 12px; font-size:0.79rem; font-weight:800;">
+              <a class="m3-btn m3-btn-filled" id="btn-workbook-download-fillable-pdf" href="/api/v1/studiokit/fillable-workbook.pdf?badge_name=First%20Aid" download title="Download Interactive AcroForm Fillable Scout Workbook (.PDF)" style="padding:7px 12px; font-size:0.79rem; font-weight:800; text-decoration:none;">
+                📥 Download Workbook (.PDF)
+              </a>
+              <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-open-cpp" title="View &amp; Download the 1-Page Class Preparation Page (CPP) &amp; Syllabus Map" style="padding:7px 12px; font-size:0.79rem; font-weight:800;">
                 📄 1-Page Class Prep (CPP)
               </button>
               <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-print-field-qr" title="Print 1-Page Pocket Field Checklist &amp; QR Handout" style="padding:7px 12px; font-size:0.79rem;">
@@ -1795,12 +1798,15 @@
             <button type="button" class="m3-studiokit-pill" data-studiokit-filter="FINOPS">📚 4. Grounded Citations &amp; Counselor Rating</button>
           </div>
           <div style="display:flex; gap:6px; flex-wrap:wrap;">
-            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-cpp" title="Open &amp; Print the 1-Page Class Preparation Page (CPP) for Scouts &amp; Parents" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-cpp" title="View &amp; Download the 1-Page Class Preparation Page (CPP) for Scouts &amp; Parents" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
               📄 1-Page Class Prep (CPP)
             </button>
-            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-fillable-workbook" title="Open &amp; Print the Verb-Aligned Fillable Scout Workbook (GTA §7.0.3.2)" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
+            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-fillable-workbook" title="View &amp; Edit the Verb-Aligned Fillable Scout Workbook (GTA §7.0.3.2)" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
               📝 Fillable Scout Workbook
             </button>
+            <a class="m3-btn m3-btn-filled" id="btn-studiokit-download-fillable-pdf" href="/api/v1/studiokit/fillable-workbook.pdf?badge_name=First%20Aid" download title="Download Interactive AcroForm Fillable Scout Workbook (.PDF)" style="padding:6px 11px; font-size:0.77rem; font-weight:800; text-decoration:none;">
+              📥 Workbook (.PDF)
+            </a>
             <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-organizer-spec" title="Open &amp; Print the 1-Page Organizer &amp; Syllabus Catalog Spec Sheet for MBC Deans or Camp Directors" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
               🏛️ Organizer Spec Sheet
             </button>
@@ -3559,6 +3565,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261025c"></script>
+  <script src="/ui/app.js?v=20261026a"></script>
 </body>
 </html>

@@ -55,10 +55,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Rowing hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Rowing prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Rowing prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Rowing prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)"
           },
           "starting_requirement_gate": {
             "gate_type": "HARD_PREREQ_BADGE",
@@ -83,9 +85,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while participating in rowing activities, including weather- and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
         },
         {
           "sub_id": "1b",
@@ -133,10 +138,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Rowing Requirement 1b sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 1b grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -156,9 +163,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while rowing: blisters, hypothermia, heat-related illnesses, dehydration, sunburn, sprains, and strains."
         },
         {
           "sub_id": "1c",
@@ -186,10 +196,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Rowing Requirement 1c sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 1c grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -209,9 +221,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Review the Scouting America Safety Afloat policy. Explain to your counselor how this applies to rowing activities."
         }
       ],
       "resources": [
@@ -264,13 +279,13 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: Rowing Hazards, PPE & First Aid Response",
+      "topic_title": "Req 1: Hazards, First Aid & Safety",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Rowing Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Rowing Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)",
+      "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
@@ -290,7 +305,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Rowing hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Rowing prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Rowing prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Rowing prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)"
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -315,62 +332,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Rowing Sub-Req 1a: Explain to your counselor the most likely hazards you may encounter while participating in rowing activities, including weather- and water-related hazards, and what you.",
-        "Rowing Sub-Req 1b: Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while rowing: blisters, hypothermia, heat-related illnesses, dehydration, sunburn, sprains.",
-        "Rowing Sub-Req 1c: Review the Scouting America Safety Afloat policy. Explain to your counselor how this applies to rowing activities.",
-        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in rowing activities, including weather- and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
+        "Rowing Blisters Likely: In rowing, blisters are most likely to occur on the hands.",
+        "Pay Attention Tender: Pay attention to any tender or sensitive areas (hot spots) thatindicate the start of a blister.",
+        "Adjust Relaxyour Grip: You may be able to adjust or relaxyour grip to avoid friction on the sensitive area.",
+        "Prevent Them Wearing: If you are prone to blisters, prevent them by wearing rowing gloves."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Rowing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Rowing Hazards, PPE & First Aid Response.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Rowing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Cover Protect Area: If you do get a blister, cover and protect the area from further irritation.",
+        "Sprain Occurs Ankle: A sprain occurs when an ankle, wrist, or other joint is bent farenough to overstretch the ligaments, the tough bands that holdjoints together.",
+        "Strain Occurs Muscles: A strain occurs when muscles are overstretched, creating tears in the muscle fibers.",
+        "Minor Sprains Strainscause: Minor sprains and strainscause only mild discomfort, but more serious sprains and strainsmight be temporarily disabling."
       ],
       "gear_checklist": [
         "Official Rowing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Rowing Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Rowing Approach",
-        "right_header": "Official BSA Rowing Pamphlet Standard",
+        "right_header": "Official BSA Rowing Standard (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Rowing Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Rowing Workbook organizer.",
+          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Rowing Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Rowing Hazards, PPE & First Aid Response",
-          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in rowing activities, ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Rowing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Rowing Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
+          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in rowing activities, including weather- and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Rowing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Rowing Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Rowing Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Rowing Requirement 1, a Scout claims: \"Scouts can jump straight into Rowing hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Rowing (Hazards, First Aid & Safety), which patrol preparation step best aligns with the official Rowing standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Rowing prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Rowing hazards, PPE, and prerequisite standards in Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Rowing prevents most field injuries.",
-        "explanation": "Per Official BSA Rowing Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Rowing prevents most field injuries."
+        "correct_answer": "Option A - Review the Rowing hazards, PPE, and prerequisite standards in Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Rowing Workbook organizer table and practical demonstration for Req 1."
@@ -396,13 +413,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Before completing requirements 4, 5, 6, and 7",
-      "action_verb": "Before",
+      "topic_title": "Req 2: Before completing requirements 4, 5, 6",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Rowing Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Rowing Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 15, p. 16)",
+      "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 15, p. 16)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -419,8 +436,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Before completing requirements 4, 5, 6, and 7 is enough for Rowing Requirement 2 sign-off.",
-        "fact": "Each Scout must actively before the specific principles and real-world steps of Before completing requirements 4, 5, 6, and 7 grounded in the official Rowing pamphlet."
+        "misconception": "Reading a short definition of Before completing requirements 4, 5, 6 is enough for Rowing Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Before completing requirements 4, 5, 6 grounded in the official Rowing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Before completing requirements 4, 5, 6 grounded in the official Rowing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 15, p. 16)"
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -445,63 +464,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 2): Before completing requirements 4, 5, 6, and 7, successfully complete the Scouting America swimmer test.",
-        "Core Standard 2 (Req 2): Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Rowing Req 2 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Rowing Workbook before requesting Requirement 2 sign-off."
+        "Whenever Yougo Swimming: Whenever yougo swimming, make sure youhave a buddywith you.",
+        "Ifyou Afloat Same: Ifyou go afloat, the same ruleapplies, makesure you have abuddy either withyou or nearby inanother boat.",
+        "Rowers Passed America: All rowers must have passed the Scouting America swimmertest.",
+        "America Swimmer Test: The Scouting America swimmer test demonstrates the minimum level of swimming ability required for safe deep-waterswimming, a necessary part of safe."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Rowing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Before completing requirements 4, 5, 6, and 7.",
-        "Execute & Document: Perform the before task methodically with your patrol buddy and log specific observations in your Rowing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Pass Followingswimmer Test: To qualify as a “swimmer,” you must pass the followingswimmer test.",
+        "Jump Feetfirst Water: Jump feetfirst into water over your headin depth.",
+        "Level Off Swim: Level off and swim 75 yards in a strong mannerusing one or more of the following strokes: sidestroke, breaststroke, trudgen, or crawl.",
+        "Then Swim Yardsusing: Then swim 25 yardsusing an easy resting backstroke."
       ],
       "gear_checklist": [
         "Official Rowing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Rowing Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Before completing requirements 4, 5, 6",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Rowing Approach",
-        "right_header": "Official BSA Rowing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Rowing Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Rowing Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Before completing requirements 4, 5, 6, and 7",
-          "Primary Standard": "Before completing requirements 4, 5, 6, and 7, successfully complete the Scouting America swimmer test. Note: ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Rowing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Rowing Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Before completing requirements 4, 5, 6",
+          "Primary Standard": "Before completing requirements 4, 5, 6, and 7, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Rowing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Rowing Merit Badge Pamphlet (p. 15, p. 16) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Rowing Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Rowing Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Rowing Requirement 2, a Scout claims: \"Reading a short definition of Before completing requirements 4, 5, 6, and 7 is enough for Rowing Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before completing requirements 4, 5, 6, and 7 grounded in the official Rowing pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before completing requirements 4, 5, 6, and 7 grounded in the official Rowing pamphlet.",
-        "explanation": "Per Official BSA Rowing Pamphlet, pp. 10-15, Each Scout must actively before the specific principles and real-world steps of Before completing requirements 4, 5, 6, and 7 grounded in the official Rowing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Rowing Workbook organizer table and practical demonstration for Req 2."
     },
@@ -526,13 +522,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Review the characteristics of life jackets most appropriate",
-      "action_verb": "Review",
+      "topic_title": "Req 3: Review the characteristics of life jackets",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Rowing Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Rowing Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 16, p. 18)",
+      "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 16, p. 18)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -552,8 +548,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Review the characteristics of life jackets most appropriate is enough for Rowing Requirement 3 sign-off.",
-        "fact": "Each Scout must actively review the specific principles and real-world steps of Review the characteristics of life jackets most appropriate grounded in the official Rowing pamphlet."
+        "misconception": "Reading a short definition of Review the characteristics of life jackets is enough for Rowing Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Review the characteristics of life jackets grounded in the official Rowing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Review the characteristics of life jackets grounded in the official Rowing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 16, p. 18)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -573,63 +571,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): Review the characteristics of life jackets most appropriate for rowing and why one must always be worn while rowing.",
-        "Core Standard 2 (Req 3): Then demonstrate how to select and fit a life jacket.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Rowing Req 3 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Rowing Workbook before requesting Requirement 3 sign-off."
+        "Aquatics Supervision: Paddle Craft Safety to assist in the planning and conduct of all rowing activities.",
+        "Complete Health History: A complete health history is requiredof all participants as evidence of fitness for rowing activities.",
+        "Forms Minors Signed: Forms for minors must be signed by a parent or legal guardian.",
+        "Participants Asked Relate: Participants should be asked to relate any recent incidents ofillness or injury just prior to the activity."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Rowing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Review the characteristics of life jackets most appropriate.",
-        "Execute & Document: Perform the review task methodically with your patrol buddy and log specific observations in your Rowing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Supervision Andprotection: Supervision andprotection should be adjusted to anticipate any potential risksassociated with individual health conditions.",
+        "Significanthealth Conditions: For significanthealth conditions, the adult supervisor should require anexamination by a physician and consult with parent, guardian.",
+        "Operation Rowing Craft: Operation of rowing craft is generally limited to youth and adults who have completed the Scouting America swimmer classification test.",
+        "However Anyone Not: However, anyone not classified as a swimmer may operate a fixed-seat rowboat if accompanied by a buddy who is a swimmer."
       ],
       "gear_checklist": [
         "Official Rowing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Rowing Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Review the characteristics of life jackets",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Rowing Approach",
-        "right_header": "Official BSA Rowing Pamphlet Standard",
+        "right_header": "Official BSA Rowing Standard (Review the characteristics of life jackets)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Review the characteristics of life jackets.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Rowing Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Rowing Merit Badge Pamphlet (p. 16, p. 18) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Rowing Workbook organizer.",
+          "Clearly demonstrates and explains Review the characteristics of life jackets using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Rowing Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Review the characteristics of life jackets most appropriate",
-          "Primary Standard": "Review the characteristics of life jackets most appropriate for rowing and why one must always be worn while r",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Rowing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Rowing Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Review the characteristics of life jackets",
+          "Primary Standard": "Review the characteristics of life jackets most appropriate for rowing and why one must always be worn while rowing. Then demonstrate how to select and fit a life jacket.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Rowing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Rowing Merit Badge Pamphlet (p. 16, p. 18) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Rowing Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Rowing Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Rowing Requirement 3, a Scout claims: \"Reading a short definition of Review the characteristics of life jackets most appropriate is enough for Rowing Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively review the specific principles and real-world steps of Review the characteristics of life jackets most appropriate grounded in the official Rowing pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively review the specific principles and real-world steps of Review the characteristics of life jackets most appropriate grounded in the official Rowing pamphlet.",
-        "explanation": "Per Official BSA Rowing Pamphlet, pp. 16-21, Each Scout must actively review the specific principles and real-world steps of Review the characteristics of life jackets most appropriate grounded in the official Rowing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Rowing Workbook organizer table and practical demonstration for Req 3."
     },
@@ -667,10 +655,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 22-27",
+              "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 4a(1) is enough for Rowing Requirement 4a(1) sign-off.",
-                "fact": "Each Scout must actively launch the specific principles and real-world steps of Req 4a(1) grounded in the official Rowing pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(1) grounded in the official Rowing pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(1) grounded in the official Rowing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -690,9 +680,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "4a(1)",
+              "sub_req_label": "4a(1)",
+              "sub_req_text": "Launch."
             },
             {
               "sub_id": "4a(2)",
@@ -724,10 +717,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 22-27",
+              "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 4a(2) is enough for Rowing Requirement 4a(2) sign-off.",
-                "fact": "Each Scout must actively row the specific principles and real-world steps of Req 4a(2) grounded in the official Rowing pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(2) grounded in the official Rowing pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(2) grounded in the official Rowing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -747,9 +742,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "4a(2)",
+              "sub_req_label": "4a(2)",
+              "sub_req_text": "Row in a straight line for 100 yards. Stop, pivot, and return to the starting point."
             },
             {
               "sub_id": "4a(3)",
@@ -759,23 +757,28 @@
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
-                "organizer_type": "RULED_EXPLAIN_BOX",
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
                 "headers": [
-                  "Req 4a(3) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
                 ],
-                "min_rows": 3,
+                "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 22-27",
+              "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 4a(3) is enough for Rowing Requirement 4a(3) sign-off.",
-                "fact": "Each Scout must actively backwater the specific principles and real-world steps of Req 4a(3) grounded in the official Rowing pamphlet."
+                "fact": "Each Scout must actively make the specific principles and real-world steps of Req 4a(3) grounded in the official Rowing pamphlet.",
+                "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 4a(3) grounded in the official Rowing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -795,9 +798,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "4a(3)",
+              "sub_req_label": "4a(3)",
+              "sub_req_text": "Backwater in a straight line for 25 yards. Make a turn underway and return to the starting point."
             },
             {
               "sub_id": "4a(4)",
@@ -820,10 +826,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 22-27",
+              "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 4a(4) is enough for Rowing Requirement 4a(4) sign-off.",
-                "fact": "Each Scout must actively land the specific principles and real-world steps of Req 4a(4) grounded in the official Rowing pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(4) grounded in the official Rowing pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(4) grounded in the official Rowing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -843,9 +851,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "4a(4)",
+              "sub_req_label": "4a(4)",
+              "sub_req_text": "Land and moor or rack your craft."
             },
             {
               "sub_id": "4a(5)",
@@ -881,10 +892,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 22-27",
+              "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 4a(5) is enough for Rowing Requirement 4a(5) sign-off.",
-                "fact": "Each Scout must actively tie the specific principles and real-world steps of Req 4a(5) grounded in the official Rowing pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(5) grounded in the official Rowing pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(5) grounded in the official Rowing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -904,9 +917,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "4a(5)",
+              "sub_req_label": "4a(5)",
+              "sub_req_text": "Tie the following mooring knots—clove hitch, roundturn with two half-hitches, bowline, Wellman's knot, and mooring hitch."
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -927,10 +943,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Rowing Requirement 4a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -950,9 +968,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Alone or with a passenger, do the following in either a fixed-seat or sliding-seat rowboat: (1) Launch. (2) Row in a straight line for 100 yards. Stop, pivot, and return to the starting point. (3) Backwater in a straight line for 25 yards. Make a turn underway and return to the starting point. (4) Land and moor or rack your craft. (5) Tie the following mooring knots—clove hitch, roundturn with two half-hitches, bowline, Wellman's knot, and mooring hitch."
         },
         {
           "sub_id": "4b",
@@ -975,10 +996,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Rowing Requirement 4b sign-off.",
-            "fact": "Each Scout must actively participate the specific principles and real-world steps of Req 4b grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -998,9 +1021,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Participate as a rowing team member in a competitive rowing meet. The team may be sponsored by a school, club, or Scout unit. The meet must include competition between two or more teams with different sponsors. Complete at least 10 hours of team practice prior to the meet."
         }
       ],
       "resources": [
@@ -1033,31 +1059,36 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: (a) Alone or with a passenger, do the",
-      "action_verb": "Explain",
+      "topic_title": "Req 4: Alone or with a passenger",
+      "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Rowing Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Rowing Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
+      "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Alone or with a passenger, do the is enough for Rowing Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of (a) Alone or with a passenger, do the grounded in the official Rowing pamphlet."
+        "misconception": "Reading a short definition of Alone or with a passenger is enough for Rowing Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Alone or with a passenger grounded in the official Rowing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Alone or with a passenger grounded in the official Rowing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1077,63 +1108,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Rowing Sub-Req 4a: Alone or with a passenger, do the following in either a fixed-seat or sliding-seat rowboat: (1) Launch. (2) Row in a straight line for.",
-        "Rowing Sub-Req 4a(1): Launch.",
-        "Rowing Sub-Req 4a(2): Row in a straight line for 100 yards. Stop, pivot, and return to the starting point.",
-        "Rowing Sub-Req 4a(3): Backwater in a straight line for 25 yards. Make a turn underway and return to the starting point."
+        "Outhauling Stresses Thecraft: Outhauling stresses thecraft and will shorten the useful life of the equipment.",
+        "Dragging Heavy Craft: Dragging heavy craft onto the bank or dock will damagethe boat’s hull.",
+        "Hand Rowing Shells: On the other hand, rowing shells, sculling craft, and canoes with drop-in units should be removed fromthe water when not in use.",
+        "Store Them Upside: Store them upside down onracks where they are protected from sun, wind, andwater."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Rowing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Alone or with a passenger, do the.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Rowing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Shells Stored Suspended: If shells are stored suspended on racks or inslings, be sure there is adequate support to preventbowing or sagging.",
+        "Tidal Water Mooring: In tidal water, mooring shouldpermit the boat torise and fall safelywith the tide.",
+        "Not Leave Theboat: Do not leave theboat hanging orgrounded at lowtide.",
+        "Hightide Notbe Stressed: During hightide, it should notbe stressed by the Mooring Knots Several knots and hitches are useful in mooring your boat."
       ],
       "gear_checklist": [
         "Official Rowing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Rowing Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Alone or with a passenger",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Rowing Approach",
-        "right_header": "Official BSA Rowing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Rowing Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Rowing Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - (a) Alone or with a passenger, do the",
-          "Primary Standard": "Alone or with a passenger, do the following in either a fixed-seat or sliding-seat rowboat: (1) Launch. (2) Ro",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Rowing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Rowing Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Alone or with a passenger",
+          "Primary Standard": "Alone or with a passenger, do the following in either a fixed-seat or sliding-seat rowboat: (1) Launch.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Rowing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Rowing Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Rowing Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Rowing Requirement 4, a Scout claims: \"Reading a short definition of (a) Alone or with a passenger, do the is enough for Rowing Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) Alone or with a passenger, do the grounded in the official Rowing pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) Alone or with a passenger, do the grounded in the official Rowing pamphlet.",
-        "explanation": "Per Official BSA Rowing Pamphlet, pp. 22-27, Each Scout must actively explain the specific principles and real-world steps of (a) Alone or with a passenger, do the grounded in the official Rowing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Rowing Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1168,10 +1176,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Rowing Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1191,9 +1201,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "In a fixed-seat rowboat, come alongside a pier and help a passenger into the boat. Pull away from the pier, change positions with your passenger, and demonstrate sculling over the stern or side. Resume your rowing position, return alongside the pier, and help your passenger out of the boat."
         },
         {
           "sub_id": "5b",
@@ -1216,10 +1229,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Rowing Requirement 5b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1239,9 +1254,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "In a sliding-seat rowboat, come alongside a pier and, with your buddy assisting you, get out onto the pier. Help your buddy into the boat. Reverse roles with your buddy and repeat the procedure."
         }
       ],
       "resources": [],
@@ -1253,13 +1271,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: (a) In a fixed-seat rowboat, come alongside a",
+      "topic_title": "Req 5: In a fixed-seat rowboat, come alongside",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Rowing Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Rowing Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79)",
+      "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1279,8 +1297,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) In a fixed-seat rowboat, come alongside a is enough for Rowing Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of (a) In a fixed-seat rowboat, come alongside a grounded in the official Rowing pamphlet."
+        "misconception": "Reading a short definition of In a fixed-seat rowboat, come alongside is enough for Rowing Requirement 5 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of In a fixed-seat rowboat, come alongside grounded in the official Rowing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of In a fixed-seat rowboat, come alongside grounded in the official Rowing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1300,63 +1320,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Rowing Sub-Req 5a: In a fixed-seat rowboat, come alongside a pier and help a passenger into the boat. Pull away from the pier, change positions with your.",
-        "Rowing Sub-Req 5b: In a sliding-seat rowboat, come alongside a pier and, with your buddy assisting you, get out onto the pier. Help your buddy into the.",
-        "Core Standard 1 (Req 5): Do ONE of the following: (a) In a fixed-seat rowboat, come alongside a pier and help a passenger into the boat.",
-        "Core Standard 2 (Req 5): Pull away from the pier, change positions with your passenger, and demonstrate sculling over the stern or side."
+        "Strokes Maneuvers Rowing: The strokes and maneuvers of rowing alone are the same asrowing with a passenger, except that you sit on the midshipseat to maintain trim.",
+        "Doing Single-person Launch: When doing a single-person launch from a mooring where thebow is tied out, it is a good idea to ask another boater for help.",
+        "Person Assisting Play: The person assisting will play the role of the passenger, exceptthat instead of getting in when you are ready, he or she willgive you a gentle push off.",
+        "Available Out Begin: If no one is available to help out, begin by loading yourgear into the boat, then untying the stern painter."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Rowing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) In a fixed-seat rowboat, come alongside a.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Rowing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Sit Thedock Ease: Sit on thedock and ease in over the transom while being careful to notlose your balance.",
+        "Move Forward Bow: Move forward to the bow and untie the bowpainter.",
+        "Boat Free Pulled: When the boat is free and you have pulled the paintersinto the boat, take your rowing position and move the boataway from the pier.",
+        "There Not Enough: If there is not enough space for you to rowout, use one oar over the stern or at the bow to scull or paddleyourself clear of obstacles, then begin."
       ],
       "gear_checklist": [
         "Official Rowing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Rowing Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for In a fixed-seat rowboat, come alongside",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Rowing Approach",
-        "right_header": "Official BSA Rowing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Rowing Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Rowing Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - (a) In a fixed-seat rowboat, come alongside a",
-          "Primary Standard": "In a fixed-seat rowboat, come alongside a pier and help a passenger into the boat. Pull away from the pier, ch",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Rowing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Rowing Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - In a fixed-seat rowboat, come alongside",
+          "Primary Standard": "In a fixed-seat rowboat, come alongside a pier and help a passenger into the boat.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Rowing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Rowing Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Rowing Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Rowing Requirement 5, a Scout claims: \"Reading a short definition of (a) In a fixed-seat rowboat, come alongside a is enough for Rowing Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) In a fixed-seat rowboat, come alongside a grounded in the official Rowing pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) In a fixed-seat rowboat, come alongside a grounded in the official Rowing pamphlet.",
-        "explanation": "Per Official BSA Rowing Pamphlet, pp. 28-33, Each Scout must actively explain the specific principles and real-world steps of (a) In a fixed-seat rowboat, come alongside a grounded in the official Rowing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Rowing Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1376,13 +1373,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Participate in a swamped boat drill including righting",
-      "action_verb": "Participate",
+      "topic_title": "Req 6: Participate in a swamped boat drill",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Rowing Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Rowing Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 29, p. 83)",
+      "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 29, p. 83)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1399,8 +1396,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Participate in a swamped boat drill including righting is enough for Rowing Requirement 6 sign-off.",
-        "fact": "Each Scout must actively participate the specific principles and real-world steps of Participate in a swamped boat drill including righting grounded in the official Rowing pamphlet."
+        "misconception": "Reading a short definition of Participate in a swamped boat drill is enough for Rowing Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Participate in a swamped boat drill grounded in the official Rowing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Participate in a swamped boat drill grounded in the official Rowing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 29, p. 83)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1420,63 +1419,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 6): Participate in a swamped boat drill including righting and stabilizing the craft, reboarding in deep water, and making headway.",
-        "Core Standard 2 (Req 6): Tell why you should stay with a swamped boat.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Rowing Req 6 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Rowing Workbook before requesting Requirement 6 sign-off."
+        "Rescue Procedures His: Rescue Procedures. his or her midship with one hand while maintaining the oars inthe safety position with the other.",
+        "Experienced Rowers: Even experienced rowers may occasionally capsize inshells, so you should always have someone in a fixed-seatrowboat or powerboat on the water to assist.",
+        "Capsize Canoe Rowing: If you capsize in a canoe rowing rig and the craft swamps, remember to stay with the boat, hang on, do not lose contactwith the canoe.",
+        "Slide Gunwaleinto Open: Slide over the gunwaleinto an open area of the craft."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Rowing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Participate in a swamped boat drill including righting.",
-        "Execute & Document: Perform the participate task methodically with your patrol buddy and log specific observations in your Rowing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Sit Flaton Bottom: Sit flaton the bottom and use one oar to paddle to shore where you can empty thecanoe and relaunch.",
+        "Overboard Deep Waterand: If you are overboard in deep waterand the canoe rowing rig is still afloat, reenter using the flop-over method.",
+        "Begin Placing Oar: Begin by placing the oar blades on abreastplate out of your way.",
+        "Then Movealong Gunwale: Then movealong the gunwale to a midship pointwhere there is an open compartment."
       ],
       "gear_checklist": [
         "Official Rowing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Rowing Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Participate in a swamped boat drill",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Rowing Approach",
-        "right_header": "Official BSA Rowing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Rowing Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Rowing Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Participate in a swamped boat drill including righting",
-          "Primary Standard": "Participate in a swamped boat drill including righting and stabilizing the craft, reboarding in deep water, an",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Rowing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Rowing Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Participate in a swamped boat drill",
+          "Primary Standard": "Participate in a swamped boat drill including righting and stabilizing the craft, reboarding in deep water, and making headway. Tell why you should stay with a swamped boat.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Rowing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Rowing Merit Badge Pamphlet (p. 29, p. 83) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Rowing Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Rowing Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Rowing Requirement 6, a Scout claims: \"Reading a short definition of Participate in a swamped boat drill including righting is enough for Rowing Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively participate the specific principles and real-world steps of Participate in a swamped boat drill including righting grounded in the official Rowing pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively participate the specific principles and real-world steps of Participate in a swamped boat drill including righting grounded in the official Rowing pamphlet.",
-        "explanation": "Per Official BSA Rowing Pamphlet, pp. 34-39, Each Scout must actively participate the specific principles and real-world steps of Participate in a swamped boat drill including righting grounded in the official Rowing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Rowing Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1501,13 +1477,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Alone in a rowboat, push off from the",
-      "action_verb": "Alone",
+      "topic_title": "Req 7: Alone in a rowboat, push off",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Rowing Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Rowing Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 65, p. 79)",
+      "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 65, p. 79)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1524,8 +1500,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Alone in a rowboat, push off from the is enough for Rowing Requirement 7 sign-off.",
-        "fact": "Each Scout must actively alone the specific principles and real-world steps of Alone in a rowboat, push off from the grounded in the official Rowing pamphlet."
+        "misconception": "Reading a short definition of Alone in a rowboat, push off is enough for Rowing Requirement 7 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Alone in a rowboat, push off grounded in the official Rowing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Alone in a rowboat, push off grounded in the official Rowing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 65, p. 79)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1545,63 +1523,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 7): Alone in a rowboat, push off from the shore or a pier.",
-        "Core Standard 2 (Req 7): Row 20 yards to a swimmer.",
-        "Core Standard 3 (Req 7): While giving instructions to the swimmer, pivot the boat so that the swimmer can hold on to the stern.",
-        "Core Standard 4 (Req 7): Tow the swimmer to shore."
+        "Friend Boat Capsizes: If you are with a friend and your boat capsizes, pull yourself up over the side of the swamped boat while your friendholds down the other side.",
+        "Push Down Gunwale: Push down on the gunwale withboth hands so that you bring yourself up to where your hipsare about level with the gunwale.",
+        "Then Roll Sothat: Then roll over sothat you fall into the bottom of the swamped boat, landing onyour backside.",
+        "Then Lean Side: You can then lean over the side to counterbalance as your friend follows the same steps to come in over theopposite side."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Rowing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Alone in a rowboat, push off from the.",
-        "Execute & Document: Perform the alone task methodically with your patrol buddy and log specific observations in your Rowing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Remember Pull Yourself: Remember that when you pull yourself up on the gunwale, the gunwalewill be forced down into the water.",
+        "Roll Weightoff Gunwale: After you roll in and get your weightoff the gunwale, it will rise back up.",
+        "Fully Awash Gunwaleof: Even when fully awash, the gunwaleof most boats will be a few inches above the level of the water.",
+        "Aloneand Boatswamps Yougo: If you are aloneand your boatswamps and yougo over the side, the best way toget back in is overthe transom."
       ],
       "gear_checklist": [
         "Official Rowing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Rowing Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Alone in a rowboat, push off",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Rowing Approach",
-        "right_header": "Official BSA Rowing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Rowing Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Rowing Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Alone in a rowboat, push off from the",
-          "Primary Standard": "Alone in a rowboat, push off from the shore or a pier. Row 20 yards to a swimmer. While giving instructions to",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Rowing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Rowing Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Alone in a rowboat, push off",
+          "Primary Standard": "Alone in a rowboat, push off from the shore or a pier. Row 20 yards to a swimmer. While giving instructions to the swimmer, pivot the boat so that the swimmer can hold on to the stern. Tow the swimmer to shore.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Rowing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Rowing Merit Badge Pamphlet (p. 65, p. 79) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Rowing Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Rowing Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Rowing Requirement 7, a Scout claims: \"Reading a short definition of Alone in a rowboat, push off from the is enough for Rowing Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively alone the specific principles and real-world steps of Alone in a rowboat, push off from the grounded in the official Rowing pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively alone the specific principles and real-world steps of Alone in a rowboat, push off from the grounded in the official Rowing pamphlet.",
-        "explanation": "Per Official BSA Rowing Pamphlet, pp. 40-45, Each Scout must actively alone the specific principles and real-world steps of Alone in a rowboat, push off from the grounded in the official Rowing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Rowing Workbook organizer table and practical demonstration for Req 7."
     },
@@ -1638,10 +1593,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Rowing Requirement 8a sign-off.",
-            "fact": "Each Scout must actively types the specific principles and real-world steps of Req 8a grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1661,9 +1618,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "Types of craft used in commercial, competitive, and recreational rowing"
         },
         {
           "sub_id": "8b",
@@ -1691,10 +1651,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Rowing Requirement 8b sign-off.",
-            "fact": "Each Scout must actively four the specific principles and real-world steps of Req 8b grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1714,9 +1676,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "Four common boatbuilding materials. Give some positive and negative points of each"
         },
         {
           "sub_id": "8c",
@@ -1744,10 +1709,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Rowing Requirement 8c sign-off.",
-            "fact": "Each Scout must actively types the specific principles and real-world steps of Req 8c grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1767,9 +1734,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "Types of oarlocks used in competitive and recreational rowing"
         }
       ],
       "resources": [
@@ -1794,13 +1764,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Describe the following: (a) Types of craft used",
+      "topic_title": "Req 8: Types of craft used in commercial",
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Rowing Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Rowing Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)",
+      "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1817,8 +1787,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Describe the following: (a) Types of craft used is enough for Rowing Requirement 8 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of Describe the following: (a) Types of craft used grounded in the official Rowing pamphlet."
+        "misconception": "Reading a short definition of Types of craft used in commercial is enough for Rowing Requirement 8 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of Types of craft used in commercial grounded in the official Rowing pamphlet.",
+        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Types of craft used in commercial grounded in the official Rowing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1838,63 +1810,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Rowing Sub-Req 8a: Types of craft used in commercial, competitive, and recreational rowing",
-        "Rowing Sub-Req 8b: Four common boatbuilding materials. Give some positive and negative points of each",
-        "Rowing Sub-Req 8c: Types of oarlocks used in competitive and recreational rowing",
-        "Core Standard 1 (Req 8): Describe the following: (a) Types of craft used in commercial, competitive, and recreational rowing (b) Four common boatbuilding materials."
+        "Rowboats Variety Materials: Rowboats are made from a variety of materials, includingaluminum, fiberglass, plastic, wood planking, and plywood.",
+        "Lightweight Durable Metal: This lightweight, durable metal needs little maintenance.",
+        "Aluminum Not Float: Aluminum will not float, but all approved aluminumboats have flotation materials in chambers that keep the boatafloat if it capsizes or swamps.",
+        "Easy Cut Drill: Easy to cut and drill, wood is probably theeasiest boatbuilding material to handle."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Rowing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Describe the following: (a) Types of craft used.",
-        "Execute & Document: Perform the describe task methodically with your patrol buddy and log specific observations in your Rowing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Buoyant Boat Wood: It is very buoyant, a boat made from wood planking floats even when it is fullof water.",
+        "Cedar Spruce Cypress: Cedar, spruce, cypress, and pine are good plankingwoods.",
+        "However Tokeep Craft: However, tokeep such craft watertight, they must be regularly caulkedand painted.",
+        "Epoxy Compoundsalso Addedto: Epoxy compoundsalso can be addedto a wooden boatas a covering."
       ],
       "gear_checklist": [
         "Official Rowing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Rowing Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Types of craft used in commercial",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Rowing Approach",
-        "right_header": "Official BSA Rowing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Rowing Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Rowing Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - Describe the following: (a) Types of craft used",
-          "Primary Standard": "Types of craft used in commercial, competitive, and recreational rowing",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Rowing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Rowing Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - Types of craft used in commercial",
+          "Primary Standard": "Types of craft used in commercial, competitive, and recreational rowing.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Rowing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Rowing Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Rowing Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Rowing Requirement 8, a Scout claims: \"Reading a short definition of Describe the following: (a) Types of craft used is enough for Rowing Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively describe the specific principles and real-world steps of Describe the following: (a) Types of craft used grounded in the official Rowing pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively describe the specific principles and real-world steps of Describe the following: (a) Types of craft used grounded in the official Rowing pamphlet.",
-        "explanation": "Per Official BSA Rowing Pamphlet, pp. 46-51, Each Scout must actively describe the specific principles and real-world steps of Describe the following: (a) Types of craft used grounded in the official Rowing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Rowing Workbook organizer table and practical demonstration for Req 8."
     },
@@ -1935,10 +1884,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9a is enough for Rowing Requirement 9a sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 9a grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9a grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9a grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1958,9 +1909,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9a",
+          "sub_req_label": "9a",
+          "sub_req_text": "The advantage of feathering oars while rowing"
         },
         {
           "sub_id": "9b",
@@ -1983,10 +1937,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9b is enough for Rowing Requirement 9b sign-off.",
-            "fact": "Each Scout must actively precautions the specific principles and real-world steps of Req 9b grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2006,9 +1962,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9b",
+          "sub_req_label": "9b",
+          "sub_req_text": "Precautions regarding strong winds and heavy waves, and boat-handling procedures in rough water and windstorms"
         },
         {
           "sub_id": "9c",
@@ -2023,23 +1982,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 9c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9c is enough for Rowing Requirement 9c sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 9c grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 9c grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Req 9c grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2059,9 +2023,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9c",
+          "sub_req_label": "9c",
+          "sub_req_text": "How to properly fit out and maintain a boat in season, and how to prepare and store a boat for winter"
         },
         {
           "sub_id": "9d",
@@ -2089,10 +2056,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9d is enough for Rowing Requirement 9d sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 9d grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9d grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9d grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2112,9 +2081,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9d",
+          "sub_req_label": "9d",
+          "sub_req_text": "How to determine the proper length of oars"
         },
         {
           "sub_id": "9e",
@@ -2137,10 +2109,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9e is enough for Rowing Requirement 9e sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 9e grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9e grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9e grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2160,9 +2134,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9e",
+          "sub_req_label": "9e",
+          "sub_req_text": "The differences between fixed-seat and sliding-seat rowing"
         },
         {
           "sub_id": "9f",
@@ -2185,10 +2162,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9f is enough for Rowing Requirement 9f sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 9f grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9f grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9f grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2208,9 +2187,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9f",
+          "sub_req_label": "9f",
+          "sub_req_text": "The different meanings of the term sculling in fixed- and sliding-seat rowing"
         },
         {
           "sub_id": "9g",
@@ -2242,10 +2224,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9g is enough for Rowing Requirement 9g sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 9g grounded in the official Rowing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9g grounded in the official Rowing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9g grounded in the official Rowing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2265,9 +2249,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9g",
+          "sub_req_label": "9g",
+          "sub_req_text": "The health benefits from rowing for exercise"
         }
       ],
       "resources": [
@@ -2304,13 +2291,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Discuss the following: (a) The advantage of feathering",
+      "topic_title": "Req 9: The advantage of feathering oars",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Rowing Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Rowing Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Rowing Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)",
+      "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2327,8 +2314,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Discuss the following: (a) The advantage of feathering is enough for Rowing Requirement 9 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Discuss the following: (a) The advantage of feathering grounded in the official Rowing pamphlet."
+        "misconception": "Reading a short definition of The advantage of feathering oars is enough for Rowing Requirement 9 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of The advantage of feathering oars grounded in the official Rowing pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of The advantage of feathering oars grounded in the official Rowing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2348,68 +2337,61 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Rowing Sub-Req 9a: The advantage of feathering oars while rowing",
-        "Rowing Sub-Req 9b: Precautions regarding strong winds and heavy waves, and boat-handling procedures in rough water and windstorms",
-        "Rowing Sub-Req 9c: How to properly fit out and maintain a boat in season, and how to prepare and store a boat for winter",
-        "Rowing Sub-Req 9d: How to determine the proper length of oars"
+        "Yourhands Gunwales Weight: Step in with yourhands on the gunwales, keep your weight low and centered, then quickly turn and sit on the midship seat.",
+        "Remember Sight Person: Remember to keep sight of the person who needs help andto push the bow of the boat in the direction you want to go.",
+        "Forward Momentum Advantage: Use this forward momentum to your advantage while you getin position and prepare to row.",
+        "Soon Seated Slipon: As soon as you are seated, slipon the life jacket and put the oars in the out position."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Rowing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Discuss the following: (a) The advantage of feathering.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Rowing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Lookover Shoulder Fix: Lookover your shoulder to fix your direction toward the person inthe water and begin rowing.",
+        "Approach Swimmer Thewind: Always make your approach to a swimmer into thewind or against the current.",
+        "Remember Wavesor Rough: Remember also that wavesor rough water can make launching from shoredangerous.",
+        "Comparatively Mild Interval: Usually, a comparatively mild interval willfollow a series of heavy waves."
       ],
       "gear_checklist": [
         "Official Rowing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Rowing Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The advantage of feathering oars",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Rowing Approach",
-        "right_header": "Official BSA Rowing Pamphlet Standard",
+        "right_header": "Official BSA Rowing Standard (The advantage of feathering oars)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during The advantage of feathering oars.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Rowing Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Rowing Workbook organizer.",
+          "Clearly demonstrates and explains The advantage of feathering oars using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Rowing Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Discuss the following: (a) The advantage of feathering",
-          "Primary Standard": "The advantage of feathering oars while rowing",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Rowing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Rowing Pamphlet, pp. 52-57."
+          "Requirement & Topic": "Req 9 - The advantage of feathering oars",
+          "Primary Standard": "The advantage of feathering oars while rowing.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Rowing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Rowing Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Rowing Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Rowing Requirement 9, a Scout claims: \"Reading a short definition of Discuss the following: (a) The advantage of feathering is enough for Rowing Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss the following: (a) The advantage of feathering grounded in the official Rowing pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss the following: (a) The advantage of feathering grounded in the official Rowing pamphlet.",
-        "explanation": "Per Official BSA Rowing Pamphlet, pp. 52-57, Each Scout must actively discuss the specific principles and real-world steps of Discuss the following: (a) The advantage of feathering grounded in the official Rowing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Rowing Workbook organizer table and practical demonstration for Req 9."
     }
   ],
   "badge_slug": "rowing",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

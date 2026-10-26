@@ -49,10 +49,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Aviation Requirement 1a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -72,9 +74,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Define \"aircraft.\" Describe three kinds of aircraft today, and their typical uses."
         },
         {
           "sub_id": "1b",
@@ -130,10 +135,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Aviation Requirement 1b sign-off.",
-            "fact": "Each Scout must actively provide the specific principles and real-world steps of Req 1b grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -153,9 +160,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Provide a brief overview of the evolution of flight, and discuss three notable times in history important to aviation."
         },
         {
           "sub_id": "1c",
@@ -184,10 +194,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Aviation Requirement 1c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -207,9 +219,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Explain the difference between a fixed wing and a rotary wing aircraft, and the benefits of each."
         },
         {
           "sub_id": "1d",
@@ -245,10 +260,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1d is enough for Aviation Requirement 1d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -268,9 +285,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1d",
+          "sub_req_label": "1d",
+          "sub_req_text": "Explain the operation of piston, turbine, and jet engines."
         },
         {
           "sub_id": "1e",
@@ -298,10 +318,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1e is enough for Aviation Requirement 1e sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1e grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1e grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1e grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -321,9 +343,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1e",
+          "sub_req_label": "1e",
+          "sub_req_text": "Using a model aircraft, describe the four forces that act on an aircraft in flight."
         },
         {
           "sub_id": "1f",
@@ -351,10 +376,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1f is enough for Aviation Requirement 1f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1f grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1f grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1f grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -374,9 +401,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1f",
+          "sub_req_label": "1f",
+          "sub_req_text": "Explain how an airfoil generates lift, specifically noting Bernoulli's principle."
         },
         {
           "sub_id": "1g",
@@ -404,10 +434,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1g is enough for Aviation Requirement 1g sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1g grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1g grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1g grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -427,9 +459,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1g",
+          "sub_req_label": "1g",
+          "sub_req_text": "Identify and describe the aerodynamic control surfaces on the aircraft of your choice, and explain how they operate to control its attitude and direction of flight."
         },
         {
           "sub_id": "1h",
@@ -448,23 +483,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 1h Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1h is enough for Aviation Requirement 1h sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1h grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1h grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1h grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -484,9 +524,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1h",
+          "sub_req_label": "1h",
+          "sub_req_text": "Explain the purposes and functions of the various instruments found in a typical single-engine aircraft: attitude indicator, heading indicator, altimeter, airspeed indicator, turn and bank indicator, vertical speed indicator, compass, navigation, communication, and engine performance indicators."
         }
       ],
       "resources": [
@@ -575,13 +618,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Aviation Basics and Mechanics of Flight. Do the",
-      "action_verb": "Aviation",
+      "topic_title": "Req 1: Aviation Basics and Mechanics of Flight",
+      "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Aviation Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Aviation Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)",
+      "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
@@ -599,8 +642,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Aviation Basics and Mechanics of Flight. Do the is enough for Aviation Requirement 1 sign-off.",
-        "fact": "Each Scout must actively aviation the specific principles and real-world steps of Aviation Basics and Mechanics of Flight. Do the grounded in the official Aviation pamphlet."
+        "misconception": "Reading a short definition of Aviation Basics and Mechanics of Flight is enough for Aviation Requirement 1 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of Aviation Basics and Mechanics of Flight grounded in the official Aviation pamphlet.",
+        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Aviation Basics and Mechanics of Flight grounded in the official Aviation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -620,62 +665,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Aviation Sub-Req 1a: Define \"aircraft.\" Describe three kinds of aircraft today, and their typical uses.",
-        "Aviation Sub-Req 1b: Provide a brief overview of the evolution of flight, and discuss three notable times in history important to aviation.",
-        "Aviation Sub-Req 1c: Explain the difference between a fixed wing and a rotary wing aircraft, and the benefits of each.",
-        "Aviation Sub-Req 1d: Explain the operation of piston, turbine, and jet engines."
+        "Lastthree Instruments: The lastthree instruments, tachometer, oil pressure gauge, and oil temperature gauge, tell a pilot how the engine is operating.",
+        "Attitude Indicator: The attitude indicator or “artificial horizon” lets the pilot get an immediate picture ofthe airplane’s attitude, which is its positionrelative to Earth’s.",
+        "Attached Gyroscope Face: Attached to a gyroscope is a face with acontrasting horizon line on it.",
+        "Representation Horizon Moves: This representation of the horizon moves to show theplane’s position with respect to the real horizon."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Aviation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Aviation Basics and Mechanics of Flight. Do the.",
-        "Execute & Document: Perform the aviation task methodically with your patrol buddy and log specific observations in your Aviation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Heading Indicator: The heading indicator can take differentforms but is basically a gyroscope thatshows the plane’s heading.",
+        "Simplestheading Indicators: The simplestheading indicators have to be set to matchthe magnetic compass.",
+        "Airplanes Work Resulted: How Airplanes Work. have resulted in the development of electrically poweredaircraft.",
+        "But There Piston: But there is still a place for the piston engine inaviation, particularly in small airplanes."
       ],
       "gear_checklist": [
         "Official Aviation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Aviation Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Aviation Basics and Mechanics of Flight",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Aviation Approach",
-        "right_header": "Official BSA Aviation Pamphlet Standard",
+        "right_header": "Official BSA Aviation Standard (Aviation Basics and Mechanics of Flight)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Aviation Basics and Mechanics of Flight.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Aviation Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Aviation Workbook organizer.",
+          "Clearly demonstrates and explains Aviation Basics and Mechanics of Flight using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Aviation Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Aviation Basics and Mechanics of Flight. Do the",
+          "Requirement & Topic": "Req 1 - Aviation Basics and Mechanics of Flight",
           "Primary Standard": "Define \"aircraft.\" Describe three kinds of aircraft today, and their typical uses.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Aviation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Aviation Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Aviation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Aviation Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Aviation Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Aviation Requirement 1, a Scout claims: \"Reading a short definition of Aviation Basics and Mechanics of Flight. Do the is enough for Aviation Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Aviation (Aviation Basics and Mechanics of Flight), which patrol preparation step best aligns with the official Aviation standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively aviation the specific principles and real-world steps of Aviation Basics and Mechanics of Flight. Do the grounded in the official Aviation pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Aviation hazards, PPE, and prerequisite standards in Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively aviation the specific principles and real-world steps of Aviation Basics and Mechanics of Flight. Do the grounded in the official Aviation pamphlet.",
-        "explanation": "Per Official BSA Aviation Pamphlet, pp. 4-9, Each Scout must actively aviation the specific principles and real-world steps of Aviation Basics and Mechanics of Flight. Do the grounded in the official Aviation pamphlet."
+        "correct_answer": "Option A - Review the Aviation hazards, PPE, and prerequisite standards in Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Aviation Workbook organizer table and practical demonstration for Req 1."
@@ -720,10 +765,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Aviation Requirement 2a sign-off.",
-            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 2a grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 2a grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 2a grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -743,9 +790,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Build a model FPG-9. Get others in your troop or patrol to make their own model, then organize a competition to test the precision of flight and landing of the models."
         },
         {
           "sub_id": "2b",
@@ -776,10 +826,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Aviation Requirement 2b sign-off.",
-            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 2b grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 2b grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Req 2b grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -799,9 +851,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Build a rubber-band driven balsa wood airplane. Fly the plane for 25 feet in a straight line, with a smooth landing."
         },
         {
           "sub_id": "2c",
@@ -836,10 +891,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2c is enough for Aviation Requirement 2c sign-off.",
-            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 2c grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 2c grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Req 2c grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -859,9 +916,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2c",
+          "sub_req_label": "2c",
+          "sub_req_text": "Build (or obtain) a fuel-driven or battery-powered electric model aircraft or drone. Obtain The Recreational UAS Safety Test (TRUST) certification, and fly the aircraft with a successful take-off and landing."
         }
       ],
       "resources": [
@@ -894,31 +954,36 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Principles of Flight. Do ONE of the following",
-      "action_verb": "Principles",
+      "topic_title": "Req 2: Principles of Flight",
+      "action_verb": "Build",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Aviation Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Aviation Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)",
+      "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Principles of Flight. Do ONE of the following is enough for Aviation Requirement 2 sign-off.",
-        "fact": "Each Scout must actively principles the specific principles and real-world steps of Principles of Flight. Do ONE of the following grounded in the official Aviation pamphlet."
+        "misconception": "Reading a short definition of Principles of Flight is enough for Aviation Requirement 2 sign-off.",
+        "fact": "Each Scout must actively build the specific principles and real-world steps of Principles of Flight grounded in the official Aviation pamphlet.",
+        "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Principles of Flight grounded in the official Aviation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -938,63 +1003,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Aviation Sub-Req 2a: Build a model FPG-9. Get others in your troop or patrol to make their own model, then organize a competition to test the precision of flight and landing of the models.",
-        "Aviation Sub-Req 2b: Build a rubber-band driven balsa wood airplane. Fly the plane for 25 feet in a straight line, with a smooth landing.",
-        "Aviation Sub-Req 2c: Build (or obtain) a fuel-driven or battery-powered electric model aircraft or drone. Obtain The Recreational UAS Safety Test (TRUST) certification, and fly the aircraft.",
-        "Core Standard 1 (Req 2): Principles of Flight."
+        "Airplanes Available Menu: From the airplanes available in the menu, choose onethat you want to fly.",
+        "Exercise Not Viewed: This exercise should not be viewed asentertainment, competition, or combat.",
+        "Select Departure Point: Select a departure point and a destination point thatwill allow for a flight of no more than an hour.",
+        "Arrangeto Uninterrupted Time: Arrangeto be uninterrupted during your time at the controls, and be aware of what you are thinking and feeling asyou perform the flight."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Aviation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Principles of Flight. Do ONE of the following.",
-        "Execute & Document: Perform the principles task methodically with your patrol buddy and log specific observations in your Aviation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Write Down Experiences: When you complete the flight, write down your experiences and share your observations with your counselor.",
+        "Great Way Learn: A great way to learn about airplanes and the principles of flying is to build model planes.",
+        "They Hold Placein: They hold an important placein the history of flight and wereactually the first heavier-thanair machines to fly.",
+        "Engineersstill Models Today: Engineersstill use models today as theydevelop new airplane designsand test them in wind tunnels."
       ],
       "gear_checklist": [
         "Official Aviation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Aviation Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Principles of Flight",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Aviation Approach",
-        "right_header": "Official BSA Aviation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Aviation Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Aviation Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Principles of Flight. Do ONE of the following",
-          "Primary Standard": "Build a model FPG-9. Get others in your troop or patrol to make their own model, then organize a competition t",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Aviation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Aviation Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Principles of Flight",
+          "Primary Standard": "Build a model FPG-9. Get others in your troop or patrol to make their own model, then organize a competition to test the precision of flight and landing of the models.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Aviation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Aviation Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Aviation Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Aviation Requirement 2, a Scout claims: \"Reading a short definition of Principles of Flight. Do ONE of the following is enough for Aviation Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively principles the specific principles and real-world steps of Principles of Flight. Do ONE of the following grounded in the official Aviation pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively principles the specific principles and real-world steps of Principles of Flight. Do ONE of the following grounded in the official Aviation pamphlet.",
-        "explanation": "Per Official BSA Aviation Pamphlet, pp. 10-15, Each Scout must actively principles the specific principles and real-world steps of Principles of Flight. Do ONE of the following grounded in the official Aviation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Aviation Workbook organizer table and practical demonstration for Req 2."
     },
@@ -1031,10 +1073,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Aviation Requirement 3a sign-off.",
-            "fact": "Each Scout must actively using the specific principles and real-world steps of Req 3a grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1054,9 +1098,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Using a flight simulator software package, set a course and fly the headings you have established with a successful take-off and landing."
         },
         {
           "sub_id": "3b",
@@ -1071,23 +1118,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Aviation Requirement 3b sign-off.",
-            "fact": "Each Scout must actively under the specific principles and real-world steps of Req 3b grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3b grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3b grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1107,9 +1159,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Under supervision, perform a preflight inspection of an aircraft."
         },
         {
           "sub_id": "3c",
@@ -1132,10 +1187,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3c is enough for Aviation Requirement 3c sign-off.",
-            "fact": "Each Scout must actively observe the specific principles and real-world steps of Req 3c grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3c grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 3c grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1155,9 +1212,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3c",
+          "sub_req_label": "3c",
+          "sub_req_text": "Observe and/or participate in an aircraft maintenance activity. Describe the maintenance schedule and requirements for an aircraft of your choice."
         },
         {
           "sub_id": "3d",
@@ -1189,10 +1249,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3d is enough for Aviation Requirement 3d sign-off.",
-            "fact": "Each Scout must actively obtain the specific principles and real-world steps of Req 3d grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1212,9 +1274,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3d",
+          "sub_req_label": "3d",
+          "sub_req_text": "Obtain and learn how to read an aeronautical chart. Measure a true course on the chart; correct it for magnetic variation, compass deviation, and wind drift to determine a navigational heading for an aircraft."
         },
         {
           "sub_id": "3e",
@@ -1241,15 +1306,17 @@
             "min_rows": 5,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3e is enough for Aviation Requirement 3e sign-off.",
-            "fact": "Each Scout must actively with the specific principles and real-world steps of Req 3e grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively record the specific principles and real-world steps of Req 3e grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively record the specific principles and real-world steps of Req 3e grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Aviation Req 3e with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Aviation Req 3e with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -1269,9 +1336,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3e",
+          "sub_req_label": "3e",
+          "sub_req_text": "With your parent or guardian's permission, take a discovery flight in an aircraft. Record the date, place, type of aircraft, and duration of flight. Report on your impressions of the flight."
         }
       ],
       "resources": [
@@ -1296,13 +1366,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Flight Operations. Do TWO of the following: (a)",
-      "action_verb": "Flight",
+      "topic_title": "Req 3: Flight Operations",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Aviation Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Aviation Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)",
+      "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1323,13 +1393,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Flight Operations. Do TWO of the following: (a) is enough for Aviation Requirement 3 sign-off.",
-        "fact": "Each Scout must actively flight the specific principles and real-world steps of Flight Operations. Do TWO of the following: (a) grounded in the official Aviation pamphlet."
+        "misconception": "Reading a short definition of Flight Operations is enough for Aviation Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Flight Operations grounded in the official Aviation pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Flight Operations grounded in the official Aviation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Aviation Req 3 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Aviation Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1349,63 +1421,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Aviation Sub-Req 3a: Using a flight simulator software package, set a course and fly the headings you have established with a successful take-off and landing.",
-        "Aviation Sub-Req 3b: Under supervision, perform a preflight inspection of an aircraft.",
-        "Aviation Sub-Req 3c: Observe and/or participate in an aircraft maintenance activity. Describe the maintenance schedule and requirements for an aircraft of your choice.",
-        "Aviation Sub-Req 3d: Obtain and learn how to read an aeronautical chart. Measure a true course on the chart; correct it for magnetic variation, compass deviation, and."
+        "Technicians Calculate: Technicians can calculate closely just how muchthe deviation will be for any airplane.",
+        "Aircraft Deviation Card: In every aircraft, you will find a deviation card mounted near the compass that tells us how to correct the magnetic coursefor deviation.",
+        "Remember Magnetic Course: Remember, the magnetic course from Indianapolis International (IND) to Crawfordsville Airport (CFJ) is 300 degrees.",
+        "Our Deviation Card: Our deviation card tells us that for a magnetic courseof 300 degrees, we should steer a course of 301 degrees."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Aviation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Flight Operations. Do TWO of the following: (a).",
-        "Execute & Document: Perform the flight task methodically with your patrol buddy and log specific observations in your Aviation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Inother Words Compass: Inother words the compass deviation in our airplane at thiscourse is 1 degree higher than the magnetic course.",
+        "Now Proceed Steer: We can now proceed to steer at 301 degrees, confidentthat we will soon see the Crawfordsville Airport.",
+        "Requirement Learned Airspeed: For requirement 2(e), you learned that your airspeed indicatorshows how fast you are passing through the air, not over the ground.",
+        "Flying Knot Headwind: If you are flying into a 25-knot headwind, you areactually traveling over the ground at 25 knots less than yourairspeed."
       ],
       "gear_checklist": [
         "Official Aviation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Aviation Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Flight Operations",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Aviation Approach",
-        "right_header": "Official BSA Aviation Pamphlet Standard",
+        "right_header": "Official BSA Aviation Standard (Flight Operations)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Flight Operations.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Aviation Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Aviation Workbook organizer.",
+          "Clearly demonstrates and explains Flight Operations using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Aviation Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Flight Operations. Do TWO of the following: (a)",
-          "Primary Standard": "Using a flight simulator software package, set a course and fly the headings you have established with a succe",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Aviation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Aviation Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Flight Operations",
+          "Primary Standard": "Using a flight simulator software package, set a course and fly the headings you have established with a successful take-off and landing.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Aviation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Aviation Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Aviation Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Aviation Requirement 3, a Scout claims: \"Reading a short definition of Flight Operations. Do TWO of the following: (a) is enough for Aviation Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively flight the specific principles and real-world steps of Flight Operations. Do TWO of the following: (a) grounded in the official Aviation pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively flight the specific principles and real-world steps of Flight Operations. Do TWO of the following: (a) grounded in the official Aviation pamphlet.",
-        "explanation": "Per Official BSA Aviation Pamphlet, pp. 16-21, Each Scout must actively flight the specific principles and real-world steps of Flight Operations. Do TWO of the following: (a) grounded in the official Aviation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Aviation Workbook organizer table and practical demonstration for Req 3."
     },
@@ -1437,10 +1499,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Aviation Requirement 4a sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 4a grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 4a grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 4a grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1460,9 +1524,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Visit an airport. After the visit, report on how the facilities are used, how runways are numbered, and how runways are determined to be \"active.\""
         },
         {
           "sub_id": "4b",
@@ -1490,10 +1557,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Aviation Requirement 4b sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 4b grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 4b grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 4b grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1513,9 +1582,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Visit a Federal Aviation Administration facility: Airport Traffic Control Tower (ATCT), Terminal Radar Approach Control (TRACON), Air Route Traffic Control Center (ARTCC), or Flight Standards District Office (FSDO). Report on the operation and your impressions of the facility."
         },
         {
           "sub_id": "4c",
@@ -1543,10 +1615,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4c is enough for Aviation Requirement 4c sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 4c grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 4c grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 4c grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1566,9 +1640,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4c",
+          "sub_req_label": "4c",
+          "sub_req_text": "Visit a military aviation facility. Learn how that facility supports defense and/or civilian activities. Report on the operation and your impressions of the facility."
         },
         {
           "sub_id": "4d",
@@ -1612,10 +1689,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4d is enough for Aviation Requirement 4d sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 4d grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 4d grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 4d grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1635,9 +1714,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4d",
+          "sub_req_label": "4d",
+          "sub_req_text": "Visit an aviation museum or attend an air show. Report on your impressions of the museum or show, and what you learned from the experience."
         }
       ],
       "resources": [
@@ -1678,13 +1760,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Airport Operations. Do ONE of the following: (a)",
-      "action_verb": "Airport",
+      "topic_title": "Req 4: Airport Operations",
+      "action_verb": "Visit",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Aviation Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Aviation Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)",
+      "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1701,8 +1783,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Airport Operations. Do ONE of the following: (a) is enough for Aviation Requirement 4 sign-off.",
-        "fact": "Each Scout must actively airport the specific principles and real-world steps of Airport Operations. Do ONE of the following: (a) grounded in the official Aviation pamphlet."
+        "misconception": "Reading a short definition of Airport Operations is enough for Aviation Requirement 4 sign-off.",
+        "fact": "Each Scout must actively visit the specific principles and real-world steps of Airport Operations grounded in the official Aviation pamphlet.",
+        "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Airport Operations grounded in the official Aviation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1722,63 +1806,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Aviation Sub-Req 4a: Visit an airport. After the visit, report on how the facilities are used, how runways are numbered, and how runways are determined to be \"active.\"",
-        "Aviation Sub-Req 4b: Visit a Federal Aviation Administration facility: Airport Traffic Control Tower (ATCT), Terminal Radar Approach Control (TRACON), Air Route Traffic Control Center (ARTCC), or Flight.",
-        "Aviation Sub-Req 4c: Visit a military aviation facility. Learn how that facility supports defense and/or civilian activities. Report on the operation and your impressions of the facility.",
-        "Aviation Sub-Req 4d: Visit an aviation museum or attend an air show. Report on your impressions of the museum or show, and what you learned from the experience."
+        "Providing Weather: Providing weather and information services for all pilots isthe primary responsibility of the flight service station.",
+        "Its Name Suggests: As its name suggests, a control tower is an elevated structurefrom which airport controllers operate.",
+        "People Control Tower: The people in the control tower have four primary responsibilities.",
+        "Theactual TRACON Facility: Theactual TRACON facility might not be located in the controltower or even on the airport site."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Aviation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Airport Operations. Do ONE of the following: (a).",
-        "Execute & Document: Perform the airport task methodically with your patrol buddy and log specific observations in your Aviation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Visit Terminal Radar: When you visit a terminal radar control facility, expectto enter a darkened room lit only by the glow of radarscreens.",
+        "Controllers Skillfully: Controllers skillfully observe and maneuverthe “blips” that appear on their screens; each blip represents an aircraft.",
+        "Ever Played Computer: If you have ever played a computer orvideo game, you have some idea of the intense natureof this responsibility.",
+        "Facilities Mentioned Welcome: Most of the facilities mentioned welcome visitors, and you can find theirphone numbers in your phone book."
       ],
       "gear_checklist": [
         "Official Aviation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Aviation Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Airport Operations",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Aviation Approach",
-        "right_header": "Official BSA Aviation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Aviation Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Aviation Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Airport Operations. Do ONE of the following: (a)",
-          "Primary Standard": "Visit an airport. After the visit, report on how the facilities are used, how runways are numbered, and how ru",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Aviation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Aviation Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Airport Operations",
+          "Primary Standard": "Visit an airport. After the visit, report on how the facilities are used, how runways are numbered, and how runways are determined to be \"active.\".",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Aviation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Aviation Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Aviation Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Aviation Requirement 4, a Scout claims: \"Reading a short definition of Airport Operations. Do ONE of the following: (a) is enough for Aviation Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively airport the specific principles and real-world steps of Airport Operations. Do ONE of the following: (a) grounded in the official Aviation pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively airport the specific principles and real-world steps of Airport Operations. Do ONE of the following: (a) grounded in the official Aviation pamphlet.",
-        "explanation": "Per Official BSA Aviation Pamphlet, pp. 22-27, Each Scout must actively airport the specific principles and real-world steps of Airport Operations. Do ONE of the following: (a) grounded in the official Aviation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Aviation Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1810,10 +1871,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Aviation Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1833,9 +1896,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Explain the following: the student pilot, the recreational pilot, the remote pilot, and the private pilot certificates."
         },
         {
           "sub_id": "5b",
@@ -1875,10 +1941,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Aviation Requirement 5b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5b grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5b grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 5b grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1898,9 +1966,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Describe the benefits of the instrument rating."
         },
         {
           "sub_id": "5c",
@@ -1932,10 +2003,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Aviation Requirement 5c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1955,9 +2028,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "Explain the following: the commercial pilot certificate, the airline transport pilot certificate, and certified flight instructor (CFI)."
         },
         {
           "sub_id": "5d",
@@ -1997,10 +2073,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5d is enough for Aviation Requirement 5d sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 5d grounded in the official Aviation pamphlet."
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 5d grounded in the official Aviation pamphlet.",
+            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 5d grounded in the official Aviation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2020,9 +2098,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5d",
+          "sub_req_label": "5d",
+          "sub_req_text": "Identify an Aviation Exploring Post and/or Civil Air Patrol facility in your area. Learn about their activities and membership requirements."
         },
         {
           "sub_id": "5e",
@@ -2082,10 +2163,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Aviation career exploration requirement.",
-            "fact": "Scouts must research three Aviation careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Aviation career exploration requirement.",
+            "fact": "Scouts must research specific Aviation career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Aviation career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2105,9 +2188,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5e",
+          "sub_req_label": "5e",
+          "sub_req_text": "Identify three career opportunities that would use skills and knowledge in aviation. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career."
         }
       ],
       "resources": [
@@ -2196,13 +2282,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Aviation Careers, Training & Hobby Pathways",
-      "action_verb": "Personal",
+      "topic_title": "Req 5: Personal & Professional Aviation Opportunities",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Aviation Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Aviation Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Aviation Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)",
+      "pamphlet_page_citation": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2219,8 +2305,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Aviation career exploration requirement.",
-        "fact": "Scouts must research three Aviation careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Aviation career exploration requirement.",
+        "fact": "Scouts must research specific Aviation career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Aviation career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2240,68 +2328,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Aviation Sub-Req 5a: Explain the following: the student pilot, the recreational pilot, the remote pilot, and the private pilot certificates.",
-        "Aviation Sub-Req 5b: Describe the benefits of the instrument rating.",
-        "Aviation Sub-Req 5c: Explain the following: the commercial pilot certificate, the airline transport pilot certificate, and certified flight instructor (CFI).",
-        "Aviation Sub-Req 5d: Identify an Aviation Exploring Post and/or Civil Air Patrol facility in your area. Learn about their activities and membership requirements."
+        "Recreationalpilot Certificatehas: The recreationalpilot certificatehas some importantrestrictions.",
+        "Mostimportantly Thepilot Fly: Mostimportantly, thepilot can fly onlyduring daylighthours and inairspace wherehe or she does notneed to communicate with airtraffic control.",
+        "Certificates Ratings: Of all the certificates and ratings, the recreational pilot certificateis the easiest to obtain.",
+        "Requires Hours Flight: It requires 30 hours of flight instruction (three hours of which must be solo flight time)."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Aviation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Aviation Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the personal task methodically with your patrol buddy and log specific observations in your Aviation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Recreationalpilot Earn: The recreationalpilot may earn additional privileges.",
+        "FAA Created Sport: The FAA created the sport pilot’s license in 2004 to help lowerthe barriers of entry-level aviation by making flying moreaffordable and accessible.",
+        "Enthusiast Light-sport: If you are an enthusiast of light-sport aircraft (LSA), consider a sport pilot certificateif you want to fly one.",
+        "Recreational Pilotcertificate: Like the recreational pilotcertificate, this certificate will allow the pilot to carry only onepassenger at up to 10,000 feet above sea."
       ],
       "gear_checklist": [
         "Official Aviation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Aviation Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Personal & Professional Aviation Opportunities",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Aviation Approach",
-        "right_header": "Official BSA Aviation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Aviation Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Aviation Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Aviation Careers, Training & Hobby Pathways",
-          "Primary Standard": "Explain the following: the student pilot, the recreational pilot, the remote pilot, and the private pilot cert",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Aviation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Aviation Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Personal & Professional Aviation Opportunities",
+          "Primary Standard": "Explain the following: the student pilot, the recreational pilot, the remote pilot, and the private pilot certificates.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Aviation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Aviation Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Aviation Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Aviation Requirement 5, a Scout claims: \"Listing three job titles from a web search satisfies the Aviation career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Aviation careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Aviation careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Aviation Pamphlet, pp. 28-33, Scouts must research three Aviation careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Aviation Workbook organizer table and practical demonstration for Req 5."
     }
   ],
   "badge_slug": "aviation",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

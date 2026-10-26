@@ -49,10 +49,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Soil and Water Conservation Requirement 1a sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 1a grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -72,9 +74,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Tell what soil is. Tell how it is formed."
         },
         {
           "sub_id": "1b",
@@ -102,10 +107,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Soil and Water Conservation Requirement 1b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1b grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1b grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1b grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -125,9 +132,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Describe three kinds of soil. Tell how they are different."
         },
         {
           "sub_id": "1c",
@@ -155,10 +165,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Soil and Water Conservation Requirement 1c sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 1c grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 1c grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 1c grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -178,9 +190,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Name the three main plant nutrients in fertile soil. Tell how they can be put back when used up."
         }
       ],
       "resources": [
@@ -209,13 +224,13 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: (a) Tell what soil is. Tell how it",
+      "topic_title": "Req 1: What Is Soil?",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Soil and Water Conservation Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
+      "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -235,8 +250,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Tell what soil is. Tell how it is enough for Soil and Water Conservation Requirement 1 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what soil is. Tell how it grounded in the official Soil and Water Conservation pamphlet."
+        "misconception": "Reading a short definition of What Is Soil? is enough for Soil and Water Conservation Requirement 1 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of What Is Soil? grounded in the official Soil and Water Conservation pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of What Is Soil? grounded in the official Soil and Water Conservation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -256,62 +273,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Soil and Water Conservation Sub-Req 1a: Tell what soil is. Tell how it is formed.",
-        "Soil and Water Conservation Sub-Req 1b: Describe three kinds of soil. Tell how they are different.",
-        "Soil and Water Conservation Sub-Req 1c: Name the three main plant nutrients in fertile soil. Tell how they can be put back when used up.",
-        "Core Standard 1 (Req 1): Do the following: (a) Tell what soil is."
+        "Fertile Soil Supply: Fertile soil can supply the complete nutritional needs of agrowing plant.",
+        "Principal Plant Nutrients: The three principal plant nutrients are nitrogen, phosphorus, and potassium.",
+        "Aplant Lacks Essential: Aplant that lacks an essential nutrient will show physical signsof the deficiency.",
+        "Chemical Soil Tests: Chemical soil tests help determine how muchof which nutrients are needed for the best growth of differentkinds of plants."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Soil and Water Conservation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Tell what soil is. Tell how it.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Soil and Water Conservation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Centuries People Lived: For centuries, people who lived along the banks of rivers and streamshave recognized that the annual floods that covered their landwith.",
+        "John Woodward Experimented: In 1699, John Woodward experimented by growing plants in water containingdiffering amounts of sediment.",
+        "Plant Growthimproved Amount: He found that the plant growthimproved as the amount of sediment in water increased.",
+        "Loose Crumblysoil Manypores: Loose and crumblysoil has manypores for waterand air, it hasgood structure."
       ],
       "gear_checklist": [
         "Official Soil and Water Conservation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Soil and Water Conservation Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for What Is Soil?",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Soil and Water Conservation Approach",
-        "right_header": "Official BSA Soil and Water Conservation Pamphlet Standard",
+        "right_header": "Official BSA Soil and Water Conservation Standard (What Is Soil?)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during What Is Soil?.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Soil and Water Conservation Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Soil and Water Conservation Workbook organizer.",
+          "Clearly demonstrates and explains What Is Soil? using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Soil and Water Conservation Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) Tell what soil is. Tell how it",
+          "Requirement & Topic": "Req 1 - What Is Soil?",
           "Primary Standard": "Tell what soil is. Tell how it is formed.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Soil and Water Conservation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Soil and Water Conservation Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Soil and Water Conservation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Soil and Water Conservation Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Soil and Water Conservation Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Soil and Water Conservation Requirement 1, a Scout claims: \"Reading a short definition of (a) Tell what soil is. Tell how it is enough for Soil and Water Conservation Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Soil and Water Conservation (What Is Soil?), which patrol preparation step best aligns with the official Soil and Water Conservation standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what soil is. Tell how it grounded in the official Soil and Water Conservation pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Soil and Water Conservation hazards, PPE, and prerequisite standards in Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what soil is. Tell how it grounded in the official Soil and Water Conservation pamphlet.",
-        "explanation": "Per Official BSA Soil and Water Conservation Pamphlet, pp. 4-9, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what soil is. Tell how it grounded in the official Soil and Water Conservation pamphlet."
+        "correct_answer": "Option A - Review the Soil and Water Conservation hazards, PPE, and prerequisite standards in Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Soil and Water Conservation Workbook organizer table and practical demonstration for Req 1."
@@ -349,10 +366,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Soil and Water Conservation Requirement 2a sign-off.",
-            "fact": "Each Scout must actively define the specific principles and real-world steps of Req 2a grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -372,9 +391,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Define soil erosion."
         },
         {
           "sub_id": "2b",
@@ -402,10 +424,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Soil and Water Conservation Requirement 2b sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 2b grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -425,9 +449,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Tell why soil erosion is important and how it affects you."
         },
         {
           "sub_id": "2c",
@@ -450,10 +477,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2c is enough for Soil and Water Conservation Requirement 2c sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2c grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -473,9 +502,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2c",
+          "sub_req_label": "2c",
+          "sub_req_text": "Name three kinds of soil erosion. Describe each."
         },
         {
           "sub_id": "2d",
@@ -503,10 +535,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2d is enough for Soil and Water Conservation Requirement 2d sign-off.",
-            "fact": "Each Scout must actively take the specific principles and real-world steps of Req 2d grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -526,9 +560,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2d",
+          "sub_req_label": "2d",
+          "sub_req_text": "Take pictures of or draw two kinds of soil erosion."
         }
       ],
       "resources": [
@@ -553,13 +590,13 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: (a) Define soil erosion. (b) Tell why soil",
+      "topic_title": "Req 2: Define soil erosion",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Soil and Water Conservation Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
+      "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -579,8 +616,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Define soil erosion. (b) Tell why soil is enough for Soil and Water Conservation Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Define soil erosion. (b) Tell why soil grounded in the official Soil and Water Conservation pamphlet."
+        "misconception": "Reading a short definition of Define soil erosion is enough for Soil and Water Conservation Requirement 2 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Define soil erosion grounded in the official Soil and Water Conservation pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Define soil erosion grounded in the official Soil and Water Conservation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -600,63 +639,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Soil and Water Conservation Sub-Req 2a: Define soil erosion.",
-        "Soil and Water Conservation Sub-Req 2b: Tell why soil erosion is important and how it affects you.",
-        "Soil and Water Conservation Sub-Req 2c: Name three kinds of soil erosion. Describe each.",
-        "Soil and Water Conservation Sub-Req 2d: Take pictures of or draw two kinds of soil erosion."
+        "Soil Water Conservation: Soil and water conservation projects helpcontrol the rate of this kind of soil erosion, which some call thegreatest scourge the world has ever known.",
+        "Don Wantto Play: You don’t wantto play in it and you certainly don’t want to drink from it.",
+        "Inmany Small Streams: Inmany small streams, sediment fills the deep pools that provide arefuge for fish during the dry season.",
+        "Sediment Damages Thespawning: Sediment often damages thespawning beds of game fish, ruins their eggs, and reduces theirfood supply."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Soil and Water Conservation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Define soil erosion. (b) Tell why soil.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Soil and Water Conservation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Caused Oysters Disappear: It has caused oysters to disappear from the Chesapeake Bay, affecting commercial fisheries.",
+        "Flood-prevention Types: When flood-prevention and other types of reservoirs are built, allowancemust be made for the sedimentation.",
+        "Cost Removal Passed: Much of the cost for removal is passed on to taxpayers.",
+        "But Whenbillions Raindrops: But whenbillions of raindrops together hammer against bare ground, theytear clumps of soil apart and separate the tiny particles fromeach."
       ],
       "gear_checklist": [
         "Official Soil and Water Conservation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Soil and Water Conservation Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Define soil erosion",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Soil and Water Conservation Approach",
-        "right_header": "Official BSA Soil and Water Conservation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Soil and Water Conservation Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Soil and Water Conservation Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - (a) Define soil erosion. (b) Tell why soil",
+          "Requirement & Topic": "Req 2 - Define soil erosion",
           "Primary Standard": "Define soil erosion.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Soil and Water Conservation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Soil and Water Conservation Pamphlet, pp. 10-15."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Soil and Water Conservation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Soil and Water Conservation Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Soil and Water Conservation Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Soil and Water Conservation Requirement 2, a Scout claims: \"Reading a short definition of (a) Define soil erosion. (b) Tell why soil is enough for Soil and Water Conservation Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Define soil erosion. (b) Tell why soil grounded in the official Soil and Water Conservation pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Define soil erosion. (b) Tell why soil grounded in the official Soil and Water Conservation pamphlet.",
-        "explanation": "Per Official BSA Soil and Water Conservation Pamphlet, pp. 10-15, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Define soil erosion. (b) Tell why soil grounded in the official Soil and Water Conservation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Soil and Water Conservation Workbook organizer table and practical demonstration for Req 2."
     },
@@ -688,10 +704,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Soil and Water Conservation Requirement 3a sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 3a grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -711,9 +729,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Tell what is meant by conservation practices."
         },
         {
           "sub_id": "3b",
@@ -736,10 +757,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Soil and Water Conservation Requirement 3b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -759,9 +782,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Describe the effect of three kinds of erosion-control practices."
         },
         {
           "sub_id": "3c",
@@ -789,10 +815,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3c is enough for Soil and Water Conservation Requirement 3c sign-off.",
-            "fact": "Each Scout must actively take the specific principles and real-world steps of Req 3c grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -812,9 +840,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3c",
+          "sub_req_label": "3c",
+          "sub_req_text": "Take pictures of or draw three kinds of erosion-control practices."
         }
       ],
       "resources": [
@@ -835,13 +866,13 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: (a) Tell what is meant by conservation practices",
+      "topic_title": "Req 3: Is meant by conservation practices",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Soil and Water Conservation Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
+      "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -861,8 +892,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Tell what is meant by conservation practices is enough for Soil and Water Conservation Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what is meant by conservation practices grounded in the official Soil and Water Conservation pamphlet."
+        "misconception": "Reading a short definition of Is meant by conservation practices is enough for Soil and Water Conservation Requirement 3 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Is meant by conservation practices grounded in the official Soil and Water Conservation pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Is meant by conservation practices grounded in the official Soil and Water Conservation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -882,63 +915,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Soil and Water Conservation Sub-Req 3a: Tell what is meant by conservation practices.",
-        "Soil and Water Conservation Sub-Req 3b: Describe the effect of three kinds of erosion-control practices.",
-        "Soil and Water Conservation Sub-Req 3c: Take pictures of or draw three kinds of erosion-control practices.",
-        "Core Standard 1 (Req 3): Do the following: (a) Tell what is meant by conservation practices."
+        "Fire Remove Plant: Fire also can remove plant cover from the landand expose bare soil to beating rains; then, muddy runoff flowsdown slopes and fills streams and lakes.",
+        "Thedamage City Water: Thedamage to a city’s water supply can be devastating.",
+        "Plant Cover Controlling: Plant cover is important in controlling runoff, but inmany instances it is not possible to keep plants growing onthe land.",
+        "Surface Land Shapedto: Sometimes the surface of the land needs to be shapedto guide and control runoff."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Soil and Water Conservation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Tell what is meant by conservation practices.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Soil and Water Conservation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Small Dams Types: Small dams and other types ofwater-retarding structures often must be built to control runoffso that the land and the water are not damaged.",
+        "Learning Soil Water: Learning more about soil and water conservation willhelp you become aware of some of the conservation problemsyour community might face.",
+        "Aim Protect Footpaths: Aim: Protect footpaths in camp areas, hiking and nature trails, and primitive roads from damage caused by erosion and fromearth slides caused.",
+        "Laying Out New: In laying out new trails or dirt roads, avoid trouble bylocating them as nearly as possible on the contour."
       ],
       "gear_checklist": [
         "Official Soil and Water Conservation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Soil and Water Conservation Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Is meant by conservation practices",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Soil and Water Conservation Approach",
-        "right_header": "Official BSA Soil and Water Conservation Pamphlet Standard",
+        "right_header": "Official BSA Soil and Water Conservation Standard (Is meant by conservation practices)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Is meant by conservation practices.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Soil and Water Conservation Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Soil and Water Conservation Workbook organizer.",
+          "Clearly demonstrates and explains Is meant by conservation practices using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Soil and Water Conservation Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - (a) Tell what is meant by conservation practices",
+          "Requirement & Topic": "Req 3 - Is meant by conservation practices",
           "Primary Standard": "Tell what is meant by conservation practices.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Soil and Water Conservation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Soil and Water Conservation Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Soil and Water Conservation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Soil and Water Conservation Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Soil and Water Conservation Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Soil and Water Conservation Requirement 3, a Scout claims: \"Reading a short definition of (a) Tell what is meant by conservation practices is enough for Soil and Water Conservation Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what is meant by conservation practices grounded in the official Soil and Water Conservation pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what is meant by conservation practices grounded in the official Soil and Water Conservation pamphlet.",
-        "explanation": "Per Official BSA Soil and Water Conservation Pamphlet, pp. 16-21, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what is meant by conservation practices grounded in the official Soil and Water Conservation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Soil and Water Conservation Workbook organizer table and practical demonstration for Req 3."
     },
@@ -983,10 +1006,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Soil and Water Conservation Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1006,9 +1031,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Explain what a watershed is."
         },
         {
           "sub_id": "4b",
@@ -1031,10 +1059,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Soil and Water Conservation Requirement 4b sign-off.",
-            "fact": "Each Scout must actively outline the specific principles and real-world steps of Req 4b grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1054,9 +1084,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Outline the smallest watershed that you can find on a contour map."
         },
         {
           "sub_id": "4c",
@@ -1079,10 +1112,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4c is enough for Soil and Water Conservation Requirement 4c sign-off.",
-            "fact": "Each Scout must actively outline the specific principles and real-world steps of Req 4c grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1102,9 +1137,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4c",
+          "sub_req_label": "4c",
+          "sub_req_text": "Outline, as far as the map will allow, the next larger watershed that also has the smallest one in it."
         },
         {
           "sub_id": "4d",
@@ -1132,10 +1170,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4d is enough for Soil and Water Conservation Requirement 4d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1155,9 +1195,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4d",
+          "sub_req_label": "4d",
+          "sub_req_text": "Explain what a river basin is. Tell why all people living in a river basin should be concerned about land and water use in the basin."
         },
         {
           "sub_id": "4e",
@@ -1185,10 +1228,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4e is enough for Soil and Water Conservation Requirement 4e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1208,9 +1253,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4e",
+          "sub_req_label": "4e",
+          "sub_req_text": "Explain what an aquifer is and why it can be important to communities."
         }
       ],
       "resources": [
@@ -1243,13 +1291,13 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: (a) Explain what a watershed is. (b) Outline",
+      "topic_title": "Req 4: A watershed",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Soil and Water Conservation Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
+      "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1269,8 +1317,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Explain what a watershed is. (b) Outline is enough for Soil and Water Conservation Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain what a watershed is. (b) Outline grounded in the official Soil and Water Conservation pamphlet."
+        "misconception": "Reading a short definition of A watershed is enough for Soil and Water Conservation Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of A watershed grounded in the official Soil and Water Conservation pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of A watershed grounded in the official Soil and Water Conservation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1290,63 +1340,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Soil and Water Conservation Sub-Req 4a: Explain what a watershed is.",
-        "Soil and Water Conservation Sub-Req 4b: Outline the smallest watershed that you can find on a contour map.",
-        "Soil and Water Conservation Sub-Req 4c: Outline, as far as the map will allow, the next larger watershed that also has the smallest one in it.",
-        "Soil and Water Conservation Sub-Req 4d: Explain what a river basin is. Tell why all people living in a river basin should be concerned about land and water use in the basin."
+        "Than Million Square: The more than 1 million square miles that is drained by the Mississippi River is a large watershed.",
+        "But Area River: But this area is also called a river basin, an area of land drained by a river and all its largeand small tributaries.",
+        "River Basins Large: All river basins are large watersheds, butnot all watersheds can be called river basins, some watershedsare very small and their runoff is collected.",
+        "Today Attention Focused: Today, attention is being focused on river basins as areas forlarge-scale planning, development, and conservation ofnatural resources."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Soil and Water Conservation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain what a watershed is. (b) Outline.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Soil and Water Conservation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Way People Cities: The way people in cities along a river use water and the kinds of wastes they put into the river will affectindustries, businesses, and cities farther.",
+        "Remember Care Land: Remember, the care and use of land in your watershed is important to you.",
+        "Fires Swept Watersheds: Fires that have swept through watersheds in thewestern United States and have been followed by heavy andprolonged rains have washed huge amounts.",
+        "Places Mudslides Carried: In some places, mudslides have carried houses andother buildings with it."
       ],
       "gear_checklist": [
         "Official Soil and Water Conservation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Soil and Water Conservation Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for A watershed",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Soil and Water Conservation Approach",
-        "right_header": "Official BSA Soil and Water Conservation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Soil and Water Conservation Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Soil and Water Conservation Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - (a) Explain what a watershed is. (b) Outline",
+          "Requirement & Topic": "Req 4 - A watershed",
           "Primary Standard": "Explain what a watershed is.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Soil and Water Conservation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Soil and Water Conservation Pamphlet, pp. 22-27."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Soil and Water Conservation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Soil and Water Conservation Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Soil and Water Conservation Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Soil and Water Conservation Requirement 4, a Scout claims: \"Reading a short definition of (a) Explain what a watershed is. (b) Outline is enough for Soil and Water Conservation Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain what a watershed is. (b) Outline grounded in the official Soil and Water Conservation pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain what a watershed is. (b) Outline grounded in the official Soil and Water Conservation pamphlet.",
-        "explanation": "Per Official BSA Soil and Water Conservation Pamphlet, pp. 22-27, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain what a watershed is. (b) Outline grounded in the official Soil and Water Conservation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Soil and Water Conservation Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1386,10 +1413,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Soil and Water Conservation Requirement 5a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5a grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5a grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 5a grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1409,9 +1438,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Make a drawing to show the hydrologic cycle."
         },
         {
           "sub_id": "5b",
@@ -1450,10 +1482,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Soil and Water Conservation Requirement 5b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1473,9 +1507,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Demonstrate at least two of the following actions of water in relation to soil: percolation, capillary action, precipitation, evaporation, and transpiration."
         },
         {
           "sub_id": "5c",
@@ -1503,10 +1540,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Soil and Water Conservation Requirement 5c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1526,9 +1565,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "Explain how removal of vegetation will affect the way water runs off a watershed."
         },
         {
           "sub_id": "5d",
@@ -1556,10 +1598,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5d is enough for Soil and Water Conservation Requirement 5d sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 5d grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1579,9 +1623,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5d",
+          "sub_req_label": "5d",
+          "sub_req_text": "Tell how uses of forest, range, and farmland affect usable water supply."
         },
         {
           "sub_id": "5e",
@@ -1609,10 +1656,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5e is enough for Soil and Water Conservation Requirement 5e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1632,9 +1681,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5e",
+          "sub_req_label": "5e",
+          "sub_req_text": "Explain how industrial use affects water supply."
         }
       ],
       "resources": [
@@ -1675,13 +1727,13 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: (a) Make a drawing to show the hydrologic",
+      "topic_title": "Req 5: Drawing to show the hydrologic cycle",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Soil and Water Conservation Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
+      "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1701,8 +1753,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Make a drawing to show the hydrologic is enough for Soil and Water Conservation Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a drawing to show the hydrologic grounded in the official Soil and Water Conservation pamphlet."
+        "misconception": "Reading a short definition of Drawing to show the hydrologic cycle is enough for Soil and Water Conservation Requirement 5 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Drawing to show the hydrologic cycle grounded in the official Soil and Water Conservation pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Drawing to show the hydrologic cycle grounded in the official Soil and Water Conservation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1722,63 +1776,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Soil and Water Conservation Sub-Req 5a: Make a drawing to show the hydrologic cycle.",
-        "Soil and Water Conservation Sub-Req 5b: Demonstrate at least two of the following actions of water in relation to soil: percolation, capillary action, precipitation, evaporation, and transpiration.",
-        "Soil and Water Conservation Sub-Req 5c: Explain how removal of vegetation will affect the way water runs off a watershed.",
-        "Soil and Water Conservation Sub-Req 5d: Tell how uses of forest, range, and farmland affect usable water supply."
+        "Evaporation Oneof Nature: Evaporation is oneof nature’s waysof purifying water, because most ofthe dissolvedsubstances in it, such as the salt inseawater, remainbehind.",
+        "Chemical Reactionsreturn: Chemical reactionsreturn smallamounts of waterto the atmosphere.",
+        "People Animals Plants: People, animals, and plants returnsome throughthe processof respiration (breathing), and the combustion, orburning, of fuels incars and furnacesreturns.",
+        "Begin Sea Sun: Let’s begin with the sea, where the sun’s energy draws upinto the atmosphere most of the water that travels through thehydrologic cycle."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Soil and Water Conservation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Make a drawing to show the hydrologic.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Soil and Water Conservation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Moisture Evaporated Air: Much of the moisture evaporated into the air soon fallsback into the sea during storms, but winds eventually do carryair masses with moisture.",
+        "Small Part Themoisture: A small part of themoisture, or water vapor, in the air at any time might be visibleto us as clouds, fog, or mist.",
+        "Water Vapor Cloudscondenses: When the water vapor in cloudscondenses, we get the rain, snow, sleet, or hail that falls on Earth, called precipitation.",
+        "Air Masses Move: As air masses move across the land, the air picks up moremoisture."
       ],
       "gear_checklist": [
         "Official Soil and Water Conservation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Soil and Water Conservation Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Drawing to show the hydrologic cycle",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Soil and Water Conservation Approach",
-        "right_header": "Official BSA Soil and Water Conservation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Soil and Water Conservation Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Soil and Water Conservation Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - (a) Make a drawing to show the hydrologic",
+          "Requirement & Topic": "Req 5 - Drawing to show the hydrologic cycle",
           "Primary Standard": "Make a drawing to show the hydrologic cycle.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Soil and Water Conservation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Soil and Water Conservation Pamphlet, pp. 28-33."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Soil and Water Conservation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Soil and Water Conservation Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Soil and Water Conservation Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Soil and Water Conservation Requirement 5, a Scout claims: \"Reading a short definition of (a) Make a drawing to show the hydrologic is enough for Soil and Water Conservation Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a drawing to show the hydrologic grounded in the official Soil and Water Conservation pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a drawing to show the hydrologic grounded in the official Soil and Water Conservation pamphlet.",
-        "explanation": "Per Official BSA Soil and Water Conservation Pamphlet, pp. 28-33, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a drawing to show the hydrologic grounded in the official Soil and Water Conservation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Soil and Water Conservation Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1810,10 +1841,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Soil and Water Conservation Requirement 6a sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 6a grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1833,9 +1866,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Tell what is meant by water pollution."
         },
         {
           "sub_id": "6b",
@@ -1858,10 +1894,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Soil and Water Conservation Requirement 6b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6b grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1881,9 +1919,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Describe common sources of water pollution and explain the effects of each."
         },
         {
           "sub_id": "6c",
@@ -1911,10 +1952,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Soil and Water Conservation Requirement 6c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1934,9 +1977,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Explain the terms: primary water treatment, secondary waste treatment, and biochemical oxygen demand."
         },
         {
           "sub_id": "6d",
@@ -1962,10 +2008,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Soil and Water Conservation Requirement 6d sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 6d grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 6d grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 6d grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1985,9 +2033,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "Make a drawing showing the principles of complete waste treatment."
         }
       ],
       "resources": [
@@ -2012,13 +2063,13 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: (a) Tell what is meant by water pollution",
+      "topic_title": "Req 6: Is meant by water pollution",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Soil and Water Conservation Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
+      "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2038,8 +2089,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Tell what is meant by water pollution is enough for Soil and Water Conservation Requirement 6 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what is meant by water pollution grounded in the official Soil and Water Conservation pamphlet."
+        "misconception": "Reading a short definition of Is meant by water pollution is enough for Soil and Water Conservation Requirement 6 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Is meant by water pollution grounded in the official Soil and Water Conservation pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Is meant by water pollution grounded in the official Soil and Water Conservation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2059,63 +2112,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Soil and Water Conservation Sub-Req 6a: Tell what is meant by water pollution.",
-        "Soil and Water Conservation Sub-Req 6b: Describe common sources of water pollution and explain the effects of each.",
-        "Soil and Water Conservation Sub-Req 6c: Explain the terms: primary water treatment, secondary waste treatment, and biochemical oxygen demand.",
-        "Soil and Water Conservation Sub-Req 6d: Make a drawing showing the principles of complete waste treatment."
+        "Effluent Resulting Primary: Often, the effluent resulting from primary treatment requiressecondary treatment.",
+        "Wastewater Repeats Ofprimary: The wastewater repeats all the steps ofprimary treatment and then one of two processes for furtherorganic waste decomposition.",
+        "Processes Depend: Both processes depend onbiological action and both require oxygen.",
+        "Oxygen Issupplied Aeration: The oxygen issupplied through aeration, that is, by spraying the effluentinto the air or by pumping air into it."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Soil and Water Conservation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Tell what is meant by water pollution.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Soil and Water Conservation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Process Effluent Goes: In one process, the effluent goes from the primary settlingtank to a trickling filter.",
+        "There Passes Slowly: There, it passes slowly over stones orother material where biological growths decompose the wasteleft in the effluent.",
+        "Stones Material: The stones and other material in the tricklingfilter provide as much surface area as possible with oxygen sothat the biological growths can live.",
+        "Effluent Remainsin Sludge: While the effluent remainsin the sludge tank, it is continuously aerated."
       ],
       "gear_checklist": [
         "Official Soil and Water Conservation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Soil and Water Conservation Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Is meant by water pollution",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Soil and Water Conservation Approach",
-        "right_header": "Official BSA Soil and Water Conservation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Soil and Water Conservation Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Soil and Water Conservation Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - (a) Tell what is meant by water pollution",
+          "Requirement & Topic": "Req 6 - Is meant by water pollution",
           "Primary Standard": "Tell what is meant by water pollution.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Soil and Water Conservation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Soil and Water Conservation Pamphlet, pp. 34-39."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Soil and Water Conservation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Soil and Water Conservation Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Soil and Water Conservation Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Soil and Water Conservation Requirement 6, a Scout claims: \"Reading a short definition of (a) Tell what is meant by water pollution is enough for Soil and Water Conservation Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what is meant by water pollution grounded in the official Soil and Water Conservation pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what is meant by water pollution grounded in the official Soil and Water Conservation pamphlet.",
-        "explanation": "Per Official BSA Soil and Water Conservation Pamphlet, pp. 34-39, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell what is meant by water pollution grounded in the official Soil and Water Conservation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Soil and Water Conservation Workbook organizer table and practical demonstration for Req 6."
     },
@@ -2158,10 +2188,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(1) is enough for Soil and Water Conservation Requirement 7a(1) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(1) grounded in the official Soil and Water Conservation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(1) grounded in the official Soil and Water Conservation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(1) grounded in the official Soil and Water Conservation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2181,9 +2213,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(1)",
+              "sub_req_label": "7a(1)",
+              "sub_req_text": "An agricultural experiment"
             },
             {
               "sub_id": "7a(2)",
@@ -2211,10 +2246,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(2) is enough for Soil and Water Conservation Requirement 7a(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(2) grounded in the official Soil and Water Conservation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(2) grounded in the official Soil and Water Conservation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(2) grounded in the official Soil and Water Conservation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2234,9 +2271,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(2)",
+              "sub_req_label": "7a(2)",
+              "sub_req_text": "A managed forest or woodlot, range, or pasture"
             },
             {
               "sub_id": "7a(3)",
@@ -2264,10 +2304,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(3) is enough for Soil and Water Conservation Requirement 7a(3) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(3) grounded in the official Soil and Water Conservation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(3) grounded in the official Soil and Water Conservation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(3) grounded in the official Soil and Water Conservation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2287,9 +2329,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(3)",
+              "sub_req_label": "7a(3)",
+              "sub_req_text": "A wildlife refuge or a fish or game management area"
             },
             {
               "sub_id": "7a(4)",
@@ -2312,10 +2357,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(4) is enough for Soil and Water Conservation Requirement 7a(4) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(4) grounded in the official Soil and Water Conservation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(4) grounded in the official Soil and Water Conservation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(4) grounded in the official Soil and Water Conservation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2335,9 +2382,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(4)",
+              "sub_req_label": "7a(4)",
+              "sub_req_text": "A conservation-managed farm or ranch"
             },
             {
               "sub_id": "7a(5)",
@@ -2365,10 +2415,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(5) is enough for Soil and Water Conservation Requirement 7a(5) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(5) grounded in the official Soil and Water Conservation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(5) grounded in the official Soil and Water Conservation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(5) grounded in the official Soil and Water Conservation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2388,9 +2440,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(5)",
+              "sub_req_label": "7a(5)",
+              "sub_req_text": "A managed watershed"
             },
             {
               "sub_id": "7a(6)",
@@ -2418,10 +2473,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(6) is enough for Soil and Water Conservation Requirement 7a(6) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(6) grounded in the official Soil and Water Conservation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(6) grounded in the official Soil and Water Conservation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(6) grounded in the official Soil and Water Conservation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2441,9 +2498,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(6)",
+              "sub_req_label": "7a(6)",
+              "sub_req_text": "A waste-treatment plant"
             },
             {
               "sub_id": "7a(7)",
@@ -2466,10 +2526,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(7) is enough for Soil and Water Conservation Requirement 7a(7) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(7) grounded in the official Soil and Water Conservation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(7) grounded in the official Soil and Water Conservation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(7) grounded in the official Soil and Water Conservation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2489,9 +2551,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(7)",
+              "sub_req_label": "7a(7)",
+              "sub_req_text": "A public drinking water treatment plant"
             },
             {
               "sub_id": "7a(8)",
@@ -2523,10 +2588,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(8) is enough for Soil and Water Conservation Requirement 7a(8) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(8) grounded in the official Soil and Water Conservation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(8) grounded in the official Soil and Water Conservation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(8) grounded in the official Soil and Water Conservation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2546,9 +2613,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(8)",
+              "sub_req_label": "7a(8)",
+              "sub_req_text": "An industry water use installation"
             },
             {
               "sub_id": "7a(9)",
@@ -2576,10 +2646,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(9) is enough for Soil and Water Conservation Requirement 7a(9) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(9) grounded in the official Soil and Water Conservation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(9) grounded in the official Soil and Water Conservation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(9) grounded in the official Soil and Water Conservation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2599,9 +2671,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(9)",
+              "sub_req_label": "7a(9)",
+              "sub_req_text": "A desalinization plant"
             }
           ],
           "syllabus_bucket": "Make-Up Eligible",
@@ -2622,10 +2697,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Soil and Water Conservation Requirement 7a sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7a grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7a grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 7a grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2645,9 +2722,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Make a trip to TWO of the following places. Write a report of more than 500 words about the soil and water and energy conservation practices you saw. (1) An agricultural experiment (2) A managed forest or woodlot, range, or pasture (3) A wildlife refuge or a fish or game management area (4) A conservation-managed farm or ranch (5) A managed watershed (6) A waste-treatment plant (7) A public drinking water treatment plant (8) An industry water use installation (9) A desalinization plant"
         },
         {
           "sub_id": "7b",
@@ -2670,10 +2750,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Soil and Water Conservation Requirement 7b sign-off.",
-            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 7b grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 7b grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 7b grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2693,9 +2775,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Plant 100 trees, bushes, and/or vines for a good purpose."
         },
         {
           "sub_id": "7c",
@@ -2718,10 +2803,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7c is enough for Soil and Water Conservation Requirement 7c sign-off.",
-            "fact": "Each Scout must actively seed the specific principles and real-world steps of Req 7c grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2741,9 +2828,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7c",
+          "sub_req_label": "7c",
+          "sub_req_text": "Seed an area of at least one-fifth acre for some worthwhile conservation purposes, using suitable grasses or legumes alone or in a mixture."
         },
         {
           "sub_id": "7d",
@@ -2771,10 +2861,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7d is enough for Soil and Water Conservation Requirement 7d sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 7d grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 7d grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 7d grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2794,9 +2886,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7d",
+          "sub_req_label": "7d",
+          "sub_req_text": "Study a soil survey report. Describe the things in it. Using tracing paper and a pen, trace over any of the soil maps, and outline an area with three or more different kinds of soil. List each kind of soil by full name and map symbol."
         },
         {
           "sub_id": "7e",
@@ -2822,10 +2917,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7e is enough for Soil and Water Conservation Requirement 7e sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7e grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7e grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 7e grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2845,9 +2942,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7e",
+          "sub_req_label": "7e",
+          "sub_req_text": "Make a list of places in your neighborhood, camps, school ground, or park that have erosion, sedimentation, or pollution problems. Describe how these could be corrected through individual or group action."
         },
         {
           "sub_id": "7f",
@@ -2870,15 +2970,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7f is enough for Soil and Water Conservation Requirement 7f sign-off.",
-            "fact": "Each Scout must actively carry the specific principles and real-world steps of Req 7f grounded in the official Soil and Water Conservation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7f grounded in the official Soil and Water Conservation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7f grounded in the official Soil and Water Conservation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
             "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Obtain your Merit Badge Counselor's approval on your Soil and Water Conservation Req 7f plan before executing the project.",
+            "gate_description": "Review your Soil and Water Conservation Req 7f preparation with your Merit Badge Counselor before moving to subsequent tasks.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -2898,9 +3000,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7f",
+          "sub_req_label": "7f",
+          "sub_req_text": "Carry out any other soil and water conservation project approved by your counselor."
         }
       ],
       "resources": [
@@ -2949,13 +3054,13 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: (a) Make a trip to TWO of the",
+      "topic_title": "Req 7: Conservation on the Land",
       "action_verb": "Make",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Soil and Water Conservation Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Soil and Water Conservation Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
+      "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2975,13 +3080,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Make a trip to TWO of the is enough for Soil and Water Conservation Requirement 7 sign-off.",
-        "fact": "Each Scout must actively make the specific principles and real-world steps of (a) Make a trip to TWO of the grounded in the official Soil and Water Conservation pamphlet."
+        "misconception": "Reading a short definition of Conservation on the Land is enough for Soil and Water Conservation Requirement 7 sign-off.",
+        "fact": "Each Scout must actively make the specific principles and real-world steps of Conservation on the Land grounded in the official Soil and Water Conservation pamphlet.",
+        "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Conservation on the Land grounded in the official Soil and Water Conservation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
         "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Obtain your Merit Badge Counselor's approval on your Soil and Water Conservation Req 7 plan before executing the project.",
+        "gate_description": "Review your Soil and Water Conservation Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -3001,68 +3108,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Soil and Water Conservation Sub-Req 7a: Make a trip to TWO of the following places. Write a report of more than 500 words about the soil and water and energy.",
-        "Soil and Water Conservation Sub-Req 7a(1): An agricultural experiment",
-        "Soil and Water Conservation Sub-Req 7a(2): A managed forest or woodlot, range, or pasture",
-        "Soil and Water Conservation Sub-Req 7a(3): A wildlife refuge or a fish or game management area"
+        "Conservation Buffers Small: Conservation buffers are small areas or stripsof land kept in permanent vegetation.",
+        "Areas Thenhelp Control: These areas thenhelp control soil erosion and pollution by breaking upand slowing the movement of runoff, sediment, andother pollutants within fields.",
+        "USDA Launched National: The USDA launched the National Conservation Buffer Initiative in 1997.",
+        "Initiative Publicand Private: Through this initiative, publicand private agencies are working together to helplandowners create 2 million miles of conservationbuffers."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Soil and Water Conservation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Make a trip to TWO of the.",
-        "Execute & Document: Perform the make task methodically with your patrol buddy and log specific observations in your Soil and Water Conservation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Grassed Contour Buffer: Grassed contour buffer strips cover an entire field in Iowa.",
+        "Professional Conservationists: Professional conservationists have solved many conservationproblems.",
+        "Practices Suitable: Some practices may be suitable only for application oncroplands, rangelands, or forestlands.",
+        "Plants Greatprotectors Land: Because plants are the greatprotectors of land surfaces, most practices involve the use andmanagement of plants so that they can hold soil."
       ],
       "gear_checklist": [
         "Official Soil and Water Conservation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Soil and Water Conservation Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Conservation on the Land",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Soil and Water Conservation Approach",
-        "right_header": "Official BSA Soil and Water Conservation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Soil and Water Conservation Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Soil and Water Conservation Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - (a) Make a trip to TWO of the",
-          "Primary Standard": "Make a trip to TWO of the following places. Write a report of more than 500 words about the soil and water and",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Soil and Water Conservation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Soil and Water Conservation Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Conservation on the Land",
+          "Primary Standard": "Make a trip to TWO of the following places.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Soil and Water Conservation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Soil and Water Conservation Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Soil and Water Conservation Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Soil and Water Conservation Requirement 7, a Scout claims: \"Reading a short definition of (a) Make a trip to TWO of the is enough for Soil and Water Conservation Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively make the specific principles and real-world steps of (a) Make a trip to TWO of the grounded in the official Soil and Water Conservation pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively make the specific principles and real-world steps of (a) Make a trip to TWO of the grounded in the official Soil and Water Conservation pamphlet.",
-        "explanation": "Per Official BSA Soil and Water Conservation Pamphlet, pp. 40-45, Each Scout must actively make the specific principles and real-world steps of (a) Make a trip to TWO of the grounded in the official Soil and Water Conservation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Soil and Water Conservation Workbook organizer table and practical demonstration for Req 7."
     }
   ],
   "badge_slug": "soil-and-water-conservation",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

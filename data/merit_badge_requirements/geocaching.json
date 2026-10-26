@@ -51,10 +51,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Geocaching hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -74,9 +76,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while participating in geocaching activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
         },
         {
           "sub_id": "1b",
@@ -120,10 +125,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Geocaching Requirement 1b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -143,9 +150,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in geocaching activities, including cuts, scrapes, snakebite, insect stings, tick bites, exposure to poisonous plants, heat and cold reactions (sunburn, heatstroke, heat exhaustion, hypothermia), and dehydration."
         },
         {
           "sub_id": "1c",
@@ -173,10 +183,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Geocaching Requirement 1c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -196,9 +208,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Discuss how to properly plan an activity that uses GPS, including using the buddy system, sharing your plan with others, and considering the weather, route, and proper attire."
         }
       ],
       "resources": [
@@ -243,13 +258,13 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: Geocaching Hazards, PPE & First Aid Response",
+      "topic_title": "Req 1: Hazards, First Aid & Safety",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Geocaching Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Geocaching Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)",
+      "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
@@ -269,7 +284,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Geocaching hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -289,62 +306,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Geocaching Sub-Req 1a: Explain to your counselor the most likely hazards you may encounter while participating in geocaching activities, and what you should do to anticipate, help.",
-        "Geocaching Sub-Req 1b: Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in geocaching activities, including cuts, scrapes, snakebite.",
-        "Geocaching Sub-Req 1c: Discuss how to properly plan an activity that uses GPS, including using the buddy system, sharing your plan with others, and considering the weather.",
-        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in geocaching activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
+        "Learn Recognize Avoid: Learn how to recognize, and avoid, the poisonous plants in your area, such as poison ivy, poison oak, and poison sumac.",
+        "Youthink Touched Poisonous: If youthink you have touched a poisonous plant, immediately wash the affected skin withsoap and water.",
+        "Wipe Rubbing Alcohol: Wipe with rubbing alcohol and apply a soothing skin treatmentsuch as calamine lotion.",
+        "Prevent Sunburn Limiting: Prevent sunburn by limiting exposure tothe sun, covering up, and wearing a broad-brimmed hat."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Geocaching requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Geocaching Hazards, PPE & First Aid Response.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Geocaching Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Sunscreen Sun Protection: Use a sunscreen with a sun protection factor (SPF) of at least 15.",
+        "Treat Painful Sunburn: Treat a painful sunburn byapplying cool, wet cloths.",
+        "Stay Shade Possible: Stay in the shade if possible, and cover up (long pants, long-sleeved shirt, a brimmed hat) toavoid further overexposure to the sun.",
+        "Symptoms Include Pale: Symptoms can include pale, clammy skin; nauseaand headache; dizziness and fainting; muscle cramps; andweakness or lack of energy."
       ],
       "gear_checklist": [
         "Official Geocaching Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Geocaching Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Geocaching Approach",
-        "right_header": "Official BSA Geocaching Pamphlet Standard",
+        "right_header": "Official BSA Geocaching Standard (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Geocaching Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Geocaching Workbook organizer.",
+          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Geocaching Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Geocaching Hazards, PPE & First Aid Response",
-          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in geocaching activiti",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Geocaching terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Geocaching Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
+          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in geocaching activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Geocaching terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Geocaching Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Geocaching Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Geocaching Requirement 1, a Scout claims: \"Scouts can jump straight into Geocaching hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Geocaching (Hazards, First Aid & Safety), which patrol preparation step best aligns with the official Geocaching standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Geocaching hazards, PPE, and prerequisite standards in Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries.",
-        "explanation": "Per Official BSA Geocaching Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries."
+        "correct_answer": "Option A - Review the Geocaching hazards, PPE, and prerequisite standards in Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Geocaching Workbook organizer table and practical demonstration for Req 1."
@@ -382,10 +399,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Geocaching Requirement 2a sign-off.",
-            "fact": "Each Scout must actively why the specific principles and real-world steps of Req 2a grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -405,9 +424,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Why you should never bury a cache"
         },
         {
           "sub_id": "2b",
@@ -435,10 +457,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Geocaching Requirement 2b sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 2b grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -458,9 +482,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "How to use proper geocaching etiquette when hiding or seeking a cache, and how to properly hide, post, maintain, and dismantle a geocache"
         },
         {
           "sub_id": "2c",
@@ -488,10 +515,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2c is enough for Geocaching Requirement 2c sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 2c grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -511,9 +540,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2c",
+          "sub_req_label": "2c",
+          "sub_req_text": "The Leave No Trace Seven Principles and the Outdoor Code as they apply to geocaching"
         }
       ],
       "resources": [
@@ -538,13 +570,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Discuss the following with your counselor: (a) Why",
+      "topic_title": "Req 2: Your counselor",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Geocaching Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Geocaching Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)",
+      "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -561,8 +593,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Discuss the following with your counselor: (a) Why is enough for Geocaching Requirement 2 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Discuss the following with your counselor: (a) Why grounded in the official Geocaching pamphlet."
+        "misconception": "Reading a short definition of Your counselor is enough for Geocaching Requirement 2 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Your counselor grounded in the official Geocaching pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Your counselor grounded in the official Geocaching pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -582,63 +616,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Geocaching Sub-Req 2a: Why you should never bury a cache",
-        "Geocaching Sub-Req 2b: How to use proper geocaching etiquette when hiding or seeking a cache, and how to properly hide, post, maintain, and dismantle a geocache",
-        "Geocaching Sub-Req 2c: The Leave No Trace Seven Principles and the Outdoor Code as they apply to geocaching",
-        "Core Standard 1 (Req 2): Discuss the following with your counselor: (a) Why you should never bury a cache (b) How to use proper geocaching etiquette when hiding or seeking a cache, and how to properly hide, post, maintain, and dismantle a geocache (c) The Leave No Trace Seven Principles and the Outdoor Code as they apply to geocaching."
+        "Carry Extra Trash: Carry an extra trash bag for trash, leftover and dropped food, and litter left by others. • Use established bathrooms when available.",
+        "Carry Trash Bagwith: Always carry a trash bagwith you and practice Cache In Trash Out (CITO) eachtime you go geocaching. 4.",
+        "Observe But Not: Observe, but do not touch, culturalor historic structures andartifacts.",
+        "Useartifacts Cache Items: Never useartifacts as cache items."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Geocaching requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Discuss the following with your counselor: (a) Why.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Geocaching Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Youlift Rock Replace: If youlift a rock to look under it, replace it exactly as you found it.",
+        "Destroy Natural Setting: Never destroy any natural setting, whether you are hidingor seeking a geocache.",
+        "Don Cut Branches: Don’t cut branches or remove leaves touse for cache materials or to hide caches.",
+        "Don Cachesin Locations: Don’t place cachesin locations that may cause others to disturb the natural settingwhen searching for them."
       ],
       "gear_checklist": [
         "Official Geocaching Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Geocaching Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Your counselor",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Geocaching Approach",
-        "right_header": "Official BSA Geocaching Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Geocaching Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Geocaching Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Discuss the following with your counselor: (a) Why",
-          "Primary Standard": "Why you should never bury a cache",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Geocaching terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Geocaching Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Your counselor",
+          "Primary Standard": "Why you should never bury a cache.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Geocaching terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Geocaching Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Geocaching Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Geocaching Requirement 2, a Scout claims: \"Reading a short definition of Discuss the following with your counselor: (a) Why is enough for Geocaching Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss the following with your counselor: (a) Why grounded in the official Geocaching pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss the following with your counselor: (a) Why grounded in the official Geocaching pamphlet.",
-        "explanation": "Per Official BSA Geocaching Pamphlet, pp. 10-15, Each Scout must actively discuss the specific principles and real-world steps of Discuss the following with your counselor: (a) Why grounded in the official Geocaching pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Geocaching Workbook organizer table and practical demonstration for Req 2."
     },
@@ -667,13 +678,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Explain the following terms used in geocaching: waypoint",
+      "topic_title": "Req 3: Used in geocaching",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Geocaching Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Geocaching Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71)",
+      "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -690,8 +701,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Explain the following terms used in geocaching: waypoint is enough for Geocaching Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain the following terms used in geocaching: waypoint grounded in the official Geocaching pamphlet."
+        "misconception": "Reading a short definition of Used in geocaching is enough for Geocaching Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Used in geocaching grounded in the official Geocaching pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Used in geocaching grounded in the official Geocaching pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -711,63 +724,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): Explain the following terms used in geocaching: waypoint, log, cache, accuracy, difficulty and terrain ratings, attributes, and trackable.",
-        "Core Standard 2 (Req 3): Choose five additional terms to explain to your counselor.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Geocaching Req 3 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Geocaching Workbook before requesting Requirement 3 sign-off."
+        "Here Common Words: Here are some common words and acronyms in the world of geocaching. accuracy.",
+        "Civilian GPS Receiver: No civilian GPS receiver has perfect accuracy (freedom from error).",
+        "Icons Cache Detail: These icons on a cache detail are intended to provide helpfulinformation to geocachers who wish to find specific types of caches.",
+        "Theicons Represent Unique: Theicons represent unique cache characteristics, whether the cache is kidfriendly, if it is available 24 hours a day, if you need special."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Geocaching requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain the following terms used in geocaching: waypoint.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Geocaching Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Series Public Geocaches: A series of public geocaches that have been set up at the sites of Eagle Scout service projects. camo (camouflage).",
+        "Disguise Cache Container: You can disguise your cache container in many clever ways.",
+        "Geocaching Event People: In this geocaching event, people docleanup or service for parks or the community. clue (hint).",
+        "Clues Hints Person: Clues or hints give the person seeking the cache a littlemore information to help find it."
       ],
       "gear_checklist": [
         "Official Geocaching Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Geocaching Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Used in geocaching",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Geocaching Approach",
-        "right_header": "Official BSA Geocaching Pamphlet Standard",
+        "right_header": "Official BSA Geocaching Standard (Used in geocaching)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Used in geocaching.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Geocaching Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Geocaching Workbook organizer.",
+          "Clearly demonstrates and explains Used in geocaching using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Geocaching Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Explain the following terms used in geocaching: waypoint",
-          "Primary Standard": "Explain the following terms used in geocaching: waypoint, log, cache, accuracy, difficulty and terrain ratings",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Geocaching terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Geocaching Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Used in geocaching",
+          "Primary Standard": "Explain the following terms used in geocaching: waypoint, log, cache, accuracy, difficulty and terrain ratings, attributes, and trackable. Choose five additional terms to explain to your counselor.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Geocaching terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Geocaching Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Geocaching Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Geocaching Requirement 3, a Scout claims: \"Reading a short definition of Explain the following terms used in geocaching: waypoint is enough for Geocaching Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the following terms used in geocaching: waypoint grounded in the official Geocaching pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the following terms used in geocaching: waypoint grounded in the official Geocaching pamphlet.",
-        "explanation": "Per Official BSA Geocaching Pamphlet, pp. 16-21, Each Scout must actively explain the specific principles and real-world steps of Explain the following terms used in geocaching: waypoint grounded in the official Geocaching pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Geocaching Workbook organizer table and practical demonstration for Req 3."
     },
@@ -796,13 +799,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Explain how the Global Positioning System (GPS) works",
+      "topic_title": "Req 4: The Global Positioning System works",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Geocaching Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Geocaching Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 11, p. 13)",
+      "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 11, p. 13)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -822,8 +825,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Explain how the Global Positioning System (GPS) works is enough for Geocaching Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain how the Global Positioning System (GPS) works grounded in the official Geocaching pamphlet."
+        "misconception": "Reading a short definition of The Global Positioning System works is enough for Geocaching Requirement 4 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of The Global Positioning System works grounded in the official Geocaching pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The Global Positioning System works grounded in the official Geocaching pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 11, p. 13)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -843,63 +848,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 4): Explain how the Global Positioning System (GPS) works.",
-        "Core Standard 2 (Req 4): Then, using Scouting's EDGE, demonstrate to your counselor the use of a GPS unit.",
-        "Core Standard 3 (Req 4): Include marking and editing a waypoint, changing field functions, and changing the coordinate system in the unit.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Geocaching Workbook before requesting Requirement 4 sign-off."
+        "GPS Technology Beused: GPS technology can beused anywhere in the world 24 hours a day because the system ofsatellites circles Earth all the time, and some number of them.",
+        "System Works Kind: The system works in any kind of weather anddoes not require any setup fee or subscription charge.",
+        "GPS Receiver GPSr: A GPS receiver (GPSr) calculates its position by carefully timing thesignals sent by the 24 to 30 GPS satellites high above Earth.",
+        "Anygiven Time There: At anygiven time, there are usually several satellites over any given placeon Earth."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Geocaching requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain how the Global Positioning System (GPS) works.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Geocaching Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Satellite Continually: Each satellite continually transmits data that indicates itslocation and the current time.",
+        "GPS Satellites Transmit: All GPS satellites transmit signals atthe same instant, but the signals arrive at a GPS receiver at slightlydifferent times.",
+        "Farther Receiver Satellite: The farther the receiver is from a satellite, thelonger the signal takes to reach the receiver.",
+        "Receiver Arrival Timeof: The receiver uses the arrival timeof each signal to measure the distanceto each satellite."
       ],
       "gear_checklist": [
         "Official Geocaching Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Geocaching Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The Global Positioning System works",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Geocaching Approach",
-        "right_header": "Official BSA Geocaching Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Geocaching Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Geocaching Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Explain how the Global Positioning System (GPS) works",
-          "Primary Standard": "Explain how the Global Positioning System (GPS) works. Then, using Scouting's EDGE, demonstrate to your counse",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Geocaching terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Geocaching Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - The Global Positioning System works",
+          "Primary Standard": "Explain how the Global Positioning System (GPS) works. Then, using Scouting's EDGE, demonstrate to your counselor the use of a GPS unit. Include marking and editing a waypoint, changing field functions, and changing the coordinate system in the unit.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Geocaching terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Geocaching Merit Badge Pamphlet (p. 11, p. 13) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Geocaching Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Geocaching Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Geocaching Requirement 4, a Scout claims: \"Reading a short definition of Explain how the Global Positioning System (GPS) works is enough for Geocaching Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain how the Global Positioning System (GPS) works grounded in the official Geocaching pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain how the Global Positioning System (GPS) works grounded in the official Geocaching pamphlet.",
-        "explanation": "Per Official BSA Geocaching Pamphlet, pp. 22-27, Each Scout must actively explain the specific principles and real-world steps of Explain how the Global Positioning System (GPS) works grounded in the official Geocaching pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Geocaching Workbook organizer table and practical demonstration for Req 4."
     },
@@ -927,26 +909,25 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "RULED_EXPLAIN_BOX",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 5a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
             ],
-            "min_rows": 4,
+            "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Geocaching Requirement 5a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5a grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -966,9 +947,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Show you know how to use a map and compass and explain why this is important for geocaching."
         },
         {
           "sub_id": "5b",
@@ -996,10 +980,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Geocaching Requirement 5b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1019,9 +1005,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Explain the similarities and differences between GPS navigation and standard map-reading skills and describe the benefits of each."
         }
       ],
       "resources": [
@@ -1046,13 +1035,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: (a) Show you know how to use a",
+      "topic_title": "Req 5: You know how to use",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Geocaching Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Geocaching Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)",
+      "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1072,8 +1061,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Show you know how to use a is enough for Geocaching Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Show you know how to use a grounded in the official Geocaching pamphlet."
+        "misconception": "Reading a short definition of You know how to use is enough for Geocaching Requirement 5 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of You know how to use grounded in the official Geocaching pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of You know how to use grounded in the official Geocaching pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1093,63 +1084,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Geocaching Sub-Req 5a: Show you know how to use a map and compass and explain why this is important for geocaching.",
-        "Geocaching Sub-Req 5b: Explain the similarities and differences between GPS navigation and standard map-reading skills and describe the benefits of each.",
-        "Core Standard 1 (Req 5): Do the following: (a) Show you know how to use a map and compass and explain why this is important for geocaching.",
-        "Core Standard 2 (Req 5): (b) Explain the similarities and differences between GPS navigation and standard map-reading skills and describe the benefits of each."
+        "Map Compasswhen GPS: Why do you need to know how to use a map and compasswhen the GPS receiver’s arrow tells you where to go?.",
+        "Becauseyour GPS Unit: Becauseyour GPS unit can, and will, fail, and it won’t tell youwhat is between you and your objective.",
+        "Youmay Location Satellite: Youmay be in a location where you can’t get good satellite reception.",
+        "Heavy Tree Cover: Heavy tree cover, nearby power lines, tall buildings, a narrowcanyon, all of these can reduce your satellite reception to suchan extent that your GPS unit."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Geocaching requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Show you know how to use a.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Geocaching Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Mightaccidentally Program: Or you mightaccidentally program in the wrong coordinates and be headingin the wrong direction entirely.",
+        "Carry Map Andcompass: Carry a map andcompass andknow how to usethem, especially ifyou are out in thewilderness.",
+        "Seethe BSAhandbook SCALES: Seethe Scouts BSAhandbook and the SCALES Orienteering merit DIRECTION-OF-TRAVEL ARROW badge pamphlet.",
+        "Topographic Topo Map: Using a topographic (topo) map of the area can help youplan your best route."
       ],
       "gear_checklist": [
         "Official Geocaching Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Geocaching Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for You know how to use",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Geocaching Approach",
-        "right_header": "Official BSA Geocaching Pamphlet Standard",
+        "right_header": "Official BSA Geocaching Standard (You know how to use)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during You know how to use.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Geocaching Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Geocaching Workbook organizer.",
+          "Clearly demonstrates and explains You know how to use using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Geocaching Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - (a) Show you know how to use a",
+          "Requirement & Topic": "Req 5 - You know how to use",
           "Primary Standard": "Show you know how to use a map and compass and explain why this is important for geocaching.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Geocaching terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Geocaching Pamphlet, pp. 28-33."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Geocaching terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Geocaching Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Geocaching Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Geocaching Requirement 5, a Scout claims: \"Reading a short definition of (a) Show you know how to use a is enough for Geocaching Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Show you know how to use a grounded in the official Geocaching pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Show you know how to use a grounded in the official Geocaching pamphlet.",
-        "explanation": "Per Official BSA Geocaching Pamphlet, pp. 28-33, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Show you know how to use a grounded in the official Geocaching pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Geocaching Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1174,13 +1155,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Describe to your counselor the four steps to",
+      "topic_title": "Req 6: To your counselor the four steps",
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Geocaching Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Geocaching Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 48)",
+      "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 48)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1197,8 +1178,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Describe to your counselor the four steps to is enough for Geocaching Requirement 6 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of Describe to your counselor the four steps to grounded in the official Geocaching pamphlet."
+        "misconception": "Reading a short definition of To your counselor the four steps is enough for Geocaching Requirement 6 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of To your counselor the four steps grounded in the official Geocaching pamphlet.",
+        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of To your counselor the four steps grounded in the official Geocaching pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 48)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1218,63 +1201,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 6): Describe to your counselor the four steps to finding your first cache.",
-        "Core Standard 2 (Req 6): Then mark and edit a waypoint.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Geocaching Req 6 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Geocaching Workbook before requesting Requirement 6 sign-off."
+        "Think Finding Cache: Think of the four steps to finding a cache, and use those steps toguide you in hiding a geocache. 1.",
+        "Carefully Research Want: Carefully research where you want to place yourcache.",
+        "There Adequate Places: Are there adequate places to hide your caches withoutrisk to the environment when people are seeking them?.",
+        "Geocachers Areencouraged: Geocachers areencouraged to seek out new places to hide caches ratherthan put them where others already exist."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Geocaching requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Describe to your counselor the four steps to.",
-        "Execute & Document: Perform the describe task methodically with your patrol buddy and log specific observations in your Geocaching Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Areas Notsuitable Geocaches: Areas that are notsuitable for geocaches include schools, government buildings, cemeteries, airports, military installations.",
+        "Geocaches Placed Camps: Geocaches can only be placed at Scout camps if thelocation is on a portion of the property that is available tothe general public to seek.",
+        "Cache Location Safe: Your cache must be in a location that is safe to get to.",
+        "Essential Permission: It’s essential to get permission from the landowner or landmanager, and to avoid placing caches anywhere the seekersmight encounter danger."
       ],
       "gear_checklist": [
         "Official Geocaching Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Geocaching Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for To your counselor the four steps",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Geocaching Approach",
-        "right_header": "Official BSA Geocaching Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Geocaching Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Geocaching Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Describe to your counselor the four steps to",
+          "Requirement & Topic": "Req 6 - To your counselor the four steps",
           "Primary Standard": "Describe to your counselor the four steps to finding your first cache. Then mark and edit a waypoint.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Geocaching terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Geocaching Pamphlet, pp. 34-39."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Geocaching terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 48) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Geocaching Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Geocaching Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Geocaching Requirement 6, a Scout claims: \"Reading a short definition of Describe to your counselor the four steps to is enough for Geocaching Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively describe the specific principles and real-world steps of Describe to your counselor the four steps to grounded in the official Geocaching pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively describe the specific principles and real-world steps of Describe to your counselor the four steps to grounded in the official Geocaching pamphlet.",
-        "explanation": "Per Official BSA Geocaching Pamphlet, pp. 34-39, Each Scout must actively describe the specific principles and real-world steps of Describe to your counselor the four steps to grounded in the official Geocaching pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Geocaching Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1303,13 +1263,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: With your parent or guardian's permission, go to",
-      "action_verb": "With",
+      "topic_title": "Req 7: Go to www.geocaching.com",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Geocaching Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Geocaching Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 37, p. 41)",
+      "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 37, p. 41)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1326,13 +1286,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With your parent or guardian's permission, go to is enough for Geocaching Requirement 7 sign-off.",
-        "fact": "Each Scout must actively with the specific principles and real-world steps of With your parent or guardian's permission, go to grounded in the official Geocaching pamphlet."
+        "misconception": "Reading a short definition of Go to www.geocaching.com is enough for Geocaching Requirement 7 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Go to www.geocaching.com grounded in the official Geocaching pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Go to www.geocaching.com grounded in the official Geocaching pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 37, p. 41)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Geocaching Req 7 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Geocaching Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1352,63 +1314,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 7): With your parent or guardian's permission, go to www.geocaching.com.",
-        "Core Standard 2 (Req 7): Type in your city and state to locate public geocaches in your area.",
-        "Core Standard 3 (Req 7): Share with your counselor the posted information about three of those geocaches.",
-        "Core Standard 4 (Req 7): Then, pick one of the three and find the cache."
+        "Geocaching Com Lists: Geocaching.com lists four basic steps to findingyour first public geocache.",
+        "Summarized Here Details: The four steps are summarized here; more details are available online.",
+        "Firstgeocache Hunt Research: For your firstgeocache hunt, Step 1, Research choose one that At geocaching.com, register for a free basic membership.",
+        "Choose Geocache List: Choose a geocache from the list and click on its name."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Geocaching requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing With your parent or guardian's permission, go to.",
-        "Execute & Document: Perform the with task methodically with your patrol buddy and log specific observations in your Geocaching Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Enter Coordinates Geocache: Enter the coordinates of the geocache into your GPS device.",
+        "Choose Urban Cache: If you choose an urban cache to hunt for, a road mapmay be all you will need.",
+        "Arural Cache However: For arural cache, however, you mayneed a topographical map thatwill tell you what terrain youwill encounter.",
+        "Start Withan: Start withan easy-to-findcache soyou can learnhow geocachesare placed."
       ],
       "gear_checklist": [
         "Official Geocaching Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Geocaching Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Go to www.geocaching.com",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Geocaching Approach",
-        "right_header": "Official BSA Geocaching Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Geocaching Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Geocaching Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - With your parent or guardian's permission, go to",
-          "Primary Standard": "With your parent or guardian's permission, go to www.geocaching.com. Type in your city and state to locate pub",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Geocaching terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Geocaching Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Go to www.geocaching.com",
+          "Primary Standard": "With your parent or guardian's permission, go to www.geocaching.com.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Geocaching terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Geocaching Merit Badge Pamphlet (p. 37, p. 41) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Geocaching Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Geocaching Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Geocaching Requirement 7, a Scout claims: \"Reading a short definition of With your parent or guardian's permission, go to is enough for Geocaching Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With your parent or guardian's permission, go to grounded in the official Geocaching pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With your parent or guardian's permission, go to grounded in the official Geocaching pamphlet.",
-        "explanation": "Per Official BSA Geocaching Pamphlet, pp. 40-45, Each Scout must actively with the specific principles and real-world steps of With your parent or guardian's permission, go to grounded in the official Geocaching pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Geocaching Workbook organizer table and practical demonstration for Req 7."
     },
@@ -1445,10 +1384,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Geocaching Requirement 8a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 8a grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 8a grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1468,9 +1409,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "If a Cache to Eagle® series exists in your council, visit at least three of the locations in the series. Describe the projects that each cache you visit highlights, and explain how the Cache to Eagle® program helps share our Scouting service with the public."
         },
         {
           "sub_id": "8b",
@@ -1502,15 +1446,17 @@
             "min_rows": 5,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Geocaching Requirement 8b sign-off.",
-            "fact": "Each Scout must actively create the specific principles and real-world steps of Req 8b grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Geocaching Req 8b with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Geocaching Req 8b with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -1530,9 +1476,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www.geocaching.com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period."
         },
         {
           "sub_id": "8c",
@@ -1560,15 +1509,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Geocaching Requirement 8c sign-off.",
-            "fact": "Each Scout must actively set the specific principles and real-world steps of Req 8c grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Geocaching Req 8c with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Geocaching Req 8c with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -1588,9 +1539,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "Set up and hide a public geocache, following the guidelines in the Geocaching merit badge pamphlet. Before doing so, share with your counselor a three-month maintenance plan for the geocache where you are personally responsible for those three months. After setting up the geocache, with your parent or guardian's permission, follow the logs online for 30 days and share them with your counselor. You must archive the geocache when you are no longer maintaining it."
         },
         {
           "sub_id": "8d",
@@ -1626,10 +1580,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8d is enough for Geocaching Requirement 8d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Geocaching pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Geocaching pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Geocaching pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1649,9 +1605,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8d",
+          "sub_req_label": "8d",
+          "sub_req_text": "Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at public geocaches or at a CITO event. Then, either create CITO containers to leave at public caches, or host a CITO event for your unit or for the public."
         }
       ],
       "resources": [
@@ -1688,13 +1647,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: (a) If a Cache to Eagle® series exists",
-      "action_verb": "Explain",
+      "topic_title": "Req 8: If a Cache to Eagle® series",
+      "action_verb": "Visit",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Geocaching Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Geocaching Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
+      "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1715,13 +1674,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) If a Cache to Eagle® series exists is enough for Geocaching Requirement 8 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of (a) If a Cache to Eagle® series exists grounded in the official Geocaching pamphlet."
+        "misconception": "Reading a short definition of If a Cache to Eagle® series is enough for Geocaching Requirement 8 sign-off.",
+        "fact": "Each Scout must actively visit the specific principles and real-world steps of If a Cache to Eagle® series grounded in the official Geocaching pamphlet.",
+        "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of If a Cache to Eagle® series grounded in the official Geocaching pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Geocaching Req 8 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Geocaching Req 8 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1741,63 +1702,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Geocaching Sub-Req 8a: If a Cache to Eagle® series exists in your council, visit at least three of the locations in the series. Describe the projects that.",
-        "Geocaching Sub-Req 8b: Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your.",
-        "Geocaching Sub-Req 8c: Set up and hide a public geocache, following the guidelines in the Geocaching merit badge pamphlet. Before doing so, share with your counselor a.",
-        "Geocaching Sub-Req 8d: Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at public geocaches or at a CITO event. Then."
+        "Write Description Add: Write a description and add descriptive attributesto tell others about your cache.",
+        "Cache Posted Geocaching: Before your cache is posted on geocaching.com, avolunteer will review the cache to make sure the GPScoordinates are correct and it meets.",
+        "Cache Passes Review: If your cache passes review, it will be postedfor the general public to seek.",
+        "Geocacherwho Doesn Tfollow: Scout geocacherwho doesn’tfollow the rulesand etiquette ofthe sport riskstarnishing thereputation ofall Scouts."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Geocaching requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) If a Cache to Eagle® series exists.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Geocaching Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Once Public Geocache: Once you place a public geocache, you have an obligation to maintain the cache and the area aroundit, for as long as it is active.",
+        "Monitor Onlinelogs Sent: Monitor the onlinelogs that are sent to you, the cache owner, and act on any reports that your cacheneeds maintenance.",
+        "Returnto Site Checkthat: You will need to returnto the site as often as you can to checkthat the container is in good condition andto be sure visitors to your cache.",
+        "Youneed Change Cache: If so and youneed to change the cache’s location, be sure toalso change your online listing."
       ],
       "gear_checklist": [
         "Official Geocaching Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Geocaching Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for If a Cache to Eagle® series",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Geocaching Approach",
-        "right_header": "Official BSA Geocaching Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Geocaching Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Geocaching Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - (a) If a Cache to Eagle® series exists",
-          "Primary Standard": "If a Cache to Eagle® series exists in your council, visit at least three of the locations in the series. Descr",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Geocaching terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Geocaching Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - If a Cache to Eagle® series",
+          "Primary Standard": "If a Cache to Eagle® series exists in your council, visit at least three of the locations in the series.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Geocaching terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Geocaching Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Geocaching Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Geocaching Requirement 8, a Scout claims: \"Reading a short definition of (a) If a Cache to Eagle® series exists is enough for Geocaching Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) If a Cache to Eagle® series exists grounded in the official Geocaching pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) If a Cache to Eagle® series exists grounded in the official Geocaching pamphlet.",
-        "explanation": "Per Official BSA Geocaching Pamphlet, pp. 46-51, Each Scout must actively explain the specific principles and real-world steps of (a) If a Cache to Eagle® series exists grounded in the official Geocaching pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Geocaching Workbook organizer table and practical demonstration for Req 8."
     },
@@ -1822,13 +1760,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Plan a geohunt for a youth group such",
+      "topic_title": "Req 9: Plan a geohunt for a youth",
       "action_verb": "Plan",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Geocaching Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Geocaching Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Geocaching Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 51, p. 52)",
+      "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 51, p. 52)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1845,8 +1783,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Plan a geohunt for a youth group such is enough for Geocaching Requirement 9 sign-off.",
-        "fact": "Each Scout must actively plan the specific principles and real-world steps of Plan a geohunt for a youth group such grounded in the official Geocaching pamphlet."
+        "misconception": "Reading a short definition of Plan a geohunt for a youth is enough for Geocaching Requirement 9 sign-off.",
+        "fact": "Each Scout must actively plan the specific principles and real-world steps of Plan a geohunt for a youth grounded in the official Geocaching pamphlet.",
+        "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Plan a geohunt for a youth grounded in the official Geocaching pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 51, p. 52)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1866,68 +1806,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 9): Plan a geohunt for a youth group such as your troop or a neighboring pack, at school, or your place of worship.",
-        "Core Standard 2 (Req 9): Choose a theme, set up a course with at least four waypoints, teach the players how to use a GPS unit, and play the game.",
-        "Core Standard 3 (Req 9): Tell your counselor about your experience, and share the materials you used and developed for this event.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Geocaching Workbook before requesting Requirement 9 sign-off."
+        "Teaching GPS Patrol: Teaching GPS Use to Your Patrol or Troop All Scouts from Tenderfoot to Eagle Scout rank can use a GPS unit and geocache.",
+        "Younger Helpprogramming GPS: Younger Scouts may need helpprogramming a GPS receiver, but older Scouts can programthe units themselves, or play games that require.",
+        "Troop Skilllevel Right: You know your troop, so use the skilllevel that is right for each member or patrol.",
+        "Teaching GPS Cub: Teaching GPS Use to Cub Scoutsor Younger Children All ages of Cub Scouts can also use a GPS unit to geocache."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Geocaching requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Plan a geohunt for a youth group such.",
-        "Execute & Document: Perform the plan task methodically with your patrol buddy and log specific observations in your Geocaching Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Younger Children Love: Younger children love to follow the arrow and are thrilled whenthey make “the find.” However, they may not be able to program a GPS receiver.",
+        "Younger Children Require: Younger children will also require very easy finds with anactual prize in the box.",
+        "They Prone Boredom: They are prone to boredom if the eventlasts longer than 45 to 60 minutes.",
+        "Older Cub Morechallenge: Older Cub Scouts like morechallenge and can often change the GPS unit from one waypointto another by themselves, or play games that require."
       ],
       "gear_checklist": [
         "Official Geocaching Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Geocaching Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Plan a geohunt for a youth",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Geocaching Approach",
-        "right_header": "Official BSA Geocaching Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Geocaching Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Geocaching Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Plan a geohunt for a youth group such",
-          "Primary Standard": "Plan a geohunt for a youth group such as your troop or a neighboring pack, at school, or your place of worship",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Geocaching terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Geocaching Pamphlet, pp. 52-57."
+          "Requirement & Topic": "Req 9 - Plan a geohunt for a youth",
+          "Primary Standard": "Plan a geohunt for a youth group such as your troop or a neighboring pack, at school, or your place of worship.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Geocaching terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Geocaching Merit Badge Pamphlet (p. 51, p. 52) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Geocaching Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Geocaching Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Geocaching Requirement 9, a Scout claims: \"Reading a short definition of Plan a geohunt for a youth group such is enough for Geocaching Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively plan the specific principles and real-world steps of Plan a geohunt for a youth group such grounded in the official Geocaching pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively plan the specific principles and real-world steps of Plan a geohunt for a youth group such grounded in the official Geocaching pamphlet.",
-        "explanation": "Per Official BSA Geocaching Pamphlet, pp. 52-57, Each Scout must actively plan the specific principles and real-world steps of Plan a geohunt for a youth group such grounded in the official Geocaching pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Geocaching Workbook organizer table and practical demonstration for Req 9."
     }
   ],
   "badge_slug": "geocaching",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

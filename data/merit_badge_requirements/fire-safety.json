@@ -49,10 +49,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Fire Safety Requirement 1a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -72,9 +74,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain the concept of fire."
         },
         {
           "sub_id": "1b",
@@ -114,10 +119,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Fire Safety Requirement 1b sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 1b grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 1b grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 1b grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -137,9 +144,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Name the parts of the fire tetrahedron and the products of combustion."
         },
         {
           "sub_id": "1c",
@@ -175,10 +185,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Fire Safety Requirement 1c sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -198,9 +210,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Describe the life cycle of a fire."
         },
         {
           "sub_id": "1d",
@@ -228,10 +243,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1d is enough for Fire Safety Requirement 1d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -251,9 +268,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1d",
+          "sub_req_label": "1d",
+          "sub_req_text": "Explain the three methods of heat transfer."
         }
       ],
       "resources": [
@@ -306,13 +326,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Science of and Hazards of Fire. Do the",
-      "action_verb": "Science",
+      "topic_title": "Req 1: Science of and Hazards of Fire",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Fire Safety Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Fire Safety Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)",
+      "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -330,7 +350,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Fire Safety hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -350,62 +372,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Fire Safety Sub-Req 1a: Explain the concept of fire.",
-        "Fire Safety Sub-Req 1b: Name the parts of the fire tetrahedron and the products of combustion.",
-        "Fire Safety Sub-Req 1c: Describe the life cycle of a fire.",
-        "Fire Safety Sub-Req 1d: Explain the three methods of heat transfer."
+        "Collect Prepare Tinder: Collect, prepare, and set up tinder, kindling, and fuel for a campfire following the Leave No Trace Seven Principles and the Outdoor Code.",
+        "Teach Skill Topic: Teach your skill or topic to one or more Scouts using the EDGE method.",
+        "Safety Flammable Combustible: Do the Safety with Flammable and Combustible Liquids.",
+        "Fire Safety Sub-Req 1a: Explain the concept of fire."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Fire Safety requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Science of and Hazards of Fire. Do the.",
-        "Execute & Document: Perform the science task methodically with your patrol buddy and log specific observations in your Fire Safety Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 1): Read the official Fire Safety requirement and identify the key questions, terms, or skills covered in Science of and Hazards of Fire.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Fire Safety Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Explain): Work with your patrol buddy or family (as required) to explain each element of Science of and Hazards of Fire with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and explain your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Fire Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Fire Safety Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Science of and Hazards of Fire",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Fire Safety Approach",
-        "right_header": "Official BSA Fire Safety Pamphlet Standard",
+        "right_header": "Official BSA Fire Safety Standard (Science of and Hazards of Fire)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Science of and Hazards of Fire.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Fire Safety Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Fire Safety Workbook organizer.",
+          "Clearly demonstrates and explains Science of and Hazards of Fire using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Fire Safety Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Science of and Hazards of Fire. Do the",
+          "Requirement & Topic": "Req 1 - Science of and Hazards of Fire",
           "Primary Standard": "Explain the concept of fire.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Fire Safety terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Fire Safety Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fire Safety terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Fire Safety Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Fire Safety Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Fire Safety Requirement 1, a Scout claims: \"Scouts can jump straight into Fire Safety hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Fire Safety (Science of and Hazards of Fire), which patrol preparation step best aligns with the official Fire Safety standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Fire Safety hazards, PPE, and prerequisite standards in Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
-        "explanation": "Per Official BSA Fire Safety Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries."
+        "correct_answer": "Option A - Review the Fire Safety hazards, PPE, and prerequisite standards in Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Fire Safety Workbook organizer table and practical demonstration for Req 1."
@@ -443,10 +465,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Fire Safety Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -466,9 +490,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Explain the different classes of fires."
         },
         {
           "sub_id": "2b",
@@ -500,10 +527,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Fire Safety Requirement 2b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 2b grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 2b grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 2b grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -523,9 +552,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Identify the different classes of fire extinguishers and which should be used for each class of fire."
         },
         {
           "sub_id": "2c",
@@ -564,10 +596,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2c is enough for Fire Safety Requirement 2c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -587,9 +621,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2c",
+          "sub_req_label": "2c",
+          "sub_req_text": "Demonstrate how to use a fire extinguisher and a fire blanket."
         }
       ],
       "resources": [
@@ -626,13 +663,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Fire Extinguishers. Do the following: (a) Explain the",
-      "action_verb": "Fire",
+      "topic_title": "Req 2: Fire Extinguishers",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Fire Safety Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Fire Safety Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
+      "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -652,8 +689,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Fire Extinguishers. Do the following: (a) Explain the is enough for Fire Safety Requirement 2 sign-off.",
-        "fact": "Each Scout must actively fire the specific principles and real-world steps of Fire Extinguishers. Do the following: (a) Explain the grounded in the official Fire Safety pamphlet."
+        "misconception": "Reading a short definition of Fire Extinguishers is enough for Fire Safety Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Fire Extinguishers grounded in the official Fire Safety pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Fire Extinguishers grounded in the official Fire Safety pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -673,63 +712,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Fire Safety Sub-Req 2a: Explain the different classes of fires.",
-        "Fire Safety Sub-Req 2b: Identify the different classes of fire extinguishers and which should be used for each class of fire.",
-        "Fire Safety Sub-Req 2c: Demonstrate how to use a fire extinguisher and a fire blanket.",
-        "Core Standard 1 (Req 2): Fire Extinguishers."
+        "Safety Flammable Combustible: Do the Safety with Flammable and Combustible Liquids.",
+        "Collect Prepare Tinder: Collect, prepare, and set up tinder, kindling, and fuel for a campfire following the Leave No Trace Seven Principles and the Outdoor Code.",
+        "Teach Skill Topic: Teach your skill or topic to one or more Scouts using the EDGE method.",
+        "Fire Safety Sub-Req 2a: Explain the different classes of fires."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Fire Safety requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Fire Extinguishers. Do the following: (a) Explain the.",
-        "Execute & Document: Perform the fire task methodically with your patrol buddy and log specific observations in your Fire Safety Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 2): Read the official Fire Safety requirement and identify the key questions, terms, or skills covered in Fire Extinguishers.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Fire Safety Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Explain): Work with your patrol buddy or family (as required) to explain each element of Fire Extinguishers with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and explain your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Fire Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Fire Safety Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Fire Extinguishers",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Fire Safety Approach",
-        "right_header": "Official BSA Fire Safety Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Fire Safety Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Fire Safety Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Fire Extinguishers. Do the following: (a) Explain the",
+          "Requirement & Topic": "Req 2 - Fire Extinguishers",
           "Primary Standard": "Explain the different classes of fires.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Fire Safety terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Fire Safety Pamphlet, pp. 10-15."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fire Safety terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Fire Safety Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Fire Safety Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Fire Safety Requirement 2, a Scout claims: \"Reading a short definition of Fire Extinguishers. Do the following: (a) Explain the is enough for Fire Safety Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively fire the specific principles and real-world steps of Fire Extinguishers. Do the following: (a) Explain the grounded in the official Fire Safety pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively fire the specific principles and real-world steps of Fire Extinguishers. Do the following: (a) Explain the grounded in the official Fire Safety pamphlet.",
-        "explanation": "Per Official BSA Fire Safety Pamphlet, pp. 10-15, Each Scout must actively fire the specific principles and real-world steps of Fire Extinguishers. Do the following: (a) Explain the grounded in the official Fire Safety pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Fire Safety Workbook organizer table and practical demonstration for Req 2."
     },
@@ -781,10 +797,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Fire Safety Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -804,9 +822,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Explain and demonstrate the technique of stop, drop, roll, cool, and call."
         },
         {
           "sub_id": "3b",
@@ -834,10 +855,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Fire Safety Requirement 3b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -857,9 +880,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Describe how clothing fires occur, how to prevent them, and how clothing can prevent or contribute to burn injuries."
         },
         {
           "sub_id": "3c",
@@ -887,10 +913,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3c is enough for Fire Safety Requirement 3c sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3c grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3c grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 3c grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -910,9 +938,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3c",
+          "sub_req_label": "3c",
+          "sub_req_text": "Identify the most frequent causes of burn injuries and how to prevent them."
         },
         {
           "sub_id": "3d",
@@ -944,10 +975,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3d is enough for Fire Safety Requirement 3d sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 3d grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -967,9 +1000,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3d",
+          "sub_req_label": "3d",
+          "sub_req_text": "Review the prevention of, symptoms and signs of, and treatment of airway burns and carbon monoxide (CO) poisoning."
         }
       ],
       "resources": [
@@ -1014,13 +1050,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Fire-related Injuries. Do the following: (a) Explain and",
-      "action_verb": "Firerelated",
+      "topic_title": "Req 3: Fire-related Injuries",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Fire Safety Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Fire Safety Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
+      "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1040,8 +1076,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Fire-related Injuries. Do the following: (a) Explain and is enough for Fire Safety Requirement 3 sign-off.",
-        "fact": "Each Scout must actively firerelated the specific principles and real-world steps of Fire-related Injuries. Do the following: (a) Explain and grounded in the official Fire Safety pamphlet."
+        "misconception": "Reading a short definition of Fire-related Injuries is enough for Fire Safety Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Fire-related Injuries grounded in the official Fire Safety pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Fire-related Injuries grounded in the official Fire Safety pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1061,63 +1099,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Fire Safety Sub-Req 3a: Explain and demonstrate the technique of stop, drop, roll, cool, and call.",
-        "Fire Safety Sub-Req 3b: Describe how clothing fires occur, how to prevent them, and how clothing can prevent or contribute to burn injuries.",
-        "Fire Safety Sub-Req 3c: Identify the most frequent causes of burn injuries and how to prevent them.",
-        "Fire Safety Sub-Req 3d: Review the prevention of, symptoms and signs of, and treatment of airway burns and carbon monoxide (CO) poisoning."
+        "Safety Flammable Combustible: Do the Safety with Flammable and Combustible Liquids.",
+        "Collect Prepare Tinder: Collect, prepare, and set up tinder, kindling, and fuel for a campfire following the Leave No Trace Seven Principles and the Outdoor Code.",
+        "Teach Skill Topic: Teach your skill or topic to one or more Scouts using the EDGE method.",
+        "Fire Safety Sub-Req 3a: Explain and demonstrate the technique of stop, drop, roll, cool, and call."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Fire Safety requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Fire-related Injuries. Do the following: (a) Explain and.",
-        "Execute & Document: Perform the firerelated task methodically with your patrol buddy and log specific observations in your Fire Safety Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 3): Read the official Fire Safety requirement and identify the key questions, terms, or skills covered in Fire-related Injuries.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Fire Safety Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Explain): Work with your patrol buddy or family (as required) to explain each element of Fire-related Injuries with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and explain your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Fire Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Fire Safety Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Fire-related Injuries",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Fire Safety Approach",
-        "right_header": "Official BSA Fire Safety Pamphlet Standard",
+        "right_header": "Official BSA Fire Safety Standard (Fire-related Injuries)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Fire-related Injuries.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Fire Safety Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Fire Safety Workbook organizer.",
+          "Clearly demonstrates and explains Fire-related Injuries using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Fire Safety Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Fire-related Injuries. Do the following: (a) Explain and",
+          "Requirement & Topic": "Req 3 - Fire-related Injuries",
           "Primary Standard": "Explain and demonstrate the technique of stop, drop, roll, cool, and call.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Fire Safety terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Fire Safety Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fire Safety terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Fire Safety Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Fire Safety Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Fire Safety Requirement 3, a Scout claims: \"Reading a short definition of Fire-related Injuries. Do the following: (a) Explain and is enough for Fire Safety Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively firerelated the specific principles and real-world steps of Fire-related Injuries. Do the following: (a) Explain and grounded in the official Fire Safety pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively firerelated the specific principles and real-world steps of Fire-related Injuries. Do the following: (a) Explain and grounded in the official Fire Safety pamphlet.",
-        "explanation": "Per Official BSA Fire Safety Pamphlet, pp. 16-21, Each Scout must actively firerelated the specific principles and real-world steps of Fire-related Injuries. Do the following: (a) Explain and grounded in the official Fire Safety pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Fire Safety Workbook organizer table and practical demonstration for Req 3."
     },
@@ -1154,10 +1182,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Fire Safety Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1177,9 +1207,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Explain the four classifications of fire origin (natural, accidental, incendiary, or undetermined) and give an example of each."
         },
         {
           "sub_id": "4b",
@@ -1207,10 +1240,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Fire Safety Requirement 4b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4b grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4b grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 4b grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1230,9 +1265,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Describe how a fire classified as incendiary might lead to criminal prosecution of a person charged with arson."
         }
       ],
       "resources": [
@@ -1253,13 +1291,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Origins of Fires. Do the following: (a) Explain",
-      "action_verb": "Origins",
+      "topic_title": "Req 4: Origins of Fires",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Fire Safety Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Fire Safety Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)",
+      "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1276,8 +1314,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Origins of Fires. Do the following: (a) Explain is enough for Fire Safety Requirement 4 sign-off.",
-        "fact": "Each Scout must actively origins the specific principles and real-world steps of Origins of Fires. Do the following: (a) Explain grounded in the official Fire Safety pamphlet."
+        "misconception": "Reading a short definition of Origins of Fires is enough for Fire Safety Requirement 4 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Origins of Fires grounded in the official Fire Safety pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Origins of Fires grounded in the official Fire Safety pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1297,63 +1337,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Fire Safety Sub-Req 4a: Explain the four classifications of fire origin (natural, accidental, incendiary, or undetermined) and give an example of each.",
-        "Fire Safety Sub-Req 4b: Describe how a fire classified as incendiary might lead to criminal prosecution of a person charged with arson.",
-        "Core Standard 1 (Req 4): Origins of Fires.",
-        "Core Standard 2 (Req 4): Do the following: (a) Explain the four classifications of fire origin (natural, accidental, incendiary, or undetermined) and give an example of each."
+        "Collect Prepare Tinder: Collect, prepare, and set up tinder, kindling, and fuel for a campfire following the Leave No Trace Seven Principles and the Outdoor Code.",
+        "Teach Skill Topic: Teach your skill or topic to one or more Scouts using the EDGE method.",
+        "Safety Flammable Combustible: Do the Safety with Flammable and Combustible Liquids.",
+        "Fire Safety Sub-Req 4a: Explain the four classifications of fire origin (natural, accidental, incendiary, or undetermined) and give an example of each."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Fire Safety requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Origins of Fires. Do the following: (a) Explain.",
-        "Execute & Document: Perform the origins task methodically with your patrol buddy and log specific observations in your Fire Safety Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 4): Read the official Fire Safety requirement and identify the key questions, terms, or skills covered in Origins of Fires.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Fire Safety Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Explain): Work with your patrol buddy or family (as required) to explain each element of Origins of Fires with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and explain your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Fire Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Fire Safety Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Origins of Fires",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Fire Safety Approach",
-        "right_header": "Official BSA Fire Safety Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Fire Safety Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Fire Safety Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Origins of Fires. Do the following: (a) Explain",
-          "Primary Standard": "Explain the four classifications of fire origin (natural, accidental, incendiary, or undetermined) and give an",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Fire Safety terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Fire Safety Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Origins of Fires",
+          "Primary Standard": "Explain the four classifications of fire origin (natural, accidental, incendiary, or undetermined) and give an example of each.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fire Safety terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Fire Safety Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Fire Safety Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Fire Safety Requirement 4, a Scout claims: \"Reading a short definition of Origins of Fires. Do the following: (a) Explain is enough for Fire Safety Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively origins the specific principles and real-world steps of Origins of Fires. Do the following: (a) Explain grounded in the official Fire Safety pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively origins the specific principles and real-world steps of Origins of Fires. Do the following: (a) Explain grounded in the official Fire Safety pamphlet.",
-        "explanation": "Per Official BSA Fire Safety Pamphlet, pp. 22-27, Each Scout must actively origins the specific principles and real-world steps of Origins of Fires. Do the following: (a) Explain grounded in the official Fire Safety pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Fire Safety Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1394,10 +1411,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Fire Safety Requirement 5a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5a grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5a grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 5a grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1417,9 +1436,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Describe how to prevent the frequent causes of home fires, including unattended cooking, electricity, smoking, clothes dryers, and rechargeable batteries."
         },
         {
           "sub_id": "5b",
@@ -1447,10 +1469,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Fire Safety Requirement 5b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5b grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5b grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 5b grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1470,9 +1494,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Describe how to prevent frequent causes of seasonal and holiday-related home fires, including fires related to home heating, holiday trees, candles, and fireworks."
         },
         {
           "sub_id": "5c",
@@ -1503,10 +1530,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Fire Safety Requirement 5c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5c grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 5c grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1526,9 +1555,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "Demonstrate how to safely light and extinguish a candle. Discuss with your counselor, then with your family, how to safely use candles."
         },
         {
           "sub_id": "5d",
@@ -1556,15 +1588,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Fire Safety hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
             "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Obtain your Merit Badge Counselor's approval on your Fire Safety Req 5d plan before executing the project.",
+            "gate_description": "Review your Fire Safety Req 5d preparation with your Merit Badge Counselor before moving to subsequent tasks.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -1584,9 +1618,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5d",
+          "sub_req_label": "5d",
+          "sub_req_text": "Using the Home Fire Safety Checklist in the Fire Safety merit badge pamphlet or one approved by your counselor, and with the help of an adult, inspect a home (or a similar building near where you live or at a camp) for fire safety hazards. Present your completed checklist to your counselor and discuss your findings."
         },
         {
           "sub_id": "5e",
@@ -1622,10 +1659,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5e is enough for Fire Safety Requirement 5e sign-off.",
-            "fact": "Each Scout must actively determine the specific principles and real-world steps of Req 5e grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1645,9 +1684,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5e",
+          "sub_req_label": "5e",
+          "sub_req_text": "Determine if, and what types of, smoke and CO alarms are required in homes in your community. List what types of smoke and CO alarms your home has, their locations, and their expiration dates."
         },
         {
           "sub_id": "5f",
@@ -1682,10 +1724,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5f is enough for Fire Safety Requirement 5f sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5f grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5f grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5f grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1705,9 +1749,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5f",
+          "sub_req_label": "5f",
+          "sub_req_text": "Demonstrate maintenance of smoke and CO alarms to your counselor and review plans to replace expired alarms."
         },
         {
           "sub_id": "5g",
@@ -1743,10 +1790,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5g is enough for Fire Safety Requirement 5g sign-off.",
-            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 5g grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 5g grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 5g grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1766,9 +1815,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5g",
+          "sub_req_label": "5g",
+          "sub_req_text": "Develop a home fire-escape plan and a fire-drill schedule with your family, draw a floor plan of your home with exits marked and a map showing your family meeting point, and conduct a home fire drill."
         },
         {
           "sub_id": "5h",
@@ -1800,10 +1852,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5h is enough for Fire Safety Requirement 5h sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5h grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5h grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5h grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1823,9 +1877,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5h",
+          "sub_req_label": "5h",
+          "sub_req_text": "Explain what to do and what not to do if you smell natural gas and if you smell smoke."
         },
         {
           "sub_id": "5i",
@@ -1857,10 +1914,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5i is enough for Fire Safety Requirement 5i sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5i grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5i grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5i grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1880,9 +1939,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5i",
+          "sub_req_label": "5i",
+          "sub_req_text": "Explain how you would report a fire to have the fire department respond."
         }
       ],
       "resources": [
@@ -1963,13 +2025,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Fire Safety at Home. Do the following: (a)",
-      "action_verb": "Fire",
+      "topic_title": "Req 5: Fire Safety at Home",
+      "action_verb": "Describe",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Fire Safety Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
+      "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
       "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1990,12 +2052,14 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Fire Safety hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
         "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Obtain your Merit Badge Counselor's approval on your Fire Safety Req 5 plan before executing the project.",
+        "gate_description": "Review your Fire Safety Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -2015,63 +2079,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Fire Safety Sub-Req 5a: Describe how to prevent the frequent causes of home fires, including unattended cooking, electricity, smoking, clothes dryers, and rechargeable batteries.",
-        "Fire Safety Sub-Req 5b: Describe how to prevent frequent causes of seasonal and holiday-related home fires, including fires related to home heating, holiday trees, candles, and fireworks.",
-        "Fire Safety Sub-Req 5c: Demonstrate how to safely light and extinguish a candle. Discuss with your counselor, then with your family, how to safely use candles.",
-        "Fire Safety Sub-Req 5d: Using the Home Fire Safety Checklist in the Fire Safety merit badge pamphlet or one approved by your counselor, and with the help of."
+        "Collect Prepare Tinder: Collect, prepare, and set up tinder, kindling, and fuel for a campfire following the Leave No Trace Seven Principles and the Outdoor Code.",
+        "Teach Skill Topic: Teach your skill or topic to one or more Scouts using the EDGE method.",
+        "Safety Flammable Combustible: Do the Safety with Flammable and Combustible Liquids.",
+        "Fire Safety Public: Do the following Fire Safety in Public Buildings."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Fire Safety requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Fire Safety at Home. Do the following: (a).",
-        "Execute & Document: Perform the fire task methodically with your patrol buddy and log specific observations in your Fire Safety Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 5): Read the official Fire Safety requirement and identify the key questions, terms, or skills covered in Fire Safety at Home.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Fire Safety Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Describe): Work with your patrol buddy or family (as required) to describe each element of Fire Safety at Home with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and describe your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Fire Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Fire Safety Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Fire Safety at Home",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Fire Safety Approach",
-        "right_header": "Official BSA Fire Safety Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Fire Safety Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Fire Safety Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Fire Safety at Home. Do the following: (a)",
-          "Primary Standard": "Describe how to prevent the frequent causes of home fires, including unattended cooking, electricity, smoking,",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Fire Safety terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Fire Safety Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Fire Safety at Home",
+          "Primary Standard": "Describe how to prevent the frequent causes of home fires, including unattended cooking, electricity, smoking, clothes dryers, and rechargeable batteries.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fire Safety terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Fire Safety Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Fire Safety Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Fire Safety Requirement 5, a Scout claims: \"Scouts can jump straight into Fire Safety hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
-        "explanation": "Per Official BSA Fire Safety Pamphlet, pp. 28-33, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Fire Safety Workbook organizer table and practical demonstration for Req 5."
     },
@@ -2112,10 +2153,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Fire Safety Requirement 6a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2135,9 +2178,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Explain what flammable and combustible liquids are commonly used in homes and how to safely store them."
         },
         {
           "sub_id": "6b",
@@ -2165,10 +2211,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Fire Safety Requirement 6b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6b grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6b grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 6b grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2188,9 +2236,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Describe the safe way to refuel a liquid-fueled engine, such as a lawn mower, outboard motor, farm machine, or automobile with fuel from an approved container."
         },
         {
           "sub_id": "6c",
@@ -2222,10 +2273,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Fire Safety hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2245,9 +2298,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Describe the options available for safely disposing of unwanted flammable, combustible, and hazardous substances in your community."
         }
       ],
       "resources": [
@@ -2280,13 +2336,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Safety with Flammable and Combustible Liquids. Do the",
-      "action_verb": "Safety",
+      "topic_title": "Req 6: Safety with Flammable and Combustible Liquids",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Fire Safety Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Fire Safety Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
+      "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2304,7 +2360,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Fire Safety hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2324,63 +2382,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Fire Safety Sub-Req 6a: Explain what flammable and combustible liquids are commonly used in homes and how to safely store them.",
-        "Fire Safety Sub-Req 6b: Describe the safe way to refuel a liquid-fueled engine, such as a lawn mower, outboard motor, farm machine, or automobile with fuel from an approved container.",
-        "Fire Safety Sub-Req 6c: Describe the options available for safely disposing of unwanted flammable, combustible, and hazardous substances in your community.",
-        "Core Standard 1 (Req 6): Safety with Flammable and Combustible Liquids."
+        "Safety Flammable Combustible: Do the Safety with Flammable and Combustible Liquids.",
+        "Collect Prepare Tinder: Collect, prepare, and set up tinder, kindling, and fuel for a campfire following the Leave No Trace Seven Principles and the Outdoor Code.",
+        "Teach Skill Topic: Teach your skill or topic to one or more Scouts using the EDGE method.",
+        "Fire Safety Public: Do the following Fire Safety in Public Buildings."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Fire Safety requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Safety with Flammable and Combustible Liquids. Do the.",
-        "Execute & Document: Perform the safety task methodically with your patrol buddy and log specific observations in your Fire Safety Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 6): Read the official Fire Safety requirement and identify the key questions, terms, or skills covered in Safety with Flammable and Combustible Liquids.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Fire Safety Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Explain): Work with your patrol buddy or family (as required) to explain each element of Safety with Flammable and Combustible Liquids with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and explain your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Fire Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Fire Safety Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Safety with Flammable and Combustible Liquids",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Fire Safety Approach",
-        "right_header": "Official BSA Fire Safety Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Fire Safety Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Fire Safety Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Safety with Flammable and Combustible Liquids. Do the",
+          "Requirement & Topic": "Req 6 - Safety with Flammable and Combustible Liquids",
           "Primary Standard": "Explain what flammable and combustible liquids are commonly used in homes and how to safely store them.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Fire Safety terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Fire Safety Pamphlet, pp. 34-39."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fire Safety terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Fire Safety Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Fire Safety Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Fire Safety Requirement 6, a Scout claims: \"Scouts can jump straight into Fire Safety hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries.",
-        "explanation": "Per Official BSA Fire Safety Pamphlet, pp. 34-39, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fire Safety prevents most field injuries."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Fire Safety Workbook organizer table and practical demonstration for Req 6."
     },
@@ -2421,10 +2456,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Fire Safety Requirement 7a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2444,9 +2481,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Explain how public buildings are designed for fire safety."
         },
         {
           "sub_id": "7b",
@@ -2474,10 +2514,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Fire Safety Requirement 7b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2497,9 +2539,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Explain what fire safety systems and equipment can be found in public buildings."
         },
         {
           "sub_id": "7c",
@@ -2527,10 +2572,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7c is enough for Fire Safety Requirement 7c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2550,9 +2597,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7c",
+          "sub_req_label": "7c",
+          "sub_req_text": "Explain what fire safety precautions you should take when you are in a public building."
         }
       ],
       "resources": [
@@ -2581,13 +2631,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Fire Safety in Public Buildings. Do the following",
-      "action_verb": "Fire",
+      "topic_title": "Req 7: Fire Safety in Public Buildings",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Fire Safety Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Fire Safety Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)",
+      "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2604,8 +2654,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Fire Safety in Public Buildings. Do the following is enough for Fire Safety Requirement 7 sign-off.",
-        "fact": "Each Scout must actively fire the specific principles and real-world steps of Fire Safety in Public Buildings. Do the following grounded in the official Fire Safety pamphlet."
+        "misconception": "Reading a short definition of Fire Safety in Public Buildings is enough for Fire Safety Requirement 7 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Fire Safety in Public Buildings grounded in the official Fire Safety pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Fire Safety in Public Buildings grounded in the official Fire Safety pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2625,63 +2677,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
+        "Fire Safety Public: Do the following Fire Safety in Public Buildings.",
+        "Safety Flammable Combustible: Do the Safety with Flammable and Combustible Liquids.",
         "Fire Safety Sub-Req 7a: Explain how public buildings are designed for fire safety.",
-        "Fire Safety Sub-Req 7b: Explain what fire safety systems and equipment can be found in public buildings.",
-        "Fire Safety Sub-Req 7c: Explain what fire safety precautions you should take when you are in a public building.",
-        "Core Standard 1 (Req 7): Fire Safety in Public Buildings."
+        "Fire Safety Sub-Req 7b: Explain what fire safety systems and equipment can be found in public buildings."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Fire Safety requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Fire Safety in Public Buildings. Do the following.",
-        "Execute & Document: Perform the fire task methodically with your patrol buddy and log specific observations in your Fire Safety Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 7): Read the official Fire Safety requirement and identify the key questions, terms, or skills covered in Fire Safety in Public Buildings.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Fire Safety Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Explain): Work with your patrol buddy or family (as required) to explain each element of Fire Safety in Public Buildings with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and explain your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Fire Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Fire Safety Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Fire Safety in Public Buildings",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Fire Safety Approach",
-        "right_header": "Official BSA Fire Safety Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Fire Safety Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Fire Safety Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Fire Safety in Public Buildings. Do the following",
+          "Requirement & Topic": "Req 7 - Fire Safety in Public Buildings",
           "Primary Standard": "Explain how public buildings are designed for fire safety.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Fire Safety terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Fire Safety Pamphlet, pp. 40-45."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fire Safety terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Fire Safety Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Fire Safety Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Fire Safety Requirement 7, a Scout claims: \"Reading a short definition of Fire Safety in Public Buildings. Do the following is enough for Fire Safety Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively fire the specific principles and real-world steps of Fire Safety in Public Buildings. Do the following grounded in the official Fire Safety pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively fire the specific principles and real-world steps of Fire Safety in Public Buildings. Do the following grounded in the official Fire Safety pamphlet.",
-        "explanation": "Per Official BSA Fire Safety Pamphlet, pp. 40-45, Each Scout must actively fire the specific principles and real-world steps of Fire Safety in Public Buildings. Do the following grounded in the official Fire Safety pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Fire Safety Workbook organizer table and practical demonstration for Req 7."
     },
@@ -2718,10 +2747,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Fire Safety Requirement 8a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2741,9 +2772,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "Explain how the Leave No Trace Seven Principles and the Outdoor Code apply to camping fires."
         },
         {
           "sub_id": "8b",
@@ -2778,10 +2812,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Fire Safety Requirement 8b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8b grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8b grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8b grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2801,9 +2837,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "Demonstrate lighting a match safely, the proper way to extinguish it, and to dispose of it. Explain the similarities and differences between safety matches and strike-anywhere matches."
         },
         {
           "sub_id": "8c",
@@ -2842,10 +2881,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Fire Safety Requirement 8c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2865,9 +2906,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "Explain and demonstrate making sparks with flint and steel or with a ferro rod and catching a spark to create a flame. Extinguish the flame safely using one of the principles of the fire tetrahedron."
         },
         {
           "sub_id": "8d",
@@ -2902,10 +2946,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8d is enough for Fire Safety Requirement 8d sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8d grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8d grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8d grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2925,9 +2971,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8d",
+          "sub_req_label": "8d",
+          "sub_req_text": "Demonstrate the safe way to start a charcoal fire."
         },
         {
           "sub_id": "8e",
@@ -2963,10 +3012,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8e is enough for Fire Safety Requirement 8e sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 8e grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 8e grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 8e grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2986,9 +3037,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8e",
+          "sub_req_label": "8e",
+          "sub_req_text": "Describe three common campsite fire lays. Collect, prepare, and set up tinder, kindling, and fuel for a campfire following the Leave No Trace Seven Principles and the Outdoor Code. Ignite your fire lay and safely extinguish your fire."
         },
         {
           "sub_id": "8f",
@@ -3019,10 +3073,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8f is enough for Fire Safety Requirement 8f sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8f grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8f grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8f grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3042,9 +3098,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8f",
+          "sub_req_label": "8f",
+          "sub_req_text": "Demonstrate using a camp stove."
         },
         {
           "sub_id": "8g",
@@ -3072,10 +3131,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8g is enough for Fire Safety Requirement 8g sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8g grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8g grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8g grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3095,9 +3156,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8g",
+          "sub_req_label": "8g",
+          "sub_req_text": "Explain how to set up and keep a campsite safe from fire."
         },
         {
           "sub_id": "8h",
@@ -3125,10 +3189,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8h is enough for Fire Safety Requirement 8h sign-off.",
-            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 8h grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 8h grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 8h grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3148,9 +3214,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8h",
+          "sub_req_label": "8h",
+          "sub_req_text": "Develop a lesson plan to teach a fire safety skill or topic, such as lighting a candle or a match or a charcoal fire or a lantern or a camp stove or using flint and steel or setting up a fire lay. Review your lesson plan with your counselor. Teach your skill or topic to one or more Scouts using the EDGE method."
         }
       ],
       "resources": [
@@ -3219,13 +3288,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Fire Safety at Camp. Do the following: (a)",
-      "action_verb": "Fire",
+      "topic_title": "Req 8: Leave No Trace & Outdoor Ethics",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Fire Safety Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Fire Safety Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
+      "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -3245,8 +3314,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Fire Safety at Camp. Do the following: (a) is enough for Fire Safety Requirement 8 sign-off.",
-        "fact": "Each Scout must actively fire the specific principles and real-world steps of Fire Safety at Camp. Do the following: (a) grounded in the official Fire Safety pamphlet."
+        "misconception": "Reading a short definition of Leave No Trace & Outdoor Ethics is enough for Fire Safety Requirement 8 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Fire Safety pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Fire Safety pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3266,63 +3337,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Fire Safety Sub-Req 8a: Explain how the Leave No Trace Seven Principles and the Outdoor Code apply to camping fires.",
-        "Fire Safety Sub-Req 8b: Demonstrate lighting a match safely, the proper way to extinguish it, and to dispose of it. Explain the similarities and differences between safety matches.",
-        "Fire Safety Sub-Req 8c: Explain and demonstrate making sparks with flint and steel or with a ferro rod and catching a spark to create a flame. Extinguish the.",
-        "Fire Safety Sub-Req 8d: Demonstrate the safe way to start a charcoal fire."
+        "Collect Prepare Tinder: Collect, prepare, and set up tinder, kindling, and fuel for a campfire following the Leave No Trace Seven Principles and the Outdoor Code.",
+        "Teach Skill Topic: Teach your skill or topic to one or more Scouts using the EDGE method.",
+        "Safety Flammable Combustible: Do the Safety with Flammable and Combustible Liquids.",
+        "Fire Safety Public: Do the following Fire Safety in Public Buildings."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Fire Safety requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Fire Safety at Camp. Do the following: (a).",
-        "Execute & Document: Perform the fire task methodically with your patrol buddy and log specific observations in your Fire Safety Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 8): Read the official Fire Safety requirement and identify the key questions, terms, or skills covered in Leave No Trace & Outdoor Ethics.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Fire Safety Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Explain): Work with your patrol buddy or family (as required) to explain each element of Leave No Trace & Outdoor Ethics with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and explain your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Fire Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Fire Safety Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Leave No Trace & Outdoor Ethics",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Fire Safety Approach",
-        "right_header": "Official BSA Fire Safety Pamphlet Standard",
+        "right_header": "Official BSA Fire Safety Standard (Leave No Trace & Outdoor Ethics)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Leave No Trace & Outdoor Ethics.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Fire Safety Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Fire Safety Workbook organizer.",
+          "Clearly demonstrates and explains Leave No Trace & Outdoor Ethics using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Fire Safety Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - Fire Safety at Camp. Do the following: (a)",
+          "Requirement & Topic": "Req 8 - Leave No Trace & Outdoor Ethics",
           "Primary Standard": "Explain how the Leave No Trace Seven Principles and the Outdoor Code apply to camping fires.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Fire Safety terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Fire Safety Pamphlet, pp. 46-51."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fire Safety terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Fire Safety Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Fire Safety Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Fire Safety Requirement 8, a Scout claims: \"Reading a short definition of Fire Safety at Camp. Do the following: (a) is enough for Fire Safety Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively fire the specific principles and real-world steps of Fire Safety at Camp. Do the following: (a) grounded in the official Fire Safety pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively fire the specific principles and real-world steps of Fire Safety at Camp. Do the following: (a) grounded in the official Fire Safety pamphlet.",
-        "explanation": "Per Official BSA Fire Safety Pamphlet, pp. 46-51, Each Scout must actively fire the specific principles and real-world steps of Fire Safety at Camp. Do the following: (a) grounded in the official Fire Safety pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Fire Safety Workbook organizer table and practical demonstration for Req 8."
     },
@@ -3359,10 +3420,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9a is enough for Fire Safety Requirement 9a sign-off.",
-            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 9a grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 9a grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 9a grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3382,9 +3445,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9a",
+          "sub_req_label": "9a",
+          "sub_req_text": "List causes of wildland fires and ways to prevent them."
         },
         {
           "sub_id": "9b",
@@ -3420,10 +3486,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9b is enough for Fire Safety Requirement 9b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Fire Safety pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Fire Safety pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Fire Safety pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3443,9 +3511,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9b",
+          "sub_req_label": "9b",
+          "sub_req_text": "Explain the social, economic, and environmental consequences of wildland fires."
         }
       ],
       "resources": [
@@ -3474,13 +3545,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Wildland Fires. Do the following: (a) List causes",
+      "topic_title": "Req 9: Wildland Fires",
       "action_verb": "List",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Fire Safety Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Fire Safety Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)",
+      "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3497,8 +3568,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Wildland Fires. Do the following: (a) List causes is enough for Fire Safety Requirement 9 sign-off.",
-        "fact": "Each Scout must actively list the specific principles and real-world steps of Wildland Fires. Do the following: (a) List causes grounded in the official Fire Safety pamphlet."
+        "misconception": "Reading a short definition of Wildland Fires is enough for Fire Safety Requirement 9 sign-off.",
+        "fact": "Each Scout must actively list the specific principles and real-world steps of Wildland Fires grounded in the official Fire Safety pamphlet.",
+        "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Wildland Fires grounded in the official Fire Safety pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3518,63 +3591,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
+        "Safety Flammable Combustible: Do the Safety with Flammable and Combustible Liquids.",
+        "Fire Safety Public: Do the following Fire Safety in Public Buildings.",
         "Fire Safety Sub-Req 9a: List causes of wildland fires and ways to prevent them.",
-        "Fire Safety Sub-Req 9b: Explain the social, economic, and environmental consequences of wildland fires.",
-        "Core Standard 1 (Req 9): Wildland Fires.",
-        "Core Standard 2 (Req 9): Do the following: (a) List causes of wildland fires and ways to prevent them."
+        "Fire Safety Sub-Req 9b: Explain the social, economic, and environmental consequences of wildland fires."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Fire Safety requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Wildland Fires. Do the following: (a) List causes.",
-        "Execute & Document: Perform the list task methodically with your patrol buddy and log specific observations in your Fire Safety Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 9): Read the official Fire Safety requirement and identify the key questions, terms, or skills covered in Wildland Fires.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Fire Safety Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (List): Work with your patrol buddy or family (as required) to list each element of Wildland Fires with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and list your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Fire Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Fire Safety Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Wildland Fires",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Fire Safety Approach",
-        "right_header": "Official BSA Fire Safety Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Fire Safety Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Fire Safety Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Wildland Fires. Do the following: (a) List causes",
+          "Requirement & Topic": "Req 9 - Wildland Fires",
           "Primary Standard": "List causes of wildland fires and ways to prevent them.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Fire Safety terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Fire Safety Pamphlet, pp. 52-57."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fire Safety terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Fire Safety Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Fire Safety Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Fire Safety Requirement 9, a Scout claims: \"Reading a short definition of Wildland Fires. Do the following: (a) List causes is enough for Fire Safety Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively list the specific principles and real-world steps of Wildland Fires. Do the following: (a) List causes grounded in the official Fire Safety pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively list the specific principles and real-world steps of Wildland Fires. Do the following: (a) List causes grounded in the official Fire Safety pamphlet.",
-        "explanation": "Per Official BSA Fire Safety Pamphlet, pp. 52-57, Each Scout must actively list the specific principles and real-world steps of Wildland Fires. Do the following: (a) List causes grounded in the official Fire Safety pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Fire Safety Workbook organizer table and practical demonstration for Req 9."
     },
@@ -3615,10 +3665,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Fire Safety career exploration requirement.",
-            "fact": "Scouts must research three Fire Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Fire Safety career exploration requirement.",
+            "fact": "Scouts must research specific Fire Safety career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Fire Safety career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3638,9 +3690,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10a",
+          "sub_req_label": "10a",
+          "sub_req_text": "Visit a fire station in-person. Identify the various types of fire service vehicles. From the firefighters you meet during your visit, learn about the fire prevention activities in your community and about their careers. Discuss with your counselor what you learned during your tour and interviews."
         },
         {
           "sub_id": "10b",
@@ -3672,10 +3727,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Fire Safety career exploration requirement.",
-            "fact": "Scouts must research three Fire Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Fire Safety career exploration requirement.",
+            "fact": "Scouts must research specific Fire Safety career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Fire Safety career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3695,9 +3752,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10b",
+          "sub_req_label": "10b",
+          "sub_req_text": "Identify three career opportunities that would use skills and knowledge in the field of fire safety. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career."
         }
       ],
       "resources": [
@@ -3726,13 +3786,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 10: Fire Safety Careers, Training & Hobby Pathways",
+      "topic_title": "Req 10: Careers & Professional Pathways",
       "action_verb": "Visit",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Fire Safety Requirement 10 activities.",
-      "pamphlet_citation": "Official BSA Fire Safety Pamphlet, pp. 58-63",
-      "pamphlet_page_citation": "Official BSA Fire Safety Pamphlet, pp. 58-63",
+      "pamphlet_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)",
+      "pamphlet_page_citation": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3749,8 +3809,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Fire Safety career exploration requirement.",
-        "fact": "Scouts must research three Fire Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Fire Safety career exploration requirement.",
+        "fact": "Scouts must research specific Fire Safety career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Fire Safety career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3770,68 +3832,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Fire Safety Sub-Req 10a: Visit a fire station in-person. Identify the various types of fire service vehicles. From the firefighters you meet during your visit, learn about the.",
-        "Fire Safety Sub-Req 10b: Identify three career opportunities that would use skills and knowledge in the field of fire safety. Pick one and research the training, education, certification.",
-        "Core Standard 1 (Req 10): Do ONE of the following: (a) Visit a fire station in-person.",
-        "Core Standard 2 (Req 10): Identify the various types of fire service vehicles."
+        "Safety Flammable Combustible: Do the Safety with Flammable and Combustible Liquids.",
+        "Fire Safety Public: Do the following Fire Safety in Public Buildings.",
+        "Fire Safety Sub-Req 10a: Visit a fire station in-person.",
+        "Fire Safety Sub-Req 10b: Identify three career opportunities that would use skills and knowledge in the field of fire safety."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 10): Review the official Fire Safety requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Fire Safety Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the visit task methodically with your patrol buddy and log specific observations in your Fire Safety Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 10): Read the official Fire Safety requirement and identify the key questions, terms, or skills covered in Careers & Professional Pathways.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Fire Safety Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Visit): Work with your patrol buddy or family (as required) to visit each element of Careers & Professional Pathways with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and visit your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Fire Safety Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 10)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Fire Safety Req 10",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Fire Safety Approach",
-        "right_header": "Official BSA Fire Safety Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 10.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 10.",
-          "Records concrete measurements, examples, and citations from Official BSA Fire Safety Pamphlet, pp. 58-63.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Fire Safety Req 10",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 10 - Fire Safety Careers, Training & Hobby Pathways",
-          "Primary Standard": "Visit a fire station in-person. Identify the various types of fire service vehicles. From the firefighters you",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Fire Safety terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Fire Safety Pamphlet, pp. 58-63."
+          "Requirement & Topic": "Req 10 - Careers & Professional Pathways",
+          "Primary Standard": "Visit a fire station in-person.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fire Safety terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Fire Safety Req 10 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Fire Safety Req 10 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Fire Safety Requirement 10, a Scout claims: \"Listing three job titles from a web search satisfies the Fire Safety career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Fire Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 10 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Fire Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Fire Safety Pamphlet, pp. 58-63, Scouts must research three Fire Safety careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Fire Safety Workbook organizer table and practical demonstration for Req 10."
     }
   ],
   "badge_slug": "fire-safety",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

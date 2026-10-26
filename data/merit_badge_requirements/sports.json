@@ -56,10 +56,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Sports Requirement 1a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -79,9 +81,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain to your counselor the most likely risks you may encounter while participating in sports and what you should do to anticipate, prevent, mitigate, and respond to those risks."
         },
         {
           "sub_id": "1b",
@@ -120,10 +125,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)",
           "common_misconception_pair": {
             "misconception": "Straighten an angled bone or dislocated joint before tying a rigid splint.",
-            "fact": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying."
+            "fact": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying.",
+            "fact_correction": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -143,9 +150,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Show that you know first aid or understand the treatment for injuries that could occur while participating in sports, including sprains; strains; muscle cramps; contusions; abrasions; blisters; dehydration; heat reactions; fractures; injured teeth; head, neck, and back injuries; and concussions."
         }
       ],
       "resources": [
@@ -182,13 +192,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: (a) Explain to your counselor the most likely",
+      "topic_title": "Req 1: Risks in sports",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Sports Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Sports Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)",
+      "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
@@ -208,7 +218,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Sports hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Sports prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Sports prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Sports prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -228,62 +240,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Sports Sub-Req 1a: Explain to your counselor the most likely risks you may encounter while participating in sports and what you should do to anticipate, prevent, mitigate.",
-        "Sports Sub-Req 1b: Show that you know first aid or understand the treatment for injuries that could occur while participating in sports, including sprains; strains; muscle cramps.",
-        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely risks you may encounter while participating in sports and what you should do to anticipate, prevent, mitigate, and respond to those risks.",
-        "Core Standard 2 (Req 1): (b) Show that you know first aid or understand the treatment for injuries that could occur while participating in sports, including sprains."
+        "Blisters Caused Continual: Blisters are usually caused by continual rubbing againstthe skin.",
+        "Friction Cause Hot: This friction will cause a hot spot, which signals thebeginning of a blister.",
+        "Blisters Feet Commonand: Blisters on the feet are the most commonand troublesome type.",
+        "Wear Properly Fittingshoes: So be sure that you wear properly fittingshoes and appropriate socks."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain to your counselor the most likely.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Feel Hot Spot: If you feel a hot spot developing, stop immediately and protect the tender area by applying anadhesive bandage or moleskin.",
+        "Blister Drained Wash: If a blister must be drained, first wash the blister with mildsoap and water.",
+        "Prickthe Edge Blister: Prickthe edge of the blister with a needle that has been sterilized in a flame.",
+        "Cover Itwith Adhesive: Cover itwith an adhesive bandage or other sterile dressing."
       ],
       "gear_checklist": [
         "Official Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Sports Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Risks in sports",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Sports Approach",
-        "right_header": "Official BSA Sports Pamphlet Standard",
+        "right_header": "Official BSA Sports Standard (Risks in sports)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Risks in sports.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Sports Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Sports Workbook organizer.",
+          "Clearly demonstrates and explains Risks in sports using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Sports Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) Explain to your counselor the most likely",
-          "Primary Standard": "Explain to your counselor the most likely risks you may encounter while participating in sports and what you s",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Sports Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Risks in sports",
+          "Primary Standard": "Explain to your counselor the most likely risks you may encounter while participating in sports and what you should do to anticipate, prevent, mitigate, and respond to those risks.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Sports Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Sports Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Sports Requirement 1, a Scout claims: \"Scouts can jump straight into Sports hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Sports (Risks in sports), which patrol preparation step best aligns with the official Sports standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Sports prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Sports hazards, PPE, and prerequisite standards in Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Sports prevents most field injuries.",
-        "explanation": "Per Official BSA Sports Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Sports prevents most field injuries."
+        "correct_answer": "Option A - Review the Sports hazards, PPE, and prerequisite standards in Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Sports Workbook organizer table and practical demonstration for Req 1."
@@ -321,10 +333,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Sports Requirement 2a sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 2a grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -344,9 +358,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "The importance of the physical exam"
         },
         {
           "sub_id": "2b",
@@ -361,23 +378,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Sports Requirement 2b sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 2b grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -397,9 +419,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "The importance of maintaining good health habits for life (such as exercising regularly), and how the use of tobacco products, alcohol, and other harmful substances can negatively affect your health and your performance in sports activities"
         },
         {
           "sub_id": "2c",
@@ -427,10 +452,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2c is enough for Sports Requirement 2c sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 2c grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -450,9 +477,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2c",
+          "sub_req_label": "2c",
+          "sub_req_text": "The importance of maintaining a healthy diet"
         }
       ],
       "resources": [
@@ -477,31 +507,36 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Explain the following: (a) The importance of the",
+      "topic_title": "Req 2: The importance of the physical exam",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Sports Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Sports Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)",
+      "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Explain the following: (a) The importance of the is enough for Sports Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) The importance of the grounded in the official Sports pamphlet."
+        "misconception": "Reading a short definition of The importance of the physical exam is enough for Sports Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of The importance of the physical exam grounded in the official Sports pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The importance of the physical exam grounded in the official Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -521,63 +556,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Sports Sub-Req 2a: The importance of the physical exam",
-        "Sports Sub-Req 2b: The importance of maintaining good health habits for life (such as exercising regularly), and how the use of tobacco products, alcohol, and other harmful.",
-        "Sports Sub-Req 2c: The importance of maintaining a healthy diet",
-        "Core Standard 1 (Req 2): Explain the following: (a) The importance of the physical exam (b) The importance of maintaining good health habits for life (such as exercising regularly), and how the use of tobacco products, alcohol, and other harmful substances can negatively affect your health and your performance in sports activities (c) The importance of maintaining a healthy diet."
+        "Healthy Performer Sports: To be a strong, healthy performer in sports and in life, avoidtobacco, alcohol, and other harmful substances.",
+        "Tobacco Smoke Interferes: Tobacco smoke interferes with proper lung growth and function.",
+        "Coats Lungs Sticky: It coats the lungs with sticky tars and injures the airwaysand air sacs of the lungs.",
+        "Athletes Their Lungs: Athletes need their lungs working atpeak capacity."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain the following: (a) The importance of the.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Usingtobacco Leave Gasping: Usingtobacco can leave you gasping for air when you need it most.",
+        "Tobacco-free Stamina: Being tobacco-free gives you the stamina to playsports.",
+        "Blood Carries Poisons: The blood carries the poisons from smoking to all parts of the body, from thebrain to the bladder.",
+        "Scientists Now Smoking: Scientists now know that smoking causescancers of the mouth, the larynx (voice box), the lungs, and thekidneys."
       ],
       "gear_checklist": [
         "Official Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Sports Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The importance of the physical exam",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Sports Approach",
-        "right_header": "Official BSA Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Sports Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Sports Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Explain the following: (a) The importance of the",
-          "Primary Standard": "The importance of the physical exam",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Sports Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - The importance of the physical exam",
+          "Primary Standard": "The importance of the physical exam.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Sports Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Sports Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Sports Requirement 2, a Scout claims: \"Reading a short definition of Explain the following: (a) The importance of the is enough for Sports Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) The importance of the grounded in the official Sports pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) The importance of the grounded in the official Sports pamphlet.",
-        "explanation": "Per Official BSA Sports Pamphlet, pp. 10-15, Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) The importance of the grounded in the official Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Sports Workbook organizer table and practical demonstration for Req 2."
     },
@@ -614,10 +626,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Sports Requirement 3a sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 3a grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -637,9 +651,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "The importance of warming up and cooling down"
         },
         {
           "sub_id": "3b",
@@ -667,10 +684,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Sports Requirement 3b sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 3b grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -690,9 +709,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "The importance of weight training"
         },
         {
           "sub_id": "3c",
@@ -720,10 +742,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Sports career exploration requirement.",
-            "fact": "Scouts must research three Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Sports career exploration requirement.",
+            "fact": "Scouts must research specific Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -743,9 +767,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3c",
+          "sub_req_label": "3c",
+          "sub_req_text": "What an amateur athlete is and the differences between an amateur and a professional athlete"
         },
         {
           "sub_id": "3d",
@@ -773,10 +800,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3d is enough for Sports Requirement 3d sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 3d grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -796,9 +825,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3d",
+          "sub_req_label": "3d",
+          "sub_req_text": "The attributes (qualities) of a good sport, the importance of sportsmanship, and the traits of a good team leader and player who exhibits Scout spirit on and off the playing field"
         }
       ],
       "resources": [
@@ -827,13 +859,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Sports Careers, Training & Hobby Pathways",
+      "topic_title": "Req 3: The importance of warming up",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Sports Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Sports Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
+      "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -850,8 +882,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Sports career exploration requirement.",
-        "fact": "Scouts must research three Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Sports career exploration requirement.",
+        "fact": "Scouts must research specific Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -871,63 +905,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Sports Sub-Req 3a: The importance of warming up and cooling down",
-        "Sports Sub-Req 3b: The importance of weight training",
-        "Sports Sub-Req 3c: What an amateur athlete is and the differences between an amateur and a professional athlete",
-        "Sports Sub-Req 3d: The attributes (qualities) of a good sport, the importance of sportsmanship, and the traits of a good team leader and player who exhibits Scout."
+        "Sportsmanship Means: Sometimes good sportsmanship means accepting whatmight be a poor decision made by an official, referee, orumpire.",
+        "Remember Struggling Sport: Remember, when you are struggling to be a good sport, that you have promised to exhibit the Scout spirit.",
+        "Showyour Spirit Cheerful: You showyour Scout spirit with a cheerful smile and living by the Scout Oath, which includes helping other people at all times.",
+        "Canbe Hard Sport: It canbe hard to be a good sport but you can always take pride in it."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Sports Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Having Difficulty Officials: If you are having difficulty with the officials’ rulings, try to putyourself in their shoes.",
+        "Official Point View: From the official’s point of view, thedecision was consistent and fair.",
+        "Truly Disagree Officiating: If you truly disagree with the officiating after the game, it is acceptable to write a letter to the league commissioner orofficiating.",
+        "Considertaking Course: Also considertaking a course to qualify as an official."
       ],
       "gear_checklist": [
         "Official Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Sports Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The importance of warming up",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Sports Approach",
-        "right_header": "Official BSA Sports Pamphlet Standard",
+        "right_header": "Official BSA Sports Standard (The importance of warming up)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during The importance of warming up.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Sports Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Sports Workbook organizer.",
+          "Clearly demonstrates and explains The importance of warming up using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Sports Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Sports Careers, Training & Hobby Pathways",
-          "Primary Standard": "The importance of warming up and cooling down",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Sports Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - The importance of warming up",
+          "Primary Standard": "The importance of warming up and cooling down.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Sports Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Sports Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Sports Requirement 3, a Scout claims: \"Listing three job titles from a web search satisfies the Sports career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Sports Pamphlet, pp. 16-21, Scouts must research three Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Sports Workbook organizer table and practical demonstration for Req 3."
     },
@@ -947,13 +971,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Select TWO of the following sports and discuss",
-      "action_verb": "Select",
+      "topic_title": "Req 4: How you will complete the requirements",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Sports Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Sports Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 27, p. 28)",
+      "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 27, p. 28)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -970,8 +994,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Select TWO of the following sports and discuss is enough for Sports Requirement 4 sign-off.",
-        "fact": "Each Scout must actively select the specific principles and real-world steps of Select TWO of the following sports and discuss grounded in the official Sports pamphlet."
+        "misconception": "Reading a short definition of How you will complete the requirements is enough for Sports Requirement 4 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of How you will complete the requirements grounded in the official Sports pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of How you will complete the requirements grounded in the official Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 27, p. 28)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -991,63 +1017,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 4): Select TWO of the following sports and discuss with your counselor how you will complete the requirements in 5(a) through 5(h) for each sport: badminton, baseball, basketball, bowling, cross-country, diving, field hockey, flag football, flag team, golf, gymnastics, ice hockey, lacrosse, soccer, softball, spirit/cheerleading, swimming, table tennis, tackle football, tennis, track and field, volleyball, water polo, and/or wrestling.",
-        "Core Standard 2 (Req 4): Your counselor may approve in advance other recognized sports, but not any sport that is prohibited by Scouting America.",
-        "Core Standard 3 (Req 4): The sports you choose must include regular practice sessions and at least four structured, officiated, scored games, meets, or contests against other competitive individuals or organized teams during the period of participation.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Sports Workbook before requesting Requirement 4 sign-off."
+        "Sports Spectators Follow: If a Sports spectators also need to follow rules of etiquette.",
+        "Clap Respect Team: Clap with respect for your team but never boo the opposingteam.",
+        "Injured Player Down: When an injured player who was down on the fieldrecovers or is carried off, it is polite to clap in appreciationof the player’s effort.",
+        "Ingeneral Musthave: Ingeneral, you musthave possessionin order to score, so havingpossession ofthe ball is to yourteam’s advantage."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Select TWO of the following sports and discuss.",
-        "Execute & Document: Perform the select task methodically with your patrol buddy and log specific observations in your Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Coin Toss Begin: The coin toss is used to begin baseball, basketball, fieldhockey, football, ice hockey, lacrosse, soccer, softball, table tennis, tennis, volleyball.",
+        "Visiting Team Captain: The visiting team captain will call “heads” or “tails” while the coin is in the air.",
+        "Winner Coin Tosschooses: The winner of the coin tosschooses either which side of the field or court to defendor whether to have possession of the ball for the kickoffor.",
+        "Baseball Softball Coin: In baseball and softball, the coin toss winnerpicks the first team up to bat."
       ],
       "gear_checklist": [
         "Official Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Sports Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for How you will complete the requirements",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Sports Approach",
-        "right_header": "Official BSA Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Sports Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Sports Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Select TWO of the following sports and discuss",
-          "Primary Standard": "Select TWO of the following sports and discuss with your counselor how you will complete the requirements in 5",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Sports Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - How you will complete the requirements",
+          "Primary Standard": "Select TWO of the following sports and discuss with your counselor how you will complete the requirements in 5(a) through 5(h) for each sport: badminton, baseball, basketball, bowling, cross-country, diving, field hockey, flag football, flag team.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Sports Merit Badge Pamphlet (p. 27, p. 28) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Sports Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Sports Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Sports Requirement 4, a Scout claims: \"Reading a short definition of Select TWO of the following sports and discuss is enough for Sports Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively select the specific principles and real-world steps of Select TWO of the following sports and discuss grounded in the official Sports pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively select the specific principles and real-world steps of Select TWO of the following sports and discuss grounded in the official Sports pamphlet.",
-        "explanation": "Per Official BSA Sports Pamphlet, pp. 22-27, Each Scout must actively select the specific principles and real-world steps of Select TWO of the following sports and discuss grounded in the official Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Sports Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1092,10 +1095,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Sports Requirement 5a sign-off.",
-            "fact": "Each Scout must actively with the specific principles and real-world steps of Req 5a grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1115,9 +1120,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "With guidance from your counselor, establish a suitable personal training program that you will follow throughout your competition season (or for three months)."
         },
         {
           "sub_id": "5b",
@@ -1149,10 +1157,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Sports Requirement 5b sign-off.",
-            "fact": "Each Scout must actively create the specific principles and real-world steps of Req 5b grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively record the specific principles and real-world steps of Req 5b grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively record the specific principles and real-world steps of Req 5b grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1172,9 +1182,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Create a chart or other tracking system, and document your training, practice, and development during this time."
         },
         {
           "sub_id": "5c",
@@ -1200,10 +1213,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Sports Requirement 5c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1223,9 +1238,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "Demonstrate proper technique to play each sport effectively and avoid injury."
         },
         {
           "sub_id": "5d",
@@ -1253,10 +1271,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5d is enough for Sports Requirement 5d sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5d grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5d grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 5d grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1276,9 +1296,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5d",
+          "sub_req_label": "5d",
+          "sub_req_text": "List and describe the equipment needed for each sport, including protective equipment and any specialized clothing."
         },
         {
           "sub_id": "5e",
@@ -1338,10 +1361,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5e is enough for Sports Requirement 5e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1361,9 +1386,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5e",
+          "sub_req_label": "5e",
+          "sub_req_text": "List and explain the rules and proper etiquette of each sport."
         },
         {
           "sub_id": "5f",
@@ -1391,10 +1419,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5f is enough for Sports Requirement 5f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5f grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5f grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5f grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1414,9 +1444,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5f",
+          "sub_req_label": "5f",
+          "sub_req_text": "Draw and explain a diagram of the playing area for each sport."
         },
         {
           "sub_id": "5g",
@@ -1439,10 +1472,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5g is enough for Sports Requirement 5g sign-off.",
-            "fact": "Each Scout must actively participate the specific principles and real-world steps of Req 5g grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5g grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5g grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1462,9 +1497,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5g",
+          "sub_req_label": "5g",
+          "sub_req_text": "Participate in each sport as a competitive individual or as a member of an organized team for one season (or for three months)."
         },
         {
           "sub_id": "5h",
@@ -1491,10 +1529,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5h is enough for Sports Requirement 5h sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5h grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5h grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 5h grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1514,9 +1554,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5h",
+          "sub_req_label": "5h",
+          "sub_req_text": "At the end of the season, share your completed chart with your counselor and discuss how your participation in the sports you chose has affected you mentally and physically."
         }
       ],
       "resources": [
@@ -1589,13 +1632,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: (a) With guidance from your counselor, establish a",
+      "topic_title": "Req 5: Establish a suitable personal training program",
       "action_verb": "Demonstrate",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Sports Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Sports Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
+      "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
       "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1616,8 +1659,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) With guidance from your counselor, establish a is enough for Sports Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) With guidance from your counselor, establish a grounded in the official Sports pamphlet."
+        "misconception": "Reading a short definition of Establish a suitable personal training program is enough for Sports Requirement 5 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Establish a suitable personal training program grounded in the official Sports pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Establish a suitable personal training program grounded in the official Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1637,63 +1682,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Sports Sub-Req 5a: With guidance from your counselor, establish a suitable personal training program that you will follow throughout your competition season (or for three months).",
-        "Sports Sub-Req 5b: Create a chart or other tracking system, and document your training, practice, and development during this time.",
-        "Sports Sub-Req 5c: Demonstrate proper technique to play each sport effectively and avoid injury.",
-        "Sports Sub-Req 5d: List and describe the equipment needed for each sport, including protective equipment and any specialized clothing."
+        "Mastering Sport Not: Mastering a sport is not all brute strength, propertechnique can turn a loss into a win.",
+        "Technique Notsomething: Technique is notsomething you concentrate on in one training sessionbut for a lifetime in your chosen sport.",
+        "Knowthe Grip Racket: Do you knowthe best grip for your racket, bat, or stick?.",
+        "Yourstance Batting Face-off: What about yourstance in batting, a face-off, or throw-in?."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) With guidance from your counselor, establish a.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Teachingyour Technique: Try teachingyour technique to another player or Scout to furthercement your understanding and knowledge beforepresenting it to your counselor.",
+        "Review Completed Development: Review your completed “Your Development” chart withyour counselor.",
+        "Benefits Gotten Fromplaying: What other benefits have you gotten fromplaying a sport that would be hard to quantify?.",
+        "Read Ideas Belowto: Read the ideas belowto see if they apply to you. • Learn how to work with a team and how to think of theteam’s needs before your own."
       ],
       "gear_checklist": [
         "Official Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Sports Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Establish a suitable personal training program",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Sports Approach",
-        "right_header": "Official BSA Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Sports Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Sports Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - (a) With guidance from your counselor, establish a",
-          "Primary Standard": "With guidance from your counselor, establish a suitable personal training program that you will follow through",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Sports Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Establish a suitable personal training program",
+          "Primary Standard": "With guidance from your counselor, establish a suitable personal training program that you will follow throughout your competition season (or for three months).",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Sports Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Sports Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Sports Requirement 5, a Scout claims: \"Reading a short definition of (a) With guidance from your counselor, establish a is enough for Sports Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) With guidance from your counselor, establish a grounded in the official Sports pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) With guidance from your counselor, establish a grounded in the official Sports pamphlet.",
-        "explanation": "Per Official BSA Sports Pamphlet, pp. 28-33, Each Scout must actively demonstrate the specific principles and real-world steps of (a) With guidance from your counselor, establish a grounded in the official Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Sports Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1734,10 +1756,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Sports career exploration requirement.",
-            "fact": "Scouts must research three Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Sports career exploration requirement.",
+            "fact": "Scouts must research specific Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1757,9 +1781,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Identify three career opportunities that would use skills and knowledge related to a sport. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career."
         },
         {
           "sub_id": "6b",
@@ -1787,10 +1814,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Sports Requirement 6b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 6b grounded in the official Sports pamphlet."
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 6b grounded in the official Sports pamphlet.",
+            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 6b grounded in the official Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1810,9 +1839,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Identify how you might use skills and knowledge related to a sport to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this."
         }
       ],
       "resources": [
@@ -1837,13 +1869,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Sports Careers, Training & Hobby Pathways",
+      "topic_title": "Req 6: Careers & Professional Pathways",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Sports Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Sports Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Sports Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)",
+      "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1860,8 +1892,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Sports career exploration requirement.",
-        "fact": "Scouts must research three Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Sports career exploration requirement.",
+        "fact": "Scouts must research specific Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1881,68 +1915,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Sports Sub-Req 6a: Identify three career opportunities that would use skills and knowledge related to a sport. Pick one and research the training, education, certification requirements, experience.",
-        "Sports Sub-Req 6b: Identify how you might use skills and knowledge related to a sport to pursue a personal hobby and/or healthy lifestyle. Research the additional training.",
-        "Core Standard 1 (Req 6): Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge related to a sport.",
-        "Core Standard 2 (Req 6): Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field."
+        "Now Chosen Sport: Now you have chosen a sport in which to compete for a seasonor at least three months.",
+        "Withyour Maybe Coach: Withyour counselor, and maybe also your coach, work out a personaltraining program.",
+        "Athlete Individual Starting: Every athlete is an individual starting at adifferent level, with a different schedule and different gifts.",
+        "Setgoals Yourself: Setgoals for yourself in your development and realize that even theprofessionals practice and train for years to get where they are."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Sports Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Writing Down Training: By writing down your training, practice, and development, you will have the reward of looking back on how far you havecome and be able to set new.",
+        "Hardto Somewhere Life: It is hardto get somewhere in life without a written plan of where youare going and how you are going to get there.",
+        "Charts Own Charts: Fill in these charts or make your own charts byhand or using using a spreadsheet or other software tool.",
+        "Sportsmanship Means: Sometimes good sportsmanship means accepting whatmight be a poor decision made by an official, referee, orumpire."
       ],
       "gear_checklist": [
         "Official Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Sports Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Sports Approach",
-        "right_header": "Official BSA Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Sports Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Sports Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Sports Careers, Training & Hobby Pathways",
-          "Primary Standard": "Identify three career opportunities that would use skills and knowledge related to a sport. Pick one and resea",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Sports Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Careers & Professional Pathways",
+          "Primary Standard": "Identify three career opportunities that would use skills and knowledge related to a sport.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Sports Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Sports Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Sports Requirement 6, a Scout claims: \"Listing three job titles from a web search satisfies the Sports career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Sports Pamphlet, pp. 34-39, Scouts must research three Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Sports Workbook organizer table and practical demonstration for Req 6."
     }
   ],
   "badge_slug": "sports",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

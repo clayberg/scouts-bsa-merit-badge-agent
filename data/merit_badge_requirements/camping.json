@@ -51,10 +51,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Camping hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Camping prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Camping prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Camping prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -74,9 +76,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while participating in camping activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
         },
         {
           "sub_id": "1b",
@@ -108,10 +113,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Camping Requirement 1b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -131,9 +138,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Discuss with your counselor why it is important to be aware of weather conditions before and during your camping activities. Tell how you can prepare should the weather turn bad during your campouts."
         },
         {
           "sub_id": "1c",
@@ -156,26 +166,27 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Activity Hazard / Risk",
+              "Prevention & PPE Strategy",
+              "Emergency Response & First Aid"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Hazard 1",
+              "Hazard 2",
+              "Hazard 3",
+              "Hazard 4"
             ],
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Camping Requirement 1c sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1c grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1c grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1c grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -195,9 +206,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Show that you know first aid for and how to prevent injuries or illnesses that could occur while camping, including hypothermia, frostbite, heat reactions, dehydration, altitude sickness, insect stings, tick bites, snakebite, blisters, and hyperventilation."
         }
       ],
       "resources": [
@@ -238,13 +252,13 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: Camping Hazards, PPE & First Aid Response",
+      "topic_title": "Req 1: Hazards, First Aid & Safety",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Camping Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Camping Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)",
+      "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
@@ -264,7 +278,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Camping hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Camping prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Camping prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Camping prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -284,62 +300,61 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Camping Sub-Req 1a: Explain to your counselor the most likely hazards you may encounter while participating in camping activities and what you should do to anticipate, help.",
-        "Camping Sub-Req 1b: Discuss with your counselor why it is important to be aware of weather conditions before and during your camping activities. Tell how you can.",
-        "Camping Sub-Req 1c: Show that you know first aid for and how to prevent injuries or illnesses that could occur while camping, including hypothermia, frostbite, heat reactions.",
-        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in camping activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
+        "Responsibility Personalhealth: The more responsibility every Scout takes for personalhealth and safety, the more each of you can contribute to asuccessful camping trip.",
+        "Stronger Positionto Provide: You also will be in a stronger positionto provide assistance if an emergency does arise.",
+        "Lastly Others Having: Lastly, let others know when you are having difficulties orare aware of a concern that might affect you or the group.",
+        "Stopping Few Moments: Stopping for a few moments to deal with a hot spot on a heel canhelp avoid bringing the group to a long halt later in the day whenblisters break out."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Camping requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Camping Hazards, PPE & First Aid Response.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Camping Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Speaking Changes Theweather: Speaking up about changes you notice in theweather or asking questions you have about whether a campsiteis appropriate can help everyone.",
+        "Managing Risk Includes: Managing risk includes being prepared to handle emergencies.",
+        "Camping Far Urban: Camping can take you far from urban areas where emergencymedical care is nearby.",
+        "Field Group Tocare: In the field, your group might need tocare for an injured or ill person for a few hours or even a dayor more until help arrives."
       ],
       "gear_checklist": [
         "Official Camping Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Camping Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Camping Approach",
-        "right_header": "Official BSA Camping Pamphlet Standard",
+        "right_header": "Official BSA Camping Standard (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Camping Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Camping Workbook organizer.",
+          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Camping Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Camping Hazards, PPE & First Aid Response",
-          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in camping activities ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Camping terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Camping Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
+          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in camping activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Camping terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Camping Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Camping Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Camping Requirement 1, a Scout claims: \"Scouts can jump straight into Camping hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "During a freezing rainstorm at camp, a patrol asks if they can bring their liquid-fuel or canister camp stove inside the tent vestibule to boil water and warm up the tent before sleeping. How should the patrol leader respond?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Camping prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Allow it as long as a tent window mesh zipper is cracked open 2 inches.",
+          "Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
+          "Use a charcoal grill inside the tent instead since charcoal has no visible flame."
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Camping prevents most field injuries.",
-        "explanation": "Per Official BSA Camping Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Camping prevents most field injuries."
+        "correct_answer": "Option B — Never operate any stove, lantern, or charcoal heater inside or near a tent due to lethal Carbon Monoxide poisoning and fire hazards.",
+        "explanation": "BSA Guide to Safe Scouting and the Camping Pamphlet mandate 'No Flames in Tents'; carbon monoxide is colorless and odorless and causes fatal hypoxia in enclosed shelters."
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Camping Workbook organizer table and practical demonstration for Req 1."
@@ -373,13 +388,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Learn the Leave No Trace Seven Principles and",
-      "action_verb": "Learn",
+      "topic_title": "Req 2: Leave No Trace & Outdoor Ethics",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Camping Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Camping Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 17, p. 20)",
+      "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 17, p. 20)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -396,8 +411,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Learn the Leave No Trace Seven Principles and is enough for Camping Requirement 2 sign-off.",
-        "fact": "Each Scout must actively learn the specific principles and real-world steps of Learn the Leave No Trace Seven Principles and grounded in the official Camping pamphlet."
+        "misconception": "Reading a short definition of Leave No Trace & Outdoor Ethics is enough for Camping Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Camping pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Camping pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 17, p. 20)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -417,63 +434,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 2): Learn the Leave No Trace Seven Principles and the Outdoor Code, and explain what they mean.",
-        "Core Standard 2 (Req 2): Write a personal and group plan for implementing these principles on your next outing.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Camping Req 2 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Camping Workbook before requesting Requirement 2 sign-off."
+        "Leave Trace Outdoor: Leave No Trace and the Outdoor Code From the Appalachians to the Cascades, and from the Gulf Coast to the Great Lakes, America is blessed.",
+        "Camper Chances Toenjoy: As a camper, you will have many chances toenjoy America’s expanses, but with that privilege comes a greatresponsibility to cause no harm.",
+        "Rewards Leaving Trace: The rewards of leaving no trace are wellworth learning new skills.",
+        "Future Unspoiled Territory: The future of unspoiled territory, and the continuing opportunity to visit it depends in large parton how responsibly Scouts today conduct."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Camping requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Learn the Leave No Trace Seven Principles and.",
-        "Execute & Document: Perform the learn task methodically with your patrol buddy and log specific observations in your Camping Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Altering Site Isnot: Altering a site isnot necessary. • I\u0007n popular areas, use existing trails and campsites.",
+        "Walksingle File Middle: Walksingle file in the middle of the trail, even when it is wetor muddy.",
+        "Focus Activity Areaswhere: Focus activity in areaswhere vegetation is absent.",
+        "Leave Trace Seven: With the Leave No Trace Seven Principles and the Outdoor Code in mind, consider where you want to camp."
       ],
       "gear_checklist": [
         "Official Camping Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Camping Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Leave No Trace & Outdoor Ethics",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Camping Approach",
-        "right_header": "Official BSA Camping Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Camping Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Camping Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Learn the Leave No Trace Seven Principles and",
-          "Primary Standard": "Learn the Leave No Trace Seven Principles and the Outdoor Code, and explain what they mean. Write a personal a",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Camping terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Camping Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Leave No Trace & Outdoor Ethics",
+          "Primary Standard": "Learn the Leave No Trace Seven Principles and the Outdoor Code, and explain what they mean. Write a personal and group plan for implementing these principles on your next outing.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Camping terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Camping Merit Badge Pamphlet (p. 17, p. 20) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Camping Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Camping Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Camping Requirement 2, a Scout claims: \"Reading a short definition of Learn the Leave No Trace Seven Principles and is enough for Camping Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively learn the specific principles and real-world steps of Learn the Leave No Trace Seven Principles and grounded in the official Camping pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively learn the specific principles and real-world steps of Learn the Leave No Trace Seven Principles and grounded in the official Camping pamphlet.",
-        "explanation": "Per Official BSA Camping Pamphlet, pp. 10-15, Each Scout must actively learn the specific principles and real-world steps of Learn the Leave No Trace Seven Principles and grounded in the official Camping pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Camping Workbook organizer table and practical demonstration for Req 2."
     },
@@ -510,10 +504,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Camping Requirement 3a sign-off.",
-            "fact": "Each Scout must actively compass the specific principles and real-world steps of Req 3a grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -533,9 +529,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Compass"
         },
         {
           "sub_id": "3b",
@@ -563,10 +562,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Camping Requirement 3b sign-off.",
-            "fact": "Each Scout must actively gps the specific principles and real-world steps of Req 3b grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -586,9 +587,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "GPS receiver"
         },
         {
           "sub_id": "3c",
@@ -616,10 +620,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3c is enough for Camping Requirement 3c sign-off.",
-            "fact": "Each Scout must actively smartphone the specific principles and real-world steps of Req 3c grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -639,9 +645,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3c",
+          "sub_req_label": "3c",
+          "sub_req_text": "Smartphone with a GPS app"
         }
       ],
       "resources": [
@@ -674,13 +683,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Make a written plan for an overnight trek",
-      "action_verb": "Make",
+      "topic_title": "Req 3: Written plan for an overnight trek",
+      "action_verb": "Show",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Camping Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Camping Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)",
+      "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -700,8 +709,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Make a written plan for an overnight trek is enough for Camping Requirement 3 sign-off.",
-        "fact": "Each Scout must actively make the specific principles and real-world steps of Make a written plan for an overnight trek grounded in the official Camping pamphlet."
+        "misconception": "Reading a short definition of Written plan for an overnight trek is enough for Camping Requirement 3 sign-off.",
+        "fact": "Each Scout must actively show the specific principles and real-world steps of Written plan for an overnight trek grounded in the official Camping pamphlet.",
+        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Written plan for an overnight trek grounded in the official Camping pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -721,63 +732,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Camping Sub-Req 3a: Compass",
-        "Camping Sub-Req 3b: GPS receiver",
-        "Camping Sub-Req 3c: Smartphone with a GPS app",
-        "Core Standard 1 (Req 3): Make a written plan for an overnight trek and show how to get to your camping spot by using a topographical map and one of the following: (a) Compass (b) GPS receiver (c) Smartphone with a GPS app."
+        "Camp Breaking Camp: Making Camp, Breaking Camp Getting There There are many ways you can travel to camp.",
+        "Willhike Perhaps Short: Often you willhike in, perhaps a short distance, perhaps many miles.",
+        "Yourgroup Journey: Yourgroup may journey to a frontcountry camp by automobile, van, bus, or bicycle.",
+        "Lakes Streams Abound: Where lakes and streams abound, you may goin canoes or a raft guided with oars."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Camping requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Make a written plan for an overnight trek.",
-        "Execute & Document: Perform the make task methodically with your patrol buddy and log specific observations in your Camping Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Campsites Reached: Many campsites can be reached with the help of atopographical map and a compass.",
+        "BSA Handbook Provide: Your Scouts BSA Handbook can provide you with guidelines for using a compass and a map to find your way.",
+        "Global Positioning System: The global positioning system, or GPS, gives travelers apowerful electronic means of navigation.",
+        "Identify Plot Acourse: With it, you can identify where you are, plot acourse to a campsite or other destination, and keeptrack of your elevation above sea level."
       ],
       "gear_checklist": [
         "Official Camping Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Camping Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Written plan for an overnight trek",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Camping Approach",
-        "right_header": "Official BSA Camping Pamphlet Standard",
+        "right_header": "Official BSA Camping Standard (Written plan for an overnight trek)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Written plan for an overnight trek.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Camping Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Camping Workbook organizer.",
+          "Clearly demonstrates and explains Written plan for an overnight trek using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Camping Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Make a written plan for an overnight trek",
-          "Primary Standard": "Compass",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Camping terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Camping Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Written plan for an overnight trek",
+          "Primary Standard": "Compass.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Camping terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Camping Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Camping Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Camping Requirement 3, a Scout claims: \"Reading a short definition of Make a written plan for an overnight trek is enough for Camping Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively make the specific principles and real-world steps of Make a written plan for an overnight trek grounded in the official Camping pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively make the specific principles and real-world steps of Make a written plan for an overnight trek grounded in the official Camping pamphlet.",
-        "explanation": "Per Official BSA Camping Pamphlet, pp. 16-21, Each Scout must actively make the specific principles and real-world steps of Make a written plan for an overnight trek grounded in the official Camping pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Camping Workbook organizer table and practical demonstration for Req 3."
     },
@@ -812,10 +813,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Camping Requirement 4a sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 4a grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 4a grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 4a grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -835,9 +838,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Make a duty roster showing how your patrol is organized for an actual overnight campout. List assignments for each member."
         },
         {
           "sub_id": "4b",
@@ -864,10 +870,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Camping Requirement 4b sign-off.",
-            "fact": "Each Scout must actively help the specific principles and real-world steps of Req 4b grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 4b grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Req 4b grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -887,9 +895,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Help a Scout patrol or a Webelos Scout unit in your area prepare for an actual campout, including creating the duty roster, menu planning, equipment needs, general planning, and setting up camp."
         }
       ],
       "resources": [],
@@ -901,13 +912,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: (a) Make a duty roster showing how your",
+      "topic_title": "Req 4: Duty roster showing how your patrol",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Camping Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Camping Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)",
+      "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -928,8 +939,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Make a duty roster showing how your is enough for Camping Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a duty roster showing how your grounded in the official Camping pamphlet."
+        "misconception": "Reading a short definition of Duty roster showing how your patrol is enough for Camping Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Duty roster showing how your patrol grounded in the official Camping pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Duty roster showing how your patrol grounded in the official Camping pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -949,63 +962,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Camping Sub-Req 4a: Make a duty roster showing how your patrol is organized for an actual overnight campout. List assignments for each member.",
-        "Camping Sub-Req 4b: Help a Scout patrol or a Webelos Scout unit in your area prepare for an actual campout, including creating the duty roster, menu planning.",
-        "Core Standard 1 (Req 4): Do the following: (a) Make a duty roster showing how your patrol is organized for an actual overnight campout.",
-        "Core Standard 2 (Req 4): List assignments for each member."
+        "Wherever Decide Camp: Wherever you decide to camp, youwill need to prepare a written tripplan.",
+        "Departure Share Plan: Well before your departure, share the plan with your Scoutleaders and parents or guardian.",
+        "They Suggestions Thatwill: They may have suggestions thatwill make your time in the outdoors even better.",
+        "Trip Planalso Leaders: A trip planalso will let the leaders knowwhere you will be and willenable them to provide supportif it is needed."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Camping requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Make a duty roster showing how your.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Camping Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Troops Patrols Attach: Scout troops and patrols sometimes attach gear lists, menus, and duty rosters to their trip plans.",
+        "Typical Duty Roster: A typical duty roster might break camp tasks into these tasks: • \u0007 Water and stoves.",
+        "Maintain Water Supply: Maintain the water supply for cookingand cleanup.",
+        "Safe Fueling Stoves: Find a safe place for fueling and using stoves, and have them ready to light before the cooks need them. • \u0007 Cooking."
       ],
       "gear_checklist": [
         "Official Camping Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Camping Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Duty roster showing how your patrol",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Camping Approach",
-        "right_header": "Official BSA Camping Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Camping Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Camping Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - (a) Make a duty roster showing how your",
-          "Primary Standard": "Make a duty roster showing how your patrol is organized for an actual overnight campout. List assignments for ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Camping terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Camping Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Duty roster showing how your patrol",
+          "Primary Standard": "Make a duty roster showing how your patrol is organized for an actual overnight campout. List assignments for each member.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Camping terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Camping Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Camping Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Camping Requirement 4, a Scout claims: \"Reading a short definition of (a) Make a duty roster showing how your is enough for Camping Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a duty roster showing how your grounded in the official Camping pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a duty roster showing how your grounded in the official Camping pamphlet.",
-        "explanation": "Per Official BSA Camping Pamphlet, pp. 22-27, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a duty roster showing how your grounded in the official Camping pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Camping Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1049,10 +1039,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Camping Requirement 5a sign-off.",
-            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 5a grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 5a grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Req 5a grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1072,9 +1064,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Prepare a list of clothing you would need for overnight campouts in both warm and cold weather. Explain the term \"layering.\""
         },
         {
           "sub_id": "5b",
@@ -1102,10 +1097,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Camping Requirement 5b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5b grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5b grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 5b grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1125,9 +1122,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Discuss footwear for different kinds of weather and how the right footwear is important for protecting your feet."
         },
         {
           "sub_id": "5c",
@@ -1155,10 +1155,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Camping Requirement 5c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1178,9 +1180,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "Explain the proper care and storage of camping equipment (clothing, footwear, bedding)."
         },
         {
           "sub_id": "5d",
@@ -1212,10 +1217,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5d is enough for Camping Requirement 5d sign-off.",
-            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 5d grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1235,9 +1242,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5d",
+          "sub_req_label": "5d",
+          "sub_req_text": "List the Scout Basic Essentials necessary for any campout, and explain why each item is needed."
         },
         {
           "sub_id": "5e",
@@ -1260,10 +1270,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5e is enough for Camping Requirement 5e sign-off.",
-            "fact": "Each Scout must actively present the specific principles and real-world steps of Req 5e grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1283,9 +1295,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5e",
+          "sub_req_label": "5e",
+          "sub_req_text": "Present yourself to your Scoutmaster with your pack for inspection. Be correctly clothed and equipped for an overnight campout."
         }
       ],
       "resources": [
@@ -1322,13 +1337,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: (a) Prepare a list of clothing you would",
+      "topic_title": "Req 5: List of clothing you would need",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Camping Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Camping Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
+      "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1348,8 +1363,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Prepare a list of clothing you would is enough for Camping Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Prepare a list of clothing you would grounded in the official Camping pamphlet."
+        "misconception": "Reading a short definition of List of clothing you would need is enough for Camping Requirement 5 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of List of clothing you would need grounded in the official Camping pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of List of clothing you would need grounded in the official Camping pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1369,63 +1386,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Camping Sub-Req 5a: Prepare a list of clothing you would need for overnight campouts in both warm and cold weather. Explain the term \"layering.\"",
-        "Camping Sub-Req 5b: Discuss footwear for different kinds of weather and how the right footwear is important for protecting your feet.",
-        "Camping Sub-Req 5c: Explain the proper care and storage of camping equipment (clothing, footwear, bedding).",
-        "Camping Sub-Req 5d: List the Scout Basic Essentials necessary for any campout, and explain why each item is needed."
+        "Here Essential Items: Here are essential items you will need when you arein the outdoors.",
+        "Cut Cord Trim: Cut a cord, trim a bandage, slicesome cheese, tighten a screw on a camp stove, apocketknife is the all-purpose tool for the out-of-doors.",
+        "Weather Conditions: Weather conditions in theoutdoors can change quickly.",
+        "Clothing Youneed Deal: Have the clothing youneed to deal with extremes of weather, heat, cold, and storm."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Camping requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Prepare a list of clothing you would.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Camping Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Along Least Quart: Take along at least a 1-quart bottle filledwith water.",
+        "Long Hikes Hot: On long hikes, on hot days, in arid regions, and at high elevations, carry two bottles or more.",
+        "Whileheat Humidity Thirsty: Whileheat and humidity can make you more thirsty, it isimportant to drink plenty of fluids in cold weather, too.",
+        "Flashlight Camp Inthe: A flashlight will help you set up camp inthe dark or find your way home after the sun hasgone down."
       ],
       "gear_checklist": [
         "Official Camping Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Camping Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for List of clothing you would need",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Camping Approach",
-        "right_header": "Official BSA Camping Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Camping Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Camping Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - (a) Prepare a list of clothing you would",
-          "Primary Standard": "Prepare a list of clothing you would need for overnight campouts in both warm and cold weather. Explain the te",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Camping terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Camping Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - List of clothing you would need",
+          "Primary Standard": "Prepare a list of clothing you would need for overnight campouts in both warm and cold weather. Explain the term \"layering.\".",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Camping terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Camping Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Camping Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Camping Requirement 5, a Scout claims: \"Reading a short definition of (a) Prepare a list of clothing you would is enough for Camping Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Prepare a list of clothing you would grounded in the official Camping pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Prepare a list of clothing you would grounded in the official Camping pamphlet.",
-        "explanation": "Per Official BSA Camping Pamphlet, pp. 28-33, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Prepare a list of clothing you would grounded in the official Camping pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Camping Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1466,10 +1460,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Camping Requirement 6a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6a grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6a grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 6a grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1489,9 +1485,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Describe the features of four types of tents, when and where they could be used, and how to care for tents. Working with another Scout, pitch a tent."
         },
         {
           "sub_id": "6b",
@@ -1526,10 +1525,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Camping Requirement 6b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6b grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6b grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6b grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1549,9 +1550,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Discuss the importance of camp sanitation and tell why water treatment is essential. Then demonstrate two ways to treat water."
         },
         {
           "sub_id": "6c",
@@ -1583,10 +1587,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Camping Requirement 6c sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6c grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6c grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 6c grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1606,9 +1612,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Describe the factors to be considered in deciding where to pitch your tent."
         },
         {
           "sub_id": "6d",
@@ -1637,10 +1646,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Camping Requirement 6d sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 6d grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6d grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6d grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1660,9 +1671,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "Tell the difference between internal- and external-frame packs. Discuss the advantages and disadvantages of each."
         },
         {
           "sub_id": "6e",
@@ -1702,10 +1716,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6e is enough for Camping Requirement 6e sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6e grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6e grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6e grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1725,9 +1741,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6e",
+          "sub_req_label": "6e",
+          "sub_req_text": "Discuss the types of sleeping bags and what kind would be suitable for different conditions. Explain the proper care of your sleeping bag and how to keep it dry. Make a comfortable ground bed."
         }
       ],
       "resources": [
@@ -1784,13 +1803,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: (a) Describe the features of four types of",
+      "topic_title": "Req 6: Features of four types of tents",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Camping Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Camping Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
+      "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
@@ -1808,8 +1827,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Describe the features of four types of is enough for Camping Requirement 6 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Describe the features of four types of grounded in the official Camping pamphlet."
+        "misconception": "Reading a short definition of Features of four types of tents is enough for Camping Requirement 6 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Features of four types of tents grounded in the official Camping pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Features of four types of tents grounded in the official Camping pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1829,63 +1850,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Camping Sub-Req 6a: Describe the features of four types of tents, when and where they could be used, and how to care for tents. Working with another Scout, pitch a tent.",
-        "Camping Sub-Req 6b: Discuss the importance of camp sanitation and tell why water treatment is essential. Then demonstrate two ways to treat water.",
-        "Camping Sub-Req 6c: Describe the factors to be considered in deciding where to pitch your tent.",
-        "Camping Sub-Req 6d: Tell the difference between internal- and external-frame packs. Discuss the advantages and disadvantages of each."
+        "Things Come End: All good things must come to an end, and that includes camping trips.",
+        "Break Camp Mind: As you break camp, keep in mind these suggestions: • \u0007Leave the dining fly in place until you are almost ready togo.",
+        "Leave Campsite Looking: Leave the campsite looking better than you found it.",
+        "Going Leave Pack: Going to just leave that pack on the floor when you get home?."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Camping requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Describe the features of four types of.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Camping Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Care Gear Lengthens: Taking care of your gear lengthens the life of your gear, too. • \u0007Clean and air out all of your gear, including sleeping bags.",
+        "Next Time Want: The next time you want to go camping, and it won’t be long, you willalready be well on your way to thegreat out-of-doors.",
+        "Mix Geometry Modern: Mix geometry, modern materials, and the imaginations of tent makers, and you get an astounding variety ofshapes.",
+        "Among Interesting Hybrid: Among the most interesting are hybrid tents thatcombine features of A-frames and domes."
       ],
       "gear_checklist": [
         "Official Camping Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Camping Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Features of four types of tents",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Camping Approach",
-        "right_header": "Official BSA Camping Pamphlet Standard",
+        "right_header": "Official BSA Camping Standard (Features of four types of tents)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Features of four types of tents.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Camping Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Camping Workbook organizer.",
+          "Clearly demonstrates and explains Features of four types of tents using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Camping Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - (a) Describe the features of four types of",
-          "Primary Standard": "Describe the features of four types of tents, when and where they could be used, and how to care for tents. Wo",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Camping terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Camping Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Features of four types of tents",
+          "Primary Standard": "Describe the features of four types of tents, when and where they could be used, and how to care for tents. Working with another Scout, pitch a tent.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Camping terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Camping Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Camping Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Camping Requirement 6, a Scout claims: \"Reading a short definition of (a) Describe the features of four types of is enough for Camping Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Describe the features of four types of grounded in the official Camping pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Describe the features of four types of grounded in the official Camping pamphlet.",
-        "explanation": "Per Official BSA Camping Pamphlet, pp. 34-39, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Describe the features of four types of grounded in the official Camping pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Camping Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1920,10 +1931,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Camping Requirement 7a sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7a grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7a grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 7a grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1943,9 +1956,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Make a checklist of personal and patrol gear that will be needed."
         },
         {
           "sub_id": "7b",
@@ -1973,10 +1989,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Camping Requirement 7b sign-off.",
-            "fact": "Each Scout must actively pack the specific principles and real-world steps of Req 7b grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1996,9 +2014,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Pack your own gear and your share of the patrol equipment and food for proper carrying. Show that your pack is right for quickly getting what is needed first, and that it has been assembled properly for comfort, weight, balance, size, and neatness."
         }
       ],
       "resources": [
@@ -2015,13 +2036,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Prepare for an overnight campout with your patrol",
+      "topic_title": "Req 7: Prepare for an overnight campout",
       "action_verb": "Prepare",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Camping Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Camping Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)",
+      "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2041,8 +2062,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Prepare for an overnight campout with your patrol is enough for Camping Requirement 7 sign-off.",
-        "fact": "Each Scout must actively prepare the specific principles and real-world steps of Prepare for an overnight campout with your patrol grounded in the official Camping pamphlet."
+        "misconception": "Reading a short definition of Prepare for an overnight campout is enough for Camping Requirement 7 sign-off.",
+        "fact": "Each Scout must actively prepare the specific principles and real-world steps of Prepare for an overnight campout grounded in the official Camping pamphlet.",
+        "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Prepare for an overnight campout grounded in the official Camping pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2062,63 +2085,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Camping Sub-Req 7a: Make a checklist of personal and patrol gear that will be needed.",
-        "Camping Sub-Req 7b: Pack your own gear and your share of the patrol equipment and food for proper carrying. Show that your pack is right for quickly.",
-        "Core Standard 1 (Req 7): Prepare for an overnight campout with your patrol by doing the following: (a) Make a checklist of personal and patrol gear that will be needed.",
-        "Core Standard 2 (Req 7): (b) Pack your own gear and your share of the patrol equipment and food for proper carrying."
+        "Planned Campout Gathered: You have planned a campout and gathered yourfood and gear.",
+        "Loading Everything Intoyour: After loading everything intoyour pack, there should be little left to doexcept head out the door and let theadventure begin.",
+        "Besides Own Gear: Besides your own gear, you probablywill carry some group equipment.",
+        "Yourshare Include Several: Yourshare might include several pots, part of atent, a camp stove, and some food."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Camping requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Prepare for an overnight campout with your patrol.",
-        "Execute & Document: Perform the prepare task methodically with your patrol buddy and log specific observations in your Camping Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Arrangesoft Items Pack: Arrangesoft items in your pack so they will cushionyour back.",
+        "Rain Gear Flashlight: Keep your rain gear, flashlight, first-aid kit, water bottle, and hike food near the top of your pack orin its outside pockets where you can reach.",
+        "There Room Stow: If there is room, stow your sleeping bag inside yourpack.",
+        "Otherwise Cover Ground: Otherwise, cover it with a ground cloth or a plastictrash-can liner to protect it from the elements."
       ],
       "gear_checklist": [
         "Official Camping Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Camping Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Prepare for an overnight campout",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Camping Approach",
-        "right_header": "Official BSA Camping Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Camping Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Camping Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Prepare for an overnight campout with your patrol",
+          "Requirement & Topic": "Req 7 - Prepare for an overnight campout",
           "Primary Standard": "Make a checklist of personal and patrol gear that will be needed.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Camping terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Camping Pamphlet, pp. 40-45."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Camping terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Camping Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Camping Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Camping Requirement 7, a Scout claims: \"Reading a short definition of Prepare for an overnight campout with your patrol is enough for Camping Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively prepare the specific principles and real-world steps of Prepare for an overnight campout with your patrol grounded in the official Camping pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively prepare the specific principles and real-world steps of Prepare for an overnight campout with your patrol grounded in the official Camping pamphlet.",
-        "explanation": "Per Official BSA Camping Pamphlet, pp. 40-45, Each Scout must actively prepare the specific principles and real-world steps of Prepare for an overnight campout with your patrol grounded in the official Camping pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Camping Workbook organizer table and practical demonstration for Req 7."
     },
@@ -2161,10 +2161,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 46-51",
+              "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 8a(1) is enough for Camping Requirement 8a(1) sign-off.",
-                "fact": "Each Scout must actively using the specific principles and real-world steps of Req 8a(1) grounded in the official Camping pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a(1) grounded in the official Camping pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a(1) grounded in the official Camping pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2184,9 +2186,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "8a(1)",
+              "sub_req_label": "8a(1)",
+              "sub_req_text": "Using a propane or butane/propane stove"
             },
             {
               "sub_id": "8a(2)",
@@ -2214,10 +2219,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 46-51",
+              "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 8a(2) is enough for Camping Requirement 8a(2) sign-off.",
-                "fact": "Each Scout must actively using the specific principles and real-world steps of Req 8a(2) grounded in the official Camping pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a(2) grounded in the official Camping pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a(2) grounded in the official Camping pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2237,9 +2244,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "8a(2)",
+              "sub_req_label": "8a(2)",
+              "sub_req_text": "Using a liquid fuel stove"
             },
             {
               "sub_id": "8a(3)",
@@ -2262,10 +2272,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 46-51",
+              "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 8a(3) is enough for Camping Requirement 8a(3) sign-off.",
-                "fact": "Each Scout must actively proper the specific principles and real-world steps of Req 8a(3) grounded in the official Camping pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a(3) grounded in the official Camping pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a(3) grounded in the official Camping pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2285,9 +2297,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "8a(3)",
+              "sub_req_label": "8a(3)",
+              "sub_req_text": "Proper storage of extra fuel"
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2305,10 +2320,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Camping Requirement 8a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2328,9 +2345,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "Explain the safety procedures for: (1) Using a propane or butane/propane stove (2) Using a liquid fuel stove (3) Proper storage of extra fuel"
         },
         {
           "sub_id": "8b",
@@ -2358,10 +2378,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Camping Requirement 8b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 8b grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 8b grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 8b grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2381,9 +2403,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "Discuss the advantages and disadvantages of different types of lightweight cooking stoves."
         },
         {
           "sub_id": "8c",
@@ -2415,10 +2440,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Camping Requirement 8c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2438,9 +2465,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "Prepare a camp menu. Explain how the menu would differ from a menu for a backpacking or float trip. Give recipes and make a food list for your patrol. Plan two breakfasts, three lunches, and two suppers. Discuss how to protect your food against bad weather, animals, and contamination."
         },
         {
           "sub_id": "8d",
@@ -2466,10 +2496,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8d is enough for Camping Requirement 8d sign-off.",
-            "fact": "Each Scout must actively cook the specific principles and real-world steps of Req 8d grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively cook the specific principles and real-world steps of Req 8d grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively cook the specific principles and real-world steps of Req 8d grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2489,9 +2521,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8d",
+          "sub_req_label": "8d",
+          "sub_req_text": "While camping in the outdoors, cook at least one breakfast, one lunch, and one dinner for your patrol from the meals you have planned for requirement 8(c). At least one of those meals must be a trail meal requiring the use of a lightweight stove."
         }
       ],
       "resources": [
@@ -2520,13 +2555,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: (a) Explain the safety procedures for: (1) Using",
+      "topic_title": "Req 8: The safety procedures",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Camping Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Camping Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
+      "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -2547,8 +2582,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Explain the safety procedures for: (1) Using is enough for Camping Requirement 8 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the safety procedures for: (1) Using grounded in the official Camping pamphlet."
+        "misconception": "Reading a short definition of The safety procedures is enough for Camping Requirement 8 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The safety procedures grounded in the official Camping pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The safety procedures grounded in the official Camping pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2568,63 +2605,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Camping Sub-Req 8a: Explain the safety procedures for: (1) Using a propane or butane/propane stove (2) Using a liquid fuel stove (3) Proper storage of extra fuel",
-        "Camping Sub-Req 8a(1): Using a propane or butane/propane stove",
-        "Camping Sub-Req 8a(2): Using a liquid fuel stove",
-        "Camping Sub-Req 8a(3): Proper storage of extra fuel"
+        "Typical Duty Roster: A typical duty roster might break camp tasks into these tasks: • \u0007 Water and stoves.",
+        "Maintain Water Supply: Maintain the water supply for cookingand cleanup.",
+        "Safe Fueling Stoves: Find a safe place for fueling and using stoves, and have them ready to light before the cooks need them. • \u0007 Cooking.",
+        "Assemble Ingredients Follow: Assemble ingredients and follow recipes to prepare and serve meals."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Camping requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain the safety procedures for: (1) Using.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Camping Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Wash Water Heating: Have wash water heating on the stovebefore serving meals. • \u0007 Cleanup.",
+        "Maintain Bear Line: Maintain a bear line or other food storagesystem to protect provisions from animals and weather.",
+        "Secure Food Items: Secure all food items at night and whenever camp will beleft unattended.",
+        "Groups Develop List: Many groups also develop a list of assignments to be completedbefore a camping trip begins."
       ],
       "gear_checklist": [
         "Official Camping Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Camping Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The safety procedures",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Camping Approach",
-        "right_header": "Official BSA Camping Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Camping Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Camping Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - (a) Explain the safety procedures for: (1) Using",
-          "Primary Standard": "Explain the safety procedures for: (1) Using a propane or butane/propane stove (2) Using a liquid fuel stove (",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Camping terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Camping Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - The safety procedures",
+          "Primary Standard": "Explain the safety procedures for: (1) Using a propane or butane/propane stove (2) Using a liquid fuel stove (3) Proper storage of extra fuel.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Camping terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Camping Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Camping Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Camping Requirement 8, a Scout claims: \"Reading a short definition of (a) Explain the safety procedures for: (1) Using is enough for Camping Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the safety procedures for: (1) Using grounded in the official Camping pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the safety procedures for: (1) Using grounded in the official Camping pamphlet.",
-        "explanation": "Per Official BSA Camping Pamphlet, pp. 46-51, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the safety procedures for: (1) Using grounded in the official Camping pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Camping Workbook organizer table and practical demonstration for Req 8."
     },
@@ -2656,10 +2670,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9a is enough for Camping Requirement 9a sign-off.",
-            "fact": "Each Scout must actively camp the specific principles and real-world steps of Req 9a grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively camp the specific principles and real-world steps of Req 9a grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively camp the specific principles and real-world steps of Req 9a grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2679,9 +2695,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9a",
+          "sub_req_label": "9a",
+          "sub_req_text": "Camp for at least 20 nights at designated Scouting activities or events. One long-term camping experience of up to six consecutive nights may be applied toward this requirement. Two nights may be counted toward the total for each additional long-term camping trip. Each night must be spent either under the sky, in a tent you have pitched yourself (if a tent is provided and already set up, you do not need to pitch your own), in a hammock that is safely strung outdoors, in a lean-to, or other three-sided shelter with an open front. Nights spent in indoor lock-in events, cabin camping, hotel stays, or other covered accommodations do not count toward the 20 nights."
         },
         {
           "sub_id": "9b",
@@ -2715,10 +2734,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 52-57",
+              "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 9b(1) is enough for Camping Requirement 9b(1) sign-off.",
-                "fact": "Each Scout must actively hike the specific principles and real-world steps of Req 9b(1) grounded in the official Camping pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b(1) grounded in the official Camping pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b(1) grounded in the official Camping pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2738,9 +2759,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "9b(1)",
+              "sub_req_label": "9b(1)",
+              "sub_req_text": "Hike up a mountain, gaining at least 1,000 vertical feet."
             },
             {
               "sub_id": "9b(2)",
@@ -2768,10 +2792,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 52-57",
+              "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 9b(2) is enough for Camping Requirement 9b(2) sign-off.",
-                "fact": "Each Scout must actively backpack the specific principles and real-world steps of Req 9b(2) grounded in the official Camping pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b(2) grounded in the official Camping pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b(2) grounded in the official Camping pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2791,9 +2817,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "9b(2)",
+              "sub_req_label": "9b(2)",
+              "sub_req_text": "Backpack, snowshoe, or cross-country ski for at least 4 miles."
             },
             {
               "sub_id": "9b(3)",
@@ -2821,10 +2850,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 52-57",
+              "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 9b(3) is enough for Camping Requirement 9b(3) sign-off.",
-                "fact": "Each Scout must actively take the specific principles and real-world steps of Req 9b(3) grounded in the official Camping pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b(3) grounded in the official Camping pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b(3) grounded in the official Camping pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2844,9 +2875,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "9b(3)",
+              "sub_req_label": "9b(3)",
+              "sub_req_text": "Take a bike trip of at least 15 miles or at least four hours."
             },
             {
               "sub_id": "9b(4)",
@@ -2874,10 +2908,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 52-57",
+              "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 9b(4) is enough for Camping Requirement 9b(4) sign-off.",
-                "fact": "Each Scout must actively take the specific principles and real-world steps of Req 9b(4) grounded in the official Camping pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b(4) grounded in the official Camping pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b(4) grounded in the official Camping pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2897,9 +2933,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "9b(4)",
+              "sub_req_label": "9b(4)",
+              "sub_req_text": "Take a nonmotorized trip on the water of at least four hours or 5 miles."
             },
             {
               "sub_id": "9b(5)",
@@ -2927,10 +2966,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 52-57",
+              "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 9b(5) is enough for Camping Requirement 9b(5) sign-off.",
-                "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 9b(5) grounded in the official Camping pamphlet."
+                "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 9b(5) grounded in the official Camping pamphlet.",
+                "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 9b(5) grounded in the official Camping pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2950,9 +2991,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "9b(5)",
+              "sub_req_label": "9b(5)",
+              "sub_req_text": "Plan and carry out an overnight snow camping experience."
             },
             {
               "sub_id": "9b(6)",
@@ -2980,10 +3024,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 52-57",
+              "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 9b(6) is enough for Camping Requirement 9b(6) sign-off.",
-                "fact": "Each Scout must actively rappel the specific principles and real-world steps of Req 9b(6) grounded in the official Camping pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b(6) grounded in the official Camping pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b(6) grounded in the official Camping pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3003,9 +3049,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "9b(6)",
+              "sub_req_label": "9b(6)",
+              "sub_req_text": "Rappel down a rappel route of 30 feet or more."
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3023,10 +3072,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9b is enough for Camping Requirement 9b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3046,9 +3097,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9b",
+          "sub_req_label": "9b",
+          "sub_req_text": "On any of these camping experiences, you must do TWO of the following, only with proper preparation and under qualified supervision. (1) Hike up a mountain, gaining at least 1,000 vertical feet. (2) Backpack, snowshoe, or cross-country ski for at least 4 miles. (3) Take a bike trip of at least 15 miles or at least four hours. (4) Take a nonmotorized trip on the water of at least four hours or 5 miles. (5) Plan and carry out an overnight snow camping experience. (6) Rappel down a rappel route of 30 feet or more."
         },
         {
           "sub_id": "9c",
@@ -3063,23 +3117,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 9c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9c is enough for Camping Requirement 9c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9c grounded in the official Camping pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 9c grounded in the official Camping pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 9c grounded in the official Camping pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3099,9 +3158,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9c",
+          "sub_req_label": "9c",
+          "sub_req_text": "On any of these camping experiences, perform a conservation project approved by the landowner or land managing agency. This can be done alone or with others."
         }
       ],
       "resources": [
@@ -3142,13 +3204,13 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Show experience in camping by doing the following",
+      "topic_title": "Req 9: Experience in camping by doing",
       "action_verb": "Show",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Camping Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Camping Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
+      "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -3168,8 +3230,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Show experience in camping by doing the following is enough for Camping Requirement 9 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Show experience in camping by doing the following grounded in the official Camping pamphlet."
+        "misconception": "Reading a short definition of Experience in camping by doing is enough for Camping Requirement 9 sign-off.",
+        "fact": "Each Scout must actively show the specific principles and real-world steps of Experience in camping by doing grounded in the official Camping pamphlet.",
+        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Experience in camping by doing grounded in the official Camping pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3189,63 +3253,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Camping Sub-Req 9a: Camp for at least 20 nights at designated Scouting activities or events. One long-term camping experience of up to six consecutive nights may be.",
-        "Camping Sub-Req 9b: On any of these camping experiences, you must do TWO of the following, only with proper preparation and under qualified supervision. (1) Hike up.",
-        "Camping Sub-Req 9b(1): Hike up a mountain, gaining at least 1,000 vertical feet.",
-        "Camping Sub-Req 9b(2): Backpack, snowshoe, or cross-country ski for at least 4 miles."
+        "Highlight Year Troops: A highlight of the year for many Scout troops is a weekat a Scouting America summer camp.",
+        "Rare Come Home: It is rare for a Scout to come home without having gained moreknowledge about living in the out-of-doors and greatenthusiasm for doing more of it as soon.",
+        "Nature Camping Trip: The nature of a camping trip changes dramatically whenyou leave the road behind and venture into the backcountry.",
+        "Everything Night Carried: Everything you need for a night or more must be carried in a pack on your back, stowed in duffels tied into a canoe, orloaded onto a horse, burro."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Camping requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Show experience in camping by doing the following.",
-        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Camping Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Leave Civilizationbehind: As you leave civilizationbehind, a great world of possibilities and responsibilities opensbefore you.",
+        "Backcountry Camping Places: Backcountry camping can take you to places that fewpeople ever reach.",
+        "Spend Time Near: You can spend time near remote lakes, in deep forests, and in desert terrain.",
+        "Relyon Own Skill: Best of all, you can relyon your own skill and determination to make the most ofliving for a while beyond the usual bounds of civilization."
       ],
       "gear_checklist": [
         "Official Camping Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Camping Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Experience in camping by doing",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Camping Approach",
-        "right_header": "Official BSA Camping Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Camping Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Camping Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Show experience in camping by doing the following",
-          "Primary Standard": "Camp for at least 20 nights at designated Scouting activities or events. One long-term camping experience of u",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Camping terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Camping Pamphlet, pp. 52-57."
+          "Requirement & Topic": "Req 9 - Experience in camping by doing",
+          "Primary Standard": "Camp for at least 20 nights at designated Scouting activities or events.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Camping terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Camping Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Camping Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Camping Requirement 9, a Scout claims: \"Reading a short definition of Show experience in camping by doing the following is enough for Camping Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Show experience in camping by doing the following grounded in the official Camping pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Show experience in camping by doing the following grounded in the official Camping pamphlet.",
-        "explanation": "Per Official BSA Camping Pamphlet, pp. 52-57, Each Scout must actively show the specific principles and real-world steps of Show experience in camping by doing the following grounded in the official Camping pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Camping Workbook organizer table and practical demonstration for Req 9."
     },
@@ -3265,13 +3306,13 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 10: Discuss how the things you did to earn",
+      "topic_title": "Req 10: How the things you did",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Camping Requirement 10 activities.",
-      "pamphlet_citation": "Official BSA Camping Pamphlet, pp. 58-63",
-      "pamphlet_page_citation": "Official BSA Camping Pamphlet, pp. 58-63",
+      "pamphlet_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 55, p. 59)",
+      "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 55, p. 59)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3288,8 +3329,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Discuss how the things you did to earn is enough for Camping Requirement 10 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Discuss how the things you did to earn grounded in the official Camping pamphlet."
+        "misconception": "Reading a short definition of How the things you did is enough for Camping Requirement 10 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of How the things you did grounded in the official Camping pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of How the things you did grounded in the official Camping pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Camping Merit Badge Pamphlet (p. 55, p. 59)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3309,68 +3352,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 10): Discuss how the things you did to earn this badge have taught you about personal health and safety, survival, public health, conservation, and good citizenship.",
-        "Core Standard 2 (Req 10): In your discussion, tell how Scout spirit and the Scout Oath and Scout Law apply to camping and outdoor ethics.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Camping Req 10 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Camping Workbook before requesting Requirement 10 sign-off."
+        "Surprised Years: You will be surprised over the years how often these adventurescome to mind, and with what pleasure you remember theplaces that, at least for one night, you.",
+        "Camping Central Activity: Camping is a central activity of the Scouts BSA experience, and for good reason.",
+        "Bring Out Everyone: It can bring out the best in everyone asgroups of friends put their energies into practicing outdoorskills, solving problems, and having great times.",
+        "Youcan Increase: Youcan increase your understanding of personal health and safety, conservation, and the citizenship responsibilities of caring forthe land."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 10): Review the official Camping requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Discuss how the things you did to earn.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Camping Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Camping Allows Spirit: Most of all, camping allows your Scout spirit and themeaning of the Scout Oath and Scout Law to shine through inall that you do.",
+        "Trustworthy Loyal Helpful: A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.",
+        "Don Forget Thatrequirement: Don’t forget thatrequirement 9(c) calls for you toperform a conservation projectapproved by thelandowner orland managementagency.",
+        "Stormy Weather Camping: Your merit Stormy Weather Camping badge counselor When the weather turns bad, your camping skills can be putto a real test."
       ],
       "gear_checklist": [
         "Official Camping Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 10)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Camping Req 10",
+        "Activity-Specific Tools, Reference Charts & Study Materials for How the things you did",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Camping Approach",
-        "right_header": "Official BSA Camping Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 10.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 10.",
-          "Records concrete measurements, examples, and citations from Official BSA Camping Pamphlet, pp. 58-63.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Camping Req 10",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 10 - Discuss how the things you did to earn",
-          "Primary Standard": "Discuss how the things you did to earn this badge have taught you about personal health and safety, survival, ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Camping terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Camping Pamphlet, pp. 58-63."
+          "Requirement & Topic": "Req 10 - How the things you did",
+          "Primary Standard": "Discuss how the things you did to earn this badge have taught you about personal health and safety, survival, public health, conservation, and good citizenship.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Camping terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Camping Merit Badge Pamphlet (p. 55, p. 59) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Camping Req 10 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Camping Req 10 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Camping Requirement 10, a Scout claims: \"Reading a short definition of Discuss how the things you did to earn is enough for Camping Requirement 10 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss how the things you did to earn grounded in the official Camping pamphlet.",
-          "Skip Requirement 10 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss how the things you did to earn grounded in the official Camping pamphlet.",
-        "explanation": "Per Official BSA Camping Pamphlet, pp. 58-63, Each Scout must actively discuss the specific principles and real-world steps of Discuss how the things you did to earn grounded in the official Camping pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Camping Workbook organizer table and practical demonstration for Req 10."
     }
   ],
   "badge_slug": "camping",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

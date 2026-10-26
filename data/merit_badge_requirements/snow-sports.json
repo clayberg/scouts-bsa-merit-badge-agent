@@ -51,10 +51,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Snow Sports hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -74,9 +76,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain to your counselor the hazards you are most likely to encounter while participating in snow sport activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
         },
         {
           "sub_id": "1b",
@@ -108,10 +113,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)",
           "common_misconception_pair": {
             "misconception": "Straighten an angled bone or dislocated joint before tying a rigid splint.",
-            "fact": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying."
+            "fact": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying.",
+            "fact_correction": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -131,9 +138,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in snow sports, including hypothermia, frostbite, shock, dehydration, sunburn, concussion, fractures, bruises, sprains, and strains. Tell how to apply splints."
         }
       ],
       "resources": [
@@ -162,13 +172,13 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: Snow Sports Hazards, PPE & First Aid Response",
+      "topic_title": "Req 1: Hazards, First Aid & Safety",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Snow Sports Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Snow Sports Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)",
+      "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
@@ -188,7 +198,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Snow Sports hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -208,62 +220,61 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Snow Sports Sub-Req 1a: Explain to your counselor the hazards you are most likely to encounter while participating in snow sport activities, and what you should do to.",
-        "Snow Sports Sub-Req 1b: Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in snow sports, including hypothermia, frostbite, shock.",
-        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the hazards you are most likely to encounter while participating in snow sport activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
-        "Core Standard 2 (Req 1): (b) Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in snow sports, including hypothermia, frostbite, shock, dehydration, sunburn, concussion, fractures, bruises, sprains, and strains."
+        "Sprains Strains Remember: For sprains and strains remember RICE: R = Rest I = Ice C = Compression E = Elevation Sprains and Strains Sprains are relatively common snow-sports.",
+        "Sprains Arecaused Twisting: Sprains arecaused by twisting, wrenching, or lifting movements that tearor stretch tissues surrounding a joint.",
+        "Injury Causessudden Pain: Such an injury causessudden pain and swelling at the joint.",
+        "There Discoloration Joint: There may be some discoloration, and the joint will likely be tender to the touch andvery painful when moved."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Snow Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Snow Sports Hazards, PPE & First Aid Response.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Snow Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Elevate Injured Joint: Elevate the injured joint, and applycold compresses for no more than 20 minutes at a time.",
+        "Theterm Strain Refers: Theterm strain usually refers to a less severe joint or muscle injurywhere tissues are not torn but may have been overextended oroverstressed.",
+        "Serious Than Sprains: More serious than sprains or strains are fractures, or brokenbones, injuries all too frequently associated with snow sports.",
+        "There are two kinds: closed (simple) and open (compound)."
       ],
       "gear_checklist": [
         "Official Snow Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Snow Sports Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Snow Sports Approach",
-        "right_header": "Official BSA Snow Sports Pamphlet Standard",
+        "right_header": "Official BSA Snow Sports Standard (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Snow Sports Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Snow Sports Workbook organizer.",
+          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Snow Sports Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Snow Sports Hazards, PPE & First Aid Response",
-          "Primary Standard": "Explain to your counselor the hazards you are most likely to encounter while participating in snow sport activ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Snow Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Snow Sports Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
+          "Primary Standard": "Explain to your counselor the hazards you are most likely to encounter while participating in snow sport activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Snow Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Snow Sports Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Snow Sports Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Snow Sports Requirement 1, a Scout claims: \"Scouts can jump straight into Snow Sports hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "While skiing down an intermediate alpine trail, you approach a slower snowboarder ahead of you who suddenly begins a wide turn across the run. Under the Alpine Responsibility Code, who has the right-of-way and what must you do?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Shout 'On your left!' and pass at high speed since uphill skiers have momentum.",
+          "The downhill rider ahead always has the right-of-way; you must adjust your speed and steer clear to avoid them regardless of their turn.",
+          "Stop in the middle of a blind rollover just above the snowboarder and wait."
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries.",
-        "explanation": "Per Official BSA Snow Sports Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries."
+        "correct_answer": "Option B — People ahead of you always have the right-of-way; the overtaking uphill skier must stay in control and avoid them.",
+        "explanation": "Under Your Responsibility Code in the Snow Sports Merit Badge Pamphlet, downhill skiers/riders cannot see behind them, so uphill traffic bears full responsibility for avoiding collisions and must never stop where obstructed from above."
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Snow Sports Workbook organizer table and practical demonstration for Req 1."
@@ -296,10 +307,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Snow Sports Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Snow Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Snow Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Snow Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -319,9 +332,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Explain why every snow sport participant should be prepared to render first aid in the event of an accident."
         },
         {
           "sub_id": "2b",
@@ -349,10 +365,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Snow Sports Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Snow Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Snow Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Snow Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -372,9 +390,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Explain the procedure used to report an accident to the local ski patrol or local emergency personnel."
         }
       ],
       "resources": [
@@ -391,13 +412,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: (a) Explain why every snow sport participant should",
+      "topic_title": "Req 2: Sprains, Fractures & Cold-Weather First Aid",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Snow Sports Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Snow Sports Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)",
+      "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -417,8 +438,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Explain why every snow sport participant should is enough for Snow Sports Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain why every snow sport participant should grounded in the official Snow Sports pamphlet."
+        "misconception": "Reading a short definition of Sprains, Fractures & Cold-Weather First Aid is enough for Snow Sports Requirement 2 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Sprains, Fractures & Cold-Weather First Aid grounded in the official Snow Sports pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Sprains, Fractures & Cold-Weather First Aid grounded in the official Snow Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -438,63 +461,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Snow Sports Sub-Req 2a: Explain why every snow sport participant should be prepared to render first aid in the event of an accident.",
-        "Snow Sports Sub-Req 2b: Explain the procedure used to report an accident to the local ski patrol or local emergency personnel.",
-        "Core Standard 1 (Req 2): Do the following: (a) Explain why every snow sport participant should be prepared to render first aid in the event of an accident.",
-        "Core Standard 2 (Req 2): (b) Explain the procedure used to report an accident to the local ski patrol or local emergency personnel."
+        "Responsibility Safety Snow: Responsibility and Safety in Snow Sports Reporting an Accident Be aware of the ski area’s procedure for reporting accidents.",
+        "Habit Check Local: Make it a habit to check with the local ski patrol for instructions on accident reporting before you head out.",
+        "Alpine Ski Resorts: At Alpine ski resorts, one common method of reportingaccidents is to send someone from your group to the bottom ofthe nearest lift and inform a lift.",
+        "Remember Includeimportant: Remember to includeimportant details: the exact location of the accident, the type ofinjuries, the number of people hurt, and their conditions."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Snow Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain why every snow sport participant should.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Snow Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Snow Sports Activities: Snow sports, like other activities, have their own set of precautions and unique risks.",
+        "Conditions Described Here: The conditions described here representthose for which any safety-conscious person should be prepared.",
+        "Perform Aid Ski: You should perform first aid only if help from the ski patrol ortrained medical personnel is unavailable.",
+        "Hypothermia Occurs Body: Hypothermia occurs when the body islosing more heat than it can generate."
       ],
       "gear_checklist": [
         "Official Snow Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Snow Sports Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Sprains, Fractures & Cold-Weather First Aid",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Snow Sports Approach",
-        "right_header": "Official BSA Snow Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Snow Sports Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Snow Sports Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - (a) Explain why every snow sport participant should",
+          "Requirement & Topic": "Req 2 - Sprains, Fractures & Cold-Weather First Aid",
           "Primary Standard": "Explain why every snow sport participant should be prepared to render first aid in the event of an accident.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Snow Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Snow Sports Pamphlet, pp. 10-15."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Snow Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Snow Sports Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Snow Sports Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Snow Sports Requirement 2, a Scout claims: \"Reading a short definition of (a) Explain why every snow sport participant should is enough for Snow Sports Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain why every snow sport participant should grounded in the official Snow Sports pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain why every snow sport participant should grounded in the official Snow Sports pamphlet.",
-        "explanation": "Per Official BSA Snow Sports Pamphlet, pp. 10-15, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain why every snow sport participant should grounded in the official Snow Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Snow Sports Workbook organizer table and practical demonstration for Req 2."
     },
@@ -519,13 +519,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Explain the international trail-marking system",
+      "topic_title": "Req 3: The international trail-marking system",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Snow Sports Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Snow Sports Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29)",
+      "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -542,8 +542,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Explain the international trail-marking system is enough for Snow Sports Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain the international trail-marking system grounded in the official Snow Sports pamphlet."
+        "misconception": "Reading a short definition of The international trail-marking system is enough for Snow Sports Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of The international trail-marking system grounded in the official Snow Sports pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The international trail-marking system grounded in the official Snow Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -563,63 +565,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): Explain the international trail-marking system.",
-        "Field Verification Standard: Apply Snow Sports Requirement 3 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Snow Sports Req 3 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Snow Sports Workbook before requesting Requirement 3 sign-off."
+        "Thing Snow Sport: Another thing snow sport enthusiasts need to become familiarwith is the international trail-marking system.",
+        "System Hasbeen Designed: This system hasbeen designed to help users identify the trails best suited to theirlevel of ability as well as hazards within a ski area.",
+        "Signs Arethere Everyone: The signs arethere for everyone’s safety and should always be followed.",
+        "Ski Area Determines: Each ski area determines whether a trail is a green circle (beginner), blue square (intermediate), black diamond (advanced), or double black diamond."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Snow Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain the international trail-marking system.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Snow Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Nordic Andsnowshoe Trails: Nordic andsnowshoe trails often use this system as well.",
+        "Terrain Parks Usean: Terrain parks usean “orange pill” to identify terrain features.",
+        "There Maynot Ratings: There may or maynot be ratings to indicate difficulty.",
+        "Slopes Ortrails Exactlythe: No two slopes ortrails are exactlythe same, eventhough they mighthave the samedifficulty rating."
       ],
       "gear_checklist": [
         "Official Snow Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Snow Sports Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The international trail-marking system",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Snow Sports Approach",
-        "right_header": "Official BSA Snow Sports Pamphlet Standard",
+        "right_header": "Official BSA Snow Sports Standard (The international trail-marking system)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during The international trail-marking system.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Snow Sports Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Snow Sports Workbook organizer.",
+          "Clearly demonstrates and explains The international trail-marking system using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Snow Sports Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Explain the international trail-marking system",
+          "Requirement & Topic": "Req 3 - The international trail-marking system",
           "Primary Standard": "Explain the international trail-marking system.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Snow Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Snow Sports Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Snow Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Snow Sports Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Snow Sports Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Snow Sports Requirement 3, a Scout claims: \"Reading a short definition of Explain the international trail-marking system is enough for Snow Sports Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the international trail-marking system grounded in the official Snow Sports pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the international trail-marking system grounded in the official Snow Sports pamphlet.",
-        "explanation": "Per Official BSA Snow Sports Pamphlet, pp. 16-21, Each Scout must actively explain the specific principles and real-world steps of Explain the international trail-marking system grounded in the official Snow Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Snow Sports Workbook organizer table and practical demonstration for Req 3."
     },
@@ -644,13 +636,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Discuss the importance of strength, endurance, and flexibility",
+      "topic_title": "Req 4: Winter Fitness, Conditioning & Warm-Up",
       "action_verb": "Discuss",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Snow Sports Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Snow Sports Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26)",
+      "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -670,8 +662,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Discuss the importance of strength, endurance, and flexibility is enough for Snow Sports Requirement 4 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Discuss the importance of strength, endurance, and flexibility grounded in the official Snow Sports pamphlet."
+        "misconception": "Reading a short definition of Winter Fitness, Conditioning & Warm-Up is enough for Snow Sports Requirement 4 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Winter Fitness, Conditioning & Warm-Up grounded in the official Snow Sports pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Winter Fitness, Conditioning & Warm-Up grounded in the official Snow Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -691,63 +685,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 4): Discuss the importance of strength, endurance, and flexibility in snow sports.",
-        "Core Standard 2 (Req 4): Demonstrate exercises and activities you can do to get fit for the option you choose in requirement 7.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Snow Sports Req 4 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Snow Sports Workbook before requesting Requirement 4 sign-off."
+        "Activities Asrunning Soccer: Activities such asrunning, soccer, biking, and hikingare great ways to To enjoy snow sports, you must be in good physical condition.",
+        "Thetime Prepare Body: Be sure to take thetime to prepare your body for the sport.",
+        "Start Warm-up Activity: Start your warm-up with some activity to get your musclesready, such as jogging briefly.",
+        "Then Perform Stretches: Then perform these stretches, holding each one a minimum of 30 seconds up to two minutes. to keep in shapeyear-round."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Snow Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Discuss the importance of strength, endurance, and flexibility.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Snow Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Wall Something Solid: Use a wall or something solid tolean into, one leg forward and one leg back.",
+        "Back Leg Straight: Keep the back leg straight and push intothe wall until you can feel the calf stretch.",
+        "Standing Bendfrom Waist: While standing, bendfrom the waist with your legs straight.",
+        "Stretchyour Hands Toward: Stretchyour hands toward the ground until you feelthe back of your legs stretching."
       ],
       "gear_checklist": [
         "Official Snow Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Snow Sports Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Winter Fitness, Conditioning & Warm-Up",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Snow Sports Approach",
-        "right_header": "Official BSA Snow Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Snow Sports Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Snow Sports Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Discuss the importance of strength, endurance, and flexibility",
-          "Primary Standard": "Discuss the importance of strength, endurance, and flexibility in snow sports. Demonstrate exercises and activ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Snow Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Snow Sports Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Winter Fitness, Conditioning & Warm-Up",
+          "Primary Standard": "Discuss the importance of strength, endurance, and flexibility in snow sports. Demonstrate exercises and activities you can do to get fit for the option you choose in requirement 7.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Snow Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Snow Sports Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Snow Sports Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Snow Sports Requirement 4, a Scout claims: \"Reading a short definition of Discuss the importance of strength, endurance, and flexibility is enough for Snow Sports Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss the importance of strength, endurance, and flexibility grounded in the official Snow Sports pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss the importance of strength, endurance, and flexibility grounded in the official Snow Sports pamphlet.",
-        "explanation": "Per Official BSA Snow Sports Pamphlet, pp. 22-27, Each Scout must actively discuss the specific principles and real-world steps of Discuss the importance of strength, endurance, and flexibility grounded in the official Snow Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Snow Sports Workbook organizer table and practical demonstration for Req 4."
     },
@@ -772,13 +743,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Present yourself properly clothed and equipped for the",
-      "action_verb": "Present",
+      "topic_title": "Req 5: Cold-Weather Layering & Snow Gear Check",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Snow Sports Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Snow Sports Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88)",
+      "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -795,8 +766,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Present yourself properly clothed and equipped for the is enough for Snow Sports Requirement 5 sign-off.",
-        "fact": "Each Scout must actively present the specific principles and real-world steps of Present yourself properly clothed and equipped for the grounded in the official Snow Sports pamphlet."
+        "misconception": "Reading a short definition of Cold-Weather Layering & Snow Gear Check is enough for Snow Sports Requirement 5 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Cold-Weather Layering & Snow Gear Check grounded in the official Snow Sports pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Cold-Weather Layering & Snow Gear Check grounded in the official Snow Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -816,63 +789,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 5): Present yourself properly clothed and equipped for the option you choose in requirement 7.",
-        "Core Standard 2 (Req 5): Discuss how the clothing you have chosen will help keep you warm and protected.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Snow Sports Req 5 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Snow Sports Workbook before requesting Requirement 5 sign-off."
+        "Pick Binding Suited: Pick a binding that is suited for the shoes you plan to use and theconditions you will encounter.",
+        "Consider Operatethe Binding: Consider also whether you will be able to operatethe binding while wearing gloves or mittens.",
+        "Body Packweight Consider: Your body and packweight is important to consider when choosing the right sizesnowshoe to keep you afloat.",
+        "Recommended Load Weight: When shopping for snowshoes, look for the recommended load weight."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Snow Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Present yourself properly clothed and equipped for the.",
-        "Execute & Document: Perform the present task methodically with your patrol buddy and log specific observations in your Snow Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Quality Snowshoes Sustain: Quality snowshoes can sustain years of use if they are wellcared for.",
+        "Here Pointers: Here are some pointers to help keep snowshoesperforming well. • Inspect snowshoes after each adventure.",
+        "Modern Styles Eyeout: In modern styles, keep an eyeout for rips in the decking.",
+        "Examine Bindings Laces: Examine bindings, laces, andratchets, and replace them when they appear worn."
       ],
       "gear_checklist": [
         "Official Snow Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Snow Sports Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Cold-Weather Layering & Snow Gear Check",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Snow Sports Approach",
-        "right_header": "Official BSA Snow Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Snow Sports Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Snow Sports Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Present yourself properly clothed and equipped for the",
-          "Primary Standard": "Present yourself properly clothed and equipped for the option you choose in requirement 7. Discuss how the clo",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Snow Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Snow Sports Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Cold-Weather Layering & Snow Gear Check",
+          "Primary Standard": "Present yourself properly clothed and equipped for the option you choose in requirement 7. Discuss how the clothing you have chosen will help keep you warm and protected.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Snow Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Snow Sports Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Snow Sports Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Snow Sports Requirement 5, a Scout claims: \"Reading a short definition of Present yourself properly clothed and equipped for the is enough for Snow Sports Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively present the specific principles and real-world steps of Present yourself properly clothed and equipped for the grounded in the official Snow Sports pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively present the specific principles and real-world steps of Present yourself properly clothed and equipped for the grounded in the official Snow Sports pamphlet.",
-        "explanation": "Per Official BSA Snow Sports Pamphlet, pp. 28-33, Each Scout must actively present the specific principles and real-world steps of Present yourself properly clothed and equipped for the grounded in the official Snow Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Snow Sports Workbook organizer table and practical demonstration for Req 5."
     },
@@ -909,10 +859,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Snow Sports Requirement 6a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Snow Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Snow Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Snow Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -932,9 +884,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Explain the elements of the Your Responsibility Code that is in effect at the location where you will ski, snowboard, or snowshoe. Explain why each person must follow this code."
         },
         {
           "sub_id": "6b",
@@ -962,10 +917,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Snow Sports Requirement 6b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Snow Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Snow Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Snow Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -985,9 +942,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Explain the SMART Style safety program. Tell why it is important and how it applies to participants at snow sport venues like terrain parks and pipes."
         },
         {
           "sub_id": "6c",
@@ -1015,10 +975,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Snow Sports Requirement 6c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Snow Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Snow Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Snow Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1038,9 +1000,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Explain the precautions pertaining to avalanche safety, including the responsibility of individuals regarding avalanche safety."
         }
       ],
       "resources": [
@@ -1065,13 +1030,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Do ALL of the following: (a) Explain the",
+      "topic_title": "Req 6: Skier & Rider Responsibility Code",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Snow Sports Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Snow Sports Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)",
+      "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1088,8 +1053,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Do ALL of the following: (a) Explain the is enough for Snow Sports Requirement 6 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Do ALL of the following: (a) Explain the grounded in the official Snow Sports pamphlet."
+        "misconception": "Reading a short definition of Skier & Rider Responsibility Code is enough for Snow Sports Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Skier & Rider Responsibility Code grounded in the official Snow Sports pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Skier & Rider Responsibility Code grounded in the official Snow Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1109,63 +1076,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Snow Sports Sub-Req 6a: Explain the elements of the Your Responsibility Code that is in effect at the location where you will ski, snowboard, or snowshoe. Explain why.",
-        "Snow Sports Sub-Req 6b: Explain the SMART Style safety program. Tell why it is important and how it applies to participants at snow sport venues like terrain parks and pipes.",
-        "Snow Sports Sub-Req 6c: Explain the precautions pertaining to avalanche safety, including the responsibility of individuals regarding avalanche safety.",
-        "Core Standard 1 (Req 6): Do ALL of the following: (a) Explain the elements of the Your Responsibility Code that is in effect at the location where you will ski, snowboard, or snowshoe."
+        "Not Listen Their: If not, listen for their voices and use your ski poles (grip side down) or a ski to probe the snow.",
+        "Chances Saving Person: Your chances of saving a person decreaserapidly as the snow settles.",
+        "Leap Means Knowthe: Look before you leap means that you should knowthe park very well before you ride the features.",
+        "Youshould Perform Inspection: Youshould always perform an inspection run through thepark or pipe to check for any irregularities and changesthat may have happened since you."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Snow Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Do ALL of the following: (a) Explain the.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Snow Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Youneed Landing Zone: Youneed to know that the landing zone is clear before youhit any feature.",
+        "Spotter Featurewhere Cannot: You should use a spotter on any featurewhere you cannot see the landing.",
+        "Spotter Usesignals Indicate: The spotter will usesignals to indicate whether it is safe for you to proceed.",
+        "Stop Zone Anyfeature: Never stop in the NO Zone of anyfeature that is thepotential landingand run-out ofthat feature."
       ],
       "gear_checklist": [
         "Official Snow Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Snow Sports Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Skier & Rider Responsibility Code",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Snow Sports Approach",
-        "right_header": "Official BSA Snow Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Snow Sports Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Snow Sports Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Do ALL of the following: (a) Explain the",
-          "Primary Standard": "Explain the elements of the Your Responsibility Code that is in effect at the location where you will ski, sno",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Snow Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Snow Sports Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Skier & Rider Responsibility Code",
+          "Primary Standard": "Explain the elements of the Your Responsibility Code that is in effect at the location where you will ski, snowboard, or snowshoe. Explain why each person must follow this code.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Snow Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Snow Sports Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Snow Sports Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Snow Sports Requirement 6, a Scout claims: \"Reading a short definition of Do ALL of the following: (a) Explain the is enough for Snow Sports Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Do ALL of the following: (a) Explain the grounded in the official Snow Sports pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Do ALL of the following: (a) Explain the grounded in the official Snow Sports pamphlet.",
-        "explanation": "Per Official BSA Snow Sports Pamphlet, pp. 34-39, Each Scout must actively explain the specific principles and real-world steps of Do ALL of the following: (a) Explain the grounded in the official Snow Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Snow Sports Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1203,26 +1147,25 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "RULED_EXPLAIN_BOX",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
-                  "Buddy Practice Check",
-                  "Counselor Sign-Off"
+                  "Req 7a(1) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
                 ],
-                "min_rows": 4,
+                "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(1) is enough for Snow Sports Requirement 7a(1) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7a(1) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(1) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(1) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1242,9 +1185,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(1)",
+              "sub_req_label": "7a(1)",
+              "sub_req_text": "Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers."
             },
             {
               "sub_id": "7a(2)",
@@ -1272,10 +1218,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(2) is enough for Snow Sports Requirement 7a(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(2) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(2) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(2) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1295,9 +1243,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(2)",
+              "sub_req_label": "7a(2)",
+              "sub_req_text": "Explain the American Teaching System and a basic snowskiing progression."
             },
             {
               "sub_id": "7a(3)",
@@ -1332,10 +1283,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(3) is enough for Snow Sports Requirement 7a(3) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7a(3) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7a(3) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7a(3) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1355,9 +1308,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(3)",
+              "sub_req_label": "7a(3)",
+              "sub_req_text": "Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily."
             },
             {
               "sub_id": "7a(4)",
@@ -1388,10 +1344,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(4) is enough for Snow Sports Requirement 7a(4) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(4) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(4) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(4) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1411,9 +1369,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(4)",
+              "sub_req_label": "7a(4)",
+              "sub_req_text": "Demonstrate how to ride one kind of lift and explain how to ride two others."
             },
             {
               "sub_id": "7a(5)",
@@ -1452,10 +1413,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(5) is enough for Snow Sports Requirement 7a(5) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(5) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(5) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(5) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1475,9 +1438,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(5)",
+              "sub_req_label": "7a(5)",
+              "sub_req_text": "On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers."
             },
             {
               "sub_id": "7a(6)",
@@ -1512,10 +1478,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(6) is enough for Snow Sports Requirement 7a(6) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7a(6) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7a(6) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7a(6) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1535,9 +1503,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(6)",
+              "sub_req_label": "7a(6)",
+              "sub_req_text": "On slightly steeper terrain, show linked wedge turns."
             },
             {
               "sub_id": "7a(7)",
@@ -1568,10 +1539,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(7) is enough for Snow Sports Requirement 7a(7) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(7) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(7) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(7) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1591,9 +1564,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(7)",
+              "sub_req_label": "7a(7)",
+              "sub_req_text": "On a moderate slope, demonstrate five to 10 christies."
             },
             {
               "sub_id": "7a(8)",
@@ -1624,10 +1600,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(8) is enough for Snow Sports Requirement 7a(8) sign-off.",
-                "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7a(8) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7a(8) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 7a(8) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1647,9 +1625,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(8)",
+              "sub_req_label": "7a(8)",
+              "sub_req_text": "Make a controlled run down an intermediate slope."
             },
             {
               "sub_id": "7a(9)",
@@ -1680,10 +1661,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(9) is enough for Snow Sports Requirement 7a(9) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(9) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(9) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(9) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1703,9 +1686,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(9)",
+              "sub_req_label": "7a(9)",
+              "sub_req_text": "Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions. Maintain your balance and ability to turn."
             },
             {
               "sub_id": "7a(10)",
@@ -1741,10 +1727,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7a(10) is enough for Snow Sports Requirement 7a(10) sign-off.",
-                "fact": "Each Scout must actively name the specific principles and real-world steps of Req 7a(10) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(10) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(10) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1764,9 +1752,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7a(10)",
+              "sub_req_label": "7a(10)",
+              "sub_req_text": "Name the major ski organizations in the United States and explain their functions."
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -1787,10 +1778,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Snow Sports Requirement 7a sign-off.",
-            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 7a grounded in the official Snow Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Snow Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Snow Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1810,9 +1803,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Option A—Downhill (Alpine) Skiing. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate each of the required skills. (1) Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers. (2) Explain the American Teaching System and a basic snowskiing progression. (3) Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily. (4) Demonstrate how to ride one kind of lift and explain how to ride two others. (5) On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers. (6) On slightly steeper terrain, show linked wedge turns. (7) On a moderate slope, demonstrate five to 10 christies. (8) Make a controlled run down an intermediate slope. (9) Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions. Maintain your balance and ability to turn. (10) Name the major ski organizations in the United States and explain their functions."
         },
         {
           "sub_id": "7b",
@@ -1849,10 +1845,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(1) is enough for Snow Sports Requirement 7b(1) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b(1) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b(1) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7b(1) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1872,9 +1870,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(1)",
+              "sub_req_label": "7b(1)",
+              "sub_req_text": "Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort."
             },
             {
               "sub_id": "7b(2)",
@@ -1897,10 +1898,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(2) is enough for Snow Sports Requirement 7b(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b(2) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b(2) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b(2) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1920,9 +1923,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(2)",
+              "sub_req_label": "7b(2)",
+              "sub_req_text": "Explain the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing on snowmobile trails."
             },
             {
               "sub_id": "7b(3)",
@@ -1950,10 +1956,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(3) is enough for Snow Sports Requirement 7b(3) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(3) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(3) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(3) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1973,9 +1981,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(3)",
+              "sub_req_label": "7b(3)",
+              "sub_req_text": "Discuss classic, skating, touring, and telemark skis."
             },
             {
               "sub_id": "7b(4)",
@@ -2003,10 +2014,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(4) is enough for Snow Sports Requirement 7b(4) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(4) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(4) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(4) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2026,9 +2039,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(4)",
+              "sub_req_label": "7b(4)",
+              "sub_req_text": "Discuss the basic principles of waxing for cross-country ski touring."
             },
             {
               "sub_id": "7b(5)",
@@ -2060,10 +2076,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(5) is enough for Snow Sports Requirement 7b(5) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(5) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(5) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(5) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2083,9 +2101,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(5)",
+              "sub_req_label": "7b(5)",
+              "sub_req_text": "Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing."
             },
             {
               "sub_id": "7b(6)",
@@ -2113,10 +2134,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(6) is enough for Snow Sports Requirement 7b(6) sign-off.",
-                "fact": "Each Scout must actively list the specific principles and real-world steps of Req 7b(6) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively list the specific principles and real-world steps of Req 7b(6) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 7b(6) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2136,9 +2159,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(6)",
+              "sub_req_label": "7b(6)",
+              "sub_req_text": "List the items you would take on a one-day ski tour."
             },
             {
               "sub_id": "7b(7)",
@@ -2177,10 +2203,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(7) is enough for Snow Sports Requirement 7b(7) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(7) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(7) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(7) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2200,9 +2228,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(7)",
+              "sub_req_label": "7b(7)",
+              "sub_req_text": "Demonstrate the proper use of a topographic map and compass."
             },
             {
               "sub_id": "7b(8)",
@@ -2233,10 +2264,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(8) is enough for Snow Sports Requirement 7b(8) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b(8) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b(8) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7b(8) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2256,9 +2289,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(8)",
+              "sub_req_label": "7b(8)",
+              "sub_req_text": "On a gentle, packed slope, show some basic ways to control speed and direction. Include the straight run, traverse, side slip, step turn, wedge stop, and wedge turn maneuvers."
             },
             {
               "sub_id": "7b(9)",
@@ -2289,10 +2325,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(9) is enough for Snow Sports Requirement 7b(9) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(9) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(9) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(9) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2312,9 +2350,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(9)",
+              "sub_req_label": "7b(9)",
+              "sub_req_text": "On a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, rhythm, flow, and glide."
             },
             {
               "sub_id": "7b(10)",
@@ -2345,10 +2386,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(10) is enough for Snow Sports Requirement 7b(10) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(10) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(10) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(10) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2368,9 +2411,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(10)",
+              "sub_req_label": "7b(10)",
+              "sub_req_text": "Demonstrate your ability, on a 4-mile tour, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile tour with prior approval from their counselor."
             },
             {
               "sub_id": "7b(11)",
@@ -2401,10 +2447,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7b(11) is enough for Snow Sports Requirement 7b(11) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(11) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(11) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(11) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2424,9 +2472,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7b(11)",
+              "sub_req_label": "7b(11)",
+              "sub_req_text": "Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag."
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -2447,10 +2498,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Snow Sports Requirement 7b sign-off.",
-            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 7b grounded in the official Snow Sports pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b grounded in the official Snow Sports pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7b grounded in the official Snow Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2470,9 +2523,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Option B—Cross-Country (Nordic) Skiing. Do ALL of the following: (1) Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort. (2) Explain the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing on snowmobile trails. (3) Discuss classic, skating, touring, and telemark skis. (4) Discuss the basic principles of waxing for cross-country ski touring. (5) Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing. (6) List the items you would take on a one-day ski tour. (7) Demonstrate the proper use of a topographic map and compass. (8) On a gentle, packed slope, show some basic ways to control speed and direction. Include the straight run, traverse, side slip, step turn, wedge stop, and wedge turn maneuvers. (9) On a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, rhythm, flow, and glide. (10) Demonstrate your ability, on a 4-mile tour, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile tour with prior approval from their counselor. (11) Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag."
         },
         {
           "sub_id": "7c",
@@ -2506,10 +2562,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(1) is enough for Snow Sports Requirement 7c(1) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c(1) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c(1) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c(1) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2529,9 +2587,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(1)",
+              "sub_req_label": "7c(1)",
+              "sub_req_text": "Discuss forward-fall injuries."
             },
             {
               "sub_id": "7c(2)",
@@ -2562,10 +2623,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(2) is enough for Snow Sports Requirement 7c(2) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7c(2) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7c(2) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7c(2) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2585,9 +2648,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(2)",
+              "sub_req_label": "7c(2)",
+              "sub_req_text": "Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort."
             },
             {
               "sub_id": "7c(3)",
@@ -2602,26 +2668,25 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "RULED_EXPLAIN_BOX",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
-                  "Buddy Practice Check",
-                  "Counselor Sign-Off"
+                  "Req 7c(3) Concept / Sub-Part",
+                  "Key Pamphlet Facts & Field Examples"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Core Principle",
+                  "Real-World Scouting Application",
+                  "Key Term / Standard"
                 ],
-                "min_rows": 4,
+                "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(3) is enough for Snow Sports Requirement 7c(3) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7c(3) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(3) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(3) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2641,9 +2706,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(3)",
+              "sub_req_label": "7c(3)",
+              "sub_req_text": "Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes."
             },
             {
               "sub_id": "7c(4)",
@@ -2674,10 +2742,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(4) is enough for Snow Sports Requirement 7c(4) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c(4) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c(4) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c(4) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2697,9 +2767,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(4)",
+              "sub_req_label": "7c(4)",
+              "sub_req_text": "Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely."
             },
             {
               "sub_id": "7c(5)",
@@ -2730,10 +2803,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(5) is enough for Snow Sports Requirement 7c(5) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(5) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(5) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(5) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2753,9 +2828,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(5)",
+              "sub_req_label": "7c(5)",
+              "sub_req_text": "Demonstrate how to ride one kind of lift and explain how to ride two others."
             },
             {
               "sub_id": "7c(6)",
@@ -2786,10 +2864,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(6) is enough for Snow Sports Requirement 7c(6) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(6) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(6) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(6) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2809,9 +2889,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(6)",
+              "sub_req_label": "7c(6)",
+              "sub_req_text": "Demonstrate the basic principles of waxing a snowboard."
             },
             {
               "sub_id": "7c(7)",
@@ -2870,10 +2953,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(7) is enough for Snow Sports Requirement 7c(7) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(7) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(7) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(7) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2893,9 +2978,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(7)",
+              "sub_req_label": "7c(7)",
+              "sub_req_text": "Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing."
             },
             {
               "sub_id": "7c(8)",
@@ -2934,10 +3022,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(8) is enough for Snow Sports Requirement 7c(8) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(8) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(8) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(8) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2957,9 +3047,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(8)",
+              "sub_req_label": "7c(8)",
+              "sub_req_text": "On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie."
             },
             {
               "sub_id": "7c(9)",
@@ -2990,10 +3083,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(9) is enough for Snow Sports Requirement 7c(9) sign-off.",
-                "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7c(9) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7c(9) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 7c(9) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3013,9 +3108,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(9)",
+              "sub_req_label": "7c(9)",
+              "sub_req_text": "Make a controlled run down an intermediate slope."
             },
             {
               "sub_id": "7c(10)",
@@ -3046,10 +3144,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(10) is enough for Snow Sports Requirement 7c(10) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(10) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(10) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(10) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3069,9 +3169,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(10)",
+              "sub_req_label": "7c(10)",
+              "sub_req_text": "Demonstrate your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls. Maintain your balance and ability to turn."
             },
             {
               "sub_id": "7c(11)",
@@ -3099,10 +3202,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7c(11) is enough for Snow Sports Requirement 7c(11) sign-off.",
-                "fact": "Each Scout must actively name the specific principles and real-world steps of Req 7c(11) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(11) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(11) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3122,9 +3227,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7c(11)",
+              "sub_req_label": "7c(11)",
+              "sub_req_text": "Name the major snowboarding organizations in the United States and explain their functions."
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -3145,10 +3253,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7c is enough for Snow Sports Requirement 7c sign-off.",
-            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 7c grounded in the official Snow Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Snow Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Snow Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3168,9 +3278,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7c",
+          "sub_req_label": "7c",
+          "sub_req_text": "Option C—Snowboarding. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate the required skills. (1) Discuss forward-fall injuries. (2) Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort. (3) Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes. (4) Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely. (5) Demonstrate how to ride one kind of lift and explain how to ride two others. (6) Demonstrate the basic principles of waxing a snowboard. (7) Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing. (8) On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie. (9) Make a controlled run down an intermediate slope. (10) Demonstrate your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls. Maintain your balance and ability to turn. (11) Name the major snowboarding organizations in the United States and explain their functions."
         },
         {
           "sub_id": "7d",
@@ -3204,10 +3317,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7d(1) is enough for Snow Sports Requirement 7d(1) sign-off.",
-                "fact": "Each Scout must actively name the specific principles and real-world steps of Req 7d(1) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively name the specific principles and real-world steps of Req 7d(1) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 7d(1) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3227,9 +3342,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7d(1)",
+              "sub_req_label": "7d(1)",
+              "sub_req_text": "Name the parts of a snowshoe."
             },
             {
               "sub_id": "7d(2)",
@@ -3252,10 +3370,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7d(2) is enough for Snow Sports Requirement 7d(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d(2) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d(2) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d(2) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3275,9 +3395,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7d(2)",
+              "sub_req_label": "7d(2)",
+              "sub_req_text": "Explain how to choose the correct size of snowshoe."
             },
             {
               "sub_id": "7d(3)",
@@ -3300,10 +3423,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7d(3) is enough for Snow Sports Requirement 7d(3) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 7d(3) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(3) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(3) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3323,9 +3448,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7d(3)",
+              "sub_req_label": "7d(3)",
+              "sub_req_text": "Describe the different types of snowshoes and their specialized uses. Discuss factors to consider when choosing a snowshoe."
             },
             {
               "sub_id": "7d(4)",
@@ -3357,10 +3485,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7d(4) is enough for Snow Sports Requirement 7d(4) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d(4) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d(4) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d(4) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3380,9 +3510,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7d(4)",
+              "sub_req_label": "7d(4)",
+              "sub_req_text": "Explain how to properly care for and maintain snowshoes."
             },
             {
               "sub_id": "7d(5)",
@@ -3414,10 +3547,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7d(5) is enough for Snow Sports Requirement 7d(5) sign-off.",
-                "fact": "Each Scout must actively list the specific principles and real-world steps of Req 7d(5) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively list the specific principles and real-world steps of Req 7d(5) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 7d(5) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3437,9 +3572,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7d(5)",
+              "sub_req_label": "7d(5)",
+              "sub_req_text": "List the items you would take on a one-day snowshoe hike."
             },
             {
               "sub_id": "7d(6)",
@@ -3467,10 +3605,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7d(6) is enough for Snow Sports Requirement 7d(6) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 7d(6) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(6) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(6) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3490,9 +3630,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7d(6)",
+              "sub_req_label": "7d(6)",
+              "sub_req_text": "Describe areas that are best for snowshoeing. Discuss some advantages and dangers of backcountry snowshoeing."
             },
             {
               "sub_id": "7d(7)",
@@ -3520,10 +3663,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7d(7) is enough for Snow Sports Requirement 7d(7) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(7) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(7) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(7) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3543,9 +3688,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7d(7)",
+              "sub_req_label": "7d(7)",
+              "sub_req_text": "Discuss the benefits of snowshoeing."
             },
             {
               "sub_id": "7d(8)",
@@ -3584,10 +3732,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7d(8) is enough for Snow Sports Requirement 7d(8) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(8) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(8) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(8) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3607,9 +3757,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7d(8)",
+              "sub_req_label": "7d(8)",
+              "sub_req_text": "Demonstrate the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope."
             },
             {
               "sub_id": "7d(9)",
@@ -3640,10 +3793,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7d(9) is enough for Snow Sports Requirement 7d(9) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(9) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(9) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(9) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3663,9 +3818,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7d(9)",
+              "sub_req_label": "7d(9)",
+              "sub_req_text": "Demonstrate your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions. Note: Adaptive snowshoers may complete a 1-mile hike with prior approval from their counselor."
             },
             {
               "sub_id": "7d(10)",
@@ -3704,10 +3862,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+              "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 7d(10) is enough for Snow Sports Requirement 7d(10) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(10) grounded in the official Snow Sports pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(10) grounded in the official Snow Sports pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(10) grounded in the official Snow Sports pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3727,9 +3887,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "7d(10)",
+              "sub_req_label": "7d(10)",
+              "sub_req_text": "Demonstrate the proper use of a topographic map and compass."
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -3750,10 +3913,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7d is enough for Snow Sports Requirement 7d sign-off.",
-            "fact": "Each Scout must actively option the specific principles and real-world steps of Req 7d grounded in the official Snow Sports pamphlet."
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 7d grounded in the official Snow Sports pamphlet.",
+            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 7d grounded in the official Snow Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3773,9 +3938,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7d",
+          "sub_req_label": "7d",
+          "sub_req_text": "Option D—Snowshoeing. Do ALL of the following: (1) Name the parts of a snowshoe. (2) Explain how to choose the correct size of snowshoe. (3) Describe the different types of snowshoes and their specialized uses. Discuss factors to consider when choosing a snowshoe. (4) Explain how to properly care for and maintain snowshoes. (5) List the items you would take on a one-day snowshoe hike. (6) Describe areas that are best for snowshoeing. Discuss some advantages and dangers of backcountry snowshoeing. (7) Discuss the benefits of snowshoeing. (8) Demonstrate the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope. (9) Demonstrate your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions. Note: Adaptive snowshoers may complete a 1-mile hike with prior approval from their counselor. (10) Demonstrate the proper use of a topographic map and compass."
         }
       ],
       "resources": [
@@ -4008,13 +4176,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: options: (a) Option A, Downhill (Alpine) Skiing. Do",
+      "topic_title": "Req 7: Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Snow Sports Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Snow Sports Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
+      "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -4034,8 +4202,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of options: (a) Option A, Downhill (Alpine) Skiing. Do is enough for Snow Sports Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of options: (a) Option A, Downhill (Alpine) Skiing. Do grounded in the official Snow Sports pamphlet."
+        "misconception": "Reading a short definition of Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding is enough for Snow Sports Requirement 7 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding grounded in the official Snow Sports pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding grounded in the official Snow Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -4055,68 +4225,61 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Snow Sports Sub-Req 7a: Option A, Downhill (Alpine) Skiing. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle.",
-        "Snow Sports Sub-Req 7a(1): Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers.",
-        "Snow Sports Sub-Req 7a(2): Explain the American Teaching System and a basic snowskiing progression.",
-        "Snow Sports Sub-Req 7a(3): Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily."
+        "All-mountain Skis Come: All-mountain skis come in a variety of flexes and side cuts.",
+        "Racing Skis Designed: Racing skis are designed for high speeds and hard snow.",
+        "They Generally Stiff: They generally have a stiff flex that can make turning moredifficult, but that makes the ski more stable at higher speeds.",
+        "Racing Skis Specialized: Racing skis are specialized for turning around gates, and theside cut determines how wide a turn the skis can make."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Snow Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing options: (a) Option A, Downhill (Alpine) Skiing. Do.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Snow Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Twin-tip Skis Turned: Twin-tip skis are turned up at the tip and the tail and aredesigned for performing on jumps, rails, and half-pipes.",
+        "Theycan Skied Mountain: Theycan be skied all over the mountain, but their design makesmany conditions outside the terrain park more challenging.",
+        "Boots Downhill Skiing: Most boots for downhill skiing consist of a plastic outer shellfor support and an inner shell of material designed to moldto the foot for comfort.",
+        "Boots Come Varietyof: Boots come in a varietyof widths, and they have buckles on the outer shell that allow a skier to adjust the amount of tension."
       ],
       "gear_checklist": [
         "Official Snow Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Snow Sports Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Snow Sports Approach",
-        "right_header": "Official BSA Snow Sports Pamphlet Standard",
+        "right_header": "Official BSA Snow Sports Standard (Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Snow Sports Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Snow Sports Workbook organizer.",
+          "Clearly demonstrates and explains Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Snow Sports Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - options: (a) Option A, Downhill (Alpine) Skiing. Do",
-          "Primary Standard": "Option A, Downhill (Alpine) Skiing. Do ALL of the following: Note: Generally, a gentle slope will be a trail d",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Snow Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Snow Sports Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding",
+          "Primary Standard": "Option A, Downhill (Alpine) Skiing.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Snow Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Snow Sports Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Snow Sports Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Snow Sports Requirement 7, a Scout claims: \"Reading a short definition of options: (a) Option A, Downhill (Alpine) Skiing. Do is enough for Snow Sports Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of options: (a) Option A, Downhill (Alpine) Skiing. Do grounded in the official Snow Sports pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of options: (a) Option A, Downhill (Alpine) Skiing. Do grounded in the official Snow Sports pamphlet.",
-        "explanation": "Per Official BSA Snow Sports Pamphlet, pp. 40-45, Each Scout must actively explain the specific principles and real-world steps of options: (a) Option A, Downhill (Alpine) Skiing. Do grounded in the official Snow Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Snow Sports Workbook organizer table and practical demonstration for Req 7."
     }
   ],
   "badge_slug": "snow-sports",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

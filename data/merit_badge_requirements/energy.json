@@ -49,15 +49,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Energy Requirement 1a sign-off.",
-            "fact": "Each Scout must actively with the specific principles and real-world steps of Req 1a grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Energy Req 1a with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Energy Req 1a with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -77,9 +79,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "With your parent or guardian's permission, use the internet to find a blog, podcast, website, or an article on the use or conservation of energy. Discuss with your counselor what details in the article were interesting to you, the questions it raises, and what ideas it addresses that you do not understand."
         },
         {
           "sub_id": "1b",
@@ -102,10 +107,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Energy Requirement 1b sign-off.",
-            "fact": "Each Scout must actively after the specific principles and real-world steps of Req 1b grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -125,9 +132,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "After you have completed requirements 2 through 8, revisit your source for requirement 1(a). Explain to your counselor what you have learned in completing the requirements that helps you better understand the article."
         }
       ],
       "resources": [
@@ -148,13 +158,13 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: (a) With your parent or guardian's permission, use",
+      "topic_title": "Req 1: Use the internet to find",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Energy Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Energy Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)",
+      "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -174,13 +184,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) With your parent or guardian's permission, use is enough for Energy Requirement 1 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) With your parent or guardian's permission, use grounded in the official Energy pamphlet."
+        "misconception": "Reading a short definition of Use the internet to find is enough for Energy Requirement 1 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Use the internet to find grounded in the official Energy pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Use the internet to find grounded in the official Energy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Energy Req 1 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Energy Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -200,62 +212,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Energy Sub-Req 1a: With your parent or guardian's permission, use the internet to find a blog, podcast, website, or an article on the use or conservation of.",
-        "Energy Sub-Req 1b: After you have completed requirements 2 through 8, revisit your source for requirement 1(a). Explain to your counselor what you have learned in completing.",
-        "Core Standard 1 (Req 1): Do the following: (a) With your parent or guardian's permission, use the internet to find a blog, podcast, website, or an article on the use or conservation of energy.",
-        "Core Standard 2 (Req 1): Discuss with your counselor what details in the article were interesting to you, the questions it raises, and what ideas it addresses that you do not understand."
+        "Nate Saw Sticker: Nate saw that every sticker also listed the “MPG highway” and “MPG city.” He wondered why these two numbers for milesper gallon would be different.",
+        "Wondered Moreexpensive: He also wondered if the moreexpensive trucks were cheaper to operate, like the refrigerators.",
+        "However Checking Nate: However, after checking, Nate found that higher-priced trucksgenerally got lower fuel mileage, making them more expensiveto drive than lower-priced.",
+        "Salesman Saw Nate: A salesman saw Nate scribbling in his notebook and cameover."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Energy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) With your parent or guardian's permission, use.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Energy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Now Hadmore Questions: He now hadmore questions for his Energy counselor.",
+        "Alternative Energy Sources: Alternative energy sources, like these solar panels, can help cut down on pollution.",
+        "Nate Walked Out: Nate walked out of the court of honor wearing a wide, proudsmile.",
+        "Hear His Name: He could still hear his name being called to come to thefront and receive his new rank patch: “Nathan Robert Gomez, Star Scout.” Already he was planning."
       ],
       "gear_checklist": [
         "Official Energy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Energy Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Use the internet to find",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Energy Approach",
-        "right_header": "Official BSA Energy Pamphlet Standard",
+        "right_header": "Official BSA Energy Standard (Use the internet to find)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Use the internet to find.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Energy Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Energy Workbook organizer.",
+          "Clearly demonstrates and explains Use the internet to find using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Energy Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) With your parent or guardian's permission, use",
-          "Primary Standard": "With your parent or guardian's permission, use the internet to find a blog, podcast, website, or an article on",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Energy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Energy Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Use the internet to find",
+          "Primary Standard": "With your parent or guardian's permission, use the internet to find a blog, podcast, website, or an article on the use or conservation of energy.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Energy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Energy Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Energy Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Energy Requirement 1, a Scout claims: \"Reading a short definition of (a) With your parent or guardian's permission, use is enough for Energy Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Energy (Use the internet to find), which patrol preparation step best aligns with the official Energy standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) With your parent or guardian's permission, use grounded in the official Energy pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Energy hazards, PPE, and prerequisite standards in Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) With your parent or guardian's permission, use grounded in the official Energy pamphlet.",
-        "explanation": "Per Official BSA Energy Pamphlet, pp. 4-9, Each Scout must actively demonstrate the specific principles and real-world steps of (a) With your parent or guardian's permission, use grounded in the official Energy pamphlet."
+        "correct_answer": "Option A - Review the Energy hazards, PPE, and prerequisite standards in Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Energy Workbook organizer table and practical demonstration for Req 1."
@@ -317,10 +329,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Energy Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -340,9 +354,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Explain how THREE of the following devices use energy, and explain their energy conversions: toaster, greenhouse, lightbulb, bow drill, cell phone, nuclear reactor, sauna, or electric vehicles."
         },
         {
           "sub_id": "2b",
@@ -382,10 +399,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Energy Requirement 2b sign-off.",
-            "fact": "Each Scout must actively construct the specific principles and real-world steps of Req 2b grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -405,9 +424,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Construct a system that makes at least two energy conversions and explain this to your counselor."
         }
       ],
       "resources": [
@@ -472,34 +494,33 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Show you understand energy forms and conversions by",
-      "action_verb": "Show",
+      "topic_title": "Req 2: You understand energy forms and conversions",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Energy Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Energy Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)",
+      "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "RULED_EXPLAIN_BOX",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 2 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
         ],
-        "min_rows": 4,
+        "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Show you understand energy forms and conversions by is enough for Energy Requirement 2 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Show you understand energy forms and conversions by grounded in the official Energy pamphlet."
+        "misconception": "Reading a short definition of You understand energy forms and conversions is enough for Energy Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of You understand energy forms and conversions grounded in the official Energy pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of You understand energy forms and conversions grounded in the official Energy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -519,63 +540,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Energy Sub-Req 2a: Explain how THREE of the following devices use energy, and explain their energy conversions: toaster, greenhouse, lightbulb, bow drill, cell phone, nuclear reactor, sauna.",
-        "Energy Sub-Req 2b: Construct a system that makes at least two energy conversions and explain this to your counselor.",
-        "Core Standard 1 (Req 2): Show you understand energy forms and conversions by doing the following: (a) Explain how THREE of the following devices use energy, and explain their energy conversions: toaster, greenhouse, lightbulb, bow drill, cell phone, nuclear reactor, sauna, or electric vehicles.",
-        "Core Standard 2 (Req 2): (b) Construct a system that makes at least two energy conversions and explain this to your counselor."
+        "Improve Efficiency Building: We can improve efficiency by building better-qualitydevices made with more refined materials, more preciseparts, and more careful construction.",
+        "However Usingthe Materials: However, even usingthe best materials and the most careful processes, lightbulbs, car engines, and other machines always achieve less than.",
+        "Way Increase Energy: Another way to increase energy efficiency is to developbetter technologies.",
+        "Incandescent Lightbulbs: While incandescent lightbulbs are onlyabout 5% efficient, a fluorescent lamp works at almost 12% efficiency."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Energy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Show you understand energy forms and conversions by.",
-        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Energy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Coal-burning Steam: A coal-burning steam locomotive may have beenonly about 4% efficient, but modern train engines haveefficiencies of about 35%.",
+        "Cars Became: Cars became more energy-efficientwhen they switched from carburetors to fuel injectors.",
+        "Here Common Situations: Here are some common situations you might considerfor requirement 3: A traditional incandescent lightbulbchanges electricity into light.",
+        "LED Lighting Consumes: LED lighting consumes up to 90% less energy thanincandescent bulbs."
       ],
       "gear_checklist": [
         "Official Energy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Energy Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for You understand energy forms and conversions",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Energy Approach",
-        "right_header": "Official BSA Energy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Energy Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Energy Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Show you understand energy forms and conversions by",
-          "Primary Standard": "Explain how THREE of the following devices use energy, and explain their energy conversions: toaster, greenhou",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Energy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Energy Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - You understand energy forms and conversions",
+          "Primary Standard": "Explain how THREE of the following devices use energy, and explain their energy conversions: toaster, greenhouse, lightbulb, bow drill, cell phone, nuclear reactor, sauna, or electric vehicles.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Energy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Energy Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Energy Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Energy Requirement 2, a Scout claims: \"Reading a short definition of Show you understand energy forms and conversions by is enough for Energy Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Show you understand energy forms and conversions by grounded in the official Energy pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Show you understand energy forms and conversions by grounded in the official Energy pamphlet.",
-        "explanation": "Per Official BSA Energy Pamphlet, pp. 10-15, Each Scout must actively show the specific principles and real-world steps of Show you understand energy forms and conversions by grounded in the official Energy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Energy Workbook organizer table and practical demonstration for Req 2."
     },
@@ -607,10 +605,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Energy Requirement 3a sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3a grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3a grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 3a grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -630,9 +630,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Identify the parts of the system that are affected by the energy movement."
         },
         {
           "sub_id": "3b",
@@ -655,10 +658,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Energy Requirement 3b sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 3b grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 3b grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 3b grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -678,9 +683,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Name the system's primary source of energy."
         },
         {
           "sub_id": "3c",
@@ -703,10 +711,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3c is enough for Energy Requirement 3c sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3c grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3c grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 3c grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -726,9 +736,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3c",
+          "sub_req_label": "3c",
+          "sub_req_text": "Identify the useful outcomes of the system."
         },
         {
           "sub_id": "3d",
@@ -751,10 +764,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3d is enough for Energy Requirement 3d sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3d grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3d grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 3d grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -774,9 +789,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3d",
+          "sub_req_label": "3d",
+          "sub_req_text": "Identify the energy losses of the system."
         }
       ],
       "resources": [
@@ -793,13 +811,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Show you understand energy efficiency by explaining to",
+      "topic_title": "Req 3: You understand energy efficiency by explaining",
       "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Energy Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Energy Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
+      "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -819,8 +837,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Show you understand energy efficiency by explaining to is enough for Energy Requirement 3 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Show you understand energy efficiency by explaining to grounded in the official Energy pamphlet."
+        "misconception": "Reading a short definition of You understand energy efficiency by explaining is enough for Energy Requirement 3 sign-off.",
+        "fact": "Each Scout must actively show the specific principles and real-world steps of You understand energy efficiency by explaining grounded in the official Energy pamphlet.",
+        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of You understand energy efficiency by explaining grounded in the official Energy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -840,63 +860,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Energy Sub-Req 3a: Identify the parts of the system that are affected by the energy movement.",
-        "Energy Sub-Req 3b: Name the system's primary source of energy.",
-        "Energy Sub-Req 3c: Identify the useful outcomes of the system.",
-        "Energy Sub-Req 3d: Identify the energy losses of the system."
+        "Fossil Fuels Petroleum: Fossil fuels, including petroleum, natural gas, and coal, havelong produced most of the world’s electricity and poweredthe transportation sector.",
+        "Fossil Fuels Continue: Fossil fuels continue to accountfor the largest share of energy production and consumption.",
+        "Fossil Fuels Accounted: In 2020, fossil fuels accounted for almost 80 percent of U.S. energy consumption and 61 percent of our electricity generation.",
+        "Currently Percent: In addition, currently, 99 percent of U.S. hydrogenproduction is sourced from fossil fuels, with 95% from natural gas."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Energy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Show you understand energy efficiency by explaining to.",
-        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Energy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Growing Concern Fossil: A growing concern with the use of fossil fuels is thattheir combustion produces carbon dioxide and other greenhouse gas emissions.",
+        "Oil Largest Source: Oil is the largest source of energy in America, supplyingalmost 35% of the energy we use.",
+        "Crude Oil Taken: Crude oil taken from theearth must be processed or refined into specific productssuch as gasoline, heating oil, diesel fuel, or kerosene beforeit.",
+        "Depend Oil Fromother: To meet our demand, we depend on oil fromother countries."
       ],
       "gear_checklist": [
         "Official Energy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Energy Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for You understand energy efficiency by explaining",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Energy Approach",
-        "right_header": "Official BSA Energy Pamphlet Standard",
+        "right_header": "Official BSA Energy Standard (You understand energy efficiency by explaining)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during You understand energy efficiency by explaining.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Energy Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Energy Workbook organizer.",
+          "Clearly demonstrates and explains You understand energy efficiency by explaining using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Energy Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Show you understand energy efficiency by explaining to",
+          "Requirement & Topic": "Req 3 - You understand energy efficiency by explaining",
           "Primary Standard": "Identify the parts of the system that are affected by the energy movement.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Energy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Energy Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Energy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Energy Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Energy Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Energy Requirement 3, a Scout claims: \"Reading a short definition of Show you understand energy efficiency by explaining to is enough for Energy Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Show you understand energy efficiency by explaining to grounded in the official Energy pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Show you understand energy efficiency by explaining to grounded in the official Energy pamphlet.",
-        "explanation": "Per Official BSA Energy Pamphlet, pp. 16-21, Each Scout must actively show the specific principles and real-world steps of Show you understand energy efficiency by explaining to grounded in the official Energy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Energy Workbook organizer table and practical demonstration for Req 3."
     },
@@ -937,10 +947,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Energy Requirement 4a sign-off.",
-            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 4a grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 4a grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 4a grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -960,9 +972,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "List the types of energy used in your home such as electricity, wood, oil, liquid petroleum, and natural gas, and tell how each is delivered and measured, and the current cost; OR record the transportation fuel used, miles driven, miles per gallon, and trips using your family car or another vehicle."
         },
         {
           "sub_id": "4b",
@@ -1006,10 +1021,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Energy Requirement 4b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4b grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4b grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 4b grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1029,9 +1046,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Describe ways you and your family can use energy resources more wisely. In preparing your discussion, consider the energy required for the things you do and use on a daily basis (cooking, showering, using lights, driving, watching TV, using the computer). Explain what is meant by sustainable energy sources. Explain how you can change your energy use through reuse and recycling."
         }
       ],
       "resources": [
@@ -1080,13 +1100,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Conduct an energy audit of your home. Keep",
-      "action_verb": "Conduct",
+      "topic_title": "Req 4: Conduct an energy audit",
+      "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Energy Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Energy Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)",
+      "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1107,8 +1127,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Conduct an energy audit of your home. Keep is enough for Energy Requirement 4 sign-off.",
-        "fact": "Each Scout must actively conduct the specific principles and real-world steps of Conduct an energy audit of your home. Keep grounded in the official Energy pamphlet."
+        "misconception": "Reading a short definition of Conduct an energy audit is enough for Energy Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Conduct an energy audit grounded in the official Energy pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Conduct an energy audit grounded in the official Energy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1128,63 +1150,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Energy Sub-Req 4a: List the types of energy used in your home such as electricity, wood, oil, liquid petroleum, and natural gas, and tell how each is.",
-        "Energy Sub-Req 4b: Describe ways you and your family can use energy resources more wisely. In preparing your discussion, consider the energy required for the things you.",
-        "Core Standard 1 (Req 4): Conduct an energy audit of your home.",
-        "Core Standard 2 (Req 4): Keep a 14-day log that records what you and your family did to reduce energy use."
+        "Companies Send Electronic: Many companies will send an electronic bill, and customers can pay the same way.",
+        "Great Way Save: Another great way to save energy and money is to reuse thingsthat require energy to produce or process.",
+        "Productstwice Cut Energy: By using productstwice, you can cut energy use, and therefore costs, by halfor more.",
+        "Hang Towel Useit: Hang up a towel and useit again, and you will cut the energy needed to wash towelsby 50%."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Energy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Conduct an energy audit of your home. Keep.",
-        "Execute & Document: Perform the conduct task methodically with your patrol buddy and log specific observations in your Energy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Towels Twice Year: By using towels twice, each year a family of four cansave 73 loads of laundry, 1,000 gallons of heated water, detergent, fabric softener, and the cost.",
+        "Meet World Future: To meet the world’s future energy needs, existing technologies must be improved and new ones developed.",
+        "Section Read Several: In this section you will read about several technologies, each of which needs development to change ourfuture.",
+        "Information Meet Requirement: Use this information to help meet requirement 7 and as a starting point to locate other resources for afuller picture of energy."
       ],
       "gear_checklist": [
         "Official Energy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Energy Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Conduct an energy audit",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Energy Approach",
-        "right_header": "Official BSA Energy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Energy Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Energy Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Conduct an energy audit of your home. Keep",
-          "Primary Standard": "List the types of energy used in your home such as electricity, wood, oil, liquid petroleum, and natural gas, ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Energy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Energy Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Conduct an energy audit",
+          "Primary Standard": "List the types of energy used in your home such as electricity, wood, oil, liquid petroleum, and natural gas, and tell how each is delivered and measured, and the current cost; OR record the transportation fuel used, miles driven, miles per gallon.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Energy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Energy Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Energy Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Energy Requirement 4, a Scout claims: \"Reading a short definition of Conduct an energy audit of your home. Keep is enough for Energy Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively conduct the specific principles and real-world steps of Conduct an energy audit of your home. Keep grounded in the official Energy pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively conduct the specific principles and real-world steps of Conduct an energy audit of your home. Keep grounded in the official Energy pamphlet.",
-        "explanation": "Per Official BSA Energy Pamphlet, pp. 22-27, Each Scout must actively conduct the specific principles and real-world steps of Conduct an energy audit of your home. Keep grounded in the official Energy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Energy Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1216,10 +1215,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Energy Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1239,9 +1240,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Explain how the changes you suggest would lower costs, reduce pollution, or otherwise improve your community."
         },
         {
           "sub_id": "5b",
@@ -1269,10 +1273,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Energy Requirement 5b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1292,9 +1298,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Explain what changes to routines, habits, or convenience are necessary to reduce energy waste. Tell why people might resist the changes you suggest."
         }
       ],
       "resources": [
@@ -1315,13 +1324,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: In a notebook, identify and describe five examples",
+      "topic_title": "Req 5: In a notebook, identify",
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Energy Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Energy Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)",
+      "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1338,8 +1347,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of In a notebook, identify and describe five examples is enough for Energy Requirement 5 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of In a notebook, identify and describe five examples grounded in the official Energy pamphlet."
+        "misconception": "Reading a short definition of In a notebook, identify is enough for Energy Requirement 5 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of In a notebook, identify grounded in the official Energy pamphlet.",
+        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of In a notebook, identify grounded in the official Energy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1359,63 +1370,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Energy Sub-Req 5a: Explain how the changes you suggest would lower costs, reduce pollution, or otherwise improve your community.",
-        "Energy Sub-Req 5b: Explain what changes to routines, habits, or convenience are necessary to reduce energy waste. Tell why people might resist the changes you suggest.",
-        "Core Standard 1 (Req 5): In a notebook, identify and describe five examples of energy waste in your school or community.",
-        "Core Standard 2 (Req 5): Suggest in each case possible ways to reduce this waste."
+        "Energy Citizen Than: A Good Energy Citizen. more than 92% of the time making nuclear energy one of themost-reliable energy sources on the grid today.",
+        "Nuclearindustry Supports: The nuclearindustry supports nearly half a million jobs in the United Stateswith average salaries that are 50% higher than other energysources.",
+        "Process Yields Millions: This process yields millions of times more energy thanother sources (has a higher energy density).",
+        "Nuclear Powerhas Potential: Nuclear powerhas the potential to produce substantial amounts of electricitywithout adding carbon dioxide or other gases to the atmosphere."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Energy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing In a notebook, identify and describe five examples.",
-        "Execute & Document: Perform the describe task methodically with your patrol buddy and log specific observations in your Energy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Disposal Radioactive Wastes: The disposal of radioactive wastes is the trade-off, however, which must be managed when using nuclear power.",
+        "Dam Central Washington: Dam in central Washington Hydroelectric power is a type of renewable energy that usesmoving water as a source of power.",
+        "Hydropower Theoldest Types: Hydropower is one of theoldest types of renewable energy.",
+        "Hydropower Providedabout: In 2023, hydropower providedabout 37% of America’srenewable energy (10% total) generation."
       ],
       "gear_checklist": [
         "Official Energy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Energy Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for In a notebook, identify",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Energy Approach",
-        "right_header": "Official BSA Energy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Energy Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Energy Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - In a notebook, identify and describe five examples",
+          "Requirement & Topic": "Req 5 - In a notebook, identify",
           "Primary Standard": "Explain how the changes you suggest would lower costs, reduce pollution, or otherwise improve your community.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Energy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Energy Pamphlet, pp. 28-33."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Energy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Energy Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Energy Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Energy Requirement 5, a Scout claims: \"Reading a short definition of In a notebook, identify and describe five examples is enough for Energy Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively describe the specific principles and real-world steps of In a notebook, identify and describe five examples grounded in the official Energy pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively describe the specific principles and real-world steps of In a notebook, identify and describe five examples grounded in the official Energy pamphlet.",
-        "explanation": "Per Official BSA Energy Pamphlet, pp. 28-33, Each Scout must actively describe the specific principles and real-world steps of In a notebook, identify and describe five examples grounded in the official Energy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Energy Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1460,10 +1448,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Energy Requirement 6a sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 6a grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1483,9 +1473,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "The energy resources that supply the United States with most of its energy"
         },
         {
           "sub_id": "6b",
@@ -1517,10 +1510,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Energy Requirement 6b sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 6b grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1540,9 +1535,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "The share of energy resources used by the United States that comes from other countries"
         },
         {
           "sub_id": "6c",
@@ -1574,10 +1572,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Energy Requirement 6c sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 6c grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1597,9 +1597,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "The proportion of energy resources used by homes, businesses, industry, and transportation"
         },
         {
           "sub_id": "6d",
@@ -1627,10 +1630,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Energy Requirement 6d sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 6d grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1650,9 +1655,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "The fuels used to generate America's electricity"
         },
         {
           "sub_id": "6e",
@@ -1680,10 +1688,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6e is enough for Energy Requirement 6e sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 6e grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1703,9 +1713,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6e",
+          "sub_req_label": "6e",
+          "sub_req_text": "The world's known and estimated primary energy resource reserves"
         }
       ],
       "resources": [
@@ -1754,13 +1767,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Prepare pie charts showing the following information, and",
-      "action_verb": "Prepare",
+      "topic_title": "Req 6: Prepare pie charts showing",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Energy Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Energy Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
+      "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1781,8 +1794,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Prepare pie charts showing the following information, and is enough for Energy Requirement 6 sign-off.",
-        "fact": "Each Scout must actively prepare the specific principles and real-world steps of Prepare pie charts showing the following information, and grounded in the official Energy pamphlet."
+        "misconception": "Reading a short definition of Prepare pie charts showing is enough for Energy Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Prepare pie charts showing grounded in the official Energy pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Prepare pie charts showing grounded in the official Energy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1802,63 +1817,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Energy Sub-Req 6a: The energy resources that supply the United States with most of its energy",
-        "Energy Sub-Req 6b: The share of energy resources used by the United States that comes from other countries",
-        "Energy Sub-Req 6c: The proportion of energy resources used by homes, businesses, industry, and transportation",
-        "Energy Sub-Req 6d: The fuels used to generate America's electricity"
+        "Completing Requirement: In completing requirement 6, use the mostcurrent information available to you.",
+        "Earlier Considering Energy: Earlier, in considering energy in our homes and communities, we mainly examined the residential and commercialsectors.",
+        "Looked Energy Light: We looked at energy used to light, heat, and cool ourhomes; supply water and electricity; store and prepare food; and provide entertainment.",
+        "Energy Residential: Energy use by the residential andcommercial sectors in 2023 amounted to about 28% of the U.S. total."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Energy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Prepare pie charts showing the following information, and.",
-        "Execute & Document: Perform the prepare task methodically with your patrol buddy and log specific observations in your Energy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Industrial Energy Took: Industrial energy use in 2023 took about 35% of thenational total.",
+        "Food Paper Chemical: The food, paper, chemical, petroleum, and primary metals industries use the most energy in this sector.",
+        "Transportation Sector Relies: The transportation sector relies heavily on liquid fuels.",
+        "Individual Cars Not: Individual cars, not public mass-transit systems, use much ofthe energy for transportation in the United States."
       ],
       "gear_checklist": [
         "Official Energy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Energy Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Prepare pie charts showing",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Energy Approach",
-        "right_header": "Official BSA Energy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Energy Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Energy Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Prepare pie charts showing the following information, and",
-          "Primary Standard": "The energy resources that supply the United States with most of its energy",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Energy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Energy Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Prepare pie charts showing",
+          "Primary Standard": "The energy resources that supply the United States with most of its energy.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Energy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Energy Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Energy Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Energy Requirement 6, a Scout claims: \"Reading a short definition of Prepare pie charts showing the following information, and is enough for Energy Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively prepare the specific principles and real-world steps of Prepare pie charts showing the following information, and grounded in the official Energy pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively prepare the specific principles and real-world steps of Prepare pie charts showing the following information, and grounded in the official Energy pamphlet.",
-        "explanation": "Per Official BSA Energy Pamphlet, pp. 34-39, Each Scout must actively prepare the specific principles and real-world steps of Prepare pie charts showing the following information, and grounded in the official Energy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Energy Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1895,10 +1887,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Energy Requirement 7a sign-off.",
-            "fact": "Each Scout must actively biomass the specific principles and real-world steps of Req 7a grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1918,9 +1912,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Biomass digesters or waste-to-energy plants"
         },
         {
           "sub_id": "7b",
@@ -1948,10 +1945,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Energy Requirement 7b sign-off.",
-            "fact": "Each Scout must actively cogeneration the specific principles and real-world steps of Req 7b grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1971,9 +1970,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Cogeneration plants"
         },
         {
           "sub_id": "7c",
@@ -2005,10 +2007,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7c is enough for Energy Requirement 7c sign-off.",
-            "fact": "Each Scout must actively fossil the specific principles and real-world steps of Req 7c grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2028,9 +2032,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7c",
+          "sub_req_label": "7c",
+          "sub_req_text": "Fossil fuel power plants"
         },
         {
           "sub_id": "7d",
@@ -2058,10 +2065,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7d is enough for Energy Requirement 7d sign-off.",
-            "fact": "Each Scout must actively fuel the specific principles and real-world steps of Req 7d grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2081,9 +2090,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7d",
+          "sub_req_label": "7d",
+          "sub_req_text": "Fuel cells"
         },
         {
           "sub_id": "7e",
@@ -2115,10 +2127,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7e is enough for Energy Requirement 7e sign-off.",
-            "fact": "Each Scout must actively geothermal the specific principles and real-world steps of Req 7e grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2138,9 +2152,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7e",
+          "sub_req_label": "7e",
+          "sub_req_text": "Geothermal power plants"
         },
         {
           "sub_id": "7f",
@@ -2172,10 +2189,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7f is enough for Energy Requirement 7f sign-off.",
-            "fact": "Each Scout must actively nuclear the specific principles and real-world steps of Req 7f grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7f grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7f grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2195,9 +2214,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7f",
+          "sub_req_label": "7f",
+          "sub_req_text": "Nuclear power plants"
         },
         {
           "sub_id": "7g",
@@ -2225,10 +2247,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7g is enough for Energy Requirement 7g sign-off.",
-            "fact": "Each Scout must actively solar the specific principles and real-world steps of Req 7g grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7g grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7g grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2248,9 +2272,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7g",
+          "sub_req_label": "7g",
+          "sub_req_text": "Solar power systems"
         },
         {
           "sub_id": "7h",
@@ -2278,10 +2305,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7h is enough for Energy Requirement 7h sign-off.",
-            "fact": "Each Scout must actively tidal the specific principles and real-world steps of Req 7h grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7h grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7h grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2301,9 +2330,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7h",
+          "sub_req_label": "7h",
+          "sub_req_text": "Tidal energy, wave energy, or ocean thermal energy conversion devices"
         },
         {
           "sub_id": "7i",
@@ -2331,10 +2363,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7i is enough for Energy Requirement 7i sign-off.",
-            "fact": "Each Scout must actively wind the specific principles and real-world steps of Req 7i grounded in the official Energy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7i grounded in the official Energy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7i grounded in the official Energy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2354,9 +2388,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7i",
+          "sub_req_label": "7i",
+          "sub_req_text": "Wind turbines"
         }
       ],
       "resources": [
@@ -2421,13 +2458,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Tell what is being done to make FIVE",
+      "topic_title": "Req 7: Is being done",
       "action_verb": "Make",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Energy Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Energy Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
+      "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2447,8 +2484,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Tell what is being done to make FIVE is enough for Energy Requirement 7 sign-off.",
-        "fact": "Each Scout must actively make the specific principles and real-world steps of Tell what is being done to make FIVE grounded in the official Energy pamphlet."
+        "misconception": "Reading a short definition of Is being done is enough for Energy Requirement 7 sign-off.",
+        "fact": "Each Scout must actively make the specific principles and real-world steps of Is being done grounded in the official Energy pamphlet.",
+        "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Is being done grounded in the official Energy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2468,63 +2507,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Energy Sub-Req 7a: Biomass digesters or waste-to-energy plants",
-        "Energy Sub-Req 7b: Cogeneration plants",
-        "Energy Sub-Req 7c: Fossil fuel power plants",
-        "Energy Sub-Req 7d: Fuel cells"
+        "Car Heateruses Waste: A car heateruses waste heatfrom the engineto warm thecar’s passengercompartment.",
+        "Exampleof Cogeneration Waste: This is an exampleof cogeneration, waste energyused for apractical purpose.",
+        "Bacterial Decay Means: Bacterial decay means we leave materials to break down, which releases chemicals like methane in the process.",
+        "Cancapture Released: We cancapture the released chemicals (in the form of gas) and burnthose to produce energy in the same way as directly burningthe material."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Energy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Tell what is being done to make FIVE.",
-        "Execute & Document: Perform the make task methodically with your patrol buddy and log specific observations in your Energy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Finally Want Convert: Finally, when we want to convert biomass to agas or a liquid, we use chemical processes to change the physical properties of the biomass.",
+        "Biopower Reduce Burning: Biopower can reduce the need for burning fossil fuels inpower plants, since these fossil fuels create greenhouse gasses which create major.",
+        "Cogeneration Systems Produce: Cogeneration systems produce useful heat and usable powerfrom a single process.",
+        "Common Design Capturethe: The most common design is to capturethe heat in the exhaust gases of industrial boilers or machinery."
       ],
       "gear_checklist": [
         "Official Energy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Energy Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Is being done",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Energy Approach",
-        "right_header": "Official BSA Energy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Energy Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Energy Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Tell what is being done to make FIVE",
-          "Primary Standard": "Biomass digesters or waste-to-energy plants",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Energy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Energy Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Is being done",
+          "Primary Standard": "Biomass digesters or waste-to-energy plants.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Energy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Energy Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Energy Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Energy Requirement 7, a Scout claims: \"Reading a short definition of Tell what is being done to make FIVE is enough for Energy Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively make the specific principles and real-world steps of Tell what is being done to make FIVE grounded in the official Energy pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively make the specific principles and real-world steps of Tell what is being done to make FIVE grounded in the official Energy pamphlet.",
-        "explanation": "Per Official BSA Energy Pamphlet, pp. 40-45, Each Scout must actively make the specific principles and real-world steps of Tell what is being done to make FIVE grounded in the official Energy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Energy Workbook organizer table and practical demonstration for Req 7."
     },
@@ -2553,13 +2569,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Energy Careers, Training & Hobby Pathways",
+      "topic_title": "Req 8: Careers & Professional Pathways",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Energy Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Energy Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Energy Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 94, p. 96)",
+      "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 94, p. 96)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2576,8 +2592,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Energy career exploration requirement.",
-        "fact": "Scouts must research three Energy careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Energy career exploration requirement.",
+        "fact": "Scouts must research specific Energy career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Energy career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Energy Merit Badge Pamphlet (p. 94, p. 96)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2597,68 +2615,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 8): Identify three career opportunities that would use skills and knowledge in energy.",
-        "Core Standard 2 (Req 8): Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field.",
-        "Core Standard 3 (Req 8): Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career.",
-        "Core Standard 4 (Req 8): Discuss what you learned with your counselor and whether you might be interested in this career."
+        "Nate Enjoyed Learning: Nate enjoyed learning about energy, and he started thinkingabout a career in the field.",
+        "His Work Hadlearned: In his merit badge work, he hadlearned that the energy industry includes many different kindsof companies that find, develop, generate, and transport.",
+        "Universities Government: Universities and government agencies do additional research to improve technologies and ensure public safety.",
+        "Stevens Whatclasses Now: Stevens, whatclasses he should take now to pursue a future in energy."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Energy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Energy Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Energy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Stevens Said High: Stevens said high school and college graduates had manyopportunities in the field.",
+        "His Main Advice: His main advice was to stay in schooland do well in all subjects.",
+        "Reading Writing: Reading, writing, and mathematicsform a good foundation for any career.",
+        "High School Classesin: And high school classesin science, including physics and chemistry, along with anyavailable math courses help anyone interested in preparing."
       ],
       "gear_checklist": [
         "Official Energy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Energy Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Energy Approach",
-        "right_header": "Official BSA Energy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Energy Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Energy Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - Energy Careers, Training & Hobby Pathways",
-          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in energy. Pick one and research the t",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Energy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Energy Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - Careers & Professional Pathways",
+          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in energy.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Energy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Energy Merit Badge Pamphlet (p. 94, p. 96) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Energy Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Energy Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Energy Requirement 8, a Scout claims: \"Listing three job titles from a web search satisfies the Energy career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Energy careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Energy careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Energy Pamphlet, pp. 46-51, Scouts must research three Energy careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Energy Workbook organizer table and practical demonstration for Req 8."
     }
   ],
   "badge_slug": "energy",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

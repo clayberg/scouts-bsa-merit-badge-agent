@@ -45,15 +45,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Programming Requirement 1a sign-off.",
-            "fact": "Each Scout must actively view the specific principles and real-world steps of Req 1a grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Programming Req 1a with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Programming Req 1a with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -73,9 +75,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)."
         },
         {
           "sub_id": "1b",
@@ -111,10 +116,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Programming Requirement 1b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -134,9 +141,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Discuss first aid and prevention for the types of injuries that could occur during programming activities, including repetitive stress injuries and eyestrain."
         }
       ],
       "resources": [
@@ -165,13 +175,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Safety. Do the following: (a) View the Personal",
-      "action_verb": "Safety",
+      "topic_title": "Req 1: Safety",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Programming Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Programming Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)",
+      "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -189,12 +199,14 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Programming hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Programming prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Programming prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Programming prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Programming Req 1 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Programming Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -214,62 +226,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Programming Sub-Req 1a: View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission).",
-        "Programming Sub-Req 1b: Discuss first aid and prevention for the types of injuries that could occur during programming activities, including repetitive stress injuries and eyestrain.",
-        "Core Standard 1 (Req 1): Do the following: (a) View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission).",
-        "Core Standard 2 (Req 1): (b) Discuss first aid and prevention for the types of injuries that could occur during programming activities, including repetitive stress injuries and eyestrain."
+        "Not Think Writing: You might not think that writing programs could cause injuries.",
+        "But Fact Injuries: But in fact, injuries from programming have much in commonwith sports injuries and can be prevented using some of thesame techniques that athletes use.",
+        "Main Programming-related: The main programming-related injuries are repetitive stressinjuries, or RSIs.",
+        "Athletic Activities RSI: Just as in athletic activities, an RSI occurs whenstress is placed on a joint, pulling on the tendons and musclesaround the joint."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Programming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Safety. Do the following: (a) View the Personal.",
-        "Execute & Document: Perform the safety task methodically with your patrol buddy and log specific observations in your Programming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Stress Happens Repeatedly: When the stress happens repeatedly, the bodydoes not have time to recover and becomes irritated.",
+        "Bodyreacts Irritation: The bodyreacts to the irritation by increasing the amount of fluid in thatarea to reduce the stress placed on the tendon or muscle.",
+        "Athletes Trained Avoid: And just as athletes are trained to do, you can avoid issues likethe following by developing good habits.",
+        "Proper Equipment Preparation: Proper equipment and preparation are the keys to prevention."
       ],
       "gear_checklist": [
         "Official Programming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Programming Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Safety",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Programming Approach",
-        "right_header": "Official BSA Programming Pamphlet Standard",
+        "right_header": "Official BSA Programming Standard (Safety)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Safety.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Programming Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Programming Workbook organizer.",
+          "Clearly demonstrates and explains Safety using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Programming Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Safety. Do the following: (a) View the Personal",
+          "Requirement & Topic": "Req 1 - Safety",
           "Primary Standard": "View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission).",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Programming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Programming Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Programming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Programming Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Programming Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Programming Requirement 1, a Scout claims: \"Scouts can jump straight into Programming hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Programming (Safety), which patrol preparation step best aligns with the official Programming standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Programming prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Programming hazards, PPE, and prerequisite standards in Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Programming prevents most field injuries.",
-        "explanation": "Per Official BSA Programming Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Programming prevents most field injuries."
+        "correct_answer": "Option A - Review the Programming hazards, PPE, and prerequisite standards in Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Programming Workbook organizer table and practical demonstration for Req 1."
@@ -311,13 +323,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: History. Discuss with your counselor the history of",
+      "topic_title": "Req 2: The History of Programming Languages",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Programming Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Programming Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 18, p. 20)",
+      "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 18, p. 20)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -334,8 +346,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of History. Discuss with your counselor the history of is enough for Programming Requirement 2 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of History. Discuss with your counselor the history of grounded in the official Programming pamphlet."
+        "misconception": "Reading a short definition of The History of Programming Languages is enough for Programming Requirement 2 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of The History of Programming Languages grounded in the official Programming pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of The History of Programming Languages grounded in the official Programming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 18, p. 20)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -355,63 +369,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 2): Discuss with your counselor the history of programming and the evolution of programming languages, including at least three milestones related to the advancement or development of programming over time.",
-        "Field Verification Standard: Apply Programming Requirement 2 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Programming Req 2 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Programming Workbook before requesting Requirement 2 sign-off."
+        "Theprinting Than Programming: As of theprinting of this merit badge pamphlet, more than 2,500 programming languages have been developed.",
+        "New Languages Introduced: By the 1950s and 1960s, many new languages were being introduced, including BASIC, Fortran, and LISP.",
+        "Languagestook Programming: These languagestook programming beyond binary and assembly to allowportability of languages beyond just the processor hardware ofthe time.",
+        "Programs Written Languages: That is, programs written in these languages could runon two or more kinds of processors or with two or more kindsof operating systems."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Programming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing History. Discuss with your counselor the history of.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Programming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Languages Pascal Werecreated: Many languages, such as Pascal, werecreated to capture new concepts of computer science.",
+        "Others Fortran COBOL: Others, such as Fortran and COBOL, were developed to meet specificneeds of science or business.",
+        "FORTRAN Formula Translation: FORTRAN (Formula Translation), originally developed in the 1950s, was among the earliest programming languages.",
+        "Well-suitedfor Mathematical: Well-suitedfor mathematical calculations, FORTRAN was used mainly forscientific and engineering programming."
       ],
       "gear_checklist": [
         "Official Programming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Programming Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The History of Programming Languages",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Programming Approach",
-        "right_header": "Official BSA Programming Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Programming Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Programming Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - History. Discuss with your counselor the history of",
-          "Primary Standard": "History. Discuss with your counselor the history of programming and the evolution of programming languages, in",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Programming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Programming Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - The History of Programming Languages",
+          "Primary Standard": "History. Discuss with your counselor the history of programming and the evolution of programming languages, including at least three milestones related to the advancement or development of programming over time.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Programming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Programming Merit Badge Pamphlet (p. 18, p. 20) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Programming Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Programming Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Programming Requirement 2, a Scout claims: \"Reading a short definition of History. Discuss with your counselor the history of is enough for Programming Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of History. Discuss with your counselor the history of grounded in the official Programming pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of History. Discuss with your counselor the history of grounded in the official Programming pamphlet.",
-        "explanation": "Per Official BSA Programming Pamphlet, pp. 10-15, Each Scout must actively discuss the specific principles and real-world steps of History. Discuss with your counselor the history of grounded in the official Programming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Programming Workbook organizer table and practical demonstration for Req 2."
     },
@@ -448,10 +439,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Programming Requirement 3a sign-off.",
-            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 3a grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3a grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 3a grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -471,9 +464,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used in and why."
         },
         {
           "sub_id": "3b",
@@ -496,10 +492,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Programming Requirement 3b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -519,9 +517,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Describe three different programmed devices you rely on every day."
         }
       ],
       "resources": [
@@ -542,13 +543,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: General Knowledge. Do the following: (a) Create a",
-      "action_verb": "General",
+      "topic_title": "Req 3: General Knowledge",
+      "action_verb": "List",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Programming Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Programming Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)",
+      "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -565,8 +566,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of General Knowledge. Do the following: (a) Create a is enough for Programming Requirement 3 sign-off.",
-        "fact": "Each Scout must actively general the specific principles and real-world steps of General Knowledge. Do the following: (a) Create a grounded in the official Programming pamphlet."
+        "misconception": "Reading a short definition of General Knowledge is enough for Programming Requirement 3 sign-off.",
+        "fact": "Each Scout must actively list the specific principles and real-world steps of General Knowledge grounded in the official Programming pamphlet.",
+        "fact_correction": "Each Scout must actively list the specific principles and real-world steps of General Knowledge grounded in the official Programming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -586,63 +589,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Programming Sub-Req 3a: Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used in and why.",
-        "Programming Sub-Req 3b: Describe three different programmed devices you rely on every day.",
-        "Core Standard 1 (Req 3): General Knowledge.",
-        "Core Standard 2 (Req 3): Do the following: (a) Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used in and why."
+        "Billions Mobile Devices: The billions of mobile devices in use around the world all need to beprogrammed.",
+        "Learning Program Mobile: Learning how to program a mobile device could be a greatcareer choice, and an awesome and fun skill to have.",
+        "Seemdifficult Not Out: While it might seemdifficult, it is not out of your reach.",
+        "Apps Applications: Many apps (applications) and programsare written by young people like you every day."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Programming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing General Knowledge. Do the following: (a) Create a.",
-        "Execute & Document: Perform the general task methodically with your patrol buddy and log specific observations in your Programming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Mobile Applications: Most mobile applications are different from traditionalprogramming.",
+        "Operating System Designed: The operating system is usually designed as aframework.",
+        "Basic Parts Program: That is, the basic parts of the program are alreadydone for you (button presses, sounds, video, picture handling, GPS, communications, databases.",
+        "Dois Write Code: All you have to dois write the code that takes advantage of these ready-to-goresources and insert the code into the correct portion of theframework."
       ],
       "gear_checklist": [
         "Official Programming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Programming Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for General Knowledge",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Programming Approach",
-        "right_header": "Official BSA Programming Pamphlet Standard",
+        "right_header": "Official BSA Programming Standard (General Knowledge)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during General Knowledge.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Programming Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Programming Workbook organizer.",
+          "Clearly demonstrates and explains General Knowledge using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Programming Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - General Knowledge. Do the following: (a) Create a",
-          "Primary Standard": "Create a list of five popular programming languages in use today and describe which industry or industries the",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Programming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Programming Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - General Knowledge",
+          "Primary Standard": "Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used in and why.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Programming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Programming Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Programming Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Programming Requirement 3, a Scout claims: \"Reading a short definition of General Knowledge. Do the following: (a) Create a is enough for Programming Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively general the specific principles and real-world steps of General Knowledge. Do the following: (a) Create a grounded in the official Programming pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively general the specific principles and real-world steps of General Knowledge. Do the following: (a) Create a grounded in the official Programming pamphlet.",
-        "explanation": "Per Official BSA Programming Pamphlet, pp. 16-21, Each Scout must actively general the specific principles and real-world steps of General Knowledge. Do the following: (a) Create a grounded in the official Programming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Programming Workbook organizer table and practical demonstration for Req 3."
     },
@@ -679,10 +672,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Programming Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -702,9 +697,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Explain the four types of intellectual property used to protect computer programs."
         },
         {
           "sub_id": "4b",
@@ -733,10 +731,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Programming Requirement 4b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4b grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4b grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 4b grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -756,9 +756,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Describe the difference between licensing and owning software."
         },
         {
           "sub_id": "4c",
@@ -790,10 +793,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4c is enough for Programming Requirement 4c sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4c grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4c grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 4c grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -813,9 +818,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4c",
+          "sub_req_label": "4c",
+          "sub_req_text": "Describe the differences between freeware, open source, and commercial software, and why it is important to respect the terms of use of each."
         }
       ],
       "resources": [
@@ -848,13 +856,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Intellectual Property. Do the following: (a) Explain the",
-      "action_verb": "Intellectual",
+      "topic_title": "Req 4: Intellectual Property",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Programming Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Programming Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
+      "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
@@ -872,8 +880,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Intellectual Property. Do the following: (a) Explain the is enough for Programming Requirement 4 sign-off.",
-        "fact": "Each Scout must actively intellectual the specific principles and real-world steps of Intellectual Property. Do the following: (a) Explain the grounded in the official Programming pamphlet."
+        "misconception": "Reading a short definition of Intellectual Property is enough for Programming Requirement 4 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Intellectual Property grounded in the official Programming pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Intellectual Property grounded in the official Programming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -893,63 +903,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Programming Sub-Req 4a: Explain the four types of intellectual property used to protect computer programs.",
-        "Programming Sub-Req 4b: Describe the difference between licensing and owning software.",
-        "Programming Sub-Req 4c: Describe the differences between freeware, open source, and commercial software, and why it is important to respect the terms of use of each.",
-        "Core Standard 1 (Req 4): Intellectual Property."
+        "Value Software Its: The value of software is in its electronically coded instructions, not in the plastic disc or other tangible media upon which theinstructions are stored.",
+        "Software Developers Not: Software developers do not sell DVDs orother storage media.",
+        "They Actually Sell: What they actually sell is permission touse the programs they have created.",
+        "Licensing Renting Bike: Licensing is more like renting a bike than buying one."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Programming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Intellectual Property. Do the following: (a) Explain the.",
-        "Execute & Document: Perform the intellectual task methodically with your patrol buddy and log specific observations in your Programming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Own Outright Youwant: When you buy a bike, you own it outright and can do what youwant with it.",
+        "However Rightto But: When you rent a bike, however, you have the rightto use it, but you may have some restrictions on how long andwhere you can ride it.",
+        "Similarly Software Purchase: Similarly, with software, you purchase alicense to use the software in a manner specified by the termsand conditions of the license.",
+        "Software Licensed Several: Software may be licensed in several ways, including: Freeware."
       ],
       "gear_checklist": [
         "Official Programming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Programming Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Intellectual Property",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Programming Approach",
-        "right_header": "Official BSA Programming Pamphlet Standard",
+        "right_header": "Official BSA Programming Standard (Intellectual Property)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Intellectual Property.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Programming Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Programming Workbook organizer.",
+          "Clearly demonstrates and explains Intellectual Property using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Programming Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Intellectual Property. Do the following: (a) Explain the",
+          "Requirement & Topic": "Req 4 - Intellectual Property",
           "Primary Standard": "Explain the four types of intellectual property used to protect computer programs.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Programming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Programming Pamphlet, pp. 22-27."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Programming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Programming Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Programming Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Programming Requirement 4, a Scout claims: \"Reading a short definition of Intellectual Property. Do the following: (a) Explain the is enough for Programming Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively intellectual the specific principles and real-world steps of Intellectual Property. Do the following: (a) Explain the grounded in the official Programming pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively intellectual the specific principles and real-world steps of Intellectual Property. Do the following: (a) Explain the grounded in the official Programming pamphlet.",
-        "explanation": "Per Official BSA Programming Pamphlet, pp. 22-27, Each Scout must actively intellectual the specific principles and real-world steps of Intellectual Property. Do the following: (a) Explain the grounded in the official Programming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Programming Workbook organizer table and practical demonstration for Req 4."
     },
@@ -989,10 +989,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Programming Requirement 5a sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 5a grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 5a grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 5a grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1012,9 +1014,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "In the first language and environment, write or modify a program, debug and demonstrate, and explain as above."
         },
         {
           "sub_id": "5b",
@@ -1045,10 +1050,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Programming Requirement 5b sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 5b grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 5b grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 5b grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1068,9 +1075,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "In the second language and environment, write or modify a program, debug and demonstrate, and explain as above."
         },
         {
           "sub_id": "5c",
@@ -1101,10 +1111,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Programming Requirement 5c sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 5c grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 5c grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 5c grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1124,9 +1136,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "In the third language and environment, write or modify a program, debug and demonstrate, and explain as above."
         }
       ],
       "resources": [
@@ -1155,13 +1170,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Project. With your counselor's guidance, select three different",
-      "action_verb": "Project",
+      "topic_title": "Req 5: The History of Programming Languages",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Programming Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Programming Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
+      "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1181,8 +1196,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Project. With your counselor's guidance, select three different is enough for Programming Requirement 5 sign-off.",
-        "fact": "Each Scout must actively project the specific principles and real-world steps of Project. With your counselor's guidance, select three different grounded in the official Programming pamphlet."
+        "misconception": "Reading a short definition of The History of Programming Languages is enough for Programming Requirement 5 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of The History of Programming Languages grounded in the official Programming pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The History of Programming Languages grounded in the official Programming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1202,63 +1219,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Programming Sub-Req 5a: In the first language and environment, write or modify a program, debug and demonstrate, and explain as above.",
-        "Programming Sub-Req 5b: In the second language and environment, write or modify a program, debug and demonstrate, and explain as above.",
-        "Programming Sub-Req 5c: In the third language and environment, write or modify a program, debug and demonstrate, and explain as above.",
-        "Core Standard 1 (Req 5): With your counselor's guidance, select three different programming languages and development environments."
+        "Program Instructions Tells: A program is a set of instructions that tells a processor how to do aparticular task.",
+        "Programming Language Tool: A programming language is the tool that converts the programmer’sinstructions into a form the processor can understand.",
+        "Roots Modern Programming: The roots of modern programming stretch back to before the first computers.",
+        "Programming Languages Their: Most programming languages have their originsin early efforts to automate machines like calculating machines."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Programming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Project. With your counselor's guidance, select three different.",
-        "Execute & Document: Perform the project task methodically with your patrol buddy and log specific observations in your Programming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Development Modern: Before the development of modern programming languages, developers used binary code, which is the “native language” of amachine/computer.",
+        "Numerals Binary Language: These two numerals used in binary language were numeric codesfor the operations a particular computer could execute (carry out) directly.",
+        "Binary Code Allowed: Binary code allowed programmers to turn piecesof computer hardware (circuits) “on” (represented with a 1) or “off” (represented by the numeral 0).",
+        "Modern Programminglanguages: All modern programminglanguages are built off the concept of trying to turn humancommands into binary or machine code."
       ],
       "gear_checklist": [
         "Official Programming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Programming Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The History of Programming Languages",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Programming Approach",
-        "right_header": "Official BSA Programming Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Programming Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Programming Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Project. With your counselor's guidance, select three different",
+          "Requirement & Topic": "Req 5 - The History of Programming Languages",
           "Primary Standard": "In the first language and environment, write or modify a program, debug and demonstrate, and explain as above.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Programming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Programming Pamphlet, pp. 28-33."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Programming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Programming Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Programming Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Programming Requirement 5, a Scout claims: \"Reading a short definition of Project. With your counselor's guidance, select three different is enough for Programming Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively project the specific principles and real-world steps of Project. With your counselor's guidance, select three different grounded in the official Programming pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively project the specific principles and real-world steps of Project. With your counselor's guidance, select three different grounded in the official Programming pamphlet.",
-        "explanation": "Per Official BSA Programming Pamphlet, pp. 28-33, Each Scout must actively project the specific principles and real-world steps of Project. With your counselor's guidance, select three different grounded in the official Programming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Programming Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1292,7 +1286,7 @@
             }
           ],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
             "headers": [
@@ -1307,15 +1301,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Programming career exploration requirement.",
-            "fact": "Scouts must research three Programming careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Programming career exploration requirement.",
+            "fact": "Scouts must research specific Programming career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Programming career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Programming Req 6a with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Programming Req 6a with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -1335,9 +1331,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include—with your parent or guardian's permission—an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career."
         },
         {
           "sub_id": "6b",
@@ -1360,10 +1359,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Programming Requirement 6b sign-off.",
-            "fact": "Each Scout must actively explore the specific principles and real-world steps of Req 6b grounded in the official Programming pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Programming pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Programming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1383,9 +1384,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this."
         }
       ],
       "resources": [
@@ -1418,14 +1422,14 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Programming Careers, Training & Hobby Pathways",
-      "action_verb": "Careers",
+      "topic_title": "Req 6: Careers & Professional Pathways",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Programming Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Programming Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Programming Pamphlet, pp. 34-39",
-      "syllabus_bucket": "In-Class Concept",
+      "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)",
+      "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)",
+      "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
         "headers": [
@@ -1441,13 +1445,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Programming career exploration requirement.",
-        "fact": "Scouts must research three Programming careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Programming career exploration requirement.",
+        "fact": "Scouts must research specific Programming career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Programming career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Programming Req 6 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Programming Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1467,68 +1473,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Programming Sub-Req 6a: Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties.",
-        "Programming Sub-Req 6b: Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses.",
-        "Core Standard 1 (Req 6): Do ONE of the following: (a) Explore careers related to this merit badge.",
-        "Core Standard 2 (Req 6): Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement."
+        "Programming Languagescan: Programming languagescan be learned through onlinecourses, guidebooks, and homestudy.",
+        "Writing Code Workingout: Writing code and workingout the bugs on your own is astraightforward way of gettingpractical experience.",
+        "Different Languages: As you can see from all the different languages and industries coveredin this pamphlet, programming is used EVERYWHERE.",
+        "Meansprogrammers Everywhere: And that meansprogrammers are used everywhere, too."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Programming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Programming Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the careers task methodically with your patrol buddy and log specific observations in your Programming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Hard Anindustry Today: It would be hard to find anindustry today that doesn’t have some need for programmers.",
+        "Programmers Self-taught: Programmers can be self-taught or have college degrees.",
+        "Regardless Programming: Regardless, with programming you are never finished with learning, there is alwayssomething new to discover.",
+        "Explain Biggest Factor: This may explain why the biggest factor ingetting programming work is experience, and the more you can get, thebetter off you will be."
       ],
       "gear_checklist": [
         "Official Programming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Programming Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Programming Approach",
-        "right_header": "Official BSA Programming Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Programming Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Programming Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Programming Careers, Training & Hobby Pathways",
-          "Primary Standard": "Explore careers related to this merit badge. Research one career to learn about the training and education nee",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Programming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Programming Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Careers & Professional Pathways",
+          "Primary Standard": "Explore careers related to this merit badge.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Programming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Programming Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Programming Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Programming Requirement 6, a Scout claims: \"Listing three job titles from a web search satisfies the Programming career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Programming careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Programming careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Programming Pamphlet, pp. 34-39, Scouts must research three Programming careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Programming Workbook organizer table and practical demonstration for Req 6."
     }
   ],
   "badge_slug": "programming",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

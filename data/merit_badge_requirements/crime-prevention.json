@@ -45,10 +45,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Crime Prevention Requirement 1a sign-off.",
-            "fact": "Each Scout must actively why the specific principles and real-world steps of Req 1a grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -68,9 +70,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Why we have criminal laws"
         },
         {
           "sub_id": "1b",
@@ -98,10 +103,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Crime Prevention Requirement 1b sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 1b grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -121,9 +128,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "The types of crimes, including property crimes, crimes against people, white collar crime, and environmental crime"
         },
         {
           "sub_id": "1c",
@@ -151,10 +161,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Crime Prevention Requirement 1c sign-off.",
-            "fact": "Each Scout must actively why the specific principles and real-world steps of Req 1c grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -174,9 +186,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Why people commit crimes"
         },
         {
           "sub_id": "1d",
@@ -208,10 +223,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1d is enough for Crime Prevention Requirement 1d sign-off.",
-            "fact": "Each Scout must actively why the specific principles and real-world steps of Req 1d grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -231,9 +248,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1d",
+          "sub_req_label": "1d",
+          "sub_req_text": "Why everyone should follow the law even when no one is watching"
         },
         {
           "sub_id": "1e",
@@ -265,10 +285,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1e is enough for Crime Prevention Requirement 1e sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 1e grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1e grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1e grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -288,9 +310,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1e",
+          "sub_req_label": "1e",
+          "sub_req_text": "The meaning of crime prevention"
         }
       ],
       "resources": [
@@ -331,13 +356,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 1: Laws and Society. Discuss the following with your",
+      "topic_title": "Req 1: Laws and Society",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -354,8 +379,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Laws and Society. Discuss the following with your is enough for Crime Prevention Requirement 1 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Laws and Society. Discuss the following with your grounded in the official Crime Prevention pamphlet."
+        "misconception": "Reading a short definition of Laws and Society is enough for Crime Prevention Requirement 1 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Laws and Society grounded in the official Crime Prevention pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Laws and Society grounded in the official Crime Prevention pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -375,62 +402,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Crime Prevention Sub-Req 1a: Why we have criminal laws",
-        "Crime Prevention Sub-Req 1b: The types of crimes, including property crimes, crimes against people, white collar crime, and environmental crime",
-        "Crime Prevention Sub-Req 1c: Why people commit crimes",
-        "Crime Prevention Sub-Req 1d: Why everyone should follow the law even when no one is watching"
+        "Way Become Informedabout: A good way to become informedabout crime in your neighborhoodis to start a journal.",
+        "Clip Andsave Articles: Clip andsave articles from newspapersand other sources relating to crimeand crime prevention in your area.",
+        "Talk Neighbors Orlisten: Talk to neighbors and watch orlisten to the news about crimesand crime prevention.",
+        "Write Downuseful Information: Write downuseful information to add toyour journal."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Laws and Society. Discuss the following with your.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Crimeprevention Aware: One of the first steps in crimeprevention is being aware of the typesof crimes being committed in yourcommunity.",
+        "Journal Probablywill: Your journal probablywill have articles that mention manyof these crimes.",
+        "Breaking Entering Building: Breaking into and entering a building with the intentof committing a crime, often by stealing something.",
+        "Someone Else Property: Taking someone else’s property unlawfully, by forceor fear."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Laws and Society",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
+        "right_header": "Official BSA Crime Prevention Standard (Laws and Society)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Laws and Society.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Crime Prevention Workbook organizer.",
+          "Clearly demonstrates and explains Laws and Society using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Laws and Society. Discuss the following with your",
-          "Primary Standard": "Why we have criminal laws",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Laws and Society",
+          "Primary Standard": "Why we have criminal laws.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 1, a Scout claims: \"Reading a short definition of Laws and Society. Discuss the following with your is enough for Crime Prevention Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Crime Prevention (Laws and Society), which patrol preparation step best aligns with the official Crime Prevention standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Laws and Society. Discuss the following with your grounded in the official Crime Prevention pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Crime Prevention hazards, PPE, and prerequisite standards in Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Laws and Society. Discuss the following with your grounded in the official Crime Prevention pamphlet.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 4-9, Each Scout must actively discuss the specific principles and real-world steps of Laws and Society. Discuss the following with your grounded in the official Crime Prevention pamphlet."
+        "correct_answer": "Option A - Review the Crime Prevention hazards, PPE, and prerequisite standards in Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 1."
@@ -472,10 +499,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Crime Prevention Requirement 2a sign-off.",
-            "fact": "Each Scout must actively citizens the specific principles and real-world steps of Req 2a grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -495,9 +524,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Citizens, including youth"
         },
         {
           "sub_id": "2b",
@@ -529,10 +561,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Crime Prevention Requirement 2b sign-off.",
-            "fact": "Each Scout must actively schools the specific principles and real-world steps of Req 2b grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -552,9 +586,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Schools"
         },
         {
           "sub_id": "2c",
@@ -586,10 +623,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2c is enough for Crime Prevention Requirement 2c sign-off.",
-            "fact": "Each Scout must actively neighborhood the specific principles and real-world steps of Req 2c grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -609,9 +648,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2c",
+          "sub_req_label": "2c",
+          "sub_req_text": "Neighborhood, social, and civic groups, including youth groups"
         },
         {
           "sub_id": "2d",
@@ -643,10 +685,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2d is enough for Crime Prevention Requirement 2d sign-off.",
-            "fact": "Each Scout must actively private the specific principles and real-world steps of Req 2d grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -666,9 +710,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2d",
+          "sub_req_label": "2d",
+          "sub_req_text": "Private security"
         },
         {
           "sub_id": "2e",
@@ -700,10 +747,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2e is enough for Crime Prevention Requirement 2e sign-off.",
-            "fact": "Each Scout must actively law the specific principles and real-world steps of Req 2e grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2e grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2e grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -723,9 +772,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2e",
+          "sub_req_label": "2e",
+          "sub_req_text": "Law enforcement agencies"
         },
         {
           "sub_id": "2f",
@@ -757,10 +809,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2f is enough for Crime Prevention Requirement 2f sign-off.",
-            "fact": "Each Scout must actively courts the specific principles and real-world steps of Req 2f grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2f grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2f grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -780,9 +834,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2f",
+          "sub_req_label": "2f",
+          "sub_req_text": "Courts"
         },
         {
           "sub_id": "2g",
@@ -814,10 +871,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2g is enough for Crime Prevention Requirement 2g sign-off.",
-            "fact": "Each Scout must actively corrections the specific principles and real-world steps of Req 2g grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2g grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2g grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -837,9 +896,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2g",
+          "sub_req_label": "2g",
+          "sub_req_text": "Corrections and rehabilitation programs"
         }
       ],
       "resources": [
@@ -908,13 +970,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 2: Groups Working to Prevent Crime. Research how the",
-      "action_verb": "Groups",
+      "topic_title": "Req 2: Groups Working to Prevent Crime",
+      "action_verb": "Research",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -931,8 +993,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Groups Working to Prevent Crime. Research how the is enough for Crime Prevention Requirement 2 sign-off.",
-        "fact": "Each Scout must actively groups the specific principles and real-world steps of Groups Working to Prevent Crime. Research how the grounded in the official Crime Prevention pamphlet."
+        "misconception": "Reading a short definition of Groups Working to Prevent Crime is enough for Crime Prevention Requirement 2 sign-off.",
+        "fact": "Each Scout must actively research the specific principles and real-world steps of Groups Working to Prevent Crime grounded in the official Crime Prevention pamphlet.",
+        "fact_correction": "Each Scout must actively research the specific principles and real-world steps of Groups Working to Prevent Crime grounded in the official Crime Prevention pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -952,63 +1016,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Crime Prevention Sub-Req 2a: Citizens, including youth",
-        "Crime Prevention Sub-Req 2b: Schools",
-        "Crime Prevention Sub-Req 2c: Neighborhood, social, and civic groups, including youth groups",
-        "Crime Prevention Sub-Req 2d: Private security"
+        "Settle Arguments Words: Settle arguments with words, not fists or weapons.",
+        "Notstand Others Arguing: Do notstand and watch while others are arguing because violenceoften spreads to bystanders.",
+        "Since Learn Safe: Since 1994, • Learn safe routes and good places to find help in yourneighborhood.",
+        "Example Reduction Follow: Set a good example. a reduction in • Follow the Scout Oath and Scout Law in your daily life. cocaine and the juvenile crimehas decreased."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Groups Working to Prevent Crime. Research how the.",
-        "Execute & Document: Perform the groups task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Governmentthe Decline Tothe: Governmentthe decline tothe use of cracknumber of violentgangs thatsell it.",
+        "Policecrackdowns Onillegal: Policecrackdowns onillegal gunsand expandedafter-schoolcrime preventionprograms alsohave helped curbjuvenile crime.",
+        "Programs Involve Youths: Other programs that involve youths includethe Boys and Girls Clubs of America, PAL (Police Activities League), YMCA, and the Juvenile Mentoring.",
+        "Police and Citizens: Working Together Citizens, including you and other young people, areresponsible for the quality of life in their communities."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Groups Working to Prevent Crime",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Groups Working to Prevent Crime. Research how the",
-          "Primary Standard": "Citizens, including youth",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Groups Working to Prevent Crime",
+          "Primary Standard": "Citizens, including youth.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 2, a Scout claims: \"Reading a short definition of Groups Working to Prevent Crime. Research how the is enough for Crime Prevention Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively groups the specific principles and real-world steps of Groups Working to Prevent Crime. Research how the grounded in the official Crime Prevention pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively groups the specific principles and real-world steps of Groups Working to Prevent Crime. Research how the grounded in the official Crime Prevention pamphlet.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 10-15, Each Scout must actively groups the specific principles and real-world steps of Groups Working to Prevent Crime. Research how the grounded in the official Crime Prevention pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 2."
     },
@@ -1053,15 +1094,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Crime Prevention Requirement 3a sign-off.",
-            "fact": "Each Scout must actively with the specific principles and real-world steps of Req 3a grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively research the specific principles and real-world steps of Req 3a grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively research the specific principles and real-world steps of Req 3a grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Crime Prevention Req 3a with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Crime Prevention Req 3a with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -1081,9 +1124,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "With your parent or guardian's permission and the approval of your counselor, research local, state, or national news coverage of three crimes of different types. Research how common these types of crimes are in your state or in the United States."
         },
         {
           "sub_id": "3b",
@@ -1110,10 +1156,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Crime Prevention Requirement 3b sign-off.",
-            "fact": "Each Scout must actively record the specific principles and real-world steps of Req 3b grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively record the specific principles and real-world steps of Req 3b grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively record the specific principles and real-world steps of Req 3b grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1133,9 +1181,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Record notes on which law enforcement agencies and courts were involved in the pursuit of justice for the victims and the accused person, why you think these crimes were committed, and what could be done to prevent similar crimes. Review your research with your counselor."
         }
       ],
       "resources": [
@@ -1160,13 +1211,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 3: Crime in Your Community, State, and Nation. Do",
-      "action_verb": "Crime",
+      "topic_title": "Req 3: Crime in Your Community, State",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1187,13 +1238,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Crime in Your Community, State, and Nation. Do is enough for Crime Prevention Requirement 3 sign-off.",
-        "fact": "Each Scout must actively crime the specific principles and real-world steps of Crime in Your Community, State, and Nation. Do grounded in the official Crime Prevention pamphlet."
+        "misconception": "Reading a short definition of Crime in Your Community, State is enough for Crime Prevention Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Crime in Your Community, State grounded in the official Crime Prevention pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Crime in Your Community, State grounded in the official Crime Prevention pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Crime Prevention Req 3 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Crime Prevention Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1213,63 +1266,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Crime Prevention Sub-Req 3a: With your parent or guardian's permission and the approval of your counselor, research local, state, or national news coverage of three crimes of different.",
-        "Crime Prevention Sub-Req 3b: Record notes on which law enforcement agencies and courts were involved in the pursuit of justice for the victims and the accused person, why.",
-        "Core Standard 1 (Req 3): Crime in Your Community, State, and Nation.",
-        "Core Standard 2 (Req 3): Do the following: (a) With your parent or guardian's permission and the approval of your counselor, research local, state, or national news coverage of three crimes of different types."
+        "Telephone Trees Neighbors: Telephone trees can help neighbors quickly reach each otherwith emergency information.",
+        "Neighborhoods Divided: Neighborhoods are divided intosmall, workable areas, by streets or along natural boundaries.",
+        "Neighborhood Group Prepares: Each neighborhood group prepares a chart that has the namesand phone numbers of all members.",
+        "Group Chooses Block: Each group chooses a block captain or other person for thepolice or sheriff’s office to contact with important information."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Crime in Your Community, State, and Nation. Do.",
-        "Execute & Document: Perform the crime task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Person Telephone Tree: Every person on the telephone tree knows which neighbor orneighbors to call when there is emergency information or othercommunications to pass.",
+        "Owners Emergency Radio: Owners of emergency radio scanners can play a vital role asadditional eyes and ears for the local enforcement agenciesand Neighborhood Watch.",
+        "Scanner Ownersreceive: Because scanner ownersreceive information immediately, they can instantly warn members of their crime prevention group about emergenciesin their.",
+        "Group Organize Project: Your group could organize a project to remove trash, abandonedautos, and other unsightly nuisances from your neighborhood."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Crime in Your Community, State",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
+        "right_header": "Official BSA Crime Prevention Standard (Crime in Your Community, State)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Crime in Your Community, State.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Crime Prevention Workbook organizer.",
+          "Clearly demonstrates and explains Crime in Your Community, State using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Crime in Your Community, State, and Nation. Do",
-          "Primary Standard": "With your parent or guardian's permission and the approval of your counselor, research local, state, or nation",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Crime in Your Community, State",
+          "Primary Standard": "With your parent or guardian's permission and the approval of your counselor, research local, state, or national news coverage of three crimes of different types. Research how common these types of crimes are in your state or in the United States.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 3, a Scout claims: \"Reading a short definition of Crime in Your Community, State, and Nation. Do is enough for Crime Prevention Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively crime the specific principles and real-world steps of Crime in Your Community, State, and Nation. Do grounded in the official Crime Prevention pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively crime the specific principles and real-world steps of Crime in Your Community, State, and Nation. Do grounded in the official Crime Prevention pamphlet.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 16-21, Each Scout must actively crime the specific principles and real-world steps of Crime in Your Community, State, and Nation. Do grounded in the official Crime Prevention pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 3."
     },
@@ -1316,10 +1359,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 22-27",
+              "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 4a(1) is enough for Crime Prevention Requirement 4a(1) sign-off.",
-                "fact": "Each Scout must actively how the specific principles and real-world steps of Req 4a(1) grounded in the official Crime Prevention pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(1) grounded in the official Crime Prevention pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(1) grounded in the official Crime Prevention pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1339,9 +1384,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "4a(1)",
+              "sub_req_label": "4a(1)",
+              "sub_req_text": "How participation in activities of families, churches, sports teams, and clubs prevents crime"
             },
             {
               "sub_id": "4a(2)",
@@ -1373,10 +1421,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 22-27",
+              "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 4a(2) is enough for Crime Prevention Requirement 4a(2) sign-off.",
-                "fact": "Each Scout must actively how the specific principles and real-world steps of Req 4a(2) grounded in the official Crime Prevention pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(2) grounded in the official Crime Prevention pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(2) grounded in the official Crime Prevention pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1396,9 +1446,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "4a(2)",
+              "sub_req_label": "4a(2)",
+              "sub_req_text": "How designs of houses, neighborhoods, public buildings, stores, streets, and parks prevent crime"
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1416,10 +1469,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Crime Prevention Requirement 4a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4a grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4a grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4a grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1439,9 +1494,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Discuss the following with your counselor: (1) How participation in activities of families, churches, sports teams, and clubs prevents crime (2) How designs of houses, neighborhoods, public buildings, stores, streets, and parks prevent crime"
         },
         {
           "sub_id": "4b",
@@ -1468,28 +1526,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Crime Prevention Requirement 4b sign-off.",
-            "fact": "Each Scout must actively conduct the specific principles and real-world steps of Req 4b grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
             "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Obtain your Merit Badge Counselor's approval on your Crime Prevention Req 4b plan before executing the project.",
+            "gate_description": "Review your Crime Prevention Req 4b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -1509,9 +1572,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Conduct a security survey of a home, a neighborhood, a park, or a camp building with adult supervision and following youth protection guidelines using a security checklist in the Crime Prevention merit badge pamphlet or one approved by your counselor."
         },
         {
           "sub_id": "4c",
@@ -1526,23 +1592,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 4c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4c is enough for Crime Prevention Requirement 4c sign-off.",
-            "fact": "Each Scout must actively use the specific principles and real-world steps of Req 4c grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively practice the specific principles and real-world steps of Req 4c grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively practice the specific principles and real-world steps of Req 4c grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1562,9 +1633,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4c",
+          "sub_req_label": "4c",
+          "sub_req_text": "Use information from your survey for requirement 4(b) and the EDGE method to develop a lesson about how a family or Scouts can protect themselves from crime. Review your teaching plan with your counselor, then present your lesson to your family or to Scouts."
         }
       ],
       "resources": [
@@ -1613,13 +1687,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 4: Home and Neighborhood Crime Prevention. Do the following",
-      "action_verb": "Home",
+      "topic_title": "Req 4: Home and Neighborhood Crime Prevention",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1636,13 +1710,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Home and Neighborhood Crime Prevention. Do the following is enough for Crime Prevention Requirement 4 sign-off.",
-        "fact": "Each Scout must actively home the specific principles and real-world steps of Home and Neighborhood Crime Prevention. Do the following grounded in the official Crime Prevention pamphlet."
+        "misconception": "Reading a short definition of Home and Neighborhood Crime Prevention is enough for Crime Prevention Requirement 4 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Home and Neighborhood Crime Prevention grounded in the official Crime Prevention pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Home and Neighborhood Crime Prevention grounded in the official Crime Prevention pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
         "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Obtain your Merit Badge Counselor's approval on your Crime Prevention Req 4 plan before executing the project.",
+        "gate_description": "Review your Crime Prevention Req 4 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1662,63 +1738,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Crime Prevention Sub-Req 4a: Discuss the following with your counselor: (1) How participation in activities of families, churches, sports teams, and clubs prevents crime (2) How designs of.",
-        "Crime Prevention Sub-Req 4a(1): How participation in activities of families, churches, sports teams, and clubs prevents crime",
-        "Crime Prevention Sub-Req 4a(2): How designs of houses, neighborhoods, public buildings, stores, streets, and parks prevent crime",
-        "Crime Prevention Sub-Req 4b: Conduct a security survey of a home, a neighborhood, a park, or a camp building with adult supervision and following youth protection guidelines using."
+        "Governmentstatistics Showthat: Governmentstatistics showthat burglarieshave declinedover the pastseveral years.",
+        "However Isestimated Thatone: However, it isestimated thatone in six homesis burglarizedevery year.",
+        "Burglaries Committed: Most burglaries are committed by beginners, and the typicalburglar is a male teenager who lives either in or near the neighborhood.",
+        "Burglaries Occur Hours: Burglaries most often occur between 10 a.m. and 3 p.m. because those are the hours when families usually areaway from home."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Home and Neighborhood Crime Prevention. Do the following.",
-        "Execute & Document: Perform the home task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Check House Easy: Check your house to see how easy or difficult it would beto break in.",
+        "Especially Check Windows: Especially check the windows, garage doors, andfront and back doors.",
+        "Burglars Enter Home: Burglars usually enter a home throughwindows and doors.",
+        "Burglar Wants Break: A burglar wants to break in quickly toavoid being seen."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Home and Neighborhood Crime Prevention",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Home and Neighborhood Crime Prevention. Do the following",
-          "Primary Standard": "Discuss the following with your counselor: (1) How participation in activities of families, churches, sports t",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Home and Neighborhood Crime Prevention",
+          "Primary Standard": "Discuss the following with your counselor: (1) How participation in activities of families, churches, sports teams, and clubs prevents crime (2) How designs of houses, neighborhoods, public buildings, stores, streets, and parks prevent crime.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 4, a Scout claims: \"Reading a short definition of Home and Neighborhood Crime Prevention. Do the following is enough for Crime Prevention Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively home the specific principles and real-world steps of Home and Neighborhood Crime Prevention. Do the following grounded in the official Crime Prevention pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively home the specific principles and real-world steps of Home and Neighborhood Crime Prevention. Do the following grounded in the official Crime Prevention pamphlet.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 22-27, Each Scout must actively home the specific principles and real-world steps of Home and Neighborhood Crime Prevention. Do the following grounded in the official Crime Prevention pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1755,10 +1808,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Crime Prevention Requirement 5a sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 5a grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1778,9 +1833,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "The impact of shoplifting and employee theft (also known as shrinkage) and loss prevention on retail finances, customer service, and reputation"
         },
         {
           "sub_id": "5b",
@@ -1812,10 +1870,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Crime Prevention Requirement 5b sign-off.",
-            "fact": "Each Scout must actively techniques the specific principles and real-world steps of Req 5b grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1835,9 +1895,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Techniques used by retail stores to prevent shoplifting"
         }
       ],
       "resources": [
@@ -1862,13 +1925,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 5: Retail Crime Prevention. Research the following topics and",
-      "action_verb": "Retail",
+      "topic_title": "Req 5: Retail Crime Prevention",
+      "action_verb": "Research",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1885,8 +1948,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Retail Crime Prevention. Research the following topics and is enough for Crime Prevention Requirement 5 sign-off.",
-        "fact": "Each Scout must actively retail the specific principles and real-world steps of Retail Crime Prevention. Research the following topics and grounded in the official Crime Prevention pamphlet."
+        "misconception": "Reading a short definition of Retail Crime Prevention is enough for Crime Prevention Requirement 5 sign-off.",
+        "fact": "Each Scout must actively research the specific principles and real-world steps of Retail Crime Prevention grounded in the official Crime Prevention pamphlet.",
+        "fact_correction": "Each Scout must actively research the specific principles and real-world steps of Retail Crime Prevention grounded in the official Crime Prevention pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1906,63 +1971,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Crime Prevention Sub-Req 5a: The impact of shoplifting and employee theft (also known as shrinkage) and loss prevention on retail finances, customer service, and reputation",
-        "Crime Prevention Sub-Req 5b: Techniques used by retail stores to prevent shoplifting",
-        "Core Standard 1 (Req 5): Retail Crime Prevention.",
-        "Core Standard 2 (Req 5): Research the following topics and review them with your counselor: (a) The impact of shoplifting and employee theft (also known as shrinkage) and loss prevention on retail finances, customer service, and reputation (b) Techniques used by retail stores to prevent shoplifting."
+        "Bizarre Behavior Influence: Bizarre behavior while under the influence ofcocaine can unwittingly lead to fatal accidents and to violencesuch as suicide or murder.",
+        "Freebasing Heating Cocaine: Freebasing (heating cocaine to dissolve it) often causes severe burn accidents.",
+        "Crack Cocaine Crack: Crack cocaine (also known as “crack,” “rock,” and “readyrock”) is cocaine that has been processed from cocainehydrochloride to a freebase for smoking.",
+        "Term Crack Refers: The term “crack” refers to the crackling sound heard when the mixture isheated (“smoked”)."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Retail Crime Prevention. Research the following topics and.",
-        "Execute & Document: Perform the retail task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Common Names Heroin: Common names for heroin include “dust,” “H,” “horse,” “junk,” and “smack.” A user becomes dependent even withoccasional abuse and in low doses.",
+        "Effects Heroin: Effects of heroin includeirregular breathing and heartbeat.",
+        "Death Results Fatal: Death often results from the fatal lung and heartcomplications caused by overdoses.",
+        "Narcotics Includecodeine: Narcotics includecodeine, methadone, morphine, and other painkillers."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Retail Crime Prevention",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Retail Crime Prevention. Research the following topics and",
-          "Primary Standard": "The impact of shoplifting and employee theft (also known as shrinkage) and loss prevention on retail finances,",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Retail Crime Prevention",
+          "Primary Standard": "The impact of shoplifting and employee theft (also known as shrinkage) and loss prevention on retail finances, customer service, and reputation.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 5, a Scout claims: \"Reading a short definition of Retail Crime Prevention. Research the following topics and is enough for Crime Prevention Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively retail the specific principles and real-world steps of Retail Crime Prevention. Research the following topics and grounded in the official Crime Prevention pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively retail the specific principles and real-world steps of Retail Crime Prevention. Research the following topics and grounded in the official Crime Prevention pamphlet.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 28-33, Each Scout must actively retail the specific principles and real-world steps of Retail Crime Prevention. Research the following topics and grounded in the official Crime Prevention pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 5."
     },
@@ -2003,10 +2045,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Crime Prevention Requirement 6a sign-off.",
-            "fact": "Each Scout must actively when the specific principles and real-world steps of Req 6a grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2026,9 +2070,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "When and how to report a crime or an impending crime"
         },
         {
           "sub_id": "6b",
@@ -2051,10 +2098,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Crime Prevention Requirement 6b sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 6b grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2074,9 +2123,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "The warning signs for child abuse and domestic violence and how to report these situations"
         },
         {
           "sub_id": "6c",
@@ -2099,10 +2151,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Crime Prevention Requirement 6c sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 6c grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2122,9 +2176,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "The three R's of personal safety and protection and how to apply them"
         },
         {
           "sub_id": "6d",
@@ -2152,10 +2209,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Crime Prevention Requirement 6d sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 6d grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2175,9 +2234,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "How reporting a crime can help law enforcement provide resources for crime victims"
         }
       ],
       "resources": [
@@ -2202,13 +2264,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 6: Reporting Crime. Discuss the following with your counselor",
+      "topic_title": "Req 6: Reporting Crime",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2225,8 +2287,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Reporting Crime. Discuss the following with your counselor is enough for Crime Prevention Requirement 6 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Reporting Crime. Discuss the following with your counselor grounded in the official Crime Prevention pamphlet."
+        "misconception": "Reading a short definition of Reporting Crime is enough for Crime Prevention Requirement 6 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Reporting Crime grounded in the official Crime Prevention pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Reporting Crime grounded in the official Crime Prevention pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2246,63 +2310,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Crime Prevention Sub-Req 6a: When and how to report a crime or an impending crime",
-        "Crime Prevention Sub-Req 6b: The warning signs for child abuse and domestic violence and how to report these situations",
-        "Crime Prevention Sub-Req 6c: The three R's of personal safety and protection and how to apply them",
-        "Crime Prevention Sub-Req 6d: How reporting a crime can help law enforcement provide resources for crime victims"
+        "Tips Stay Safeand: These tips will help you stay safeand protect your identity whileusing the internet.",
+        "Log Internet Parent: Before you log onto the internet, make sure you have a parent or guardian’s permission.",
+        "Parents Guardian Librarian: Your parents, guardian, counselor, or librarian might discuss otherprecautions with you. 1.",
+        "Follow Family Rules: Follow your family’s rules for using the internet."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Reporting Crime. Discuss the following with your counselor.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Respect Limitsthey Long: Respect the limitsthey set for how long and how often you are allowed to be onlineand what sites you can visit.",
+        "Family Consider Installing: Your family also can consider installing a software program that helps weed out undesirable sites. 2.",
+        "Not Open Email: Do not open email or files you receive from people or businessesyou do not know or trust.",
+        "Inthe Trash Electronic: If you get something suspicious, put it inthe trash just as you would any other electronic junk mail, which isknown as spam."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Reporting Crime",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Reporting Crime. Discuss the following with your counselor",
-          "Primary Standard": "When and how to report a crime or an impending crime",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Reporting Crime",
+          "Primary Standard": "When and how to report a crime or an impending crime.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 6, a Scout claims: \"Reading a short definition of Reporting Crime. Discuss the following with your counselor is enough for Crime Prevention Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Reporting Crime. Discuss the following with your counselor grounded in the official Crime Prevention pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Reporting Crime. Discuss the following with your counselor grounded in the official Crime Prevention pamphlet.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 34-39, Each Scout must actively discuss the specific principles and real-world steps of Reporting Crime. Discuss the following with your counselor grounded in the official Crime Prevention pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 6."
     },
@@ -2339,10 +2380,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Crime Prevention Requirement 7a sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 7a grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2362,9 +2405,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "The role that peers play in crime, crime prevention, and experiencing crime"
         },
         {
           "sub_id": "7b",
@@ -2396,10 +2442,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Crime Prevention Requirement 7b sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 7b grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2419,9 +2467,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "How to resist peer influence"
         },
         {
           "sub_id": "7c",
@@ -2457,10 +2508,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7c is enough for Crime Prevention Requirement 7c sign-off.",
-            "fact": "Each Scout must actively bullying the specific principles and real-world steps of Req 7c grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2480,9 +2533,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7c",
+          "sub_req_label": "7c",
+          "sub_req_text": "Bullying and hazing behaviors and signs that a friend may be bullying you or someone else"
         },
         {
           "sub_id": "7d",
@@ -2510,10 +2566,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7d is enough for Crime Prevention Requirement 7d sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 7d grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2533,9 +2591,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7d",
+          "sub_req_label": "7d",
+          "sub_req_text": "The impact of gangs on communities"
         }
       ],
       "resources": [
@@ -2576,13 +2637,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 7: Peers and Crime. Discuss the following with your",
+      "topic_title": "Req 7: Peers and Crime",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2599,8 +2660,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Peers and Crime. Discuss the following with your is enough for Crime Prevention Requirement 7 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Peers and Crime. Discuss the following with your grounded in the official Crime Prevention pamphlet."
+        "misconception": "Reading a short definition of Peers and Crime is enough for Crime Prevention Requirement 7 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Peers and Crime grounded in the official Crime Prevention pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Peers and Crime grounded in the official Crime Prevention pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2620,63 +2683,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Crime Prevention Sub-Req 7a: The role that peers play in crime, crime prevention, and experiencing crime",
-        "Crime Prevention Sub-Req 7b: How to resist peer influence",
-        "Crime Prevention Sub-Req 7c: Bullying and hazing behaviors and signs that a friend may be bullying you or someone else",
-        "Crime Prevention Sub-Req 7d: The impact of gangs on communities"
+        "Among Growing Crime: Among the growing crime concerns in many neighborhoodsare gangs, gang violence, and the use and trafficking of drugs.",
+        "Gangs Commit Violent: To support their interests, gangs often commit violent offenses, cause serious injuries, and use lethal weapons.",
+        "Gangs Neighborhoods Unsafe: Gangs can make neighborhoods unsafe and increasesecurity costs for businesses in those areas.",
+        "Costs Tocitizens Devaluation: Other costs tocitizens could be the devaluation of their property becauseof living in an undesirable neighborhood."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Peers and Crime. Discuss the following with your.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "National Youth Gang: The National Youth Gang Center estimates that there aremore than 650,000 members in more than 25,000 gangs in the United States.",
+        "Nevertheless Gangs Pose: Nevertheless, gangs pose a seriousthreat and are responsible for much of the nation’s crime.",
+        "Not Fellow Gang: Not only do fellow gang membersmake quitting tough for them, sometimes even dangerous, but by then these youths have established a reputation.",
+        "Astigma Difficult But: Such astigma can be difficult (but not impossible) to shake. or peer-grouppressure."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Peers and Crime",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Peers and Crime. Discuss the following with your",
-          "Primary Standard": "The role that peers play in crime, crime prevention, and experiencing crime",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Peers and Crime",
+          "Primary Standard": "The role that peers play in crime, crime prevention, and experiencing crime.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 7, a Scout claims: \"Reading a short definition of Peers and Crime. Discuss the following with your is enough for Crime Prevention Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Peers and Crime. Discuss the following with your grounded in the official Crime Prevention pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Peers and Crime. Discuss the following with your grounded in the official Crime Prevention pamphlet.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 40-45, Each Scout must actively discuss the specific principles and real-world steps of Peers and Crime. Discuss the following with your grounded in the official Crime Prevention pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 7."
     },
@@ -2725,10 +2765,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Crime Prevention Requirement 8a sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 8a grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2748,9 +2790,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "The legal and health consequences of using alcohol, tobacco and vaping products, illegal drugs, and diverted prescription drugs"
         },
         {
           "sub_id": "8b",
@@ -2782,10 +2827,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Crime Prevention Requirement 8b sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 8b grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2805,9 +2852,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "How substance use contributes to violence and property crime and increases a person's risk of becoming a victim of crime"
         },
         {
           "sub_id": "8c",
@@ -2835,10 +2885,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Crime Prevention Requirement 8c sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 8c grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2858,9 +2910,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "How drug abuse awareness, prevention, and recovery programs help prevent crime"
         },
         {
           "sub_id": "8d",
@@ -2892,10 +2947,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8d is enough for Crime Prevention Requirement 8d sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 8d grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2915,9 +2972,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8d",
+          "sub_req_label": "8d",
+          "sub_req_text": "How to get help if you or someone you know needs help with drugs or alcohol"
         }
       ],
       "resources": [
@@ -2966,13 +3026,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 8: Substance Use and Crime. Discuss the following with",
+      "topic_title": "Req 8: Substance Use and Crime",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2989,8 +3049,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Substance Use and Crime. Discuss the following with is enough for Crime Prevention Requirement 8 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Substance Use and Crime. Discuss the following with grounded in the official Crime Prevention pamphlet."
+        "misconception": "Reading a short definition of Substance Use and Crime is enough for Crime Prevention Requirement 8 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Substance Use and Crime grounded in the official Crime Prevention pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Substance Use and Crime grounded in the official Crime Prevention pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3010,63 +3072,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Crime Prevention Sub-Req 8a: The legal and health consequences of using alcohol, tobacco and vaping products, illegal drugs, and diverted prescription drugs",
-        "Crime Prevention Sub-Req 8b: How substance use contributes to violence and property crime and increases a person's risk of becoming a victim of crime",
-        "Crime Prevention Sub-Req 8c: How drug abuse awareness, prevention, and recovery programs help prevent crime",
-        "Crime Prevention Sub-Req 8d: How to get help if you or someone you know needs help with drugs or alcohol"
+        "Government Spends Billions: The U.S. government spends billions of taxpayer dollars everyyear to combat illegal drugs.",
+        "Crimes Associated Drugsgo: The crimes associated with drugsgo beyond the sale and use of the illegal substances.",
+        "Somedrug Users Steal: Somedrug users steal from others to get the money they need to buyillegal drugs.",
+        "Influence Drugs Users: While under the influence of drugs, users maycommit violent crimes, including assault and murder."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Substance Use and Crime. Discuss the following with.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Drugdealers Resort Violence: Drugdealers often resort to violence to protect their illegal business.",
+        "Programs Exist Message: Programs exist to help you get the message about drugs toyour friends.",
+        "Programs Schools: The programs at many schools and communitiesinclude the Partnership for a Drug-Free America, Drug Abuse Resistance Education, and LifeSkills® Training.",
+        "Preventionand Awareness: This preventionand awareness program stimulates discussion in small groupsand in classrooms about the dangers of drug abuse."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Substance Use and Crime",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - Substance Use and Crime. Discuss the following with",
-          "Primary Standard": "The legal and health consequences of using alcohol, tobacco and vaping products, illegal drugs, and diverted p",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - Substance Use and Crime",
+          "Primary Standard": "The legal and health consequences of using alcohol, tobacco and vaping products, illegal drugs, and diverted prescription drugs.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 8, a Scout claims: \"Reading a short definition of Substance Use and Crime. Discuss the following with is enough for Crime Prevention Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Substance Use and Crime. Discuss the following with grounded in the official Crime Prevention pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Substance Use and Crime. Discuss the following with grounded in the official Crime Prevention pamphlet.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 46-51, Each Scout must actively discuss the specific principles and real-world steps of Substance Use and Crime. Discuss the following with grounded in the official Crime Prevention pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 8."
     },
@@ -3107,10 +3146,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9a is enough for Crime Prevention Requirement 9a sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 9a grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9a grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9a grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3130,9 +3171,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9a",
+          "sub_req_label": "9a",
+          "sub_req_text": "How to avoid being the victim of online crimes"
         },
         {
           "sub_id": "9b",
@@ -3160,10 +3204,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9b is enough for Crime Prevention Requirement 9b sign-off.",
-            "fact": "Each Scout must actively common the specific principles and real-world steps of Req 9b grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3183,9 +3229,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9b",
+          "sub_req_label": "9b",
+          "sub_req_text": "Common online financial scams"
         },
         {
           "sub_id": "9c",
@@ -3217,10 +3266,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9c is enough for Crime Prevention Requirement 9c sign-off.",
-            "fact": "Each Scout must actively effective the specific principles and real-world steps of Req 9c grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9c grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9c grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3240,9 +3291,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9c",
+          "sub_req_label": "9c",
+          "sub_req_text": "Effective online security"
         },
         {
           "sub_id": "9d",
@@ -3274,10 +3328,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9d is enough for Crime Prevention Requirement 9d sign-off.",
-            "fact": "Each Scout must actively identity the specific principles and real-world steps of Req 9d grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9d grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9d grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3297,9 +3353,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9d",
+          "sub_req_label": "9d",
+          "sub_req_text": "Identity theft and how to prevent it"
         },
         {
           "sub_id": "9e",
@@ -3327,10 +3386,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9e is enough for Crime Prevention Requirement 9e sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 9e grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9e grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9e grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3350,9 +3411,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9e",
+          "sub_req_label": "9e",
+          "sub_req_text": "How criminals use social media to target victims"
         },
         {
           "sub_id": "9f",
@@ -3392,10 +3456,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9f is enough for Crime Prevention Requirement 9f sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 9f grounded in the official Crime Prevention pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9f grounded in the official Crime Prevention pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9f grounded in the official Crime Prevention pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3415,9 +3481,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9f",
+          "sub_req_label": "9f",
+          "sub_req_text": "How bullying, texting, and sharing photos can become crimes"
         }
       ],
       "resources": [
@@ -3478,13 +3547,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 9: Online Crime and You. Discuss the following with",
+      "topic_title": "Req 9: Online Crime",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3501,8 +3570,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Online Crime and You. Discuss the following with is enough for Crime Prevention Requirement 9 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Online Crime and You. Discuss the following with grounded in the official Crime Prevention pamphlet."
+        "misconception": "Reading a short definition of Online Crime is enough for Crime Prevention Requirement 9 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Online Crime grounded in the official Crime Prevention pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Online Crime grounded in the official Crime Prevention pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3522,63 +3593,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Crime Prevention Sub-Req 9a: How to avoid being the victim of online crimes",
-        "Crime Prevention Sub-Req 9b: Common online financial scams",
-        "Crime Prevention Sub-Req 9c: Effective online security",
-        "Crime Prevention Sub-Req 9d: Identity theft and how to prevent it"
+        "Millions Crimes Reportedto: Millions of crimes are reportedto law enforcement agencies every year and these acts affect youand your family either directly or indirectly.",
+        "Crime Violation Law: Crime is the violation of a law, a duty, or a moral principle.",
+        "Arrested Law Enforcement: Those arrested by law enforcement officers for committing crimesface prosecution and punishment.",
+        "Willlearn Different Types: In this pamphlet, you willlearn about the different types of crimes and steps that you, andyour family and neighbors, can take to help prevent."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Online Crime and You. Discuss the following with.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Familyand Citizens Carry: In addition to being possible victims of crime, your familyand other citizens carry the financial burden of criminal acts.",
+        "Citizens Pay Higher: Citizens must pay, usually through higher taxes, for additionallaw enforcement officers, increased court costs, and moreprisons and jails.",
+        "Retail Stores Recoup: Because retail stores must recoup their lossesfrom theft and robbery, consumers also pay more for goodswhen owners raise prices to cover their.",
+        "Citizens Pay Price: Citizens also pay a price when companies and governmentsare victimized by less obvious criminal acts, such as theft byemployees."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Online Crime",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Online Crime and You. Discuss the following with",
-          "Primary Standard": "How to avoid being the victim of online crimes",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 52-57."
+          "Requirement & Topic": "Req 9 - Online Crime",
+          "Primary Standard": "How to avoid being the victim of online crimes.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 9, a Scout claims: \"Reading a short definition of Online Crime and You. Discuss the following with is enough for Crime Prevention Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Online Crime and You. Discuss the following with grounded in the official Crime Prevention pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Online Crime and You. Discuss the following with grounded in the official Crime Prevention pamphlet.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 52-57, Each Scout must actively discuss the specific principles and real-world steps of Online Crime and You. Discuss the following with grounded in the official Crime Prevention pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 9."
     },
@@ -3598,13 +3646,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 10: Crime Prevention Careers, Training & Hobby Pathways",
-      "action_verb": "Interview",
+      "topic_title": "Req 10: Interview",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 10 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 58-63",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 58-63",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3621,13 +3669,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Crime Prevention career exploration requirement.",
-        "fact": "Scouts must research three Crime Prevention careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Crime Prevention career exploration requirement.",
+        "fact": "Scouts must research specific Crime Prevention career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Crime Prevention career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
         "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Obtain your Merit Badge Counselor's approval on your Crime Prevention Req 10 plan before executing the project.",
+        "gate_description": "Review your Crime Prevention Req 10 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -3647,63 +3697,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 10): With your parent or guardian's permission and your counselor's approval, interview a law enforcement officer or a civil servant about their work in crime prevention.",
-        "Core Standard 2 (Req 10): Learn about how they chose this career and about their duties.",
-        "Core Standard 3 (Req 10): Discuss what you learned with your counselor.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Crime Prevention Workbook before requesting Requirement 10 sign-off."
+        "Settle Arguments Words: Settle arguments with words, not fists or weapons.",
+        "Notstand Others Arguing: Do notstand and watch while others are arguing because violenceoften spreads to bystanders.",
+        "Since Learn Safe: Since 1994, • Learn safe routes and good places to find help in yourneighborhood.",
+        "Example Reduction Follow: Set a good example. a reduction in • Follow the Scout Oath and Scout Law in your daily life. cocaine and the juvenile crimehas decreased."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 10): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Crime Prevention Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the interview task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Governmentthe Decline Tothe: Governmentthe decline tothe use of cracknumber of violentgangs thatsell it.",
+        "Policecrackdowns Onillegal: Policecrackdowns onillegal gunsand expandedafter-schoolcrime preventionprograms alsohave helped curbjuvenile crime.",
+        "Programs Involve Youths: Other programs that involve youths includethe Boys and Girls Clubs of America, PAL (Police Activities League), YMCA, and the Juvenile Mentoring.",
+        "Police and Citizens: Working Together Citizens, including you and other young people, areresponsible for the quality of life in their communities."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 10)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 10",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Interview",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 10.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 10.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 58-63.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 10",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 10 - Crime Prevention Careers, Training & Hobby Pathways",
-          "Primary Standard": "Interview. With your parent or guardian's permission and your counselor's approval, interview a law enforcemen",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 58-63."
+          "Requirement & Topic": "Req 10 - Interview",
+          "Primary Standard": "Interview.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 10 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 10 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 10, a Scout claims: \"Listing three job titles from a web search satisfies the Crime Prevention career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Crime Prevention careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 10 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Crime Prevention careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 58-63, Scouts must research three Crime Prevention careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 10."
     },
@@ -3732,13 +3759,13 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 11: Crime Prevention Careers, Training & Hobby Pathways",
+      "topic_title": "Req 11: Careers & Professional Pathways",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Crime Prevention Requirement 11 activities.",
-      "pamphlet_citation": "Official BSA Crime Prevention Pamphlet, pp. 64-69",
-      "pamphlet_page_citation": "Official BSA Crime Prevention Pamphlet, pp. 64-69",
+      "pamphlet_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 42, p. 61)",
+      "pamphlet_page_citation": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 42, p. 61)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3755,8 +3782,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Crime Prevention career exploration requirement.",
-        "fact": "Scouts must research three Crime Prevention careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Crime Prevention career exploration requirement.",
+        "fact": "Scouts must research specific Crime Prevention career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Crime Prevention career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 42, p. 61)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3776,68 +3805,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 11): Identify three career opportunities that would use skills and knowledge in the field of crime prevention.",
-        "Core Standard 2 (Req 11): Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field.",
-        "Core Standard 3 (Req 11): Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
-        "Core Standard 4 (Req 11): Discuss what you learned with your counselor and whether you might be interested in this career."
+        "Opportunities Federal State: Opportunities can be found at the federal, state, and local levels.",
+        "Law Enforcement Agencies: Law enforcement agencies include police, sheriff, highwaypatrol, Drug Enforcement Agency, FBI, Secret Service, and U.S. Marshals Service.",
+        "Pursue Career: You also could pursue a career as privatesecurity guard, private investigator, corrections officer, airportsecurity officer, attorney, judge, or forensics.",
+        "Minimum Positions Require: At a minimum, these positions require a high schooldiploma; many require a college degree."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 11): Review the official Crime Prevention requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Crime Prevention Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Crime Prevention Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Manyagencies Their Own: In addition, manyagencies have their own training programs.",
+        "There Positions Interested: There also are positions for those interested in computersecurity.",
+        "Block Captainsor Members: Block captainsor members of a patrol should not be embarrassed if thesuspicions prove wrong.",
+        "Law Enforcement Officers: Law enforcement officers wouldrather investigate than be called after it is too late."
       ],
       "gear_checklist": [
         "Official Crime Prevention Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 11)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Crime Prevention Req 11",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Crime Prevention Approach",
-        "right_header": "Official BSA Crime Prevention Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 11.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 11.",
-          "Records concrete measurements, examples, and citations from Official BSA Crime Prevention Pamphlet, pp. 64-69.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Crime Prevention Req 11",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 11 - Crime Prevention Careers, Training & Hobby Pathways",
-          "Primary Standard": "Careers. Identify three career opportunities that would use skills and knowledge in the field of crime prevent",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Crime Prevention terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Crime Prevention Pamphlet, pp. 64-69."
+          "Requirement & Topic": "Req 11 - Careers & Professional Pathways",
+          "Primary Standard": "Careers.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Crime Prevention terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 42, p. 61) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Crime Prevention Req 11 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Crime Prevention Req 11 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Crime Prevention Requirement 11, a Scout claims: \"Listing three job titles from a web search satisfies the Crime Prevention career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Crime Prevention careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 11 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Crime Prevention careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Crime Prevention Pamphlet, pp. 64-69, Scouts must research three Crime Prevention careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Crime Prevention Workbook organizer table and practical demonstration for Req 11."
     }
   ],
   "badge_slug": "crime-prevention",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

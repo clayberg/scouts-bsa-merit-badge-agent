@@ -45,10 +45,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Dentistry Requirement 1a sign-off.",
-            "fact": "Each Scout must actively study the specific principles and real-world steps of Req 1a grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively research the specific principles and real-world steps of Req 1a grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively research the specific principles and real-world steps of Req 1a grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -68,9 +70,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Study the tooth structure and look for decay."
         },
         {
           "sub_id": "1b",
@@ -80,23 +85,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Dentistry Requirement 1b sign-off.",
-            "fact": "Each Scout must actively draw the specific principles and real-world steps of Req 1b grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -116,9 +126,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Draw a lower molar, using the radiographs as a guide. Label its parts and surfaces. Show surrounding structures such as bone and gum tissues."
         },
         {
           "sub_id": "1c",
@@ -144,10 +157,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Dentistry Requirement 1c sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1c grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1c grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1c grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -167,9 +182,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Show on your drawing where the nerves and blood vessels enter and leave the tooth."
         },
         {
           "sub_id": "1d",
@@ -195,10 +213,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1d is enough for Dentistry Requirement 1d sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1d grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1d grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1d grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -218,9 +238,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1d",
+          "sub_req_label": "1d",
+          "sub_req_text": "Show on your drawing where bacterial plaque is most likely to be found."
         }
       ],
       "resources": [
@@ -237,13 +260,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Using X-ray (radiographic) films or images and with",
-      "action_verb": "Using",
+      "topic_title": "Req 1: Using X-ray films or images",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dentistry Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Dentistry Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
+      "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -260,8 +283,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Using X-ray (radiographic) films or images and with is enough for Dentistry Requirement 1 sign-off.",
-        "fact": "Each Scout must actively using the specific principles and real-world steps of Using X-ray (radiographic) films or images and with grounded in the official Dentistry pamphlet."
+        "misconception": "Reading a short definition of Using X-ray films or images is enough for Dentistry Requirement 1 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Using X-ray films or images grounded in the official Dentistry pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Using X-ray films or images grounded in the official Dentistry pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -281,62 +306,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Dentistry Sub-Req 1a: Study the tooth structure and look for decay.",
-        "Dentistry Sub-Req 1b: Draw a lower molar, using the radiographs as a guide. Label its parts and surfaces. Show surrounding structures such as bone and gum tissues.",
-        "Dentistry Sub-Req 1c: Show on your drawing where the nerves and blood vessels enter and leave the tooth.",
-        "Dentistry Sub-Req 1d: Show on your drawing where bacterial plaque is most likely to be found."
+        "Support Tooth Supportive: Support for the Tooth The supportive tissues of the tooth are called theperiodontium, which includes the periodontalligament, the alveolar bone.",
+        "Cementum Periodontal: The cementum, periodontal ligament, andalveolar bone connect the teeth to the jaws.",
+        "Whenone Damaged Missing: Whenone of these is damaged or missing, the tooth willloosen and eventually fall out.",
+        "Supportivetissues Actually: The supportivetissues actually get stronger from vigorous use."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Dentistry requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Using X-ray (radiographic) films or images and with.",
-        "Execute & Document: Perform the using task methodically with your patrol buddy and log specific observations in your Dentistry Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Strong Fiberlike Tissue: This strong, fiberlike tissue anchors theroot to the bone and cushions the surrounding bone againstthe shock of chewing and biting.",
+        "Thedentist Cuts Periodontal: When extracting a tooth, thedentist cuts the periodontal ligament that connects the tooth tothe bone.",
+        "Bony Part Upper: The bony part of the upper and lower jawsthat surrounds and supports the roots of the teeth and the gumsis called the alveolar bone.",
+        "Alveolar Means Hollow: Alveolar means “hollow.” The alveolar bone has hollow places, or sockets, that house the roots ofthe teeth."
       ],
       "gear_checklist": [
         "Official Dentistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dentistry Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Using X-ray films or images",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Dentistry Approach",
-        "right_header": "Official BSA Dentistry Pamphlet Standard",
+        "right_header": "Official BSA Dentistry Standard (Using X-ray films or images)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Using X-ray films or images.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Dentistry Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Dentistry Workbook organizer.",
+          "Clearly demonstrates and explains Using X-ray films or images using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dentistry Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Using X-ray (radiographic) films or images and with",
+          "Requirement & Topic": "Req 1 - Using X-ray films or images",
           "Primary Standard": "Study the tooth structure and look for decay.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dentistry terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dentistry Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dentistry terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dentistry Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dentistry Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dentistry Requirement 1, a Scout claims: \"Reading a short definition of Using X-ray (radiographic) films or images and with is enough for Dentistry Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Dentistry (Using X-ray films or images), which patrol preparation step best aligns with the official Dentistry standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively using the specific principles and real-world steps of Using X-ray (radiographic) films or images and with grounded in the official Dentistry pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Dentistry hazards, PPE, and prerequisite standards in Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively using the specific principles and real-world steps of Using X-ray (radiographic) films or images and with grounded in the official Dentistry pamphlet.",
-        "explanation": "Per Official BSA Dentistry Pamphlet, pp. 4-9, Each Scout must actively using the specific principles and real-world steps of Using X-ray (radiographic) films or images and with grounded in the official Dentistry pamphlet."
+        "correct_answer": "Option A - Review the Dentistry hazards, PPE, and prerequisite standards in Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dentistry Workbook organizer table and practical demonstration for Req 1."
@@ -378,10 +403,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Dentistry Requirement 2a sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 2a grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 2a grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 2a grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -401,9 +428,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Tell or write about what causes dental decay and gum disease. Tell how each of the following contributes to dental decay and gum disease: bacterial plaque, sugars, and acid."
         },
         {
           "sub_id": "2b",
@@ -439,10 +469,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Dentistry Requirement 2b sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 2b grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2b grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2b grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -462,9 +494,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Tell the possible causes for traumatic tooth loss, describe the types of mouth guards used to help prevent tooth trauma, and list the athletic activities during which a person should wear a mouth guard."
         },
         {
           "sub_id": "2c",
@@ -492,10 +527,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2c is enough for Dentistry Requirement 2c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -515,9 +552,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2c",
+          "sub_req_label": "2c",
+          "sub_req_text": "Explain the first-aid procedure for saving a tooth that has been knocked out."
         },
         {
           "sub_id": "2d",
@@ -549,10 +589,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2d is enough for Dentistry Requirement 2d sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2d grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2d grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2d grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -572,9 +614,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2d",
+          "sub_req_label": "2d",
+          "sub_req_text": "Discuss how the use of tobacco products can negatively affect your oral health."
         }
       ],
       "resources": [
@@ -619,13 +664,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: (a) Tell or write about what causes dental",
+      "topic_title": "Req 2: Tell or write about what causes",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dentistry Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Dentistry Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
+      "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -645,8 +690,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Tell or write about what causes dental is enough for Dentistry Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell or write about what causes dental grounded in the official Dentistry pamphlet."
+        "misconception": "Reading a short definition of Tell or write about what causes is enough for Dentistry Requirement 2 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Tell or write about what causes grounded in the official Dentistry pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Tell or write about what causes grounded in the official Dentistry pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -666,63 +713,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Dentistry Sub-Req 2a: Tell or write about what causes dental decay and gum disease. Tell how each of the following contributes to dental decay and gum disease.",
-        "Dentistry Sub-Req 2b: Tell the possible causes for traumatic tooth loss, describe the types of mouth guards used to help prevent tooth trauma, and list the athletic.",
-        "Dentistry Sub-Req 2c: Explain the first-aid procedure for saving a tooth that has been knocked out.",
-        "Dentistry Sub-Req 2d: Discuss how the use of tobacco products can negatively affect your oral health."
+        "They Generally Work: They generally work forgovernment agencies such as the United States Public Health Service, the military, hospitals, and universities.",
+        "Dentists Thisspecialty Study: Dentists in thisspecialty study trends in dental disease and related disordersand report this information to other dentists.",
+        "Specialist Dental Public: A specialist in dental public health must earn anadvanced degree and complete a dental public health residency.",
+        "Endodontist Cares Inner: An endodontist cares for the inner parts of the teeth."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Dentistry requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Tell or write about what causes dental.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Dentistry Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Thisspecialist Concerned: Thisspecialist is concerned with the prevention, diagnosis, andtreatment of disorders of the dental pulp and tissues surroundingthe root.",
+        "Endodontist Expert Pulp: The endodontist is an expert in pulp capping, root canal therapy, surgical procedures such as root amputation, and bleaching (for teeth.",
+        "Oral Maxillofacial: The oral and maxillofacial pathologist studies tissues from themouth and maxillofacial region and helps diagnose diseasessuch as infections, benign.",
+        "She Aresource Person: He or she is aresource person, or consultant, for general dentists and otherspecialists."
       ],
       "gear_checklist": [
         "Official Dentistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dentistry Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Tell or write about what causes",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dentistry Approach",
-        "right_header": "Official BSA Dentistry Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Dentistry Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dentistry Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - (a) Tell or write about what causes dental",
-          "Primary Standard": "Tell or write about what causes dental decay and gum disease. Tell how each of the following contributes to de",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dentistry terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dentistry Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Tell or write about what causes",
+          "Primary Standard": "Tell or write about what causes dental decay and gum disease. Tell how each of the following contributes to dental decay and gum disease: bacterial plaque, sugars, and acid.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dentistry terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dentistry Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dentistry Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dentistry Requirement 2, a Scout claims: \"Reading a short definition of (a) Tell or write about what causes dental is enough for Dentistry Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell or write about what causes dental grounded in the official Dentistry pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell or write about what causes dental grounded in the official Dentistry pamphlet.",
-        "explanation": "Per Official BSA Dentistry Pamphlet, pp. 10-15, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Tell or write about what causes dental grounded in the official Dentistry pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dentistry Workbook organizer table and practical demonstration for Req 2."
     },
@@ -742,13 +766,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Arrange for a visit with a dentist. Before",
+      "topic_title": "Req 3: Arrange for a visit",
       "action_verb": "Visit",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dentistry Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Dentistry Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 31, p. 33)",
+      "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 31, p. 33)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -765,8 +789,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Arrange for a visit with a dentist. Before is enough for Dentistry Requirement 3 sign-off.",
-        "fact": "Each Scout must actively visit the specific principles and real-world steps of Arrange for a visit with a dentist. Before grounded in the official Dentistry pamphlet."
+        "misconception": "Reading a short definition of Arrange for a visit is enough for Dentistry Requirement 3 sign-off.",
+        "fact": "Each Scout must actively visit the specific principles and real-world steps of Arrange for a visit grounded in the official Dentistry pamphlet.",
+        "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Arrange for a visit grounded in the official Dentistry pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 31, p. 33)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -786,63 +812,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): Arrange for a visit with a dentist.",
-        "Core Standard 2 (Req 3): Before you go, ask whether your visit can include a dental examination and a plaque-control demonstration.",
-        "Core Standard 3 (Req 3): Afterward, ask questions about things you want to know.",
-        "Core Standard 4 (Req 3): Then tell your counselor what the dentist does during a checkup examination."
+        "Out Whetherthe Water: Find out whetherthe water inyour home isfluoridated.",
+        "Drink Eightglasses Tapwater: If it is, try to drink eightglasses of tapwater each dayand know thatwhile you arereplenishing fluidsin your body, youare also protecting your.",
+        "Fluoride Chemical Compound: Fluoride is a chemical compound that forms when fluorinecombines with other elements.",
+        "Fluoridereinforces Enamel: After teeth are formed, fluoridereinforces enamel and also acts with minerals in saliva torestore enamel in the earliest stages of decay."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Dentistry requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Arrange for a visit with a dentist. Before.",
-        "Execute & Document: Perform the visit task methodically with your patrol buddy and log specific observations in your Dentistry Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Fluoride Present Everywhere: Fluoride is present everywhere, in varying amounts.",
+        "Concentration Fluorides Soil: The concentration of fluorides in the soil, water, and plantsin certain areas may be lower or higher than in other areas.",
+        "Fluoride Internally Applyit: You can take fluoride internally or applyit directly to the surfaces of the teeth.",
+        "Fluoridation Adding Fluoride: Fluoridation, or adding fluoride to our water supply, is oneway health officials help protect public health."
       ],
       "gear_checklist": [
         "Official Dentistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dentistry Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Arrange for a visit",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Dentistry Approach",
-        "right_header": "Official BSA Dentistry Pamphlet Standard",
+        "right_header": "Official BSA Dentistry Standard (Arrange for a visit)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Arrange for a visit.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Dentistry Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Dentistry Merit Badge Pamphlet (p. 31, p. 33) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Dentistry Workbook organizer.",
+          "Clearly demonstrates and explains Arrange for a visit using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dentistry Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Arrange for a visit with a dentist. Before",
-          "Primary Standard": "Arrange for a visit with a dentist. Before you go, ask whether your visit can include a dental examination and",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dentistry terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dentistry Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Arrange for a visit",
+          "Primary Standard": "Arrange for a visit with a dentist.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dentistry terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dentistry Merit Badge Pamphlet (p. 31, p. 33) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dentistry Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dentistry Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dentistry Requirement 3, a Scout claims: \"Reading a short definition of Arrange for a visit with a dentist. Before is enough for Dentistry Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively visit the specific principles and real-world steps of Arrange for a visit with a dentist. Before grounded in the official Dentistry pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively visit the specific principles and real-world steps of Arrange for a visit with a dentist. Before grounded in the official Dentistry pamphlet.",
-        "explanation": "Per Official BSA Dentistry Pamphlet, pp. 16-21, Each Scout must actively visit the specific principles and real-world steps of Arrange for a visit with a dentist. Before grounded in the official Dentistry pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dentistry Workbook organizer table and practical demonstration for Req 3."
     },
@@ -883,10 +899,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Dentistry Requirement 4a sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -906,9 +924,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Name at least five instruments and five pieces of equipment a dentist uses."
         },
         {
           "sub_id": "4b",
@@ -939,10 +960,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Dentistry Requirement 4b sign-off.",
-            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 4b grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 4b grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Req 4b grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -962,9 +985,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "With the help of a dentist, prepare a dental stone cast using a dental vibrator, a mixing bowl, a water measure, a plastic measure, model stone, and a spatula."
         },
         {
           "sub_id": "4c",
@@ -996,10 +1022,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4c is enough for Dentistry Requirement 4c sign-off.",
-            "fact": "Each Scout must actively record the specific principles and real-world steps of Req 4c grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively record the specific principles and real-world steps of Req 4c grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively record the specific principles and real-world steps of Req 4c grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1019,9 +1047,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4c",
+          "sub_req_label": "4c",
+          "sub_req_text": "Keep a record of everything you eat for three days. Circle those items that may provide the sugars that bacterial plaque needs to make acid. List snacks that you should avoid to help maintain the best oral health."
         }
       ],
       "resources": [
@@ -1050,13 +1081,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: (a) Name at least five instruments and five",
+      "topic_title": "Req 4: Name at least five instruments",
       "action_verb": "Name",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dentistry Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Dentistry Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)",
+      "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1077,8 +1108,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Name at least five instruments and five is enough for Dentistry Requirement 4 sign-off.",
-        "fact": "Each Scout must actively name the specific principles and real-world steps of (a) Name at least five instruments and five grounded in the official Dentistry pamphlet."
+        "misconception": "Reading a short definition of Name at least five instruments is enough for Dentistry Requirement 4 sign-off.",
+        "fact": "Each Scout must actively name the specific principles and real-world steps of Name at least five instruments grounded in the official Dentistry pamphlet.",
+        "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Name at least five instruments grounded in the official Dentistry pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1098,63 +1131,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Dentistry Sub-Req 4a: Name at least five instruments and five pieces of equipment a dentist uses.",
-        "Dentistry Sub-Req 4b: With the help of a dentist, prepare a dental stone cast using a dental vibrator, a mixing bowl, a water measure, a plastic measure, model stone, and a spatula.",
-        "Dentistry Sub-Req 4c: Keep a record of everything you eat for three days. Circle those items that may provide the sugars that bacterial plaque needs to make.",
-        "Core Standard 1 (Req 4): Do TWO of the following: (a) Name at least five instruments and five pieces of equipment a dentist uses."
+        "Healthy Peopleproduce Cups: Healthy peopleproduce about 6 cups of saliva a day.",
+        "Eat Affect Dental: When and how often you eat may affect your dental healthmore than what and how much you eat.",
+        "Don Giveup Sugar: You don’t have to giveup sugar to protect your teeth.",
+        "Eat Sweet Foods: If you eat sweet foods anddrinks only at mealtimes and faithfully brush and floss yourteeth afterward, you can usually avoid tooth decay."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Dentistry requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Name at least five instruments and five.",
-        "Execute & Document: Perform the name task methodically with your patrol buddy and log specific observations in your Dentistry Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Extra Saliva Produced: The extra saliva produced to digest a meal will help washaway or neutralize acids, but eating sugary foods betweenmeals will keep the acid level.",
+        "Choose Foods Low: If you mustsnack, choose foods that are low in sugar content: peanuts, popcorn, pretzels, olives, eggs, meats, milk, and plain yogurt.",
+        "Snacking Bedtime Harmful: Snacking before bedtime is harmful because of the reduced production of saliva during sleep.",
+        "Plaque Remains Undisturbedon: The plaque remains undisturbedon the teeth for hours."
       ],
       "gear_checklist": [
         "Official Dentistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dentistry Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Name at least five instruments",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dentistry Approach",
-        "right_header": "Official BSA Dentistry Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Dentistry Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dentistry Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - (a) Name at least five instruments and five",
+          "Requirement & Topic": "Req 4 - Name at least five instruments",
           "Primary Standard": "Name at least five instruments and five pieces of equipment a dentist uses.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dentistry terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dentistry Pamphlet, pp. 22-27."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dentistry terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dentistry Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dentistry Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dentistry Requirement 4, a Scout claims: \"Reading a short definition of (a) Name at least five instruments and five is enough for Dentistry Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively name the specific principles and real-world steps of (a) Name at least five instruments and five grounded in the official Dentistry pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively name the specific principles and real-world steps of (a) Name at least five instruments and five grounded in the official Dentistry pamphlet.",
-        "explanation": "Per Official BSA Dentistry Pamphlet, pp. 22-27, Each Scout must actively name the specific principles and real-world steps of (a) Name at least five instruments and five grounded in the official Dentistry pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dentistry Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1191,10 +1201,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Dentistry Requirement 5a sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 5a grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1214,9 +1226,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "How fluorides help prevent tooth decay and the ways fluorides can be provided to the teeth."
         },
         {
           "sub_id": "5b",
@@ -1252,10 +1267,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Dentistry Requirement 5b sign-off.",
-            "fact": "Each Scout must actively how the specific principles and real-world steps of Req 5b grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1275,9 +1292,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "How the mouth is related to the rest of the body. Topics might include chewing, saliva, enzymes, nutrition, and speech."
         }
       ],
       "resources": [
@@ -1306,13 +1326,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: the following: (a) How fluorides help prevent tooth",
+      "topic_title": "Req 5: How Good Nutrition Helps",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dentistry Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Dentistry Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)",
+      "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1329,8 +1349,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of the following: (a) How fluorides help prevent tooth is enough for Dentistry Requirement 5 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of the following: (a) How fluorides help prevent tooth grounded in the official Dentistry pamphlet."
+        "misconception": "Reading a short definition of How Good Nutrition Helps is enough for Dentistry Requirement 5 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of How Good Nutrition Helps grounded in the official Dentistry pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of How Good Nutrition Helps grounded in the official Dentistry pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1350,63 +1372,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Dentistry Sub-Req 5a: How fluorides help prevent tooth decay and the ways fluorides can be provided to the teeth.",
-        "Dentistry Sub-Req 5b: How the mouth is related to the rest of the body. Topics might include chewing, saliva, enzymes, nutrition, and speech.",
-        "Core Standard 1 (Req 5): Discuss with your counselor the following: (a) How fluorides help prevent tooth decay and the ways fluorides can be provided to the teeth.",
-        "Core Standard 2 (Req 5): (b) How the mouth is related to the rest of the body."
+        "Healthy Peopleproduce Cups: Healthy peopleproduce about 6 cups of saliva a day.",
+        "Eat Affect Dental: When and how often you eat may affect your dental healthmore than what and how much you eat.",
+        "Don Giveup Sugar: You don’t have to giveup sugar to protect your teeth.",
+        "Eat Sweet Foods: If you eat sweet foods anddrinks only at mealtimes and faithfully brush and floss yourteeth afterward, you can usually avoid tooth decay."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Dentistry requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing the following: (a) How fluorides help prevent tooth.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Dentistry Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Extra Saliva Produced: The extra saliva produced to digest a meal will help washaway or neutralize acids, but eating sugary foods betweenmeals will keep the acid level.",
+        "Choose Foods Low: If you mustsnack, choose foods that are low in sugar content: peanuts, popcorn, pretzels, olives, eggs, meats, milk, and plain yogurt.",
+        "Snacking Bedtime Harmful: Snacking before bedtime is harmful because of the reduced production of saliva during sleep.",
+        "Plaque Remains Undisturbedon: The plaque remains undisturbedon the teeth for hours."
       ],
       "gear_checklist": [
         "Official Dentistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dentistry Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for How Good Nutrition Helps",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dentistry Approach",
-        "right_header": "Official BSA Dentistry Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Dentistry Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dentistry Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - the following: (a) How fluorides help prevent tooth",
+          "Requirement & Topic": "Req 5 - How Good Nutrition Helps",
           "Primary Standard": "How fluorides help prevent tooth decay and the ways fluorides can be provided to the teeth.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dentistry terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dentistry Pamphlet, pp. 28-33."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dentistry terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dentistry Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dentistry Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dentistry Requirement 5, a Scout claims: \"Reading a short definition of the following: (a) How fluorides help prevent tooth is enough for Dentistry Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of the following: (a) How fluorides help prevent tooth grounded in the official Dentistry pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of the following: (a) How fluorides help prevent tooth grounded in the official Dentistry pamphlet.",
-        "explanation": "Per Official BSA Dentistry Pamphlet, pp. 28-33, Each Scout must actively discuss the specific principles and real-world steps of the following: (a) How fluorides help prevent tooth grounded in the official Dentistry pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dentistry Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1454,10 +1453,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Dentistry Requirement 6a sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 6a grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 6a grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 6a grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1477,9 +1478,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Make a model tooth out of soap, clay, paper-mâché, or wax. Using a string and a large hand brush, show your troop or a school class proper tooth-brushing and flossing procedures."
         },
         {
           "sub_id": "6b",
@@ -1510,10 +1514,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Dentistry Requirement 6b sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 6b grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 6b grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 6b grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1533,9 +1539,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Make a poster on the prevention of dental disease. Show the importance of good oral health."
         },
         {
           "sub_id": "6c",
@@ -1558,10 +1567,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Dentistry Requirement 6c sign-off.",
-            "fact": "Each Scout must actively collect the specific principles and real-world steps of Req 6c grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 6c grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 6c grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1581,9 +1592,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Collect at least five advertisements for different toothpastes. List the claims that each one makes. Tell about the accuracy of the advertisements."
         },
         {
           "sub_id": "6d",
@@ -1606,10 +1620,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Dentistry Requirement 6d sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 6d grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 6d grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 6d grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1629,9 +1645,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "Write a feature story for your school newspaper on the proper care of teeth and gums. Include in your story how the use of tobacco products can negatively affect a person's oral health."
         },
         {
           "sub_id": "6e",
@@ -1646,26 +1665,25 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "RULED_EXPLAIN_BOX",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 6e Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
             ],
-            "min_rows": 4,
+            "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6e is enough for Dentistry Requirement 6e sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 6e grounded in the official Dentistry pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6e grounded in the official Dentistry pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 6e grounded in the official Dentistry pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1685,9 +1703,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6e",
+          "sub_req_label": "6e",
+          "sub_req_text": "Make drawings and write about the progress of dental decay. Describe the types of dental filling and treatments a dentist can use to repair dental decay problems."
         }
       ],
       "resources": [
@@ -1720,13 +1741,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: (a) Make a model tooth out of soap",
+      "topic_title": "Req 6: Model tooth out of soap, clay",
       "action_verb": "Make",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dentistry Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Dentistry Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
+      "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1746,8 +1767,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Make a model tooth out of soap is enough for Dentistry Requirement 6 sign-off.",
-        "fact": "Each Scout must actively make the specific principles and real-world steps of (a) Make a model tooth out of soap grounded in the official Dentistry pamphlet."
+        "misconception": "Reading a short definition of Model tooth out of soap, clay is enough for Dentistry Requirement 6 sign-off.",
+        "fact": "Each Scout must actively make the specific principles and real-world steps of Model tooth out of soap, clay grounded in the official Dentistry pamphlet.",
+        "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Model tooth out of soap, clay grounded in the official Dentistry pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1767,63 +1790,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Dentistry Sub-Req 6a: Make a model tooth out of soap, clay, paper-mâché, or wax. Using a string and a large hand brush, show your troop or a.",
-        "Dentistry Sub-Req 6b: Make a poster on the prevention of dental disease. Show the importance of good oral health.",
-        "Dentistry Sub-Req 6c: Collect at least five advertisements for different toothpastes. List the claims that each one makes. Tell about the accuracy of the advertisements.",
-        "Dentistry Sub-Req 6d: Write a feature story for your school newspaper on the proper care of teeth and gums. Include in your story how the use of."
+        "Teeth Lifetime Mouth: Keeping Your Teeth for a Lifetime The mouth is the window to wellness.",
+        "Medical Professionalsnow: Medical professionalsnow recognize periodontal disease to be much broader in nature than a simple oral problem.",
+        "Dental Well-being: Dental well-being can have far-reaching healtheffects.",
+        "Instance Dentists Seeing: For instance, dentists are seeing oral signs of sleep apnea, anddiagnosing genital HPV (human papillomavirus, a family of more than 100 related."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Dentistry requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Make a model tooth out of soap.",
-        "Execute & Document: Perform the make task methodically with your patrol buddy and log specific observations in your Dentistry Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Short Dental Experts: In short, dental experts often are a patient’s firstline of defense.",
+        "They Now Part: They are now part of every patient’s general medicalteam, working together for the patient’s overall health.",
+        "Control Kind Teeth: You can’t control what kind of teeth you inherit, but you cancontrol how well you care for your teeth and gums.",
+        "Developgood Habits Oral: Developgood habits of oral hygiene, and make good choices about eating."
       ],
       "gear_checklist": [
         "Official Dentistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dentistry Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Model tooth out of soap, clay",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dentistry Approach",
-        "right_header": "Official BSA Dentistry Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Dentistry Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dentistry Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - (a) Make a model tooth out of soap",
-          "Primary Standard": "Make a model tooth out of soap, clay, paper-mâché, or wax. Using a string and a large hand brush, show your tr",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dentistry terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dentistry Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Model tooth out of soap, clay",
+          "Primary Standard": "Make a model tooth out of soap, clay, paper-mâché, or wax. Using a string and a large hand brush, show your troop or a school class proper tooth-brushing and flossing procedures.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dentistry terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dentistry Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dentistry Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dentistry Requirement 6, a Scout claims: \"Reading a short definition of (a) Make a model tooth out of soap is enough for Dentistry Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively make the specific principles and real-world steps of (a) Make a model tooth out of soap grounded in the official Dentistry pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively make the specific principles and real-world steps of (a) Make a model tooth out of soap grounded in the official Dentistry pamphlet.",
-        "explanation": "Per Official BSA Dentistry Pamphlet, pp. 34-39, Each Scout must actively make the specific principles and real-world steps of (a) Make a model tooth out of soap grounded in the official Dentistry pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dentistry Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1868,13 +1868,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Dentistry Careers, Training & Hobby Pathways",
+      "topic_title": "Req 7: Careers & Professional Pathways",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dentistry Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Dentistry Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Dentistry Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 56, p. 62)",
+      "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 56, p. 62)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1891,8 +1891,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Dentistry career exploration requirement.",
-        "fact": "Scouts must research three Dentistry careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Dentistry career exploration requirement.",
+        "fact": "Scouts must research specific Dentistry career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Dentistry career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 56, p. 62)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1912,68 +1914,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 7): Identify three career opportunities that would use skills and knowledge in dentistry.",
-        "Core Standard 2 (Req 7): Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field.",
-        "Core Standard 3 (Req 7): Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
-        "Core Standard 4 (Req 7): Discuss what you learned with your counselor and whether you might be interested in this career."
+        "They Work Directly: They work directly with dentistsand orthodontists and have little patient contact.",
+        "Education Cost Training: Education and Cost of Training The basic training for dentists is four years of dental schoolafter graduation from college.",
+        "Successful Completion: Upon successful completion ofdental school requirements, the graduate is awarded a doctor ofdental surgery (D.D.S.) or a doctor of dental medicine.",
+        "Practice She Pass: To practice, he or she must pass both a written nationalboard and a state or regional examination."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Dentistry requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Dentistry Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Dentistry Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Dental School Graduate: After passing theboards, the dental school graduate may apply to the state boardof dentistry for a license to practice general dentistry.",
+        "Sponsoring Institution: The sponsoring institution may decide whether the dentistmust pay for his or her advanced training, or whether he or sheshould receive a stipend.",
+        "Common Practice Tooffer: It is common practice tooffer paid residency programs in hospitals in the areas ofpediatric dentistry, oral surgery, and general dentistry.",
+        "Postgraduate Training Dental: Postgraduate training in dental schools for the other specialtiesusually require tuition."
       ],
       "gear_checklist": [
         "Official Dentistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dentistry Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dentistry Approach",
-        "right_header": "Official BSA Dentistry Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Dentistry Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dentistry Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Dentistry Careers, Training & Hobby Pathways",
-          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in dentistry. Pick one and research th",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dentistry terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dentistry Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Careers & Professional Pathways",
+          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in dentistry.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dentistry terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dentistry Merit Badge Pamphlet (p. 56, p. 62) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dentistry Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dentistry Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dentistry Requirement 7, a Scout claims: \"Listing three job titles from a web search satisfies the Dentistry career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Dentistry careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Dentistry careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Dentistry Pamphlet, pp. 40-45, Scouts must research three Dentistry careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dentistry Workbook organizer table and practical demonstration for Req 7."
     }
   ],
   "badge_slug": "dentistry",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

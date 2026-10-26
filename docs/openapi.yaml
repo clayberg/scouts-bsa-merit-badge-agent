@@ -1,6 +1,7 @@
 openapi: 3.1.0
 info:
-  title: Scouts BSA Merit Badge Agent — Material 3 Expressive A2UI & A2A 1.0 Server
+  title: "Scouts BSA Merit Badge Agent \u2014 Material 3 Expressive A2UI & A2A 1.0\
+    \ Server"
   description: Production ADK multi-agent system with 5-Tier Deep Pamphlet Research,
     12-Archetype Slide Engine, Tri-Modal Visual Synthesis, 2-Stage Conformance/Vision
     Critic, FastMCP HITL Confirmation Tokens, and Google Material 3 Expressive A2UI.
@@ -581,7 +582,7 @@ paths:
         required: false
         schema:
           type: string
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
           title: Audience Level
       - name: template_id
         in: query
@@ -718,7 +719,7 @@ paths:
         required: false
         schema:
           type: string
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
           title: Audience Level
       - name: template_id
         in: query
@@ -1658,6 +1659,69 @@ paths:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
   /api/v1/studiokit/fillable-workbook:
+    get:
+      summary: Api Get Fillable Workbook Html
+      description: Renders the interactive Verb-Aligned Fillable Scout Workbook HTML
+        in browser for printing or direct PDF download.
+      operationId: api_get_fillable_workbook_html_api_v1_studiokit_fillable_workbook_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: First Aid
+          title: Badge Name
+      - name: option_track
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ALL
+          title: Option Track
+      - name: counselor_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Merit Badge Counselor
+          title: Counselor Name
+      - name: troop_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Troop 19, Northeast Massachusetts Council
+          title: Troop Name
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            text/html:
+              schema:
+                type: string
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
     post:
       summary: Api Generate Fillable Workbook
       description: Generates the verb-aligned fillable Scout Workbook HTML & Markdown
@@ -1703,6 +1767,69 @@ paths:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
   /api/studiokit/fillable-workbook:
+    get:
+      summary: Api Get Fillable Workbook Html
+      description: Renders the interactive Verb-Aligned Fillable Scout Workbook HTML
+        in browser for printing or direct PDF download.
+      operationId: api_get_fillable_workbook_html_api_studiokit_fillable_workbook_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: First Aid
+          title: Badge Name
+      - name: option_track
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ALL
+          title: Option Track
+      - name: counselor_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Merit Badge Counselor
+          title: Counselor Name
+      - name: troop_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Troop 19, Northeast Massachusetts Council
+          title: Troop Name
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            text/html:
+              schema:
+                type: string
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
     post:
       summary: Api Generate Fillable Workbook
       description: Generates the verb-aligned fillable Scout Workbook HTML & Markdown
@@ -1748,6 +1875,68 @@ paths:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
   /api/v1/studiokit/class-prep-cpp:
+    get:
+      summary: Api Get Class Prep Cpp Html
+      description: Renders the 1-Page Class Preparation Page (CPP) in browser.
+      operationId: api_get_class_prep_cpp_html_api_v1_studiokit_class_prep_cpp_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: First Aid
+          title: Badge Name
+      - name: counselor_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Merit Badge Counselor
+          title: Counselor Name
+      - name: troop_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Troop 19, Northeast Massachusetts Council
+          title: Troop Name
+      - name: room_location
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ''
+          title: Room Location
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            text/html:
+              schema:
+                type: string
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
     post:
       summary: Api Generate Class Prep Cpp
       description: Generates the 1-Page Class Preparation Page (CPP) in print-ready
@@ -1793,6 +1982,68 @@ paths:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
   /api/studiokit/class-prep-cpp:
+    get:
+      summary: Api Get Class Prep Cpp Html
+      description: Renders the 1-Page Class Preparation Page (CPP) in browser.
+      operationId: api_get_class_prep_cpp_html_api_studiokit_class_prep_cpp_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: First Aid
+          title: Badge Name
+      - name: counselor_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Merit Badge Counselor
+          title: Counselor Name
+      - name: troop_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Troop 19, Northeast Massachusetts Council
+          title: Troop Name
+      - name: room_location
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ''
+          title: Room Location
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            text/html:
+              schema:
+                type: string
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
     post:
       summary: Api Generate Class Prep Cpp
       description: Generates the 1-Page Class Preparation Page (CPP) in print-ready
@@ -8005,7 +8256,7 @@ components:
           type: string
           title: Audience Level
           description: Target Scout audience level.
-          default: All Scouts (Ages 11–17)
+          default: "All Scouts (Ages 11\u201317)"
         session_id:
           type: string
           title: Session Id

@@ -45,10 +45,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Salesmanship Requirement 1a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -68,9 +70,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain the responsibilities of a salesperson and how a salesperson serves customers and helps stimulate the economy."
         },
         {
           "sub_id": "1b",
@@ -98,10 +103,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Salesmanship Requirement 1b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -121,9 +128,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Explain the differences between a business-to-business salesperson and a consumer salesperson."
         }
       ],
       "resources": [
@@ -144,13 +154,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: (a) Explain the responsibilities of a salesperson and",
+      "topic_title": "Req 1: The responsibilities of a salesperson",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Salesmanship Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Salesmanship Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)",
+      "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -170,8 +180,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Explain the responsibilities of a salesperson and is enough for Salesmanship Requirement 1 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the responsibilities of a salesperson and grounded in the official Salesmanship pamphlet."
+        "misconception": "Reading a short definition of The responsibilities of a salesperson is enough for Salesmanship Requirement 1 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The responsibilities of a salesperson grounded in the official Salesmanship pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The responsibilities of a salesperson grounded in the official Salesmanship pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -191,62 +203,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Salesmanship Sub-Req 1a: Explain the responsibilities of a salesperson and how a salesperson serves customers and helps stimulate the economy.",
-        "Salesmanship Sub-Req 1b: Explain the differences between a business-to-business salesperson and a consumer salesperson.",
-        "Core Standard 1 (Req 1): Do the following: (a) Explain the responsibilities of a salesperson and how a salesperson serves customers and helps stimulate the economy.",
-        "Core Standard 2 (Req 1): (b) Explain the differences between a business-to-business salesperson and a consumer salesperson."
+        "Tone Shouldalways: Your tone shouldalways conveyenthusiasm forthe product orservice, yourcompany, and thecustomer.",
+        "Nothing Destroysbuyer: Nothing destroysbuyer confidencefaster than asalesperson who Customer Follow-Through Following up with customers is one of the most crucial skills.",
+        "Think Customers Loyal: Think of your customers as a loyal baseof friends who can help you increase sales, spread goodwillabout you and your company, and guide improvements.",
+        "Customers Welcome Chance: Customers welcome the chance to share their opinionsabout a product they purchased, and they appreciate that thesalesperson cared to ask."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Salesmanship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain the responsibilities of a salesperson and.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Salesmanship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Likely Feedback Negative: You are likely to get good feedback, even if it is negative, once customers have purchased theproduct and had a chance to try it out.",
+        "Effort Fulfill Unsatisfied: Make every effort to fulfill an unsatisfied customer’s needsin an efficient, quiet, and confident manner.",
+        "Chanceto Practice Super: This is your chanceto practice super salesmanship, to leap over tall obstacles andfind practical solutions to any and all problems.",
+        "Negativefeedback Requires: Any negativefeedback requires further follow-up once you have addressedthe customer’s concerns."
       ],
       "gear_checklist": [
         "Official Salesmanship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Salesmanship Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The responsibilities of a salesperson",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Salesmanship Approach",
-        "right_header": "Official BSA Salesmanship Pamphlet Standard",
+        "right_header": "Official BSA Salesmanship Standard (The responsibilities of a salesperson)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during The responsibilities of a salesperson.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Salesmanship Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Salesmanship Workbook organizer.",
+          "Clearly demonstrates and explains The responsibilities of a salesperson using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Salesmanship Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) Explain the responsibilities of a salesperson and",
-          "Primary Standard": "Explain the responsibilities of a salesperson and how a salesperson serves customers and helps stimulate the e",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Salesmanship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Salesmanship Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - The responsibilities of a salesperson",
+          "Primary Standard": "Explain the responsibilities of a salesperson and how a salesperson serves customers and helps stimulate the economy.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Salesmanship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Salesmanship Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Salesmanship Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Salesmanship Requirement 1, a Scout claims: \"Reading a short definition of (a) Explain the responsibilities of a salesperson and is enough for Salesmanship Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Salesmanship (The responsibilities of a salesperson), which patrol preparation step best aligns with the official Salesmanship standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the responsibilities of a salesperson and grounded in the official Salesmanship pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Salesmanship hazards, PPE, and prerequisite standards in Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the responsibilities of a salesperson and grounded in the official Salesmanship pamphlet.",
-        "explanation": "Per Official BSA Salesmanship Pamphlet, pp. 4-9, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the responsibilities of a salesperson and grounded in the official Salesmanship pamphlet."
+        "correct_answer": "Option A - Review the Salesmanship hazards, PPE, and prerequisite standards in Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Salesmanship Workbook organizer table and practical demonstration for Req 1."
@@ -284,10 +296,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Salesmanship Requirement 2a sign-off.",
-            "fact": "Each Scout must actively research the specific principles and real-world steps of Req 2a grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively research the specific principles and real-world steps of Req 2a grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively research the specific principles and real-world steps of Req 2a grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -307,9 +321,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Research the market to be sure the product or service meets the needs of customers."
         },
         {
           "sub_id": "2b",
@@ -337,10 +354,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Salesmanship Requirement 2b sign-off.",
-            "fact": "Each Scout must actively learn the specific principles and real-world steps of Req 2b grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -360,9 +379,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Learn all about the product to be sold."
         },
         {
           "sub_id": "2c",
@@ -385,10 +407,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2c is enough for Salesmanship Requirement 2c sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 2c grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 2c grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 2c grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -408,9 +432,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2c",
+          "sub_req_label": "2c",
+          "sub_req_text": "If possible, visit the location where the product is built and learn how it is constructed. If a service is being sold, learn about the benefits of the service to the customer."
         },
         {
           "sub_id": "2d",
@@ -438,10 +465,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2d is enough for Salesmanship Requirement 2d sign-off.",
-            "fact": "Each Scout must actively follow the specific principles and real-world steps of Req 2d grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2d grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2d grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -461,9 +490,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2d",
+          "sub_req_label": "2d",
+          "sub_req_text": "Follow up with customers after their purchase to confirm their satisfaction and discuss their concerns about the product."
         }
       ],
       "resources": [
@@ -488,13 +520,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Explain why it is important for a salesperson",
+      "topic_title": "Req 2: It is important for a salesperson",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Salesmanship Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Salesmanship Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)",
+      "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -511,8 +543,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Explain why it is important for a salesperson is enough for Salesmanship Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain why it is important for a salesperson grounded in the official Salesmanship pamphlet."
+        "misconception": "Reading a short definition of It is important for a salesperson is enough for Salesmanship Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of It is important for a salesperson grounded in the official Salesmanship pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of It is important for a salesperson grounded in the official Salesmanship pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -532,63 +566,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Salesmanship Sub-Req 2a: Research the market to be sure the product or service meets the needs of customers.",
-        "Salesmanship Sub-Req 2b: Learn all about the product to be sold.",
-        "Salesmanship Sub-Req 2c: If possible, visit the location where the product is built and learn how it is constructed. If a service is being sold, learn about.",
-        "Salesmanship Sub-Req 2d: Follow up with customers after their purchase to confirm their satisfaction and discuss their concerns about the product."
+        "Practical Visit Factory: If practical, visit the factory where theproduct is made or the business is located to gain first-handknowledge about the product or service.",
+        "Salespeople Update Their: Salespeople must update their knowledge as the productline expands or changes with the fluctuating marketplace.",
+        "Salesperson Industry Trends: As a salesperson, you must keep up with industry trends, pricing, marketing, packaging, and other product developments.",
+        "Salesperson Company: As a salesperson, your company’sbusiness isyour business toknow thoroughly!."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Salesmanship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain why it is important for a salesperson.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Salesmanship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Build Relationship Customers: To build a relationship with customers, be attentive to friendly, respectful, and professional ways that you can help potentialbuyers clear.",
+        "Time Personal Appearance: Always be on time Personal appearance is important.",
+        "Well-groomed Professional: A well-groomed, professional appearance from head to toe is the first thing a customer should notice about you.",
+        "Considerate Andfriendly: Be considerate andfriendly, gracious and respectful."
       ],
       "gear_checklist": [
         "Official Salesmanship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Salesmanship Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for It is important for a salesperson",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Salesmanship Approach",
-        "right_header": "Official BSA Salesmanship Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Salesmanship Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Salesmanship Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Explain why it is important for a salesperson",
+          "Requirement & Topic": "Req 2 - It is important for a salesperson",
           "Primary Standard": "Research the market to be sure the product or service meets the needs of customers.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Salesmanship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Salesmanship Pamphlet, pp. 10-15."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Salesmanship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Salesmanship Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Salesmanship Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Salesmanship Requirement 2, a Scout claims: \"Reading a short definition of Explain why it is important for a salesperson is enough for Salesmanship Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain why it is important for a salesperson grounded in the official Salesmanship pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain why it is important for a salesperson grounded in the official Salesmanship pamphlet.",
-        "explanation": "Per Official BSA Salesmanship Pamphlet, pp. 10-15, Each Scout must actively explain the specific principles and real-world steps of Explain why it is important for a salesperson grounded in the official Salesmanship pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Salesmanship Workbook organizer table and practical demonstration for Req 2."
     },
@@ -613,13 +624,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Write and present a sales plan for a",
+      "topic_title": "Req 3: Write and present a sales",
       "action_verb": "Plan",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Salesmanship Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Salesmanship Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 22, p. 26)",
+      "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 22, p. 26)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -636,8 +647,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Write and present a sales plan for a is enough for Salesmanship Requirement 3 sign-off.",
-        "fact": "Each Scout must actively plan the specific principles and real-world steps of Write and present a sales plan for a grounded in the official Salesmanship pamphlet."
+        "misconception": "Reading a short definition of Write and present a sales is enough for Salesmanship Requirement 3 sign-off.",
+        "fact": "Each Scout must actively plan the specific principles and real-world steps of Write and present a sales grounded in the official Salesmanship pamphlet.",
+        "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Write and present a sales grounded in the official Salesmanship pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 22, p. 26)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -657,63 +670,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): Write and present a sales plan for a product and a sales territory assigned by your counselor.",
-        "Field Verification Standard: Apply Salesmanship Requirement 3 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Salesmanship Req 3 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Salesmanship Workbook before requesting Requirement 3 sign-off."
+        "Develop Top-notch Sales: To develop a top-notch sales plan for your product or service, start by writing down your thoughts.",
+        "Then Write Down: Then write down details about the market, the specific group of people, you are targeting.",
+        "Decide Youplan Market: Decide how youplan to market your product, by advertising, word-of-mouth, mail, phone, or the internet, for instance.",
+        "Perhaps Canthink Unusual: Perhaps you canthink of an unusual sales hook or a catchy slogan to increaseproduct awareness and recognition."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Salesmanship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Write and present a sales plan for a.",
-        "Execute & Document: Perform the plan task methodically with your patrol buddy and log specific observations in your Salesmanship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Sales Strategycareful: Give your sales strategycareful thought, because it will set the coursefor your business.",
+        "Consider Competitors: Consider your competitors, who elseoffers the same product you do?.",
+        "Identify Howyour Product: Identify howyour product stacks up to the competition, how it is similar to and different fromyour competition.",
+        "Think Canreach Portion: Think of how you canreach that portion of the market that yourcompetitors do not."
       ],
       "gear_checklist": [
         "Official Salesmanship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Salesmanship Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Write and present a sales",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Salesmanship Approach",
-        "right_header": "Official BSA Salesmanship Pamphlet Standard",
+        "right_header": "Official BSA Salesmanship Standard (Write and present a sales)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Write and present a sales.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Salesmanship Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Salesmanship Merit Badge Pamphlet (p. 22, p. 26) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Salesmanship Workbook organizer.",
+          "Clearly demonstrates and explains Write and present a sales using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Salesmanship Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Write and present a sales plan for a",
+          "Requirement & Topic": "Req 3 - Write and present a sales",
           "Primary Standard": "Write and present a sales plan for a product and a sales territory assigned by your counselor.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Salesmanship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Salesmanship Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Salesmanship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Salesmanship Merit Badge Pamphlet (p. 22, p. 26) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Salesmanship Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Salesmanship Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Salesmanship Requirement 3, a Scout claims: \"Reading a short definition of Write and present a sales plan for a is enough for Salesmanship Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively plan the specific principles and real-world steps of Write and present a sales plan for a grounded in the official Salesmanship pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively plan the specific principles and real-world steps of Write and present a sales plan for a grounded in the official Salesmanship pamphlet.",
-        "explanation": "Per Official BSA Salesmanship Pamphlet, pp. 16-21, Each Scout must actively plan the specific principles and real-world steps of Write and present a sales plan for a grounded in the official Salesmanship pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Salesmanship Workbook organizer table and practical demonstration for Req 3."
     },
@@ -738,13 +741,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Make a sales presentation of a product assigned",
+      "topic_title": "Req 4: Sales presentation of a product assigned",
       "action_verb": "Make",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Salesmanship Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Salesmanship Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 26, p. 28)",
+      "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 26, p. 28)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -764,8 +767,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Make a sales presentation of a product assigned is enough for Salesmanship Requirement 4 sign-off.",
-        "fact": "Each Scout must actively make the specific principles and real-world steps of Make a sales presentation of a product assigned grounded in the official Salesmanship pamphlet."
+        "misconception": "Reading a short definition of Sales presentation of a product assigned is enough for Salesmanship Requirement 4 sign-off.",
+        "fact": "Each Scout must actively make the specific principles and real-world steps of Sales presentation of a product assigned grounded in the official Salesmanship pamphlet.",
+        "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Sales presentation of a product assigned grounded in the official Salesmanship pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 26, p. 28)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -785,63 +790,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 4): Make a sales presentation of a product assigned by your counselor.",
-        "Field Verification Standard: Apply Salesmanship Requirement 4 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Salesmanship Req 4 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Salesmanship Workbook before requesting Requirement 4 sign-off."
+        "Magazine Teen Entrepreneurs: Y&E: The Magazine for Teen Entrepreneurs* suggests thefollowing checklist to guide you through the steps of planningand delivering a winning.",
+        "STEP 1: Set a goal for your presentation. ■ \u0007Determine who your customer is (in this case, your counselor) and where you will meet. ■ \u0007Set a controlling purpose.",
+        "Want Customer Brainstorm: What do you want the customer to do? ■ \u0007Brainstorm a list of ideas and facts you want to communicate.",
+        "Out Doing Thesales: Find out how you are doing with thesales presentation by asking, “What else do you need toknow?” Keep asking for and answering questions until thecustomer."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Salesmanship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Make a sales presentation of a product assigned.",
-        "Execute & Document: Perform the make task methodically with your patrol buddy and log specific observations in your Salesmanship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Reassure Customer Right: Reassure the customer that you have the right solution bystating specifically how you can help.",
+        "Youknow Customer Wants: Even if youknow the customer wants to see a proposal first, is talkingto other salespeople, or is not ready to make a decision, askanyway.",
+        "Way Out Close: It is the only way to find out how close you are tomaking a sale.",
+        "Customer Responds: How the customer responds to this questionwill tell you exactly what you need to resolve before the person will buy from you."
       ],
       "gear_checklist": [
         "Official Salesmanship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Salesmanship Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Sales presentation of a product assigned",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Salesmanship Approach",
-        "right_header": "Official BSA Salesmanship Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Salesmanship Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Salesmanship Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Make a sales presentation of a product assigned",
+          "Requirement & Topic": "Req 4 - Sales presentation of a product assigned",
           "Primary Standard": "Make a sales presentation of a product assigned by your counselor.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Salesmanship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Salesmanship Pamphlet, pp. 22-27."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Salesmanship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Salesmanship Merit Badge Pamphlet (p. 26, p. 28) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Salesmanship Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Salesmanship Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Salesmanship Requirement 4, a Scout claims: \"Reading a short definition of Make a sales presentation of a product assigned is enough for Salesmanship Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively make the specific principles and real-world steps of Make a sales presentation of a product assigned grounded in the official Salesmanship pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively make the specific principles and real-world steps of Make a sales presentation of a product assigned grounded in the official Salesmanship pamphlet.",
-        "explanation": "Per Official BSA Salesmanship Pamphlet, pp. 22-27, Each Scout must actively make the specific principles and real-world steps of Make a sales presentation of a product assigned grounded in the official Salesmanship pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Salesmanship Workbook organizer table and practical demonstration for Req 4."
     },
@@ -873,10 +855,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Salesmanship Requirement 5a sign-off.",
-            "fact": "Each Scout must actively help the specific principles and real-world steps of Req 5a grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -896,9 +880,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Help your unit raise funds through sales of merchandise or of tickets to a Scout event."
         },
         {
           "sub_id": "5b",
@@ -921,10 +908,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Salesmanship Requirement 5b sign-off.",
-            "fact": "Each Scout must actively sell the specific principles and real-world steps of Req 5b grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -944,9 +933,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Sell your services, such as lawn raking or mowing, pet sitting, dog walking, snow shoveling, or car washing, to your neighbors. Follow up after completing the service to determine the customer satisfaction."
         },
         {
           "sub_id": "5c",
@@ -969,10 +961,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Salesmanship Requirement 5c sign-off.",
-            "fact": "Each Scout must actively earn the specific principles and real-world steps of Req 5c grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -992,9 +986,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "Earn money through retail selling."
         }
       ],
       "resources": [],
@@ -1006,13 +1003,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: and keep a record (cost sheet). Use the",
+      "topic_title": "Req 5: And keep a record",
       "action_verb": "Record",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Salesmanship Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Salesmanship Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)",
+      "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1033,8 +1030,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of and keep a record (cost sheet). Use the is enough for Salesmanship Requirement 5 sign-off.",
-        "fact": "Each Scout must actively record the specific principles and real-world steps of and keep a record (cost sheet). Use the grounded in the official Salesmanship pamphlet."
+        "misconception": "Reading a short definition of And keep a record is enough for Salesmanship Requirement 5 sign-off.",
+        "fact": "Each Scout must actively record the specific principles and real-world steps of And keep a record grounded in the official Salesmanship pamphlet.",
+        "fact_correction": "Each Scout must actively record the specific principles and real-world steps of And keep a record grounded in the official Salesmanship pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1054,63 +1053,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Salesmanship Sub-Req 5a: Help your unit raise funds through sales of merchandise or of tickets to a Scout event.",
-        "Salesmanship Sub-Req 5b: Sell your services, such as lawn raking or mowing, pet sitting, dog walking, snow shoveling, or car washing, to your neighbors. Follow up after.",
-        "Salesmanship Sub-Req 5c: Earn money through retail selling.",
-        "Core Standard 1 (Req 5): Do ONE of the following and keep a record (cost sheet)."
+        "Now Time New: It is now time to put your new skills to practical use.",
+        "Forrequirement Troop Raise: Forrequirement 5, you can help your troop raise funds, sellyour own services, or find work in retail sales.",
+        "Say Decided Troop: Let’s say you have decided to help your troop raise funds byselling lawn fertilizer in the spring and fall.",
+        "Dallas Texas Troop: One Dallas, Texas, Scout troop does this as its main fund-raiser each year."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Salesmanship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing and keep a record (cost sheet). Use the.",
-        "Execute & Document: Perform the record task methodically with your patrol buddy and log specific observations in your Salesmanship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Troop Starts Developing: The troop starts by developing a business plan that willensure brisk sales of fertilizer.",
+        "Research Retail Price: The Scouts research the retail price of fertilizer in local storesand compare that to the bulk wholesale price the Scouts willpay.",
+        "Products Soldin Bulk: Products soldin bulk toindustries, banks, railroads, airlines, governments, retail stores, and other largeinstitutions such as schoolsand hospitals.",
+        "Research Benefits Selling: The Scouts also research the benefits and selling points of thebrand of fertilizer they want to sell."
       ],
       "gear_checklist": [
         "Official Salesmanship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Salesmanship Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for And keep a record",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Salesmanship Approach",
-        "right_header": "Official BSA Salesmanship Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Salesmanship Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Salesmanship Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - and keep a record (cost sheet). Use the",
+          "Requirement & Topic": "Req 5 - And keep a record",
           "Primary Standard": "Help your unit raise funds through sales of merchandise or of tickets to a Scout event.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Salesmanship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Salesmanship Pamphlet, pp. 28-33."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Salesmanship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Salesmanship Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Salesmanship Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Salesmanship Requirement 5, a Scout claims: \"Reading a short definition of and keep a record (cost sheet). Use the is enough for Salesmanship Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively record the specific principles and real-world steps of and keep a record (cost sheet). Use the grounded in the official Salesmanship pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively record the specific principles and real-world steps of and keep a record (cost sheet). Use the grounded in the official Salesmanship pamphlet.",
-        "explanation": "Per Official BSA Salesmanship Pamphlet, pp. 28-33, Each Scout must actively record the specific principles and real-world steps of and keep a record (cost sheet). Use the grounded in the official Salesmanship pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Salesmanship Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1148,10 +1124,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Listing three job titles from a web search satisfies the Salesmanship career exploration requirement.",
-                "fact": "Scouts must research three Salesmanship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+                "misconception": "Listing three job titles from a quick web search satisfies the Salesmanship career exploration requirement.",
+                "fact": "Scouts must research specific Salesmanship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+                "fact_correction": "Scouts must research specific Salesmanship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+                "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1171,9 +1149,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6a(1)",
+              "sub_req_label": "6a(1)",
+              "sub_req_text": "What made the person choose sales as a profession?"
             },
             {
               "sub_id": "6a(2)",
@@ -1196,10 +1177,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6a(2) is enough for Salesmanship Requirement 6a(2) sign-off.",
-                "fact": "Each Scout must actively what the specific principles and real-world steps of Req 6a(2) grounded in the official Salesmanship pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(2) grounded in the official Salesmanship pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(2) grounded in the official Salesmanship pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1219,9 +1202,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6a(2)",
+              "sub_req_label": "6a(2)",
+              "sub_req_text": "What are the most important things to remember when talking to customers?"
             },
             {
               "sub_id": "6a(3)",
@@ -1244,10 +1230,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6a(3) is enough for Salesmanship Requirement 6a(3) sign-off.",
-                "fact": "Each Scout must actively how the specific principles and real-world steps of Req 6a(3) grounded in the official Salesmanship pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(3) grounded in the official Salesmanship pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(3) grounded in the official Salesmanship pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1267,9 +1255,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6a(3)",
+              "sub_req_label": "6a(3)",
+              "sub_req_text": "How is the product sold?"
             },
             {
               "sub_id": "6a(4)",
@@ -1292,10 +1283,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6a(4) is enough for Salesmanship Requirement 6a(4) sign-off.",
-                "fact": "Each Scout must actively include the specific principles and real-world steps of Req 6a(4) grounded in the official Salesmanship pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(4) grounded in the official Salesmanship pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(4) grounded in the official Salesmanship pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1315,9 +1308,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6a(4)",
+              "sub_req_label": "6a(4)",
+              "sub_req_text": "Include your own questions."
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1335,10 +1331,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Salesmanship career exploration requirement.",
-            "fact": "Scouts must research three Salesmanship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Salesmanship career exploration requirement.",
+            "fact": "Scouts must research specific Salesmanship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Salesmanship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1358,9 +1356,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Interview a salesperson and learn the following: (1) What made the person choose sales as a profession? (2) What are the most important things to remember when talking to customers? (3) How is the product sold? (4) Include your own questions."
         },
         {
           "sub_id": "6b",
@@ -1389,10 +1390,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6b(1) is enough for Salesmanship Requirement 6b(1) sign-off.",
-                "fact": "Each Scout must actively how the specific principles and real-world steps of Req 6b(1) grounded in the official Salesmanship pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b(1) grounded in the official Salesmanship pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b(1) grounded in the official Salesmanship pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1412,9 +1415,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6b(1)",
+              "sub_req_label": "6b(1)",
+              "sub_req_text": "How often is the owner approached by a sales representative?"
             },
             {
               "sub_id": "6b(2)",
@@ -1442,10 +1448,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6b(2) is enough for Salesmanship Requirement 6b(2) sign-off.",
-                "fact": "Each Scout must actively what the specific principles and real-world steps of Req 6b(2) grounded in the official Salesmanship pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b(2) grounded in the official Salesmanship pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b(2) grounded in the official Salesmanship pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1465,9 +1473,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6b(2)",
+              "sub_req_label": "6b(2)",
+              "sub_req_text": "What good traits should a sales representative have? What habits should the sales representative avoid?"
             },
             {
               "sub_id": "6b(3)",
@@ -1490,10 +1501,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6b(3) is enough for Salesmanship Requirement 6b(3) sign-off.",
-                "fact": "Each Scout must actively what the specific principles and real-world steps of Req 6b(3) grounded in the official Salesmanship pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b(3) grounded in the official Salesmanship pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b(3) grounded in the official Salesmanship pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1513,9 +1526,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6b(3)",
+              "sub_req_label": "6b(3)",
+              "sub_req_text": "What does the owner consider when deciding whether to establish an account with a sales representative?"
             },
             {
               "sub_id": "6b(4)",
@@ -1538,10 +1554,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6b(4) is enough for Salesmanship Requirement 6b(4) sign-off.",
-                "fact": "Each Scout must actively include the specific principles and real-world steps of Req 6b(4) grounded in the official Salesmanship pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b(4) grounded in the official Salesmanship pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b(4) grounded in the official Salesmanship pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1561,9 +1579,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6b(4)",
+              "sub_req_label": "6b(4)",
+              "sub_req_text": "Include at least two of your own questions."
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1581,10 +1602,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Salesmanship Requirement 6b sign-off.",
-            "fact": "Each Scout must actively interview the specific principles and real-world steps of Req 6b grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6b grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6b grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1604,9 +1627,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Interview a retail store owner and learn the following: (1) How often is the owner approached by a sales representative? (2) What good traits should a sales representative have? What habits should the sales representative avoid? (3) What does the owner consider when deciding whether to establish an account with a sales representative? (4) Include at least two of your own questions."
         }
       ],
       "resources": [
@@ -1627,13 +1653,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Salesmanship Careers, Training & Hobby Pathways",
-      "action_verb": "Explain",
+      "topic_title": "Req 6: Interview a salesperson and learn",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Salesmanship Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
+      "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1650,8 +1676,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Salesmanship career exploration requirement.",
-        "fact": "Scouts must research three Salesmanship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Salesmanship career exploration requirement.",
+        "fact": "Scouts must research specific Salesmanship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Salesmanship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1671,63 +1699,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Salesmanship Sub-Req 6a: Interview a salesperson and learn the following: (1) What made the person choose sales as a profession? (2) What are the most important things.",
-        "Salesmanship Sub-Req 6a(1): What made the person choose sales as a profession?",
-        "Salesmanship Sub-Req 6a(2): What are the most important things to remember when talking to customers?",
-        "Salesmanship Sub-Req 6a(3): How is the product sold?"
+        "Working Sales: What is it like working with sales representativesin your business? represent­ative. 2.",
+        "Wholesale Sale: Is the wholesale sale representative’s role inretail changing? works for a 3.",
+        "Salespeople Service Store: Do the salespeople who service your store practice high business standards?.",
+        "They Honest Sales: Are they honest? sales Someone whocompany thatmanufactures 4."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Salesmanship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Salesmanship Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Salesmanship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Products Notdelivered: What do you do when products are notdelivered as promised? products 5.",
+        "Requirements Salespeople: What requirements must salespeople have to workat your store?.",
+        "Prospects Getting Ahead: What are the prospects for getting ahead? and who sells 6.",
+        "Rely Anordering Decision: What do you rely upon most when making anordering decision? (a wholesaler) products in bulkto businesses. 7."
       ],
       "gear_checklist": [
         "Official Salesmanship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Salesmanship Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Interview a salesperson and learn",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Salesmanship Approach",
-        "right_header": "Official BSA Salesmanship Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Salesmanship Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Salesmanship Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Salesmanship Careers, Training & Hobby Pathways",
-          "Primary Standard": "Interview a salesperson and learn the following: (1) What made the person choose sales as a profession? (2) Wh",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Salesmanship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Salesmanship Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Interview a salesperson and learn",
+          "Primary Standard": "Interview a salesperson and learn the following: (1) What made the person choose sales as a profession? (2) What are the most important things to remember when talking to customers? (3) How is the product sold? (4) Include your own questions.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Salesmanship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Salesmanship Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Salesmanship Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Salesmanship Requirement 6, a Scout claims: \"Listing three job titles from a web search satisfies the Salesmanship career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Salesmanship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Salesmanship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Salesmanship Pamphlet, pp. 34-39, Scouts must research three Salesmanship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Salesmanship Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1767,10 +1772,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Salesmanship Requirement 7a sign-off.",
-            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 7a grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 7a grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Req 7a grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1790,9 +1797,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Prepare a written statement of your qualifications and experience. Include relevant classes you have taken in school and merit badges you have earned."
         },
         {
           "sub_id": "7b",
@@ -1820,10 +1830,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Salesmanship Requirement 7b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b grounded in the official Salesmanship pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b grounded in the official Salesmanship pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b grounded in the official Salesmanship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1843,9 +1855,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Discuss with your counselor what education, experience, or training you should obtain so you are prepared to serve in a sales position."
         }
       ],
       "resources": [
@@ -1870,13 +1885,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Salesmanship Careers, Training & Hobby Pathways",
-      "action_verb": "Investigate",
+      "topic_title": "Req 7: Careers & Professional Pathways",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Salesmanship Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Salesmanship Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Salesmanship Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)",
+      "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1893,8 +1908,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Salesmanship career exploration requirement.",
-        "fact": "Scouts must research three Salesmanship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Salesmanship career exploration requirement.",
+        "fact": "Scouts must research specific Salesmanship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Salesmanship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1914,68 +1931,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Salesmanship Sub-Req 7a: Prepare a written statement of your qualifications and experience. Include relevant classes you have taken in school and merit badges you have earned.",
-        "Salesmanship Sub-Req 7b: Discuss with your counselor what education, experience, or training you should obtain so you are prepared to serve in a sales position.",
-        "Core Standard 1 (Req 7): Investigate and report on career opportunities in sales, then do the following: (a) Prepare a written statement of your qualifications and experience.",
-        "Core Standard 2 (Req 7): Include relevant classes you have taken in school and merit badges you have earned."
+        "Research Sales Career: As you research sales career opportunities, check the classifiedads in the newspaper.",
+        "Positions Salesbased: Notice how many positions are salesbased and how many different types of products people sell.",
+        "Free-enterprise Society: In a free-enterprise society like the United States, selling is thefundamental way business gets done.",
+        "Now Think Favorite: Now think about your favorite products, such as a favoritebrand of athletic shoes or type of jeans."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Salesmanship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Salesmanship Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the investigate task methodically with your patrol buddy and log specific observations in your Salesmanship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Pick Companyyou Particularly: Pick a companyyou particularly like or a brand name that you always buy.",
+        "Research Company Internet: Research that company on the internet (with your parent orguardian’s permission) or at your local library.",
+        "Out Whatyou Company: Find out whatyou can about the company, its philosophy, and its products.",
+        "Summer Salespositions: Summer salespositions providevaluable experience thatmany companiesseek when hiringfor career salespositions."
       ],
       "gear_checklist": [
         "Official Salesmanship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Salesmanship Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Salesmanship Approach",
-        "right_header": "Official BSA Salesmanship Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Salesmanship Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Salesmanship Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Salesmanship Careers, Training & Hobby Pathways",
-          "Primary Standard": "Prepare a written statement of your qualifications and experience. Include relevant classes you have taken in ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Salesmanship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Salesmanship Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Careers & Professional Pathways",
+          "Primary Standard": "Prepare a written statement of your qualifications and experience. Include relevant classes you have taken in school and merit badges you have earned.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Salesmanship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Salesmanship Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Salesmanship Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Salesmanship Requirement 7, a Scout claims: \"Listing three job titles from a web search satisfies the Salesmanship career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Salesmanship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Salesmanship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Salesmanship Pamphlet, pp. 40-45, Scouts must research three Salesmanship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Salesmanship Workbook organizer table and practical demonstration for Req 7."
     }
   ],
   "badge_slug": "salesmanship",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

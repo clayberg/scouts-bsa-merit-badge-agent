@@ -43,15 +43,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Cybersecurity Requirement 1a sign-off.",
-            "fact": "Each Scout must actively view the specific principles and real-world steps of Req 1a grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Cybersecurity Req 1a with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Cybersecurity Req 1a with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -71,9 +73,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)."
         },
         {
           "sub_id": "1b",
@@ -101,10 +106,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Cybersecurity Requirement 1b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -124,9 +131,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Explain to your counselor how to protect your digital footprint, such as while using social media, mobile device apps, and online gaming. Show how to set privacy settings to protect your personal information, including photos of yourself or your location."
         },
         {
           "sub_id": "1c",
@@ -162,10 +172,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Cybersecurity Requirement 1c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -185,9 +197,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Discuss first aid and prevention for potential injuries, such as eye strain, repetitive injuries, and handling electronics devices, that could occur during repeated use. Discuss how to keep yourself physically safe while using a mobile device (for example while walking or biking)."
         }
       ],
       "resources": [
@@ -220,13 +235,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Safety. Do the following: (a) View the Personal",
-      "action_verb": "Safety",
+      "topic_title": "Req 1: Scouting America Merit Badge Reference Guide: Cybersecurity",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cybersecurity Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Cybersecurity Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
+      "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -244,12 +259,14 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Cybersecurity hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cybersecurity prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cybersecurity prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cybersecurity prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Cybersecurity Req 1 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Cybersecurity Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -269,62 +286,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Cybersecurity Sub-Req 1a: View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission).",
-        "Cybersecurity Sub-Req 1b: Explain to your counselor how to protect your digital footprint, such as while using social media, mobile device apps, and online gaming. Show how.",
-        "Cybersecurity Sub-Req 1c: Discuss first aid and prevention for potential injuries, such as eye strain, repetitive injuries, and handling electronics devices, that could occur during repeated use.",
-        "Core Standard 1 (Req 1): Do the following: (a) View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)."
+        "Describe Connected Devices: Describe Connected Devices and Internet of Things (IoT).",
+        "(a) Research and explain Cryptography.",
+        "(a) Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Strengths: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Cybersecurity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Safety. Do the following: (a) View the Personal.",
-        "Execute & Document: Perform the safety task methodically with your patrol buddy and log specific observations in your Cybersecurity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Share Public Key: Share your public key with others (and your counselor).",
+        "Their Public Keys: Also, get their public keys and add them to your computer's key ring.",
+        "Send Message Digitally: Send a message that has been digitally encrypted.",
+        "Key Pamphlet Study Points: - Cybersecurity Sub-Req 6a: Research and explain to your counselor three situations where encryption is used in cybersecurity."
       ],
       "gear_checklist": [
         "Official Cybersecurity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cybersecurity Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Scouting America Merit Badge Reference Guide: Cybersecurity",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Cybersecurity Approach",
-        "right_header": "Official BSA Cybersecurity Pamphlet Standard",
+        "right_header": "Official BSA Cybersecurity Standard (Scouting America Merit Badge Reference Guide: Cybersecurity)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Scouting America Merit Badge Reference Guide: Cybersecurity.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Cybersecurity Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Cybersecurity Workbook organizer.",
+          "Clearly demonstrates and explains Scouting America Merit Badge Reference Guide: Cybersecurity using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Cybersecurity Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Safety. Do the following: (a) View the Personal",
+          "Requirement & Topic": "Req 1 - Scouting America Merit Badge Reference Guide: Cybersecurity",
           "Primary Standard": "View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission).",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cybersecurity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cybersecurity Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Cybersecurity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Cybersecurity Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Cybersecurity Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Cybersecurity Requirement 1, a Scout claims: \"Scouts can jump straight into Cybersecurity hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Cybersecurity (Scouting America Merit Badge Reference Guide: Cybersecurity), which patrol preparation step best aligns with the official Cybersecurity standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cybersecurity prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Cybersecurity hazards, PPE, and prerequisite standards in Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cybersecurity prevents most field injuries.",
-        "explanation": "Per Official BSA Cybersecurity Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Cybersecurity prevents most field injuries."
+        "correct_answer": "Option A - Review the Cybersecurity hazards, PPE, and prerequisite standards in Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Cybersecurity Workbook organizer table and practical demonstration for Req 1."
@@ -366,10 +383,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Cybersecurity Requirement 2a sign-off.",
-            "fact": "Each Scout must actively relate the specific principles and real-world steps of Req 2a grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -389,9 +408,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Relate three points of the Scout law to things people do on the internet or with computers, phones, and other connected electronic devices."
         },
         {
           "sub_id": "2b",
@@ -419,10 +441,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Cybersecurity Requirement 2b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -442,9 +466,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Discuss with your counselor examples of ethical and unethical behavior in cyberspace. Include how to act responsibly when you encounter situations such as: coming across an unattended or unlocked computer or mobile device; observing someone type their password or seeing it written down near a computer; or discovering a website that is not properly secured. Explain why these situations require good judgment, and how the Scout Law and personal values should guide your actions."
         }
       ],
       "resources": [
@@ -469,13 +496,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Ethics. Do the following: (a) Relate three points",
-      "action_verb": "Ethics",
+      "topic_title": "Req 2: Scouting America Merit Badge Reference Guide: Cybersecurity",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cybersecurity Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Cybersecurity Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
+      "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -492,8 +519,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Ethics. Do the following: (a) Relate three points is enough for Cybersecurity Requirement 2 sign-off.",
-        "fact": "Each Scout must actively ethics the specific principles and real-world steps of Ethics. Do the following: (a) Relate three points grounded in the official Cybersecurity pamphlet."
+        "misconception": "Reading a short definition of Scouting America Merit Badge Reference Guide: Cybersecurity is enough for Cybersecurity Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Scouting America Merit Badge Reference Guide: Cybersecurity grounded in the official Cybersecurity pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Scouting America Merit Badge Reference Guide: Cybersecurity grounded in the official Cybersecurity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -513,63 +542,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Cybersecurity Sub-Req 2a: Relate three points of the Scout law to things people do on the internet or with computers, phones, and other connected electronic devices.",
-        "Cybersecurity Sub-Req 2b: Discuss with your counselor examples of ethical and unethical behavior in cyberspace. Include how to act responsibly when you encounter situations such as: coming.",
-        "Core Standard 1 (Req 2): Do the following: (a) Relate three points of the Scout law to things people do on the internet or with computers, phones, and other connected electronic devices.",
-        "Core Standard 2 (Req 2): (b) Discuss with your counselor examples of ethical and unethical behavior in cyberspace."
+        "Describe Connected Devices: Describe Connected Devices and Internet of Things (IoT).",
+        "(a) Research and explain Cryptography.",
+        "(a) Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Strengths: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Cybersecurity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Ethics. Do the following: (a) Relate three points.",
-        "Execute & Document: Perform the ethics task methodically with your patrol buddy and log specific observations in your Cybersecurity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Share Public Key: Share your public key with others (and your counselor).",
+        "Their Public Keys: Also, get their public keys and add them to your computer's key ring.",
+        "Send Message Digitally: Send a message that has been digitally encrypted.",
+        "Key Pamphlet Study Points: - Cybersecurity Sub-Req 6a: Research and explain to your counselor three situations where encryption is used in cybersecurity."
       ],
       "gear_checklist": [
         "Official Cybersecurity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cybersecurity Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Scouting America Merit Badge Reference Guide: Cybersecurity",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Cybersecurity Approach",
-        "right_header": "Official BSA Cybersecurity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Cybersecurity Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Cybersecurity Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Ethics. Do the following: (a) Relate three points",
-          "Primary Standard": "Relate three points of the Scout law to things people do on the internet or with computers, phones, and other ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cybersecurity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cybersecurity Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Scouting America Merit Badge Reference Guide: Cybersecurity",
+          "Primary Standard": "Relate three points of the Scout law to things people do on the internet or with computers, phones, and other connected electronic devices.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Cybersecurity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Cybersecurity Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Cybersecurity Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Cybersecurity Requirement 2, a Scout claims: \"Reading a short definition of Ethics. Do the following: (a) Relate three points is enough for Cybersecurity Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively ethics the specific principles and real-world steps of Ethics. Do the following: (a) Relate three points grounded in the official Cybersecurity pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively ethics the specific principles and real-world steps of Ethics. Do the following: (a) Relate three points grounded in the official Cybersecurity pamphlet.",
-        "explanation": "Per Official BSA Cybersecurity Pamphlet, pp. 10-15, Each Scout must actively ethics the specific principles and real-world steps of Ethics. Do the following: (a) Relate three points grounded in the official Cybersecurity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Cybersecurity Workbook organizer table and practical demonstration for Req 2."
     },
@@ -610,10 +616,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Cybersecurity Requirement 3a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3a grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -633,9 +641,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Describe three types of computer systems that need protecting and explain why."
         },
         {
           "sub_id": "3b",
@@ -667,10 +678,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Cybersecurity Requirement 3b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -690,9 +703,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Explain the \"C.I.A. Triad\"—Confidentiality, Integrity, and Availability—and why these three principles are fundamental to cybersecurity."
         }
       ],
       "resources": [
@@ -721,13 +737,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Fundamentals. Do the following and discuss each with",
+      "topic_title": "Req 3: Fundamentals",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cybersecurity Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Cybersecurity Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)",
+      "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -747,8 +763,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Fundamentals. Do the following and discuss each with is enough for Cybersecurity Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Fundamentals. Do the following and discuss each with grounded in the official Cybersecurity pamphlet."
+        "misconception": "Reading a short definition of Fundamentals is enough for Cybersecurity Requirement 3 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Fundamentals grounded in the official Cybersecurity pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Fundamentals grounded in the official Cybersecurity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -768,63 +786,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Cybersecurity Sub-Req 3a: Describe three types of computer systems that need protecting and explain why.",
-        "Cybersecurity Sub-Req 3b: Explain the \"C.I.A. Triad\", Confidentiality, Integrity, and Availability, and why these three principles are fundamental to cybersecurity.",
-        "Core Standard 1 (Req 3): Do the following and discuss each with your counselor: (a) Describe three types of computer systems that need protecting and explain why.",
-        "Core Standard 2 (Req 3): (b) Explain the \"C.I.A."
+        "(a) Research and explain Cryptography.",
+        "(a) Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Strengths: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption.",
+        "Share Public Key: Share your public key with others (and your counselor)."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Cybersecurity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Fundamentals. Do the following and discuss each with.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Cybersecurity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 3): Read the official Cybersecurity requirement and identify the key questions, terms, or skills covered in Fundamentals.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Cybersecurity Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Demonstrate): Work with your patrol buddy or family (as required) to demonstrate each element of Fundamentals with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and demonstrate your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Cybersecurity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cybersecurity Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Fundamentals",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Cybersecurity Approach",
-        "right_header": "Official BSA Cybersecurity Pamphlet Standard",
+        "right_header": "Official BSA Cybersecurity Standard (Fundamentals)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Fundamentals.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Cybersecurity Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Cybersecurity Workbook organizer.",
+          "Clearly demonstrates and explains Fundamentals using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Cybersecurity Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Fundamentals. Do the following and discuss each with",
+          "Requirement & Topic": "Req 3 - Fundamentals",
           "Primary Standard": "Describe three types of computer systems that need protecting and explain why.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cybersecurity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cybersecurity Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Cybersecurity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Cybersecurity Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Cybersecurity Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Cybersecurity Requirement 3, a Scout claims: \"Reading a short definition of Fundamentals. Do the following and discuss each with is enough for Cybersecurity Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Fundamentals. Do the following and discuss each with grounded in the official Cybersecurity pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Fundamentals. Do the following and discuss each with grounded in the official Cybersecurity pamphlet.",
-        "explanation": "Per Official BSA Cybersecurity Pamphlet, pp. 16-21, Each Scout must actively demonstrate the specific principles and real-world steps of Fundamentals. Do the following and discuss each with grounded in the official Cybersecurity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Cybersecurity Workbook organizer table and practical demonstration for Req 3."
     },
@@ -869,10 +877,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Cybersecurity Requirement 4a sign-off.",
-            "fact": "Each Scout must actively define the specific principles and real-world steps of Req 4a grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -892,9 +902,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Define the terms vulnerability, threat, and exploit, and give an example of each that might apply to a website or software product you use."
         },
         {
           "sub_id": "4b",
@@ -930,10 +943,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Cybersecurity Requirement 4b sign-off.",
-            "fact": "Each Scout must actively pick the specific principles and real-world steps of Req 4b grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -953,9 +968,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Pick one type of malware (such as virus, worm, Trojan, backdoor, spyware, or ransomware) and find out how it works. Explain what it does and the harm it can cause."
         },
         {
           "sub_id": "4c",
@@ -991,10 +1009,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4c is enough for Cybersecurity Requirement 4c sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 4c grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4c grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 4c grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1014,9 +1034,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4c",
+          "sub_req_label": "4c",
+          "sub_req_text": "Identify two risks of using public Wi-Fi and describe how to reduce or avoid those risks."
         },
         {
           "sub_id": "4d",
@@ -1052,10 +1075,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4d is enough for Cybersecurity Requirement 4d sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4d grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 4d grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 4d grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1075,9 +1100,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4d",
+          "sub_req_label": "4d",
+          "sub_req_text": "Describe what spoofing and phishing are, and how to recognize a message or website that might be trying to trick you. Explain what steps you should take to protect yourself and others if you come across one."
         },
         {
           "sub_id": "4e",
@@ -1123,10 +1151,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 22-27",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 4e(1) is enough for Cybersecurity Requirement 4e(1) sign-off.",
-                "fact": "Each Scout must actively read the specific principles and real-world steps of Req 4e(1) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4e(1) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4e(1) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1146,9 +1176,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "4e(1)",
+              "sub_req_label": "4e(1)",
+              "sub_req_text": "Read an article or a news report about a recent cybersecurity incident, such as a data breach or malware infection. Explain how the incident happened (to the best of your ability based on the information available) and what the consequences are or might be to the victim."
             },
             {
               "sub_id": "4e(2)",
@@ -1171,15 +1204,17 @@
                 "min_rows": 3,
                 "pre_approval_gate": true
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 22-27",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 4e(2) is enough for Cybersecurity Requirement 4e(2) sign-off.",
-                "fact": "Each Scout must actively with the specific principles and real-world steps of Req 4e(2) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4e(2) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4e(2) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": {
                 "gate_type": "PARENT_CONSENT_GATE",
                 "gate_label": "Parent/Guardian Consent & Review",
-                "gate_description": "Review and complete Cybersecurity Req 4e(2) with your parent or guardian's written permission.",
+                "gate_description": "Review and complete Cybersecurity Req 4e(2) with your parent or guardian's approval in compliance with BSA Youth Protection.",
                 "blocking_in_class": false
               },
               "curated_resources": [
@@ -1199,9 +1234,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "4e(2)",
+              "sub_req_label": "4e(2)",
+              "sub_req_text": "With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think it was."
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1219,15 +1257,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4e is enough for Cybersecurity Requirement 4e sign-off.",
-            "fact": "Each Scout must actively current the specific principles and real-world steps of Req 4e grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Cybersecurity Req 4e with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Cybersecurity Req 4e with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -1247,9 +1287,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4e",
+          "sub_req_label": "4e",
+          "sub_req_text": "Current Events. Do ONE of the following: (1) Read an article or a news report about a recent cybersecurity incident, such as a data breach or malware infection. Explain how the incident happened (to the best of your ability based on the information available) and what the consequences are or might be to the victim. (2) With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think it was."
         },
         {
           "sub_id": "4f",
@@ -1277,10 +1320,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4f is enough for Cybersecurity Requirement 4f sign-off.",
-            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 4f grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 4f grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 4f grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1300,9 +1345,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4f",
+          "sub_req_label": "4f",
+          "sub_req_text": "Create a list of what is part of your cyber attack surface including all the ways someone could try to access your personal information or devices—such as online accounts, apps, or home networks."
         }
       ],
       "resources": [
@@ -1383,36 +1431,41 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Cyber Threats, Vulnerabilities, and Attacks. Do the following",
-      "action_verb": "Cyber",
+      "topic_title": "Req 4: Cyber Threats, Vulnerabilities, and Attacks",
+      "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cybersecurity Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Cybersecurity Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
+      "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Cyber Threats, Vulnerabilities, and Attacks. Do the following is enough for Cybersecurity Requirement 4 sign-off.",
-        "fact": "Each Scout must actively cyber the specific principles and real-world steps of Cyber Threats, Vulnerabilities, and Attacks. Do the following grounded in the official Cybersecurity pamphlet."
+        "misconception": "Reading a short definition of Cyber Threats, Vulnerabilities, and Attacks is enough for Cybersecurity Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Cyber Threats, Vulnerabilities, and Attacks grounded in the official Cybersecurity pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Cyber Threats, Vulnerabilities, and Attacks grounded in the official Cybersecurity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Cybersecurity Req 4 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Cybersecurity Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1432,63 +1485,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Cybersecurity Sub-Req 4a: Define the terms vulnerability, threat, and exploit, and give an example of each that might apply to a website or software product you use.",
-        "Cybersecurity Sub-Req 4b: Pick one type of malware (such as virus, worm, Trojan, backdoor, spyware, or ransomware) and find out how it works. Explain what it does and the harm it can cause.",
-        "Cybersecurity Sub-Req 4c: Identify two risks of using public Wi-Fi and describe how to reduce or avoid those risks.",
-        "Cybersecurity Sub-Req 4d: Describe what spoofing and phishing are, and how to recognize a message or website that might be trying to trick you. Explain what steps."
+        "(a) Research and explain Cryptography.",
+        "(a) Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Strengths: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption.",
+        "Share Public Key: Share your public key with others (and your counselor)."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Cybersecurity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Cyber Threats, Vulnerabilities, and Attacks. Do the following.",
-        "Execute & Document: Perform the cyber task methodically with your patrol buddy and log specific observations in your Cybersecurity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Their Public Keys: Also, get their public keys and add them to your computer's key ring.",
+        "Send Message Digitally: Send a message that has been digitally encrypted.",
+        "Key Pamphlet Study Points: - Cybersecurity Sub-Req 6a: Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Connected Devices: Describe Connected Devices and Internet of Things (IoT)."
       ],
       "gear_checklist": [
         "Official Cybersecurity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cybersecurity Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Cyber Threats, Vulnerabilities, and Attacks",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Cybersecurity Approach",
-        "right_header": "Official BSA Cybersecurity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Cybersecurity Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Cybersecurity Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Cyber Threats, Vulnerabilities, and Attacks. Do the following",
-          "Primary Standard": "Define the terms vulnerability, threat, and exploit, and give an example of each that might apply to a website",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cybersecurity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cybersecurity Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Cyber Threats, Vulnerabilities, and Attacks",
+          "Primary Standard": "Define the terms vulnerability, threat, and exploit, and give an example of each that might apply to a website or software product you use.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Cybersecurity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Cybersecurity Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Cybersecurity Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Cybersecurity Requirement 4, a Scout claims: \"Reading a short definition of Cyber Threats, Vulnerabilities, and Attacks. Do the following is enough for Cybersecurity Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively cyber the specific principles and real-world steps of Cyber Threats, Vulnerabilities, and Attacks. Do the following grounded in the official Cybersecurity pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively cyber the specific principles and real-world steps of Cyber Threats, Vulnerabilities, and Attacks. Do the following grounded in the official Cybersecurity pamphlet.",
-        "explanation": "Per Official BSA Cybersecurity Pamphlet, pp. 22-27, Each Scout must actively cyber the specific principles and real-world steps of Cyber Threats, Vulnerabilities, and Attacks. Do the following grounded in the official Cybersecurity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Cybersecurity Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1529,10 +1559,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Cybersecurity Requirement 5a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5a grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5a grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 5a grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1552,9 +1584,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Describe three technologies that are used to defend a computer or network, such as access controls, antivirus software, firewall, intrusion detection/prevention systems, and Virtual Private Network."
         },
         {
           "sub_id": "5b",
@@ -1592,10 +1627,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5b(1) is enough for Cybersecurity Requirement 5b(1) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b(1) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b(1) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b(1) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1615,9 +1652,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5b(1)",
+              "sub_req_label": "5b(1)",
+              "sub_req_text": "Explain to your counselor the importance of installing the latest updates on your computer, why they are needed, and what kinds of problems they can prevent."
             },
             {
               "sub_id": "5b(2)",
@@ -1648,10 +1688,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5b(2) is enough for Cybersecurity Requirement 5b(2) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b(2) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b(2) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b(2) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1671,9 +1713,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5b(2)",
+              "sub_req_label": "5b(2)",
+              "sub_req_text": "Demonstrate to your counselor how to check for, download, and install the latest updates for your computer or mobile device, or another computer you have permission to use. (If you are unable to do this on your computer, you may use an online guide with screenshots to demonstrate this.) Show your counselor how to verify that your computer or mobile device is up-to-date."
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -1694,10 +1739,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Cybersecurity Requirement 5b sign-off.",
-            "fact": "Each Scout must actively installing the specific principles and real-world steps of Req 5b grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1717,9 +1764,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Installing updates. Do the following: (1) Explain to your counselor the importance of installing the latest updates on your computer, why they are needed, and what kinds of problems they can prevent. (2) Demonstrate to your counselor how to check for, download, and install the latest updates for your computer or mobile device, or another computer you have permission to use. (If you are unable to do this on your computer, you may use an online guide with screenshots to demonstrate this.) Show your counselor how to verify that your computer or mobile device is up-to-date."
         },
         {
           "sub_id": "5c",
@@ -1765,10 +1815,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5c(1) is enough for Cybersecurity Requirement 5c(1) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5c(1) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5c(1) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 5c(1) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1788,9 +1840,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5c(1)",
+              "sub_req_label": "5c(1)",
+              "sub_req_text": "Describe what makes a good password and why. Set or change an account password to one that is \"strong.\""
             },
             {
               "sub_id": "5c(2)",
@@ -1829,10 +1884,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5c(2) is enough for Cybersecurity Requirement 5c(2) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5c(2) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5c(2) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 5c(2) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1852,9 +1909,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5c(2)",
+              "sub_req_label": "5c(2)",
+              "sub_req_text": "Describe multi-factor authentication (MFA) and how it can be used to improve security. Demonstrate how to use an authenticator app or other MFA function."
             },
             {
               "sub_id": "5c(3)",
@@ -1885,10 +1945,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5c(3) is enough for Cybersecurity Requirement 5c(3) sign-off.",
-                "fact": "Each Scout must actively install the specific principles and real-world steps of Req 5c(3) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c(3) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c(3) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1908,9 +1970,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5c(3)",
+              "sub_req_label": "5c(3)",
+              "sub_req_text": "Install and set up a password manager. Demonstrate how it works to your counselor."
             },
             {
               "sub_id": "5c(4)",
@@ -1965,10 +2030,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5c(4) is enough for Cybersecurity Requirement 5c(4) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5c(4) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5c(4) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 5c(4) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1988,9 +2055,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5c(4)",
+              "sub_req_label": "5c(4)",
+              "sub_req_text": "Run a virus scan. Show the results to your counselor."
             },
             {
               "sub_id": "5c(5)",
@@ -2034,10 +2104,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5c(5) is enough for Cybersecurity Requirement 5c(5) sign-off.",
-                "fact": "Each Scout must actively using the specific principles and real-world steps of Req 5c(5) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c(5) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c(5) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2057,9 +2129,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5c(5)",
+              "sub_req_label": "5c(5)",
+              "sub_req_text": "Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises you."
             },
             {
               "sub_id": "5c(6)",
@@ -2095,10 +2170,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5c(6) is enough for Cybersecurity Requirement 5c(6) sign-off.",
-                "fact": "Each Scout must actively use the specific principles and real-world steps of Req 5c(6) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5c(6) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 5c(6) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2118,9 +2195,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5c(6)",
+              "sub_req_label": "5c(6)",
+              "sub_req_text": "Use a command line interface to view your computer's open network connections. Discuss the results with your counselor."
             },
             {
               "sub_id": "5c(7)",
@@ -2167,10 +2247,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5c(7) is enough for Cybersecurity Requirement 5c(7) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c(7) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c(7) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c(7) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2190,9 +2272,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5c(7)",
+              "sub_req_label": "5c(7)",
+              "sub_req_text": "Demonstrate how to back up your data from a mobile device to a local computer or the cloud."
             },
             {
               "sub_id": "5c(8)",
@@ -2215,23 +2300,28 @@
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
-                "organizer_type": "RULED_EXPLAIN_BOX",
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
                 "headers": [
-                  "Req 5c(8) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Step #",
+                  "Physical Technique / Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Step 1: Pre-Task Safety & Gear Check",
+                  "Step 2: Core Technique Execution",
+                  "Step 3: Quality & Accuracy Verification",
+                  "Step 4: Post-Task Reset & Debrief"
                 ],
-                "min_rows": 3,
+                "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5c(8) is enough for Cybersecurity Requirement 5c(8) sign-off.",
-                "fact": "Each Scout must actively research the specific principles and real-world steps of Req 5c(8) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively make the specific principles and real-world steps of Req 5c(8) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 5c(8) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2251,9 +2341,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5c(8)",
+              "sub_req_label": "5c(8)",
+              "sub_req_text": "Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure."
             },
             {
               "sub_id": "5c(9)",
@@ -2276,10 +2369,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 5c(9) is enough for Cybersecurity Requirement 5c(9) sign-off.",
-                "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 5c(9) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 5c(9) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 5c(9) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2299,9 +2394,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "5c(9)",
+              "sub_req_label": "5c(9)",
+              "sub_req_text": "Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix it."
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -2322,15 +2420,17 @@
             "min_rows": 4,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Cybersecurity Requirement 5c sign-off.",
-            "fact": "Each Scout must actively system the specific principles and real-world steps of Req 5c grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Cybersecurity Req 5c with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Cybersecurity Req 5c with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -2350,9 +2450,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "System security. With your parent or guardian's permission, do THREE of the following using a computer or mobile device, and discuss with your counselor: (1) Describe what makes a good password and why. Set or change an account password to one that is \"strong.\" (2) Describe multi-factor authentication (MFA) and how it can be used to improve security. Demonstrate how to use an authenticator app or other MFA function. (3) Install and set up a password manager. Demonstrate how it works to your counselor. (4) Run a virus scan. Show the results to your counselor. (5) Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises you. (6) Use a command line interface to view your computer's open network connections. Discuss the results with your counselor. (7) Demonstrate how to back up your data from a mobile device to a local computer or the cloud. (8) Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure. (9) Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix it."
         }
       ],
       "resources": [
@@ -2505,13 +2608,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Cyber Defenses. Do the following: (a) Describe three",
-      "action_verb": "Cyber",
+      "topic_title": "Req 5: Cyber Defenses",
+      "action_verb": "Describe",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cybersecurity Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
+      "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2531,13 +2634,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Cyber Defenses. Do the following: (a) Describe three is enough for Cybersecurity Requirement 5 sign-off.",
-        "fact": "Each Scout must actively cyber the specific principles and real-world steps of Cyber Defenses. Do the following: (a) Describe three grounded in the official Cybersecurity pamphlet."
+        "misconception": "Reading a short definition of Cyber Defenses is enough for Cybersecurity Requirement 5 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of Cyber Defenses grounded in the official Cybersecurity pamphlet.",
+        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Cyber Defenses grounded in the official Cybersecurity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Cybersecurity Req 5 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Cybersecurity Req 5 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -2557,63 +2662,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Cybersecurity Sub-Req 5a: Describe three technologies that are used to defend a computer or network, such as access controls, antivirus software, firewall, intrusion detection/prevention systems, and Virtual.",
-        "Cybersecurity Sub-Req 5b: Installing updates. Do the following: (1) Explain to your counselor the importance of installing the latest updates on your computer, why they are needed.",
-        "Cybersecurity Sub-Req 5b(1): Explain to your counselor the importance of installing the latest updates on your computer, why they are needed, and what kinds of problems they can prevent.",
-        "Cybersecurity Sub-Req 5b(2): Demonstrate to your counselor how to check for, download, and install the latest updates for your computer or mobile device, or another computer you."
+        "(a) Research and explain Cryptography.",
+        "(a) Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Strengths: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption.",
+        "Share Public Key: Share your public key with others (and your counselor)."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Cybersecurity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Cyber Defenses. Do the following: (a) Describe three.",
-        "Execute & Document: Perform the cyber task methodically with your patrol buddy and log specific observations in your Cybersecurity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Their Public Keys: Also, get their public keys and add them to your computer's key ring.",
+        "Send Message Digitally: Send a message that has been digitally encrypted.",
+        "Key Pamphlet Study Points: - Cybersecurity Sub-Req 6a: Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Connected Devices: Describe Connected Devices and Internet of Things (IoT)."
       ],
       "gear_checklist": [
         "Official Cybersecurity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cybersecurity Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Cyber Defenses",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Cybersecurity Approach",
-        "right_header": "Official BSA Cybersecurity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Cybersecurity Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Cybersecurity Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Cyber Defenses. Do the following: (a) Describe three",
-          "Primary Standard": "Describe three technologies that are used to defend a computer or network, such as access controls, antivirus ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cybersecurity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cybersecurity Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Cyber Defenses",
+          "Primary Standard": "Describe three technologies that are used to defend a computer or network, such as access controls, antivirus software, firewall, intrusion detection/prevention systems, and Virtual Private Network.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Cybersecurity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Cybersecurity Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Cybersecurity Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Cybersecurity Requirement 5, a Scout claims: \"Reading a short definition of Cyber Defenses. Do the following: (a) Describe three is enough for Cybersecurity Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively cyber the specific principles and real-world steps of Cyber Defenses. Do the following: (a) Describe three grounded in the official Cybersecurity pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively cyber the specific principles and real-world steps of Cyber Defenses. Do the following: (a) Describe three grounded in the official Cybersecurity pamphlet.",
-        "explanation": "Per Official BSA Cybersecurity Pamphlet, pp. 28-33, Each Scout must actively cyber the specific principles and real-world steps of Cyber Defenses. Do the following: (a) Describe three grounded in the official Cybersecurity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Cybersecurity Workbook organizer table and practical demonstration for Req 5."
     },
@@ -2662,10 +2744,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Cybersecurity Requirement 6a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2685,9 +2769,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Research and explain to your counselor three situations where encryption is used in cybersecurity. For each situation, describe what kind of encryption is used and why it is important."
         },
         {
           "sub_id": "6b",
@@ -2722,10 +2809,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Cybersecurity Requirement 6b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 6b grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 6b grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 6b grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2745,9 +2834,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Show how you can know if your connection to a website is encrypted."
         },
         {
           "sub_id": "6c",
@@ -2792,10 +2884,12 @@
                 "min_rows": 4,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6c(1) is enough for Cybersecurity Requirement 6c(1) sign-off.",
-                "fact": "Each Scout must actively create the specific principles and real-world steps of Req 6c(1) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c(1) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c(1) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2815,9 +2909,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6c(1)",
+              "sub_req_label": "6c(1)",
+              "sub_req_text": "Create your own encryption code, such as a substitution cipher or code book, and demonstrate using it to encrypt and decrypt a message. Describe the strengths and weaknesses of your code."
             },
             {
               "sub_id": "6c(2)",
@@ -2857,10 +2954,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6c(2) is enough for Cybersecurity Requirement 6c(2) sign-off.",
-                "fact": "Each Scout must actively download the specific principles and real-world steps of Req 6c(2) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c(2) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c(2) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2880,9 +2979,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6c(2)",
+              "sub_req_label": "6c(2)",
+              "sub_req_text": "Download and set up an app (from an official app store) that uses end-to-end encryption. Explain to your counselor what this means, how it works, and why it is more secure than other forms of communication (e.g. SMS)."
             },
             {
               "sub_id": "6c(3)",
@@ -2919,10 +3021,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6c(3) is enough for Cybersecurity Requirement 6c(3) sign-off.",
-                "fact": "Each Scout must actively use the specific principles and real-world steps of Req 6c(3) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c(3) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c(3) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2942,9 +3046,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6c(3)",
+              "sub_req_label": "6c(3)",
+              "sub_req_text": "Use a hashing tool (for example, using SHA or MD5) to create a checksum for a file, document, or piece of text. Have a fellow Scout or your counselor make a change to it, then recreate the checksum and compare the new checksum to the original as a demonstration of file integrity checking."
             },
             {
               "sub_id": "6c(4)",
@@ -2976,10 +3083,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6c(4) is enough for Cybersecurity Requirement 6c(4) sign-off.",
-                "fact": "Each Scout must actively create the specific principles and real-world steps of Req 6c(4) grounded in the official Cybersecurity pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c(4) grounded in the official Cybersecurity pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c(4) grounded in the official Cybersecurity pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2999,9 +3108,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6c(4)",
+              "sub_req_label": "6c(4)",
+              "sub_req_text": "Create your own PGP (pretty good privacy) email key. Share your public key with others (and your counselor). Also, get their public keys and add them to your computer's key ring. Send a message that has been digitally encrypted."
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -3020,10 +3132,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Cybersecurity Requirement 6c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3043,9 +3157,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Do ONE of the following: (1) Create your own encryption code, such as a substitution cipher or code book, and demonstrate using it to encrypt and decrypt a message. Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption. Explain to your counselor what this means, how it works, and why it is more secure than other forms of communication (e.g. SMS). (3) Use a hashing tool (for example, using SHA or MD5) to create a checksum for a file, document, or piece of text. Have a fellow Scout or your counselor make a change to it, then recreate the checksum and compare the new checksum to the original as a demonstration of file integrity checking. (4) Create your own PGP (pretty good privacy) email key. Share your public key with others (and your counselor). Also, get their public keys and add them to your computer's key ring. Send a message that has been digitally encrypted."
         }
       ],
       "resources": [
@@ -3130,13 +3247,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Cryptography. Do the following: (a) Research and explain",
-      "action_verb": "Cryptography",
+      "topic_title": "Req 6: Cryptography",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cybersecurity Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Cybersecurity Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
+      "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
@@ -3154,8 +3271,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Cryptography. Do the following: (a) Research and explain is enough for Cybersecurity Requirement 6 sign-off.",
-        "fact": "Each Scout must actively cryptography the specific principles and real-world steps of Cryptography. Do the following: (a) Research and explain grounded in the official Cybersecurity pamphlet."
+        "misconception": "Reading a short definition of Cryptography is enough for Cybersecurity Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Cryptography grounded in the official Cybersecurity pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Cryptography grounded in the official Cybersecurity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3175,63 +3294,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Cybersecurity Sub-Req 6a: Research and explain to your counselor three situations where encryption is used in cybersecurity. For each situation, describe what kind of encryption is used.",
-        "Cybersecurity Sub-Req 6b: Show how you can know if your connection to a website is encrypted.",
-        "Cybersecurity Sub-Req 6c: Do ONE of the following: (1) Create your own encryption code, such as a substitution cipher or code book, and demonstrate using it to.",
-        "Cybersecurity Sub-Req 6c(1): Create your own encryption code, such as a substitution cipher or code book, and demonstrate using it to encrypt and decrypt a message. Describe."
+        "(a) Research and explain Cryptography.",
+        "(a) Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Strengths: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption.",
+        "Share Public Key: Share your public key with others (and your counselor)."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Cybersecurity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Cryptography. Do the following: (a) Research and explain.",
-        "Execute & Document: Perform the cryptography task methodically with your patrol buddy and log specific observations in your Cybersecurity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Their Public Keys: Also, get their public keys and add them to your computer's key ring.",
+        "Send Message Digitally: Send a message that has been digitally encrypted.",
+        "Key Pamphlet Study Points: - Cybersecurity Sub-Req 6a: Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Connected Devices: Describe Connected Devices and Internet of Things (IoT)."
       ],
       "gear_checklist": [
         "Official Cybersecurity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cybersecurity Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Cryptography",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Cybersecurity Approach",
-        "right_header": "Official BSA Cybersecurity Pamphlet Standard",
+        "right_header": "Official BSA Cybersecurity Standard (Cryptography)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Cryptography.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Cybersecurity Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Cybersecurity Workbook organizer.",
+          "Clearly demonstrates and explains Cryptography using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Cybersecurity Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Cryptography. Do the following: (a) Research and explain",
-          "Primary Standard": "Research and explain to your counselor three situations where encryption is used in cybersecurity. For each si",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cybersecurity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cybersecurity Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Cryptography",
+          "Primary Standard": "Research and explain to your counselor three situations where encryption is used in cybersecurity. For each situation, describe what kind of encryption is used and why it is important.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Cybersecurity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Cybersecurity Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Cybersecurity Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Cybersecurity Requirement 6, a Scout claims: \"Reading a short definition of Cryptography. Do the following: (a) Research and explain is enough for Cybersecurity Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively cryptography the specific principles and real-world steps of Cryptography. Do the following: (a) Research and explain grounded in the official Cybersecurity pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively cryptography the specific principles and real-world steps of Cryptography. Do the following: (a) Research and explain grounded in the official Cybersecurity pamphlet.",
-        "explanation": "Per Official BSA Cybersecurity Pamphlet, pp. 34-39, Each Scout must actively cryptography the specific principles and real-world steps of Cryptography. Do the following: (a) Research and explain grounded in the official Cybersecurity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Cybersecurity Workbook organizer table and practical demonstration for Req 6."
     },
@@ -3264,13 +3373,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Connected Devices and Internet of Things (IoT). Describe",
-      "action_verb": "Connected",
+      "topic_title": "Req 7: Connected Devices and Internet of Things",
+      "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cybersecurity Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Cybersecurity Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 8)",
+      "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 8)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3287,8 +3396,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Connected Devices and Internet of Things (IoT). Describe is enough for Cybersecurity Requirement 7 sign-off.",
-        "fact": "Each Scout must actively connected the specific principles and real-world steps of Connected Devices and Internet of Things (IoT). Describe grounded in the official Cybersecurity pamphlet."
+        "misconception": "Reading a short definition of Connected Devices and Internet of Things is enough for Cybersecurity Requirement 7 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of Connected Devices and Internet of Things grounded in the official Cybersecurity pamphlet.",
+        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Connected Devices and Internet of Things grounded in the official Cybersecurity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 8)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3308,63 +3419,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 7): Connected Devices and Internet of Things (IoT).",
-        "Core Standard 2 (Req 7): Describe to your counselor four electronic devices you encounter that could be connected to the internet, why this connectivity can be useful, what risks are posed by the connectivity, and how they could be protected.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Cybersecurity Req 7 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Cybersecurity Workbook before requesting Requirement 7 sign-off."
+        "Describe Connected Devices: Describe Connected Devices and Internet of Things (IoT).",
+        "(a) Research and explain Cryptography.",
+        "(a) Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Strengths: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Cybersecurity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Connected Devices and Internet of Things (IoT). Describe.",
-        "Execute & Document: Perform the connected task methodically with your patrol buddy and log specific observations in your Cybersecurity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Share Public Key: Share your public key with others (and your counselor).",
+        "Their Public Keys: Also, get their public keys and add them to your computer's key ring.",
+        "Send Message Digitally: Send a message that has been digitally encrypted.",
+        "Key Pamphlet Study Points: - Cybersecurity Sub-Req 6a: Research and explain to your counselor three situations where encryption is used in cybersecurity."
       ],
       "gear_checklist": [
         "Official Cybersecurity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cybersecurity Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Connected Devices and Internet of Things",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Cybersecurity Approach",
-        "right_header": "Official BSA Cybersecurity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Cybersecurity Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Cybersecurity Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Connected Devices and Internet of Things (IoT). Describe",
-          "Primary Standard": "Connected Devices and Internet of Things (IoT). Describe to your counselor four electronic devices you encount",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cybersecurity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cybersecurity Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Connected Devices and Internet of Things",
+          "Primary Standard": "Connected Devices and Internet of Things (IoT).",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Cybersecurity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 8) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Cybersecurity Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Cybersecurity Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Cybersecurity Requirement 7, a Scout claims: \"Reading a short definition of Connected Devices and Internet of Things (IoT). Describe is enough for Cybersecurity Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively connected the specific principles and real-world steps of Connected Devices and Internet of Things (IoT). Describe grounded in the official Cybersecurity pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively connected the specific principles and real-world steps of Connected Devices and Internet of Things (IoT). Describe grounded in the official Cybersecurity pamphlet.",
-        "explanation": "Per Official BSA Cybersecurity Pamphlet, pp. 40-45, Each Scout must actively connected the specific principles and real-world steps of Connected Devices and Internet of Things (IoT). Describe grounded in the official Cybersecurity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Cybersecurity Workbook organizer table and practical demonstration for Req 7."
     },
@@ -3413,10 +3501,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Cybersecurity Requirement 8a sign-off.",
-            "fact": "Each Scout must actively camp the specific principles and real-world steps of Req 8a grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3436,9 +3526,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "Learn about a cybersecurity competition, camp, or other activity you could participate in (either now or in the future). Share what you learned with your counselor, including the type of activity, time commitment, and age of participants."
         },
         {
           "sub_id": "8b",
@@ -3478,15 +3571,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Cybersecurity Requirement 8b sign-off.",
-            "fact": "Each Scout must actively participate the specific principles and real-world steps of Req 8b grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
             "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Obtain your Merit Badge Counselor's approval on your Cybersecurity Req 8b plan before executing the project.",
+            "gate_description": "Review your Cybersecurity Req 8b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -3506,9 +3601,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "Participate in a cybersecurity competition with members of your troop, school, or some other group approved by your counselor. Either design your own competition or use an existing platform."
         },
         {
           "sub_id": "8c",
@@ -3531,15 +3629,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Cybersecurity Requirement 8c sign-off.",
-            "fact": "Each Scout must actively give the specific principles and real-world steps of Req 8c grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
             "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Obtain your Merit Badge Counselor's approval on your Cybersecurity Req 8c plan before executing the project.",
+            "gate_description": "Review your Cybersecurity Req 8c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -3559,9 +3659,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "Give a presentation to your patrol, troop, or another group approved by your counselor, on a cybersecurity topic of your choice. Your presentation must include at least one demonstration and/or hands-on activity."
         }
       ],
       "resources": [
@@ -3606,13 +3709,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Cybersecurity Activities. Do ONE of the following: (a)",
-      "action_verb": "Cybersecurity",
+      "topic_title": "Req 8: Cybersecurity Activities",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cybersecurity Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Cybersecurity Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
+      "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3629,13 +3732,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Cybersecurity Activities. Do ONE of the following: (a) is enough for Cybersecurity Requirement 8 sign-off.",
-        "fact": "Each Scout must actively cybersecurity the specific principles and real-world steps of Cybersecurity Activities. Do ONE of the following: (a) grounded in the official Cybersecurity pamphlet."
+        "misconception": "Reading a short definition of Cybersecurity Activities is enough for Cybersecurity Requirement 8 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Cybersecurity Activities grounded in the official Cybersecurity pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Cybersecurity Activities grounded in the official Cybersecurity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
         "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Obtain your Merit Badge Counselor's approval on your Cybersecurity Req 8 plan before executing the project.",
+        "gate_description": "Review your Cybersecurity Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -3655,63 +3760,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Cybersecurity Sub-Req 8a: Learn about a cybersecurity competition, camp, or other activity you could participate in (either now or in the future). Share what you learned with.",
-        "Cybersecurity Sub-Req 8b: Participate in a cybersecurity competition with members of your troop, school, or some other group approved by your counselor. Either design your own competition.",
-        "Cybersecurity Sub-Req 8c: Give a presentation to your patrol, troop, or another group approved by your counselor, on a cybersecurity topic of your choice. Your presentation must.",
-        "Core Standard 1 (Req 8): Cybersecurity Activities."
+        "(a) Research and explain Cryptography.",
+        "(a) Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Strengths: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption.",
+        "Share Public Key: Share your public key with others (and your counselor)."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Cybersecurity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Cybersecurity Activities. Do ONE of the following: (a).",
-        "Execute & Document: Perform the cybersecurity task methodically with your patrol buddy and log specific observations in your Cybersecurity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Their Public Keys: Also, get their public keys and add them to your computer's key ring.",
+        "Send Message Digitally: Send a message that has been digitally encrypted.",
+        "Key Pamphlet Study Points: - Cybersecurity Sub-Req 6a: Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Connected Devices: Describe Connected Devices and Internet of Things (IoT)."
       ],
       "gear_checklist": [
         "Official Cybersecurity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cybersecurity Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Cybersecurity Activities",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Cybersecurity Approach",
-        "right_header": "Official BSA Cybersecurity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Cybersecurity Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Cybersecurity Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - Cybersecurity Activities. Do ONE of the following: (a)",
-          "Primary Standard": "Learn about a cybersecurity competition, camp, or other activity you could participate in (either now or in th",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cybersecurity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cybersecurity Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - Cybersecurity Activities",
+          "Primary Standard": "Learn about a cybersecurity competition, camp, or other activity you could participate in (either now or in the future). Share what you learned with your counselor, including the type of activity, time commitment, and age of participants.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Cybersecurity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Cybersecurity Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Cybersecurity Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Cybersecurity Requirement 8, a Scout claims: \"Reading a short definition of Cybersecurity Activities. Do ONE of the following: (a) is enough for Cybersecurity Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively cybersecurity the specific principles and real-world steps of Cybersecurity Activities. Do ONE of the following: (a) grounded in the official Cybersecurity pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively cybersecurity the specific principles and real-world steps of Cybersecurity Activities. Do ONE of the following: (a) grounded in the official Cybersecurity pamphlet.",
-        "explanation": "Per Official BSA Cybersecurity Pamphlet, pp. 46-51, Each Scout must actively cybersecurity the specific principles and real-world steps of Cybersecurity Activities. Do ONE of the following: (a) grounded in the official Cybersecurity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Cybersecurity Workbook organizer table and practical demonstration for Req 8."
     },
@@ -3756,10 +3838,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Cybersecurity career exploration requirement.",
-            "fact": "Scouts must research three Cybersecurity careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Cybersecurity career exploration requirement.",
+            "fact": "Scouts must research specific Cybersecurity career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Cybersecurity career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3779,9 +3863,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9a",
+          "sub_req_label": "9a",
+          "sub_req_text": "Identify three career opportunities that would use skills and knowledge in cybersecurity. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career."
         },
         {
           "sub_id": "9b",
@@ -3804,10 +3891,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9b is enough for Cybersecurity Requirement 9b sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 9b grounded in the official Cybersecurity pamphlet."
+            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 9b grounded in the official Cybersecurity pamphlet.",
+            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 9b grounded in the official Cybersecurity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3827,9 +3916,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9b",
+          "sub_req_label": "9b",
+          "sub_req_text": "Visit a business or organization that does work in cybersecurity. Find out about different work roles, what they do, and how they acquired their knowledge through college degrees or certifications. Share what you learned with your counselor."
         }
       ],
       "resources": [
@@ -3854,13 +3946,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Cybersecurity Careers, Training & Hobby Pathways",
-      "action_verb": "Careers",
+      "topic_title": "Req 9: Careers & Professional Pathways",
+      "action_verb": "Identify",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Cybersecurity Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Cybersecurity Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Cybersecurity Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
+      "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3877,8 +3969,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Cybersecurity career exploration requirement.",
-        "fact": "Scouts must research three Cybersecurity careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Cybersecurity career exploration requirement.",
+        "fact": "Scouts must research specific Cybersecurity career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Cybersecurity career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3898,68 +3992,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Cybersecurity Sub-Req 9a: Identify three career opportunities that would use skills and knowledge in cybersecurity. Pick one and research the training, education, certification requirements, experience, and expenses.",
-        "Cybersecurity Sub-Req 9b: Visit a business or organization that does work in cybersecurity. Find out about different work roles, what they do, and how they acquired their.",
-        "Core Standard 1 (Req 9): Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in cybersecurity.",
-        "Core Standard 2 (Req 9): Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field."
+        "(a) Research and explain Cryptography.",
+        "(a) Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Strengths: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption.",
+        "Share Public Key: Share your public key with others (and your counselor)."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Cybersecurity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Cybersecurity Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the careers task methodically with your patrol buddy and log specific observations in your Cybersecurity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Their Public Keys: Also, get their public keys and add them to your computer's key ring.",
+        "Send Message Digitally: Send a message that has been digitally encrypted.",
+        "Key Pamphlet Study Points: - Cybersecurity Sub-Req 6a: Research and explain to your counselor three situations where encryption is used in cybersecurity.",
+        "Describe Connected Devices: Describe Connected Devices and Internet of Things (IoT)."
       ],
       "gear_checklist": [
         "Official Cybersecurity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Cybersecurity Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Cybersecurity Approach",
-        "right_header": "Official BSA Cybersecurity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Cybersecurity Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Cybersecurity Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Cybersecurity Careers, Training & Hobby Pathways",
-          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in cybersecurity. Pick one and researc",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Cybersecurity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Cybersecurity Pamphlet, pp. 52-57."
+          "Requirement & Topic": "Req 9 - Careers & Professional Pathways",
+          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in cybersecurity.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Cybersecurity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Cybersecurity Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Cybersecurity Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Cybersecurity Requirement 9, a Scout claims: \"Listing three job titles from a web search satisfies the Cybersecurity career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Cybersecurity careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Cybersecurity careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Cybersecurity Pamphlet, pp. 52-57, Scouts must research three Cybersecurity careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Cybersecurity Workbook organizer table and practical demonstration for Req 9."
     }
   ],
   "badge_slug": "cybersecurity",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

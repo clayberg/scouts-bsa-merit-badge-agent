@@ -45,10 +45,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Genealogy Requirement 1a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -68,9 +70,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain to your counselor what the words genealogy, ancestor, and descendant mean."
         },
         {
           "sub_id": "1b",
@@ -98,10 +103,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Genealogy Requirement 1b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -121,9 +128,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Explain what a family tree is and what information would be kept there."
         },
         {
           "sub_id": "1c",
@@ -155,10 +165,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Genealogy Requirement 1c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -178,9 +190,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Explain what a family group record is and what information would be kept there."
         }
       ],
       "resources": [
@@ -205,13 +220,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: (a) Explain to your counselor what the words",
+      "topic_title": "Req 1: What the words genealogy, ancestor",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Genealogy Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Genealogy Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
+      "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -232,8 +247,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Explain to your counselor what the words is enough for Genealogy Requirement 1 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain to your counselor what the words grounded in the official Genealogy pamphlet."
+        "misconception": "Reading a short definition of What the words genealogy, ancestor is enough for Genealogy Requirement 1 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of What the words genealogy, ancestor grounded in the official Genealogy pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of What the words genealogy, ancestor grounded in the official Genealogy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -253,62 +270,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Genealogy Sub-Req 1a: Explain to your counselor what the words genealogy, ancestor, and descendant mean.",
-        "Genealogy Sub-Req 1b: Explain what a family tree is and what information would be kept there.",
-        "Genealogy Sub-Req 1c: Explain what a family group record is and what information would be kept there.",
-        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor what the words genealogy, ancestor, and descendant mean."
+        "Adding Small Photographs: Adding small photographs to your pedigree chart can make it moreinteresting.",
+        "Buy Charts Spaces: You can buy charts with spaces built in for photos, or youcan design your own.",
+        "Photo Ancestor Near: Place a photo of each ancestor near his or herspace on the chart; do not worry if you don’t have a photo of each one.",
+        "Pedigree Chart Contains: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Genealogy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain to your counselor what the words.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Genealogy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "But Otherrelatives Brothers: But what about otherrelatives such as brothers, sisters, uncles, aunts, and cousins?.",
+        "They Too Part: They, too, are an important part of your genealogy.",
+        "Form Record Information: The form used to record information about them is called a family group record form.",
+        "Slightly Different Formats: Slightly different formats are available, but they all show thesame basic information."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Genealogy Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for What the words genealogy, ancestor",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Genealogy Approach",
-        "right_header": "Official BSA Genealogy Pamphlet Standard",
+        "right_header": "Official BSA Genealogy Standard (What the words genealogy, ancestor)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during What the words genealogy, ancestor.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Genealogy Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Genealogy Workbook organizer.",
+          "Clearly demonstrates and explains What the words genealogy, ancestor using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Genealogy Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) Explain to your counselor what the words",
+          "Requirement & Topic": "Req 1 - What the words genealogy, ancestor",
           "Primary Standard": "Explain to your counselor what the words genealogy, ancestor, and descendant mean.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Genealogy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Genealogy Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Genealogy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Genealogy Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Genealogy Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Genealogy Requirement 1, a Scout claims: \"Reading a short definition of (a) Explain to your counselor what the words is enough for Genealogy Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Genealogy (What the words genealogy, ancestor), which patrol preparation step best aligns with the official Genealogy standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain to your counselor what the words grounded in the official Genealogy pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Genealogy hazards, PPE, and prerequisite standards in Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain to your counselor what the words grounded in the official Genealogy pamphlet.",
-        "explanation": "Per Official BSA Genealogy Pamphlet, pp. 4-9, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain to your counselor what the words grounded in the official Genealogy pamphlet."
+        "correct_answer": "Option A - Review the Genealogy hazards, PPE, and prerequisite standards in Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Genealogy Workbook organizer table and practical demonstration for Req 1."
@@ -346,10 +363,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Genealogy Requirement 2a sign-off.",
-            "fact": "Each Scout must actively create the specific principles and real-world steps of Req 2a grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 2a grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 2a grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -369,9 +388,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Create a timeline for yourself or for a relative. Then write a short biography based on that timeline."
         },
         {
           "sub_id": "2b",
@@ -399,10 +421,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Genealogy Requirement 2b sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 2b grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 2b grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 2b grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -422,9 +446,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Keep a journal for six weeks. You must write in it at least once a week."
         }
       ],
       "resources": [
@@ -445,13 +472,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: (a) Create a timeline for yourself or for",
-      "action_verb": "Explain",
+      "topic_title": "Req 2: Create a timeline for yourself",
+      "action_verb": "Write",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Genealogy Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Genealogy Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
+      "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -468,8 +495,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Create a timeline for yourself or for is enough for Genealogy Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of (a) Create a timeline for yourself or for grounded in the official Genealogy pamphlet."
+        "misconception": "Reading a short definition of Create a timeline for yourself is enough for Genealogy Requirement 2 sign-off.",
+        "fact": "Each Scout must actively write the specific principles and real-world steps of Create a timeline for yourself grounded in the official Genealogy pamphlet.",
+        "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Create a timeline for yourself grounded in the official Genealogy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -489,63 +518,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Genealogy Sub-Req 2a: Create a timeline for yourself or for a relative. Then write a short biography based on that timeline.",
-        "Genealogy Sub-Req 2b: Keep a journal for six weeks. You must write in it at least once a week.",
-        "Core Standard 1 (Req 2): Do ONE of the following: (a) Create a timeline for yourself or for a relative.",
-        "Core Standard 2 (Req 2): Then write a short biography based on that timeline."
+        "Easiest Placeto Start: The easiest placeto start your family history is with your own history.",
+        "Canbegin Life Story: You canbegin your life story by doing some of the following activities.",
+        "Write Journal Regular: You should write in your journal on a regular basis, everyday, every week, or every month.",
+        "Log Activities Thoughts: It is a log of your activities, thoughts, and feelings."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Genealogy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Create a timeline for yourself or for.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Genealogy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Personal History Life: A personal history, or life story, tells about what happened inthe past.",
+        "Include Quotes Stories: It may include quotes or stories from your journal ordiary.",
+        "Small Way Writing: In a small way, writing about your own and your family’shistory helps preserve the history of our nation.",
+        "Anne Frank: A Diary of Hope Amid Tragedy One of the finest examples of a young personrecording their life story is Anne Frank."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Genealogy Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Create a timeline for yourself",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Genealogy Approach",
-        "right_header": "Official BSA Genealogy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Genealogy Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Genealogy Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - (a) Create a timeline for yourself or for",
+          "Requirement & Topic": "Req 2 - Create a timeline for yourself",
           "Primary Standard": "Create a timeline for yourself or for a relative. Then write a short biography based on that timeline.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Genealogy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Genealogy Pamphlet, pp. 10-15."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Genealogy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Genealogy Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Genealogy Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Genealogy Requirement 2, a Scout claims: \"Reading a short definition of (a) Create a timeline for yourself or for is enough for Genealogy Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) Create a timeline for yourself or for grounded in the official Genealogy pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) Create a timeline for yourself or for grounded in the official Genealogy pamphlet.",
-        "explanation": "Per Official BSA Genealogy Pamphlet, pp. 10-15, Each Scout must actively explain the specific principles and real-world steps of (a) Create a timeline for yourself or for grounded in the official Genealogy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Genealogy Workbook organizer table and practical demonstration for Req 2."
     },
@@ -570,13 +576,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: With your parent or guardian's help, choose a",
-      "action_verb": "With",
+      "topic_title": "Req 3: With your parent or guardian's help",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Genealogy Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Genealogy Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47)",
+      "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -597,13 +603,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With your parent or guardian's help, choose a is enough for Genealogy Requirement 3 sign-off.",
-        "fact": "Each Scout must actively with the specific principles and real-world steps of With your parent or guardian's help, choose a grounded in the official Genealogy pamphlet."
+        "misconception": "Reading a short definition of With your parent or guardian's help is enough for Genealogy Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of With your parent or guardian's help grounded in the official Genealogy pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of With your parent or guardian's help grounded in the official Genealogy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Genealogy Req 3 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Genealogy Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -623,63 +631,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): With your parent or guardian's help, choose a relative or a family acquaintance you can interview in person, by telephone, or by email or letter.",
-        "Core Standard 2 (Req 3): Record the information you collect so you do not forget it.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Genealogy Req 3 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Genealogy Workbook before requesting Requirement 3 sign-off."
+        "Then Tofind Accurate: Then you must know where to go tofind accurate answers.",
+        "Family Movedto United: If your family movedto the United States from another country, it is important to askyour parents or guardians and other relatives.",
+        "Not Formally Interviewing: Even if you are not formally interviewing allthese people, write down or record the information they tell you.",
+        "Not Information Someone: Not all the information someone tells you is necessarilycorrect."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Genealogy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing With your parent or guardian's help, choose a.",
-        "Execute & Document: Perform the with task methodically with your patrol buddy and log specific observations in your Genealogy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Relationships Great-uncle: Relationships (such as great-uncle Ralph was Grandpa Erickson’s brother) are usually correct.",
+        "But Names Places: But names, places, and dates may not be accurate.",
+        "Double-check Information: Double-check the information you gather against other records.",
+        "Fun Talk Themand: It can be fun to talk to themand discover what they have and to hear what they know."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Genealogy Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for With your parent or guardian's help",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Genealogy Approach",
-        "right_header": "Official BSA Genealogy Pamphlet Standard",
+        "right_header": "Official BSA Genealogy Standard (With your parent or guardian's help)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during With your parent or guardian's help.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Genealogy Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Genealogy Workbook organizer.",
+          "Clearly demonstrates and explains With your parent or guardian's help using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Genealogy Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - With your parent or guardian's help, choose a",
-          "Primary Standard": "With your parent or guardian's help, choose a relative or a family acquaintance you can interview in person, b",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Genealogy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Genealogy Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - With your parent or guardian's help",
+          "Primary Standard": "With your parent or guardian's help, choose a relative or a family acquaintance you can interview in person, by telephone, or by email or letter. Record the information you collect so you do not forget it.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Genealogy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Genealogy Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Genealogy Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Genealogy Requirement 3, a Scout claims: \"Reading a short definition of With your parent or guardian's help, choose a is enough for Genealogy Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With your parent or guardian's help, choose a grounded in the official Genealogy pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With your parent or guardian's help, choose a grounded in the official Genealogy pamphlet.",
-        "explanation": "Per Official BSA Genealogy Pamphlet, pp. 16-21, Each Scout must actively with the specific principles and real-world steps of With your parent or guardian's help, choose a grounded in the official Genealogy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Genealogy Workbook organizer table and practical demonstration for Req 3."
     },
@@ -720,10 +718,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Genealogy Requirement 4a sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -743,9 +743,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree."
         },
         {
           "sub_id": "4b",
@@ -777,10 +780,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Genealogy Requirement 4b sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4b grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4b grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 4b grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -800,9 +805,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Name three types of digital genealogical resources and where you can find them, and explain how these resources can help you chart your family tree."
         },
         {
           "sub_id": "4c",
@@ -829,10 +837,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4c is enough for Genealogy Requirement 4c sign-off.",
-            "fact": "Each Scout must actively obtain the specific principles and real-world steps of Req 4c grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively record the specific principles and real-world steps of Req 4c grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively record the specific principles and real-world steps of Req 4c grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -852,9 +862,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4c",
+          "sub_req_label": "4c",
+          "sub_req_text": "Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record."
         },
         {
           "sub_id": "4d",
@@ -877,10 +890,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4d is enough for Genealogy Requirement 4d sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 4d grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -900,9 +915,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4d",
+          "sub_req_label": "4d",
+          "sub_req_text": "Tell how you found it and how you would evaluate the genealogical information you found for requirement 4(c)."
         },
         {
           "sub_id": "4e",
@@ -934,10 +952,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4e is enough for Genealogy Requirement 4e sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 4e grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -957,9 +977,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4e",
+          "sub_req_label": "4e",
+          "sub_req_text": "Tell a likely place to find these type of genealogical records: marriage record, census record, birth record, and burial information."
         }
       ],
       "resources": [
@@ -984,13 +1007,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: (a) Name three types of physical genealogical resources",
+      "topic_title": "Req 4: Name three types of physical genealogical",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Genealogy Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Genealogy Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
+      "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1011,8 +1034,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Name three types of physical genealogical resources is enough for Genealogy Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name three types of physical genealogical resources grounded in the official Genealogy pamphlet."
+        "misconception": "Reading a short definition of Name three types of physical genealogical is enough for Genealogy Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Name three types of physical genealogical grounded in the official Genealogy pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Name three types of physical genealogical grounded in the official Genealogy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1032,63 +1057,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Genealogy Sub-Req 4a: Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.",
-        "Genealogy Sub-Req 4b: Name three types of digital genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.",
-        "Genealogy Sub-Req 4c: Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record.",
-        "Genealogy Sub-Req 4d: Tell how you found it and how you would evaluate the genealogical information you found for requirement 4(c)."
+        "Vital Records Created: Vital records are created to record births, marriages, and deaths.",
+        "Obtaining Copies Kinds: By obtaining copies of these kinds of certificates, you can getaccurate information about names, dates, places, and otherdetails from your ancestors’.",
+        "Records Createdby: These records may be createdby governments or by families.",
+        "Families Record Names: Some families keep a record of the names and birthdates of all family members."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Genealogy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Name three types of physical genealogical resources.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Genealogy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Earlier Times Manypeople: In earlier times, manypeople recorded vital events in the family Bible.",
+        "United States State: In the United States, each state now creates the basic vitalrecords.",
+        "Partsof Country Counties: In many partsof the country, counties created these records, while in otherareas (in some New England states), towns created them.",
+        "Hundreds Years Ago: Hundreds of years ago in Europe and colonial America, religious institutions oftenwere the only groupsthat kept suchrecords."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Genealogy Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Name three types of physical genealogical",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Genealogy Approach",
-        "right_header": "Official BSA Genealogy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Genealogy Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Genealogy Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - (a) Name three types of physical genealogical resources",
-          "Primary Standard": "Name three types of physical genealogical resources and where you can find them, and explain how these resourc",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Genealogy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Genealogy Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Name three types of physical genealogical",
+          "Primary Standard": "Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Genealogy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Genealogy Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Genealogy Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Genealogy Requirement 4, a Scout claims: \"Reading a short definition of (a) Name three types of physical genealogical resources is enough for Genealogy Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name three types of physical genealogical resources grounded in the official Genealogy pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name three types of physical genealogical resources grounded in the official Genealogy pamphlet.",
-        "explanation": "Per Official BSA Genealogy Pamphlet, pp. 22-27, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name three types of physical genealogical resources grounded in the official Genealogy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Genealogy Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1125,10 +1127,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Genealogy Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1148,9 +1152,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "A genealogical or lineage society"
         },
         {
           "sub_id": "5b",
@@ -1178,10 +1185,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Genealogy career exploration requirement.",
-            "fact": "Scouts must research three Genealogy careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Genealogy career exploration requirement.",
+            "fact": "Scouts must research specific Genealogy career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Genealogy career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1201,9 +1210,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "A professional genealogist (someone who gets paid for doing genealogical research)"
         },
         {
           "sub_id": "5c",
@@ -1231,10 +1243,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Genealogy Requirement 5c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1254,9 +1268,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "A surname organization, such as your family's organization"
         },
         {
           "sub_id": "5d",
@@ -1284,10 +1301,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5d is enough for Genealogy Requirement 5d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1307,9 +1326,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5d",
+          "sub_req_label": "5d",
+          "sub_req_text": "A genealogical educational facility or institution"
         },
         {
           "sub_id": "5e",
@@ -1341,10 +1363,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5e is enough for Genealogy Requirement 5e sign-off.",
-            "fact": "Each Scout must actively record the specific principles and real-world steps of Req 5e grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively record the specific principles and real-world steps of Req 5e grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively record the specific principles and real-world steps of Req 5e grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1364,9 +1388,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5e",
+          "sub_req_label": "5e",
+          "sub_req_text": "A genealogical record repository of any type (courthouse, genealogical library, state or national archive, state library, etc.)"
         }
       ],
       "resources": [
@@ -1399,13 +1426,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Genealogy Careers, Training & Hobby Pathways",
-      "action_verb": "Contact",
+      "topic_title": "Req 5: Gathering Information From Records and Other Sources",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Genealogy Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Genealogy Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
+      "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1426,8 +1453,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Genealogy career exploration requirement.",
-        "fact": "Scouts must research three Genealogy careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Genealogy career exploration requirement.",
+        "fact": "Scouts must research specific Genealogy career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Genealogy career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1447,63 +1476,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Genealogy Sub-Req 5a: A genealogical or lineage society",
-        "Genealogy Sub-Req 5b: A professional genealogist (someone who gets paid for doing genealogical research)",
-        "Genealogy Sub-Req 5c: A surname organization, such as your family's organization",
-        "Genealogy Sub-Req 5d: A genealogical educational facility or institution"
+        "Mayinclude Great-grandparents: It also mayinclude your great-grandparents, your grandaunts andgranduncles, and your second cousins.",
+        "Members Yourextended Family: Members of yourextended family can be helpful in telling you about your familyhistory and genealogy.",
+        "Ancestral Family: Ancestral family organizations are created around anancestral couple and include all of their descendants.",
+        "Forexample John Jane: Forexample, John and Jane Clough who came to America in theearly 1600s are the center of a Clough family organization."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Genealogy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Genealogy Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the contact task methodically with your patrol buddy and log specific observations in your Genealogy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Everyone Belongs: Everyone who belongs to this organization should be ableto trace his or her ancestry to this couple.",
+        "Purposes Afamily: The purposes of afamily organization are to do good research into the ancestryand descendants of a couple and to record and share theinformation.",
+        "Organization Publishes: Such an organization often publishes extensivefamily genealogies and newsletters that may be available insome major libraries.",
+        "Surname Organization Based: A surname organization is based on a surname that isassociated with a specific geographical area and time period."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Genealogy Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Gathering Information From Records and Other Sources",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Genealogy Approach",
-        "right_header": "Official BSA Genealogy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Genealogy Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Genealogy Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Genealogy Careers, Training & Hobby Pathways",
-          "Primary Standard": "A genealogical or lineage society",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Genealogy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Genealogy Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Gathering Information From Records and Other Sources",
+          "Primary Standard": "A genealogical or lineage society.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Genealogy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Genealogy Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Genealogy Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Genealogy Requirement 5, a Scout claims: \"Listing three job titles from a web search satisfies the Genealogy career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Genealogy careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Genealogy careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Genealogy Pamphlet, pp. 28-33, Scouts must research three Genealogy careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Genealogy Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1528,13 +1534,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Begin your family tree by listing yourself and",
-      "action_verb": "Begin",
+      "topic_title": "Req 6: Begin your family tree by listing",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Genealogy Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Genealogy Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56)",
+      "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1555,8 +1561,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Begin your family tree by listing yourself and is enough for Genealogy Requirement 6 sign-off.",
-        "fact": "Each Scout must actively begin the specific principles and real-world steps of Begin your family tree by listing yourself and grounded in the official Genealogy pamphlet."
+        "misconception": "Reading a short definition of Begin your family tree by listing is enough for Genealogy Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Begin your family tree by listing grounded in the official Genealogy pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Begin your family tree by listing grounded in the official Genealogy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1576,63 +1584,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 6): Begin your family tree by listing yourself and include at least two additional generations.",
-        "Core Standard 2 (Req 6): You may complete this requirement by using the chart provided in the Genealogy merit badge pamphlet or the genealogy software program of your choice.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Genealogy Req 6 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Genealogy Workbook before requesting Requirement 6 sign-off."
+        "Keywords Words Areunique: Keywords are words that areunique to what you are searching for.",
+        "Typed Grave Rose: If you just typed in grave and Rose Goldman, you would get thousands of hits.",
+        "Youmight Add Name: To do this, youmight add the name of the place Rose Goldman died or the year of herdeath to your search terms.",
+        "Remember However Not: Remember, however, that not all the Rose Goldmans you find will be your ancestor."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Genealogy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Begin your family tree by listing yourself and.",
-        "Execute & Document: Perform the begin task methodically with your patrol buddy and log specific observations in your Genealogy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Fact Possible Noneof: In fact, it is possible that noneof the matches you get will be your ancestor.",
+        "Remember Too Computers: Remember, too, that computers are not as smart as you are.",
+        "Forinstance Suppose Looking: Forinstance, suppose you are looking for your ancestor named Marco Angelo Benedetto.",
+        "Type His Name: You type his name into the search engine, and it doesnot find him."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Genealogy Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Begin your family tree by listing",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Genealogy Approach",
-        "right_header": "Official BSA Genealogy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Genealogy Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Genealogy Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Begin your family tree by listing yourself and",
-          "Primary Standard": "Begin your family tree by listing yourself and include at least two additional generations. You may complete t",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Genealogy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Genealogy Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Begin your family tree by listing",
+          "Primary Standard": "Begin your family tree by listing yourself and include at least two additional generations. You may complete this requirement by using the chart provided in the Genealogy merit badge pamphlet or the genealogy software program of your choice.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Genealogy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Genealogy Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Genealogy Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Genealogy Requirement 6, a Scout claims: \"Reading a short definition of Begin your family tree by listing yourself and is enough for Genealogy Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively begin the specific principles and real-world steps of Begin your family tree by listing yourself and grounded in the official Genealogy pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively begin the specific principles and real-world steps of Begin your family tree by listing yourself and grounded in the official Genealogy pamphlet.",
-        "explanation": "Per Official BSA Genealogy Pamphlet, pp. 34-39, Each Scout must actively begin the specific principles and real-world steps of Begin your family tree by listing yourself and grounded in the official Genealogy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Genealogy Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1657,13 +1642,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Complete a family group record form, listing yourself",
+      "topic_title": "Req 7: Complete a family group record form",
       "action_verb": "Record",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Genealogy Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Genealogy Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 44, p. 47)",
+      "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 44, p. 47)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1684,13 +1669,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Complete a family group record form, listing yourself is enough for Genealogy Requirement 7 sign-off.",
-        "fact": "Each Scout must actively record the specific principles and real-world steps of Complete a family group record form, listing yourself grounded in the official Genealogy pamphlet."
+        "misconception": "Reading a short definition of Complete a family group record form is enough for Genealogy Requirement 7 sign-off.",
+        "fact": "Each Scout must actively record the specific principles and real-world steps of Complete a family group record form grounded in the official Genealogy pamphlet.",
+        "fact_correction": "Each Scout must actively record the specific principles and real-world steps of Complete a family group record form grounded in the official Genealogy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 44, p. 47)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Genealogy Req 7 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Genealogy Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1710,63 +1697,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 7): Complete a family group record form, listing yourself and your brothers and sisters as the children.",
-        "Core Standard 2 (Req 7): On another family group record form, show your parent or guardian and his or her brothers and sisters as the children.",
-        "Core Standard 3 (Req 7): This requirement may be completed using the chart provided or the genealogy software program of your choice.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Genealogy Workbook before requesting Requirement 7 sign-off."
+        "Adding Small Photographs: Adding small photographs to your pedigree chart can make it moreinteresting.",
+        "Buy Charts Spaces: You can buy charts with spaces built in for photos, or youcan design your own.",
+        "Photo Ancestor Near: Place a photo of each ancestor near his or herspace on the chart; do not worry if you don’t have a photo of each one.",
+        "Pedigree Chart Contains: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Genealogy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Complete a family group record form, listing yourself.",
-        "Execute & Document: Perform the record task methodically with your patrol buddy and log specific observations in your Genealogy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "But Otherrelatives Brothers: But what about otherrelatives such as brothers, sisters, uncles, aunts, and cousins?.",
+        "They Too Part: They, too, are an important part of your genealogy.",
+        "Form Record Information: The form used to record information about them is called a family group record form.",
+        "Slightly Different Formats: Slightly different formats are available, but they all show thesame basic information."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Genealogy Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Complete a family group record form",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Genealogy Approach",
-        "right_header": "Official BSA Genealogy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Genealogy Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Genealogy Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Complete a family group record form, listing yourself",
-          "Primary Standard": "Complete a family group record form, listing yourself and your brothers and sisters as the children. On anothe",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Genealogy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Genealogy Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Complete a family group record form",
+          "Primary Standard": "Complete a family group record form, listing yourself and your brothers and sisters as the children.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Genealogy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Genealogy Merit Badge Pamphlet (p. 44, p. 47) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Genealogy Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Genealogy Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Genealogy Requirement 7, a Scout claims: \"Reading a short definition of Complete a family group record form, listing yourself is enough for Genealogy Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively record the specific principles and real-world steps of Complete a family group record form, listing yourself grounded in the official Genealogy pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively record the specific principles and real-world steps of Complete a family group record form, listing yourself grounded in the official Genealogy pamphlet.",
-        "explanation": "Per Official BSA Genealogy Pamphlet, pp. 40-45, Each Scout must actively record the specific principles and real-world steps of Complete a family group record form, listing yourself grounded in the official Genealogy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Genealogy Workbook organizer table and practical demonstration for Req 7."
     },
@@ -1803,10 +1767,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Genealogy Requirement 8a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1826,9 +1792,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "Explain the effect computers and the internet are having on the world of genealogy."
         },
         {
           "sub_id": "8b",
@@ -1856,10 +1825,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Genealogy Requirement 8b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1879,9 +1850,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "Explain how photography (including microfilming) has influenced genealogy."
         },
         {
           "sub_id": "8c",
@@ -1921,10 +1895,12 @@
             "min_rows": 5,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Genealogy Requirement 8c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Genealogy pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Genealogy pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Genealogy pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1944,9 +1920,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "Explain how record indexing works and how that has influenced genealogy."
         }
       ],
       "resources": [
@@ -1975,13 +1954,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: (a) Explain the effect computers and the internet",
+      "topic_title": "Req 8: The effect computers and the internet",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Genealogy Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Genealogy Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
+      "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -2002,8 +1981,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Explain the effect computers and the internet is enough for Genealogy Requirement 8 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the effect computers and the internet grounded in the official Genealogy pamphlet."
+        "misconception": "Reading a short definition of The effect computers and the internet is enough for Genealogy Requirement 8 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The effect computers and the internet grounded in the official Genealogy pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The effect computers and the internet grounded in the official Genealogy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2023,63 +2004,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Genealogy Sub-Req 8a: Explain the effect computers and the internet are having on the world of genealogy.",
-        "Genealogy Sub-Req 8b: Explain how photography (including microfilming) has influenced genealogy.",
-        "Genealogy Sub-Req 8c: Explain how record indexing works and how that has influenced genealogy.",
-        "Core Standard 1 (Req 8): Do the following: (a) Explain the effect computers and the internet are having on the world of genealogy."
+        "Todaythe FHL Largest: Todaythe FHL is the largest genealogical library in theworld and is open to the general public.",
+        "Anyonecan Library Resources: Anyonecan use the library’s resources free of charge.",
+        "Inaddition Thousands: Inaddition, thousands of associated branch librariescalled Family History Centers are located throughoutthe world.",
+        "Family History Centers: Family History Centers are often locatedin local meetinghouses of The Church of Jesus Christ of Latter-day Saints and staffed by volunteers."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Genealogy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain the effect computers and the internet.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Genealogy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "History Centers Computers: Most Family History Centers have computers withinternet access to genealogy websites.",
+        "FHL Collection Includes: The FHL’s collection includes more than twomillion rolls of microfilm and thousands of boundbooks.",
+        "New Microfilm Genealogical: New microfilm of genealogical records fromall over the world is continually being made.",
+        "Library Holdings Described: All of the library’s holdings are described inthe FamilySearch Catalog, which is available on theinternet at familysearch.org."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Genealogy Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The effect computers and the internet",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Genealogy Approach",
-        "right_header": "Official BSA Genealogy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Genealogy Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Genealogy Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - (a) Explain the effect computers and the internet",
+          "Requirement & Topic": "Req 8 - The effect computers and the internet",
           "Primary Standard": "Explain the effect computers and the internet are having on the world of genealogy.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Genealogy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Genealogy Pamphlet, pp. 46-51."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Genealogy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Genealogy Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Genealogy Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Genealogy Requirement 8, a Scout claims: \"Reading a short definition of (a) Explain the effect computers and the internet is enough for Genealogy Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the effect computers and the internet grounded in the official Genealogy pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the effect computers and the internet grounded in the official Genealogy pamphlet.",
-        "explanation": "Per Official BSA Genealogy Pamphlet, pp. 46-51, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the effect computers and the internet grounded in the official Genealogy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Genealogy Workbook organizer table and practical demonstration for Req 8."
     },
@@ -2099,13 +2057,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Discuss what you have learned about your family",
+      "topic_title": "Req 9: What you have learned",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Genealogy Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Genealogy Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Genealogy Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 58)",
+      "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 58)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2122,8 +2080,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Discuss what you have learned about your family is enough for Genealogy Requirement 9 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Discuss what you have learned about your family grounded in the official Genealogy pamphlet."
+        "misconception": "Reading a short definition of What you have learned is enough for Genealogy Requirement 9 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of What you have learned grounded in the official Genealogy pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of What you have learned grounded in the official Genealogy pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 58)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2143,68 +2103,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 9): Discuss what you have learned about your family and your family members through your genealogical research.",
-        "Field Verification Standard: Apply Genealogy Requirement 9 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Genealogy Req 9 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Genealogy Workbook before requesting Requirement 9 sign-off."
+        "Then Tofind Accurate: Then you must know where to go tofind accurate answers.",
+        "Family Movedto United: If your family movedto the United States from another country, it is important to askyour parents or guardians and other relatives.",
+        "Not Formally Interviewing: Even if you are not formally interviewing allthese people, write down or record the information they tell you.",
+        "Not Information Someone: Not all the information someone tells you is necessarilycorrect."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Genealogy requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Discuss what you have learned about your family.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Genealogy Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Relationships Great-uncle: Relationships (such as great-uncle Ralph was Grandpa Erickson’s brother) are usually correct.",
+        "But Names Places: But names, places, and dates may not be accurate.",
+        "Double-check Information: Double-check the information you gather against other records.",
+        "Fun Talk Themand: It can be fun to talk to themand discover what they have and to hear what they know."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Genealogy Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for What you have learned",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Genealogy Approach",
-        "right_header": "Official BSA Genealogy Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Genealogy Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Genealogy Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Discuss what you have learned about your family",
+          "Requirement & Topic": "Req 9 - What you have learned",
           "Primary Standard": "Discuss what you have learned about your family and your family members through your genealogical research.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Genealogy terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Genealogy Pamphlet, pp. 52-57."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Genealogy terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 58) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Genealogy Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Genealogy Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Genealogy Requirement 9, a Scout claims: \"Reading a short definition of Discuss what you have learned about your family is enough for Genealogy Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss what you have learned about your family grounded in the official Genealogy pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss what you have learned about your family grounded in the official Genealogy pamphlet.",
-        "explanation": "Per Official BSA Genealogy Pamphlet, pp. 52-57, Each Scout must actively discuss the specific principles and real-world steps of Discuss what you have learned about your family grounded in the official Genealogy pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Genealogy Workbook organizer table and practical demonstration for Req 9."
     }
   ],
   "badge_slug": "genealogy",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

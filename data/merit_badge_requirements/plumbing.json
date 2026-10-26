@@ -45,10 +45,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Plumbing Requirement 1a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -68,9 +70,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Describe how a properly working plumbing system protects your family's health and safety."
         },
         {
           "sub_id": "1b",
@@ -93,10 +98,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Plumbing Requirement 1b sign-off.",
-            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 1b grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 1b grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 1b grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -116,9 +123,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "List five important local health regulations related to plumbing and tell how they protect health and safety."
         },
         {
           "sub_id": "1c",
@@ -141,10 +151,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Plumbing Requirement 1c sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -164,9 +176,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Describe the safety precautions you must take when making home plumbing repairs."
         }
       ],
       "resources": [
@@ -183,13 +198,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: (a) Describe how a properly working plumbing system",
+      "topic_title": "Req 1: A properly working plumbing system protects",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Plumbing Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Plumbing Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)",
+      "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -209,8 +224,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Describe how a properly working plumbing system is enough for Plumbing Requirement 1 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Describe how a properly working plumbing system grounded in the official Plumbing pamphlet."
+        "misconception": "Reading a short definition of A properly working plumbing system protects is enough for Plumbing Requirement 1 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of A properly working plumbing system protects grounded in the official Plumbing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of A properly working plumbing system protects grounded in the official Plumbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -230,62 +247,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Plumbing Sub-Req 1a: Describe how a properly working plumbing system protects your family's health and safety.",
-        "Plumbing Sub-Req 1b: List five important local health regulations related to plumbing and tell how they protect health and safety.",
-        "Plumbing Sub-Req 1c: Describe the safety precautions you must take when making home plumbing repairs.",
-        "Core Standard 1 (Req 1): Do the following: (a) Describe how a properly working plumbing system protects your family's health and safety."
+        "Plumbing Systems Carry: Plumbing systems carry water into and out of a home through a system of pipes.",
+        "Health Safety People: For the health and safety of the people wholive there, the water entering the home through the water-supplysystem must be pure and clean.",
+        "Wastewater Come Contact: Wastewater should never come into contact with the water thatthe family uses for drinking, bathing, or washing clothes anddishes.",
+        "Main Reason Essential: This is the main reason that it is essential that yourfamily’s plumbing system be properly installed and regularlychecked to make sure it is in good."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Plumbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Describe how a properly working plumbing system.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Plumbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Plumbing Regulations: Plumbing regulations have been developed to help make surethat plumbing is installed and maintained correctly.",
+        "Theseregulations Commonly: Theseregulations, commonly called plumbing codes, are important inpreventing the water-supply system from becoming contaminated.",
+        "National Plumbing Codes: National plumbing codes exist that give specific regulations for all plumbingoperations.",
+        "Communities Adopted: Many communities have adopted these regulationsor amended them to fit their local needs."
       ],
       "gear_checklist": [
         "Official Plumbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Plumbing Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for A properly working plumbing system protects",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Plumbing Approach",
-        "right_header": "Official BSA Plumbing Pamphlet Standard",
+        "right_header": "Official BSA Plumbing Standard (A properly working plumbing system protects)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during A properly working plumbing system protects.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Plumbing Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Plumbing Workbook organizer.",
+          "Clearly demonstrates and explains A properly working plumbing system protects using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Plumbing Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) Describe how a properly working plumbing system",
+          "Requirement & Topic": "Req 1 - A properly working plumbing system protects",
           "Primary Standard": "Describe how a properly working plumbing system protects your family's health and safety.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Plumbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Plumbing Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Plumbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Plumbing Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Plumbing Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Plumbing Requirement 1, a Scout claims: \"Reading a short definition of (a) Describe how a properly working plumbing system is enough for Plumbing Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Plumbing (A properly working plumbing system protects), which patrol preparation step best aligns with the official Plumbing standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Describe how a properly working plumbing system grounded in the official Plumbing pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Plumbing hazards, PPE, and prerequisite standards in Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Describe how a properly working plumbing system grounded in the official Plumbing pamphlet.",
-        "explanation": "Per Official BSA Plumbing Pamphlet, pp. 4-9, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Describe how a properly working plumbing system grounded in the official Plumbing pamphlet."
+        "correct_answer": "Option A - Review the Plumbing hazards, PPE, and prerequisite standards in Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Plumbing Workbook organizer table and practical demonstration for Req 1."
@@ -318,10 +335,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Plumbing Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -341,9 +360,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you would make it safe from freezing."
         },
         {
           "sub_id": "2b",
@@ -366,10 +388,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Plumbing Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -389,9 +413,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Make a drawing and explain the drainage system of the plumbing in a house. Show and explain the use of drains and vents."
         }
       ],
       "resources": [],
@@ -403,13 +430,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: (a) Make a drawing and explain how a",
+      "topic_title": "Req 2: The Plumbing System of a House",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Plumbing Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Plumbing Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)",
+      "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -429,8 +456,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Make a drawing and explain how a is enough for Plumbing Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a drawing and explain how a grounded in the official Plumbing pamphlet."
+        "misconception": "Reading a short definition of The Plumbing System of a House is enough for Plumbing Requirement 2 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The Plumbing System of a House grounded in the official Plumbing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The Plumbing System of a House grounded in the official Plumbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -450,63 +479,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Plumbing Sub-Req 2a: Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you would make it safe from freezing.",
-        "Plumbing Sub-Req 2b: Make a drawing and explain the drainage system of the plumbing in a house. Show and explain the use of drains and vents.",
-        "Core Standard 1 (Req 2): Do the following: (a) Make a drawing and explain how a home hot- and cold-water supply system works.",
-        "Core Standard 2 (Req 2): Tell how you would make it safe from freezing."
+        "Air Vents Importantpart: The air vents are an importantpart of waste disposal, which is why the drainage system isoften called the drain-waste-vent (DWV) system.",
+        "Drain Andvent Pipes: The drain andvent pipes are tied together, or share pipes, and use the sametypes of pipe.",
+        "Illustration Showing: As you can see in the illustration showing the drainageand supply system, the main vent is an extension of the soilpipe.",
+        "Without Air Vents: Without air vents, the plumbing system would becomeair-bound, like a small-necked bottle filled with water and then."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Plumbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Make a drawing and explain how a.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Plumbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Plumbing System House: The plumbing system of a house relies on two basic things: pressure and gravity.",
+        "Feelthe Water Pressure: When you turn on a faucet, you can feelthe water pressure, weak or strong.",
+        "Pressure Comes Pump: The pressure comes from a pump (if the water comes from a well) or from gravity (if the water comes from a water tower or reservoir).",
+        "Flush Toilet Pull: When you flush a toilet or pull the plug from a bathtub, gravity pulls the wasteand water down and away from the house."
       ],
       "gear_checklist": [
         "Official Plumbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Plumbing Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The Plumbing System of a House",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Plumbing Approach",
-        "right_header": "Official BSA Plumbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Plumbing Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Plumbing Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - (a) Make a drawing and explain how a",
-          "Primary Standard": "Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you would make it safe",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Plumbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Plumbing Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - The Plumbing System of a House",
+          "Primary Standard": "Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you would make it safe from freezing.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Plumbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Plumbing Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Plumbing Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Plumbing Requirement 2, a Scout claims: \"Reading a short definition of (a) Make a drawing and explain how a is enough for Plumbing Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a drawing and explain how a grounded in the official Plumbing pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a drawing and explain how a grounded in the official Plumbing pamphlet.",
-        "explanation": "Per Official BSA Plumbing Pamphlet, pp. 10-15, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Make a drawing and explain how a grounded in the official Plumbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Plumbing Workbook organizer table and practical demonstration for Req 2."
     },
@@ -531,13 +537,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: use five important plumber's tools",
+      "topic_title": "Req 3: How to use five important plumber's",
       "action_verb": "Show",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Plumbing Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Plumbing Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 23, p. 24)",
+      "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 23, p. 24)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -557,8 +563,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of use five important plumber's tools is enough for Plumbing Requirement 3 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of use five important plumber's tools grounded in the official Plumbing pamphlet."
+        "misconception": "Reading a short definition of How to use five important plumber's is enough for Plumbing Requirement 3 sign-off.",
+        "fact": "Each Scout must actively show the specific principles and real-world steps of How to use five important plumber's grounded in the official Plumbing pamphlet.",
+        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of How to use five important plumber's grounded in the official Plumbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 23, p. 24)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -578,63 +586,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): Show how to use five important plumber's tools.",
-        "Field Verification Standard: Apply Plumbing Requirement 3 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Plumbing Req 3 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Plumbing Workbook before requesting Requirement 3 sign-off."
+        "Whenusing Pipe Cutter: Whenusing a pipe cutter instead of ahacksaw, you will more easilymake a straight, not slanted, cut.",
+        "Pipe Cutter Makesit: A pipe cutter also makesit easier to avoid bending or crushing a copper pipe.",
+        "Communitycolleges Andtechnical: Communitycolleges andtechnical schoolsoffer excellentplumbing courses.",
+        "Tools Plumbing Yourfamily: Many of the tools used in plumbing will be found in yourfamily tool chest."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Plumbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing use five important plumber's tools.",
-        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Plumbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Course Handle Toolscarefully: As a Scout, you will, of course, handle toolscarefully, especially borrowed ones.",
+        "Yourcare Pay Off: Yourcare will pay off in better workmanship and the satisfactionthat goes with it.",
+        "Permissionfor Plumber Tools: Your merit badge counselor may be able to get permissionfor you to use plumber’s tools in a trade school classroom orin a plumbing.",
+        "Neighborhood Plumbermay: A neighborhood plumbermay be willing to let you use a workbench, vise, and tools andadvise you on their use."
       ],
       "gear_checklist": [
         "Official Plumbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Plumbing Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for How to use five important plumber's",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Plumbing Approach",
-        "right_header": "Official BSA Plumbing Pamphlet Standard",
+        "right_header": "Official BSA Plumbing Standard (How to use five important plumber's)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during How to use five important plumber's.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Plumbing Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Plumbing Merit Badge Pamphlet (p. 23, p. 24) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Plumbing Workbook organizer.",
+          "Clearly demonstrates and explains How to use five important plumber's using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Plumbing Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - use five important plumber's tools",
+          "Requirement & Topic": "Req 3 - How to use five important plumber's",
           "Primary Standard": "Show how to use five important plumber's tools.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Plumbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Plumbing Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Plumbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Plumbing Merit Badge Pamphlet (p. 23, p. 24) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Plumbing Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Plumbing Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Plumbing Requirement 3, a Scout claims: \"Reading a short definition of use five important plumber's tools is enough for Plumbing Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively show the specific principles and real-world steps of use five important plumber's tools grounded in the official Plumbing pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively show the specific principles and real-world steps of use five important plumber's tools grounded in the official Plumbing pamphlet.",
-        "explanation": "Per Official BSA Plumbing Pamphlet, pp. 16-21, Each Scout must actively show the specific principles and real-world steps of use five important plumber's tools grounded in the official Plumbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Plumbing Workbook organizer table and practical demonstration for Req 3."
     },
@@ -654,13 +652,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Identify and explain the following terms: washer, retaining",
+      "topic_title": "Req 4: Electric water heater",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Plumbing Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Plumbing Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 13, p. 19)",
+      "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 13, p. 19)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -677,8 +675,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Identify and explain the following terms: washer, retaining is enough for Plumbing Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Identify and explain the following terms: washer, retaining grounded in the official Plumbing pamphlet."
+        "misconception": "Reading a short definition of Electric water heater is enough for Plumbing Requirement 4 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Electric water heater grounded in the official Plumbing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Electric water heater grounded in the official Plumbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 13, p. 19)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -698,63 +698,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 4): Identify and explain the following terms: washer, retaining nut, plunger (rubber force cup), solder, flux, elbow, tee, nipple, coupling, plug, union, trap, drainpipe, and water meter.",
-        "Field Verification Standard: Apply Plumbing Requirement 4 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Plumbing Req 4 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Plumbing Workbook before requesting Requirement 4 sign-off."
+        "Electric Water Heater: Electric water heater A solar system uses a storage tank.",
+        "Pressure Pump Pushes: A pressure pump pushes water through therooftop solar collectors to the storage tankuntil the water is heated.",
+        "Gas Orelectric Water: Usually a gas orelectric water heater is used as a backup forcloudy days.",
+        "Exacttemperature Water Turns: The exacttemperature at which water turns to steamdepends upon the pressure."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Plumbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Identify and explain the following terms: washer, retaining.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Plumbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Hot-waterheating Systems: All hot-waterheating systems have temperature andpressure-relief valves that allow for thisexpansion and the escape of steam.",
+        "Properly Working Valve: A properly working valve will prevent explosions.",
+        "Least Once Year: At least once each year, a knowledgeable adult should shut off the power andwater and drain the hot-water heater toremove sediment that collects.",
+        "Sediment Prevent Yourrelief: Such sediment can prevent yourrelief valves and thermostats from workingcorrectly."
       ],
       "gear_checklist": [
         "Official Plumbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Plumbing Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Electric water heater",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Plumbing Approach",
-        "right_header": "Official BSA Plumbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Plumbing Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Plumbing Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Identify and explain the following terms: washer, retaining",
-          "Primary Standard": "Identify and explain the following terms: washer, retaining nut, plunger (rubber force cup), solder, flux, elb",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Plumbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Plumbing Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Electric water heater",
+          "Primary Standard": "Identify and explain the following terms: washer, retaining nut, plunger (rubber force cup), solder, flux, elbow, tee, nipple, coupling, plug, union, trap, drainpipe, and water meter.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Plumbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Plumbing Merit Badge Pamphlet (p. 13, p. 19) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Plumbing Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Plumbing Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Plumbing Requirement 4, a Scout claims: \"Reading a short definition of Identify and explain the following terms: washer, retaining is enough for Plumbing Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Identify and explain the following terms: washer, retaining grounded in the official Plumbing pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Identify and explain the following terms: washer, retaining grounded in the official Plumbing pamphlet.",
-        "explanation": "Per Official BSA Plumbing Pamphlet, pp. 22-27, Each Scout must actively explain the specific principles and real-world steps of Identify and explain the following terms: washer, retaining grounded in the official Plumbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Plumbing Workbook organizer table and practical demonstration for Req 4."
     },
@@ -779,13 +756,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Name the kinds of pipe that are used",
-      "action_verb": "Name",
+      "topic_title": "Req 5: Name the kinds of pipe",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Plumbing Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Plumbing Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 28, p. 31)",
+      "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 28, p. 31)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -802,8 +779,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Name the kinds of pipe that are used is enough for Plumbing Requirement 5 sign-off.",
-        "fact": "Each Scout must actively name the specific principles and real-world steps of Name the kinds of pipe that are used grounded in the official Plumbing pamphlet."
+        "misconception": "Reading a short definition of Name the kinds of pipe is enough for Plumbing Requirement 5 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Name the kinds of pipe grounded in the official Plumbing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Name the kinds of pipe grounded in the official Plumbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 28, p. 31)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -823,63 +802,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 5): Name the kinds of pipe that are used most often in a plumbing system.",
-        "Core Standard 2 (Req 5): Explain why these pipes are used.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Plumbing Req 5 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Plumbing Workbook before requesting Requirement 5 sign-off."
+        "Pipes Fittings Different: Pipes and fittings are made of many different materials.",
+        "Homesbuilt Built Cast-iron: Homesbuilt before the 1950s were built with cast-iron and galvanizedsteel pipes.",
+        "Instance Kindof Plastic: For instance, a kindof plastic pipe called PVC used to be installed for hot- andcold-water supply, but the hot water made the pipe loseits strength.",
+        "Reason PVC Pipe: For this reason, PVC pipe isno longer recommended for use in the indoor water system."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Plumbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Name the kinds of pipe that are used.",
-        "Execute & Document: Perform the name task methodically with your patrol buddy and log specific observations in your Plumbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Outdated Product Galvanized: Another outdated product is the galvanized steel pipe.",
+        "Galvanized-steel Pipes: Galvanized-steel pipes are strong at first, but corrode andleak after about 50 years.",
+        "Days Steel Pipes: These days, steel pipes are usedmostly for gas installation, not for water.",
+        "Join Pipesmade: You can join pipesmade of differentmaterials if youfollow your localcode and use theproper fittings."
       ],
       "gear_checklist": [
         "Official Plumbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Plumbing Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Name the kinds of pipe",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Plumbing Approach",
-        "right_header": "Official BSA Plumbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Plumbing Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Plumbing Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Name the kinds of pipe that are used",
+          "Requirement & Topic": "Req 5 - Name the kinds of pipe",
           "Primary Standard": "Name the kinds of pipe that are used most often in a plumbing system. Explain why these pipes are used.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Plumbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Plumbing Pamphlet, pp. 28-33."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Plumbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Plumbing Merit Badge Pamphlet (p. 28, p. 31) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Plumbing Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Plumbing Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Plumbing Requirement 5, a Scout claims: \"Reading a short definition of Name the kinds of pipe that are used is enough for Plumbing Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively name the specific principles and real-world steps of Name the kinds of pipe that are used grounded in the official Plumbing pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively name the specific principles and real-world steps of Name the kinds of pipe that are used grounded in the official Plumbing pamphlet.",
-        "explanation": "Per Official BSA Plumbing Pamphlet, pp. 28-33, Each Scout must actively name the specific principles and real-world steps of Name the kinds of pipe that are used grounded in the official Plumbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Plumbing Workbook organizer table and practical demonstration for Req 5."
     },
@@ -917,10 +873,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6a(1) is enough for Plumbing Requirement 6a(1) sign-off.",
-                "fact": "Each Scout must actively pvc the specific principles and real-world steps of Req 6a(1) grounded in the official Plumbing pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(1) grounded in the official Plumbing pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(1) grounded in the official Plumbing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -940,9 +898,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6a(1)",
+              "sub_req_label": "6a(1)",
+              "sub_req_text": "PVC pipe and fittings"
             },
             {
               "sub_id": "6a(2)",
@@ -965,10 +926,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6a(2) is enough for Plumbing Requirement 6a(2) sign-off.",
-                "fact": "Each Scout must actively cpvc the specific principles and real-world steps of Req 6a(2) grounded in the official Plumbing pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(2) grounded in the official Plumbing pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(2) grounded in the official Plumbing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -988,9 +951,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6a(2)",
+              "sub_req_label": "6a(2)",
+              "sub_req_text": "CPVC pipe and fittings"
             },
             {
               "sub_id": "6a(3)",
@@ -1013,10 +979,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6a(3) is enough for Plumbing Requirement 6a(3) sign-off.",
-                "fact": "Each Scout must actively pex the specific principles and real-world steps of Req 6a(3) grounded in the official Plumbing pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(3) grounded in the official Plumbing pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(3) grounded in the official Plumbing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1036,9 +1004,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6a(3)",
+              "sub_req_label": "6a(3)",
+              "sub_req_text": "PEX pipe and fittings"
             },
             {
               "sub_id": "6a(4)",
@@ -1061,10 +1032,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6a(4) is enough for Plumbing Requirement 6a(4) sign-off.",
-                "fact": "Each Scout must actively copper the specific principles and real-world steps of Req 6a(4) grounded in the official Plumbing pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(4) grounded in the official Plumbing pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(4) grounded in the official Plumbing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1084,9 +1057,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6a(4)",
+              "sub_req_label": "6a(4)",
+              "sub_req_text": "Copper pipe and fittings"
             },
             {
               "sub_id": "6a(5)",
@@ -1109,10 +1085,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6a(5) is enough for Plumbing Requirement 6a(5) sign-off.",
-                "fact": "Each Scout must actively steel the specific principles and real-world steps of Req 6a(5) grounded in the official Plumbing pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(5) grounded in the official Plumbing pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(5) grounded in the official Plumbing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1132,9 +1110,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6a(5)",
+              "sub_req_label": "6a(5)",
+              "sub_req_text": "Steel pipe and fittings"
             },
             {
               "sub_id": "6a(6)",
@@ -1157,10 +1138,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+              "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 6a(6) is enough for Plumbing Requirement 6a(6) sign-off.",
-                "fact": "Each Scout must actively specialty the specific principles and real-world steps of Req 6a(6) grounded in the official Plumbing pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(6) grounded in the official Plumbing pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a(6) grounded in the official Plumbing pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1180,9 +1163,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "6a(6)",
+              "sub_req_label": "6a(6)",
+              "sub_req_text": "Specialty plumbing tools"
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1200,10 +1186,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Plumbing Requirement 6a sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 6a grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 6a grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 6a grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1223,9 +1211,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Visit the plumbing section of a hardware store or home center and identify: (1) PVC pipe and fittings (2) CPVC pipe and fittings (3) PEX pipe and fittings (4) Copper pipe and fittings (5) Steel pipe and fittings (6) Specialty plumbing tools"
         },
         {
           "sub_id": "6b",
@@ -1253,10 +1244,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Plumbing Requirement 6b sign-off.",
-            "fact": "Each Scout must actively cut the specific principles and real-world steps of Req 6b grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1276,9 +1269,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Cut, clean (deburr), PVC or CPVC pipe; solvent weld at least three connections to include a coupling, tee, and elbow."
         },
         {
           "sub_id": "6c",
@@ -1304,10 +1300,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Plumbing Requirement 6c sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 6c grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 6c grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 6c grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1327,9 +1325,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Cut PEX pipe; make at least one connection using either a quick-connect fitting or a crimp fitting (using specialized tools)."
         },
         {
           "sub_id": "6d",
@@ -1357,10 +1358,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Plumbing Requirement 6d sign-off.",
-            "fact": "Each Scout must actively solder the specific principles and real-world steps of Req 6d grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1380,9 +1383,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "Solder a copper connection using a gas torch."
         },
         {
           "sub_id": "6e",
@@ -1414,10 +1420,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6e is enough for Plumbing Requirement 6e sign-off.",
-            "fact": "Each Scout must actively replace the specific principles and real-world steps of Req 6e grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1437,9 +1445,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6e",
+          "sub_req_label": "6e",
+          "sub_req_text": "Replace a kitchen or lavatory faucet."
         },
         {
           "sub_id": "6f",
@@ -1467,10 +1478,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6f is enough for Plumbing Requirement 6f sign-off.",
-            "fact": "Each Scout must actively remove the specific principles and real-world steps of Req 6f grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6f grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6f grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1490,9 +1503,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6f",
+          "sub_req_label": "6f",
+          "sub_req_text": "Remove, clean or replace, and reinstall a sink or lavatory drain trap."
         },
         {
           "sub_id": "6g",
@@ -1515,10 +1531,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6g is enough for Plumbing Requirement 6g sign-off.",
-            "fact": "Each Scout must actively properly the specific principles and real-world steps of Req 6g grounded in the official Plumbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6g grounded in the official Plumbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6g grounded in the official Plumbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1538,9 +1556,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6g",
+          "sub_req_label": "6g",
+          "sub_req_text": "Properly apply pipe thread tape to a pipe or a plumbing connector."
         }
       ],
       "resources": [
@@ -1577,13 +1598,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Do FOUR of the following, each under the",
-      "action_verb": "Explain",
+      "topic_title": "Req 6: Each under the supervision",
+      "action_verb": "Visit",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Plumbing Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
+      "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1600,8 +1621,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Do FOUR of the following, each under the is enough for Plumbing Requirement 6 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Do FOUR of the following, each under the grounded in the official Plumbing pamphlet."
+        "misconception": "Reading a short definition of Each under the supervision is enough for Plumbing Requirement 6 sign-off.",
+        "fact": "Each Scout must actively visit the specific principles and real-world steps of Each under the supervision grounded in the official Plumbing pamphlet.",
+        "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Each under the supervision grounded in the official Plumbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1621,63 +1644,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Plumbing Sub-Req 6a: Visit the plumbing section of a hardware store or home center and identify: (1) PVC pipe and fittings (2) CPVC pipe and fittings (3).",
-        "Plumbing Sub-Req 6a(1): PVC pipe and fittings",
-        "Plumbing Sub-Req 6a(2): CPVC pipe and fittings",
-        "Plumbing Sub-Req 6a(3): PEX pipe and fittings"
+        "Vent Connection Vertical: Vent connection for vertical waste pipe VENT PIPE WASTE PIPE TRAP Vent connector for horizontal waste pipe turned upside down.",
+        "Waterwould Run Out: The waterwould run out of the bottle verynoisily, and it would take the bottle a long time to empty.",
+        "However Ahole Size: However, if ahole the size of the bottleneck weremade in the bottom of the bottle, the water would readily escapewhen the bottle was tipped.",
+        "Forthe Same Reasons: Forthe same reasons, it is necessaryto vent the plumbing at the properplaces and with the proper sizeof pipe."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Plumbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Do FOUR of the following, each under the.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Plumbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Vents Allow Sewer: Vents also allow sewer gas to pass out safely abovethe level of open windows and people.",
+        "Water Rests Trap: Water rests in the trap and is called a water seal.",
+        "Water Seal Permits: The water seal permits liquids and solids, but not air, to passthrough the pipe.",
+        "Result Drain Air: As a result, any drain air or sewer gas thatmight gather in the drainage system cannot make its way intoyour home."
       ],
       "gear_checklist": [
         "Official Plumbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Plumbing Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Each under the supervision",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Plumbing Approach",
-        "right_header": "Official BSA Plumbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Plumbing Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Plumbing Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Do FOUR of the following, each under the",
-          "Primary Standard": "Visit the plumbing section of a hardware store or home center and identify: (1) PVC pipe and fittings (2) CPVC",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Plumbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Plumbing Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Each under the supervision",
+          "Primary Standard": "Visit the plumbing section of a hardware store or home center and identify: (1) PVC pipe and fittings (2) CPVC pipe and fittings (3) PEX pipe and fittings (4) Copper pipe and fittings (5) Steel pipe and fittings (6) Specialty plumbing tools.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Plumbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Plumbing Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Plumbing Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Plumbing Requirement 6, a Scout claims: \"Reading a short definition of Do FOUR of the following, each under the is enough for Plumbing Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Do FOUR of the following, each under the grounded in the official Plumbing pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Do FOUR of the following, each under the grounded in the official Plumbing pamphlet.",
-        "explanation": "Per Official BSA Plumbing Pamphlet, pp. 34-39, Each Scout must actively explain the specific principles and real-world steps of Do FOUR of the following, each under the grounded in the official Plumbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Plumbing Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1706,13 +1706,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Plumbing Careers, Training & Hobby Pathways",
+      "topic_title": "Req 7: Careers & Professional Pathways",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Plumbing Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Plumbing Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Plumbing Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 8, p. 40)",
+      "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 8, p. 40)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1729,8 +1729,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Plumbing career exploration requirement.",
-        "fact": "Scouts must research three Plumbing careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Plumbing career exploration requirement.",
+        "fact": "Scouts must research specific Plumbing career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Plumbing career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 8, p. 40)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1750,68 +1752,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 7): Identify three career opportunities that would use skills and knowledge in plumbing.",
-        "Core Standard 2 (Req 7): Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field.",
-        "Core Standard 3 (Req 7): Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
-        "Core Standard 4 (Req 7): Discuss what you learned with your counselor and whether you might be interested in this career."
+        "Plumbing Pipe Fitting: Plumbing, including pipe fitting, is an important and well-paidoccupation.",
+        "Covers Installationsand: It covers installationsand repairs in homes, commercial properties, and factories.",
+        "Plumbing Pipelines Water: Plumbing pipelines are used for water supply, waste drainage, natural-gas heating, and many other purposes.",
+        "Major Interest Plumbing: As a Scout, your major interest in plumbing probably willbe in the field of home repairs."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Plumbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Plumbing Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Plumbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Faucet Leaks Pipe: If a faucet leaks, a pipe freezes, or a plumbing fixture does not operate properly, you will wantto know how to evaluate the problem.",
+        "Then Todecide Proper: Then you will be able todecide on the proper steps to take to fix the problem, or determine that the job requires a professional plumber.",
+        "Discover Plumbing Problem: When you discover a plumbing problem, you canoften take care of basic plumbing needs, but rememberthat a plumber is like a doctor.",
+        "Serious Trouble Orproblems: For serious trouble orproblems beyond your ability, you should get helpfrom a trained specialist."
       ],
       "gear_checklist": [
         "Official Plumbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Plumbing Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Plumbing Approach",
-        "right_header": "Official BSA Plumbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Plumbing Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Plumbing Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Plumbing Careers, Training & Hobby Pathways",
-          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in plumbing. Pick one and research the",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Plumbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Plumbing Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Careers & Professional Pathways",
+          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in plumbing.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Plumbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Plumbing Merit Badge Pamphlet (p. 8, p. 40) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Plumbing Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Plumbing Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Plumbing Requirement 7, a Scout claims: \"Listing three job titles from a web search satisfies the Plumbing career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Plumbing careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Plumbing careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Plumbing Pamphlet, pp. 40-45, Scouts must research three Plumbing careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Plumbing Workbook organizer table and practical demonstration for Req 7."
     }
   ],
   "badge_slug": "plumbing",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

@@ -40,10 +40,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Action Sports hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -63,9 +65,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while participating in action sports (skateboarding or snowboarding) and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
         },
         {
           "sub_id": "1b",
@@ -88,10 +93,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Straighten an angled bone or dislocated joint before tying a rigid splint.",
-            "fact": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying."
+            "fact": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying.",
+            "fact_correction": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying.",
+            "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -111,9 +118,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Review prevention, symptoms, and first-aid treatment for hypothermia, frostbite, dehydration, sunburn, heat exhaustion, heatstroke, blisters, sprains, strains, fractures, head/concussion injuries, and spinal injuries."
         },
         {
           "sub_id": "1c",
@@ -123,26 +133,25 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "RULED_EXPLAIN_BOX",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 1c Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
             ],
-            "min_rows": 4,
+            "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Action Sports Requirement 1c sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1c grounded in the official Action Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Action Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Action Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": {
             "gate_type": "EQUIPMENT_GATE",
@@ -167,9 +176,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Show your helmet, wrist guards, knee/elbow pads, boots, and bindings, and explain how to inspect and fit them properly."
         }
       ],
       "resources": [],
@@ -181,13 +193,13 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: Action Sports Hazards, PPE & First Aid Response",
+      "topic_title": "Req 1: Hazards, First Aid & Safety",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Action Sports Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Action Sports Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
+      "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
@@ -207,7 +219,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Action Sports hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
       },
       "starting_requirement_gate": {
         "gate_type": "EQUIPMENT_GATE",
@@ -232,62 +246,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Action Sports Sub-Req 1a: Explain to your counselor the most likely hazards you may encounter while participating in action sports (skateboarding or snowboarding) and what you should do.",
-        "Action Sports Sub-Req 1b: Review prevention, symptoms, and first-aid treatment for hypothermia, frostbite, dehydration, sunburn, heat exhaustion, heatstroke, blisters, sprains, strains, fractures, head/concussion injuries, and spinal injuries.",
+        "Action Sports Sub-Req 1a: Explain to your counselor the most likely hazards you may encounter while participating in action sports (skateboarding or snowboarding) and what you.",
+        "Action Sports Sub-Req 1b: Review prevention, symptoms, and first-aid treatment for hypothermia, frostbite, dehydration, sunburn, heat exhaustion, heatstroke, blisters, sprains, strains.",
         "Action Sports Sub-Req 1c: Show your helmet, wrist guards, knee/elbow pads, boots, and bindings, and explain how to inspect and fit them properly.",
-        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in action sports (skateboarding or snowboarding) and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
+        "Core Standard 1 (Req 1): (a) Explain to your counselor the most likely hazards you may encounter while participating in action sports (skateboarding or snowboarding) and what you."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Action Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Action Sports Hazards, PPE & First Aid Response.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Action Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 1): Read the official Action Sports requirement and identify the key questions, terms, or skills covered in Hazards, First Aid & Safety.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Action Sports Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Demonstrate): Work with your patrol buddy or family (as required) to demonstrate each element of Hazards, First Aid & Safety with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and demonstrate your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Action Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Action Sports Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Action Sports Approach",
-        "right_header": "Official BSA Action Sports Pamphlet Standard",
+        "right_header": "Official BSA Action Sports Standard (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Action Sports Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Action Sports Merit Badge Pamphlet and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Action Sports Workbook organizer.",
+          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Action Sports Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Action Sports Hazards, PPE & First Aid Response",
-          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in action sports (skat",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Action Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Action Sports Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
+          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in action sports (skateboarding or snowboarding) and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Action Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Action Sports Merit Badge Pamphlet and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Action Sports Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Action Sports Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Action Sports Requirement 1, a Scout claims: \"Scouts can jump straight into Action Sports hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Action Sports (Hazards, First Aid & Safety), which patrol preparation step best aligns with the official Action Sports standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Action Sports hazards, PPE, and prerequisite standards in Official Scouting America Action Sports Merit Badge Pamphlet with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries.",
-        "explanation": "Per Official BSA Action Sports Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries."
+        "correct_answer": "Option A - Review the Action Sports hazards, PPE, and prerequisite standards in Official Scouting America Action Sports Merit Badge Pamphlet with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Action Sports Merit Badge Pamphlet, anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Action Sports Workbook organizer table and practical demonstration for Req 1."
@@ -320,10 +334,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Action Sports Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Action Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Action Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Action Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -343,9 +359,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule is vital to rider and bystander safety."
         },
         {
           "sub_id": "2b",
@@ -371,10 +390,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Action Sports Requirement 2b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b grounded in the official Action Sports pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b grounded in the official Action Sports pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b grounded in the official Action Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -394,9 +415,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Demonstrate a warm-up, stretching, and conditioning routine for action sports."
         }
       ],
       "resources": [],
@@ -408,13 +432,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark",
+      "topic_title": "Req 2: The Skier/Snowboarder Responsibility Code or Skatepark",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Action Sports Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Action Sports Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
+      "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -434,8 +458,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark is enough for Action Sports Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark grounded in the official Action Sports pamphlet."
+        "misconception": "Reading a short definition of The Skier/Snowboarder Responsibility Code or Skatepark is enough for Action Sports Requirement 2 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The Skier/Snowboarder Responsibility Code or Skatepark grounded in the official Action Sports pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The Skier/Snowboarder Responsibility Code or Skatepark grounded in the official Action Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -455,63 +481,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
         "Action Sports Sub-Req 2a: Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule is vital to rider and bystander safety.",
         "Action Sports Sub-Req 2b: Demonstrate a warm-up, stretching, and conditioning routine for action sports.",
-        "Core Standard 1 (Req 2): Do the following: (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule is vital to rider and bystander safety.",
+        "Core Standard 1 (Req 2): (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule is vital to rider and bystander safety.",
         "Core Standard 2 (Req 2): (b) Demonstrate a warm-up, stretching, and conditioning routine for action sports."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Action Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Action Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 2): Read the official Action Sports requirement and identify the key questions, terms, or skills covered in The Skier/Snowboarder Responsibility Code or Skatepark.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Action Sports Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Demonstrate): Work with your patrol buddy or family (as required) to demonstrate each element of The Skier/Snowboarder Responsibility Code or Skatepark with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and demonstrate your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Action Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Action Sports Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The Skier/Snowboarder Responsibility Code or Skatepark",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Action Sports Approach",
-        "right_header": "Official BSA Action Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Action Sports Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Action Sports Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark",
-          "Primary Standard": "Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule i",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Action Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Action Sports Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - The Skier/Snowboarder Responsibility Code or Skatepark",
+          "Primary Standard": "Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule is vital to rider and bystander safety.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Action Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Action Sports Merit Badge Pamphlet and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Action Sports Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Action Sports Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Action Sports Requirement 2, a Scout claims: \"Reading a short definition of (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark is enough for Action Sports Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark grounded in the official Action Sports pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark grounded in the official Action Sports pamphlet.",
-        "explanation": "Per Official BSA Action Sports Pamphlet, pp. 10-15, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark grounded in the official Action Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Action Sports Workbook organizer table and practical demonstration for Req 2."
     },
@@ -531,13 +534,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Identify the parts of your skateboard (deck, grip",
+      "topic_title": "Req 3: Parts of your skateboard or snowboard",
       "action_verb": "Identify",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Action Sports Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Action Sports Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
+      "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -557,8 +560,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Identify the parts of your skateboard (deck, grip is enough for Action Sports Requirement 3 sign-off.",
-        "fact": "Each Scout must actively identify the specific principles and real-world steps of Identify the parts of your skateboard (deck, grip grounded in the official Action Sports pamphlet."
+        "misconception": "Reading a short definition of Parts of your skateboard or snowboard is enough for Action Sports Requirement 3 sign-off.",
+        "fact": "Each Scout must actively identify the specific principles and real-world steps of Parts of your skateboard or snowboard grounded in the official Action Sports pamphlet.",
+        "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Parts of your skateboard or snowboard grounded in the official Action Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -578,63 +583,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance.",
-        "Field Verification Standard: Apply Action Sports Requirement 3 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
+        "Core Standard 1 (Req 3): Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker.",
+        "Key Terminology & Evidence: Document specific examples, definitions, and field observations for Parts of your skateboard or snowboard in your Action Sports Workbook.",
         "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Action Sports Req 3 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Action Sports Workbook before requesting Requirement 3 sign-off."
+        "Counselor Conference Readiness: Be prepared to identify your findings and personal reflections on Parts of your skateboard or snowboard with your Merit Badge Counselor."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Action Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Identify the parts of your skateboard (deck, grip.",
-        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Action Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 3): Read the official Action Sports requirement and identify the key questions, terms, or skills covered in Parts of your skateboard or snowboard.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Action Sports Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Identify): Work with your patrol buddy or family (as required) to identify each element of Parts of your skateboard or snowboard with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and identify your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Action Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Action Sports Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Parts of your skateboard or snowboard",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Action Sports Approach",
-        "right_header": "Official BSA Action Sports Pamphlet Standard",
+        "right_header": "Official BSA Action Sports Standard (Parts of your skateboard or snowboard)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Parts of your skateboard or snowboard.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Action Sports Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Action Sports Merit Badge Pamphlet and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Action Sports Workbook organizer.",
+          "Clearly demonstrates and explains Parts of your skateboard or snowboard using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Action Sports Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Identify the parts of your skateboard (deck, grip",
-          "Primary Standard": "Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowbo",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Action Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Action Sports Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Parts of your skateboard or snowboard",
+          "Primary Standard": "Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Action Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Action Sports Merit Badge Pamphlet and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Action Sports Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Action Sports Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Action Sports Requirement 3, a Scout claims: \"Reading a short definition of Identify the parts of your skateboard (deck, grip is enough for Action Sports Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively identify the specific principles and real-world steps of Identify the parts of your skateboard (deck, grip grounded in the official Action Sports pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively identify the specific principles and real-world steps of Identify the parts of your skateboard (deck, grip grounded in the official Action Sports pamphlet.",
-        "explanation": "Per Official BSA Action Sports Pamphlet, pp. 16-21, Each Scout must actively identify the specific principles and real-world steps of Identify the parts of your skateboard (deck, grip grounded in the official Action Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Action Sports Workbook organizer table and practical demonstration for Req 3."
     },
@@ -666,10 +661,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Action Sports Requirement 4a sign-off.",
-            "fact": "Each Scout must actively stance the specific principles and real-world steps of Req 4a grounded in the official Action Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Action Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Action Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -689,9 +686,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape)."
         },
         {
           "sub_id": "4b",
@@ -714,10 +714,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Action Sports Requirement 4b sign-off.",
-            "fact": "Each Scout must actively carving the specific principles and real-world steps of Req 4b grounded in the official Action Sports pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Action Sports pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Action Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -737,9 +739,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Carving turns (frontside and backside), weight transfer, falling safely, and navigating slopes or skatepark transitions under full control."
         }
       ],
       "resources": [],
@@ -751,13 +756,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Choose ONE option (Skateboarding OR Snowboarding) and demonstrate",
-      "action_verb": "Choose",
+      "topic_title": "Req 4: Choose ONE option",
+      "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Action Sports Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Action Sports Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
+      "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -777,8 +782,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Choose ONE option (Skateboarding OR Snowboarding) and demonstrate is enough for Action Sports Requirement 4 sign-off.",
-        "fact": "Each Scout must actively choose the specific principles and real-world steps of Choose ONE option (Skateboarding OR Snowboarding) and demonstrate grounded in the official Action Sports pamphlet."
+        "misconception": "Reading a short definition of Choose ONE option is enough for Action Sports Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Choose ONE option grounded in the official Action Sports pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Choose ONE option grounded in the official Action Sports pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -798,63 +805,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
         "Action Sports Sub-Req 4a: Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape).",
         "Action Sports Sub-Req 4b: Carving turns (frontside and backside), weight transfer, falling safely, and navigating slopes or skatepark transitions under full control.",
         "Core Standard 1 (Req 4): Choose ONE option (Skateboarding OR Snowboarding) and demonstrate fundamental riding skills: (a) Stance (regular vs.",
-        "Core Standard 2 (Req 4): goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape)."
+        "Core Standard 2 (Req 4): Goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape)."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Action Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Choose ONE option (Skateboarding OR Snowboarding) and demonstrate.",
-        "Execute & Document: Perform the choose task methodically with your patrol buddy and log specific observations in your Action Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 4): Read the official Action Sports requirement and identify the key questions, terms, or skills covered in Choose ONE option.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Action Sports Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Demonstrate): Work with your patrol buddy or family (as required) to demonstrate each element of Choose ONE option with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and demonstrate your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Action Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Action Sports Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Choose ONE option",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Action Sports Approach",
-        "right_header": "Official BSA Action Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Action Sports Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Action Sports Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Choose ONE option (Skateboarding OR Snowboarding) and demonstrate",
-          "Primary Standard": "Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (fo",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Action Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Action Sports Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Choose ONE option",
+          "Primary Standard": "Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape).",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Action Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Action Sports Merit Badge Pamphlet and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Action Sports Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Action Sports Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Action Sports Requirement 4, a Scout claims: \"Reading a short definition of Choose ONE option (Skateboarding OR Snowboarding) and demonstrate is enough for Action Sports Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively choose the specific principles and real-world steps of Choose ONE option (Skateboarding OR Snowboarding) and demonstrate grounded in the official Action Sports pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively choose the specific principles and real-world steps of Choose ONE option (Skateboarding OR Snowboarding) and demonstrate grounded in the official Action Sports pamphlet.",
-        "explanation": "Per Official BSA Action Sports Pamphlet, pp. 22-27, Each Scout must actively choose the specific principles and real-world steps of Choose ONE option (Skateboarding OR Snowboarding) and demonstrate grounded in the official Action Sports pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Action Sports Workbook organizer table and practical demonstration for Req 4."
     },
@@ -889,15 +873,17 @@
             "min_rows": 4,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Action Sports Requirement 5a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5a grounded in the official Action Sports pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5a grounded in the official Action Sports pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5a grounded in the official Action Sports pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
             "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Obtain your Merit Badge Counselor's approval on your Action Sports Req 5a plan before executing the project.",
+            "gate_description": "Review your Action Sports Req 5a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -917,9 +903,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Demonstrate three intermediate maneuvers or tricks approved by your counselor in a supervised skatepark or snow terrain park."
         },
         {
           "sub_id": "5b",
@@ -927,7 +916,7 @@
           "text": "Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and explore careers or volunteer roles (such as National Ski Patrol, adaptive sports instructor, or equipment engineer) in action sports.",
           "resources": [],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
             "headers": [
@@ -942,10 +931,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Action Sports career exploration requirement.",
-            "fact": "Scouts must research three Action Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Action Sports career exploration requirement.",
+            "fact": "Scouts must research specific Action Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Action Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -965,9 +956,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and explore careers or volunteer roles (such as National Ski Patrol, adaptive sports instructor, or equipment engineer) in action sports."
         }
       ],
       "resources": [],
@@ -979,14 +973,14 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Action Sports Careers, Training & Hobby Pathways",
+      "topic_title": "Req 5: Leave No Trace & Outdoor Ethics",
       "action_verb": "Demonstrate",
-      "execution_mode": "HANDS_ON_SKILL_STATION",
-      "edge_phase": "Demonstrate, Guide & Enable",
+      "execution_mode": "IN_CLASS_DISCUSSION",
+      "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Action Sports Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Action Sports Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Action Sports Pamphlet, pp. 28-33",
-      "syllabus_bucket": "In-Class Demonstration",
+      "pamphlet_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
+      "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
+      "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
         "headers": [
@@ -1005,13 +999,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Action Sports career exploration requirement.",
-        "fact": "Scouts must research three Action Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Action Sports career exploration requirement.",
+        "fact": "Scouts must research specific Action Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Action Sports career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
         "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Obtain your Merit Badge Counselor's approval on your Action Sports Req 5 plan before executing the project.",
+        "gate_description": "Review your Action Sports Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1031,68 +1027,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
         "Action Sports Sub-Req 5a: Demonstrate three intermediate maneuvers or tricks approved by your counselor in a supervised skatepark or snow terrain park.",
         "Action Sports Sub-Req 5b: Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and explore careers or volunteer roles (such as National Ski.",
-        "Core Standard 1 (Req 5): Do the following: (a) Demonstrate three intermediate maneuvers or tricks approved by your counselor in a supervised skatepark or snow terrain park.",
-        "Core Standard 2 (Req 5): (b) Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and explore careers or volunteer roles (such as National Ski Patrol, adaptive sports instructor, or equipment engineer) in action sports."
+        "Core Standard 1 (Req 5): (a) Demonstrate three intermediate maneuvers or tricks approved by your counselor in a supervised skatepark or snow terrain park.",
+        "Core Standard 2 (Req 5): (b) Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and explore careers or volunteer roles."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Action Sports requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Action Sports Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Action Sports Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Step 1 - Review Standard (Req 5): Read the official Action Sports requirement and identify the key questions, terms, or skills covered in Leave No Trace & Outdoor Ethics.",
+        "Step 2 - Gather Evidence & Examples: Research the required facts in the Action Sports Pamphlet and record structured notes in your Scout Workbook.",
+        "Step 3 - Practice & Apply (Demonstrate): Work with your patrol buddy or family (as required) to demonstrate each element of Leave No Trace & Outdoor Ethics with concrete real-world examples.",
+        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and demonstrate your understanding to your Merit Badge Counselor for Blue Card verification."
       ],
       "gear_checklist": [
         "Official Action Sports Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Action Sports Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Leave No Trace & Outdoor Ethics",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Action Sports Approach",
-        "right_header": "Official BSA Action Sports Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Action Sports Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Action Sports Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Action Sports Careers, Training & Hobby Pathways",
-          "Primary Standard": "Demonstrate three intermediate maneuvers or tricks approved by your counselor in a supervised skatepark or sno",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Action Sports terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Action Sports Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Leave No Trace & Outdoor Ethics",
+          "Primary Standard": "Demonstrate three intermediate maneuvers or tricks approved by your counselor in a supervised skatepark or snow terrain park.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Action Sports terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Action Sports Merit Badge Pamphlet and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Action Sports Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Action Sports Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Action Sports Requirement 5, a Scout claims: \"Listing three job titles from a web search satisfies the Action Sports career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Action Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Action Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Action Sports Pamphlet, pp. 28-33, Scouts must research three Action Sports careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
-      "estimated_minutes": 20,
+      "quiz_item": null,
+      "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Action Sports Workbook organizer table and practical demonstration for Req 5."
     }
   ],
   "badge_slug": "action-sports",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

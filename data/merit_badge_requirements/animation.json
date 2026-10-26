@@ -45,10 +45,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Animation Requirement 1a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Animation pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Animation pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Animation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -68,9 +70,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "In your own words, describe to your counselor what animation is."
         },
         {
           "sub_id": "1b",
@@ -102,10 +107,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Animation Requirement 1b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Animation pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Animation pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Animation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -125,9 +132,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Discuss with your counselor a brief history of animation."
         }
       ],
       "resources": [
@@ -152,13 +162,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: General Knowledge. Do the following: (a) In your",
-      "action_verb": "General",
+      "topic_title": "Req 1: General Knowledge",
+      "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Animation Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Animation Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)",
+      "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -175,8 +185,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of General Knowledge. Do the following: (a) In your is enough for Animation Requirement 1 sign-off.",
-        "fact": "Each Scout must actively general the specific principles and real-world steps of General Knowledge. Do the following: (a) In your grounded in the official Animation pamphlet."
+        "misconception": "Reading a short definition of General Knowledge is enough for Animation Requirement 1 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of General Knowledge grounded in the official Animation pamphlet.",
+        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of General Knowledge grounded in the official Animation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -196,62 +208,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Animation Sub-Req 1a: In your own words, describe to your counselor what animation is.",
-        "Animation Sub-Req 1b: Discuss with your counselor a brief history of animation.",
-        "Core Standard 1 (Req 1): General Knowledge.",
-        "Core Standard 2 (Req 1): Do the following: (a) In your own words, describe to your counselor what animation is."
+        "History Animation Old: The history of animation is as old as the history of storytelling.",
+        "Word Animate Means: The word animate means “alive.” When early humans firstpainted animals and hunting scenes on cave walls, they lit firesto show off their work.",
+        "Dancing Flames Cast: The dancing flames cast irregular light inthe caves, making the images of prehistoric animals appear tobe alive and moving.",
+        "Earliest Times Children: Also, from the earliest times, children worldwide have used a light source to project hand shadows onto a wall to create theshapes of animals."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Animation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing General Knowledge. Do the following: (a) In your.",
-        "Execute & Document: Perform the general task methodically with your patrol buddy and log specific observations in your Animation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Kind Entertainment Beenjoyed: This kind of entertainment can beenjoyed by a group of friends.",
+        "Shared Experience: The shared experience of creatinglifelike imitation is a key part of the attraction of animation.",
+        "Idea Projecting Shadows: The idea of projecting shadows led to the first magiclantern shows, starting around the mid to late 1700s and lastinguntil the introduction.",
+        "Primitive Projection: A primitive projection devicelike a wooden box with a candle inside was fitted with a lens."
       ],
       "gear_checklist": [
         "Official Animation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Animation Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for General Knowledge",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Animation Approach",
-        "right_header": "Official BSA Animation Pamphlet Standard",
+        "right_header": "Official BSA Animation Standard (General Knowledge)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during General Knowledge.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Animation Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Animation Workbook organizer.",
+          "Clearly demonstrates and explains General Knowledge using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Animation Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - General Knowledge. Do the following: (a) In your",
+          "Requirement & Topic": "Req 1 - General Knowledge",
           "Primary Standard": "In your own words, describe to your counselor what animation is.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Animation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Animation Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Animation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Animation Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Animation Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Animation Requirement 1, a Scout claims: \"Reading a short definition of General Knowledge. Do the following: (a) In your is enough for Animation Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Animation (General Knowledge), which patrol preparation step best aligns with the official Animation standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively general the specific principles and real-world steps of General Knowledge. Do the following: (a) In your grounded in the official Animation pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Animation hazards, PPE, and prerequisite standards in Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively general the specific principles and real-world steps of General Knowledge. Do the following: (a) In your grounded in the official Animation pamphlet.",
-        "explanation": "Per Official BSA Animation Pamphlet, pp. 4-9, Each Scout must actively general the specific principles and real-world steps of General Knowledge. Do the following: (a) In your grounded in the official Animation pamphlet."
+        "correct_answer": "Option A - Review the Animation hazards, PPE, and prerequisite standards in Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Animation Workbook organizer table and practical demonstration for Req 1."
@@ -281,13 +293,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Principles of Animation. Choose five of the following",
-      "action_verb": "Principles",
+      "topic_title": "Req 2: Principles of Animation",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Animation Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Animation Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 35, p. 37)",
+      "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 35, p. 37)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -304,8 +316,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Principles of Animation. Choose five of the following is enough for Animation Requirement 2 sign-off.",
-        "fact": "Each Scout must actively principles the specific principles and real-world steps of Principles of Animation. Choose five of the following grounded in the official Animation pamphlet."
+        "misconception": "Reading a short definition of Principles of Animation is enough for Animation Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Principles of Animation grounded in the official Animation pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Principles of Animation grounded in the official Animation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 35, p. 37)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -325,63 +339,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 2): Principles of Animation.",
-        "Core Standard 2 (Req 2): Choose five of the following 12 principles of animation, and discuss how each one makes an animation appear more believable: squash and stretch, anticipation, staging, straight ahead action and pose to pose, follow through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, and appeal.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Animation Req 2 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Animation Workbook before requesting Requirement 2 sign-off."
+        "Principles Animation Basic: The principles of animation are a set of 12 basic ideas applied toanimation to create appealing, believable results.",
+        "They Wereintroduced Original: They wereintroduced by two of the original Disney animators, Ollie Johnston and Frank Thomas, in their book, Disney Animation: The Illusion.",
+        "Since Time Principles: Since that time, the principles havebecome standard in the animation industry.",
+        "Straight Ahead Action: Straight Ahead Action and Pose to Pose Straight-ahead action and pose to pose are the two mainmethods for animating."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Animation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Principles of Animation. Choose five of the following.",
-        "Execute & Document: Perform the principles task methodically with your patrol buddy and log specific observations in your Animation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Straight-ahead Action: Using straight-ahead action, theanimator draws or animates frame by frame, doing the drawingsin order: 1, 2, 3, 4, and so on.",
+        "Pose-to-pose Animation: With pose-to-pose animation, incontrast, the animator draws or poses the main (key) frames ofthe animation before filling in the in-between.",
+        "Thepose-to-pose Method: Using thepose-to-pose method, the animator might do drawing 1, thendrawing 25, and then drawing 47, before going back to do thedrawings.",
+        "Animators Pose-to-pose: Most animators use the pose-to-pose method becauseit offers benefits in timing and frame composition."
       ],
       "gear_checklist": [
         "Official Animation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Animation Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Principles of Animation",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Animation Approach",
-        "right_header": "Official BSA Animation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Animation Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Animation Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Principles of Animation. Choose five of the following",
-          "Primary Standard": "Principles of Animation. Choose five of the following 12 principles of animation, and discuss how each one mak",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Animation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Animation Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Principles of Animation",
+          "Primary Standard": "Principles of Animation.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Animation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Animation Merit Badge Pamphlet (p. 35, p. 37) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Animation Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Animation Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Animation Requirement 2, a Scout claims: \"Reading a short definition of Principles of Animation. Choose five of the following is enough for Animation Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively principles the specific principles and real-world steps of Principles of Animation. Choose five of the following grounded in the official Animation pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively principles the specific principles and real-world steps of Principles of Animation. Choose five of the following grounded in the official Animation pamphlet.",
-        "explanation": "Per Official BSA Animation Pamphlet, pp. 10-15, Each Scout must actively principles the specific principles and real-world steps of Principles of Animation. Choose five of the following grounded in the official Animation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Animation Workbook organizer table and practical demonstration for Req 2."
     },
@@ -432,10 +423,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 16-21",
+              "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 3a(1) is enough for Animation Requirement 3a(1) sign-off.",
-                "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 3a(1) grounded in the official Animation pamphlet."
+                "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 3a(1) grounded in the official Animation pamphlet.",
+                "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 3a(1) grounded in the official Animation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -455,9 +448,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "3a(1)",
+              "sub_req_label": "3a(1)",
+              "sub_req_text": "Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program."
             },
             {
               "sub_id": "3a(2)",
@@ -480,10 +476,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 16-21",
+              "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 3a(2) is enough for Animation Requirement 3a(2) sign-off.",
-                "fact": "Each Scout must actively create the specific principles and real-world steps of Req 3a(2) grounded in the official Animation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a(2) grounded in the official Animation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a(2) grounded in the official Animation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -503,9 +501,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "3a(2)",
+              "sub_req_label": "3a(2)",
+              "sub_req_text": "Create the animation."
             },
             {
               "sub_id": "3a(3)",
@@ -528,10 +529,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 16-21",
+              "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 3a(3) is enough for Animation Requirement 3a(3) sign-off.",
-                "fact": "Each Scout must actively share the specific principles and real-world steps of Req 3a(3) grounded in the official Animation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a(3) grounded in the official Animation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a(3) grounded in the official Animation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -551,9 +554,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "3a(3)",
+              "sub_req_label": "3a(3)",
+              "sub_req_text": "Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made."
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -571,10 +577,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Animation Requirement 3a sign-off.",
-            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 3a grounded in the official Animation pamphlet."
+            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 3a grounded in the official Animation pamphlet.",
+            "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 3a grounded in the official Animation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -594,9 +602,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Technique 1 (1) Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program. (2) Create the animation. (3) Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made."
         },
         {
           "sub_id": "3b",
@@ -638,10 +649,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 16-21",
+              "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 3b(1) is enough for Animation Requirement 3b(1) sign-off.",
-                "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 3b(1) grounded in the official Animation pamphlet."
+                "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 3b(1) grounded in the official Animation pamphlet.",
+                "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 3b(1) grounded in the official Animation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -661,9 +674,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "3b(1)",
+              "sub_req_label": "3b(1)",
+              "sub_req_text": "Plan your animation using thumbnail sketches and/or layout drawings."
             },
             {
               "sub_id": "3b(2)",
@@ -686,10 +702,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 16-21",
+              "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 3b(2) is enough for Animation Requirement 3b(2) sign-off.",
-                "fact": "Each Scout must actively create the specific principles and real-world steps of Req 3b(2) grounded in the official Animation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b(2) grounded in the official Animation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b(2) grounded in the official Animation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -709,9 +727,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "3b(2)",
+              "sub_req_label": "3b(2)",
+              "sub_req_text": "Create the animation."
             },
             {
               "sub_id": "3b(3)",
@@ -734,10 +755,12 @@
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
-              "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 16-21",
+              "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
                 "misconception": "Reading a short definition of Req 3b(3) is enough for Animation Requirement 3b(3) sign-off.",
-                "fact": "Each Scout must actively share the specific principles and real-world steps of Req 3b(3) grounded in the official Animation pamphlet."
+                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b(3) grounded in the official Animation pamphlet.",
+                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b(3) grounded in the official Animation pamphlet.",
+                "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -757,9 +780,12 @@
                   "title": "Scouting America Guide to Safe Scouting & YPT Standards",
                   "url": "https://www.scouting.org/health-and-safety/gss/",
                   "source_org": "Scouting America Health & Safety",
-                  "resource_type": "Interactive Tool"
+                  "resource_type": "Safety Standard"
                 }
-              ]
+              ],
+              "id": "3b(3)",
+              "sub_req_label": "3b(3)",
+              "sub_req_text": "Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made."
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -777,10 +803,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Animation Requirement 3b sign-off.",
-            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 3b grounded in the official Animation pamphlet."
+            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 3b grounded in the official Animation pamphlet.",
+            "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 3b grounded in the official Animation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -800,9 +828,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Technique 2 (1) Plan your animation using thumbnail sketches and/or layout drawings. (2) Create the animation. (3) Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made."
         }
       ],
       "resources": [
@@ -839,13 +870,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Projects. With your counselor's approval, choose two animation",
-      "action_verb": "Projects",
+      "topic_title": "Req 3: Projects",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Animation Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Animation Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
+      "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -862,13 +893,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Projects. With your counselor's approval, choose two animation is enough for Animation Requirement 3 sign-off.",
-        "fact": "Each Scout must actively projects the specific principles and real-world steps of Projects. With your counselor's approval, choose two animation grounded in the official Animation pamphlet."
+        "misconception": "Reading a short definition of Projects is enough for Animation Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Projects grounded in the official Animation pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Projects grounded in the official Animation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
         "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Obtain your Merit Badge Counselor's approval on your Animation Req 3 plan before executing the project.",
+        "gate_description": "Review your Animation Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -888,63 +921,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Animation Sub-Req 3a: Technique 1 (1) Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program. (2) Create the.",
-        "Animation Sub-Req 3a(1): Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program.",
-        "Animation Sub-Req 3a(2): Create the animation.",
-        "Animation Sub-Req 3a(3): Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made."
+        "Arethe Kinds Questions: These arethe kinds of questions you need to answer at thisstage of your planning.",
+        "Stopwatch Great Tool: A stopwatch is a great tool tohelp you estimate the time needed for the scene.",
+        "Afilm Video Reference: Afilm or video reference can be used to help guide yourdrawings.",
+        "Identify Key Character: To identify the key character poses you willneed, try shooting a reference with a video camera or a smartphone."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Animation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Projects. With your counselor's approval, choose two animation.",
-        "Execute & Document: Perform the projects task methodically with your patrol buddy and log specific observations in your Animation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Play Back Video: Play back the video with a program thatlets you step through the frames one at a time.",
+        "Yourprogram Frame Counter: If yourprogram has a frame counter, take note of the framenumber of each pose for timing purposes.",
+        "Thumbnail Old Animation: Thumbnail is an old animation term for a small drawing notmuch larger than a person’s thumb.",
+        "Animators Createthese Tiny: Animators would createthese tiny drawings to help them visualize the key poses theywanted in their animations."
       ],
       "gear_checklist": [
         "Official Animation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Animation Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Projects",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Animation Approach",
-        "right_header": "Official BSA Animation Pamphlet Standard",
+        "right_header": "Official BSA Animation Standard (Projects)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Projects.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Animation Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Animation Workbook organizer.",
+          "Clearly demonstrates and explains Projects using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Animation Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Projects. With your counselor's approval, choose two animation",
-          "Primary Standard": "Technique 1 (1) Plan your animation using thumbnail sketches and/or layout drawings either on paper or using a",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Animation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Animation Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Projects",
+          "Primary Standard": "Technique 1 (1) Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Animation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Animation Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Animation Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Animation Requirement 3, a Scout claims: \"Reading a short definition of Projects. With your counselor's approval, choose two animation is enough for Animation Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively projects the specific principles and real-world steps of Projects. With your counselor's approval, choose two animation grounded in the official Animation pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively projects the specific principles and real-world steps of Projects. With your counselor's approval, choose two animation grounded in the official Animation pamphlet.",
-        "explanation": "Per Official BSA Animation Pamphlet, pp. 16-21, Each Scout must actively projects the specific principles and real-world steps of Projects. With your counselor's approval, choose two animation grounded in the official Animation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Animation Workbook organizer table and practical demonstration for Req 3."
     },
@@ -993,10 +1016,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Animation Requirement 4a sign-off.",
-            "fact": "Each Scout must actively tour the specific principles and real-world steps of Req 4a grounded in the official Animation pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Animation pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Animation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1016,9 +1041,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Tour an animation studio or a business where animation is used, either in person, via video, or via the internet. Share what you have learned with your counselor."
         },
         {
           "sub_id": "4b",
@@ -1050,10 +1078,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Animation Requirement 4b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4b grounded in the official Animation pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4b grounded in the official Animation pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4b grounded in the official Animation pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1073,9 +1103,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Discuss with your counselor how animation might be used in the future to make your life more enjoyable and productive."
         }
       ],
       "resources": [
@@ -1112,13 +1145,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Animation in our World. Do the following: (a)",
-      "action_verb": "Animation",
+      "topic_title": "Req 4: Animation in our World",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Animation Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Animation Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)",
+      "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1135,8 +1168,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Animation in our World. Do the following: (a) is enough for Animation Requirement 4 sign-off.",
-        "fact": "Each Scout must actively animation the specific principles and real-world steps of Animation in our World. Do the following: (a) grounded in the official Animation pamphlet."
+        "misconception": "Reading a short definition of Animation in our World is enough for Animation Requirement 4 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Animation in our World grounded in the official Animation pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Animation in our World grounded in the official Animation pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1156,63 +1191,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Animation Sub-Req 4a: Tour an animation studio or a business where animation is used, either in person, via video, or via the internet. Share what you have learned with your counselor.",
-        "Animation Sub-Req 4b: Discuss with your counselor how animation might be used in the future to make your life more enjoyable and productive.",
-        "Core Standard 1 (Req 4): Animation in our World.",
-        "Core Standard 2 (Req 4): Do the following: (a) Tour an animation studio or a business where animation is used, either in person, via video, or via the internet."
+        "Scenes Created Rough: Scenes are created first with a rough sketch, then a simplifiedmock-up called an “animatic,” and then the final image.",
+        "Next Time Animated: The next time you watch an animated movie, watch thecredits at the end.",
+        "Amazed Manyartists Required: You might be amazed by how manyartists are required to generate a full-length feature film.",
+        "Different Disciplines: The different disciplines include animators, modelers, lighters, riggers, texture painters, effects artists, andmore."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Animation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Animation in our World. Do the following: (a).",
-        "Execute & Document: Perform the animation task methodically with your patrol buddy and log specific observations in your Animation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Appreciate Work Isn: It is important to appreciate that the work isn’t alldone by just one person.",
+        "Unique Learning Experience: Your unique learning experience should match your passionsas an artist.",
+        "NASA Employsanimators: NASA employsanimators to visualize data, to preview how missions will look, and to explain to the public what researchers have found.",
+        "Areyou Interested Augmented: Areyou interested in augmented reality and video games?."
       ],
       "gear_checklist": [
         "Official Animation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Animation Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Animation in our World",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Animation Approach",
-        "right_header": "Official BSA Animation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Animation Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Animation Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Animation in our World. Do the following: (a)",
-          "Primary Standard": "Tour an animation studio or a business where animation is used, either in person, via video, or via the intern",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Animation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Animation Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Animation in our World",
+          "Primary Standard": "Tour an animation studio or a business where animation is used, either in person, via video, or via the internet. Share what you have learned with your counselor.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Animation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Animation Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Animation Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Animation Requirement 4, a Scout claims: \"Reading a short definition of Animation in our World. Do the following: (a) is enough for Animation Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively animation the specific principles and real-world steps of Animation in our World. Do the following: (a) grounded in the official Animation pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively animation the specific principles and real-world steps of Animation in our World. Do the following: (a) grounded in the official Animation pamphlet.",
-        "explanation": "Per Official BSA Animation Pamphlet, pp. 22-27, Each Scout must actively animation the specific principles and real-world steps of Animation in our World. Do the following: (a) grounded in the official Animation pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Animation Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1237,13 +1249,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Animation Careers, Training & Hobby Pathways",
-      "action_verb": "Careers",
+      "topic_title": "Req 5: Careers & Professional Pathways",
+      "action_verb": "Research",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Animation Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Animation Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Animation Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 85, p. 91)",
+      "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 85, p. 91)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1260,8 +1272,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Animation career exploration requirement.",
-        "fact": "Scouts must research three Animation careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Animation career exploration requirement.",
+        "fact": "Scouts must research specific Animation career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Animation career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Animation Merit Badge Pamphlet (p. 85, p. 91)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1281,68 +1295,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 5): Learn about three career opportunities in animation.",
-        "Core Standard 2 (Req 5): Pick one and find out about the education, training, and experience required for this profession.",
-        "Core Standard 3 (Req 5): Discuss your findings with your counselor.",
-        "Core Standard 4 (Req 5): Explain why this profession might interest you."
+        "Unique Learning Experience: Your unique learning experience should match your passionsas an artist.",
+        "NASA Employsanimators: NASA employsanimators to visualize data, to preview how missions will look, and to explain to the public what researchers have found.",
+        "Areyou Interested Augmented: Areyou interested in augmented reality and video games?.",
+        "Join Agroup Project: Join agroup project where a team of students are developing a gamethat needs animation."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Animation requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Animation Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the careers task methodically with your patrol buddy and log specific observations in your Animation Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Course Interactivestorytelling: Or, take a course in making an interactivestorytelling app.",
+        "Maybe Want Majorin: Or maybe you want to majorin character animation and minor in motion graphics so thatyou will gain experience in both character.",
+        "Combinations Nearly Infinite: The combinations are nearly infinite whenyou consider all the animated media being used in so manyspecialized areas.",
+        "Animation Studio People: In an animation studio, many other people besides theanimators contribute to the process."
       ],
       "gear_checklist": [
         "Official Animation Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Animation Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Animation Approach",
-        "right_header": "Official BSA Animation Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Animation Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Animation Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Animation Careers, Training & Hobby Pathways",
-          "Primary Standard": "Careers. Learn about three career opportunities in animation. Pick one and find out about the education, train",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Animation terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Animation Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Careers & Professional Pathways",
+          "Primary Standard": "Careers. Learn about three career opportunities in animation. Pick one and find out about the education, training, and experience required for this profession. Discuss your findings with your counselor. Explain why this profession might interest you.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Animation terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Animation Merit Badge Pamphlet (p. 85, p. 91) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Animation Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Animation Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Animation Requirement 5, a Scout claims: \"Listing three job titles from a web search satisfies the Animation career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Animation careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Animation careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Animation Pamphlet, pp. 28-33, Scouts must research three Animation careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Animation Workbook organizer table and practical demonstration for Req 5."
     }
   ],
   "badge_slug": "animation",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

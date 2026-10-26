@@ -2618,6 +2618,13 @@ function hydrateWorkbench(rawResult, options = {}) {
     if (wbBtn) wbBtn.href = `${result.workbook_download_url}?v=${Date.now()}`;
     if (wbBtnTop) wbBtnTop.href = `${result.workbook_download_url}?v=${Date.now()}`;
   }
+  const pdfWbHref = `/api/v1/studiokit/fillable-workbook.pdf?badge_name=${encodeURIComponent(
+    result.badge_name || "First Aid"
+  )}&option_track=${encodeURIComponent(result.option_track || "ALL")}`;
+  const wbPdfBtn1 = document.getElementById("btn-workbook-download-fillable-pdf");
+  const wbPdfBtn2 = document.getElementById("btn-studiokit-download-fillable-pdf");
+  if (wbPdfBtn1) wbPdfBtn1.href = pdfWbHref;
+  if (wbPdfBtn2) wbPdfBtn2.href = pdfWbHref;
 
   const pamphletUrl = result.pamphlet_pdf_url || result.research_artifact?.pamphlet_pdf_url || "#";
   const drgUrl = result.drg_url || result.research_artifact?.drg_url || "https://www.scouting.org/skills/merit-badges/";
@@ -6632,28 +6639,79 @@ function bindCounselorToolkitActions() {
   scheduleSel?.addEventListener("change", rebuildStudioKitAgenda);
   snowdaySel?.addEventListener("change", rebuildStudioKitAgenda);
 
-  // Fillable HTML Workbook & 1-Page CPP & Organizer Spec Sheet actions
-  const handleOpenFillableWorkbook = () => {
-    const badge = state.currentResult?.badge_name || "First Aid";
+  // Fillable HTML/PDF Workbook & 1-Page CPP & Organizer Spec Sheet actions
+  const syncWorkbookPdfDownloadLinks = () => {
+    const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
     const optTrack =
       state.currentResult?.option_track ||
       document.getElementById("option-track-select")?.value ||
       "ALL";
-    const counselor = document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob";
-    const troop = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
-    const url = `/api/v1/studiokit/fillable-workbook?badge_name=${encodeURIComponent(
+    const counselor = document.getElementById("input-counselor-name")?.value || "Eric Clayberg";
+    const troop = document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council";
+    const pdfHref = `/api/v1/studiokit/fillable-workbook.pdf?badge_name=${encodeURIComponent(
       badge
     )}&option_track=${encodeURIComponent(optTrack)}&counselor_name=${encodeURIComponent(
       counselor
     )}&troop_name=${encodeURIComponent(troop)}`;
-    window.open(url, "_blank", "noopener,noreferrer");
+    const wbLink1 = document.getElementById("btn-workbook-download-fillable-pdf");
+    const wbLink2 = document.getElementById("btn-studiokit-download-fillable-pdf");
+    if (wbLink1) wbLink1.href = pdfHref;
+    if (wbLink2) wbLink2.href = pdfHref;
+    return { badge, optTrack, counselor, troop, pdfHref };
+  };
+
+  const handleOpenFillableWorkbook = async () => {
+    const { badge, optTrack, counselor, troop, pdfHref } = syncWorkbookPdfDownloadLinks();
+    const htmlUrl = `/api/v1/studiokit/fillable-workbook?badge_name=${encodeURIComponent(
+      badge
+    )}&option_track=${encodeURIComponent(optTrack)}&counselor_name=${encodeURIComponent(
+      counselor
+    )}&troop_name=${encodeURIComponent(troop)}`;
+    try {
+      const resp = await fetch("/api/v1/studiokit/fillable-workbook", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: badge,
+          selected_option_track: optTrack,
+          counselor_info: {
+            counselor_name: counselor,
+            troop_affiliation: troop,
+          },
+        }),
+      }).then((r) => r.json());
+      const htmlDoc = resp?.workbook_html || resp?.html_document || "";
+      if (htmlDoc) {
+        const tabWb = document.getElementById("tab-workbook");
+        if (tabWb && tabWb.getAttribute("aria-selected") !== "true") {
+          tabWb.click();
+        }
+        const wbPreview = document.getElementById("workbook-markdown-preview");
+        if (wbPreview) {
+          const bodyMatch = htmlDoc.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+          const styleMatch = htmlDoc.match(/<style[^>]*>([\s\S]*?)<\/style>/i);
+          const inlineStyle = styleMatch ? `<style>${styleMatch[1]}</style>` : "";
+          const innerHtml = bodyMatch ? bodyMatch[1] : htmlDoc;
+          wbPreview.innerHTML = `
+            ${inlineStyle}
+            <div class="m3-fillable-workbook-embed" style="background:#ffffff; color:#0f172a; padding:16px; border-radius:10px; border:1px solid #cbd5e1;">
+              ${innerHtml}
+            </div>
+          `;
+          wbPreview.scrollIntoView({ behavior: "smooth", block: "start" });
+          return;
+        }
+      }
+    } catch (_e) {}
+    window.open(htmlUrl, "_blank", "noopener,noreferrer");
   };
   document.getElementById("btn-workbook-open-fillable-html")?.addEventListener("click", handleOpenFillableWorkbook);
   document.getElementById("btn-studiokit-fillable-workbook")?.addEventListener("click", handleOpenFillableWorkbook);
+  document.getElementById("btn-workbook-download-fillable-pdf")?.addEventListener("click", syncWorkbookPdfDownloadLinks);
+  document.getElementById("btn-studiokit-download-fillable-pdf")?.addEventListener("click", syncWorkbookPdfDownloadLinks);
 
   const handleOpenCpp = async () => {
-    if (!state.currentResult) return;
-    const badge = state.currentResult.badge_name || "First Aid";
+    const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
     const scheduleFormat = document.getElementById("studiokit-schedule-select")?.value || "4_session_mbc";
     try {
       const resp = await fetch("/api/v1/studiokit/class-prep-cpp", {
@@ -6663,19 +6721,38 @@ function bindCounselorToolkitActions() {
           badge_name: badge,
           schedule_format: scheduleFormat,
           counselor_info: {
-            counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
-            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
-            email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop123.org",
+            counselor_name: document.getElementById("input-counselor-name")?.value || "Eric Clayberg",
+            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council",
+            email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop19.org",
             phone_number: document.getElementById("input-counselor-phone")?.value || "(000) 555-1234",
           },
         }),
       }).then((r) => r.json());
-      if (resp && resp.cpp_markdown) {
-        printHtmlDocument(
-          `${badge} Merit Badge — 1-Page Class Preparation Page (CPP)`,
-          `Pre-Class Readiness Guide • ${scheduleFormat}`,
-          renderMarkdownToStyledHtml(resp.cpp_markdown)
-        );
+      if (resp && (resp.cpp_html || resp.cpp_markdown)) {
+        const tabWb = document.getElementById("tab-workbook");
+        if (tabWb && tabWb.getAttribute("aria-selected") !== "true") {
+          tabWb.click();
+        }
+        const wbPreview = document.getElementById("workbook-markdown-preview");
+        if (wbPreview) {
+          wbPreview.innerHTML = `
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; background:#003f87; color:#fff; padding:12px 16px; border-radius:10px; margin-bottom:14px;">
+              <div style="font-size:0.95rem; font-weight:800;">📄 ${escapeHtml(badge)} Merit Badge — 1-Page Class Preparation Page (CPP)</div>
+              <div style="display:flex; gap:8px;">
+                <a href="/api/v1/studiokit/class-prep-cpp.pdf?badge_name=${encodeURIComponent(badge)}" download class="m3-btn" style="background:#f59e0b; color:#0f172a; font-weight:800; font-size:0.78rem; padding:7px 13px; border-radius:6px; text-decoration:none;">
+                  📥 Download 1-Page CPP (.PDF)
+                </a>
+                <a href="/api/v1/studiokit/class-prep-cpp?badge_name=${encodeURIComponent(badge)}" target="_blank" rel="noopener noreferrer" class="m3-btn" style="background:#ffffff; color:#003f87; font-weight:800; font-size:0.78rem; padding:7px 13px; border-radius:6px; text-decoration:none;">
+                  🖨️ Open / Print Full Page
+                </a>
+              </div>
+            </div>
+            <div style="background:#ffffff; color:#0f172a; padding:16px; border-radius:10px; border:1px solid #cbd5e1;">
+              ${resp.cpp_html || renderMarkdownToStyledHtml(resp.cpp_markdown)}
+            </div>
+          `;
+          wbPreview.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
       }
     } catch (_e) {}
   };
@@ -6683,8 +6760,7 @@ function bindCounselorToolkitActions() {
   document.getElementById("btn-studiokit-cpp")?.addEventListener("click", handleOpenCpp);
 
   document.getElementById("btn-studiokit-organizer-spec")?.addEventListener("click", async () => {
-    if (!state.currentResult) return;
-    const badge = state.currentResult.badge_name || "First Aid";
+    const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
     const scheduleFormat = document.getElementById("studiokit-schedule-select")?.value || "4_session_mbc";
     try {
       const resp = await fetch("/api/v1/studiokit/organizer-spec-sheet", {
@@ -6694,18 +6770,19 @@ function bindCounselorToolkitActions() {
           badge_name: badge,
           schedule_format: scheduleFormat,
           counselor_info: {
-            counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
-            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
-            email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop123.org",
+            counselor_name: document.getElementById("input-counselor-name")?.value || "Eric Clayberg",
+            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council",
+            email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop19.org",
             phone_number: document.getElementById("input-counselor-phone")?.value || "(000) 555-1234",
           },
         }),
       }).then((r) => r.json());
-      if (resp && resp.spec_markdown) {
+      const md = resp?.spec_sheet_markdown || resp?.spec_markdown;
+      if (md) {
         printHtmlDocument(
           `${badge} Merit Badge — 1-Page MBC Organizer Syllabus Spec Sheet`,
           `Catalog & Room/Equipment Spec • ${scheduleFormat}`,
-          renderMarkdownToStyledHtml(resp.spec_markdown)
+          renderMarkdownToStyledHtml(md)
         );
       }
     } catch (_e) {}

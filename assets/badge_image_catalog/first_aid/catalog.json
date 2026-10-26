@@ -596,8 +596,8 @@
     "badge_name": "First Aid",
     "req_number": "2",
     "slide_title": "Inspecting Patrol & Personal First Aid Kits",
-    "title": "Inspecting Patrol & Personal First Aid Kits",
-    "description": "Scouts inspecting and organizing the contents of their personal and patrol first-aid kits at camp.",
+    "title": "First Aid Requirement 3 Field Reference Figure",
+    "description": "Scouts and counselor demonstrate First Aid Requirement 3 field procedures and safety checks.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udd04 Official Pamphlet Alternate #1 (Req 2)",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/first_aid_p012_img1.png",
@@ -605,7 +605,7 @@
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
-    "caption": "Scouts inspecting and organizing the contents of their personal and patrol first-aid kits at camp."
+    "caption": "Scouts and counselor demonstrate First Aid Requirement 3 field procedures and safety checks."
   },
   {
     "image_id": "9df3cb9237b510",
@@ -1500,5 +1500,37 @@
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0
+  },
+  {
+    "image_id": "55e730fbca9ace",
+    "badge_name": "First Aid",
+    "req_number": "1",
+    "slide_title": "Primary Assessment & Calling 911",
+    "title": "First Aid Requirement 1 Field Reference Figure",
+    "description": "Scouts and counselor demonstrate First Aid Requirement 1 field procedures and safety checks.",
+    "source_type": "OFFICIAL_PAMPHLET_FIGURE",
+    "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/first_aid_p003_img1.png",
+    "image_url": "/assets/pamphlet_images/first_aid_p003_img1.png",
+    "custom_prompt": "",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "caption": "Scouts and counselor demonstrate First Aid Requirement 1 field procedures and safety checks."
+  },
+  {
+    "image_id": "b72f52bff27cb9",
+    "badge_name": "First Aid",
+    "req_number": "2",
+    "slide_title": "First Aid Requirement 2 Field Reference Figure",
+    "title": "First Aid Requirement 2 Field Reference Figure",
+    "description": "Scouts and counselor demonstrate First Aid Requirement 2 field procedures and safety checks.",
+    "source_type": "OFFICIAL_PAMPHLET_FIGURE",
+    "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/first_aid_p007_img1.png",
+    "image_url": "/assets/pamphlet_images/first_aid_p007_img1.png",
+    "custom_prompt": "",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "caption": "Scouts and counselor demonstrate First Aid Requirement 2 field procedures and safety checks."
   }
 ]

@@ -4138,6 +4138,14 @@ def enrich_requirement_point(
         ):
             if not enriched.get(meta_key) and matched_off_r.get(meta_key) is not None:
                 enriched[meta_key] = matched_off_r[meta_key]
+        if matched_off_r.get("topic_title") and (
+            not enriched.get("topic_title")
+            or "Before beginning work" in str(enriched.get("topic_title"))
+            or "With permission from" in str(enriched.get("topic_title"))
+            or "With the help of" in str(enriched.get("topic_title"))
+            or "Complete the survey" in str(enriched.get("topic_title"))
+        ):
+            enriched["topic_title"] = matched_off_r["topic_title"]
 
     req_text = enriched.get("req_text", f"Complete requirement {req_num} for {badge_name}.")
     verb, mode, edge = _infer_action_verb_and_mode(
@@ -5288,6 +5296,22 @@ def generate_fillable_scout_workbook_html(
   </style>
 </head>
 <body>
+  <div class="no-print" style="display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; background:#003f87; color:#fff; padding:10px 14px; border-radius:8px; margin-bottom:14px;">
+    <div style="font-size:13px; font-weight:700;">
+      📝 Interactive Fillable Scout Workbook (GTA §7.0.3.2) — Type directly into any table cell below or download the Fillable PDF:
+    </div>
+    <div style="display:flex; gap:8px; flex-wrap:wrap;">
+      <a href="/api/v1/studiokit/fillable-workbook.pdf?badge_name={_html.escape(resolved_badge.replace(' ', '%20'))}&amp;option_track={_html.escape(option_track.upper())}" download style="background:#f59e0b; color:#0f172a; text-decoration:none; padding:6px 12px; border-radius:6px; font-size:12px; font-weight:800;">
+        📥 Download Fillable Workbook (.PDF)
+      </a>
+      <a href="/api/v1/studiokit/class-prep-cpp.pdf?badge_name={_html.escape(resolved_badge.replace(' ', '%20'))}" download style="background:#e0f2fe; color:#075985; text-decoration:none; padding:6px 12px; border-radius:6px; font-size:12px; font-weight:800;">
+        📄 Download 1-Page CPP (.PDF)
+      </a>
+      <button type="button" onclick="window.print()" style="background:#ffffff; color:#003f87; border:none; padding:6px 12px; border-radius:6px; font-size:12px; font-weight:800; cursor:pointer;">
+        🖨️ Print / Save as PDF
+      </button>
+    </div>
+  </div>
   <div class="wb-header">
     <div>
       <h1 class="wb-title">{_html.escape(resolved_badge)} Merit Badge — Verb-Aligned Fillable Scout Workbook</h1>

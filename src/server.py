@@ -3235,6 +3235,52 @@ async def api_generate_studiokit_agenda(
     return res
 
 
+@app.get("/api/studiokit/fillable-workbook", response_class=HTMLResponse)
+@app.get("/api/v1/studiokit/fillable-workbook", response_class=HTMLResponse)
+async def api_get_fillable_workbook_html(
+    badge_name: str = "First Aid",
+    option_track: str = "ALL",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> HTMLResponse:
+    """Renders the interactive Verb-Aligned Fillable Scout Workbook HTML in browser for printing or direct PDF download."""
+    from src.tools.scouting_scraper import generate_fillable_scout_workbook_html
+
+    res = generate_fillable_scout_workbook_html(
+        badge_name=badge_name,
+        counselor_info={"counselor_name": counselor_name, "troop_affiliation": troop_name},
+        option_track=option_track or "ALL",
+    )
+    return HTMLResponse(content=str(res.get("workbook_html") or res.get("html_document") or ""))
+
+
+@app.get("/api/studiokit/fillable-workbook.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/fillable-workbook.pdf", include_in_schema=False)
+async def api_get_fillable_workbook_pdf(
+    badge_name: str = "First Aid",
+    option_track: str = "ALL",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the interactive AcroForm PDF Fillable Scout Workbook (GTA Section 7.0.3.2 compliant)."""
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import generate_fillable_scout_workbook_pdf
+
+    pdf_bytes = generate_fillable_scout_workbook_pdf(
+        badge_name=badge_name,
+        counselor_info={"counselor_name": counselor_name, "troop_affiliation": troop_name},
+        option_track=option_track or "ALL",
+    )
+    slug = badge_file_slug(badge_name)
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{slug}_fillable_scout_workbook.pdf"'},
+    )
+
+
 @app.post("/api/studiokit/fillable-workbook")
 @app.post("/api/v1/studiokit/fillable-workbook")
 async def api_generate_fillable_workbook(
@@ -3244,10 +3290,60 @@ async def api_generate_fillable_workbook(
     """Generates the verb-aligned fillable Scout Workbook HTML & Markdown with GTA Section 7.0.3.2 banner."""
     from src.tools.scouting_scraper import generate_fillable_scout_workbook_html
 
-    return generate_fillable_scout_workbook_html(
+    res = generate_fillable_scout_workbook_html(
         badge_name=req.badge_name,
         counselor_info=req.counselor_info,
         option_track=req.selected_option_track or "ALL",
+    )
+    res["pdf_download_url"] = (
+        f"/api/v1/studiokit/fillable-workbook.pdf?badge_name={req.badge_name}&option_track={req.selected_option_track or 'ALL'}"
+    )
+    return res
+
+
+@app.get("/api/studiokit/class-prep-cpp", response_class=HTMLResponse)
+@app.get("/api/v1/studiokit/class-prep-cpp", response_class=HTMLResponse)
+async def api_get_class_prep_cpp_html(
+    badge_name: str = "First Aid",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    room_location: str = "",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> HTMLResponse:
+    """Renders the 1-Page Class Preparation Page (CPP) in browser."""
+    from src.tools.counselor_studiokit import generate_class_preparation_page_cpp
+
+    res = generate_class_preparation_page_cpp(
+        badge_name=badge_name,
+        counselor_info={"counselor_name": counselor_name, "troop_affiliation": troop_name},
+        room_location=room_location,
+    )
+    return HTMLResponse(content=str(res.get("cpp_html") or res.get("html_document") or ""))
+
+
+@app.get("/api/studiokit/class-prep-cpp.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/class-prep-cpp.pdf", include_in_schema=False)
+async def api_get_class_prep_cpp_pdf(
+    badge_name: str = "First Aid",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    room_location: str = "",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the 1-Page Class Preparation Page (CPP) as a printable PDF."""
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import generate_class_preparation_page_cpp_pdf
+
+    pdf_bytes = generate_class_preparation_page_cpp_pdf(
+        badge_name=badge_name,
+        counselor_info={"counselor_name": counselor_name, "troop_affiliation": troop_name},
+        room_location=room_location,
+    )
+    slug = badge_file_slug(badge_name)
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{slug}_class_prep_cpp.pdf"'},
     )
 
 
@@ -3261,12 +3357,14 @@ async def api_generate_class_prep_cpp(
     from src.tools.counselor_studiokit import generate_class_preparation_page_cpp
 
     logistics = req.class_logistics or {}
-    return generate_class_preparation_page_cpp(
+    res = generate_class_preparation_page_cpp(
         badge_name=req.badge_name,
         counselor_info=req.counselor_info,
         session_dates=logistics.get("session_dates"),
         room_location=str(logistics.get("room_location") or ""),
     )
+    res["pdf_download_url"] = f"/api/v1/studiokit/class-prep-cpp.pdf?badge_name={req.badge_name}"
+    return res
 
 
 @app.post("/api/studiokit/organizer-spec-sheet")

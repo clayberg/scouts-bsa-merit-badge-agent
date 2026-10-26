@@ -40,23 +40,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 1a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Swimming Requirement 1a sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 1a grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 1a grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 1a grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -76,9 +81,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Review with your counselor how Scouting America's Safe Swim Defense guidelines anticipate and deal with common drowning situations such as unfenced residential pools, nonswimmers entering deep water, risky behaviors, medical impairment in the water, drop-offs, cold water, murky water, river currents, rip currents, and surf."
         },
         {
           "sub_id": "1b",
@@ -106,10 +114,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Swimming Requirement 1b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -129,9 +139,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Discuss the prevention and treatment of health concerns that could occur while swimming, including hypothermia, dehydration, sunburn, heat exhaustion, heatstroke, muscle cramps, hyperventilation, spinal injury, stings and bites, and cuts and scrapes."
         }
       ],
       "resources": [
@@ -160,13 +173,13 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: (a) Review with your counselor how Scouting America's",
+      "topic_title": "Req 1: Review with your counselor how Scouting",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Swimming Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Swimming Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)",
+      "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -186,8 +199,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Review with your counselor how Scouting America's is enough for Swimming Requirement 1 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review with your counselor how Scouting America's grounded in the official Swimming pamphlet."
+        "misconception": "Reading a short definition of Review with your counselor how Scouting is enough for Swimming Requirement 1 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Review with your counselor how Scouting grounded in the official Swimming pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Review with your counselor how Scouting grounded in the official Swimming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -207,62 +222,61 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Swimming Sub-Req 1a: Review with your counselor how Scouting America's Safe Swim Defense guidelines anticipate and deal with common drowning situations such as unfenced residential pools, nonswimmers.",
-        "Swimming Sub-Req 1b: Discuss the prevention and treatment of health concerns that could occur while swimming, including hypothermia, dehydration, sunburn, heat exhaustion, heatstroke, muscle cramps, hyperventilation, spinal.",
-        "Core Standard 1 (Req 1): Do the following: (a) Review with your counselor how Scouting America's Safe Swim Defense guidelines anticipate and deal with common drowning situations such as unfenced residential pools, nonswimmers entering deep water, risky behaviors, medical impairment in the water, drop-offs, cold water, murky water, river currents, rip currents, and surf.",
-        "Core Standard 2 (Req 1): (b) Discuss the prevention and treatment of health concerns that could occur while swimming, including hypothermia, dehydration, sunburn, heat exhaustion, heatstroke, muscle cramps, hyperventilation, spinal injury, stings and bites, and cuts and scrapes."
+        "Spinal Injuries Occur: Spinal injuries can occur from diving into shallow orobstructed water.",
+        "Rescuers Careful: Rescuers must be very careful when a spinalinjury is suspected.",
+        "Spinal Injuries Fatal: Spinal injuries can be fatal or can causeparalysis.",
+        "Victim Not Handled: If the victim is not handled properly, additional serious injury could result."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Swimming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Review with your counselor how Scouting America's.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Swimming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Moving Victim Extremely: Moving a victim is an extremely delicatetask best left to trained emergency personnel, but if no one elseis present you may need to act.",
+        "Swimming Accident Youmay: In a swimming accident, youmay have to move the victim to prevent drowning or to performrescue breathing.",
+        "Tending Suspected Spinal: When tending to a suspected spinal injury victim, movethe victim’s head, neck, and back as little as possible.",
+        "Thetechnique Limit Movement: Thetechnique used to limit this movement is called in-line stabilization."
       ],
       "gear_checklist": [
         "Official Swimming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Swimming Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Review with your counselor how Scouting",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Swimming Approach",
-        "right_header": "Official BSA Swimming Pamphlet Standard",
+        "right_header": "Official BSA Swimming Standard (Review with your counselor how Scouting)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Review with your counselor how Scouting.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Swimming Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Swimming Workbook organizer.",
+          "Clearly demonstrates and explains Review with your counselor how Scouting using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Swimming Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) Review with your counselor how Scouting America's",
-          "Primary Standard": "Review with your counselor how Scouting America's Safe Swim Defense guidelines anticipate and deal with common",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Swimming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Swimming Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Review with your counselor how Scouting",
+          "Primary Standard": "Review with your counselor how Scouting America's Safe Swim Defense guidelines anticipate and deal with common drowning situations such as unfenced residential pools, nonswimmers entering deep water, risky behaviors, medical impairment in the water.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Swimming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Swimming Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Swimming Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Swimming Requirement 1, a Scout claims: \"Reading a short definition of (a) Review with your counselor how Scouting America's is enough for Swimming Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "While swimming at an ocean beach, a Scout feels a narrow, fast-moving current pulling them straight offshore through a break in the sandbar. What is the safest way to escape this rip current?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review with your counselor how Scouting America's grounded in the official Swimming pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Sprint-swim straight back toward the beach directly against the outgoing current.",
+          "Stay calm to conserve energy, swim parallel to the shoreline until out of the narrow seaward pull, and then angle back to the beach with the breaking waves.",
+          "Dive to the sandy bottom and try to crawl toward shore underwater."
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review with your counselor how Scouting America's grounded in the official Swimming pamphlet.",
-        "explanation": "Per Official BSA Swimming Pamphlet, pp. 4-9, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review with your counselor how Scouting America's grounded in the official Swimming pamphlet."
+        "correct_answer": "Option B — Swim parallel to shore until clear of the narrow rip current channel, then swim diagonally back to shore.",
+        "explanation": "Rip currents are narrow channels that quickly exhaust swimmers who fight them head-on; swimming parallel to the beach moves you out of the current within 50 to 100 feet."
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Swimming Workbook organizer table and practical demonstration for Req 1."
@@ -288,13 +302,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Before doing the following requirements, successfully complete the",
-      "action_verb": "Before",
+      "topic_title": "Req 2: Requirements",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Swimming Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Swimming Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 8, p. 18)",
+      "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 8, p. 18)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -311,8 +325,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Before doing the following requirements, successfully complete the is enough for Swimming Requirement 2 sign-off.",
-        "fact": "Each Scout must actively before the specific principles and real-world steps of Before doing the following requirements, successfully complete the grounded in the official Swimming pamphlet."
+        "misconception": "Reading a short definition of Requirements is enough for Swimming Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Requirements grounded in the official Swimming pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Requirements grounded in the official Swimming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 8, p. 18)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -332,63 +348,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 2): Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the Swimming merit badge pamphlet.",
-        "Field Verification Standard: Apply Swimming Requirement 2 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Swimming Req 2 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Swimming Workbook before requesting Requirement 2 sign-off."
+        "Lookout View Entire: The lookout should have a clear view of the entire areabut be close enough for easy verbal communication.",
+        "Thelookout Sound: Thelookout must have a sound understanding of Safe Swim Defensebut is not required to perform rescues.",
+        "Supervisormay Serve: The adult supervisormay serve simultaneously as the lookout but must assign thetask to someone else if engaged in activities that precludefocused.",
+        "Group Assigned Specific: Each group is assigned a specific swimming area with depths consistent with those abilities."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Swimming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Before doing the following requirements, successfully complete the.",
-        "Execute & Document: Perform the before task methodically with your patrol buddy and log specific observations in your Swimming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Classification Tests Renewed: The classification tests should be renewed annually, preferably atthe beginning of the season even if the Scout has earned the Swimming.",
+        "Swimmers pass this test: Jump feetfirst into water over thehead in depth.",
+        "Yards Completed Swimwithout: The 100 yards must be completed in one swimwithout stops and must include at least one sharp turn.",
+        "Elements Safety Water: One of the most important elements of safety in the water is theability to swim."
       ],
       "gear_checklist": [
         "Official Swimming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Swimming Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Requirements",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Swimming Approach",
-        "right_header": "Official BSA Swimming Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Swimming Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Swimming Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Before doing the following requirements, successfully complete the",
-          "Primary Standard": "Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Swimming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Swimming Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Requirements",
+          "Primary Standard": "Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the Swimming merit badge pamphlet.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Swimming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Swimming Merit Badge Pamphlet (p. 8, p. 18) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Swimming Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Swimming Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Swimming Requirement 2, a Scout claims: \"Reading a short definition of Before doing the following requirements, successfully complete the is enough for Swimming Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing the following requirements, successfully complete the grounded in the official Swimming pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing the following requirements, successfully complete the grounded in the official Swimming pamphlet.",
-        "explanation": "Per Official BSA Swimming Pamphlet, pp. 10-15, Each Scout must actively before the specific principles and real-world steps of Before doing the following requirements, successfully complete the grounded in the official Swimming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Swimming Workbook organizer table and practical demonstration for Req 2."
     },
@@ -432,10 +425,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Swimming Requirement 3a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3a grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3a grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3a grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -455,9 +450,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Demonstrate the front crawl or the trudgen using good form."
         },
         {
           "sub_id": "3b",
@@ -492,10 +490,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Swimming Requirement 3b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3b grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3b grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3b grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -515,9 +515,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Demonstrate the back crawl using good form."
         },
         {
           "sub_id": "3c",
@@ -548,10 +551,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3c is enough for Swimming Requirement 3c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3c grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3c grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3c grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -571,9 +576,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3c",
+          "sub_req_label": "3c",
+          "sub_req_text": "Demonstrate the sidestroke using good form."
         },
         {
           "sub_id": "3d",
@@ -612,10 +620,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3d is enough for Swimming Requirement 3d sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3d grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3d grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3d grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -635,9 +645,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3d",
+          "sub_req_label": "3d",
+          "sub_req_text": "Demonstrate the breaststroke using good form."
         },
         {
           "sub_id": "3e",
@@ -668,10 +681,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3e is enough for Swimming Requirement 3e sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3e grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3e grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3e grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -691,9 +706,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3e",
+          "sub_req_label": "3e",
+          "sub_req_text": "Demonstrate the elementary backstroke using good form."
         }
       ],
       "resources": [
@@ -742,13 +760,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Correctly perform the following strokes: (a) Demonstrate the",
-      "action_verb": "Correctly",
+      "topic_title": "Req 3: Swimming Strokes",
+      "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Swimming Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Swimming Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
+      "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -768,8 +786,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Correctly perform the following strokes: (a) Demonstrate the is enough for Swimming Requirement 3 sign-off.",
-        "fact": "Each Scout must actively correctly the specific principles and real-world steps of Correctly perform the following strokes: (a) Demonstrate the grounded in the official Swimming pamphlet."
+        "misconception": "Reading a short definition of Swimming Strokes is enough for Swimming Requirement 3 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Swimming Strokes grounded in the official Swimming pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Swimming Strokes grounded in the official Swimming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -789,63 +809,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Swimming Sub-Req 3a: Demonstrate the front crawl or the trudgen using good form.",
-        "Swimming Sub-Req 3b: Demonstrate the back crawl using good form.",
-        "Swimming Sub-Req 3c: Demonstrate the sidestroke using good form.",
-        "Swimming Sub-Req 3d: Demonstrate the breaststroke using good form."
+        "Earn Swimming: To earn the Swimming merit badge you must demonstrateyour swimming strength and stroke proficiency byswimming 150 yards using a combination of fivestrokes.",
+        "Yourbreaststroke Vigorous: If yourbreaststroke is a vigorous, bobbing stroke as usedin competition, it is not satisfactory for this requirement.",
+        "Doing Backstroke Frog: Doing the backstroke using a frog kick rather than a whip kick also is unacceptable for this requirement.",
+        "Required Swim Specified: You also are required to swim the specified strokes in a “strong manner.” This means no rest stops and no gasping, panting finishes."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Swimming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Correctly perform the following strokes: (a) Demonstrate the.",
-        "Execute & Document: Perform the correctly task methodically with your patrol buddy and log specific observations in your Swimming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Stroke Sequence Begins: The stroke sequence begins with the morestrenuous strokes and moves through to the more restfulstrokes, with the last stroke being the most.",
+        "Shouldfollow Stroke Sequence: You shouldfollow the stroke sequence as presented in the requirement.",
+        "Ifyou Complete Swim: Ifyou complete the swim “in a strong manner” in the specifiedsequence, then you should be rested and able to continue wellbeyond the 150-yard.",
+        "Pages Required: On the following pages, you will find the required strokesillustrated and explained as you should swim them to completerequirement 3."
       ],
       "gear_checklist": [
         "Official Swimming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Swimming Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Swimming Strokes",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Swimming Approach",
-        "right_header": "Official BSA Swimming Pamphlet Standard",
+        "right_header": "Official BSA Swimming Standard (Swimming Strokes)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Swimming Strokes.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Swimming Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Swimming Workbook organizer.",
+          "Clearly demonstrates and explains Swimming Strokes using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Swimming Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Correctly perform the following strokes: (a) Demonstrate the",
+          "Requirement & Topic": "Req 3 - Swimming Strokes",
           "Primary Standard": "Demonstrate the front crawl or the trudgen using good form.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Swimming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Swimming Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Swimming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Swimming Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Swimming Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Swimming Requirement 3, a Scout claims: \"Reading a short definition of Correctly perform the following strokes: (a) Demonstrate the is enough for Swimming Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively correctly the specific principles and real-world steps of Correctly perform the following strokes: (a) Demonstrate the grounded in the official Swimming pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively correctly the specific principles and real-world steps of Correctly perform the following strokes: (a) Demonstrate the grounded in the official Swimming pamphlet.",
-        "explanation": "Per Official BSA Swimming Pamphlet, pp. 16-21, Each Scout must actively correctly the specific principles and real-world steps of Correctly perform the following strokes: (a) Demonstrate the grounded in the official Swimming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Swimming Workbook organizer table and practical demonstration for Req 3."
     },
@@ -865,13 +875,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Swim continuously for 150 yards in a strong",
+      "topic_title": "Req 4: Swim continuously for 150 yards",
       "action_verb": "Swim",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Swimming Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Swimming Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 53)",
+      "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 53)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -891,8 +901,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Swim continuously for 150 yards in a strong is enough for Swimming Requirement 4 sign-off.",
-        "fact": "Each Scout must actively swim the specific principles and real-world steps of Swim continuously for 150 yards in a strong grounded in the official Swimming pamphlet."
+        "misconception": "Reading a short definition of Swim continuously for 150 yards is enough for Swimming Requirement 4 sign-off.",
+        "fact": "Each Scout must actively swim the specific principles and real-world steps of Swim continuously for 150 yards grounded in the official Swimming pamphlet.",
+        "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Swim continuously for 150 yards grounded in the official Swimming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 53)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -912,63 +924,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 4): Swim continuously for 150 yards in a strong manner using each of the following strokes in any order.",
-        "Core Standard 2 (Req 4): front crawl or trudgen (25 yards).",
-        "Core Standard 3 (Req 4): back crawl (25 yards).",
-        "Core Standard 4 (Req 4): sidestroke (25 yards)."
+        "Earn Swimming: To earn the Swimming merit badge you must demonstrateyour swimming strength and stroke proficiency byswimming 150 yards using a combination of fivestrokes.",
+        "Yourbreaststroke Vigorous: If yourbreaststroke is a vigorous, bobbing stroke as usedin competition, it is not satisfactory for this requirement.",
+        "Doing Backstroke Frog: Doing the backstroke using a frog kick rather than a whip kick also is unacceptable for this requirement.",
+        "Required Swim Specified: You also are required to swim the specified strokes in a “strong manner.” This means no rest stops and no gasping, panting finishes."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Swimming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Swim continuously for 150 yards in a strong.",
-        "Execute & Document: Perform the swim task methodically with your patrol buddy and log specific observations in your Swimming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Stroke Sequence Begins: The stroke sequence begins with the morestrenuous strokes and moves through to the more restfulstrokes, with the last stroke being the most.",
+        "Shouldfollow Stroke Sequence: You shouldfollow the stroke sequence as presented in the requirement.",
+        "Ifyou Complete Swim: Ifyou complete the swim “in a strong manner” in the specifiedsequence, then you should be rested and able to continue wellbeyond the 150-yard.",
+        "Pages Required: On the following pages, you will find the required strokesillustrated and explained as you should swim them to completerequirement 3."
       ],
       "gear_checklist": [
         "Official Swimming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Swimming Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Swim continuously for 150 yards",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Swimming Approach",
-        "right_header": "Official BSA Swimming Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Swimming Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Swimming Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Swim continuously for 150 yards in a strong",
-          "Primary Standard": "Swim continuously for 150 yards in a strong manner using each of the following strokes in any order; front cra",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Swimming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Swimming Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Swim continuously for 150 yards",
+          "Primary Standard": "Swim continuously for 150 yards in a strong manner using each of the following strokes in any order; front crawl or trudgen (25 yards); back crawl (25 yards); sidestroke (25 yards); breaststroke (25 yards); and elementary backstroke (50 yards).",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Swimming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 53) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Swimming Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Swimming Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Swimming Requirement 4, a Scout claims: \"Reading a short definition of Swim continuously for 150 yards in a strong is enough for Swimming Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively swim the specific principles and real-world steps of Swim continuously for 150 yards in a strong grounded in the official Swimming pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively swim the specific principles and real-world steps of Swim continuously for 150 yards in a strong grounded in the official Swimming pamphlet.",
-        "explanation": "Per Official BSA Swimming Pamphlet, pp. 22-27, Each Scout must actively swim the specific principles and real-world steps of Swim continuously for 150 yards in a strong grounded in the official Swimming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Swimming Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1003,10 +992,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Swimming Requirement 5a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5a grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5a grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5a grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1026,9 +1017,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Demonstrate water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by throwing lines and objects. Explain why swimming rescues should not be attempted when a reaching or throwing rescue is possible, and explain why and how a rescue swimmer should avoid contact with the victim."
         },
         {
           "sub_id": "5b",
@@ -1054,10 +1048,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Swimming Requirement 5b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5b grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5b grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 5b grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1077,9 +1073,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "With a helper and a practice victim, show a line rescue both as tender and as rescuer. The practice victim should be approximately 30 feet from shore in deep water."
         }
       ],
       "resources": [],
@@ -1091,13 +1090,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: (a) Demonstrate water rescue methods by reaching with",
+      "topic_title": "Req 5: Water rescue methods by reaching",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Swimming Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Swimming Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)",
+      "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1117,8 +1116,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Demonstrate water rescue methods by reaching with is enough for Swimming Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Demonstrate water rescue methods by reaching with grounded in the official Swimming pamphlet."
+        "misconception": "Reading a short definition of Water rescue methods by reaching is enough for Swimming Requirement 5 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Water rescue methods by reaching grounded in the official Swimming pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Water rescue methods by reaching grounded in the official Swimming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1138,63 +1139,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Swimming Sub-Req 5a: Demonstrate water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by throwing lines and objects. Explain.",
-        "Swimming Sub-Req 5b: With a helper and a practice victim, show a line rescue both as tender and as rescuer. The practice victim should be approximately 30 feet from shore in deep water.",
-        "Core Standard 1 (Req 5): Do the following: (a) Demonstrate water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by throwing lines and objects.",
-        "Core Standard 2 (Req 5): Explain why swimming rescues should not be attempted when a reaching or throwing rescue is possible, and explain why and how a rescue swimmer should avoid contact with the victim."
+        "Spinal Injuries Occur: Spinal injuries can occur from diving into shallow orobstructed water.",
+        "Rescuers Careful: Rescuers must be very careful when a spinalinjury is suspected.",
+        "Spinal Injuries Fatal: Spinal injuries can be fatal or can causeparalysis.",
+        "Victim Not Handled: If the victim is not handled properly, additional serious injury could result."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Swimming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Demonstrate water rescue methods by reaching with.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Swimming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Moving Victim Extremely: Moving a victim is an extremely delicatetask best left to trained emergency personnel, but if no one elseis present you may need to act.",
+        "Swimming Accident Youmay: In a swimming accident, youmay have to move the victim to prevent drowning or to performrescue breathing.",
+        "Tending Suspected Spinal: When tending to a suspected spinal injury victim, movethe victim’s head, neck, and back as little as possible.",
+        "Thetechnique Limit Movement: Thetechnique used to limit this movement is called in-line stabilization."
       ],
       "gear_checklist": [
         "Official Swimming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Swimming Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Water rescue methods by reaching",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Swimming Approach",
-        "right_header": "Official BSA Swimming Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Swimming Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Swimming Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - (a) Demonstrate water rescue methods by reaching with",
-          "Primary Standard": "Demonstrate water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Swimming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Swimming Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Water rescue methods by reaching",
+          "Primary Standard": "Demonstrate water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by throwing lines and objects.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Swimming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Swimming Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Swimming Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Swimming Requirement 5, a Scout claims: \"Reading a short definition of (a) Demonstrate water rescue methods by reaching with is enough for Swimming Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Demonstrate water rescue methods by reaching with grounded in the official Swimming pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Demonstrate water rescue methods by reaching with grounded in the official Swimming pamphlet.",
-        "explanation": "Per Official BSA Swimming Pamphlet, pp. 28-33, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Demonstrate water rescue methods by reaching with grounded in the official Swimming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Swimming Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1231,10 +1209,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Swimming Requirement 6a sign-off.",
-            "fact": "Each Scout must actively float the specific principles and real-world steps of Req 6a grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1254,9 +1234,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Float faceup in a resting position for at least three minutes with minimal movement."
         },
         {
           "sub_id": "6b",
@@ -1282,10 +1265,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Swimming Requirement 6b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6b grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6b grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6b grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1305,9 +1290,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Demonstrate survival floating for at least five minutes."
         },
         {
           "sub_id": "6c",
@@ -1338,10 +1326,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Swimming Requirement 6c sign-off.",
-            "fact": "Each Scout must actively while the specific principles and real-world steps of Req 6c grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6c grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6c grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1361,9 +1351,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "While wearing a properly fitted U.S. Coast Guard-approved life jacket, demonstrate the HELP and huddle positions. Explain their purposes."
         },
         {
           "sub_id": "6d",
@@ -1386,10 +1379,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Swimming Requirement 6d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1409,9 +1404,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "Explain why swimming or survival floating will hasten the onset of hypothermia in cold water."
         }
       ],
       "resources": [
@@ -1432,13 +1430,13 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 6: (a) Float faceup in a resting position for",
+      "topic_title": "Req 6: Float faceup in a resting position",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Swimming Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Swimming Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
+      "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1458,8 +1456,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Float faceup in a resting position for is enough for Swimming Requirement 6 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Float faceup in a resting position for grounded in the official Swimming pamphlet."
+        "misconception": "Reading a short definition of Float faceup in a resting position is enough for Swimming Requirement 6 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Float faceup in a resting position grounded in the official Swimming pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Float faceup in a resting position grounded in the official Swimming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1479,63 +1479,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Swimming Sub-Req 6a: Float faceup in a resting position for at least three minutes with minimal movement.",
-        "Swimming Sub-Req 6b: Demonstrate survival floating for at least five minutes.",
-        "Swimming Sub-Req 6c: While wearing a properly fitted U.S. Coast Guard-approved life jacket, demonstrate the HELP and huddle positions. Explain their purposes.",
-        "Swimming Sub-Req 6d: Explain why swimming or survival floating will hasten the onset of hypothermia in cold water."
+        "Properly Fitted Coast: A properly fitted U.S. Coast Guard- approved life jacket should be worn forall activities afloat in small craft.",
+        "Canprovide Insulation: In addition, it canprovide insulation and significantly reduceheat loss in cold water that could leadto hypothermia.",
+        "Alone Cold Water: If you are alone in cold water and morethan a short distance from safety, your beststrategy is to float motionless.",
+        "Life Jacket Andall: Keep your life jacket andall clothing on for insulation."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Swimming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Float faceup in a resting position for.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Swimming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Vigorous Swimming Chill: Vigorous swimming will chill you mostrapidly when treading water. rapidly.",
+        "Treading Water Tiring: Treading water is tiring and will produce heat loss almost as rapidly as swimming.",
+        "Yourself Deep Water: What if you find yourself in deep water without flotation support and too far from shore to swim?.",
+        "Perhaps Sweptout Sea: Perhaps you were sweptout to sea by an unusually strong current or thrown overboardfrom a boat in strong waves."
       ],
       "gear_checklist": [
         "Official Swimming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Swimming Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Float faceup in a resting position",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Swimming Approach",
-        "right_header": "Official BSA Swimming Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Swimming Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Swimming Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - (a) Float faceup in a resting position for",
+          "Requirement & Topic": "Req 6 - Float faceup in a resting position",
           "Primary Standard": "Float faceup in a resting position for at least three minutes with minimal movement.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Swimming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Swimming Pamphlet, pp. 34-39."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Swimming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Swimming Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Swimming Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Swimming Requirement 6, a Scout claims: \"Reading a short definition of (a) Float faceup in a resting position for is enough for Swimming Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Float faceup in a resting position for grounded in the official Swimming pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Float faceup in a resting position for grounded in the official Swimming pamphlet.",
-        "explanation": "Per Official BSA Swimming Pamphlet, pp. 34-39, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Float faceup in a resting position for grounded in the official Swimming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Swimming Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1572,10 +1549,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Swimming Requirement 7a sign-off.",
-            "fact": "Each Scout must actively use the specific principles and real-world steps of Req 7a grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1595,9 +1574,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Use the feetfirst method of surface diving and bring an object up from the bottom."
         },
         {
           "sub_id": "7b",
@@ -1625,10 +1607,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Swimming Requirement 7b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1648,9 +1632,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Do a headfirst surface dive (pike or tuck), and bring the object up again."
         },
         {
           "sub_id": "7c",
@@ -1660,23 +1647,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 7c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7c is enough for Swimming Requirement 7c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Swimming pamphlet."
+            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 7c grounded in the official Swimming pamphlet.",
+            "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 7c grounded in the official Swimming pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1696,9 +1688,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7c",
+          "sub_req_label": "7c",
+          "sub_req_text": "Do a headfirst surface dive to a depth of at least 5 feet and swim underwater for three strokes. Come to the surface, take a breath, and repeat the sequence twice."
         }
       ],
       "resources": [
@@ -1719,13 +1714,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: In water over your head, but not to",
+      "topic_title": "Req 7: In water over your head, but",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Swimming Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Swimming Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)",
+      "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1742,8 +1737,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of In water over your head, but not to is enough for Swimming Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of In water over your head, but not to grounded in the official Swimming pamphlet."
+        "misconception": "Reading a short definition of In water over your head, but is enough for Swimming Requirement 7 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of In water over your head, but grounded in the official Swimming pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of In water over your head, but grounded in the official Swimming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1763,63 +1760,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Swimming Sub-Req 7a: Use the feetfirst method of surface diving and bring an object up from the bottom.",
-        "Swimming Sub-Req 7b: Do a headfirst surface dive (pike or tuck), and bring the object up again.",
-        "Swimming Sub-Req 7c: Do a headfirst surface dive to a depth of at least 5 feet and swim underwater for three strokes. Come to the surface, take a breath, and repeat the sequence twice.",
-        "Core Standard 1 (Req 7): In water over your head, but not to exceed 10 feet, do the following: (a) Use the feetfirst method of surface diving and bring an object up from the bottom."
+        "Easiest Way Headfirst: The easiest way to do the headfirst pike surface dive is whilemoving forward with a breaststroke.",
+        "Then Reverse Direction: Then reverse the direction ofyour arm stroke while lifting your legs out of the water and intothe air.",
+        "Streamlined Position Weight: In this streamlined position, the weight of your legs above the water will drive you downward.",
+        "Happen Quickly Inone: It all should happen quickly inone smooth motion."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Swimming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing In water over your head, but not to.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Swimming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Once Feet Underwater: Once your feet are underwater, you canbegin to swim.",
+        "Want Deeper Faster: If you want to go deeper or faster after you arecompletely beneath the surface, use the breaststroke, which youalso can use to swim along the bottom.",
+        "Tuck Surface Dive: A tuck surface dive is another option you can use to fulfillrequirement 6b.",
+        "Instead Lifting Legs: Instead of lifting your legs as you would for apike surface dive, pull your knees toward your chest and pushthem upward as you point your head."
       ],
       "gear_checklist": [
         "Official Swimming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Swimming Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for In water over your head, but",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Swimming Approach",
-        "right_header": "Official BSA Swimming Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Swimming Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Swimming Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - In water over your head, but not to",
+          "Requirement & Topic": "Req 7 - In water over your head, but",
           "Primary Standard": "Use the feetfirst method of surface diving and bring an object up from the bottom.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Swimming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Swimming Pamphlet, pp. 40-45."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Swimming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Swimming Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Swimming Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Swimming Requirement 7, a Scout claims: \"Reading a short definition of In water over your head, but not to is enough for Swimming Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of In water over your head, but not to grounded in the official Swimming pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of In water over your head, but not to grounded in the official Swimming pamphlet.",
-        "explanation": "Per Official BSA Swimming Pamphlet, pp. 40-45, Each Scout must actively explain the specific principles and real-world steps of In water over your head, but not to grounded in the official Swimming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Swimming Workbook organizer table and practical demonstration for Req 7."
     },
@@ -1839,31 +1813,36 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Following the guidelines set in the Scouting America",
-      "action_verb": "Following",
+      "topic_title": "Req 8: Surface Dives",
+      "action_verb": "Swim",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Swimming Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Swimming Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 15, p. 57)",
+      "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 15, p. 57)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
         "headers": [
-          "Req 8 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Following the guidelines set in the Scouting America is enough for Swimming Requirement 8 sign-off.",
-        "fact": "Each Scout must actively following the specific principles and real-world steps of Following the guidelines set in the Scouting America grounded in the official Swimming pamphlet."
+        "misconception": "Reading a short definition of Surface Dives is enough for Swimming Requirement 8 sign-off.",
+        "fact": "Each Scout must actively swim the specific principles and real-world steps of Surface Dives grounded in the official Swimming pamphlet.",
+        "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Surface Dives grounded in the official Swimming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 15, p. 57)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1883,63 +1862,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 8): Following the guidelines set in the Scouting America Safe Swim Defense guidelines, in water at least 7 feet deep, show a standing headfirst dive from a dock or pool deck.",
-        "Core Standard 2 (Req 8): Show a long shallow dive, also from the dock or pool deck.",
-        "Core Standard 3 (Req 8): Note: If your state, city, or local community requires a water depth greater than 7 feet, it is important to abide by that mandate.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Swimming Workbook before requesting Requirement 8 sign-off."
+        "Elevated Entry Permitted: No elevated entry is permitted where the person mustclear any obstacle, including jumping or diving over land.",
+        "Water Less Than: In water with less than 7 feet of unobstructed depth, diving is not permitted and water entry must be feetfirst.",
+        "Leaping Entry: A leaping entry is recommendedwhere water is at or above head level.",
+        "Step-down Jump-down: A step-down or jump-down entryfrom a sitting position is recommended for shallower water."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Swimming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Following the guidelines set in the Scouting America.",
-        "Execute & Document: Perform the following task methodically with your patrol buddy and log specific observations in your Swimming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Attemptto Plunge Headfirst: Never attemptto plunge headfirst below waves at a beach.",
+        "Diving Permitted Water: Diving is permitted in clear water at least 7 feet deep from a dock, pier, or platform that is no more than 18 inches above the water surface.",
+        "However State City: However, if your state, city, or local community requires a water depthgreater than 7 feet, it is important to abide by that mandate.",
+        "Remember Theweight Legs: Remember that it is theweight of your legs aboveyou that pushes you downinto the water."
       ],
       "gear_checklist": [
         "Official Swimming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Swimming Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Surface Dives",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Swimming Approach",
-        "right_header": "Official BSA Swimming Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Swimming Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Swimming Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - Following the guidelines set in the Scouting America",
-          "Primary Standard": "Following the guidelines set in the Scouting America Safe Swim Defense guidelines, in water at least 7 feet de",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Swimming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Swimming Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - Surface Dives",
+          "Primary Standard": "Following the guidelines set in the Scouting America Safe Swim Defense guidelines, in water at least 7 feet deep, show a standing headfirst dive from a dock or pool deck.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Swimming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Swimming Merit Badge Pamphlet (p. 15, p. 57) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Swimming Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Swimming Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Swimming Requirement 8, a Scout claims: \"Reading a short definition of Following the guidelines set in the Scouting America is enough for Swimming Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively following the specific principles and real-world steps of Following the guidelines set in the Scouting America grounded in the official Swimming pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively following the specific principles and real-world steps of Following the guidelines set in the Scouting America grounded in the official Swimming pamphlet.",
-        "explanation": "Per Official BSA Swimming Pamphlet, pp. 46-51, Each Scout must actively following the specific principles and real-world steps of Following the guidelines set in the Scouting America grounded in the official Swimming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Swimming Workbook organizer table and practical demonstration for Req 8."
     },
@@ -1968,13 +1924,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Explain the health benefits of regular aerobic exercise",
+      "topic_title": "Req 9: The health benefits of regular aerobic",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Swimming Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Swimming Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Swimming Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 62, p. 63)",
+      "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 62, p. 63)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1991,8 +1947,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Explain the health benefits of regular aerobic exercise is enough for Swimming Requirement 9 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain the health benefits of regular aerobic exercise grounded in the official Swimming pamphlet."
+        "misconception": "Reading a short definition of The health benefits of regular aerobic is enough for Swimming Requirement 9 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of The health benefits of regular aerobic grounded in the official Swimming pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The health benefits of regular aerobic grounded in the official Swimming pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 62, p. 63)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2012,68 +1970,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 9): Explain the health benefits of regular aerobic exercise, and discuss why swimming is favored as both fitness and therapeutic exercise.",
-        "Field Verification Standard: Apply Swimming Requirement 9 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Swimming Req 9 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Swimming Workbook before requesting Requirement 9 sign-off."
+        "Regular Exercise Single: Regular exercise may be the single most important thing aperson can do to live a long and healthy life.",
+        "Studies Ofpeople Live: Studies ofpeople who live to great ages, into their 90s andbeyond, indicate that these people have at least onething in common: regular, consistent.",
+        "Whileexercise Wide Variety: Whileexercise has a wide variety of benefits, the mostremarkable are the prevention of heart disease and the strengthening of bones.",
+        "Relationship Exercise Heart: The relationship between exercise and heart diseasehas been investigated extensively."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Swimming requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain the health benefits of regular aerobic exercise.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Swimming Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "The results arealways the same: The physically active have less heartdisease.",
+        "Impact Exercise Heart: The impact of exercise on heart disease is, inpart, due to its beneficial effects on the other risk factors ofheart disease.",
+        "People Exercise Regularly: People who exercise regularly are much less likely to beoverweight because exercise burns calories.",
+        "Fact Combination Exercise: In fact, the combination of exercise and losingweight often allows people with hypertension (high blood pressure) to control it without taking."
       ],
       "gear_checklist": [
         "Official Swimming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Swimming Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The health benefits of regular aerobic",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Swimming Approach",
-        "right_header": "Official BSA Swimming Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Swimming Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Swimming Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Explain the health benefits of regular aerobic exercise",
-          "Primary Standard": "Explain the health benefits of regular aerobic exercise, and discuss why swimming is favored as both fitness a",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Swimming terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Swimming Pamphlet, pp. 52-57."
+          "Requirement & Topic": "Req 9 - The health benefits of regular aerobic",
+          "Primary Standard": "Explain the health benefits of regular aerobic exercise, and discuss why swimming is favored as both fitness and therapeutic exercise.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Swimming terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Swimming Merit Badge Pamphlet (p. 62, p. 63) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Swimming Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Swimming Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Swimming Requirement 9, a Scout claims: \"Reading a short definition of Explain the health benefits of regular aerobic exercise is enough for Swimming Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the health benefits of regular aerobic exercise grounded in the official Swimming pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the health benefits of regular aerobic exercise grounded in the official Swimming pamphlet.",
-        "explanation": "Per Official BSA Swimming Pamphlet, pp. 52-57, Each Scout must actively explain the specific principles and real-world steps of Explain the health benefits of regular aerobic exercise grounded in the official Swimming pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Swimming Workbook organizer table and practical demonstration for Req 9."
     }
   ],
   "badge_slug": "swimming",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

@@ -49,10 +49,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Reading Requirement 1a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1a grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1a grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1a grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -72,9 +74,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Take a tour of a library. Discuss with your counselor how the library is organized and what resources and/or services are offered in the library."
         },
         {
           "sub_id": "1b",
@@ -102,10 +107,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Reading Requirement 1b sign-off.",
-            "fact": "Each Scout must actively learn the specific principles and real-world steps of Req 1b grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -125,9 +132,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Learn how to search for material using a library's card catalog or computerized catalog by author, title, and subject."
         },
         {
           "sub_id": "1c",
@@ -155,10 +165,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Reading Requirement 1c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -178,9 +190,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "In a library, search the card catalog or computerized catalog for six books of four different types, such as poetry, fiction, nonfiction, and biographies."
         },
         {
           "sub_id": "1d",
@@ -203,10 +218,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1d is enough for Reading Requirement 1d sign-off.",
-            "fact": "Each Scout must actively with the specific principles and real-world steps of Req 1d grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -226,9 +243,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1d",
+          "sub_req_label": "1d",
+          "sub_req_text": "With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books you selected."
         },
         {
           "sub_id": "1e",
@@ -256,10 +276,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1e is enough for Reading Requirement 1e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1e grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1e grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1e grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -279,9 +301,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1e",
+          "sub_req_label": "1e",
+          "sub_req_text": "Explain what a library card is, why it is needed, and how to get one."
         }
       ],
       "resources": [
@@ -314,13 +339,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: (a) Take a tour of a library. Discuss",
+      "topic_title": "Req 1: Take a tour of a library",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Reading Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
+      "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -340,8 +365,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Take a tour of a library. Discuss is enough for Reading Requirement 1 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Take a tour of a library. Discuss grounded in the official Reading pamphlet."
+        "misconception": "Reading a short definition of Take a tour of a library is enough for Reading Requirement 1 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Take a tour of a library grounded in the official Reading pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Take a tour of a library grounded in the official Reading pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -361,62 +388,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Reading Sub-Req 1a: Take a tour of a library. Discuss with your counselor how the library is organized and what resources and/or services are offered in the library.",
-        "Reading Sub-Req 1b: Learn how to search for material using a library's card catalog or computerized catalog by author, title, and subject.",
-        "Reading Sub-Req 1c: In a library, search the card catalog or computerized catalog for six books of four different types, such as poetry, fiction, nonfiction, and biographies.",
-        "Reading Sub-Req 1d: With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books you selected."
+        "Articles Chosen Subject: To find articles on your chosen subject thathave been published in popular magazines, checkthe Readers’ Guide to Periodical Literature.",
+        "Yourlibrary Probably Guide: Yourlibrary will probably have the Guide as a set ofprinted books, or it may be available electronically.",
+        "Newspaper Stories Subject: To find newspaper stories about your subject, check newspaper indexes on websites.",
+        "Yourlibrarian Newspaper: Yourlibrarian can help you find newspaper indexesto locate the newspaper articles you want."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Reading requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Take a tour of a library. Discuss.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Reading Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Search Them Librarycard: Search for them using either the librarycard catalog or computerized catalog as you learnedfor requirement 1(b).",
+        "Internet Vast Collection: The internet is a vast collection of information.",
+        "Parent Guardian's Permission: Get your parent or guardian's permission touse the internet, and then ask your parent or guardian, counselor, or a librarian to help you.",
+        "They Show Search: They can show you how to search theinternet using web directories or search engines."
       ],
       "gear_checklist": [
         "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Reading Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Take a tour of a library",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Reading Approach",
-        "right_header": "Official BSA Reading Pamphlet Standard",
+        "right_header": "Official BSA Reading Standard (Take a tour of a library)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Take a tour of a library.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Reading Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Reading Workbook organizer.",
+          "Clearly demonstrates and explains Take a tour of a library using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Reading Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) Take a tour of a library. Discuss",
-          "Primary Standard": "Take a tour of a library. Discuss with your counselor how the library is organized and what resources and/or s",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Reading terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Reading Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Take a tour of a library",
+          "Primary Standard": "Take a tour of a library. Discuss with your counselor how the library is organized and what resources and/or services are offered in the library.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Reading Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Reading Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Reading Requirement 1, a Scout claims: \"Reading a short definition of (a) Take a tour of a library. Discuss is enough for Reading Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Reading (Take a tour of a library), which patrol preparation step best aligns with the official Reading standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Take a tour of a library. Discuss grounded in the official Reading pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Reading hazards, PPE, and prerequisite standards in Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Take a tour of a library. Discuss grounded in the official Reading pamphlet.",
-        "explanation": "Per Official BSA Reading Pamphlet, pp. 4-9, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Take a tour of a library. Discuss grounded in the official Reading pamphlet."
+        "correct_answer": "Option A - Review the Reading hazards, PPE, and prerequisite standards in Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 1."
@@ -449,10 +476,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Reading Requirement 2a sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 2a grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 2a grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 2a grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -472,9 +501,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Identify a book you have enjoyed. Find out what other books the author has written."
         },
         {
           "sub_id": "2b",
@@ -506,10 +538,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2b is enough for Reading Requirement 2b sign-off.",
-            "fact": "Each Scout must actively look the specific principles and real-world steps of Req 2b grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -529,9 +563,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "Look at one or more \"best books\" lists. These can be based on year, subject, or even all time. Identify at least one book you would like to read."
         }
       ],
       "resources": [
@@ -552,13 +589,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: (a) Identify a book you have enjoyed. Find",
+      "topic_title": "Req 2: A book you have enjoyed",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Reading Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
+      "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -578,8 +615,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Identify a book you have enjoyed. Find is enough for Reading Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Identify a book you have enjoyed. Find grounded in the official Reading pamphlet."
+        "misconception": "Reading a short definition of A book you have enjoyed is enough for Reading Requirement 2 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of A book you have enjoyed grounded in the official Reading pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of A book you have enjoyed grounded in the official Reading pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -599,63 +638,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Reading Sub-Req 2a: Identify a book you have enjoyed. Find out what other books the author has written.",
-        "Reading Sub-Req 2b: Look at one or more \"best books\" lists. These can be based on year, subject, or even all time. Identify at least one book you would like to read.",
-        "Core Standard 1 (Req 2): Do the following: (a) Identify a book you have enjoyed.",
-        "Core Standard 2 (Req 2): Find out what other books the author has written."
+        "Articles Chosen Subject: To find articles on your chosen subject thathave been published in popular magazines, checkthe Readers’ Guide to Periodical Literature.",
+        "Yourlibrary Probably Guide: Yourlibrary will probably have the Guide as a set ofprinted books, or it may be available electronically.",
+        "Newspaper Stories Subject: To find newspaper stories about your subject, check newspaper indexes on websites.",
+        "Yourlibrarian Newspaper: Yourlibrarian can help you find newspaper indexesto locate the newspaper articles you want."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Reading requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Identify a book you have enjoyed. Find.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Reading Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Search Them Librarycard: Search for them using either the librarycard catalog or computerized catalog as you learnedfor requirement 1(b).",
+        "Internet Vast Collection: The internet is a vast collection of information.",
+        "Parent Guardian's Permission: Get your parent or guardian's permission touse the internet, and then ask your parent or guardian, counselor, or a librarian to help you.",
+        "They Show Search: They can show you how to search theinternet using web directories or search engines."
       ],
       "gear_checklist": [
         "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Reading Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for A book you have enjoyed",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Reading Approach",
-        "right_header": "Official BSA Reading Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Reading Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Reading Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - (a) Identify a book you have enjoyed. Find",
+          "Requirement & Topic": "Req 2 - A book you have enjoyed",
           "Primary Standard": "Identify a book you have enjoyed. Find out what other books the author has written.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Reading terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Reading Pamphlet, pp. 10-15."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Reading Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Reading Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Reading Requirement 2, a Scout claims: \"Reading a short definition of (a) Identify a book you have enjoyed. Find is enough for Reading Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Identify a book you have enjoyed. Find grounded in the official Reading pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Identify a book you have enjoyed. Find grounded in the official Reading pamphlet.",
-        "explanation": "Per Official BSA Reading Pamphlet, pp. 10-15, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Identify a book you have enjoyed. Find grounded in the official Reading pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 2."
     },
@@ -696,10 +712,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Reading Requirement 3a sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 3a grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 3a grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 3a grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -719,9 +737,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading it."
         },
         {
           "sub_id": "3b",
@@ -749,10 +770,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Reading Requirement 3b sign-off.",
-            "fact": "Each Scout must actively watch the specific principles and real-world steps of Req 3b grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -772,9 +795,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Watch a movie based on the book. What was the same between the book and movie? What was different? Which did you enjoy more? Discuss this with your counselor."
         },
         {
           "sub_id": "3c",
@@ -802,10 +828,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3c is enough for Reading Requirement 3c sign-off.",
-            "fact": "Each Scout must actively give the specific principles and real-world steps of Req 3c grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -825,9 +853,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3c",
+          "sub_req_label": "3c",
+          "sub_req_text": "Give a book talk to your class, troop, or patrol."
         }
       ],
       "resources": [
@@ -868,13 +899,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Read four different types of books, such as",
-      "action_verb": "Read",
+      "topic_title": "Req 3: Read four different types of books",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Reading Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
+      "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -891,8 +922,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Read four different types of books, such as is enough for Reading Requirement 3 sign-off.",
-        "fact": "Each Scout must actively read the specific principles and real-world steps of Read four different types of books, such as grounded in the official Reading pamphlet."
+        "misconception": "Reading a short definition of Read four different types of books is enough for Reading Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Read four different types of books grounded in the official Reading pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Read four different types of books grounded in the official Reading pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -912,63 +945,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Reading Sub-Req 3a: Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and.",
-        "Reading Sub-Req 3b: Watch a movie based on the book. What was the same between the book and movie? What was different? Which did you enjoy more? Discuss this with your counselor.",
-        "Reading Sub-Req 3c: Give a book talk to your class, troop, or patrol.",
-        "Core Standard 1 (Req 3): Read four different types of books, such as poetry, fiction, nonfiction, or biographies."
+        "Requirement Asks Read: Requirement 3 asks you to read books of different types.",
+        "Books Aredivided Big: Books aredivided into two big groups depending on whether they are based onfacts or imagined stories.",
+        "There Types Genres: There are many types, or genres, of bookswithin these groups.",
+        "Genre Group Books: A genre is a group of books that share somethingin common."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Reading requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Read four different types of books, such as.",
-        "Execute & Document: Perform the read task methodically with your patrol buddy and log specific observations in your Reading Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Books Fantasy Genre: Books in the fantasy genre tell imaginedstories about places and circumstances that cannot be logically true.",
+        "Reader Expected Suspend: Yet the reader is expected to suspend disbelief, or go along with theauthor on this reading adventure.",
+        "Nonfiction Includes Factual: Nonfiction includes factual writing such as the Scouts BSA handbook, Fieldbook, merit badge pamphlets, and field guides.",
+        "Readnonfiction Information: You readnonfiction to get information or learn about a subject, person, or event."
       ],
       "gear_checklist": [
         "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Reading Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Read four different types of books",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Reading Approach",
-        "right_header": "Official BSA Reading Pamphlet Standard",
+        "right_header": "Official BSA Reading Standard (Read four different types of books)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Read four different types of books.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Reading Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Reading Workbook organizer.",
+          "Clearly demonstrates and explains Read four different types of books using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Reading Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Read four different types of books, such as",
-          "Primary Standard": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you woul",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Reading terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Reading Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Read four different types of books",
+          "Primary Standard": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading it.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Reading Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Reading Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Reading Requirement 3, a Scout claims: \"Reading a short definition of Read four different types of books, such as is enough for Reading Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively read the specific principles and real-world steps of Read four different types of books, such as grounded in the official Reading pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively read the specific principles and real-world steps of Read four different types of books, such as grounded in the official Reading pamphlet.",
-        "explanation": "Per Official BSA Reading Pamphlet, pp. 16-21, Each Scout must actively read the specific principles and real-world steps of Read four different types of books, such as grounded in the official Reading pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 3."
     },
@@ -993,13 +1016,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Read a nonfiction book or magazine that teaches",
-      "action_verb": "Read",
+      "topic_title": "Req 4: Read a nonfiction book or magazine",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Reading Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)",
+      "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1016,13 +1039,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Read a nonfiction book or magazine that teaches is enough for Reading Requirement 4 sign-off.",
-        "fact": "Each Scout must actively read the specific principles and real-world steps of Read a nonfiction book or magazine that teaches grounded in the official Reading pamphlet."
+        "misconception": "Reading a short definition of Read a nonfiction book or magazine is enough for Reading Requirement 4 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Read a nonfiction book or magazine grounded in the official Reading pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Read a nonfiction book or magazine grounded in the official Reading pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Reading Req 4 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Reading Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1042,63 +1067,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 4): Read a nonfiction book or magazine that teaches you how to do something like cooking, wood-building projects, video game design, science experiments, knot-tying, etc.",
-        "Core Standard 2 (Req 4): With your counselor's and parent or guardian's permission, complete a project from the book.",
-        "Core Standard 3 (Req 4): Share your experience with your counselor.",
-        "Core Standard 4 (Req 4): Reading a merit badge pamphlet will not count toward completing this requirement."
+        "Reading Information: Reading for Information. by discussing withyour counselorwhat you have Reading is for fun and for discovery.",
+        "Book Talk Engaging: A “book talk” is an engaging presentationor discussion about a book, aimed at generating interest andencouraging others to read it.",
+        "Thought Mixbetween Book: It can be thought of as a mixbetween a book review and a sales pitch.",
+        "Summary: Provide a brief overview of the bookwithout giving away any spoilers."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Reading requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Read a nonfiction book or magazine that teaches.",
-        "Execute & Document: Perform the read task methodically with your patrol buddy and log specific observations in your Reading Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Mention Themain Plot: Mention themain plot, setting, and key characters.",
+        "Highlights: Share some interesting aspects ofthe book, such as a favorite scene, a memorable character, or a compelling theme.",
+        "Personal Connection: Explain why youchose the book and what it meant to you.",
+        "Personal Touch Others: This personal touch can help others connectwith your enthusiasm."
       ],
       "gear_checklist": [
         "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Reading Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Read a nonfiction book or magazine",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Reading Approach",
-        "right_header": "Official BSA Reading Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Reading Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Reading Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Read a nonfiction book or magazine that teaches",
-          "Primary Standard": "Read a nonfiction book or magazine that teaches you how to do something like cooking, wood-building projects, ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Reading terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Reading Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Read a nonfiction book or magazine",
+          "Primary Standard": "Read a nonfiction book or magazine that teaches you how to do something like cooking, wood-building projects, video game design, science experiments, knot-tying, etc.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Reading Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Reading Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Reading Requirement 4, a Scout claims: \"Reading a short definition of Read a nonfiction book or magazine that teaches is enough for Reading Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively read the specific principles and real-world steps of Read a nonfiction book or magazine that teaches grounded in the official Reading pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively read the specific principles and real-world steps of Read a nonfiction book or magazine that teaches grounded in the official Reading pamphlet.",
-        "explanation": "Per Official BSA Reading Pamphlet, pp. 22-27, Each Scout must actively read the specific principles and real-world steps of Read a nonfiction book or magazine that teaches grounded in the official Reading pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1127,13 +1129,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Read about the world around you from any",
-      "action_verb": "Read",
+      "topic_title": "Req 5: Read about the world around",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Reading Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)",
+      "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1150,13 +1152,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Read about the world around you from any is enough for Reading Requirement 5 sign-off.",
-        "fact": "Each Scout must actively read the specific principles and real-world steps of Read about the world around you from any grounded in the official Reading pamphlet."
+        "misconception": "Reading a short definition of Read about the world around is enough for Reading Requirement 5 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Read about the world around grounded in the official Reading pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Read about the world around grounded in the official Reading pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Reading Req 5 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Reading Req 5 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1176,63 +1180,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 5): Read about the world around you from any two sources: books, magazines, newspapers, the internet (with your parent or guardian's permission), field manuals, etc.",
-        "Core Standard 2 (Req 5): Topics may include Scouting, sports, environmental problems, politics, social issues, current events, nature, religion, etc.",
-        "Core Standard 3 (Req 5): Discuss what you have learned with your counselor.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Reading Workbook before requesting Requirement 5 sign-off."
+        "Requirement Research: For requirement 5 you will research subjects that interest you.",
+        "Pick Current Topic: You can pick any current topic, but your reading selections forrequirement 5 will be mostly, if not entirely, nonfiction.",
+        "Goal Learnabout World: Your goal is to learnabout the world around you by reading the most accurate andup-to-date sources you can find.",
+        "Maybe There Particular: Maybe there is some particular topic you have wanted to learnabout but have never found anybody to ask."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Reading requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Read about the world around you from any.",
-        "Execute & Document: Perform the read task methodically with your patrol buddy and log specific observations in your Reading Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Perhaps Thereis Topic: Or perhaps thereis a topic with which you are familiar but want to know moreabout.",
+        "There Something Want: Or there is something you want to know how to do ormake.",
+        "Whatever Subject Interests: Whatever subject interests you, you’re almost certain tofind that many people have written about it.",
+        "Here Examples Topicsmany: Here are some examples of topicsmany young people are curious about."
       ],
       "gear_checklist": [
         "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Reading Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Read about the world around",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Reading Approach",
-        "right_header": "Official BSA Reading Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Reading Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Reading Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Read about the world around you from any",
-          "Primary Standard": "Read about the world around you from any two sources: books, magazines, newspapers, the internet (with your pa",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Reading terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Reading Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Read about the world around",
+          "Primary Standard": "Read about the world around you from any two sources: books, magazines, newspapers, the internet (with your parent or guardian's permission), field manuals, etc.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Reading Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Reading Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Reading Requirement 5, a Scout claims: \"Reading a short definition of Read about the world around you from any is enough for Reading Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively read the specific principles and real-world steps of Read about the world around you from any grounded in the official Reading pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively read the specific principles and real-world steps of Read about the world around you from any grounded in the official Reading pamphlet.",
-        "explanation": "Per Official BSA Reading Pamphlet, pp. 28-33, Each Scout must actively read the specific principles and real-world steps of Read about the world around you from any grounded in the official Reading pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1269,10 +1250,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Reading Requirement 6a sign-off.",
-            "fact": "Each Scout must actively read the specific principles and real-world steps of Req 6a grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1292,9 +1275,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Read to a sick, blind, or homebound person in a hospital or in an extended-care facility."
         },
         {
           "sub_id": "6b",
@@ -1309,23 +1295,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Reading Requirement 6b sign-off.",
-            "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 6b grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6b grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6b grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1345,9 +1336,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Perform volunteer work at your school library or a public library."
         },
         {
           "sub_id": "6c",
@@ -1375,10 +1369,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Reading Requirement 6c sign-off.",
-            "fact": "Each Scout must actively read the specific principles and real-world steps of Req 6c grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1398,9 +1394,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Read stories to younger children, in a group or individually."
         },
         {
           "sub_id": "6d",
@@ -1428,10 +1427,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Reading Requirement 6d sign-off.",
-            "fact": "Each Scout must actively organize the specific principles and real-world steps of Req 6d grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1451,9 +1452,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "Organize a book swap in your troop, school, or place of worship."
         },
         {
           "sub_id": "6e",
@@ -1481,10 +1485,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6e is enough for Reading Requirement 6e sign-off.",
-            "fact": "Each Scout must actively organize the specific principles and real-world steps of Req 6e grounded in the official Reading pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Reading pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Reading pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1504,9 +1510,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6e",
+          "sub_req_label": "6e",
+          "sub_req_text": "Organize a book drive to collect books. Donate them to an organization in need."
         }
       ],
       "resources": [
@@ -1539,36 +1548,41 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: With your counselor's and parent or guardian's permission",
-      "action_verb": "With",
+      "topic_title": "Req 6: With your counselor's and parent",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Reading Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
+      "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Step #",
+          "Physical Technique / Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Step 1: Pre-Task Safety & Gear Check",
+          "Step 2: Core Technique Execution",
+          "Step 3: Quality & Accuracy Verification",
+          "Step 4: Post-Task Reset & Debrief"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With your counselor's and parent or guardian's permission is enough for Reading Requirement 6 sign-off.",
-        "fact": "Each Scout must actively with the specific principles and real-world steps of With your counselor's and parent or guardian's permission grounded in the official Reading pamphlet."
+        "misconception": "Reading a short definition of With your counselor's and parent is enough for Reading Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of With your counselor's and parent grounded in the official Reading pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of With your counselor's and parent grounded in the official Reading pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Reading Req 6 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Reading Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -1588,63 +1602,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Reading Sub-Req 6a: Read to a sick, blind, or homebound person in a hospital or in an extended-care facility.",
-        "Reading Sub-Req 6b: Perform volunteer work at your school library or a public library.",
-        "Reading Sub-Req 6c: Read stories to younger children, in a group or individually.",
-        "Reading Sub-Req 6d: Organize a book swap in your troop, school, or place of worship."
+        "Talk Different Kinds: Talk with your counselor about the different kinds of volunteerservice you might give.",
+        "People Read Favorite: For many people, being read to is a favorite memory fromchildhood.",
+        "Chances Funthan They: Chances are, you’ll have even more funthan they will.",
+        "Reading Aloud Different: Reading aloud is a different skill from reading to yourself."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Reading requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing With your counselor's and parent or guardian's permission.",
-        "Execute & Document: Perform the with task methodically with your patrol buddy and log specific observations in your Reading Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Losing Audience Read: To keep from losing your audience, you must read slowly.",
+        "Ifyou Normally Fast: Ifyou’re normally a fast talker, you may have to slow down yourreading so much that, to your own ears, at least, you sounddraggy.",
+        "They Follow Story: They will follow the story much better if you go slowly, sayevery word, read with enthusiasm, and insert a few pauses fordramatic effect.",
+        "Read Anaudience Listener: Before you read to anaudience (of one listener or many), practice the materialyou have chosen."
       ],
       "gear_checklist": [
         "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Reading Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for With your counselor's and parent",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Reading Approach",
-        "right_header": "Official BSA Reading Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Reading Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Reading Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - With your counselor's and parent or guardian's permission",
+          "Requirement & Topic": "Req 6 - With your counselor's and parent",
           "Primary Standard": "Read to a sick, blind, or homebound person in a hospital or in an extended-care facility.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Reading terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Reading Pamphlet, pp. 34-39."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Reading Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Reading Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Reading Requirement 6, a Scout claims: \"Reading a short definition of With your counselor's and parent or guardian's permission is enough for Reading Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With your counselor's and parent or guardian's permission grounded in the official Reading pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With your counselor's and parent or guardian's permission grounded in the official Reading pamphlet.",
-        "explanation": "Per Official BSA Reading Pamphlet, pp. 34-39, Each Scout must actively with the specific principles and real-world steps of With your counselor's and parent or guardian's permission grounded in the official Reading pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1664,13 +1655,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Reading Careers, Training & Hobby Pathways",
+      "topic_title": "Req 7: Careers & Professional Pathways",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Reading Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Reading Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46)",
+      "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1687,8 +1678,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Reading career exploration requirement.",
-        "fact": "Scouts must research three Reading careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Reading career exploration requirement.",
+        "fact": "Scouts must research specific Reading career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Reading career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1708,68 +1701,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 7): Identify three career opportunities that would use skills and knowledge in reading.",
-        "Core Standard 2 (Req 7): Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field.",
-        "Core Standard 3 (Req 7): Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
-        "Core Standard 4 (Req 7): Discuss what you learned with your counselor and whether you might be interested in this career."
+        "Careers Center Reading: Careers that center around reading can be incredibly fulfilling for those who have apassion for books, literature, or gathering and interpreting.",
+        "Careersoften Involve Skills: Such careersoften involve skills like analysis, communication, and creative thinking.",
+        "Manyreading-focused Roles: Manyreading-focused roles allow individuals to immerse themselves in stories, ideas, oracademic research, making them ideal for lifelong learners.",
+        "Examples Careers Realm: Examples of careers in this realm include librarians, who manage collections ofbooks and digital resources while guiding others in their reading."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Reading requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Reading Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Reading Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Editorsand Proofreaders Path: Editorsand proofreaders are another path; they play a critical role in refining written content for publication.",
+        "Writers Authors Course: Writers and authors, of course, craft compelling works forreaders to enjoy, while literary critics analyze and review books to provide.",
+        "Options Include Careers: Other options include careers in academia, where professors and researchers frequently engage with texts to educate and innovate in their fields.",
+        "Lawyersand Paralegals: Lawyersand paralegals also have careers deeply intertwined with reading, as they analyzelegal documents, contracts, and case studies."
       ],
       "gear_checklist": [
         "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Reading Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Reading Approach",
-        "right_header": "Official BSA Reading Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Reading Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Reading Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Reading Careers, Training & Hobby Pathways",
-          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in reading. Pick one and research the ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Reading terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Reading Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Careers & Professional Pathways",
+          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in reading.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Reading Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Reading Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Reading Requirement 7, a Scout claims: \"Listing three job titles from a web search satisfies the Reading career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Reading careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Reading careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Reading Pamphlet, pp. 40-45, Scouts must research three Reading careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 7."
     }
   ],
   "badge_slug": "reading",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

@@ -914,3 +914,208 @@ def generate_three_stage_ypt_communication_pack(
             },
         },
     }
+
+
+def generate_fillable_scout_workbook_pdf(
+    badge_name: str,
+    counselor_info: Optional[Dict[str, Any]] = None,
+    option_track: str = "ALL",
+    session_dates: Optional[List[str]] = None,
+) -> bytes:
+    """Generates a downloadable, interactive AcroForm PDF Fillable Scout Workbook for any of the 149 badges.
+
+    Includes:
+    - Scouting America Guide to Advancement Section 7.0.3.2 compliance notice banner.
+    - Interactive AcroForm text fields (`Scout Name`, `Troop & Council`, `BSA Member ID`, `Counselor Name`).
+    - Per-requirement verbatim text, verb-aligned organizer prompts, interactive multi-line AcroForm notes field,
+      and Counselor Sign-Off checkbox (`fitz.Widget`).
+    """
+    import fitz
+
+    from src.agents.planner import _format_workbook_organizer_label
+    from src.tools.scouting_scraper import (
+        CounselorTitleSlideInfo,
+        MeritBadgeResearchRequest,
+        fetch_merit_badge_pamphlet_pdf,
+    )
+
+    res = fetch_merit_badge_pamphlet_pdf(
+        MeritBadgeResearchRequest(
+            badge_name=badge_name,
+            option_track=option_track,
+            counselor_info=CounselorTitleSlideInfo(**counselor_info) if counselor_info else None,
+        )
+    )
+    resolved_badge = str(res.get("badge_name") or badge_name)
+    reqs = list(res.get("requirements") or [])
+    c_info = counselor_info or {}
+    c_name = str(c_info.get("counselor_name") or "Merit Badge Counselor")
+    c_troop = str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council")
+    dates_str = " | ".join(session_dates) if session_dates else "Sessions 1-4 + Make-Up Day"
+
+    doc = fitz.open()
+    page = doc.new_page(width=612, height=792)
+
+    # Top Navy Header Banner
+    page.draw_rect(fitz.Rect(28, 24, 584, 76), color=(0, 0.247, 0.529), fill=(0, 0.247, 0.529))
+    page.insert_text(
+        fitz.Point(38, 46),
+        f"{resolved_badge.upper()} MERIT BADGE — FILLABLE SCOUT WORKBOOK",
+        fontsize=13.5,
+        fontname="helv",
+        color=(1, 1, 1),
+    )
+    page.insert_text(
+        fitz.Point(38, 64),
+        f"Counselor: {c_name} ({c_troop})  |  Track: {option_track.upper()}  |  Schedule: {dates_str}",
+        fontsize=8.5,
+        fontname="helv",
+        color=(0.88, 0.94, 1.0),
+    )
+
+    # GTA 7.0.3.2 Compliance Banner
+    page.draw_rect(fitz.Rect(28, 82, 584, 116), color=(0.8, 0.6, 0.1), fill=(1.0, 0.98, 0.90))
+    page.insert_textbox(
+        fitz.Rect(34, 85, 578, 114),
+        "BSA Guide to Advancement Section 7.0.3.2 Notice: Merit badge workbooks are optional organizational study aids. "
+        "A counselor must never require a Scout to submit a written worksheet when the official requirement specifies oral explanation, discussion, or physical demonstration.",
+        fontsize=7.8,
+        fontname="helv",
+        color=(0.35, 0.22, 0.02),
+    )
+
+    # Interactive Scout Info AcroForm Fields
+    id_fields = [
+        ("scout_name", "Scout Name:", "", fitz.Rect(28, 122, 195, 140)),
+        ("troop_unit", "Troop & Council:", "", fitz.Rect(205, 122, 395, 140)),
+        ("bsa_id", "BSA Member ID:", "", fitz.Rect(405, 122, 584, 140)),
+    ]
+    for f_key, f_lbl, f_val, f_rect in id_fields:
+        page.insert_text(fitz.Point(f_rect.x0, f_rect.y0 - 2), f_lbl, fontsize=7.5, fontname="helv", color=(0.2, 0.25, 0.33))
+        w = fitz.Widget()
+        w.field_name = f_key
+        w.field_type = fitz.PDF_WIDGET_TYPE_TEXT
+        w.field_value = f_val
+        w.rect = fitz.Rect(f_rect.x0, f_rect.y0 + 1, f_rect.x1, f_rect.y1 + 3)
+        w.border_color = (0.6, 0.65, 0.72)
+        w.fill_color = (0.97, 0.98, 1.0)
+        w.text_fontsize = 8.5
+        page.add_widget(w)
+
+    y_cursor = 152.0
+    for idx, r in enumerate(reqs, start=1):
+        if y_cursor > 650.0:
+            page = doc.new_page(width=612, height=792)
+            y_cursor = 36.0
+
+        r_num = str(r.get("req_number") or str(idx))
+        r_title = str(r.get("topic_title") or f"Requirement {r_num}")
+        r_text = str(r.get("req_text") or "")
+        r_bucket = str(r.get("syllabus_bucket") or "In-Class Concept")
+        r_cit = str(r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or "Official BSA Pamphlet")
+        org = r.get("workbook_organizer") or {}
+        org_type = str(org.get("organizer_type") or "RULED_EXPLAIN_BOX")
+        org_label = _format_workbook_organizer_label(r_num, org_type)
+        headers = [str(h) for h in (org.get("headers") or ["Concept / Step", "Scout Notes & Field Evidence"])]
+        row_labels = [str(rl) for rl in (org.get("row_labels") or ["Point 1", "Point 2", "Point 3"])]
+
+        # Requirement Header Bar
+        page.draw_rect(fitz.Rect(28, y_cursor, 584, y_cursor + 18), color=(0.85, 0.89, 0.95), fill=(0.93, 0.96, 0.99))
+        page.insert_text(
+            fitz.Point(34, y_cursor + 12.5),
+            f"[Req {r_num}] {r_title[:58]}   |   {r_bucket}   |   {r_cit[:34]}",
+            fontsize=8.2,
+            fontname="helv",
+            color=(0.0, 0.22, 0.48),
+        )
+        y_cursor += 21.0
+
+        # Verbatim Requirement Text
+        text_height = max(24.0, min(52.0, 14.0 * ((len(r_text) // 95) + 1)))
+        page.insert_textbox(
+            fitz.Rect(32, y_cursor, 580, y_cursor + text_height),
+            f"Official Requirement {r_num}: {r_text}",
+            fontsize=8.0,
+            fontname="helv",
+            color=(0.1, 0.14, 0.2),
+        )
+        y_cursor += text_height + 2.0
+
+        # Organizer Prompt & Interactive Multi-line Notes Widget
+        prompt_str = f"{org_label} ({' / '.join(headers)}): {', '.join(row_labels[:4])}"
+        page.insert_text(fitz.Point(32, y_cursor + 8), prompt_str[:108], fontsize=7.4, fontname="helv", color=(0.3, 0.36, 0.45))
+        y_cursor += 12.0
+
+        notes_rect = fitz.Rect(32, y_cursor, 515, y_cursor + 44)
+        w_notes = fitz.Widget()
+        w_notes.field_name = f"req_{r_num}_notes_{idx}"
+        w_notes.field_type = fitz.PDF_WIDGET_TYPE_TEXT
+        w_notes.field_flags = fitz.PDF_TX_FIELD_IS_MULTILINE
+        w_notes.field_value = ""
+        w_notes.rect = notes_rect
+        w_notes.border_color = (0.65, 0.72, 0.82)
+        w_notes.fill_color = (1.0, 1.0, 1.0)
+        w_notes.text_fontsize = 8.2
+        page.add_widget(w_notes)
+
+        # Sign-Off Checkbox Widget
+        page.insert_text(fitz.Point(522, y_cursor + 12), "Done:", fontsize=7.5, fontname="helv", color=(0.2, 0.25, 0.33))
+        w_chk = fitz.Widget()
+        w_chk.field_name = f"req_{r_num}_done_{idx}"
+        w_chk.field_type = fitz.PDF_WIDGET_TYPE_CHECKBOX
+        w_chk.field_value = False
+        w_chk.rect = fitz.Rect(552, y_cursor + 3, 566, y_cursor + 17)
+        w_chk.border_color = (0.0, 0.25, 0.53)
+        page.add_widget(w_chk)
+        page.insert_text(fitz.Point(522, y_cursor + 32), "Init: _____", fontsize=7.5, fontname="helv", color=(0.3, 0.35, 0.42))
+
+        y_cursor += 52.0
+
+    pdf_bytes = doc.tobytes()
+    doc.close()
+    return pdf_bytes
+
+
+def generate_class_preparation_page_cpp_pdf(
+    badge_name: str,
+    counselor_info: Optional[Dict[str, Any]] = None,
+    session_dates: Optional[List[str]] = None,
+    room_location: str = "",
+) -> bytes:
+    """Generates a 1-page printable Class Preparation Page (CPP) in PDF format."""
+    import fitz
+
+    cpp_data = generate_class_preparation_page_cpp(
+        badge_name=badge_name,
+        counselor_info=counselor_info,
+        session_dates=session_dates,
+        room_location=room_location,
+    )
+    resolved_badge = str(cpp_data.get("badge_name") or badge_name)
+    md_text = str(cpp_data.get("cpp_markdown") or "")
+    plain_lines = [
+        line.replace("**", "").replace("`", "")
+        for line in md_text.splitlines()
+    ]
+
+    doc = fitz.open()
+    page = doc.new_page(width=612, height=792)
+    page.draw_rect(fitz.Rect(28, 24, 584, 68), color=(0, 0.247, 0.529), fill=(0, 0.247, 0.529))
+    page.insert_text(
+        fitz.Point(38, 48),
+        f"{resolved_badge.upper()} MERIT BADGE — 1-PAGE CLASS PREPARATION PAGE (CPP)",
+        fontsize=12.5,
+        fontname="helv",
+        color=(1, 1, 1),
+    )
+    page.insert_textbox(
+        fitz.Rect(32, 78, 580, 760),
+        "\n".join(plain_lines),
+        fontsize=9.2,
+        fontname="helv",
+        color=(0.08, 0.12, 0.18),
+    )
+    pdf_bytes = doc.tobytes()
+    doc.close()
+    return pdf_bytes
+

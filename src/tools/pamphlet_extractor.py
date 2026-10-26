@@ -1290,8 +1290,13 @@ def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = 
 
     prefix_pattern = re.compile(
         r"^(\([a-zA-Z0-9]+\)\s*|"
-        r"(?:Define|Explain|Describe|Demonstrate|Discuss|Identify|List|Review|Show|Tell(?:\s+about)?)\s+(?:to\s+your\s+counselor\s+)?(?:your\s+understanding\s+of\s+)?(?:each\s+of\s+)?the\s+following(?:\s+\w+)?[:\s,]*|"
-        r"Do (?:ALL|ONE|TWO|THREE|FOUR|EACH) of the following(?:\s+options)?(?:,\s*including)?[:\s,]*|"
+        r"Before beginning work on other requirements for this merit badge,\s*(?:do the following[:\s,]*)?|"
+        r"With the help of your parent or guardian(?:,\s*counselor,\s*or other trusted adult)?,\s*(?:do the following[:\s,]*)?|"
+        r"After completing requirement\s+[0-9a-zA-Z]+,\s*|"
+        r"Complete the survey below[^.]*\.\s*|"
+        r"(?:Select|Choose|Complete)\s+(?:ALL|ONE|TWO|THREE|FOUR|FIVE|SIX|EACH)\s+of\s+the\s+following(?:\s+\w+)?[:\s,]*|"
+        r"(?:Define|Explain|Describe|Demonstrate|Discuss|Identify|List|Review|Show|Tell(?:\s+about)?|Research(?:\s+and\s+\w+)?)\s+(?:to\s+your\s+counselor\s+)?(?:your\s+understanding\s+of\s+)?(?:each\s+of\s+)?the\s+following(?:\s+\w+)?[:\s,]*|"
+        r"Do (?:ALL|ONE|TWO|THREE|FOUR|FIVE|EACH) of the following(?:\s+options)?(?:,\s*including)?[:\s,]*|"
         r"Do the following[:\s,]*|"
         r"And discuss with your counselor\s+|"
         r"With the aid of diagrams(?:\s*\([^)]*\))?,\s*do each of the following[:\s,]*|"
@@ -1313,11 +1318,12 @@ def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = 
         r"Describe the symptoms and signs of,\s*and demonstrate proper procedures for\s+|"
         r"Describe the symptoms and signs of,\s*show first aid for,\s*and explain prevention of\s+|"
         r"Describe the conditions under which\s+|"
-        r"Explain how you would\s+|Explain how\s+|Explain why\s+|Explain what\s+|"
+        r"Explain how and why\s+|Explain how you would\s+|Explain how\s+|Explain why\s+|Explain what\s+|"
         r"Describe how\s+|Describe the\s+|Describe what\s+|"
         r"List the names of\s+|List the\s+|Identify the\s+|Identify\s+|"
         r"Develop a plan to\s+|Develop a\s+|Tell what\s+|Give the\s+|"
         r"Sketch the face of\s+|Sketch the\s+|Construct a\s+|"
+        r"Research and explain\s+|Research and discuss\s+|Research and describe\s+|Research\s+|"
         r"Demonstrate\s+|Explain\s+|Describe\s+|Discuss\s+|Show\s+|"
         r"Prepare a\s+|Make a\s+|Using the\s+)",
         flags=re.IGNORECASE,
@@ -1734,8 +1740,9 @@ def _build_sub_requirement_slides(
         chunk_bullets: List[str] = []
         chunk_short_topics: List[str] = []
         for s_idx, sr in enumerate(chunk):
-            sr_id = str(sr.get("sub_id") or sr.get("id") or f"{req_num}{chr(97 + s_idx)}")
-            raw_sr_txt = str(sr.get("text") or "").strip()
+            raw_lbl = str(sr.get("sub_id") or sr.get("id") or sr.get("sub_req_label") or f"{req_num}{chr(97 + s_idx)}").strip()
+            sr_id = f"{req_num}{raw_lbl}" if len(raw_lbl) == 1 and raw_lbl.isalpha() and not str(req_num).endswith(raw_lbl) else raw_lbl
+            raw_sr_txt = str(sr.get("text") or sr.get("sub_req_text") or "").strip()
             sr_txt = _enrich_sub_requirement_text(
                 badge_name, req_num, sr_id, raw_sr_txt, req_text, pages_map, extended_pages
             )
@@ -1763,8 +1770,10 @@ def _build_sub_requirement_slides(
                 combined = f"Requirement {sr_id}: {sr_txt}"
             chunk_bullets.append(combined)
 
-        first_id = chunk[0].get("sub_id") or chunk[0].get("id") or f"{req_num}a"
-        last_id = chunk[-1].get("sub_id") or chunk[-1].get("id") or f"{req_num}b"
+        first_raw = str(chunk[0].get("sub_id") or chunk[0].get("id") or chunk[0].get("sub_req_label") or f"{req_num}a").strip()
+        last_raw = str(chunk[-1].get("sub_id") or chunk[-1].get("id") or chunk[-1].get("sub_req_label") or f"{req_num}b").strip()
+        first_id = f"{req_num}{first_raw}" if len(first_raw) == 1 and first_raw.isalpha() and not str(req_num).endswith(first_raw) else first_raw
+        last_id = f"{req_num}{last_raw}" if len(last_raw) == 1 and last_raw.isalpha() and not str(req_num).endswith(last_raw) else last_raw
         range_label = f"Reqs {first_id}-{last_id}" if len(chunk) > 1 else f"Req {first_id}"
 
         # Build clean, non-redundant slide title without double colons or 'Sub-Requirement Deep Dive' boilerplate on option tracks
@@ -2354,8 +2363,9 @@ def decompose_requirement_into_topic_slides(
             fields_map: Dict[str, str] = {}
             if sub_reqs:
                 for sr in sub_reqs[:4]:
-                    sr_id = str(sr.get("sub_id") or sr.get("id") or req_num)
-                    raw_sr_t = str(sr.get("text") or "").strip()
+                    raw_lbl = str(sr.get("sub_id") or sr.get("id") or sr.get("sub_req_label") or req_num).strip()
+                    sr_id = f"{req_num}{raw_lbl}" if len(raw_lbl) == 1 and raw_lbl.isalpha() and not str(req_num).endswith(raw_lbl) else raw_lbl
+                    raw_sr_t = str(sr.get("text") or sr.get("sub_req_text") or "").strip()
                     sr_short = _derive_topic_title(sr_id, raw_sr_t).replace(f"Req {sr_id}:", "").strip()
                     fields_map[f"Req {sr_id} ({sr_short})"] = _enrich_sub_requirement_text(
                         badge_name, req_num, sr_id, raw_sr_t, req_text, pages_map, extended_pages
@@ -2556,6 +2566,66 @@ _CURATED_REQ1_SAFETY_QUIZZES: Dict[str, Dict[str, Any]] = {
         "correct_answer": "Option B — Apply S.T.O.P. (Stop, Think, Observe, Plan), stay together in one visible location, prepare shelter before dark, and use 3-blast whistle signals.",
         "explanation": "Moving randomly after losing the trail increases search radius exponentially and risks injury after dark; staying put with S.T.O.P., shelter, and 3-signal distress calls maximizes rapid rescue.",
     },
+    "citizenship_in_society": {
+        "scenario_prompt": "During a troop campsite assignment, a new Scout from a different background is excluded from a patrol cooking group and overheard being mocked. As an upstander living the Scout Oath and Scout Law, what should you do first?",
+        "options": [
+            "Stay quiet so you do not create awkwardness with the older Scouts in the patrol.",
+            "Step in respectfully as an upstander, invite the new Scout into your group, make sure they feel welcomed and heard, and involve your Patrol Leader or adult leadership if harassment continues.",
+            "Post about the argument on social media after the campout.",
+        ],
+        "correct_answer": "Option B — Act as an ethical upstander: interrupt exclusion respectfully, include the Scout in patrol activities, and uphold the Scout Law.",
+        "explanation": "Citizenship in Society emphasizes ethical leadership, welcoming others, and acting as an upstander rather than a passive bystander when a fellow Scout is excluded.",
+    },
+    "auctioneering": {
+        "scenario_prompt": "During a live charity auction, a bidder raises their hand to place a $100 bid, and simultaneously a collaborator in the crowd places a fake 'shill' bid solely to artificially drive up the price without intending to buy. Under the National Auctioneers Association Code of Ethics, how must the auctioneer handle shill bidding?",
+        "options": [
+            "Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+            "Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
+            "Change the auction terms from Absolute to Reserve after the gavel falls.",
+        ],
+        "correct_answer": "Option B — Prohibit deceptive shill bidding and clearly state all terms (Absolute vs. Reserve and buyer's premium) before opening the lot.",
+        "explanation": "Auctioneering ethics and state licensing laws require complete transparency in bid calling; undisclosed shill bidding is fraudulent and destroys buyer trust.",
+    },
+    "dance": {
+        "scenario_prompt": "Before starting an energetic 45-minute rehearsal involving jumps, turns, and partner lifts on a studio floor, a dancer notices a wet water spill near the center of the floor and skips warm-ups to save time. What two safety steps must happen before dancing begins?",
+        "options": [
+            "Dance around the wet spot at full speed and stretch only after rehearsal ends.",
+            "Dry and inspect the studio floor for slip and trip hazards first, wear proper footwear, and complete a progressive cardiovascular warm-up and dynamic mobility routine.",
+            "Practice high-impact jumps immediately on cold muscles to warm up faster.",
+        ],
+        "correct_answer": "Option B — Clear and dry the dance floor surface first and complete a structured warm-up and alignment check before high-impact choreography.",
+        "explanation": "Dynamic warm-ups increase muscle elasticity and joint synovial fluid, while a clean, dry sprung floor prevents ankle sprains and falls.",
+    },
+    "physics": {
+        "scenario_prompt": "Your patrol rolls two solid spheres of the exact same size and shape down an inclined ramp from rest: one made of aluminum and one made of heavy brass. Neglecting air resistance, how do their accelerations down the ramp compare?",
+        "options": [
+            "The heavier brass sphere accelerates twice as fast because it has more gravitational mass.",
+            "Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally with mass for identical solid spheres.",
+            "The lighter aluminum sphere reaches the bottom first because it has less friction.",
+        ],
+        "correct_answer": "Option B — Both solid spheres accelerate at the same rate (a = 5/7 g sin theta) regardless of mass when shape and radius match.",
+        "explanation": "Since both gravitational force and moment of inertia are proportional to mass (I = 2/5 m r^2), mass cancels out of the equation of motion on an incline.",
+    },
+    "psychology": {
+        "scenario_prompt": "While preparing for a high-adventure trek, a patrol leader notices a Scout becoming overwhelmed when trying to memorize 15 wilderness safety rules all at once. Using cognitive psychology principles of working memory, what teaching strategy works best?",
+        "options": [
+            "Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+            "Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
+            "Skip practice and rely only on passive re-reading right before the trek.",
+        ],
+        "correct_answer": "Option B — Apply chunking and active spaced retrieval to organize information within human working-memory limits (4 to 7 items) and consolidate long-term recall.",
+        "explanation": "Human working memory holds only a few chunks at once; grouping items into meaningful frameworks and practicing active recall builds durable neural pathways.",
+    },
+    "sewing_and_needlework": {
+        "scenario_prompt": "While sewing a heavy canvas Merit Badge sash repair on a sewing machine, the needle hits a thick seam and snaps. What is the mandatory safety and machine procedure before replacing the needle?",
+        "options": [
+            "Keep your foot on the presser-foot speed controller while reaching into the needle bar.",
+            "Turn off and unplug the sewing machine first, locate all broken needle fragments so none remain in the fabric, and insert a fresh heavy-duty needle with the flat shank side facing the correct direction.",
+            "Leave the broken needle tip inside the canvas and sew over it.",
+        ],
+        "correct_answer": "Option B — Power off the sewing machine before touching the needle clamp, account for all sharp needle pieces, and install the proper needle size.",
+        "explanation": "Turning off power prevents accidental foot-pedal activation while fingers are near the needle bar, and recovering broken needle tips prevents puncture injuries.",
+    },
 }
 
 
@@ -2583,6 +2653,8 @@ def _get_selective_safety_quiz_for_requirement(
             raw_opts
             and "rely on guesswork" not in opts_blob
             and "sign off the requirement before completing" not in opts_blob
+            and "unverified shortcuts" not in opts_blob
+            and "claim partial credit" not in opts_blob
         ):
             clean_opts = [
                 re.sub(r"^(?:Option\s+[A-D]\s*[:.\-—–]\s*|\(?[A-D]\)\s*|[A-D]\.\s*)", "", o, flags=re.IGNORECASE).strip()

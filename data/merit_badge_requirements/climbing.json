@@ -47,10 +47,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Climbing hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -70,9 +72,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while participating in climbing and rappelling activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
         },
         {
           "sub_id": "1b",
@@ -107,26 +112,27 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Activity Hazard / Risk",
+              "Prevention & PPE Strategy",
+              "Emergency Response & First Aid"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Hazard 1",
+              "Hazard 2",
+              "Hazard 3",
+              "Hazard 4"
             ],
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)",
           "common_misconception_pair": {
             "misconception": "Straighten an angled bone or dislocated joint before tying a rigid splint.",
-            "fact": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying."
+            "fact": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying.",
+            "fact_correction": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -146,9 +152,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Show that you know first aid for and how to prevent injuries or illnesses that could occur during climbing activities, including heat and cold reactions, dehydration, stopped breathing, sprains, abrasions, fractures, rope burns, blisters, snakebite, concussions, and insect bites or stings."
         },
         {
           "sub_id": "1c",
@@ -163,23 +172,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)",
           "common_misconception_pair": {
             "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
-            "fact": "Deliver continuous high-quality chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
+            "fact": "Deliver continuous chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
+            "fact_correction": "Deliver continuous chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -199,9 +213,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Identify the conditions that must exist before performing CPR on a person."
         }
       ],
       "resources": [
@@ -246,13 +263,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Climbing Hazards, PPE & First Aid Response",
+      "topic_title": "Req 1: Hazards, First Aid & Safety",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
@@ -272,7 +289,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Climbing hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -292,62 +311,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Climbing Sub-Req 1a: Explain to your counselor the most likely hazards you may encounter while participating in climbing and rappelling activities and what you should do to.",
-        "Climbing Sub-Req 1b: Show that you know first aid for and how to prevent injuries or illnesses that could occur during climbing activities, including heat and cold.",
-        "Climbing Sub-Req 1c: Identify the conditions that must exist before performing CPR on a person.",
-        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in climbing and rappelling activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
+        "Dehydration Caused Lack: Dehydration, caused by lack of water in the body, can occur in cold orwarm weather, anytime a person is sweating profusely and/or notdrinking enough.",
+        "Avoid Dehydration Drinking: Avoid dehydration by drinking plenty of fluids andeating enough throughout the day to keep your body well-balanced.",
+        "Youbecome Weary Develop: If youbecome weary or develop a headache or body aches, or if you becomeconfused, rest in the shade and sip water until the symptoms subside.",
+        "Freezing Continues Area: If the freezing continues, the area will stiffen andbecome grayish-white in color."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Climbing Hazards, PPE & First Aid Response.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Thaw Theaffected Area: To treat the victim, thaw theaffected area only if there is no risk of refreezing.",
+        "Cold Fingers Armpit: Put cold fingers under the armpit and the warm palm of your hand on frostbitten nose, ears, or cheeks.",
+        "Shelter Possible Cold: In a shelter, if possible, put cold feet on a companion’s barebelly, or immerse the affected area in lukewarm water, nowarmer than 108 degrees.",
+        "Blisters Develop Apply: If blisters develop, apply a large steriledressing."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
+        "right_header": "Official BSA Climbing Standard (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Climbing Workbook organizer.",
+          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Climbing Hazards, PPE & First Aid Response",
-          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in climbing and rappel",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
+          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in climbing and rappelling activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 1, a Scout claims: \"Scouts can jump straight into Climbing hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Climbing (Hazards, First Aid & Safety), which patrol preparation step best aligns with the official Climbing standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Climbing hazards, PPE, and prerequisite standards in Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries."
+        "correct_answer": "Option A - Review the Climbing hazards, PPE, and prerequisite standards in Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 1."
@@ -373,13 +392,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Learn the Leave No Trace Seven Principles and",
-      "action_verb": "Learn",
+      "topic_title": "Req 2: Leave No Trace & Outdoor Ethics",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 92)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 92)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -396,8 +415,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Learn the Leave No Trace Seven Principles and is enough for Climbing Requirement 2 sign-off.",
-        "fact": "Each Scout must actively learn the specific principles and real-world steps of Learn the Leave No Trace Seven Principles and grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of Leave No Trace & Outdoor Ethics is enough for Climbing Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 92)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -417,63 +438,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 2): Learn the Leave No Trace Seven Principles and the Outdoor Code and explain what they mean.",
-        "Field Verification Standard: Apply Climbing Requirement 2 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Climbing Req 2 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Climbing Workbook before requesting Requirement 2 sign-off."
+        "Remember Share Climbing: When planning, remember the following: • \u0007Share the climbing/rappelling plan and an alternatewith a parent or guardian and the unit committee.",
+        "Suggested Least Leaders: It is suggested that at least one of the adult leaders has anelectronic means of communication in case of anemergency.",
+        "Shouldbe Forced Orpressured: No one shouldbe forced orpressured intodoing somethingwith which heor she is notcomfortable. 7.",
+        "Buddy System Tomonitor: Use the buddy system tomonitor concerns such as dehydration, hypothermia, andan unusually high degree of fear or apprehension."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Learn the Leave No Trace Seven Principles and.",
-        "Execute & Document: Perform the learn task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Alwaysfollow Leave Trace: Alwaysfollow the Leave No Trace Seven Principles and the Outdoor Code. 8.",
+        "Participants Respect Follow: All participants should respect and follow all instructionsand rules of the climbing instructor.",
+        "Applicable Rulesshould: The applicable rulesshould be presented and learned prior to the outing andshould be reviewed for all participants before climbing orrappelling.",
+        "Participants Reasons: When participants know the reasons forrules and procedures, they are more likely to follow them."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Leave No Trace & Outdoor Ethics",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Learn the Leave No Trace Seven Principles and",
+          "Requirement & Topic": "Req 2 - Leave No Trace & Outdoor Ethics",
           "Primary Standard": "Learn the Leave No Trace Seven Principles and the Outdoor Code and explain what they mean.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 10-15."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 92) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 2, a Scout claims: \"Reading a short definition of Learn the Leave No Trace Seven Principles and is enough for Climbing Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively learn the specific principles and real-world steps of Learn the Leave No Trace Seven Principles and grounded in the official Climbing pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively learn the specific principles and real-world steps of Learn the Leave No Trace Seven Principles and grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 10-15, Each Scout must actively learn the specific principles and real-world steps of Learn the Leave No Trace Seven Principles and grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 2."
     },
@@ -514,13 +512,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Present yourself properly dressed for belaying, climbing, and",
-      "action_verb": "Present",
+      "topic_title": "Req 3: Present yourself properly dressed for belaying",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 49, p. 90)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 49, p. 90)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -537,8 +535,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Present yourself properly dressed for belaying, climbing, and is enough for Climbing Requirement 3 sign-off.",
-        "fact": "Each Scout must actively present the specific principles and real-world steps of Present yourself properly dressed for belaying, climbing, and grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of Present yourself properly dressed for belaying is enough for Climbing Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Present yourself properly dressed for belaying grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Present yourself properly dressed for belaying grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 49, p. 90)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -558,63 +558,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): Present yourself properly dressed for belaying, climbing, and rappelling.",
-        "Core Standard 2 (Req 3): Explain why you are wearing each piece of gear and discuss qualities of easy movement, entanglement-free, and good weather protection and comfort.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Climbing Req 3 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Climbing Workbook before requesting Requirement 3 sign-off."
+        "Webbing Designed Climbing: Webbing designed for climbing is available in avariety of sizes, lengths, and materials such asnylon, Spectra, and Dyneema.",
+        "Tubularwebbing Form: Tubularwebbing (usually 1\") is used to form tied-seatharnesses; for anchors used by belayers andrappellers; and for other uses in climbing, rappelling.",
+        "Piece Webbingcan Tied: A piece of webbingcan be tied into a loop known as a runnerwith a water knot.",
+        "Webbing Purchasedas Runner: Webbing can be purchasedas a runner or sling and is pre-sewn by the Belayers use tubular webbing tomanufacturer."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Present yourself properly dressed for belaying, climbing, and.",
-        "Execute & Document: Perform the present task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Climbers Runners Oranchor: Climbers use runners, oranchor themselves securely.",
+        "Climbing Rope Webbing: Like all climbing rope, all webbing can beharmed by friction, dirt, and long exposure tosunlight or harsh weather.",
+        "Dispose Webbingthat Shows: Dispose of webbingthat shows any sign of damage or that has anunknown history.",
+        "Time Store Equipment: Take time to store equipment correctly so that it willlast longer and be in good shape the next time youwant to use it."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Present yourself properly dressed for belaying",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
+        "right_header": "Official BSA Climbing Standard (Present yourself properly dressed for belaying)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Present yourself properly dressed for belaying.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Climbing Merit Badge Pamphlet (p. 49, p. 90) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Climbing Workbook organizer.",
+          "Clearly demonstrates and explains Present yourself properly dressed for belaying using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Present yourself properly dressed for belaying, climbing, and",
-          "Primary Standard": "Present yourself properly dressed for belaying, climbing, and rappelling. Explain why you are wearing each pie",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Present yourself properly dressed for belaying",
+          "Primary Standard": "Present yourself properly dressed for belaying, climbing, and rappelling. Explain why you are wearing each piece of gear and discuss qualities of easy movement, entanglement-free, and good weather protection and comfort.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 49, p. 90) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 3, a Scout claims: \"Reading a short definition of Present yourself properly dressed for belaying, climbing, and is enough for Climbing Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively present the specific principles and real-world steps of Present yourself properly dressed for belaying, climbing, and grounded in the official Climbing pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively present the specific principles and real-world steps of Present yourself properly dressed for belaying, climbing, and grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 16-21, Each Scout must actively present the specific principles and real-world steps of Present yourself properly dressed for belaying, climbing, and grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 3."
     },
@@ -654,10 +644,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Climbing Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -677,9 +669,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Explain how the difficulty of climbs is classified, and apply classifications to the rock faces or walls where you will demonstrate your climbing skills."
         },
         {
           "sub_id": "4b",
@@ -707,10 +702,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Climbing Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -730,9 +727,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Explain the following: top-rope climbing, lead climbing, and bouldering."
         },
         {
           "sub_id": "4c",
@@ -755,10 +755,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Climbing hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -778,9 +780,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4c",
+          "sub_req_label": "4c",
+          "sub_req_text": "Evaluate the safety of a particular climbing area. Consider weather, visibility, the condition of the climbing surface, and any other environmental hazards."
         },
         {
           "sub_id": "4d",
@@ -803,10 +808,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4d is enough for Climbing Requirement 4d sign-off.",
-            "fact": "Each Scout must actively determine the specific principles and real-world steps of Req 4d grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4d grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4d grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -826,9 +833,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4d",
+          "sub_req_label": "4d",
+          "sub_req_text": "Determine how to summon aid to the climbing area in case of an emergency. Discuss what medical training is needed for your group when climbing and rappelling in remote areas."
         }
       ],
       "resources": [
@@ -849,13 +859,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Location. Do the following: (a) Explain how the",
+      "topic_title": "Req 4: Location",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -876,7 +886,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Climbing hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -896,63 +908,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Climbing Sub-Req 4a: Explain how the difficulty of climbs is classified, and apply classifications to the rock faces or walls where you will demonstrate your climbing skills.",
-        "Climbing Sub-Req 4b: Explain the following: top-rope climbing, lead climbing, and bouldering.",
-        "Climbing Sub-Req 4c: Evaluate the safety of a particular climbing area. Consider weather, visibility, the condition of the climbing surface, and any other environmental hazards.",
-        "Climbing Sub-Req 4d: Determine how to summon aid to the climbing area in case of an emergency. Discuss what medical training is needed for your group when."
+        "Remember Share Climbing: When planning, remember the following: • \u0007Share the climbing/rappelling plan and an alternatewith a parent or guardian and the unit committee.",
+        "Suggested Least Leaders: It is suggested that at least one of the adult leaders has anelectronic means of communication in case of anemergency.",
+        "Shouldbe Forced Orpressured: No one shouldbe forced orpressured intodoing somethingwith which heor she is notcomfortable. 7.",
+        "Buddy System Tomonitor: Use the buddy system tomonitor concerns such as dehydration, hypothermia, andan unusually high degree of fear or apprehension."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Location. Do the following: (a) Explain how the.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Alwaysfollow Leave Trace: Alwaysfollow the Leave No Trace Seven Principles and the Outdoor Code. 8.",
+        "Participants Respect Follow: All participants should respect and follow all instructionsand rules of the climbing instructor.",
+        "Applicable Rulesshould: The applicable rulesshould be presented and learned prior to the outing andshould be reviewed for all participants before climbing orrappelling.",
+        "Participants Reasons: When participants know the reasons forrules and procedures, they are more likely to follow them."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Location",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Location. Do the following: (a) Explain how the",
-          "Primary Standard": "Explain how the difficulty of climbs is classified, and apply classifications to the rock faces or walls where",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - Location",
+          "Primary Standard": "Explain how the difficulty of climbs is classified, and apply classifications to the rock faces or walls where you will demonstrate your climbing skills.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 4, a Scout claims: \"Scouts can jump straight into Climbing hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 22-27, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 4."
     },
@@ -989,10 +978,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Climbing Requirement 5a sign-off.",
-            "fact": "Each Scout must actively climbers the specific principles and real-world steps of Req 5a grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1012,9 +1003,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Climbers"
         },
         {
           "sub_id": "5b",
@@ -1037,10 +1031,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Climbing Requirement 5b sign-off.",
-            "fact": "Each Scout must actively rappellers the specific principles and real-world steps of Req 5b grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1060,9 +1056,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Rappellers"
         },
         {
           "sub_id": "5c",
@@ -1094,10 +1093,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Climbing Requirement 5c sign-off.",
-            "fact": "Each Scout must actively belayers the specific principles and real-world steps of Req 5c grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1117,9 +1118,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "Belayers"
         },
         {
           "sub_id": "5d",
@@ -1147,10 +1151,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5d is enough for Climbing Requirement 5d sign-off.",
-            "fact": "Each Scout must actively boulderers the specific principles and real-world steps of Req 5d grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1170,9 +1176,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5d",
+          "sub_req_label": "5d",
+          "sub_req_text": "Boulderers and their spotters"
         }
       ],
       "resources": [
@@ -1205,13 +1214,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Verbal signals. Explain the importance of using verbal",
+      "topic_title": "Req 5: Verbal signals",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1231,8 +1240,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Verbal signals. Explain the importance of using verbal is enough for Climbing Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Verbal signals. Explain the importance of using verbal grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of Verbal signals is enough for Climbing Requirement 5 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Verbal signals grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Verbal signals grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1252,63 +1263,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Climbing Sub-Req 5a: Climbers",
-        "Climbing Sub-Req 5b: Rappellers",
-        "Climbing Sub-Req 5c: Belayers",
-        "Climbing Sub-Req 5d: Boulderers and their spotters"
+        "Verbal Signals Climbers: Verbal Signals for Climbers and Belayers Verbal signals allow a climber and a belayer to communicate and worktogether as a team even if they cannot.",
+        "Habit Ofusing Verbal: Get in the habit ofusing verbal signals every time you are climbing or belaying.",
+        "Challenging Sport Involves: A challenging sport that always involves the skills ofascending and belaying or spotting, and may also includerappelling and bouldering. cling.",
+        "Handhold Involving Fingers: A handhold involving one or more fingers bent over a hold. counterbalance."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Verbal signals. Explain the importance of using verbal.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Moving Downward Rappelling: Moving downward by rappelling or down-climbing. down-climbing.",
+        "Hands Feet Balance: Using hands and feet for balance while descending a moderate or steep face. dynamic rope.",
+        "Rope Stretches Percent: Rope that stretches 6 percent to 10 percent to absorbthe energy of a fall.",
+        "Brink Ledge Small: The brink of a ledge or a small horizontal hold on a rock face. edging."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Verbal signals",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Verbal signals. Explain the importance of using verbal",
-          "Primary Standard": "Climbers",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Verbal signals",
+          "Primary Standard": "Climbers.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 5, a Scout claims: \"Reading a short definition of Verbal signals. Explain the importance of using verbal is enough for Climbing Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Verbal signals. Explain the importance of using verbal grounded in the official Climbing pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Verbal signals. Explain the importance of using verbal grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 28-33, Each Scout must actively explain the specific principles and real-world steps of Verbal signals. Explain the importance of using verbal grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1345,10 +1333,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Climbing Requirement 6a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6a grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6a grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 6a grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1368,9 +1358,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Describe the kinds of rope acceptable for use in climbing and rappelling."
         },
         {
           "sub_id": "6b",
@@ -1401,10 +1394,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Climbing Requirement 6b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 6b grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 6b grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 6b grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1424,9 +1419,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Show how to examine a rope for signs of wear or damage."
         },
         {
           "sub_id": "6c",
@@ -1454,10 +1452,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Climbing Requirement 6c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6c grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6c grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6c grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1477,9 +1477,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Discuss ways to prevent a rope from being damaged."
         },
         {
           "sub_id": "6d",
@@ -1507,10 +1510,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Climbing Requirement 6d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1530,9 +1535,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "Explain when and how a rope should be retired."
         },
         {
           "sub_id": "6e",
@@ -1560,10 +1568,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6e is enough for Climbing Requirement 6e sign-off.",
-            "fact": "Each Scout must actively properly the specific principles and real-world steps of Req 6e grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1583,9 +1593,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6e",
+          "sub_req_label": "6e",
+          "sub_req_text": "Properly coil a rope."
         }
       ],
       "resources": [
@@ -1618,13 +1631,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Rope. Do the following: (a) Describe the kinds",
+      "topic_title": "Req 6: The helmets, hardware, and ropes used for climbing,",
       "action_verb": "Describe",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1641,8 +1654,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Rope. Do the following: (a) Describe the kinds is enough for Climbing Requirement 6 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of Rope. Do the following: (a) Describe the kinds grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of The helmets, hardware, and ropes used for climbing, is enough for Climbing Requirement 6 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of The helmets, hardware, and ropes used for climbing, grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of The helmets, hardware, and ropes used for climbing, grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1662,63 +1677,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Climbing Sub-Req 6a: Describe the kinds of rope acceptable for use in climbing and rappelling.",
-        "Climbing Sub-Req 6b: Show how to examine a rope for signs of wear or damage.",
-        "Climbing Sub-Req 6c: Discuss ways to prevent a rope from being damaged.",
-        "Climbing Sub-Req 6d: Explain when and how a rope should be retired."
+        "Whenever Climbing Rappelling: Whenever you are climbing, rappelling, or belaying onrock faces, wear a helmet that has been specifically designedfor climbing.",
+        "Helmet Protect Head: A helmet will protect your head against stonesand debris falling from above, and may prevent injuries if youcollide with a rock face during a fall.",
+        "Chin Strap Aclimber: A chin strap helps keep aclimber’s helmet from falling off or shifting.",
+        "Helmets Hardware Ropes: The helmets, hardware, and ropes used for climbing, rappelling, and belaying have been developedover more than 150 years of mountaineering."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Rope. Do the following: (a) Describe the kinds.",
-        "Execute & Document: Perform the describe task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "UIAA Union Internationale: The UIAA (Union Internationale des Associations d’Alpinisme) is a group of mountain-travelexperts who set standards and testing proceduresfor.",
+        "Conformit Europ Enne: The CE (Conformité Européenne, which translates to European Community) maintains similar standards for excellence.",
+        "Allropes Harnesses Helmets: Allropes, harnesses, helmets, and hardware used by Scouts for climbing, rappelling, and belaying must bespecifically designed for climbing.",
+        "Wear Properly Fittedhelmet: Wear a properly fittedhelmet when climbing above shoulder height whetheryou are on a rock face, tower, or artificial wall."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The helmets, hardware, and ropes used for climbing,",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Rope. Do the following: (a) Describe the kinds",
+          "Requirement & Topic": "Req 6 - The helmets, hardware, and ropes used for climbing,",
           "Primary Standard": "Describe the kinds of rope acceptable for use in climbing and rappelling.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 34-39."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 6, a Scout claims: \"Reading a short definition of Rope. Do the following: (a) Describe the kinds is enough for Climbing Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively describe the specific principles and real-world steps of Rope. Do the following: (a) Describe the kinds grounded in the official Climbing pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively describe the specific principles and real-world steps of Rope. Do the following: (a) Describe the kinds grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 34-39, Each Scout must actively describe the specific principles and real-world steps of Rope. Do the following: (a) Describe the kinds grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1755,10 +1747,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Climbing Requirement 7a sign-off.",
-            "fact": "Each Scout must actively figure the specific principles and real-world steps of Req 7a grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1778,9 +1772,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Figure eight on a bight"
         },
         {
           "sub_id": "7b",
@@ -1808,10 +1805,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Climbing Requirement 7b sign-off.",
-            "fact": "Each Scout must actively figure the specific principles and real-world steps of Req 7b grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1831,9 +1830,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Figure eight follow-through"
         },
         {
           "sub_id": "7c",
@@ -1861,10 +1863,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7c is enough for Climbing Requirement 7c sign-off.",
-            "fact": "Each Scout must actively water the specific principles and real-world steps of Req 7c grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1884,9 +1888,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7c",
+          "sub_req_label": "7c",
+          "sub_req_text": "Water knot"
         },
         {
           "sub_id": "7d",
@@ -1918,10 +1925,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7d is enough for Climbing Requirement 7d sign-off.",
-            "fact": "Each Scout must actively double the specific principles and real-world steps of Req 7d grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1941,9 +1950,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7d",
+          "sub_req_label": "7d",
+          "sub_req_text": "Double fisherman's knot (grapevine knot)"
         },
         {
           "sub_id": "7e",
@@ -1971,10 +1983,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7e is enough for Climbing Requirement 7e sign-off.",
-            "fact": "Each Scout must actively prusik the specific principles and real-world steps of Req 7e grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1994,9 +2008,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7e",
+          "sub_req_label": "7e",
+          "sub_req_text": "Prusik hitch applied to rope"
         }
       ],
       "resources": [
@@ -2033,13 +2050,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Knots. Demonstrate the ability to tie each of",
+      "topic_title": "Req 7: Knots",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2059,8 +2076,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Knots. Demonstrate the ability to tie each of is enough for Climbing Requirement 7 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Knots. Demonstrate the ability to tie each of grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of Knots is enough for Climbing Requirement 7 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Knots grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Knots grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2080,63 +2099,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Climbing Sub-Req 7a: Figure eight on a bight",
-        "Climbing Sub-Req 7b: Figure eight follow-through",
-        "Climbing Sub-Req 7c: Water knot",
-        "Climbing Sub-Req 7d: Double fisherman's knot (grapevine knot)"
+        "Tying Together Ends: For tying together the ends of two ropes, the most reliable knotis the double fisherman’s knot.",
+        "Securethe Ends Piece: It can also be used to securethe ends of a piece of cord to form a runner.",
+        "Half Doublefisherman Knot: Half of a doublefisherman’s knot (also known as a barrel knot) can be used as a stopper knot at the end of a rope.",
+        "Lay Feet Ends: Lay about 2 feet of the ends of two ropes alongside oneanother, ends opposite."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Knots. Demonstrate the ability to tie each of.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Loosely Loop Rope: Loosely loop one rope end twice aroundthe other, then thread the end of that rope through the loops.",
+        "Carefully Tightenthe Parts: Carefully tightenthe two parts of the knot, then slide them against each other.",
+        "They Don Fit: If they don’t fit together neatly, the knot is incorrectly tied.",
+        "Knot Commonlytied Accessory: The knot is commonlytied with accessory cord by a climber to ascend a rope or to secure abelay system in order to release the belayer."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Knots",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Knots. Demonstrate the ability to tie each of",
-          "Primary Standard": "Figure eight on a bight",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Knots",
+          "Primary Standard": "Figure eight on a bight.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 7, a Scout claims: \"Reading a short definition of Knots. Demonstrate the ability to tie each of is enough for Climbing Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Knots. Demonstrate the ability to tie each of grounded in the official Climbing pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Knots. Demonstrate the ability to tie each of grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 40-45, Each Scout must actively demonstrate the specific principles and real-world steps of Knots. Demonstrate the ability to tie each of grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 7."
     },
@@ -2177,10 +2173,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Climbing Requirement 8a sign-off.",
-            "fact": "Each Scout must actively commercially the specific principles and real-world steps of Req 8a grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2200,9 +2198,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "Commercially made climbing harness"
         },
         {
           "sub_id": "8b",
@@ -2230,10 +2231,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Climbing Requirement 8b sign-off.",
-            "fact": "Each Scout must actively climbing the specific principles and real-world steps of Req 8b grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)"
           },
           "starting_requirement_gate": {
             "gate_type": "EQUIPMENT_GATE",
@@ -2258,9 +2261,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "Climbing helmet"
         },
         {
           "sub_id": "8c",
@@ -2288,10 +2294,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Climbing Requirement 8c sign-off.",
-            "fact": "Each Scout must actively climbing the specific principles and real-world steps of Req 8c grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2311,9 +2319,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "Climbing or rappelling gloves"
         }
       ],
       "resources": [
@@ -2342,13 +2353,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Harness, Helmet and Gloves. Explain the purpose of",
+      "topic_title": "Req 8: Harness, Helmet and Gloves",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2368,8 +2379,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Harness, Helmet and Gloves. Explain the purpose of is enough for Climbing Requirement 8 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Harness, Helmet and Gloves. Explain the purpose of grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of Harness, Helmet and Gloves is enough for Climbing Requirement 8 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Harness, Helmet and Gloves grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Harness, Helmet and Gloves grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)"
       },
       "starting_requirement_gate": {
         "gate_type": "EQUIPMENT_GATE",
@@ -2394,63 +2407,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Climbing Sub-Req 8a: Commercially made climbing harness",
-        "Climbing Sub-Req 8b: Climbing helmet",
-        "Climbing Sub-Req 8c: Climbing or rappelling gloves",
-        "Core Standard 1 (Req 8): Harness, Helmet and Gloves."
+        "Harness Fits Properly: Using a harness that fits properly helpsmake climbing and rappelling safer, morecomfortable, and fun.",
+        "Commercially Climbing: Commercially made climbing harnesses usually require only thatyou put your legs through leg loops and then secure the waiststrap with a buckle.",
+        "Leg Loops Harnesses: The leg loops of some harnesses can beadjusted; you should just be able to slip two fingers between theloop and your thigh.",
+        "Harnesses Available: If the harnesses available to you are notadjustable, you will need to choose one that fits your body snuglybut not tight enough to restrict circulation."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Harness, Helmet and Gloves. Explain the purpose of.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Foot Length Nylon: A 30-foot length of nylon tubular webbing can be wrappedaround your body and tied in special ways to form a reliabletied harness for climbing.",
+        "Tied Harness Tied: Each tied harness must be tied exactly rightevery time to ensure your safety.",
+        "There-fore Learnhow Tie: There-fore, you must learnhow to tie a seat harness from a qualified instructor.",
+        "Once Youhave Mastered: Once youhave mastered tying one of these types of seat harnesses, youcan use the following descriptions as reminders of thecorrect methods."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Harness, Helmet and Gloves",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - Harness, Helmet and Gloves. Explain the purpose of",
-          "Primary Standard": "Commercially made climbing harness",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - Harness, Helmet and Gloves",
+          "Primary Standard": "Commercially made climbing harness.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 8, a Scout claims: \"Reading a short definition of Harness, Helmet and Gloves. Explain the purpose of is enough for Climbing Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Harness, Helmet and Gloves. Explain the purpose of grounded in the official Climbing pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Harness, Helmet and Gloves. Explain the purpose of grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 46-51, Each Scout must actively explain the specific principles and real-world steps of Harness, Helmet and Gloves. Explain the purpose of grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 8."
     },
@@ -2475,13 +2465,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Identify the elements of the CHECK system and",
-      "action_verb": "Identify",
+      "topic_title": "Req 9: Elements of the CHECK system",
+      "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 59, p. 60)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 59, p. 60)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2498,8 +2488,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Identify the elements of the CHECK system and is enough for Climbing Requirement 9 sign-off.",
-        "fact": "Each Scout must actively identify the specific principles and real-world steps of Identify the elements of the CHECK system and grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of Elements of the CHECK system is enough for Climbing Requirement 9 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of Elements of the CHECK system grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Elements of the CHECK system grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 59, p. 60)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2519,63 +2511,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 9): Identify the elements of the CHECK system and describe the meaning of each one to your counselor.",
-        "Field Verification Standard: Apply Climbing Requirement 9 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Climbing Req 9 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Climbing Workbook before requesting Requirement 9 sign-off."
+        "Continue Wrapping Feet: Step 7, Continue wrapping until only about 3 feet remains at each endof webbing.",
+        "Webbing Flat Snug: Keep the webbing flat and snug against your body.",
+        "Retrieve End Webbing: Step 10, Retrieve the other end of the webbing and use it to trace backthrough the loose overhand knot, thus completing a water knot.",
+        "Check Harness Fitssecurely: Check the harness to be sure it fitssecurely and that there are no unnecessary twists in the webbing."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Identify the elements of the CHECK system and.",
-        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Wrapany Remaining Length: Wrapany remaining length of webbing around your waist and tuck the endunder the previous wraps.",
+        "Locking Carabiner: Step 12, Use a locking carabiner (double-locking preferred) to cliptogether all the webbing between the knots in front of your body.",
+        "Learned Harnesses Ropes: You have learned about harnesses, ropes, and carabiners.",
+        "Now Essential Parts: Now let us look at two other essential parts of the protectionsystem: the anchors and the belay system."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Elements of the CHECK system",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Identify the elements of the CHECK system and",
+          "Requirement & Topic": "Req 9 - Elements of the CHECK system",
           "Primary Standard": "Identify the elements of the CHECK system and describe the meaning of each one to your counselor.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 52-57."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 59, p. 60) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 9, a Scout claims: \"Reading a short definition of Identify the elements of the CHECK system and is enough for Climbing Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively identify the specific principles and real-world steps of Identify the elements of the CHECK system and grounded in the official Climbing pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively identify the specific principles and real-world steps of Identify the elements of the CHECK system and grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 52-57, Each Scout must actively identify the specific principles and real-world steps of Identify the elements of the CHECK system and grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 9."
     },
@@ -2612,10 +2581,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10a is enough for Climbing Requirement 10a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10a grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10a grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10a grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2635,9 +2606,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10a",
+          "sub_req_label": "10a",
+          "sub_req_text": "Explain the importance of belaying climbers and rappellers and when it is necessary."
         },
         {
           "sub_id": "10b",
@@ -2660,10 +2634,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10b is enough for Climbing Requirement 10b sign-off.",
-            "fact": "Each Scout must actively belay the specific principles and real-world steps of Req 10b grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10b grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10b grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2683,9 +2659,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10b",
+          "sub_req_label": "10b",
+          "sub_req_text": "Belay three different climbers on three different routes."
         },
         {
           "sub_id": "10c",
@@ -2713,10 +2692,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10c is enough for Climbing Requirement 10c sign-off.",
-            "fact": "Each Scout must actively serve the specific principles and real-world steps of Req 10c grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively serve the specific principles and real-world steps of Req 10c grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively serve the specific principles and real-world steps of Req 10c grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2736,9 +2717,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10c",
+          "sub_req_label": "10c",
+          "sub_req_text": "Serve as a backup belayer on three different climbs."
         },
         {
           "sub_id": "10d",
@@ -2761,10 +2745,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10d is enough for Climbing Requirement 10d sign-off.",
-            "fact": "Each Scout must actively belay the specific principles and real-world steps of Req 10d grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10d grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10d grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2784,9 +2770,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10d",
+          "sub_req_label": "10d",
+          "sub_req_text": "Belay three different rappellers on three different routes."
         },
         {
           "sub_id": "10e",
@@ -2809,10 +2798,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10e is enough for Climbing Requirement 10e sign-off.",
-            "fact": "Each Scout must actively serve the specific principles and real-world steps of Req 10e grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively serve the specific principles and real-world steps of Req 10e grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively serve the specific principles and real-world steps of Req 10e grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2832,9 +2823,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10e",
+          "sub_req_label": "10e",
+          "sub_req_text": "Serve as a backup belayer on three different rappels."
         }
       ],
       "resources": [
@@ -2855,13 +2849,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 10: Belaying. Do the following: (a) Explain the importance",
+      "topic_title": "Req 10: Belaying",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 10 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 58-63",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 58-63",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2878,8 +2872,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Belaying. Do the following: (a) Explain the importance is enough for Climbing Requirement 10 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Belaying. Do the following: (a) Explain the importance grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of Belaying is enough for Climbing Requirement 10 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Belaying grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Belaying grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2899,63 +2895,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Climbing Sub-Req 10a: Explain the importance of belaying climbers and rappellers and when it is necessary.",
-        "Climbing Sub-Req 10b: Belay three different climbers on three different routes.",
-        "Climbing Sub-Req 10c: Serve as a backup belayer on three different climbs.",
-        "Climbing Sub-Req 10d: Belay three different rappellers on three different routes."
+        "Barrel Knot Belaying: A barrel knot Belaying rappellers provides an important margin ofsafety, especially for those with beginning and intermediate skills.",
+        "Anyone Involved America: Anyone involved in Scouting America rappelling activities must be belayed.",
+        "Theknot Big Enoughthat: Make theknot big enoughthat it cannotslip through arappel device, andwork outany slack.",
+        "Exchange Verbal Signals: Exchange verbal signals with your belayer, then back up tothe edge of the cliff."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 10): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Belaying. Do the following: (a) Explain the importance.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Feet Flat Against: Keep your feet flat against the wall’s face and your weighton your heels.",
+        "Walk Down Wall: Walk down the wall backward, letting the rope slide slowlythrough your hands and the rappel device.",
+        "Avoid Lunging Orlurching: Avoid lunging orlurching movements that might put stress on the anchorsystem.",
+        "Stop Bend Rope: To stop, bend the rope behind your body so that nomore rope slips through your brake hand."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 10)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 10",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Belaying",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 10.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 10.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 58-63.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 10",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 10 - Belaying. Do the following: (a) Explain the importance",
+          "Requirement & Topic": "Req 10 - Belaying",
           "Primary Standard": "Explain the importance of belaying climbers and rappellers and when it is necessary.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 58-63."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 10 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 10 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 10, a Scout claims: \"Reading a short definition of Belaying. Do the following: (a) Explain the importance is enough for Climbing Requirement 10 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Belaying. Do the following: (a) Explain the importance grounded in the official Climbing pamphlet.",
-          "Skip Requirement 10 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Belaying. Do the following: (a) Explain the importance grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 58-63, Each Scout must actively explain the specific principles and real-world steps of Belaying. Do the following: (a) Explain the importance grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 10."
     },
@@ -2995,10 +2968,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 64-69",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 11a is enough for Climbing Requirement 11a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 11a grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 11a grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 11a grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3018,9 +2993,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "11a",
+          "sub_req_label": "11a",
+          "sub_req_text": "Show the correct way to directly tie a belay rope to your harness."
         },
         {
           "sub_id": "11b",
@@ -3043,10 +3021,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 64-69",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 11b is enough for Climbing Requirement 11b sign-off.",
-            "fact": "Each Scout must actively climb the specific principles and real-world steps of Req 11b grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 11b grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 11b grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3066,9 +3046,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "11b",
+          "sub_req_label": "11b",
+          "sub_req_text": "Climb at least three different routes on a rock face or climbing wall, demonstrating good technique and using verbal signals with a belayer."
         }
       ],
       "resources": [
@@ -3085,13 +3068,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 11: Climbing. Do the following: (a) Show the correct",
+      "topic_title": "Req 11: Climbing",
       "action_verb": "Show",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 11 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 64-69",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 64-69",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -3111,8 +3094,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Climbing. Do the following: (a) Show the correct is enough for Climbing Requirement 11 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Climbing. Do the following: (a) Show the correct grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of Climbing is enough for Climbing Requirement 11 sign-off.",
+        "fact": "Each Scout must actively show the specific principles and real-world steps of Climbing grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Climbing grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3132,63 +3117,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Climbing Sub-Req 11a: Show the correct way to directly tie a belay rope to your harness.",
-        "Climbing Sub-Req 11b: Climb at least three different routes on a rock face or climbing wall, demonstrating good technique and using verbal signals with a belayer.",
-        "Core Standard 1 (Req 11): Do the following: (a) Show the correct way to directly tie a belay rope to your harness.",
-        "Core Standard 2 (Req 11): (b) Climb at least three different routes on a rock face or climbing wall, demonstrating good technique and using verbal signals with a belayer."
+        "Verbal Signals Climbers: Verbal Signals for Climbers and Belayers Verbal signals allow a climber and a belayer to communicate and worktogether as a team even if they cannot.",
+        "Habit Ofusing Verbal: Get in the habit ofusing verbal signals every time you are climbing or belaying.",
+        "Arrange Rope Stronger: Arrange the rope so that your stronger hand (usually yourright hand if you are right-handed) will be the brake hand, thehand closest to the free end.",
+        "Exchange Verbalsignals Boxed: Exchange verbalsignals (see the boxed text later in this chapter) with a climber."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 11): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Climbing. Do the following: (a) Show the correct.",
-        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Climber Ascends Pull: As the climber ascends, pull through the belay device any slackthat forms in the rope, and let the loose rope pile up next to yourfeet.",
+        "Holding Rope Firmly: While holding the rope firmly with your brake hand, slideyour guide hand out along the rope.",
+        "Slack Rope Minimum: Keeping slack in the rope to a minimum will limit thelength of a fall if the climber slips.",
+        "Running Rope Belay: Running the rope through a belay deviceallows a belayer to stop a fall easily, justby moving the belay rope to one side."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 11)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 11",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Climbing",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 11.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 11.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 64-69.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 11",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 11 - Climbing. Do the following: (a) Show the correct",
+          "Requirement & Topic": "Req 11 - Climbing",
           "Primary Standard": "Show the correct way to directly tie a belay rope to your harness.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 64-69."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 11 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 11 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 11, a Scout claims: \"Reading a short definition of Climbing. Do the following: (a) Show the correct is enough for Climbing Requirement 11 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Climbing. Do the following: (a) Show the correct grounded in the official Climbing pamphlet.",
-          "Skip Requirement 11 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Climbing. Do the following: (a) Show the correct grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 64-69, Each Scout must actively show the specific principles and real-world steps of Climbing. Do the following: (a) Show the correct grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 11."
     },
@@ -3223,10 +3185,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 70-75",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 12a is enough for Climbing Requirement 12a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 12a grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 12a grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 12a grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3246,9 +3210,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "12a",
+          "sub_req_label": "12a",
+          "sub_req_text": "Show the correct way to directly tie a belay rope to your harness."
         },
         {
           "sub_id": "12b",
@@ -3271,10 +3238,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 70-75",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 12b is enough for Climbing Requirement 12b sign-off.",
-            "fact": "Each Scout must actively using the specific principles and real-world steps of Req 12b grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 12b grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 12b grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3294,9 +3263,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "12b",
+          "sub_req_label": "12b",
+          "sub_req_text": "Using a carabiner and a rappel device, attach a rappel rope to your harness."
         },
         {
           "sub_id": "12c",
@@ -3322,10 +3294,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 70-75",
+          "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 12c is enough for Climbing Requirement 12c sign-off.",
-            "fact": "Each Scout must actively rappel the specific principles and real-world steps of Req 12c grounded in the official Climbing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 12c grounded in the official Climbing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 12c grounded in the official Climbing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3345,9 +3319,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "12c",
+          "sub_req_label": "12c",
+          "sub_req_text": "Rappel down three different rock faces or three rappel routes on a climbing wall. Use verbal signals to communicate with a belayer, and demonstrate good rappelling technique."
         }
       ],
       "resources": [
@@ -3364,13 +3341,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 12: Rappelling. Do the following: (a) Show the correct",
+      "topic_title": "Req 12: Rappelling",
       "action_verb": "Show",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 12 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 70-75",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 70-75",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -3390,8 +3367,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Rappelling. Do the following: (a) Show the correct is enough for Climbing Requirement 12 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Rappelling. Do the following: (a) Show the correct grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of Rappelling is enough for Climbing Requirement 12 sign-off.",
+        "fact": "Each Scout must actively show the specific principles and real-world steps of Rappelling grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Rappelling grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3411,63 +3390,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Climbing Sub-Req 12a: Show the correct way to directly tie a belay rope to your harness.",
-        "Climbing Sub-Req 12b: Using a carabiner and a rappel device, attach a rappel rope to your harness.",
-        "Climbing Sub-Req 12c: Rappel down three different rock faces or three rappel routes on a climbing wall. Use verbal signals to communicate with a belayer, and demonstrate.",
-        "Core Standard 1 (Req 12): Do the following: (a) Show the correct way to directly tie a belay rope to your harness."
+        "Verbal Signals Climbers: Verbal Signals for Climbers and Belayers Verbal signals allow a climber and a belayer to communicate and worktogether as a team even if they cannot.",
+        "Habit Ofusing Verbal: Get in the habit ofusing verbal signals every time you are climbing or belaying.",
+        "Challenging Sport Involves: A challenging sport that always involves the skills ofascending and belaying or spotting, and may also includerappelling and bouldering. cling.",
+        "Handhold Involving Fingers: A handhold involving one or more fingers bent over a hold. counterbalance."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 12): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Rappelling. Do the following: (a) Show the correct.",
-        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Moving Downward Rappelling: Moving downward by rappelling or down-climbing. down-climbing.",
+        "Hands Feet Balance: Using hands and feet for balance while descending a moderate or steep face. dynamic rope.",
+        "Rope Stretches Percent: Rope that stretches 6 percent to 10 percent to absorbthe energy of a fall.",
+        "Brink Ledge Small: The brink of a ledge or a small horizontal hold on a rock face. edging."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 12)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 12",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Rappelling",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 12.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 12.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 70-75.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 12",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 12 - Rappelling. Do the following: (a) Show the correct",
+          "Requirement & Topic": "Req 12 - Rappelling",
           "Primary Standard": "Show the correct way to directly tie a belay rope to your harness.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 70-75."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 12 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 12 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 12, a Scout claims: \"Reading a short definition of Rappelling. Do the following: (a) Show the correct is enough for Climbing Requirement 12 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Rappelling. Do the following: (a) Show the correct grounded in the official Climbing pamphlet.",
-          "Skip Requirement 12 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Rappelling. Do the following: (a) Show the correct grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 70-75, Each Scout must actively show the specific principles and real-world steps of Rappelling. Do the following: (a) Show the correct grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 12."
     },
@@ -3487,13 +3443,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 13: Demonstrate ways to store rope, hardware, and other",
+      "topic_title": "Req 13: Ways to store rope, hardware",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Climbing Requirement 13 activities.",
-      "pamphlet_citation": "Official BSA Climbing Pamphlet, pp. 76-81",
-      "pamphlet_page_citation": "Official BSA Climbing Pamphlet, pp. 76-81",
+      "pamphlet_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
+      "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -3513,8 +3469,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Demonstrate ways to store rope, hardware, and other is enough for Climbing Requirement 13 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate ways to store rope, hardware, and other grounded in the official Climbing pamphlet."
+        "misconception": "Reading a short definition of Ways to store rope, hardware is enough for Climbing Requirement 13 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Ways to store rope, hardware grounded in the official Climbing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Ways to store rope, hardware grounded in the official Climbing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3534,68 +3492,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 13): Demonstrate ways to store rope, hardware, and other gear used for climbing, rappelling, and belaying.",
-        "Field Verification Standard: Apply Climbing Requirement 13 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Climbing Req 13 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Climbing Workbook before requesting Requirement 13 sign-off."
+        "Whenever Climbing Rappelling: Whenever you are climbing, rappelling, or belaying onrock faces, wear a helmet that has been specifically designedfor climbing.",
+        "Helmet Protect Head: A helmet will protect your head against stonesand debris falling from above, and may prevent injuries if youcollide with a rock face during a fall.",
+        "Chin Strap Aclimber: A chin strap helps keep aclimber’s helmet from falling off or shifting.",
+        "Helmets Hardware Ropes: The helmets, hardware, and ropes used for climbing, rappelling, and belaying have been developedover more than 150 years of mountaineering."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 13): Review the official Climbing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Demonstrate ways to store rope, hardware, and other.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Climbing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "UIAA Union Internationale: The UIAA (Union Internationale des Associations d’Alpinisme) is a group of mountain-travelexperts who set standards and testing proceduresfor.",
+        "Conformit Europ Enne: The CE (Conformité Européenne, which translates to European Community) maintains similar standards for excellence.",
+        "Allropes Harnesses Helmets: Allropes, harnesses, helmets, and hardware used by Scouts for climbing, rappelling, and belaying must bespecifically designed for climbing.",
+        "Wear Properly Fittedhelmet: Wear a properly fittedhelmet when climbing above shoulder height whetheryou are on a rock face, tower, or artificial wall."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 13)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Climbing Req 13",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Ways to store rope, hardware",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Climbing Approach",
-        "right_header": "Official BSA Climbing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 13.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 13.",
-          "Records concrete measurements, examples, and citations from Official BSA Climbing Pamphlet, pp. 76-81.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Climbing Req 13",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 13 - Demonstrate ways to store rope, hardware, and other",
+          "Requirement & Topic": "Req 13 - Ways to store rope, hardware",
           "Primary Standard": "Demonstrate ways to store rope, hardware, and other gear used for climbing, rappelling, and belaying.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Climbing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Climbing Pamphlet, pp. 76-81."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Climbing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Climbing Req 13 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Climbing Req 13 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Climbing Requirement 13, a Scout claims: \"Reading a short definition of Demonstrate ways to store rope, hardware, and other is enough for Climbing Requirement 13 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate ways to store rope, hardware, and other grounded in the official Climbing pamphlet.",
-          "Skip Requirement 13 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate ways to store rope, hardware, and other grounded in the official Climbing pamphlet.",
-        "explanation": "Per Official BSA Climbing Pamphlet, pp. 76-81, Each Scout must actively demonstrate the specific principles and real-world steps of Demonstrate ways to store rope, hardware, and other grounded in the official Climbing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Climbing Workbook organizer table and practical demonstration for Req 13."
     }
   ],
   "badge_slug": "climbing",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

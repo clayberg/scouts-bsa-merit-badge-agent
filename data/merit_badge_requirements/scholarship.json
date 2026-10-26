@@ -48,10 +48,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Scholarship Requirement 1a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1a grounded in the official Scholarship pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1a grounded in the official Scholarship pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1a grounded in the official Scholarship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -71,9 +73,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Show that you have had an average grade of B or higher (80% or higher) for one term or semester."
         },
         {
           "sub_id": "1b",
@@ -104,10 +109,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Scholarship Requirement 1b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Scholarship pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Scholarship pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Scholarship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -127,9 +134,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Show that for one term or semester you have improved your school grades over the previous period."
         }
       ],
       "resources": [
@@ -150,13 +160,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: (a) Show that you have had an average",
+      "topic_title": "Req 1: That you have had an average",
       "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scholarship Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Scholarship Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)",
+      "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -176,8 +186,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Show that you have had an average is enough for Scholarship Requirement 1 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of (a) Show that you have had an average grounded in the official Scholarship pamphlet."
+        "misconception": "Reading a short definition of That you have had an average is enough for Scholarship Requirement 1 sign-off.",
+        "fact": "Each Scout must actively show the specific principles and real-world steps of That you have had an average grounded in the official Scholarship pamphlet.",
+        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of That you have had an average grounded in the official Scholarship pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -197,62 +209,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Scholarship Sub-Req 1a: Show that you have had an average grade of B or higher (80% or higher) for one term or semester.",
-        "Scholarship Sub-Req 1b: Show that for one term or semester you have improved your school grades over the previous period.",
-        "Core Standard 1 (Req 1): Do ONE of the following: (a) Show that you have had an average grade of B or higher (80% or higher) for one term or semester.",
-        "Core Standard 2 (Req 1): (b) Show that for one term or semester you have improved your school grades over the previous period."
+        "Requirement Show Earned: For requirement 1, you must show that you earned an averagegrade of Bor higher for one term, or that you have improvedyour grades over the previous.",
+        "Home Feel Comfortable: Find a place at home where you feel comfortable and whereyou can focus on the task at hand.",
+        "Select Shouldbe Well-lighted: The place you select shouldbe well-lighted and relatively quiet at the time of day you willbe doing your homework.",
+        "Sturdy Chairand Table: It also should have a sturdy chairand a table or desk where you canspread out your papers and books."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Scholarship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Show that you have had an average.",
-        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Scholarship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Area Thoroughly Beforeyou: Clean the area thoroughly beforeyou start using it as your work space.",
+        "Think Location Inyour: If you use a computer, think about the best location for it inyour work space.",
+        "Small Items Canbe: Small items canbe placed in a shoebox or othercontainer if the area you use hasmultiple purposes and must beshared with family members.",
+        "Dictionary Thesaurus Wallor: Place a dictionary, a thesaurus, and a wallor desk calendar within easy reach."
       ],
       "gear_checklist": [
         "Official Scholarship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scholarship Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for That you have had an average",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Scholarship Approach",
-        "right_header": "Official BSA Scholarship Pamphlet Standard",
+        "right_header": "Official BSA Scholarship Standard (That you have had an average)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during That you have had an average.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Scholarship Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Scholarship Workbook organizer.",
+          "Clearly demonstrates and explains That you have had an average using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Scholarship Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) Show that you have had an average",
+          "Requirement & Topic": "Req 1 - That you have had an average",
           "Primary Standard": "Show that you have had an average grade of B or higher (80% or higher) for one term or semester.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scholarship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scholarship Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Scholarship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Scholarship Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Scholarship Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Scholarship Requirement 1, a Scout claims: \"Reading a short definition of (a) Show that you have had an average is enough for Scholarship Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Scholarship (That you have had an average), which patrol preparation step best aligns with the official Scholarship standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively show the specific principles and real-world steps of (a) Show that you have had an average grounded in the official Scholarship pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Scholarship hazards, PPE, and prerequisite standards in Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively show the specific principles and real-world steps of (a) Show that you have had an average grounded in the official Scholarship pamphlet.",
-        "explanation": "Per Official BSA Scholarship Pamphlet, pp. 4-9, Each Scout must actively show the specific principles and real-world steps of (a) Show that you have had an average grounded in the official Scholarship pamphlet."
+        "correct_answer": "Option A - Review the Scholarship hazards, PPE, and prerequisite standards in Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scholarship Workbook organizer table and practical demonstration for Req 1."
@@ -293,10 +305,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2a is enough for Scholarship Requirement 2a sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 2a grounded in the official Scholarship pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 2a grounded in the official Scholarship pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 2a grounded in the official Scholarship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -316,9 +330,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2a",
+          "sub_req_label": "2a",
+          "sub_req_text": "Make a list of educational places located where you live (other than schools). Visit one, and report on how you used the place for self-education."
         },
         {
           "sub_id": "2b",
@@ -346,15 +363,17 @@
             "min_rows": 3,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Scholarship career exploration requirement.",
-            "fact": "Scouts must research three Scholarship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Scholarship career exploration requirement.",
+            "fact": "Scouts must research specific Scholarship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Scholarship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Scholarship Req 2b with your parent or guardian's written permission.",
+            "gate_description": "Review and complete Scholarship Req 2b with your parent or guardian's approval in compliance with BSA Youth Protection.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -374,9 +393,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2b",
+          "sub_req_label": "2b",
+          "sub_req_text": "With your counselor's and your parent or guardian's approval, interview two professionals (other than teachers or other professionals at your school) with established careers. Find out where they were educated, what training they received, and how their education and training have helped prepare them for the career they have chosen. Find out how they continue to educate themselves. Discuss what you find out with your counselor."
         },
         {
           "sub_id": "2c",
@@ -411,10 +433,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2c is enough for Scholarship Requirement 2c sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2c grounded in the official Scholarship pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2c grounded in the official Scholarship pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 2c grounded in the official Scholarship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -434,9 +458,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2c",
+          "sub_req_label": "2c",
+          "sub_req_text": "Using a daily planner, show your counselor how you keep track of assignments and activities, and discuss how you manage your time."
         },
         {
           "sub_id": "2d",
@@ -468,10 +495,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 10-15",
+          "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 2d is enough for Scholarship Requirement 2d sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2d grounded in the official Scholarship pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2d grounded in the official Scholarship pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2d grounded in the official Scholarship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -491,9 +520,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "2d",
+          "sub_req_label": "2d",
+          "sub_req_text": "Discuss the advantages and disadvantages of the different methods of research available to you for school assignments, such as the library, books and periodicals, and the internet."
         }
       ],
       "resources": [
@@ -530,13 +562,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Scholarship Careers, Training & Hobby Pathways",
+      "topic_title": "Req 2: List of educational places located",
       "action_verb": "Make",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scholarship Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Scholarship Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
+      "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -556,13 +588,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Scholarship career exploration requirement.",
-        "fact": "Scouts must research three Scholarship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Scholarship career exploration requirement.",
+        "fact": "Scouts must research specific Scholarship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Scholarship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Scholarship Req 2 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Scholarship Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -582,63 +616,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Scholarship Sub-Req 2a: Make a list of educational places located where you live (other than schools). Visit one, and report on how you used the place for self-education.",
-        "Scholarship Sub-Req 2b: With your counselor's and your parent or guardian's approval, interview two professionals (other than teachers or other professionals at your school) with established careers.",
-        "Scholarship Sub-Req 2c: Using a daily planner, show your counselor how you keep track of assignments and activities, and discuss how you manage your time.",
-        "Scholarship Sub-Req 2d: Discuss the advantages and disadvantages of the different methods of research available to you for school assignments, such as the library, books and periodicals."
+        "Public Library Not: Your public library not only givesyou free access to books, periodicals, and the internet, but italso gives you access to reference librarians. existed.",
+        "Librarcan Youfind Resources: A librarcan help youfind resources ian knows how tocross-referenceyour subjectunder differentbut related termsto find the maximum number.",
+        "Donot Send Anyone: Donot send anyone your picture or any photographs unless you haveyour parent or guardian’s permission. 3.",
+        "Not Open Emails: Do not open emails or files you receive from people you don’tknow or trust."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Scholarship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Scholarship Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the make task methodically with your patrol buddy and log specific observations in your Scholarship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Trash Youwould Junk: If you get something suspicious, trash it just as youwould any other junk mail. 4.",
+        "Receive Discover Information: If you receive or discover any information that makes youuncomfortable, leave it and tell your parent or guardian.",
+        "Notrespond Message: Do notrespond to any message that is disturbing or hurtful. 5.",
+        "Agree Together Someone: Never agree to get together with someone you “meet” online, unless your parent or guardian approves of the meeting and goeswith you. 6."
       ],
       "gear_checklist": [
         "Official Scholarship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scholarship Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for List of educational places located",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Scholarship Approach",
-        "right_header": "Official BSA Scholarship Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Scholarship Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Scholarship Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Scholarship Careers, Training & Hobby Pathways",
-          "Primary Standard": "Make a list of educational places located where you live (other than schools). Visit one, and report on how yo",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scholarship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scholarship Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - List of educational places located",
+          "Primary Standard": "Make a list of educational places located where you live (other than schools). Visit one, and report on how you used the place for self-education.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Scholarship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Scholarship Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Scholarship Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Scholarship Requirement 2, a Scout claims: \"Listing three job titles from a web search satisfies the Scholarship career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Scholarship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Scholarship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Scholarship Pamphlet, pp. 10-15, Scouts must research three Scholarship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scholarship Workbook organizer table and practical demonstration for Req 2."
     },
@@ -658,13 +669,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Get a note from the principal of your",
-      "action_verb": "Get",
+      "topic_title": "Req 3: Get a note from the principal",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scholarship Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Scholarship Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51)",
+      "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -681,13 +692,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Get a note from the principal of your is enough for Scholarship Requirement 3 sign-off.",
-        "fact": "Each Scout must actively get the specific principles and real-world steps of Get a note from the principal of your grounded in the official Scholarship pamphlet."
+        "misconception": "Reading a short definition of Get a note from the principal is enough for Scholarship Requirement 3 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Get a note from the principal grounded in the official Scholarship pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Get a note from the principal grounded in the official Scholarship pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51)"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
         "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Scholarship Req 3 with your parent or guardian's written permission.",
+        "gate_description": "Review and complete Scholarship Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -707,63 +720,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): Get a note from the principal of your school (or another school official named by the principal) that states that during the past year your behavior, leadership, and service have been satisfactory.",
-        "Core Standard 2 (Req 3): Note: If you are home-schooled or your school environment does not include a principal, you may obtain a note from a counterpart such as your parent or guardian.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Scholarship Req 3 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Scholarship Workbook before requesting Requirement 3 sign-off."
+        "Dress Neatly Appointment: Dress neatly for your appointment, and arrive on time.",
+        "Ready Principal Sign: Have the note ready for the principal to sign and your indexcards handy.",
+        "Beeninvolved Class Projects: I’ve beeninvolved in class projects in both history and English that haverequired teamwork and academic leadership skills.",
+        "Havelearned Manage Time: I havelearned to manage my time effectively by using a pocketorganizer and turning in my homework on time."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Scholarship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Get a note from the principal of your.",
-        "Execute & Document: Perform the get task methodically with your patrol buddy and log specific observations in your Scholarship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Conclusion Politelyask: In conclusion, politelyask your principal to signthe note you have prepared.",
+        "Creates Instant Impression: This creates an instant impression that youyou have fulfilled the meritare confident, comfortable, and mature. badge requirement.",
+        "Theprincipal Signs Eye: After theprincipal signs your note, make eye contact, smile broadly, and shake hands as you say thank you.",
+        "Then Leave Quietly: Then, leave quietly, with your signed note and index cards in hand."
       ],
       "gear_checklist": [
         "Official Scholarship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scholarship Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Get a note from the principal",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Scholarship Approach",
-        "right_header": "Official BSA Scholarship Pamphlet Standard",
+        "right_header": "Official BSA Scholarship Standard (Get a note from the principal)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Get a note from the principal.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Scholarship Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Scholarship Workbook organizer.",
+          "Clearly demonstrates and explains Get a note from the principal using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Scholarship Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Get a note from the principal of your",
-          "Primary Standard": "Get a note from the principal of your school (or another school official named by the principal) that states t",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scholarship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scholarship Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Get a note from the principal",
+          "Primary Standard": "Get a note from the principal of your school (or another school official named by the principal) that states that during the past year your behavior, leadership, and service have been satisfactory.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Scholarship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Scholarship Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Scholarship Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Scholarship Requirement 3, a Scout claims: \"Reading a short definition of Get a note from the principal of your is enough for Scholarship Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively get the specific principles and real-world steps of Get a note from the principal of your grounded in the official Scholarship pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively get the specific principles and real-world steps of Get a note from the principal of your grounded in the official Scholarship pamphlet.",
-        "explanation": "Per Official BSA Scholarship Pamphlet, pp. 16-21, Each Scout must actively get the specific principles and real-world steps of Get a note from the principal of your grounded in the official Scholarship pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scholarship Workbook organizer table and practical demonstration for Req 3."
     },
@@ -787,26 +790,25 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "RULED_EXPLAIN_BOX",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 4a Concept / Sub-Part",
+              "Key Pamphlet Facts & Field Examples"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Core Principle",
+              "Real-World Scouting Application",
+              "Key Term / Standard"
             ],
-            "min_rows": 4,
+            "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Scholarship Requirement 4a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4a grounded in the official Scholarship pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4a grounded in the official Scholarship pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4a grounded in the official Scholarship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -826,9 +828,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benefits of participation and what you learned about the importance of teamwork."
         },
         {
           "sub_id": "4b",
@@ -860,10 +865,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Scholarship Requirement 4b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4b grounded in the official Scholarship pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4b grounded in the official Scholarship pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4b grounded in the official Scholarship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -883,9 +890,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Discuss your participation in a school project during the past semester where you were a part of a team. Tell about the positive contributions you made to the team and the project."
         }
       ],
       "resources": [
@@ -910,13 +920,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: (a) Show that you have taken part in",
+      "topic_title": "Req 4: That you have taken part",
       "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scholarship Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Scholarship Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)",
+      "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -936,8 +946,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Show that you have taken part in is enough for Scholarship Requirement 4 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of (a) Show that you have taken part in grounded in the official Scholarship pamphlet."
+        "misconception": "Reading a short definition of That you have taken part is enough for Scholarship Requirement 4 sign-off.",
+        "fact": "Each Scout must actively show the specific principles and real-world steps of That you have taken part grounded in the official Scholarship pamphlet.",
+        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of That you have taken part grounded in the official Scholarship pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -957,63 +969,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Scholarship Sub-Req 4a: Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benefits of participation and what you learned.",
-        "Scholarship Sub-Req 4b: Discuss your participation in a school project during the past semester where you were a part of a team. Tell about the positive contributions.",
-        "Core Standard 1 (Req 4): Do ONE of the following: (a) Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benefits of participation and what you learned about the importance of teamwork.",
-        "Core Standard 2 (Req 4): (b) Discuss your participation in a school project during the past semester where you were a part of a team."
+        "Length Time Alreadyhave: If you have been a Scout for any length of time, you alreadyhave learned a great deal about the importance of teamwork.",
+        "Everyone Pitchesin Lends: When everyone pitchesin and lends positive thoughtsand action to a team effort, it isamazing how quickly and efficiently things get done.",
+        "Moreyour Troop Works: The moreyour troop works together, themore well-oiled the teamworkmachine becomes.",
+        "Ability Work Withothers: The ability to work well withothers is one of the most important skills you can bring to work, friendships, school, society, andlife."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Scholarship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Show that you have taken part in.",
-        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Scholarship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Brainpower Andperspectives: The more brainpower andperspectives a group can devote to a problem or challenge, the betterthe overall results will be.",
+        "Think Extracurricular: Think about the extracurricular activities in whichyou participate.",
+        "Youbenefited Joining: How have youbenefited from joining a groupactivity or organization?.",
+        "Writedown Activities: Writedown all of the activities in whichyou participate, and include two."
       ],
       "gear_checklist": [
         "Official Scholarship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scholarship Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for That you have taken part",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Scholarship Approach",
-        "right_header": "Official BSA Scholarship Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Scholarship Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Scholarship Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - (a) Show that you have taken part in",
-          "Primary Standard": "Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benef",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scholarship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scholarship Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - That you have taken part",
+          "Primary Standard": "Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benefits of participation and what you learned about the importance of teamwork.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Scholarship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Scholarship Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Scholarship Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Scholarship Requirement 4, a Scout claims: \"Reading a short definition of (a) Show that you have taken part in is enough for Scholarship Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively show the specific principles and real-world steps of (a) Show that you have taken part in grounded in the official Scholarship pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively show the specific principles and real-world steps of (a) Show that you have taken part in grounded in the official Scholarship pamphlet.",
-        "explanation": "Per Official BSA Scholarship Pamphlet, pp. 22-27, Each Scout must actively show the specific principles and real-world steps of (a) Show that you have taken part in grounded in the official Scholarship pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scholarship Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1050,10 +1039,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Scholarship Requirement 5a sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 5a grounded in the official Scholarship pamphlet."
+            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 5a grounded in the official Scholarship pamphlet.",
+            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 5a grounded in the official Scholarship pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1073,9 +1064,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Write a report of 250 to 300 words about how the education you receive in school will be of value to you in the future and how you will continue to educate yourself in the future."
         },
         {
           "sub_id": "5b",
@@ -1103,10 +1097,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Scholarship career exploration requirement.",
-            "fact": "Scouts must research three Scholarship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Scholarship career exploration requirement.",
+            "fact": "Scouts must research specific Scholarship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Scholarship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1126,9 +1122,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Write a report of 250 to 300 words about two careers that interest you and how specific classes and good scholarship in general will help you achieve your career goals."
         }
       ],
       "resources": [
@@ -1149,13 +1148,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Scholarship Careers, Training & Hobby Pathways",
+      "topic_title": "Req 5: Write a report of 250",
       "action_verb": "Write",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Scholarship Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Scholarship Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Scholarship Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
+      "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1172,8 +1171,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Scholarship career exploration requirement.",
-        "fact": "Scouts must research three Scholarship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Scholarship career exploration requirement.",
+        "fact": "Scouts must research specific Scholarship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Scholarship career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1193,68 +1194,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Scholarship Sub-Req 5a: Write a report of 250 to 300 words about how the education you receive in school will be of value to you in the.",
-        "Scholarship Sub-Req 5b: Write a report of 250 to 300 words about two careers that interest you and how specific classes and good scholarship in general will help you achieve your career goals.",
-        "Core Standard 1 (Req 5): Do ONE of the following: (a) Write a report of 250 to 300 words about how the education you receive in school will be of value to you in the future and how you will continue to educate yourself in the future.",
-        "Core Standard 2 (Req 5): (b) Write a report of 250 to 300 words about two careers that interest you and how specific classes and good scholarship in general will help you achieve your career goals."
+        "Now Heading Down: You are now heading down the home stretch toward your Scholarship merit badge.",
+        "Begin Report Stating: Begin your report by stating your enrolled grade, whatschool you attend, and how long you have attended that school.",
+        "Instance Begin Seventh: For instance, you might begin, “I am a seventh grade studentat Rockland Junior High School.",
+        "Instance Say Nowtake: For instance, you might say, “I nowtake math, English literature, social studies, science, and art."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Scholarship requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Scholarship Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the write task methodically with your patrol buddy and log specific observations in your Scholarship Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Last Paragraph Report: The last paragraph of your report should detail how youwill continue to educate yourself in the future.",
+        "Whereyou Describe Specific: This is whereyou can describe your specific areas of interest, academic orotherwise, and how you plan to learn more about them.",
+        "Forexample Want Learn: Forexample, you might want to learn how to play guitar by takinggroup lessons and practicing in your room each day.",
+        "Colleges Publish List: Colleges sometimes will publish a list of recommendedsubjects that high school students should take to prepare forcollege study."
       ],
       "gear_checklist": [
         "Official Scholarship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Scholarship Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Write a report of 250",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Scholarship Approach",
-        "right_header": "Official BSA Scholarship Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Scholarship Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Scholarship Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Scholarship Careers, Training & Hobby Pathways",
-          "Primary Standard": "Write a report of 250 to 300 words about how the education you receive in school will be of value to you in th",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Scholarship terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Scholarship Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Write a report of 250",
+          "Primary Standard": "Write a report of 250 to 300 words about how the education you receive in school will be of value to you in the future and how you will continue to educate yourself in the future.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Scholarship terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Scholarship Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Scholarship Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Scholarship Requirement 5, a Scout claims: \"Listing three job titles from a web search satisfies the Scholarship career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Scholarship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Scholarship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Scholarship Pamphlet, pp. 28-33, Scouts must research three Scholarship careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scholarship Workbook organizer table and practical demonstration for Req 5."
     }
   ],
   "badge_slug": "scholarship",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

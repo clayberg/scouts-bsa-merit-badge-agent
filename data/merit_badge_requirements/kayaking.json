@@ -51,10 +51,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Kayaking hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Kayaking prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Kayaking prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Kayaking prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)"
           },
           "starting_requirement_gate": {
             "gate_type": "HARD_PREREQ_BADGE",
@@ -79,9 +81,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activities, including weather and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
         },
         {
           "sub_id": "1b",
@@ -121,10 +126,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Kayaking Requirement 1b sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 1b grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -144,9 +151,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while kayaking: blisters, cold-water shock and hypothermia, heat-related illnesses, dehydration, sunburn, sprains, and strains."
         },
         {
           "sub_id": "1c",
@@ -174,10 +184,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Kayaking Requirement 1c sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 1c grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -197,9 +209,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Review the Scouting America Safety Afloat policy. Explain to your counselor how this applies to kayaking."
         }
       ],
       "resources": [
@@ -240,13 +255,13 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: (a) Explain to your counselor the hazards you",
+      "topic_title": "Req 1: Hazards, First Aid & Safety",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Kayaking Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Kayaking Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)",
+      "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
@@ -266,7 +281,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Kayaking hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Kayaking prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Kayaking prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Kayaking prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)"
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -291,62 +308,61 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Kayaking Sub-Req 1a: Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activities, including weather and water-related hazards, and what.",
-        "Kayaking Sub-Req 1b: Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while kayaking: blisters, cold-water shock and hypothermia, heat-related illnesses.",
-        "Kayaking Sub-Req 1c: Review the Scouting America Safety Afloat policy. Explain to your counselor how this applies to kayaking.",
-        "Core Standard 1 (Req 1): Do the following: (a) Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activities, including weather and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
+        "Once Blister Forms: Once a blister forms, it is best to immediately drain it.",
+        "Draining Blister: Draining the blister usually providesimmediate pain relief.",
+        "Wash Area Soap: Wash the area with soap and water andthen apply a thin layer of an antibiotic ointment to preventinfection.",
+        "Cover Dry Dressing: Cover with a dry dressing and hold it in place withwaterproof tape or a compressive elastic bandage."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Kayaking requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain to your counselor the hazards you.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Kayaking Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Shouldprotect Blister: This shouldprotect the blister and prevent further friction to the affectedarea.",
+        "There Primary Dangers: There are two primary dangers from falling into cold water.",
+        "Asquickly Minute Paddler: Asquickly as the first minute, a paddler can experience cold-watershock.",
+        "Happen Water Warm: This can happen in water as warm as 69 to 77 degrees Fahrenheit."
       ],
       "gear_checklist": [
         "Official Kayaking Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Kayaking Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Kayaking Approach",
-        "right_header": "Official BSA Kayaking Pamphlet Standard",
+        "right_header": "Official BSA Kayaking Standard (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Kayaking Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Kayaking Workbook organizer.",
+          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Kayaking Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) Explain to your counselor the hazards you",
-          "Primary Standard": "Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activit",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Kayaking terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Kayaking Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
+          "Primary Standard": "Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activities, including weather and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Kayaking terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Kayaking Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Kayaking Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Kayaking Requirement 1, a Scout claims: \"Scouts can jump straight into Kayaking hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Your kayak capsizes in calm lake water during a practice paddle. After performing a wet exit, what is your immediate priority in the water?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Kayaking prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Abandon the kayak and paddle and try to swim 300 yards to the nearest shoreline.",
+          "Maintain physical contact with your capsized kayak and paddle, signal your buddy boat, and position yourself at the bow/stern for a T-rescue or heel-hook re-entry.",
+          "Unbuckle and remove your PFD life jacket so you can swim faster."
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Kayaking prevents most field injuries.",
-        "explanation": "Per Official BSA Kayaking Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Kayaking prevents most field injuries."
+        "correct_answer": "Option B — Hold onto your kayak and paddle, keep your PFD fastened, and coordinate a buddy T-rescue.",
+        "explanation": "A swamped kayak provides massive flotation and high visibility for rescuers, whereas swimming away in open water risks cold-water exhaustion and separation."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Kayaking Workbook organizer table and practical demonstration for Req 1."
@@ -372,13 +388,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Before doing requirements 3 through 8, successfully complete",
-      "action_verb": "Before",
+      "topic_title": "Req 2: Before doing requirements 3 through 8",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Kayaking Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Kayaking Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 11, p. 37)",
+      "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 11, p. 37)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -395,8 +411,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Before doing requirements 3 through 8, successfully complete is enough for Kayaking Requirement 2 sign-off.",
-        "fact": "Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 8, successfully complete grounded in the official Kayaking pamphlet."
+        "misconception": "Reading a short definition of Before doing requirements 3 through 8 is enough for Kayaking Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Before doing requirements 3 through 8 grounded in the official Kayaking pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Before doing requirements 3 through 8 grounded in the official Kayaking pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 11, p. 37)"
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -421,63 +439,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 2): Before doing requirements 3 through 8, successfully complete the Scouting America swimmer test.",
-        "Core Standard 2 (Req 2): Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Kayaking Req 2 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Kayaking Workbook before requesting Requirement 2 sign-off."
+        "Safety Aid Member: Safety and First Aid.",
+        "Personsonboard Mustwear: All personsonboard mustwear a properlysized and fittedlife jacket. 2.",
+        "Complete Health History: A complete health history isrequired of all participants as evidence of fitness for kayakingactivities.",
+        "Forms Minors Signed: Forms for minors must be signed by a parent orlegal guardian."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Kayaking requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Before doing requirements 3 through 8, successfully complete.",
-        "Execute & Document: Perform the before task methodically with your patrol buddy and log specific observations in your Kayaking Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Participants Asked Relate: Participants should be asked to relate anyrecent incidents of illness or injury just prior to the activity.",
+        "Supervision Protection: Supervision and protection should be adjusted to anticipateany potential risks associated with individual healthconditions.",
+        "Operation Kayak Limited: Operation of a kayak is limited to youthand adults who have completed the Scouting Americaswimmer classification test: Jump feetfirst into water.",
+        "Yards Completed Inone: The 100 yards must be completed inone swim without stops and must include at least one sharpturn."
       ],
       "gear_checklist": [
         "Official Kayaking Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Kayaking Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Before doing requirements 3 through 8",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Kayaking Approach",
-        "right_header": "Official BSA Kayaking Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Kayaking Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Kayaking Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Before doing requirements 3 through 8, successfully complete",
-          "Primary Standard": "Before doing requirements 3 through 8, successfully complete the Scouting America swimmer test. Note: See the ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Kayaking terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Kayaking Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Before doing requirements 3 through 8",
+          "Primary Standard": "Before doing requirements 3 through 8, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Kayaking terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Kayaking Merit Badge Pamphlet (p. 11, p. 37) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Kayaking Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Kayaking Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Kayaking Requirement 2, a Scout claims: \"Reading a short definition of Before doing requirements 3 through 8, successfully complete is enough for Kayaking Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 8, successfully complete grounded in the official Kayaking pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 8, successfully complete grounded in the official Kayaking pamphlet.",
-        "explanation": "Per Official BSA Kayaking Pamphlet, pp. 10-15, Each Scout must actively before the specific principles and real-world steps of Before doing requirements 3 through 8, successfully complete grounded in the official Kayaking pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Kayaking Workbook organizer table and practical demonstration for Req 2."
     },
@@ -517,10 +512,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Kayaking Requirement 3a sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 3a grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -540,9 +537,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling. Then demonstrate how to select and fit a life jacket for kayaking."
         },
         {
           "sub_id": "3b",
@@ -578,10 +578,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Kayaking Requirement 3b sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 3b grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -601,9 +603,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Review the importance of safety equipment such as a signal device, extra paddle, sponge, bilge pump, flotation bags, and throw bag."
         }
       ],
       "resources": [
@@ -632,13 +637,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: (a) Review the characteristics of life jackets most",
+      "topic_title": "Req 3: Review the characteristics of life jackets",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Kayaking Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Kayaking Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)",
+      "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -658,8 +663,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Review the characteristics of life jackets most is enough for Kayaking Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review the characteristics of life jackets most grounded in the official Kayaking pamphlet."
+        "misconception": "Reading a short definition of Review the characteristics of life jackets is enough for Kayaking Requirement 3 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Review the characteristics of life jackets grounded in the official Kayaking pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Review the characteristics of life jackets grounded in the official Kayaking pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -679,63 +686,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Kayaking Sub-Req 3a: Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling. Then demonstrate how to.",
-        "Kayaking Sub-Req 3b: Review the importance of safety equipment such as a signal device, extra paddle, sponge, bilge pump, flotation bags, and throw bag.",
-        "Core Standard 1 (Req 3): Do the following: (a) Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling.",
-        "Core Standard 2 (Req 3): Then demonstrate how to select and fit a life jacket for kayaking."
+        "Kayaking Aquatic Activity: In kayaking, as with any aquatic activity, the quality ofthe water can be a concern.",
+        "Clues Youshould Evaluate: What are some clues youshould use to evaluate the water’s safety for kayaking?.",
+        "Steer Obvious Hazards: Steer clear of obvious hazards such as tree branches inthe water.",
+        "Avoid Areas Garbage: Avoid areas with garbage, abundant foamor algae, foul smells, and areas polluted by waterfowlor livestock."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Kayaking requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Review the characteristics of life jackets most.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Kayaking Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Obey Signs Posted: Obey any signs posted by local healthdepartments.",
+        "Consult Local Paddlers: Consult local paddlers to find safe placesfor learning to kayak.",
+        "Gear Shouldbe Stowed: All gear shouldbe stowed toprevent loss andwater damage.",
+        "Identify Local Emergency: Identify local emergency resources such as EMS systems, sheriff’s departments, or ranger stations."
       ],
       "gear_checklist": [
         "Official Kayaking Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Kayaking Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Review the characteristics of life jackets",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Kayaking Approach",
-        "right_header": "Official BSA Kayaking Pamphlet Standard",
+        "right_header": "Official BSA Kayaking Standard (Review the characteristics of life jackets)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Review the characteristics of life jackets.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Kayaking Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Kayaking Workbook organizer.",
+          "Clearly demonstrates and explains Review the characteristics of life jackets using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Kayaking Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - (a) Review the characteristics of life jackets most",
-          "Primary Standard": "Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Kayaking terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Kayaking Pamphlet, pp. 16-21."
+          "Requirement & Topic": "Req 3 - Review the characteristics of life jackets",
+          "Primary Standard": "Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling. Then demonstrate how to select and fit a life jacket for kayaking.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Kayaking terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Kayaking Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Kayaking Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Kayaking Requirement 3, a Scout claims: \"Reading a short definition of (a) Review the characteristics of life jackets most is enough for Kayaking Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review the characteristics of life jackets most grounded in the official Kayaking pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review the characteristics of life jackets most grounded in the official Kayaking pamphlet.",
-        "explanation": "Per Official BSA Kayaking Pamphlet, pp. 16-21, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review the characteristics of life jackets most grounded in the official Kayaking pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Kayaking Workbook organizer table and practical demonstration for Req 3."
     },
@@ -772,10 +769,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Kayaking Requirement 4a sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -795,9 +794,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Name and point out the major parts of a kayak."
         },
         {
           "sub_id": "4b",
@@ -825,10 +827,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Kayaking Requirement 4b sign-off.",
-            "fact": "Each Scout must actively design the specific principles and real-world steps of Req 4b grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively design the specific principles and real-world steps of Req 4b grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively design the specific principles and real-world steps of Req 4b grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -848,9 +852,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how length, width, stability, and rocker are involved in the design of each type."
         },
         {
           "sub_id": "4c",
@@ -878,10 +885,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4c is enough for Kayaking Requirement 4c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -901,9 +910,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4c",
+          "sub_req_label": "4c",
+          "sub_req_text": "Explain the care, maintenance, and storage of a kayak."
         }
       ],
       "resources": [
@@ -928,13 +940,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: (a) Name and point out the major parts",
+      "topic_title": "Req 4: Name and point out the major",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Kayaking Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Kayaking Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)",
+      "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -954,8 +966,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Name and point out the major parts is enough for Kayaking Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the major parts grounded in the official Kayaking pamphlet."
+        "misconception": "Reading a short definition of Name and point out the major is enough for Kayaking Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Name and point out the major grounded in the official Kayaking pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Name and point out the major grounded in the official Kayaking pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -975,63 +989,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Kayaking Sub-Req 4a: Name and point out the major parts of a kayak.",
-        "Kayaking Sub-Req 4b: Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how length, width, stability, and rocker are involved in.",
-        "Kayaking Sub-Req 4c: Explain the care, maintenance, and storage of a kayak.",
-        "Core Standard 1 (Req 4): Do the following: (a) Name and point out the major parts of a kayak."
+        "Selecting Kayak Paddle: In selecting a kayak paddle, the most important thing toconsider is the comfort of the paddle in your hands.",
+        "Qualitypaddles Oval Shaft: Qualitypaddles have an oval shaft, which provides better control andcomfort and helps you set the correct angle.",
+        "Paddles Havestraight Shafts: Most paddles havestraight shafts, but a few designs are bent at the grip positionsto ease strain on the wrists.",
+        "Paddlesfor Recreational: Paddlesfor recreational kayaks are normally sized in centimeters, withtypical lengths between 200 and 220 centimeters."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Kayaking requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Name and point out the major parts.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Kayaking Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Given Differences General: Given these differences, a general rule of thumb for sizing akayak paddle is to hold the paddle above your head horizontally.",
+        "Elbows Degree Angles: With your elbows at 90-degree angles, your hands should be 6 to 8 inches from the throat on either end of the paddle.",
+        "Blades Kayak Paddles: The blades of kayak paddles come in various designs.",
+        "Largeblades Provide Power: Largeblades provide more power per stroke; smaller blades take lessenergy per stroke and are gentler to arm and shoulder joints."
       ],
       "gear_checklist": [
         "Official Kayaking Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Kayaking Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Name and point out the major",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Kayaking Approach",
-        "right_header": "Official BSA Kayaking Pamphlet Standard",
+        "right_header": "Official BSA Kayaking Standard (Name and point out the major)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Name and point out the major.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Kayaking Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Kayaking Workbook organizer.",
+          "Clearly demonstrates and explains Name and point out the major using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Kayaking Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - (a) Name and point out the major parts",
+          "Requirement & Topic": "Req 4 - Name and point out the major",
           "Primary Standard": "Name and point out the major parts of a kayak.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Kayaking terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Kayaking Pamphlet, pp. 22-27."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Kayaking terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Kayaking Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Kayaking Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Kayaking Requirement 4, a Scout claims: \"Reading a short definition of (a) Name and point out the major parts is enough for Kayaking Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the major parts grounded in the official Kayaking pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the major parts grounded in the official Kayaking pamphlet.",
-        "explanation": "Per Official BSA Kayaking Pamphlet, pp. 22-27, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the major parts grounded in the official Kayaking pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Kayaking Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1072,10 +1076,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Kayaking Requirement 5a sign-off.",
-            "fact": "Each Scout must actively correct the specific principles and real-world steps of Req 5a grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1095,9 +1101,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Correct methods for the use of a kayak paddle"
         },
         {
           "sub_id": "5b",
@@ -1125,10 +1134,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Kayaking Requirement 5b sign-off.",
-            "fact": "Each Scout must actively parts the specific principles and real-world steps of Req 5b grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1148,9 +1159,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Parts of a paddle"
         },
         {
           "sub_id": "5c",
@@ -1178,10 +1192,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Kayaking Requirement 5c sign-off.",
-            "fact": "Each Scout must actively the the specific principles and real-world steps of Req 5c grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1201,9 +1217,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "The care and maintenance of a paddle"
         }
       ],
       "resources": [
@@ -1232,13 +1251,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Discuss the following: (a) Correct methods for the",
+      "topic_title": "Req 5: Correct methods for the use",
       "action_verb": "Discuss",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Kayaking Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Kayaking Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)",
+      "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1255,8 +1274,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Discuss the following: (a) Correct methods for the is enough for Kayaking Requirement 5 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Discuss the following: (a) Correct methods for the grounded in the official Kayaking pamphlet."
+        "misconception": "Reading a short definition of Correct methods for the use is enough for Kayaking Requirement 5 sign-off.",
+        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Correct methods for the use grounded in the official Kayaking pamphlet.",
+        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Correct methods for the use grounded in the official Kayaking pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1276,63 +1297,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Kayaking Sub-Req 5a: Correct methods for the use of a kayak paddle",
-        "Kayaking Sub-Req 5b: Parts of a paddle",
-        "Kayaking Sub-Req 5c: The care and maintenance of a paddle",
-        "Core Standard 1 (Req 5): Discuss the following: (a) Correct methods for the use of a kayak paddle (b) Parts of a paddle (c) The care and maintenance of a paddle."
+        "Nice Thing Kayaking: One nice thing about kayaking is that the equipment you use will berelatively maintenance free.",
+        "Follow Manufacturer: Follow the manufacturer’s instructions forspecifics on the care and maintenance.",
+        "Tips Prepared Season: Following these tips will help you be better prepared from season to season.",
+        "Yourelbows Bent Degrees: When you hold a paddle, yourelbows should be bent at about 90 degrees and the knuckles of your righthand should line up with the edge ofyour right."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Kayaking requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Discuss the following: (a) Correct methods for the.",
-        "Execute & Document: Perform the discuss task methodically with your patrol buddy and log specific observations in your Kayaking Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Paddleblade Water Beplaced: When the paddleblade is put in the water, it should beplaced in a way so the boat moves inthe direction you want to go.",
+        "Ideally Energy Applied: Ideally, all the energy applied to thepaddle should make the boat go wherethe paddler wants.",
+        "Happen Anchor Few: For this to happen, it helps to anchor a few things in place.",
+        "Paddler Anchorhimself Boat: First, the paddler needs to anchorhimself in the boat."
       ],
       "gear_checklist": [
         "Official Kayaking Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Kayaking Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Correct methods for the use",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Kayaking Approach",
-        "right_header": "Official BSA Kayaking Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Kayaking Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Kayaking Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Discuss the following: (a) Correct methods for the",
-          "Primary Standard": "Correct methods for the use of a kayak paddle",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Kayaking terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Kayaking Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Correct methods for the use",
+          "Primary Standard": "Correct methods for the use of a kayak paddle.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Kayaking terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Kayaking Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Kayaking Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Kayaking Requirement 5, a Scout claims: \"Reading a short definition of Discuss the following: (a) Correct methods for the is enough for Kayaking Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss the following: (a) Correct methods for the grounded in the official Kayaking pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively discuss the specific principles and real-world steps of Discuss the following: (a) Correct methods for the grounded in the official Kayaking pamphlet.",
-        "explanation": "Per Official BSA Kayaking Pamphlet, pp. 28-33, Each Scout must actively discuss the specific principles and real-world steps of Discuss the following: (a) Correct methods for the grounded in the official Kayaking pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Kayaking Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1356,23 +1354,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Kayaking Requirement 6a sign-off.",
-            "fact": "Each Scout must actively safely the specific principles and real-world steps of Req 6a grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6a grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6a grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1392,9 +1395,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Safely capsize and perform a wet exit."
         },
         {
           "sub_id": "6b",
@@ -1434,10 +1440,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Kayaking Requirement 6b sign-off.",
-            "fact": "Each Scout must actively reenter the specific principles and real-world steps of Req 6b grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1457,9 +1465,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Reenter the kayak with assistance from a buddy boat."
         },
         {
           "sub_id": "6c",
@@ -1490,10 +1501,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Kayaking Requirement 6c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6c grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6c grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6c grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1513,9 +1526,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Demonstrate a kayak-over-kayak rescue."
         },
         {
           "sub_id": "6d",
@@ -1546,10 +1562,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Kayaking Requirement 6d sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6d grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6d grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6d grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1569,9 +1587,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "Demonstrate the HELP position."
         },
         {
           "sub_id": "6e",
@@ -1602,10 +1623,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6e is enough for Kayaking Requirement 6e sign-off.",
-            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 6e grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 6e grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 6e grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1625,9 +1648,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6e",
+          "sub_req_label": "6e",
+          "sub_req_text": "Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with assistance if needed."
         }
       ],
       "resources": [
@@ -1668,13 +1694,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Using a properly equipped kayak with an open",
-      "action_verb": "Using",
+      "topic_title": "Req 6: Using a properly equipped kayak",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Kayaking Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Kayaking Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
+      "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1694,8 +1720,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Using a properly equipped kayak with an open is enough for Kayaking Requirement 6 sign-off.",
-        "fact": "Each Scout must actively using the specific principles and real-world steps of Using a properly equipped kayak with an open grounded in the official Kayaking pamphlet."
+        "misconception": "Reading a short definition of Using a properly equipped kayak is enough for Kayaking Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Using a properly equipped kayak grounded in the official Kayaking pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Using a properly equipped kayak grounded in the official Kayaking pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1715,63 +1743,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Kayaking Sub-Req 6a: Safely capsize and perform a wet exit.",
-        "Kayaking Sub-Req 6b: Reenter the kayak with assistance from a buddy boat.",
-        "Kayaking Sub-Req 6c: Demonstrate a kayak-over-kayak rescue.",
-        "Kayaking Sub-Req 6d: Demonstrate the HELP position."
+        "Itis Thatthe Paddler: To avoid injury, itis important thatthe paddler in the water never getbetween bothkayaks duringthis rescue.",
+        "Kayak Capsized Far: If a kayak is capsized far from land or in very cold water, it maynot be possible to safely tow the boat to shore.",
+        "Practice Akayak Emptied: With practice, akayak can be emptied and then re-boarded in open water usingthe T-rescue and heel hook entry techniques.",
+        "Paddler Rescued Swims: The paddler being rescued swims to the far end of the capsizedboat."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Kayaking requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Using a properly equipped kayak with an open.",
-        "Execute & Document: Perform the using task methodically with your patrol buddy and log specific observations in your Kayaking Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Rescuer Pulls Paddlerin: Step 1, The rescuer pulls and the paddlerin the water pushes the capsized kayakacross the deck of the rescue boat so bothends are out.",
+        "Rocking Thecapsized Boat: By rocking thecapsized boat like a teeter-totter on top of therescue kayak, most of the water can bequickly drained.",
+        "Paddler Watershould Hold: The paddler in the watershould hold on to the end of the rescue boator hold on to the end of the capsized kayak.",
+        "Once Boat Empty: Step 2, Once the boat is empty, therescuer flips it away from himself andturns the kayak upright."
       ],
       "gear_checklist": [
         "Official Kayaking Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Kayaking Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Using a properly equipped kayak",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Kayaking Approach",
-        "right_header": "Official BSA Kayaking Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Kayaking Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Kayaking Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Using a properly equipped kayak with an open",
+          "Requirement & Topic": "Req 6 - Using a properly equipped kayak",
           "Primary Standard": "Safely capsize and perform a wet exit.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Kayaking terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Kayaking Pamphlet, pp. 34-39."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Kayaking terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Kayaking Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Kayaking Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Kayaking Requirement 6, a Scout claims: \"Reading a short definition of Using a properly equipped kayak with an open is enough for Kayaking Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively using the specific principles and real-world steps of Using a properly equipped kayak with an open grounded in the official Kayaking pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively using the specific principles and real-world steps of Using a properly equipped kayak with an open grounded in the official Kayaking pamphlet.",
-        "explanation": "Per Official BSA Kayaking Pamphlet, pp. 34-39, Each Scout must actively using the specific principles and real-world steps of Using a properly equipped kayak with an open grounded in the official Kayaking pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Kayaking Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1808,10 +1813,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Kayaking Requirement 7a sign-off.",
-            "fact": "Each Scout must actively forward the specific principles and real-world steps of Req 7a grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1831,9 +1838,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Forward stroke"
         },
         {
           "sub_id": "7b",
@@ -1861,10 +1871,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Kayaking Requirement 7b sign-off.",
-            "fact": "Each Scout must actively backstroke the specific principles and real-world steps of Req 7b grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1884,9 +1896,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Backstroke"
         },
         {
           "sub_id": "7c",
@@ -1914,10 +1929,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7c is enough for Kayaking Requirement 7c sign-off.",
-            "fact": "Each Scout must actively forward the specific principles and real-world steps of Req 7c grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1937,9 +1954,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7c",
+          "sub_req_label": "7c",
+          "sub_req_text": "Forward sweep"
         },
         {
           "sub_id": "7d",
@@ -1967,10 +1987,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7d is enough for Kayaking Requirement 7d sign-off.",
-            "fact": "Each Scout must actively reverse the specific principles and real-world steps of Req 7d grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1990,9 +2012,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7d",
+          "sub_req_label": "7d",
+          "sub_req_text": "Reverse sweep"
         },
         {
           "sub_id": "7e",
@@ -2020,10 +2045,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7e is enough for Kayaking Requirement 7e sign-off.",
-            "fact": "Each Scout must actively draw the specific principles and real-world steps of Req 7e grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2043,9 +2070,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7e",
+          "sub_req_label": "7e",
+          "sub_req_text": "Draw stroke"
         },
         {
           "sub_id": "7f",
@@ -2073,10 +2103,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7f is enough for Kayaking Requirement 7f sign-off.",
-            "fact": "Each Scout must actively stern the specific principles and real-world steps of Req 7f grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7f grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7f grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2096,9 +2128,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7f",
+          "sub_req_label": "7f",
+          "sub_req_text": "Stern draw"
         }
       ],
       "resources": [
@@ -2131,13 +2166,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: As a solo paddler, use a properly equipped",
-      "action_verb": "Explain",
+      "topic_title": "Req 7: As a solo paddler, use",
+      "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Kayaking Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Kayaking Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
+      "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2157,8 +2192,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of As a solo paddler, use a properly equipped is enough for Kayaking Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of As a solo paddler, use a properly equipped grounded in the official Kayaking pamphlet."
+        "misconception": "Reading a short definition of As a solo paddler, use is enough for Kayaking Requirement 7 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of As a solo paddler, use grounded in the official Kayaking pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of As a solo paddler, use grounded in the official Kayaking pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2178,63 +2215,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Kayaking Sub-Req 7a: Forward stroke",
-        "Kayaking Sub-Req 7b: Backstroke",
-        "Kayaking Sub-Req 7c: Forward sweep",
-        "Kayaking Sub-Req 7d: Reverse sweep"
+        "Once New Paddler: Once a new paddler has learned to propel a boat forward andbackward, controlling strokes must be added to achieve moredynamic maneuverability.",
+        "Svery Useful Trying: It’svery useful when trying to get next to a pier or to raft up next to anotherkayak.",
+        "Draw Done Twoways: The draw can be done twoways, a side draw (often just called adraw) or a sculling draw.",
+        "Meritbadge Side Draw: For this meritbadge, only the side draw will be used."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Kayaking requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing As a solo paddler, use a properly equipped.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Kayaking Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Draw Stroke Starts: The draw stroke starts by rotating theupper body so you are looking out to theside of the boat.",
+        "Imagineyou Eyes Shoulders: It may help to imagineyou have eyes on your shoulders, andthose eyes need to see the directionyou want to move.",
+        "Catch Position Thepaddle: For the catch position, place thepaddle in the water out away from theboat and your hips so the power face ofthe blade faces you.",
+        "Top Handhigh Shaft: Keep the top handhigh so the shaft and the blade stay fairlystraight up and down (vertical)."
       ],
       "gear_checklist": [
         "Official Kayaking Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Kayaking Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for As a solo paddler, use",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Kayaking Approach",
-        "right_header": "Official BSA Kayaking Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Kayaking Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Kayaking Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - As a solo paddler, use a properly equipped",
-          "Primary Standard": "Forward stroke",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Kayaking terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Kayaking Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - As a solo paddler, use",
+          "Primary Standard": "Forward stroke.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Kayaking terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Kayaking Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Kayaking Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Kayaking Requirement 7, a Scout claims: \"Reading a short definition of As a solo paddler, use a properly equipped is enough for Kayaking Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of As a solo paddler, use a properly equipped grounded in the official Kayaking pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of As a solo paddler, use a properly equipped grounded in the official Kayaking pamphlet.",
-        "explanation": "Per Official BSA Kayaking Pamphlet, pp. 40-45, Each Scout must actively explain the specific principles and real-world steps of As a solo paddler, use a properly equipped grounded in the official Kayaking pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Kayaking Workbook organizer table and practical demonstration for Req 7."
     },
@@ -2271,10 +2285,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Kayaking Requirement 8a sign-off.",
-            "fact": "Each Scout must actively paddle the specific principles and real-world steps of Req 8a grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2294,9 +2310,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak."
         },
         {
           "sub_id": "8b",
@@ -2324,10 +2343,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Kayaking Requirement 8b sign-off.",
-            "fact": "Each Scout must actively spin the specific principles and real-world steps of Req 8b grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2347,9 +2368,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "Spin or pivot from a stationary position 180 degrees (half circle) to the right and left within two boat lengths."
         },
         {
           "sub_id": "8c",
@@ -2377,10 +2401,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Kayaking Requirement 8c sign-off.",
-            "fact": "Each Scout must actively move the specific principles and real-world steps of Req 8c grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2400,9 +2426,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "Move abeam to the right 10 feet and to the left 10 feet."
         },
         {
           "sub_id": "8d",
@@ -2430,10 +2459,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8d is enough for Kayaking Requirement 8d sign-off.",
-            "fact": "Each Scout must actively stop the specific principles and real-world steps of Req 8d grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2453,9 +2484,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8d",
+          "sub_req_label": "8d",
+          "sub_req_text": "Stop the boat in one boat length."
         },
         {
           "sub_id": "8e",
@@ -2478,10 +2512,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8e is enough for Kayaking Requirement 8e sign-off.",
-            "fact": "Each Scout must actively while the specific principles and real-world steps of Req 8e grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8e grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8e grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2501,9 +2537,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8e",
+          "sub_req_label": "8e",
+          "sub_req_text": "While maintaining forward motion, turn the kayak 90 degrees to the right and left."
         },
         {
           "sub_id": "8f",
@@ -2531,10 +2570,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8f is enough for Kayaking Requirement 8f sign-off.",
-            "fact": "Each Scout must actively move the specific principles and real-world steps of Req 8f grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2554,9 +2595,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8f",
+          "sub_req_label": "8f",
+          "sub_req_text": "Move the kayak backward three to four boat lengths using appropriate and effective reverse strokes."
         },
         {
           "sub_id": "8g",
@@ -2579,10 +2623,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8g is enough for Kayaking Requirement 8g sign-off.",
-            "fact": "Each Scout must actively paddle the specific principles and real-world steps of Req 8g grounded in the official Kayaking pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8g grounded in the official Kayaking pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8g grounded in the official Kayaking pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2602,9 +2648,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8g",
+          "sub_req_label": "8g",
+          "sub_req_text": "Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart."
         }
       ],
       "resources": [
@@ -2637,13 +2686,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: As a solo paddler, use a properly equipped",
-      "action_verb": "Explain",
+      "topic_title": "Req 8: As a solo paddler, use",
+      "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Kayaking Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Kayaking Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Kayaking Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
+      "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2663,8 +2712,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of As a solo paddler, use a properly equipped is enough for Kayaking Requirement 8 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of As a solo paddler, use a properly equipped grounded in the official Kayaking pamphlet."
+        "misconception": "Reading a short definition of As a solo paddler, use is enough for Kayaking Requirement 8 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of As a solo paddler, use grounded in the official Kayaking pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of As a solo paddler, use grounded in the official Kayaking pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2684,68 +2735,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Kayaking Sub-Req 8a: Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak.",
-        "Kayaking Sub-Req 8b: Spin or pivot from a stationary position 180 degrees (half circle) to the right and left within two boat lengths.",
-        "Kayaking Sub-Req 8c: Move abeam to the right 10 feet and to the left 10 feet.",
-        "Kayaking Sub-Req 8d: Stop the boat in one boat length."
+        "Yourelbows Bent Degrees: When you hold a paddle, yourelbows should be bent at about 90 degrees and the knuckles of your righthand should line up with the edge ofyour right.",
+        "Paddleblade Water Beplaced: When the paddleblade is put in the water, it should beplaced in a way so the boat moves inthe direction you want to go.",
+        "Ideally Energy Applied: Ideally, all the energy applied to thepaddle should make the boat go wherethe paddler wants.",
+        "Happen Anchor Few: For this to happen, it helps to anchor a few things in place."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Kayaking requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing As a solo paddler, use a properly equipped.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Kayaking Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Paddler Anchorhimself Boat: First, the paddler needs to anchorhimself in the boat.",
+        "Outfittinghelps Does Gently: Good outfittinghelps, as does gently pushing with thefeet, legs, and buttocks during eachpaddle stroke.",
+        "Paddle Needsto Well-anchored: Second, the paddle needsto be well-anchored to the paddler.",
+        "Asolid Grip Strong: Asolid grip and a strong arm positionhelp transmit the paddle’s power fromthe water through the paddler’s bodyto the boat."
       ],
       "gear_checklist": [
         "Official Kayaking Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Kayaking Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for As a solo paddler, use",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Kayaking Approach",
-        "right_header": "Official BSA Kayaking Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Kayaking Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Kayaking Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - As a solo paddler, use a properly equipped",
-          "Primary Standard": "Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Kayaking terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Kayaking Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - As a solo paddler, use",
+          "Primary Standard": "Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Kayaking terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Kayaking Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Kayaking Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Kayaking Requirement 8, a Scout claims: \"Reading a short definition of As a solo paddler, use a properly equipped is enough for Kayaking Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of As a solo paddler, use a properly equipped grounded in the official Kayaking pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of As a solo paddler, use a properly equipped grounded in the official Kayaking pamphlet.",
-        "explanation": "Per Official BSA Kayaking Pamphlet, pp. 46-51, Each Scout must actively explain the specific principles and real-world steps of As a solo paddler, use a properly equipped grounded in the official Kayaking pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Kayaking Workbook organizer table and practical demonstration for Req 8."
     }
   ],
   "badge_slug": "kayaking",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

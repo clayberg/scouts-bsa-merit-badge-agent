@@ -146,6 +146,20 @@ def test_v21_single_counselor_bucky_and_mbc_enhancements_end_to_end(tmp_path: Pa
     assert "7.0.3.2" in (wb_json.get("html_document") or wb_json.get("workbook_html") or "")
     assert "<table" in (wb_json.get("html_document") or wb_json.get("workbook_html") or "")
 
+    wb_get_res = client.get("/api/v1/studiokit/fillable-workbook?badge_name=Auctioneering")
+    assert wb_get_res.status_code == 200
+    assert "7.0.3.2" in wb_get_res.text
+
+    wb_pdf_res = client.get("/api/v1/studiokit/fillable-workbook.pdf?badge_name=Auctioneering")
+    assert wb_pdf_res.status_code == 200
+    assert wb_pdf_res.headers["content-type"] == "application/pdf"
+    assert wb_pdf_res.content.startswith(b"%PDF-")
+
+    cpp_pdf_res = client.get("/api/v1/studiokit/class-prep-cpp.pdf?badge_name=Auctioneering")
+    assert cpp_pdf_res.status_code == 200
+    assert cpp_pdf_res.headers["content-type"] == "application/pdf"
+    assert cpp_pdf_res.content.startswith(b"%PDF-")
+
     cpp_res = client.post(
         "/api/v1/studiokit/class-prep-cpp",
         json={"badge_name": "First Aid", "schedule_format": "4-Session MBC Clinic (75 min x 4 Saturdays)"},

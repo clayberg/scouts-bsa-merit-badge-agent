@@ -50,10 +50,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Dog Care Requirement 1a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1a grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1a grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1a grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -73,9 +75,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Briefly discuss the historical origin and domestication of the dog."
         },
         {
           "sub_id": "1b",
@@ -107,10 +112,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Dog Care Requirement 1b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1b grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1b grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1b grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -130,9 +137,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Describe some common characteristics of the dogs that make up each of the seven major dog groups."
         },
         {
           "sub_id": "1c",
@@ -160,10 +170,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Dog Care Requirement 1c sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 1c grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -183,9 +195,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Tell some specific characteristics of seven breeds of dogs (one from each major group), OR give a short history of one breed."
         }
       ],
       "resources": [
@@ -218,13 +233,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: (a) Briefly discuss the historical origin and domestication",
+      "topic_title": "Req 1: Briefly discuss the historical origin",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dog Care Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Dog Care Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)",
+      "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -244,8 +259,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Briefly discuss the historical origin and domestication is enough for Dog Care Requirement 1 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Briefly discuss the historical origin and domestication grounded in the official Dog Care pamphlet."
+        "misconception": "Reading a short definition of Briefly discuss the historical origin is enough for Dog Care Requirement 1 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Briefly discuss the historical origin grounded in the official Dog Care pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Briefly discuss the historical origin grounded in the official Dog Care pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -265,62 +282,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Dog Care Sub-Req 1a: Briefly discuss the historical origin and domestication of the dog.",
-        "Dog Care Sub-Req 1b: Describe some common characteristics of the dogs that make up each of the seven major dog groups.",
-        "Dog Care Sub-Req 1c: Tell some specific characteristics of seven breeds of dogs (one from each major group), OR give a short history of one breed.",
-        "Core Standard 1 (Req 1): Do the following: (a) Briefly discuss the historical origin and domestication of the dog."
+        "Groups Breeds Within: The groups, and many of the breeds within these groups, recognized by the AKC are as follows.",
+        "Dogs Scent Track: These are dogs that “scent” and either track, point, or flush (reveal a bird’s location and cause it to fly), and retrieve gamebirds on land or in water.",
+        "Wide Range Shape: The wide range of shape, size, color, and personality ofpurebred dogs is the result of controlled breeding andselection.",
+        "Dogs Bred Hunt: Some dogs were bred to hunt, some to serve asguard or sled dogs, and some to be herders."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Dog Care requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Briefly discuss the historical origin and domestication.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Dog Care Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Late Same Time: In the late 1800s, at the same time that dog shows weregaining popularity, a system was developed for classifyingbreeds according to how they are used.",
+        "United States American: In the United States, the American Kennel Club has maintained a registry of breedssince 1884.",
+        "Recognized Groups Sporting: Recognized groups are sporting dogs, hounds, working dogs, terriers, toys, nonsporting dogs, and herdingdogs.",
+        "Within Seven Groups: Within these seven groups, the AKC recognizes 202 breeds (as of 2022, with new breeds being recognized everyyear)."
       ],
       "gear_checklist": [
         "Official Dog Care Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dog Care Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Briefly discuss the historical origin",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Dog Care Approach",
-        "right_header": "Official BSA Dog Care Pamphlet Standard",
+        "right_header": "Official BSA Dog Care Standard (Briefly discuss the historical origin)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Briefly discuss the historical origin.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Dog Care Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Dog Care Workbook organizer.",
+          "Clearly demonstrates and explains Briefly discuss the historical origin using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dog Care Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - (a) Briefly discuss the historical origin and domestication",
+          "Requirement & Topic": "Req 1 - Briefly discuss the historical origin",
           "Primary Standard": "Briefly discuss the historical origin and domestication of the dog.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dog Care terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dog Care Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dog Care terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dog Care Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dog Care Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dog Care Requirement 1, a Scout claims: \"Reading a short definition of (a) Briefly discuss the historical origin and domestication is enough for Dog Care Requirement 1 sign-off.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Dog Care (Briefly discuss the historical origin), which patrol preparation step best aligns with the official Dog Care standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Briefly discuss the historical origin and domestication grounded in the official Dog Care pamphlet.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Dog Care hazards, PPE, and prerequisite standards in Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Briefly discuss the historical origin and domestication grounded in the official Dog Care pamphlet.",
-        "explanation": "Per Official BSA Dog Care Pamphlet, pp. 4-9, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Briefly discuss the historical origin and domestication grounded in the official Dog Care pamphlet."
+        "correct_answer": "Option A - Review the Dog Care hazards, PPE, and prerequisite standards in Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dog Care Workbook organizer table and practical demonstration for Req 1."
@@ -346,13 +363,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Point out on a dog or a sketch",
-      "action_verb": "Point",
+      "topic_title": "Req 2: Point out on a dog",
+      "action_verb": "Name",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dog Care Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Dog Care Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 27, p. 46)",
+      "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 27, p. 46)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -369,8 +386,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Point out on a dog or a sketch is enough for Dog Care Requirement 2 sign-off.",
-        "fact": "Each Scout must actively point the specific principles and real-world steps of Point out on a dog or a sketch grounded in the official Dog Care pamphlet."
+        "misconception": "Reading a short definition of Point out on a dog is enough for Dog Care Requirement 2 sign-off.",
+        "fact": "Each Scout must actively name the specific principles and real-world steps of Point out on a dog grounded in the official Dog Care pamphlet.",
+        "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Point out on a dog grounded in the official Dog Care pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 27, p. 46)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -390,63 +409,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 2): Point out on a dog or a sketch at least 10 body parts.",
-        "Core Standard 2 (Req 2): Give the correct name of each one.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Dog Care Req 2 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Dog Care Workbook before requesting Requirement 2 sign-off."
+        "Getting Dog Mark: Getting to Know Your Dog. will mark their A puppy is considered mature at its first birthday, but itmight take longer than a year for it to reach full size.",
+        "Itspersonality Continue: And itspersonality might continue to be puppylike for much longer.",
+        "Small Medium-sized Dogs: Small and medium-sized dogs live about 15 years; a largedog might live only nine to 12 years.",
+        "Body Partsdiffers Among: Each of these body partsdiffers among breeds as do other features such as the dog’ssize and its hair color."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Dog Care requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Point out on a dog or a sketch.",
-        "Execute & Document: Perform the point task methodically with your patrol buddy and log specific observations in your Dog Care Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Male Dogs Areparticularly: Male dogs areparticularly territorial and the scent fromtheir anal glands.",
+        "Variety Head Shape: A variety in head shape and size is one reason dogs look sodifferent from each other.",
+        "Skull Wide Flat: The skull can be wide and flat, like a bulldog’s, or narrow and long, like a collie’s.",
+        "Breedshave Skulls Shaped: Many breedshave skulls shaped somewhere in between."
       ],
       "gear_checklist": [
         "Official Dog Care Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dog Care Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Point out on a dog",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dog Care Approach",
-        "right_header": "Official BSA Dog Care Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Dog Care Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dog Care Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Point out on a dog or a sketch",
+          "Requirement & Topic": "Req 2 - Point out on a dog",
           "Primary Standard": "Point out on a dog or a sketch at least 10 body parts. Give the correct name of each one.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dog Care terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dog Care Pamphlet, pp. 10-15."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dog Care terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dog Care Merit Badge Pamphlet (p. 27, p. 46) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dog Care Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dog Care Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dog Care Requirement 2, a Scout claims: \"Reading a short definition of Point out on a dog or a sketch is enough for Dog Care Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively point the specific principles and real-world steps of Point out on a dog or a sketch grounded in the official Dog Care pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively point the specific principles and real-world steps of Point out on a dog or a sketch grounded in the official Dog Care pamphlet.",
-        "explanation": "Per Official BSA Dog Care Pamphlet, pp. 10-15, Each Scout must actively point the specific principles and real-world steps of Point out on a dog or a sketch grounded in the official Dog Care pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dog Care Workbook organizer table and practical demonstration for Req 2."
     },
@@ -483,10 +479,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Dog Care Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -506,9 +504,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Explain the importance of house-training, obedience training, and socialization training for your dog."
         },
         {
           "sub_id": "3b",
@@ -536,10 +537,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Dog Care Requirement 3b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -559,9 +562,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Explain what \"responsible pet ownership\" means."
         },
         {
           "sub_id": "3c",
@@ -593,10 +599,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3c is enough for Dog Care Requirement 3c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -616,9 +624,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3c",
+          "sub_req_label": "3c",
+          "sub_req_text": "Explain what issues (including temperament) must be considered when deciding on what breed of dog to get as a family pet."
         }
       ],
       "resources": [
@@ -647,13 +658,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: (a) Explain the importance of house-training, obedience training",
+      "topic_title": "Req 3: The importance of house-training, obedience training",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dog Care Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Dog Care Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)",
+      "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -673,8 +684,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Explain the importance of house-training, obedience training is enough for Dog Care Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the importance of house-training, obedience training grounded in the official Dog Care pamphlet."
+        "misconception": "Reading a short definition of The importance of house-training, obedience training is enough for Dog Care Requirement 3 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The importance of house-training, obedience training grounded in the official Dog Care pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The importance of house-training, obedience training grounded in the official Dog Care pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -694,63 +707,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Dog Care Sub-Req 3a: Explain the importance of house-training, obedience training, and socialization training for your dog.",
-        "Dog Care Sub-Req 3b: Explain what \"responsible pet ownership\" means.",
-        "Dog Care Sub-Req 3c: Explain what issues (including temperament) must be considered when deciding on what breed of dog to get as a family pet.",
-        "Core Standard 1 (Req 3): Do the following: (a) Explain the importance of house-training, obedience training, and socialization training for your dog."
+        "Performing Circus Rounding: From performing in the circus to rounding up herds ofsheep, dogs of all ages can be trained to do a variety oftasks.",
+        "Dogs Receive Special: Some dogs receive special training to help peoplewho are deaf.",
+        "Law Enforcement Agencies: Law enforcement agencies might rely ondogs to find smuggled currency.",
+        "Dogs Trainedto Aid: And dogs can be trainedto aid police with the apprehension of criminals."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Dog Care requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain the importance of house-training, obedience training.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Dog Care Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Dog Probably Won: Your dog probably won’t learn such complicatedbehaviors as those described above, but your training goalis very important: to help your dog live.",
+        "Means Dog Fit: This means that your dog will fit in with you, yourfamily’s activities, and society.",
+        "Training Dog House-training: The first step in training your dog is house-training, or gettingyour dog to urinate and defecate outside.",
+        "Puppies Generally Bathroom: Puppies generally need to go to the bathroom after theyeat, when they wake up from a nap, and after playing hard."
       ],
       "gear_checklist": [
         "Official Dog Care Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dog Care Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The importance of house-training, obedience training",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Dog Care Approach",
-        "right_header": "Official BSA Dog Care Pamphlet Standard",
+        "right_header": "Official BSA Dog Care Standard (The importance of house-training, obedience training)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during The importance of house-training, obedience training.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Dog Care Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Dog Care Workbook organizer.",
+          "Clearly demonstrates and explains The importance of house-training, obedience training using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dog Care Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - (a) Explain the importance of house-training, obedience training",
+          "Requirement & Topic": "Req 3 - The importance of house-training, obedience training",
           "Primary Standard": "Explain the importance of house-training, obedience training, and socialization training for your dog.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dog Care terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dog Care Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dog Care terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dog Care Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dog Care Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dog Care Requirement 3, a Scout claims: \"Reading a short definition of (a) Explain the importance of house-training, obedience training is enough for Dog Care Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the importance of house-training, obedience training grounded in the official Dog Care pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the importance of house-training, obedience training grounded in the official Dog Care pamphlet.",
-        "explanation": "Per Official BSA Dog Care Pamphlet, pp. 16-21, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the importance of house-training, obedience training grounded in the official Dog Care pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dog Care Workbook organizer table and practical demonstration for Req 3."
     },
@@ -775,13 +778,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: For two months, keep and care for your",
-      "action_verb": "For",
+      "topic_title": "Req 4: For two months, keep and care",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dog Care Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Dog Care Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 43, p. 54)",
+      "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 43, p. 54)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -802,8 +805,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of For two months, keep and care for your is enough for Dog Care Requirement 4 sign-off.",
-        "fact": "Each Scout must actively for the specific principles and real-world steps of For two months, keep and care for your grounded in the official Dog Care pamphlet."
+        "misconception": "Reading a short definition of For two months, keep and care is enough for Dog Care Requirement 4 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of For two months, keep and care grounded in the official Dog Care pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of For two months, keep and care grounded in the official Dog Care pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 43, p. 54)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -823,63 +828,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 4): For two months, keep and care for your dog.",
-        "Core Standard 2 (Req 4): Maintain a log of your activities during this period that includes these items: feeding schedule, types of food used, amount fed, exercise periods, training schedule, a weekly body weight record, grooming and bathing schedules, veterinary care, if necessary, and costs.",
-        "Core Standard 3 (Req 4): Also include a brief description of the type of housing/shelter arrangements you have for your dog.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Dog Care Workbook before requesting Requirement 4 sign-off."
+        "Feeding Canned Food: Feeding canned food to your puppy may be necessary atfirst because of the lack of tooth development.",
+        "However Tosoak Dry: However, try tosoak dry food in water to soften it and feed it to your dog assoon as possible.",
+        "Canned Foods Flavorful: Canned foods are more flavorful, but they aremostly water.",
+        "Pound Pound They: Pound for pound, they do not provide as muchnutrition for a puppy as dry kibble."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Dog Care requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing For two months, keep and care for your.",
-        "Execute & Document: Perform the for task methodically with your patrol buddy and log specific observations in your Dog Care Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Keepplenty Fresh Dog: Be sure to keepplenty of fresh, When your dog reaches bone growth maturity (whichvaries with each breed), it’s time to switch to an “adultdog” diet.",
+        "Adjust Amount Food: Adjust the amount of food you give itbased on its weight and breed.",
+        "Reduce Numberof Meals: Reduce the numberof meals from three times a day to two times.",
+        "Youcontinue Feed Pet: If youcontinue to feed your pet three meals a day, or keepthe dog food bowl filled during the day, your dogmay become obese."
       ],
       "gear_checklist": [
         "Official Dog Care Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dog Care Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for For two months, keep and care",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dog Care Approach",
-        "right_header": "Official BSA Dog Care Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Dog Care Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dog Care Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - For two months, keep and care for your",
-          "Primary Standard": "For two months, keep and care for your dog. Maintain a log of your activities during this period that includes",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dog Care terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dog Care Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - For two months, keep and care",
+          "Primary Standard": "For two months, keep and care for your dog.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dog Care terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dog Care Merit Badge Pamphlet (p. 43, p. 54) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dog Care Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dog Care Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dog Care Requirement 4, a Scout claims: \"Reading a short definition of For two months, keep and care for your is enough for Dog Care Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively for the specific principles and real-world steps of For two months, keep and care for your grounded in the official Dog Care pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively for the specific principles and real-world steps of For two months, keep and care for your grounded in the official Dog Care pamphlet.",
-        "explanation": "Per Official BSA Dog Care Pamphlet, pp. 22-27, Each Scout must actively for the specific principles and real-world steps of For two months, keep and care for your grounded in the official Dog Care pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dog Care Workbook organizer table and practical demonstration for Req 4."
     },
@@ -899,13 +881,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Explain the correct way to obedience train a",
+      "topic_title": "Req 5: The correct way to obedience train",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dog Care Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Dog Care Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 37, p. 41)",
+      "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 37, p. 41)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -922,8 +904,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Explain the correct way to obedience train a is enough for Dog Care Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain the correct way to obedience train a grounded in the official Dog Care pamphlet."
+        "misconception": "Reading a short definition of The correct way to obedience train is enough for Dog Care Requirement 5 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of The correct way to obedience train grounded in the official Dog Care pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The correct way to obedience train grounded in the official Dog Care pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 37, p. 41)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -943,63 +927,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 5): Explain the correct way to obedience train a dog and what equipment you would need.",
-        "Core Standard 2 (Req 5): Show with your dog any three of these commands: \"come,\" \"sit,\" \"down,\" \"heel,\" \"stay,\" \"fetch,\" \"get it,\" and \"drop it.\" Resources: 10 Most Basic Commands Every Dog Owner Should Know (video) How To Teach Your Dog the Basics (video).",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Dog Care Req 5 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Dog Care Workbook before requesting Requirement 5 sign-off."
+        "Dog Leash End: After the dog is used to the leash, take up your end of it andwalk around with your pet, applying little or no pressure.",
+        "Gradually Short Period: Gradually, over a short period, increase your control until yourdog is completely comfortable being on the leash.",
+        "Multiple Short Periods: Multiple, short periods of training are most effective.",
+        "Orfive Sessions Day: Four orfive sessions a day, five to 10 minutes each, works well for puppies."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Dog Care requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain the correct way to obedience train a.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Dog Care Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Older Dogs Tolerate: Older dogs can tolerate sessions of up to 20 minutes long.",
+        "American Kennel Club: The American Kennel Club’s Canine Good Citizen® certification programrewards dogs that have good manners at home and in the community.",
+        "Theprogram Stresses: Theprogram stresses responsible pet ownership and basic good manners for dogs.",
+        "It's Dog Basic: It's important for every dog to know these five basic commands."
       ],
       "gear_checklist": [
         "Official Dog Care Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dog Care Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The correct way to obedience train",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dog Care Approach",
-        "right_header": "Official BSA Dog Care Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Dog Care Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dog Care Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Explain the correct way to obedience train a",
-          "Primary Standard": "Explain the correct way to obedience train a dog and what equipment you would need. Show with your dog any thr",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dog Care terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dog Care Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - The correct way to obedience train",
+          "Primary Standard": "Explain the correct way to obedience train a dog and what equipment you would need.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dog Care terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dog Care Merit Badge Pamphlet (p. 37, p. 41) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dog Care Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dog Care Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dog Care Requirement 5, a Scout claims: \"Reading a short definition of Explain the correct way to obedience train a is enough for Dog Care Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the correct way to obedience train a grounded in the official Dog Care pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the correct way to obedience train a grounded in the official Dog Care pamphlet.",
-        "explanation": "Per Official BSA Dog Care Pamphlet, pp. 28-33, Each Scout must actively explain the specific principles and real-world steps of Explain the correct way to obedience train a grounded in the official Dog Care pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dog Care Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1036,10 +997,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Dog Care Requirement 6a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6a grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6a grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6a grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1059,9 +1022,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Discuss the proper vaccination schedule for a dog in your area from puppyhood through adulthood."
         },
         {
           "sub_id": "6b",
@@ -1089,10 +1055,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Dog Care Requirement 6b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6b grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6b grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6b grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1112,9 +1080,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Discuss the control methods for preventing fleas, ticks, heartworms, and intestinal parasites (worms) for a dog in your area from puppyhood through adulthood."
         },
         {
           "sub_id": "6c",
@@ -1142,10 +1113,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Dog Care Requirement 6c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1165,9 +1138,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Explain the importance of dental care and tooth brushing to your pet's health."
         },
         {
           "sub_id": "6d",
@@ -1195,10 +1171,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Dog Care Requirement 6d sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6d grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6d grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6d grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1218,9 +1196,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "Discuss the benefits of grooming your dog's coat and nails on a regular basis."
         },
         {
           "sub_id": "6e",
@@ -1252,10 +1233,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6e is enough for Dog Care Requirement 6e sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6e grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6e grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6e grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1275,9 +1258,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6e",
+          "sub_req_label": "6e",
+          "sub_req_text": "Discuss with your counselor any seasonal conditions (like hot summers, cold winters, or extreme humidity) where you live that need to be considered for your dog."
         },
         {
           "sub_id": "6f",
@@ -1309,10 +1295,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6f is enough for Dog Care Requirement 6f sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6f grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6f grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6f grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1332,9 +1320,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6f",
+          "sub_req_label": "6f",
+          "sub_req_text": "Discuss with your counselor the considerations and advantages of spaying or neutering your dog."
         }
       ],
       "resources": [
@@ -1379,13 +1370,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: (a) Discuss the proper vaccination schedule for a",
+      "topic_title": "Req 6: The proper vaccination schedule",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dog Care Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Dog Care Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)",
+      "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1405,8 +1396,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Discuss the proper vaccination schedule for a is enough for Dog Care Requirement 6 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss the proper vaccination schedule for a grounded in the official Dog Care pamphlet."
+        "misconception": "Reading a short definition of The proper vaccination schedule is enough for Dog Care Requirement 6 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The proper vaccination schedule grounded in the official Dog Care pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The proper vaccination schedule grounded in the official Dog Care pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1426,63 +1419,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Dog Care Sub-Req 6a: Discuss the proper vaccination schedule for a dog in your area from puppyhood through adulthood.",
-        "Dog Care Sub-Req 6b: Discuss the control methods for preventing fleas, ticks, heartworms, and intestinal parasites (worms) for a dog in your area from puppyhood through adulthood.",
-        "Dog Care Sub-Req 6c: Explain the importance of dental care and tooth brushing to your pet's health.",
-        "Dog Care Sub-Req 6d: Discuss the benefits of grooming your dog's coat and nails on a regular basis."
+        "Probably Dog Sick: You probably will know when your dog is sick because ofchanges in its behavior.",
+        "Active Dog Listless: Your active dog might be listless oryour relaxed one restless.",
+        "Dog Stop Eating: Your dog might stop eating or start drinking a lotmore water than usual.",
+        "Bowel Movements Feces: Bowel movements and feces might become irregular."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Dog Care requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Discuss the proper vaccination schedule for a.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Dog Care Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Closer: If you think your dog is sick, take a closer look.",
+        "Check Dog Pulse: You can a check a dog’s pulse on theinside of the hind leg, high on the inner thigh near where theleg meets the belly.",
+        "Normal Pulse Rates: Normal pulse rates vary among differenttypes of dogs.",
+        "Smaller Breeds Toy: Smaller breeds and toy breeds can have heartrates that exceed 120 beats per minute."
       ],
       "gear_checklist": [
         "Official Dog Care Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dog Care Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The proper vaccination schedule",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dog Care Approach",
-        "right_header": "Official BSA Dog Care Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Dog Care Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dog Care Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - (a) Discuss the proper vaccination schedule for a",
+          "Requirement & Topic": "Req 6 - The proper vaccination schedule",
           "Primary Standard": "Discuss the proper vaccination schedule for a dog in your area from puppyhood through adulthood.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dog Care terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dog Care Pamphlet, pp. 34-39."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dog Care terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dog Care Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dog Care Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dog Care Requirement 6, a Scout claims: \"Reading a short definition of (a) Discuss the proper vaccination schedule for a is enough for Dog Care Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss the proper vaccination schedule for a grounded in the official Dog Care pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss the proper vaccination schedule for a grounded in the official Dog Care pamphlet.",
-        "explanation": "Per Official BSA Dog Care Pamphlet, pp. 34-39, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Discuss the proper vaccination schedule for a grounded in the official Dog Care pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dog Care Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1519,10 +1489,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Dog Care Requirement 7a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1542,9 +1514,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Explain precautions to take in handling a hurt dog."
         },
         {
           "sub_id": "7b",
@@ -1575,10 +1550,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Dog Care Requirement 7b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7b grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1598,9 +1575,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Show how to put on an emergency muzzle."
         },
         {
           "sub_id": "7c",
@@ -1628,10 +1608,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7c is enough for Dog Care Requirement 7c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1651,9 +1633,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7c",
+          "sub_req_label": "7c",
+          "sub_req_text": "Explain how to treat wounds. Explain first aid for a dog bite."
         },
         {
           "sub_id": "7d",
@@ -1684,10 +1669,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7d is enough for Dog Care Requirement 7d sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7d grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7d grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7d grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1707,9 +1694,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7d",
+          "sub_req_label": "7d",
+          "sub_req_text": "Show how to put on a simple dressing and bandage the foot, body, or head of your dog."
         },
         {
           "sub_id": "7e",
@@ -1737,10 +1727,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7e is enough for Dog Care Requirement 7e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1760,9 +1752,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7e",
+          "sub_req_label": "7e",
+          "sub_req_text": "Explain what to do if a dog is hit by a car."
         },
         {
           "sub_id": "7f",
@@ -1794,10 +1789,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7f is enough for Dog Care Requirement 7f sign-off.",
-            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 7f grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 7f grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 7f grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1817,9 +1814,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7f",
+          "sub_req_label": "7f",
+          "sub_req_text": "List the things needed in every dog owner's first-aid kit."
         },
         {
           "sub_id": "7g",
@@ -1851,10 +1851,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7g is enough for Dog Care Requirement 7g sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 7g grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7g grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7g grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1874,9 +1876,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7g",
+          "sub_req_label": "7g",
+          "sub_req_text": "Tell the dangers of home treatment of a serious ailment."
         },
         {
           "sub_id": "7h",
@@ -1912,10 +1917,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7h is enough for Dog Care Requirement 7h sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7h grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7h grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7h grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1935,9 +1942,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7h",
+          "sub_req_label": "7h",
+          "sub_req_text": "Briefly discuss the cause and method of spread, the signs and symptoms and the methods of prevention of rabies, parvovirus, distemper, and heartworms in dogs."
         }
       ],
       "resources": [
@@ -1998,13 +2008,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: (a) Explain precautions to take in handling a",
+      "topic_title": "Req 7: Precautions to take in handling",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dog Care Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Dog Care Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)",
+      "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2024,8 +2034,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Explain precautions to take in handling a is enough for Dog Care Requirement 7 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain precautions to take in handling a grounded in the official Dog Care pamphlet."
+        "misconception": "Reading a short definition of Precautions to take in handling is enough for Dog Care Requirement 7 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Precautions to take in handling grounded in the official Dog Care pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Precautions to take in handling grounded in the official Dog Care pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2045,63 +2057,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Dog Care Sub-Req 7a: Explain precautions to take in handling a hurt dog.",
-        "Dog Care Sub-Req 7b: Show how to put on an emergency muzzle.",
-        "Dog Care Sub-Req 7c: Explain how to treat wounds. Explain first aid for a dog bite.",
-        "Dog Care Sub-Req 7d: Show how to put on a simple dressing and bandage the foot, body, or head of your dog."
+        "Dog Healthy Heartwormsociety: Keeping Your Dog Healthy. heartwormsociety.org Heartworm disease can affect dogs in every state.",
+        "Dogs Intestinal Parasites: In adult dogs most intestinal parasites are picked up fromthe stool of an infected dog (except tapeworms, which arespread by fleas).",
+        "Easily Happen Dogsare: Because this can easily happen when dogsare sniffing around outside, adult dogs should also have a stoolcheck a couple of times a year to screen.",
+        "Remember Internal Parasites: Remember, most internal parasites are not visible to the nakedeye, so don’t assume they are not a problem just because youdon’t see them."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Dog Care requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain precautions to take in handling a.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Dog Care Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Dogs Heartworms Bite: Dogs can get heartworms through the bite of a mosquitothat carries the parasite.",
+        "Dog Infected Longtime: A dog might be infected for a longtime before you know about it because it takes awhile forthe worms to cause damage to the dog’s heart.",
+        "Symptoms Ofheartworms: Symptoms ofheartworms could include sluggishness and coughing.",
+        "Thesecan Progress Heart: Thesecan progress to heart failure, which can cause death."
       ],
       "gear_checklist": [
         "Official Dog Care Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dog Care Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Precautions to take in handling",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dog Care Approach",
-        "right_header": "Official BSA Dog Care Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Dog Care Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dog Care Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - (a) Explain precautions to take in handling a",
+          "Requirement & Topic": "Req 7 - Precautions to take in handling",
           "Primary Standard": "Explain precautions to take in handling a hurt dog.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dog Care terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dog Care Pamphlet, pp. 40-45."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dog Care terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dog Care Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dog Care Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dog Care Requirement 7, a Scout claims: \"Reading a short definition of (a) Explain precautions to take in handling a is enough for Dog Care Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain precautions to take in handling a grounded in the official Dog Care pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain precautions to take in handling a grounded in the official Dog Care pamphlet.",
-        "explanation": "Per Official BSA Dog Care Pamphlet, pp. 40-45, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain precautions to take in handling a grounded in the official Dog Care pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Dog Care Workbook organizer table and practical demonstration for Req 7."
     },
@@ -2130,13 +2119,13 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Visit a veterinary hospital or an animal shelter",
+      "topic_title": "Req 8: Visit a veterinary hospital",
       "action_verb": "Visit",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dog Care Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Dog Care Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 9, p. 37)",
+      "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 9, p. 37)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2153,8 +2142,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Visit a veterinary hospital or an animal shelter is enough for Dog Care Requirement 8 sign-off.",
-        "fact": "Each Scout must actively visit the specific principles and real-world steps of Visit a veterinary hospital or an animal shelter grounded in the official Dog Care pamphlet."
+        "misconception": "Reading a short definition of Visit a veterinary hospital is enough for Dog Care Requirement 8 sign-off.",
+        "fact": "Each Scout must actively visit the specific principles and real-world steps of Visit a veterinary hospital grounded in the official Dog Care pamphlet.",
+        "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Visit a veterinary hospital grounded in the official Dog Care pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 9, p. 37)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2174,63 +2165,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 8): Visit a veterinary hospital or an animal shelter and give a report about your visit to your counselor.",
-        "Field Verification Standard: Apply Dog Care Requirement 8 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Dog Care Req 8 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Dog Care Workbook before requesting Requirement 8 sign-off."
+        "Origin Dogs Traced: The origin of dogs can be traced to an animal called Miacis, which looked more like a weasel than a dog.",
+        "Thissmall Flesh-eating: Thissmall, flesh-eating creature had short legs, a long tail, five toes, and teeth like those of today’s carnivores.",
+        "Next Importantancestor: The next importantancestor, called Cynodictis was the first to have doglikecharacteristics, such as a shortened fifth toe, 42 teeth, andlonger legs.",
+        "Then Came Descendent: Then came a descendent of Cynodictis, called Tomarctus, which resembled today’s dogs even more."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Dog Care requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Visit a veterinary hospital or an animal shelter.",
-        "Execute & Document: Perform the visit task methodically with your patrol buddy and log specific observations in your Dog Care Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Animal Short Erect: This animal had short, erect ears, long legs and tail, and adewclaw that had developed from the shortened fifth toe.",
+        "Tomarctus Probably Behaved: Also, Tomarctus probably behaved much like today’s dogs do.",
+        "Breeds Dogs Wolves: All breeds of dogs and wolves evolved from Tomarctus.",
+        "Scientists Group Them: Scientists group them in a family called Canidae."
       ],
       "gear_checklist": [
         "Official Dog Care Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dog Care Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Visit a veterinary hospital",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dog Care Approach",
-        "right_header": "Official BSA Dog Care Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Dog Care Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dog Care Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - Visit a veterinary hospital or an animal shelter",
+          "Requirement & Topic": "Req 8 - Visit a veterinary hospital",
           "Primary Standard": "Visit a veterinary hospital or an animal shelter and give a report about your visit to your counselor.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dog Care terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dog Care Pamphlet, pp. 46-51."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dog Care terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dog Care Merit Badge Pamphlet (p. 9, p. 37) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dog Care Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dog Care Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dog Care Requirement 8, a Scout claims: \"Reading a short definition of Visit a veterinary hospital or an animal shelter is enough for Dog Care Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively visit the specific principles and real-world steps of Visit a veterinary hospital or an animal shelter grounded in the official Dog Care pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively visit the specific principles and real-world steps of Visit a veterinary hospital or an animal shelter grounded in the official Dog Care pamphlet.",
-        "explanation": "Per Official BSA Dog Care Pamphlet, pp. 46-51, Each Scout must actively visit the specific principles and real-world steps of Visit a veterinary hospital or an animal shelter grounded in the official Dog Care pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dog Care Workbook organizer table and practical demonstration for Req 8."
     },
@@ -2255,13 +2223,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Know the laws and ordinances involving dogs that",
-      "action_verb": "Know",
+      "topic_title": "Req 9: Know the laws and ordinances involving",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dog Care Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Dog Care Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34)",
+      "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2278,8 +2246,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Know the laws and ordinances involving dogs that is enough for Dog Care Requirement 9 sign-off.",
-        "fact": "Each Scout must actively know the specific principles and real-world steps of Know the laws and ordinances involving dogs that grounded in the official Dog Care pamphlet."
+        "misconception": "Reading a short definition of Know the laws and ordinances involving is enough for Dog Care Requirement 9 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Know the laws and ordinances involving grounded in the official Dog Care pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Know the laws and ordinances involving grounded in the official Dog Care pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2299,63 +2269,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 9): Know the laws and ordinances involving dogs that are in force in your community.",
-        "Field Verification Standard: Apply Dog Care Requirement 9 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Dog Care Req 9 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Dog Care Workbook before requesting Requirement 9 sign-off."
+        "However Fifth Toe: However, a fifth toe, or dewclaw, is often found on the insideleg above the paw on the forearms, hind legs, orboth.",
+        "Dewclaw Left Dog: The dewclaw is left over from the dog’s earlydays and has no use today.",
+        "Dog Legs Paws: Dog legs and paws are built for seeking and stalking prey.",
+        "Muscles Fore- Hindquarters: Muscles of the fore- and hindquarters give endurance, andbone length promotes movement."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Dog Care requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Know the laws and ordinances involving dogs that.",
-        "Execute & Document: Perform the know task methodically with your patrol buddy and log specific observations in your Dog Care Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Pads Bottom Ofthe: The pads on the bottom ofthe paws cushion the impact of running and muffle noise.",
+        "Tail Length Determinedby: Tail length is determinedby the number of tailbones a dog has.",
+        "Shape Taildepends Tail: The shape of the taildepends on the tail length and the breed.",
+        "Dalmation Whip Tail: The Dalmation has a whip tail, it sticks out straightlike an arrow."
       ],
       "gear_checklist": [
         "Official Dog Care Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dog Care Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Know the laws and ordinances involving",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dog Care Approach",
-        "right_header": "Official BSA Dog Care Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Dog Care Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dog Care Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Know the laws and ordinances involving dogs that",
+          "Requirement & Topic": "Req 9 - Know the laws and ordinances involving",
           "Primary Standard": "Know the laws and ordinances involving dogs that are in force in your community.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dog Care terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dog Care Pamphlet, pp. 52-57."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dog Care terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dog Care Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dog Care Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dog Care Requirement 9, a Scout claims: \"Reading a short definition of Know the laws and ordinances involving dogs that is enough for Dog Care Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively know the specific principles and real-world steps of Know the laws and ordinances involving dogs that grounded in the official Dog Care pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively know the specific principles and real-world steps of Know the laws and ordinances involving dogs that grounded in the official Dog Care pamphlet.",
-        "explanation": "Per Official BSA Dog Care Pamphlet, pp. 52-57, Each Scout must actively know the specific principles and real-world steps of Know the laws and ordinances involving dogs that grounded in the official Dog Care pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dog Care Workbook organizer table and practical demonstration for Req 9."
     },
@@ -2404,10 +2351,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a web search satisfies the Dog Care career exploration requirement.",
-            "fact": "Scouts must research three Dog Care careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+            "misconception": "Listing three job titles from a quick web search satisfies the Dog Care career exploration requirement.",
+            "fact": "Scouts must research specific Dog Care career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "fact_correction": "Scouts must research specific Dog Care career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2427,9 +2376,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10a",
+          "sub_req_label": "10a",
+          "sub_req_text": "Identify three career opportunities that would use skills and knowledge in working with dogs. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career."
         },
         {
           "sub_id": "10b",
@@ -2465,10 +2417,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10b is enough for Dog Care Requirement 10b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 10b grounded in the official Dog Care pamphlet."
+            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 10b grounded in the official Dog Care pamphlet.",
+            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 10b grounded in the official Dog Care pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2488,9 +2442,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10b",
+          "sub_req_label": "10b",
+          "sub_req_text": "Identify how you might use the skills and knowledge in working with dogs to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this."
         }
       ],
       "resources": [
@@ -2531,13 +2488,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 10: Dog Care Careers, Training & Hobby Pathways",
+      "topic_title": "Req 10: Careers & Professional Pathways",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Dog Care Requirement 10 activities.",
-      "pamphlet_citation": "Official BSA Dog Care Pamphlet, pp. 58-63",
-      "pamphlet_page_citation": "Official BSA Dog Care Pamphlet, pp. 58-63",
+      "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)",
+      "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2554,8 +2511,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Dog Care career exploration requirement.",
-        "fact": "Scouts must research three Dog Care careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Dog Care career exploration requirement.",
+        "fact": "Scouts must research specific Dog Care career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Dog Care career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2575,68 +2534,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Dog Care Sub-Req 10a: Identify three career opportunities that would use skills and knowledge in working with dogs. Pick one and research the training, education, certification requirements, experience.",
-        "Dog Care Sub-Req 10b: Identify how you might use the skills and knowledge in working with dogs to pursue a personal hobby and/or healthy lifestyle. Research the additional.",
-        "Core Standard 1 (Req 10): Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in working with dogs.",
-        "Core Standard 2 (Req 10): Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field."
+        "Job Dog There: For every job a dog has, there is ajob for a person.",
+        "Training Basis Interrelated: Training is the basis of these interrelated dogand human careers.",
+        "Dog Owner Trainer: As a dog owner, you can be the trainer and the handler.",
+        "Depending Want Dog: Depending on what you want your dog to do, youmay hire someone to take charge of your dog."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 10): Review the official Dog Care requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Dog Care Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Dog Care Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Professional Dog Trainers: Professional dog trainers train dogs to respond tocommands and instruct people to train and handle their dogs.",
+        "Trainer Loves Owns: A trainer loves and owns dogs and has lots of experienceteaching them.",
+        "Trainer Patient Theability: A trainer should be very patient and have theability to communicate with dogs and with their owners orhandlers.",
+        "Formal Educationis Necessary: No formal educationis necessary to learn how to train."
       ],
       "gear_checklist": [
         "Official Dog Care Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 10)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Dog Care Req 10",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Dog Care Approach",
-        "right_header": "Official BSA Dog Care Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 10.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 10.",
-          "Records concrete measurements, examples, and citations from Official BSA Dog Care Pamphlet, pp. 58-63.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Dog Care Req 10",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 10 - Dog Care Careers, Training & Hobby Pathways",
-          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in working with dogs. Pick one and res",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Dog Care terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Dog Care Pamphlet, pp. 58-63."
+          "Requirement & Topic": "Req 10 - Careers & Professional Pathways",
+          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in working with dogs.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Dog Care terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Dog Care Req 10 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Dog Care Req 10 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Dog Care Requirement 10, a Scout claims: \"Listing three job titles from a web search satisfies the Dog Care career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Dog Care careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 10 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Dog Care careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Dog Care Pamphlet, pp. 58-63, Scouts must research three Dog Care careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Dog Care Workbook organizer table and practical demonstration for Req 10."
     }
   ],
   "badge_slug": "dog-care",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

@@ -59,10 +59,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
             "misconception": "Scouts can jump straight into Canoeing hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries."
+            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)"
           },
           "starting_requirement_gate": {
             "gate_type": "HARD_PREREQ_BADGE",
@@ -87,9 +89,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Review with your counselor the most likely hazards you may encounter while participating in canoeing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
         },
         {
           "sub_id": "1b",
@@ -145,10 +150,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Canoeing Requirement 1b sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 1b grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -168,9 +175,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while canoeing: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, and strains."
         },
         {
           "sub_id": "1c",
@@ -198,10 +208,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Canoeing Requirement 1c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -221,9 +233,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Discuss the Scouting America Safety Afloat policy. Tell how it applies to canoeing activities."
         }
       ],
       "resources": [
@@ -288,13 +303,13 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: Canoeing Hazards, PPE & First Aid Response",
+      "topic_title": "Req 1: Hazards, First Aid & Safety",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Canoeing Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Canoeing Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
+      "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
@@ -314,7 +329,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Canoeing hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)"
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -339,62 +356,61 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Canoeing Sub-Req 1a: Review with your counselor the most likely hazards you may encounter while participating in canoeing activities and what you should do to anticipate, help.",
-        "Canoeing Sub-Req 1b: Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while canoeing: blisters, cold-water shock and hypothermia, dehydration, heat-related.",
-        "Canoeing Sub-Req 1c: Discuss the Scouting America Safety Afloat policy. Tell how it applies to canoeing activities.",
-        "Core Standard 1 (Req 1): Do the following: (a) Review with your counselor the most likely hazards you may encounter while participating in canoeing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
+        "Canoeing Physicalactivity: Because canoeing is a physicalactivity that takesplace in the outdoors, participantsare at risk for arange of injuries.",
+        "Nine Points Safety: Following the nine points of Safety Afloat reduces many of theserious risks in canoeing, but some major and minor injuriesstill might occur.",
+        "Aid Temperature-relatedinjuries: First aid for some of the temperature-relatedinjuries can be lifesaving while treatment for other conditions isless urgent.",
+        "There Primary Cold: There are two primary cold related dangers encountered incanoeing."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Canoeing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Canoeing Hazards, PPE & First Aid Response.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Canoeing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Cold-water Shock Paddler: The first is cold-water shock which a paddler canexperience by falling into cold water.",
+        "Danger Ishypothermia Gradual: The second danger ishypothermia, which is a gradual lowering of the body’s coretemperature caused by spending minutes to hours in water.",
+        "Cold-water Shock Occurs: Cold-water shock occurs when a paddler falls into verycold water, especially below 60 degrees.",
+        "Colder Water Severe: The colder the water, the more severe the effects."
       ],
       "gear_checklist": [
         "Official Canoeing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Canoeing Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Canoeing Approach",
-        "right_header": "Official BSA Canoeing Pamphlet Standard",
+        "right_header": "Official BSA Canoeing Standard (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Canoeing Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Canoeing Workbook organizer.",
+          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Canoeing Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Canoeing Hazards, PPE & First Aid Response",
-          "Primary Standard": "Review with your counselor the most likely hazards you may encounter while participating in canoeing activitie",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Canoeing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Canoeing Pamphlet, pp. 4-9."
+          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
+          "Primary Standard": "Review with your counselor the most likely hazards you may encounter while participating in canoeing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Canoeing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Canoeing Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Canoeing Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Canoeing Requirement 1, a Scout claims: \"Scouts can jump straight into Canoeing hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Two Scouts capsize their canoe in the middle of a breezy lake a quarter-mile from shore. Both Scouts are wearing PFDs and the canoe floats upside down. What should they do?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Leave the canoe behind and race each other swimming to shore.",
+          "Stay with the floating canoe (which has built-in foam flotation blocks), move to the upwind side, and perform a canoe-over-canoe rescue with their buddy boat or flip/paddle the swamped canoe to shore.",
+          "Stand up on top of the overturned hull to wave both arms."
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries.",
-        "explanation": "Per Official BSA Canoeing Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries."
+        "correct_answer": "Option B — Always stay with the floating canoe on its upwind side and perform a buddy canoe-over-canoe rescue or swamped-canoe recovery.",
+        "explanation": "Shorelines look much closer than they are across open water; staying with the buoyant canoe prevents wind drift separation and enables rapid buddy recovery."
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Canoeing Workbook organizer table and practical demonstration for Req 1."
@@ -415,13 +431,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Before doing the following requirements, successfully complete the",
-      "action_verb": "Before",
+      "topic_title": "Req 2: Safety and First Aid",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Canoeing Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Canoeing Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 9, p. 13)",
+      "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 9, p. 13)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -438,8 +454,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Before doing the following requirements, successfully complete the is enough for Canoeing Requirement 2 sign-off.",
-        "fact": "Each Scout must actively before the specific principles and real-world steps of Before doing the following requirements, successfully complete the grounded in the official Canoeing pamphlet."
+        "misconception": "Reading a short definition of Safety and First Aid is enough for Canoeing Requirement 2 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Safety and First Aid grounded in the official Canoeing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Safety and First Aid grounded in the official Canoeing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 9, p. 13)"
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -464,63 +482,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 2): Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the Swimming merit badge pamphlet.",
-        "Field Verification Standard: Apply Canoeing Requirement 2 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Canoeing Req 2 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Canoeing Workbook before requesting Requirement 2 sign-off."
+        "Completehealth History: A completehealth history is required of all participantsas evidence of fitness for boating activities.",
+        "Forms Minors Signed: Forms for minors must be signed by aparent or legal guardian.",
+        "Participantsshould Asked: Participantsshould be asked to relate any recentincidents of illness or injury just prior tothe activity.",
+        "Supervision Protectionshould: Supervision and protectionshould be adjusted to anticipate anypotential risks associated with individualhealth conditions."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Canoeing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Before doing the following requirements, successfully complete the.",
-        "Execute & Document: Perform the before task methodically with your patrol buddy and log specific observations in your Canoeing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Operation Canoe Limited: Operation of any canoe is limited toyouth and adults who have completed the Scouting Americaswimmer classification test: Jump feetfirst.",
+        "Yards Completed Inone: The 100 yards must be completed inone swim without stops and must include at least one sharpturn.",
+        "Anyone Not Classified: Anyone not classified as a swimmer may paddle or ride in a canoe as a buddy with an adult swimmer skilled in that craft. 4.",
+        "Properly Fitted Coast: Properly fitted, U.S. Coast Guard-approved lifejackets must be worn by every person in a canoe."
       ],
       "gear_checklist": [
         "Official Canoeing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Canoeing Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Safety and First Aid",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Canoeing Approach",
-        "right_header": "Official BSA Canoeing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Canoeing Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Canoeing Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Before doing the following requirements, successfully complete the",
-          "Primary Standard": "Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Canoeing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Canoeing Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Safety and First Aid",
+          "Primary Standard": "Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the Swimming merit badge pamphlet.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Canoeing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Canoeing Merit Badge Pamphlet (p. 9, p. 13) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Canoeing Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Canoeing Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Canoeing Requirement 2, a Scout claims: \"Reading a short definition of Before doing the following requirements, successfully complete the is enough for Canoeing Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing the following requirements, successfully complete the grounded in the official Canoeing pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively before the specific principles and real-world steps of Before doing the following requirements, successfully complete the grounded in the official Canoeing pamphlet.",
-        "explanation": "Per Official BSA Canoeing Pamphlet, pp. 10-15, Each Scout must actively before the specific principles and real-world steps of Before doing the following requirements, successfully complete the grounded in the official Canoeing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Canoeing Workbook organizer table and practical demonstration for Req 2."
     },
@@ -565,10 +560,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3a is enough for Canoeing Requirement 3a sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 3a grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 3a grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 3a grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -588,9 +585,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3a",
+          "sub_req_label": "3a",
+          "sub_req_text": "Name and point out the major parts of a canoe."
         },
         {
           "sub_id": "3b",
@@ -609,23 +609,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 16-21",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 3b is enough for Canoeing Requirement 3b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -645,9 +650,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "3b",
+          "sub_req_label": "3b",
+          "sub_req_text": "Describe how the length and shape of a canoe affect its performance."
         }
       ],
       "resources": [
@@ -680,13 +688,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: (a) Name and point out the major parts",
+      "topic_title": "Req 3: Name and point out the major",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Canoeing Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Canoeing Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)",
+      "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -706,8 +714,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Name and point out the major parts is enough for Canoeing Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the major parts grounded in the official Canoeing pamphlet."
+        "misconception": "Reading a short definition of Name and point out the major is enough for Canoeing Requirement 3 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Name and point out the major grounded in the official Canoeing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Name and point out the major grounded in the official Canoeing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -727,63 +737,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Canoeing Sub-Req 3a: Name and point out the major parts of a canoe.",
-        "Canoeing Sub-Req 3b: Describe how the length and shape of a canoe affect its performance.",
-        "Core Standard 1 (Req 3): Do the following: (a) Name and point out the major parts of a canoe.",
-        "Core Standard 2 (Req 3): (b) Describe how the length and shape of a canoe affect its performance."
+        "Gunwales Pronounced Gunnels: Gunwales (pronounced “gunnels”) are rails that run alongthe top edge of both sides of the canoe.",
+        "Gunwales Add Strengthto: Gunwales add strengthto the hull and help it keep its shape.",
+        "Braces Thwarts Pronounced: Braces, called thwarts (pronounced “thorts”), span the width of the canoe and provide rigidity and support.",
+        "Canoes Small Keel: Some canoes also have a small keel, a ridge that runs the length of the bottom of the canoe alongits center line."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Canoeing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Name and point out the major parts.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Canoeing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Keel Improves Canoe: A keel improves a canoe’s ability to travel in astraight line but hinders its ability to turn.",
+        "Facingforward Canoe Ahead: When you are facingforward in your canoe, ahead is the direction in front of thebow, and astern is the direction behind the boat.",
+        "Canoe Dimensions Affect: A canoe’s dimensions affect how the canoe will perform onwater.",
+        "Keel Furtherimproves Canoe: A keel furtherimproves a canoe’s tracking ability."
       ],
       "gear_checklist": [
         "Official Canoeing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Canoeing Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Name and point out the major",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Canoeing Approach",
-        "right_header": "Official BSA Canoeing Pamphlet Standard",
+        "right_header": "Official BSA Canoeing Standard (Name and point out the major)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Name and point out the major.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Canoeing Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Canoeing Workbook organizer.",
+          "Clearly demonstrates and explains Name and point out the major using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Canoeing Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - (a) Name and point out the major parts",
+          "Requirement & Topic": "Req 3 - Name and point out the major",
           "Primary Standard": "Name and point out the major parts of a canoe.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Canoeing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Canoeing Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Canoeing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Canoeing Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Canoeing Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Canoeing Requirement 3, a Scout claims: \"Reading a short definition of (a) Name and point out the major parts is enough for Canoeing Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the major parts grounded in the official Canoeing pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the major parts grounded in the official Canoeing pamphlet.",
-        "explanation": "Per Official BSA Canoeing Pamphlet, pp. 16-21, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the major parts grounded in the official Canoeing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Canoeing Workbook organizer table and practical demonstration for Req 3."
     },
@@ -820,10 +820,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Canoeing Requirement 4a sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -843,9 +845,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Name and point out the parts of a paddle."
         },
         {
           "sub_id": "4b",
@@ -871,10 +876,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Canoeing Requirement 4b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -894,9 +901,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Demonstrate how to correctly size a paddle for a paddler in a sitting position and a kneeling position."
         }
       ],
       "resources": [
@@ -913,13 +923,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: (a) Name and point out the parts of",
+      "topic_title": "Req 4: Name and point out the parts",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Canoeing Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Canoeing Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)",
+      "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -939,8 +949,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Name and point out the parts of is enough for Canoeing Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the parts of grounded in the official Canoeing pamphlet."
+        "misconception": "Reading a short definition of Name and point out the parts is enough for Canoeing Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Name and point out the parts grounded in the official Canoeing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Name and point out the parts grounded in the official Canoeing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -960,63 +972,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Canoeing Sub-Req 4a: Name and point out the parts of a paddle.",
-        "Canoeing Sub-Req 4b: Demonstrate how to correctly size a paddle for a paddler in a sitting position and a kneeling position.",
-        "Core Standard 1 (Req 4): Do the following: (a) Name and point out the parts of a paddle.",
-        "Core Standard 2 (Req 4): (b) Demonstrate how to correctly size a paddle for a paddler in a sitting position and a kneeling position."
+        "Kneeling Position Paddler: In the kneeling position, the paddler’s center of gravity islower than in the seated position.",
+        "Puts Paddler Amore: This puts the paddler in amore stable position in the boat.",
+        "Paddler Sit Straight: When kneeling in the canoe, the paddler should sit up straight with their buttocks leaningagainst the seat or thwart behind them.",
+        "Avoid Kneeling Theback: Avoid kneeling with theback and upper legs in alignment."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Canoeing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Name and point out the parts of.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Canoeing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Body Slightlyshifted: The body should be slightlyshifted to the paddling side of the paddler so the knee is in thecurved part of the hull.",
+        "Kneeling Cushion Pad: A kneeling cushion or pad of closedcell foam is almost always needed for the kneels even for shorttrips.",
+        "Canoes Not Designed: Some canoes are not designed for the kneeling positionwith little room under the seat for the feet and lower legs.",
+        "Inthese Canoes Avoid: Inthese canoes, avoid getting the legs entangled by using only thesitting position."
       ],
       "gear_checklist": [
         "Official Canoeing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Canoeing Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Name and point out the parts",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Canoeing Approach",
-        "right_header": "Official BSA Canoeing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Canoeing Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Canoeing Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - (a) Name and point out the parts of",
+          "Requirement & Topic": "Req 4 - Name and point out the parts",
           "Primary Standard": "Name and point out the parts of a paddle.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Canoeing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Canoeing Pamphlet, pp. 22-27."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Canoeing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Canoeing Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Canoeing Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Canoeing Requirement 4, a Scout claims: \"Reading a short definition of (a) Name and point out the parts of is enough for Canoeing Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the parts of grounded in the official Canoeing pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the parts of grounded in the official Canoeing pamphlet.",
-        "explanation": "Per Official BSA Canoeing Pamphlet, pp. 22-27, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Name and point out the parts of grounded in the official Canoeing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Canoeing Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1057,10 +1046,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5a is enough for Canoeing Requirement 5a sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 5a grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1080,9 +1071,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5a",
+          "sub_req_label": "5a",
+          "sub_req_text": "Review with your counselor the characteristics of life jackets most appropriate for canoeing and tell why a life jacket must always be worn while paddling."
         },
         {
           "sub_id": "5b",
@@ -1108,10 +1102,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5b is enough for Canoeing Requirement 5b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1131,9 +1127,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5b",
+          "sub_req_label": "5b",
+          "sub_req_text": "Demonstrate how to select and properly fit the correct size life jacket."
         },
         {
           "sub_id": "5c",
@@ -1165,10 +1164,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 28-33",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 5c is enough for Canoeing Requirement 5c sign-off.",
-            "fact": "Each Scout must actively review the specific principles and real-world steps of Req 5c grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1188,9 +1189,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "5c",
+          "sub_req_label": "5c",
+          "sub_req_text": "Review the importance of safety and rescue equipment such as a sound signal device, extra paddle, sponge, bailer, bilge pump, rescue sling, ropes, and throw bag."
         }
       ],
       "resources": [
@@ -1219,13 +1223,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: (a) Review with your counselor the characteristics of",
+      "topic_title": "Req 5: Review with your counselor the characteristics",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Canoeing Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Canoeing Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
+      "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1245,8 +1249,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Review with your counselor the characteristics of is enough for Canoeing Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review with your counselor the characteristics of grounded in the official Canoeing pamphlet."
+        "misconception": "Reading a short definition of Review with your counselor the characteristics is enough for Canoeing Requirement 5 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Review with your counselor the characteristics grounded in the official Canoeing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Review with your counselor the characteristics grounded in the official Canoeing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1266,63 +1272,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Canoeing Sub-Req 5a: Review with your counselor the characteristics of life jackets most appropriate for canoeing and tell why a life jacket must always be worn while paddling.",
-        "Canoeing Sub-Req 5b: Demonstrate how to select and properly fit the correct size life jacket.",
-        "Canoeing Sub-Req 5c: Review the importance of safety and rescue equipment such as a sound signal device, extra paddle, sponge, bailer, bilge pump, rescue sling, ropes, and throw bag.",
-        "Core Standard 1 (Req 5): Do the following: (a) Review with your counselor the characteristics of life jackets most appropriate for canoeing and tell why a life jacket must always be worn while paddling."
+        "Paddler Basic Safetyand: Every paddler should have and know how to use basic safetyand rescue equipment.",
+        "Include Sound Signal: These include a sound signal device, extra paddle, sponge, bailer, bilge pump, rescue sling, ropesand throw bag.",
+        "Sound Signal Device: Sound Signal Device, U.S.",
+        "Easiest Sound Devicethat: The easiest sound devicethat a paddler can carry is a whistle."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Canoeing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Review with your counselor the characteristics of.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Canoeing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Not Metal Whistle: Do not get a metal whistle which canbecome corroded or one with a littleball in it that can get stuck in the whistle chamber.",
+        "There Several Wellmade: There are several wellmade and relatively inexpensive plasticwhistles on the market.",
+        "Bekept Short Cord: It should bekept on a short cord in a pocket of thelifejacket.",
+        "Avoid Attaching Outside: Avoid attaching it to the outside of your life jacket where it can getcaught or snag on parts of the boat or other pieces of equipment."
       ],
       "gear_checklist": [
         "Official Canoeing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Canoeing Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Review with your counselor the characteristics",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Canoeing Approach",
-        "right_header": "Official BSA Canoeing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Canoeing Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Canoeing Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - (a) Review with your counselor the characteristics of",
-          "Primary Standard": "Review with your counselor the characteristics of life jackets most appropriate for canoeing and tell why a li",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Canoeing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Canoeing Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Review with your counselor the characteristics",
+          "Primary Standard": "Review with your counselor the characteristics of life jackets most appropriate for canoeing and tell why a life jacket must always be worn while paddling.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Canoeing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Canoeing Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Canoeing Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Canoeing Requirement 5, a Scout claims: \"Reading a short definition of (a) Review with your counselor the characteristics of is enough for Canoeing Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review with your counselor the characteristics of grounded in the official Canoeing pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review with your counselor the characteristics of grounded in the official Canoeing pamphlet.",
-        "explanation": "Per Official BSA Canoeing Pamphlet, pp. 28-33, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Review with your counselor the characteristics of grounded in the official Canoeing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Canoeing Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1355,13 +1338,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Review with your counselor the general care and",
-      "action_verb": "Review",
+      "topic_title": "Req 6: Review with your counselor the general",
+      "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Canoeing Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Canoeing Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 30, p. 34)",
+      "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 30, p. 34)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1378,8 +1361,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Review with your counselor the general care and is enough for Canoeing Requirement 6 sign-off.",
-        "fact": "Each Scout must actively review the specific principles and real-world steps of Review with your counselor the general care and grounded in the official Canoeing pamphlet."
+        "misconception": "Reading a short definition of Review with your counselor the general is enough for Canoeing Requirement 6 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Review with your counselor the general grounded in the official Canoeing pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Review with your counselor the general grounded in the official Canoeing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 30, p. 34)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1399,63 +1384,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 6): Review with your counselor the general care and maintenance of canoes, paddles, and other canoeing equipment.",
-        "Field Verification Standard: Apply Canoeing Requirement 6 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Canoeing Req 6 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Canoeing Workbook before requesting Requirement 6 sign-off."
+        "Store Canoes Out: Store canoes out of the water and upside down in acovered area away from direct sunlight and extremeheat or cold.",
+        "Not Store Canoes: Do not store canoes with wooden gunwales on the ground.",
+        "Not Drag Canoe: To prevent damage, do not drag a canoe across the ground or run it up onto the shoreor into trees or rocks.",
+        "Wipe Sand Mud: Make sure to wipe sand, mud, and other debris out of the canoe after each trip, and make repairs as needed."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Canoeing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Review with your counselor the general care and.",
-        "Execute & Document: Perform the review task methodically with your patrol buddy and log specific observations in your Canoeing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Oil Wooden Gunwales: Oil wooden gunwales, seats, and thwarts of a canoe at least twice a year.",
+        "Paddling Small Blade: Paddling using a small blade, for example, 110 squareinches, takes less energy and can be less tiring than a largerpaddle blade with 140 square.",
+        "However Same Resultscan: However, the same resultscan be achieved by pulling less hard with a slightly larger blade, making paddling just as efficient on extended.",
+        "Rectangular Shaped Blades: Rectangular shaped blades with rounded or square cornersat the bottom are usually wider and shorter."
       ],
       "gear_checklist": [
         "Official Canoeing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Canoeing Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Review with your counselor the general",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Canoeing Approach",
-        "right_header": "Official BSA Canoeing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Canoeing Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Canoeing Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - Review with your counselor the general care and",
+          "Requirement & Topic": "Req 6 - Review with your counselor the general",
           "Primary Standard": "Review with your counselor the general care and maintenance of canoes, paddles, and other canoeing equipment.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Canoeing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Canoeing Pamphlet, pp. 34-39."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Canoeing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Canoeing Merit Badge Pamphlet (p. 30, p. 34) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Canoeing Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Canoeing Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Canoeing Requirement 6, a Scout claims: \"Reading a short definition of Review with your counselor the general care and is enough for Canoeing Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively review the specific principles and real-world steps of Review with your counselor the general care and grounded in the official Canoeing pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively review the specific principles and real-world steps of Review with your counselor the general care and grounded in the official Canoeing pamphlet.",
-        "explanation": "Per Official BSA Canoeing Pamphlet, pp. 34-39, Each Scout must actively review the specific principles and real-world steps of Review with your counselor the general care and grounded in the official Canoeing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Canoeing Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1492,10 +1454,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7a is enough for Canoeing Requirement 7a sign-off.",
-            "fact": "Each Scout must actively safely the specific principles and real-world steps of Req 7a grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1515,9 +1479,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7a",
+          "sub_req_label": "7a",
+          "sub_req_text": "Safely carry and launch the canoe from a dock or shore (both, if possible)."
         },
         {
           "sub_id": "7b",
@@ -1540,10 +1507,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7b is enough for Canoeing Requirement 7b sign-off.",
-            "fact": "Each Scout must actively safely the specific principles and real-world steps of Req 7b grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1563,9 +1532,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7b",
+          "sub_req_label": "7b",
+          "sub_req_text": "Safely land the canoe on a dock or shore (both, if possible) and return it to its proper storage location."
         },
         {
           "sub_id": "7c",
@@ -1596,10 +1568,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7c is enough for Canoeing Requirement 7c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1619,9 +1593,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7c",
+          "sub_req_label": "7c",
+          "sub_req_text": "Demonstrate kneeling and sitting positions in a canoe and explain the proper use for each position."
         },
         {
           "sub_id": "7d",
@@ -1649,10 +1626,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 40-45",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 7d is enough for Canoeing Requirement 7d sign-off.",
-            "fact": "Each Scout must actively change the specific principles and real-world steps of Req 7d grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1672,9 +1651,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "7d",
+          "sub_req_label": "7d",
+          "sub_req_text": "Change places while afloat in the canoe."
         }
       ],
       "resources": [
@@ -1699,13 +1681,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: With a companion, use a properly equipped canoe",
-      "action_verb": "With",
+      "topic_title": "Req 7: With a companion, use a properly",
+      "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Canoeing Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Canoeing Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
+      "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1725,8 +1707,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With a companion, use a properly equipped canoe is enough for Canoeing Requirement 7 sign-off.",
-        "fact": "Each Scout must actively with the specific principles and real-world steps of With a companion, use a properly equipped canoe grounded in the official Canoeing pamphlet."
+        "misconception": "Reading a short definition of With a companion, use a properly is enough for Canoeing Requirement 7 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, use a properly grounded in the official Canoeing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, use a properly grounded in the official Canoeing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1746,63 +1730,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Canoeing Sub-Req 7a: Safely carry and launch the canoe from a dock or shore (both, if possible).",
-        "Canoeing Sub-Req 7b: Safely land the canoe on a dock or shore (both, if possible) and return it to its proper storage location.",
-        "Canoeing Sub-Req 7c: Demonstrate kneeling and sitting positions in a canoe and explain the proper use for each position.",
-        "Canoeing Sub-Req 7d: Change places while afloat in the canoe."
+        "Moving Canoe Stored: Moving a canoe from where it is stored on land to where it is tobe launched and then safely getting into it requires teamworkand good communication.",
+        "Canoeing Injuries: Most canoeing injuries on flatwatertake place while carrying, entering, or exiting the canoe.",
+        "Forthis Reason Enter: Forthis reason, you should enter and exit the canoe only when it iscompletely in the water.",
+        "Bridge Canoe Having: Never bridge a canoe by having a partof one end above the water on the shore or dock with the otherend floating."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Canoeing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing With a companion, use a properly equipped canoe.",
-        "Execute & Document: Perform the with task methodically with your patrol buddy and log specific observations in your Canoeing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Bridged Canoe Unstable: A bridged canoe is unstable and stepping into onecan result in injury to the paddler or damage to the boat.",
+        "Enter Exit Ormove: Enter, exit, ormove about thecanoe only whenboth hands arefree of equipmentor gear. • Never enter or exit a canoe with something in your hands.",
+        "Equipment Paddles Pads: Place all equipment including paddles, pads, water containers, sunscreen, etc. in the boat before entering it.",
+        "Thecanoe Floating Enter: Thecanoe must be floating when you enter it and remain floatingafter both paddlers are situated."
       ],
       "gear_checklist": [
         "Official Canoeing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Canoeing Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for With a companion, use a properly",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Canoeing Approach",
-        "right_header": "Official BSA Canoeing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Canoeing Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Canoeing Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - With a companion, use a properly equipped canoe",
+          "Requirement & Topic": "Req 7 - With a companion, use a properly",
           "Primary Standard": "Safely carry and launch the canoe from a dock or shore (both, if possible).",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Canoeing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Canoeing Pamphlet, pp. 40-45."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Canoeing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Canoeing Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Canoeing Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Canoeing Requirement 7, a Scout claims: \"Reading a short definition of With a companion, use a properly equipped canoe is enough for Canoeing Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With a companion, use a properly equipped canoe grounded in the official Canoeing pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With a companion, use a properly equipped canoe grounded in the official Canoeing pamphlet.",
-        "explanation": "Per Official BSA Canoeing Pamphlet, pp. 40-45, Each Scout must actively with the specific principles and real-world steps of With a companion, use a properly equipped canoe grounded in the official Canoeing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Canoeing Workbook organizer table and practical demonstration for Req 7."
     },
@@ -1839,10 +1800,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Canoeing Requirement 8a sign-off.",
-            "fact": "Each Scout must actively safely the specific principles and real-world steps of Req 8a grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1862,9 +1825,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "Safely exit the canoe in deep water without losing contact with the canoe. Reenter the canoe with the assistance of the other paddler without capsizing the boat."
         },
         {
           "sub_id": "8b",
@@ -1903,10 +1869,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Canoeing Requirement 8b sign-off.",
-            "fact": "Each Scout must actively safely the specific principles and real-world steps of Req 8b grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8b grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8b grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1926,9 +1894,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "Safely perform a controlled capsize of the canoe and demonstrate how staying with a capsized canoe will support both paddlers."
         },
         {
           "sub_id": "8c",
@@ -1963,10 +1934,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Canoeing Requirement 8c sign-off.",
-            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 8c grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 8c grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 8c grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1986,9 +1959,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty the swamped canoe and reenter it."
         },
         {
           "sub_id": "8d",
@@ -2020,10 +1996,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8d is enough for Canoeing Requirement 8d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2043,9 +2021,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8d",
+          "sub_req_label": "8d",
+          "sub_req_text": "In deep water, rescue a swamped canoe and its paddlers. After checking that those in the water do not need immediate assistance, empty the swamped canoe and help the paddlers safely reenter their boat without capsizing."
         },
         {
           "sub_id": "8e",
@@ -2055,23 +2036,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 8e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8e is enough for Canoeing Requirement 8e sign-off.",
-            "fact": "Each Scout must actively perform the specific principles and real-world steps of Req 8e grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8e grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8e grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2091,9 +2077,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8e",
+          "sub_req_label": "8e",
+          "sub_req_text": "Perform a canoe rescue of a conscious swimmer."
         },
         {
           "sub_id": "8f",
@@ -2125,10 +2114,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8f is enough for Canoeing Requirement 8f sign-off.",
-            "fact": "Each Scout must actively using the specific principles and real-world steps of Req 8f grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2148,9 +2139,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8f",
+          "sub_req_label": "8f",
+          "sub_req_text": "Using a rescue (throw) bag from shore, lay the line within 3 feet of a conscious swimmer 30 feet away. Show how to repack the bag when done."
         }
       ],
       "resources": [
@@ -2203,13 +2197,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: With a companion, use a properly equipped canoe",
-      "action_verb": "With",
+      "topic_title": "Req 8: With a companion, use a properly",
+      "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Canoeing Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Canoeing Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
+      "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2229,8 +2223,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With a companion, use a properly equipped canoe is enough for Canoeing Requirement 8 sign-off.",
-        "fact": "Each Scout must actively with the specific principles and real-world steps of With a companion, use a properly equipped canoe grounded in the official Canoeing pamphlet."
+        "misconception": "Reading a short definition of With a companion, use a properly is enough for Canoeing Requirement 8 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, use a properly grounded in the official Canoeing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, use a properly grounded in the official Canoeing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2250,63 +2246,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Canoeing Sub-Req 8a: Safely exit the canoe in deep water without losing contact with the canoe. Reenter the canoe with the assistance of the other paddler without capsizing the boat.",
-        "Canoeing Sub-Req 8b: Safely perform a controlled capsize of the canoe and demonstrate how staying with a capsized canoe will support both paddlers.",
-        "Canoeing Sub-Req 8c: Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty the swamped canoe and reenter it.",
-        "Canoeing Sub-Req 8d: In deep water, rescue a swamped canoe and its paddlers. After checking that those in the water do not need immediate assistance, empty the."
+        "Grab Rope Thumb: Grab the rope with the thumb andpointer finger of the throwing hand and push a length of ropethe bottom of the bag.",
+        "Canoe Rescue Conscious: Canoe Rescue of a Conscious Swimmer Sometimes a swimmer is beyond the reach of a rope thrownfrom shore.",
+        "Case Canoe Rescuecraft: In this case, the canoe can be used as a rescuecraft.",
+        "Canoe Going Launch: If the canoe is going to launch from shore to rescue adistressed swimmer, the paddlers should carry a flotation aid ofsome type that can be given."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Canoeing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing With a companion, use a properly equipped canoe.",
-        "Execute & Document: Perform the with task methodically with your patrol buddy and log specific observations in your Canoeing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Convenient Aid Extra: The most convenient aid would be an extra life jacket.",
+        "Units Float Trips: Units on float trips mayalso be in a position to rescue swimmers or boaters without alife jacket who have been separated from their craft.",
+        "Eithersituation Paddlers: In eithersituation, the paddlers should approach the distressed swimmerwith vocal reassurances that they are there to help.",
+        "Rescue Boat Safe: The rescue boat should keep a safe distance from theswimmer while they offer assistance."
       ],
       "gear_checklist": [
         "Official Canoeing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Canoeing Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for With a companion, use a properly",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Canoeing Approach",
-        "right_header": "Official BSA Canoeing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Canoeing Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Canoeing Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - With a companion, use a properly equipped canoe",
-          "Primary Standard": "Safely exit the canoe in deep water without losing contact with the canoe. Reenter the canoe with the assistan",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Canoeing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Canoeing Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - With a companion, use a properly",
+          "Primary Standard": "Safely exit the canoe in deep water without losing contact with the canoe. Reenter the canoe with the assistance of the other paddler without capsizing the boat.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Canoeing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Canoeing Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Canoeing Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Canoeing Requirement 8, a Scout claims: \"Reading a short definition of With a companion, use a properly equipped canoe is enough for Canoeing Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With a companion, use a properly equipped canoe grounded in the official Canoeing pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With a companion, use a properly equipped canoe grounded in the official Canoeing pamphlet.",
-        "explanation": "Per Official BSA Canoeing Pamphlet, pp. 46-51, Each Scout must actively with the specific principles and real-world steps of With a companion, use a properly equipped canoe grounded in the official Canoeing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Canoeing Workbook organizer table and practical demonstration for Req 8."
     },
@@ -2343,10 +2316,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9a is enough for Canoeing Requirement 9a sign-off.",
-            "fact": "Each Scout must actively pivot the specific principles and real-world steps of Req 9a grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9a grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9a grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2366,9 +2341,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9a",
+          "sub_req_label": "9a",
+          "sub_req_text": "Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop, and return to the starting position by pivoting to the left using draw and pushaway strokes or using forward and reverse sweeps staying within 2 boat lengths of the starting position."
         },
         {
           "sub_id": "9b",
@@ -2391,10 +2369,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9b is enough for Canoeing Requirement 9b sign-off.",
-            "fact": "Each Scout must actively move the specific principles and real-world steps of Req 9b grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2414,9 +2394,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9b",
+          "sub_req_label": "9b",
+          "sub_req_text": "Move a canoe sideways (abeam) in one direction for 10 feet and then return to the starting position using the draw and pushaway strokes."
         },
         {
           "sub_id": "9c",
@@ -2439,10 +2422,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9c is enough for Canoeing Requirement 9c sign-off.",
-            "fact": "Each Scout must actively while the specific principles and real-world steps of Req 9c grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9c grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9c grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2462,9 +2447,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9c",
+          "sub_req_label": "9c",
+          "sub_req_text": "While in forward motion, stop the canoe within two boat lengths using the backstroke."
         },
         {
           "sub_id": "9d",
@@ -2496,10 +2484,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9d is enough for Canoeing Requirement 9d sign-off.",
-            "fact": "Each Scout must actively while the specific principles and real-world steps of Req 9d grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9d grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9d grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2519,9 +2509,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9d",
+          "sub_req_label": "9d",
+          "sub_req_text": "While in the stern position and without assistance from the bow paddler, paddle in a straight line 15-20 boat lengths using an appropriate steering stroke, e.g., the J-stroke or thumb-down rudder stroke with or without a stern pry."
         },
         {
           "sub_id": "9e",
@@ -2553,10 +2546,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9e is enough for Canoeing Requirement 9e sign-off.",
-            "fact": "Each Scout must actively move the specific principles and real-world steps of Req 9e grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9e grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9e grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2576,9 +2571,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9e",
+          "sub_req_label": "9e",
+          "sub_req_text": "Move the canoe in a straight line 15-20 boat lengths with the bow paddler using as necessary the forward stroke, draw stroke or forward sweep and the stern paddler using an appropriate steering stroke, e.g., the J-stroke or thumb-down rudder stroke with or without a stern pry."
         },
         {
           "sub_id": "9f",
@@ -2601,10 +2599,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9f is enough for Canoeing Requirement 9f sign-off.",
-            "fact": "Each Scout must actively while the specific principles and real-world steps of Req 9f grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9f grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9f grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2624,9 +2624,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9f",
+          "sub_req_label": "9f",
+          "sub_req_text": "While maintaining forward motion, turn the canoe 90° in an arc to the right in 5-10 boat lengths with the bow paddler using as necessary either the draw stroke or forward sweep and the stern paddler using only the forward stroke. Repeat the maneuver turning the canoe 90° to the left."
         },
         {
           "sub_id": "9g",
@@ -2654,10 +2657,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9g is enough for Canoeing Requirement 9g sign-off.",
-            "fact": "Each Scout must actively move the specific principles and real-world steps of Req 9g grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9g grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9g grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2677,9 +2682,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9g",
+          "sub_req_label": "9g",
+          "sub_req_text": "Move the canoe backwards in a straight line 3-4 boat lengths using as necessary the back stroke, reverse sweep or draw stroke in the bow or the stern."
         },
         {
           "sub_id": "9h",
@@ -2702,10 +2710,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9h is enough for Canoeing Requirement 9h sign-off.",
-            "fact": "Each Scout must actively complete the specific principles and real-world steps of Req 9h grounded in the official Canoeing pamphlet."
+            "fact": "Each Scout must actively complete the specific principles and real-world steps of Req 9h grounded in the official Canoeing pamphlet.",
+            "fact_correction": "Each Scout must actively complete the specific principles and real-world steps of Req 9h grounded in the official Canoeing pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2725,9 +2735,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9h",
+          "sub_req_label": "9h",
+          "sub_req_text": "Complete a figure of 8 course around markers 3-4 boat lengths apart using appropriate strokes including the draw stroke, and the forward and reverse sweeps."
         }
       ],
       "resources": [
@@ -2768,13 +2781,13 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: With a companion, using a properly equipped canoe",
-      "action_verb": "With",
+      "topic_title": "Req 9: With a companion, using a properly",
+      "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Canoeing Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Canoeing Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Canoeing Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
+      "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -2794,8 +2807,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With a companion, using a properly equipped canoe is enough for Canoeing Requirement 9 sign-off.",
-        "fact": "Each Scout must actively with the specific principles and real-world steps of With a companion, using a properly equipped canoe grounded in the official Canoeing pamphlet."
+        "misconception": "Reading a short definition of With a companion, using a properly is enough for Canoeing Requirement 9 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, using a properly grounded in the official Canoeing pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, using a properly grounded in the official Canoeing pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2815,68 +2830,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Canoeing Sub-Req 9a: Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop, and return to the starting position by pivoting to.",
-        "Canoeing Sub-Req 9b: Move a canoe sideways (abeam) in one direction for 10 feet and then return to the starting position using the draw and pushaway strokes.",
-        "Canoeing Sub-Req 9c: While in forward motion, stop the canoe within two boat lengths using the backstroke.",
-        "Canoeing Sub-Req 9d: While in the stern position and without assistance from the bow paddler, paddle in a straight line 15-20 boat lengths using an appropriate steering."
+        "Imagine Box Wideas: Imagine a box about as wideas your shoulders, as high as the top of your head, andas low as the top of the gunwales.",
+        "Extends Forwardfrom Back: It extends forwardfrom your back to as far as your arms will reach whilekeeping good posture.",
+        "Safest Way Paddle: It is also the safest way to paddle becausestaying in the box protects your shoulder joints frombeing put in unstable positions.",
+        "Rotate Upperbody Perform: If you rotate your upperbody to perform each stroke, the large, strong musclesof the torso will power the stroke and prevent fatigue."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Canoeing requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing With a companion, using a properly equipped canoe.",
-        "Execute & Document: Perform the with task methodically with your patrol buddy and log specific observations in your Canoeing Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Paddle Imagine Torso: As you paddle, imagine your torso twisting around yourbackbone.",
+        "Paddle Blade Eyeswill: Following the paddle blade with your eyeswill help you learn to rotate your torso through eachstroke.",
+        "Course Direction Team: Course Direction is a Team Effort The paddler in the stern position is better able to steer thecanoe since the stern paddler is further.",
+        "J-stroke Thumb-down: That is why the J-stroke and Thumb-down rudderstroke are only performed in the stern."
       ],
       "gear_checklist": [
         "Official Canoeing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Canoeing Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for With a companion, using a properly",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Canoeing Approach",
-        "right_header": "Official BSA Canoeing Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Canoeing Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Canoeing Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - With a companion, using a properly equipped canoe",
-          "Primary Standard": "Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop, and return to the sta",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Canoeing terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Canoeing Pamphlet, pp. 52-57."
+          "Requirement & Topic": "Req 9 - With a companion, using a properly",
+          "Primary Standard": "Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop, and return to the starting position by pivoting to the left using draw and pushaway strokes or using forward and reverse sweeps staying within 2 boat lengths.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Canoeing terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Canoeing Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Canoeing Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Canoeing Requirement 9, a Scout claims: \"Reading a short definition of With a companion, using a properly equipped canoe is enough for Canoeing Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With a companion, using a properly equipped canoe grounded in the official Canoeing pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively with the specific principles and real-world steps of With a companion, using a properly equipped canoe grounded in the official Canoeing pamphlet.",
-        "explanation": "Per Official BSA Canoeing Pamphlet, pp. 52-57, Each Scout must actively with the specific principles and real-world steps of With a companion, using a properly equipped canoe grounded in the official Canoeing pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Canoeing Workbook organizer table and practical demonstration for Req 9."
     }
   ],
   "badge_slug": "canoeing",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }

@@ -49,10 +49,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1a is enough for Electricity Requirement 1a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -72,9 +74,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1a",
+          "sub_req_label": "1a",
+          "sub_req_text": "Explain how to turn off power for a particular circuit and the whole house in the event of an emergency."
         },
         {
           "sub_id": "1b",
@@ -100,10 +105,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1b is enough for Electricity Requirement 1b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 1b grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 1b grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 1b grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -123,9 +130,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1b",
+          "sub_req_label": "1b",
+          "sub_req_text": "Demonstrate how to rescue a person touching a live wire in the home."
         },
         {
           "sub_id": "1c",
@@ -153,10 +163,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1c is enough for Electricity Requirement 1c sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -176,9 +188,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1c",
+          "sub_req_label": "1c",
+          "sub_req_text": "Describe how to safely get out of a car in an accident if you suspect a utility wire is on the car."
         },
         {
           "sub_id": "1d",
@@ -209,10 +224,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1d is enough for Electricity Requirement 1d sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1d grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1d grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1d grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -232,9 +249,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1d",
+          "sub_req_label": "1d",
+          "sub_req_text": "Show how to render first aid to a person who is unconscious from an apparent electrical shock."
         },
         {
           "sub_id": "1e",
@@ -260,10 +280,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1e is enough for Electricity Requirement 1e sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1e grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1e grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1e grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -283,9 +305,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1e",
+          "sub_req_label": "1e",
+          "sub_req_text": "Show how to treat an electrical burn."
         },
         {
           "sub_id": "1f",
@@ -313,10 +338,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1f is enough for Electricity Requirement 1f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1f grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1f grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1f grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -336,9 +363,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1f",
+          "sub_req_label": "1f",
+          "sub_req_text": "Explain what to do in the event of an electrical fire."
         },
         {
           "sub_id": "1g",
@@ -370,10 +400,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 4-9",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 1g is enough for Electricity Requirement 1g sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1g grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1g grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1g grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -393,9 +425,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "1g",
+          "sub_req_label": "1g",
+          "sub_req_text": "Explain what to do if caught out in the open during an electrical storm."
         }
       ],
       "resources": [
@@ -436,13 +471,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Demonstrate that you know how to respond to",
+      "topic_title": "Req 1: That you know how to respond",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 1 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 4-9",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 4-9",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -463,7 +498,9 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can jump straight into Electricity hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Electricity prevents most field injuries."
+        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Electricity prevents most field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Electricity prevents most field injuries.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -483,62 +520,62 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Electricity Sub-Req 1a: Explain how to turn off power for a particular circuit and the whole house in the event of an emergency.",
-        "Electricity Sub-Req 1b: Demonstrate how to rescue a person touching a live wire in the home.",
-        "Electricity Sub-Req 1c: Describe how to safely get out of a car in an accident if you suspect a utility wire is on the car.",
-        "Electricity Sub-Req 1d: Show how to render first aid to a person who is unconscious from an apparent electrical shock."
+        "Victim Unconscious But: Place a victim who is unconscious but who is breathingnormally in a recovery position.",
+        "Prevent Person Choking: This will prevent the person from choking onsaliva, blood (from a bitten tongue), or vomit, and willhelp keep the airway open.",
+        "Continue Monitor Person: Continue to monitor the person’s breathing until medical help arrives.",
+        "However Notmove Personwith: However, do notmove a personwith suspectedspinal injuryunless it isabsolutely necessary."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 1): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Demonstrate that you know how to respond to.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Recovery Position Person: Recovery position for a person who mayhave a spinal injury.",
+        "Electric Current Comes: Electric current comes into your homeon overhead or underground wires.",
+        "Electrical Meter Heavy: From your electrical meter, heavy, well-insulated wires run to a maindistribution center or breaker box, where the main disconnect switch.",
+        "Necessary Switch Shut: If necessary, you can use that switch to shut off allelectric current in your house."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 1",
+        "Activity-Specific Tools, Reference Charts & Study Materials for That you know how to respond",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
+        "right_header": "Official BSA Electricity Standard (That you know how to respond)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 1.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during That you know how to respond.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 1.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 4-9.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Electricity Workbook organizer.",
+          "Clearly demonstrates and explains That you know how to respond using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 1",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 1 - Demonstrate that you know how to respond to",
+          "Requirement & Topic": "Req 1 - That you know how to respond",
           "Primary Standard": "Explain how to turn off power for a particular circuit and the whole house in the event of an emergency.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 4-9."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 1 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
       "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 1, a Scout claims: \"Scouts can jump straight into Electricity hands-on activities and deal with hazards only after an accident happens.\" How should you respond?",
+        "scenario_prompt": "Before starting hands-on or field work for Electricity (That you know how to respond), which patrol preparation step best aligns with the official Electricity standard?",
         "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Electricity prevents most field injuries.",
-          "Skip Requirement 1 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
+          "Review the Electricity hazards, PPE, and prerequisite standards in Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69) with your counselor and patrol buddy before beginning",
+          "Begin the practical station immediately and review the safety rules only if a problem occurs",
+          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
+          "Skip the pre-activity briefing when practicing indoors"
         ],
-        "correct_answer": "Option B - Correct the misconception: Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Electricity prevents most field injuries.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 4-9, Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Electricity prevents most field injuries."
+        "correct_answer": "Option A - Review the Electricity hazards, PPE, and prerequisite standards in Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69) with your counselor and patrol buddy before beginning",
+        "explanation": "Per Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 1."
@@ -564,13 +601,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Complete an electrical home safety inspection of your",
+      "topic_title": "Req 2: Complete an electrical home safety inspection",
       "action_verb": "Complete",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 2 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 10-15",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 10-15",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 51, p. 57)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 51, p. 57)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -587,13 +624,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Complete an electrical home safety inspection of your is enough for Electricity Requirement 2 sign-off.",
-        "fact": "Each Scout must actively complete the specific principles and real-world steps of Complete an electrical home safety inspection of your grounded in the official Electricity pamphlet."
+        "misconception": "Reading a short definition of Complete an electrical home safety inspection is enough for Electricity Requirement 2 sign-off.",
+        "fact": "Each Scout must actively complete the specific principles and real-world steps of Complete an electrical home safety inspection grounded in the official Electricity pamphlet.",
+        "fact_correction": "Each Scout must actively complete the specific principles and real-world steps of Complete an electrical home safety inspection grounded in the official Electricity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 51, p. 57)"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
         "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Obtain your Merit Badge Counselor's approval on your Electricity Req 2 plan before executing the project.",
+        "gate_description": "Review your Electricity Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -613,63 +652,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 2): Complete an electrical home safety inspection of your home, using the checklist found in the Electricity merit badge pamphlet or one approved by your counselor.",
-        "Core Standard 2 (Req 2): Discuss what you find with your counselor.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Electricity Req 2 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Electricity Workbook before requesting Requirement 2 sign-off."
+        "Requirement Tocomplete: For requirement 2, you will need tocomplete an electrical safety inspection of your home.",
+        "Here Items Check: Here are some items you can check in your hometoday to ensure electrical safety.",
+        "Tips Come Fromthe: These tips come fromthe Electrical Safety Foundation International and canbe found at esfi.org.",
+        "Electrical Safety Checklist: Make an electrical safety checklist and walkthrough each room of your house, checking on eachaspect of electrical safety."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 2): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Complete an electrical home safety inspection of your.",
-        "Execute & Document: Perform the complete task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Listwith Later Discuss: You can go over your listwith your counselor later and discuss what you found.",
+        "Check Outlets Loose-fitting: Check for outlets that have loose-fitting plugs, which can overheat and lead to fire.",
+        "Adultreplace Missing Broken: Have an adultreplace any missing or broken wall plates.",
+        "Surethere Safety Covers: Make surethere are safety covers over unused outlets that areaccessible to children."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 2",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Complete an electrical home safety inspection",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 2.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 2.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 10-15.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 2",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 2 - Complete an electrical home safety inspection of your",
-          "Primary Standard": "Complete an electrical home safety inspection of your home, using the checklist found in the Electricity merit",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 10-15."
+          "Requirement & Topic": "Req 2 - Complete an electrical home safety inspection",
+          "Primary Standard": "Complete an electrical home safety inspection of your home, using the checklist found in the Electricity merit badge pamphlet or one approved by your counselor. Discuss what you find with your counselor.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 51, p. 57) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 2 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 2, a Scout claims: \"Reading a short definition of Complete an electrical home safety inspection of your is enough for Electricity Requirement 2 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively complete the specific principles and real-world steps of Complete an electrical home safety inspection of your grounded in the official Electricity pamphlet.",
-          "Skip Requirement 2 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively complete the specific principles and real-world steps of Complete an electrical home safety inspection of your grounded in the official Electricity pamphlet.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 10-15, Each Scout must actively complete the specific principles and real-world steps of Complete an electrical home safety inspection of your grounded in the official Electricity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 2."
     },
@@ -694,13 +710,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Make a simple electromagnet and use it to",
-      "action_verb": "Make",
+      "topic_title": "Req 3: Simple electromagnet and use it",
+      "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 3 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 16-21",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 16-21",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 19)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 19)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -720,8 +736,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Make a simple electromagnet and use it to is enough for Electricity Requirement 3 sign-off.",
-        "fact": "Each Scout must actively make the specific principles and real-world steps of Make a simple electromagnet and use it to grounded in the official Electricity pamphlet."
+        "misconception": "Reading a short definition of Simple electromagnet and use it is enough for Electricity Requirement 3 sign-off.",
+        "fact": "Each Scout must actively show the specific principles and real-world steps of Simple electromagnet and use it grounded in the official Electricity pamphlet.",
+        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Simple electromagnet and use it grounded in the official Electricity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 19)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -741,63 +759,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 3): Make a simple electromagnet and use it to show magnetic attraction and repulsion.",
-        "Field Verification Standard: Apply Electricity Requirement 3 procedures using verifiable measurements, clear terminology, and the BSA EDGE method.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Electricity Req 3 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Electricity Workbook before requesting Requirement 3 sign-off."
+        "Experiment Shows Wire: This experiment shows that a wire carrying a current issurrounded by an invisible magnetic field, or force, and itillustrates how closely electricity.",
+        "Wrap Length Insulated: Step 1, Wrap a length of insulated (plastic-coated) wire about 20 times around a cardboard tube.",
+        "Slide Small Compass: Step 3, Slide a small compass into the middle of thecardboard tube.",
+        "Swivel Paper Clip: Step 4, Swivel the paper clip against and away from onethumbtack to switch the electric circuit on and off."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 3): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Make a simple electromagnet and use it to.",
-        "Execute & Document: Perform the make task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Happens Compass Needle: Watch what happens to the compass needle as you openand close the circuit.",
+        "Electriccurrent Produces: When you close the circuit, the electriccurrent produces magnetism in the coil of wire.",
+        "Magnetismall Wire Compass: The magnetismall around the wire makes the compass needle swing.",
+        "Whenthe Circuit Broken: Whenthe circuit is broken (you open the paper-clip switch), nomagnetism is produced so the needle again points north."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 3",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Simple electromagnet and use it",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
+        "right_header": "Official BSA Electricity Standard (Simple electromagnet and use it)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 3.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Simple electromagnet and use it.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 3.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 16-21.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 19) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Electricity Workbook organizer.",
+          "Clearly demonstrates and explains Simple electromagnet and use it using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 3",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 3 - Make a simple electromagnet and use it to",
+          "Requirement & Topic": "Req 3 - Simple electromagnet and use it",
           "Primary Standard": "Make a simple electromagnet and use it to show magnetic attraction and repulsion.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 16-21."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 19) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 3 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 3, a Scout claims: \"Reading a short definition of Make a simple electromagnet and use it to is enough for Electricity Requirement 3 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively make the specific principles and real-world steps of Make a simple electromagnet and use it to grounded in the official Electricity pamphlet.",
-          "Skip Requirement 3 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively make the specific principles and real-world steps of Make a simple electromagnet and use it to grounded in the official Electricity pamphlet.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 16-21, Each Scout must actively make the specific principles and real-world steps of Make a simple electromagnet and use it to grounded in the official Electricity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 3."
     },
@@ -835,10 +843,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4a is enough for Electricity Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -858,9 +868,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4a",
+          "sub_req_label": "4a",
+          "sub_req_text": "Explain the difference between direct current and alternating current, the advantages and disadvantages of each, and give a practical example of the use of each type."
         },
         {
           "sub_id": "4b",
@@ -888,10 +901,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 22-27",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 4b is enough for Electricity Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -911,9 +926,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "4b",
+          "sub_req_label": "4b",
+          "sub_req_text": "Explain three ways that electricity is produced."
         }
       ],
       "resources": [
@@ -934,13 +952,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: (a) Explain the difference between direct current and",
+      "topic_title": "Req 4: The difference between direct current",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 4 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 22-27",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 22-27",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
@@ -958,8 +976,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Explain the difference between direct current and is enough for Electricity Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the difference between direct current and grounded in the official Electricity pamphlet."
+        "misconception": "Reading a short definition of The difference between direct current is enough for Electricity Requirement 4 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The difference between direct current grounded in the official Electricity pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The difference between direct current grounded in the official Electricity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -979,63 +999,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Electricity Sub-Req 4a: Explain the difference between direct current and alternating current, the advantages and disadvantages of each, and give a practical example of the use of each type.",
-        "Electricity Sub-Req 4b: Explain three ways that electricity is produced.",
-        "Core Standard 1 (Req 4): Do the following: (a) Explain the difference between direct current and alternating current, the advantages and disadvantages of each, and give a practical example of the use of each type.",
-        "Core Standard 2 (Req 4): (b) Explain three ways that electricity is produced."
+        "Common Electrical Terms: Common Electrical Terms. conductor as copper, but because it is cheaper and lighter, it isalso frequently used. current.",
+        "Transfer Electricity: The transfer of electricity in one direction. cycle.",
+        "Complete Reversal: One complete reversal of alternating current; a forwardcurrent and backward current.",
+        "Ordinary Household: Ordinary household currentexperiences 60 cycles per second (60 hertz). direct current."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 4): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Explain the difference between direct current and.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Electric Current Constant: An electric current of constant direction, that is, the transfer of electrons goes only in one direction.",
+        "Safety Device Installed: A safety device installed in a circuit to prevent anoverload.",
+        "Designed Melt Blow: Designed to melt or “blow” when current exceeds a set amount, it opens the circuit and stops the transfer ofelectricity.",
+        "Device Detects Determines: A device that detects and determines thestrength of electrical currents. ground."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 4",
+        "Activity-Specific Tools, Reference Charts & Study Materials for The difference between direct current",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
+        "right_header": "Official BSA Electricity Standard (The difference between direct current)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 4.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during The difference between direct current.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 4.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 22-27.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Electricity Workbook organizer.",
+          "Clearly demonstrates and explains The difference between direct current using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - (a) Explain the difference between direct current and",
-          "Primary Standard": "Explain the difference between direct current and alternating current, the advantages and disadvantages of eac",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 22-27."
+          "Requirement & Topic": "Req 4 - The difference between direct current",
+          "Primary Standard": "Explain the difference between direct current and alternating current, the advantages and disadvantages of each, and give a practical example of the use of each type.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 4 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 4, a Scout claims: \"Reading a short definition of (a) Explain the difference between direct current and is enough for Electricity Requirement 4 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the difference between direct current and grounded in the official Electricity pamphlet.",
-          "Skip Requirement 4 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the difference between direct current and grounded in the official Electricity pamphlet.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 22-27, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Explain the difference between direct current and grounded in the official Electricity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1064,34 +1074,33 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Make a simple drawing to show how a",
-      "action_verb": "Show",
+      "topic_title": "Req 5: Simple drawing",
+      "action_verb": "Describe",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 5 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 28-33",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 28-33",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 49)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 49)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "RULED_EXPLAIN_BOX",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 5 Concept / Sub-Part",
+          "Key Pamphlet Facts & Field Examples"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "Core Principle",
+          "Real-World Scouting Application",
+          "Key Term / Standard"
         ],
-        "min_rows": 4,
+        "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Make a simple drawing to show how a is enough for Electricity Requirement 5 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Make a simple drawing to show how a grounded in the official Electricity pamphlet."
+        "misconception": "Reading a short definition of Simple drawing is enough for Electricity Requirement 5 sign-off.",
+        "fact": "Each Scout must actively describe the specific principles and real-world steps of Simple drawing grounded in the official Electricity pamphlet.",
+        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Simple drawing grounded in the official Electricity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 49)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1111,63 +1120,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 5): Make a simple drawing to show how a battery and an electric bell work.",
-        "Core Standard 2 (Req 5): Describe the purpose of each of the components.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Electricity Req 5 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Electricity Workbook before requesting Requirement 5 sign-off."
+        "Experiment Shows Wire: This experiment shows that a wire carrying a current issurrounded by an invisible magnetic field, or force, and itillustrates how closely electricity.",
+        "Wrap Length Insulated: Step 1, Wrap a length of insulated (plastic-coated) wire about 20 times around a cardboard tube.",
+        "Slide Small Compass: Step 3, Slide a small compass into the middle of thecardboard tube.",
+        "Swivel Paper Clip: Step 4, Swivel the paper clip against and away from onethumbtack to switch the electric circuit on and off."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 5): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Make a simple drawing to show how a.",
-        "Execute & Document: Perform the show task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Happens Compass Needle: Watch what happens to the compass needle as you openand close the circuit.",
+        "Electriccurrent Produces: When you close the circuit, the electriccurrent produces magnetism in the coil of wire.",
+        "Magnetismall Wire Compass: The magnetismall around the wire makes the compass needle swing.",
+        "Whenthe Circuit Broken: Whenthe circuit is broken (you open the paper-clip switch), nomagnetism is produced so the needle again points north."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 5",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Simple drawing",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 5.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 5.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 28-33.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 5",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 5 - Make a simple drawing to show how a",
-          "Primary Standard": "Make a simple drawing to show how a battery and an electric bell work. Describe the purpose of each of the com",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 28-33."
+          "Requirement & Topic": "Req 5 - Simple drawing",
+          "Primary Standard": "Make a simple drawing to show how a battery and an electric bell work. Describe the purpose of each of the components.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 49) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 5 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 5, a Scout claims: \"Reading a short definition of Make a simple drawing to show how a is enough for Electricity Requirement 5 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Make a simple drawing to show how a grounded in the official Electricity pamphlet.",
-          "Skip Requirement 5 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively show the specific principles and real-world steps of Make a simple drawing to show how a grounded in the official Electricity pamphlet.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 28-33, Each Scout must actively show the specific principles and real-world steps of Make a simple drawing to show how a grounded in the official Electricity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1191,23 +1177,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6a is enough for Electricity Requirement 6a sign-off.",
-            "fact": "Each Scout must actively define the specific principles and real-world steps of Req 6a grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 6a grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 6a grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1227,9 +1218,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6a",
+          "sub_req_label": "6a",
+          "sub_req_text": "Define what overloading an electric circuit means. Tell what you have done to make sure your home circuits are not overloaded."
         },
         {
           "sub_id": "6b",
@@ -1252,10 +1246,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6b is enough for Electricity Requirement 6b sign-off.",
-            "fact": "Each Scout must actively determine the specific principles and real-world steps of Req 6b grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1275,9 +1271,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6b",
+          "sub_req_label": "6b",
+          "sub_req_text": "Determine if there is an overload on a branch circuit by either getting the current draw from all the equipment plugged into the circuit or use the power equation to calculate the current draws."
         },
         {
           "sub_id": "6c",
@@ -1305,10 +1304,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6c is enough for Electricity Requirement 6c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1328,9 +1329,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6c",
+          "sub_req_label": "6c",
+          "sub_req_text": "Explain why a fuse blows and a circuit breaker trips."
         },
         {
           "sub_id": "6d",
@@ -1345,23 +1349,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
             "headers": [
-              "Req 6d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step #",
+              "Physical Technique / Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Step 1: Pre-Task Safety & Gear Check",
+              "Step 2: Core Technique Execution",
+              "Step 3: Quality & Accuracy Verification",
+              "Step 4: Post-Task Reset & Debrief"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 34-39",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 6d is enough for Electricity Requirement 6d sign-off.",
-            "fact": "Each Scout must actively tell the specific principles and real-world steps of Req 6d grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 6d grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 6d grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1381,9 +1390,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "6d",
+          "sub_req_label": "6d",
+          "sub_req_text": "Tell how to find a blown fuse and a tripped circuit breaker in your home. Show how to safely reset the circuit breaker."
         }
       ],
       "resources": [
@@ -1408,13 +1420,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: (a) Define what overloading an electric circuit means",
+      "topic_title": "Req 6: Define what overloading an electric circuit",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 6 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 34-39",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 34-39",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1434,8 +1446,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Define what overloading an electric circuit means is enough for Electricity Requirement 6 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Define what overloading an electric circuit means grounded in the official Electricity pamphlet."
+        "misconception": "Reading a short definition of Define what overloading an electric circuit is enough for Electricity Requirement 6 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Define what overloading an electric circuit grounded in the official Electricity pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Define what overloading an electric circuit grounded in the official Electricity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1455,63 +1469,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Electricity Sub-Req 6a: Define what overloading an electric circuit means. Tell what you have done to make sure your home circuits are not overloaded.",
-        "Electricity Sub-Req 6b: Determine if there is an overload on a branch circuit by either getting the current draw from all the equipment plugged into the circuit.",
-        "Electricity Sub-Req 6c: Explain why a fuse blows and a circuit breaker trips.",
-        "Electricity Sub-Req 6d: Tell how to find a blown fuse and a tripped circuit breaker in your home. Show how to safely reset the circuit breaker."
+        "Electric Current Comes: Electric current comes into your homeon overhead or underground wires.",
+        "Electrical Meter Heavy: From your electrical meter, heavy, well-insulated wires run to a maindistribution center or breaker box, where the main disconnect switch islocated.",
+        "Necessary Switch Shut: If necessary, you can use that switch to shut off allelectric current in your house.",
+        "Fuse Box Circuit: The fuse box or circuit breaker panel is typically locatedin a utility room, in an electric room, in a mechanical room, or near the main power feed."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 6): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Define what overloading an electric circuit means.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Fuses Circuitbreakers Act: Fuses and circuitbreakers act as guards: They prevent currents that are toostrong from traveling into your home’s branch circuits.",
+        "Thetransfer Electricity: If thetransfer of electricity becomes greater than a fuse is designedto handle, the metal element inside the fuse melts and the fuseblows.",
+        "Circuit Breaker: A circuit breaker automatically opens and “trips” the circuit.",
+        "Time Switch Light: Every time you switch on another light or appliance, morecurrent travels through that branch circuit."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 6",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Define what overloading an electric circuit",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 6.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 6.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 34-39.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 6",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 6 - (a) Define what overloading an electric circuit means",
-          "Primary Standard": "Define what overloading an electric circuit means. Tell what you have done to make sure your home circuits are",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 34-39."
+          "Requirement & Topic": "Req 6 - Define what overloading an electric circuit",
+          "Primary Standard": "Define what overloading an electric circuit means. Tell what you have done to make sure your home circuits are not overloaded.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 6 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 6, a Scout claims: \"Reading a short definition of (a) Define what overloading an electric circuit means is enough for Electricity Requirement 6 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Define what overloading an electric circuit means grounded in the official Electricity pamphlet.",
-          "Skip Requirement 6 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Define what overloading an electric circuit means grounded in the official Electricity pamphlet.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 34-39, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Define what overloading an electric circuit means grounded in the official Electricity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1536,13 +1527,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Make a floor plan wiring diagram of the",
+      "topic_title": "Req 7: Floor plan wiring diagram",
       "action_verb": "Make",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 7 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 40-45",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 40-45",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 55)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 55)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1562,8 +1553,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Make a floor plan wiring diagram of the is enough for Electricity Requirement 7 sign-off.",
-        "fact": "Each Scout must actively make the specific principles and real-world steps of Make a floor plan wiring diagram of the grounded in the official Electricity pamphlet."
+        "misconception": "Reading a short definition of Floor plan wiring diagram is enough for Electricity Requirement 7 sign-off.",
+        "fact": "Each Scout must actively make the specific principles and real-world steps of Floor plan wiring diagram grounded in the official Electricity pamphlet.",
+        "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Floor plan wiring diagram grounded in the official Electricity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 55)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1583,63 +1576,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 7): Make a floor plan wiring diagram of the lights, switches, and outlets for a room in your home.",
-        "Core Standard 2 (Req 7): Show which fuse or circuit breaker protects each one.",
-        "Safety & Policy Alignment: Follow the BSA Guide to Safe Scouting, Two-Deep Leadership, and the Buddy System during all Electricity Req 7 activities.",
-        "Counselor Conference Readiness: Record concrete observations, examples, and sketches in your Electricity Workbook before requesting Requirement 7 sign-off."
+        "Electric Current Comes: Electric current comes into your homeon overhead or underground wires.",
+        "Electrical Meter Heavy: From your electrical meter, heavy, well-insulated wires run to a maindistribution center or breaker box, where the main disconnect switch islocated.",
+        "Necessary Switch Shut: If necessary, you can use that switch to shut off allelectric current in your house.",
+        "Fuse Box Circuit: The fuse box or circuit breaker panel is typically locatedin a utility room, in an electric room, in a mechanical room, or near the main power feed."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 7): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Make a floor plan wiring diagram of the.",
-        "Execute & Document: Perform the make task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Fuses Circuitbreakers Act: Fuses and circuitbreakers act as guards: They prevent currents that are toostrong from traveling into your home’s branch circuits.",
+        "Thetransfer Electricity: If thetransfer of electricity becomes greater than a fuse is designedto handle, the metal element inside the fuse melts and the fuseblows.",
+        "Circuit Breaker: A circuit breaker automatically opens and “trips” the circuit.",
+        "Time Switch Light: Every time you switch on another light or appliance, morecurrent travels through that branch circuit."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 7",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Floor plan wiring diagram",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 7.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 7.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 40-45.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 7",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 7 - Make a floor plan wiring diagram of the",
-          "Primary Standard": "Make a floor plan wiring diagram of the lights, switches, and outlets for a room in your home. Show which fuse",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 40-45."
+          "Requirement & Topic": "Req 7 - Floor plan wiring diagram",
+          "Primary Standard": "Make a floor plan wiring diagram of the lights, switches, and outlets for a room in your home. Show which fuse or circuit breaker protects each one.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 55) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 7 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 7, a Scout claims: \"Reading a short definition of Make a floor plan wiring diagram of the is enough for Electricity Requirement 7 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively make the specific principles and real-world steps of Make a floor plan wiring diagram of the grounded in the official Electricity pamphlet.",
-          "Skip Requirement 7 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively make the specific principles and real-world steps of Make a floor plan wiring diagram of the grounded in the official Electricity pamphlet.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 40-45, Each Scout must actively make the specific principles and real-world steps of Make a floor plan wiring diagram of the grounded in the official Electricity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 7."
     },
@@ -1676,10 +1646,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8a is enough for Electricity Requirement 8a sign-off.",
-            "fact": "Each Scout must actively read the specific principles and real-world steps of Req 8a grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1699,9 +1671,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8a",
+          "sub_req_label": "8a",
+          "sub_req_text": "Read a meter associated with an electric bill. Determine the total power used since the bill, and the cost of that power."
         },
         {
           "sub_id": "8b",
@@ -1729,10 +1704,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8b is enough for Electricity Requirement 8b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1752,9 +1729,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8b",
+          "sub_req_label": "8b",
+          "sub_req_text": "Explain other charges on the bill that were taxes or fees."
         },
         {
           "sub_id": "8c",
@@ -1782,10 +1762,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 46-51",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 8c is enough for Electricity Requirement 8c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 8c grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 8c grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 8c grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1805,9 +1787,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "8c",
+          "sub_req_label": "8c",
+          "sub_req_text": "Discuss with your counselor five ways your family can conserve energy."
         }
       ],
       "resources": [
@@ -1832,13 +1817,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: (a) Read a meter associated with an electric",
+      "topic_title": "Req 8: Read a meter associated",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 8 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 46-51",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 46-51",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
@@ -1858,8 +1843,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Read a meter associated with an electric is enough for Electricity Requirement 8 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of (a) Read a meter associated with an electric grounded in the official Electricity pamphlet."
+        "misconception": "Reading a short definition of Read a meter associated is enough for Electricity Requirement 8 sign-off.",
+        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Read a meter associated grounded in the official Electricity pamphlet.",
+        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Read a meter associated grounded in the official Electricity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1879,63 +1866,40 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Electricity Sub-Req 8a: Read a meter associated with an electric bill. Determine the total power used since the bill, and the cost of that power.",
-        "Electricity Sub-Req 8b: Explain other charges on the bill that were taxes or fees.",
-        "Electricity Sub-Req 8c: Discuss with your counselor five ways your family can conserve energy.",
-        "Core Standard 1 (Req 8): Do the following: (a) Read a meter associated with an electric bill."
+        "Dial Analog Meter: With the dial (analog) meter, beginning with the lefthand dial in the illustration below, notice that the lastfigure passed by the pointer is 1.",
+        "Onthe Fourth Dial: Onthe fourth dial, the pointer is between 9 and 0.",
+        "Consider Case Smaller: Consider 9 in this case to be smaller than 0 because the 0 is really a 10.",
+        "Write Down Number: Also, you always write down the number thepointer has just passed, not the number it is movingtoward."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 8): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Read a meter associated with an electric.",
-        "Execute & Document: Perform the demonstrate task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Out Kilowatt-hours Usedat: To find out how many kilowatt-hours you usedat your house in one month, subtract last month’sreading, which can be found on your last electric.",
+        "Part Requirement Learn: As part of requirement 8, you must learn how to readan electric meter.",
+        "Locate Electric Meter: Locate the electric meter at your home orapartment.",
+        "Digital Display Type: It will be either the digital display type or atraditional dial meter."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 8",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Read a meter associated",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 8.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 8.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 46-51.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 8",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 8 - (a) Read a meter associated with an electric",
-          "Primary Standard": "Read a meter associated with an electric bill. Determine the total power used since the bill, and the cost of ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 46-51."
+          "Requirement & Topic": "Req 8 - Read a meter associated",
+          "Primary Standard": "Read a meter associated with an electric bill. Determine the total power used since the bill, and the cost of that power.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 8 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 8, a Scout claims: \"Reading a short definition of (a) Read a meter associated with an electric is enough for Electricity Requirement 8 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Read a meter associated with an electric grounded in the official Electricity pamphlet.",
-          "Skip Requirement 8 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively demonstrate the specific principles and real-world steps of (a) Read a meter associated with an electric grounded in the official Electricity pamphlet.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 46-51, Each Scout must actively demonstrate the specific principles and real-world steps of (a) Read a meter associated with an electric grounded in the official Electricity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 8."
     },
@@ -1972,10 +1936,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9a is enough for Electricity Requirement 9a sign-off.",
-            "fact": "Each Scout must actively electrical the specific principles and real-world steps of Req 9a grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9a grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9a grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1995,9 +1961,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9a",
+          "sub_req_label": "9a",
+          "sub_req_text": "Electrical terms: current, energy, power, resistance, and voltage"
         },
         {
           "sub_id": "9b",
@@ -2025,10 +1994,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9b is enough for Electricity Requirement 9b sign-off.",
-            "fact": "Each Scout must actively units the specific principles and real-world steps of Req 9b grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2048,9 +2019,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9b",
+          "sub_req_label": "9b",
+          "sub_req_text": "Units of measure: ampere (amps), ohms, volts, watts, and watt-hours"
         },
         {
           "sub_id": "9c",
@@ -2082,10 +2056,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9c is enough for Electricity Requirement 9c sign-off.",
-            "fact": "Each Scout must actively electrical the specific principles and real-world steps of Req 9c grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9c grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9c grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2105,9 +2081,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9c",
+          "sub_req_label": "9c",
+          "sub_req_text": "Electrical conditions: generating source with example, ground, open circuit, overvoltage, potential difference, and short circuit"
         },
         {
           "sub_id": "9d",
@@ -2139,10 +2118,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 52-57",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 9d is enough for Electricity Requirement 9d sign-off.",
-            "fact": "Each Scout must actively equipment the specific principles and real-world steps of Req 9d grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9d grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9d grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2162,9 +2143,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "9d",
+          "sub_req_label": "9d",
+          "sub_req_text": "Equipment and their use: circuit, conductor, Ground Fault Circuit Interrupter (GFCI), insulator, inverter, rectifier, rheostat, substation, surge protection, solar panel, transformer, transmission and distribution systems, and wind turbine."
         }
       ],
       "resources": [
@@ -2201,13 +2185,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Explain the following: (a) Electrical terms: current, energy",
+      "topic_title": "Req 9: Electrical terms",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 9 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 52-57",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 52-57",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2224,8 +2208,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Explain the following: (a) Electrical terms: current, energy is enough for Electricity Requirement 9 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) Electrical terms: current, energy grounded in the official Electricity pamphlet."
+        "misconception": "Reading a short definition of Electrical terms is enough for Electricity Requirement 9 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Electrical terms grounded in the official Electricity pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Electrical terms grounded in the official Electricity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2245,63 +2231,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Electricity Sub-Req 9a: Electrical terms: current, energy, power, resistance, and voltage",
-        "Electricity Sub-Req 9b: Units of measure: ampere (amps), ohms, volts, watts, and watt-hours",
-        "Electricity Sub-Req 9c: Electrical conditions: generating source with example, ground, open circuit, overvoltage, potential difference, and short circuit",
-        "Electricity Sub-Req 9d: Equipment and their use: circuit, conductor, Ground Fault Circuit Interrupter (GFCI), insulator, inverter, rectifier, rheostat, substation, surge protection, solar panel, transformer, transmission and distribution."
+        "Unit Frequency Equal: A unit of frequency equal to one cycle per second.",
+        "Ungrounded Conductor: Ungrounded conductor carrying electrical current.",
+        "Identified Black Red: Usually identified by black or red insulation. insulation.",
+        "Covering Nonconducting: Covering of nonconducting material used on wires. insulator."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 9): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Explain the following: (a) Electrical terms: current, energy.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Material Does Not: A material that does not conduct electricity, such asrubber or plastic. kilowatt.",
+        "Unit Energy Metering: Unit of energy used for metering and sellingelectricity.",
+        "Kilowatt-hour Equals Watts: One kilowatt-hour equals 1,000 watts used for onehour (or any equivalent, such as 500 watts used for two hours).",
+        "Part Electrical Circuit: The part of an electrical circuit that uses the electricpower."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 9",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Electrical terms",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
+        "right_header": "Official BSA Electricity Standard (Electrical terms)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 9.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Electrical terms.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 9.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 52-57.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Electricity Workbook organizer.",
+          "Clearly demonstrates and explains Electrical terms using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 9",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 9 - Explain the following: (a) Electrical terms: current, energy",
-          "Primary Standard": "Electrical terms: current, energy, power, resistance, and voltage",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 52-57."
+          "Requirement & Topic": "Req 9 - Electrical terms",
+          "Primary Standard": "Electrical terms: current, energy, power, resistance, and voltage.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 9 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 9, a Scout claims: \"Reading a short definition of Explain the following: (a) Electrical terms: current, energy is enough for Electricity Requirement 9 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) Electrical terms: current, energy grounded in the official Electricity pamphlet.",
-          "Skip Requirement 9 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) Electrical terms: current, energy grounded in the official Electricity pamphlet.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 52-57, Each Scout must actively explain the specific principles and real-world steps of Explain the following: (a) Electrical terms: current, energy grounded in the official Electricity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 9."
     },
@@ -2338,10 +2314,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10a is enough for Electricity Requirement 10a sign-off.",
-            "fact": "Each Scout must actively connect the specific principles and real-world steps of Req 10a grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10a grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10a grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2361,9 +2339,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10a",
+          "sub_req_label": "10a",
+          "sub_req_text": "Connect a buzzer, bell, or light with a battery. Have a key or switch in the line."
         },
         {
           "sub_id": "10b",
@@ -2394,15 +2375,17 @@
             "min_rows": 4,
             "pre_approval_gate": true
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10b is enough for Electricity Requirement 10b sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 10b grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 10b grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 10b grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
             "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Obtain your Merit Badge Counselor's approval on your Electricity Req 10b plan before executing the project.",
+            "gate_description": "Review your Electricity Req 10b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
             "blocking_in_class": false
           },
           "curated_resources": [
@@ -2422,9 +2405,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10b",
+          "sub_req_label": "10b",
+          "sub_req_text": "Make and run a simple electric motor (from a kit is acceptable, if approved by your counselor ahead of time)."
         },
         {
           "sub_id": "10c",
@@ -2455,10 +2441,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10c is enough for Electricity Requirement 10c sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 10c grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 10c grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 10c grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2478,9 +2466,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10c",
+          "sub_req_label": "10c",
+          "sub_req_text": "Build a simple rheostat. Show that it works."
         },
         {
           "sub_id": "10d",
@@ -2511,10 +2502,12 @@
             "min_rows": 4,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10d is enough for Electricity Requirement 10d sign-off.",
-            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 10d grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 10d grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 10d grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2534,9 +2527,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10d",
+          "sub_req_label": "10d",
+          "sub_req_text": "Build a single-pole, double-throw switch. Show that it works."
         },
         {
           "sub_id": "10e",
@@ -2564,10 +2560,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10e is enough for Electricity Requirement 10e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10e grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10e grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10e grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2587,9 +2585,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10e",
+          "sub_req_label": "10e",
+          "sub_req_text": "Explain how 3-way switch wiring works in a lighting circuit."
         },
         {
           "sub_id": "10f",
@@ -2617,10 +2618,12 @@
             "min_rows": 3,
             "pre_approval_gate": false
           },
-          "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 58-63",
+          "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)",
           "common_misconception_pair": {
             "misconception": "Reading a short definition of Req 10f is enough for Electricity Requirement 10f sign-off.",
-            "fact": "Each Scout must actively connect the specific principles and real-world steps of Req 10f grounded in the official Electricity pamphlet."
+            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10f grounded in the official Electricity pamphlet.",
+            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10f grounded in the official Electricity pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2640,9 +2643,12 @@
               "title": "Scouting America Guide to Safe Scouting & YPT Standards",
               "url": "https://www.scouting.org/health-and-safety/gss/",
               "source_org": "Scouting America Health & Safety",
-              "resource_type": "Interactive Tool"
+              "resource_type": "Safety Standard"
             }
-          ]
+          ],
+          "id": "10f",
+          "sub_req_label": "10f",
+          "sub_req_text": "Connect two lights together in a series circuit along with a battery and a switch. Then connect the same circuit in parallel. Discuss the differences in the two circuits."
         }
       ],
       "resources": [
@@ -2679,13 +2685,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 10: (a) Connect a buzzer, bell, or light with",
+      "topic_title": "Req 10: Connect a buzzer, bell, or light",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 10 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 58-63",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 58-63",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2702,13 +2708,15 @@
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of (a) Connect a buzzer, bell, or light with is enough for Electricity Requirement 10 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of (a) Connect a buzzer, bell, or light with grounded in the official Electricity pamphlet."
+        "misconception": "Reading a short definition of Connect a buzzer, bell, or light is enough for Electricity Requirement 10 sign-off.",
+        "fact": "Each Scout must actively explain the specific principles and real-world steps of Connect a buzzer, bell, or light grounded in the official Electricity pamphlet.",
+        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Connect a buzzer, bell, or light grounded in the official Electricity pamphlet.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
         "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Obtain your Merit Badge Counselor's approval on your Electricity Req 10 plan before executing the project.",
+        "gate_description": "Review your Electricity Req 10 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
         "blocking_in_class": false
       },
       "curated_resources": [
@@ -2728,63 +2736,53 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Electricity Sub-Req 10a: Connect a buzzer, bell, or light with a battery. Have a key or switch in the line.",
-        "Electricity Sub-Req 10b: Make and run a simple electric motor (from a kit is acceptable, if approved by your counselor ahead of time).",
-        "Electricity Sub-Req 10c: Build a simple rheostat. Show that it works.",
-        "Electricity Sub-Req 10d: Build a single-pole, double-throw switch. Show that it works."
+        "Common Cause Blown: One common cause for a blown fuse or tripped circuit breakeris a defective or frayed cord.",
+        "Insulation Wears Off: Insulation wears off and the barewires short-circuit.",
+        "Flash Light Smell: A flash of light and a smell of burninginsulation indicate a short circuit.",
+        "Since Current: Since the current suddenlyencounters lower resistance, more current transfers, and thatblows a fuse or trips the circuit breaker."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 10): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing (a) Connect a buzzer, bell, or light with.",
-        "Execute & Document: Perform the explain task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Circuit Breakers Homes: Some circuit breakers used in homes are the push-pushtype; others have a handle that must be pushed to the offposition before the breaker.",
+        "Follow Instructions Home: Follow the instructions on your home’s circuit breaker panelto properly reset whatever type you have.",
+        "Fuse Boxes Not: Fuse boxes have not been used in home or businessconstruction for many years.",
+        "However Encounter Fuse: However, you might encounter a fuse box in an older building."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 10)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 10",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Connect a buzzer, bell, or light",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
       "comparison_data": {
         "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
+        "right_header": "Official BSA Electricity Standard (Connect a buzzer, bell, or light)",
         "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 10.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
+          "Skips pre-task preparation and relies on guesswork during Connect a buzzer, bell, or light.",
+          "Brings incomplete, one-word notes without verifiable examples or measurements.",
+          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
         ],
         "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 10.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 58-63.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
+          "Reviews Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49) and completes all prerequisite preparation before the session.",
+          "Records concrete examples, definitions, and observations in the Electricity Workbook organizer.",
+          "Clearly demonstrates and explains Connect a buzzer, bell, or light using the BSA EDGE method."
         ]
       },
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 10",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 10 - (a) Connect a buzzer, bell, or light with",
+          "Requirement & Topic": "Req 10 - Connect a buzzer, bell, or light",
           "Primary Standard": "Connect a buzzer, bell, or light with a battery. Have a key or switch in the line.",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 58-63."
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 10 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 10 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 10, a Scout claims: \"Reading a short definition of (a) Connect a buzzer, bell, or light with is enough for Electricity Requirement 10 sign-off.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) Connect a buzzer, bell, or light with grounded in the official Electricity pamphlet.",
-          "Skip Requirement 10 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Each Scout must actively explain the specific principles and real-world steps of (a) Connect a buzzer, bell, or light with grounded in the official Electricity pamphlet.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 58-63, Each Scout must actively explain the specific principles and real-world steps of (a) Connect a buzzer, bell, or light with grounded in the official Electricity pamphlet."
-      },
+      "quiz_item": null,
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 10."
     },
@@ -2813,13 +2811,13 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 11: Electricity Careers, Training & Hobby Pathways",
+      "topic_title": "Req 11: Careers & Professional Pathways",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electricity Requirement 11 activities.",
-      "pamphlet_citation": "Official BSA Electricity Pamphlet, pp. 64-69",
-      "pamphlet_page_citation": "Official BSA Electricity Pamphlet, pp. 64-69",
+      "pamphlet_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 73, p. 74)",
+      "pamphlet_page_citation": "Official Scouting America Electricity Merit Badge Pamphlet (p. 73, p. 74)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2836,8 +2834,10 @@
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a web search satisfies the Electricity career exploration requirement.",
-        "fact": "Scouts must research three Electricity careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
+        "misconception": "Listing three job titles from a quick web search satisfies the Electricity career exploration requirement.",
+        "fact": "Scouts must research specific Electricity career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "fact_correction": "Scouts must research specific Electricity career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "pamphlet_page_ref": "Official Scouting America Electricity Merit Badge Pamphlet (p. 73, p. 74)"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2857,68 +2857,48 @@
           "title": "Scouting America Guide to Safe Scouting & YPT Standards",
           "url": "https://www.scouting.org/health-and-safety/gss/",
           "source_org": "Scouting America Health & Safety",
-          "resource_type": "Interactive Tool"
+          "resource_type": "Safety Standard"
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 11): Identify three career opportunities that would use skills and knowledge in electricity.",
-        "Core Standard 2 (Req 11): Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field.",
-        "Core Standard 3 (Req 11): Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
-        "Core Standard 4 (Req 11): Discuss what you learned with your counselor and whether you might be interested in this career."
+        "Electrical Industry Several: The electrical industry has several general areas with manytypes of careers available in each area.",
+        "Areas Includemanufacturing: These areas includemanufacturing, construction, merchandising, operating, servicing or maintaining, and engineering electrical parts, equipment.",
+        "Positions Require College: Some positions require a college degree, while a degreefrom a vocational school is adequate for other careers.",
+        "Somecompanies Allow: Somecompanies allow on-the-job training, but almost all require atleast a high school diploma."
       ],
       "step_by_step_procedure": [
-        "Prepare & Inspect (Req 11): Review the official Electricity requirement standard and verify all required tools, reference tables, and safety gear.",
-        "Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing Electricity Careers, Training & Hobby Pathways.",
-        "Execute & Document: Perform the identify task methodically with your patrol buddy and log specific observations in your Electricity Workbook.",
-        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off."
+        "Electricity Manufacturing: In electricity manufacturing (electrical generatingstations, transmission, and distribution substation systems) positions are available.",
+        "Occupationsinclude Assemblers: Occupationsinclude assemblers, that is, the people who help build electricalequipment and/or systems.",
+        "High School Education: A high school education is neededas well as mechanical aptitude.",
+        "Merchandising Sales Field: Merchandising, or sales, is another field for thoseinterested in electricity."
       ],
       "gear_checklist": [
         "Official Electricity Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 11)",
-        "Activity-Specific Tools, Reference Charts & Measuring Instruments for Electricity Req 11",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
-      "comparison_data": {
-        "left_header": "Unprepared / Informal Electricity Approach",
-        "right_header": "Official BSA Electricity Pamphlet Standard",
-        "left_points": [
-          "Skips pre-task hazard scan and relies on guesswork during Requirement 11.",
-          "Provides vague, one-word workbook notes without measurable field evidence.",
-          "Rushes past buddy verification and cannot explain why each step matters."
-        ],
-        "right_points": [
-          "Completes a structured safety and equipment check before starting Requirement 11.",
-          "Records concrete measurements, examples, and citations from Official BSA Electricity Pamphlet, pp. 64-69.",
-          "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable)."
-        ]
-      },
+      "comparison_data": null,
       "worked_example": {
         "title": "Sample Verified Workbook Entry: Electricity Req 11",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 11 - Electricity Careers, Training & Hobby Pathways",
-          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in electricity. Pick one and research ",
-          "Field Evidence Recorded": "Completed structured organizer table with specific measurements, dates, and Electricity terminology.",
-          "Safety & Verification": "Verified with patrol buddy and reviewed against Official BSA Electricity Pamphlet, pp. 64-69."
+          "Requirement & Topic": "Req 11 - Careers & Professional Pathways",
+          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in electricity.",
+          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Electricity terminology.",
+          "Safety & Verification": "Reviewed against Official Scouting America Electricity Merit Badge Pamphlet (p. 73, p. 74) and verified during counselor conference."
         },
-        "counselor_tip": "Bring your filled-in Electricity Req 11 organizer table to class so we can focus our session time on hands-on demonstrations and Socratic discussion."
+        "counselor_tip": "Complete your Electricity Req 11 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
       },
-      "quiz_item": {
-        "scenario_prompt": "During a patrol review of Electricity Requirement 11, a Scout claims: \"Listing three job titles from a web search satisfies the Electricity career exploration requirement.\" How should you respond?",
-        "options": [
-          "Agree with the claim so the patrol can finish the requirement faster",
-          "Correct the misconception: Scouts must research three Electricity careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-          "Skip Requirement 11 until after the troop court of honor",
-          "Sign off the Blue Card without completing the practical verification"
-        ],
-        "correct_answer": "Option B - Correct the misconception: Scouts must research three Electricity careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor.",
-        "explanation": "Per Official BSA Electricity Pamphlet, pp. 64-69, Scouts must research three Electricity careers and discuss the specific education, training, licensing, and daily duties for one chosen career with their counselor."
-      },
+      "quiz_item": null,
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Electricity Workbook organizer table and practical demonstration for Req 11."
     }
   ],
   "badge_slug": "electricity",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0"
+  "schema_baseline_version": "2.1.0",
+  "is_test_lab": false,
+  "is_discontinued": false,
+  "status": "ACTIVE"
 }
