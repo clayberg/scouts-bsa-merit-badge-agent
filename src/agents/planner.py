@@ -334,12 +334,12 @@ def _build_slide_teaching_notes(
             f"[Expected Answer: Bring your signed Blue Card (#34124) or Scoutbook record, any prerequisite logs or field artifacts, and be ready to explain or demonstrate any open requirement.]"
         )
         misc_line = (
-            f"[COMMON MISCONCEPTION TO CORRECT] Myth: A partial Blue Card expires at the end of summer camp or the Merit Badge College. "
-            f"BSA Pamphlet Fact: Under Scouting America rules, signed partial requirements on a Blue Card (#34124) never expire until the Scout turns 18."
+            "[COMMON MISCONCEPTION TO CORRECT] Myth: A partial Blue Card expires at the end of summer camp or the Merit Badge College. "
+            "BSA Pamphlet Fact: Under Scouting America rules, signed partial requirements on a Blue Card (#34124) never expire until the Scout turns 18."
         )
         rubric_line = (
-            f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up Blue Card #34124 Applicant's Record and Counselor's Record] "
-            f"Initial each completed requirement in the Multi-Troop Blue Card Triage Matrix and issue a Smart Partial plan for any remaining home-troop follow-up items."
+            "[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up Blue Card #34124 Applicant's Record and Counselor's Record] "
+            "Initial each completed requirement in the Multi-Troop Blue Card Triage Matrix and issue a Smart Partial plan for any remaining home-troop follow-up items."
         )
         return "\n".join(_sanitize_no_ellipsis_or_emdash(ln) for ln in (pacing_line, ask_line, key_line, misc_line, rubric_line))
 

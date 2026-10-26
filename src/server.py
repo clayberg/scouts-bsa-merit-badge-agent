@@ -1758,8 +1758,8 @@ def _synthesize_studio_narrative_script(
             f"Official {badge_name} Merit Badge Pamphlet & 1-Page Class Preparation Page (CPP)."
         )
         misc_cover = (
-            f"[COMMON MISCONCEPTION TO CORRECT] Myth: Filling out a merit badge workbook before class automatically signs off the badge. "
-            f"Fact: Per Scouting America Guide to Advancement Section 7.0.3.2, workbooks are optional study aids; every Scout must still personally discuss, demonstrate, or explain each requirement."
+            "[COMMON MISCONCEPTION TO CORRECT] Myth: Filling out a merit badge workbook before class automatically signs off the badge. "
+            "Fact: Per Scouting America Guide to Advancement Section 7.0.3.2, workbooks are optional study aids; every Scout must still personally discuss, demonstrate, or explain each requirement."
         )
         demo_cover = (
             f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up a sample signed Blue Card (#34124) alongside the {badge_name} Workbook] "

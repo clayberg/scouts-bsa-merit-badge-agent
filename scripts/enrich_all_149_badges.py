@@ -504,15 +504,15 @@ def _build_rich_pedagogy_for_req(
         f"Prepare & Inspect (Req {req_num}): Review the official {badge_name} requirement standard and verify all required tools, reference tables, and safety gear.",
         f"Analyze Core Principles: Identify the primary concepts, definitions, and cause-and-effect relationships governing {topic_title.replace(f'Req {req_num}: ', '')}.",
         f"Execute & Document: Perform the {verb.lower()} task methodically with your patrol buddy and log specific observations in your {badge_name} Workbook.",
-        f"Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off.",
+        "Verify With Counselor: Present your completed work, demonstrate proficiency, and answer Socratic check-for-understanding questions for Blue Card sign-off.",
     ]
 
     # 3. Build 4 gear_checklist items
     gear_checklist = [
         f"Official {badge_name} {'Test Lab Guide' if is_tl else 'Merit Badge Pamphlet'} & Fillable Scout Workbook (open to Req {req_num})",
         f"Activity-Specific Tools, Reference Charts & Measuring Instruments for {badge_name} Req {req_num}",
-        f"Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        f"Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record",
+        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
+        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record",
     ]
 
     # 4. Build comparison_data
@@ -527,7 +527,7 @@ def _build_rich_pedagogy_for_req(
         "right_points": [
             f"Completes a structured safety and equipment check before starting Requirement {req_num}.",
             f"Records concrete measurements, examples, and citations from {citation}.",
-            f"Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable).",
+            "Demonstrates mastery using the BSA EDGE method (Explain, Demonstrate, Guide, Enable).",
         ],
     }
 
