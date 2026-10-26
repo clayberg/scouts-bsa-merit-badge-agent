@@ -2013,15 +2013,39 @@ function bindFilterAndSlideControls() {
   });
 
   document.getElementById("btn-download-agenda-md")?.addEventListener("click", () => {
-    const md = state.currentResult?.session_agenda?.agenda_markdown || "# Session Lesson Plan";
-    const badgeSlug = (state.currentResult?.badge_name || "Merit_Badge").replace(/\s+/g, "_");
-    triggerMarkdownDownload(`${badgeSlug}_Session_Agenda.md`, md);
+    const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
+    const fmt = document.getElementById("studiokit-schedule-select")?.value || "3 Troop Meetings (45 min each)";
+    const counselor = document.getElementById("input-counselor-name")?.value || "Eric Clayberg";
+    const troop = document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council";
+    const url = `/api/v1/studiokit/agenda.pdf?badge_name=${encodeURIComponent(badge)}&schedule_format=${encodeURIComponent(
+      fmt
+    )}&counselor_name=${encodeURIComponent(counselor)}&troop_name=${encodeURIComponent(troop)}`;
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `${badge.replace(/\s+/g, "_")}_session_agenda.pdf`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   });
 
   document.getElementById("btn-download-letter-md")?.addEventListener("click", () => {
-    const md = getLiveParentLetterMarkdown(state.currentResult);
-    const badgeSlug = (state.currentResult?.badge_name || "Merit_Badge").replace(/\s+/g, "_");
-    triggerMarkdownDownload(`${badgeSlug}_Parent_Prerequisite_Letter.md`, md);
+    const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
+    const stageBtn = document.querySelector("#letter-stage-pill-group .m3-quick-mode-btn.active");
+    const stage = stageBtn?.getAttribute("data-letter-stage") || "stage_1_welcome_cpp";
+    const counselor = document.getElementById("input-counselor-name")?.value || "Eric Clayberg";
+    const troop = document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council";
+    const email = document.getElementById("input-counselor-email")?.value || "counselor@troop19.org";
+    const url = `/api/v1/studiokit/parent-letter.pdf?badge_name=${encodeURIComponent(badge)}&stage=${encodeURIComponent(
+      stage
+    )}&counselor_name=${encodeURIComponent(counselor)}&troop_name=${encodeURIComponent(
+      troop
+    )}&counselor_email=${encodeURIComponent(email)}`;
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `${badge.replace(/\s+/g, "_")}_parent_prerequisite_letter.pdf`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   });
 }
 
@@ -2610,15 +2634,13 @@ function hydrateWorkbench(rawResult, options = {}) {
 
   // Download & Resource buttons (respect sticky .PPTX vs Google Slides export preference)
   syncDeckExportSplitButtonUi(state.preferredExportMode || "pptx");
-  const wbBtn = document.getElementById("btn-download-workbook");
-  const wbBtnTop = document.getElementById("btn-download-workbook-top");
-  if (result.workbook_download_url) {
-    if (wbBtn) wbBtn.href = `${result.workbook_download_url}?v=${Date.now()}`;
-    if (wbBtnTop) wbBtnTop.href = `${result.workbook_download_url}?v=${Date.now()}`;
-  }
   const pdfWbHref = `/api/v1/studiokit/fillable-workbook.pdf?badge_name=${encodeURIComponent(
     result.badge_name || "First Aid"
   )}&option_track=${encodeURIComponent(result.option_track || "ALL")}`;
+  const wbBtn = document.getElementById("btn-download-workbook");
+  const wbBtnTop = document.getElementById("btn-download-workbook-top");
+  if (wbBtn) wbBtn.href = pdfWbHref;
+  if (wbBtnTop) wbBtnTop.href = pdfWbHref;
   const wbPdfBtn1 = document.getElementById("btn-workbook-download-fillable-pdf");
   const wbPdfBtn2 = document.getElementById("btn-studiokit-download-fillable-pdf");
   if (wbPdfBtn1) wbPdfBtn1.href = pdfWbHref;
@@ -2653,7 +2675,7 @@ function hydrateWorkbench(rawResult, options = {}) {
       </div>
       <div class="m3-trace-item">
         <div class="m3-trace-top"><span>3. PowerPoint, Workbook &amp; StudioKit</span><span class="m3-trace-meta">$${(finops.estimated_cost_usd || 0.14).toFixed(2)}</span></div>
-        <div class="m3-trace-desc">Ready to preview and download (.pptx slide deck, .md workbook, lesson plan &amp; parent letter).</div>
+        <div class="m3-trace-desc">Ready to preview and download (.pptx slide deck, .pdf fillable workbook, lesson plan &amp; parent letter).</div>
       </div>
     `;
     traceList.classList.add("hidden");
@@ -3845,7 +3867,7 @@ function renderActiveSlide(idx) {
   const isBoxedContainerMode = effStyle.text_container_style === "BOXED_CARDS";
   const isCleanOrLineMode = !isBoxedContainerMode;
   const effectiveCardTheme =
-    isCleanOrLineMode && !slide._customThemeOverride && archetype !== "SAFETY_CRITICAL_CALLOUT"
+    !slide._customThemeOverride && archetype !== "SAFETY_CRITICAL_CALLOUT"
       ? "NUMBERED_STEP_CARDS"
       : normTheme;
   if (themeChip) themeChip.textContent = `🎨 ${formatSlideThemeLabel(tokens.tier)} • ${effectiveCardTheme}`;
@@ -3981,14 +4003,12 @@ function renderActiveSlide(idx) {
     }
 
     if (!tokens.isBeautified) {
-      if (isCleanOrLineMode) {
-        prefix = `<span class="m3-clean-point-marker" style="color:${anchorColor};">▸</span> `;
-      }
+      prefix = `<span class="m3-clean-point-marker" style="color:${anchorColor}; margin-right:5px;">▸</span> `;
       return { style, anchorColor, bodyColor, prefix };
     }
 
     const effectiveCardTheme =
-      isCleanOrLineMode && !slide._customThemeOverride && archetype !== "SAFETY_CRITICAL_CALLOUT"
+      !slide._customThemeOverride && archetype !== "SAFETY_CRITICAL_CALLOUT"
         ? "NUMBERED_STEP_CARDS"
         : normTheme;
 
@@ -4022,8 +4042,8 @@ function renderActiveSlide(idx) {
       style = `background:${tokens.cardBg}; border:1.5px solid ${tokens.accentHex}; border-top:5px solid ${tokens.primaryHex}; color:${tokens.textFg}; box-shadow:0 3px 10px rgba(15,23,42,0.08);${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
       prefix = `<span style="color:${tokens.accentHex}; font-weight:900; margin-right:6px;">◆</span>`;
     } else {
-      // NUMBERED_STEP_CARDS (default) — Only show 01..04 badges in Clean/Line mode when the slide is genuinely sequential
-      if (isCleanOrLineMode && !isSequentialSlide) {
+      // NUMBERED_STEP_CARDS (default) — Keep point marker style invariant across Clean, Line, and Boxed container modes
+      if (!slide._customThemeOverride && !isSequentialSlide) {
         prefix = `<span class="m3-clean-point-marker" style="color:${anchorColor}; margin-right:5px;">▸</span>`;
       } else {
         const numFg = tokens.isStudio ? "#0F172A" : "#FFFFFF";
@@ -6761,8 +6781,12 @@ function bindCounselorToolkitActions() {
     )}&troop_name=${encodeURIComponent(troop)}`;
     const wbLink1 = document.getElementById("btn-workbook-download-fillable-pdf");
     const wbLink2 = document.getElementById("btn-studiokit-download-fillable-pdf");
+    const wbLinkTop = document.getElementById("btn-download-workbook-top");
+    const wbLink3 = document.getElementById("btn-download-workbook");
     if (wbLink1) wbLink1.href = pdfHref;
     if (wbLink2) wbLink2.href = pdfHref;
+    if (wbLinkTop) wbLinkTop.href = pdfHref;
+    if (wbLink3) wbLink3.href = pdfHref;
     const cppHref = `/api/v1/studiokit/class-prep-cpp.pdf?badge_name=${encodeURIComponent(badge)}`;
     const cppLink1 = document.getElementById("btn-class-prep-cpp-pdf");
     const cppLink2 = document.getElementById("btn-studiokit-open-cpp-pdf");
@@ -7121,13 +7145,8 @@ function bindCounselorToolkitActions() {
     const html = document.getElementById("studiokit-agenda-preview")?.innerHTML || "";
     printHtmlDocument(`${badge} Merit Badge — Counselor Teaching Plan`, fmt, html);
   });
-  document.getElementById("btn-download-agenda-md")?.addEventListener("click", () => {
-    const badge = (state.currentResult?.badge_name || "Merit_Badge").replace(/\s+/g, "_");
-    const md = state.currentResult?.session_agenda?.agenda_markdown || "";
-    triggerMarkdownDownload(`${badge}_Session_Agenda.md`, md);
-  });
 
-  // F4: Parent Prerequisite Letter Copy, mailto:, Gmail Compose, Print & .MD Download
+  // F4: Parent Prerequisite Letter Copy, mailto:, Gmail Compose, Print & .PDF Download
   document.getElementById("btn-copy-letter")?.addEventListener("click", (e) => {
     const md = getLiveParentLetterMarkdown(state.currentResult);
     copyTextWithFeedback(e.currentTarget, md, "✅ Copied Letter!");
@@ -7174,11 +7193,6 @@ function bindCounselorToolkitActions() {
     const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
     const html = document.getElementById("studiokit-letter-preview")?.innerHTML || "";
     printHtmlDocument(`${badge} Merit Badge — Parent Prerequisite & Youth Protection Letter`, troop, html);
-  });
-  document.getElementById("btn-download-letter-md")?.addEventListener("click", () => {
-    const badge = (state.currentResult?.badge_name || "Merit_Badge").replace(/\s+/g, "_");
-    const md = getLiveParentLetterMarkdown(state.currentResult);
-    triggerMarkdownDownload(`${badge}_Parent_Prerequisite_Letter.md`, md);
   });
 
   // F5: Quartermaster Gear Patrol Size Multiplier, Copy & Print
@@ -10305,7 +10319,7 @@ function renderPatchGalleryModal() {
         <div class="m3-patch-gallery-card ${eagleClass} ${discontinuedClass} ${testLabClass} ${isSelected ? "active" : ""}" data-gallery-badge="${escapeHtml(name)}" data-gallery-multiopt="${isMultiOpt ? "true" : "false"}" style="position:relative;">
           <button type="button" class="m3-patch-fav-btn ${isFav ? "is-fav" : ""}" data-fav-toggle-badge="${escapeHtml(name)}" aria-pressed="${isFav ? "true" : "false"}" title="${isFav ? "Remove from My Favorites" : "Add to My Favorites"}">${isFav ? "★" : "☆"}</button>
           ${multiOptMenuHtml}
-          <img src="/assets/badge_emblems/${escapeHtml(slug)}.png?v=20261016c" alt="${escapeHtml(name)} Emblem" loading="lazy" />
+          <img src="/assets/badge_emblems/${escapeHtml(slug)}.png?v=20261016c" alt="${escapeHtml(name)} Emblem" ${cardIdx >= 30 ? 'loading="lazy"' : ""} />
           <div class="m3-patch-card-title" style="font-size:0.76rem; font-weight:800; color:#0F172A; line-height:1.22; display:flex; align-items:center; justify-content:center; gap:4px; flex-wrap:wrap;">
             <span>${b.is_eagle_required ? "★ " : ""}${escapeHtml(name)}</span>${statusIndicatorHtml}
           </div>
@@ -11958,6 +11972,9 @@ function formatDocInlineMarkdown(text, currentDocRelPath = "") {
       src = `/${src}`;
     } else if (src.startsWith("./images/")) {
       src = `/docs/${src.slice(2)}`;
+    }
+    if (src.startsWith("/docs/images/") && !src.includes("?")) {
+      src = `${src}?v=20261026b`;
     }
     return `<figure class="m3-doc-zoomable-figure" data-zoom-src="${src}" data-zoom-alt="${alt}" title="Click to zoom screenshot in full-screen lightbox"><img src="${src}" alt="${alt}" class="m3-doc-zoomable-img" loading="lazy" /><span class="m3-doc-zoom-pill">🔍 Click to zoom</span></figure>`;
   });

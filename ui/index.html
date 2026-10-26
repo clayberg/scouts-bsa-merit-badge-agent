@@ -182,8 +182,8 @@
                 🌐 Export Standalone HTML Deck
               </button>
               <div class="m3-menu-section-label">Scout Workbooks &amp; Handouts</div>
-              <a class="m3-export-menu-item" id="btn-download-workbook-top" href="#" download role="menuitem">
-                📥 Download Scout Workbook (.MD)
+              <a class="m3-export-menu-item" id="btn-download-workbook-top" href="/api/v1/studiokit/fillable-workbook.pdf?badge_name=First%20Aid" download role="menuitem">
+                📥 Download Scout Workbook (.PDF)
               </a>
               <button type="button" class="m3-export-menu-item" id="btn-top-print-workbook" role="menuitem">
                 <span id="btn-header-print-workbook">🖨️ Print / Save Workbook as PDF</span>
@@ -1835,7 +1835,7 @@
                 Printable Scout &amp; Counselor Workbook
               </h3>
               <div style="font-size:0.80rem; color:var(--md-sys-color-on-surface-variant); margin-top:2px;">
-                Rendered below as styled, wrapped Markdown for easy reading and printing. Copy, print/save as PDF, or download the raw Markdown file.
+                Switch between the Counselor Workbook, Fillable Form (GTA §7.0.3.2), and 1-Page Class Prep (CPP), or download the branded AcroForm PDF.
               </div>
             </div>
             <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
@@ -1861,14 +1861,14 @@
                 <a class="m3-btn m3-btn-filled m3-split-btn-primary" id="btn-workbook-download-fillable-pdf" href="/api/v1/studiokit/fillable-workbook.pdf?badge_name=First%20Aid" download title="Download Interactive AcroForm Fillable Scout Workbook (.PDF)" style="padding:7px 12px; font-size:0.79rem; font-weight:800; text-decoration:none;">
                   <span id="btn-fillable-scout-workbook-pdf">📥 Download Workbook (.PDF)</span>
                 </a>
-                <button type="button" class="m3-btn m3-btn-filled m3-split-btn-caret" id="btn-workbook-download-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Workbook Download &amp; Print Options" title="More Workbook Download &amp; Print Options (1-Page CPP PDF, Markdown, Print, Field QR, 3x5 Cue Cards)">▾</button>
+                <button type="button" class="m3-btn m3-btn-filled m3-split-btn-caret" id="btn-workbook-download-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Workbook Download &amp; Print Options" title="More Workbook Download &amp; Print Options (1-Page CPP PDF, Print, Field QR, 3x5 Cue Cards, Copy Markdown)">▾</button>
                 <div class="m3-split-dropdown-menu hidden" id="workbook-download-menu" role="menu">
                   <div class="m3-menu-section-label">Workbook &amp; Field Formats</div>
                   <a class="m3-export-menu-item" id="btn-class-prep-cpp-pdf" href="/api/v1/studiokit/cpp.pdf?badge_name=First%20Aid" download role="menuitem" style="text-decoration:none;">
                     📄 Download 1-Page CPP (.PDF)
                   </a>
-                  <a class="m3-export-menu-item m3-btn-olive" id="btn-download-workbook" href="#" download role="menuitem" style="text-decoration:none;">
-                    <span id="btn-download-workbook-md"><span class="m3-inline-icon" style="font-size:18px;" aria-hidden="true">📥</span> Download Workbook (.MD)</span>
+                  <a class="m3-export-menu-item hidden" id="btn-download-workbook" href="/api/v1/studiokit/fillable-workbook.pdf?badge_name=First%20Aid" download role="menuitem" style="display:none; text-decoration:none;" aria-hidden="true">
+                    <span id="btn-download-workbook-md">📥 Download Workbook (.PDF)</span>
                   </a>
                   <button type="button" class="m3-export-menu-item" id="btn-print-workbook" role="menuitem">
                     🖨️ Print Current View
@@ -1945,11 +1945,11 @@
                   <button type="button" class="m3-btn m3-btn-outlined m3-split-btn-primary" id="btn-print-agenda" style="padding:4px 10px; font-size:0.75rem;">
                     🖨️ Print Agenda
                   </button>
-                  <button type="button" class="m3-btn m3-btn-outlined m3-split-btn-caret" id="btn-agenda-actions-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Agenda Export Options" title="More Agenda Options (Download .MD, Copy)">▾</button>
+                  <button type="button" class="m3-btn m3-btn-outlined m3-split-btn-caret" id="btn-agenda-actions-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Agenda Export Options" title="More Agenda Options (Download .PDF, Copy)">▾</button>
                   <div class="m3-split-dropdown-menu hidden" id="agenda-actions-menu" role="menu">
                     <div class="m3-menu-section-label">Agenda Export</div>
                     <button type="button" class="m3-export-menu-item" id="btn-download-agenda-md" role="menuitem">
-                      📥 Download Agenda (.MD)
+                      <span id="btn-download-agenda-pdf">📥 Download Agenda (.PDF)</span>
                     </button>
                     <button type="button" class="m3-export-menu-item" id="btn-copy-agenda" role="menuitem">
                       <span id="btn-copy-agenda-md">📋 Copy Agenda</span>
@@ -2000,7 +2000,7 @@
                   Prerequisite &amp; Parent Welcome Letter (YPT-Compliant)
                 </h3>
                 <div style="font-size:0.75rem; color:var(--md-sys-color-on-surface-variant); margin-top:2px;">
-                  Click <strong>Compose in Gmail</strong> or open the menu for <strong>Draft in Email App</strong>, <strong>Print</strong>, <strong>.MD</strong>, or <strong>Copy</strong>.
+                  Click <strong>Compose in Gmail</strong> or open the menu for <strong>Draft in Email App</strong>, <strong>Print</strong>, <strong>.PDF</strong>, or <strong>Copy</strong>.
                 </div>
               </div>
               <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
@@ -2013,7 +2013,7 @@
                   <button type="button" class="m3-btn m3-btn-tonal m3-split-btn-primary" id="btn-gmail-letter" title="Opens a new Gmail Compose tab with Subject &amp; Parent Prerequisite Letter pre-filled" style="padding:4px 10px; font-size:0.75rem;">
                     📨 Compose in Gmail
                   </button>
-                  <button type="button" class="m3-btn m3-btn-tonal m3-split-btn-caret" id="btn-letter-actions-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Parent Letter Actions" title="More Parent Letter Options (Draft in Email App, Print, Download .MD, Copy)">▾</button>
+                  <button type="button" class="m3-btn m3-btn-tonal m3-split-btn-caret" id="btn-letter-actions-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Parent Letter Actions" title="More Parent Letter Options (Draft in Email App, Print, Download .PDF, Copy)">▾</button>
                   <div class="m3-split-dropdown-menu hidden" id="letter-actions-menu" role="menu">
                     <div class="m3-menu-section-label">Parent Letter Export</div>
                     <button type="button" class="m3-export-menu-item" id="btn-mailto-letter" role="menuitem" title="Opens your default Email app with Subject &amp; Parent Prerequisite Letter pre-filled (also copies to clipboard)">
@@ -2023,7 +2023,7 @@
                       🖨️ Print Letter
                     </button>
                     <button type="button" class="m3-export-menu-item" id="btn-download-letter-md" role="menuitem">
-                      📥 Download Letter (.MD)
+                      <span id="btn-download-letter-pdf">📥 Download Letter (.PDF)</span>
                     </button>
                     <button type="button" class="m3-export-menu-item" id="btn-copy-letter" role="menuitem">
                       <span id="btn-copy-letter-md">📋 Copy Letter</span>
@@ -2854,16 +2854,25 @@
   <!-- MODAL: 144 MERIT BADGE VISUAL PATCH GALLERY (UI-6) -->
   <div class="m3-modal-backdrop hidden" id="patch-gallery-modal" role="dialog" aria-modal="true" aria-labelledby="patch-gallery-modal-title">
     <div class="m3-modal-dialog m3-patch-gallery-dialog" style="max-width:980px; width:95%; max-height:88vh; display:flex; flex-direction:column; overflow:hidden; padding:0;">
-      <div class="m3-patch-gallery-sticky-header" style="display:flex; align-items:center; justify-content:space-between; gap:12px; border-bottom:2px solid var(--md-sys-color-outline-variant); padding:18px 22px 14px; background:var(--md-sys-color-surface-bright); flex-shrink:0; z-index:3; flex-wrap:wrap;">
-        <div>
-          <h3 id="patch-gallery-modal-title" style="font-family:'Roboto Slab',serif; font-size:1.15rem; font-weight:800; color:var(--md-sys-color-primary); margin:0;">
-            🎖️ Visual Merit Badge Patch Gallery (All 149 Official &amp; Test Lab Badges)
-          </h3>
-          <div style="font-size:0.80rem; color:var(--md-sys-color-on-surface-variant); margin-top:2px;">
-            Gold-bordered emblems denote Eagle-Required Merit Badges (18). 🧪 denotes Test Lab Pilot badges (5); 🚫 denotes Discontinued (Citizenship in Society).
+      <div class="m3-patch-gallery-sticky-header" style="display:flex; flex-direction:column; gap:10px; border-bottom:2px solid var(--md-sys-color-outline-variant); padding:16px 22px 12px; background:var(--md-sys-color-surface-bright); flex-shrink:0; z-index:3;">
+        <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px; width:100%;">
+          <div style="min-width:0;">
+            <h3 id="patch-gallery-modal-title" style="font-family:'Roboto Slab',serif; font-size:1.15rem; font-weight:800; color:var(--md-sys-color-primary); margin:0;">
+              🎖️ Visual Merit Badge Patch Gallery (All 149 Official &amp; Test Lab Badges)
+            </h3>
+            <div style="font-size:0.80rem; color:var(--md-sys-color-on-surface-variant); margin-top:4px; display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+              <span>Gold-bordered = Eagle-Required</span>
+              <span aria-hidden="true">|</span>
+              <span style="display:inline-flex; align-items:center; gap:4px;"><span class="m3-patch-multiopt-badge" style="position:static; display:inline-flex; padding:1px 6px; font-size:0.68rem;">A|B</span> = Multi-Option</span>
+              <span aria-hidden="true">|</span>
+              <span>🧪 = Test Lab Pilot</span>
+              <span aria-hidden="true">|</span>
+              <span>🚫 = Discontinued</span>
+            </div>
           </div>
+          <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-patch-gallery" style="padding:6px 12px; flex-shrink:0; align-self:flex-start;">✕ Close</button>
         </div>
-        <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+        <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap; width:100%;">
           <span class="m3-chip m3-chip-secondary" id="patch-gallery-count-chip" style="font-size:0.74rem;">149 of 149 Badges</span>
           <button
             type="button"
@@ -2888,7 +2897,6 @@
             <option value="MULTI_OPTION">A|B Multi-Option Badges (18)</option>
             <option value="ELECTIVE">Elective Badges (131)</option>
           </select>
-          <button type="button" class="m3-btn m3-btn-outlined" id="btn-close-patch-gallery" style="padding:6px 12px;">✕ Close</button>
         </div>
       </div>
       <div id="patch-gallery-grid" class="m3-patch-gallery-grid" style="flex:1 1 auto; min-height:0; overflow-y:auto; padding:16px 22px 22px;"></div>

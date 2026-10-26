@@ -1008,6 +1008,153 @@ def _wrap_pdf_lines(
     return wrapped
 
 
+def _resolve_badge_emblem_path(badge_name: str) -> Optional[str]:
+    """Resolves the local PNG path for the official Merit Badge patch emblem if available on disk."""
+    from pathlib import Path
+    from src.config import ASSETS_DIR, badge_file_slug, get_badge_cover_and_patch_paths
+
+    slug = badge_file_slug(badge_name)
+    emblems_dir = ASSETS_DIR / "badge_emblems"
+    for cand in (
+        emblems_dir / f"{slug}.png",
+        emblems_dir / f"{slug}_patch.png",
+    ):
+        if cand.exists() and cand.stat().st_size > 200:
+            return str(cand)
+    try:
+        paths = get_badge_cover_and_patch_paths(badge_name)
+        patch_p = paths.get("patch_path")
+        if patch_p and Path(str(patch_p)).exists():
+            return str(patch_p)
+    except Exception:
+        pass
+    return None
+
+
+def _draw_branded_pdf_header(
+    page: Any,
+    badge_name: str,
+    doc_title: str,
+    subtitle_line: str,
+    kicker_text: str = "SCOUTS BSA MERIT BADGE COUNSELOR WORKBENCH",
+    is_eagle_required: bool = False,
+) -> float:
+    """Draws a graphically rich Scouting America Navy (#003F87) & Gold (#FDB913) header banner with embedded Merit Badge patch emblem.
+
+    Returns the initial `y_cursor` below the banner.
+    """
+    import fitz
+
+    # Outer Navy Banner Card + Top/Bottom Gold Accent Trim
+    banner_rect = fitz.Rect(28.0, 20.0, 584.0, 80.0)
+    page.draw_rect(banner_rect, color=(0.0, 0.247, 0.529), fill=(0.0, 0.247, 0.529))
+    page.draw_rect(fitz.Rect(28.0, 20.0, 584.0, 24.5), color=(0.992, 0.725, 0.075), fill=(0.992, 0.725, 0.075))
+    page.draw_rect(fitz.Rect(28.0, 77.5, 584.0, 80.0), color=(0.992, 0.725, 0.075), fill=(0.992, 0.725, 0.075))
+
+    text_x0 = 38.0
+    emblem_path = _resolve_badge_emblem_path(badge_name)
+    if emblem_path:
+        try:
+            # Draw subtle gold-bordered emblem medallion on the left of the header banner
+            page.draw_circle(
+                fitz.Point(56.0, 51.0),
+                21.5,
+                color=(0.992, 0.725, 0.075),
+                fill=(0.96, 0.98, 1.0),
+                width=1.5,
+            )
+            page.insert_image(
+                fitz.Rect(37.5, 32.5, 74.5, 69.5),
+                filename=emblem_path,
+                keep_proportion=True,
+            )
+            text_x0 = 84.0
+        except Exception:
+            text_x0 = 38.0
+
+    eagle_tag = "  |  EAGLE-REQUIRED MERIT BADGE" if is_eagle_required else ""
+    page.insert_text(
+        fitz.Point(text_x0, 36.0),
+        _sanitize_pdf_text(f"{kicker_text}{eagle_tag}"),
+        fontsize=6.8,
+        fontname="helv",
+        color=(0.992, 0.78, 0.20),
+    )
+    page.insert_text(
+        fitz.Point(text_x0, 53.0),
+        _sanitize_pdf_text(doc_title),
+        fontsize=12.0,
+        fontname="helv",
+        color=(1.0, 1.0, 1.0),
+    )
+    page.insert_text(
+        fitz.Point(text_x0, 69.0),
+        _sanitize_pdf_text(subtitle_line),
+        fontsize=7.4,
+        fontname="helv",
+        color=(0.88, 0.94, 1.0),
+    )
+    return 86.0
+
+
+def _finalize_branded_pdf_pages(
+    doc: Any,
+    badge_name: str,
+    doc_short_title: str,
+    footer_left_note: str = "Scouting America GTA Sec. 7.0.3.2 & Youth Protection (YPT) Compliant",
+) -> None:
+    """Adds a slim Navy/Gold running header to continuation pages (2..N) and a branded page footer ('Page X of Y') to all pages."""
+    import fitz
+
+    total_pages = len(doc)
+    for page_idx, pg in enumerate(doc, start=1):
+        if page_idx > 1:
+            # Slim continuation header bar at top of page (above y=36 content start)
+            pg.draw_rect(fitz.Rect(28.0, 14.0, 584.0, 29.0), color=(0.0, 0.247, 0.529), fill=(0.0, 0.247, 0.529))
+            pg.draw_rect(fitz.Rect(28.0, 14.0, 584.0, 16.0), color=(0.992, 0.725, 0.075), fill=(0.992, 0.725, 0.075))
+            pg.insert_text(
+                fitz.Point(35.0, 24.5),
+                _sanitize_pdf_text(f"{badge_name.upper()} MERIT BADGE  |  {doc_short_title}"),
+                fontsize=7.0,
+                fontname="helv",
+                color=(1.0, 1.0, 1.0),
+            )
+            pg.insert_text(
+                fitz.Point(515.0, 24.5),
+                _sanitize_pdf_text(f"Cont. Page {page_idx}/{total_pages}"),
+                fontsize=7.0,
+                fontname="helv",
+                color=(0.992, 0.78, 0.20),
+            )
+
+        # Bottom footer rule and Page X of Y badge (below max_y=752)
+        pg.draw_line(
+            fitz.Point(28.0, 760.0),
+            fitz.Point(584.0, 760.0),
+            color=(0.78, 0.83, 0.90),
+            width=0.8,
+        )
+        pg.insert_text(
+            fitz.Point(28.0, 772.0),
+            _sanitize_pdf_text(f"Scouts BSA {badge_name} Merit Badge  |  {footer_left_note}"),
+            fontsize=6.8,
+            fontname="helv",
+            color=(0.35, 0.42, 0.52),
+        )
+        pg.draw_rect(
+            fitz.Rect(516.0, 763.0, 584.0, 776.0),
+            color=(0.0, 0.247, 0.529),
+            fill=(0.93, 0.96, 1.0),
+        )
+        pg.insert_text(
+            fitz.Point(524.0, 772.0),
+            _sanitize_pdf_text(f"Page {page_idx} of {total_pages}"),
+            fontsize=7.0,
+            fontname="helv",
+            color=(0.0, 0.247, 0.529),
+        )
+
+
 def _insert_wrapped_pdf_text(
     doc: Any,
     page: Any,
@@ -1020,6 +1167,7 @@ def _insert_wrapped_pdf_text(
     color: tuple[float, float, float] = (0.1, 0.14, 0.2),
     bg_fill: Optional[tuple[float, float, float]] = None,
     border_color: Optional[tuple[float, float, float]] = None,
+    left_stripe_color: Optional[tuple[float, float, float]] = None,
     pad_x: float = 5.0,
     pad_y: float = 3.5,
     max_y: float = 752.0,
@@ -1027,7 +1175,8 @@ def _insert_wrapped_pdf_text(
     """Renders wrapped multi-line text onto `page`, dynamically growing box height and paginating across pages so 0 text is ever dropped."""
     import fitz
 
-    lines = _wrap_pdf_lines(text, (x1 - x0) - 2.0 * pad_x, fontname=fontname, fontsize=fontsize)
+    eff_pad_x = pad_x + (4.0 if left_stripe_color is not None else 0.0)
+    lines = _wrap_pdf_lines(text, (x1 - x0) - 2.0 * eff_pad_x, fontname=fontname, fontsize=fontsize)
     if not lines:
         return page, y_cursor
 
@@ -1059,11 +1208,17 @@ def _insert_wrapped_pdf_text(
                 color=border_color or bg_fill,
                 fill=bg_fill,
             )
+        if left_stripe_color is not None:
+            page.draw_rect(
+                fitz.Rect(x0, y_cursor, x0 + 4.0, y_cursor + box_h),
+                color=left_stripe_color,
+                fill=left_stripe_color,
+            )
         for line_idx, line_str in enumerate(chunk):
             if line_str:
                 baseline_y = y_cursor + pad_y + (line_idx + 0.82) * line_h
                 page.insert_text(
-                    fitz.Point(x0 + pad_x, baseline_y),
+                    fitz.Point(x0 + eff_pad_x, baseline_y),
                     line_str,
                     fontsize=fontsize,
                     fontname=fontname,
@@ -1087,12 +1242,13 @@ def generate_fillable_scout_workbook_pdf(
     """Generates a downloadable, interactive AcroForm PDF Fillable Scout Workbook for any of the 149 badges.
 
     Includes:
+    - Branded Scouting America Navy & Gold header banner with embedded official Merit Badge patch emblem.
     - Scouting America Guide to Advancement Section 7.0.3.2 compliance notice banner.
     - Interactive AcroForm text fields (`Scout Name`, `Troop & Council`, `BSA Member ID`, `Counselor Name`).
-    - Unrolled sub-requirements (`1a`, `1b`, `2a`, `2b1`, etc.) with parent requirement group banners.
+    - Unrolled sub-requirements (`1a`, `1b`, `2a`, `2b1`, etc.) with color-coded parent requirement group banners.
     - Full verbatim requirement text (zero mid-word truncation or overflow drops), pamphlet fact-vs-myth callout,
       counselor pre-approval gate checkboxes, interactive gear checklist checkboxes, bordered dot-grid sketch canvases,
-      structured multi-row/multi-column graphic organizer tables with per-row AcroForm text fields, and Counselor Sign-Off checkboxes.
+      zebra-striped multi-row/multi-column graphic organizer tables with per-row AcroForm text fields, and Counselor Sign-Off checkboxes.
     """
     import fitz
 
@@ -1112,6 +1268,7 @@ def generate_fillable_scout_workbook_pdf(
         )
     )
     resolved_badge = str(res.get("badge_name") or badge_name)
+    is_eagle = bool(res.get("is_eagle_required"))
     reqs = list(res.get("requirements") or [])
     c_info = counselor_info or {}
     c_name = _sanitize_pdf_text(str(c_info.get("counselor_name") or "Merit Badge Counselor"))
@@ -1121,25 +1278,17 @@ def generate_fillable_scout_workbook_pdf(
     doc = fitz.open()
     page = doc.new_page(width=612, height=792)
 
-    # Top Navy Header Banner
-    page.draw_rect(fitz.Rect(28, 24, 584, 76), color=(0, 0.247, 0.529), fill=(0, 0.247, 0.529))
-    page.insert_text(
-        fitz.Point(38, 46),
-        _sanitize_pdf_text(f"{resolved_badge.upper()} MERIT BADGE - FILLABLE SCOUT WORKBOOK"),
-        fontsize=13.0,
-        fontname="helv",
-        color=(1, 1, 1),
-    )
-    page.insert_text(
-        fitz.Point(38, 64),
-        _sanitize_pdf_text(f"Counselor: {c_name} ({c_troop})  |  Track: {option_track.upper()}  |  Schedule: {dates_str}"),
-        fontsize=8.2,
-        fontname="helv",
-        color=(0.88, 0.94, 1.0),
+    # Branded Navy & Gold Header Banner with Embedded Merit Badge Emblem
+    y_cursor = _draw_branded_pdf_header(
+        page=page,
+        badge_name=resolved_badge,
+        doc_title=f"{resolved_badge.upper()} MERIT BADGE - FILLABLE SCOUT WORKBOOK",
+        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Track: {option_track.upper()}  |  Schedule: {dates_str}",
+        kicker_text="SCOUTS BSA INTERACTIVE ACROFORM STUDY AID (GTA SEC. 7.0.3.2)",
+        is_eagle_required=is_eagle,
     )
 
-    # GTA 7.0.3.2 Compliance Banner
-    y_cursor = 82.0
+    # GTA 7.0.3.2 Compliance Banner with Gold Left Accent Bar
     page, y_cursor = _insert_wrapped_pdf_text(
         doc,
         page,
@@ -1152,29 +1301,35 @@ def generate_fillable_scout_workbook_pdf(
         fontname="helv",
         color=(0.35, 0.22, 0.02),
         bg_fill=(1.0, 0.98, 0.90),
-        border_color=(0.8, 0.6, 0.1),
+        border_color=(0.88, 0.72, 0.22),
+        left_stripe_color=(0.85, 0.55, 0.05),
     )
-    y_cursor += 8.0
+    y_cursor += 6.0
 
-    # Interactive Scout Info AcroForm Fields
+    # Interactive Scout Info AcroForm Card
+    page.draw_rect(
+        fitz.Rect(28.0, y_cursor, 584.0, y_cursor + 30.0),
+        color=(0.78, 0.84, 0.92),
+        fill=(0.97, 0.985, 1.0),
+    )
     id_fields = [
-        ("scout_name", "Scout Name:", "", fitz.Rect(28, y_cursor + 8, 195, y_cursor + 24)),
-        ("troop_unit", "Troop & Council:", "", fitz.Rect(205, y_cursor + 8, 395, y_cursor + 24)),
-        ("bsa_id", "BSA Member ID:", "", fitz.Rect(405, y_cursor + 8, 584, y_cursor + 24)),
+        ("scout_name", "Scout Name:", "", fitz.Rect(34, y_cursor + 10, 198, y_cursor + 26)),
+        ("troop_unit", "Troop & Council:", "", fitz.Rect(208, y_cursor + 10, 396, y_cursor + 26)),
+        ("bsa_id", "BSA Member ID:", "", fitz.Rect(406, y_cursor + 10, 578, y_cursor + 26)),
     ]
     for f_key, f_lbl, f_val, f_rect in id_fields:
-        page.insert_text(fitz.Point(f_rect.x0, f_rect.y0 - 2), f_lbl, fontsize=7.5, fontname="helv", color=(0.2, 0.25, 0.33))
+        page.insert_text(fitz.Point(f_rect.x0, f_rect.y0 - 2), f_lbl, fontsize=7.4, fontname="helv", color=(0.0, 0.22, 0.48))
         w = fitz.Widget()
         w.field_name = f_key
         w.field_type = fitz.PDF_WIDGET_TYPE_TEXT
         w.field_value = f_val
-        w.rect = fitz.Rect(f_rect.x0, f_rect.y0 + 1, f_rect.x1, f_rect.y1 + 3)
-        w.border_color = (0.6, 0.65, 0.72)
-        w.fill_color = (0.97, 0.98, 1.0)
+        w.rect = fitz.Rect(f_rect.x0, f_rect.y0 + 1, f_rect.x1, f_rect.y1 + 2)
+        w.border_color = (0.58, 0.66, 0.76)
+        w.fill_color = (1.0, 1.0, 1.0)
         w.text_fontsize = 8.5
         page.add_widget(w)
 
-    y_cursor += 34.0
+    y_cursor += 35.0
     units = _iter_unrolled_workbook_units(reqs)
 
     # Page-1 At-a-Glance Requirement Completion & Counselor Sign-Off Index
@@ -1196,8 +1351,9 @@ def generate_fillable_scout_workbook_pdf(
             fontsize=7.3,
             fontname="helv",
             color=(0.08, 0.18, 0.36),
-            bg_fill=(0.95, 0.97, 1.0),
-            border_color=(0.0, 0.247, 0.529),
+            bg_fill=(0.94, 0.97, 1.0),
+            border_color=(0.68, 0.78, 0.90),
+            left_stripe_color=(0.0, 0.247, 0.529),
             pad_y=3.0,
         )
         y_cursor += 6.0
@@ -1218,6 +1374,19 @@ def generate_fillable_scout_workbook_pdf(
         gear_checklist = [str(g) for g in (u.get("gear_checklist") or []) if str(g).strip()]
         mis_pair = u.get("common_misconception_pair") or {}
 
+        # Color-code left accent bar by syllabus bucket
+        bucket_lower = r_bucket.lower()
+        if "prereq" in bucket_lower:
+            stripe_rgb = (0.85, 0.47, 0.02)  # Amber
+        elif "demonstration" in bucket_lower or "hands-on" in bucket_lower:
+            stripe_rgb = (0.08, 0.50, 0.24)  # Forest Green
+        elif "make-up" in bucket_lower:
+            stripe_rgb = (0.31, 0.27, 0.90)  # Indigo
+        elif "follow-up" in bucket_lower or "home-troop" in bucket_lower:
+            stripe_rgb = (0.73, 0.11, 0.11)  # Crimson
+        else:
+            stripe_rgb = (0.0, 0.247, 0.529)  # Scouting Navy
+
         if u.get("is_group_header"):
             if y_cursor > 685.0:
                 page = doc.new_page(width=612, height=792)
@@ -1234,6 +1403,7 @@ def generate_fillable_scout_workbook_pdf(
                 color=(0.0, 0.20, 0.45),
                 bg_fill=(0.88, 0.93, 0.99),
                 border_color=(0.0, 0.247, 0.529),
+                left_stripe_color=(0.992, 0.725, 0.075),
             )
             page, y_cursor = _insert_wrapped_pdf_text(
                 doc,
@@ -1253,7 +1423,7 @@ def generate_fillable_scout_workbook_pdf(
             page = doc.new_page(width=612, height=792)
             y_cursor = 36.0
 
-        # Requirement / Sub-Requirement Header Strip (full text, zero slicing)
+        # Requirement / Sub-Requirement Header Strip (full text, zero slicing, color-coded left stripe)
         page, y_cursor = _insert_wrapped_pdf_text(
             doc,
             page,
@@ -1265,7 +1435,8 @@ def generate_fillable_scout_workbook_pdf(
             fontname="helv",
             color=(0.0, 0.22, 0.48),
             bg_fill=(0.93, 0.96, 0.99),
-            border_color=(0.82, 0.88, 0.95),
+            border_color=(0.80, 0.86, 0.94),
+            left_stripe_color=stripe_rgb,
         )
 
         # Full Verbatim Requirement Text (dynamically wrapped and paginated)
@@ -1297,6 +1468,7 @@ def generate_fillable_scout_workbook_pdf(
                 color=(0.32, 0.22, 0.04),
                 bg_fill=(1.0, 0.99, 0.94),
                 border_color=(0.90, 0.78, 0.38),
+                left_stripe_color=(0.85, 0.55, 0.05),
                 pad_y=2.5,
             )
 
@@ -1318,6 +1490,7 @@ def generate_fillable_scout_workbook_pdf(
                 color=(0.45, 0.18, 0.02),
                 bg_fill=(1.0, 0.95, 0.88),
                 border_color=(0.88, 0.48, 0.08),
+                left_stripe_color=(0.85, 0.35, 0.05),
                 pad_y=3.0,
             )
             w_gate = fitz.Widget()
@@ -1396,7 +1569,7 @@ def generate_fillable_scout_workbook_pdf(
             pad_y=2.5,
         )
 
-        # Render Multi-Column Header Row + Structured Organizer Rows + AcroForm Text Fields + Counselor Sign-Off Checkbox
+        # Render Multi-Column Header Row + Zebra-Striped Organizer Rows + AcroForm Text Fields + Counselor Sign-Off Checkbox
         input_headers = headers[1:] if len(headers) > 1 else ["Scout Notes & Field Evidence"]
         input_cols = max(1, len(input_headers))
         left_col_x0 = 32.0
@@ -1436,21 +1609,36 @@ def generate_fillable_scout_workbook_pdf(
                 fontname="helv",
                 color=(1.0, 1.0, 1.0),
             )
+        # Rightmost Sign-Off column header cell
+        page.draw_rect(
+            fitz.Rect(input_region_x1, y_cursor, 580.0, y_cursor + col_hdr_h),
+            color=(0.0, 0.247, 0.529),
+            fill=(0.0, 0.247, 0.529),
+        )
+        page.insert_text(
+            fitz.Point(input_region_x1 + 4.0, y_cursor + 10.5),
+            "Counselor",
+            fontsize=6.9,
+            fontname="helv",
+            color=(0.992, 0.78, 0.20),
+        )
         y_cursor += col_hdr_h
 
         safe_r_num = re.sub(r"[^a-zA-Z0-9_]", "_", r_num)
         signoff_placed = False
         for r_idx, rl in enumerate(row_labels, start=1):
-            label_lines = _wrap_pdf_lines(f"{r_idx}. {rl}", 148.0, fontname="helv", fontsize=7.2) or [f"{r_idx}."]
+            clean_rl = re.sub(r"^\s*\d+[.)]\s*", "", str(rl)).strip()
+            label_lines = _wrap_pdf_lines(f"{r_idx}. {clean_rl}", 148.0, fontname="helv", fontsize=7.2) or [f"{r_idx}."]
             row_h = max(20.0, len(label_lines) * 9.6 + 6.0)
             if y_cursor + row_h > 748.0:
                 page = doc.new_page(width=612, height=792)
                 y_cursor = 36.0
             row_y0 = y_cursor
+            zebra_fill = (0.945, 0.97, 1.0) if r_idx % 2 == 1 else (0.98, 0.99, 1.0)
             page.draw_rect(
                 fitz.Rect(left_col_x0, row_y0, left_col_x1, row_y0 + row_h),
                 color=(0.78, 0.83, 0.90),
-                fill=(0.97, 0.98, 1.0),
+                fill=zebra_fill,
             )
             for l_i, l_str in enumerate(label_lines):
                 page.insert_text(
@@ -1480,22 +1668,32 @@ def generate_fillable_scout_workbook_pdf(
                 w_row.text_fontsize = 7.8
                 page.add_widget(w_row)
 
+            page.draw_rect(
+                fitz.Rect(input_region_x1, row_y0, 580.0, row_y0 + row_h),
+                color=(0.78, 0.83, 0.90),
+                fill=(0.98, 0.99, 1.0),
+            )
             if not signoff_placed:
-                page.insert_text(fitz.Point(520.0, row_y0 + 10.0), "Done:", fontsize=7.3, fontname="helv", color=(0.2, 0.25, 0.33))
+                page.insert_text(fitz.Point(520.0, row_y0 + 10.0), "Done:", fontsize=7.2, fontname="helv", color=(0.15, 0.22, 0.33))
                 w_chk = fitz.Widget()
                 w_chk.field_name = f"req_{safe_r_num}_done_{idx}"
                 w_chk.field_type = fitz.PDF_WIDGET_TYPE_CHECKBOX
                 w_chk.field_value = False
-                w_chk.rect = fitz.Rect(548.0, row_y0 + 2.0, 561.0, row_y0 + 15.0)
+                w_chk.rect = fitz.Rect(546.0, row_y0 + 2.0, 559.0, row_y0 + 15.0)
                 w_chk.border_color = (0.0, 0.25, 0.53)
                 page.add_widget(w_chk)
-                page.insert_text(fitz.Point(520.0, row_y0 + 19.0), "Init:____", fontsize=7.0, fontname="helv", color=(0.3, 0.35, 0.42))
+                page.insert_text(fitz.Point(520.0, row_y0 + 19.0), "Init:____", fontsize=6.9, fontname="helv", color=(0.3, 0.35, 0.42))
                 signoff_placed = True
 
             y_cursor += row_h + 1.0
 
         y_cursor += 7.0
 
+    _finalize_branded_pdf_pages(
+        doc=doc,
+        badge_name=resolved_badge,
+        doc_short_title="FILLABLE SCOUT WORKBOOK (GTA SEC. 7.0.3.2)",
+    )
     pdf_bytes = doc.tobytes()
     doc.close()
     return pdf_bytes
@@ -1507,7 +1705,7 @@ def generate_class_preparation_page_cpp_pdf(
     session_dates: Optional[List[str]] = None,
     room_location: str = "",
 ) -> bytes:
-    """Generates a printable Class Preparation Page (CPP) in PDF format with automatic multi-page flow and 0% overflow drops."""
+    """Generates a graphically styled Class Preparation Page (CPP) in PDF format with embedded badge emblem, callout cards, and 0% overflow drops."""
     import fitz
 
     cpp_data = generate_class_preparation_page_cpp(
@@ -1518,19 +1716,21 @@ def generate_class_preparation_page_cpp_pdf(
     )
     resolved_badge = str(cpp_data.get("badge_name") or badge_name)
     md_text = str(cpp_data.get("cpp_markdown") or "")
+    c_info = counselor_info or {}
+    c_name = _sanitize_pdf_text(str(c_info.get("counselor_name") or "Merit Badge Counselor"))
+    c_troop = _sanitize_pdf_text(str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council"))
+    room_str = _sanitize_pdf_text(str(room_location or "Main Clinic Room / Troop Hall"))
 
     doc = fitz.open()
     page = doc.new_page(width=612, height=792)
-    page.draw_rect(fitz.Rect(28, 24, 584, 68), color=(0, 0.247, 0.529), fill=(0, 0.247, 0.529))
-    page.insert_text(
-        fitz.Point(38, 48),
-        _sanitize_pdf_text(f"{resolved_badge.upper()} MERIT BADGE - CLASS PREPARATION PAGE (CPP)"),
-        fontsize=12.5,
-        fontname="helv",
-        color=(1, 1, 1),
+    y_cursor = _draw_branded_pdf_header(
+        page=page,
+        badge_name=resolved_badge,
+        doc_title=f"{resolved_badge.upper()} MERIT BADGE - 1-PAGE CLASS PREPARATION PAGE (CPP)",
+        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Room / Venue: {room_str}",
+        kicker_text="SCOUTS BSA PRE-CLASS SCOUT, PARENT & UNIT LEADER HANDOUT",
     )
 
-    y_cursor = 76.0
     in_gate_section = False
     for raw_line in md_text.splitlines():
         line = raw_line.strip()
@@ -1544,6 +1744,7 @@ def generate_class_preparation_page_cpp_pdf(
             .replace("`", "")
             .replace("- [ ] ", "[ ] ")
         )
+        clean_line = re.sub(r"\*([^*]+)\*", r"\1", clean_line)
         if clean_line.startswith("## "):
             hdr_text = clean_line[3:].strip()
             in_gate_section = "Gate Alert" in hdr_text
@@ -1560,6 +1761,7 @@ def generate_class_preparation_page_cpp_pdf(
                 color=(0.0, 0.22, 0.48),
                 bg_fill=(0.92, 0.96, 0.99),
                 border_color=(0.78, 0.85, 0.94),
+                left_stripe_color=(0.992, 0.725, 0.075) if in_gate_section else (0.0, 0.247, 0.529),
                 pad_y=3.5,
             )
         elif in_gate_section:
@@ -1575,6 +1777,7 @@ def generate_class_preparation_page_cpp_pdf(
                 color=(0.38, 0.22, 0.02),
                 bg_fill=(1.0, 0.98, 0.90),
                 border_color=(0.88, 0.68, 0.18),
+                left_stripe_color=(0.85, 0.55, 0.05),
                 pad_y=3.0,
             )
         else:
@@ -1591,8 +1794,290 @@ def generate_class_preparation_page_cpp_pdf(
                 pad_y=2.0,
             )
 
+    _finalize_branded_pdf_pages(
+        doc=doc,
+        badge_name=resolved_badge,
+        doc_short_title="1-PAGE CLASS PREPARATION PAGE (CPP)",
+    )
     pdf_bytes = doc.tobytes()
     doc.close()
     return pdf_bytes
+
+
+def generate_session_agenda_pdf(
+    badge_name: str,
+    schedule_format: str = "3 Troop Meetings (45 min each)",
+    counselor_info: Optional[Dict[str, Any]] = None,
+    postponed_session_idx: Optional[int] = None,
+    companion_badge_name: Optional[str] = None,
+    agenda_markdown_override: Optional[str] = None,
+) -> bytes:
+    """Generates a graphically styled Counselor Session Agenda & Lesson Plan in PDF format with embedded Merit Badge emblem and session cards."""
+    import fitz
+
+    from src.agents.planner import _format_session_mode_label
+
+    c_info = counselor_info or {}
+    c_name = _sanitize_pdf_text(str(c_info.get("counselor_name") or "Merit Badge Counselor"))
+    c_troop = _sanitize_pdf_text(str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council"))
+    friendly_fmt = _format_session_mode_label(schedule_format)
+
+    agenda_data = generate_counselor_session_agenda(
+        badge_name=badge_name,
+        schedule_format=schedule_format,
+        counselor_info=counselor_info,
+        postponed_session_idx=postponed_session_idx,
+        companion_badge_name=companion_badge_name,
+    )
+    resolved_badge = str(agenda_data.get("badge_name") or badge_name)
+    md_text = str(agenda_markdown_override or agenda_data.get("agenda_markdown") or "")
+    md_text = md_text.replace(f"Schedule Format: {schedule_format}", f"Schedule Format: {friendly_fmt}")
+    md_text = md_text.replace(f"**Schedule Format:** {schedule_format}", f"**Schedule Format:** {friendly_fmt}")
+
+    doc = fitz.open()
+    page = doc.new_page(width=612, height=792)
+    y_cursor = _draw_branded_pdf_header(
+        page=page,
+        badge_name=resolved_badge,
+        doc_title=f"{resolved_badge.upper()} MERIT BADGE - SESSION AGENDA & LESSON PLAN",
+        subtitle_line=f"Format: {friendly_fmt}  |  Counselor: {c_name} ({c_troop})",
+        kicker_text="SCOUTS BSA COUNSELOR FACILITATION & PACING GUIDE (EDGE METHOD)",
+    )
+
+    # EDGE Method & GTA Pacing Summary Strip
+    page, y_cursor = _insert_wrapped_pdf_text(
+        doc,
+        page,
+        y_cursor,
+        28.0,
+        584.0,
+        "Facilitator Pacing Note: Each session block balances interactive visual briefing, hands-on EDGE skill stations (Explain, Demonstrate, Guide, Enable), and individual Scout verification per GTA Sec. 7.0.3.1.",
+        fontsize=7.6,
+        fontname="helv",
+        color=(0.08, 0.18, 0.36),
+        bg_fill=(0.94, 0.97, 1.0),
+        border_color=(0.72, 0.82, 0.94),
+        left_stripe_color=(0.0, 0.247, 0.529),
+        pad_y=3.0,
+    )
+    y_cursor += 4.0
+
+    for raw_line in md_text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            y_cursor += 3.5
+            continue
+        if line.startswith("# "):
+            continue
+        clean_line = (
+            line.replace("**", "")
+            .replace("`", "")
+            .replace("*   ", "- ")
+        )
+        clean_line = re.sub(r"\*([^*]+)\*", r"\1", clean_line)
+        if clean_line.startswith("## ") or clean_line.startswith("### "):
+            hdr_text = clean_line.lstrip("#").strip()
+            is_makeup = "make-up" in hdr_text.lower() or "postponed" in hdr_text.lower()
+            y_cursor += 3.0
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                28.0,
+                584.0,
+                hdr_text,
+                fontsize=9.2,
+                fontname="helv",
+                color=(0.38, 0.20, 0.02) if is_makeup else (0.0, 0.22, 0.48),
+                bg_fill=(1.0, 0.97, 0.90) if is_makeup else (0.91, 0.95, 0.99),
+                border_color=(0.88, 0.68, 0.18) if is_makeup else (0.76, 0.84, 0.94),
+                left_stripe_color=(0.85, 0.50, 0.05) if is_makeup else (0.0, 0.247, 0.529),
+                pad_y=3.5,
+            )
+        elif clean_line.startswith("- ") or clean_line.startswith("* "):
+            bullet_body = clean_line[2:].strip()
+            is_time_block = any(k in bullet_body.lower() for k in ("min:", "min -", "00-", "10-", "20-", "30-", "45-", "60-"))
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                32.0,
+                580.0,
+                f"- {bullet_body}",
+                fontsize=8.2,
+                fontname="helv",
+                color=(0.08, 0.14, 0.22),
+                bg_fill=(0.98, 0.99, 1.0) if is_time_block else None,
+                border_color=(0.84, 0.89, 0.95) if is_time_block else None,
+                left_stripe_color=(0.08, 0.50, 0.24) if is_time_block else None,
+                pad_y=2.5 if is_time_block else 1.8,
+            )
+        else:
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                32.0,
+                580.0,
+                clean_line,
+                fontsize=8.2,
+                fontname="helv",
+                color=(0.12, 0.16, 0.22),
+                pad_y=2.0,
+            )
+
+    _finalize_branded_pdf_pages(
+        doc=doc,
+        badge_name=resolved_badge,
+        doc_short_title="COUNSELOR SESSION AGENDA & LESSON PLAN",
+    )
+    pdf_bytes = doc.tobytes()
+    doc.close()
+    return pdf_bytes
+
+
+def generate_parent_letter_pdf(
+    badge_name: str,
+    counselor_info: Optional[Dict[str, Any]] = None,
+    stage: str = "stage_1_welcome_cpp",
+    letter_markdown_override: Optional[str] = None,
+) -> bytes:
+    """Generates a graphically styled YPT-Compliant Parent Prerequisite & Welcome Letter in PDF format with embedded Merit Badge emblem."""
+    import fitz
+
+    c_info = counselor_info or {}
+    c_name = _sanitize_pdf_text(str(c_info.get("counselor_name") or "Merit Badge Counselor"))
+    c_troop = _sanitize_pdf_text(str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council"))
+    c_email = _sanitize_pdf_text(str(c_info.get("email_address") or "counselor@scouting.org"))
+
+    resolved_badge = str(badge_name).strip() or "First Aid"
+    md_text = str(letter_markdown_override or "").strip()
+    if not md_text:
+        if stage in ("stage_2_mid_clinic_alert", "stage_2_mid_clinic_makeup", "stage_3_final_packet", "stage_3_post_clinic_partials"):
+            pack = generate_three_stage_ypt_communication_pack(
+                badge_name=resolved_badge,
+                counselor_info=counselor_info,
+            )
+            resolved_badge = str(pack.get("badge_name") or resolved_badge)
+            stages_map = pack.get("stages") or {}
+            if "2" in stage:
+                md_text = str((stages_map.get("stage_2_mid_clinic_makeup") or {}).get("markdown") or "")
+            else:
+                md_text = str((stages_map.get("stage_3_post_clinic_partials") or {}).get("markdown") or "")
+        if not md_text:
+            letter_res = generate_prerequisite_parent_letter(
+                badge_name=resolved_badge,
+                counselor_info=counselor_info,
+            )
+            resolved_badge = str(letter_res.get("badge_name") or resolved_badge)
+            md_text = str(letter_res.get("letter_markdown") or "")
+
+    stage_label = (
+        "STAGE 2: MID-CLINIC MAKE-UP ALERT"
+        if "2" in stage
+        else "STAGE 3: POST-CLINIC SMART PARTIAL & BLUE CARD PACKET"
+        if "3" in stage
+        else "STAGE 1: PRE-CLASS WELCOME & PREREQUISITE GUIDE"
+    )
+
+    doc = fitz.open()
+    page = doc.new_page(width=612, height=792)
+    y_cursor = _draw_branded_pdf_header(
+        page=page,
+        badge_name=resolved_badge,
+        doc_title=f"{resolved_badge.upper()} MERIT BADGE - PARENT & SCOUT COMMUNICATION",
+        subtitle_line=f"{stage_label}  |  Counselor: {c_name} ({c_troop})  |  {c_email}",
+        kicker_text="SCOUTING AMERICA YOUTH PROTECTION (YPT) TWO-DEEP COMMUNICATION",
+    )
+
+    # Mandatory YPT Two-Deep Leadership Shield Banner
+    page, y_cursor = _insert_wrapped_pdf_text(
+        doc,
+        page,
+        y_cursor,
+        28.0,
+        584.0,
+        "MANDATORY SCOUTING AMERICA YOUTH PROTECTION (YPT) POLICY: All digital/email communications between Scouts and Merit Badge Counselors must copy (CC) a parent/guardian or second registered adult leader. All sessions follow Two-Deep Leadership and the Buddy System.",
+        fontsize=7.6,
+        fontname="helv",
+        color=(0.35, 0.22, 0.02),
+        bg_fill=(1.0, 0.98, 0.90),
+        border_color=(0.88, 0.72, 0.22),
+        left_stripe_color=(0.85, 0.55, 0.05),
+        pad_y=3.0,
+    )
+    y_cursor += 5.0
+
+    for raw_line in md_text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            y_cursor += 4.0
+            continue
+        if line.startswith("[MANDATORY YPT CC:"):
+            continue
+        clean_line = (
+            line.replace("**", "")
+            .replace("`", "")
+            .replace("- [ ] ", "[ ] ")
+        )
+        clean_line = re.sub(r"\*([^*]+)\*", r"\1", clean_line)
+        if clean_line.lower().startswith("subject:"):
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                28.0,
+                584.0,
+                clean_line,
+                fontsize=8.8,
+                fontname="helv",
+                color=(0.0, 0.22, 0.48),
+                bg_fill=(0.93, 0.96, 1.0),
+                border_color=(0.76, 0.84, 0.94),
+                left_stripe_color=(0.0, 0.247, 0.529),
+                pad_y=3.5,
+            )
+            y_cursor += 2.0
+        elif clean_line.startswith("### ") or clean_line.startswith("## "):
+            hdr_text = clean_line.lstrip("#").strip()
+            y_cursor += 3.0
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                28.0,
+                584.0,
+                hdr_text,
+                fontsize=9.2,
+                fontname="helv",
+                color=(0.0, 0.22, 0.48),
+                bg_fill=(0.92, 0.96, 0.99),
+                border_color=(0.78, 0.85, 0.94),
+                left_stripe_color=(0.0, 0.247, 0.529),
+                pad_y=3.2,
+            )
+        else:
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                32.0,
+                580.0,
+                clean_line,
+                fontsize=8.4,
+                fontname="helv",
+                color=(0.08, 0.12, 0.18),
+                pad_y=2.2,
+            )
+
+    _finalize_branded_pdf_pages(
+        doc=doc,
+        badge_name=resolved_badge,
+        doc_short_title="YPT-COMPLIANT PARENT & SCOUT LETTER",
+    )
+    pdf_bytes = doc.tobytes()
+    doc.close()
+    return pdf_bytes
+
 
 

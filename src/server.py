@@ -3368,6 +3368,8 @@ async def api_get_class_prep_cpp_html(
     return HTMLResponse(content=str(res.get("cpp_html") or res.get("html_document") or ""))
 
 
+@app.get("/api/studiokit/cpp.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/cpp.pdf", include_in_schema=False)
 @app.get("/api/studiokit/class-prep-cpp.pdf", include_in_schema=False)
 @app.get("/api/v1/studiokit/class-prep-cpp.pdf", include_in_schema=False)
 async def api_get_class_prep_cpp_pdf(
@@ -3391,6 +3393,67 @@ async def api_get_class_prep_cpp_pdf(
         content=pdf_bytes,
         media_type="application/pdf",
         headers={"Content-Disposition": f'attachment; filename="{slug}_class_prep_cpp.pdf"'},
+    )
+
+
+@app.get("/api/studiokit/agenda.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/agenda.pdf", include_in_schema=False)
+async def api_get_studiokit_agenda_pdf(
+    badge_name: str = "First Aid",
+    schedule_format: str = "3 Troop Meetings (45 min each)",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    postponed_session_idx: Optional[int] = None,
+    companion_badge_name: Optional[str] = None,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the graphically styled Counselor Session Agenda & Lesson Plan as a printable PDF."""
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import generate_session_agenda_pdf
+
+    pdf_bytes = generate_session_agenda_pdf(
+        badge_name=badge_name,
+        schedule_format=schedule_format,
+        counselor_info={"counselor_name": counselor_name, "troop_affiliation": troop_name},
+        postponed_session_idx=postponed_session_idx,
+        companion_badge_name=companion_badge_name,
+    )
+    slug = badge_file_slug(badge_name)
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{slug}_session_agenda.pdf"'},
+    )
+
+
+@app.get("/api/studiokit/parent-letter.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/parent-letter.pdf", include_in_schema=False)
+async def api_get_studiokit_parent_letter_pdf(
+    badge_name: str = "First Aid",
+    stage: str = "stage_1_welcome_cpp",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    counselor_email: str = "counselor@scouting.org",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the graphically styled YPT-Compliant Parent Prerequisite & Welcome Letter as a printable PDF."""
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import generate_parent_letter_pdf
+
+    pdf_bytes = generate_parent_letter_pdf(
+        badge_name=badge_name,
+        counselor_info={
+            "counselor_name": counselor_name,
+            "troop_affiliation": troop_name,
+            "email_address": counselor_email,
+        },
+        stage=stage,
+    )
+    slug = badge_file_slug(badge_name)
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{slug}_parent_prerequisite_letter.pdf"'},
     )
 
 
