@@ -44,26 +44,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Canoeing hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Canoeing hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Canoeing prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Canoeing prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)"
           },
           "starting_requirement_gate": {
@@ -138,23 +149,31 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Study & Explanation Notes",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Injuries",
+              "Illnesses that could occur while canoeing: blisters",
+              "Cold-water shock",
+              "Hypothermia",
+              "Dehydration",
+              "Heat-related illnesses"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Canoeing Requirement 1b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Canoeing pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)"
           },
           "starting_requirement_gate": null,
@@ -196,23 +215,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss the Scouting America Safety Afloat policy",
+              "2. Tell how it applies to canoeing activities"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1c is enough for Canoeing Requirement 1c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the scouting america safety afloat policy.",
+            "fact": "Scouts must discuss discuss the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17).",
+            "fact_correction": "Scouts must discuss discuss the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)"
           },
           "starting_requirement_gate": null,
@@ -312,25 +335,36 @@
       "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Canoeing hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Canoeing prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Canoeing hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Canoeing prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Canoeing prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)"
       },
       "starting_requirement_gate": {
@@ -367,7 +401,7 @@
       ],
       "step_by_step_procedure": [
         "Cold-water Shock Paddler: The first is cold-water shock which a paddler canexperience by falling into cold water.",
-        "Danger Ishypothermia Gradual: The second danger ishypothermia, which is a gradual lowering of the body’s coretemperature caused by spending minutes to hours in water.",
+        "Danger Is hypothermia Gradual: The second danger is hypothermia, which is a gradual lowering of the body’s core temperature caused by spending minutes to hours in water.",
         "Cold-water Shock Occurs: Cold-water shock occurs when a paddler falls into verycold water, especially below 60 degrees.",
         "Colder Water Severe: The colder the water, the more severe the effects."
       ],
@@ -441,22 +475,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Before doing the following requirements, successfully complete",
+          "2. Key Pamphlet Examples & Evidence (Req 2)",
+          "3. Practical Explain & Safety Verification"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Safety and First Aid is enough for Canoeing Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Safety and First Aid grounded in the official Canoeing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Safety and First Aid grounded in the official Canoeing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing the following requirements, successfully complete.",
+        "fact": "Scouts must explain before doing the following requirements, successfully complete using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 9, p. 13).",
+        "fact_correction": "Scouts must explain before doing the following requirements, successfully complete using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 9, p. 13).",
         "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 9, p. 13)"
       },
       "starting_requirement_gate": {
@@ -548,23 +587,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Study & Explanation Notes",
             "headers": [
-              "Req 3a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Name and point out the major parts of a canoe",
+              "Pamphlet Standard & Key Facts (3a)",
+              "Field Application & Counselor Verification (Name)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Canoeing Requirement 3a sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 3a grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 3a grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name and point out the major parts of a canoe.",
+            "fact": "Scouts must name name and point out the major parts of a canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28).",
+            "fact_correction": "Scouts must name name and point out the major parts of a canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)"
           },
           "starting_requirement_gate": null,
@@ -610,26 +654,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 3b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Describe how the length and shape of a canoe affect its performance",
+              "Pamphlet Standard & Key Facts (3b)",
+              "Field Application & Counselor Verification (Describe)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Canoeing Requirement 3b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe how the length and shape of a canoe affect its performance.",
+            "fact": "Scouts must describe describe how the length and shape of a canoe affect its performance using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28).",
+            "fact_correction": "Scouts must describe describe how the length and shape of a canoe affect its performance using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)"
           },
           "starting_requirement_gate": null,
@@ -698,25 +749,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Name and point out the major parts of a canoe",
+          "(b) Describe how the length and shape of a canoe affect its performance"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Name and point out the major is enough for Canoeing Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Name and point out the major grounded in the official Canoeing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Name and point out the major grounded in the official Canoeing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name and point out the major parts of a canoe.",
+        "fact": "Scouts must demonstrate name and point out the major parts of a canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28).",
+        "fact_correction": "Scouts must demonstrate name and point out the major parts of a canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28).",
         "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)"
       },
       "starting_requirement_gate": null,
@@ -748,9 +805,9 @@
       ],
       "step_by_step_procedure": [
         "Keel Improves Canoe: A keel improves a canoe’s ability to travel in astraight line but hinders its ability to turn.",
-        "Facingforward Canoe Ahead: When you are facingforward in your canoe, ahead is the direction in front of thebow, and astern is the direction behind the boat.",
+        "Facing forward Canoe Ahead: When you are facing forward in your canoe, ahead is the direction in front of thebow, and astern is the direction behind the boat.",
         "Canoe Dimensions Affect: A canoe’s dimensions affect how the canoe will perform onwater.",
-        "Keel Furtherimproves Canoe: A keel furtherimproves a canoe’s tracking ability."
+        "Keel Further improves Canoe: A keel further improves a canoe’s tracking ability."
       ],
       "gear_checklist": [
         "Official Canoeing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
@@ -808,23 +865,28 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Study & Explanation Notes",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Name and point out the parts of a paddle",
+              "Pamphlet Standard & Key Facts (4a)",
+              "Field Application & Counselor Verification (Name)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Canoeing Requirement 4a sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 4a grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name and point out the parts of a paddle.",
+            "fact": "Scouts must name name and point out the parts of a paddle using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43).",
+            "fact_correction": "Scouts must name name and point out the parts of a paddle using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)"
           },
           "starting_requirement_gate": null,
@@ -860,27 +922,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 4b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate how to correctly size a paddle for a paddler in a sitting",
+              "2. Key Pamphlet Examples & Evidence (Req 4b)",
+              "3. Practical Demonstrate & Safety Verification"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Canoeing Requirement 4b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate how to correctly size a paddle for a paddler in a sitting.",
+            "fact": "Scouts must demonstrate demonstrate how to correctly size a paddle for a paddler in a sitting using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43).",
+            "fact_correction": "Scouts must demonstrate demonstrate how to correctly size a paddle for a paddler in a sitting using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)"
           },
           "starting_requirement_gate": null,
@@ -933,25 +1002,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Name and point out the parts of a paddle",
+          "(b) Demonstrate how to correctly size a paddle for a paddler in a sitting"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Name and point out the parts is enough for Canoeing Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Name and point out the parts grounded in the official Canoeing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Name and point out the parts grounded in the official Canoeing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name and point out the parts of a paddle.",
+        "fact": "Scouts must demonstrate name and point out the parts of a paddle using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43).",
+        "fact_correction": "Scouts must demonstrate name and point out the parts of a paddle using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43).",
         "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)"
       },
       "starting_requirement_gate": null,
@@ -984,7 +1059,7 @@
       "step_by_step_procedure": [
         "Body Slightlyshifted: The body should be slightlyshifted to the paddling side of the paddler so the knee is in thecurved part of the hull.",
         "Kneeling Cushion Pad: A kneeling cushion or pad of closedcell foam is almost always needed for the kneels even for shorttrips.",
-        "Canoes Not Designed: Some canoes are not designed for the kneeling positionwith little room under the seat for the feet and lower legs.",
+        "Canoes Not Designed: Some canoes are not designed for the kneeling position with little room under the seat for the feet and lower legs.",
         "Inthese Canoes Avoid: Inthese canoes, avoid getting the legs entangled by using only thesitting position."
       ],
       "gear_checklist": [
@@ -1034,23 +1109,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5a Structured Study & Explanation Notes",
             "headers": [
-              "Req 5a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Review with your counselor the characteristics of life jackets most",
+              "2. Why a life jacket must always be worn while paddling"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Canoeing Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on review with your counselor the characteristics of life jackets most.",
+            "fact": "Scouts must explain review with your counselor the characteristics of life jackets most using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79).",
+            "fact_correction": "Scouts must explain review with your counselor the characteristics of life jackets most using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)"
           },
           "starting_requirement_gate": null,
@@ -1086,27 +1165,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 5b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate how to select and properly fit the correct size life jacket",
+              "Pamphlet Standard & Key Facts (5b)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Canoeing Requirement 5b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5b grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate how to select and properly fit the correct size life jacket.",
+            "fact": "Scouts must demonstrate demonstrate how to select and properly fit the correct size life jacket using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79).",
+            "fact_correction": "Scouts must demonstrate demonstrate how to select and properly fit the correct size life jacket using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)"
           },
           "starting_requirement_gate": null,
@@ -1152,23 +1238,31 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5c Structured Study & Explanation Notes",
             "headers": [
-              "Req 5c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "A sound signal device",
+              "Extra paddle",
+              "Sponge",
+              "Bailer",
+              "Bilge pump",
+              "Rescue sling"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5c is enough for Canoeing Requirement 5c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on a sound signal device.",
+            "fact": "Scouts must explain a sound signal device using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79).",
+            "fact_correction": "Scouts must explain a sound signal device using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)"
           },
           "starting_requirement_gate": null,
@@ -1233,25 +1327,32 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Review with your counselor the characteristics of life jackets most",
+          "(b) Demonstrate how to select and properly fit the correct size life jacket",
+          "(c) Review the importance of safety and rescue equipment such as a sound signal"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Review with your counselor the characteristics is enough for Canoeing Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Review with your counselor the characteristics grounded in the official Canoeing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Review with your counselor the characteristics grounded in the official Canoeing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on review with your counselor the characteristics of life jackets most.",
+        "fact": "Scouts must demonstrate review with your counselor the characteristics of life jackets most using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79).",
+        "fact_correction": "Scouts must demonstrate review with your counselor the characteristics of life jackets most using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79).",
         "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)"
       },
       "starting_requirement_gate": null,
@@ -1276,7 +1377,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Paddler Basic Safetyand: Every paddler should have and know how to use basic safetyand rescue equipment.",
+        "Paddler Basic Safety and: Every paddler should have and know how to use basic safety and rescue equipment.",
         "Include Sound Signal: These include a sound signal device, extra paddle, sponge, bailer, bilge pump, rescue sling, ropesand throw bag.",
         "Sound Signal Device: Sound Signal Device, U.S.",
         "Easiest Sound Devicethat: The easiest sound devicethat a paddler can carry is a whistle."
@@ -1348,22 +1449,26 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Review with your counselor the general care and maintenance of canoes",
+          "2. Other canoeing equipment"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Review with your counselor the general is enough for Canoeing Requirement 6 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Review with your counselor the general grounded in the official Canoeing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Review with your counselor the general grounded in the official Canoeing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on review with your counselor the general care and maintenance of canoes.",
+        "fact": "Scouts must explain review with your counselor the general care and maintenance of canoes using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 30, p. 34).",
+        "fact_correction": "Scouts must explain review with your counselor the general care and maintenance of canoes using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 30, p. 34).",
         "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 30, p. 34)"
       },
       "starting_requirement_gate": null,
@@ -1442,23 +1547,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7a Structured Study & Explanation Notes",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Safely carry and launch the canoe from a dock or shore (both, if possible)",
+              "Pamphlet Standard & Key Facts (7a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Canoeing Requirement 7a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on safely carry and launch the canoe from a dock or shore (both, if possible).",
+            "fact": "Scouts must explain safely carry and launch the canoe from a dock or shore (both, if possible) using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45).",
+            "fact_correction": "Scouts must explain safely carry and launch the canoe from a dock or shore (both, if possible) using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -1495,23 +1605,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7b Structured Study & Explanation Notes",
             "headers": [
-              "Req 7b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Safely land the canoe on a dock or shore (both, if possible) and return",
+              "2. Key Pamphlet Examples & Evidence (Req 7b)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Canoeing Requirement 7b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on safely land the canoe on a dock or shore (both, if possible) and return.",
+            "fact": "Scouts must explain safely land the canoe on a dock or shore (both, if possible) and return using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45).",
+            "fact_correction": "Scouts must explain safely land the canoe on a dock or shore (both, if possible) and return using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -1552,27 +1667,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 7c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate kneeling and sitting positions in a canoe",
+              "2. The proper use for each position"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7c is enough for Canoeing Requirement 7c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate kneeling and sitting positions in a canoe.",
+            "fact": "Scouts must explain demonstrate kneeling and sitting positions in a canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45).",
+            "fact_correction": "Scouts must explain demonstrate kneeling and sitting positions in a canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -1614,23 +1735,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7d Structured Study & Explanation Notes",
             "headers": [
-              "Req 7d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Change places while afloat in the canoe",
+              "Pamphlet Standard & Key Facts (7d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7d is enough for Canoeing Requirement 7d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on change places while afloat in the canoe.",
+            "fact": "Scouts must explain change places while afloat in the canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45).",
+            "fact_correction": "Scouts must explain change places while afloat in the canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -1691,25 +1817,33 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 7 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Safely carry and launch the canoe from a dock or shore (both, if possible)",
+          "(b) Safely land the canoe on a dock or shore (both, if possible) and return it",
+          "(c) Demonstrate kneeling and sitting positions in a canoe and explain the proper",
+          "(d) Change places while afloat in the canoe"
         ],
         "min_rows": 4,
-        "pre_approval_gate": false
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With a companion, use a properly is enough for Canoeing Requirement 7 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, use a properly grounded in the official Canoeing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, use a properly grounded in the official Canoeing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on safely carry and launch the canoe from a dock or shore (both, if possible).",
+        "fact": "Scouts must demonstrate safely carry and launch the canoe from a dock or shore (both, if possible) using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45).",
+        "fact_correction": "Scouts must demonstrate safely carry and launch the canoe from a dock or shore (both, if possible) using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45).",
         "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)"
       },
       "starting_requirement_gate": null,
@@ -1788,23 +1922,27 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8a Structured Study & Explanation Notes",
             "headers": [
-              "Req 8a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Safely exit the canoe in deep water without losing contact with the canoe",
+              "2. Reenter the canoe with the assistance of the other paddler without capsizing"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8a is enough for Canoeing Requirement 8a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on safely exit the canoe in deep water without losing contact with the canoe.",
+            "fact": "Scouts must explain safely exit the canoe in deep water without losing contact with the canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
+            "fact_correction": "Scouts must explain safely exit the canoe in deep water without losing contact with the canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
@@ -1854,26 +1992,32 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 8b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Safely perform a controlled capsize of the canoe",
+              "2. How staying with a capsized canoe will support both paddlers"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8b is enough for Canoeing Requirement 8b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8b grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8b grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on safely perform a controlled capsize of the canoe.",
+            "fact": "Scouts must demonstrate safely perform a controlled capsize of the canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
+            "fact_correction": "Scouts must demonstrate safely perform a controlled capsize of the canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
@@ -1918,27 +2062,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 8c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Swim, tow, or push a swamped canoe 50 feet to shallow water",
+              "2. In the shallow water, empty the swamped canoe and reenter it"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8c is enough for Canoeing Requirement 8c sign-off.",
-            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 8c grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 8c grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on swim, tow, or push a swamped canoe 50 feet to shallow water.",
+            "fact": "Scouts must swim swim, tow, or push a swamped canoe 50 feet to shallow water using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
+            "fact_correction": "Scouts must swim swim, tow, or push a swamped canoe 50 feet to shallow water using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
@@ -1984,23 +2134,27 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8d Structured Study & Explanation Notes",
             "headers": [
-              "Req 8d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. In deep water, rescue a swamped canoe and its paddlers",
+              "2. After checking that those in the water do not need immediate assistance"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8d is enough for Canoeing Requirement 8d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on in deep water, rescue a swamped canoe and its paddlers.",
+            "fact": "Scouts must explain in deep water, rescue a swamped canoe and its paddlers using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
+            "fact_correction": "Scouts must explain in deep water, rescue a swamped canoe and its paddlers using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
@@ -2037,26 +2191,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 8e Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Perform a canoe rescue of a conscious swimmer",
+              "Pamphlet Standard & Key Facts (8e)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8e is enough for Canoeing Requirement 8e sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8e grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8e grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a canoe rescue of a conscious swimmer.",
+            "fact": "Scouts must demonstrate perform a canoe rescue of a conscious swimmer using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
+            "fact_correction": "Scouts must demonstrate perform a canoe rescue of a conscious swimmer using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
@@ -2102,23 +2263,27 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8f Structured Study & Explanation Notes",
             "headers": [
-              "Req 8f Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Using a rescue (throw) bag from shore, lay the line within 3 feet",
+              "2. Show how to repack the bag when done"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8f is enough for Canoeing Requirement 8f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using a rescue (throw) bag from shore, lay the line within 3 feet.",
+            "fact": "Scouts must explain using a rescue (throw) bag from shore, lay the line within 3 feet using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
+            "fact_correction": "Scouts must explain using a rescue (throw) bag from shore, lay the line within 3 feet using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
           },
           "starting_requirement_gate": null,
@@ -2207,25 +2372,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 8 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Safely exit the canoe in deep water without losing contact with the canoe",
+          "(b) Safely perform a controlled capsize of the canoe and demonstrate how staying",
+          "(c) Swim, tow, or push a swamped canoe 50 feet to shallow water",
+          "(d) In deep water, rescue a swamped canoe and its paddlers",
+          "(e) Perform a canoe rescue of a conscious swimmer",
+          "(f) Using a rescue (throw) bag from shore, lay the line within 3 feet"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With a companion, use a properly is enough for Canoeing Requirement 8 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, use a properly grounded in the official Canoeing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, use a properly grounded in the official Canoeing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on safely exit the canoe in deep water without losing contact with the canoe.",
+        "fact": "Scouts must demonstrate safely exit the canoe in deep water without losing contact with the canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
+        "fact_correction": "Scouts must demonstrate safely exit the canoe in deep water without losing contact with the canoe using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94).",
         "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)"
       },
       "starting_requirement_gate": null,
@@ -2251,14 +2426,14 @@
       ],
       "pamphlet_excerpts": [
         "Grab Rope Thumb: Grab the rope with the thumb andpointer finger of the throwing hand and push a length of ropethe bottom of the bag.",
-        "Canoe Rescue Conscious: Canoe Rescue of a Conscious Swimmer Sometimes a swimmer is beyond the reach of a rope thrownfrom shore.",
+        "Canoe Rescue Conscious: Canoe Rescue of a Conscious Swimmer Sometimes a swimmer is beyond the reach of a rope thrown from shore.",
         "Case Canoe Rescuecraft: In this case, the canoe can be used as a rescuecraft.",
         "Canoe Going Launch: If the canoe is going to launch from shore to rescue adistressed swimmer, the paddlers should carry a flotation aid ofsome type that can be given."
       ],
       "step_by_step_procedure": [
         "Convenient Aid Extra: The most convenient aid would be an extra life jacket.",
         "Units Float Trips: Units on float trips mayalso be in a position to rescue swimmers or boaters without alife jacket who have been separated from their craft.",
-        "Eithersituation Paddlers: In eithersituation, the paddlers should approach the distressed swimmerwith vocal reassurances that they are there to help.",
+        "Either situation Paddlers: In either situation, the paddlers should approach the distressed swimmer with vocal reassurances that they are there to help.",
         "Rescue Boat Safe: The rescue boat should keep a safe distance from theswimmer while they offer assistance."
       ],
       "gear_checklist": [
@@ -2304,23 +2479,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9a Structured Study & Explanation Notes",
             "headers": [
-              "Req 9a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 9a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 9a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Pivot (spin) the canoe 180° (half circle) to the right from a stationary",
+              "2. Return to the starting position by pivoting to the left using draw"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 9a is enough for Canoeing Requirement 9a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9a grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9a grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on pivot (spin) the canoe 180° (half circle) to the right from a stationary.",
+            "fact": "Scouts must explain pivot (spin) the canoe 180° (half circle) to the right from a stationary using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
+            "fact_correction": "Scouts must explain pivot (spin) the canoe 180° (half circle) to the right from a stationary using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
@@ -2357,23 +2536,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9b Structured Study & Explanation Notes",
             "headers": [
-              "Req 9b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 9b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 9b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Move a canoe sideways (abeam) in one direction for 10 feet and then",
+              "2. Key Pamphlet Examples & Evidence (Req 9b)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 9b is enough for Canoeing Requirement 9b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9b grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on move a canoe sideways (abeam) in one direction for 10 feet and then.",
+            "fact": "Scouts must explain move a canoe sideways (abeam) in one direction for 10 feet and then using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
+            "fact_correction": "Scouts must explain move a canoe sideways (abeam) in one direction for 10 feet and then using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
@@ -2410,23 +2594,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9c Structured Study & Explanation Notes",
             "headers": [
-              "Req 9c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 9c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 9c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "While in forward motion, stop the canoe within two boat lengths using the backstroke",
+              "Pamphlet Standard & Key Facts (9c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 9c is enough for Canoeing Requirement 9c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9c grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9c grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on while in forward motion, stop the canoe within two boat lengths using the backstroke.",
+            "fact": "Scouts must explain while in forward motion, stop the canoe within two boat lengths using the backstroke using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
+            "fact_correction": "Scouts must explain while in forward motion, stop the canoe within two boat lengths using the backstroke using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
@@ -2472,23 +2661,28 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9d Structured Study & Explanation Notes",
             "headers": [
-              "Req 9d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 9d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 9d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. While in the stern position and without assistance from the bow paddler",
+              "2. Key Pamphlet Examples & Evidence (Req 9d)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 9d is enough for Canoeing Requirement 9d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9d grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9d grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on while in the stern position and without assistance from the bow paddler.",
+            "fact": "Scouts must explain while in the stern position and without assistance from the bow paddler using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
+            "fact_correction": "Scouts must explain while in the stern position and without assistance from the bow paddler using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
@@ -2534,23 +2728,28 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9e Structured Study & Explanation Notes",
             "headers": [
-              "Req 9e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 9e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 9e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Move the canoe in a straight line 15-20 boat lengths with the bow paddler",
+              "2. Key Pamphlet Examples & Evidence (Req 9e)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 9e is enough for Canoeing Requirement 9e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9e grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9e grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on move the canoe in a straight line 15-20 boat lengths with the bow paddler.",
+            "fact": "Scouts must explain move the canoe in a straight line 15-20 boat lengths with the bow paddler using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
+            "fact_correction": "Scouts must explain move the canoe in a straight line 15-20 boat lengths with the bow paddler using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
@@ -2587,23 +2786,27 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9f Structured Study & Explanation Notes",
             "headers": [
-              "Req 9f Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 9f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 9f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. While maintaining forward motion, turn the canoe 90° in an arc to the right",
+              "2. Repeat the maneuver turning the canoe 90° to the left"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 9f is enough for Canoeing Requirement 9f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9f grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9f grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on while maintaining forward motion, turn the canoe 90° in an arc to the right.",
+            "fact": "Scouts must explain while maintaining forward motion, turn the canoe 90° in an arc to the right using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
+            "fact_correction": "Scouts must explain while maintaining forward motion, turn the canoe 90° in an arc to the right using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
@@ -2645,23 +2848,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9g Structured Study & Explanation Notes",
             "headers": [
-              "Req 9g Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 9g Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 9g Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Move the canoe backwards in a straight line 3-4 boat lengths using",
+              "2. Key Pamphlet Examples & Evidence (Req 9g)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 9g is enough for Canoeing Requirement 9g sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 9g grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 9g grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on move the canoe backwards in a straight line 3-4 boat lengths using.",
+            "fact": "Scouts must explain move the canoe backwards in a straight line 3-4 boat lengths using using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
+            "fact_correction": "Scouts must explain move the canoe backwards in a straight line 3-4 boat lengths using using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
@@ -2698,23 +2906,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9h Structured Study & Explanation Notes",
             "headers": [
-              "Req 9h Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 9h Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 9h Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "The draw stroke",
+              "The forward",
+              "Reverse sweeps"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 9h is enough for Canoeing Requirement 9h sign-off.",
-            "fact": "Each Scout must actively complete the specific principles and real-world steps of Req 9h grounded in the official Canoeing pamphlet.",
-            "fact_correction": "Each Scout must actively complete the specific principles and real-world steps of Req 9h grounded in the official Canoeing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the draw stroke.",
+            "fact": "Scouts must complete the draw stroke using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
+            "fact_correction": "Scouts must complete the draw stroke using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
             "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
           },
           "starting_requirement_gate": null,
@@ -2791,25 +3004,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 9 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Pivot (spin) the canoe 180° (half circle) to the right from a stationary",
+          "(b) Move a canoe sideways (abeam) in one direction for 10 feet and then return",
+          "(c) While in forward motion, stop the canoe within two boat lengths using",
+          "(d) While in the stern position and without assistance from the bow paddler",
+          "(e) Move the canoe in a straight line 15-20 boat lengths with the bow paddler",
+          "(f) While maintaining forward motion, turn the canoe 90° in an arc to the right"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With a companion, using a properly is enough for Canoeing Requirement 9 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, using a properly grounded in the official Canoeing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of With a companion, using a properly grounded in the official Canoeing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on pivot (spin) the canoe 180° (half circle) to the right from a stationary.",
+        "fact": "Scouts must demonstrate pivot (spin) the canoe 180° (half circle) to the right from a stationary using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
+        "fact_correction": "Scouts must demonstrate pivot (spin) the canoe 180° (half circle) to the right from a stationary using verified procedures, field evidence, and safety standards from Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71).",
         "pamphlet_page_ref": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)"
       },
       "starting_requirement_gate": null,
@@ -2835,12 +3058,12 @@
       ],
       "pamphlet_excerpts": [
         "Imagine Box Wideas: Imagine a box about as wideas your shoulders, as high as the top of your head, andas low as the top of the gunwales.",
-        "Extends Forwardfrom Back: It extends forwardfrom your back to as far as your arms will reach whilekeeping good posture.",
+        "Extends Forward from Back: It extends forward from your back to as far as your arms will reach while keeping good posture.",
         "Safest Way Paddle: It is also the safest way to paddle becausestaying in the box protects your shoulder joints frombeing put in unstable positions.",
         "Rotate Upperbody Perform: If you rotate your upperbody to perform each stroke, the large, strong musclesof the torso will power the stroke and prevent fatigue."
       ],
       "step_by_step_procedure": [
-        "Paddle Imagine Torso: As you paddle, imagine your torso twisting around yourbackbone.",
+        "Paddle Imagine Torso: As you paddle, imagine your torso twisting around your backbone.",
         "Paddle Blade Eyeswill: Following the paddle blade with your eyeswill help you learn to rotate your torso through eachstroke.",
         "Course Direction Team: Course Direction is a Team Effort The paddler in the stern position is better able to steer thecanoe since the stern paddler is further.",
         "J-stroke Thumb-down: That is why the J-stroke and Thumb-down rudderstroke are only performed in the stern."

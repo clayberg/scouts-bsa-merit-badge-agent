@@ -1264,6 +1264,9 @@ async def api_regenerate_slide(
             has_visual=bool(png_path),
             safety_callout=req.slide_data.get("safety_warning"),
             audience_level=str(req.slide_data.get("audience_level") or "All Scouts (Ages 11-17)"),
+            local_grounding_callout=str(req.slide_data.get("local_grounding_callout") or ""),
+            slide_dict=req.slide_data,
+            slide_idx_in_req=max(0, int(req.slide_index or 0)),
         )
     else:
         recompiled_notes = _sanitize_no_ellipsis_or_emdash(str(req.slide_data.get("presenter_notes") or ""))
@@ -1730,9 +1733,17 @@ def _synthesize_studio_narrative_script(
     worked_example: Optional[Dict[str, Any]] = None,
     quiz_item: Optional[Dict[str, Any]] = None,
     gear_checklist: Optional[List[str]] = None,
+    local_grounding_callout: str = "",
+    slide_dict: Optional[Dict[str, Any]] = None,
 ) -> str:
     """Synthesizes a rich, slide-unique Studio Counselor Storytelling Script with archetype-tailored hooks, transitions, and EDGE cues."""
-    from src.agents.planner import _sanitize_no_ellipsis_or_emdash, _split_anchor_and_detail
+    from src.agents.planner import (
+        _extract_meaningful_topic_phrase,
+        _is_generic_meta_misconception,
+        _sanitize_no_ellipsis_or_emdash,
+        _split_anchor_and_detail,
+        _synthesize_subject_matter_misconception,
+    )
 
     clean_title = re.sub(r"^(?:Req(?:uirement)?\s*)?[0-9a-zA-Z.]+\s*[:\-]\s*", "", slide_title).strip() or slide_title
     is_cover = str(req_num).strip().lower() in ("cover", "-1", "0") or archetype in ("COVER", "TITLE_COVER_HERO")
@@ -1782,7 +1793,8 @@ def _synthesize_studio_narrative_script(
     parsed_cards: List[Tuple[str, str]] = []
     for idx_b, raw_b in enumerate(bullets[:4]):
         h, b = _split_anchor_and_detail(raw_b, f"Key Step {idx_b + 1}")
-        parsed_cards.append((h, b))
+        meaningful_h = _extract_meaningful_topic_phrase(h, b, f"{clean_title} Step {idx_b + 1}")
+        parsed_cards.append((meaningful_h, b))
 
     first_h = parsed_cards[0][0] if parsed_cards else clean_title
     first_b = parsed_cards[0][1] if parsed_cards else f"the core procedure for Requirement {req_num}"
@@ -1884,7 +1896,7 @@ def _synthesize_studio_narrative_script(
     for idx_c, (h, b) in enumerate(parsed_cards):
         lead = chosen_transitions[idx_c % len(chosen_transitions)]
         body_clean = b.rstrip(".")
-        card_beats.append(f"[Point to Card {idx_c + 1}: {h}] {lead} {h}, where {body_clean}.")
+        card_beats.append(f"[Point to Card {idx_c + 1}: {h}] {lead} **{h}**, where {body_clean}.")
 
     req_callout = ""
     if req_text and len(req_text.strip()) > 10:
@@ -1920,26 +1932,36 @@ def _synthesize_studio_narrative_script(
     if safety_warning:
         safety_beat = f" [Safety & Guide to Safe Scouting Check] Before any hands-on practice, enforce: {safety_warning.rstrip('.')}."
 
+    local_beat = ""
+    effective_local = str(local_grounding_callout or (slide_dict or {}).get("local_grounding_callout") or "").strip()
+    if effective_local:
+        local_beat = f" [Local Field Context] Connect this directly to our local area: {effective_local.rstrip('.')}."
+
     pacing_block = (
         f"[PACING & MODALITY] 5-7 min | {arch_upper} | {hook_line} {req_callout}"
         + " ".join(card_beats)
         + (" " + vis_beat.strip() if vis_beat else "")
-        + f"{safety_beat} {aud_beat}"
+        + f"{safety_beat}{local_beat} {aud_beat}"
     )
 
     ask_templates = [
-        f"[ASK SCOUTS FIRST] If your patrol is out on a weekend campout and someone overlooks {first_h} during {clean_title}, what is the first warning sign you will notice, and how does {second_h} fix it? [Pause for hands]",
-        f"[ASK SCOUTS FIRST] Why do you think the official {badge_name} pamphlet pairs {first_h} with {second_h} under Requirement {req_num} instead of treating them as separate steps? [Call on two patrols]",
-        f"[ASK SCOUTS FIRST] Suppose a Tenderfoot Scout in your patrol asks you how to verify {first_h} in the field: what concrete check from this slide would you show them first? [Pause for buddy discussion]",
-        f"[ASK SCOUTS FIRST] Looking at our cards for {clean_title}, which step requires the most teamwork between patrol buddies on Requirement {req_num}, and why? [Pause for hands]",
+        f'[ASK SCOUTS FIRST] Ask the patrol: "If your patrol is out on a weekend campout and someone overlooks {first_h} during {clean_title}, what is the first warning sign you will notice, and how does {second_h} fix it?" [Pause for hands, then follow up: "Which buddy check catches that earliest?"]',
+        f'[ASK SCOUTS FIRST] Ask the room: "Why does the official {badge_name} pamphlet pair {first_h} with {second_h} under Requirement {req_num} instead of treating them as separate steps?" [Call on two patrols, then probe: "What happens if you reverse the order?"]',
+        f'[ASK SCOUTS FIRST] Pose this scenario: "Suppose a Tenderfoot Scout in your patrol asks you how to verify {first_h} in the field: what concrete check from this slide would you show them first?" [Pause for buddy discussion, then ask: "How do you confirm {second_h} right after?"]',
+        f'[ASK SCOUTS FIRST] Ask Scouts: "Looking at our cards for {clean_title}, which step between {first_h} and {second_h} requires the closest communication between patrol buddies on Requirement {req_num}, and why?" [Pause for hands]',
     ]
     ask_block = ask_templates[(slide_seed // 4) % len(ask_templates)]
 
+    extra_card_summary = ""
+    if len(parsed_cards) > 2:
+        third_h, third_b = parsed_cards[2]
+        extra_card_summary = f" Also verify {third_h} ({third_b.rstrip('.')})."
+
     key_templates = [
-        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Scouts should explain that {first_h} ({first_b.rstrip('.')}) prevents early field errors, while {second_h} ({second_b.rstrip('.')}) fulfills {badge_name} Requirement {req_num}.]",
-        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: {first_h} establishes {first_b.rstrip('.')}, and {second_h} ensures {second_b.rstrip('.')}.]",
-        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Point directly to {first_h} ({first_b.rstrip('.')}) and follow up with {second_h} ({second_b.rstrip('.')}).]",
-        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Scouts should cite {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}) as key buddy checkpoints.]",
+        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Scouts should explain that {first_h} ({first_b.rstrip('.')}) prevents early field errors, while {second_h} ({second_b.rstrip('.')}) fulfills {badge_name} Requirement {req_num}.{extra_card_summary}]",
+        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: {first_h} establishes {first_b.rstrip('.')}, and {second_h} ensures {second_b.rstrip('.')}.{extra_card_summary}]",
+        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Point directly to {first_h} ({first_b.rstrip('.')}) and follow up with {second_h} ({second_b.rstrip('.')}).{extra_card_summary}]",
+        f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Scouts should cite {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}) as key buddy checkpoints.{extra_card_summary}]",
     ]
     key_block = key_templates[(slide_seed // 4) % len(key_templates)]
     if arch_upper == "SOCRATIC_CHECKPOINT_QUIZ" and base_notes:
@@ -1949,14 +1971,30 @@ def _synthesize_studio_narrative_script(
             elif ln.strip().startswith("[ASK SCOUTS FIRST]"):
                 ask_block = ln.strip()
 
-    misc_block = (
-        f"[COMMON MISCONCEPTION TO CORRECT] Myth: Rushing past {first_h} or memorizing {clean_title} without checking {second_h} is enough for {badge_name} Requirement {req_num}. "
-        f"Fact: In real field conditions, a Scout must verify {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}) step by step."
+    meaningful_topics = [h for h, _ in parsed_cards] or [clean_title]
+    page_cite = str((slide_dict or {}).get("pamphlet_reference") or f"Official BSA {badge_name} Merit Badge Pamphlet")
+    myth_txt, fact_txt = _synthesize_subject_matter_misconception(
+        clean_badge=badge_name,
+        clean_req=req_num,
+        clean_title=clean_title,
+        arch=arch_upper,
+        meaningful_topics=meaningful_topics,
+        parsed_points=parsed_cards,
+        page_cite=page_cite,
+        slide_idx_in_req=max(0, int(slide_index)),
+        slide_seed=slide_seed,
+        comparison_data=comparison_data,
+        worked_example=worked_example,
+        quiz_item=quiz_item,
+        gear_checklist=gear_checklist,
     )
+    misc_block = f"[COMMON MISCONCEPTION TO CORRECT] Myth: {myth_txt} | BSA Pamphlet Fact: {fact_txt}"
     if base_notes:
         for ln in base_notes.splitlines():
             if ln.strip().startswith("[COMMON MISCONCEPTION TO CORRECT]"):
-                misc_block = ln.strip()
+                candidate_misc = ln.strip()[len("[COMMON MISCONCEPTION TO CORRECT]") :].strip()
+                if candidate_misc and not _is_generic_meta_misconception(candidate_misc, ""):
+                    misc_block = f"[COMMON MISCONCEPTION TO CORRECT] {candidate_misc}"
                 break
 
     demo_templates = [
@@ -1967,7 +2005,7 @@ def _synthesize_studio_narrative_script(
     ]
     demo_block = demo_templates[(slide_seed // 2) % len(demo_templates)]
     if has_visual and visual_caption:
-        demo_block += f" [Trace the key callout on the slide figure: {visual_caption.rstrip('.')}]"
+        demo_block += f" [Have each Scout trace the key anatomical or equipment callouts on the slide diagram to verify {first_h}]"
 
     return "\n".join(
         [
@@ -2001,10 +2039,11 @@ async def _polish_single_slide_notes_core(
     vis_caption = str(s_data.get("visual_caption") or "")
     has_vis = bool(s_data.get("diagram_path") or s_data.get("diagram_url"))
     aud_level = str(audience_level or s_data.get("audience_level") or "All Scouts (Ages 11-17)")
+    local_callout = str(s_data.get("local_grounding_callout") or "")
 
     hash_payload = json.dumps(
         {
-            "v": "gemini_flash_v5_5part",
+            "v": "gemini_flash_v6_5part_v22",
             "badge": badge_name.strip().lower(),
             "req": req_num,
             "slide_idx": slide_index,
@@ -2014,6 +2053,7 @@ async def _polish_single_slide_notes_core(
             "caption": vis_caption if has_vis else "",
             "has_vis": has_vis,
             "audience": aud_level,
+            "local_callout": local_callout,
             "seed": variation_seed if force_refresh else 0,
         },
         sort_keys=True,
@@ -2028,6 +2068,7 @@ async def _polish_single_slide_notes_core(
         and "listen up" not in raw_cached.lower()
         and "gather 'round" not in raw_cached.lower()
         and "future lifesavers" not in raw_cached.lower()
+        and "Assuming a quick verbal summary is enough" not in raw_cached
     ):
         cached_source = "GEMINI_FLASH"
         clean_cached = raw_cached
@@ -2065,6 +2106,9 @@ async def _polish_single_slide_notes_core(
         has_visual=has_vis,
         safety_callout=s_data.get("safety_warning"),
         audience_level=aud_level,
+        local_grounding_callout=local_callout,
+        slide_dict=s_data,
+        slide_idx_in_req=max(0, int(slide_index)),
     )
 
     opening_styles = [
@@ -2082,28 +2126,29 @@ async def _polish_single_slide_notes_core(
     )
 
     prompt = (
-        f"You are an experienced, knowledgeable instructor teaching a {badge_name} Merit Badge class ({aud_level}).\n"
-        f"Rewrite the speaker notes for Slide #{slide_index + 2 if slide_index >= 0 else 1} '{title}' "
-        f"(Requirement {req_num}, Archetype: {arch}, Variation #{variation_seed}) into a clear, "
-        f"conversational, and professional 5-Part Non-Redundant Facilitator Guide.\n"
+        f"You are an experienced, knowledgeable Merit Badge Counselor teaching a {badge_name} Merit Badge class ({aud_level}).\n"
+        f"Transform the baseline notes for Slide #{slide_index + 2 if slide_index >= 0 else 1} '{title}' "
+        f"(Requirement {req_num}, Archetype: {arch}, Variation #{variation_seed}) into an elevated, "
+        f"vivid, and natural 5-Part Facilitator Script.\n"
         f"Official Requirement Text: {s_data.get('verbatim_requirement_text') or 'N/A'}\n"
         f"Slide Cards: {json.dumps(bullets)}\n"
         f"Visual Caption: {vis_caption if has_vis else 'None'}\n"
+        f"Local Grounding Callout: {local_callout or 'None'}\n"
+        f"Pamphlet / Workbook Reference: {s_data.get('pamphlet_reference') or s_data.get('workbook_table_ref') or 'Official Merit Badge Pamphlet'}\n"
         f"Baseline Notes: {base_notes}\n\n"
         f"STRICT TONE & FORMAT RULES:\n"
         f"1. Output exactly 5 sections starting with [PACING & MODALITY], [ASK SCOUTS FIRST], [EXPECTED PAMPHLET ANSWER KEY], [COMMON MISCONCEPTION TO CORRECT], and [DEMONSTRATION & SIGN-OFF RUBRIC].\n"
-        f"2. TONE: Write like a great classroom or field teacher talking naturally and respectfully to students in the middle of an ongoing lesson. "
-        f"Keep the language clear, grounded, conversational, and professional.\n"
+        f"2. TONE: Write like a great classroom or field instructor talking naturally and respectfully to Scouts in an ongoing workshop.\n"
         f"3. OPENING STYLE FOR THIS SLIDE: Use this specific opening structure in [PACING & MODALITY] so slides across the deck never sound repetitive: {chosen_opening_style}\n"
         f"4. BANNED CLICHES: NEVER start with greetings, roll-calls, or corny camp catchphrases such as 'Alright', 'Listen up', "
         f"'Gather round', 'Future lifesavers', 'Hey Scouts', 'Imagine this', 'Picture this', or 'Let's step out of the classroom'. "
         f"Jump straight into the substance of '{title}'.\n"
-        f"5. In [PACING & MODALITY], include time budget, modality, and first-person instructor prose with 2-3 bracketed stage directions like "
-        f"[Point to Card 1: ...] or [Studio Coaching Cue: ...]. When emphasizing key terms, wrap them in balanced double asterisks (**Term**).\n"
-        f"6. In [ASK SCOUTS FIRST], ask a clear Socratic comprehension question before lecturing.\n"
-        f"7. In [EXPECTED PAMPHLET ANSWER KEY], provide the concrete answer key starting with [Expected Answer: ...].\n"
-        f"8. In [COMMON MISCONCEPTION TO CORRECT], state Myth vs. Fact for this requirement.\n"
-        f"9. In [DEMONSTRATION & SIGN-OFF RUBRIC], give a concrete physical, equipment, or tabletop EDGE demonstration action and Application for Merit Badge (#34124) sign-off criterion.\n"
+        f"5. In [PACING & MODALITY], weave a cohesive narrative hook, card-by-card transitions, concrete stage directions "
+        f"([Point to Card 1: ...], [Studio Coaching Cue: ...]), and local context if provided. Wrap emphasized terms in balanced double asterisks (**Term**).\n"
+        f"6. In [ASK SCOUTS FIRST], write spoken Socratic dialogue plus a follow-up probe question before lecturing.\n"
+        f"7. In [EXPECTED PAMPHLET ANSWER KEY], synthesize a complete answer key starting with [Expected Answer: ...] grounded in the slide cards and pamphlet excerpts.\n"
+        f"8. In [COMMON MISCONCEPTION TO CORRECT], provide a vivid subject-matter Myth vs. Fact field trap specific to '{title}' (NEVER use generic 'Assuming a quick verbal summary is enough' boilerplate).\n"
+        f"9. In [DEMONSTRATION & SIGN-OFF RUBRIC], give a concrete physical, equipment, or tabletop EDGE demonstration action and observable Application for Merit Badge (#34124) sign-off criterion.\n"
         f"10. Do NOT use em-dashes, en-dashes, or ellipses."
     )
 
@@ -2140,6 +2185,8 @@ async def _polish_single_slide_notes_core(
             worked_example=s_data.get("worked_example"),
             quiz_item=s_data.get("quiz_item"),
             gear_checklist=s_data.get("gear_checklist"),
+            local_grounding_callout=local_callout,
+            slide_dict=s_data,
         )
         polish_source = "PROCEDURAL_STUDIO_POLISH"
 

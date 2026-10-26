@@ -37,24 +37,30 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 1a Differential Comparison Matrix",
             "headers": [
               "Concept / Method A",
               "Concept / Method B",
               "Key Field Distinction & When to Use"
             ],
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
+            ],
             "row_labels": [
-              "Primary Mechanism",
-              "Field Indicator",
-              "Safety / Application"
+              "Explain radiation and the difference between ionizing and nonionizing radiation",
+              "Pamphlet Standard & Key Facts (1a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1a is enough for Nuclear Science Requirement 1a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain radiation and the difference between ionizing and nonionizing radiation.",
+            "fact": "Scouts must explain explain radiation and the difference between ionizing and nonionizing radiation using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
+            "fact_correction": "Scouts must explain explain radiation and the difference between ionizing and nonionizing radiation using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)"
           },
           "starting_requirement_gate": null,
@@ -96,26 +102,32 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 1b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Explain the ALARA principle",
+              "2. Explain what process you would go through to ensure your dose is kept ALARA"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Nuclear Science Requirement 1b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the alara principle.",
+            "fact": "Scouts must explain explain the alara principle using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
+            "fact_correction": "Scouts must explain explain the alara principle using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)"
           },
           "starting_requirement_gate": null,
@@ -161,23 +173,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Describe the radiation hazard symbol and explain where it should be used",
+              "Pamphlet Standard & Key Facts (1c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Nuclear Science hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Nuclear Science prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Nuclear Science prevents most field injuries.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the radiation hazard symbol and explain where it should be used.",
+            "fact": "Scouts must explain describe the radiation hazard symbol and explain where it should be used using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
+            "fact_correction": "Scouts must explain describe the radiation hazard symbol and explain where it should be used using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)"
           },
           "starting_requirement_gate": null,
@@ -227,23 +244,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1d Structured Study & Explanation Notes",
             "headers": [
-              "Req 1d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain how we are exposed to ionizing radiation from outside the earth",
+              "2. List four examples of Naturally Occurring Radioactive Materials (NORM)"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1d is enough for Nuclear Science Requirement 1d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how we are exposed to ionizing radiation from outside the earth.",
+            "fact": "Scouts must explain explain how we are exposed to ionizing radiation from outside the earth using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
+            "fact_correction": "Scouts must explain explain how we are exposed to ionizing radiation from outside the earth using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)"
           },
           "starting_requirement_gate": null,
@@ -293,24 +314,30 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 1e Differential Comparison Matrix",
             "headers": [
               "Concept / Method A",
               "Concept / Method B",
               "Key Field Distinction & When to Use"
             ],
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
+            ],
             "row_labels": [
-              "Primary Mechanism",
-              "Field Indicator",
-              "Safety / Application"
+              "1. Explain the difference between radiation exposure and contamination",
+              "2. Describe the hazards of radiation to humans, the environment, and wildlife",
+              "3. Calculate your approximate annual radiation dose and compare it to a typical"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Nuclear Science hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Nuclear Science prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Nuclear Science prevents most field injuries.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the difference between radiation exposure and contamination.",
+            "fact": "Scouts must explain explain the difference between radiation exposure and contamination using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
+            "fact_correction": "Scouts must explain explain the difference between radiation exposure and contamination using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)"
           },
           "starting_requirement_gate": null,
@@ -403,23 +430,30 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 1 Differential Comparison Matrix",
         "headers": [
           "Concept / Method A",
           "Concept / Method B",
           "Key Field Distinction & When to Use"
         ],
-        "row_labels": [
-          "Primary Mechanism",
-          "Field Indicator",
-          "Safety / Application"
+        "column_headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
         ],
-        "min_rows": 3,
+        "row_labels": [
+          "(a) Explain radiation and the difference between ionizing and nonionizing",
+          "(b) Explain the ALARA principle",
+          "(c) Describe the radiation hazard symbol and explain where it should be used",
+          "(d) Explain how we are exposed to ionizing radiation from outside the earth"
+        ],
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Nuclear Science hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Nuclear Science prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Nuclear Science prevents most field injuries.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain radiation and the difference between ionizing and nonionizing.",
+        "fact": "Scouts must explain explain radiation and the difference between ionizing and nonionizing using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
+        "fact_correction": "Scouts must explain explain radiation and the difference between ionizing and nonionizing using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69).",
         "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)"
       },
       "starting_requirement_gate": null,
@@ -529,23 +563,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Terms: atom, nucleus, proton, neutron, electron, quark, isotope",
+              "2. Alpha particle, beta particle, gamma ray, X-ray",
+              "3. Ionization, radioactivity, radioisotope, and stability"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Nuclear Science Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on terms: atom, nucleus, proton, neutron, electron, quark, isotope.",
+            "fact": "Scouts must explain terms: atom, nucleus, proton, neutron, electron, quark, isotope using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20).",
+            "fact_correction": "Scouts must explain terms: atom, nucleus, proton, neutron, electron, quark, isotope using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)"
           },
           "starting_requirement_gate": null,
@@ -591,23 +630,29 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Choose an element from the periodic table",
+              "2. Construct 3-D models for the atoms of three isotopes of this element, showing",
+              "3. Write down the isotope notation for each model including the atomic and mass",
+              "4. In a separate model or diagram, explain or show how quarks make up protons"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Nuclear Science Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on choose an element from the periodic table.",
+            "fact": "Scouts must explain choose an element from the periodic table using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20).",
+            "fact_correction": "Scouts must explain choose an element from the periodic table using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)"
           },
           "starting_requirement_gate": null,
@@ -676,22 +721,26 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Explain the following terms: atom, nucleus, proton, neutron, electron, quark",
+          "(b) Choose an element from the periodic table"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Basic Nuclear Science is enough for Nuclear Science Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Basic Nuclear Science grounded in the official Nuclear Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Basic Nuclear Science grounded in the official Nuclear Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the following terms: atom, nucleus, proton, neutron, electron, quark.",
+        "fact": "Scouts must explain explain the following terms: atom, nucleus, proton, neutron, electron, quark using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20).",
+        "fact_correction": "Scouts must explain explain the following terms: atom, nucleus, proton, neutron, electron, quark using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20).",
         "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)"
       },
       "starting_requirement_gate": null,
@@ -770,23 +819,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Study & Explanation Notes",
             "headers": [
-              "Req 3a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain how a particle accelerator works",
+              "Pamphlet Standard & Key Facts (3a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Nuclear Science Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how a particle accelerator works.",
+            "fact": "Scouts must explain explain how a particle accelerator works using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24).",
+            "fact_correction": "Scouts must explain explain how a particle accelerator works using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)"
           },
           "starting_requirement_gate": null,
@@ -838,23 +892,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 3b(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 3b(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 3b(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 3b(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Visit an accelerator, research lab",
+                  "2. University",
+                  "3. With a scientist how they study the properties of the nucleus or nucleons"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 3b(1) is enough for Nuclear Science Requirement 3b(1) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 3b(1) grounded in the official Nuclear Science pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 3b(1) grounded in the official Nuclear Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit an accelerator, research lab.",
+                "fact": "Scouts must discuss visit an accelerator, research lab using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24).",
+                "fact_correction": "Scouts must discuss visit an accelerator, research lab using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24).",
                 "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)"
               },
               "starting_requirement_gate": null,
@@ -891,23 +950,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 3b(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 3b(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 3b(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 3b(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. List three particle accelerators",
+                  "2. Several experiments conducted and their associated basic science"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 3b(2) is enough for Nuclear Science Requirement 3b(2) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b(2) grounded in the official Nuclear Science pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 3b(2) grounded in the official Nuclear Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on list three particle accelerators.",
+                "fact": "Scouts must describe list three particle accelerators using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24).",
+                "fact_correction": "Scouts must describe list three particle accelerators using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24).",
                 "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)"
               },
               "starting_requirement_gate": null,
@@ -939,23 +1002,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3b Structured Study & Explanation Notes",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "(1) Visit an accelerator, research lab, or university and discuss",
+              "(2) List three particle accelerators and describe several experiments conducted"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Nuclear Science Requirement 3b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 3b grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 3b grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit an accelerator, research lab, or university and discuss.",
+            "fact": "Scouts must discuss visit an accelerator, research lab, or university and discuss using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24).",
+            "fact_correction": "Scouts must discuss visit an accelerator, research lab, or university and discuss using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)"
           },
           "starting_requirement_gate": null,
@@ -1016,22 +1083,30 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Explain how a particle accelerator works",
+          "(b) Do ONE of the following",
+          "(1) Visit an accelerator, research lab, or university and discuss",
+          "(2) List three particle accelerators and describe several experiments conducted",
+          "(1) Visit an accelerator, research lab, or university and discuss",
+          "(2) List three particle accelerators and describe several experiments conducted"
         ],
-        "min_rows": 3,
+        "min_rows": 6,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Modern Particle Physics is enough for Nuclear Science Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Modern Particle Physics grounded in the official Nuclear Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Modern Particle Physics grounded in the official Nuclear Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how a particle accelerator works.",
+        "fact": "Scouts must explain explain how a particle accelerator works using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24).",
+        "fact_correction": "Scouts must explain explain how a particle accelerator works using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24).",
         "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)"
       },
       "starting_requirement_gate": null,
@@ -1123,26 +1198,34 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Build an electroscope",
+              "2. Show how it works",
+              "3. Place a radiation source near the electroscope ball and explain the effect it",
+              "4. Adults must handle radioactive materials"
             ],
             "min_rows": 4,
-            "pre_approval_gate": false
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Nuclear Science Requirement 4a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4a grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 4a grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on build an electroscope.",
+            "fact": "Scouts must show build an electroscope using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34).",
+            "fact_correction": "Scouts must show build an electroscope using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)"
           },
           "starting_requirement_gate": null,
@@ -1192,26 +1275,34 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Make a cloud chamber",
+              "2. Show how it can be used to see the tracks caused by radiation",
+              "3. Adults must handle radioactive materials and dry ice",
+              "4. Explain what is happening"
             ],
             "min_rows": 4,
-            "pre_approval_gate": false
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Nuclear Science Requirement 4b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4b grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 4b grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make a cloud chamber.",
+            "fact": "Scouts must show make a cloud chamber using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34).",
+            "fact_correction": "Scouts must show make a cloud chamber using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)"
           },
           "starting_requirement_gate": null,
@@ -1256,27 +1347,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": "Req 4c Scientific Experiment & Investigation Sheet",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
+            ],
+            "column_headers": [
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. State the Problem",
+              "2. Form a Hypothesis",
+              "3. Experimental Procedure",
+              "4. Observed Data & Results",
+              "5. Conclusion"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4c is enough for Nuclear Science Requirement 4c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4c grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4c grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on candy.",
+            "fact": "Scouts must demonstrate candy using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34).",
+            "fact_correction": "Scouts must demonstrate candy using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)"
           },
           "starting_requirement_gate": null,
@@ -1352,26 +1449,32 @@
       "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+        "table_title": "Req 4 Scientific Experiment & Investigation Sheet",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Step",
+          "Your Plan / Hypothesis / Data",
+          "Pamphlet Principle & Conclusion"
+        ],
+        "column_headers": [
+          "Step",
+          "Your Plan / Hypothesis / Data",
+          "Pamphlet Principle & Conclusion"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. State the Problem",
+          "2. Form a Hypothesis",
+          "3. Experimental Procedure",
+          "4. Observed Data & Results",
+          "5. Conclusion"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Classic Experiments is enough for Nuclear Science Requirement 4 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Classic Experiments grounded in the official Nuclear Science pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Classic Experiments grounded in the official Nuclear Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on build an electroscope.",
+        "fact": "Scouts must show build an electroscope using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34).",
+        "fact_correction": "Scouts must show build an electroscope using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34).",
         "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)"
       },
       "starting_requirement_gate": null,
@@ -1398,7 +1501,7 @@
       "pamphlet_excerpts": [
         "Ionizing Particles Invisible: Although ionizing particles are invisible, you can use a cloud chamber tosee the tracks the particles leave behind.",
         "Buy Dry Icethe: Buy dry icethe morning of the demonstration in order to minimize thesublimation losses of the dry ice.",
-        "Buy Evening Store: If you must buy the evening before, store in a sealed cooler that allows the CO2 gas to vent as it sublimesfrom the solid form.",
+        "Buy Evening Store: If you must buy the evening before, store in a sealed cooler that allows the CO2 gas to vent as it sublimes from the solid form.",
         "Astrip Felt Inside: Place astrip of felt on the inside of the bottom rim."
       ],
       "step_by_step_procedure": [
@@ -1462,26 +1565,34 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 5a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Using a radiation survey meter and a radioactive source, show how the counts",
+              "2. Adults must handle radioactive materials",
+              "3. Place three different materials between the source and the detector, then",
+              "4. Explain how time, distance, and shielding can reduce an individual's"
             ],
             "min_rows": 4,
-            "pre_approval_gate": false
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Nuclear Science Requirement 5a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5a grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 5a grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using a radiation survey meter and a radioactive source, show how the counts.",
+            "fact": "Scouts must show using a radiation survey meter and a radioactive source, show how the counts using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72).",
+            "fact_correction": "Scouts must show using a radiation survey meter and a radioactive source, show how the counts using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -1527,23 +1638,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5b Structured Study & Explanation Notes",
             "headers": [
-              "Req 5b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Describe how radon is detected in homes",
+              "2. Discuss the steps taken for the long-term and short-term test methods, tell",
+              "3. Explain the health concerns related to radon gas and tell what steps"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Nuclear Science Requirement 5b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5b grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 5b grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe how radon is detected in homes.",
+            "fact": "Scouts must discuss describe how radon is detected in homes using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72).",
+            "fact_correction": "Scouts must discuss describe how radon is detected in homes using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -1584,27 +1700,32 @@
           "children": [],
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+            "table_title": "Req 5c Field Sketch & Observation Canvas",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
+            ],
+            "column_headers": [
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Visit a place where X-rays are used",
+              "2. Draw a floor plan of this room",
+              "3. Show where the unit, the unit operator, and the patient would be when",
+              "4. Explain the precautions taken and the importance of those precautions"
             ],
             "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5c is enough for Nuclear Science Requirement 5c sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5c grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 5c grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit a place where x-rays are used.",
+            "fact": "Scouts must show visit a place where x-rays are used using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72).",
+            "fact_correction": "Scouts must show visit a place where x-rays are used using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -1680,23 +1801,30 @@
       "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+        "table_title": "Req 5 Field Sketch & Observation Canvas",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
+        ],
+        "column_headers": [
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Using a radiation survey meter and a radioactive source, show how the counts",
+          "(b) Describe how radon is detected in homes",
+          "(c) Visit a place where X-rays are used"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Radiation Safety is enough for Nuclear Science Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Radiation Safety grounded in the official Nuclear Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Radiation Safety grounded in the official Nuclear Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using a radiation survey meter and a radioactive source, show how the counts.",
+        "fact": "Scouts must explain using a radiation survey meter and a radioactive source, show how the counts using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72).",
+        "fact_correction": "Scouts must explain using a radiation survey meter and a radioactive source, show how the counts using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72).",
         "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)"
       },
       "starting_requirement_gate": null,
@@ -1721,7 +1849,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Arrangements Yourcounselor: Make arrangements with yourcounselor to visit an X-ray room.",
+        "Arrangements Your counselor: Make arrangements with your counselor to visit an X-ray room.",
         "Differences Inthe Brightness: Note the differences inthe brightness of each and writedown your findings.",
         "Discuss Whythe Different: Discuss whythe different parts of the image havedifferent levels of brightness.",
         "Nuclear Medicine Small: Nuclear medicine uses small amounts of radioactive substancesor tracers for diagnosing various diseases."
@@ -1796,26 +1924,34 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 6a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Make a drawing showing how nuclear fission happens",
+              "2. Observe a mousetrap reactor (setup by an adult) and use it to explain how",
+              "3. Explain how a chain reaction could be stopped or controlled in a nuclear",
+              "4. Explain what is meant by a \"critical mass.\""
             ],
             "min_rows": 4,
-            "pre_approval_gate": false
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6a is enough for Nuclear Science Requirement 6a sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 6a grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 6a grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make a drawing showing how nuclear fission happens.",
+            "fact": "Scouts must make make a drawing showing how nuclear fission happens using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55).",
+            "fact_correction": "Scouts must make make a drawing showing how nuclear fission happens using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
@@ -1861,23 +1997,29 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Study & Explanation Notes",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Visit a local nuclear power plant or nuclear reactor either in person",
+              "2. Learn how a reactor works and how the plant generates electricity",
+              "3. Find out what percentage of electricity in the United States and in your",
+              "4. Make a graph of the information you find"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Nuclear Science Requirement 6b sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 6b grounded in the official Nuclear Science pamphlet.",
-            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 6b grounded in the official Nuclear Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit a local nuclear power plant or nuclear reactor either in person.",
+            "fact": "Scouts must visit visit a local nuclear power plant or nuclear reactor either in person using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55).",
+            "fact_correction": "Scouts must visit visit a local nuclear power plant or nuclear reactor either in person using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55).",
             "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": {
@@ -1955,22 +2097,26 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Make a drawing showing how nuclear fission happens",
+          "(b) Visit a local nuclear power plant or nuclear reactor either in person"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Nuclear Energy is enough for Nuclear Science Requirement 6 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Nuclear Energy grounded in the official Nuclear Science pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Nuclear Energy grounded in the official Nuclear Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make a drawing showing how nuclear fission happens.",
+        "fact": "Scouts must discuss make a drawing showing how nuclear fission happens using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55).",
+        "fact_correction": "Scouts must discuss make a drawing showing how nuclear fission happens using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55).",
         "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55)"
       },
       "starting_requirement_gate": {
@@ -2000,7 +2146,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Hahn Strassmann Wrote: Hahn and Strassmann wrote to Lise Meitner about theirresearch.",
+        "Hahn Strassmann Wrote: Hahn and Strassmann wrote to Lise Meitner about their research.",
         "She Concluded Uranium: She concluded that when uranium is hit with a neutron, it must break in half.",
         "American Biologist William: An American biologist, William Arnold, read the paper anddecided to call the splitting of atoms fission, the word biologistsused for the splitting.",
         "Fission Not Useful: Fission would not be useful for producing energy if we had toshoot each nucleus with a neutron to break it."
@@ -2076,22 +2222,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Beneficial Applications of Nuclear Science",
+          "2. Give an example of each of the following and explain how nuclear science",
+          "3. For each example, explain the application and its significance to nuclear"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Beneficial Applications of Nuclear Science is enough for Nuclear Science Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Beneficial Applications of Nuclear Science grounded in the official Nuclear Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Beneficial Applications of Nuclear Science grounded in the official Nuclear Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on beneficial applications of nuclear science.",
+        "fact": "Scouts must explain beneficial applications of nuclear science using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 42, p. 46).",
+        "fact_correction": "Scouts must explain beneficial applications of nuclear science using verified procedures, field evidence, and safety standards from Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 42, p. 46).",
         "pamphlet_page_ref": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 42, p. 46)"
       },
       "starting_requirement_gate": null,
@@ -2123,7 +2274,7 @@
       ],
       "step_by_step_procedure": [
         "Mars Rover Sojourner: The Mars rover Sojourner used alpha particles to identifychemical elements in Martian rocks.",
-        "Instrument Therover: An instrument on therover bombarded selected rockswith alpha particles, then readthe X-rays generated from therocks.",
+        "Instrument Therover: An instrument on therover bombarded selected rocks with alpha particles, then readthe X-rays generated from therocks.",
         "Chemicalelement Produces: Because each chemicalelement produces a distinctive X-ray, the instrument coulddetermine the composition ofthe rocks.",
         "Ask Types Ofmedical: Ask what types ofmedical images are used to help in the planning process."
       ],
@@ -2195,17 +2346,25 @@
       "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 78, p. 79)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 8 Career & Pathway Exploration Card",
         "headers": [
-          "Req 8 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {

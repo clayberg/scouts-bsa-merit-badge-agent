@@ -32,26 +32,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 14, p. 20)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Multisport hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Multisport prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Multisport prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Multisport hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Multisport prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Multisport prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 14, p. 20)"
           },
           "starting_requirement_gate": null,
@@ -100,27 +111,38 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
+            ],
+            "column_headers": [
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Abrasions",
+              "Blisters",
+              "Concussions",
+              "Contusions",
+              "Dehydration",
+              "Hypothermia",
+              "Overheating",
+              "Sprains"
             ],
-            "min_rows": 4,
+            "min_rows": 8,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 14, p. 20)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Multisport Requirement 1b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Multisport pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 14, p. 20)"
           },
           "starting_requirement_gate": null,
@@ -184,25 +206,36 @@
       "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 14, p. 20)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Multisport hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Multisport prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Multisport prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Multisport hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Multisport prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Multisport prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 14, p. 20)"
       },
       "starting_requirement_gate": null,
@@ -304,23 +337,28 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss the importance of having a physical examination each year",
+              "2. Discuss why overall health, immunizations, medications, allergies",
+              "3. Tell your counselor when you last underwent a physical examination"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Multisport Requirement 2a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the importance of having a physical examination each year.",
+            "fact": "Scouts must discuss discuss the importance of having a physical examination each year using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24).",
+            "fact_correction": "Scouts must discuss discuss the importance of having a physical examination each year using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)"
           },
           "starting_requirement_gate": null,
@@ -370,26 +408,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Explain the importance of maintaining good health habits, especially",
+              "2. How the use of tobacco products, alcohol",
+              "3. Other harmful substances can negatively affect your health and your"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Multisport Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the importance of maintaining good health habits, especially.",
+            "fact": "Scouts must explain explain the importance of maintaining good health habits, especially using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24).",
+            "fact_correction": "Scouts must explain explain the importance of maintaining good health habits, especially using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)"
           },
           "starting_requirement_gate": null,
@@ -431,23 +476,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2c Structured Study & Explanation Notes",
             "headers": [
-              "Req 2c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Define a healthy diet and explain the importance of maintaining a healthy diet",
+              "Pamphlet Standard & Key Facts (2c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2c is enough for Multisport Requirement 2c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on define a healthy diet and explain the importance of maintaining a healthy diet.",
+            "fact": "Scouts must explain define a healthy diet and explain the importance of maintaining a healthy diet using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24).",
+            "fact_correction": "Scouts must explain define a healthy diet and explain the importance of maintaining a healthy diet using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)"
           },
           "starting_requirement_gate": null,
@@ -516,25 +566,32 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Discuss the importance of having a physical examination each year",
+          "(b) Explain the importance of maintaining good health habits, especially",
+          "(c) Define a healthy diet and explain the importance of maintaining a healthy"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Pre-Participation Physical & Health Check is enough for Multisport Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Pre-Participation Physical & Health Check grounded in the official Multisport pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Pre-Participation Physical & Health Check grounded in the official Multisport pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the importance of having a physical examination each year.",
+        "fact": "Scouts must demonstrate discuss the importance of having a physical examination each year using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24).",
+        "fact_correction": "Scouts must demonstrate discuss the importance of having a physical examination each year using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24).",
         "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)"
       },
       "starting_requirement_gate": null,
@@ -562,7 +619,7 @@
         "Section Document Participant: Section 0. document a participant’s medical history andrecent medical examination.",
         "Withpossible Changes Health: To keep up withpossible changes in health status, the form needsto be updated annually or when a participant’shealth information changes.",
         "Discuss Form Doctor: Discuss the form with your doctor duringyour physical exam.",
-        "Healthyperformer Multisport: To be a strong, healthyperformer in multisport and in life, avoidtobacco, alcohol, and other harmfulsubstances."
+        "Healthy performer Multisport: To be a strong, healthyperformer in multisport and in life, avoidtobacco, alcohol, and other harmfulsubstances."
       ],
       "step_by_step_procedure": [
         "Smoking Cough Wheeze: Smoking makes you cough and wheeze, andit interferes with proper lung growth and function.",
@@ -613,23 +670,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Study & Explanation Notes",
             "headers": [
-              "Req 3a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss with your counselor your level of familiarity and experience",
+              "2. Running) and the order and distance of each sports segment"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Multisport Requirement 3a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 3a grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 3a grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor your level of familiarity and experience.",
+            "fact": "Scouts must discuss discuss with your counselor your level of familiarity and experience using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53).",
+            "fact_correction": "Scouts must discuss discuss with your counselor your level of familiarity and experience using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -671,23 +732,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3b Structured Study & Explanation Notes",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain to your counselor which multisport event (swimming, biking",
+              "2. Running) you feel is your strongest and which you could improve"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Multisport Requirement 3b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor which multisport event (swimming, biking.",
+            "fact": "Scouts must explain explain to your counselor which multisport event (swimming, biking using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53).",
+            "fact_correction": "Scouts must explain explain to your counselor which multisport event (swimming, biking using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -733,23 +798,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3c Structured Study & Explanation Notes",
             "headers": [
-              "Req 3c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Identify the required equipment for each of the three common multisport",
+              "2. Running)"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3c is enough for Multisport Requirement 3c sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3c grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 3c grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify the required equipment for each of the three common multisport.",
+            "fact": "Scouts must identify identify the required equipment for each of the three common multisport using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53).",
+            "fact_correction": "Scouts must identify identify the required equipment for each of the three common multisport using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -791,23 +860,29 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3d Structured Study & Explanation Notes",
             "headers": [
-              "Req 3d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Based on your interests, experience",
+              "2. Discussion with your counselor, select ONE of the following multisport",
+              "3. Running), duathlon (biking and running), aquathlon (swimming and running)",
+              "4. Aquabike (swimming and biking)"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3d is enough for Multisport Requirement 3d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on based on your interests, experience.",
+            "fact": "Scouts must explain based on your interests, experience using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53).",
+            "fact_correction": "Scouts must explain based on your interests, experience using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -876,25 +951,33 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Discuss with your counselor your level of familiarity and experience",
+          "(b) Explain to your counselor which multisport event (swimming, biking",
+          "(c) Identify the required equipment for each of the three common multisport",
+          "(d) Based on your interests, experience, and discussion with your counselor"
         ],
         "min_rows": 4,
-        "pre_approval_gate": false
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Your level of familiarity and experience is enough for Multisport Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Your level of familiarity and experience grounded in the official Multisport pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Your level of familiarity and experience grounded in the official Multisport pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor your level of familiarity and experience.",
+        "fact": "Scouts must demonstrate discuss with your counselor your level of familiarity and experience using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53).",
+        "fact_correction": "Scouts must demonstrate discuss with your counselor your level of familiarity and experience using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53).",
         "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)"
       },
       "starting_requirement_gate": null,
@@ -1038,24 +1121,30 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
+                "table_title": "Req 4a(1) Differential Comparison Matrix",
                 "headers": [
                   "Concept / Method A",
                   "Concept / Method B",
                   "Key Field Distinction & When to Use"
                 ],
+                "column_headers": [
+                  "Concept / Method A",
+                  "Concept / Method B",
+                  "Key Field Distinction & When to Use"
+                ],
                 "row_labels": [
-                  "Primary Mechanism",
-                  "Field Indicator",
-                  "Safety / Application"
+                  "(a) Before doing requirements 5 through 8, earn the Swimming merit badge",
+                  "(b) Explain the components of the Scouting America Safe Swim Defense guidelines",
+                  "(c) Explain to your counselor the difference between a pool swim and an open"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4a(1) is enough for Multisport Requirement 4a(1) sign-off.",
-                "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 4a(1) grounded in the official Multisport pamphlet.",
-                "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 4a(1) grounded in the official Multisport pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing requirements 5 through 8, earn the swimming merit badge.",
+                "fact": "Scouts must swim before doing requirements 5 through 8, earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+                "fact_correction": "Scouts must swim before doing requirements 5 through 8, earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
                 "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
               },
               "starting_requirement_gate": null,
@@ -1135,23 +1224,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 4a(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 4a(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 4a(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 4a(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "(a) Explain to your counselor how to ride predictably, be conspicuous, think",
+                  "(b) Discuss what should be checked regularly to make sure the bicycle is safe",
+                  "(c) Explain the importance of wearing a properly sized and fitted helmet while"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4a(2) is enough for Multisport Requirement 4a(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(2) grounded in the official Multisport pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(2) grounded in the official Multisport pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor how to ride predictably, be conspicuous, think.",
+                "fact": "Scouts must explain explain to your counselor how to ride predictably, be conspicuous, think using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+                "fact_correction": "Scouts must explain explain to your counselor how to ride predictably, be conspicuous, think using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
                 "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
               },
               "starting_requirement_gate": {
@@ -1252,26 +1346,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 4a(3) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) Demonstrate a proper run warmup and cool-down",
+                  "(b) Learn and state the basic rules of the road for runners",
+                  "(c) Demonstrate important running drills, including high knees, butt kicks"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4a(3) is enough for Multisport Requirement 4a(3) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(3) grounded in the official Multisport pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a(3) grounded in the official Multisport pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate a proper run warmup and cool-down.",
+                "fact": "Scouts must explain demonstrate a proper run warmup and cool-down using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+                "fact_correction": "Scouts must explain demonstrate a proper run warmup and cool-down using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
                 "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
               },
               "starting_requirement_gate": null,
@@ -1303,24 +1404,31 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 4a Differential Comparison Matrix",
             "headers": [
               "Concept / Method A",
               "Concept / Method B",
               "Key Field Distinction & When to Use"
             ],
-            "row_labels": [
-              "Primary Mechanism",
-              "Field Indicator",
-              "Safety / Application"
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
             ],
-            "min_rows": 3,
+            "row_labels": [
+              "(1) Swimming",
+              "(a) Before doing requirements 5 through 8, earn the Swimming merit badge",
+              "(b) Explain the components of the Scouting America Safe Swim Defense guidelines",
+              "(c) Explain to your counselor the difference between a pool swim and an open"
+            ],
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Multisport Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on swimming.",
+            "fact": "Scouts must explain swimming using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+            "fact_correction": "Scouts must explain swimming using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
           },
           "starting_requirement_gate": {
@@ -1411,23 +1519,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 4b(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 4b(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 4b(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 4b(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "(a) Explain to your counselor how to ride predictably, be conspicuous, think",
+                  "(b) Discuss what should be checked regularly to make sure the bicycle is safe",
+                  "(c) Explain the importance of wearing a properly sized and fitted helmet while"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4b(1) is enough for Multisport Requirement 4b(1) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b(1) grounded in the official Multisport pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b(1) grounded in the official Multisport pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor how to ride predictably, be conspicuous, think.",
+                "fact": "Scouts must explain explain to your counselor how to ride predictably, be conspicuous, think using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+                "fact_correction": "Scouts must explain explain to your counselor how to ride predictably, be conspicuous, think using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
                 "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
               },
               "starting_requirement_gate": {
@@ -1528,26 +1641,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 4b(2) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) Demonstrate a proper run warmup and cool-down",
+                  "(b) Learn and state the basic rules of the road for runners",
+                  "(c) Demonstrate important running drills, including high knees, butt kicks"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4b(2) is enough for Multisport Requirement 4b(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b(2) grounded in the official Multisport pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b(2) grounded in the official Multisport pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate a proper run warmup and cool-down.",
+                "fact": "Scouts must explain demonstrate a proper run warmup and cool-down using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+                "fact_correction": "Scouts must explain demonstrate a proper run warmup and cool-down using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
                 "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
               },
               "starting_requirement_gate": null,
@@ -1579,26 +1699,36 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Biking",
+              "(a) Explain to your counselor how to ride predictably, be conspicuous, think",
+              "(b) Discuss what should be checked regularly to make sure the bicycle is safe",
+              "(c) Explain the importance of wearing a properly sized and fitted helmet while",
+              "(2) Running",
+              "(a) Demonstrate a proper run warmup and cool-down"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Multisport Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on biking.",
+            "fact": "Scouts must explain biking using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+            "fact_correction": "Scouts must explain biking using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
           },
           "starting_requirement_gate": {
@@ -1692,24 +1822,30 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
+                "table_title": "Req 4c(1) Differential Comparison Matrix",
                 "headers": [
                   "Concept / Method A",
                   "Concept / Method B",
                   "Key Field Distinction & When to Use"
                 ],
+                "column_headers": [
+                  "Concept / Method A",
+                  "Concept / Method B",
+                  "Key Field Distinction & When to Use"
+                ],
                 "row_labels": [
-                  "Primary Mechanism",
-                  "Field Indicator",
-                  "Safety / Application"
+                  "(a) Before doing requirements 5 through 8, earn the Swimming merit badge",
+                  "(b) Explain the components of the Scouting America Safe Swim Defense guidelines",
+                  "(c) Explain to your counselor the difference between a pool swim and an open"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4c(1) is enough for Multisport Requirement 4c(1) sign-off.",
-                "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 4c(1) grounded in the official Multisport pamphlet.",
-                "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 4c(1) grounded in the official Multisport pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing requirements 5 through 8, earn the swimming merit badge.",
+                "fact": "Scouts must swim before doing requirements 5 through 8, earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+                "fact_correction": "Scouts must swim before doing requirements 5 through 8, earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
                 "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
               },
               "starting_requirement_gate": null,
@@ -1805,26 +1941,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 4c(2) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) Demonstrate a proper run warmup and cool-down",
+                  "(b) Learn and state the basic rules of the road for runners",
+                  "(c) Demonstrate important running drills, including high knees, butt kicks"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4c(2) is enough for Multisport Requirement 4c(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c(2) grounded in the official Multisport pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4c(2) grounded in the official Multisport pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate a proper run warmup and cool-down.",
+                "fact": "Scouts must explain demonstrate a proper run warmup and cool-down using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+                "fact_correction": "Scouts must explain demonstrate a proper run warmup and cool-down using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
                 "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
               },
               "starting_requirement_gate": null,
@@ -1856,24 +1999,31 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 4c Differential Comparison Matrix",
             "headers": [
               "Concept / Method A",
               "Concept / Method B",
               "Key Field Distinction & When to Use"
             ],
-            "row_labels": [
-              "Primary Mechanism",
-              "Field Indicator",
-              "Safety / Application"
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
             ],
-            "min_rows": 3,
+            "row_labels": [
+              "(1) Swimming",
+              "(a) Before doing requirements 5 through 8, earn the Swimming merit badge",
+              "(b) Explain the components of the Scouting America Safe Swim Defense guidelines",
+              "(c) Explain to your counselor the difference between a pool swim and an open"
+            ],
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4c is enough for Multisport Requirement 4c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on swimming.",
+            "fact": "Scouts must explain swimming using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+            "fact_correction": "Scouts must explain swimming using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
           },
           "starting_requirement_gate": null,
@@ -1962,24 +2112,30 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
+                "table_title": "Req 4d(1) Differential Comparison Matrix",
                 "headers": [
                   "Concept / Method A",
                   "Concept / Method B",
                   "Key Field Distinction & When to Use"
                 ],
+                "column_headers": [
+                  "Concept / Method A",
+                  "Concept / Method B",
+                  "Key Field Distinction & When to Use"
+                ],
                 "row_labels": [
-                  "Primary Mechanism",
-                  "Field Indicator",
-                  "Safety / Application"
+                  "(a) Before doing requirements 5 through 8, earn the Swimming merit badge",
+                  "(b) Explain the components of the Scouting America Safe Swim Defense guidelines",
+                  "(c) Explain to your counselor the difference between a pool swim and an open"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4d(1) is enough for Multisport Requirement 4d(1) sign-off.",
-                "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 4d(1) grounded in the official Multisport pamphlet.",
-                "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 4d(1) grounded in the official Multisport pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing requirements 5 through 8, earn the swimming merit badge.",
+                "fact": "Scouts must swim before doing requirements 5 through 8, earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+                "fact_correction": "Scouts must swim before doing requirements 5 through 8, earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
                 "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
               },
               "starting_requirement_gate": null,
@@ -2059,23 +2215,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 4d(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 4d(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 4d(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 4d(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "(a) Explain to your counselor how to ride predictably, be conspicuous, think",
+                  "(b) Discuss what should be checked regularly to make sure the bicycle is safe",
+                  "(c) Explain the importance of wearing a properly sized and fitted helmet while"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4d(2) is enough for Multisport Requirement 4d(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4d(2) grounded in the official Multisport pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4d(2) grounded in the official Multisport pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor how to ride predictably, be conspicuous, think.",
+                "fact": "Scouts must explain explain to your counselor how to ride predictably, be conspicuous, think using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+                "fact_correction": "Scouts must explain explain to your counselor how to ride predictably, be conspicuous, think using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
                 "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
               },
               "starting_requirement_gate": {
@@ -2112,24 +2273,31 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 4d Differential Comparison Matrix",
             "headers": [
               "Concept / Method A",
               "Concept / Method B",
               "Key Field Distinction & When to Use"
             ],
-            "row_labels": [
-              "Primary Mechanism",
-              "Field Indicator",
-              "Safety / Application"
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
             ],
-            "min_rows": 3,
+            "row_labels": [
+              "(1) Swimming",
+              "(a) Before doing requirements 5 through 8, earn the Swimming merit badge",
+              "(b) Explain the components of the Scouting America Safe Swim Defense guidelines",
+              "(c) Explain to your counselor the difference between a pool swim and an open"
+            ],
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4d is enough for Multisport Requirement 4d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on swimming.",
+            "fact": "Scouts must explain swimming using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+            "fact_correction": "Scouts must explain swimming using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
           },
           "starting_requirement_gate": {
@@ -2182,23 +2350,30 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 4 Differential Comparison Matrix",
         "headers": [
           "Concept / Method A",
           "Concept / Method B",
           "Key Field Distinction & When to Use"
         ],
-        "row_labels": [
-          "Primary Mechanism",
-          "Field Indicator",
-          "Safety / Application"
+        "column_headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
         ],
-        "min_rows": 3,
+        "row_labels": [
+          "(a) Option A, Triathlon",
+          "(1) Swimming",
+          "(a) Before doing requirements 5 through 8, earn the Swimming merit badge",
+          "(b) Explain the components of the Scouting America Safe Swim Defense guidelines"
+        ],
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Triathlon / Duathlon / Aquathlon is enough for Multisport Requirement 4 sign-off.",
-        "fact": "Each Scout must actively complete the specific principles and real-world steps of Triathlon / Duathlon / Aquathlon grounded in the official Multisport pamphlet.",
-        "fact_correction": "Each Scout must actively complete the specific principles and real-world steps of Triathlon / Duathlon / Aquathlon grounded in the official Multisport pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on option a, triathlon.",
+        "fact": "Scouts must complete option a, triathlon using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
+        "fact_correction": "Scouts must complete option a, triathlon using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54).",
         "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)"
       },
       "starting_requirement_gate": {
@@ -2307,23 +2482,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5a Structured Study & Explanation Notes",
             "headers": [
-              "Req 5a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. With guidance from your counselor, establish a four-week training plan",
+              "2. Each session should last at least 25 minutes and include a proper warmup"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Multisport Requirement 5a sign-off.",
-            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 5a grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 5a grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with guidance from your counselor, establish a four-week training plan.",
+            "fact": "Scouts must plan with guidance from your counselor, establish a four-week training plan using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60).",
+            "fact_correction": "Scouts must plan with guidance from your counselor, establish a four-week training plan using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)"
           },
           "starting_requirement_gate": null,
@@ -2359,28 +2538,29 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5b Structured Study & Explanation Notes",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+              "1. Use a chart or other tracking method to monitor your training",
+              "2. Key Pamphlet Examples & Evidence (Req 5b)",
+              "3. Practical Explain & Safety Verification"
             ],
-            "min_rows": 5,
+            "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Multisport Requirement 5b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on use a chart or other tracking method to monitor your training.",
+            "fact": "Scouts must explain use a chart or other tracking method to monitor your training using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60).",
+            "fact_correction": "Scouts must explain use a chart or other tracking method to monitor your training using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)"
           },
           "starting_requirement_gate": null,
@@ -2417,23 +2597,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5c Structured Study & Explanation Notes",
             "headers": [
-              "Req 5c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Set a personal goal for improvement based on one or more of the following",
+              "2. Distance"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5c is enough for Multisport Requirement 5c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on set a personal goal for improvement based on one or more of the following.",
+            "fact": "Scouts must explain set a personal goal for improvement based on one or more of the following using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60).",
+            "fact_correction": "Scouts must explain set a personal goal for improvement based on one or more of the following using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)"
           },
           "starting_requirement_gate": null,
@@ -2470,23 +2654,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5d Structured Study & Explanation Notes",
             "headers": [
-              "Req 5d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. At the end of four weeks, discuss your progress with your counselor",
+              "2. How your development has affected you mentally and physically"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5d is enough for Multisport Requirement 5d sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5d grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 5d grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on at the end of four weeks, discuss your progress with your counselor.",
+            "fact": "Scouts must discuss at the end of four weeks, discuss your progress with your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60).",
+            "fact_correction": "Scouts must discuss at the end of four weeks, discuss your progress with your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)"
           },
           "starting_requirement_gate": null,
@@ -2550,27 +2738,34 @@
       "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+          "(a) With guidance from your counselor, establish a four-week training plan",
+          "(b) Use a chart or other tracking method to monitor your training and development",
+          "(c) Set a personal goal for improvement based on one or more of the following",
+          "(d) At the end of four weeks, discuss your progress with your counselor and tell"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false
+        "min_rows": 4,
+        "pre_approval_gate": true,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Establish a four-week training is enough for Multisport Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Establish a four-week training grounded in the official Multisport pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Establish a four-week training grounded in the official Multisport pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with guidance from your counselor, establish a four-week training plan.",
+        "fact": "Scouts must demonstrate with guidance from your counselor, establish a four-week training plan using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60).",
+        "fact_correction": "Scouts must demonstrate with guidance from your counselor, establish a four-week training plan using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60).",
         "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)"
       },
       "starting_requirement_gate": null,
@@ -2598,7 +2793,7 @@
         "Dedicated Easy Off: Take dedicated easy or off days each week, with a recoveryweek every three to five weeks. 2.",
         "Recovery Day Include: A recovery day can include exercise done at a low tomoderate effort.",
         "Triathletes Something: For triathletes, something like an easyswim, a short jog, or yoga class. 3.",
-        "Recovery Week Does: A recovery week does not mean you sit and do nothing, just reduce the overall training by 30%-50% and keep yourefforts light for a few days. 4."
+        "Recovery Week Does: A recovery week does not mean you sit and do nothing, just reduce the overall training by 30%-50% and keep your efforts light for a few days. 4."
       ],
       "step_by_step_procedure": [
         "Stay Top Sleep: Stay on top of sleep and nutrition, including post-workoutnutrition. 6.",
@@ -2659,22 +2854,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Mounting",
+          "Dismounting your bike",
+          "Adjusting your gear"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Learn the methods of setting up is enough for Multisport Requirement 6 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Learn the methods of setting up grounded in the official Multisport pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Learn the methods of setting up grounded in the official Multisport pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on mounting.",
+        "fact": "Scouts must explain mounting using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
+        "fact_correction": "Scouts must explain mounting using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
         "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)"
       },
       "starting_requirement_gate": null,
@@ -2748,23 +2948,28 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7a Structured Study & Explanation Notes",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Triathlon (swim 100 m, bike 3 km, and run 1 km)",
+              "Pamphlet Standard & Key Facts (7a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Multisport Requirement 7a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on triathlon (swim 100 m, bike 3 km, and run 1 km).",
+            "fact": "Scouts must explain triathlon (swim 100 m, bike 3 km, and run 1 km) using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
+            "fact_correction": "Scouts must explain triathlon (swim 100 m, bike 3 km, and run 1 km) using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)"
           },
           "starting_requirement_gate": null,
@@ -2801,23 +3006,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7b Structured Study & Explanation Notes",
             "headers": [
-              "Req 7b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Duathlon (run 1.5 km, bike 3 km, and run 0.75 km)",
+              "Pamphlet Standard & Key Facts (7b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Multisport Requirement 7b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on duathlon (run 1.5 km, bike 3 km, and run 0.75 km).",
+            "fact": "Scouts must explain duathlon (run 1.5 km, bike 3 km, and run 0.75 km) using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
+            "fact_correction": "Scouts must explain duathlon (run 1.5 km, bike 3 km, and run 0.75 km) using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)"
           },
           "starting_requirement_gate": null,
@@ -2854,23 +3064,28 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7c Structured Study & Explanation Notes",
             "headers": [
-              "Req 7c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Aquathlon (swim 100 m and run 1 km)",
+              "Pamphlet Standard & Key Facts (7c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7c is enough for Multisport Requirement 7c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on aquathlon (swim 100 m and run 1 km).",
+            "fact": "Scouts must explain aquathlon (swim 100 m and run 1 km) using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
+            "fact_correction": "Scouts must explain aquathlon (swim 100 m and run 1 km) using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)"
           },
           "starting_requirement_gate": null,
@@ -2907,23 +3122,28 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7d Structured Study & Explanation Notes",
             "headers": [
-              "Req 7d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Aquabike (swim 100 m and bike 3 km)",
+              "Pamphlet Standard & Key Facts (7d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7d is enough for Multisport Requirement 7d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on aquabike (swim 100 m and bike 3 km).",
+            "fact": "Scouts must explain aquabike (swim 100 m and bike 3 km) using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
+            "fact_correction": "Scouts must explain aquabike (swim 100 m and bike 3 km) using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)"
           },
           "starting_requirement_gate": null,
@@ -2971,22 +3191,28 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Triathlon (swim 100 m, bike 3 km, and run 1 km)",
+          "(b) Duathlon (run 1.5 km, bike 3 km, and run 0.75 km)",
+          "(c) Aquathlon (swim 100 m and run 1 km)",
+          "(d) Aquabike (swim 100 m and bike 3 km) Triathlon (swim 100 m, bike 3 km, and run"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of After completing requirements 1-6 is enough for Multisport Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of After completing requirements 1-6 grounded in the official Multisport pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of After completing requirements 1-6 grounded in the official Multisport pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on triathlon (swim 100 m, bike 3 km, and run 1 km).",
+        "fact": "Scouts must explain triathlon (swim 100 m, bike 3 km, and run 1 km) using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
+        "fact_correction": "Scouts must explain triathlon (swim 100 m, bike 3 km, and run 1 km) using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65).",
         "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)"
       },
       "starting_requirement_gate": null,
@@ -3018,7 +3244,7 @@
       ],
       "step_by_step_procedure": [
         "Thing Off Lot: If you are wearing awetsuit, taking that thing off is a lot harder than it sounds.",
-        "Definitely Want Off: You’ll definitely want to take off yourgoggles, put on your helmet, and pull your bike off the rack.",
+        "Definitely Want Off: You’ll definitely want to take off your goggles, put on your helmet, and pull your bike off the rack.",
         "Bib Race Number: You may also need to put on a bib with your race number.",
         "Transition Transition Biking: Transition 2 (or T2) is the transition from biking torunning."
       ],
@@ -3065,23 +3291,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8a Structured Study & Explanation Notes",
             "headers": [
-              "Req 8a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Research",
+              "2. Two ways you can continue participating in multisport after completing this"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8a is enough for Multisport Requirement 8a sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 8a grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 8a grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on research.",
+            "fact": "Scouts must identify research using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59).",
+            "fact_correction": "Scouts must identify research using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)"
           },
           "starting_requirement_gate": null,
@@ -3126,17 +3356,25 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 8b Career & Pathway Exploration Card",
             "headers": [
-              "Req 8b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
@@ -3184,27 +3422,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 8c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate leadership by starting a training group and educating your",
+              "2. The disciplines of multisport"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8c is enough for Multisport Requirement 8c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8c grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8c grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate leadership by starting a training group and educating your.",
+            "fact": "Scouts must demonstrate demonstrate leadership by starting a training group and educating your using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59).",
+            "fact_correction": "Scouts must demonstrate demonstrate leadership by starting a training group and educating your using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)"
           },
           "starting_requirement_gate": null,
@@ -3241,23 +3485,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8d Structured Study & Explanation Notes",
             "headers": [
-              "Req 8d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Sign up for and participate in a sanctioned multisport event in your area",
+              "Pamphlet Standard & Key Facts (8d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8d is enough for Multisport Requirement 8d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on sign up for and participate in a sanctioned multisport event in your area.",
+            "fact": "Scouts must explain sign up for and participate in a sanctioned multisport event in your area using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59).",
+            "fact_correction": "Scouts must explain sign up for and participate in a sanctioned multisport event in your area using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)"
           },
           "starting_requirement_gate": null,
@@ -3293,27 +3542,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 8e Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Volunteer at a local multisport event, running race, biking event, swim meet",
+              "2. Adaptive sporting event"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8e is enough for Multisport Requirement 8e sign-off.",
-            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 8e grounded in the official Multisport pamphlet.",
-            "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 8e grounded in the official Multisport pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on volunteer at a local multisport event, running race, biking event, swim meet.",
+            "fact": "Scouts must swim volunteer at a local multisport event, running race, biking event, swim meet using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59).",
+            "fact_correction": "Scouts must swim volunteer at a local multisport event, running race, biking event, swim meet using verified procedures, field evidence, and safety standards from Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59).",
             "pamphlet_page_ref": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)"
           },
           "starting_requirement_gate": null,
@@ -3381,18 +3636,23 @@
       "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 8 Career & Pathway Exploration Card",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
         "min_rows": 4,
         "pre_approval_gate": false

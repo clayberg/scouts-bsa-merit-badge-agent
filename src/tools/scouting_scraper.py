@@ -5002,6 +5002,215 @@ def extract_pdf_pamphlet_text(pdf_path_or_bytes: Union[str, Path, bytes]) -> Lis
         return []
 
 
+def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Unrolls top-level requirements and their nested `sub_requirements` / `children` into ordered workbook units.
+
+    When a top-level requirement `r` has non-empty `r.get("sub_requirements")`:
+    - Emits a parent group header unit (`is_group_header=True`, with `r["req_id"]`, `r["title"]`, `r["req_text"]`,
+      `r["pamphlet_page_citation"]`, `r["workbook_organizer"]`, etc.)
+    - Followed by each sub-requirement `sr` (and any nested `sr.get("children")` such as `2b1`, `2b2`, `2b(1)`, `2b(2)`)
+      as an individual fillable unit (`is_sub_requirement=True`, inheriting parent citation/tier/organizer if missing).
+    When `r.get("sub_requirements")` is empty, emits `r` directly as a single fillable unit.
+    """
+    units: List[Dict[str, Any]] = []
+    for idx, r in enumerate(reqs or [], start=1):
+        r_num = str(r.get("req_number") or r.get("req_id") or str(idx)).strip()
+        r_title = str(r.get("topic_title") or r.get("title") or f"Requirement {r_num}").strip()
+        r_text = str(r.get("req_text") or "").strip()
+        r_verb = str(r.get("action_verb") or "Explain").strip()
+        r_mode = str(r.get("execution_mode") or "IN_CLASS_DISCUSSION").strip()
+        r_bucket = str(
+            r.get("syllabus_bucket")
+            or (
+                "Pre-Class Prerequisite"
+                if r_mode == "PREREQUISITE_CAMPOUT_HOME"
+                else ("In-Class Demonstration" if r_mode == "HANDS_ON_SKILL_STATION" else "In-Class Concept")
+            )
+        ).strip()
+        r_cit = str(r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or "Official BSA Pamphlet").strip()
+        r_org = dict(r.get("workbook_organizer") or {})
+        r_mis = dict(r.get("common_misconception_pair") or {})
+        r_gate = r.get("starting_requirement_gate")
+        r_gear = list(r.get("gear_checklist") or [])
+        r_excerpts = list(r.get("pamphlet_excerpts") or [])
+        r_safety = r.get("safety_callout")
+        subs = list(r.get("sub_requirements") or [])
+
+        if not subs:
+            unit = dict(r)
+            unit.update({
+                "is_group_header": False,
+                "is_sub_requirement": False,
+                "req_id": r_num,
+                "req_number": r_num,
+                "title": r_title,
+                "topic_title": r_title,
+                "req_text": r_text,
+                "action_verb": r_verb,
+                "execution_mode": r_mode,
+                "syllabus_bucket": r_bucket,
+                "pamphlet_page_citation": r_cit,
+                "pamphlet_citation": r_cit,
+                "workbook_organizer": r_org,
+                "common_misconception_pair": r_mis,
+                "starting_requirement_gate": r_gate,
+                "gear_checklist": r_gear,
+                "pamphlet_excerpts": r_excerpts,
+                "safety_callout": r_safety,
+            })
+            units.append(unit)
+            continue
+
+        # Emit parent group header unit
+        units.append({
+            "is_group_header": True,
+            "is_sub_requirement": False,
+            "req_id": r_num,
+            "req_number": r_num,
+            "parent_id": None,
+            "title": r_title,
+            "topic_title": r_title,
+            "req_text": r_text,
+            "action_verb": r_verb,
+            "execution_mode": r_mode,
+            "syllabus_bucket": r_bucket,
+            "pamphlet_page_citation": r_cit,
+            "pamphlet_citation": r_cit,
+            "workbook_organizer": r_org,
+            "common_misconception_pair": r_mis,
+            "starting_requirement_gate": r_gate,
+            "gear_checklist": r_gear,
+            "pamphlet_excerpts": r_excerpts,
+            "safety_callout": r_safety,
+        })
+
+        for sr_idx, sr in enumerate(subs):
+            sr_id = str(
+                sr.get("sub_id")
+                or sr.get("id")
+                or sr.get("sub_req_label")
+                or sr.get("req_number")
+                or f"{r_num}{sr.get('label', '')}"
+            ).strip()
+            sr_text = str(sr.get("text") or sr.get("sub_req_text") or sr.get("req_text") or "").strip()
+            sr_verb = str(sr.get("action_verb") or r_verb).strip()
+            sr_bucket = str(sr.get("syllabus_bucket") or r_bucket).strip()
+            sr_cit = str(sr.get("pamphlet_page_citation") or sr.get("pamphlet_citation") or r_cit).strip()
+            sr_org = dict(sr.get("workbook_organizer") or r_org)
+            sr_mis = dict(sr.get("common_misconception_pair") or r_mis)
+            sr_gate = sr.get("starting_requirement_gate") or (r_gate if sr_idx == 0 else None)
+            sr_gear = list(sr.get("gear_checklist") or (r_gear if sr_idx == 0 else []))
+            sr_title = str(sr.get("topic_title") or sr.get("title") or f"{r_title} ({sr_id})").strip()
+
+            units.append({
+                "is_group_header": False,
+                "is_sub_requirement": True,
+                "req_id": sr_id,
+                "req_number": sr_id,
+                "parent_id": r_num,
+                "title": sr_title,
+                "topic_title": sr_title,
+                "req_text": sr_text,
+                "action_verb": sr_verb,
+                "execution_mode": r_mode,
+                "syllabus_bucket": sr_bucket,
+                "pamphlet_page_citation": sr_cit,
+                "pamphlet_citation": sr_cit,
+                "workbook_organizer": sr_org,
+                "common_misconception_pair": sr_mis,
+                "starting_requirement_gate": sr_gate,
+                "gear_checklist": sr_gear,
+                "pamphlet_excerpts": r_excerpts if sr_idx == 0 else [],
+                "safety_callout": r_safety if sr_idx == 0 else None,
+            })
+
+            for ch in sr.get("children") or []:
+                ch_id = str(
+                    ch.get("sub_id")
+                    or ch.get("id")
+                    or ch.get("sub_req_label")
+                    or ch.get("req_number")
+                    or f"{sr_id}{ch.get('label', '')}"
+                ).strip()
+                ch_text = str(ch.get("text") or ch.get("sub_req_text") or ch.get("req_text") or "").strip()
+                ch_verb = str(ch.get("action_verb") or sr_verb).strip()
+                ch_bucket = str(ch.get("syllabus_bucket") or sr_bucket).strip()
+                ch_cit = str(ch.get("pamphlet_page_citation") or ch.get("pamphlet_citation") or sr_cit).strip()
+                ch_org = dict(ch.get("workbook_organizer") or sr_org)
+                ch_mis = dict(ch.get("common_misconception_pair") or sr_mis)
+                ch_gate = ch.get("starting_requirement_gate")
+                ch_gear = list(ch.get("gear_checklist") or [])
+                ch_title = str(ch.get("topic_title") or ch.get("title") or f"{r_title} ({ch_id})").strip()
+                units.append({
+                    "is_group_header": False,
+                    "is_sub_requirement": True,
+                    "req_id": ch_id,
+                    "req_number": ch_id,
+                    "parent_id": sr_id,
+                    "title": ch_title,
+                    "topic_title": ch_title,
+                    "req_text": ch_text,
+                    "action_verb": ch_verb,
+                    "execution_mode": r_mode,
+                    "syllabus_bucket": ch_bucket,
+                    "pamphlet_page_citation": ch_cit,
+                    "pamphlet_citation": ch_cit,
+                    "workbook_organizer": ch_org,
+                    "common_misconception_pair": ch_mis,
+                    "starting_requirement_gate": ch_gate,
+                    "gear_checklist": ch_gear,
+                    "pamphlet_excerpts": [],
+                    "safety_callout": None,
+                })
+
+    return units
+
+
+def _build_svg_sketch_canvas_html(req_num: str, row_labels: List[str], req_text: str) -> str:
+    """Renders a bordered 160px SVG dot-grid, Moon-circle, or horizon sketch canvas for SKETCH_AND_OBSERVATION_CANVAS."""
+    import html as _html
+
+    tl = (req_text or "").lower()
+    canvas_caption = " | ".join(str(lbl) for lbl in (row_labels or [])[:3]) or f"Req {req_num} Field Sketch & Diagram Canvas"
+    dots_svg: List[str] = []
+    for gx in range(24, 680, 24):
+        for gy in range(20, 145, 20):
+            dots_svg.append(f'<circle cx="{gx}" cy="{gy}" r="1.1" fill="#94a3b8" />')
+
+    guide_shapes = ""
+    if "moon" in tl or "lunar" in tl or "seas" in tl or "craters" in tl:
+        guide_shapes = (
+            '<circle cx="190" cy="80" r="56" fill="none" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,3" />'
+            '<text x="190" y="148" text-anchor="middle" font-size="10" fill="#475569">Lunar Face / Phase Guide Circle</text>'
+            '<line x1="340" y1="125" x2="640" y2="125" stroke="#475569" stroke-width="1.5" />'
+            '<text x="490" y="142" text-anchor="middle" font-size="10" fill="#475569">Horizon &amp; Landmarks Reference Line</text>'
+        )
+    elif "horizon" in tl or "dipper" in tl or "cassiopeia" in tl or "constellation" in tl:
+        guide_shapes = (
+            '<line x1="40" y1="130" x2="310" y2="130" stroke="#475569" stroke-width="1.5" />'
+            '<text x="175" y="145" text-anchor="middle" font-size="10" fill="#475569">Early Evening Horizon (N / NE / NW)</text>'
+            '<line x1="370" y1="130" x2="640" y2="130" stroke="#475569" stroke-width="1.5" />'
+            '<text x="505" y="145" text-anchor="middle" font-size="10" fill="#475569">Several Hours Later Horizon</text>'
+        )
+    else:
+        guide_shapes = (
+            '<line x1="40" y1="132" x2="640" y2="132" stroke="#64748b" stroke-width="1.2" stroke-dasharray="4,4" />'
+            '<text x="340" y="147" text-anchor="middle" font-size="10" fill="#475569">Scale / Baseline / Orientation Reference</text>'
+        )
+
+    return (
+        f'<div class="wb-sketch-canvas" data-canvas-req="{_html.escape(req_num)}" '
+        'style="border:1.5px solid #475569; border-radius:6px; background:#ffffff; padding:8px; margin:8px 0;">'
+        f'<div style="font-size:11px; font-weight:700; color:#003f87; margin-bottom:4px;">'
+        f'✏️ Sketch &amp; Observation Canvas ({_html.escape(canvas_caption)})</div>'
+        '<svg width="100%" height="160" viewBox="0 0 680 160" xmlns="http://www.w3.org/2000/svg" '
+        'style="background:#f8fafc; border:1px dashed #94a3b8; border-radius:4px; display:block;">'
+        f'{"".join(dots_svg)}{guide_shapes}'
+        "</svg>"
+        "</div>"
+    )
+
+
 def generate_counselor_workbook_markdown(
     research_result: Dict[str, Any],
     counselor_info: Optional[Dict[str, Any]] = None,
@@ -5012,16 +5221,7 @@ def generate_counselor_workbook_markdown(
     1. Header with Eagle-Required badge status, Pamphlet & DRG links, and Counselor Contact block
     2. Execution-Mode Triage Table (In-Class Discussion vs. Hands-On Skill Station vs. Prerequisite/Campout/Home)
     3. Prerequisite ("Bring Proof to Class") Checklist
-    4. Structured Per-Requirement Notes Grid & Skill Station Sign-Off Boxes
-
-    Args:
-        research_result: Dictionary produced by `fetch_merit_badge_pamphlet_pdf` containing
-            `badge_name`, `is_eagle_required`, `pamphlet_pdf_url`, `drg_url`, and `requirements`.
-        counselor_info: Optional dictionary of counselor contact fields (`counselor_name`,
-            `troop_affiliation`, `email_address`, `phone_number`).
-
-    Returns:
-        str: Formatted Markdown document ready for printing or exporting as a Scout Workbook.
+    4. Structured Per-Requirement & Unrolled Sub-Requirement Notes Grid, Bespoke Organizers & Skill Station Sign-Off Boxes
     """
     badge_name = research_result.get("badge_name", "Merit Badge")
     eagle_tag = "EAGLE-REQUIRED MERIT BADGE" if research_result.get("is_eagle_required") else "ELECTIVE MERIT BADGE"
@@ -5102,33 +5302,80 @@ def generate_counselor_workbook_markdown(
         "## 4. Detailed Requirement Study Notes, Verb-Aligned Organizers & Pamphlet Summaries",
         "",
     ])
-    for r in reqs:
-        r_num = r.get("req_number", "")
-        topic = r.get("topic_title") or f"Requirement {r_num}"
-        lines.append(f"### {topic}")
-        lines.append(f"**Official Requirement {r_num}:** {r.get('req_text', '')}")
-        if r.get("pamphlet_page_citation") or r.get("pamphlet_citation"):
-            lines.append(f"**Source:** *{r.get('pamphlet_page_citation') or r.get('pamphlet_citation')}*")
-        if r.get("safety_callout"):
-            lines.append(f"> **Guide to Safe Scouting Warning:** {r['safety_callout']}")
-        gate = r.get("starting_requirement_gate")
+    unrolled_units = _iter_unrolled_workbook_units(reqs)
+    for u in unrolled_units:
+        u_num = str(u.get("req_number") or u.get("req_id") or "")
+        topic = str(u.get("topic_title") or u.get("title") or f"Requirement {u_num}")
+        org = u.get("workbook_organizer") or {}
+        org_type = str(org.get("organizer_type") or "RULED_EXPLAIN_BOX")
+        org_title = str(org.get("table_title") or f"Req {u_num} Study Organizer")
+
+        if u.get("is_group_header"):
+            lines.append(f"### {topic}")
+            lines.append(f"**Official Requirement {u_num} (Parent Overview):** {u.get('req_text', '')}")
+            if u.get("pamphlet_page_citation") or u.get("pamphlet_citation"):
+                lines.append(f"**Source:** *{u.get('pamphlet_page_citation') or u.get('pamphlet_citation')}* • **Group Organizer:** `{org_type}`")
+            if u.get("safety_callout"):
+                lines.append(f"> **Guide to Safe Scouting Warning:** {u['safety_callout']}")
+            gate = u.get("starting_requirement_gate")
+            if isinstance(gate, dict) and gate.get("gate_label"):
+                lines.append(f"> **Starting Gate ({gate.get('gate_type', 'GATE')}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
+            excerpts = u.get("pamphlet_excerpts") or []
+            if excerpts:
+                lines.append("")
+                lines.append("**Official Pamphlet Summary:**")
+                for ex in excerpts:
+                    lines.append(f"- {ex}")
+            lines.append("")
+            continue
+
+        heading_prefix = "####" if u.get("is_sub_requirement") else "###"
+        lines.append(f"{heading_prefix} Req {u_num}: {topic}")
+        lines.append(f"**Official Requirement {u_num}:** {u.get('req_text', '')}")
+        if u.get("pamphlet_page_citation") or u.get("pamphlet_citation"):
+            lines.append(
+                f"**Source:** *{u.get('pamphlet_page_citation') or u.get('pamphlet_citation')}* • **Organizer (`{org_type}`):** {org_title}"
+            )
+        if u.get("safety_callout") and not u.get("is_sub_requirement"):
+            lines.append(f"> **Guide to Safe Scouting Warning:** {u['safety_callout']}")
+        gate = u.get("starting_requirement_gate")
         if isinstance(gate, dict) and gate.get("gate_label"):
             lines.append(f"> **Starting Gate ({gate.get('gate_type', 'GATE')}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
-        org = r.get("workbook_organizer") or {}
-        if isinstance(org, dict) and org.get("headers"):
-            headers = org.get("headers") or ["Sub-Part / Step", "Scout Notes & Field Evidence"]
+        mis = u.get("common_misconception_pair") or {}
+        if isinstance(mis, dict) and mis.get("misconception") and mis.get("fact"):
+            lines.append(f"- **Common Myth:** {mis['misconception']}")
+            lines.append(f"- **Pamphlet Fact:** {mis['fact']}")
+        gear_list = u.get("gear_checklist") or []
+        if gear_list:
+            lines.append("")
+            lines.append("**Gear & Readiness Checklist:**")
+            for gi in gear_list:
+                lines.append(f"- [ ] {gi}")
+        if isinstance(org, dict) and (org.get("headers") or org.get("column_headers")):
+            headers = org.get("headers") or org.get("column_headers") or ["Sub-Part / Step", "Scout Notes & Field Evidence"]
             row_labels = org.get("row_labels") or ["Row 1", "Row 2", "Row 3"]
             if org.get("pre_approval_gate"):
                 lines.append("")
-                lines.append("**COUNSELOR PRE-APPROVAL REQUIRED BEFORE STARTING:** `Approved By: ___________________ Date: __________`")
+                lines.append("**COUNSELOR PRE-APPROVAL REQUIRED BEFORE STARTING:** `[ ] Approved Before Starting | Counselor Signature: ___________________ Date Approved: __________`")
             lines.append("")
             lines.append("| " + " | ".join(str(h) for h in headers) + " |")
             lines.append("| " + " | ".join(":---" for _ in headers) + " |")
             for rl in row_labels:
                 blank_cols = ["`____________________________________`" for _ in headers[1:]]
                 lines.append(f"| **{rl}** | " + " | ".join(blank_cols) + " |")
-        excerpts = r.get("pamphlet_excerpts") or []
-        if excerpts:
+        if org_type == "SKETCH_AND_OBSERVATION_CANVAS" or any(
+            k in str(u.get("req_text", "")).lower() for k in ("sketch", "draw a ", "diagram", "map")
+        ):
+            lines.append("")
+            lines.append(f"**[SKETCH_AND_OBSERVATION_CANVAS — Req {u_num} Unlined Dot-Grid / Horizon / Moon Sketch Box]:**")
+            lines.append("```text")
+            lines.append("+-----------------------------------------------------------------------+")
+            lines.append("| .   .   .   .   .   .   [ SKETCH / DIAGRAM CANVAS ]   .   .   .   .   |")
+            lines.append("| .   .   .   .   .   .   Label key landmarks & compass .   .   .   .   |")
+            lines.append("+-----------------------------------------------------------------------+")
+            lines.append("```")
+        excerpts = u.get("pamphlet_excerpts") or []
+        if excerpts and not u.get("is_sub_requirement"):
             lines.append("")
             lines.append("**Official Pamphlet Summary:**")
             for ex in excerpts:
@@ -5151,9 +5398,8 @@ def generate_fillable_scout_workbook_html(
     Enforces:
     1. Mandatory `GTA §7.0.3.2` compliance banner (`Optional organizational study aid`).
     2. Option Track `A`/`B` filtering so Option A workbooks omit Option B tables and vice versa.
-    3. Verb-aligned graphic organizer tables (`COMPARE_CONTRAST_2COL`, `CAUSE_PREVENTION_MITIGATION_3COL`,
-       `STEP_BY_STEP_CHECKLIST`, `TIME_SERIES_LOG_TABLE`, `RULED_EXPLAIN_BOX`).
-    4. Dedicated `COUNSELOR PRE-APPROVAL REQUIRED` signature boxes where applicable.
+    3. Unrolled `sub_requirements` (`1a`, `1b`, ..., `3a..3q`) with bespoke graphic organizer tables,
+       interactive `gear_checklist` checkboxes, Counselor Pre-Approval signature boxes, and 160px SVG sketch canvases.
     """
     import html as _html
     from src.config import is_discontinued_badge, is_test_lab_badge
@@ -5190,17 +5436,39 @@ def generate_fillable_scout_workbook_html(
     if option_track and option_track.upper() != "ALL":
         badge_pills_html += f' <span class="wb-pill option">OPTION TRACK {_html.escape(option_track.upper())}</span>'
 
+    unrolled_units = _iter_unrolled_workbook_units(reqs)
     req_sections_html: List[str] = []
-    for idx, r in enumerate(reqs, start=1):
-        r_num = _html.escape(str(r.get("req_number") or str(idx)))
-        r_title = _html.escape(str(r.get("topic_title") or f"Requirement {r_num}"))
-        r_text = _html.escape(str(r.get("req_text") or ""))
-        r_verb = _html.escape(str(r.get("action_verb") or "Explain"))
-        r_bucket = _html.escape(str(r.get("syllabus_bucket") or "In-Class Concept"))
-        r_cit = _html.escape(str(r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or "Official BSA Pamphlet"))
-        org = r.get("workbook_organizer") or {}
-        org_type = _html.escape(str(org.get("organizer_type") or "RULED_EXPLAIN_BOX"))
-        headers = [str(h) for h in (org.get("headers") or [f"Req {r_num} Sub-Part", "Scout Notes & Field Evidence"])]
+    for idx, u in enumerate(unrolled_units, start=1):
+        r_num_raw = str(u.get("req_number") or u.get("req_id") or str(idx))
+        r_num = _html.escape(r_num_raw)
+        r_title = _html.escape(str(u.get("topic_title") or u.get("title") or f"Requirement {r_num_raw}"))
+        r_text_raw = str(u.get("req_text") or "")
+        r_text = _html.escape(r_text_raw)
+        r_verb = _html.escape(str(u.get("action_verb") or "Explain"))
+        r_bucket = _html.escape(str(u.get("syllabus_bucket") or "In-Class Concept"))
+        r_cit = _html.escape(str(u.get("pamphlet_page_citation") or u.get("pamphlet_citation") or "Official BSA Pamphlet"))
+        org = u.get("workbook_organizer") or {}
+        org_type_raw = str(org.get("organizer_type") or "RULED_EXPLAIN_BOX")
+        org_type = _html.escape(org_type_raw)
+
+        if u.get("is_group_header"):
+            req_sections_html.append(
+                f"""
+                <div class="wb-group-header" data-req-group="{r_num}" data-organizer-type="{org_type}" style="background:#e0f2fe; border-left:5px solid #003f87; padding:10px 14px; border-radius:6px; margin:16px 0 10px 0;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px;">
+                    <div>
+                      <span class="wb-req-badge">Requirement {r_num} Group</span>
+                      <strong style="color:#003f87; font-size:14px;">{r_title}</strong>
+                    </div>
+                    <span class="wb-cit-tag">📖 {r_cit}</span>
+                  </div>
+                  <p style="margin:6px 0 0 0; font-size:12px; color:#1e293b;">{r_text}</p>
+                </div>
+                """
+            )
+            continue
+
+        headers = [str(h) for h in (org.get("headers") or org.get("column_headers") or [f"Req {r_num_raw} Sub-Part", "Scout Notes & Field Evidence"])]
         row_labels = [str(rl) for rl in (org.get("row_labels") or ["Item 1", "Item 2", "Item 3"])]
         pre_app = bool(org.get("pre_approval_gate"))
 
@@ -5208,9 +5476,23 @@ def generate_fillable_scout_workbook_html(
         if pre_app:
             pre_app_html = (
                 '<div class="wb-preapproval-box">'
-                '<strong>COUNSELOR PRE-APPROVAL GATE:</strong> Obtain Counselor signature before executing this project/plan. '
-                '<span class="wb-sig-line">Counselor Signature: _______________________ Date: ____________</span>'
+                '<strong>COUNSELOR PRE-APPROVAL BOX:</strong> '
+                '<label style="margin-right:12px;"><input type="checkbox" /> Approved Before Starting</label> '
+                '<span class="wb-sig-line">Counselor Signature: _______________________ Date Approved: ____________</span>'
                 "</div>"
+            )
+
+        gear_items = [str(g) for g in (u.get("gear_checklist") or []) if str(g).strip()]
+        gear_html = ""
+        if gear_items:
+            chk_items = "".join(
+                f'<label style="display:block; margin:2px 0;"><input type="checkbox" name="gear_{r_num}_{g_i}" /> {_html.escape(g_txt)}</label>'
+                for g_i, g_txt in enumerate(gear_items, start=1)
+            )
+            gear_html = (
+                '<div class="wb-gear-checklist" style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:6px; padding:6px 10px; margin-bottom:8px; font-size:11.5px;">'
+                "<strong>🧰 Equipment &amp; Preparation Checklist:</strong>"
+                f"{chk_items}</div>"
             )
 
         th_cells = "".join(f"<th>{_html.escape(h)}</th>" for h in headers)
@@ -5222,7 +5504,7 @@ def generate_fillable_scout_workbook_html(
             )
             tbody_rows.append(f"<tr><td class='wb-row-label'><strong>{_html.escape(rl)}</strong></td>{editable_cells}</tr>")
 
-        mis = r.get("common_misconception_pair") or {}
+        mis = u.get("common_misconception_pair") or {}
         mis_html = ""
         if isinstance(mis, dict) and mis.get("misconception") and mis.get("fact"):
             mis_html = (
@@ -5231,6 +5513,12 @@ def generate_fillable_scout_workbook_html(
                 f'<span class="wb-fact"><strong>Pamphlet Fact:</strong> {_html.escape(str(mis["fact"]))}</span>'
                 "</div>"
             )
+
+        sketch_html = ""
+        if org_type_raw == "SKETCH_AND_OBSERVATION_CANVAS" or any(
+            k in r_text_raw.lower() for k in ("sketch", "draw a ", "draw the ", "diagram", "map")
+        ):
+            sketch_html = _build_svg_sketch_canvas_html(r_num_raw, row_labels, r_text_raw)
 
         req_sections_html.append(
             f"""
@@ -5243,16 +5531,19 @@ def generate_fillable_scout_workbook_html(
                 <div class="wb-req-meta">
                   <span class="wb-verb-tag">{r_verb}</span>
                   <span class="wb-bucket-tag">{r_bucket}</span>
+                  <span class="wb-verb-tag">{org_type}</span>
                   <span class="wb-cit-tag">📖 {r_cit}</span>
                 </div>
               </div>
               <p class="wb-verbatim-text">{r_text}</p>
               {pre_app_html}
               {mis_html}
+              {gear_html}
               <table class="wb-organizer-table" id="wb-table-req-{r_num}">
                 <thead><tr>{th_cells}</tr></thead>
                 <tbody>{"".join(tbody_rows)}</tbody>
               </table>
+              {sketch_html}
               <div class="wb-signoff-strip">
                 <span>Scout Initials: ________</span>
                 <span>Buddy Verification: ________</span>
@@ -5340,6 +5631,7 @@ def generate_fillable_scout_workbook_html(
         "is_discontinued": is_disc,
         "selected_option_track": option_track.upper(),
         "requirement_count": len(reqs),
+        "unrolled_unit_count": len([u for u in unrolled_units if not u.get("is_group_header")]),
         "gta_compliance_clause": "GTA §7.0.3.2",
         "workbook_html": html_doc,
         "workbook_markdown": res.get("counselor_workbook_markdown", ""),

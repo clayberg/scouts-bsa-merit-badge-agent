@@ -19,7 +19,16 @@ import threading
 from typing import Any, Deque, Dict, List, Optional
 
 from src.config import CONFIG_DIR, _read_cached_json
-from src.observability.logging_setup import logger, scrub_pii_before_sink
+from src.observability.logging_setup import (
+    NANPA_TOLL_FREE_PREFIXES,
+    PERSONAL_PII_PHONE_HOTWORDS,
+    PHONE_REGEX,
+    PUBLIC_EMERGENCY_AND_INSTITUTIONAL_PHONES,
+    PUBLIC_INSTITUTIONAL_PHONE_HOTWORDS,
+    _redact_phone_match_if_personal,
+    logger,
+    scrub_pii_before_sink,
+)
 from src.schemas import build_guided_tool_error
 from src.tools.hitl_confirm import verify_hitl_before_tool_callback
 
@@ -223,7 +232,10 @@ def sanitize_text_with_model_armor(
                 violations.append("BSA_YOUTH_PROTECTION_OR_SAFETY_VIOLATION")
                 break
 
-    # 4. PII Redaction before logging / LLM context
+    # 4. Context-Aware PII Redaction before logging / LLM context
+    #    Preserves URLs, filenames, NANPA toll-free hotlines (800/888/877/866/855/844/833),
+    #    and canonical emergency/institutional switchboards (e.g., 1-800-222-1222 Poison Control,
+    #    (202) 633-1000 Smithsonian) while redacting personal Scout/Parent/Counselor phone numbers.
     sanitized_text = scrub_pii_before_sink(raw_text)
 
     allowed = len(violations) == 0

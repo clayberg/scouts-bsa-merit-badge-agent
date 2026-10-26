@@ -37,27 +37,35 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 1a Activity & Observation Log Table",
             "headers": [
               "Date / Entry #",
               "Activity / Observation / Metric",
               "Measured Result / Notes",
               "Verifier Initials"
             ],
-            "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+            "column_headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
             ],
-            "min_rows": 5,
+            "row_labels": [
+              "Talking person-to-person",
+              "Listening to teachers",
+              "Listening to the radio",
+              "Podcasts",
+              "Watching television",
+              "Using social media"
+            ],
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1a is enough for Communication Requirement 1a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Communication pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1a grounded in the official Communication pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on talking person-to-person.",
+            "fact": "Scouts must describe talking person-to-person using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
+            "fact_correction": "Scouts must describe talking person-to-person using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
             "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)"
           },
           "starting_requirement_gate": null,
@@ -114,24 +122,32 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 1b Activity & Observation Log Table",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
+            ],
+            "column_headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. For three days, keep a journal of your listening experiences",
+              "2. Identify one example of each of the following, and discuss with your"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Communication Requirement 1b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 1b grounded in the official Communication pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 1b grounded in the official Communication pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on for three days, keep a journal of your listening experiences.",
+            "fact": "Scouts must identify for three days, keep a journal of your listening experiences using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
+            "fact_correction": "Scouts must identify for three days, keep a journal of your listening experiences using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
             "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)"
           },
           "starting_requirement_gate": null,
@@ -173,23 +189,29 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. In a small-group setting, meet with other Scouts or with friends",
+              "2. Have them share personal stories about significant events in their lives",
+              "3. Take note of how each Scout participates in the group discussion and how",
+              "4. Report what you have learned to your counselor about the differences you"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1c is enough for Communication Requirement 1c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Communication pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Communication pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on in a small-group setting, meet with other scouts or with friends.",
+            "fact": "Scouts must explain in a small-group setting, meet with other scouts or with friends using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
+            "fact_correction": "Scouts must explain in a small-group setting, meet with other scouts or with friends using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
             "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)"
           },
           "starting_requirement_gate": null,
@@ -239,23 +261,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1d Structured Study & Explanation Notes",
             "headers": [
-              "Req 1d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. List as many ways as you can think of to communicate with others",
+              "2. For each type of communication, discuss with your counselor an instance when"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1d is enough for Communication Requirement 1d sign-off.",
-            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 1d grounded in the official Communication pamphlet.",
-            "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 1d grounded in the official Communication pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on list as many ways as you can think of to communicate with others.",
+            "fact": "Scouts must list list as many ways as you can think of to communicate with others using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
+            "fact_correction": "Scouts must list list as many ways as you can think of to communicate with others using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
             "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)"
           },
           "starting_requirement_gate": null,
@@ -348,26 +374,32 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "table_title": "Req 1 Activity & Observation Log Table",
         "headers": [
           "Date / Entry #",
           "Activity / Observation / Metric",
           "Measured Result / Notes",
           "Verifier Initials"
         ],
-        "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+        "column_headers": [
+          "Date / Entry #",
+          "Activity / Observation / Metric",
+          "Measured Result / Notes",
+          "Verifier Initials"
         ],
-        "min_rows": 5,
+        "row_labels": [
+          "(a) For one day, keep a log in which you describe your communication activities",
+          "(b) For three days, keep a journal of your listening experiences",
+          "(c) In a small-group setting, meet with other Scouts or with friends",
+          "(d) List as many ways as you can think of to communicate with others"
+        ],
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of For one day, keep a log is enough for Communication Requirement 1 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of For one day, keep a log grounded in the official Communication pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of For one day, keep a log grounded in the official Communication pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on for one day, keep a log in which you describe your communication activities.",
+        "fact": "Scouts must describe for one day, keep a log in which you describe your communication activities using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
+        "fact_correction": "Scouts must describe for one day, keep a log in which you describe your communication activities using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
         "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)"
       },
       "starting_requirement_gate": null,
@@ -477,23 +509,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Think of a creative way to describe yourself using, for example, a collage",
+              "2. Using the aid you created, make a presentation to your counselor"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Communication Requirement 2a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2a grounded in the official Communication pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2a grounded in the official Communication pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on think of a creative way to describe yourself using, for example, a collage.",
+            "fact": "Scouts must describe think of a creative way to describe yourself using, for example, a collage using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
+            "fact_correction": "Scouts must describe think of a creative way to describe yourself using, for example, a collage using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
             "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)"
           },
           "starting_requirement_gate": null,
@@ -535,26 +571,34 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Choose a concept, product, or service in which you have great confidence",
+              "2. Build a sales plan based on its good points",
+              "3. Try to persuade the counselor to agree with, use, or buy your concept",
+              "4. After your sales talk, discuss with your counselor how persuasive you were"
             ],
             "min_rows": 4,
-            "pre_approval_gate": false
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Communication Requirement 2b sign-off.",
-            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 2b grounded in the official Communication pamphlet.",
-            "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Req 2b grounded in the official Communication pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on choose a concept, product, or service in which you have great confidence.",
+            "fact": "Scouts must build choose a concept, product, or service in which you have great confidence using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
+            "fact_correction": "Scouts must build choose a concept, product, or service in which you have great confidence using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
             "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)"
           },
           "starting_requirement_gate": null,
@@ -619,22 +663,26 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Think of a creative way to describe yourself using, for example, a collage",
+          "(b) Choose a concept, product, or service in which you have great confidence"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Think of a creative way is enough for Communication Requirement 2 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of Think of a creative way grounded in the official Communication pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Think of a creative way grounded in the official Communication pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on think of a creative way to describe yourself using, for example, a collage.",
+        "fact": "Scouts must describe think of a creative way to describe yourself using, for example, a collage using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
+        "fact_correction": "Scouts must describe think of a creative way to describe yourself using, for example, a collage using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
         "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)"
       },
       "starting_requirement_gate": null,
@@ -659,10 +707,10 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Want Create Series: If you are artistic, you might want to create a series of drawings showing yourself andsome people and events important in yourlife.",
+        "Want Create Series: If you are artistic, you might want to create a series of drawings showing yourself andsome people and events important in your life.",
         "Similarly Musical Theatrical: Similarly, if you are musical or theatrical, you may choose to write a song or a shortskit to fulfill this requirement.",
         "Requirement Asks Salespitch: Requirement 2(b) asks you to make a salespitch for a concept, product, or service.",
-        "Asales Pitch Persuasive: Asales pitch is a persuasive speech in whichyou try to get someone to buy your productor service."
+        "Asales Pitch Persuasive: Asales pitch is a persuasive speech in which you try to get someone to buy your productor service."
       ],
       "step_by_step_procedure": [
         "Here Way Organize: Here is one way to organize asales pitch that works.",
@@ -731,22 +779,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Write a five-minute speech",
+          "2. Give it at a meeting of a group"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Write a five-minute speech is enough for Communication Requirement 3 sign-off.",
-        "fact": "Each Scout must actively write the specific principles and real-world steps of Write a five-minute speech grounded in the official Communication pamphlet.",
-        "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Write a five-minute speech grounded in the official Communication pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write a five-minute speech.",
+        "fact": "Scouts must write write a five-minute speech using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35).",
+        "fact_correction": "Scouts must write write a five-minute speech using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35).",
         "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35)"
       },
       "starting_requirement_gate": null,
@@ -847,17 +899,25 @@
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 4 Career & Pathway Exploration Card",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
@@ -889,7 +949,7 @@
       ],
       "pamphlet_excerpts": [
         "Tips Interviewing: Tips for Interviewing and Introducing a Guest Speaker Let’s say you have a neighbor who is a policedetective.",
-        "Toshow Invite Yourneighbor: You also need toshow your counselor how you will invite yourneighbor to speak at the meeting.",
+        "Toshow Invite Your neighbor: You also need toshow your counselor how you will invite your neighbor to speak at the meeting.",
         "Asmall Notebook Pen: Have asmall notebook and pen or a laptop or computer withyou when you make the call.",
         "Wirelessheadset Cellphone: If you have a wirelessheadset for a cellphone, you can listen hands-freewhile typing your notes."
       ],
@@ -956,22 +1016,27 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Attend a public meeting (city council, school board, debate) approved by your",
+          "2. Practice active listening skills and take careful notes of each point of view",
+          "3. Prepare an objective report that includes all points of view"
         ],
         "min_rows": 3,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Attend a public meeting approved is enough for Communication Requirement 5 sign-off.",
-        "fact": "Each Scout must actively attend the specific principles and real-world steps of Attend a public meeting approved grounded in the official Communication pamphlet.",
-        "fact_correction": "Each Scout must actively attend the specific principles and real-world steps of Attend a public meeting approved grounded in the official Communication pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on attend a public meeting (city council, school board, debate) approved by your.",
+        "fact": "Scouts must attend attend a public meeting (city council, school board, debate) approved by your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35).",
+        "fact_correction": "Scouts must attend attend a public meeting (city council, school board, debate) approved by your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35).",
         "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35)"
       },
       "starting_requirement_gate": {
@@ -1002,7 +1067,7 @@
       ],
       "pamphlet_excerpts": [
         "Tips Interviewing: Tips for Interviewing and Introducing a Guest Speaker Let’s say you have a neighbor who is a policedetective.",
-        "Toshow Invite Yourneighbor: You also need toshow your counselor how you will invite yourneighbor to speak at the meeting.",
+        "Toshow Invite Your neighbor: You also need toshow your counselor how you will invite your neighbor to speak at the meeting.",
         "Asmall Notebook Pen: Have asmall notebook and pen or a laptop or computer withyou when you make the call.",
         "Wirelessheadset Cellphone: If you have a wirelessheadset for a cellphone, you can listen hands-freewhile typing your notes."
       ],
@@ -1065,22 +1130,28 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. With your counselor's approval, develop a plan to teach a skill or inform",
+          "2. Prepare teaching aids for your plan",
+          "3. Carry out your plan",
+          "4. With your counselor, determine whether the person has learned what you"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Teach a skill or inform someone is enough for Communication Requirement 6 sign-off.",
-        "fact": "Each Scout must actively plan the specific principles and real-world steps of Teach a skill or inform someone grounded in the official Communication pamphlet.",
-        "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Teach a skill or inform someone grounded in the official Communication pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your counselor's approval, develop a plan to teach a skill or inform.",
+        "fact": "Scouts must plan with your counselor's approval, develop a plan to teach a skill or inform using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39).",
+        "fact_correction": "Scouts must plan with your counselor's approval, develop a plan to teach a skill or inform using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39).",
         "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39)"
       },
       "starting_requirement_gate": {
@@ -1118,7 +1189,7 @@
       "step_by_step_procedure": [
         "Choose Basic Knots: First, choose four basic knots that are useful in differentsituations.",
         "Foreach Knot Write: Foreach knot, write an outline that lists the steps for how to tiethe knot.",
-        "BSA Handbooks Resources: Look in the Scouts BSA handbooks, other Scouting resources, librarybooks, and search the internet (with your parent or guardian’spermission).",
+        "BSA Handbooks Resources: Look in the Scouts BSA handbooks, other Scouting resources, librarybooks, and search the internet (with your parent or guardian's permission).",
         "Want Enlarge Diagrams: You might want to enlarge these diagrams on aphotocopier or computer printer to make them easier for abeginner to follow."
       ],
       "gear_checklist": [
@@ -1168,23 +1239,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7a Structured Study & Explanation Notes",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Write to the editor of a magazine or your local newspaper to express your",
+              "2. Send your message by fax, email, or regular mail"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Communication Requirement 7a sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 7a grounded in the official Communication pamphlet.",
-            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 7a grounded in the official Communication pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write to the editor of a magazine or your local newspaper to express your.",
+            "fact": "Scouts must write write to the editor of a magazine or your local newspaper to express your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
+            "fact_correction": "Scouts must write write to the editor of a magazine or your local newspaper to express your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
             "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)"
           },
           "starting_requirement_gate": null,
@@ -1238,23 +1313,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7b Structured Study & Explanation Notes",
             "headers": [
-              "Req 7b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Create a webpage or blog of special interest to you (for instance, your troop",
+              "2. Include at least three articles or entries and one photograph"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Communication Requirement 7b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Communication pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Communication pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on create a webpage or blog of special interest to you (for instance, your troop.",
+            "fact": "Scouts must explain create a webpage or blog of special interest to you (for instance, your troop using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
+            "fact_correction": "Scouts must explain create a webpage or blog of special interest to you (for instance, your troop using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
             "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)"
           },
           "starting_requirement_gate": {
@@ -1309,23 +1388,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7c Structured Study & Explanation Notes",
             "headers": [
-              "Req 7c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Use desktop publishing to produce a newsletter, brochure, flyer, or other",
+              "2. Include at least one article and one photograph or illustration"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7c is enough for Communication Requirement 7c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Communication pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Communication pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on use desktop publishing to produce a newsletter, brochure, flyer, or other.",
+            "fact": "Scouts must explain use desktop publishing to produce a newsletter, brochure, flyer, or other using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
+            "fact_correction": "Scouts must explain use desktop publishing to produce a newsletter, brochure, flyer, or other using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
             "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)"
           },
           "starting_requirement_gate": null,
@@ -1410,22 +1493,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Write to the editor of a magazine or your local newspaper to express your",
+          "(b) Create a webpage or blog of special interest to you (for instance, your troop",
+          "(c) Use desktop publishing to produce a newsletter, brochure, flyer, or other"
         ],
         "min_rows": 3,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Write to the editor is enough for Communication Requirement 7 sign-off.",
-        "fact": "Each Scout must actively write the specific principles and real-world steps of Write to the editor grounded in the official Communication pamphlet.",
-        "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Write to the editor grounded in the official Communication pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write to the editor of a magazine or your local newspaper to express your.",
+        "fact": "Scouts must write write to the editor of a magazine or your local newspaper to express your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
+        "fact_correction": "Scouts must write write to the editor of a magazine or your local newspaper to express your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
         "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)"
       },
       "starting_requirement_gate": {
@@ -1463,7 +1551,7 @@
       "step_by_step_procedure": [
         "Blogging Becomeso Popular: Blogging has becomeso popular that many big companies have started blogs ontheir websites.",
         "Blogging Become Form: Blogging has become an important form ofmass communication.",
-        "Today People Theirliving: Today, some people even make theirliving as bloggers.",
+        "Today People Their living: Today, some people even make their living as bloggers.",
         "Want Decorate Webpage: You will want to decorate your webpage or blog with a fewgraphics."
       ],
       "gear_checklist": [
@@ -1543,22 +1631,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 8 Structured Study & Explanation Notes",
         "headers": [
-          "Req 8 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Plan a troop or crew court of honor, campfire program, or an interfaith",
+          "2. Have the patrol leaders' council approve it, then write the script",
+          "3. Serve as master of ceremonies"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Plan a troop or crew court is enough for Communication Requirement 8 sign-off.",
-        "fact": "Each Scout must actively plan the specific principles and real-world steps of Plan a troop or crew court grounded in the official Communication pamphlet.",
-        "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Plan a troop or crew court grounded in the official Communication pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on plan a troop or crew court of honor, campfire program, or an interfaith.",
+        "fact": "Scouts must plan plan a troop or crew court of honor, campfire program, or an interfaith using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68).",
+        "fact_correction": "Scouts must plan plan a troop or crew court of honor, campfire program, or an interfaith using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68).",
         "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68)"
       },
       "starting_requirement_gate": null,
@@ -1584,7 +1677,7 @@
       ],
       "pamphlet_excerpts": [
         "Health Strength Daily: For health, strength, and daily food, we give You thanks, O Lord.",
-        "Serve Lord Gladness: Serve the Lord with gladness! \u0007Come into his presencewith singing!.",
+        "Serve Lord Gladness: Serve the Lord with gladness! \u0007Come into his presence with singing!.",
         "Lord God Andwe: Know that the Lord is God! \u0007It is he who made us, andwe are his! \u0007We are his people and the sheepof his pasture.",
         "Enter His Gates: Enter into his gates with thanksgiving, and his courts with praise! \u0007Give thanks to him; bless his name!."
       ],
@@ -1662,17 +1755,25 @@
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 71, p. 75)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 9 Career & Pathway Exploration Card",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
@@ -1704,7 +1805,7 @@
       ],
       "pamphlet_excerpts": [
         "Career Communication Choices: A career in communication will give you many choices.",
-        "Inmost Fields Education: As inmost fields, the better your education, the more likely yoursuccess.",
+        "Inmost Fields Education: As inmost fields, the better your education, the more likely your success.",
         "Communication Professionals: Many communication professionals have bachelor’sdegrees from colleges with journalism or communication departments.",
         "Their Specialty Public: Their specialty might be public relations, advertising, or print or broadcast journalism."
       ],

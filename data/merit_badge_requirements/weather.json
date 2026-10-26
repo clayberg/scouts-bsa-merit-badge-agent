@@ -47,22 +47,28 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 1 Structured Study & Explanation Notes",
         "headers": [
-          "Req 1 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Define meteorology",
+          "2. Explain what weather is and what climate is",
+          "3. Discuss how the weather affects farmers, sailors, aviators, and the outdoor",
+          "4. Tell why weather forecasts are important to each of these groups"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Define meteorology is enough for Weather Requirement 1 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Define meteorology grounded in the official Weather pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Define meteorology grounded in the official Weather pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on define meteorology.",
+        "fact": "Scouts must explain define meteorology using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 72, p. 74).",
+        "fact_correction": "Scouts must explain define meteorology using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 72, p. 74).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 72, p. 74)"
       },
       "starting_requirement_gate": null,
@@ -186,23 +192,29 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 2 Differential Comparison Matrix",
         "headers": [
           "Concept / Method A",
           "Concept / Method B",
           "Key Field Distinction & When to Use"
         ],
+        "column_headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
+        ],
         "row_labels": [
-          "Primary Mechanism",
-          "Field Indicator",
-          "Safety / Application"
+          "1. Name five dangerous weather-related conditions",
+          "2. Give the safety rules for each when outdoors and explain the difference",
+          "3. Discuss the safety rules with your family"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Name five dangerous weather-related conditions is enough for Weather Requirement 2 sign-off.",
-        "fact": "Each Scout must actively name the specific principles and real-world steps of Name five dangerous weather-related conditions grounded in the official Weather pamphlet.",
-        "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Name five dangerous weather-related conditions grounded in the official Weather pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name five dangerous weather-related conditions.",
+        "fact": "Scouts must name name five dangerous weather-related conditions using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 29, p. 32).",
+        "fact_correction": "Scouts must name name five dangerous weather-related conditions using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 29, p. 32).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 29, p. 32)"
       },
       "starting_requirement_gate": null,
@@ -312,25 +324,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Identify at least two sources of weather forecasts that can be used",
+          "2. Name two sources of emergency weather warnings both at home"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of At least two sources of weather is enough for Weather Requirement 3 sign-off.",
-        "fact": "Each Scout must actively prepare the specific principles and real-world steps of At least two sources of weather grounded in the official Weather pamphlet.",
-        "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of At least two sources of weather grounded in the official Weather pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify at least two sources of weather forecasts that can be used.",
+        "fact": "Scouts must prepare identify at least two sources of weather forecasts that can be used using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 33, p. 66).",
+        "fact_correction": "Scouts must prepare identify at least two sources of weather forecasts that can be used using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 33, p. 66).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 33, p. 66)"
       },
       "starting_requirement_gate": null,
@@ -436,23 +454,29 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 4 Differential Comparison Matrix",
         "headers": [
           "Concept / Method A",
           "Concept / Method B",
           "Key Field Distinction & When to Use"
         ],
+        "column_headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
+        ],
         "row_labels": [
-          "Primary Mechanism",
-          "Field Indicator",
-          "Safety / Application"
+          "1. Explain the difference between high and low pressure systems in the atmosphere",
+          "2. Tell which is related to good and to poor weather",
+          "3. Draw cross sections of a cold front and a warm front, showing the location"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The difference between high and low is enough for Weather Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The difference between high and low grounded in the official Weather pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The difference between high and low grounded in the official Weather pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the difference between high and low pressure systems in the atmosphere.",
+        "fact": "Scouts must explain explain the difference between high and low pressure systems in the atmosphere using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 29, p. 30).",
+        "fact_correction": "Scouts must explain explain the difference between high and low pressure systems in the atmosphere using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 29, p. 30).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 29, p. 30)"
       },
       "starting_requirement_gate": null,
@@ -562,22 +586,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Tell what causes wind, why it rains, and how lightning and hail are formed",
+          "Pamphlet Standard & Key Facts (5)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Causes wind, why it rains is enough for Weather Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Causes wind, why it rains grounded in the official Weather pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Causes wind, why it rains grounded in the official Weather pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell what causes wind, why it rains, and how lightning and hail are formed.",
+        "fact": "Scouts must explain tell what causes wind, why it rains, and how lightning and hail are formed using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 34, p. 37).",
+        "fact_correction": "Scouts must explain tell what causes wind, why it rains, and how lightning and hail are formed using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 34, p. 37).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 34, p. 37)"
       },
       "starting_requirement_gate": null,
@@ -666,22 +695,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Identify and describe clouds in the low, middle, and upper levels",
+          "2. Relate these to specific types of weather"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of And describe clouds in the low is enough for Weather Requirement 6 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of And describe clouds in the low grounded in the official Weather pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of And describe clouds in the low grounded in the official Weather pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify and describe clouds in the low, middle, and upper levels.",
+        "fact": "Scouts must describe identify and describe clouds in the low, middle, and upper levels using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 8, p. 23).",
+        "fact_correction": "Scouts must describe identify and describe clouds in the low, middle, and upper levels using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 8, p. 23).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 8, p. 23)"
       },
       "starting_requirement_gate": null,
@@ -773,23 +806,29 @@
       "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 16, p. 18)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+        "table_title": "Req 7 Field Sketch & Observation Canvas",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
+        ],
+        "column_headers": [
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Draw a diagram of the water cycle and label its major processes",
+          "2. Explain the water cycle to your counselor"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Draw a diagram of the water is enough for Weather Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Draw a diagram of the water grounded in the official Weather pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Draw a diagram of the water grounded in the official Weather pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on draw a diagram of the water cycle and label its major processes.",
+        "fact": "Scouts must explain draw a diagram of the water cycle and label its major processes using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 16, p. 18).",
+        "fact_correction": "Scouts must explain draw a diagram of the water cycle and label its major processes using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 16, p. 18).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 16, p. 18)"
       },
       "starting_requirement_gate": null,
@@ -817,7 +856,7 @@
         "Thing Weather Moisture: The most important thing about the weather is the moisture itbrings.",
         "Wind Blow Night: The wind could blow night and day and the temperature could rise and fall, but if no rain fell, Earth would be inreal trouble.",
         "Fortunately Addition: Fortunately, in addition to a wonderful air-circulatingsystem, Earth has a wonderful water-circulating system.",
-        "Water Vapor Forms: The water vapor that forms clouds and precipitation comes mostlyfrom evaporation from Earth’s oceans."
+        "Water Vapor Forms: The water vapor that forms clouds and precipitation comes mostly from evaporation from Earth’s oceans."
       ],
       "step_by_step_procedure": [
         "Small Part Comes: A small part comes fromlakes, streams, and transpiration, that is, the giving off of waterby the leaves of green plants.",
@@ -882,22 +921,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 8 Structured Study & Explanation Notes",
         "headers": [
-          "Req 8 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Identify some human activities that can alter the environment",
+          "2. Describe how they affect the climate and people"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Some human activities that can alter is enough for Weather Requirement 8 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of Some human activities that can alter grounded in the official Weather pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Some human activities that can alter grounded in the official Weather pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify some human activities that can alter the environment.",
+        "fact": "Scouts must describe identify some human activities that can alter the environment using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 66, p. 72).",
+        "fact_correction": "Scouts must describe identify some human activities that can alter the environment using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 66, p. 72).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 66, p. 72)"
       },
       "starting_requirement_gate": null,
@@ -990,22 +1033,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Study & Explanation Notes",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Describe how the tilt of Earth's axis helps determine the climate",
+          "2. Across the area in between"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The tilt of Earth's axis helps is enough for Weather Requirement 9 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of The tilt of Earth's axis helps grounded in the official Weather pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of The tilt of Earth's axis helps grounded in the official Weather pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe how the tilt of earth's axis helps determine the climate.",
+        "fact": "Scouts must describe describe how the tilt of earth's axis helps determine the climate using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 66, p. 68).",
+        "fact_correction": "Scouts must describe describe how the tilt of earth's axis helps determine the climate using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 66, p. 68).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 66, p. 68)"
       },
       "starting_requirement_gate": null,
@@ -1095,28 +1142,36 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 10a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+              "Local radio",
+              "Television stations",
+              "NOAA Weather Radio All Hazards",
+              "Internet sources (with your parent",
+              "Guardian's permission)"
             ],
             "min_rows": 5,
-            "pre_approval_gate": true
+            "pre_approval_gate": true,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Weather hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Weather prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Weather prevents most field injuries.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on local radio.",
+            "fact": "Scouts must make local radio using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62).",
+            "fact_correction": "Scouts must make local radio using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62).",
             "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)"
           },
           "starting_requirement_gate": {
@@ -1163,23 +1218,28 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10b Structured Study & Explanation Notes",
             "headers": [
-              "Req 10b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Visit a National Weather Service office or talk with a local radio",
+              "2. Find out what type of weather is most dangerous or damaging to your community",
+              "3. Determine how severe weather and flood warnings reach the homes in your"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10b is enough for Weather Requirement 10b sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 10b grounded in the official Weather pamphlet.",
-            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 10b grounded in the official Weather pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit a national weather service office or talk with a local radio.",
+            "fact": "Scouts must visit visit a national weather service office or talk with a local radio using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62).",
+            "fact_correction": "Scouts must visit visit a national weather service office or talk with a local radio using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62).",
             "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)"
           },
           "starting_requirement_gate": null,
@@ -1247,27 +1307,32 @@
       "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 10 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+          "(a) Make one of the following instruments: wind vane, anemometer, rain gauge",
+          "(b) Visit a National Weather Service office or talk with a local radio"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": true
+        "min_rows": 2,
+        "pre_approval_gate": true,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Weather hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Weather prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Weather prevents most field injuries.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make one of the following instruments: wind vane, anemometer, rain gauge.",
+        "fact": "Scouts must make make one of the following instruments: wind vane, anemometer, rain gauge using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62).",
+        "fact_correction": "Scouts must make make one of the following instruments: wind vane, anemometer, rain gauge using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)"
       },
       "starting_requirement_gate": {
@@ -1304,7 +1369,7 @@
       ],
       "step_by_step_procedure": [
         "Obtain Readings: You can obtain readings from your owninstruments, from local television or radio, and from internet sites devoted to meteorology.",
-        "Comparing Readingsfrom Day: By comparing readingsfrom day to day, you can see how the various weather elementschange at your location in response to passing weather.",
+        "Comparing Readings from Day: By comparing readings from day to day, you can see how the various weather elementschange at your location in response to passing weather.",
         "Dayrecord Based Local: Keep a 30-dayrecord based on local weather forecasts and your own observations.",
         "Record Observations Same: Make and record observations at the same time each day."
       ],
@@ -1356,22 +1421,28 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 11 Structured Study & Explanation Notes",
         "headers": [
-          "Req 11 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 11 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 11 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Your unit",
+          "A Cub Scout pack) explaining the outdoor safety rules in the event of lightning",
+          "Flash floods",
+          "Tornadoes"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Give a talk is enough for Weather Requirement 11 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Give a talk grounded in the official Weather pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Give a talk grounded in the official Weather pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on your unit.",
+        "fact": "Scouts must explain your unit using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 37, p. 38).",
+        "fact_correction": "Scouts must explain your unit using verified procedures, field evidence, and safety standards from Official Scouting America Weather Merit Badge Pamphlet (p. 37, p. 38).",
         "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 37, p. 38)"
       },
       "starting_requirement_gate": null,
@@ -1471,17 +1542,25 @@
       "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 74)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 12 Career & Pathway Exploration Card",
         "headers": [
-          "Req 12 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
@@ -1526,7 +1605,7 @@
         "Researchers Analyze Levelsof: Many researchers analyze levelsof pollution in the oceans and atmosphere.",
         "National Center Atmospheric: At the National Center for Atmospheric Research (NCAR), climate research is ahigh priority.",
         "Universities Meteorology: At universities, meteorology professors teach andconduct research.",
-        "Their Research Supported: Their research is usually supported by grantsfrom the government or private foundations."
+        "Their Research Supported: Their research is usually supported by grants from the government or private foundations."
       ],
       "gear_checklist": [
         "Official Weather Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 12)",

@@ -36,26 +36,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Snow Sports hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Snow Sports hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Snow Sports prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Snow Sports prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)"
           },
           "starting_requirement_gate": null,
@@ -101,16 +112,24 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Study & Explanation Notes",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Hypothermia",
+              "Frostbite",
+              "Shock",
+              "Dehydration",
+              "Sunburn",
+              "Concussion"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)",
@@ -181,25 +200,36 @@
       "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Snow Sports hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Snow Sports prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Snow Sports hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Snow Sports prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Snow Sports prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)"
       },
       "starting_requirement_gate": null,
@@ -295,23 +325,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain why every snow sport participant should be prepared to render",
+              "2. Key Pamphlet Examples & Evidence (Req 2a)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Snow Sports Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Snow Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Snow Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain why every snow sport participant should be prepared to render.",
+            "fact": "Scouts must explain explain why every snow sport participant should be prepared to render using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23).",
+            "fact_correction": "Scouts must explain explain why every snow sport participant should be prepared to render using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23).",
             "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)"
           },
           "starting_requirement_gate": null,
@@ -353,23 +388,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the procedure used to report an accident to the local ski patrol",
+              "2. Key Pamphlet Examples & Evidence (Req 2b)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Snow Sports Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Snow Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Snow Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the procedure used to report an accident to the local ski patrol.",
+            "fact": "Scouts must explain explain the procedure used to report an accident to the local ski patrol using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23).",
+            "fact_correction": "Scouts must explain explain the procedure used to report an accident to the local ski patrol using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23).",
             "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)"
           },
           "starting_requirement_gate": null,
@@ -422,25 +462,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain why every snow sport participant should be prepared to render first",
+          "(b) Explain the procedure used to report an accident to the local ski patrol"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Sprains, Fractures & Cold-Weather First Aid is enough for Snow Sports Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Sprains, Fractures & Cold-Weather First Aid grounded in the official Snow Sports pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Sprains, Fractures & Cold-Weather First Aid grounded in the official Snow Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain why every snow sport participant should be prepared to render first.",
+        "fact": "Scouts must demonstrate explain why every snow sport participant should be prepared to render first using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23).",
+        "fact_correction": "Scouts must demonstrate explain why every snow sport participant should be prepared to render first using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23).",
         "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)"
       },
       "starting_requirement_gate": null,
@@ -529,22 +575,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Explain the international trail-marking system",
+          "Pamphlet Standard & Key Facts (3)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The international trail-marking system is enough for Snow Sports Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The international trail-marking system grounded in the official Snow Sports pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The international trail-marking system grounded in the official Snow Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the international trail-marking system.",
+        "fact": "Scouts must explain explain the international trail-marking system using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29).",
+        "fact_correction": "Scouts must explain explain the international trail-marking system using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29).",
         "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29)"
       },
       "starting_requirement_gate": null,
@@ -569,8 +620,8 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Thing Snow Sport: Another thing snow sport enthusiasts need to become familiarwith is the international trail-marking system.",
-        "System Hasbeen Designed: This system hasbeen designed to help users identify the trails best suited to theirlevel of ability as well as hazards within a ski area.",
+        "Thing Snow Sport: Another thing snow sport enthusiasts need to become familiar with is the international trail-marking system.",
+        "System Hasbeen Designed: This system hasbeen designed to help users identify the trails best suited to their level of ability as well as hazards within a ski area.",
         "Signs Arethere Everyone: The signs arethere for everyone’s safety and should always be followed.",
         "Ski Area Determines: Each ski area determines whether a trail is a green circle (beginner), blue square (intermediate), black diamond (advanced), or double black diamond."
       ],
@@ -646,25 +697,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Discuss the importance of strength, endurance, and flexibility in snow sports",
+          "2. Demonstrate exercises and activities you can do to get fit for the option you"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Winter Fitness, Conditioning & Warm-Up is enough for Snow Sports Requirement 4 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Winter Fitness, Conditioning & Warm-Up grounded in the official Snow Sports pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Winter Fitness, Conditioning & Warm-Up grounded in the official Snow Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the importance of strength, endurance, and flexibility in snow sports.",
+        "fact": "Scouts must discuss discuss the importance of strength, endurance, and flexibility in snow sports using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26).",
+        "fact_correction": "Scouts must discuss discuss the importance of strength, endurance, and flexibility in snow sports using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26).",
         "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26)"
       },
       "starting_requirement_gate": null,
@@ -697,7 +754,7 @@
       "step_by_step_procedure": [
         "Wall Something Solid: Use a wall or something solid tolean into, one leg forward and one leg back.",
         "Back Leg Straight: Keep the back leg straight and push intothe wall until you can feel the calf stretch.",
-        "Standing Bendfrom Waist: While standing, bendfrom the waist with your legs straight.",
+        "Standing Bend from Waist: While standing, bend from the waist with your legs straight.",
         "Stretchyour Hands Toward: Stretchyour hands toward the ground until you feelthe back of your legs stretching."
       ],
       "gear_checklist": [
@@ -753,22 +810,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Present yourself properly clothed and equipped for the option you choose",
+          "2. Discuss how the clothing you have chosen will help keep you warm and protected"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Cold-Weather Layering & Snow Gear Check is enough for Snow Sports Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Cold-Weather Layering & Snow Gear Check grounded in the official Snow Sports pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Cold-Weather Layering & Snow Gear Check grounded in the official Snow Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on present yourself properly clothed and equipped for the option you choose.",
+        "fact": "Scouts must explain present yourself properly clothed and equipped for the option you choose using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88).",
+        "fact_correction": "Scouts must explain present yourself properly clothed and equipped for the option you choose using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88).",
         "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88)"
       },
       "starting_requirement_gate": null,
@@ -847,23 +908,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6a Structured Study & Explanation Notes",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the elements of the Your Responsibility Code that is in effect",
+              "2. Explain why each person must follow this code"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6a is enough for Snow Sports Requirement 6a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Snow Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Snow Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the elements of the your responsibility code that is in effect.",
+            "fact": "Scouts must explain explain the elements of the your responsibility code that is in effect using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19).",
+            "fact_correction": "Scouts must explain explain the elements of the your responsibility code that is in effect using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19).",
             "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)"
           },
           "starting_requirement_gate": null,
@@ -905,23 +970,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Study & Explanation Notes",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the SMART Style safety program",
+              "2. Tell why it is important and how it applies to participants at snow sport"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Snow Sports Requirement 6b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Snow Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Snow Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the smart style safety program.",
+            "fact": "Scouts must explain explain the smart style safety program using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19).",
+            "fact_correction": "Scouts must explain explain the smart style safety program using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19).",
             "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)"
           },
           "starting_requirement_gate": null,
@@ -963,23 +1032,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6c Structured Study & Explanation Notes",
             "headers": [
-              "Req 6c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the precautions pertaining to avalanche safety",
+              "2. The responsibility of individuals regarding avalanche safety"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6c is enough for Snow Sports Requirement 6c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Snow Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Snow Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the precautions pertaining to avalanche safety.",
+            "fact": "Scouts must explain explain the precautions pertaining to avalanche safety using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19).",
+            "fact_correction": "Scouts must explain explain the precautions pertaining to avalanche safety using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19).",
             "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)"
           },
           "starting_requirement_gate": null,
@@ -1040,22 +1113,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Explain the elements of the Your Responsibility Code that is in effect",
+          "(b) Explain the SMART Style safety program",
+          "(c) Explain the precautions pertaining to avalanche safety"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Skier & Rider Responsibility Code is enough for Snow Sports Requirement 6 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Skier & Rider Responsibility Code grounded in the official Snow Sports pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Skier & Rider Responsibility Code grounded in the official Snow Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the elements of the your responsibility code that is in effect.",
+        "fact": "Scouts must explain explain the elements of the your responsibility code that is in effect using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19).",
+        "fact_correction": "Scouts must explain explain the elements of the your responsibility code that is in effect using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19).",
         "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)"
       },
       "starting_requirement_gate": null,
@@ -1148,23 +1226,27 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7a(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7a(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7a(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7a(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Show how to wax and maintain your skis and use/maintain your release bindings",
+                  "2. Explain the international DIN standard and what it means to skiers"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7a(1) is enough for Snow Sports Requirement 7a(1) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(1) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(1) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to wax and maintain your skis and use/maintain your release bindings.",
+                "fact": "Scouts must explain show how to wax and maintain your skis and use/maintain your release bindings using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must explain show how to wax and maintain your skis and use/maintain your release bindings using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1206,23 +1288,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7a(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7a(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7a(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7a(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain the American Teaching System and a basic snowskiing progression",
+                  "Pamphlet Standard & Key Facts (7a(2))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7a(2) is enough for Snow Sports Requirement 7a(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(2) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(2) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the american teaching system and a basic snowskiing progression.",
+                "fact": "Scouts must explain explain the american teaching system and a basic snowskiing progression using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must explain explain the american teaching system and a basic snowskiing progression using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1268,26 +1355,32 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7a(3) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Discuss the different types of Alpine skis",
+                  "2. Demonstrate two ways to carry skis and poles safely and easily"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7a(3) is enough for Snow Sports Requirement 7a(3) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7a(3) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7a(3) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the different types of alpine skis.",
+                "fact": "Scouts must discuss discuss the different types of alpine skis using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must discuss discuss the different types of alpine skis using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1328,27 +1421,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7a(4) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Demonstrate how to ride one kind of lift and explain how to ride two others",
+                  "Pamphlet Standard & Key Facts (7a(4))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7a(4) is enough for Snow Sports Requirement 7a(4) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(4) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(4) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate how to ride one kind of lift and explain how to ride two others.",
+                "fact": "Scouts must explain demonstrate how to ride one kind of lift and explain how to ride two others using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must explain demonstrate how to ride one kind of lift and explain how to ride two others using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1398,26 +1498,32 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7a(5) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. On a gentle slope, demonstrate some of the beginning maneuvers learned",
+                  "2. Include the straight run, gliding wedge, wedge stop, sidestep"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7a(5) is enough for Snow Sports Requirement 7a(5) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(5) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(5) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on on a gentle slope, demonstrate some of the beginning maneuvers learned.",
+                "fact": "Scouts must demonstrate on a gentle slope, demonstrate some of the beginning maneuvers learned using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate on a gentle slope, demonstrate some of the beginning maneuvers learned using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1463,26 +1569,33 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7a(6) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "On slightly steeper terrain, show linked wedge turns",
+                  "Pamphlet Standard & Key Facts (7a(6))",
+                  "Field Application & Counselor Verification (Show)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7a(6) is enough for Snow Sports Requirement 7a(6) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7a(6) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7a(6) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on on slightly steeper terrain, show linked wedge turns.",
+                "fact": "Scouts must show on slightly steeper terrain, show linked wedge turns using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must show on slightly steeper terrain, show linked wedge turns using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1524,26 +1637,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7a(7) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "On a moderate slope, demonstrate five to 10 christies",
+                  "Pamphlet Standard & Key Facts (7a(7))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7a(7) is enough for Snow Sports Requirement 7a(7) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(7) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(7) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on on a moderate slope, demonstrate five to 10 christies.",
+                "fact": "Scouts must demonstrate on a moderate slope, demonstrate five to 10 christies using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate on a moderate slope, demonstrate five to 10 christies using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1585,26 +1705,33 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7a(8) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Make a controlled run down an intermediate slope",
+                  "Pamphlet Standard & Key Facts (7a(8))",
+                  "Field Application & Counselor Verification (Make)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7a(8) is enough for Snow Sports Requirement 7a(8) sign-off.",
-                "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7a(8) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 7a(8) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make a controlled run down an intermediate slope.",
+                "fact": "Scouts must make make a controlled run down an intermediate slope using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must make make a controlled run down an intermediate slope using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1645,27 +1772,33 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7a(9) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Demonstrate the ability to ski in varied conditions, including changes",
+                  "2. Maintain your balance and ability to turn"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7a(9) is enough for Snow Sports Requirement 7a(9) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(9) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7a(9) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the ability to ski in varied conditions, including changes.",
+                "fact": "Scouts must demonstrate demonstrate the ability to ski in varied conditions, including changes using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate demonstrate the ability to ski in varied conditions, including changes using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1715,23 +1848,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7a(10) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7a(10) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7a(10) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7a(10) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Name the major ski organizations in the United States and explain their functions",
+                  "Pamphlet Standard & Key Facts (7a(10))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7a(10) is enough for Snow Sports Requirement 7a(10) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(10) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a(10) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name the major ski organizations in the united states and explain their functions.",
+                "fact": "Scouts must explain name the major ski organizations in the united states and explain their functions using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must explain name the major ski organizations in the united states and explain their functions using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1763,26 +1901,36 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 7a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Show how to wax and maintain your skis and use/maintain your release bindings",
+              "(2) Explain the American Teaching System and a basic snowskiing progression",
+              "(3) Discuss the different types of Alpine skis",
+              "(4) Demonstrate how to ride one kind of lift and explain how to ride two others",
+              "(5) On a gentle slope, demonstrate some of the beginning maneuvers learned",
+              "(6) On slightly steeper terrain, show linked wedge turns"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Snow Sports Requirement 7a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Snow Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Snow Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to wax and maintain your skis and use/maintain your release bindings.",
+            "fact": "Scouts must explain show how to wax and maintain your skis and use/maintain your release bindings using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+            "fact_correction": "Scouts must explain show how to wax and maintain your skis and use/maintain your release bindings using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
             "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
           },
           "starting_requirement_gate": null,
@@ -1830,26 +1978,32 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7b(1) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Show your ability to select, use",
+                  "2. Maintain equipment for cross-country skiing in safety and comfort"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(1) is enough for Snow Sports Requirement 7b(1) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b(1) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7b(1) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show your ability to select, use.",
+                "fact": "Scouts must show show your ability to select, use using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must show show your ability to select, use using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1886,23 +2040,29 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7b(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7b(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7b(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7b(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "No walking on ski trails",
+                  "One-way ski direction",
+                  "No pets",
+                  "No skiing on snowmobile trails"
                 ],
-                "min_rows": 3,
+                "min_rows": 4,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(2) is enough for Snow Sports Requirement 7b(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b(2) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b(2) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on no walking on ski trails.",
+                "fact": "Scouts must explain no walking on ski trails using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must explain no walking on ski trails using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -1944,23 +2104,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7b(3) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7b(3) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7b(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7b(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Discuss classic, skating, touring, and telemark skis",
+                  "Pamphlet Standard & Key Facts (7b(3))",
+                  "Field Application & Counselor Verification (Discuss)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(3) is enough for Snow Sports Requirement 7b(3) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(3) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(3) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss classic, skating, touring, and telemark skis.",
+                "fact": "Scouts must discuss discuss classic, skating, touring, and telemark skis using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must discuss discuss classic, skating, touring, and telemark skis using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2002,23 +2167,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7b(4) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7b(4) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7b(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7b(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Discuss the basic principles of waxing for cross-country ski touring",
+                  "Pamphlet Standard & Key Facts (7b(4))",
+                  "Field Application & Counselor Verification (Discuss)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(4) is enough for Snow Sports Requirement 7b(4) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(4) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(4) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the basic principles of waxing for cross-country ski touring.",
+                "fact": "Scouts must discuss discuss the basic principles of waxing for cross-country ski touring using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must discuss discuss the basic principles of waxing for cross-country ski touring using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2064,23 +2234,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7b(5) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7b(5) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7b(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7b(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Discuss the differences between cross-country, backcountry/ski touring, ski",
+                  "2. Downhill/telemark skiing"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(5) is enough for Snow Sports Requirement 7b(5) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(5) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7b(5) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the differences between cross-country, backcountry/ski touring, ski.",
+                "fact": "Scouts must discuss discuss the differences between cross-country, backcountry/ski touring, ski using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must discuss discuss the differences between cross-country, backcountry/ski touring, ski using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2122,23 +2296,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7b(6) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7b(6) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7b(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7b(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "List the items you would take on a one-day ski tour",
+                  "Pamphlet Standard & Key Facts (7b(6))",
+                  "Field Application & Counselor Verification (List)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(6) is enough for Snow Sports Requirement 7b(6) sign-off.",
-                "fact": "Each Scout must actively list the specific principles and real-world steps of Req 7b(6) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 7b(6) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on list the items you would take on a one-day ski tour.",
+                "fact": "Scouts must list list the items you would take on a one-day ski tour using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must list list the items you would take on a one-day ski tour using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2187,27 +2366,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7b(7) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Demonstrate the proper use of a topographic map and compass",
+                  "Pamphlet Standard & Key Facts (7b(7))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(7) is enough for Snow Sports Requirement 7b(7) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(7) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(7) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the proper use of a topographic map and compass.",
+                "fact": "Scouts must demonstrate demonstrate the proper use of a topographic map and compass using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate demonstrate the proper use of a topographic map and compass using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2249,26 +2435,32 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7b(8) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. On a gentle, packed slope, show some basic ways to control speed and direction",
+                  "2. Include the straight run, traverse, side slip, step turn, wedge stop"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(8) is enough for Snow Sports Requirement 7b(8) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b(8) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7b(8) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on on a gentle, packed slope, show some basic ways to control speed and direction.",
+                "fact": "Scouts must show on a gentle, packed slope, show some basic ways to control speed and direction using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must show on a gentle, packed slope, show some basic ways to control speed and direction using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2310,26 +2502,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7b(9) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. On a cross-country trail, demonstrate effective propulsion by showing",
+                  "2. Key Pamphlet Examples & Evidence (Req 7b(9))",
+                  "3. Practical Demonstrate & Safety Verification"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(9) is enough for Snow Sports Requirement 7b(9) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(9) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(9) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on on a cross-country trail, demonstrate effective propulsion by showing.",
+                "fact": "Scouts must demonstrate on a cross-country trail, demonstrate effective propulsion by showing using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate on a cross-country trail, demonstrate effective propulsion by showing using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2370,27 +2569,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7b(10) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Demonstrate your ability, on a 4-mile tour, to cope with an average",
+                  "2. Key Pamphlet Examples & Evidence (Req 7b(10))",
+                  "3. Practical Demonstrate & Safety Verification"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(10) is enough for Snow Sports Requirement 7b(10) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(10) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(10) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate your ability, on a 4-mile tour, to cope with an average.",
+                "fact": "Scouts must demonstrate demonstrate your ability, on a 4-mile tour, to cope with an average using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate demonstrate your ability, on a 4-mile tour, to cope with an average using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2431,27 +2637,33 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7b(11) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Demonstrate several methods of dealing with steep hills or difficult",
+                  "2. Include traverses and kick turns going uphill and downhill, sidesteps"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7b(11) is enough for Snow Sports Requirement 7b(11) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(11) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7b(11) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate several methods of dealing with steep hills or difficult.",
+                "fact": "Scouts must demonstrate demonstrate several methods of dealing with steep hills or difficult using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate demonstrate several methods of dealing with steep hills or difficult using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2483,26 +2695,36 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 7b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Show your ability to select, use, and maintain equipment for cross-country",
+              "(2) Explain the reasons for common rules, including no walking on ski trails",
+              "(3) Discuss classic, skating, touring, and telemark skis",
+              "(4) Discuss the basic principles of waxing for cross-country ski touring",
+              "(5) Discuss the differences between cross-country, backcountry/ski touring, ski",
+              "(6) List the items you would take on a one-day ski tour"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Snow Sports Requirement 7b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b grounded in the official Snow Sports pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7b grounded in the official Snow Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show your ability to select, use, and maintain equipment for cross-country.",
+            "fact": "Scouts must show show your ability to select, use, and maintain equipment for cross-country using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+            "fact_correction": "Scouts must show show your ability to select, use, and maintain equipment for cross-country using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
             "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
           },
           "starting_requirement_gate": null,
@@ -2550,23 +2772,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7c(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7c(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7c(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7c(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Discuss forward-fall injuries",
+                  "Pamphlet Standard & Key Facts (7c(1))",
+                  "Field Application & Counselor Verification (Discuss)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(1) is enough for Snow Sports Requirement 7c(1) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c(1) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c(1) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss forward-fall injuries.",
+                "fact": "Scouts must discuss discuss forward-fall injuries using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must discuss discuss forward-fall injuries using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2608,26 +2835,33 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7c(2) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Show your ability to select the correct equipment for snowboarding",
+                  "2. Key Pamphlet Examples & Evidence (Req 7c(2))",
+                  "3. Practical Show & Safety Verification"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(2) is enough for Snow Sports Requirement 7c(2) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7c(2) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7c(2) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show your ability to select the correct equipment for snowboarding.",
+                "fact": "Scouts must show show your ability to select the correct equipment for snowboarding using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must show show your ability to select the correct equipment for snowboarding using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2669,23 +2903,27 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7c(3) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7c(3) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7c(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7c(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Show how to use and maintain your own bindings, and explain the use",
+                  "2. Explain the need for leashes"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(3) is enough for Snow Sports Requirement 7c(3) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(3) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(3) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to use and maintain your own bindings, and explain the use.",
+                "fact": "Scouts must explain show how to use and maintain your own bindings, and explain the use using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must explain show how to use and maintain your own bindings, and explain the use using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2727,26 +2965,32 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7c(4) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Discuss the four types of snowboards",
+                  "2. Demonstrate how to carry a snowboard easily and safely"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(4) is enough for Snow Sports Requirement 7c(4) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c(4) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c(4) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the four types of snowboards.",
+                "fact": "Scouts must discuss discuss the four types of snowboards using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must discuss discuss the four types of snowboards using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2787,27 +3031,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7c(5) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Demonstrate how to ride one kind of lift and explain how to ride two others",
+                  "Pamphlet Standard & Key Facts (7c(5))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(5) is enough for Snow Sports Requirement 7c(5) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(5) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(5) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate how to ride one kind of lift and explain how to ride two others.",
+                "fact": "Scouts must explain demonstrate how to ride one kind of lift and explain how to ride two others using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must explain demonstrate how to ride one kind of lift and explain how to ride two others using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2848,27 +3099,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7c(6) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Demonstrate the basic principles of waxing a snowboard",
+                  "Pamphlet Standard & Key Facts (7c(6))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(6) is enough for Snow Sports Requirement 7c(6) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(6) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(6) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the basic principles of waxing a snowboard.",
+                "fact": "Scouts must demonstrate demonstrate the basic principles of waxing a snowboard using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate demonstrate the basic principles of waxing a snowboard using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -2938,26 +3196,32 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7c(7) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) On a gentle slope, demonstrate beginning snowboarding maneuvers",
+                  "(b) On slightly steeper terrain, show traversing"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(7) is enough for Snow Sports Requirement 7c(7) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(7) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(7) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on on a gentle slope, demonstrate beginning snowboarding maneuvers.",
+                "fact": "Scouts must demonstrate on a gentle slope, demonstrate beginning snowboarding maneuvers using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate on a gentle slope, demonstrate beginning snowboarding maneuvers using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3007,26 +3271,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7c(8) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie",
+                  "Pamphlet Standard & Key Facts (7c(8))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(8) is enough for Snow Sports Requirement 7c(8) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(8) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(8) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on on a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie.",
+                "fact": "Scouts must demonstrate on a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate on a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3068,26 +3339,33 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 7c(9) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Make a controlled run down an intermediate slope",
+                  "Pamphlet Standard & Key Facts (7c(9))",
+                  "Field Application & Counselor Verification (Make)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(9) is enough for Snow Sports Requirement 7c(9) sign-off.",
-                "fact": "Each Scout must actively make the specific principles and real-world steps of Req 7c(9) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 7c(9) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make a controlled run down an intermediate slope.",
+                "fact": "Scouts must make make a controlled run down an intermediate slope using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must make make a controlled run down an intermediate slope using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3128,27 +3406,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7c(10) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Changes in pitch",
+                  "Snow conditions",
+                  "Moguls"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(10) is enough for Snow Sports Requirement 7c(10) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(10) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7c(10) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on changes in pitch.",
+                "fact": "Scouts must demonstrate changes in pitch using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate changes in pitch using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3190,23 +3475,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7c(11) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7c(11) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7c(11) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7c(11) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Name the major snowboarding organizations in the United States and explain their functions",
+                  "Pamphlet Standard & Key Facts (7c(11))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7c(11) is enough for Snow Sports Requirement 7c(11) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(11) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c(11) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name the major snowboarding organizations in the united states and explain their functions.",
+                "fact": "Scouts must explain name the major snowboarding organizations in the united states and explain their functions using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must explain name the major snowboarding organizations in the united states and explain their functions using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3238,26 +3528,36 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 7c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Discuss forward-fall injuries",
+              "(2) Show your ability to select the correct equipment for snowboarding and to use",
+              "(3) Show how to use and maintain your own bindings, and explain the use",
+              "(4) Discuss the four types of snowboards",
+              "(5) Demonstrate how to ride one kind of lift and explain how to ride two others",
+              "(6) Demonstrate the basic principles of waxing a snowboard"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7c is enough for Snow Sports Requirement 7c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Snow Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Snow Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss forward-fall injuries.",
+            "fact": "Scouts must explain discuss forward-fall injuries using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+            "fact_correction": "Scouts must explain discuss forward-fall injuries using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
             "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
           },
           "starting_requirement_gate": null,
@@ -3305,23 +3605,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7d(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7d(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7d(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7d(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Name the parts of a snowshoe",
+                  "Pamphlet Standard & Key Facts (7d(1))",
+                  "Field Application & Counselor Verification (Name)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7d(1) is enough for Snow Sports Requirement 7d(1) sign-off.",
-                "fact": "Each Scout must actively name the specific principles and real-world steps of Req 7d(1) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 7d(1) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name the parts of a snowshoe.",
+                "fact": "Scouts must name name the parts of a snowshoe using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must name name the parts of a snowshoe using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3358,23 +3663,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7d(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7d(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7d(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7d(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain how to choose the correct size of snowshoe",
+                  "Pamphlet Standard & Key Facts (7d(2))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7d(2) is enough for Snow Sports Requirement 7d(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d(2) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d(2) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how to choose the correct size of snowshoe.",
+                "fact": "Scouts must explain explain how to choose the correct size of snowshoe using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must explain explain how to choose the correct size of snowshoe using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3411,23 +3721,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7d(3) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7d(3) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7d(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7d(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Describe the different types of snowshoes and their specialized uses",
+                  "2. Discuss factors to consider when choosing a snowshoe"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7d(3) is enough for Snow Sports Requirement 7d(3) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(3) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(3) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the different types of snowshoes and their specialized uses.",
+                "fact": "Scouts must discuss describe the different types of snowshoes and their specialized uses using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must discuss describe the different types of snowshoes and their specialized uses using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3473,23 +3787,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7d(4) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7d(4) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7d(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7d(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain how to properly care for and maintain snowshoes",
+                  "Pamphlet Standard & Key Facts (7d(4))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7d(4) is enough for Snow Sports Requirement 7d(4) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d(4) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d(4) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how to properly care for and maintain snowshoes.",
+                "fact": "Scouts must explain explain how to properly care for and maintain snowshoes using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must explain explain how to properly care for and maintain snowshoes using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3535,23 +3854,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7d(5) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7d(5) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7d(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7d(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "List the items you would take on a one-day snowshoe hike",
+                  "Pamphlet Standard & Key Facts (7d(5))",
+                  "Field Application & Counselor Verification (List)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7d(5) is enough for Snow Sports Requirement 7d(5) sign-off.",
-                "fact": "Each Scout must actively list the specific principles and real-world steps of Req 7d(5) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 7d(5) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on list the items you would take on a one-day snowshoe hike.",
+                "fact": "Scouts must list list the items you would take on a one-day snowshoe hike using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must list list the items you would take on a one-day snowshoe hike using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3593,23 +3917,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7d(6) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7d(6) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7d(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7d(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Describe areas that are best for snowshoeing",
+                  "2. Discuss some advantages and dangers of backcountry snowshoeing"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7d(6) is enough for Snow Sports Requirement 7d(6) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(6) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(6) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe areas that are best for snowshoeing.",
+                "fact": "Scouts must discuss describe areas that are best for snowshoeing using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must discuss describe areas that are best for snowshoeing using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3651,23 +3979,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 7d(7) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 7d(7) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 7d(7) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 7d(7) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Discuss the benefits of snowshoeing",
+                  "Pamphlet Standard & Key Facts (7d(7))",
+                  "Field Application & Counselor Verification (Discuss)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7d(7) is enough for Snow Sports Requirement 7d(7) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(7) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7d(7) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the benefits of snowshoeing.",
+                "fact": "Scouts must discuss discuss the benefits of snowshoeing using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must discuss discuss the benefits of snowshoeing using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3716,27 +4049,33 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7d(8) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Demonstrate the most efficient ways to break trail, climb uphill, travel",
+                  "2. Traverse a slope"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7d(8) is enough for Snow Sports Requirement 7d(8) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(8) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(8) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the most efficient ways to break trail, climb uphill, travel.",
+                "fact": "Scouts must demonstrate demonstrate the most efficient ways to break trail, climb uphill, travel using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate demonstrate the most efficient ways to break trail, climb uphill, travel using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3777,27 +4116,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7d(9) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Demonstrate your ability, on a 2-mile snowshoe hike, to cope",
+                  "2. Key Pamphlet Examples & Evidence (Req 7d(9))",
+                  "3. Practical Demonstrate & Safety Verification"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7d(9) is enough for Snow Sports Requirement 7d(9) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(9) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(9) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate your ability, on a 2-mile snowshoe hike, to cope.",
+                "fact": "Scouts must demonstrate demonstrate your ability, on a 2-mile snowshoe hike, to cope using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate demonstrate your ability, on a 2-mile snowshoe hike, to cope using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3846,27 +4192,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 7d(10) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Demonstrate the proper use of a topographic map and compass",
+                  "Pamphlet Standard & Key Facts (7d(10))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 7d(10) is enough for Snow Sports Requirement 7d(10) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(10) grounded in the official Snow Sports pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 7d(10) grounded in the official Snow Sports pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the proper use of a topographic map and compass.",
+                "fact": "Scouts must demonstrate demonstrate the proper use of a topographic map and compass using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+                "fact_correction": "Scouts must demonstrate demonstrate the proper use of a topographic map and compass using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
                 "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
               },
               "starting_requirement_gate": null,
@@ -3898,26 +4251,36 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 7d Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Name the parts of a snowshoe",
+              "(2) Explain how to choose the correct size of snowshoe",
+              "(3) Describe the different types of snowshoes and their specialized uses",
+              "(4) Explain how to properly care for and maintain snowshoes",
+              "(5) List the items you would take on a one-day snowshoe hike",
+              "(6) Describe areas that are best for snowshoeing"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7d is enough for Snow Sports Requirement 7d sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 7d grounded in the official Snow Sports pamphlet.",
-            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 7d grounded in the official Snow Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name the parts of a snowshoe.",
+            "fact": "Scouts must name name the parts of a snowshoe using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+            "fact_correction": "Scouts must name name the parts of a snowshoe using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
             "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
           },
           "starting_requirement_gate": null,
@@ -4186,25 +4549,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 7 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Option A, Downhill (Alpine) Skiing",
+          "(1) Show how to wax and maintain your skis and use/maintain your release bindings",
+          "(2) Explain the American Teaching System and a basic snowskiing progression",
+          "(3) Discuss the different types of Alpine skis",
+          "(4) Demonstrate how to ride one kind of lift and explain how to ride two others",
+          "(5) On a gentle slope, demonstrate some of the beginning maneuvers learned"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding is enough for Snow Sports Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding grounded in the official Snow Sports pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Downhill (Alpine) Skiing / Cross-Country (Nordic) Skiing / Snowboarding grounded in the official Snow Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on option a, downhill (alpine) skiing.",
+        "fact": "Scouts must explain option a, downhill (alpine) skiing using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
+        "fact_correction": "Scouts must explain option a, downhill (alpine) skiing using verified procedures, field evidence, and safety standards from Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40).",
         "pamphlet_page_ref": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)"
       },
       "starting_requirement_gate": null,

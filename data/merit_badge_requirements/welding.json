@@ -32,26 +32,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Welding hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Welding prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Welding prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Welding hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Welding prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Welding prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)"
           },
           "starting_requirement_gate": null,
@@ -92,27 +103,38 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
+            ],
+            "column_headers": [
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Electrical shock",
+              "Eye injuries",
+              "Burns",
+              "Fume inhalation",
+              "Dizziness",
+              "Skin irritation",
+              "Exposure to hazardous chemicals",
+              "Including filler metals"
             ],
-            "min_rows": 4,
+            "min_rows": 8,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Welding hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Welding prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Welding prevents most field injuries.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on electrical shock.",
+            "fact": "Scouts must show electrical shock using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22).",
+            "fact_correction": "Scouts must show electrical shock using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)"
           },
           "starting_requirement_gate": null,
@@ -168,25 +190,36 @@
       "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Welding hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Welding prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Welding prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Welding hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Welding prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Welding prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)"
       },
       "starting_requirement_gate": null,
@@ -288,23 +321,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. With your counselor, discuss general safety precautions and safety data",
+              "2. Explain the importance of the SDS"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Welding Requirement 2a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your counselor, discuss general safety precautions and safety data.",
+            "fact": "Scouts must discuss with your counselor, discuss general safety precautions and safety data using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29).",
+            "fact_correction": "Scouts must discuss with your counselor, discuss general safety precautions and safety data using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)"
           },
           "starting_requirement_gate": null,
@@ -346,23 +383,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Describe the appropriate safety gear and clothing that must be worn when",
+              "2. Then, present yourself properly dressed for welding, in protective equipment"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Welding Requirement 2b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2b grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2b grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the appropriate safety gear and clothing that must be worn when.",
+            "fact": "Scouts must describe describe the appropriate safety gear and clothing that must be worn when using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29).",
+            "fact_correction": "Scouts must describe describe the appropriate safety gear and clothing that must be worn when using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)"
           },
           "starting_requirement_gate": null,
@@ -408,26 +449,32 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. The proper care and storage of welding equipment, tools",
+              "2. Protective clothing and footwear"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2c is enough for Welding Requirement 2c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the proper care and storage of welding equipment, tools.",
+            "fact": "Scouts must explain the proper care and storage of welding equipment, tools using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29).",
+            "fact_correction": "Scouts must explain the proper care and storage of welding equipment, tools using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)"
           },
           "starting_requirement_gate": null,
@@ -492,25 +539,32 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) With your counselor, discuss general safety precautions and safety data",
+          "(b) Describe the appropriate safety gear and clothing that must be worn when",
+          "(c) Explain and demonstrate the proper care and storage of welding equipment"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With your counselor, discuss general safety is enough for Welding Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of With your counselor, discuss general safety grounded in the official Welding pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of With your counselor, discuss general safety grounded in the official Welding pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your counselor, discuss general safety precautions and safety data.",
+        "fact": "Scouts must demonstrate with your counselor, discuss general safety precautions and safety data using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29).",
+        "fact_correction": "Scouts must demonstrate with your counselor, discuss general safety precautions and safety data using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29).",
         "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)"
       },
       "starting_requirement_gate": null,
@@ -599,22 +653,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Explain the terms welding, electrode, slag, and oxidation",
+          "2. Describe the welding process, how heat is generated, what kind of filler"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The terms welding, electrode, slag is enough for Welding Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The terms welding, electrode, slag grounded in the official Welding pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The terms welding, electrode, slag grounded in the official Welding pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the terms welding, electrode, slag, and oxidation.",
+        "fact": "Scouts must explain explain the terms welding, electrode, slag, and oxidation using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 32, p. 64).",
+        "fact_correction": "Scouts must explain explain the terms welding, electrode, slag, and oxidation using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 32, p. 64).",
         "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 32, p. 64)"
       },
       "starting_requirement_gate": null,
@@ -716,22 +774,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Study & Explanation Notes",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Name the different mechanical and thermal cutting methods",
+          "2. Choose one method and describe how to use the process",
+          "3. Discuss one advantage and one limitation of this process"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Name the different mechanical and thermal is enough for Welding Requirement 4 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of Name the different mechanical and thermal grounded in the official Welding pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Name the different mechanical and thermal grounded in the official Welding pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name the different mechanical and thermal cutting methods.",
+        "fact": "Scouts must describe name the different mechanical and thermal cutting methods using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 39, p. 43).",
+        "fact_correction": "Scouts must describe name the different mechanical and thermal cutting methods using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 39, p. 43).",
         "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 39, p. 43)"
       },
       "starting_requirement_gate": null,
@@ -810,26 +873,32 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 5a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Select two welding processes, and make a list of the different components",
+              "2. Discuss one advantage and one limitation for each process"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Welding Requirement 5a sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 5a grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 5a grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on select two welding processes, and make a list of the different components.",
+            "fact": "Scouts must make select two welding processes, and make a list of the different components using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69).",
+            "fact_correction": "Scouts must make select two welding processes, and make a list of the different components using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)"
           },
           "starting_requirement_gate": null,
@@ -866,23 +935,30 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5b Structured Study & Explanation Notes",
             "headers": [
-              "Req 5b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Gas regulators",
+              "Work clamps",
+              "Cables",
+              "Filler materials",
+              "Equipment settings"
             ],
-            "min_rows": 3,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Welding Requirement 5b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on gas regulators.",
+            "fact": "Scouts must explain gas regulators using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69).",
+            "fact_correction": "Scouts must explain gas regulators using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)"
           },
           "starting_requirement_gate": null,
@@ -935,25 +1011,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Select two welding processes, and make a list of the different components",
+          "(b) Choose one welding process"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Select two welding processes is enough for Welding Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Select two welding processes grounded in the official Welding pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Select two welding processes grounded in the official Welding pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on select two welding processes, and make a list of the different components.",
+        "fact": "Scouts must demonstrate select two welding processes, and make a list of the different components using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69).",
+        "fact_correction": "Scouts must demonstrate select two welding processes, and make a list of the different components using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69).",
         "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)"
       },
       "starting_requirement_gate": null,
@@ -1031,24 +1113,30 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+            "table_title": "Req 6a Field Sketch & Observation Canvas",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
+            ],
+            "column_headers": [
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Using a metal scribe or soapstone, sketch your initial onto a metal plate",
+              "2. Weld a bead on the plate following the pattern of your initial"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6a is enough for Welding Requirement 6a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using a metal scribe or soapstone, sketch your initial onto a metal plate.",
+            "fact": "Scouts must explain using a metal scribe or soapstone, sketch your initial onto a metal plate using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain using a metal scribe or soapstone, sketch your initial onto a metal plate using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -1090,23 +1178,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Study & Explanation Notes",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Cover a small plate (approximately 3\" x 3\" x 1/4\") with weld beads side by side",
+              "Pamphlet Standard & Key Facts (6b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Welding Requirement 6b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on cover a small plate (approximately 3\" x 3\" x 1/4\") with weld beads side by side.",
+            "fact": "Scouts must explain cover a small plate (approximately 3\" x 3\" x 1/4\") with weld beads side by side using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain cover a small plate (approximately 3\" x 3\" x 1/4\") with weld beads side by side using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -1148,23 +1241,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6c Structured Study & Explanation Notes",
             "headers": [
-              "Req 6c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Tack two plates together in a square groove butt joint",
+              "Pamphlet Standard & Key Facts (6c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6c is enough for Welding Requirement 6c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tack two plates together in a square groove butt joint.",
+            "fact": "Scouts must explain tack two plates together in a square groove butt joint using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain tack two plates together in a square groove butt joint using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -1206,23 +1304,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6d Structured Study & Explanation Notes",
             "headers": [
-              "Req 6d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Weld the two plates together from 6(c) on both sides",
+              "Pamphlet Standard & Key Facts (6d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6d is enough for Welding Requirement 6d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on weld the two plates together from 6(c) on both sides.",
+            "fact": "Scouts must explain weld the two plates together from 6(c) on both sides using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain weld the two plates together from 6(c) on both sides using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -1264,23 +1367,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6e Structured Study & Explanation Notes",
             "headers": [
-              "Req 6e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Tack two plates together in a T joint, have your counselor inspect it",
+              "2. Key Pamphlet Examples & Evidence (Req 6e)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6e is enough for Welding Requirement 6e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tack two plates together in a t joint, have your counselor inspect it.",
+            "fact": "Scouts must explain tack two plates together in a t joint, have your counselor inspect it using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain tack two plates together in a t joint, have your counselor inspect it using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -1322,23 +1430,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6f Structured Study & Explanation Notes",
             "headers": [
-              "Req 6f Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Tack two plates together in a lap joint, have your counselor inspect it",
+              "2. Key Pamphlet Examples & Evidence (Req 6f)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6f is enough for Welding Requirement 6f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6f grounded in the official Welding pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6f grounded in the official Welding pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tack two plates together in a lap joint, have your counselor inspect it.",
+            "fact": "Scouts must explain tack two plates together in a lap joint, have your counselor inspect it using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain tack two plates together in a lap joint, have your counselor inspect it using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -1406,23 +1519,31 @@
       "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+        "table_title": "Req 6 Field Sketch & Observation Canvas",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
+        ],
+        "column_headers": [
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(b) To do the following",
+          "(a) Using a metal scribe or soapstone, sketch your initial onto a metal plate",
+          "(b) Cover a small plate (approximately 3\" x 3\" x 1/4\") with weld beads side",
+          "(c) Tack two plates together in a square groove butt joint"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of After successfully completing requirements 1 is enough for Welding Requirement 6 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of After successfully completing requirements 1 grounded in the official Welding pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of After successfully completing requirements 1 grounded in the official Welding pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on to do the following.",
+        "fact": "Scouts must explain to do the following using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
+        "fact_correction": "Scouts must explain to do the following using verified procedures, field evidence, and safety standards from Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72).",
         "pamphlet_page_ref": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)"
       },
       "starting_requirement_gate": null,
@@ -1500,17 +1621,25 @@
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 7a Career & Pathway Exploration Card",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 36, p. 82)",
@@ -1558,17 +1687,25 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 7b Career & Pathway Exploration Card",
             "headers": [
-              "Req 7b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 36, p. 82)",
@@ -1631,18 +1768,23 @@
       "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 36, p. 82)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 7 Career & Pathway Exploration Card",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
         "min_rows": 4,
         "pre_approval_gate": false

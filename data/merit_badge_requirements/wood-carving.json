@@ -32,26 +32,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Wood Carving hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Wood Carving prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Wood Carving prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Wood Carving hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Wood Carving prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Wood Carving prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)"
           },
           "starting_requirement_gate": null,
@@ -93,20 +104,27 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 1b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Minor cuts",
+              "Scratches",
+              "Splinters"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)",
           "common_misconception_pair": {
@@ -168,25 +186,36 @@
       "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Wood Carving hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Wood Carving prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Wood Carving prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Wood Carving hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Wood Carving prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Wood Carving prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)"
       },
       "starting_requirement_gate": null,
@@ -288,23 +317,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Earn the Totin' Chip recognition",
+              "Pamphlet Standard & Key Facts (2a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Wood Carving Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Wood Carving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Wood Carving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on earn the totin' chip recognition.",
+            "fact": "Scouts must explain earn the totin' chip recognition using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55).",
+            "fact_correction": "Scouts must explain earn the totin' chip recognition using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55).",
             "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)"
           },
           "starting_requirement_gate": null,
@@ -346,23 +380,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Discuss with your counselor your understanding of the Safety Checklist for Carving",
+              "Pamphlet Standard & Key Facts (2b)",
+              "Field Application & Counselor Verification (Discuss)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Wood Carving Requirement 2b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b grounded in the official Wood Carving pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b grounded in the official Wood Carving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor your understanding of the safety checklist for carving.",
+            "fact": "Scouts must discuss discuss with your counselor your understanding of the safety checklist for carving using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55).",
+            "fact_correction": "Scouts must discuss discuss with your counselor your understanding of the safety checklist for carving using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55).",
             "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)"
           },
           "starting_requirement_gate": null,
@@ -419,25 +458,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Earn the Totin' Chip recognition",
+          "(b) Discuss with your counselor your understanding of the Safety Checklist"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Earn the Totin' Chip recognition is enough for Wood Carving Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Earn the Totin' Chip recognition grounded in the official Wood Carving pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Earn the Totin' Chip recognition grounded in the official Wood Carving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on earn the totin' chip recognition.",
+        "fact": "Scouts must demonstrate earn the totin' chip recognition using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55).",
+        "fact_correction": "Scouts must demonstrate earn the totin' chip recognition using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55).",
         "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)"
       },
       "starting_requirement_gate": null,
@@ -516,23 +561,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Study & Explanation Notes",
             "headers": [
-              "Req 3a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain to your counselor, orally or in writing, the care and use of five",
+              "2. Key Pamphlet Examples & Evidence (Req 3a)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Wood Carving Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Wood Carving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Wood Carving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor, orally or in writing, the care and use of five.",
+            "fact": "Scouts must explain explain to your counselor, orally or in writing, the care and use of five using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32).",
+            "fact_correction": "Scouts must explain explain to your counselor, orally or in writing, the care and use of five using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32).",
             "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)"
           },
           "starting_requirement_gate": null,
@@ -582,26 +632,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 3b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Tell your counselor how to care for and use several types of sharpening",
+              "2. Key Pamphlet Examples & Evidence (Req 3b)",
+              "3. Practical Explain & Safety Verification"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Wood Carving Requirement 3b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Wood Carving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Wood Carving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell your counselor how to care for and use several types of sharpening.",
+            "fact": "Scouts must explain tell your counselor how to care for and use several types of sharpening using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32).",
+            "fact_correction": "Scouts must explain tell your counselor how to care for and use several types of sharpening using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32).",
             "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)"
           },
           "starting_requirement_gate": null,
@@ -666,25 +723,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain to your counselor, orally or in writing, the care and use of five",
+          "(b) Tell your counselor how to care for and use several types of sharpening"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of To your counselor, orally is enough for Wood Carving Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of To your counselor, orally grounded in the official Wood Carving pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of To your counselor, orally grounded in the official Wood Carving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor, orally or in writing, the care and use of five.",
+        "fact": "Scouts must demonstrate explain to your counselor, orally or in writing, the care and use of five using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32).",
+        "fact_correction": "Scouts must demonstrate explain to your counselor, orally or in writing, the care and use of five using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32).",
         "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)"
       },
       "starting_requirement_gate": null,
@@ -776,23 +839,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Study & Explanation Notes",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Paring cut",
+              "Pamphlet Standard & Key Facts (4a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Wood Carving Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Wood Carving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Wood Carving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on paring cut.",
+            "fact": "Scouts must explain paring cut using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39).",
+            "fact_correction": "Scouts must explain paring cut using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39).",
             "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)"
           },
           "starting_requirement_gate": null,
@@ -834,23 +902,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Basic cut and push cut",
+              "Pamphlet Standard & Key Facts (4b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Wood Carving Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Wood Carving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Wood Carving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on basic cut and push cut.",
+            "fact": "Scouts must explain basic cut and push cut using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39).",
+            "fact_correction": "Scouts must explain basic cut and push cut using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39).",
             "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)"
           },
           "starting_requirement_gate": null,
@@ -892,23 +965,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4c Structured Study & Explanation Notes",
             "headers": [
-              "Req 4c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "V cut",
+              "Pamphlet Standard & Key Facts (4c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4c is enough for Wood Carving Requirement 4c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Wood Carving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Wood Carving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on v cut.",
+            "fact": "Scouts must explain v cut using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39).",
+            "fact_correction": "Scouts must explain v cut using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39).",
             "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)"
           },
           "starting_requirement_gate": null,
@@ -954,23 +1032,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4d Structured Study & Explanation Notes",
             "headers": [
-              "Req 4d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Stop cut or score line",
+              "Pamphlet Standard & Key Facts (4d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4d is enough for Wood Carving Requirement 4d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Wood Carving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Wood Carving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on stop cut or score line.",
+            "fact": "Scouts must explain stop cut or score line using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39).",
+            "fact_correction": "Scouts must explain stop cut or score line using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39).",
             "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)"
           },
           "starting_requirement_gate": null,
@@ -1039,25 +1122,33 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Paring cut",
+          "(b) Basic cut and push cut",
+          "(c) V cut",
+          "(d) Stop cut or score line Paring cut Basic cut and push cut V cut Stop cut"
         ],
         "min_rows": 4,
-        "pre_approval_gate": false
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Using a piece of scrap wood is enough for Wood Carving Requirement 4 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Using a piece of scrap wood grounded in the official Wood Carving pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Using a piece of scrap wood grounded in the official Wood Carving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on paring cut.",
+        "fact": "Scouts must show paring cut using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39).",
+        "fact_correction": "Scouts must show paring cut using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39).",
         "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)"
       },
       "starting_requirement_gate": null,
@@ -1082,7 +1173,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Cut Awayfrom Small: This cut is awayfrom you, taking small pieces of wood.",
+        "Cut Away from Small: This cut is away from you, taking small pieces of wood.",
         "Placing Theopposite Thumb: By placing theopposite thumb on the back of the blade, you arecreating a lever and making it easier to remove thewood from your project.",
         "Stop Cut Prevent: The stop cut helps prevent overcutting by giving you a place toend the cut.",
         "Stop Cut Degrees: The stop cut is usually 90 degrees from the maincut."
@@ -1150,22 +1241,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Tell why different woods are used for different projects",
+          "2. Explain why you chose the type of wood you did for your projects"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Tell why different woods is enough for Wood Carving Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Tell why different woods grounded in the official Wood Carving pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Tell why different woods grounded in the official Wood Carving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell why different woods are used for different projects.",
+        "fact": "Scouts must explain tell why different woods are used for different projects using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 29, p. 43).",
+        "fact_correction": "Scouts must explain tell why different woods are used for different projects using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 29, p. 43).",
         "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 29, p. 43)"
       },
       "starting_requirement_gate": null,
@@ -1270,22 +1365,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Plan your own or select a project from the Wood Carving merit badge",
+          "2. Key Pamphlet Examples & Evidence (Req 6)",
+          "3. Practical Plan & Safety Verification"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Plan your own or select is enough for Wood Carving Requirement 6 sign-off.",
-        "fact": "Each Scout must actively plan the specific principles and real-world steps of Plan your own or select grounded in the official Wood Carving pamphlet.",
-        "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Plan your own or select grounded in the official Wood Carving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on plan your own or select a project from the wood carving merit badge.",
+        "fact": "Scouts must plan plan your own or select a project from the wood carving merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 42, p. 44).",
+        "fact_correction": "Scouts must plan plan your own or select a project from the wood carving merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 42, p. 44).",
         "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 42, p. 44)"
       },
       "starting_requirement_gate": null,
@@ -1382,22 +1482,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Complete a simple low-relief OR a chip carving project",
+          "Pamphlet Standard & Key Facts (7)",
+          "Field Application & Counselor Verification (Complete)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Complete a simple low-relief is enough for Wood Carving Requirement 7 sign-off.",
-        "fact": "Each Scout must actively complete the specific principles and real-world steps of Complete a simple low-relief grounded in the official Wood Carving pamphlet.",
-        "fact_correction": "Each Scout must actively complete the specific principles and real-world steps of Complete a simple low-relief grounded in the official Wood Carving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on complete a simple low-relief or a chip carving project.",
+        "fact": "Scouts must complete complete a simple low-relief or a chip carving project using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 55, p. 56).",
+        "fact_correction": "Scouts must complete complete a simple low-relief or a chip carving project using verified procedures, field evidence, and safety standards from Official Scouting America Wood Carving Merit Badge Pamphlet (p. 55, p. 56).",
         "pamphlet_page_ref": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 55, p. 56)"
       },
       "starting_requirement_gate": null,
@@ -1423,7 +1528,7 @@
       ],
       "pamphlet_excerpts": [
         "Few Tools Areneeded: Very few tools areneeded to create beautiful designs, so almost anyone cancreate a work of art after learning the basics. with your owndesigns.",
-        "Sureto Firmly Securethe: Be sureto firmly securethe staff with avise clamp beforeyou start to work.",
+        "Sureto Firmly Securethe: Be sureto firmly securethe staff with avise clamp before you start to work.",
         "Intricate Designs Chip: The intricate designs of chip carving are created with a combination of simple shapes like triangles, diamonds, and squares.",
         "Triangle Formed Cuts: A triangle is formed with three cuts madediagonally toward a central point, which creates an insideout pyramid."
       ],

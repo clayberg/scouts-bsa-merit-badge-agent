@@ -4,12 +4,12 @@ This guide explains how system administrators and curriculum maintainers unlock 
 
 While the standard Counselor Workbench interface (**[User Guide (`docs/USER_GUIDE.md`)](USER_GUIDE.md)**) and the built-in Model Context Protocol server (**[MCP Server Integration Guide (`docs/MCP_SERVER_INTEGRATION_GUIDE.md`)](MCP_SERVER_INTEGRATION_GUIDE.md)**) stay focused on preparing classes, applying PowerPoint templates, managing multi-badge deck workspaces, presenting slides, and tracking Blue Card requirements for Scouts, the **Super-User Admin Console** gives authorized maintainers a dedicated control center to:
 
-- Browse and curate the **4,124 built-in visual assets** (**2,425 100%-Vision-verified BSA Pamphlet figures**, **1,401 pre-generated Nano Banana requirement hero & topic illustrations**, **149 badge emblems**, and **149 pamphlet covers**) across all **149 Merit Badges** (`143` Active Official, `5` Test Lab Pilots, and `1` Discontinued Historical).
+- Browse and curate the **4,124 built-in visual assets** (**2,425 100%-Vision-verified BSA Pamphlet figures**, **1,401 pre-generated Nano Banana requirement hero & topic illustrations**, **149 badge emblems**, and **149 pamphlet covers**) across all **149 Merit Badges** (`143` Active Official Merit Badges including *Sewing and Needlework*, `5` Scouting America Test Lab Pilots: *Auctioneering*, *Dance*, *Physics*, *Psychology*, and *Sewing and Needlework*, and `1` Discontinued Historical badge: *Citizenship in Society* annotated with a red `🚫 Discontinued` indicator in the Patch Gallery).
 - Edit image titles, Vision-verified captions, and requirement mappings in place, with automatic synchronization to both the per-badge catalog (`assets/badge_image_catalog/<slug>/catalog.json`) and the master pamphlet image catalog (`data/pamphlet_image_catalog.json`).
 - Promote a preferred `Pamphlet Alternate #1` or `Pamphlet Alternate #2` image to become the default **Primary** visual for a requirement in one click.
 - Re-run multimodal **Gemini 2.5 Flash Vision** captioning on individual catalog figures, replace a built-in catalog asset on disk (`📤 Replace / Upload Built-In Asset`, quantized to an 8-bit PNG with an automatic `.bak.<timestamp>` backup), or regenerate a Nano Banana illustration in place (`🍌 Regenerate AI Image In-Place`).
 - Monitor **Zero-PII Aggregated Telemetry**, including deck generation counts across **24h / 7d / All-Time** windows, tier and depth breakdowns, cache hit rates, FinOps Spend vs. Estimated Saved (`$ USD`), per-stage `p50` / `p95` / `p99` build latency with 5-bucket histograms, counselor star ratings, and the **Anonymous Visual Swap & Regeneration Hotspots** table (with **`🔍 Open in Studio`** jump links).
-- Run **System Diagnostics & 144-Badge Asset Health** audits across a 5-column sticky matrix (`Cover`, `Emblem`, `Pamphlet Figs`, `Nano Heroes`, and `PDF & Index` with true per-badge official requirement counts like `15 Reqs` for First Aid and `12 Reqs` for Weather), inspect the **Prompt SHA-256 Manifest & Guardrail Audit Log**, and execute **1-Click Maintenance Actions** (`🧹 Purge Temp Web/AI Cache`, `🖼️ Verify & Repair Covers/Emblems`, `🔄 Reset All Circuit Breakers to CLOSED`, and `📥 Download Zero-PII Snapshot JSON`).
+- Run **System Diagnostics & 149-Badge Asset Health** audits across a 5-column sticky matrix (`Cover`, `Emblem`, `Pamphlet Figs`, `Nano Heroes`, and `PDF & Index` with true per-badge official requirement counts like `15 Reqs` for First Aid and `12 Reqs` for Weather), inspect the **Prompt SHA-256 Manifest & Guardrail Audit Log**, and execute **1-Click Maintenance Actions** (`🧹 Purge Temp Web/AI Cache`, `🖼️ Verify & Repair Covers/Emblems`, `🔄 Reset All Circuit Breakers to CLOSED`, and `📥 Download Zero-PII Snapshot JSON`).
 
 ---
 
@@ -17,10 +17,10 @@ While the standard Counselor Workbench interface (**[User Guide (`docs/USER_GUID
 
 1. [Zero-PII Architecture & Security Boundary](#1-zero-pii-architecture--security-boundary)
 2. [Accessing & Unlocking the Super-User Admin Console](#2-accessing--unlocking-the-super-user-admin-console)
-3. [Tab 1: Cached Image & Caption Studio (144-Badge Catalog Manager)](#3-tab-1-cached-image--caption-studio-144-badge-catalog-manager)
+3. [Tab 1: Cached Image & Caption Studio (149-Badge Catalog Manager)](#3-tab-1-cached-image--caption-studio-149-badge-catalog-manager)
 4. [Inline Stage-Popover Shortcut (`Admin: Edit Caption / Promote Default in Studio`)](#4-inline-stage-popover-shortcut-admin-edit-caption--promote-default-in-studio)
 5. [Tab 2: Zero-PII Usage, Latency & Visual Swap Telemetry](#5-tab-2-zero-pii-usage-latency--visual-swap-telemetry)
-6. [Tab 3: System Diagnostics & 144-Badge Asset Health](#6-tab-3-system-diagnostics--144-badge-asset-health)
+6. [Tab 3: System Diagnostics & 149-Badge Asset Health](#6-tab-3-system-diagnostics--149-badge-asset-health)
 7. [Environment Variables & Deployment Configuration](#7-environment-variables--deployment-configuration)
 8. [Admin REST API Reference (`/api/v1/admin/*` & `/api/admin/*`)](#8-admin-rest-api-reference-apiv1admin--apiadmin)
 
@@ -30,18 +30,21 @@ While the standard Counselor Workbench interface (**[User Guide (`docs/USER_GUID
 
 Volunteer Merit Badge Counselors enter personal contact details (name, troop and council affiliation, city/state or ZIP code, email address, and phone number) so those details appear on their local Cover Slide (Slide 1), Parent Welcome Letter, and Blue Card Sign-Off Sheet.
 
-To protect counselor and youth privacy under Scouting America Youth Protection rules, the Admin Console telemetry pipeline enforces a strict architectural boundary in `src/observability/telemetry_store.py` (`ZeroPiiTelemetryStore`):
+To protect counselor and youth privacy under Scouting America Youth Protection rules, the Admin Console telemetry pipeline enforces a strict architectural boundary in `src/observability/telemetry_store.py` (`ZeroPiiTelemetryStore`), `src/observability/logging_setup.py`, and `src/agents/guardrails.py`:
 
 ```mermaid
 flowchart LR
-    Req["Counselor Action<br/>(Deck Build, Image Swap,<br/>or Star Rating)"] --> Scrubber["scrub_pii_dict() Gate<br/>(Drops Blocked Keys &<br/>Redacts Regex PII)"]
+    Req["Counselor Action<br/>(Deck Build, Image Swap,<br/>or Star Rating)"] --> Scrubber["scrub_pii_dict() Gate<br/>(Drops Blocked Keys &<br/>3-Layer Phone/PII Filter)"]
     Scrubber --> SQLite["ZeroPiiTelemetryStore<br/>(scouts_bsa_telemetry.db<br/>SQLite WAL)"]
     SQLite --> AdminAPI["GET /api/v1/admin/telemetry/summary<br/>(Aggregated Counters &<br/>Percentiles Only)"]
     AdminAPI --> Dashboard["Admin Console Tab 2<br/>(Usage, Latency &<br/>Visual Swap Hotspots)"]
 ```
 
 1. **Key-Level Blocklist (`_PII_KEY_PATTERNS`)**: Before any event is written to `scouts_bsa_telemetry.db`, `scrub_pii_dict()` recursively strips any dictionary key matching `counselor_name`, `email`, `phone`, `troop`, `council`, `location`, `zip`, `address`, `ip_address`, `client_ip`, `user_agent`, `scout_name`, or `roster`.
-2. **Value-Level Regex Redaction**: Every remaining string field is passed through `scrub_pii_before_sink()` (`src/observability/logging_setup.py`) plus email, phone, and SSN regular expressions so accidental free-text PII is replaced with `[REDACTED]` before disk persistence.
+2. **Value-Level Regex Redaction & 3-Layer Context-Aware Phone Filter (`v2.2`)**: Every remaining string field is passed through `scrub_pii_before_sink()` (`src/observability/logging_setup.py`) and `src/agents/guardrails.py`. In addition to email and SSN regex redaction, `v2.2` applies a **3-Layer Context-Aware Phone Redaction Filter**:
+   - **Layer 1 (URL & Asset Path Exclusion)**: Skips 10-digit numeric identifiers inside `http://`, `https://`, `vimeo.com/`, `scouting.org/`, and `.pdf`/`.png` filenames so all 92 official Scouting America Vimeo educational video IDs and PDF worksheet links across 18 badges remain intact.
+   - **Layer 2 (NANPA Toll-Free & Emergency Hotline Allowlist)**: Preserves standard NANPA toll-free area codes (`800`, `888`, `877`, `866`, `855`, `844`, `833`) and canonical emergency and institutional hotlines (`1-800-222-1222` America's Poison Control Centers on *First Aid* Slide 3, `911`, `988` Suicide & Crisis Lifeline, `800-323-0736` BSA Scout Shop, and `202-633-1000` Smithsonian switchboard).
+   - **Layer 3 (`±55`-Character Institutional vs. Personal Hotword Window)**: Evaluates surrounding context tokens within a `±55`-character window (`poison control`, `hotline`, `helpline`, `switchboard` vs. `counselor`, `parent`, `guardian`, `scoutmaster`, `cell`, `mobile`, `call me`, `text me`), guaranteeing `100%` redaction (`[REDACTED_PHONE]`) on personal youth, parent, and counselor phone numbers while preventing false-positive curriculum mutilation.
 3. **Schema-Level Isolation**: The three SQLite WAL tables in `scouts_bsa_telemetry.db` (`telemetry_deck_runs`, `telemetry_image_swaps`, and `telemetry_stage_latencies`) contain columns only for badge names, requirement identifiers, polish tiers, depth modes, millisecond durations, token counts, boolean cache-hit flags, and catalog image identifiers. No columns exist for user identifiers, troop numbers, locations, or network addresses.
 
 ---
@@ -68,16 +71,16 @@ To end an administrative session at any time, click **`🔒 Lock Admin Session`*
 
 ---
 
-## 3. Tab 1: Cached Image & Caption Studio (144-Badge Catalog Manager)
+## 3. Tab 1: Cached Image & Caption Studio (149-Badge Catalog Manager)
 
 ![Super-User Admin Console: Cached Image & Caption Studio and On-Stage Shortcut](images/admin-console-catalog-studio.png)
 
-**Tab 1 (`🖼️ 1. Cached Image & Caption Studio`)** lets you inspect, edit, promote, re-caption, or discard any cached visual asset across all 144 Merit Badges.
+**Tab 1 (`🖼️ 1. Cached Image & Caption Studio`)** lets you inspect, edit, promote, re-caption, or discard any cached visual asset across all 149 Merit Badges (`143` Active Official, `5` Test Lab Pilots, and `1` Discontinued Historical).
 
 ### Filtering & Inspecting Badge Visuals
 
 At the top of Tab 1, use the 5-control filter toolbar to narrow the catalog grid:
-- **1. Merit Badge (All 144)**: Select any of the 144 official Merit Badges from the dropdown list (or click **🎯 Sync with Active Workbench Badge**).
+- **1. Merit Badge (All 149)**: Select any of the 149 Merit Badges from the dropdown list (or click **🎯 Sync with Active Workbench Badge**).
 - **2. Requirement Filter**: Filter to a specific requirement number (such as `1`, `2a`, or `6b`) or view **All Requirements**.
 - **3. Visual Source**: Filter between **All Sources**, **📐 Official Pamphlet Figure (`OFFICIAL_PAMPHLET_FIGURE`)**, **🍌 Nano Banana Hero (`NANO_BANANA_HERO`)**, **🍌 Custom Nano Banana AI (`NANO_BANANA_AI`)**, **🌐 Web Image Search (`WEB_IMAGE_SEARCH`)**, **📁 Uploaded Image (`USER_UPLOAD`)**, and **⚜️ Official Emblem / Cover (`OFFICIAL_BADGE_ASSET`)**.
 - **4. Visual Role**: Filter between **All Roles (Primary + Alternates)**, **⭐ Primary Default Visuals**, and **🔄 Requirement Alternates**.
@@ -134,37 +137,37 @@ Horizontal bar chart and 5-bucket mini-histograms reporting `p50`, `p95`, and `p
 
 ---
 
-## 6. Tab 3: System Diagnostics & 144-Badge Asset Health
+## 6. Tab 3: System Diagnostics & 149-Badge Asset Health
 
-![Super-User Admin Console: System Diagnostics and 144-Badge Asset Health](images/admin-console-system-diagnostics-tab3.png)
+![Super-User Admin Console: System Diagnostics and 149-Badge Asset Health](images/admin-console-system-diagnostics-tab3.png)
 
-**Tab 3 (`🩺 3. System Diagnostics & 144-Badge Asset Health`)** provides live resilience monitoring, 1-click maintenance actions, prompt SHA-256 verification, and a searchable asset audit across all 144 Merit Badges (`GET /api/v1/admin/diagnostics/assets`).
+**Tab 3 (`🩺 3. System Diagnostics & 149-Badge Asset Health`)** provides live resilience monitoring, 1-click maintenance actions, prompt SHA-256 verification, and a searchable asset audit across all 149 Merit Badges (`GET /api/v1/admin/diagnostics/assets`).
 
 ### 1. Downstream Resilience Circuit Breakers & 1-Click Maintenance Actions
 
 - Displays the real-time state (`CLOSED`, `OPEN`, `HALF_OPEN`), failure count vs. threshold, total successes, and total short-circuits for each downstream circuit breaker (Vertex AI Gemini/Imagen, Scouting.org Pamphlet Scraper, and Google Search Web Grounding).
 - **1-Click Maintenance Actions Toolbar**:
-  - **`🧹 Purge Temporary Web/AI Caches`** (`POST /api/v1/admin/maintenance/purge-temp-cache`): Purges temporary web-search staging thumbnails while preserving all 3,917 built-in catalog visuals.
-  - **`🔧 Verify & Repair 144 Covers & Emblems`** (`POST /api/v1/admin/maintenance/repair-covers`): Verifies and repairs all 144 pamphlet covers (`assets/pamphlet_covers/`) and 144 badge emblems (`assets/badge_emblems/`).
+  - **`🧹 Purge Temporary Web/AI Caches`** (`POST /api/v1/admin/maintenance/purge-temp-cache`): Purges temporary web-search staging thumbnails while preserving all 4,124 built-in catalog visuals.
+  - **`🔧 Verify & Repair 149 Covers & Emblems`** (`POST /api/v1/admin/maintenance/repair-covers`): Verifies and repairs all 149 pamphlet covers (`assets/pamphlet_covers/`) and 149 badge emblems (`assets/badge_emblems/`).
   - **`🏛️ Refresh 100 U.S. Senators Cache`** (`POST /api/v1/admin/senators/refresh`): Triggers a forced refresh of the 100 U.S. Senators grounding cache (`24h` TTL) across all 50 states.
   - **`📥 Download Zero-PII Telemetry Snapshot (.JSON)`** (`GET /api/v1/admin/maintenance/snapshot`): Downloads a portable JSON snapshot of asset health, prompt SHA-256 hashes, and aggregated Zero-PII telemetry.
   - **`🔄 Reset All Circuit Breakers to CLOSED`** (`POST /api/v1/admin/circuit-breakers/reset`, located on the Downstream Resilience Circuit Breakers header): Resets all circuit breakers to `CLOSED` and reloads in-memory caches.
 
-### 2. 144-Badge Visual Asset Health Matrix
+### 2. 149-Badge Visual Asset Health Matrix
 
-Below the circuit breaker cards sits a searchable table (`max-height: 460px` with a sticky `<thead>`) auditing all **144 official Scouts BSA Merit Badges**:
-- Type any badge name or category into **🔎 Filter 144 badges...** to filter the matrix in real time.
+Below the circuit breaker cards sits a searchable table (`max-height: 460px` with a sticky `<thead>`) auditing all **149 Scouts BSA Merit Badges** (`143` Active Official, `5` Test Lab Pilots, and `1` Discontinued Historical):
+- Type any badge name or category into **🔎 Filter 149 badges...** to filter the matrix in real time.
 - For each badge, the matrix reports 5 health columns:
-  - **Cover (`assets/pamphlet_covers/`)**: `✅` Present (`144/144`)
-  - **Emblem (`assets/badge_emblems/`)**: `✅` Present (`144/144` authentic `400x400` Scout Shop emblems verified in `assets/badge_emblems/scoutshop_emblems_manifest.json`)
-  - **Pamphlet Figs (`assets/pamphlet_images/`)**: Count of active Vision-verified primary and alternate figures (`2,323` manifest figures / `2,362` total indexed figures in the live header pill, e.g. `17 figs`)
-  - **Nano Heroes (`assets/ai_illustrations/`)**: Count of pre-bundled requirement hero illustrations (`1,156` requirement heroes in the live header pill / `1,306` total Nano Banana PNGs on disk, e.g. `17 heroes`)
-  - **PDF & Index (`data/official_requirements_cache.json` + `data/pamphlet_Requirement_Index.json`)**: `✅` Indexed (`144/144`) with the badge's official top-level requirement count (e.g. `15 Reqs` for First Aid, `12 Reqs` for Weather)
-- Click **`🖼️ Inspect Visuals`** on any row to jump directly to **Tab 1 (`Cached Image & Caption Studio`)** with that Merit Badge selected in the **Merit Badge (All 144)** dropdown and scrolled into view.
+  - **Cover (`assets/pamphlet_covers/`)**: `✅` Present (`149/149`)
+  - **Emblem (`assets/badge_emblems/`)**: `✅` Present (`149/149` authentic `400x400` Scout Shop emblems verified in `assets/badge_emblems/scoutshop_emblems_manifest.json`)
+  - **Pamphlet Figs (`assets/pamphlet_images/`)**: Count of active Vision-verified primary and alternate figures (`2,425` active Vision-verified figures across 149 badges, e.g. `17 figs`)
+  - **Nano Heroes (`assets/ai_illustrations/`)**: Count of pre-bundled requirement hero and topic illustrations (`1,401` total Nano Banana PNGs on disk across 149 badges, e.g. `17 heroes`)
+  - **PDF & Index (`data/official_requirements_cache.json` + `data/pamphlet_Requirement_Index.json`)**: `✅` Indexed (`149/149`) with the badge's official top-level requirement count (e.g. `15 Reqs` for First Aid, `12 Reqs` for Weather)
+- Click **`🖼️ Inspect Visuals`** on any row to jump directly to **Tab 1 (`Cached Image & Caption Studio`)** with that Merit Badge selected in the **Merit Badge (All 149)** dropdown and scrolled into view.
 
 ### 3. Prompt SHA-256 Manifest & Guardrail Audit Log
 
-Below the 144-Badge Health Matrix sit two side-by-side scrolling verification tables with sticky column headers:
+Below the 149-Badge Health Matrix sit two side-by-side scrolling verification tables with sticky column headers:
 - **Prompt SHA-256 Manifest (`prompts/manifest.json`)**: Lists all 6 versioned system prompts (`coordinator_v2`, `planner_v2`, `curriculum_v2`, `beautifier_v2`, `reviewer_v2`, `researcher_v2`), their version numbers, live SHA-256 hashes on disk, and `✅ Verified` integrity status.
 - **Zero-PII Guardrail & Security Audit Log (`Zero-PII`)**: Displays recent `compliance_audit` events (`ADMIN_AUTH_SUCCESS`, `MODEL_ARMOR_PASS`, `YPT_CHECK_PASS`) with sticky `Timestamp (UTC)`, `Event / Guardrail`, `Status`, and `Redacted Detail` column headers.
 
@@ -184,7 +187,7 @@ Configure the following environment variables in `.env` (for local runs) or in y
 
 ## 8. Admin REST API Reference (`/api/v1/admin/*` & `/api/admin/*`)
 
-All administrative endpoints are defined in `src/server.py` and exported in `docs/openapi.yaml` (part of the `124` total OpenAPI 3.1 paths). Both `/api/v1/admin/*` and `/api/admin/*` route aliases are supported:
+All administrative endpoints are defined in `src/server.py` and exported in `docs/openapi.yaml` (part of the `141` total OpenAPI 3.1 paths). Both `/api/v1/admin/*` and `/api/admin/*` route aliases are supported:
 
 | Method & Path | Request Payload / Query Params | Response Summary |
 | :--- | :--- | :--- |
@@ -200,9 +203,9 @@ All administrative endpoints are defined in `src/server.py` and exported in `doc
 | `GET /api/v1/admin/telemetry/summary` (`GET /api/admin/telemetry/summary`) | None | Returns aggregated zero-PII counters (`24h`/`7d`/`All-Time`), Honest Dual Latency (`first_status_event_ms` vs. `true_first_content_token_ms`), `p50`/`p95`/`p99` latencies with 5-bucket histograms, 5% online audit sampler summary, FinOps spend vs. saved, top badges, and visual swap hotspots. |
 | `GET /api/v1/admin/telemetry/online-audit-samples` | Query: `limit` *(optional, default 25)* | Returns summary statistics and recent zero-PII trace audit samples from the 5% `OnlineProductionAuditSampler`. |
 | `POST /api/v1/admin/telemetry/online-audit-sample` | `{"badge_name": str, "force_sample": bool, ...}` | Evaluates and records a production trace sample (`Recall@3`, SHA-256 hash lock, AABB overlaps, dual TTFT, FinOps ceiling, PII scrub check). |
-| `GET /api/v1/admin/diagnostics/assets` (`GET /api/admin/diagnostics/assets`) | None | Returns the 144-badge 5-column asset health matrix (`Cover`, `Emblem`, `Pamphlet Figs`, `Nano Heroes`, `PDF & Index` with true requirement counts), prompt SHA-256 manifest, guardrail audit log, and circuit breaker states. |
+| `GET /api/v1/admin/diagnostics/assets` (`GET /api/admin/diagnostics/assets`) | None | Returns the 149-badge 5-column asset health matrix (`Cover`, `Emblem`, `Pamphlet Figs`, `Nano Heroes`, `PDF & Index` with true requirement counts), prompt SHA-256 manifest, guardrail audit log, and circuit breaker states. |
 | `POST /api/v1/admin/senators/refresh` (`POST /api/admin/senators/refresh`) | `{"state_code": str}` *(optional)* | Triggers a forced refresh of the 100 U.S. Senators grounding cache (`24h` TTL). |
-| `POST /api/v1/admin/maintenance/purge-temp-cache` (`POST /api/admin/maintenance/purge-temp-cache`) | None | Purges temporary web-search staging thumbnails while preserving all 3,917 built-in catalog visuals. |
-| `POST /api/v1/admin/maintenance/repair-covers` (`POST /api/admin/maintenance/repair-covers`) | None | Verifies and repairs all 144 Merit Badge pamphlet covers and 144 badge emblems on disk. |
+| `POST /api/v1/admin/maintenance/purge-temp-cache` (`POST /api/admin/maintenance/purge-temp-cache`) | None | Purges temporary web-search staging thumbnails while preserving all 4,124 built-in catalog visuals. |
+| `POST /api/v1/admin/maintenance/repair-covers` (`POST /api/admin/maintenance/repair-covers`) | None | Verifies and repairs all 149 Merit Badge pamphlet covers and 149 badge emblems on disk. |
 | `GET /api/v1/admin/maintenance/snapshot` (`GET /api/admin/maintenance/snapshot`) | None | Downloads a portable Zero-PII JSON snapshot of catalog diagnostics, prompt manifest hashes, and telemetry. |
 | `POST /api/v1/admin/circuit-breakers/reset` (`POST /api/admin/circuit-breakers/reset`) | None | Resets all downstream circuit breakers to `CLOSED` and reloads in-memory caches. |

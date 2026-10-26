@@ -32,26 +32,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Climbing hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Climbing hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Climbing prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Climbing prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)"
           },
           "starting_requirement_gate": null,
@@ -112,19 +123,31 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
+            ],
+            "column_headers": [
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Heat",
+              "Cold reactions",
+              "Dehydration",
+              "Stopped breathing",
+              "Sprains",
+              "Abrasions",
+              "Fractures",
+              "Rope burns"
             ],
-            "min_rows": 4,
+            "min_rows": 8,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)",
@@ -173,20 +196,27 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 1c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Identify the conditions that must exist before performing CPR on a person",
+              "Pamphlet Standard & Key Facts (1c)",
+              "Field Application & Counselor Verification (Identify)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)",
           "common_misconception_pair": {
@@ -272,25 +302,36 @@
       "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Climbing hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Climbing hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Climbing prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Climbing prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)"
       },
       "starting_requirement_gate": null,
@@ -402,22 +443,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Learn the Leave No Trace Seven Principles and the Outdoor Code and explain what they mean",
+          "Pamphlet Standard & Key Facts (2)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Leave No Trace & Outdoor Ethics is enough for Climbing Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Climbing pamphlet.",
+        "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+        "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 92)"
       },
       "starting_requirement_gate": null,
@@ -442,9 +488,9 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Remember Share Climbing: When planning, remember the following: • \u0007Share the climbing/rappelling plan and an alternatewith a parent or guardian and the unit committee.",
+        "Remember Share Climbing: When planning, remember the following: • \u0007Share the climbing/rappelling plan and an alternate with a parent or guardian and the unit committee.",
         "Suggested Least Leaders: It is suggested that at least one of the adult leaders has anelectronic means of communication in case of anemergency.",
-        "Shouldbe Forced Orpressured: No one shouldbe forced orpressured intodoing somethingwith which heor she is notcomfortable. 7.",
+        "Shouldbe Forced Orpressured: No one shouldbe forced orpressured intodoing something with which heor she is notcomfortable. 7.",
         "Buddy System Tomonitor: Use the buddy system tomonitor concerns such as dehydration, hypothermia, andan unusually high degree of fear or apprehension."
       ],
       "step_by_step_procedure": [
@@ -522,22 +568,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Present yourself properly dressed for belaying, climbing, and rappelling",
+          "2. Explain why you are wearing each piece of gear and discuss qualities of easy"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Present yourself properly dressed for belaying is enough for Climbing Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Present yourself properly dressed for belaying grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Present yourself properly dressed for belaying grounded in the official Climbing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on present yourself properly dressed for belaying, climbing, and rappelling.",
+        "fact": "Scouts must explain present yourself properly dressed for belaying, climbing, and rappelling using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 49, p. 90).",
+        "fact_correction": "Scouts must explain present yourself properly dressed for belaying, climbing, and rappelling using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 49, p. 90).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 49, p. 90)"
       },
       "starting_requirement_gate": null,
@@ -564,7 +614,7 @@
       "pamphlet_excerpts": [
         "Webbing Designed Climbing: Webbing designed for climbing is available in avariety of sizes, lengths, and materials such asnylon, Spectra, and Dyneema.",
         "Tubularwebbing Form: Tubularwebbing (usually 1\") is used to form tied-seatharnesses; for anchors used by belayers andrappellers; and for other uses in climbing, rappelling.",
-        "Piece Webbingcan Tied: A piece of webbingcan be tied into a loop known as a runnerwith a water knot.",
+        "Piece Webbingcan Tied: A piece of webbingcan be tied into a loop known as a runner with a water knot.",
         "Webbing Purchasedas Runner: Webbing can be purchasedas a runner or sling and is pre-sewn by the Belayers use tubular webbing tomanufacturer."
       ],
       "step_by_step_procedure": [
@@ -629,26 +679,32 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Explain how the difficulty of climbs is classified",
+              "2. Apply classifications to the rock faces or walls where you will demonstrate"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Climbing Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how the difficulty of climbs is classified.",
+            "fact": "Scouts must explain explain how the difficulty of climbs is classified using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36).",
+            "fact_correction": "Scouts must explain explain how the difficulty of climbs is classified using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)"
           },
           "starting_requirement_gate": null,
@@ -690,23 +746,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "top-rope climbing, lead climbing, and bouldering",
+              "Pamphlet Standard & Key Facts (4b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Climbing Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on top-rope climbing, lead climbing, and bouldering.",
+            "fact": "Scouts must explain top-rope climbing, lead climbing, and bouldering using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36).",
+            "fact_correction": "Scouts must explain top-rope climbing, lead climbing, and bouldering using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)"
           },
           "starting_requirement_gate": null,
@@ -743,23 +804,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4c Structured Study & Explanation Notes",
             "headers": [
-              "Req 4c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Evaluate the safety of a particular climbing area",
+              "2. Consider weather, visibility, the condition of the climbing surface, and any"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Climbing hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on evaluate the safety of a particular climbing area.",
+            "fact": "Scouts must explain evaluate the safety of a particular climbing area using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36).",
+            "fact_correction": "Scouts must explain evaluate the safety of a particular climbing area using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)"
           },
           "starting_requirement_gate": null,
@@ -796,23 +861,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4d Structured Study & Explanation Notes",
             "headers": [
-              "Req 4d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Determine how to summon aid to the climbing area in case of an emergency",
+              "2. Discuss what medical training is needed for your group when climbing"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4d is enough for Climbing Requirement 4d sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4d grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4d grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on determine how to summon aid to the climbing area in case of an emergency.",
+            "fact": "Scouts must discuss determine how to summon aid to the climbing area in case of an emergency using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36).",
+            "fact_correction": "Scouts must discuss determine how to summon aid to the climbing area in case of an emergency using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)"
           },
           "starting_requirement_gate": null,
@@ -869,25 +938,33 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain how the difficulty of climbs is classified, and apply classifications",
+          "(b) Explain the following: top-rope climbing, lead climbing, and bouldering",
+          "(c) Evaluate the safety of a particular climbing area",
+          "(d) Determine how to summon aid to the climbing area in case of an emergency"
         ],
         "min_rows": 4,
-        "pre_approval_gate": false
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Climbing hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Climbing prevents most field injuries.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how the difficulty of climbs is classified, and apply classifications.",
+        "fact": "Scouts must explain explain how the difficulty of climbs is classified, and apply classifications using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36).",
+        "fact_correction": "Scouts must explain explain how the difficulty of climbs is classified, and apply classifications using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)"
       },
       "starting_requirement_gate": null,
@@ -912,9 +989,9 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Remember Share Climbing: When planning, remember the following: • \u0007Share the climbing/rappelling plan and an alternatewith a parent or guardian and the unit committee.",
+        "Remember Share Climbing: When planning, remember the following: • \u0007Share the climbing/rappelling plan and an alternate with a parent or guardian and the unit committee.",
         "Suggested Least Leaders: It is suggested that at least one of the adult leaders has anelectronic means of communication in case of anemergency.",
-        "Shouldbe Forced Orpressured: No one shouldbe forced orpressured intodoing somethingwith which heor she is notcomfortable. 7.",
+        "Shouldbe Forced Orpressured: No one shouldbe forced orpressured intodoing something with which heor she is notcomfortable. 7.",
         "Buddy System Tomonitor: Use the buddy system tomonitor concerns such as dehydration, hypothermia, andan unusually high degree of fear or apprehension."
       ],
       "step_by_step_procedure": [
@@ -966,23 +1043,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5a Structured Study & Explanation Notes",
             "headers": [
-              "Req 5a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Climbers",
+              "Pamphlet Standard & Key Facts (5a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Climbing Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on climbers.",
+            "fact": "Scouts must explain climbers using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
+            "fact_correction": "Scouts must explain climbers using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
@@ -1019,23 +1101,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5b Structured Study & Explanation Notes",
             "headers": [
-              "Req 5b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Rappellers",
+              "Pamphlet Standard & Key Facts (5b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Climbing Requirement 5b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on rappellers.",
+            "fact": "Scouts must explain rappellers using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
+            "fact_correction": "Scouts must explain rappellers using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
@@ -1081,23 +1168,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5c Structured Study & Explanation Notes",
             "headers": [
-              "Req 5c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Belayers",
+              "Pamphlet Standard & Key Facts (5c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5c is enough for Climbing Requirement 5c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on belayers.",
+            "fact": "Scouts must explain belayers using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
+            "fact_correction": "Scouts must explain belayers using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
@@ -1139,23 +1231,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5d Structured Study & Explanation Notes",
             "headers": [
-              "Req 5d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Boulderers and their spotters",
+              "Pamphlet Standard & Key Facts (5d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5d is enough for Climbing Requirement 5d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on boulderers and their spotters.",
+            "fact": "Scouts must explain boulderers and their spotters using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
+            "fact_correction": "Scouts must explain boulderers and their spotters using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
@@ -1224,25 +1321,33 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Climbers",
+          "(b) Rappellers",
+          "(c) Belayers",
+          "(d) Boulderers and their spotters Climbers Rappellers Belayers Boulderers"
         ],
         "min_rows": 4,
-        "pre_approval_gate": false
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Verbal signals is enough for Climbing Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Verbal signals grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Verbal signals grounded in the official Climbing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on climbers.",
+        "fact": "Scouts must explain climbers using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
+        "fact_correction": "Scouts must explain climbers using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
       },
       "starting_requirement_gate": null,
@@ -1321,23 +1426,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6a Structured Study & Explanation Notes",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Describe the kinds of rope acceptable for use in climbing and rappelling",
+              "Pamphlet Standard & Key Facts (6a)",
+              "Field Application & Counselor Verification (Describe)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6a is enough for Climbing Requirement 6a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 6a grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 6a grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the kinds of rope acceptable for use in climbing and rappelling.",
+            "fact": "Scouts must describe describe the kinds of rope acceptable for use in climbing and rappelling using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
+            "fact_correction": "Scouts must describe describe the kinds of rope acceptable for use in climbing and rappelling using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
           },
           "starting_requirement_gate": null,
@@ -1378,27 +1488,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 6b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Show how to examine a rope for signs of wear or damage",
+              "Pamphlet Standard & Key Facts (6b)",
+              "Field Application & Counselor Verification (Show)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Climbing Requirement 6b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 6b grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 6b grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to examine a rope for signs of wear or damage.",
+            "fact": "Scouts must show show how to examine a rope for signs of wear or damage using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
+            "fact_correction": "Scouts must show show how to examine a rope for signs of wear or damage using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
           },
           "starting_requirement_gate": null,
@@ -1440,23 +1557,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6c Structured Study & Explanation Notes",
             "headers": [
-              "Req 6c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Discuss ways to prevent a rope from being damaged",
+              "Pamphlet Standard & Key Facts (6c)",
+              "Field Application & Counselor Verification (Discuss)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6c is enough for Climbing Requirement 6c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6c grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6c grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss ways to prevent a rope from being damaged.",
+            "fact": "Scouts must discuss discuss ways to prevent a rope from being damaged using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
+            "fact_correction": "Scouts must discuss discuss ways to prevent a rope from being damaged using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
           },
           "starting_requirement_gate": null,
@@ -1498,23 +1620,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6d Structured Study & Explanation Notes",
             "headers": [
-              "Req 6d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain when and how a rope should be retired",
+              "Pamphlet Standard & Key Facts (6d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6d is enough for Climbing Requirement 6d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain when and how a rope should be retired.",
+            "fact": "Scouts must explain explain when and how a rope should be retired using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
+            "fact_correction": "Scouts must explain explain when and how a rope should be retired using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
           },
           "starting_requirement_gate": null,
@@ -1556,23 +1683,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6e Structured Study & Explanation Notes",
             "headers": [
-              "Req 6e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Properly coil a rope",
+              "Pamphlet Standard & Key Facts (6e)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6e is enough for Climbing Requirement 6e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6e grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on properly coil a rope.",
+            "fact": "Scouts must explain properly coil a rope using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
+            "fact_correction": "Scouts must explain properly coil a rope using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
           },
           "starting_requirement_gate": null,
@@ -1641,22 +1773,29 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Describe the kinds of rope acceptable for use in climbing and rappelling",
+          "(b) Show how to examine a rope for signs of wear or damage",
+          "(c) Discuss ways to prevent a rope from being damaged",
+          "(d) Explain when and how a rope should be retired",
+          "(e) Properly coil a rope"
         ],
-        "min_rows": 3,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The helmets, hardware, and ropes used for climbing, is enough for Climbing Requirement 6 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of The helmets, hardware, and ropes used for climbing, grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of The helmets, hardware, and ropes used for climbing, grounded in the official Climbing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the kinds of rope acceptable for use in climbing and rappelling.",
+        "fact": "Scouts must describe describe the kinds of rope acceptable for use in climbing and rappelling using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
+        "fact_correction": "Scouts must describe describe the kinds of rope acceptable for use in climbing and rappelling using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
       },
       "starting_requirement_gate": null,
@@ -1690,7 +1829,7 @@
         "UIAA Union Internationale: The UIAA (Union Internationale des Associations d’Alpinisme) is a group of mountain-travelexperts who set standards and testing proceduresfor.",
         "Conformit Europ Enne: The CE (Conformité Européenne, which translates to European Community) maintains similar standards for excellence.",
         "Allropes Harnesses Helmets: Allropes, harnesses, helmets, and hardware used by Scouts for climbing, rappelling, and belaying must bespecifically designed for climbing.",
-        "Wear Properly Fittedhelmet: Wear a properly fittedhelmet when climbing above shoulder height whetheryou are on a rock face, tower, or artificial wall."
+        "Wear Properly Fittedhelmet: Wear a properly fittedhelmet when climbing above shoulder height whether you are on a rock face, tower, or artificial wall."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
@@ -1735,23 +1874,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7a Structured Study & Explanation Notes",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Figure eight on a bight",
+              "Pamphlet Standard & Key Facts (7a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Climbing Requirement 7a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on figure eight on a bight.",
+            "fact": "Scouts must explain figure eight on a bight using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
+            "fact_correction": "Scouts must explain figure eight on a bight using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
@@ -1793,23 +1937,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7b Structured Study & Explanation Notes",
             "headers": [
-              "Req 7b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Figure eight follow-through",
+              "Pamphlet Standard & Key Facts (7b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Climbing Requirement 7b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on figure eight follow-through.",
+            "fact": "Scouts must explain figure eight follow-through using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
+            "fact_correction": "Scouts must explain figure eight follow-through using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
@@ -1851,23 +2000,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7c Structured Study & Explanation Notes",
             "headers": [
-              "Req 7c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Water knot",
+              "Pamphlet Standard & Key Facts (7c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7c is enough for Climbing Requirement 7c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7c grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on water knot.",
+            "fact": "Scouts must explain water knot using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
+            "fact_correction": "Scouts must explain water knot using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
@@ -1913,23 +2067,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7d Structured Study & Explanation Notes",
             "headers": [
-              "Req 7d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Double fisherman's knot (grapevine knot)",
+              "Pamphlet Standard & Key Facts (7d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7d is enough for Climbing Requirement 7d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7d grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on double fisherman's knot (grapevine knot).",
+            "fact": "Scouts must explain double fisherman's knot (grapevine knot) using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
+            "fact_correction": "Scouts must explain double fisherman's knot (grapevine knot) using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
@@ -1971,23 +2130,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7e Structured Study & Explanation Notes",
             "headers": [
-              "Req 7e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Prusik hitch applied to rope",
+              "Pamphlet Standard & Key Facts (7e)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7e is enough for Climbing Requirement 7e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7e grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on prusik hitch applied to rope.",
+            "fact": "Scouts must explain prusik hitch applied to rope using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
+            "fact_correction": "Scouts must explain prusik hitch applied to rope using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
           },
           "starting_requirement_gate": null,
@@ -2060,25 +2224,34 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 7 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Figure eight on a bight",
+          "(b) Figure eight follow-through",
+          "(c) Water knot",
+          "(d) Double fisherman's knot (grapevine knot)",
+          "(e) Prusik hitch applied to rope Figure eight on a bight Figure eight"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Knots is enough for Climbing Requirement 7 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Knots grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Knots grounded in the official Climbing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on figure eight on a bight.",
+        "fact": "Scouts must demonstrate figure eight on a bight using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
+        "fact_correction": "Scouts must demonstrate figure eight on a bight using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)"
       },
       "starting_requirement_gate": null,
@@ -2161,23 +2334,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8a Structured Study & Explanation Notes",
             "headers": [
-              "Req 8a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Commercially made climbing harness",
+              "Pamphlet Standard & Key Facts (8a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8a is enough for Climbing Requirement 8a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on commercially made climbing harness.",
+            "fact": "Scouts must explain commercially made climbing harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67).",
+            "fact_correction": "Scouts must explain commercially made climbing harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)"
           },
           "starting_requirement_gate": null,
@@ -2219,23 +2397,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8b Structured Study & Explanation Notes",
             "headers": [
-              "Req 8b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Climbing helmet",
+              "Pamphlet Standard & Key Facts (8b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8b is enough for Climbing Requirement 8b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on climbing helmet.",
+            "fact": "Scouts must explain climbing helmet using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67).",
+            "fact_correction": "Scouts must explain climbing helmet using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)"
           },
           "starting_requirement_gate": {
@@ -2282,23 +2465,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8c Structured Study & Explanation Notes",
             "headers": [
-              "Req 8c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Climbing or rappelling gloves",
+              "Pamphlet Standard & Key Facts (8c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8c is enough for Climbing Requirement 8c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on climbing or rappelling gloves.",
+            "fact": "Scouts must explain climbing or rappelling gloves using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67).",
+            "fact_correction": "Scouts must explain climbing or rappelling gloves using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)"
           },
           "starting_requirement_gate": null,
@@ -2363,25 +2551,32 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 8 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Commercially made climbing harness",
+          "(b) Climbing helmet",
+          "(c) Climbing or rappelling gloves Commercially made climbing harness Climbing"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Harness, Helmet and Gloves is enough for Climbing Requirement 8 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Harness, Helmet and Gloves grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Harness, Helmet and Gloves grounded in the official Climbing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on commercially made climbing harness.",
+        "fact": "Scouts must explain commercially made climbing harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67).",
+        "fact_correction": "Scouts must explain commercially made climbing harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)"
       },
       "starting_requirement_gate": {
@@ -2475,22 +2670,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Study & Explanation Notes",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Identify the elements of the CHECK system",
+          "2. The meaning of each one to your counselor"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Elements of the CHECK system is enough for Climbing Requirement 9 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of Elements of the CHECK system grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Elements of the CHECK system grounded in the official Climbing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify the elements of the check system.",
+        "fact": "Scouts must describe identify the elements of the check system using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 59, p. 60).",
+        "fact_correction": "Scouts must describe identify the elements of the check system using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 59, p. 60).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 59, p. 60)"
       },
       "starting_requirement_gate": null,
@@ -2569,23 +2768,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10a Structured Study & Explanation Notes",
             "headers": [
-              "Req 10a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain the importance of belaying climbers and rappellers and when it is necessary",
+              "Pamphlet Standard & Key Facts (10a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10a is enough for Climbing Requirement 10a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10a grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10a grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the importance of belaying climbers and rappellers and when it is necessary.",
+            "fact": "Scouts must explain explain the importance of belaying climbers and rappellers and when it is necessary using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
+            "fact_correction": "Scouts must explain explain the importance of belaying climbers and rappellers and when it is necessary using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
           },
           "starting_requirement_gate": null,
@@ -2622,23 +2826,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10b Structured Study & Explanation Notes",
             "headers": [
-              "Req 10b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Belay three different climbers on three different routes",
+              "Pamphlet Standard & Key Facts (10b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10b is enough for Climbing Requirement 10b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10b grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10b grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on belay three different climbers on three different routes.",
+            "fact": "Scouts must explain belay three different climbers on three different routes using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
+            "fact_correction": "Scouts must explain belay three different climbers on three different routes using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
           },
           "starting_requirement_gate": null,
@@ -2680,23 +2889,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10c Structured Study & Explanation Notes",
             "headers": [
-              "Req 10c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Serve as a backup belayer on three different climbs",
+              "Pamphlet Standard & Key Facts (10c)",
+              "Field Application & Counselor Verification (Serve)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10c is enough for Climbing Requirement 10c sign-off.",
-            "fact": "Each Scout must actively serve the specific principles and real-world steps of Req 10c grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively serve the specific principles and real-world steps of Req 10c grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on serve as a backup belayer on three different climbs.",
+            "fact": "Scouts must serve serve as a backup belayer on three different climbs using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
+            "fact_correction": "Scouts must serve serve as a backup belayer on three different climbs using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
           },
           "starting_requirement_gate": null,
@@ -2733,23 +2947,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10d Structured Study & Explanation Notes",
             "headers": [
-              "Req 10d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Belay three different rappellers on three different routes",
+              "Pamphlet Standard & Key Facts (10d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10d is enough for Climbing Requirement 10d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10d grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10d grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on belay three different rappellers on three different routes.",
+            "fact": "Scouts must explain belay three different rappellers on three different routes using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
+            "fact_correction": "Scouts must explain belay three different rappellers on three different routes using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
           },
           "starting_requirement_gate": null,
@@ -2786,23 +3005,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10e Structured Study & Explanation Notes",
             "headers": [
-              "Req 10e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Serve as a backup belayer on three different rappels",
+              "Pamphlet Standard & Key Facts (10e)",
+              "Field Application & Counselor Verification (Serve)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10e is enough for Climbing Requirement 10e sign-off.",
-            "fact": "Each Scout must actively serve the specific principles and real-world steps of Req 10e grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively serve the specific principles and real-world steps of Req 10e grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on serve as a backup belayer on three different rappels.",
+            "fact": "Scouts must serve serve as a backup belayer on three different rappels using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
+            "fact_correction": "Scouts must serve serve as a backup belayer on three different rappels using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
           },
           "starting_requirement_gate": null,
@@ -2859,22 +3083,29 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 10 Structured Study & Explanation Notes",
         "headers": [
-          "Req 10 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 10 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 10 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Explain the importance of belaying climbers and rappellers and when it",
+          "(b) Belay three different climbers on three different routes",
+          "(c) Serve as a backup belayer on three different climbs",
+          "(d) Belay three different rappellers on three different routes",
+          "(e) Serve as a backup belayer on three different rappels"
         ],
-        "min_rows": 3,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Belaying is enough for Climbing Requirement 10 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Belaying grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Belaying grounded in the official Climbing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the importance of belaying climbers and rappellers and when it.",
+        "fact": "Scouts must explain explain the importance of belaying climbers and rappellers and when it using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
+        "fact_correction": "Scouts must explain explain the importance of belaying climbers and rappellers and when it using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)"
       },
       "starting_requirement_gate": null,
@@ -2953,26 +3184,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 11a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Show the correct way to directly tie a belay rope to your harness",
+              "Pamphlet Standard & Key Facts (11a)",
+              "Field Application & Counselor Verification (Show)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 11a is enough for Climbing Requirement 11a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 11a grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 11a grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show the correct way to directly tie a belay rope to your harness.",
+            "fact": "Scouts must show show the correct way to directly tie a belay rope to your harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66).",
+            "fact_correction": "Scouts must show show the correct way to directly tie a belay rope to your harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)"
           },
           "starting_requirement_gate": null,
@@ -3009,23 +3247,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 11b Structured Study & Explanation Notes",
             "headers": [
-              "Req 11b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 11b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 11b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Climb at least three different routes on a rock face or climbing wall",
+              "2. Key Pamphlet Examples & Evidence (Req 11b)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 11b is enough for Climbing Requirement 11b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 11b grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 11b grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on climb at least three different routes on a rock face or climbing wall.",
+            "fact": "Scouts must explain climb at least three different routes on a rock face or climbing wall using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66).",
+            "fact_correction": "Scouts must explain climb at least three different routes on a rock face or climbing wall using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)"
           },
           "starting_requirement_gate": null,
@@ -3078,25 +3321,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 11 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Show the correct way to directly tie a belay rope to your harness",
+          "(b) Climb at least three different routes on a rock face or climbing wall"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Climbing is enough for Climbing Requirement 11 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Climbing grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Climbing grounded in the official Climbing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show the correct way to directly tie a belay rope to your harness.",
+        "fact": "Scouts must show show the correct way to directly tie a belay rope to your harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66).",
+        "fact_correction": "Scouts must show show the correct way to directly tie a belay rope to your harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)"
       },
       "starting_requirement_gate": null,
@@ -3123,11 +3372,11 @@
       "pamphlet_excerpts": [
         "Verbal Signals Climbers: Verbal Signals for Climbers and Belayers Verbal signals allow a climber and a belayer to communicate and worktogether as a team even if they cannot.",
         "Habit Ofusing Verbal: Get in the habit ofusing verbal signals every time you are climbing or belaying.",
-        "Arrange Rope Stronger: Arrange the rope so that your stronger hand (usually yourright hand if you are right-handed) will be the brake hand, thehand closest to the free end.",
+        "Arrange Rope Stronger: Arrange the rope so that your stronger hand (usually your right hand if you are right-handed) will be the brake hand, thehand closest to the free end.",
         "Exchange Verbalsignals Boxed: Exchange verbalsignals (see the boxed text later in this chapter) with a climber."
       ],
       "step_by_step_procedure": [
-        "Climber Ascends Pull: As the climber ascends, pull through the belay device any slackthat forms in the rope, and let the loose rope pile up next to yourfeet.",
+        "Climber Ascends Pull: As the climber ascends, pull through the belay device any slackthat forms in the rope, and let the loose rope pile up next to your feet.",
         "Holding Rope Firmly: While holding the rope firmly with your brake hand, slideyour guide hand out along the rope.",
         "Slack Rope Minimum: Keeping slack in the rope to a minimum will limit thelength of a fall if the climber slips.",
         "Running Rope Belay: Running the rope through a belay deviceallows a belayer to stop a fall easily, justby moving the belay rope to one side."
@@ -3170,26 +3419,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 12a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Show the correct way to directly tie a belay rope to your harness",
+              "Pamphlet Standard & Key Facts (12a)",
+              "Field Application & Counselor Verification (Show)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 12a is enough for Climbing Requirement 12a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 12a grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 12a grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show the correct way to directly tie a belay rope to your harness.",
+            "fact": "Scouts must show show the correct way to directly tie a belay rope to your harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
+            "fact_correction": "Scouts must show show the correct way to directly tie a belay rope to your harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
@@ -3226,23 +3482,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 12b Structured Study & Explanation Notes",
             "headers": [
-              "Req 12b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 12b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 12b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Using a carabiner and a rappel device, attach a rappel rope to your harness",
+              "Pamphlet Standard & Key Facts (12b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 12b is enough for Climbing Requirement 12b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 12b grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 12b grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using a carabiner and a rappel device, attach a rappel rope to your harness.",
+            "fact": "Scouts must explain using a carabiner and a rappel device, attach a rappel rope to your harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
+            "fact_correction": "Scouts must explain using a carabiner and a rappel device, attach a rappel rope to your harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
@@ -3279,26 +3540,32 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 12c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Rappel down three different rock faces or three rappel routes on a climbing",
+              "2. Use verbal signals to communicate with a belayer, and demonstrate good"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 12c is enough for Climbing Requirement 12c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 12c grounded in the official Climbing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 12c grounded in the official Climbing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on rappel down three different rock faces or three rappel routes on a climbing.",
+            "fact": "Scouts must explain rappel down three different rock faces or three rappel routes on a climbing using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
+            "fact_correction": "Scouts must explain rappel down three different rock faces or three rappel routes on a climbing using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
             "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
           },
           "starting_requirement_gate": null,
@@ -3351,25 +3618,32 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 12 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Show the correct way to directly tie a belay rope to your harness",
+          "(b) Using a carabiner and a rappel device, attach a rappel rope to your harness",
+          "(c) Rappel down three different rock faces or three rappel routes on a climbing"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Rappelling is enough for Climbing Requirement 12 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Rappelling grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Rappelling grounded in the official Climbing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show the correct way to directly tie a belay rope to your harness.",
+        "fact": "Scouts must show show the correct way to directly tie a belay rope to your harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
+        "fact_correction": "Scouts must show show the correct way to directly tie a belay rope to your harness using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)"
       },
       "starting_requirement_gate": null,
@@ -3452,26 +3726,33 @@
       "pamphlet_page_citation": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 13 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Demonstrate ways to store rope, hardware",
+          "2. Other gear used for climbing, rappelling",
+          "3. Belaying"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Ways to store rope, hardware is enough for Climbing Requirement 13 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Ways to store rope, hardware grounded in the official Climbing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Ways to store rope, hardware grounded in the official Climbing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate ways to store rope, hardware.",
+        "fact": "Scouts must demonstrate demonstrate ways to store rope, hardware using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
+        "fact_correction": "Scouts must demonstrate demonstrate ways to store rope, hardware using verified procedures, field evidence, and safety standards from Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85).",
         "pamphlet_page_ref": "Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)"
       },
       "starting_requirement_gate": null,
@@ -3505,7 +3786,7 @@
         "UIAA Union Internationale: The UIAA (Union Internationale des Associations d’Alpinisme) is a group of mountain-travelexperts who set standards and testing proceduresfor.",
         "Conformit Europ Enne: The CE (Conformité Européenne, which translates to European Community) maintains similar standards for excellence.",
         "Allropes Harnesses Helmets: Allropes, harnesses, helmets, and hardware used by Scouts for climbing, rappelling, and belaying must bespecifically designed for climbing.",
-        "Wear Properly Fittedhelmet: Wear a properly fittedhelmet when climbing above shoulder height whetheryou are on a rock face, tower, or artificial wall."
+        "Wear Properly Fittedhelmet: Wear a properly fittedhelmet when climbing above shoulder height whether you are on a rock face, tower, or artificial wall."
       ],
       "gear_checklist": [
         "Official Climbing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 13)",

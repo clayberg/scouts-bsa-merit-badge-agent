@@ -75,25 +75,8 @@
         </button>
         <div class="m3-export-dropdown-menu m3-top-workspaces-dropdown-menu hidden" id="top-workspaces-dropdown-menu" role="menu" aria-label="Quick Deck Switcher &amp; Actions"></div>
       </div>
-      <button
-        type="button"
-        class="m3-btn m3-btn-outlined m3-top-compact-btn"
-        id="btn-open-mcp-hub"
-        title="Open Official Scouts BSA Model Context Protocol (MCP) Server Hub &amp; Interactive Tool Playground (Shortcut: M)"
-      >
-        🤖 MCP Hub
-      </button>
-      <button
-        type="button"
-        class="m3-btn m3-btn-outlined m3-top-compact-btn"
-        id="btn-open-docs-viewer"
-        title="Open User &amp; Engineering Documentation Viewer (Shortcut: D)"
-        style="color:var(--md-sys-color-primary); border-color:var(--md-sys-color-info-outline-strong); background:var(--md-sys-color-info-surface-subtle);"
-      >
-        📘 Documentation
-      </button>
-      <!-- COMPACT SEGMENTED DISPLAY & SHORTCUTS UTILITY PILL -->
-      <div class="m3-top-utility-pill" role="group" aria-label="Display Theme &amp; Keyboard Shortcuts">
+      <!-- COMPACT SEGMENTED DISPLAY THEME PILL -->
+      <div class="m3-top-utility-pill" role="group" aria-label="Display Theme">
         <button
           type="button"
           class="m3-utility-seg-btn"
@@ -110,73 +93,116 @@
         >
           ☀️ Sunlight
         </button>
+      </div>
+      <!-- CONSOLIDATED HELP & TOOLS SPLIT-BUTTON -->
+      <div class="m3-split-export-group m3-split-btn-group" id="help-tools-split-group">
         <button
           type="button"
-          class="m3-utility-seg-btn m3-shortcuts-key-btn"
-          id="btn-keyboard-shortcuts"
-          title="View Keyboard Shortcuts Cheat-Sheet (Shortcut: ?)"
+          class="m3-btn m3-btn-outlined m3-top-compact-btn m3-split-main-btn"
+          id="btn-open-docs-viewer"
+          title="Open User &amp; Engineering Documentation Viewer (Shortcut: D)"
+          style="color:var(--md-sys-color-primary); border-color:var(--md-sys-color-info-outline-strong); background:var(--md-sys-color-info-surface-subtle);"
         >
-          <svg width="15" height="13" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="flex-shrink:0;">
-            <rect x="1" y="1" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="2" fill="rgba(0,63,135,0.10)"/>
-            <rect x="3.5" y="3.5" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
-            <rect x="7" y="3.5" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
-            <rect x="10.5" y="3.5" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
-            <rect x="14" y="3.5" width="2.5" height="2.2" rx="0.5" fill="currentColor"/>
-            <rect x="3.5" y="7" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
-            <rect x="7" y="7" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
-            <rect x="10.5" y="7" width="2.2" height="2.2" rx="0.5" fill="currentColor"/>
-            <rect x="14" y="7" width="2.5" height="2.2" rx="0.5" fill="currentColor"/>
-            <rect x="5.5" y="10.5" width="9" height="2.2" rx="0.6" fill="currentColor"/>
-          </svg>
-          <span>Keys</span>
+          <span id="btn-open-docs-hub">📘 Documentation</span>
         </button>
-      </div>
-      <div class="m3-export-dropdown-wrap" id="top-export-dropdown-wrap">
-        <button type="button" class="m3-btn m3-btn-tonal m3-top-compact-btn" id="btn-export-menu-toggle" title="Quick Export &amp; Print Menu (Workbook, Field &amp; QR Handout, 3-Panel Blue Cards, Pocket Cue Cards)">
-          <span class="m3-inline-icon" aria-hidden="true">🖨️</span>
-          Export &amp; Print ▾
+        <button
+          type="button"
+          class="m3-btn m3-btn-outlined m3-top-compact-btn m3-split-caret-btn m3-split-btn-caret"
+          id="btn-help-tools-caret"
+          title="Open MCP &amp; A2A Inspector, Keyboard Shortcuts, and Guided Tours"
+          aria-haspopup="menu"
+          aria-expanded="false"
+        >
+          ▾
         </button>
-        <div class="m3-export-dropdown-menu hidden" id="top-export-dropdown-menu" role="menu">
-          <button type="button" class="m3-export-menu-item" id="btn-top-print-field-qr-handout" role="menuitem">
-            🧭 Print 1-Page Field Checklist &amp; QR Handout
+        <div class="m3-export-dropdown-menu m3-split-dropdown-menu hidden" id="help-tools-menu" role="menu" aria-label="Help, Inspector &amp; Guided Tours">
+          <div class="m3-menu-section-label">Help, Inspector &amp; Walkthroughs</div>
+          <button
+            type="button"
+            class="m3-export-menu-item"
+            id="btn-open-mcp-hub"
+            role="menuitem"
+            title="Open Official Scouts BSA Model Context Protocol (MCP) Server Hub &amp; Interactive Tool Playground (Shortcut: M)"
+          >
+            <span id="btn-toggle-mcp">🤖 MCP &amp; A2A Inspector</span>
           </button>
-          <button type="button" class="m3-export-menu-item" id="btn-top-print-3panel-bluecards" role="menuitem">
-            🪪 Print 3-Panel Blue Cards (#34124)
+          <button
+            type="button"
+            class="m3-export-menu-item m3-shortcuts-key-btn"
+            id="btn-keyboard-shortcuts"
+            role="menuitem"
+            title="View Keyboard Shortcuts Cheat-Sheet (Shortcut: ?)"
+          >
+            <span>⌨️ Keyboard Shortcuts (?)</span>
           </button>
-          <a class="m3-export-menu-item" id="btn-download-workbook-top" href="#" download role="menuitem">
-            📥 Download Scout Workbook (.MD)
-          </a>
-          <button type="button" class="m3-export-menu-item" id="btn-top-print-workbook" role="menuitem">
-            🖨️ Print / Save Workbook as PDF
-          </button>
-          <button type="button" class="m3-export-menu-item" id="btn-top-print-cue-cards" role="menuitem">
-            🃏 Print Counselor 3&times;5 Pocket Cue Cards
-          </button>
-          <button type="button" class="m3-export-menu-item" id="btn-top-export-bluecard-csv" role="menuitem">
-            📊 Export Scoutbook Blue Card CSV
+          <button
+            type="button"
+            class="m3-export-menu-item"
+            id="btn-start-guided-tour"
+            role="menuitem"
+            title="Launch one of the 8 Interactive Narrated Guided Tours"
+          >
+            <span>🧭 Guided Tours (8 Walkthroughs)</span>
           </button>
         </div>
       </div>
-      <div class="m3-split-export-group" id="deck-export-split-group">
-        <a class="m3-btn m3-btn-filled m3-split-main-btn m3-top-compact-export-btn" id="btn-download-pptx" href="#" download>
-          <span class="m3-inline-icon" id="deck-export-main-icon" aria-hidden="true">📥</span>
-          <span id="deck-export-main-label">Download (.PPTX)</span>
-        </a>
-        <button type="button" class="m3-btn m3-btn-filled m3-split-caret-btn" id="btn-deck-export-caret" title="Choose preferred slide deck export format (.PPTX or Google Slides)" aria-haspopup="menu" aria-expanded="false">
-          ▾
+      <!-- Hidden legacy alias trigger for Export & Print dropdown -->
+      <div class="m3-export-dropdown-wrap hidden" id="top-export-dropdown-wrap" style="display:none;" aria-hidden="true">
+        <span id="header-export-print-dropdown"></span>
+        <button type="button" class="m3-btn m3-btn-tonal m3-top-compact-btn" id="btn-export-menu-toggle" tabindex="-1">
+          <span id="btn-header-export-print-caret">🖨️ Export &amp; Print ▾</span>
         </button>
-        <div class="m3-export-dropdown-menu hidden" id="deck-export-mode-menu" role="menu" aria-label="Slide Deck Export Mode">
-          <div style="font-size:0.68rem; font-weight:800; color:var(--md-sys-color-on-surface-muted); text-transform:uppercase; letter-spacing:0.04em; padding:6px 12px 4px 12px;">
-            Sticky Default Deck Export Mode
+        <div class="m3-export-dropdown-menu hidden" id="top-export-dropdown-menu" role="menu"></div>
+      </div>
+      <!-- UNIFIED EXPORT, DOWNLOAD & PRINT SPLIT-BUTTON -->
+      <div class="m3-split-btn-group" id="pptx-export-split-group" style="display:inline-flex;">
+        <div class="m3-split-export-group m3-split-btn-group" id="deck-export-split-group">
+          <a class="m3-btn m3-btn-filled m3-split-main-btn m3-top-compact-export-btn" id="btn-download-pptx" href="#" download>
+            <span class="m3-inline-icon" id="deck-export-main-icon" aria-hidden="true">📥</span>
+            <span id="deck-export-main-label">Download (.PPTX)</span>
+          </a>
+          <button type="button" class="m3-btn m3-btn-filled m3-split-caret-btn m3-split-btn-caret" id="btn-deck-export-caret" title="Export &amp; Print Slide Deck, Scout Workbooks, Handouts &amp; Blue Cards" aria-haspopup="menu" aria-expanded="false">
+            ▾
+          </button>
+          <div class="m3-export-dropdown-menu m3-split-dropdown-menu hidden" id="deck-export-mode-menu" role="menu" aria-label="Unified Export, Download &amp; Print Menu">
+            <div id="pptx-export-menu">
+              <div class="m3-menu-section-label">Slide Deck Formats</div>
+              <button type="button" class="m3-export-menu-item active" data-export-mode="pptx" id="menu-export-mode-pptx" role="menuitem">
+                <span>📥 Download Slide Deck (.PPTX)</span>
+                <span class="m3-export-mode-check" id="check-export-mode-pptx">✓</span>
+              </button>
+              <button type="button" class="m3-export-menu-item" data-export-mode="gslides" id="menu-export-mode-gslides" role="menuitem">
+                <span>🟨 Open in Google Slides (Direct Cloud Deck)</span>
+                <span class="m3-export-mode-check hidden" id="check-export-mode-gslides">✓</span>
+              </button>
+              <button type="button" class="m3-export-menu-item" id="btn-header-print-deck" role="menuitem">
+                🖨️ Print Slide Deck / Handout
+              </button>
+              <button type="button" class="m3-export-menu-item" id="btn-header-export-html" role="menuitem">
+                🌐 Export Standalone HTML Deck
+              </button>
+              <div class="m3-menu-section-label">Scout Workbooks &amp; Handouts</div>
+              <a class="m3-export-menu-item" id="btn-download-workbook-top" href="#" download role="menuitem">
+                📥 Download Scout Workbook (.MD)
+              </a>
+              <button type="button" class="m3-export-menu-item" id="btn-top-print-workbook" role="menuitem">
+                <span id="btn-header-print-workbook">🖨️ Print / Save Workbook as PDF</span>
+              </button>
+              <button type="button" class="m3-export-menu-item" id="btn-top-print-field-qr-handout" role="menuitem">
+                <span id="btn-header-print-field-handout">🧭 Print 1-Page Field Checklist &amp; QR Handout</span>
+              </button>
+              <button type="button" class="m3-export-menu-item" id="btn-top-print-cue-cards" role="menuitem">
+                <span id="btn-header-print-cue-cards">🃏 Print Counselor 3&times;5 Pocket Cue Cards</span>
+              </button>
+              <div class="m3-menu-section-label">Advancement &amp; Blue Cards</div>
+              <button type="button" class="m3-export-menu-item" id="btn-top-print-3panel-bluecards" role="menuitem">
+                <span id="btn-header-print-bluecards">🪪 Print 3-Panel Blue Cards (#34124)</span>
+              </button>
+              <button type="button" class="m3-export-menu-item" id="btn-top-export-bluecard-csv" role="menuitem">
+                📊 Export Scoutbook Blue Card CSV
+              </button>
+            </div>
           </div>
-          <button type="button" class="m3-export-menu-item active" data-export-mode="pptx" id="menu-export-mode-pptx" role="menuitem">
-            <span>📥 Download Slide Deck (.PPTX)</span>
-            <span class="m3-export-mode-check" id="check-export-mode-pptx">✓</span>
-          </button>
-          <button type="button" class="m3-export-menu-item" data-export-mode="gslides" id="menu-export-mode-gslides" role="menuitem">
-            <span>🟨 Open in Google Slides (Direct Cloud Deck)</span>
-            <span class="m3-export-mode-check hidden" id="check-export-mode-gslides">✓</span>
-          </button>
         </div>
       </div>
     </div>
@@ -197,7 +223,7 @@
             <button type="button" class="m3-btn m3-btn-tonal" id="btn-open-patch-gallery" title="Browse all 149 Merit Badge patches (144 Standard + 5 Test Lab Pilots) visually with Eagle-Required &amp; Test Lab filters" style="padding:4px 9px; font-size:0.72rem; font-weight:700;">
               🎖️ Patch Gallery (149)
             </button>
-            <span class="m3-chip m3-chip-primary" id="badge-filter-count-chip">149 Badges</span>
+            <span class="m3-chip m3-chip-primary" id="badge-filter-count-chip"><span id="gallery-filtered-count-badge">149</span> Badges</span>
           </div>
         </div>
 
@@ -211,8 +237,6 @@
             <label class="m3-field-label" for="filter-category-select">Category</label>
             <select class="m3-select" id="filter-category-select">
               <option value="ALL">All Categories</option>
-              <option value="TEST_LAB">🧪 Test Lab Pilot (5)</option>
-              <option value="MULTI_OPTION">Multi-Option Badges (18)</option>
             </select>
           </div>
           <div class="m3-field-group">
@@ -563,19 +587,21 @@
               </a>
               <!-- INTERACTIVE GUIDED TOUR LAUNCHER MENU -->
               <div class="m3-hero-demo-dropdown-wrap" id="hero-demo-dropdown-wrap" style="position:relative; display:inline-flex;">
-                <button
-                  type="button"
-                  class="m3-btn m3-btn-tonal m3-hero-demo-btn"
-                  id="btn-hero-demo-menu-toggle"
-                  aria-haspopup="menu"
-                  aria-expanded="false"
-                  aria-controls="hero-demo-dropdown-menu"
-                  title="Launch an interactive, narrated step-by-step Guided Tour with live spotlight callouts"
-                >
-                  <span class="m3-inline-icon" style="font-size:14px;" aria-hidden="true">🧭</span>
-                  <span id="hero-demo-btn-label">Guided Tour</span>
-                  <span aria-hidden="true" style="font-size:0.68rem; opacity:0.9;">▾</span>
-                </button>
+                <span id="hero-guided-tour-dropdown" style="display:contents;">
+                  <button
+                    type="button"
+                    class="m3-btn m3-btn-tonal m3-hero-demo-btn"
+                    id="btn-hero-demo-menu-toggle"
+                    aria-haspopup="menu"
+                    aria-expanded="false"
+                    aria-controls="hero-demo-dropdown-menu"
+                    title="Launch an interactive, narrated step-by-step Guided Tour with live spotlight callouts"
+                  >
+                    <span class="m3-inline-icon" style="font-size:14px;" aria-hidden="true">🧭</span>
+                    <span id="hero-demo-btn-label">Guided Tour</span>
+                    <span aria-hidden="true" style="font-size:0.68rem; opacity:0.9;">▾</span>
+                  </button>
+                </span>
                 <div class="m3-hero-demo-menu hidden" id="hero-demo-dropdown-menu" role="menu" aria-label="Interactive Guided Feature Tours">
                   <div class="m3-hero-demo-menu-header">
                     <div>
@@ -644,6 +670,15 @@
                   </button>
                 </div>
               </div>
+              <button
+                type="button"
+                class="m3-btn m3-btn-outlined m3-hero-compact-toggle-btn"
+                id="btn-toggle-hero-banner"
+                title="Slim or expand the Hero Banner to maximize vertical stage space"
+                style="padding:3px 10px; font-size:0.73rem; background:rgba(255,255,255,0.12); color:var(--md-sys-color-on-primary); border-color:rgba(255,255,255,0.32);"
+              >
+                ▴ Compact Banner
+              </button>
             </div>
           </div>
         </div>
@@ -1244,17 +1279,23 @@
                 </h3>
                 <div class="m3-notes-action-cluster" style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
                   <span class="m3-chip m3-chip-secondary m3-notes-provenance-pill" id="notes-polish-status-pill" title="Shows whether this script was compiled procedurally ($0.00) or polished by Gemini Flash">⚡ Procedural Script &bull; Stage Cues</span>
-                  <button type="button" class="m3-btn m3-btn-ai-polish-slide" id="btn-ai-polish-notes" title="Rewrite and elevate this slide's speaking script using Gemini Flash (with Studio Narrative fallback &amp; SQLite caching)">
-                    ✨ AI Polish Slide
-                  </button>
-                  <button type="button" class="m3-btn m3-btn-ai-polish-deck" id="btn-ai-polish-deck" title="Batch-polish speaking scripts across all slides in this deck using Gemini Flash and rebuild the exported .PPTX / Google Slides deck">
-                    ✨ Polish Entire Deck
-                  </button>
-                  <button type="button" class="m3-btn m3-btn-outlined m3-btn-restore-default-notes hidden" id="btn-restore-default-notes" title="Restore the default procedural speaking script on this slide to compare Before vs. After">
-                    ↺ Restore Default
-                  </button>
+                  <div class="m3-split-btn-group" id="speaker-notes-polish-split-group" style="position:relative;">
+                    <button type="button" class="m3-btn m3-btn-ai-polish-slide m3-split-btn-primary" id="btn-ai-polish-notes" title="Rewrite and elevate this slide's speaking script using Gemini Flash (with Studio Narrative fallback &amp; SQLite caching)">
+                      <span id="btn-polish-slide-notes">✨ AI Polish Slide</span>
+                    </button>
+                    <button type="button" class="m3-btn m3-btn-ai-polish-slide m3-split-btn-caret" id="btn-speaker-notes-polish-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Speaker Notes Polish Actions" title="More Speaker Notes Polish Options (Polish Entire Deck, Restore Default)">▾</button>
+                    <div class="m3-split-dropdown-menu hidden" id="speaker-notes-polish-menu" role="menu">
+                      <div class="m3-menu-section-label">Speaker Notes AI Polish</div>
+                      <button type="button" class="m3-export-menu-item m3-btn-ai-polish-deck" id="btn-ai-polish-deck" role="menuitem" title="Batch-polish speaking scripts across all slides in this deck using Gemini Flash and rebuild the exported .PPTX / Google Slides deck">
+                        <span id="btn-polish-all-notes">✨ Polish Entire Deck</span>
+                      </button>
+                      <button type="button" class="m3-export-menu-item m3-btn-restore-default-notes hidden" id="btn-restore-default-notes" role="menuitem" title="Restore the default procedural speaking script on this slide to compare Before vs. After">
+                        <span id="btn-restore-slide-notes">↺ Restore Default</span>
+                      </button>
+                    </div>
+                  </div>
                   <button type="button" class="m3-btn m3-btn-outlined" id="btn-copy-slide-notes" title="Copy this slide's Counselor Teaching Notes to clipboard" style="padding:5px 11px; font-size:0.75rem; font-weight:700;">
-                    📋 Copy Script
+                    <span id="btn-copy-speaker-notes">📋 Copy Script</span>
                   </button>
                 </div>
               </div>
@@ -1351,7 +1392,7 @@
                 </button>
               </div>
               <div class="m3-codesign-controls-grid">
-                <div>
+                <div style="display:none;">
                   <label class="m3-field-label" for="codesign-archetype-select" style="font-size:0.73rem; white-space:nowrap;">Slide Layout</label>
                   <select class="m3-select" id="codesign-archetype-select" style="padding:6px 8px; font-size:0.78rem;">
                     <option value="SPLIT_VISUAL_EXPLAINER">Stacked Cards + Right Visual (Standard)</option>
@@ -1405,7 +1446,7 @@
                     <option value="BOXED_CARDS">Boxed Cards</option>
                   </select>
                 </div>
-                <button type="button" class="m3-btn m3-btn-filled" id="btn-apply-codesign" style="padding:8px 14px; font-size:0.80rem;">
+                <button type="button" class="m3-btn m3-btn-filled" id="btn-apply-codesign" style="display:none; padding:8px 14px; font-size:0.80rem;">
                   ✨ Apply &amp; Rebuild .PPTX
                 </button>
               </div>
@@ -1564,85 +1605,120 @@
                 Track individual Scout mastery across every official requirement (`Complete` vs. `Partial` Blue Card status). Click any column header checkbox to sign off the entire patrol on a requirement at once.
               </div>
             </div>
-            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-              <input
-                type="date"
-                class="m3-input"
-                id="bluecard-signoff-date"
-                title="Sign-Off Date Stamp for Blue Card &amp; Scoutbook CSV Export"
-                style="width:142px; padding:5px 8px; font-size:0.78rem;"
-              />
-              <input
-                type="text"
-                class="m3-input"
-                id="bluecard-scout-name-input"
-                placeholder="Add Scout name (e.g., Alex Carter)..."
-                style="width:165px; padding:6px 10px; font-size:0.80rem;"
-              />
-              <input
-                type="text"
-                class="m3-input"
-                id="bluecard-scout-troop-input"
-                placeholder="Troop (e.g., Troop 19)"
-                value="Troop 19"
-                style="width:110px; padding:6px 8px; font-size:0.78rem;"
-              />
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-add-scout" style="padding:6px 12px; font-size:0.78rem;">
-                ➕ Add Scout
-              </button>
-              <select
-                id="bluecard-troop-filter-select"
-                class="m3-select"
-                title="Filter multi-troop clinic roster by Troop / Unit"
-                style="width:auto; padding:5px 9px; font-size:0.76rem; font-weight:700;"
-              >
-                <option value="ALL">🏕️ All Troops (Combined)</option>
-              </select>
-              <div style="display:inline-flex; align-items:center; gap:4px; background:var(--md-sys-color-info-surface); border:1px solid var(--md-sys-color-info-outline); border-radius:8px; padding:2px 6px;">
-                <select id="bluecard-session-stamp-select" class="m3-select" style="width:auto; padding:3px 6px; font-size:0.74rem; border:none; background:transparent; font-weight:700;">
-                  <option value="S1">Session 1 (S1)</option>
-                  <option value="S2">Session 2 (S2)</option>
-                  <option value="S3">Session 3 (S3)</option>
-                  <option value="S4">Session 4 (S4)</option>
-                  <option value="M">Make-Up (M)</option>
-                </select>
-                <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-stamp-session" title="Stamp all requirements assigned to the selected session for all Scouts marked Present (✓) in that session" style="padding:4px 9px; font-size:0.74rem; font-weight:800;">
-                  ⚡ Stamp Session Reqs
+            <div class="m3-bluecard-toolbar-row">
+              <!-- Left Cluster: Quick Scout Entry & Troop Filter -->
+              <div class="m3-bluecard-toolbar-left">
+                <input
+                  type="text"
+                  class="m3-input"
+                  id="bluecard-scout-name-input"
+                  placeholder="Add Scout name (e.g., Alex Carter)..."
+                  style="width:165px; padding:6px 10px; font-size:0.80rem;"
+                />
+                <input
+                  type="text"
+                  class="m3-input"
+                  id="bluecard-scout-troop-input"
+                  placeholder="Troop (e.g., Troop 19)"
+                  value="Troop 19"
+                  style="width:110px; padding:6px 8px; font-size:0.78rem;"
+                />
+                <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-add-scout" style="padding:6px 12px; font-size:0.78rem;">
+                  <span id="btn-add-bluecard-scout">➕ Add Scout</span>
                 </button>
+                <select
+                  id="bluecard-troop-filter-select"
+                  class="m3-select"
+                  title="Filter multi-troop clinic roster by Troop / Unit"
+                  style="width:auto; padding:5px 9px; font-size:0.76rem; font-weight:700;"
+                >
+                  <option value="ALL">🏕️ All Troops (Combined)</option>
+                </select>
+                <span id="bluecard-global-date-input">
+                  <input
+                    type="date"
+                    class="m3-input"
+                    id="bluecard-signoff-date"
+                    title="Sign-Off Date Stamp for Blue Card &amp; Scoutbook CSV Export"
+                    style="width:142px; padding:5px 8px; font-size:0.78rem;"
+                  />
+                </span>
               </div>
-              <input type="file" id="bluecard-csv-file-input" accept=".csv,.txt,text/csv,text/plain" class="hidden" />
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-import-csv" title="Upload a Scoutbook or TroopWebHost .CSV roster file" style="padding:6px 11px; font-size:0.78rem;">
-                📤 Import .CSV Roster
-              </button>
-              <select
-                id="select-bluecard-copy-workspace"
-                class="m3-select"
-                title="Copy Scout attendees from another saved Merit Badge deck workspace"
-                style="width:auto; max-width:215px; padding:5px 9px; font-size:0.76rem; font-weight:700;"
-              >
-                <option value="">🔁 Copy Scouts From Deck...</option>
-              </select>
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-bulk-paste" title="Paste a full Troop or Patrol roster (one Scout per line)" style="padding:6px 11px; font-size:0.78rem;">
-                📋 Paste Roster
-              </button>
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-mark-inclass" title="Mark all Discussion &amp; Core Knowledge requirements Complete for all Scouts in the roster" style="padding:6px 11px; font-size:0.78rem;">
-                ✅ Mark In-Class Done
-              </button>
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-export-csv" style="padding:6px 12px; font-size:0.78rem;">
-                📥 Export Scoutbook CSV
-              </button>
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-export-troop-packets" title="Export per-troop Blue Card (#34124) &amp; Scoutbook CSV summary packets grouped by Troop unit" style="padding:6px 11px; font-size:0.76rem; font-weight:700;">
-                📦 Per-Troop Packets
-              </button>
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-open-ypt-composer" title="Open the 3-Stage YPT Two-Deep Email Composer (T-14 Welcome, Mid-Clinic Partial Alert, Final Packet)" style="padding:6px 11px; font-size:0.76rem; font-weight:700;">
-                🛡️ 3-Stage YPT Email Pack
-              </button>
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-print-3panel" title="Print authentic 3-column perforated BSA Application for Merit Badge (#34124) Blue Cards for all Scouts in roster" style="padding:6px 12px; font-size:0.78rem; font-weight:700;">
-                🪪 Print 3-Panel Blue Cards (#34124)
-              </button>
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-bluecard-print" style="padding:6px 12px; font-size:0.78rem;">
-                🖨️ Print Sign-Off Sheet
-              </button>
+
+              <!-- Right Cluster: 3 Split Action Menus -->
+              <div class="m3-bluecard-toolbar-right">
+                <!-- 1. Import Roster Split Group -->
+                <div class="m3-split-btn-group" id="bluecard-import-split-group" style="position:relative;">
+                  <button type="button" class="m3-btn m3-btn-outlined m3-split-btn-primary" id="btn-bluecard-import-csv" title="Upload a Scoutbook or TroopWebHost .CSV roster file" style="padding:6px 11px; font-size:0.78rem;">
+                    <span id="btn-import-bluecard-csv">📥 Import Roster</span>
+                  </button>
+                  <button type="button" class="m3-btn m3-btn-outlined m3-split-btn-caret" id="btn-bluecard-import-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Roster Import Options" title="More Roster Import Options (Paste Roster, Copy Roster From Saved Deck)">▾</button>
+                  <input type="file" id="bluecard-csv-file-input" accept=".csv,.txt,text/csv,text/plain" class="hidden" />
+                  <div class="m3-split-dropdown-menu hidden" id="bluecard-import-menu" role="menu">
+                    <div class="m3-menu-section-label">Roster Import &amp; Copy</div>
+                    <button type="button" class="m3-export-menu-item" id="btn-bluecard-bulk-paste" role="menuitem" title="Paste a full Troop or Patrol roster (one Scout per line)">
+                      <span id="btn-bulk-paste-roster">📋 Paste Roster (Multi-Line)</span>
+                    </button>
+                    <div class="m3-export-menu-item" id="btn-copy-roster-from-deck" style="display:flex; flex-direction:column; align-items:stretch; gap:4px;">
+                      <span style="font-size:0.72rem; font-weight:700; color:var(--md-sys-color-on-surface-variant);">🔁 Copy Roster From Saved Deck</span>
+                      <select
+                        id="select-bluecard-copy-workspace"
+                        class="m3-select"
+                        title="Copy Scout attendees from another saved Merit Badge deck workspace"
+                        style="width:100%; padding:5px 8px; font-size:0.76rem; font-weight:700;"
+                      >
+                        <option value="">🔁 Copy Scouts From Deck...</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2. Batch Sign-Off Split Group -->
+                <div class="m3-split-btn-group" id="bluecard-batch-split-group" style="position:relative;">
+                  <button type="button" class="m3-btn m3-btn-outlined m3-split-btn-primary" id="btn-bluecard-mark-inclass" title="Mark all Discussion &amp; Core Knowledge requirements Complete for all Scouts in the roster" style="padding:6px 11px; font-size:0.78rem;">
+                    <span id="btn-check-all-inclass-bluecard">✅ Batch Sign-Off</span>
+                  </button>
+                  <button type="button" class="m3-btn m3-btn-outlined m3-split-btn-caret" id="btn-bluecard-batch-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Batch Sign-Off Options" title="More Batch Sign-Off Options (Stamp Session Requirements)">▾</button>
+                  <div class="m3-split-dropdown-menu hidden" id="bluecard-batch-menu" role="menu">
+                    <div class="m3-menu-section-label">Session &amp; In-Class Sign-Off</div>
+                    <div id="bluecard-batch-session-select" style="display:flex; align-items:center; gap:6px; padding:6px 10px;">
+                      <select id="bluecard-session-stamp-select" class="m3-select" style="flex:1; padding:4px 8px; font-size:0.74rem; font-weight:700;">
+                        <option value="S1">Session 1 (S1)</option>
+                        <option value="S2">Session 2 (S2)</option>
+                        <option value="S3">Session 3 (S3)</option>
+                        <option value="S4">Session 4 (S4)</option>
+                        <option value="M">Make-Up (M)</option>
+                      </select>
+                      <button type="button" class="m3-btn m3-btn-tonal" id="btn-bluecard-stamp-session" title="Stamp all requirements assigned to the selected session for all Scouts marked Present (✓) in that session" style="padding:4px 9px; font-size:0.74rem; font-weight:800;">
+                        <span id="btn-apply-batch-session-stamp">⚡ Stamp Session Reqs</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3. Export & Print Split Group -->
+                <div class="m3-split-btn-group" id="bluecard-export-split-group" style="position:relative;">
+                  <button type="button" class="m3-btn m3-btn-tonal m3-split-btn-primary" id="btn-bluecard-print-3panel" title="Print authentic 3-column perforated BSA Application for Merit Badge (#34124) Blue Cards for all Scouts in roster" style="padding:6px 12px; font-size:0.78rem; font-weight:700;">
+                    <span id="btn-print-official-3panel-bluecards">🪪 Print 3-Panel Blue Cards (#34124)</span>
+                  </button>
+                  <button type="button" class="m3-btn m3-btn-tonal m3-split-btn-caret" id="btn-bluecard-export-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Blue Card Export &amp; Print Options" title="More Blue Card Export &amp; Print Options (3-Stage YPT Email Pack, Scoutbook CSV, Per-Troop Packets, Sign-Off Sheet)">▾</button>
+                  <div class="m3-split-dropdown-menu hidden" id="bluecard-export-menu" role="menu">
+                    <div class="m3-menu-section-label">Advancement &amp; YPT Exports</div>
+                    <button type="button" class="m3-export-menu-item" id="btn-bluecard-open-ypt-composer" role="menuitem" title="Open the 3-Stage YPT Two-Deep Email Composer (T-14 Welcome, Mid-Clinic Partial Alert, Final Packet)">
+                      <span id="btn-open-ypt-email-modal">🛡️ 3-Stage YPT Email Pack</span>
+                    </button>
+                    <button type="button" class="m3-export-menu-item" id="btn-bluecard-export-csv" role="menuitem">
+                      <span id="btn-export-scoutbook-csv">📥 Export Scoutbook CSV</span>
+                    </button>
+                    <button type="button" class="m3-export-menu-item" id="btn-bluecard-export-troop-packets" role="menuitem" title="Export per-troop Blue Card (#34124) &amp; Scoutbook CSV summary packets grouped by Troop unit">
+                      <span id="btn-export-per-troop-packets">📦 Export Per-Troop Packets</span>
+                    </button>
+                    <button type="button" class="m3-export-menu-item" id="btn-bluecard-print" role="menuitem">
+                      <span id="btn-print-bluecard-sheet">🖨️ Print Sign-Off Sheet</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -1751,38 +1827,53 @@
                 type="search"
                 class="m3-input"
                 id="workbook-search-input"
-                placeholder="🔎 Filter workbook sections..."
+                placeholder="🔍 Filter requirements..."
                 style="width:195px; padding:6px 10px; font-size:0.78rem;"
               />
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-open-fillable-html" title="View &amp; Edit the Verb-Aligned Fillable Scout Workbook with Guide to Advancement Section 7.0.3.2 Banner" style="padding:7px 12px; font-size:0.79rem; font-weight:800;">
-                📝 Fillable Scout Workbook (GTA §7.0.3.2)
-              </button>
-              <a class="m3-btn m3-btn-filled" id="btn-workbook-download-fillable-pdf" href="/api/v1/studiokit/fillable-workbook.pdf?badge_name=First%20Aid" download title="Download Interactive AcroForm Fillable Scout Workbook (.PDF)" style="padding:7px 12px; font-size:0.79rem; font-weight:800; text-decoration:none;">
-                📥 Download Workbook (.PDF)
-              </a>
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-open-cpp" title="View &amp; Download the 1-Page Class Preparation Page (CPP) &amp; Syllabus Map" style="padding:7px 12px; font-size:0.79rem; font-weight:800;">
-                📄 1-Page Class Prep (CPP)
-              </button>
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-workbook-print-field-qr" title="Print 1-Page Pocket Field Checklist &amp; QR Handout" style="padding:7px 12px; font-size:0.79rem;">
-                🧭 Print 1-Page Field &amp; QR Handout
-              </button>
-              <!-- FEATURE C4: PRINTABLE 3x5 COUNSELOR POCKET CUE CARDS -->
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-print-cue-cards" title="Print 3x5 / 4x6 Counselor Field Pocket Cue Cards ([SAY], [DEMONSTRATE], [ASK SCOUTS])" style="padding:7px 12px; font-size:0.79rem;">
-                🃏 Print 3&times;5 Cue Cards
-              </button>
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-copy-workbook" style="padding:7px 13px; font-size:0.80rem;">
-                📋 Copy Text
-              </button>
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-print-workbook" style="padding:7px 13px; font-size:0.80rem;">
-                🖨️ Print / Save PDF
-              </button>
-              <a class="m3-btn m3-btn-olive" id="btn-download-workbook" href="#" download>
-                <span class="m3-inline-icon" style="font-size:18px;" aria-hidden="true">📥</span>
-                Download Workbook (.MD)
-              </a>
+              <div class="workbook-view-segmented-control" role="tablist" aria-label="Workbook View Mode">
+                <button type="button" class="m3-quick-mode-btn active" id="btn-workbook-view-default" role="tab" aria-selected="true" title="View Counselor &amp; Scout Markdown Workbook">
+                  📖 Counselor Workbook
+                </button>
+                <button type="button" class="m3-quick-mode-btn" id="btn-workbook-open-fillable-html" role="tab" aria-selected="false" title="View &amp; Edit the Verb-Aligned Fillable Scout Workbook with Guide to Advancement Section 7.0.3.2 Banner">
+                  <span id="btn-open-fillable-scout-workbook">📝 Fillable Form (GTA §7.0.3.2)</span>
+                </button>
+                <button type="button" class="m3-quick-mode-btn" id="btn-workbook-open-cpp" role="tab" aria-selected="false" title="View &amp; Download the 1-Page Class Preparation Page (CPP) &amp; Syllabus Map">
+                  <span id="btn-open-class-prep-cpp">📄 1-Page Class Prep (CPP)</span>
+                </button>
+              </div>
+              <div class="m3-split-btn-group" id="workbook-download-split-group" style="position:relative;">
+                <a class="m3-btn m3-btn-filled m3-split-btn-primary" id="btn-workbook-download-fillable-pdf" href="/api/v1/studiokit/fillable-workbook.pdf?badge_name=First%20Aid" download title="Download Interactive AcroForm Fillable Scout Workbook (.PDF)" style="padding:7px 12px; font-size:0.79rem; font-weight:800; text-decoration:none;">
+                  <span id="btn-fillable-scout-workbook-pdf">📥 Download Workbook (.PDF)</span>
+                </a>
+                <button type="button" class="m3-btn m3-btn-filled m3-split-btn-caret" id="btn-workbook-download-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Workbook Download &amp; Print Options" title="More Workbook Download &amp; Print Options (1-Page CPP PDF, Markdown, Print, Field QR, 3x5 Cue Cards)">▾</button>
+                <div class="m3-split-dropdown-menu hidden" id="workbook-download-menu" role="menu">
+                  <div class="m3-menu-section-label">Workbook &amp; Field Formats</div>
+                  <a class="m3-export-menu-item" id="btn-class-prep-cpp-pdf" href="/api/v1/studiokit/cpp.pdf?badge_name=First%20Aid" download role="menuitem" style="text-decoration:none;">
+                    📄 Download 1-Page CPP (.PDF)
+                  </a>
+                  <a class="m3-export-menu-item m3-btn-olive" id="btn-download-workbook" href="#" download role="menuitem" style="text-decoration:none;">
+                    <span id="btn-download-workbook-md"><span class="m3-inline-icon" style="font-size:18px;" aria-hidden="true">📥</span> Download Workbook (.MD)</span>
+                  </a>
+                  <button type="button" class="m3-export-menu-item" id="btn-print-workbook" role="menuitem">
+                    🖨️ Print Current View
+                  </button>
+                  <button type="button" class="m3-export-menu-item" id="btn-workbook-print-field-qr" role="menuitem" title="Print 1-Page Pocket Field Checklist &amp; QR Handout">
+                    <span id="btn-print-field-qr-handout">🧭 Print 1-Page Field &amp; QR Handout</span>
+                  </button>
+                  <!-- FEATURE C4: PRINTABLE 3x5 COUNSELOR POCKET CUE CARDS -->
+                  <button type="button" class="m3-export-menu-item" id="btn-print-cue-cards" role="menuitem" title="Print 3x5 / 4x6 Counselor Field Pocket Cue Cards ([SAY], [DEMONSTRATE], [ASK SCOUTS])">
+                    🃏 Print 3&times;5 Cue Cards
+                  </button>
+                  <button type="button" class="m3-export-menu-item" id="btn-copy-workbook" role="menuitem">
+                    <span id="btn-copy-workbook-md">📋 Copy Markdown</span>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="m3-markdown-body" id="workbook-markdown-preview"></div>
+          <div id="workbook-markdown-body">
+            <div class="m3-markdown-body" id="workbook-markdown-preview"></div>
+          </div>
         </div>
       </section>
 
@@ -1798,42 +1889,57 @@
             <button type="button" class="m3-studiokit-pill" data-studiokit-filter="FINOPS">📚 4. Grounded Citations &amp; Counselor Rating</button>
           </div>
           <div style="display:flex; gap:6px; flex-wrap:wrap;">
-            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-cpp" title="View &amp; Download the 1-Page Class Preparation Page (CPP) for Scouts &amp; Parents" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
-              📄 1-Page Class Prep (CPP)
-            </button>
-            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-fillable-workbook" title="View &amp; Edit the Verb-Aligned Fillable Scout Workbook (GTA §7.0.3.2)" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
-              📝 Fillable Scout Workbook
-            </button>
-            <a class="m3-btn m3-btn-filled" id="btn-studiokit-download-fillable-pdf" href="/api/v1/studiokit/fillable-workbook.pdf?badge_name=First%20Aid" download title="Download Interactive AcroForm Fillable Scout Workbook (.PDF)" style="padding:6px 11px; font-size:0.77rem; font-weight:800; text-decoration:none;">
-              📥 Workbook (.PDF)
-            </a>
-            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-organizer-spec" title="Open &amp; Print the 1-Page Organizer &amp; Syllabus Catalog Spec Sheet for MBC Deans or Camp Directors" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
-              🏛️ Organizer Spec Sheet
-            </button>
-            <button type="button" class="m3-btn m3-btn-tonal" id="btn-studiokit-print-field-qr" title="Print a 1-Page Front-and-Back Pocket Field Checklist with QR Codes to the Official BSA Pamphlet &amp; Resource Guide" style="padding:6px 11px; font-size:0.77rem; font-weight:700; white-space:nowrap;">
-              🧭 Pocket Field Checklist
-            </button>
+            <div class="m3-split-btn-group" id="studiokit-handouts-split-group" style="position:relative;">
+              <button type="button" class="m3-btn m3-btn-tonal m3-split-btn-primary" id="btn-studiokit-fillable-workbook" title="View &amp; Edit the Verb-Aligned Fillable Scout Workbook (GTA §7.0.3.2)" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
+                <span id="btn-studiokit-open-fillable-workbook">📦 Printable Handouts &amp; Specs</span>
+              </button>
+              <button type="button" class="m3-btn m3-btn-tonal m3-split-btn-caret" id="btn-studiokit-handouts-caret" aria-haspopup="true" aria-expanded="false" aria-label="Toggle Printable Handouts &amp; Specs Menu" title="More Printable Handouts &amp; Specs (Fillable PDF, 1-Page CPP, Organizer Spec Sheet, Pocket Field Checklist)">▾</button>
+              <div class="m3-split-dropdown-menu hidden" id="studiokit-handouts-menu" role="menu">
+                <div class="m3-menu-section-label">Printable Handouts &amp; Specs</div>
+                <a class="m3-export-menu-item" id="btn-studiokit-download-fillable-pdf" href="/api/v1/studiokit/fillable-workbook.pdf?badge_name=First%20Aid" download role="menuitem" title="Download Interactive AcroForm Fillable Scout Workbook (.PDF)" style="text-decoration:none;">
+                  <span id="btn-studiokit-open-fillable-workbook-pdf">📥 Fillable Scout Workbook (.PDF)</span>
+                </a>
+                <button type="button" class="m3-export-menu-item" id="btn-studiokit-cpp" role="menuitem" title="View &amp; Download the 1-Page Class Preparation Page (CPP) for Scouts &amp; Parents">
+                  <span id="btn-studiokit-open-cpp">📄 1-Page Class Prep (CPP)</span>
+                </button>
+                <a class="m3-export-menu-item" id="btn-studiokit-open-cpp-pdf" href="/api/v1/studiokit/cpp.pdf?badge_name=First%20Aid" download role="menuitem" style="text-decoration:none;">
+                  📄 Download 1-Page CPP (.PDF)
+                </a>
+                <button type="button" class="m3-export-menu-item" id="btn-studiokit-organizer-spec" role="menuitem" title="Open &amp; Print the 1-Page Organizer &amp; Syllabus Catalog Spec Sheet for MBC Deans or Camp Directors">
+                  <span id="btn-studiokit-open-organizer-spec">🏛️ Organizer Spec Sheet</span>
+                </button>
+                <button type="button" class="m3-export-menu-item" id="btn-studiokit-print-field-qr" role="menuitem" title="Print a 1-Page Front-and-Back Pocket Field Checklist with QR Codes to the Official BSA Pamphlet &amp; Resource Guide">
+                  🧭 Pocket Field Checklist
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 
         <div id="studiokit-sec-agenda" style="display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); gap:16px; margin-bottom:16px;">
           <!-- SESSION AGENDA WITH MULTI-FORMAT SCHEDULE SELECTOR (F3 & F4) -->
-          <div class="m3-card" style="min-width:0; overflow:hidden;">
+          <div class="m3-card" id="studiokit-subpanel-agenda" style="min-width:0; overflow:visible;">
             <div class="m3-card-header" style="flex-wrap:wrap; gap:8px;">
               <h3 class="m3-card-title">
                 <span class="m3-inline-icon" aria-hidden="true">⏱️</span>
                 Counselor Session Agenda &amp; Lesson Plan
               </h3>
               <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-                <button type="button" class="m3-btn m3-btn-outlined" id="btn-copy-agenda" style="padding:4px 10px; font-size:0.75rem;">
-                  📋 Copy
-                </button>
-                <button type="button" class="m3-btn m3-btn-outlined" id="btn-print-agenda" style="padding:4px 10px; font-size:0.75rem;">
-                  🖨️ Print
-                </button>
-                <button type="button" class="m3-btn m3-btn-outlined" id="btn-download-agenda-md" style="padding:4px 10px; font-size:0.75rem;">
-                  📥 .MD
-                </button>
+                <div class="m3-split-btn-group" id="agenda-actions-split-group" style="position:relative;">
+                  <button type="button" class="m3-btn m3-btn-outlined m3-split-btn-primary" id="btn-print-agenda" style="padding:4px 10px; font-size:0.75rem;">
+                    🖨️ Print Agenda
+                  </button>
+                  <button type="button" class="m3-btn m3-btn-outlined m3-split-btn-caret" id="btn-agenda-actions-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Agenda Export Options" title="More Agenda Options (Download .MD, Copy)">▾</button>
+                  <div class="m3-split-dropdown-menu hidden" id="agenda-actions-menu" role="menu">
+                    <div class="m3-menu-section-label">Agenda Export</div>
+                    <button type="button" class="m3-export-menu-item" id="btn-download-agenda-md" role="menuitem">
+                      📥 Download Agenda (.MD)
+                    </button>
+                    <button type="button" class="m3-export-menu-item" id="btn-copy-agenda" role="menuitem">
+                      <span id="btn-copy-agenda-md">📋 Copy Agenda</span>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -1870,7 +1976,7 @@
           </div>
 
           <!-- PREREQUISITE & PARENT WELCOME LETTER WITH 1-CLICK COPY, MAILTO, GMAIL & PRINT (F4) -->
-          <div class="m3-card" style="min-width:0; overflow:hidden;">
+          <div class="m3-card" id="studiokit-subpanel-letter" style="min-width:0; overflow:visible;">
             <div class="m3-card-header" style="flex-wrap:wrap; gap:8px;">
               <div>
                 <h3 class="m3-card-title">
@@ -1878,25 +1984,36 @@
                   Prerequisite &amp; Parent Welcome Letter (YPT-Compliant)
                 </h3>
                 <div style="font-size:0.75rem; color:var(--md-sys-color-on-surface-variant); margin-top:2px;">
-                  Click <strong>Draft in Email App</strong> or <strong>Compose in Gmail</strong> to launch a pre-filled email draft ready to send to Troop families (and auto-copy the letter text).
+                  Click <strong>Compose in Gmail</strong> or open the menu for <strong>Draft in Email App</strong>, <strong>Print</strong>, <strong>.MD</strong>, or <strong>Copy</strong>.
                 </div>
               </div>
               <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-                <button type="button" class="m3-btn m3-btn-outlined" id="btn-copy-letter" style="padding:4px 10px; font-size:0.75rem;">
-                  📋 Copy
-                </button>
-                <button type="button" class="m3-btn m3-btn-tonal" id="btn-mailto-letter" title="Opens your default Email app with Subject &amp; Parent Prerequisite Letter pre-filled (also copies to clipboard)" style="padding:4px 10px; font-size:0.75rem;">
-                  ✉️ Draft in Email App
-                </button>
-                <button type="button" class="m3-btn m3-btn-tonal" id="btn-gmail-letter" title="Opens a new Gmail Compose tab with Subject &amp; Parent Prerequisite Letter pre-filled" style="padding:4px 10px; font-size:0.75rem;">
-                  📨 Compose in Gmail
-                </button>
-                <button type="button" class="m3-btn m3-btn-outlined" id="btn-print-letter" style="padding:4px 10px; font-size:0.75rem;">
-                  🖨️ Print
-                </button>
-                <button type="button" class="m3-btn m3-btn-outlined" id="btn-download-letter-md" style="padding:4px 10px; font-size:0.75rem;">
-                  📥 .MD
-                </button>
+                <div class="workbook-view-segmented-control" id="letter-stage-pill-group" role="tablist" aria-label="Parent Communication Stage">
+                  <button type="button" class="m3-quick-mode-btn active" id="letter-stage-1-btn" data-letter-stage="stage_1_welcome_cpp" title="Stage 1: T-14 Days Welcome &amp; Class Prep Letter">1️⃣ Welcome</button>
+                  <button type="button" class="m3-quick-mode-btn" id="letter-stage-2-btn" data-letter-stage="stage_2_mid_clinic_alert" title="Stage 2: Mid-Clinic Partial &amp; Homework Check-In">2️⃣ Mid-Clinic</button>
+                  <button type="button" class="m3-quick-mode-btn" id="letter-stage-3-btn" data-letter-stage="stage_3_final_packet" title="Stage 3: Final Completion &amp; Blue Card Packet">3️⃣ Final</button>
+                </div>
+                <div class="m3-split-btn-group" id="letter-actions-split-group" style="position:relative;">
+                  <button type="button" class="m3-btn m3-btn-tonal m3-split-btn-primary" id="btn-gmail-letter" title="Opens a new Gmail Compose tab with Subject &amp; Parent Prerequisite Letter pre-filled" style="padding:4px 10px; font-size:0.75rem;">
+                    📨 Compose in Gmail
+                  </button>
+                  <button type="button" class="m3-btn m3-btn-tonal m3-split-btn-caret" id="btn-letter-actions-caret" aria-haspopup="true" aria-expanded="false" aria-label="More Parent Letter Actions" title="More Parent Letter Options (Draft in Email App, Print, Download .MD, Copy)">▾</button>
+                  <div class="m3-split-dropdown-menu hidden" id="letter-actions-menu" role="menu">
+                    <div class="m3-menu-section-label">Parent Letter Export</div>
+                    <button type="button" class="m3-export-menu-item" id="btn-mailto-letter" role="menuitem" title="Opens your default Email app with Subject &amp; Parent Prerequisite Letter pre-filled (also copies to clipboard)">
+                      <span id="btn-mailto-parent-letter">✉️ Draft in Email App</span>
+                    </button>
+                    <button type="button" class="m3-export-menu-item" id="btn-print-letter" role="menuitem">
+                      🖨️ Print Letter
+                    </button>
+                    <button type="button" class="m3-export-menu-item" id="btn-download-letter-md" role="menuitem">
+                      📥 Download Letter (.MD)
+                    </button>
+                    <button type="button" class="m3-export-menu-item" id="btn-copy-letter" role="menuitem">
+                      <span id="btn-copy-letter-md">📋 Copy Letter</span>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="m3-markdown-body" id="studiokit-letter-preview"></div>
@@ -2746,8 +2863,6 @@
           <input type="search" class="m3-input" id="patch-gallery-search-input" placeholder="🔎 Search 149 patches..." style="width:190px; padding:6px 10px; font-size:0.80rem;" />
           <select class="m3-select" id="patch-gallery-category-select" aria-label="Filter Patch Gallery by Category" style="width:auto; padding:6px 10px; font-size:0.80rem;">
             <option value="ALL">All Categories</option>
-            <option value="TEST_LAB">🧪 Test Lab Pilot (5)</option>
-            <option value="MULTI_OPTION">Multi-Option Badges (18)</option>
           </select>
           <select class="m3-select" id="patch-gallery-filter-select" aria-label="Filter Patch Gallery by Eagle, Test Lab, or Favorites Status" style="width:auto; padding:6px 10px; font-size:0.80rem;">
             <option value="ALL">All 149 Badges</option>

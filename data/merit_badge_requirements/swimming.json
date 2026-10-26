@@ -40,30 +40,45 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 1a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Unfenced residential pools",
+              "Nonswimmers entering deep water",
+              "Risky behaviors",
+              "Medical impairment in the water",
+              "Drop-offs",
+              "Cold water"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1a is enough for Swimming Requirement 1a sign-off.",
-            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 1a grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 1a grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)"
           },
-          "starting_requirement_gate": null,
+          "starting_requirement_gate": {
+            "gate_type": "HARD_PREREQ_BADGE",
+            "gate_label": "BSA Swimmer Classification Gate",
+            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+            "blocking_in_class": true
+          },
           "curated_resources": [
             {
               "title": "Official Scouting America Swimming Merit Badge Hub (Req 1a)",
@@ -101,24 +116,38 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
+            ],
+            "column_headers": [
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Hypothermia",
+              "Dehydration",
+              "Sunburn",
+              "Heat exhaustion",
+              "Heatstroke",
+              "Muscle cramps",
+              "Hyperventilation",
+              "Spinal injury"
             ],
-            "min_rows": 3,
+            "min_rows": 8,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Swimming Requirement 1b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Swimming pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)"
           },
           "starting_requirement_gate": null,
@@ -182,29 +211,40 @@
       "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 1 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Review with your counselor how Scouting America's Safe Swim Defense",
+          "(b) Discuss the prevention and treatment of health concerns that could occur"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Review with your counselor how Scouting is enough for Swimming Requirement 1 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Review with your counselor how Scouting grounded in the official Swimming pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Review with your counselor how Scouting grounded in the official Swimming pamphlet.",
+        "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+        "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+        "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
         "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)"
       },
-      "starting_requirement_gate": null,
+      "starting_requirement_gate": {
+        "gate_type": "HARD_PREREQ_BADGE",
+        "gate_label": "BSA Swimmer Classification Gate",
+        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+        "blocking_in_class": true
+      },
       "curated_resources": [
         {
           "title": "Official Scouting America Swimming Merit Badge Hub (Req 1)",
@@ -228,7 +268,7 @@
       "pamphlet_excerpts": [
         "Spinal Injuries Occur: Spinal injuries can occur from diving into shallow orobstructed water.",
         "Rescuers Careful: Rescuers must be very careful when a spinalinjury is suspected.",
-        "Spinal Injuries Fatal: Spinal injuries can be fatal or can causeparalysis.",
+        "Spinal Injuries Fatal: Spinal injuries can be fatal or can cause paralysis.",
         "Victim Not Handled: If the victim is not handled properly, additional serious injury could result."
       ],
       "step_by_step_procedure": [
@@ -312,25 +352,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Before doing the following requirements, successfully complete",
+          "2. Key Pamphlet Examples & Evidence (Req 2)",
+          "3. Practical Explain & Safety Verification"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Requirements is enough for Swimming Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Requirements grounded in the official Swimming pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Requirements grounded in the official Swimming pamphlet.",
+        "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+        "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+        "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
         "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 8, p. 18)"
       },
-      "starting_requirement_gate": null,
+      "starting_requirement_gate": {
+        "gate_type": "HARD_PREREQ_BADGE",
+        "gate_label": "BSA Swimmer Classification Gate",
+        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+        "blocking_in_class": true
+      },
       "curated_resources": [
         {
           "title": "Official Scouting America Swimming Merit Badge Hub (Req 2)",
@@ -409,27 +459,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 3a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate the front crawl or the trudgen using good form",
+              "Pamphlet Standard & Key Facts (3a)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Swimming Requirement 3a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3a grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3a grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
           },
           "starting_requirement_gate": null,
@@ -474,27 +531,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 3b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate the back crawl using good form",
+              "Pamphlet Standard & Key Facts (3b)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Swimming Requirement 3b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3b grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3b grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
           },
           "starting_requirement_gate": null,
@@ -535,27 +599,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 3c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate the sidestroke using good form",
+              "Pamphlet Standard & Key Facts (3c)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3c is enough for Swimming Requirement 3c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3c grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3c grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
           },
           "starting_requirement_gate": null,
@@ -604,27 +675,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 3d Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate the breaststroke using good form",
+              "Pamphlet Standard & Key Facts (3d)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3d is enough for Swimming Requirement 3d sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3d grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3d grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
           },
           "starting_requirement_gate": null,
@@ -665,27 +743,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 3e Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate the elementary backstroke using good form",
+              "Pamphlet Standard & Key Facts (3e)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3e is enough for Swimming Requirement 3e sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3e grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3e grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
           },
           "starting_requirement_gate": null,
@@ -769,26 +854,35 @@
       "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Demonstrate the front crawl or the trudgen using good form",
+          "(b) Demonstrate the back crawl using good form",
+          "(c) Demonstrate the sidestroke using good form",
+          "(d) Demonstrate the breaststroke using good form",
+          "(e) Demonstrate the elementary backstroke using good form"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Swimming Strokes is enough for Swimming Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Swimming Strokes grounded in the official Swimming pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Swimming Strokes grounded in the official Swimming pamphlet.",
+        "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+        "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+        "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
         "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)"
       },
       "starting_requirement_gate": null,
@@ -814,7 +908,7 @@
       ],
       "pamphlet_excerpts": [
         "Earn Swimming: To earn the Swimming merit badge you must demonstrateyour swimming strength and stroke proficiency byswimming 150 yards using a combination of fivestrokes.",
-        "Yourbreaststroke Vigorous: If yourbreaststroke is a vigorous, bobbing stroke as usedin competition, it is not satisfactory for this requirement.",
+        "Your breaststroke Vigorous: If your breaststroke is a vigorous, bobbing stroke as usedin competition, it is not satisfactory for this requirement.",
         "Doing Backstroke Frog: Doing the backstroke using a frog kick rather than a whip kick also is unacceptable for this requirement.",
         "Required Swim Specified: You also are required to swim the specified strokes in a “strong manner.” This means no rest stops and no gasping, panting finishes."
       ],
@@ -884,26 +978,36 @@
       "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 53)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Swim continuously for 150 yards in a strong manner using each",
+          "2. Front crawl or trudgen (25 yards)",
+          "3. Back crawl (25 yards)",
+          "4. Sidestroke (25 yards)",
+          "5. Breaststroke (25 yards)",
+          "6. And elementary backstroke (50 yards)"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Swim continuously for 150 yards is enough for Swimming Requirement 4 sign-off.",
-        "fact": "Each Scout must actively swim the specific principles and real-world steps of Swim continuously for 150 yards grounded in the official Swimming pamphlet.",
-        "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Swim continuously for 150 yards grounded in the official Swimming pamphlet.",
+        "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+        "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+        "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
         "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 53)"
       },
       "starting_requirement_gate": null,
@@ -929,7 +1033,7 @@
       ],
       "pamphlet_excerpts": [
         "Earn Swimming: To earn the Swimming merit badge you must demonstrateyour swimming strength and stroke proficiency byswimming 150 yards using a combination of fivestrokes.",
-        "Yourbreaststroke Vigorous: If yourbreaststroke is a vigorous, bobbing stroke as usedin competition, it is not satisfactory for this requirement.",
+        "Your breaststroke Vigorous: If your breaststroke is a vigorous, bobbing stroke as usedin competition, it is not satisfactory for this requirement.",
         "Doing Backstroke Frog: Doing the backstroke using a frog kick rather than a whip kick also is unacceptable for this requirement.",
         "Required Swim Specified: You also are required to swim the specified strokes in a “strong manner.” This means no rest stops and no gasping, panting finishes."
       ],
@@ -976,27 +1080,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 5a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate water rescue methods by reaching with your arm or leg",
+              "2. Explain why swimming rescues should not be attempted when a reaching"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Swimming Requirement 5a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5a grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5a grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)"
           },
           "starting_requirement_gate": null,
@@ -1032,27 +1142,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 5b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. With a helper and a practice victim, show a line rescue both as tender",
+              "2. The practice victim should be approximately 30 feet from shore in deep water"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Swimming Requirement 5b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5b grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 5b grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)"
           },
           "starting_requirement_gate": null,
@@ -1099,26 +1215,32 @@
       "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Demonstrate water rescue methods by reaching with your arm or leg",
+          "(b) With a helper and a practice victim, show a line rescue both as tender"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Water rescue methods by reaching is enough for Swimming Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Water rescue methods by reaching grounded in the official Swimming pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Water rescue methods by reaching grounded in the official Swimming pamphlet.",
+        "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+        "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+        "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
         "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)"
       },
       "starting_requirement_gate": null,
@@ -1145,7 +1267,7 @@
       "pamphlet_excerpts": [
         "Spinal Injuries Occur: Spinal injuries can occur from diving into shallow orobstructed water.",
         "Rescuers Careful: Rescuers must be very careful when a spinalinjury is suspected.",
-        "Spinal Injuries Fatal: Spinal injuries can be fatal or can causeparalysis.",
+        "Spinal Injuries Fatal: Spinal injuries can be fatal or can cause paralysis.",
         "Victim Not Handled: If the victim is not handled properly, additional serious injury could result."
       ],
       "step_by_step_procedure": [
@@ -1197,23 +1319,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6a Structured Study & Explanation Notes",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Float faceup in a resting position for at least three minutes with minimal movement",
+              "Pamphlet Standard & Key Facts (6a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6a is enough for Swimming Requirement 6a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)"
           },
           "starting_requirement_gate": null,
@@ -1249,27 +1376,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 6b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate survival floating for at least five minutes",
+              "Pamphlet Standard & Key Facts (6b)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Swimming Requirement 6b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6b grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6b grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)"
           },
           "starting_requirement_gate": null,
@@ -1310,27 +1444,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 6c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. While wearing a properly fitted U.S",
+              "2. Coast Guard-approved life jacket, demonstrate the HELP and huddle positions",
+              "3. Explain their purposes"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6c is enough for Swimming Requirement 6c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6c grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6c grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)"
           },
           "starting_requirement_gate": null,
@@ -1367,23 +1508,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6d Structured Study & Explanation Notes",
             "headers": [
-              "Req 6d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain why swimming or survival floating will hasten the onset of hypothermia in cold water",
+              "Pamphlet Standard & Key Facts (6d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6d is enough for Swimming Requirement 6d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Swimming pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)"
           },
           "starting_requirement_gate": null,
@@ -1439,26 +1585,34 @@
       "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 6 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Float faceup in a resting position for at least three minutes with minimal",
+          "(b) Demonstrate survival floating for at least five minutes",
+          "(c) While wearing a properly fitted U.S",
+          "(d) Explain why swimming or survival floating will hasten the onset"
         ],
         "min_rows": 4,
-        "pre_approval_gate": false
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Float faceup in a resting position is enough for Swimming Requirement 6 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Float faceup in a resting position grounded in the official Swimming pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Float faceup in a resting position grounded in the official Swimming pamphlet.",
+        "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+        "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+        "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
         "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)"
       },
       "starting_requirement_gate": null,
@@ -1492,7 +1646,7 @@
         "Vigorous Swimming Chill: Vigorous swimming will chill you mostrapidly when treading water. rapidly.",
         "Treading Water Tiring: Treading water is tiring and will produce heat loss almost as rapidly as swimming.",
         "Yourself Deep Water: What if you find yourself in deep water without flotation support and too far from shore to swim?.",
-        "Perhaps Sweptout Sea: Perhaps you were sweptout to sea by an unusually strong current or thrown overboardfrom a boat in strong waves."
+        "Perhaps Sweptout Sea: Perhaps you were sweptout to sea by an unusually strong current or thrown overboard from a boat in strong waves."
       ],
       "gear_checklist": [
         "Official Swimming Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
@@ -1537,23 +1691,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7a Structured Study & Explanation Notes",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Use the feetfirst method of surface diving and bring an object up from the bottom",
+              "Pamphlet Standard & Key Facts (7a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Swimming Requirement 7a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)"
           },
           "starting_requirement_gate": null,
@@ -1595,23 +1754,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7b Structured Study & Explanation Notes",
             "headers": [
-              "Req 7b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Do a headfirst surface dive (pike or tuck), and bring the object up again",
+              "Pamphlet Standard & Key Facts (7b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Swimming Requirement 7b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)"
           },
           "starting_requirement_gate": null,
@@ -1647,27 +1811,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 7c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Do a headfirst surface dive to a depth of at least 5 feet and swim underwater",
+              "2. Come to the surface, take a breath, and repeat the sequence twice"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7c is enough for Swimming Requirement 7c sign-off.",
-            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 7c grounded in the official Swimming pamphlet.",
-            "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 7c grounded in the official Swimming pamphlet.",
+            "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+            "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+            "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
             "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)"
           },
           "starting_requirement_gate": null,
@@ -1724,22 +1894,27 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Use the feetfirst method of surface diving and bring an object up",
+          "(b) Do a headfirst surface dive (pike or tuck), and bring the object up again",
+          "(c) Do a headfirst surface dive to a depth of at least 5 feet and swim underwater"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of In water over your head, but is enough for Swimming Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of In water over your head, but grounded in the official Swimming pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of In water over your head, but grounded in the official Swimming pamphlet.",
+        "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+        "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+        "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
         "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)"
       },
       "starting_requirement_gate": null,
@@ -1764,7 +1939,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Easiest Way Headfirst: The easiest way to do the headfirst pike surface dive is whilemoving forward with a breaststroke.",
+        "Easiest Way Headfirst: The easiest way to do the headfirst pike surface dive is while moving forward with a breaststroke.",
         "Then Reverse Direction: Then reverse the direction ofyour arm stroke while lifting your legs out of the water and intothe air.",
         "Streamlined Position Weight: In this streamlined position, the weight of your legs above the water will drive you downward.",
         "Happen Quickly Inone: It all should happen quickly inone smooth motion."
@@ -1822,26 +1997,32 @@
       "pamphlet_page_citation": "Official Scouting America Swimming Merit Badge Pamphlet (p. 15, p. 57)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 8 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Following the guidelines set in the Scouting America Safe Swim Defense",
+          "2. Show a long shallow dive, also from the dock or pool deck"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Surface Dives is enough for Swimming Requirement 8 sign-off.",
-        "fact": "Each Scout must actively swim the specific principles and real-world steps of Surface Dives grounded in the official Swimming pamphlet.",
-        "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Surface Dives grounded in the official Swimming pamphlet.",
+        "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+        "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+        "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
         "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 15, p. 57)"
       },
       "starting_requirement_gate": null,
@@ -1869,7 +2050,7 @@
         "Elevated Entry Permitted: No elevated entry is permitted where the person mustclear any obstacle, including jumping or diving over land.",
         "Water Less Than: In water with less than 7 feet of unobstructed depth, diving is not permitted and water entry must be feetfirst.",
         "Leaping Entry: A leaping entry is recommendedwhere water is at or above head level.",
-        "Step-down Jump-down: A step-down or jump-down entryfrom a sitting position is recommended for shallower water."
+        "Step-down Jump-down: A step-down or jump-down entry from a sitting position is recommended for shallower water."
       ],
       "step_by_step_procedure": [
         "Attemptto Plunge Headfirst: Never attemptto plunge headfirst below waves at a beach.",
@@ -1934,22 +2115,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Study & Explanation Notes",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Explain the health benefits of regular aerobic exercise",
+          "2. Discuss why swimming is favored as both fitness and therapeutic exercise"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The health benefits of regular aerobic is enough for Swimming Requirement 9 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The health benefits of regular aerobic grounded in the official Swimming pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The health benefits of regular aerobic grounded in the official Swimming pamphlet.",
+        "misconception": "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water.",
+        "fact": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
+        "fact_correction": "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks.",
         "pamphlet_page_ref": "Official Scouting America Swimming Merit Badge Pamphlet (p. 62, p. 63)"
       },
       "starting_requirement_gate": null,
@@ -1976,7 +2161,7 @@
       "pamphlet_excerpts": [
         "Regular Exercise Single: Regular exercise may be the single most important thing aperson can do to live a long and healthy life.",
         "Studies Ofpeople Live: Studies ofpeople who live to great ages, into their 90s andbeyond, indicate that these people have at least onething in common: regular, consistent.",
-        "Whileexercise Wide Variety: Whileexercise has a wide variety of benefits, the mostremarkable are the prevention of heart disease and the strengthening of bones.",
+        "While exercise Wide Variety: While exercise has a wide variety of benefits, the mostremarkable are the prevention of heart disease and the strengthening of bones.",
         "Relationship Exercise Heart: The relationship between exercise and heart diseasehas been investigated extensively."
       ],
       "step_by_step_procedure": [

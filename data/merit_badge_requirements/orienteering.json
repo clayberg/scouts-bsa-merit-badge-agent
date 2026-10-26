@@ -54,26 +54,37 @@
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+        "table_title": "Req 1 Symptoms, First Aid & Prevention Matrix",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Condition / Injury",
+          "Symptoms & Signs",
+          "First Aid / Treatment",
+          "Prevention"
+        ],
+        "column_headers": [
+          "Condition / Injury",
+          "Symptoms & Signs",
+          "First Aid / Treatment",
+          "Prevention"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "Types of injuries that could occur while orienteering: cuts",
+          "Scratches",
+          "Blisters",
+          "Snakebite",
+          "Insect stings",
+          "Tick bites",
+          "Heat",
+          "Cold reactions (sunburn"
         ],
-        "min_rows": 4,
+        "min_rows": 8,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Orienteering hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Orienteering prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Orienteering prevents most field injuries.",
+        "misconception": "Inducing vomiting is the fastest first-aid response whenever someone swallows a household poison.",
+        "fact": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
+        "fact_correction": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
         "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)"
       },
       "starting_requirement_gate": null,
@@ -99,9 +110,9 @@
       ],
       "pamphlet_excerpts": [
         "Orienteering Physically: Orienteering is a physically demanding activity that takesplace over several kilometers of very mixed and often ruggedterrain.",
-        "Hot Weather Result: Hot weather may result in sunburn, heatstroke, heatexhaustion, and dehydration, while cold weather can lead tohypothermia and dehydration.",
+        "Hot Weather Result: Hot weather may result in sunburn, heatstroke, heatexhaustion, and dehydration, while cold weather can lead to hypothermia and dehydration.",
         "Hurry Youmight Stumble: In the hurry to be first, youmight stumble onto dangerous animals or poisonous plants.",
-        "Spend Fewminutes: Before going out, spend a fewminutes reviewingpossible injuriesand theirtreatment."
+        "Spend Fewminutes: Before going out, spend a fewminutes reviewingpossible injuriesand their treatment."
       ],
       "step_by_step_procedure": [
         "Thing Prevent Injury: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit before going out on an orienteeringcourse.",
@@ -185,22 +196,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Explain what orienteering is",
+          "Pamphlet Standard & Key Facts (2)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Orienteering is is enough for Orienteering Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Orienteering is grounded in the official Orienteering pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Orienteering is grounded in the official Orienteering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain what orienteering is.",
+        "fact": "Scouts must explain explain what orienteering is using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 14).",
+        "fact_correction": "Scouts must explain explain what orienteering is using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 14).",
         "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)"
       },
       "starting_requirement_gate": null,
@@ -279,23 +295,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Study & Explanation Notes",
             "headers": [
-              "Req 3a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain how a compass works",
+              "2. Describe the features of an orienteering compass"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Orienteering Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how a compass works.",
+            "fact": "Scouts must explain explain how a compass works using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20).",
+            "fact_correction": "Scouts must explain explain how a compass works using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)"
           },
           "starting_requirement_gate": null,
@@ -337,26 +357,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 3b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "In the field, show how to take a compass bearing and follow it",
+              "Pamphlet Standard & Key Facts (3b)",
+              "Field Application & Counselor Verification (Show)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Orienteering Requirement 3b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 3b grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 3b grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on in the field, show how to take a compass bearing and follow it.",
+            "fact": "Scouts must show in the field, show how to take a compass bearing and follow it using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20).",
+            "fact_correction": "Scouts must show in the field, show how to take a compass bearing and follow it using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)"
           },
           "starting_requirement_gate": null,
@@ -413,25 +440,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain how a compass works. Describe the features of an orienteering compass",
+          "(b) In the field, show how to take a compass bearing and follow it"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of A compass works is enough for Orienteering Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of A compass works grounded in the official Orienteering pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of A compass works grounded in the official Orienteering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how a compass works. describe the features of an orienteering compass.",
+        "fact": "Scouts must demonstrate explain how a compass works. describe the features of an orienteering compass using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20).",
+        "fact_correction": "Scouts must demonstrate explain how a compass works. describe the features of an orienteering compass using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20).",
         "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)"
       },
       "starting_requirement_gate": null,
@@ -463,7 +496,7 @@
       ],
       "step_by_step_procedure": [
         "Bearing Degrees Points: The bearing is 244 degrees from “A” to “B.” (Points “A” and “B” can be seen in the top photo on page 21.).",
-        "Thumb Compassrides Thumb: The thumb compassrides on the thumb andsimplifies map orientationand direction finding whileyou are on the move.",
+        "Thumb Compassrides Thumb: The thumb compassrides on the thumb andsimplifies map orientationand direction finding while you are on the move.",
         "Itsuffers Bit Accuracy: Itsuffers a bit in accuracy, however, especially in thehands of a novice.",
         "Bearing Index: The bearing index and direction-of-travel arrow are located onthe baseplate."
       ],
@@ -518,23 +551,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Study & Explanation Notes",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain how a topographic map shows terrain features",
+              "2. Point out and name five terrain features on a map and in the field"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Orienteering Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how a topographic map shows terrain features.",
+            "fact": "Scouts must explain explain how a topographic map shows terrain features using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
+            "fact_correction": "Scouts must explain explain how a topographic map shows terrain features using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)"
           },
           "starting_requirement_gate": null,
@@ -571,23 +608,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Point out and name 10 symbols on a topographic map",
+              "Pamphlet Standard & Key Facts (4b)",
+              "Field Application & Counselor Verification (Name)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Orienteering Requirement 4b sign-off.",
-            "fact": "Each Scout must actively name the specific principles and real-world steps of Req 4b grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Req 4b grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on point out and name 10 symbols on a topographic map.",
+            "fact": "Scouts must name point out and name 10 symbols on a topographic map using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
+            "fact_correction": "Scouts must name point out and name 10 symbols on a topographic map using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)"
           },
           "starting_requirement_gate": null,
@@ -629,23 +671,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4c Structured Study & Explanation Notes",
             "headers": [
-              "Req 4c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the meaning of declination",
+              "2. Tell why you must consider declination when using map and compass together"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4c is enough for Orienteering Requirement 4c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the meaning of declination.",
+            "fact": "Scouts must explain explain the meaning of declination using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
+            "fact_correction": "Scouts must explain explain the meaning of declination using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)"
           },
           "starting_requirement_gate": null,
@@ -682,26 +728,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4d Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Show a topographic map with magnetic north-south lines",
+              "Pamphlet Standard & Key Facts (4d)",
+              "Field Application & Counselor Verification (Show)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4d is enough for Orienteering Requirement 4d sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4d grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 4d grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show a topographic map with magnetic north-south lines.",
+            "fact": "Scouts must show show a topographic map with magnetic north-south lines using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
+            "fact_correction": "Scouts must show show a topographic map with magnetic north-south lines using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)"
           },
           "starting_requirement_gate": null,
@@ -737,27 +790,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 4e Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Show how to measure distances on a map using an orienteering compass",
+              "Pamphlet Standard & Key Facts (4e)",
+              "Field Application & Counselor Verification (Show)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4e is enough for Orienteering Requirement 4e sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4e grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 4e grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to measure distances on a map using an orienteering compass.",
+            "fact": "Scouts must show show how to measure distances on a map using an orienteering compass using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
+            "fact_correction": "Scouts must show show how to measure distances on a map using an orienteering compass using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)"
           },
           "starting_requirement_gate": null,
@@ -793,27 +853,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 4f Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Show how to orient a map using a compass",
+              "Pamphlet Standard & Key Facts (4f)",
+              "Field Application & Counselor Verification (Show)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4f is enough for Orienteering Requirement 4f sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 4f grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 4f grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to orient a map using a compass.",
+            "fact": "Scouts must show show how to orient a map using a compass using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
+            "fact_correction": "Scouts must show show how to orient a map using a compass using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)"
           },
           "starting_requirement_gate": null,
@@ -870,25 +937,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain how a topographic map shows terrain features",
+          "(b) Point out and name 10 symbols on a topographic map",
+          "(c) Explain the meaning of declination",
+          "(d) Show a topographic map with magnetic north-south lines",
+          "(e) Show how to measure distances on a map using an orienteering compass",
+          "(f) Show how to orient a map using a compass"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of A topographic map shows terrain features is enough for Orienteering Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of A topographic map shows terrain features grounded in the official Orienteering pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of A topographic map shows terrain features grounded in the official Orienteering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how a topographic map shows terrain features.",
+        "fact": "Scouts must demonstrate explain how a topographic map shows terrain features using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
+        "fact_correction": "Scouts must demonstrate explain how a topographic map shows terrain features using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21).",
         "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)"
       },
       "starting_requirement_gate": null,
@@ -977,22 +1054,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Set up a 100-meter pace course",
+          "2. Determine your walking and running pace for 100 meters",
+          "3. Tell why it is important to pace-count"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Set up a 100-meter pace course is enough for Orienteering Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Set up a 100-meter pace course grounded in the official Orienteering pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Set up a 100-meter pace course grounded in the official Orienteering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on set up a 100-meter pace course.",
+        "fact": "Scouts must explain set up a 100-meter pace course using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27).",
+        "fact_correction": "Scouts must explain set up a 100-meter pace course using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27).",
         "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)"
       },
       "starting_requirement_gate": null,
@@ -1017,9 +1099,9 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Timeorienteers Switchfrom: Every timeorienteers switchfrom walking torunning or thereverse, they mustmentally adjustthe pace and timeas well.",
+        "Timeorienteers Switch from: Every timeorienteers switch from walking torunning or thereverse, they mustmentally adjustthe pace and timeas well.",
         "Once Laid Out: Once you have laid out the course, start at the beginningand walk the length of it, counting the number of paces andrecording the time it takes you to reach.",
-        "Yourwalking Pace Time: This is yourwalking pace and time per 100 meters.",
+        "Your walking Pace Time: This is your walking pace and time per 100 meters.",
         "Moreaccurate Measure Walk: You will get a moreaccurate measure if you walk the course two or more timesand then divide the total paces and minutes by the totalmeters walked."
       ],
       "step_by_step_procedure": [
@@ -1071,23 +1153,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6a Structured Study & Explanation Notes",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Identify 20 international control description symbols",
+              "2. Tell the meaning of each symbol"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6a is enough for Orienteering Requirement 6a sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 6a grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 6a grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify 20 international control description symbols.",
+            "fact": "Scouts must identify identify 20 international control description symbols using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42).",
+            "fact_correction": "Scouts must identify identify 20 international control description symbols using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)"
           },
           "starting_requirement_gate": null,
@@ -1129,23 +1215,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Study & Explanation Notes",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Show a control description sheet and explain the information provided",
+              "Pamphlet Standard & Key Facts (6b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Orienteering Requirement 6b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show a control description sheet and explain the information provided.",
+            "fact": "Scouts must explain show a control description sheet and explain the information provided using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42).",
+            "fact_correction": "Scouts must explain show a control description sheet and explain the information provided using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)"
           },
           "starting_requirement_gate": null,
@@ -1187,24 +1278,29 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 6c Differential Comparison Matrix",
             "headers": [
               "Concept / Method A",
               "Concept / Method B",
               "Key Field Distinction & When to Use"
             ],
-            "row_labels": [
-              "Primary Mechanism",
-              "Field Indicator",
-              "Safety / Application"
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
             ],
-            "min_rows": 3,
+            "row_labels": [
+              "1. When you would use them: attack point, collecting feature, catching",
+              "2. Rough versus fine orienteering"
+            ],
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6c is enough for Orienteering Requirement 6c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on when you would use them: attack point, collecting feature, catching.",
+            "fact": "Scouts must explain when you would use them: attack point, collecting feature, catching using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42).",
+            "fact_correction": "Scouts must explain when you would use them: attack point, collecting feature, catching using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)"
           },
           "starting_requirement_gate": null,
@@ -1265,23 +1361,29 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 6 Differential Comparison Matrix",
         "headers": [
           "Concept / Method A",
           "Concept / Method B",
           "Key Field Distinction & When to Use"
         ],
+        "column_headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
+        ],
         "row_labels": [
-          "Primary Mechanism",
-          "Field Indicator",
-          "Safety / Application"
+          "(a) Identify 20 international control description symbols",
+          "(b) Show a control description sheet and explain the information provided",
+          "(c) Explain the following terms and tell when you would use them: attack point"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of 20 international control description symbols is enough for Orienteering Requirement 6 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of 20 international control description symbols grounded in the official Orienteering pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of 20 international control description symbols grounded in the official Orienteering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify 20 international control description symbols.",
+        "fact": "Scouts must demonstrate identify 20 international control description symbols using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42).",
+        "fact_correction": "Scouts must demonstrate identify 20 international control description symbols using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42).",
         "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)"
       },
       "starting_requirement_gate": null,
@@ -1308,11 +1410,11 @@
       "pamphlet_excerpts": [
         "Arriveat Linear Feature: If you arriveat the linear feature and do not see the control, you will thenknow which way to turn to find it.",
         "Map Easy Reach: In this map, it would be easy to reach the road and not besure what direction the control lies.",
-        "Candeliberately Aim Few: To prevent this, you candeliberately aim a few meters south of the control so youknow to turn north when you get to the road.",
+        "Can deliberately Aim Few: To prevent this, you can deliberately aim a few meters south of the control so youknow to turn north when you get to the road.",
         "Mental Picture Terrain: Keep a clear mental picture of the terrain that you will passthrough."
       ],
       "step_by_step_procedure": [
-        "Read Map Few: Read the map every few seconds, think beyond yourlocation, and plan ahead.",
+        "Read Map Few: Read the map every few seconds, think beyond your location, and plan ahead.",
         "Way Practice Readingahead: The best way to practice readingahead is to take time at the beginning of the course and aftereach control to make sure you understand what.",
         "Oriented Moment Travelingand: It is just as important to keep oriented every moment while you are travelingand to keep an eye on what lies ahead.",
         "Search Next Control: The search for the next control point in an orienteering problem often can be divided into two distinct phases: the roughorienteering phase."
@@ -1368,23 +1470,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7a Structured Study & Explanation Notes",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Take part in three orienteering events",
+              "2. One of these must be a cross-country course",
+              "3. Requirement 7(a) can be completed by pairs or groups of Scouts"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Orienteering Requirement 7a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on take part in three orienteering events.",
+            "fact": "Scouts must explain take part in three orienteering events using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
+            "fact_correction": "Scouts must explain take part in three orienteering events using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)"
           },
           "starting_requirement_gate": null,
@@ -1421,23 +1528,29 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7b Structured Study & Explanation Notes",
             "headers": [
-              "Req 7b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "(1) A copy of the master map and control description sheet",
+              "(2) A copy of the route you took on the course",
+              "(3) A discussion of how you could improve your time between control points, and",
+              "(4) A list of your major weaknesses on this course"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Orienteering Requirement 7b sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 7b grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 7b grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on a copy of the master map and control description sheet.",
+            "fact": "Scouts must write a copy of the master map and control description sheet using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
+            "fact_correction": "Scouts must write a copy of the master map and control description sheet using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)"
           },
           "starting_requirement_gate": null,
@@ -1485,25 +1598,35 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 7 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Take part in three orienteering events",
+          "(a) Can be completed by pairs or groups of Scouts",
+          "(b) After each event, write a report with",
+          "(1) A copy of the master map and control description sheet",
+          "(2) A copy of the route you took on the course",
+          "(3) A discussion of how you could improve your time between control points, and"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Take part in three orienteering events is enough for Orienteering Requirement 7 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Take part in three orienteering events grounded in the official Orienteering pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Take part in three orienteering events grounded in the official Orienteering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on take part in three orienteering events.",
+        "fact": "Scouts must demonstrate take part in three orienteering events using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
+        "fact_correction": "Scouts must demonstrate take part in three orienteering events using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
         "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)"
       },
       "starting_requirement_gate": null,
@@ -1577,23 +1700,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8a Structured Study & Explanation Notes",
             "headers": [
-              "Req 8a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Set up a cross-country course that is at least 2,000 meters long",
+              "2. Prepare the master map and control description sheet"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8a is enough for Orienteering Requirement 8a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on set up a cross-country course that is at least 2,000 meters long.",
+            "fact": "Scouts must explain set up a cross-country course that is at least 2,000 meters long using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
+            "fact_correction": "Scouts must explain set up a cross-country course that is at least 2,000 meters long using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)"
           },
           "starting_requirement_gate": null,
@@ -1635,23 +1762,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8b Structured Study & Explanation Notes",
             "headers": [
-              "Req 8b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Set up a score orienteering course with at least 12 control points and a time",
+              "2. Set point values for each control",
+              "3. Prepare the master map and control description sheet"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8b is enough for Orienteering Requirement 8b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Orienteering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Orienteering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on set up a score orienteering course with at least 12 control points and a time.",
+            "fact": "Scouts must explain set up a score orienteering course with at least 12 control points and a time using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
+            "fact_correction": "Scouts must explain set up a score orienteering course with at least 12 control points and a time using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
             "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)"
           },
           "starting_requirement_gate": null,
@@ -1704,22 +1836,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 8 Structured Study & Explanation Notes",
         "headers": [
-          "Req 8 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Set up a cross-country course that is at least 2,000 meters long",
+          "(b) Set up a score orienteering course with at least 12 control points and a time"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Set up a cross-country course is enough for Orienteering Requirement 8 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Set up a cross-country course grounded in the official Orienteering pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Set up a cross-country course grounded in the official Orienteering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on set up a cross-country course that is at least 2,000 meters long.",
+        "fact": "Scouts must explain set up a cross-country course that is at least 2,000 meters long using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
+        "fact_correction": "Scouts must explain set up a cross-country course that is at least 2,000 meters long using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56).",
         "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)"
       },
       "starting_requirement_gate": null,
@@ -1803,22 +1939,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Study & Explanation Notes",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Act as an official during an orienteering event",
+          "2. This may be during the running of the course you set up for requirement 8"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Act as an official is enough for Orienteering Requirement 9 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Act as an official grounded in the official Orienteering pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Act as an official grounded in the official Orienteering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on act as an official during an orienteering event.",
+        "fact": "Scouts must explain act as an official during an orienteering event using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53).",
+        "fact_correction": "Scouts must explain act as an official during an orienteering event using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53).",
         "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53)"
       },
       "starting_requirement_gate": null,
@@ -1845,7 +1985,7 @@
       "pamphlet_excerpts": [
         "Orienteering USA Ruling: Orienteering USA is the ruling body for sanctioned orienteering eventsin the United States.",
         "Its Rule Book: Its rule book is comprehensive and addresses thetechnicalities of holding an event, as well as conduct that is expected ofthe participants.",
-        "Few General Rules: A few general rules are provided below, but for detailedinformation, it is best to consult the rule book or to contact the OUSA. 1.",
+        "Few General Rules: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA. 1.",
         "Competitors Prior Knowledge: Competitors who have prior knowledge of the course that will givethem an unfair advantage should not participate."
       ],
       "step_by_step_procedure": [
@@ -1902,22 +2042,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 10 Structured Study & Explanation Notes",
         "headers": [
-          "Req 10 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 10 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 10 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Teach orienteering techniques to your patrol, troop, or crew",
+          "Pamphlet Standard & Key Facts (10)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Teach orienteering techniques to your patrol is enough for Orienteering Requirement 10 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Teach orienteering techniques to your patrol grounded in the official Orienteering pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Teach orienteering techniques to your patrol grounded in the official Orienteering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on teach orienteering techniques to your patrol, troop, or crew.",
+        "fact": "Scouts must explain teach orienteering techniques to your patrol, troop, or crew using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43).",
+        "fact_correction": "Scouts must explain teach orienteering techniques to your patrol, troop, or crew using verified procedures, field evidence, and safety standards from Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43).",
         "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43)"
       },
       "starting_requirement_gate": null,
@@ -1942,7 +2087,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Obscurehandrails Ridge Lines: More obscurehandrails might be ridge lines, valleys, tree lines, forest fireburns, or avalanche scars.",
+        "Obscure handrails Ridge Lines: More obscurehandrails might be ridge lines, valleys, tree lines, forest fireburns, or avalanche scars.",
         "Beginners Courses Rely: Beginners’ courses rely heavily on handrails to help thenovice get to each control.",
         "Route Easiest Coursesmay: The route for the easiest coursesmay actually go right down a trail or road, the handrail.",
         "Collecting Check-Off: Collecting, Check-Off, and Catching Features Always look around and take note of the features you passas you move toward the next control."

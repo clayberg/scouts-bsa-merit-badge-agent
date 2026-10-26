@@ -37,26 +37,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Fishing hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fishing prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fishing prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Fishing hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Fishing prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Fishing prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)"
           },
           "starting_requirement_gate": null,
@@ -122,23 +133,31 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Study & Explanation Notes",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Health concerns that could occur while fishing: cuts",
+              "Scratches",
+              "Puncture wounds",
+              "Insect bites",
+              "Hypothermia",
+              "Dehydration"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Fishing Requirement 1b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Fishing pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Fishing pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)"
           },
           "starting_requirement_gate": null,
@@ -180,23 +199,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain how to remove a barbed hook that is lodged in someone's arm",
+              "Pamphlet Standard & Key Facts (1c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1c is enough for Fishing Requirement 1c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Fishing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Fishing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how to remove a barbed hook that is lodged in someone's arm.",
+            "fact": "Scouts must explain explain how to remove a barbed hook that is lodged in someone's arm using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17).",
+            "fact_correction": "Scouts must explain explain how to remove a barbed hook that is lodged in someone's arm using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17).",
             "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)"
           },
           "starting_requirement_gate": null,
@@ -238,23 +262,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1d Structured Study & Explanation Notes",
             "headers": [
-              "Req 1d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Name and explain five safety practices you should always follow while fishing",
+              "Pamphlet Standard & Key Facts (1d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1d is enough for Fishing Requirement 1d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Fishing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Fishing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name and explain five safety practices you should always follow while fishing.",
+            "fact": "Scouts must explain name and explain five safety practices you should always follow while fishing using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17).",
+            "fact_correction": "Scouts must explain name and explain five safety practices you should always follow while fishing using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17).",
             "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)"
           },
           "starting_requirement_gate": null,
@@ -346,25 +375,36 @@
       "pamphlet_page_citation": "Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Fishing hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fishing prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Fishing prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Fishing hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Fishing prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Fishing prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)"
       },
       "starting_requirement_gate": null,
@@ -480,22 +520,28 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Discuss the differences between two types of fishing outfits",
+          "2. Point out and identify the parts of several types of rods and reels",
+          "3. Explain how and when each would be used",
+          "4. Review with your counselor how to care for this equipment"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The differences between two types is enough for Fishing Requirement 2 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of The differences between two types grounded in the official Fishing pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of The differences between two types grounded in the official Fishing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the differences between two types of fishing outfits.",
+        "fact": "Scouts must discuss discuss the differences between two types of fishing outfits using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 20, p. 50).",
+        "fact_correction": "Scouts must discuss discuss the differences between two types of fishing outfits using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 20, p. 50).",
         "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 20, p. 50)"
       },
       "starting_requirement_gate": null,
@@ -604,26 +650,33 @@
       "pamphlet_page_citation": "Official Scouting America Fishing Merit Badge Pamphlet (p. 54, p. 70)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "Demonstrate the proper use of two different types of fishing equipment",
+          "Pamphlet Standard & Key Facts (3)",
+          "Field Application & Counselor Verification (Demonstrate)"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The proper use is enough for Fishing Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The proper use grounded in the official Fishing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The proper use grounded in the official Fishing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the proper use of two different types of fishing equipment.",
+        "fact": "Scouts must demonstrate demonstrate the proper use of two different types of fishing equipment using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 54, p. 70).",
+        "fact_correction": "Scouts must demonstrate demonstrate the proper use of two different types of fishing equipment using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 54, p. 70).",
         "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 54, p. 70)"
       },
       "starting_requirement_gate": null,
@@ -735,7 +788,7 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Loop-to-Loop Knot. This knotcombines two leaders, each with",
+      "topic_title": "Req 4: Loop-to-Loop Knot. This knot combines two leaders, each with",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
@@ -744,26 +797,32 @@
       "pamphlet_page_citation": "Official Scouting America Fishing Merit Badge Pamphlet (p. 56, p. 58)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Demonstrate how to tie the following knots: improved clinch knot, Palomar",
+          "2. Explain how and when each knot is used"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Loop-to-Loop Knot. This knotcombines two leaders, each with is enough for Fishing Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Loop-to-Loop Knot. This knotcombines two leaders, each with grounded in the official Fishing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Loop-to-Loop Knot. This knotcombines two leaders, each with grounded in the official Fishing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate how to tie the following knots: improved clinch knot, palomar.",
+        "fact": "Scouts must demonstrate demonstrate how to tie the following knots: improved clinch knot, palomar using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 56, p. 58).",
+        "fact_correction": "Scouts must demonstrate demonstrate how to tie the following knots: improved clinch knot, palomar using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 56, p. 58).",
         "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 56, p. 58)"
       },
       "starting_requirement_gate": null,
@@ -788,8 +847,8 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Knotcombines Leaders Double: This knotcombines two leaders, each with a double surgeon’s loop.",
-        "Theleaders Changed: Theleaders can be changed easilywith this connection.",
+        "Knot combines Leaders Double: This knot combines two leaders, each with a double surgeon’s loop.",
+        "Theleaders Changed: Theleaders can be changed easily with this connection.",
         "Start Layingthe Lines: Start by layingthe two lines to be joined with tagends in opposite directions, overlapping by six-plus inches.",
         "Nowtake Overlapping Lines: Nowtake the overlapping lines andform a double overhand knot, passing the tag end and theentire shorter line through theloop twice."
       ],
@@ -801,7 +860,7 @@
       ],
       "gear_checklist": [
         "Official Fishing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Loop-to-Loop Knot. This knotcombines two leaders, each with",
+        "Activity-Specific Tools, Reference Charts & Study Materials for Loop-to-Loop Knot. This knot combines two leaders, each with",
         "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
         "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
       ],
@@ -810,7 +869,7 @@
         "title": "Sample Verified Workbook Entry: Fishing Req 4",
         "artifact_type": "COUNSELOR_VERIFIED_LOG",
         "fields": {
-          "Requirement & Topic": "Req 4 - Loop-to-Loop Knot. This knotcombines two leaders, each with",
+          "Requirement & Topic": "Req 4 - Loop-to-Loop Knot. This knot combines two leaders, each with",
           "Primary Standard": "Demonstrate how to tie the following knots: improved clinch knot, Palomar knot, uni knot, uni to uni knot, and arbor knot. Explain how and when each knot is used.",
           "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Fishing terminology.",
           "Safety & Verification": "Reviewed against Official Scouting America Fishing Merit Badge Pamphlet (p. 56, p. 58) and verified during counselor conference."
@@ -864,22 +923,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Name and identify five basic artificial lures and five natural baits",
+          "2. Explain why baitfish are not to be released"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Name and identify five basic artificial is enough for Fishing Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Name and identify five basic artificial grounded in the official Fishing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Name and identify five basic artificial grounded in the official Fishing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name and identify five basic artificial lures and five natural baits.",
+        "fact": "Scouts must explain name and identify five basic artificial lures and five natural baits using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 66, p. 69).",
+        "fact_correction": "Scouts must explain name and identify five basic artificial lures and five natural baits using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 66, p. 69).",
         "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 66, p. 69)"
       },
       "starting_requirement_gate": null,
@@ -906,7 +969,7 @@
       "pamphlet_excerpts": [
         "Plastic Wormsare Fished: Plastic wormsare fished slowly, on or near thebottom.",
         "Withthe Texas Rig: Withthe Texas rig orweedless rig, thefish is allowed tomouth the baitbefore thehook is set.",
-        "Soft Pliable Lures: These soft, pliable lures in varying styles andshapes can be made to swim, wiggle, and dance underwaterwith an action the fish cannot resist.",
+        "Soft Pliable Lures: These soft, pliable lures in varying styles andshapes can be made to swim, wiggle, and dance underwater with an action the fish cannot resist.",
         "They Plain Abare: They are used plain on abare hook, impaled on a jig, or effectively utilized with severalpopular rigs."
       ],
       "step_by_step_procedure": [
@@ -962,23 +1025,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6a Structured Study & Explanation Notes",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the importance of practicing Leave No Trace Seven Principles",
+              "2. Discuss the positive effects of Leave No Trace Seven Principles"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6a is enough for Fishing Requirement 6a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Fishing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Fishing pamphlet.",
+            "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+            "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+            "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
             "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)"
           },
           "starting_requirement_gate": null,
@@ -1024,23 +1091,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Study & Explanation Notes",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss the meaning and importance of catch and release",
+              "2. Describe how to properly release a fish safely to the water"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Fishing Requirement 6b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 6b grounded in the official Fishing pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 6b grounded in the official Fishing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the meaning and importance of catch and release.",
+            "fact": "Scouts must discuss discuss the meaning and importance of catch and release using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88).",
+            "fact_correction": "Scouts must discuss discuss the meaning and importance of catch and release using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88).",
             "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)"
           },
           "starting_requirement_gate": null,
@@ -1105,25 +1176,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 6 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain the importance of practicing Leave No Trace Seven Principles",
+          "(b) Discuss the meaning and importance of catch and release"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Leave No Trace & Outdoor Ethics is enough for Fishing Requirement 6 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Fishing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Fishing pamphlet.",
+        "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+        "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
         "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)"
       },
       "starting_requirement_gate": null,
@@ -1157,7 +1234,7 @@
         "Theseguidelines Apply: Theseguidelines apply to fishing as well as hiking, camping, or anyother outdoor activity. 1.",
         "Proper Planning: Proper planning and preparationfor a fishing trip helps ensure a safe and enjoyable experience while minimizing damage to natural and culturalresources.",
         "Failure Toknow Obey: Failure toknow and obey these laws can lead to an arrest and a fine.",
-        "Obtain Fishing License: Be sure to obtain a fishing license if necessary and any otherneeded permits or permission before heading out on yourfishing adventure."
+        "Obtain Fishing License: Be sure to obtain a fishing license if necessary and any otherneeded permits or permission before heading out on your fishing adventure."
       ],
       "gear_checklist": [
         "Official Fishing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
@@ -1212,22 +1289,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Obtain and review the regulations affecting game fishing where you live",
+          "2. Explain why they were adopted and what is accomplished by following them"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Obtain and review the regulations affecting is enough for Fishing Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Obtain and review the regulations affecting grounded in the official Fishing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Obtain and review the regulations affecting grounded in the official Fishing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on obtain and review the regulations affecting game fishing where you live.",
+        "fact": "Scouts must explain obtain and review the regulations affecting game fishing where you live using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 8, p. 63).",
+        "fact_correction": "Scouts must explain obtain and review the regulations affecting game fishing where you live using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 8, p. 63).",
         "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 8, p. 63)"
       },
       "starting_requirement_gate": null,
@@ -1316,22 +1397,28 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 8 Structured Study & Explanation Notes",
         "headers": [
-          "Req 8 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "The aspects of littering",
+          "Trespassing",
+          "Courteous behavior",
+          "Obeying fishing regulations"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Leave No Trace & Outdoor Ethics is enough for Fishing Requirement 8 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Fishing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Fishing pamphlet.",
+        "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+        "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
         "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 84, p. 88)"
       },
       "starting_requirement_gate": null,
@@ -1365,7 +1452,7 @@
         "Theseguidelines Apply: Theseguidelines apply to fishing as well as hiking, camping, or anyother outdoor activity. 1.",
         "Proper Planning: Proper planning and preparationfor a fishing trip helps ensure a safe and enjoyable experience while minimizing damage to natural and culturalresources.",
         "Failure Toknow Obey: Failure toknow and obey these laws can lead to an arrest and a fine.",
-        "Obtain Fishing License: Be sure to obtain a fishing license if necessary and any otherneeded permits or permission before heading out on yourfishing adventure."
+        "Obtain Fishing License: Be sure to obtain a fishing license if necessary and any otherneeded permits or permission before heading out on your fishing adventure."
       ],
       "gear_checklist": [
         "Official Fishing Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
@@ -1428,22 +1515,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Study & Explanation Notes",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Catch one fish and identify it",
+          "Pamphlet Standard & Key Facts (9)",
+          "Field Application & Counselor Verification (Identify)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Catch one fish and identify it is enough for Fishing Requirement 9 sign-off.",
-        "fact": "Each Scout must actively identify the specific principles and real-world steps of Catch one fish and identify it grounded in the official Fishing pamphlet.",
-        "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Catch one fish and identify it grounded in the official Fishing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on catch one fish and identify it.",
+        "fact": "Scouts must identify catch one fish and identify it using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 9, p. 19).",
+        "fact_correction": "Scouts must identify catch one fish and identify it using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 9, p. 19).",
         "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 9, p. 19)"
       },
       "starting_requirement_gate": null,
@@ -1544,25 +1636,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 10 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. If regulations and health concerns permit, clean and cook a fish you",
+          "2. If you are unable to catch a fish for eating, acquire a fish, clean the fish"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of If regulations and health concerns permit is enough for Fishing Requirement 10 sign-off.",
-        "fact": "Each Scout must actively cook the specific principles and real-world steps of If regulations and health concerns permit grounded in the official Fishing pamphlet.",
-        "fact_correction": "Each Scout must actively cook the specific principles and real-world steps of If regulations and health concerns permit grounded in the official Fishing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if regulations and health concerns permit, clean and cook a fish you.",
+        "fact": "Scouts must cook if regulations and health concerns permit, clean and cook a fish you using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 79, p. 81).",
+        "fact_correction": "Scouts must cook if regulations and health concerns permit, clean and cook a fish you using verified procedures, field evidence, and safety standards from Official Scouting America Fishing Merit Badge Pamphlet (p. 79, p. 81).",
         "pamphlet_page_ref": "Official Scouting America Fishing Merit Badge Pamphlet (p. 79, p. 81)"
       },
       "starting_requirement_gate": null,

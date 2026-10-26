@@ -40,26 +40,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Whitewater hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Whitewater prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Whitewater prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)"
           },
           "starting_requirement_gate": {
@@ -106,23 +117,31 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Study & Explanation Notes",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Injuries",
+              "Illnesses that could occur while participating in whitewater activities: cold-water shock; hypothermia; head",
+              "Neck",
+              "Back injuries; heat-related illnesses; sunburn; dehydration; blisters; bruises; cuts; sprains",
+              "Strains; shoulder dislocation",
+              "Submersion injuries"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Whitewater Requirement 1b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Whitewater pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)"
           },
           "starting_requirement_gate": null,
@@ -168,23 +187,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss with your counselor the Scouting America Safety Afloat policy",
+              "2. The use of helmet and life jackets"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1c is enough for Whitewater Requirement 1c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor the scouting america safety afloat policy.",
+            "fact": "Scouts must discuss discuss with your counselor the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23).",
+            "fact_correction": "Scouts must discuss discuss with your counselor the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)"
           },
           "starting_requirement_gate": {
@@ -261,25 +284,36 @@
       "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Whitewater hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Whitewater prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Whitewater prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)"
       },
       "starting_requirement_gate": {
@@ -309,7 +343,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Cool Victim Immediately: Cool the victim immediately through immersionwith cold packs in the groin area and armpits.",
+        "Cool Victim Immediately: Cool the victim immediately through immersion with cold packs in the groin area and armpits.",
         "Increase Body Fluid: Increase the body’s fluid level by having a conscious victim sip water.",
         "Sunburn Inflammation Skin: Sunburn is an inflammation of the skin caused by toomuch exposure to the sun.",
         "Shoulder Dislocations: Shoulder dislocations are one of the most serious injuries associated with whitewater activities."
@@ -389,27 +423,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 2a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate understanding of the following river features by drawing lines",
+              "2. Hydraulic"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Whitewater Requirement 2a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate understanding of the following river features by drawing lines.",
+            "fact": "Scouts must demonstrate demonstrate understanding of the following river features by drawing lines using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
+            "fact_correction": "Scouts must demonstrate demonstrate understanding of the following river features by drawing lines using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)"
           },
           "starting_requirement_gate": {
@@ -456,23 +496,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Describe how waves form including standing waves and wave trains",
+              "Pamphlet Standard & Key Facts (2b)",
+              "Field Application & Counselor Verification (Describe)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Whitewater Requirement 2b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2b grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2b grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe how waves form including standing waves and wave trains.",
+            "fact": "Scouts must describe describe how waves form including standing waves and wave trains using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
+            "fact_correction": "Scouts must describe describe how waves form including standing waves and wave trains using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -524,23 +569,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "When entering and exiting an eddy",
+                  "Pamphlet Standard & Key Facts (2c(1))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(1) is enough for Whitewater Requirement 2c(1) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(1) grounded in the official Whitewater pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(1) grounded in the official Whitewater pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on when entering and exiting an eddy.",
+                "fact": "Scouts must explain when entering and exiting an eddy using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
+                "fact_correction": "Scouts must explain when entering and exiting an eddy using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
                 "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)"
               },
               "starting_requirement_gate": null,
@@ -577,23 +627,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "When ferrying in downstream and upstream directions",
+                  "Pamphlet Standard & Key Facts (2c(2))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(2) is enough for Whitewater Requirement 2c(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(2) grounded in the official Whitewater pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(2) grounded in the official Whitewater pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on when ferrying in downstream and upstream directions.",
+                "fact": "Scouts must explain when ferrying in downstream and upstream directions using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
+                "fact_correction": "Scouts must explain when ferrying in downstream and upstream directions using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
                 "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)"
               },
               "starting_requirement_gate": null,
@@ -625,23 +680,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2c Structured Study & Explanation Notes",
             "headers": [
-              "Req 2c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "(1) When entering and exiting an eddy",
+              "(2) When ferrying in downstream and upstream directions"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2c is enough for Whitewater Requirement 2c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on when entering and exiting an eddy.",
+            "fact": "Scouts must explain when entering and exiting an eddy using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
+            "fact_correction": "Scouts must explain when entering and exiting an eddy using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -683,23 +742,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2d Structured Study & Explanation Notes",
             "headers": [
-              "Req 2d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain when, why",
+              "2. How you should scout a river while ashore, while on the river",
+              "3. When you should portage your boat"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2d is enough for Whitewater Requirement 2d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain when, why.",
+            "fact": "Scouts must explain explain when, why using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
+            "fact_correction": "Scouts must explain explain when, why using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -772,25 +836,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Demonstrate understanding of the following river features by drawing lines",
+          "(b) Describe how waves form including standing waves and wave trains",
+          "(c) Explain how to tilt or edge the boat without leaning your body",
+          "(1) When entering and exiting an eddy",
+          "(2) When ferrying in downstream and upstream directions",
+          "(d) Explain when, why, and how you should scout a river while ashore, while"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Ferrying Upstream and Downstream is enough for Whitewater Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Ferrying Upstream and Downstream grounded in the official Whitewater pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Ferrying Upstream and Downstream grounded in the official Whitewater pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate understanding of the following river features by drawing lines.",
+        "fact": "Scouts must demonstrate demonstrate understanding of the following river features by drawing lines using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
+        "fact_correction": "Scouts must demonstrate demonstrate understanding of the following river features by drawing lines using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)"
       },
       "starting_requirement_gate": {
@@ -869,26 +943,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 3a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. If you will be using a canoe to earn this merit badge, demonstrate",
+              "2. Key Pamphlet Examples & Evidence (Req 3a)",
+              "3. Practical Demonstrate & Safety Verification"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Whitewater Requirement 3a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3a grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3a grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if you will be using a canoe to earn this merit badge, demonstrate.",
+            "fact": "Scouts must demonstrate if you will be using a canoe to earn this merit badge, demonstrate using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62).",
+            "fact_correction": "Scouts must demonstrate if you will be using a canoe to earn this merit badge, demonstrate using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)"
           },
           "starting_requirement_gate": null,
@@ -925,26 +1006,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 3b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. If you will be using a kayak to earn this merit badge, demonstrate",
+              "2. Key Pamphlet Examples & Evidence (Req 3b)",
+              "3. Practical Demonstrate & Safety Verification"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Whitewater Requirement 3b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3b grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 3b grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if you will be using a kayak to earn this merit badge, demonstrate.",
+            "fact": "Scouts must demonstrate if you will be using a kayak to earn this merit badge, demonstrate using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62).",
+            "fact_correction": "Scouts must demonstrate if you will be using a kayak to earn this merit badge, demonstrate using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)"
           },
           "starting_requirement_gate": null,
@@ -1001,25 +1089,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) If you will be using a canoe to earn this merit badge, demonstrate strokes",
+          "(b) If you will be using a kayak to earn this merit badge, demonstrate strokes"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Before doing requirements 4 through 12 is enough for Whitewater Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Before doing requirements 4 through 12 grounded in the official Whitewater pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Before doing requirements 4 through 12 grounded in the official Whitewater pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if you will be using a canoe to earn this merit badge, demonstrate strokes.",
+        "fact": "Scouts must explain if you will be using a canoe to earn this merit badge, demonstrate strokes using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62).",
+        "fact_correction": "Scouts must explain if you will be using a canoe to earn this merit badge, demonstrate strokes using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)"
       },
       "starting_requirement_gate": null,
@@ -1116,27 +1210,33 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 4a(1) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Demonstrate the following strokes in the bow: cross forward, bow draw",
+                  "2. Sculling draw"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4a(1) is enough for Whitewater Requirement 4a(1) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a(1) grounded in the official Whitewater pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a(1) grounded in the official Whitewater pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the following strokes in the bow: cross forward, bow draw.",
+                "fact": "Scouts must demonstrate demonstrate the following strokes in the bow: cross forward, bow draw using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+                "fact_correction": "Scouts must demonstrate demonstrate the following strokes in the bow: cross forward, bow draw using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
                 "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
               },
               "starting_requirement_gate": null,
@@ -1172,27 +1272,33 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 4a(2) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Demonstrate the following strokes in the stern: stern draw, stern pry",
+                  "2. Forward with stern pry"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4a(2) is enough for Whitewater Requirement 4a(2) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a(2) grounded in the official Whitewater pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a(2) grounded in the official Whitewater pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the following strokes in the stern: stern draw, stern pry.",
+                "fact": "Scouts must demonstrate demonstrate the following strokes in the stern: stern draw, stern pry using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+                "fact_correction": "Scouts must demonstrate demonstrate the following strokes in the stern: stern draw, stern pry using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
                 "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
               },
               "starting_requirement_gate": null,
@@ -1228,27 +1334,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 4a(3) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Demonstrate a high brace, low brace, and righting pry",
+                  "Pamphlet Standard & Key Facts (4a(3))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4a(3) is enough for Whitewater Requirement 4a(3) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a(3) grounded in the official Whitewater pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4a(3) grounded in the official Whitewater pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate a high brace, low brace, and righting pry.",
+                "fact": "Scouts must demonstrate demonstrate a high brace, low brace, and righting pry using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+                "fact_correction": "Scouts must demonstrate demonstrate a high brace, low brace, and righting pry using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
                 "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
               },
               "starting_requirement_gate": null,
@@ -1280,26 +1393,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Demonstrate the following strokes in the bow: cross forward, bow draw, cross",
+              "(2) Demonstrate the following strokes in the stern: stern draw, stern pry",
+              "(3) Demonstrate a high brace, low brace, and righting pry"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Whitewater Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the following strokes in the bow: cross forward, bow draw, cross.",
+            "fact": "Scouts must explain demonstrate the following strokes in the bow: cross forward, bow draw, cross using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+            "fact_correction": "Scouts must explain demonstrate the following strokes in the bow: cross forward, bow draw, cross using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
           },
           "starting_requirement_gate": null,
@@ -1362,27 +1482,33 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 4b(1) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Demonstrate the following strokes: cross forward, bow draw, cross bow draw",
+                  "2. Forward with stern pry"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4b(1) is enough for Whitewater Requirement 4b(1) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b(1) grounded in the official Whitewater pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b(1) grounded in the official Whitewater pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the following strokes: cross forward, bow draw, cross bow draw.",
+                "fact": "Scouts must demonstrate demonstrate the following strokes: cross forward, bow draw, cross bow draw using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+                "fact_correction": "Scouts must demonstrate demonstrate the following strokes: cross forward, bow draw, cross bow draw using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
                 "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
               },
               "starting_requirement_gate": null,
@@ -1423,27 +1549,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 4b(2) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Demonstrate a high brace, low brace, and righting pry",
+                  "Pamphlet Standard & Key Facts (4b(2))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4b(2) is enough for Whitewater Requirement 4b(2) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b(2) grounded in the official Whitewater pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4b(2) grounded in the official Whitewater pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate a high brace, low brace, and righting pry.",
+                "fact": "Scouts must demonstrate demonstrate a high brace, low brace, and righting pry using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+                "fact_correction": "Scouts must demonstrate demonstrate a high brace, low brace, and righting pry using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
                 "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
               },
               "starting_requirement_gate": null,
@@ -1475,26 +1608,32 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Demonstrate the following strokes: cross forward, bow draw, cross bow draw",
+              "(2) Demonstrate a high brace, low brace, and righting pry"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Whitewater Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the following strokes: cross forward, bow draw, cross bow draw.",
+            "fact": "Scouts must explain demonstrate the following strokes: cross forward, bow draw, cross bow draw using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+            "fact_correction": "Scouts must explain demonstrate the following strokes: cross forward, bow draw, cross bow draw using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
           },
           "starting_requirement_gate": null,
@@ -1553,27 +1692,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 4c(1) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Demonstrate the following strokes: bow draw, rudder, and sculling draw",
+                  "Pamphlet Standard & Key Facts (4c(1))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4c(1) is enough for Whitewater Requirement 4c(1) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4c(1) grounded in the official Whitewater pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4c(1) grounded in the official Whitewater pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the following strokes: bow draw, rudder, and sculling draw.",
+                "fact": "Scouts must demonstrate demonstrate the following strokes: bow draw, rudder, and sculling draw using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+                "fact_correction": "Scouts must demonstrate demonstrate the following strokes: bow draw, rudder, and sculling draw using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
                 "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
               },
               "starting_requirement_gate": null,
@@ -1618,27 +1764,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 4c(2) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Demonstrate a high brace and low brace",
+                  "Pamphlet Standard & Key Facts (4c(2))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 4c(2) is enough for Whitewater Requirement 4c(2) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4c(2) grounded in the official Whitewater pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 4c(2) grounded in the official Whitewater pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate a high brace and low brace.",
+                "fact": "Scouts must demonstrate demonstrate a high brace and low brace using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+                "fact_correction": "Scouts must demonstrate demonstrate a high brace and low brace using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
                 "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
               },
               "starting_requirement_gate": null,
@@ -1670,26 +1823,32 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Demonstrate the following strokes: bow draw, rudder, and sculling draw",
+              "(2) Demonstrate a high brace and low brace"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4c is enough for Whitewater Requirement 4c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the following strokes: bow draw, rudder, and sculling draw.",
+            "fact": "Scouts must explain demonstrate the following strokes: bow draw, rudder, and sculling draw using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+            "fact_correction": "Scouts must explain demonstrate the following strokes: bow draw, rudder, and sculling draw using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
           },
           "starting_requirement_gate": null,
@@ -1786,25 +1945,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Option A, Tandem Canoeist",
+          "(1) Demonstrate the following strokes in the bow: cross forward, bow draw, cross",
+          "(2) Demonstrate the following strokes in the stern: stern draw, stern pry",
+          "(3) Demonstrate a high brace, low brace, and righting pry",
+          "(b) Option B, Solo Canoeist",
+          "(1) Demonstrate the following strokes: cross forward, bow draw, cross bow draw"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Tandem Canoeist / Solo Canoeist / Solo Kayaker is enough for Whitewater Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Tandem Canoeist / Solo Canoeist / Solo Kayaker grounded in the official Whitewater pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Tandem Canoeist / Solo Canoeist / Solo Kayaker grounded in the official Whitewater pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on option a, tandem canoeist.",
+        "fact": "Scouts must explain option a, tandem canoeist using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
+        "fact_correction": "Scouts must explain option a, tandem canoeist using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)"
       },
       "starting_requirement_gate": null,
@@ -1829,7 +1998,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Peel Out Paddlers: In the peel out, note how both paddlers use theirleft knees to lean into and tilt the boat into the turn.",
+        "Peel Out Paddlers: In the peel out, note how both paddlers use their left knees to lean into and tilt the boat into the turn.",
         "Offside Peel Out: An offside peel out incorporates all the same features ofthe onside peel out except that the turning strokes are different.",
         "Kayakers Opposite Paddle: For kayakers, the opposite paddle blade is used for the turningstroke.",
         "Solo Canoeists Avariety: After crossing the eddy line, solo canoeists can use avariety of turning strokes, including a forward sweep or crossbow draw."
@@ -1883,23 +2052,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5a Structured Study & Explanation Notes",
             "headers": [
-              "Req 5a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the International Scale of River Difficulty and apply the scale",
+              "2. Key Pamphlet Examples & Evidence (Req 5a)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Whitewater Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the international scale of river difficulty and apply the scale.",
+            "fact": "Scouts must explain explain the international scale of river difficulty and apply the scale using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35).",
+            "fact_correction": "Scouts must explain explain the international scale of river difficulty and apply the scale using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)"
           },
           "starting_requirement_gate": {
@@ -1941,23 +2115,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5b Structured Study & Explanation Notes",
             "headers": [
-              "Req 5b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Identify the specific characteristics of the river that are factors",
+              "2. Key Pamphlet Examples & Evidence (Req 5b)",
+              "3. Practical Identify & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Whitewater Requirement 5b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 5b grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 5b grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify the specific characteristics of the river that are factors.",
+            "fact": "Scouts must identify identify the specific characteristics of the river that are factors using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35).",
+            "fact_correction": "Scouts must identify identify the specific characteristics of the river that are factors using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)"
           },
           "starting_requirement_gate": null,
@@ -1994,23 +2173,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5c Structured Study & Explanation Notes",
             "headers": [
-              "Req 5c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss how the level of flow changes a river from one class to another",
+              "2. Key Pamphlet Examples & Evidence (Req 5c)",
+              "3. Practical Discuss & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss how the level of flow changes a river from one class to another.",
+            "fact": "Scouts must discuss discuss how the level of flow changes a river from one class to another using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35).",
+            "fact_correction": "Scouts must discuss discuss how the level of flow changes a river from one class to another using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)"
           },
           "starting_requirement_gate": null,
@@ -2063,25 +2247,32 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain the International Scale of River Difficulty and apply the scale",
+          "(b) Identify the specific characteristics of the river that are factors in your",
+          "(c) Discuss how the level of flow changes a river from one class to another"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": true
+        "min_rows": 3,
+        "pre_approval_gate": true,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the international scale of river difficulty and apply the scale.",
+        "fact": "Scouts must demonstrate explain the international scale of river difficulty and apply the scale using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35).",
+        "fact_correction": "Scouts must demonstrate explain the international scale of river difficulty and apply the scale using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)"
       },
       "starting_requirement_gate": {
@@ -2175,25 +2366,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 6 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Explain the importance of communication during every whitewater outing",
+          "2. Demonstrate knowledge and ability to use the following American Whitewater"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The importance of communication during every is enough for Whitewater Requirement 6 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The importance of communication during every grounded in the official Whitewater pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The importance of communication during every grounded in the official Whitewater pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the importance of communication during every whitewater outing.",
+        "fact": "Scouts must explain explain the importance of communication during every whitewater outing using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 33, p. 63).",
+        "fact_correction": "Scouts must explain explain the importance of communication during every whitewater outing using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 33, p. 63).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 33, p. 63)"
       },
       "starting_requirement_gate": null,
@@ -2227,7 +2424,7 @@
         "Review River Signals: Review river signals before the beginning ofevery trip.",
         "Respond Someone Signalingyou: To respond that you are OK to someone signalingyou, return the same signal.",
         "Time Year Fallen: The time of year, fallen trees, andrainfall are justseveral elementsthat can transform a normally saferoute into adangerous one.",
-        "Scoutahead Plan Yourrun: Always scoutahead, plan yourrun, and identifyseveral optionsin case yourrun does not goas planned."
+        "Scoutahead Plan Your run: Always scoutahead, plan your run, and identifyseveral optionsin case your run does not goas planned."
       ],
       "gear_checklist": [
         "Official Whitewater Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
@@ -2272,23 +2469,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7a Structured Study & Explanation Notes",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. If completing this merit badge in a canoe, describe the various types",
+              "2. Key Pamphlet Examples & Evidence (Req 7a)",
+              "3. Practical Describe & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Whitewater Requirement 7a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 7a grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 7a grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if completing this merit badge in a canoe, describe the various types.",
+            "fact": "Scouts must describe if completing this merit badge in a canoe, describe the various types using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41).",
+            "fact_correction": "Scouts must describe if completing this merit badge in a canoe, describe the various types using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)"
           },
           "starting_requirement_gate": null,
@@ -2330,23 +2532,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7b Structured Study & Explanation Notes",
             "headers": [
-              "Req 7b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. If completing this merit badge in a kayak, describe the various types",
+              "2. How they differ in design, materials"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Whitewater Requirement 7b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 7b grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 7b grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if completing this merit badge in a kayak, describe the various types.",
+            "fact": "Scouts must describe if completing this merit badge in a kayak, describe the various types using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41).",
+            "fact_correction": "Scouts must describe if completing this merit badge in a kayak, describe the various types using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)"
           },
           "starting_requirement_gate": null,
@@ -2403,22 +2609,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) If completing this merit badge in a canoe, describe the various types",
+          "(b) If completing this merit badge in a kayak, describe the various types"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of If completing this merit badge is enough for Whitewater Requirement 7 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of If completing this merit badge grounded in the official Whitewater pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of If completing this merit badge grounded in the official Whitewater pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if completing this merit badge in a canoe, describe the various types.",
+        "fact": "Scouts must describe if completing this merit badge in a canoe, describe the various types using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41).",
+        "fact_correction": "Scouts must describe if completing this merit badge in a canoe, describe the various types using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)"
       },
       "starting_requirement_gate": null,
@@ -2511,22 +2721,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 8 Structured Study & Explanation Notes",
         "headers": [
-          "Req 8 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Review with your counselor the personal and group equipment necessary",
+          "2. Key Pamphlet Examples & Evidence (Req 8)",
+          "3. Practical Explain & Safety Verification"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Review with your counselor the personal is enough for Whitewater Requirement 8 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Review with your counselor the personal grounded in the official Whitewater pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Review with your counselor the personal grounded in the official Whitewater pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on review with your counselor the personal and group equipment necessary.",
+        "fact": "Scouts must explain review with your counselor the personal and group equipment necessary using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 12, p. 75).",
+        "fact_correction": "Scouts must explain review with your counselor the personal and group equipment necessary using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 12, p. 75).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 12, p. 75)"
       },
       "starting_requirement_gate": null,
@@ -2609,26 +2824,33 @@
       "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 26, p. 30)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 9 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Demonstrate your ability to read a Class II section of river approved by your",
+          "2. Describe the most desirable paths or lines of travel as well as alternative",
+          "3. Point out how to use the existing water features to your advantage"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": true
+        "min_rows": 3,
+        "pre_approval_gate": true,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Whitewater hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Whitewater prevents most field injuries.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate your ability to read a class ii section of river approved by your.",
+        "fact": "Scouts must demonstrate demonstrate your ability to read a class ii section of river approved by your using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 26, p. 30).",
+        "fact_correction": "Scouts must demonstrate demonstrate your ability to read a class ii section of river approved by your using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 26, p. 30).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 26, p. 30)"
       },
       "starting_requirement_gate": {
@@ -2716,23 +2938,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10a Structured Study & Explanation Notes",
             "headers": [
-              "Req 10a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Launch and land",
+              "Pamphlet Standard & Key Facts (10a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10a is enough for Whitewater Requirement 10a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10a grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10a grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on launch and land.",
+            "fact": "Scouts must explain launch and land using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
+            "fact_correction": "Scouts must explain launch and land using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -2778,23 +3005,28 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10b Structured Study & Explanation Notes",
             "headers": [
-              "Req 10b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Paddle forward in a straight line at least 10 boat lengths",
+              "Pamphlet Standard & Key Facts (10b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10b is enough for Whitewater Requirement 10b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10b grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10b grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on paddle forward in a straight line at least 10 boat lengths.",
+            "fact": "Scouts must explain paddle forward in a straight line at least 10 boat lengths using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
+            "fact_correction": "Scouts must explain paddle forward in a straight line at least 10 boat lengths using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -2840,23 +3072,28 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10c Structured Study & Explanation Notes",
             "headers": [
-              "Req 10c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Backpaddle in a straight line at least five boat lengths",
+              "Pamphlet Standard & Key Facts (10c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10c is enough for Whitewater Requirement 10c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10c grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10c grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on backpaddle in a straight line at least five boat lengths.",
+            "fact": "Scouts must explain backpaddle in a straight line at least five boat lengths using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
+            "fact_correction": "Scouts must explain backpaddle in a straight line at least five boat lengths using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -2906,23 +3143,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10d Structured Study & Explanation Notes",
             "headers": [
-              "Req 10d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Ferry upstream from both sides of the river",
+              "Pamphlet Standard & Key Facts (10d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10d is enough for Whitewater Requirement 10d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10d grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10d grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on ferry upstream from both sides of the river.",
+            "fact": "Scouts must explain ferry upstream from both sides of the river using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
+            "fact_correction": "Scouts must explain ferry upstream from both sides of the river using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -2959,23 +3201,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10e Structured Study & Explanation Notes",
             "headers": [
-              "Req 10e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Ferry downstream from both sides of the river",
+              "Pamphlet Standard & Key Facts (10e)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10e is enough for Whitewater Requirement 10e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10e grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10e grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on ferry downstream from both sides of the river.",
+            "fact": "Scouts must explain ferry downstream from both sides of the river using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
+            "fact_correction": "Scouts must explain ferry downstream from both sides of the river using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -3021,23 +3268,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10f Structured Study & Explanation Notes",
             "headers": [
-              "Req 10f Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Eddy turn from both sides of an eddy",
+              "Pamphlet Standard & Key Facts (10f)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10f is enough for Whitewater Requirement 10f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10f grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10f grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on eddy turn from both sides of an eddy.",
+            "fact": "Scouts must explain eddy turn from both sides of an eddy using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
+            "fact_correction": "Scouts must explain eddy turn from both sides of an eddy using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -3083,23 +3335,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 10g Structured Study & Explanation Notes",
             "headers": [
-              "Req 10g Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 10g Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 10g Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Peel out from both sides of an eddy",
+              "Pamphlet Standard & Key Facts (10g)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 10g is enough for Whitewater Requirement 10g sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 10g grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 10g grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on peel out from both sides of an eddy.",
+            "fact": "Scouts must explain peel out from both sides of an eddy using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
+            "fact_correction": "Scouts must explain peel out from both sides of an eddy using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -3208,25 +3465,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 10 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Launch and land",
+          "(b) Paddle forward in a straight line at least 10 boat lengths",
+          "(c) Backpaddle in a straight line at least five boat lengths",
+          "(d) Ferry upstream from both sides of the river",
+          "(e) Ferry downstream from both sides of the river",
+          "(f) Eddy turn from both sides of an eddy"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Wearing a proper life jacket is enough for Whitewater Requirement 10 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Wearing a proper life jacket grounded in the official Whitewater pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Wearing a proper life jacket grounded in the official Whitewater pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on launch and land.",
+        "fact": "Scouts must explain launch and land using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
+        "fact_correction": "Scouts must explain launch and land using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)"
       },
       "starting_requirement_gate": null,
@@ -3313,23 +3580,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 11a Structured Study & Explanation Notes",
             "headers": [
-              "Req 11a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 11a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 11a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Self-rescue and procedures when capsized in moving water, including a wet exit if necessary",
+              "Pamphlet Standard & Key Facts (11a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 11a is enough for Whitewater Requirement 11a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 11a grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 11a grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on self-rescue and procedures when capsized in moving water, including a wet exit if necessary.",
+            "fact": "Scouts must explain self-rescue and procedures when capsized in moving water, including a wet exit if necessary using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain self-rescue and procedures when capsized in moving water, including a wet exit if necessary using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -3379,23 +3651,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 11b Structured Study & Explanation Notes",
             "headers": [
-              "Req 11b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 11b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 11b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Proper use of a throw rope to rescue a swimmer in whitewater",
+              "Pamphlet Standard & Key Facts (11b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 11b is enough for Whitewater Requirement 11b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 11b grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 11b grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on proper use of a throw rope to rescue a swimmer in whitewater.",
+            "fact": "Scouts must explain proper use of a throw rope to rescue a swimmer in whitewater using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain proper use of a throw rope to rescue a swimmer in whitewater using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -3441,23 +3718,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 11c Structured Study & Explanation Notes",
             "headers": [
-              "Req 11c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 11c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 11c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Proper technique for receiving a throw rope as a swimmer",
+              "Pamphlet Standard & Key Facts (11c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 11c is enough for Whitewater Requirement 11c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 11c grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 11c grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on proper technique for receiving a throw rope as a swimmer.",
+            "fact": "Scouts must explain proper technique for receiving a throw rope as a swimmer using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain proper technique for receiving a throw rope as a swimmer using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -3503,23 +3785,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 11d Structured Study & Explanation Notes",
             "headers": [
-              "Req 11d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 11d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 11d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Portaging, where portaging would be appropriate, and when and how to do it",
+              "Pamphlet Standard & Key Facts (11d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 11d is enough for Whitewater Requirement 11d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 11d grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 11d grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on portaging, where portaging would be appropriate, and when and how to do it.",
+            "fact": "Scouts must explain portaging, where portaging would be appropriate, and when and how to do it using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain portaging, where portaging would be appropriate, and when and how to do it using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -3561,23 +3848,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 11e Structured Study & Explanation Notes",
             "headers": [
-              "Req 11e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 11e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 11e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "The whitewater buddy system using at least three persons and three craft",
+              "Pamphlet Standard & Key Facts (11e)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 11e is enough for Whitewater Requirement 11e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 11e grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 11e grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the whitewater buddy system using at least three persons and three craft.",
+            "fact": "Scouts must explain the whitewater buddy system using at least three persons and three craft using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
+            "fact_correction": "Scouts must explain the whitewater buddy system using at least three persons and three craft using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -3666,25 +3958,34 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 11 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Self-rescue and procedures when capsized in moving water, including a wet",
+          "(b) Proper use of a throw rope to rescue a swimmer in whitewater",
+          "(c) Proper technique for receiving a throw rope as a swimmer",
+          "(d) Portaging, where portaging would be appropriate, and when and how to do it",
+          "(e) The whitewater buddy system using at least three persons and three craft"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Using a Throw Rope to Rescue Others is enough for Whitewater Requirement 11 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Using a Throw Rope to Rescue Others grounded in the official Whitewater pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Using a Throw Rope to Rescue Others grounded in the official Whitewater pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on self-rescue and procedures when capsized in moving water, including a wet.",
+        "fact": "Scouts must explain self-rescue and procedures when capsized in moving water, including a wet using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
+        "fact_correction": "Scouts must explain self-rescue and procedures when capsized in moving water, including a wet using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)"
       },
       "starting_requirement_gate": null,
@@ -3763,26 +4064,32 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 12a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Help to prepare a written plan, specifying the route (put-ins",
+              "2. Emergency procedures"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 12a is enough for Whitewater Requirement 12a sign-off.",
-            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 12a grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Req 12a grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on help to prepare a written plan, specifying the route (put-ins.",
+            "fact": "Scouts must prepare help to prepare a written plan, specifying the route (put-ins using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
+            "fact_correction": "Scouts must prepare help to prepare a written plan, specifying the route (put-ins using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)"
           },
           "starting_requirement_gate": null,
@@ -3819,23 +4126,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 12b Structured Study & Explanation Notes",
             "headers": [
-              "Req 12b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 12b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 12b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Determine local rules and obtain permission from landowners and land managers in advance",
+              "Pamphlet Standard & Key Facts (12b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 12b is enough for Whitewater Requirement 12b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 12b grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 12b grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on determine local rules and obtain permission from landowners and land managers in advance.",
+            "fact": "Scouts must explain determine local rules and obtain permission from landowners and land managers in advance using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
+            "fact_correction": "Scouts must explain determine local rules and obtain permission from landowners and land managers in advance using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)"
           },
           "starting_requirement_gate": null,
@@ -3872,23 +4184,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 12c Structured Study & Explanation Notes",
             "headers": [
-              "Req 12c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 12c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 12c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain what steps have been taken to comply with Scouting America Safety",
+              "2. Key Pamphlet Examples & Evidence (Req 12c)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 12c is enough for Whitewater Requirement 12c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 12c grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 12c grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain what steps have been taken to comply with scouting america safety.",
+            "fact": "Scouts must explain explain what steps have been taken to comply with scouting america safety using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
+            "fact_correction": "Scouts must explain explain what steps have been taken to comply with scouting america safety using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)"
           },
           "starting_requirement_gate": null,
@@ -3933,27 +4250,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 12d Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Show how to protect personal and group equipment from water and how to load",
+              "2. Execute the plans with other paddlers"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 12d is enough for Whitewater Requirement 12d sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 12d grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 12d grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to protect personal and group equipment from water and how to load.",
+            "fact": "Scouts must show show how to protect personal and group equipment from water and how to load using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
+            "fact_correction": "Scouts must show show how to protect personal and group equipment from water and how to load using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)"
           },
           "starting_requirement_gate": null,
@@ -3990,23 +4313,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 12e Structured Study & Explanation Notes",
             "headers": [
-              "Req 12e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 12e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 12e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain to your counselor how well your plans worked for each trip taken",
+              "Pamphlet Standard & Key Facts (12e)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 12e is enough for Whitewater Requirement 12e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 12e grounded in the official Whitewater pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 12e grounded in the official Whitewater pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor how well your plans worked for each trip taken.",
+            "fact": "Scouts must explain explain to your counselor how well your plans worked for each trip taken using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
+            "fact_correction": "Scouts must explain explain to your counselor how well your plans worked for each trip taken using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
             "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)"
           },
           "starting_requirement_gate": null,
@@ -4067,22 +4395,30 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 12 Structured Study & Explanation Notes",
         "headers": [
-          "Req 12 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 12 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 12 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(s) Must involve at least six hours of paddling time. For each trip",
+          "(a) Help to prepare a written plan, specifying the route (put-ins and takeouts)",
+          "(b) Determine local rules and obtain permission from landowners and land managers",
+          "(c) Explain what steps have been taken to comply with Scouting America Safety",
+          "(d) Show how to protect personal and group equipment from water and how to load",
+          "(e) Explain to your counselor how well your plans worked for each trip taken"
         ],
-        "min_rows": 3,
+        "min_rows": 6,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Participate in one or more whitewater is enough for Whitewater Requirement 12 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Participate in one or more whitewater grounded in the official Whitewater pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Participate in one or more whitewater grounded in the official Whitewater pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on must involve at least six hours of paddling time. for each trip.",
+        "fact": "Scouts must explain must involve at least six hours of paddling time. for each trip using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
+        "fact_correction": "Scouts must explain must involve at least six hours of paddling time. for each trip using verified procedures, field evidence, and safety standards from Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74).",
         "pamphlet_page_ref": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)"
       },
       "starting_requirement_gate": null,
@@ -4110,7 +4446,7 @@
         "Consult Course Iswithin: Consult with your counselor to make sure that the course iswithin the capabilities of all participants and that the equipmentyou will be using.",
         "Research Prepare Float: Research and prepare a float plan that specifies your route.",
         "Schedule Determine Time: Set up a schedule in which you determine how much time you will need tosafely float the stretch of river you selected.",
-        "Double-check Yourequipment: Double-check yourequipment and review safety precautions and emergency procedures."
+        "Double-check Your equipment: Double-check your equipment and review safety precautions and emergency procedures."
       ],
       "step_by_step_procedure": [
         "Identify Options Event: Identify your options in the event of a problem withequipment, a sudden change in weather, or a medical emergency.",

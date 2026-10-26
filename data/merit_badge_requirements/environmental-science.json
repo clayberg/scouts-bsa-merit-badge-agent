@@ -43,22 +43,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 1 Structured Study & Explanation Notes",
         "headers": [
-          "Req 1 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Describe the meaning of environmental science in your own words",
+          "2. Explain how you think we can use science to understand, conserve, and improve"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Meaning of environmental science is enough for Environmental Science Requirement 1 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Meaning of environmental science grounded in the official Environmental Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Meaning of environmental science grounded in the official Environmental Science pamphlet.",
+        "misconception": "Environmental observations in Meaning of environmental science can be guessed from memory without field data or controlled comparisons.",
+        "fact": "Scientific environmental investigation in Meaning of environmental science requires direct field observation, controlled variables, and documented evidence.",
+        "fact_correction": "Scientific environmental investigation in Meaning of environmental science requires direct field observation, controlled variables, and documented evidence.",
         "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 77, p. 91)"
       },
       "starting_requirement_gate": null,
@@ -86,13 +90,13 @@
         "Companies Employ People: Other companies employ people to properly transport anddispose of municipal, agricultural, and industrial wastes.",
         "Scientists Working Ecology: Scientists working in ecology, toxicology, physiology, meteorology, geology, and many other sciences developproducts that are more environmentally.",
         "They Alsoresearch: They alsoresearch the environmental impacts of human activities.",
-        "They Reduce Environmental: They also help reduce the environmental hazards of pesticides by developing and testingpest-control techniques."
+        "They Reduce Environmental: They also help reduce the environmental hazards of pesticides by developing and testing pest-control techniques."
       ],
       "step_by_step_procedure": [
-        "Oceanographers Fishery: Oceanographers, fishery biologists, and fishery managerswork on developing ways to maintain fish stocks and avoidoverfishing and water pollution.",
+        "Oceanographers Fishery: Oceanographers, fishery biologists, and fishery managerswork on developing ways to maintain fish stocks and avoid overfishing and water pollution.",
         "Teachers Writers: Teachers, writers, illustrators, television reporters, journalists, and many others who promote environmental education alsoare environmentalists.",
-        "Service Maintainsthe World: Service maintainsthe world’slargest naturalscience researchorganization.",
-        "Not Choose Career: Even if you do not choose a career as an environmental scientist, you can and should be a conservationist and environmentalistin your own life."
+        "Service Maintainsthe World: Service maintainsthe world's largest naturalscience research organization.",
+        "Not Choose Career: Even if you do not choose a career as an environmental scientist, you can and should be a conservationist and environmentalist in your own life."
       ],
       "gear_checklist": [
         "Official Environmental Science Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
@@ -167,24 +171,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SENSORY_OBSERVATION_LOG",
+            "table_title": "Req 2a Two-Day Ecosystem Sensory Observation Log",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Observation Session",
+              "Sight (Visuals)",
+              "Sound (Acoustics)",
+              "Smell & Habitat Notes"
+            ],
+            "column_headers": [
+              "Observation Session",
+              "Sight (Visuals)",
+              "Sound (Acoustics)",
+              "Smell & Habitat Notes"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Day 1 Observation",
+              "Day 2 Observation",
+              "Ecosystem Summary"
             ],
             "min_rows": 3,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Environmental Science Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 2a can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 2a requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 2a requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)"
           },
           "starting_requirement_gate": {
@@ -225,27 +238,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SENSORY_OBSERVATION_LOG",
+            "table_title": "Req 2b Two-Day Ecosystem Sensory Observation Log",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Observation Session",
+              "Sight (Visuals)",
+              "Sound (Acoustics)",
+              "Smell & Habitat Notes"
+            ],
+            "column_headers": [
+              "Observation Session",
+              "Sight (Visuals)",
+              "Sound (Acoustics)",
+              "Smell & Habitat Notes"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Day 1 Observation",
+              "Day 2 Observation",
+              "Ecosystem Summary"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Environmental Science Requirement 2b sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 2b grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 2b grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 2b can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 2b requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 2b requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)"
           },
           "starting_requirement_gate": null,
@@ -317,26 +336,32 @@
       "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "SENSORY_OBSERVATION_LOG",
+        "table_title": "Req 2 Two-Day Ecosystem Sensory Observation Log",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Observation Session",
+          "Sight (Visuals)",
+          "Sound (Acoustics)",
+          "Smell & Habitat Notes"
+        ],
+        "column_headers": [
+          "Observation Session",
+          "Sight (Visuals)",
+          "Sound (Acoustics)",
+          "Smell & Habitat Notes"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "Day 1 Observation",
+          "Day 2 Observation",
+          "Ecosystem Summary"
         ],
-        "min_rows": 4,
+        "min_rows": 3,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of How Invasive Species Spread is enough for Environmental Science Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of How Invasive Species Spread grounded in the official Environmental Science pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of How Invasive Species Spread grounded in the official Environmental Science pamphlet.",
+        "misconception": "Environmental observations in How Invasive Species Spread can be guessed from memory without field data or controlled comparisons.",
+        "fact": "Scientific environmental investigation in How Invasive Species Spread requires direct field observation, controlled variables, and documented evidence.",
+        "fact_correction": "Scientific environmental investigation in How Invasive Species Spread requires direct field observation, controlled variables, and documented evidence.",
         "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)"
       },
       "starting_requirement_gate": {
@@ -366,10 +391,10 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Human Impact Biosphere: Human Impact on the Biosphere. “naturalize,” meaning they can reproduce and grow on theirown without human assistance.",
+        "Human Impact Biosphere: Human Impact on the Biosphere. “naturalize,” meaning they can reproduce and grow on their own without human assistance.",
         "Species Transported Mistake: Other species are transported by mistake byimporting products that have the seeds, plant, or animal on orin the product.",
-        "Invasive Species Pets: Some invasive species are pets that haveintentionally or accidentally been released, such as Burmesepythons, a big problem in the Florida Everglades.",
-        "Climate Change Improve: Climate change also can improve the ability of certainnative species to occupy new areas due to higher temperaturesand modified precipitation patterns."
+        "Invasive Species Pets: Some invasive species are pets that have intentionally or accidentally been released, such as Burmesepythons, a big problem in the Florida Everglades.",
+        "Climate Change Improve: Climate change also can improve the ability of certainnative species to occupy new areas due to higher temperatures and modified precipitation."
       ],
       "step_by_step_procedure": [
         "They Reproducequickly Area: They can reproducequickly and take over an area, and the native populations ofwildlife will not have time to develop defenses.",
@@ -419,27 +444,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": "Req 3a Scientific Experiment & Investigation Sheet",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
+            ],
+            "column_headers": [
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. State the Problem",
+              "2. Form a Hypothesis",
+              "3. Experimental Procedure",
+              "4. Observed Data & Results",
+              "5. Conclusion"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Environmental Science Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 3a can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 3a requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 3a requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -475,25 +506,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": "Req 3b Scientific Experiment & Investigation Sheet",
             "headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
+            ],
+            "column_headers": [
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
             ],
             "row_labels": [
-              "Primary Mechanism",
-              "Field Indicator",
-              "Safety / Application"
+              "1. State the Problem",
+              "2. Form a Hypothesis",
+              "3. Experimental Procedure",
+              "4. Observed Data & Results",
+              "5. Conclusion"
             ],
-            "min_rows": 3,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Environmental Science Requirement 3b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 3b grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 3b grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 3b can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 3b requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 3b requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -534,27 +573,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": "Req 3c Scientific Experiment & Investigation Sheet",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
+            ],
+            "column_headers": [
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. State the Problem",
+              "2. Form a Hypothesis",
+              "3. Experimental Procedure",
+              "4. Observed Data & Results",
+              "5. Conclusion"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3c is enough for Environmental Science Requirement 3c sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 3c grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 3c grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 3c can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 3c requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 3c requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -614,24 +659,32 @@
       "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "COMPARE_CONTRAST_2COL",
+        "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+        "table_title": "Req 3 Scientific Experiment & Investigation Sheet",
         "headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Step",
+          "Your Plan / Hypothesis / Data",
+          "Pamphlet Principle & Conclusion"
+        ],
+        "column_headers": [
+          "Step",
+          "Your Plan / Hypothesis / Data",
+          "Pamphlet Principle & Conclusion"
         ],
         "row_labels": [
-          "Primary Mechanism",
-          "Field Indicator",
-          "Safety / Application"
+          "1. State the Problem",
+          "2. Form a Hypothesis",
+          "3. Experimental Procedure",
+          "4. Observed Data & Results",
+          "5. Conclusion"
         ],
-        "min_rows": 3,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Air Pollution is enough for Environmental Science Requirement 3 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Air Pollution grounded in the official Environmental Science pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Air Pollution grounded in the official Environmental Science pamphlet.",
+        "misconception": "Environmental observations in Air Pollution can be guessed from memory without field data or controlled comparisons.",
+        "fact": "Scientific environmental investigation in Air Pollution requires direct field observation, controlled variables, and documented evidence.",
+        "fact_correction": "Scientific environmental investigation in Air Pollution requires direct field observation, controlled variables, and documented evidence.",
         "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)"
       },
       "starting_requirement_gate": null,
@@ -658,8 +711,8 @@
       "pamphlet_excerpts": [
         "Meanwhile New Technologies: Meanwhile, new technologies must be developed tolessen our reliance on fossil fuels.",
         "Air Act Created: The Clean Air Act of 1970 created federal air pollution regulationsthat each state must enforce.",
-        "Since Enactment United: Since this enactment, the United Stateshas significantly lowered the levels of six major air pollutantsincluding sulfur dioxides, nitrogen oxides.",
-        "There Several Ways: There are several ways that the nitrogen oxides, sulfurdioxides, and particulates that power plants and industriesrelease into the air have been lowered."
+        "Since Enactment United: Since this enactment, the United Stateshas significantly lowered the levels of six major air pollutants including sulfur dioxides, nitrogen oxides.",
+        "There Several Ways: There are several ways that the nitrogen oxides, sulfurdioxides, and particulates that power plants and industries release into the air have been lowered."
       ],
       "step_by_step_procedure": [
         "Plants Burn Coalthat: Some plants burn coalthat has a lower sulfur content.",
@@ -730,24 +783,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": "Req 4a Scientific Experiment & Investigation Sheet",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
+            ],
+            "column_headers": [
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. State the Problem",
+              "2. Form a Hypothesis",
+              "3. Experimental Procedure",
+              "4. Observed Data & Results",
+              "5. Conclusion"
             ],
-            "min_rows": 3,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Environmental Science Requirement 4a sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 4a grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 4a grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 4a can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 4a requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 4a requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)"
           },
           "starting_requirement_gate": null,
@@ -796,24 +858,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": "Req 4b Scientific Experiment & Investigation Sheet",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
+            ],
+            "column_headers": [
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. State the Problem",
+              "2. Form a Hypothesis",
+              "3. Experimental Procedure",
+              "4. Observed Data & Results",
+              "5. Conclusion"
             ],
-            "min_rows": 3,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Environmental Science Requirement 4b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 4b grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 4b grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 4b can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 4b requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 4b requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)"
           },
           "starting_requirement_gate": null,
@@ -858,27 +929,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": "Req 4c Scientific Experiment & Investigation Sheet",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
+            ],
+            "column_headers": [
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. State the Problem",
+              "2. Form a Hypothesis",
+              "3. Experimental Procedure",
+              "4. Observed Data & Results",
+              "5. Conclusion"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4c is enough for Environmental Science Requirement 4c sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 4c grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 4c grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 4c can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 4c requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 4c requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)"
           },
           "starting_requirement_gate": null,
@@ -962,23 +1039,32 @@
       "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+        "table_title": "Req 4 Scientific Experiment & Investigation Sheet",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Step",
+          "Your Plan / Hypothesis / Data",
+          "Pamphlet Principle & Conclusion"
+        ],
+        "column_headers": [
+          "Step",
+          "Your Plan / Hypothesis / Data",
+          "Pamphlet Principle & Conclusion"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. State the Problem",
+          "2. Form a Hypothesis",
+          "3. Experimental Procedure",
+          "4. Observed Data & Results",
+          "5. Conclusion"
         ],
-        "min_rows": 3,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Water Pollution is enough for Environmental Science Requirement 4 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Water Pollution grounded in the official Environmental Science pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Water Pollution grounded in the official Environmental Science pamphlet.",
+        "misconception": "Environmental observations in Water Pollution can be guessed from memory without field data or controlled comparisons.",
+        "fact": "Scientific environmental investigation in Water Pollution requires direct field observation, controlled variables, and documented evidence.",
+        "fact_correction": "Scientific environmental investigation in Water Pollution requires direct field observation, controlled variables, and documented evidence.",
         "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)"
       },
       "starting_requirement_gate": null,
@@ -1006,7 +1092,7 @@
         "Farmers Cankeep Fertilizer: Farmers cankeep fertilizer out of runoff by using only small amounts at a time or by switching to farming practices that require lessfertilizer.",
         "They Cut Their: They can cut their use of pesticides or switch tobiological controls.",
         "There Improvements Water: There have been improvements in water quality in the United States thanks to the Clean Water Act.",
-        "States Now Passed: In addition, most states have now passed laws thatrequire power plants and other factories to cool water beforereleasing it back into rivers and streams."
+        "States Now Passed: In addition, most states have now passed laws thatrequire power plants and other factories to cool water before releasing it back into rivers and streams."
       ],
       "step_by_step_procedure": [
         "Somesources Water Pollution: Even though somesources of water pollution have been addressed, muchmore can be done.",
@@ -1060,27 +1146,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": "Req 5a Scientific Experiment & Investigation Sheet",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
+            ],
+            "column_headers": [
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. State the Problem",
+              "2. Form a Hypothesis",
+              "3. Experimental Procedure",
+              "4. Observed Data & Results",
+              "5. Conclusion"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Environmental Science Requirement 5a sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 5a grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 5a grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 5a can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 5a requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 5a requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)"
           },
           "starting_requirement_gate": {
@@ -1130,24 +1222,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": "Req 5b Scientific Experiment & Investigation Sheet",
             "headers": [
-              "Req 5b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
+            ],
+            "column_headers": [
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. State the Problem",
+              "2. Form a Hypothesis",
+              "3. Experimental Procedure",
+              "4. Observed Data & Results",
+              "5. Conclusion"
             ],
-            "min_rows": 3,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Environmental Science Requirement 5b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 5b grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 5b grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 5b can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 5b requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 5b requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)"
           },
           "starting_requirement_gate": null,
@@ -1188,24 +1289,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": "Req 5c Scientific Experiment & Investigation Sheet",
             "headers": [
-              "Req 5c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
+            ],
+            "column_headers": [
+              "Step",
+              "Your Plan / Hypothesis / Data",
+              "Pamphlet Principle & Conclusion"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. State the Problem",
+              "2. Form a Hypothesis",
+              "3. Experimental Procedure",
+              "4. Observed Data & Results",
+              "5. Conclusion"
             ],
-            "min_rows": 3,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5c is enough for Environmental Science Requirement 5c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 5c can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 5c requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 5c requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)"
           },
           "starting_requirement_gate": null,
@@ -1273,23 +1383,32 @@
       "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+        "table_title": "Req 5 Scientific Experiment & Investigation Sheet",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Step",
+          "Your Plan / Hypothesis / Data",
+          "Pamphlet Principle & Conclusion"
+        ],
+        "column_headers": [
+          "Step",
+          "Your Plan / Hypothesis / Data",
+          "Pamphlet Principle & Conclusion"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. State the Problem",
+          "2. Form a Hypothesis",
+          "3. Experimental Procedure",
+          "4. Observed Data & Results",
+          "5. Conclusion"
         ],
-        "min_rows": 3,
+        "min_rows": 5,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Land Pollution is enough for Environmental Science Requirement 5 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Land Pollution grounded in the official Environmental Science pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Land Pollution grounded in the official Environmental Science pamphlet.",
+        "misconception": "Environmental observations in Land Pollution can be guessed from memory without field data or controlled comparisons.",
+        "fact": "Scientific environmental investigation in Land Pollution requires direct field observation, controlled variables, and documented evidence.",
+        "fact_correction": "Scientific environmental investigation in Land Pollution requires direct field observation, controlled variables, and documented evidence.",
         "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)"
       },
       "starting_requirement_gate": {
@@ -1319,14 +1438,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Usedmotor Oil Oilrecycling: If you take usedmotor oil to an oilrecycling center, it can be cleanedand reused, whichsaves energy.",
-        "Recycled Oilcan Usedto: Recycled oilcan be usedto generateelectricity forhomes andbusinesses.",
+        "Usedmotor Oil Oilrecycling: If you take usedmotor oil to an oilrecycling center, it can be cleanedand reused, which saves energy.",
+        "Recycled Oilcan Usedto: Recycled oilcan be usedto generateelectricity forhomes and businesses.",
         "Abandoned Piece Commercial: An abandoned piece of commercial or industrial land thatis contaminated (or is suspected of being contaminated) by ahazardous substance is known.",
-        "Abandonedfactories Gas: Abandonedfactories and gas stations are examples of brownfield sites."
+        "Abandoned factories Gas: Abandoned factories and gas stations are examples of brownfield sites."
       ],
       "step_by_step_procedure": [
         "Areal Perceived Health: Areal or perceived health danger makes it more complicated toredevelop the site for new uses.",
-        "New Law However: A new law, however, allowscommunities and developers to reclaim brownfields by workingwith the EPA to clean up the sites.",
+        "New Law However: A new law, however, allowscommunities and developers to reclaim brownfields by working with the EPA to clean up the sites.",
         "EPA Determines Howmuch: The EPA determines howmuch cleanup needs to be done to make the site safe for itsnew use.",
         "Cleaned-up Brownfields: Cleaned-up brownfields have been redeveloped foroffices and stores."
       ],
@@ -1381,23 +1500,29 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6a Structured Study & Explanation Notes",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Do research on one endangered species found in your state",
+              "2. Learn about its natural habitat, why it is endangered, what is being done",
+              "3. Prepare a 100-word report about the species and include a drawing or photo",
+              "4. Present your report to your patrol or troop"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6a is enough for Environmental Science Requirement 6a sign-off.",
-            "fact": "Each Scout must actively research the specific principles and real-world steps of Req 6a grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively research the specific principles and real-world steps of Req 6a grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 6a can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 6a requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 6a requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)"
           },
           "starting_requirement_gate": null,
@@ -1451,23 +1576,29 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Study & Explanation Notes",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Do research on one species that was endangered or threatened but that has now",
+              "2. Learn about how the species recovered, and what its new status is",
+              "3. Prepare a 100-word report on the species and include a drawing or photo",
+              "4. Present your report to your patrol or troop"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Environmental Science Requirement 6b sign-off.",
-            "fact": "Each Scout must actively research the specific principles and real-world steps of Req 6b grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively research the specific principles and real-world steps of Req 6b grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 6b can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 6b requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 6b requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)"
           },
           "starting_requirement_gate": null,
@@ -1516,17 +1647,25 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 6c Career & Pathway Exploration Card",
             "headers": [
-              "Req 6c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)",
@@ -1626,17 +1765,25 @@
       "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 6 Career & Pathway Exploration Card",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
@@ -1672,9 +1819,9 @@
         }
       ],
       "pamphlet_excerpts": [
-        "List Endangered Threatened: Step 2, List the endangered or threatened species in yourstate.",
-        "Library Access Internet: Step 3, Go to the library or access the internet (with yourparent or guardian’s permission) to find information about yourchosen species.",
-        "Research hint: Ask your librarian if the library offers access tomagazine-article databases such as ProQuest or EBSCOhost.",
+        "List Endangered Threatened: Step 2, List the endangered or threatened species in your state.",
+        "Library Access Internet: Step 3, Go to the library or access the internet (with your parent or guardian’s permission) to find information about your chosen species.",
+        "Research hint: Ask your librarian if the library offers access to magazine-article databases such as ProQuest or EBSCOhost.",
         "Species Now Protected: If the species is now protected by state or federal law, explainhow this protection has helped the species survive and whatelse needs to be done."
       ],
       "step_by_step_procedure": [
@@ -1738,23 +1885,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7a Structured Study & Explanation Notes",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Determine five ways to conserve resources or use resources more efficiently",
+              "2. Practice at least two of these methods for at least one week"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Environmental Science Requirement 7a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7a grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 7a can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 7a requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 7a requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)"
           },
           "starting_requirement_gate": null,
@@ -1804,26 +1955,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 7b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Explain Resource Recovery and why it is important to reduce pollution",
+              "2. Collect samples or take photos of 10 items that can demonstrate the principle",
+              "3. Explain your collection, how these materials are currently handled"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Environmental Science Requirement 7b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 7b can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 7b requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 7b requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)"
           },
           "starting_requirement_gate": null,
@@ -1865,23 +2023,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7c Structured Study & Explanation Notes",
             "headers": [
-              "Req 7c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Identify five items in your household that will become hazardous waste",
+              "2. Explain how they should be properly stored, what special care is needed"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Environmental Science hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Environmental Science prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Environmental Science prevents most field injuries.",
+            "misconception": "Environmental observations in Req 7c can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 7c requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 7c requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)"
           },
           "starting_requirement_gate": null,
@@ -1962,25 +2124,32 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 7 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Determine five ways to conserve resources or use resources more efficiently",
+          "(b) Explain Resource Recovery and why it is important to reduce pollution",
+          "(c) Identify five items in your household that will become hazardous waste"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Environmental Science hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Environmental Science prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Environmental Science prevents most field injuries.",
+        "misconception": "Environmental observations in Pollution Prevention, Resource Recovery, and Conservation can be guessed from memory without field data or controlled comparisons.",
+        "fact": "Scientific environmental investigation in Pollution Prevention, Resource Recovery, and Conservation requires direct field observation, controlled variables, and documented evidence.",
+        "fact_correction": "Scientific environmental investigation in Pollution Prevention, Resource Recovery, and Conservation requires direct field observation, controlled variables, and documented evidence.",
         "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)"
       },
       "starting_requirement_gate": null,
@@ -2005,8 +2174,8 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Human Impact Biosphere: Human Impact on the Biosphere. percent of allthe aluminumbeverage canssold in the United Statesare recycled.",
-        "Ittakes Sameamount Energyto: Ittakes the sameamount of energyto make one canfrom aluminumore as it does tomake 20 cansfrom recycledaluminum.",
+        "Human Impact Biosphere: Human Impact on the Biosphere. percent of allthe aluminum beverage canssold in the United Statesare recycled.",
+        "Ittakes Sameamount Energyto: Ittakes the sameamount of energyto make one canfrom aluminumore as it does tomake 20 cans from recycled aluminum.",
         "Reduce Reuse Recycle: The three R’s, reduce, reuse, and recycle, can be applied todecrease the amount of solid waste that human activities generate.",
         "Reduce Amount Solid: To reduce the amount of solid waste you throw out, simply do notbring home those materials in the first place."
       ],
@@ -2067,26 +2236,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 8a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Investigate pollination and its importance to our environment and ecosystems",
+              "2. Make a list of five pollinators and the plants that attract them in your",
+              "3. Explain the importance of pollinators and what Scouts can do to support"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8a is enough for Environmental Science Requirement 8a sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 8a grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 8a grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 8a can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 8a requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 8a requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)"
           },
           "starting_requirement_gate": null,
@@ -2131,28 +2307,29 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8b Structured Study & Explanation Notes",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Req 8b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+              "1. Visit an area with flowering plants during pollination season for an hour",
+              "2. Record which pollinators are attracted to which plant",
+              "3. Explain the importance of pollinators and what Scouts can do to support"
             ],
-            "min_rows": 5,
+            "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8b is enough for Environmental Science Requirement 8b sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 8b grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 8b grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 8b can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 8b requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 8b requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)"
           },
           "starting_requirement_gate": null,
@@ -2202,23 +2379,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8c Structured Study & Explanation Notes",
             "headers": [
-              "Req 8c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Learn about the importance of pollination to agriculture",
+              "2. Identify four crop-pollinator pairs",
+              "3. Explain the relationship of pollinators to agriculture"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8c is enough for Environmental Science Requirement 8c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Environmental Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Environmental Science pamphlet.",
+            "misconception": "Environmental observations in Req 8c can be guessed from memory without field data or controlled comparisons.",
+            "fact": "Scientific environmental investigation in Req 8c requires direct field observation, controlled variables, and documented evidence.",
+            "fact_correction": "Scientific environmental investigation in Req 8c requires direct field observation, controlled variables, and documented evidence.",
             "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)"
           },
           "starting_requirement_gate": null,
@@ -2298,27 +2480,28 @@
       "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 8 Structured Study & Explanation Notes",
         "headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+          "(a) Investigate pollination and its importance to our environment and ecosystems",
+          "(b) Visit an area with flowering plants during pollination season for an hour",
+          "(c) Learn about the importance of pollination to agriculture"
         ],
-        "min_rows": 5,
+        "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Pollination is enough for Environmental Science Requirement 8 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Pollination grounded in the official Environmental Science pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Pollination grounded in the official Environmental Science pamphlet.",
+        "misconception": "Environmental observations in Pollination can be guessed from memory without field data or controlled comparisons.",
+        "fact": "Scientific environmental investigation in Pollination requires direct field observation, controlled variables, and documented evidence.",
+        "fact_correction": "Scientific environmental investigation in Pollination requires direct field observation, controlled variables, and documented evidence.",
         "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)"
       },
       "starting_requirement_gate": null,
@@ -2345,13 +2528,13 @@
       "pamphlet_excerpts": [
         "There Species Aid: There are over 350,000 species that aid pollination, including over 20,000 species of bees.",
         "However Humanactivities: However, humanactivities and environmental changes threaten this vitalecological process.",
-        "Pollinator Pairs Refer: Pollinator pairs refer to the specific partnerships betweenflowering plants and the creatures that help them reproducethrough pollination.",
-        "There Pollinator: There are over 350,000 pollinator speciesworldwide, and each may have its own specific pollinator pairswith various plant species."
+        "Pollinator Pairs Refer: Pollinator pairs refer to the specific partnerships between flowering plants and the creatures that help them reproducethrough pollination.",
+        "There Pollinator: There are over 350,000 pollinator species worldwide, and each may have its own specific pollinator pairs with various plant species."
       ],
       "step_by_step_procedure": [
-        "Hand Pollinatorsare Not: On the other hand, some pollinatorsare not so choosy.",
+        "Hand Pollinators are Not: On the other hand, some pollinators are not so choosy.",
         "Plants Pollinators Coevolved: Many plants and pollinators have coevolved over longperiods, developing a mutually beneficial relationship.",
-        "Plantsoffer Nectar Pollen: Plantsoffer nectar, pollen, or other rewards to attract pollinators, while the pollinators inadvertently transfer pollen betweenflowers.",
+        "Plantsoffer Nectar Pollen: Plantsoffer nectar, pollen, or other rewards to attract pollinators, while the pollinators inadvertently transfer pollen between flowers.",
         "Pollinator Pairs Exhibit: Some pollinator pairs exhibit a high degree of specificity."
       ],
       "gear_checklist": [
@@ -2411,22 +2594,28 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Study & Explanation Notes",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Invasive Species",
+          "2. In your community or camp, investigate two invasive plant or animal species",
+          "3. Learn where the species originated, how they were transported to this",
+          "4. Discuss what you learned with your counselor"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Invasive Species is enough for Environmental Science Requirement 9 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Invasive Species grounded in the official Environmental Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Invasive Species grounded in the official Environmental Science pamphlet.",
+        "misconception": "Environmental observations in Invasive Species can be guessed from memory without field data or controlled comparisons.",
+        "fact": "Scientific environmental investigation in Invasive Species requires direct field observation, controlled variables, and documented evidence.",
+        "fact_correction": "Scientific environmental investigation in Invasive Species requires direct field observation, controlled variables, and documented evidence.",
         "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 70)"
       },
       "starting_requirement_gate": null,
@@ -2451,14 +2640,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Human Impact Biosphere: Human Impact on the Biosphere. “naturalize,” meaning they can reproduce and grow on theirown without human assistance.",
+        "Human Impact Biosphere: Human Impact on the Biosphere. “naturalize,” meaning they can reproduce and grow on their own without human assistance.",
         "Species Transported Mistake: Other species are transported by mistake byimporting products that have the seeds, plant, or animal on orin the product.",
-        "Invasive Species Pets: Some invasive species are pets that haveintentionally or accidentally been released, such as Burmesepythons, a big problem in the Florida Everglades.",
-        "Climate Change Improve: Climate change also can improve the ability of certainnative species to occupy new areas due to higher temperaturesand modified precipitation patterns."
+        "Invasive Species Pets: Some invasive species are pets that have intentionally or accidentally been released, such as Burmesepythons, a big problem in the Florida Everglades.",
+        "Climate Change Improve: Climate change also can improve the ability of certainnative species to occupy new areas due to higher temperatures and modified precipitation."
       ],
       "step_by_step_procedure": [
         "They Reproducequickly Area: They can reproducequickly and take over an area, and the native populations ofwildlife will not have time to develop defenses.",
-        "Forms Densemats Reducing: It forms densemats, reducing sunlight for submerged plants and aquaticorganisms, crowding out native aquatic plants, andclogging waterways.",
+        "Forms Densemats Reducing: It forms densemats, reducing sunlight for submerged plants and aquatic organisms, crowding out native aquatic plants, andclogging waterways.",
         "Not Realize Invasive: You might not realize how many invasive plant and animalspecies are already present in your community or camp.",
         "Knowledge Identification: Knowledge about and identification of invasive species is the first step toward controlling them."
       ],
@@ -2523,22 +2712,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 10 Structured Study & Explanation Notes",
         "headers": [
-          "Req 10 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 10 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 10 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Building a house",
+          "Adding a new building to your Scout camp",
+          "One you create on your own that is approved by your counselor"
         ],
         "min_rows": 3,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Environmental impact topics that would need is enough for Environmental Science Requirement 10 sign-off.",
-        "fact": "Each Scout must actively identify the specific principles and real-world steps of Environmental impact topics that would need grounded in the official Environmental Science pamphlet.",
-        "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Environmental impact topics that would need grounded in the official Environmental Science pamphlet.",
+        "misconception": "Environmental observations in Environmental impact topics that would need can be guessed from memory without field data or controlled comparisons.",
+        "fact": "Scientific environmental investigation in Environmental impact topics that would need requires direct field observation, controlled variables, and documented evidence.",
+        "fact_correction": "Scientific environmental investigation in Environmental impact topics that would need requires direct field observation, controlled variables, and documented evidence.",
         "pamphlet_page_ref": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 71)"
       },
       "starting_requirement_gate": {
@@ -2569,7 +2763,7 @@
       ],
       "pamphlet_excerpts": [
         "Finally Aware Beesand: Finally, be aware of beesand snakes that might be living among the invasive plants.",
-        "Seemlike Simple Project: What might seemlike a simple project, building a new house, for example, may have many environmental impacts beyond simplydisturbing the soil on-site.",
+        "Seemlike Simple Project: What might seemlike a simple project, building a new house, for example, may have many environmental impacts beyond simply disturbing the soil.",
         "Happens Moles Andshrews: What happens to the moles andshrews that live in the soil?.",
         "Hive Honeybees Onceperched: Or the hive of honeybees that onceperched in the felled tree?."
       ],
@@ -2639,17 +2833,25 @@
       "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 76, p. 77)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 11 Career & Pathway Exploration Card",
         "headers": [
-          "Req 11 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
@@ -2682,13 +2884,13 @@
       "pamphlet_excerpts": [
         "Thinking Career: Thinking about a career in environmental science?.",
         "Want Explore Acareer: To work in environmental science, you may want to explore acareer in the natural sciences, physical sciences, or engineering.",
-        "Companies Agencies Working: Companies and agencies working in thefields of environmental science or conservation hire employees for a great variety ofoccupations.",
+        "Companies Agencies Working: Companies and agencies working in thefields of environmental science or conservation hire employees for a great variety of occupations.",
         "Government Agencies Fromthe: Government agencies fromthe U.S."
       ],
       "step_by_step_procedure": [
         "Scientistsand Engineers Work: Scientistsand engineers work in government andindustry laboratories to develop wind, solar, geothermal, and other alternativefuels.",
         "Environmental Lawyers: Environmental lawyers help companiesfollow environmental laws.",
-        "Environmentalengineers Design: Environmentalengineers design projects that are environmentally sound.",
+        "Environmental engineers Design: Environmental engineers design projects that are environmentally sound.",
         "Companies Employ People: Other companies employ people to properly transport anddispose of municipal, agricultural, and industrial wastes."
       ],
       "gear_checklist": [

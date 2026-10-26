@@ -41,26 +41,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1a is enough for Sports Requirement 1a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1a grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor the most likely risks you may encounter while.",
+            "fact": "Scouts must explain explain to your counselor the most likely risks you may encounter while using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89).",
+            "fact_correction": "Scouts must explain explain to your counselor the most likely risks you may encounter while using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)"
           },
           "starting_requirement_gate": null,
@@ -110,20 +121,28 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 1b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Sprains; strains; muscle cramps; contusions; abrasions; blisters; dehydration; heat reactions; fractures; injured teeth; head",
+              "Neck",
+              "Back injuries",
+              "Concussions"
             ],
             "min_rows": 4,
-            "pre_approval_gate": false
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)",
           "common_misconception_pair": {
@@ -201,25 +220,36 @@
       "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Sports hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Sports prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Sports prevents most field injuries.",
+        "misconception": "Straighten an angled bone or dislocated joint before tying a rigid splint.",
+        "fact": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying.",
+        "fact_correction": "Always splint a fracture or dislocation in the exact position found and check distal Circulation, Motor, and Sensation (CMS) before and after tying.",
         "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)"
       },
       "starting_requirement_gate": null,
@@ -321,23 +351,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "The importance of the physical exam",
+              "Pamphlet Standard & Key Facts (2a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Sports Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the importance of the physical exam.",
+            "fact": "Scouts must explain the importance of the physical exam using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16).",
+            "fact_correction": "Scouts must explain the importance of the physical exam using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)"
           },
           "starting_requirement_gate": null,
@@ -379,26 +414,35 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Exercising regularly)",
+              "How the use of tobacco products",
+              "Alcohol",
+              "Other harmful substances can negatively affect your health",
+              "Your performance in sports activities"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Sports Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on exercising regularly).",
+            "fact": "Scouts must explain exercising regularly) using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16).",
+            "fact_correction": "Scouts must explain exercising regularly) using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)"
           },
           "starting_requirement_gate": null,
@@ -440,23 +484,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2c Structured Study & Explanation Notes",
             "headers": [
-              "Req 2c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "The importance of maintaining a healthy diet",
+              "Pamphlet Standard & Key Facts (2c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2c is enough for Sports Requirement 2c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the importance of maintaining a healthy diet.",
+            "fact": "Scouts must explain the importance of maintaining a healthy diet using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16).",
+            "fact_correction": "Scouts must explain the importance of maintaining a healthy diet using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)"
           },
           "starting_requirement_gate": null,
@@ -517,25 +566,32 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) The importance of the physical exam",
+          "(b) The importance of maintaining good health habits for life (such as exercising",
+          "(c) The importance of maintaining a healthy diet The importance of the physical"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The importance of the physical exam is enough for Sports Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The importance of the physical exam grounded in the official Sports pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The importance of the physical exam grounded in the official Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the importance of the physical exam.",
+        "fact": "Scouts must explain the importance of the physical exam using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16).",
+        "fact_correction": "Scouts must explain the importance of the physical exam using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16).",
         "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)"
       },
       "starting_requirement_gate": null,
@@ -614,23 +670,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Study & Explanation Notes",
             "headers": [
-              "Req 3a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "The importance of warming up and cooling down",
+              "Pamphlet Standard & Key Facts (3a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Sports Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the importance of warming up and cooling down.",
+            "fact": "Scouts must explain the importance of warming up and cooling down using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25).",
+            "fact_correction": "Scouts must explain the importance of warming up and cooling down using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)"
           },
           "starting_requirement_gate": null,
@@ -672,23 +733,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3b Structured Study & Explanation Notes",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "The importance of weight training",
+              "Pamphlet Standard & Key Facts (3b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Sports Requirement 3b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the importance of weight training.",
+            "fact": "Scouts must explain the importance of weight training using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25).",
+            "fact_correction": "Scouts must explain the importance of weight training using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)"
           },
           "starting_requirement_gate": null,
@@ -729,17 +795,25 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 3c Career & Pathway Exploration Card",
             "headers": [
-              "Req 3c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
@@ -788,23 +862,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3d Structured Study & Explanation Notes",
             "headers": [
-              "Req 3d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. The attributes (qualities) of a good sport, the importance of sportsmanship",
+              "2. The traits of a good team leader and player who exhibits Scout spirit"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3d is enough for Sports Requirement 3d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the attributes (qualities) of a good sport, the importance of sportsmanship.",
+            "fact": "Scouts must explain the attributes (qualities) of a good sport, the importance of sportsmanship using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25).",
+            "fact_correction": "Scouts must explain the attributes (qualities) of a good sport, the importance of sportsmanship using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)"
           },
           "starting_requirement_gate": null,
@@ -868,17 +946,25 @@
       "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 3 Career & Pathway Exploration Card",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
@@ -981,22 +1067,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Study & Explanation Notes",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Through 5",
+          "(h) For each sport: badminton, baseball, basketball, bowling, cross-country"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of How you will complete the requirements is enough for Sports Requirement 4 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of How you will complete the requirements grounded in the official Sports pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of How you will complete the requirements grounded in the official Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on through 5.",
+        "fact": "Scouts must discuss through 5 using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 27, p. 28).",
+        "fact_correction": "Scouts must discuss through 5 using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 27, p. 28).",
         "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 27, p. 28)"
       },
       "starting_requirement_gate": null,
@@ -1024,7 +1114,7 @@
         "Sports Spectators Follow: If a Sports spectators also need to follow rules of etiquette.",
         "Clap Respect Team: Clap with respect for your team but never boo the opposingteam.",
         "Injured Player Down: When an injured player who was down on the fieldrecovers or is carried off, it is polite to clap in appreciationof the player’s effort.",
-        "Ingeneral Musthave: Ingeneral, you musthave possessionin order to score, so havingpossession ofthe ball is to yourteam’s advantage."
+        "Ingeneral Musthave: Ingeneral, you musthave possessionin order to score, so havingpossession ofthe ball is to your team’s advantage."
       ],
       "step_by_step_procedure": [
         "Coin Toss Begin: The coin toss is used to begin baseball, basketball, fieldhockey, football, ice hockey, lacrosse, soccer, softball, table tennis, tennis, volleyball.",
@@ -1083,23 +1173,28 @@
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5a Structured Study & Explanation Notes",
             "headers": [
-              "Req 5a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. With guidance from your counselor, establish a suitable personal training",
+              "2. Key Pamphlet Examples & Evidence (Req 5a)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
-            "pre_approval_gate": false
+            "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Sports Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with guidance from your counselor, establish a suitable personal training.",
+            "fact": "Scouts must explain with guidance from your counselor, establish a suitable personal training using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
+            "fact_correction": "Scouts must explain with guidance from your counselor, establish a suitable personal training using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
@@ -1140,28 +1235,29 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5b Structured Study & Explanation Notes",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+              "1. Create a chart or other tracking system",
+              "2. Document your training, practice",
+              "3. Development during this time"
             ],
-            "min_rows": 5,
+            "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Sports Requirement 5b sign-off.",
-            "fact": "Each Scout must actively record the specific principles and real-world steps of Req 5b grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively record the specific principles and real-world steps of Req 5b grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on create a chart or other tracking system.",
+            "fact": "Scouts must record create a chart or other tracking system using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
+            "fact_correction": "Scouts must record create a chart or other tracking system using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
@@ -1197,27 +1293,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 5c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate proper technique to play each sport effectively and avoid injury",
+              "Pamphlet Standard & Key Facts (5c)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5c is enough for Sports Requirement 5c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5c grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate proper technique to play each sport effectively and avoid injury.",
+            "fact": "Scouts must demonstrate demonstrate proper technique to play each sport effectively and avoid injury using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
+            "fact_correction": "Scouts must demonstrate demonstrate proper technique to play each sport effectively and avoid injury using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
@@ -1259,23 +1362,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5d Structured Study & Explanation Notes",
             "headers": [
-              "Req 5d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. The equipment needed for each sport",
+              "2. Protective equipment and any specialized clothing"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5d is enough for Sports Requirement 5d sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5d grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 5d grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the equipment needed for each sport.",
+            "fact": "Scouts must describe the equipment needed for each sport using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
+            "fact_correction": "Scouts must describe the equipment needed for each sport using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
@@ -1349,23 +1456,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5e Structured Study & Explanation Notes",
             "headers": [
-              "Req 5e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "List and explain the rules and proper etiquette of each sport",
+              "Pamphlet Standard & Key Facts (5e)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5e is enough for Sports Requirement 5e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on list and explain the rules and proper etiquette of each sport.",
+            "fact": "Scouts must explain list and explain the rules and proper etiquette of each sport using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
+            "fact_correction": "Scouts must explain list and explain the rules and proper etiquette of each sport using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
@@ -1407,23 +1519,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5f Structured Study & Explanation Notes",
             "headers": [
-              "Req 5f Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Draw and explain a diagram of the playing area for each sport",
+              "Pamphlet Standard & Key Facts (5f)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5f is enough for Sports Requirement 5f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5f grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5f grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on draw and explain a diagram of the playing area for each sport.",
+            "fact": "Scouts must explain draw and explain a diagram of the playing area for each sport using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
+            "fact_correction": "Scouts must explain draw and explain a diagram of the playing area for each sport using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
@@ -1460,23 +1577,28 @@
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5g Structured Study & Explanation Notes",
             "headers": [
-              "Req 5g Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5g Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5g Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Participate in each sport as a competitive individual or as a member",
+              "2. Key Pamphlet Examples & Evidence (Req 5g)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5g is enough for Sports Requirement 5g sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5g grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5g grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on participate in each sport as a competitive individual or as a member.",
+            "fact": "Scouts must explain participate in each sport as a competitive individual or as a member using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
+            "fact_correction": "Scouts must explain participate in each sport as a competitive individual or as a member using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
@@ -1512,28 +1634,28 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5h Structured Study & Explanation Notes",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Req 5h Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5h Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+              "1. At the end of the season, share your completed chart with your counselor",
+              "2. How your participation in the sports you chose has affected you mentally"
             ],
-            "min_rows": 5,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5h is enough for Sports Requirement 5h sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5h grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 5h grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on at the end of the season, share your completed chart with your counselor.",
+            "fact": "Scouts must discuss at the end of the season, share your completed chart with your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
+            "fact_correction": "Scouts must discuss at the end of the season, share your completed chart with your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
           },
           "starting_requirement_gate": null,
@@ -1641,27 +1763,36 @@
       "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)",
       "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
       "workbook_organizer": {
-        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+          "(a) With guidance from your counselor, establish a suitable personal training",
+          "(b) Create a chart or other tracking system, and document your training",
+          "(c) Demonstrate proper technique to play each sport effectively and avoid injury",
+          "(d) List and describe the equipment needed for each sport, including protective",
+          "(e) List and explain the rules and proper etiquette of each sport",
+          "(f) Draw and explain a diagram of the playing area for each sport"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": true,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Establish a suitable personal training program is enough for Sports Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Establish a suitable personal training program grounded in the official Sports pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Establish a suitable personal training program grounded in the official Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with guidance from your counselor, establish a suitable personal training.",
+        "fact": "Scouts must demonstrate with guidance from your counselor, establish a suitable personal training using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
+        "fact_correction": "Scouts must demonstrate with guidance from your counselor, establish a suitable personal training using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82).",
         "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)"
       },
       "starting_requirement_gate": null,
@@ -1689,10 +1820,10 @@
         "Mastering Sport Not: Mastering a sport is not all brute strength, propertechnique can turn a loss into a win.",
         "Technique Notsomething: Technique is notsomething you concentrate on in one training sessionbut for a lifetime in your chosen sport.",
         "Knowthe Grip Racket: Do you knowthe best grip for your racket, bat, or stick?.",
-        "Yourstance Batting Face-off: What about yourstance in batting, a face-off, or throw-in?."
+        "Your stance Batting Face-off: What about your stance in batting, a face-off, or throw-in?."
       ],
       "step_by_step_procedure": [
-        "Teachingyour Technique: Try teachingyour technique to another player or Scout to furthercement your understanding and knowledge beforepresenting it to your counselor.",
+        "Teachingyour Technique: Try teachingyour technique to another player or Scout to furthercement your understanding and knowledge before presenting it to your counselor.",
         "Review Completed Development: Review your completed “Your Development” chart withyour counselor.",
         "Benefits Gotten Fromplaying: What other benefits have you gotten fromplaying a sport that would be hard to quantify?.",
         "Read Ideas Belowto: Read the ideas belowto see if they apply to you. • Learn how to work with a team and how to think of theteam’s needs before your own."
@@ -1743,17 +1874,25 @@
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 6a Career & Pathway Exploration Card",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)",
@@ -1802,23 +1941,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Study & Explanation Notes",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Identify how you might use skills and knowledge related to a sport to pursue",
+              "2. Research the additional training required, expenses, and affiliation",
+              "3. Discuss what you learned with your counselor and share what short-term"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Sports Requirement 6b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 6b grounded in the official Sports pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 6b grounded in the official Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify how you might use skills and knowledge related to a sport to pursue.",
+            "fact": "Scouts must identify identify how you might use skills and knowledge related to a sport to pursue using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75).",
+            "fact_correction": "Scouts must identify identify how you might use skills and knowledge related to a sport to pursue using verified procedures, field evidence, and safety standards from Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75).",
             "pamphlet_page_ref": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)"
           },
           "starting_requirement_gate": null,
@@ -1878,17 +2022,25 @@
       "pamphlet_page_citation": "Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 6 Career & Pathway Exploration Card",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {

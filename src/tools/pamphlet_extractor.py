@@ -1798,6 +1798,8 @@ def _build_sub_requirement_slides(
             "image_path": None,
             "caption": f"{badge_name} Sub-Requirement Reference — {base_title} ({range_label})",
             "is_subreq_slide": True,
+            "sub_requirements_chunk": list(chunk),
+            "sub_req_range_label": range_label,
         })
     return slides_out
 
@@ -2426,6 +2428,16 @@ def decompose_requirement_into_topic_slides(
 
 
 _CURATED_REQ1_SAFETY_QUIZZES: Dict[str, Dict[str, Any]] = {
+    "first_aid": {
+        "scenario_prompt": "During a woodland trail hike, your patrol discovers an adult hiker lying at the base of a wet rock ledge with bright red blood spurting from a lower-leg wound and a downed power line 25 feet uphill. What is your patrol's immediate first-aid sequence?",
+        "options": [
+            "Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
+            "Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
+            "Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
+        ],
+        "correct_answer": "Option B — Verify scene safety first, don personal protective gloves, activate EMS (911), and control life-threatening bleeding with firm direct pressure.",
+        "explanation": "Under the First Aid Merit Badge Pamphlet emergency action sequence (Check-Call-Care), rescuers must first verify scene safety so they do not become a second victim, apply Universal Precautions (BSI barriers), summon EMS immediately, and treat life-threatening conditions (airway, breathing, severe bleeding) before minor injuries.",
+    },
     "athletics": {
         "scenario_prompt": "During a warm afternoon track practice for the 1,500-meter run, a Scout stops sweating, becomes confused and unsteady, and has hot, flushed skin. What is your patrol's immediate first-aid action?",
         "options": [

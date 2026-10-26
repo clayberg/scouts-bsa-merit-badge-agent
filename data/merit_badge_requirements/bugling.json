@@ -48,22 +48,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 1 Structured Study & Explanation Notes",
         "headers": [
-          "Req 1 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Give a brief history of the bugle",
+          "Pamphlet Standard & Key Facts (1)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Give a brief history is enough for Bugling Requirement 1 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Give a brief history grounded in the official Bugling pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Give a brief history grounded in the official Bugling pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on give a brief history of the bugle.",
+        "fact": "Scouts must explain give a brief history of the bugle using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must explain give a brief history of the bugle using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Bugling Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -165,26 +170,32 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. How the bugle makes sound",
+              "2. Explain how the bugle is related to other brass wind instruments"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Bugling Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Bugling Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Bugling pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Bugling pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on how the bugle makes sound.",
+            "fact": "Scouts must explain how the bugle makes sound using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must explain how the bugle makes sound using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Bugling Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -221,23 +232,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Compose a bugle call for your troop or patrol to signal a common group",
+              "2. Play the call that you have composed before your unit or patrol"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Bugling Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Bugling Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Bugling pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Bugling pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on compose a bugle call for your troop or patrol to signal a common group.",
+            "fact": "Scouts must explain compose a bugle call for your troop or patrol to signal a common group using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must explain compose a bugle call for your troop or patrol to signal a common group using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Bugling Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -290,25 +305,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain and demonstrate how the bugle makes sound, and explain how the bugle",
+          "(b) Compose a bugle call for your troop or patrol to signal a common group"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Requirement 2 is enough for Bugling Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Requirement 2 grounded in the official Bugling pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Requirement 2 grounded in the official Bugling pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain and demonstrate how the bugle makes sound, and explain how the bugle.",
+        "fact": "Scouts must demonstrate explain and demonstrate how the bugle makes sound, and explain how the bugle using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must demonstrate explain and demonstrate how the bugle makes sound, and explain how the bugle using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Bugling Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -453,22 +474,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Sound 10 of the following bugle calls: \"First Call,\" \"Reveille,\"",
+          "2. Key Pamphlet Examples & Evidence (Req 3)",
+          "3. Practical Explain & Safety Verification"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Sound 10 of the following bugle is enough for Bugling Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Sound 10 of the following bugle grounded in the official Bugling pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Sound 10 of the following bugle grounded in the official Bugling pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on sound 10 of the following bugle calls: \"first call,\" \"reveille,\".",
+        "fact": "Scouts must explain sound 10 of the following bugle calls: \"first call,\" \"reveille,\" using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must explain sound 10 of the following bugle calls: \"first call,\" \"reveille,\" using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Bugling Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -570,22 +596,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Study & Explanation Notes",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Explain when each of the calls in requirement 3 is used",
+          "Pamphlet Standard & Key Facts (4)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of When each of the calls is enough for Bugling Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of When each of the calls grounded in the official Bugling pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of When each of the calls grounded in the official Bugling pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain when each of the calls in requirement 3 is used.",
+        "fact": "Scouts must explain explain when each of the calls in requirement 3 is used using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must explain explain when each of the calls in requirement 3 is used using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Bugling Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -674,22 +705,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Explain how to care for, clean, and maintain a bugle",
+          "Pamphlet Standard & Key Facts (5)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of To care for, clean, and maintain is enough for Bugling Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of To care for, clean, and maintain grounded in the official Bugling pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of To care for, clean, and maintain grounded in the official Bugling pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how to care for, clean, and maintain a bugle.",
+        "fact": "Scouts must explain explain how to care for, clean, and maintain a bugle using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must explain explain how to care for, clean, and maintain a bugle using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Bugling Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -773,22 +809,27 @@
       "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Serve as bugler in your troop for three months",
+          "Pamphlet Standard & Key Facts (6)",
+          "Field Application & Counselor Verification (Serve)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Serve as bugler in your troop is enough for Bugling Requirement 6 sign-off.",
-        "fact": "Each Scout must actively serve the specific principles and real-world steps of Serve as bugler in your troop grounded in the official Bugling pamphlet.",
-        "fact_correction": "Each Scout must actively serve the specific principles and real-world steps of Serve as bugler in your troop grounded in the official Bugling pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on serve as bugler in your troop for three months.",
+        "fact": "Scouts must serve serve as bugler in your troop for three months using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must serve serve as bugler in your troop for three months using verified procedures, field evidence, and safety standards from Official Scouting America Bugling Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Bugling Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,

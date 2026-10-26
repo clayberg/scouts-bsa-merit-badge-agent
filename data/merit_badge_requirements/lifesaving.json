@@ -43,22 +43,27 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 1 Structured Study & Explanation Notes",
         "headers": [
-          "Req 1 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Before doing requirements 3 through 15, review with your counselor",
+          "2. Key Pamphlet Examples & Evidence (Req 1)",
+          "3. Practical Explain & Safety Verification"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Before doing requirements 3 through 15 is enough for Lifesaving Requirement 1 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Before doing requirements 3 through 15 grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Before doing requirements 3 through 15 grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing requirements 3 through 15, review with your counselor.",
+        "fact": "Scouts must explain before doing requirements 3 through 15, review with your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 25, p. 27).",
+        "fact_correction": "Scouts must explain before doing requirements 3 through 15, review with your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 25, p. 27).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 25, p. 27)"
       },
       "starting_requirement_gate": {
@@ -164,23 +169,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Earn the Swimming merit badge",
+              "Pamphlet Standard & Key Facts (2a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Lifesaving Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on earn the swimming merit badge.",
+            "fact": "Scouts must explain earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63).",
+            "fact_correction": "Scouts must explain earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)"
           },
           "starting_requirement_gate": {
@@ -221,27 +231,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 2b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Swim continuously for 400 yards using each of the following strokes",
+              "2. Elementary backstroke"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Lifesaving Requirement 2b sign-off.",
-            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 2b grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 2b grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on swim continuously for 400 yards using each of the following strokes.",
+            "fact": "Scouts must swim swim continuously for 400 yards using each of the following strokes using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63).",
+            "fact_correction": "Scouts must swim swim continuously for 400 yards using each of the following strokes using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)"
           },
           "starting_requirement_gate": null,
@@ -293,26 +309,32 @@
       "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Earn the Swimming merit badge",
+          "(b) Swim continuously for 400 yards using each of the following strokes"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Before doing requirements 3 through 15 is enough for Lifesaving Requirement 2 sign-off.",
-        "fact": "Each Scout must actively swim the specific principles and real-world steps of Before doing requirements 3 through 15 grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Before doing requirements 3 through 15 grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on earn the swimming merit badge.",
+        "fact": "Scouts must swim earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63).",
+        "fact_correction": "Scouts must swim earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)"
       },
       "starting_requirement_gate": {
@@ -345,7 +367,7 @@
         "Conscious Victims Probably: Conscious victims probably can remove themselves from the water once they have sure footing on the bottom or a firm holdon a ladder.",
         "Choose Safe Landing: Choose a safe landing site before entering the water.",
         "Exceptional Cases: In exceptional cases, such as in a steep-sided quarry, you mayboth need help from others onshore.",
-        "Landing Conscious Victim: When landing a conscious victim, lower yourlegs to check the water depth if you can do so without causingthe victim to lose support."
+        "Landing Conscious Victim: When landing a conscious victim, lower your legs to check the water depth if you can do so without causingthe victim to lose support."
       ],
       "step_by_step_procedure": [
         "Natural Bodies Water: Natural bodies of water can be shallow for long distances from shore.",
@@ -396,23 +418,30 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Study & Explanation Notes",
             "headers": [
-              "Req 3a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Unfenced residential pools",
+              "Drop offs",
+              "River currents",
+              "Rip currents",
+              "Medical emergencies"
             ],
-            "min_rows": 3,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Lifesaving Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on unfenced residential pools.",
+            "fact": "Scouts must explain unfenced residential pools using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
+            "fact_correction": "Scouts must explain unfenced residential pools using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)"
           },
           "starting_requirement_gate": null,
@@ -454,23 +483,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3b Structured Study & Explanation Notes",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "How to identify persons in the water who need assistance",
+              "Pamphlet Standard & Key Facts (3b)",
+              "Field Application & Counselor Verification (Identify)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Lifesaving Requirement 3b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 3b grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 3b grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on how to identify persons in the water who need assistance.",
+            "fact": "Scouts must identify how to identify persons in the water who need assistance using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
+            "fact_correction": "Scouts must identify how to identify persons in the water who need assistance using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)"
           },
           "starting_requirement_gate": null,
@@ -507,23 +541,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3c Structured Study & Explanation Notes",
             "headers": [
-              "Req 3c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "The order of methods in water rescue",
+              "Pamphlet Standard & Key Facts (3c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3c is enough for Lifesaving Requirement 3c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the order of methods in water rescue.",
+            "fact": "Scouts must explain the order of methods in water rescue using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
+            "fact_correction": "Scouts must explain the order of methods in water rescue using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)"
           },
           "starting_requirement_gate": null,
@@ -560,23 +599,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3d Structured Study & Explanation Notes",
             "headers": [
-              "Req 3d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. How rescue techniques vary depending on the setting and the condition",
+              "2. Key Pamphlet Examples & Evidence (Req 3d)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3d is enough for Lifesaving Requirement 3d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on how rescue techniques vary depending on the setting and the condition.",
+            "fact": "Scouts must explain how rescue techniques vary depending on the setting and the condition using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
+            "fact_correction": "Scouts must explain how rescue techniques vary depending on the setting and the condition using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)"
           },
           "starting_requirement_gate": null,
@@ -613,23 +657,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3e Structured Study & Explanation Notes",
             "headers": [
-              "Req 3e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Situations for which in-water rescues should not be undertaken",
+              "Pamphlet Standard & Key Facts (3e)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3e is enough for Lifesaving Requirement 3e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3e grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3e grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on situations for which in-water rescues should not be undertaken.",
+            "fact": "Scouts must explain situations for which in-water rescues should not be undertaken using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
+            "fact_correction": "Scouts must explain situations for which in-water rescues should not be undertaken using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)"
           },
           "starting_requirement_gate": null,
@@ -686,22 +735,29 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Common drowning situations and how to avoid them, such as unfenced",
+          "(b) How to identify persons in the water who need assistance",
+          "(c) The order of methods in water rescue",
+          "(d) How rescue techniques vary depending on the setting and the condition",
+          "(e) Situations for which in-water rescues should not be undertaken"
         ],
-        "min_rows": 3,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Common drowning situations is enough for Lifesaving Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Common drowning situations grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Common drowning situations grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on common drowning situations and how to avoid them, such as unfenced.",
+        "fact": "Scouts must explain common drowning situations and how to avoid them, such as unfenced using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
+        "fact_correction": "Scouts must explain common drowning situations and how to avoid them, such as unfenced using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)"
       },
       "starting_requirement_gate": null,
@@ -806,26 +862,36 @@
       "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "Arm",
+          "Leg",
+          "Towels",
+          "Shirts",
+          "Paddles",
+          "Poles"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of \"reaching\" rescues using various items is enough for Lifesaving Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of \"reaching\" rescues using various items grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of \"reaching\" rescues using various items grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on arm.",
+        "fact": "Scouts must demonstrate arm using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45).",
+        "fact_correction": "Scouts must demonstrate arm using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45)"
       },
       "starting_requirement_gate": null,
@@ -913,26 +979,34 @@
       "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 43)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "A line",
+          "Ring buoy",
+          "Rescue bag",
+          "Free-floating support"
         ],
         "min_rows": 4,
-        "pre_approval_gate": false
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of \"throwing\" rescues using various items is enough for Lifesaving Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of \"throwing\" rescues using various items grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of \"throwing\" rescues using various items grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on a line.",
+        "fact": "Scouts must demonstrate a line using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 43).",
+        "fact_correction": "Scouts must demonstrate a line using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 43).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 43)"
       },
       "starting_requirement_gate": null,
@@ -1021,25 +1095,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 6 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. With your counselor's approval, view in-person or on video a rowing rescue",
+          "2. Discuss with your counselor how effectively and efficiently the rescue"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": true
+        "min_rows": 2,
+        "pre_approval_gate": true,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of View in-person or on video is enough for Lifesaving Requirement 6 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of View in-person or on video grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of View in-person or on video grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your counselor's approval, view in-person or on video a rowing rescue.",
+        "fact": "Scouts must explain with your counselor's approval, view in-person or on video a rowing rescue using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45).",
+        "fact_correction": "Scouts must explain with your counselor's approval, view in-person or on video a rowing rescue using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45)"
       },
       "starting_requirement_gate": {
@@ -1128,22 +1208,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. List various items that can be used as aids in a \"go\" rescue",
+          "2. Explain why buoyant aids are preferred"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of List various items is enough for Lifesaving Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of List various items grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of List various items grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on list various items that can be used as aids in a \"go\" rescue.",
+        "fact": "Scouts must explain list various items that can be used as aids in a \"go\" rescue using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 53, p. 57).",
+        "fact_correction": "Scouts must explain list various items that can be used as aids in a \"go\" rescue using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 53, p. 57).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 53, p. 57)"
       },
       "starting_requirement_gate": null,
@@ -1216,27 +1300,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 8a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Present one aid to a subject, release it",
+              "2. Swim at a safe distance as the subject moves to safety"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8a is enough for Lifesaving Requirement 8a sign-off.",
-            "fact": "Each Scout must actively swim the specific principles and real-world steps of Req 8a grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively swim the specific principles and real-world steps of Req 8a grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on present one aid to a subject, release it.",
+            "fact": "Scouts must swim present one aid to a subject, release it using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71).",
+            "fact_correction": "Scouts must swim present one aid to a subject, release it using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)"
           },
           "starting_requirement_gate": null,
@@ -1273,23 +1363,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8b Structured Study & Explanation Notes",
             "headers": [
-              "Req 8b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. In a separate rescue, present the other aid to a subject and use it",
+              "2. Key Pamphlet Examples & Evidence (Req 8b)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8b is enough for Lifesaving Requirement 8b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on in a separate rescue, present the other aid to a subject and use it.",
+            "fact": "Scouts must explain in a separate rescue, present the other aid to a subject and use it using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71).",
+            "fact_correction": "Scouts must explain in a separate rescue, present the other aid to a subject and use it using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)"
           },
           "starting_requirement_gate": null,
@@ -1346,25 +1441,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 8 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Present one aid to a subject, release it, and swim at a safe distance",
+          "(b) In a separate rescue, present the other aid to a subject and use it to tow"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Correctly demonstrate rescues of a conscious is enough for Lifesaving Requirement 8 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Correctly demonstrate rescues of a conscious grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Correctly demonstrate rescues of a conscious grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on present one aid to a subject, release it, and swim at a safe distance.",
+        "fact": "Scouts must demonstrate present one aid to a subject, release it, and swim at a safe distance using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71).",
+        "fact_correction": "Scouts must demonstrate present one aid to a subject, release it, and swim at a safe distance using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)"
       },
       "starting_requirement_gate": null,
@@ -1448,22 +1549,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Study & Explanation Notes",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "A shirt",
+          "Towel",
+          "To tow the subject to safety"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of When it is appropriate to remove is enough for Lifesaving Requirement 9 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of When it is appropriate to remove grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of When it is appropriate to remove grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on a shirt.",
+        "fact": "Scouts must discuss a shirt using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 54, p. 63).",
+        "fact_correction": "Scouts must discuss a shirt using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 54, p. 63).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 54, p. 63)"
       },
       "starting_requirement_gate": null,
@@ -1491,7 +1597,7 @@
         "Conscious Victims Probably: Conscious victims probably can remove themselves from the water once they have sure footing on the bottom or a firm holdon a ladder.",
         "Choose Safe Landing: Choose a safe landing site before entering the water.",
         "Exceptional Cases: In exceptional cases, such as in a steep-sided quarry, you mayboth need help from others onshore.",
-        "Landing Conscious Victim: When landing a conscious victim, lower yourlegs to check the water depth if you can do so without causingthe victim to lose support."
+        "Landing Conscious Victim: When landing a conscious victim, lower your legs to check the water depth if you can do so without causingthe victim to lose support."
       ],
       "step_by_step_procedure": [
         "Natural Bodies Water: Natural bodies of water can be shallow for long distances from shore.",
@@ -1556,25 +1662,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 10 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Discuss with your counselor the importance of avoiding contact",
+          "2. Lead-and-wait techniques"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The importance of avoiding contact is enough for Lifesaving Requirement 10 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of The importance of avoiding contact grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of The importance of avoiding contact grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor the importance of avoiding contact.",
+        "fact": "Scouts must discuss discuss with your counselor the importance of avoiding contact using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 59, p. 60).",
+        "fact_correction": "Scouts must discuss discuss with your counselor the importance of avoiding contact using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 59, p. 60).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 59, p. 60)"
       },
       "starting_requirement_gate": null,
@@ -1648,26 +1760,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 11a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float",
+              "Pamphlet Standard & Key Facts (11a)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 11a is enough for Lifesaving Requirement 11a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 11a grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 11a grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform an armpit tow for a calm, responsive, tired swimmer resting with a back float.",
+            "fact": "Scouts must demonstrate perform an armpit tow for a calm, responsive, tired swimmer resting with a back float using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70).",
+            "fact_correction": "Scouts must demonstrate perform an armpit tow for a calm, responsive, tired swimmer resting with a back float using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)"
           },
           "starting_requirement_gate": null,
@@ -1704,26 +1823,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 11b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Perform a cross-chest carry for an exhausted, responsive subject treading water",
+              "Pamphlet Standard & Key Facts (11b)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 11b is enough for Lifesaving Requirement 11b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 11b grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 11b grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a cross-chest carry for an exhausted, responsive subject treading water.",
+            "fact": "Scouts must demonstrate perform a cross-chest carry for an exhausted, responsive subject treading water using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70).",
+            "fact_correction": "Scouts must demonstrate perform a cross-chest carry for an exhausted, responsive subject treading water using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)"
           },
           "starting_requirement_gate": null,
@@ -1776,25 +1902,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 11 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Perform an armpit tow for a calm, responsive, tired swimmer resting",
+          "(b) Perform a cross-chest carry for an exhausted, responsive subject treading"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Transitions to Cross-Chest Carry is enough for Lifesaving Requirement 11 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Transitions to Cross-Chest Carry grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Transitions to Cross-Chest Carry grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform an armpit tow for a calm, responsive, tired swimmer resting.",
+        "fact": "Scouts must demonstrate perform an armpit tow for a calm, responsive, tired swimmer resting using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70).",
+        "fact_correction": "Scouts must demonstrate perform an armpit tow for a calm, responsive, tired swimmer resting using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)"
       },
       "starting_requirement_gate": null,
@@ -1819,7 +1951,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Headed Back Along: If you pull back, you are headed back along yourapproach line.",
+        "Headed Back Along: If you pull back, you are headed back along your approach line.",
         "Whenever Possible Flotation: Whenever possible, use a flotation aid to help support both youand a passive victim.",
         "Suitable Aid Not: If a suitable aid is not available, try eitherthe wrist tow or the armpit tows.",
         "However Maybe Ineffective: However, both of those maybe ineffective in some cases."
@@ -1883,25 +2015,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 12 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. In deep water, show how to escape from a victim's grasp on your wrist",
+          "2. Repeat for front and rear holds about the head and shoulders"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of In deep water is enough for Lifesaving Requirement 12 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of In deep water grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of In deep water grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on in deep water, show how to escape from a victim's grasp on your wrist.",
+        "fact": "Scouts must show in deep water, show how to escape from a victim's grasp on your wrist using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 62).",
+        "fact_correction": "Scouts must show in deep water, show how to escape from a victim's grasp on your wrist using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 62).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 62)"
       },
       "starting_requirement_gate": null,
@@ -1928,7 +2066,7 @@
       "pamphlet_excerpts": [
         "Action Isalso Suck: This action isalso known as suck, tuck, and duck.",
         "Don Pull Victim: If you don’t pull the victim underenough for him or her to let go, grasp the person’s upper arms nearthe elbows and shove upward andaway while twisting your.",
-        "Not Strugglewith Him: Do not strugglewith him or her or try to place the person in a hold.",
+        "Not Struggle with Him: Do not struggle with him or her or try to place the person in a hold.",
         "Back Off Waitwhile: Back off and waitwhile you review your options and the person’s condition."
       ],
       "step_by_step_procedure": [
@@ -1975,26 +2113,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 13a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Perform an equipment assist using a buoyant aid",
+              "Pamphlet Standard & Key Facts (13a)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 13a is enough for Lifesaving Requirement 13a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 13a grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 13a grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform an equipment assist using a buoyant aid.",
+            "fact": "Scouts must demonstrate perform an equipment assist using a buoyant aid using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61).",
+            "fact_correction": "Scouts must demonstrate perform an equipment assist using a buoyant aid using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -2031,26 +2176,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 13b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Perform a front approach and wrist tow",
+              "Pamphlet Standard & Key Facts (13b)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 13b is enough for Lifesaving Requirement 13b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 13b grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 13b grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a front approach and wrist tow.",
+            "fact": "Scouts must demonstrate perform a front approach and wrist tow using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61).",
+            "fact_correction": "Scouts must demonstrate perform a front approach and wrist tow using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -2087,26 +2239,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 13c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Perform a rear approach and armpit tow",
+              "Pamphlet Standard & Key Facts (13c)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 13c is enough for Lifesaving Requirement 13c sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 13c grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 13c grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a rear approach and armpit tow.",
+            "fact": "Scouts must demonstrate perform a rear approach and armpit tow using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61).",
+            "fact_correction": "Scouts must demonstrate perform a rear approach and armpit tow using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)"
           },
           "starting_requirement_gate": null,
@@ -2154,20 +2313,27 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 13 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Perform an equipment assist using a buoyant aid",
+          "(b) Perform a front approach and wrist tow",
+          "(c) Perform a rear approach and armpit tow"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
         "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
@@ -2251,23 +2417,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 14a Structured Study & Explanation Notes",
             "headers": [
-              "Req 14a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 14a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 14a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive",
+              "Pamphlet Standard & Key Facts (14a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 14a is enough for Lifesaving Requirement 14a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 14a grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 14a grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive.",
+            "fact": "Scouts must explain recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72).",
+            "fact_correction": "Scouts must explain recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -2309,23 +2480,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 14b Structured Study & Explanation Notes",
             "headers": [
-              "Req 14b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 14b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 14b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Repeat using a headfirst surface dive",
+              "Pamphlet Standard & Key Facts (14b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 14b is enough for Lifesaving Requirement 14b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 14b grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 14b grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on repeat using a headfirst surface dive.",
+            "fact": "Scouts must explain repeat using a headfirst surface dive using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72).",
+            "fact_correction": "Scouts must explain repeat using a headfirst surface dive using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -2382,22 +2558,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 14 Structured Study & Explanation Notes",
         "headers": [
-          "Req 14 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 14 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 14 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface",
+          "(b) Repeat using a headfirst surface dive"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of How to respond if a victim is enough for Lifesaving Requirement 14 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of How to respond if a victim grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of How to respond if a victim grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface.",
+        "fact": "Scouts must discuss recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72).",
+        "fact_correction": "Scouts must discuss recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)"
       },
       "starting_requirement_gate": null,
@@ -2424,7 +2604,7 @@
       "pamphlet_excerpts": [
         "However Rescuer Remain: However, the rescuer should remain alert and wary, andshould avoid contact.",
         "Victims Grab Rescuer: Victims may try to grab the rescuer inan attempt to remain above water.",
-        "Time Beforethey Return: It may be some time beforethey return to a normal state of mind and behavior.",
+        "Time Before they Return: It may be some time before they return to a normal state of mind and behavior.",
         "Longerdistressed Swimmers: The longerdistressed swimmers remain in trouble, the more likely they areto show the symptoms of an active drowning victim."
       ],
       "step_by_step_procedure": [
@@ -2480,23 +2660,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 15a Structured Study & Explanation Notes",
             "headers": [
-              "Req 15a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 15a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 15a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Discuss the causes, signs, and symptoms of a spinal injury",
+              "Pamphlet Standard & Key Facts (15a)",
+              "Field Application & Counselor Verification (Discuss)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 15a is enough for Lifesaving Requirement 15a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 15a grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 15a grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the causes, signs, and symptoms of a spinal injury.",
+            "fact": "Scouts must discuss discuss the causes, signs, and symptoms of a spinal injury using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87).",
+            "fact_correction": "Scouts must discuss discuss the causes, signs, and symptoms of a spinal injury using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)"
           },
           "starting_requirement_gate": null,
@@ -2533,23 +2718,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 15b Structured Study & Explanation Notes",
             "headers": [
-              "Req 15b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 15b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 15b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Support a faceup subject in calm water of standing depth",
+              "Pamphlet Standard & Key Facts (15b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 15b is enough for Lifesaving Requirement 15b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 15b grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 15b grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on support a faceup subject in calm water of standing depth.",
+            "fact": "Scouts must explain support a faceup subject in calm water of standing depth using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87).",
+            "fact_correction": "Scouts must explain support a faceup subject in calm water of standing depth using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)"
           },
           "starting_requirement_gate": null,
@@ -2586,23 +2776,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 15c Structured Study & Explanation Notes",
             "headers": [
-              "Req 15c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 15c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 15c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Turn a subject from a facedown to a faceup position in water of standing",
+              "2. Key Pamphlet Examples & Evidence (Req 15c)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 15c is enough for Lifesaving Requirement 15c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 15c grounded in the official Lifesaving pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 15c grounded in the official Lifesaving pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on turn a subject from a facedown to a faceup position in water of standing.",
+            "fact": "Scouts must explain turn a subject from a facedown to a faceup position in water of standing using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87).",
+            "fact_correction": "Scouts must explain turn a subject from a facedown to a faceup position in water of standing using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87).",
             "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)"
           },
           "starting_requirement_gate": null,
@@ -2658,26 +2853,33 @@
       "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 15 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Discuss the causes, signs, and symptoms of a spinal injury",
+          "(b) Support a faceup subject in calm water of standing depth",
+          "(c) Turn a subject from a facedown to a faceup position in water of standing"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Management of a spinal injury is enough for Lifesaving Requirement 15 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Management of a spinal injury grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Management of a spinal injury grounded in the official Lifesaving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the causes, signs, and symptoms of a spinal injury.",
+        "fact": "Scouts must discuss discuss the causes, signs, and symptoms of a spinal injury using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87).",
+        "fact_correction": "Scouts must discuss discuss the causes, signs, and symptoms of a spinal injury using verified procedures, field evidence, and safety standards from Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87).",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)"
       },
       "starting_requirement_gate": null,
@@ -2705,7 +2907,7 @@
         "Diving Shallow Unclear: Diving into shallow or unclear water is unsafe and foolish.",
         "Thediver Risks Spinal: Thediver risks spinal injury, permanent paralysis, or death.",
         "Pools Diving Injuries: In pools, most diving injuries happen in shallow water but also can occurif the diver hits another swimmer or a diving board.",
-        "Lakesand Rivers Diving: In lakesand rivers, diving injuries are caused by misjudging thedepth of the water or hitting rocks or trees unseenfrom the surface."
+        "Lakesand Rivers Diving: In lakesand rivers, diving injuries are caused by misjudging thedepth of the water or hitting rocks or trees unseen from the surface."
       ],
       "step_by_step_procedure": [
         "Beaches Lunging Intowaves: At beaches, lunging intowaves or falling off a board can cause spinal injury when a wave slams the victiminto the bottom.",
@@ -2751,14 +2953,19 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 16a Structured Study & Explanation Notes",
             "headers": [
-              "Req 16a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 16a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 16a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Describe how to recognize the need for rescue breathing and CPR",
+              "Pamphlet Standard & Key Facts (16a)",
+              "Field Application & Counselor Verification (Describe)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
@@ -2803,21 +3010,27 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 16b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate CPR knowledge and skills",
+              "2. Rescue breathing, on a mannequin under the guidance of a current CPR/AED"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -2875,21 +3088,27 @@
       "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 16 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Describe how to recognize the need for rescue breathing and CPR",
+          "(b) Demonstrate CPR knowledge and skills, including rescue breathing"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
         "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
@@ -2983,22 +3202,30 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 17 Structured Study & Explanation Notes",
         "headers": [
-          "Req 17 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 17 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 17 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Hypothermia",
+          "Dehydration",
+          "Heat-related illnesses",
+          "Muscle cramps",
+          "Sunburn",
+          "Stings"
         ],
-        "min_rows": 3,
+        "min_rows": 6,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With your counselor, discuss causes, prevention is enough for Lifesaving Requirement 17 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of With your counselor, discuss causes, prevention grounded in the official Lifesaving pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of With your counselor, discuss causes, prevention grounded in the official Lifesaving pamphlet.",
+        "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+        "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+        "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
         "pamphlet_page_ref": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 82, p. 83)"
       },
       "starting_requirement_gate": null,

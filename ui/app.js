@@ -2081,8 +2081,6 @@ async function loadBadgesCatalog() {
     const prevCatVal = catSelect.value || "ALL";
     catSelect.innerHTML = `
       <option value="ALL">All Categories</option>
-      <option value="MULTI_OPTION">Multi-Option Badges (${multiOptCount})</option>
-      <option value="TEST_LAB">🧪 Test Lab Pilot (${testLabCount})</option>
     `;
     state.categories.forEach((cat) => {
       const opt = document.createElement("option");
@@ -2138,7 +2136,7 @@ function applyBadgeFilters(initialLoad = false) {
 
   const countChip = document.getElementById("badge-filter-count-chip");
   if (countChip) {
-    countChip.textContent = `${state.filteredBadges.length} of ${state.badges.length} Badges`;
+    countChip.innerHTML = `<span id="gallery-filtered-count-badge">${state.filteredBadges.length}</span> of ${state.badges.length} Badges`;
   }
 
   const select = document.getElementById("badge-select");
@@ -6657,8 +6655,38 @@ function bindCounselorToolkitActions() {
     const wbLink2 = document.getElementById("btn-studiokit-download-fillable-pdf");
     if (wbLink1) wbLink1.href = pdfHref;
     if (wbLink2) wbLink2.href = pdfHref;
+    const cppHref = `/api/v1/studiokit/class-prep-cpp.pdf?badge_name=${encodeURIComponent(badge)}`;
+    const cppLink1 = document.getElementById("btn-class-prep-cpp-pdf");
+    const cppLink2 = document.getElementById("btn-studiokit-open-cpp-pdf");
+    if (cppLink1) cppLink1.href = cppHref;
+    if (cppLink2) cppLink2.href = cppHref;
     return { badge, optTrack, counselor, troop, pdfHref };
   };
+
+  const setWorkbookSegmentedActive = (activeBtnId) => {
+    ["btn-workbook-view-default", "btn-workbook-open-fillable-html", "btn-workbook-open-cpp"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) {
+        const isAct = id === activeBtnId;
+        el.classList.toggle("active", isAct);
+        el.setAttribute("aria-selected", isAct ? "true" : "false");
+      }
+    });
+  };
+
+  document.getElementById("btn-workbook-view-default")?.addEventListener("click", () => {
+    setWorkbookSegmentedActive("btn-workbook-view-default");
+    if (state.currentResult) {
+      const wbPreview = document.getElementById("workbook-markdown-preview");
+      if (wbPreview) {
+        const rawMd =
+          state.currentResult.workbook_markdown ||
+          state.currentResult.scout_workbook_markdown ||
+          "# Counselor Workbook Generated";
+        wbPreview.innerHTML = renderMarkdownToStyledHtml(rawMd);
+      }
+    }
+  });
 
   const handleOpenFillableWorkbook = async () => {
     const { badge, optTrack, counselor, troop, pdfHref } = syncWorkbookPdfDownloadLinks();
@@ -6686,6 +6714,7 @@ function bindCounselorToolkitActions() {
         if (tabWb && tabWb.getAttribute("aria-selected") !== "true") {
           tabWb.click();
         }
+        setWorkbookSegmentedActive("btn-workbook-open-fillable-html");
         const wbPreview = document.getElementById("workbook-markdown-preview");
         if (wbPreview) {
           const bodyMatch = htmlDoc.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
@@ -6733,6 +6762,7 @@ function bindCounselorToolkitActions() {
         if (tabWb && tabWb.getAttribute("aria-selected") !== "true") {
           tabWb.click();
         }
+        setWorkbookSegmentedActive("btn-workbook-open-cpp");
         const wbPreview = document.getElementById("workbook-markdown-preview");
         if (wbPreview) {
           wbPreview.innerHTML = `
@@ -9935,16 +9965,10 @@ function renderPatchGalleryModal() {
     state.badges?.length > 0
       ? state.badges
       : [{ badge_name: "First Aid", is_eagle_required: true, category: "Personal Development" }];
-  if (catSelect && catSelect.options.length <= 3) {
-    const prevVal = catSelect.value || "all";
-    const multiCount =
-      allBadges.filter((b) => b.has_option_tracks || (Array.isArray(b.option_tracks) && b.option_tracks.length >= 2))
-        .length || 18;
-    const testLabCount = allBadges.filter((b) => Boolean(b.is_test_lab_pilot)).length || 5;
+  if (catSelect && catSelect.options.length <= 1) {
+    const prevVal = catSelect.value || "ALL";
     catSelect.innerHTML = `
-      <option value="all">All Categories</option>
-      <option value="MULTI_OPTION">Multi-Option Badges (${multiCount})</option>
-      <option value="TEST_LAB">🧪 Test Lab Pilot (${testLabCount})</option>
+      <option value="ALL">All Categories</option>
     `;
     const cats =
       state.categories?.length > 0
@@ -10479,16 +10503,100 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
       }
     });
     if (deckExportMenu && deckExportMenu !== exceptMenu) {
+      deckExportMenu.classList.remove("open");
       deckExportMenu.classList.add("hidden");
     }
+    document.querySelectorAll(".m3-split-dropdown-menu").forEach((m) => {
+      if (m !== exceptMenu) {
+        m.classList.remove("open");
+        m.classList.add("hidden");
+        const grp = m.closest(".m3-split-btn-group");
+        const caret = grp?.querySelector(".m3-split-btn-caret");
+        caret?.setAttribute("aria-expanded", "false");
+      }
+    });
   };
   window.closeAllPopoverMenus = closeAllPopoverMenus;
 
-  deckCaretBtn?.addEventListener("click", (ev) => {
-    ev.preventDefault();
-    ev.stopPropagation();
-    closeAllPopoverMenus(deckExportMenu);
-    deckExportMenu?.classList.toggle("hidden");
+  document.querySelectorAll(".m3-split-btn-caret").forEach((caretBtn) => {
+    caretBtn.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      const group = caretBtn.closest(".m3-split-btn-group");
+      const menu = group?.querySelector(".m3-split-dropdown-menu");
+      if (!menu) return;
+      const wasOpen = menu.classList.contains("open") && !menu.classList.contains("hidden");
+      closeAllPopoverMenus(menu);
+      if (wasOpen) {
+        menu.classList.remove("open");
+        menu.classList.add("hidden");
+        caretBtn.setAttribute("aria-expanded", "false");
+      } else {
+        menu.classList.add("open");
+        menu.classList.remove("hidden");
+        caretBtn.setAttribute("aria-expanded", "true");
+      }
+    });
+  });
+
+  document.querySelectorAll(".m3-split-dropdown-menu").forEach((menu) => {
+    menu.addEventListener("click", (ev) => {
+      if (ev.target && (ev.target.tagName === "SELECT" || ev.target.closest("select"))) {
+        ev.stopPropagation();
+        return;
+      }
+      if (ev.target && ev.target.closest(".m3-export-menu-item")) {
+        menu.classList.remove("open");
+        menu.classList.add("hidden");
+      }
+    });
+  });
+
+  // v2.2 Track C: Compact Hero Banner toggle & Top Bar / Parent Letter stage actions
+  const heroToggleBtn = document.getElementById("btn-toggle-hero-banner");
+  heroToggleBtn?.addEventListener("click", () => {
+    const isCompact = document.body.classList.toggle("deck-loaded-compact-hero");
+    heroToggleBtn.textContent = isCompact ? "▾ Expand Banner" : "▴ Compact Banner";
+  });
+
+  document.getElementById("btn-start-guided-tour")?.addEventListener("click", () => {
+    const demoToggle = document.getElementById("btn-hero-demo-dropdown");
+    if (demoToggle) {
+      demoToggle.click();
+    } else if (typeof startInteractiveDemoTour === "function") {
+      startInteractiveDemoTour("demo-1-grounded-deck");
+    }
+  });
+
+  document.getElementById("btn-header-print-deck")?.addEventListener("click", () => {
+    window.print();
+  });
+
+  document.getElementById("btn-header-export-html")?.addEventListener("click", () => {
+    const badgeSlug = (state.currentResult?.badge_name || "First_Aid").replace(/\s+/g, "_");
+    const stageHtml = document.getElementById("widescreen-slide-stage")?.outerHTML || "";
+    const docHtml = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>${escapeHtml(
+      state.currentResult?.badge_name || "Merit Badge"
+    )} Slide Deck</title></head><body>${stageHtml}</body></html>`;
+    triggerMarkdownDownload(`${badgeSlug}_Interactive_Deck.html`, docHtml);
+  });
+
+  document.querySelectorAll("[data-letter-stage]").forEach((stageBtn) => {
+    stageBtn.addEventListener("click", () => {
+      const stageId = stageBtn.getAttribute("data-letter-stage") || "stage_1_welcome_cpp";
+      document.querySelectorAll("[data-letter-stage]").forEach((b) => {
+        b.classList.toggle("active", b === stageBtn);
+      });
+      const yptBtn = document.querySelector(`[data-ypt-stage="${stageId}"]`);
+      yptBtn?.click();
+      const yptBody = document.getElementById("ypt-email-body-textarea")?.value;
+      const letterPreview = document.getElementById("studiokit-letter-preview");
+      if (letterPreview && yptBody && stageId !== "stage_1_welcome_cpp") {
+        letterPreview.innerHTML = renderMarkdownToStyledHtml(yptBody);
+      } else if (letterPreview && state.currentResult) {
+        letterPreview.innerHTML = renderMarkdownToStyledHtml(getLiveParentLetterMarkdown(state.currentResult));
+      }
+    });
   });
   document.querySelectorAll("#deck-export-mode-menu [data-export-mode]").forEach((optBtn) => {
     optBtn.addEventListener("click", async (ev) => {
@@ -17092,6 +17200,17 @@ function resolveFirstVisibleTargetElement(targetSelector) {
     try {
       const candidate = document.querySelector(sel);
       if (candidate) {
+        const parentSplitMenu = candidate.closest && candidate.closest(".m3-split-dropdown-menu");
+        if (parentSplitMenu && (!parentSplitMenu.classList.contains("open") || parentSplitMenu.classList.contains("hidden"))) {
+          document.querySelectorAll(".m3-split-dropdown-menu.open").forEach((m) => {
+            if (m !== parentSplitMenu) {
+              m.classList.remove("open");
+              m.classList.add("hidden");
+            }
+          });
+          parentSplitMenu.classList.add("open");
+          parentSplitMenu.classList.remove("hidden");
+        }
         const r = candidate.getBoundingClientRect();
         if (r.width > 8 && r.height > 8) {
           return candidate;
@@ -17183,6 +17302,10 @@ function resetTourTransientUiForStep(scenario, stepIdx) {
   if (!keepTemplateDropdown) {
     document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
   }
+  document.querySelectorAll(".m3-split-dropdown-menu").forEach((m) => {
+    m.classList.remove("open");
+    m.classList.add("hidden");
+  });
   if (!keepImageStudio) {
     const imgModal = document.getElementById("image-studio-modal");
     if (imgModal && !imgModal.classList.contains("hidden")) {
@@ -17220,6 +17343,10 @@ function resetTourTransientUiForStep(scenario, stepIdx) {
 function closeDemoOpenedModalsAndResetScroll(scrollToTop = true) {
   document.getElementById("stage-right-visual")?.classList.remove("demo-force-hover");
   document.getElementById("stage-template-dropdown-menu")?.classList.add("hidden");
+  document.querySelectorAll(".m3-split-dropdown-menu").forEach((m) => {
+    m.classList.remove("open");
+    m.classList.add("hidden");
+  });
   document.getElementById("btn-close-image-studio")?.click();
   document.getElementById("btn-close-template-studio")?.click();
   document.getElementById("btn-close-mcp-hub")?.click();

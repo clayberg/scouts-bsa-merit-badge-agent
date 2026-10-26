@@ -127,11 +127,243 @@ _TRAILING_STOPWORDS = {
 }
 
 
-def _clean_prose(text: str) -> str:
-    """Strips em-dashes, en-dashes, double-hyphens, and ellipses per unslop/humanizer standards."""
+_OCR_LIGATURE_FIXES: Dict[str, str] = {
+    "safetyand": "safety and",
+    "Safetyand": "Safety and",
+    "andlift": "and lift",
+    "Andlift": "And lift",
+    "bloodbornepathogens": "bloodborne pathogens",
+    "Bloodbornepathogens": "Bloodborne pathogens",
+    "Theemergency": "The emergency",
+    "theemergency": "the emergency",
+    "smellingsalts": "smelling salts",
+    "tohypothermia": "to hypothermia",
+    "Sufferingfrom": "Suffering from",
+    "sufferingfrom": "suffering from",
+    "fortransporting": "for transporting",
+    "coretemperature": "core temperature",
+    "fromdehydration": "from dehydration",
+    "madecarefully": "made carefully",
+    "otherimmediate": "other immediate",
+    "Beforeattempting": "Before attempting",
+    "beforeattempting": "before attempting",
+    "atopographical": "a topographical",
+    "completedbefore": "completed before",
+    "Civilizationbehind": "Civilization behind",
+    "civilizationbehind": "civilization behind",
+    "outdoorskills": "outdoor skills",
+    "Safetyguidelines": "Safety guidelines",
+    "safetyguidelines": "safety guidelines",
+    "handlingprocedures": "handling procedures",
+    "Andpreparation": "And preparation",
+    "andpreparation": "and preparation",
+    "Whetheranyone": "Whether anyone",
+    "whetheranyone": "whether anyone",
+    "cookcarefully": "cook carefully",
+    "crosscontamination": "cross-contamination",
+    "norefrigeration": "no refrigeration",
+    "processingfacility": "processing facility",
+    "ofconstitutional": "of constitutional",
+    "ofrepresentatives": "of representatives",
+    "Congressionaldistricts": "Congressional districts",
+    "congressionaldistricts": "congressional districts",
+    "televisiontouches": "television touches",
+    "moreopportunity": "more opportunity",
+    "testingpest-control": "testing pest-control",
+    "avoidoverfishing": "avoid overfishing",
+    "researchorganization": "research organization",
+    "environmentalistin": "environmentalist in",
+    "haveintentionally": "have intentionally",
+    "temperaturesand": "temperatures and",
+    "pollutantsincluding": "pollutants including",
+    "industriesrelease": "industries release",
+    "beforereleasing": "before releasing",
+    "andbusinesses": "and businesses",
+    "Abandonedfactories": "Abandoned factories",
+    "abandonedfactories": "abandoned factories",
+    "tomagazine-article": "to magazine-article",
+    "aluminumbeverage": "aluminum beverage",
+    "recycledaluminum": "recycled aluminum",
+    "betweenflowering": "between flowering",
+    "speciesworldwide": "species worldwide",
+    "Pollinatorsare": "Pollinators are",
+    "pollinatorsare": "pollinators are",
+    "aquaticorganisms": "aquatic organisms",
+    "simplydisturbing": "simply disturbing",
+    "ofoccupations": "of occupations",
+    "Environmentalengineers": "Environmental engineers",
+    "environmentalengineers": "environmental engineers",
+    "properlymaintained": "properly maintained",
+    "preventablediseases": "preventable diseases",
+    "withoutnoticeable": "without noticeable",
+    "tospecifications": "to specifications",
+    "measurementsto": "measurements to",
+    "Trainersshould": "Trainers should",
+    "trainersshould": "trainers should",
+    "policiesexplaining": "policies explaining",
+    "theirservices": "their services",
+    "Exercisephysiologists": "Exercise physiologists",
+    "exercisephysiologists": "exercise physiologists",
+    "othertechniques": "other techniques",
+    "usingprosthetic": "using prosthetic",
+    "search-and-rescueactivities": "search-and-rescue activities",
+    "thefour-handed": "the four-handed",
+    "providedoutstanding": "provided outstanding",
+    "theirassistance": "their assistance",
+    "orinstructions": "or instructions",
+    "departmentsand": "departments and",
+    "startschoking": "starts choking",
+    "causeparalysis": "cause paralysis",
+    "skin-to-skincontact": "skin-to-skin contact",
+    "dusk-to-dawnsecurity": "dusk-to-dawn security",
+    "stopimmediately": "stop immediately",
+    "imaginarylines": "imaginary lines",
+    "Constellationis": "Constellation is",
+    "constellationis": "constellation is",
+    "visiblefeatures": "visible features",
+    "photographsthan": "photographs than",
+    "Moreinformation": "More information",
+    "moreinformation": "more information",
+    "humanautonomic": "human autonomic",
+    "thecontroller": "the controller",
+    "handheldvideo-game": "handheld video-game",
+    "Communicatewith": "Communicate with",
+    "communicatewith": "communicate with",
+    "ofcommunication": "of communication",
+    "Designedusing": "Designed using",
+    "designedusing": "designed using",
+    "Yourcounselor": "Your counselor",
+    "yourcounselor": "your counselor",
+    "sports-likerobotics": "sports-like robotics",
+    "autonomouschallenge": "autonomous challenge",
+    "industrialengineering": "industrial engineering",
+    "Andrebandage": "And rebandage",
+    "andrebandage": "and rebandage",
+    "Arecarefully": "Are carefully",
+    "arecarefully": "are carefully",
+    "BSAhandbook": "BSA handbook",
+    "Scouthandbook": "Scout handbook",
+    "Beforegoing": "Before going",
+    "beforegoing": "before going",
+    "Beforethey": "Before they",
+    "beforethey": "before they",
+    "Beforeyou": "Before you",
+    "beforeyou": "before you",
+    "Candeliberately": "Can deliberately",
+    "candeliberately": "can deliberately",
+    "Carefullyread": "Carefully read",
+    "carefullyread": "carefully read",
+    "Carefulnot": "Careful not",
+    "carefulnot": "careful not",
+    "Commandand": "Command and",
+    "commandand": "command and",
+    "Commissionenforced": "Commission enforced",
+    "Detailedinformation": "Detailed information",
+    "detailedinformation": "detailed information",
+    "Effortswith": "Efforts with",
+    "effortswith": "efforts with",
+    "Eithersituation": "Either situation",
+    "eithersituation": "either situation",
+    "Enforcelocal": "Enforce local",
+    "enforcelocal": "enforce local",
+    "Facingforward": "Facing forward",
+    "facingforward": "facing forward",
+    "Feathersfrom": "Feathers from",
+    "feathersfrom": "feathers from",
+    "Fluoridereinforces": "Fluoride reinforces",
+    "Furtherabuse": "Further abuse",
+    "furtherabuse": "further abuse",
+    "Furtherimproves": "Further improves",
+    "furtherimproves": "further improves",
+    "Handlingwill": "Handling will",
+    "handlingwill": "handling will",
+    "Healthyperformer": "Healthy performer",
+    "Informationabout": "Information about",
+    "informationabout": "information about",
+    "Informationfollows": "Information follows",
+    "informationfollows": "information follows",
+    "Informationto": "Information to",
+    "informationto": "information to",
+    "Informedabout": "Informed about",
+    "informedabout": "informed about",
+    "Ishypothermia": "Is hypothermia",
+    "ishypothermia": "is hypothermia",
+    "Knotcombines": "Knot combines",
+    "knotcombines": "knot combines",
+    "Landmanagers": "Land managers",
+    "landmanagers": "land managers",
+    "Layerformed": "Layer formed",
+    "layerformed": "layer formed",
+    "Leatheruppers": "Leather uppers",
+    "leatheruppers": "leather uppers",
+    "Obscurehandrails": "Obscure handrails",
+    "Ofphotosynthesis": "Of photosynthesis",
+    "ofphotosynthesis": "of photosynthesis",
+    "Othercitizens": "Other citizens",
+    "othercitizens": "other citizens",
+    "Othercontracts": "Other contracts",
+    "othercontracts": "other contracts",
+    "Otherlawyers": "Other lawyers",
+    "otherlawyers": "other lawyers",
+    "Otherrelatives": "Other relatives",
+    "otherrelatives": "other relatives",
+    "Othersymptoms": "Other symptoms",
+    "othersymptoms": "other symptoms",
+    "Performminor": "Perform minor",
+    "performminor": "perform minor",
+    "Prepareand": "Prepare and",
+    "prepareand": "prepare and",
+    "Preparedas": "Prepared as",
+    "preparedas": "prepared as",
+    "Preparedto": "Prepared to",
+    "preparedto": "prepared to",
+    "Ratherthan": "Rather than",
+    "ratherthan": "rather than",
+    "youreach": "you reach",
+    "youremember": "you remember",
+    "yourespect": "you respect",
+    "world’slargest": "world's largest",
+    "Scouting’shistory": "Scouting's history",
+    "guardian’spermission": "guardian's permission",
+}
+
+
+def _sanitize_ocr_ligatures(text: str) -> str:
+    """Cleans joined PDF extraction words inside pamphlet excerpts and summaries while never touching req_text."""
     if not text:
         return ""
-    s = str(text).replace("...", ".").replace("…", ".")
+    s = str(text)
+    for bad_tok, clean_tok in _OCR_LIGATURE_FIXES.items():
+        if bad_tok in s:
+            s = s.replace(bad_tok, clean_tok)
+    s = re.sub(r"\b(your|Your)(?!(?:self|selves|selfer))([a-z]{3,})\b", r"\1 \2", s)
+    s = re.sub(r"\b(their|Their)(?!s\b)([a-z]{3,})\b", r"\1 \2", s)
+    s = re.sub(r"\b(whether|Whether)([a-z]{2,})\b", r"\1 \2", s)
+    s = re.sub(r"\b(between|Between)([a-z]{3,})\b", r"\1 \2", s)
+    s = re.sub(r"\b(without|Without)([a-z]{3,})\b", r"\1 \2", s)
+    s = re.sub(r"\b(within|Within)([a-z]{3,})\b", r"\1 \2", s)
+    s = re.sub(r"\b(before|Before)(?!hand\b)([a-z]{3,})\b", r"\1 \2", s)
+    s = re.sub(r"\b(through|Through)(?!out\b|put\b)([a-z]{3,})\b", r"\1 \2", s)
+    s = re.sub(r"\b(which|Which)(?!ever\b)([a-z]{3,})\b", r"\1 \2", s)
+    s = re.sub(r"\b(while|While)(?!s\b|st\b)([a-z]{3,})\b", r"\1 \2", s)
+    s = re.sub(
+        r"\b(?!(?:here|there|where|forth|band|out)with\b)([A-Za-z]{4,})with\b",
+        r"\1 with",
+        s,
+    )
+    s = re.sub(
+        r"\b(?!(?:there|where|here)from\b)([A-Za-z]{4,})from\b",
+        r"\1 from",
+        s,
+    )
+    return s
+
+
+def _clean_prose(text: str) -> str:
+    """Strips em-dashes, en-dashes, double-hyphens, ellipses, and OCR ligatures per unslop/humanizer standards."""
+    if not text:
+        return ""
+    s = _sanitize_ocr_ligatures(str(text)).replace("...", ".").replace("…", ".")
     s = s.replace(" — ", ", ").replace(" – ", ", ").replace(" -- ", ", ")
     s = s.replace("—", ", ").replace("–", "-").replace("--", ", ")
     while "  " in s:
@@ -333,9 +565,103 @@ def _classify_syllabus_bucket(badge_name: str, req_num: str, full_text: str) -> 
     return "In-Class Concept"
 
 
+def _extract_condition_or_clause_labels(
+    full_text: str,
+    req_num: str,
+    verb: str,
+    default_prefix: str = "Requirement Part",
+    max_rows: int = 8,
+) -> List[str]:
+    """Extracts requirement-specific row labels from enumerated clauses, conditions, or sentences."""
+    cleaned = _clean_prose(full_text)
+    if not cleaned:
+        return [f"{default_prefix} 1", f"{default_prefix} 2", f"{default_prefix} 3"]
+
+    # 1. Check for inline parenthesized sub-clauses: (a) ... (b) ... or (1) ... (2) ...
+    paren_parts = re.split(r"(?=\([a-zA-Z1-9]\)\s+)", cleaned)
+    labeled_clauses: List[str] = []
+    for pp in paren_parts:
+        pp_s = pp.strip(" .;:,-")
+        m_p = re.match(r"^\(([a-zA-Z1-9])\)\s+(.+)$", pp_s)
+        if m_p:
+            lbl_char = m_p.group(1)
+            body = m_p.group(2).strip(" .;:,-")
+            short_body = _complete_sentence_summary(body, max_chars=78).rstrip(".")
+            labeled_clauses.append(f"({lbl_char}) {short_body}")
+    if len(labeled_clauses) >= 2:
+        return labeled_clauses[:max_rows]
+
+    # 2. Check for "such as X, Y, and Z" or "including X, Y, and Z" condition lists
+    m_list = re.search(
+        r"(?:such as|including|for the following:?|following conditions:?)\s+([^.]+)",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    if m_list:
+        raw_items = [
+            it.strip(" .;:,-")
+            for it in re.split(r",\s*(?:and\s+|or\s+)?|\s+and\s+|\s+or\s+", m_list.group(1))
+            if len(it.strip(" .;:,-")) >= 3
+        ]
+        if len(raw_items) >= 3:
+            return [it[0].upper() + it[1:] for it in raw_items[:max_rows]]
+
+    # 3. Split on semicolons or sentence boundaries
+    stripped_lead = re.sub(
+        r"^(?:Do the following:?|Do ONE of the following:?|Do TWO of the following:?|Discuss the following:?|Explain the following:?)\s*",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    ).strip()
+    semi_parts = [
+        sp.strip(" .;:,-")
+        for sp in re.split(r";\s+|\.\s+", stripped_lead)
+        if len(sp.strip(" .;:,-")) >= 6
+        and not sp.strip().lower().startswith(("do the following", "do one of the following", "note:"))
+    ]
+    if len(semi_parts) >= 2:
+        out_semi: List[str] = []
+        for idx_s, sp in enumerate(semi_parts[:max_rows], start=1):
+            short_sp = _complete_sentence_summary(sp, max_chars=78).rstrip(".")
+            out_semi.append(f"{idx_s}. {short_sp}")
+        return out_semi
+
+    # 4. Single short condition or clause (e.g., First Aid 3a "Closed wounds...", 3e "Sunburn", 4a "A nosebleed.")
+    if len(stripped_lead) <= 95:
+        single_lbl = stripped_lead.rstrip(".")
+        return [
+            single_lbl,
+            f"Pamphlet Standard & Key Facts ({req_num})",
+            f"Field Application & Counselor Verification ({verb})",
+        ]
+
+    # 5. Break a long single sentence on conjunctions/clauses into concrete study rows
+    clause_chunks = [
+        cc.strip(" .;:,-")
+        for cc in re.split(r",\s+(?:and|or|including|how|why|when|where|what)\s+|\s+and\s+(?:explain|describe|discuss|show|demonstrate|list|identify|tell)\s+", stripped_lead)
+        if len(cc.strip(" .;:,-")) >= 8
+    ]
+    if len(clause_chunks) >= 2:
+        return [
+            f"{i}. {_complete_sentence_summary(cc, max_chars=76).rstrip('.')}"
+            for i, cc in enumerate(clause_chunks[:max_rows], start=1)
+        ]
+
+    short_summary = _complete_sentence_summary(stripped_lead, max_chars=74).rstrip(".")
+    return [
+        f"1. {short_summary}",
+        f"2. Key Pamphlet Examples & Evidence (Req {req_num})",
+        f"3. Practical {verb} & Safety Verification",
+    ]
+
+
 def _build_workbook_organizer(badge_name: str, req_num: str, verb: str, full_text: str) -> Dict[str, Any]:
-    """Builds a verb-aligned WorkbookOrganizerSpec dictionary."""
+    """Builds a bespoke or clause-extracted WorkbookOrganizerSpec dictionary across all 149 badges."""
     tl = full_text.lower()
+    bl = badge_name.strip().lower()
+    base_req_Match = re.match(r"^(\d+)", str(req_num).strip())
+    base_num = base_req_Match.group(1) if base_req_Match else str(req_num).strip()
+
     pre_approval = any(
         kw in tl
         for kw in (
@@ -346,66 +672,358 @@ def _build_workbook_organizer(badge_name: str, req_num: str, verb: str, full_tex
             "before beginning work",
             "parent or guardian",
             "permission from your parents",
+            "guidance from your counselor",
         )
     )
-    if any(kw in tl for kw in ("likely hazards", "potential hazards", "anticipate, help prevent", "prevent, mitigate", "prevent injuries")):
+
+    # 1. HAZARD_5COL: "anticipate, help prevent, mitigate, and respond"
+    if (
+        "anticipate, help prevent, mitigate, and respond" in tl
+        or "anticipate, help prevent" in tl
+        or "mitigate, and respond" in tl
+        or (req_num in ("1", "1a") and any(k in tl for k in ("likely hazards", "potential hazards", "hazards you may encounter")))
+    ):
+        headers = ["Hazard / Risk", "Anticipate", "Help Prevent", "Mitigate", "Respond"]
         return {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
-            "headers": ["Activity Hazard / Risk", "Prevention & PPE Strategy", "Emergency Response & First Aid"],
-            "row_labels": ["Hazard 1", "Hazard 2", "Hazard 3", "Hazard 4"],
+            "organizer_type": "HAZARD_5COL",
+            "table_title": f"Req {req_num} Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": ["Hazard #1", "Hazard #2", "Hazard #3", "Hazard #4", "Hazard #5"],
+            "min_rows": 5,
+            "pre_approval_gate": pre_approval,
+        }
+
+    # 2. CAMPING_LOG_20NIGHT: Camping Req 9 / 9a (20 nights)
+    if (bl == "camping" and req_num in ("9", "9a")) or "20 nights" in tl or "camp a total of at least 20 nights" in tl:
+        headers = ["Trip / Night #", "Date(s)", "Location / Camp", "Tent or Under Stars", "# of Nights", "Leader Initials"]
+        return {
+            "organizer_type": "CAMPING_LOG_20NIGHT",
+            "table_title": "20-Night Designated Scouting Campout Experience Log",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": [f"Night/Trip {i}" for i in range(1, 21)],
+            "min_rows": 20,
+            "pre_approval_gate": pre_approval,
+        }
+
+    # 3. FITNESS_ASSESSMENT_4STAGE & FITNESS_LOG_12WK (Personal Fitness)
+    if bl == "personal fitness" and (req_num in ("4", "4a", "4b", "4c", "5", "5a", "5b", "7b")):
+        headers = ["Fitness Test Component", "Baseline (Start)", "Week 4", "Week 8", "Final (Week 12)"]
+        return {
+            "organizer_type": "FITNESS_ASSESSMENT_4STAGE",
+            "table_title": f"Req {req_num} Four-Stage Physical Fitness Assessment Tracker",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": [
+                "1-Mile Walk/Run",
+                "Sit-Ups / Plank",
+                "Push-Ups / Pull-Ups",
+                "Sit-and-Reach Flexibility",
+            ],
             "min_rows": 4,
             "pre_approval_gate": pre_approval,
         }
-    if any(kw in tl for kw in ("compare", "contrast", "difference between", "differences and similarities", "distinguish between", "versus", " vs ")):
+    if (bl == "personal fitness" and base_num in ("6", "7")) or "12-week" in tl or "12 consecutive weeks" in tl:
+        headers = ["Week #", "Aerobic Activity & Duration", "Strength / Flexibility Exercises", "Nutrition & Heart Rate Notes", "Initials"]
         return {
-            "organizer_type": "COMPARE_CONTRAST_2COL",
-            "headers": ["Concept / Method A", "Concept / Method B", "Key Field Distinction & When to Use"],
-            "row_labels": ["Primary Mechanism", "Field Indicator", "Safety / Application"],
-            "min_rows": 3,
+            "organizer_type": "FITNESS_LOG_12WK",
+            "table_title": f"Req {req_num} 12-Week Comprehensive Fitness & Nutrition Log",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": [f"Week {i}" for i in range(1, 13)],
+            "min_rows": 12,
+            "pre_approval_gate": True,
+        }
+
+    # 4. MEAL_PLANNER_AND_COST_TABLE: Cooking Reqs 4, 5, 6 and Camping Req 8c / 8d
+    if (bl == "cooking" and base_num in ("4", "5", "6")) or (bl == "camping" and req_num in ("8", "8c", "8d")):
+        headers = [
+            "Meal & Menu Item",
+            "MyPlate Food Groups",
+            "Ingredients & Est. Cost ($)",
+            "Equipment & Cooking Method",
+            "Evaluation & Cleanup",
+        ]
+        return {
+            "organizer_type": "MEAL_PLANNER_AND_COST_TABLE",
+            "table_title": f"Req {req_num} MyPlate Meal Planner, Cost & Cooking Evaluation Table",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": ["Breakfast", "Lunch", "Dinner", "Dessert / Trail Snack"],
+            "min_rows": 4,
             "pre_approval_gate": pre_approval,
         }
+
+    # 5. CITIZENSHIP_CIVIC_ORGANIZER: Citizenship in the Nation Reqs 2, 3, 5, 8
+    if bl == "citizenship in the nation":
+        if base_num == "2":
+            headers = ["Preamble Purpose", "Constitutional Meaning", "How It Affects Citizens Today"]
+            return {
+                "organizer_type": "CITIZENSHIP_CIVIC_ORGANIZER",
+                "table_title": "Six Constitutional Purposes of the Preamble",
+                "headers": headers,
+                "column_headers": headers,
+                "row_labels": [
+                    "1. Form a More Perfect Union",
+                    "2. Establish Justice",
+                    "3. Insure Domestic Tranquility",
+                    "4. Provide for the Common Defense",
+                    "5. Promote the General Welfare",
+                    "6. Secure the Blessings of Liberty",
+                ],
+                "min_rows": 6,
+                "pre_approval_gate": pre_approval,
+            }
+        if base_num == "3":
+            headers = ["Branch of Government", "Constitutional Function & Officials", "Checks & Balances", "Citizen Participation"]
+            return {
+                "organizer_type": "CITIZENSHIP_CIVIC_ORGANIZER",
+                "table_title": "Three Branches of the U.S. Federal Government",
+                "headers": headers,
+                "column_headers": headers,
+                "row_labels": [
+                    "1. Legislative Branch (Congress: Senate & House)",
+                    "2. Executive Branch (President, VP & Cabinet)",
+                    "3. Judicial Branch (Supreme Court & Federal Courts)",
+                ],
+                "min_rows": 3,
+                "pre_approval_gate": pre_approval,
+            }
+        if base_num == "5":
+            headers = ["Day # & Date", "National News Source", "Main Story Summary", "Constitutional / Civic Issue"]
+            return {
+                "organizer_type": "CITIZENSHIP_CIVIC_ORGANIZER",
+                "table_title": "5-Day National Evening News & Media Log",
+                "headers": headers,
+                "column_headers": headers,
+                "row_labels": [
+                    "Day 1 National News",
+                    "Day 2 National News",
+                    "Day 3 National News",
+                    "Day 4 National News",
+                    "Day 5 National News (Selected Issue for Discussion)",
+                ],
+                "min_rows": 5,
+                "pre_approval_gate": pre_approval,
+            }
+        if base_num == "8":
+            headers = ["Congressional Office", "Official Name & Party/District", "Contact Address / Website", "National Issue & Letter Summary"]
+            return {
+                "organizer_type": "CITIZENSHIP_CIVIC_ORGANIZER",
+                "table_title": "U.S. Congressional Representatives & Letter Planner",
+                "headers": headers,
+                "column_headers": headers,
+                "row_labels": ["Senator #1", "Senator #2", "House Representative"],
+                "min_rows": 3,
+                "pre_approval_gate": pre_approval,
+            }
+
+    # 6. ENVIRONMENTAL SCIENCE: SENSORY_OBSERVATION_LOG (Req 2/2a/2b) & SCIENTIFIC_EXPERIMENT_SHEET (Reqs 3, 4, 5)
+    if bl == "environmental science" and base_num == "2":
+        headers = ["Observation Session", "Sight (Visuals)", "Sound (Acoustics)", "Smell & Habitat Notes"]
+        return {
+            "organizer_type": "SENSORY_OBSERVATION_LOG",
+            "table_title": f"Req {req_num} Two-Day Ecosystem Sensory Observation Log",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": ["Day 1 Observation", "Day 2 Observation", "Ecosystem Summary"],
+            "min_rows": 3,
+            "pre_approval_gate": True,
+        }
+    if (bl == "environmental science" and base_num in ("3", "4", "5")) or (
+        any(k in tl for k in ("conduct an experiment", "perform an experiment", "three physics experiments", "scientific experiment"))
+    ):
+        headers = ["Step", "Your Plan / Hypothesis / Data", "Pamphlet Principle & Conclusion"]
+        return {
+            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
+            "table_title": f"Req {req_num} Scientific Experiment & Investigation Sheet",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": [
+                "1. State the Problem",
+                "2. Form a Hypothesis",
+                "3. Experimental Procedure",
+                "4. Observed Data & Results",
+                "5. Conclusion",
+            ],
+            "min_rows": 5,
+            "pre_approval_gate": pre_approval,
+        }
+
+    # 7. ROBOTICS: ENGINEERING_DESIGN_NOTEBOOK (Req 4 / 4a-4e / 5)
+    if bl == "robotics" and base_num in ("4", "5"):
+        headers = ["Engineering Stage", "Design / Sensor / Code Specification", "Test Results & Modifications"]
+        return {
+            "organizer_type": "ENGINEERING_DESIGN_NOTEBOOK",
+            "table_title": f"Req {req_num} Robotics Engineering Design Notebook",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": [
+                "1. Robot Task & Counselor Approval",
+                "2. Mechanical & Structural Design",
+                "3. Sensors & Actuators",
+                "4. Programming & Control Flow",
+                "5. Trial Runs 1-5 & Modifications",
+            ],
+            "min_rows": 5,
+            "pre_approval_gate": True,
+        }
+
+    # 8. SKETCH_AND_OBSERVATION_CANVAS: Astronomy 4c, 6a, 6b and sketch/draw/diagram/map requirements
+    if (bl == "astronomy" and req_num in ("4", "4c", "6", "6a", "6b", "6d")) or any(
+        kw in tl for kw in ("sketch", "draw a ", "draw the ", "make a diagram", "with the aid of diagrams", "cross-section", "topographical map")
+    ):
+        headers = ["Sketch / Diagram Target", "Required Labels & Landmarks", "Observation Date, Time & Notes"]
+        if bl == "astronomy" and req_num in ("4", "4c"):
+            r_labels = [
+                "Early Evening Horizon vs. Several Hours Later",
+                "Big Dipper / Cassiopeia & Polaris Position",
+                "Observation Date, Time & Sky Conditions",
+            ]
+        elif bl == "astronomy" and req_num in ("6", "6a"):
+            r_labels = [
+                "Lunar Seas (5) & Craters (5) Moon Circle",
+                "Five Major Lunar Seas (Maria) Labeled",
+                "Five Major Lunar Craters Labeled",
+            ]
+        elif bl == "astronomy" and req_num == "6b":
+            r_labels = [
+                "Night 1 Moon Phase & Horizon",
+                "Night 2 Moon Phase & Horizon",
+                "Night 3 Moon Phase & Horizon",
+                "Night 4 Moon Phase & Horizon",
+            ]
+        else:
+            r_labels = _extract_condition_or_clause_labels(full_text, req_num, verb, default_prefix="Sketch Element", max_rows=4)
+        return {
+            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+            "table_title": f"Req {req_num} Field Sketch & Observation Canvas",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": r_labels,
+            "min_rows": len(r_labels),
+            "pre_approval_gate": pre_approval,
+        }
+
+    # 9. CAREER_EXPLORATION_CARD: Career / profession / occupation requirements
+    if (
+        any(kw in tl for kw in ("career", "profession", "occupation", "training and experience required", "become involved in the auction industry"))
+        or (bl == "first aid" and base_num == "15")
+        or (bl == "cooking" and base_num == "7")
+        or (bl == "environmental science" and base_num == "11")
+        or (bl == "personal fitness" and base_num == "8")
+        or (bl == "robotics" and base_num == "7")
+        or (bl == "emergency preparedness" and base_num == "10")
+        or (bl == "astronomy" and base_num == "9")
+        or (bl == "auctioneering" and base_num == "8")
+    ):
+        headers = ["Career Research Dimension", "Selected Career Details", "Education, Training & Personal Goals"]
+        return {
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": f"Req {req_num} Career & Pathway Exploration Card",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": [
+                "1. Three Career Opportunities Identified",
+                "2. Selected Career: Education & Training Required",
+                "3. Daily Duties, Licensing & Expenses",
+                "4. Starting Salary, Job Outlook & Personal Goals",
+            ],
+            "min_rows": 4,
+            "pre_approval_gate": pre_approval,
+        }
+
+    # 10. SYMPTOMS_FIRST_AID_PREVENTION_3COL: Symptoms, First Aid & Prevention (First Aid Reqs 3-13, Camping 1c, Swimming 1b, etc.)
+    if (
+        ("symptoms and signs" in tl and "first aid" in tl)
+        or (bl == "first aid" and base_num in ("3", "4", "5", "6", "7", "8", "9", "11", "13"))
+        or (bl == "camping" and req_num == "1c")
+        or (bl == "swimming" and req_num == "1b")
+        or ("first aid for" in tl and any(k in tl for k in ("prevent", "injuries or illnesses", "hypothermia", "heat", "bites", "burns", "blisters")))
+    ):
+        headers = ["Condition / Injury", "Symptoms & Signs", "First Aid / Treatment", "Prevention"]
+        cond_rows = _extract_condition_or_clause_labels(full_text, req_num, verb, default_prefix="Condition", max_rows=8)
+        return {
+            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+            "table_title": f"Req {req_num} Symptoms, First Aid & Prevention Matrix",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": cond_rows,
+            "min_rows": len(cond_rows),
+            "pre_approval_gate": pre_approval,
+        }
+
+    # 11. COMPARE_CONTRAST_2COL
+    if any(kw in tl for kw in ("compare", "contrast", "difference between", "differences and similarities", "similarities and differences", "distinguish between", "versus", " vs. ", " vs ")):
+        headers = ["Concept / Method A", "Concept / Method B", "Key Field Distinction & When to Use"]
+        comp_rows = _extract_condition_or_clause_labels(full_text, req_num, verb, default_prefix="Comparison Dimension", max_rows=4)
+        return {
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": f"Req {req_num} Differential Comparison Matrix",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": comp_rows,
+            "min_rows": len(comp_rows),
+            "pre_approval_gate": pre_approval,
+        }
+
+    # 12. TIME_SERIES_LOG_TABLE
     if any(
         kw in tl
         for kw in (
             "keep a log",
             "tracking log",
-            "record",
-            "12-week",
             "13 consecutive",
             "90 days",
             "two weeks",
+            "five days",
+            "three days",
             "budget",
-            "menu",
-            "chart",
+            "duty roster",
             "track your",
             "observation log",
         )
     ):
+        headers = ["Date / Entry #", "Activity / Observation / Metric", "Measured Result / Notes", "Verifier Initials"]
+        log_rows = _extract_condition_or_clause_labels(full_text, req_num, verb, default_prefix="Log Entry", max_rows=6)
         return {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "headers": ["Date / Entry #", "Activity / Observation / Metric", "Measured Result / Notes", "Verifier Initials"],
-            "row_labels": ["Entry 1", "Entry 2", "Entry 3", "Entry 4", "Entry 5"],
-            "min_rows": 5,
+            "table_title": f"Req {req_num} Activity & Observation Log Table",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": log_rows,
+            "min_rows": len(log_rows),
             "pre_approval_gate": pre_approval,
         }
+
+    # 13. PHYSICAL_SKILL_VERIFICATION_RUBRIC / STEP_BY_STEP_CHECKLIST for hands-on skills
     if verb in ("Demonstrate", "Show", "Build", "Prepare", "Make", "Cook", "Shoot", "Swim", "Practice") or "demonstrate" in tl or "perform" in tl:
+        skill_rows = _extract_condition_or_clause_labels(full_text, req_num, verb, default_prefix="Skill Step", max_rows=6)
+        is_pure_phys = bl == "swimming" or verb in ("Swim", "Shoot") or tl.startswith(("demonstrate ", "show how", "correctly perform"))
+        org_t = "PHYSICAL_SKILL_VERIFICATION_RUBRIC" if is_pure_phys else "STEP_BY_STEP_CHECKLIST"
+        headers = ["Skill / Step Element", "Technique & Safety Standard", "Buddy Practice Check", "Counselor Sign-Off"]
         return {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "headers": ["Step #", "Physical Technique / Safety Standard", "Buddy Practice Check", "Counselor Sign-Off"],
-            "row_labels": [
-                "Step 1: Pre-Task Safety & Gear Check",
-                "Step 2: Core Technique Execution",
-                "Step 3: Quality & Accuracy Verification",
-                "Step 4: Post-Task Reset & Debrief",
-            ],
-            "min_rows": 4,
+            "organizer_type": org_t,
+            "table_title": f"Req {req_num} Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "headers": headers,
+            "column_headers": headers,
+            "row_labels": skill_rows,
+            "min_rows": len(skill_rows),
             "pre_approval_gate": pre_approval,
+            "is_physical_demonstration": True,
         }
+
+    # 14. Clause-extracted RULED_EXPLAIN_BOX (never generic "Core Principle" when clauses exist)
+    explain_rows = _extract_condition_or_clause_labels(full_text, req_num, verb, default_prefix="Sub-Part", max_rows=6)
+    headers = [f"Req {req_num} Clause / Topic", "Key Pamphlet Facts & Real-World Scouting Application"]
     return {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "headers": [f"Req {req_num} Concept / Sub-Part", "Key Pamphlet Facts & Field Examples"],
-        "row_labels": ["Core Principle", "Real-World Scouting Application", "Key Term / Standard"],
-        "min_rows": 3,
+        "table_title": f"Req {req_num} Structured Study & Explanation Notes",
+        "headers": headers,
+        "column_headers": headers,
+        "row_labels": explain_rows,
+        "min_rows": len(explain_rows),
         "pre_approval_gate": pre_approval,
     }
 
@@ -414,15 +1032,15 @@ def _build_starting_gate(badge_name: str, req_num: str, full_text: str) -> Optio
     """Detects any prerequisite or safety gate required before starting or signing off the requirement."""
     tl = full_text.lower()
     bl = badge_name.lower()
-    if "earn the first aid merit badge" in tl or (bl == "emergency preparedness" and req_num == "1"):
+    if "earn the first aid merit badge" in tl or (bl == "emergency preparedness" and req_num in ("1", "9")):
         return {
             "gate_type": "HARD_PREREQ_BADGE",
             "gate_label": "First Aid Merit Badge Required",
-            "gate_description": "Scout must earn the First Aid Merit Badge to complete Emergency Preparedness Requirement 1.",
+            "gate_description": "Scout must earn the First Aid Merit Badge to complete Emergency Preparedness.",
             "blocking_in_class": False,
         }
-    if "bsa swimmer" in tl or (
-        bl in ("lifesaving", "canoeing", "kayaking", "rowing", "small-boat sailing", "whitewater", "water sports", "scuba diving")
+    if "bsa swimmer" in tl or "scouting america swimmer" in tl or (
+        bl in ("lifesaving", "canoeing", "kayaking", "rowing", "small-boat sailing", "whitewater", "water sports", "scuba diving", "swimming")
         and req_num in ("1", "2", "1a", "2a")
     ):
         return {
@@ -455,17 +1073,85 @@ def _build_starting_gate(badge_name: str, req_num: str, full_text: str) -> Optio
     return None
 
 
+_FIRST_AID_MISCONCEPTIONS_BY_BASE_REQ: Dict[str, tuple[str, str]] = {
+    "1": (
+        "Rescuers should rush directly to an injured hiker to check a pulse before scanning the surroundings.",
+        "Always perform a 360-degree scene safety size-up, put on non-latex nitrile PPE gloves, check responsiveness/ABCs, activate 911, and triage life threats first.",
+    ),
+    "2": (
+        "A store-bought first-aid kit can stay sealed at the bottom of a backpack for years without inspection.",
+        "Review AHMR Parts A-C, inspect sterile dressings and expiration dates before every trek, and carry your personal kit in an accessible outer pack pocket.",
+    ),
+    "3": (
+        "Popping friction blisters, rubbing frostbitten fingers, or putting butter/ice on thermal burns speeds healing.",
+        "Protect hot spots with a moleskin doughnut pad, cool thermal burns under running water for 10+ minutes, rewarm frostbite in 99-104 F water, and pull ticks straight out with fine tweezers.",
+    ),
+    "4": (
+        "Tilt the head back for a nosebleed, peel off blood-soaked gauze pads, and loosen a tourniquet every 10 minutes.",
+        "Lean forward and pinch soft nostrils 10 minutes for nosebleeds, stack fresh gauze over soaked dressings, and keep a windlass tourniquet locked 2-3 inches above severe limb bleeding until EMS arrives.",
+    ),
+    "5": (
+        "Perform a blind finger sweep in a choking victim's mouth and wait to see if anaphylaxis improves before using an EpiPen.",
+        "Alternate 5 back blows and 5 abdominal thrusts for conscious choking, administer prescribed epinephrine into the outer mid-thigh immediately for anaphylaxis, and descend for altitude illness.",
+    ),
+    "6": (
+        "Restrain a person having a seizure, place an object between their teeth, or induce vomiting after swallowed poison.",
+        "Clear hazards and cushion the head during a seizure (never put anything in the mouth), call Poison Control at 1-800-222-1222 before giving anything by mouth, and place breathing unconscious patients in the recovery position.",
+    ),
+    "7": (
+        "Pause chest compressions every 30 seconds to check for a pulse and wait for paramedics before attaching an AED.",
+        "Deliver continuous chest compressions at 100-120/min (2 inches deep), attach AED pads as soon as available, and follow voice prompts while minimizing interruptions to under 10 seconds.",
+    ),
+    "8": (
+        "Straighten an angled fracture or dislocated joint in the field before applying a splint.",
+        "Splint fractures and dislocations in the exact position found, immobilize the joints above and below the injury with a SAM or rigid splint, and check distal circulation, motor, and sensation (CMS) before and after tying.",
+    ),
+    "9": (
+        "A Scout who bumps their head can return to camp activities immediately as long as they were not knocked unconscious.",
+        "Any suspected concussion or spinal mechanism requires immediate removal from activity, manual in-line cervical stabilization, leaving helmets in place unless airway access requires removal, and professional medical evaluation.",
+    ),
+    "10": (
+        "Immediately lift and carry any injured hiker out to the trailhead before assessing or splinting injuries.",
+        "Move an injured patient only when facing immediate scene danger or during a coordinated backcountry evacuation after stabilizing fractures, using proper walking assist, blanket drag, or stretcher techniques.",
+    ),
+    "11": (
+        "Heatstroke is just severe heat exhaustion that can be treated by resting slowly in the shade with sips of water.",
+        "Heatstroke (hot skin, altered mental status, core temp >104 F) is a life-threatening emergency requiring immediate 911 activation and rapid cooling with cold water immersion or ice packs at the neck, armpits, and groin.",
+    ),
+    "12": (
+        "Telling a distressed or traumatized Scout to 'tough it out' and ignore stress reactions is the best field response.",
+        "Apply psychological first aid through calm active listening, safety reassurance, peer and adult support, and immediate connection to professional help or the 988 Suicide and Crisis Lifeline when warning signs appear.",
+    ),
+    "13": (
+        "Scrub a knocked-out permanent tooth clean by the root and wrap it dry in a paper towel for transport.",
+        "Handle an avulsed tooth by the crown only (never touch the root), rinse gently if needed, and transport it immersed in cold milk, sterile saline, or the patient's saliva to a dentist immediately.",
+    ),
+    "14": (
+        "Showing a slide deck or reading from the pamphlet alone satisfies the EDGE method teaching requirement.",
+        "Effective first-aid instruction follows all four EDGE stages: Explain the concept, Demonstrate the technique, Guide Scouts through hands-on practice, and Enable them to perform independently.",
+    ),
+    "15": (
+        "EMTs, paramedics, emergency nurses, and physicians all have the exact same training and medical scope of practice.",
+        "Emergency medical careers span tiered certification levels (EMR, EMT, Paramedic, RN, MD/DO), each requiring specific coursework, clinical hours, national registry exams, and state licensure.",
+    ),
+}
+
+
 def _build_misconception_pair(badge_name: str, req_num: str, topic_title: str, full_text: str, citation: str) -> Dict[str, str]:
-    """Builds a concrete, domain-accurate Misconception vs. Fact pair for the requirement."""
+    """Builds a concrete, domain-accurate Misconception vs. Fact pair for the requirement (zero generic 'Reading a short definition' fallbacks)."""
     tl = full_text.lower()
-    bl = badge_name.lower()
+    bl = badge_name.strip().lower()
     clean_topic = _clean_prose(topic_title.replace(f"Req {req_num}:", "").strip() or f"{badge_name} Req {req_num}")
     verb = _infer_leading_verb(full_text).lower()
+    base_req_m = re.match(r"^(\d+)", str(req_num).strip())
+    base_num = base_req_m.group(1) if base_req_m else str(req_num).strip()
 
-    if "hazard" in tl or ("first aid" in tl and req_num == "1"):
-        m = f"Scouts can jump straight into {badge_name} hands-on activities and deal with hazards only after an accident happens."
-        f = f"Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting {badge_name} prevents most field injuries."
-    elif "tourniquet" in tl or ("bleeding" in tl and bl == "first aid"):
+    if bl == "first aid" and base_num in _FIRST_AID_MISCONCEPTIONS_BY_BASE_REQ:
+        m, f = _FIRST_AID_MISCONCEPTIONS_BY_BASE_REQ[base_num]
+    elif "anticipate, help prevent" in tl or "likely hazards" in tl or "potential hazards" in tl:
+        m = f"Scouts can jump straight into {badge_name} hands-on activities and address hazards only after an incident occurs."
+        f = f"Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting {badge_name} prevents field injuries."
+    elif "tourniquet" in tl:
         m = "Loosen a windlass tourniquet every 10 minutes to let fresh blood reach the injured limb."
         f = "Never loosen an applied tourniquet in the field; loosening causes recurrent hemorrhage and shock before EMS arrival."
     elif "splint" in tl or "fracture" in tl:
@@ -474,9 +1160,76 @@ def _build_misconception_pair(badge_name: str, req_num: str, topic_title: str, f
     elif "cpr" in tl or "aed" in tl:
         m = "Stop chest compressions every 30 seconds to check for a carotid pulse."
         f = "Deliver continuous chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
-    elif "career" in tl or "profession" in tl:
+    elif "poison" in tl:
+        m = "Inducing vomiting is the fastest first-aid response whenever someone swallows a household poison."
+        f = "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container."
+    elif "heat stroke" in tl or "heatstroke" in tl or "hypothermia" in tl:
+        m = "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention."
+        f = "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming."
+    elif "career" in tl or "profession" in tl or "occupation" in tl:
         m = f"Listing three job titles from a quick web search satisfies the {badge_name} career exploration requirement."
         f = f"Scouts must research specific {badge_name} career pathways and discuss required education, training, licensing, and daily duties with their counselor."
+    elif "leave no trace" in tl or "outdoor code" in tl:
+        m = "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps."
+        f = "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks."
+    elif "myplate" in tl or "menu" in tl or "caloric" in tl or (bl == "cooking" and base_num in ("2", "4", "5", "6")):
+        m = "Camp and trail meals only need high-sugar snacks for quick energy rather than balanced food groups or safe cold-chain storage."
+        f = "Balanced MyPlate meals, accurate ingredient budgeting, strict cross-contamination prevention, and proper stove/fire management keep patrols healthy."
+    elif "20 nights" in tl or (bl == "camping" and base_num == "9"):
+        m = "Multiple week-long summer camp stays can all count toward the 20-night camping requirement."
+        f = "Only one long-term camp experience of up to six consecutive nights may be applied toward the 20-night Camping requirement."
+    elif "12-week" in tl or (bl == "personal fitness" and base_num in ("4", "5", "6", "7")):
+        m = "Missing several weeks of workouts can be made up by doubling exercises during the final week of the fitness log."
+        f = "Personal Fitness requires consistent aerobic, strength, and flexibility training logged across 12 consecutive weeks with periodic assessments at Weeks 4, 8, and 12."
+    elif bl == "citizenship in the nation":
+        cit_pairs = {
+            "1": (
+                "The U.S. Constitution grants unlimited authority to the federal government over states and individuals.",
+                "The Constitution establishes limited government, popular sovereignty, federalism, separation of powers, and individual rights protected by the Bill of Rights.",
+            ),
+            "2": (
+                "The Preamble to the Constitution is merely decorative language with no connection to constitutional governance.",
+                "The Preamble defines the six foundational purposes of the federal government, guiding how constitutional powers serve citizens today.",
+            ),
+            "3": (
+                "The President can pass federal laws and overturn Supreme Court rulings unilaterally without Congress.",
+                "The Legislative, Executive, and Judicial branches exercise distinct constitutional powers constrained by mutual checks and balances.",
+            ),
+            "4": (
+                "The Declaration of Independence and the U.S. Constitution are the same legal document written in 1776.",
+                "The 1776 Declaration proclaimed independence and natural rights, while the 1787 Constitution and Bill of Rights established the framework of federal law.",
+            ),
+            "5": (
+                "Skimming social media headlines for five minutes on one day satisfies the national news requirement.",
+                "Scouts must track national news across five consecutive days and analyze how a major national issue affects their community and family.",
+            ),
+            "8": (
+                "Every citizen is represented by only one U.S. Senator and several House Representatives for their district.",
+                "Every state has two U.S. Senators representing the entire state and one voting U.S. House Representative for each congressional district.",
+            ),
+        }
+        m, f = cit_pairs.get(
+            base_num,
+            (
+                f"Passive observation without primary-source analysis satisfies {clean_topic}.",
+                f"Active civic engagement requires researching primary constitutional sources, historic landmarks, and public policy for {clean_topic}.",
+            ),
+        )
+    elif bl == "environmental science":
+        m = f"Environmental observations in {clean_topic} can be guessed from memory without field data or controlled comparisons."
+        f = f"Scientific environmental investigation in {clean_topic} requires direct field observation, controlled variables, and documented evidence."
+    elif bl == "astronomy":
+        m = "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds."
+        f = "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches."
+    elif bl == "robotics":
+        m = "Building a robot from a kit without documenting design iterations, sensor logic, or test trials completes the engineering requirement."
+        f = "Scouts must obtain counselor approval for the robot task, design at least 2 degrees of freedom with sensors, program control logic, and log test modifications in an engineering notebook."
+    elif bl == "swimming":
+        m = "Strong swimmers do not need the Buddy System or Safe Swim Defense checks in familiar calm water."
+        f = "All Scouting aquatics activities require the eight points of Safe Swim Defense, qualified supervision, ability groups, and regular buddy checks."
+    elif bl == "emergency preparedness":
+        m = "Emergency preparedness starts only after a disaster warning is broadcast on television or radio."
+        f = "Effective emergency preparedness integrates the five NIMS steps: Prevention, Protection, Mitigation, Response, and Recovery before disaster strikes."
     elif bl == "citizenship in society":
         cis_pairs = {
             "1": (
@@ -538,8 +1291,12 @@ def _build_misconception_pair(badge_name: str, req_num: str, topic_title: str, f
         m = f"Using a 48-inch thread and holding extra pins in your mouth saves time during {clean_topic}."
         f = f"Keep hand-sewing thread to 18-24 inches to prevent tangles and always store needles and pins in a pincushion or magnetic tray."
     else:
-        m = f"Reading a short definition of {clean_topic} is enough for {badge_name} Requirement {req_num} sign-off."
-        f = f"Each Scout must actively {verb} the specific principles and real-world steps of {clean_topic} grounded in the official {badge_name} pamphlet."
+        clauses = _extract_condition_or_clause_labels(full_text, req_num, verb.capitalize(), max_rows=2)
+        focus_clause = re.sub(r"^(?:\([a-zA-Z1-9]\)|\d+\.)\s*", "", clauses[0]).strip()
+        if len(focus_clause) > 95:
+            focus_clause = focus_clause[:92].rsplit(" ", 1)[0]
+        m = f"Relying on unverified assumptions or skipping field preparation is acceptable when working on {focus_clause.lower()}."
+        f = f"Scouts must {verb} {focus_clause.lower()} using verified procedures, field evidence, and safety standards from {citation}."
 
     return {
         "misconception": m,
@@ -1154,6 +1911,41 @@ def enrich_all_149_requirement_files() -> tuple[int, int]:
         jf.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         cache_data[bname] = updated_reqs
         badge_count += 1
+
+    # Also enrich any legacy/alias JSON files present in REQS_DIR (e.g. competitive-gaming.json)
+    catalog_slugs = {badge_url_slug(str(item["badge_name"])) for item in OFFICIAL_BSA_MERIT_BADGES_CATALOG}
+    for extra_jf in sorted(REQS_DIR.glob("*.json")):
+        if extra_jf.name == "manifest.json" or extra_jf.stem in catalog_slugs:
+            continue
+        extra_payload = json.loads(extra_jf.read_text(encoding="utf-8"))
+        if not isinstance(extra_payload, dict) or not extra_payload.get("requirements"):
+            continue
+        extra_bname = str(extra_payload.get("badge_name") or extra_jf.stem)
+        extra_reqs = extra_payload.get("requirements") or []
+        extra_resources = extra_payload.get("resources") or []
+        updated_extra_reqs: List[Dict[str, Any]] = []
+        for idx, r in enumerate(extra_reqs):
+            r_copy = dict(r)
+            orig_req_num = str(r_copy.get("req_number", str(idx + 1)))
+            orig_req_text = str(r_copy.get("req_text", ""))
+            orig_subs = list(r_copy.get("sub_requirements") or [])
+            rich_fields = _build_rich_pedagogy_for_req(
+                badge_name=extra_bname,
+                req_num=orig_req_num,
+                req_text=orig_req_text,
+                subs=orig_subs,
+                idx=idx,
+                total_reqs=len(extra_reqs),
+                orig_resources=extra_resources,
+            )
+            r_copy.update(rich_fields)
+            r_copy["req_number"] = orig_req_num
+            r_copy["req_text"] = orig_req_text
+            updated_extra_reqs.append(r_copy)
+        extra_payload["requirements"] = updated_extra_reqs
+        extra_jf.write_text(json.dumps(extra_payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        if extra_bname in cache_data:
+            cache_data[extra_bname] = updated_extra_reqs
 
     CACHE_PATH.write_text(json.dumps(cache_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return badge_count, req_count

@@ -36,26 +36,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Geocaching hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Geocaching hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Geocaching prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Geocaching prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)"
           },
           "starting_requirement_gate": null,
@@ -113,23 +124,31 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Study & Explanation Notes",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Cuts",
+              "Scrapes",
+              "Snakebite",
+              "Insect stings",
+              "Tick bites",
+              "Exposure to poisonous plants"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Geocaching Requirement 1b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Geocaching pamphlet.",
+            "misconception": "Inducing vomiting is the fastest first-aid response whenever someone swallows a household poison.",
+            "fact": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
+            "fact_correction": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)"
           },
           "starting_requirement_gate": null,
@@ -171,23 +190,30 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Using the buddy system",
+              "Sharing your plan with others",
+              "Considering the weather",
+              "Route",
+              "Proper attire"
             ],
-            "min_rows": 3,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1c is enough for Geocaching Requirement 1c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Geocaching pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using the buddy system.",
+            "fact": "Scouts must discuss using the buddy system using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67).",
+            "fact_correction": "Scouts must discuss using the buddy system using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67).",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)"
           },
           "starting_requirement_gate": null,
@@ -267,25 +293,36 @@
       "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Geocaching hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Geocaching prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Geocaching hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Geocaching prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Geocaching prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)"
       },
       "starting_requirement_gate": null,
@@ -387,23 +424,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Why you should never bury a cache",
+              "Pamphlet Standard & Key Facts (2a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Geocaching Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Geocaching pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on why you should never bury a cache.",
+            "fact": "Scouts must explain why you should never bury a cache using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56).",
+            "fact_correction": "Scouts must explain why you should never bury a cache using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56).",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)"
           },
           "starting_requirement_gate": null,
@@ -445,23 +487,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. How to use proper geocaching etiquette when hiding or seeking a cache",
+              "2. How to properly hide, post, maintain",
+              "3. Dismantle a geocache"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Geocaching Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Geocaching pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on how to use proper geocaching etiquette when hiding or seeking a cache.",
+            "fact": "Scouts must explain how to use proper geocaching etiquette when hiding or seeking a cache using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56).",
+            "fact_correction": "Scouts must explain how to use proper geocaching etiquette when hiding or seeking a cache using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56).",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)"
           },
           "starting_requirement_gate": null,
@@ -503,23 +550,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2c Structured Study & Explanation Notes",
             "headers": [
-              "Req 2c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "The Leave No Trace Seven Principles and the Outdoor Code as they apply to geocaching",
+              "Pamphlet Standard & Key Facts (2c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2c is enough for Geocaching Requirement 2c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Geocaching pamphlet.",
+            "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+            "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+            "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)"
           },
           "starting_requirement_gate": null,
@@ -580,22 +632,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Why you should never bury a cache",
+          "(b) How to use proper geocaching etiquette when hiding or seeking a cache",
+          "(c) The Leave No Trace Seven Principles and the Outdoor Code as they apply"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Your counselor is enough for Geocaching Requirement 2 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Your counselor grounded in the official Geocaching pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Your counselor grounded in the official Geocaching pamphlet.",
+        "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+        "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
         "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)"
       },
       "starting_requirement_gate": null,
@@ -688,22 +745,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Terms used in geocaching: waypoint, log, cache, accuracy, difficulty",
+          "2. Choose five additional terms to explain to your counselor"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Used in geocaching is enough for Geocaching Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Used in geocaching grounded in the official Geocaching pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Used in geocaching grounded in the official Geocaching pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on terms used in geocaching: waypoint, log, cache, accuracy, difficulty.",
+        "fact": "Scouts must explain terms used in geocaching: waypoint, log, cache, accuracy, difficulty using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71).",
+        "fact_correction": "Scouts must explain terms used in geocaching: waypoint, log, cache, accuracy, difficulty using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71).",
         "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71)"
       },
       "starting_requirement_gate": null,
@@ -809,25 +870,32 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Explain how the Global Positioning System (GPS) works",
+          "2. Then, using Scouting's EDGE, demonstrate to your counselor the use of a GPS",
+          "3. Include marking and editing a waypoint, changing field functions"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The Global Positioning System works is enough for Geocaching Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The Global Positioning System works grounded in the official Geocaching pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The Global Positioning System works grounded in the official Geocaching pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how the global positioning system (gps) works.",
+        "fact": "Scouts must explain explain how the global positioning system (gps) works using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 11, p. 13).",
+        "fact_correction": "Scouts must explain explain how the global positioning system (gps) works using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 11, p. 13).",
         "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 11, p. 13)"
       },
       "starting_requirement_gate": null,
@@ -910,23 +978,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5a Structured Study & Explanation Notes",
             "headers": [
-              "Req 5a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Show you know how to use a map and compass and explain why this is important for geocaching",
+              "Pamphlet Standard & Key Facts (5a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Geocaching Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Geocaching pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show you know how to use a map and compass and explain why this is important for geocaching.",
+            "fact": "Scouts must explain show you know how to use a map and compass and explain why this is important for geocaching using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29).",
+            "fact_correction": "Scouts must explain show you know how to use a map and compass and explain why this is important for geocaching using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29).",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)"
           },
           "starting_requirement_gate": null,
@@ -967,24 +1040,30 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 5b Differential Comparison Matrix",
             "headers": [
-              "Req 5b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
+            ],
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the similarities and differences between GPS navigation",
+              "2. The benefits of each"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Geocaching Requirement 5b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Geocaching pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the similarities and differences between gps navigation.",
+            "fact": "Scouts must explain explain the similarities and differences between gps navigation using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29).",
+            "fact_correction": "Scouts must explain explain the similarities and differences between gps navigation using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29).",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)"
           },
           "starting_requirement_gate": null,
@@ -1044,26 +1123,29 @@
       "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 5 Differential Comparison Matrix",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
+        ],
+        "column_headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Show you know how to use a map and compass and explain why this is important",
+          "(b) Explain the similarities and differences between GPS navigation and standard"
         ],
-        "min_rows": 4,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of You know how to use is enough for Geocaching Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of You know how to use grounded in the official Geocaching pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of You know how to use grounded in the official Geocaching pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show you know how to use a map and compass and explain why this is important.",
+        "fact": "Scouts must demonstrate show you know how to use a map and compass and explain why this is important using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29).",
+        "fact_correction": "Scouts must demonstrate show you know how to use a map and compass and explain why this is important using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29).",
         "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)"
       },
       "starting_requirement_gate": null,
@@ -1096,7 +1178,7 @@
       "step_by_step_procedure": [
         "Mightaccidentally Program: Or you mightaccidentally program in the wrong coordinates and be headingin the wrong direction entirely.",
         "Carry Map Andcompass: Carry a map andcompass andknow how to usethem, especially ifyou are out in thewilderness.",
-        "Seethe BSAhandbook SCALES: Seethe Scouts BSAhandbook and the SCALES Orienteering merit DIRECTION-OF-TRAVEL ARROW badge pamphlet.",
+        "Seethe BSA handbook SCALES: Seethe Scouts BSA handbook and the SCALES Orienteering merit DIRECTION-OF-TRAVEL ARROW badge pamphlet.",
         "Topographic Topo Map: Using a topographic (topo) map of the area can help youplan your best route."
       ],
       "gear_checklist": [
@@ -1165,22 +1247,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Describe to your counselor the four steps to finding your first cache",
+          "2. Then mark and edit a waypoint"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of To your counselor the four steps is enough for Geocaching Requirement 6 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of To your counselor the four steps grounded in the official Geocaching pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of To your counselor the four steps grounded in the official Geocaching pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe to your counselor the four steps to finding your first cache.",
+        "fact": "Scouts must describe describe to your counselor the four steps to finding your first cache using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 48).",
+        "fact_correction": "Scouts must describe describe to your counselor the four steps to finding your first cache using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 48).",
         "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 48)"
       },
       "starting_requirement_gate": null,
@@ -1206,9 +1292,9 @@
       ],
       "pamphlet_excerpts": [
         "Think Finding Cache: Think of the four steps to finding a cache, and use those steps toguide you in hiding a geocache. 1.",
-        "Carefully Research Want: Carefully research where you want to place yourcache.",
-        "There Adequate Places: Are there adequate places to hide your caches withoutrisk to the environment when people are seeking them?.",
-        "Geocachers Areencouraged: Geocachers areencouraged to seek out new places to hide caches ratherthan put them where others already exist."
+        "Carefully Research Want: Carefully research where you want to place your cache.",
+        "There Adequate Places: Are there adequate places to hide your caches without risk to the environment when people are seeking them?.",
+        "Geocachers Areencouraged: Geocachers areencouraged to seek out new places to hide caches rather than put them where others already exist."
       ],
       "step_by_step_procedure": [
         "Areas Notsuitable Geocaches: Areas that are notsuitable for geocaches include schools, government buildings, cemeteries, airports, military installations.",
@@ -1273,22 +1359,29 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. With your parent or guardian's permission, go to www.geocaching.com",
+          "2. Type in your city and state to locate public geocaches in your area",
+          "3. Share with your counselor the posted information about three of those",
+          "4. Then, pick one of the three and find the cache",
+          "5. Before doing so, ask your parent or guardian for permission and help"
         ],
-        "min_rows": 3,
+        "min_rows": 5,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Go to www.geocaching.com is enough for Geocaching Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Go to www.geocaching.com grounded in the official Geocaching pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Go to www.geocaching.com grounded in the official Geocaching pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your parent or guardian's permission, go to www.geocaching.com.",
+        "fact": "Scouts must explain with your parent or guardian's permission, go to www.geocaching.com using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 37, p. 41).",
+        "fact_correction": "Scouts must explain with your parent or guardian's permission, go to www.geocaching.com using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 37, p. 41).",
         "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 37, p. 41)"
       },
       "starting_requirement_gate": {
@@ -1372,23 +1465,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8a Structured Study & Explanation Notes",
             "headers": [
-              "Req 8a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. If a Cache to Eagle® series exists in your council, visit at least three",
+              "2. Describe the projects that each cache you visit highlights, and explain how"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8a is enough for Geocaching Requirement 8a sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 8a grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 8a grounded in the official Geocaching pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if a cache to eagle® series exists in your council, visit at least three.",
+            "fact": "Scouts must visit if a cache to eagle® series exists in your council, visit at least three using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49).",
+            "fact_correction": "Scouts must visit if a cache to eagle® series exists in your council, visit at least three using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49).",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)"
           },
           "starting_requirement_gate": null,
@@ -1430,27 +1527,32 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 8b Activity & Observation Log Table",
             "headers": [
               "Date / Entry #",
               "Activity / Observation / Metric",
               "Measured Result / Notes",
               "Verifier Initials"
             ],
-            "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+            "column_headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
             ],
-            "min_rows": 5,
+            "row_labels": [
+              "1. Create a Scouting-related Travel Bug® that promotes one of the values",
+              "2. Release your Travel Bug into a public geocache and, with your parent",
+              "3. Keep a log, and share this with your counselor at the end of the 30-day period"
+            ],
+            "min_rows": 3,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8b is enough for Geocaching Requirement 8b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b grounded in the official Geocaching pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on create a scouting-related travel bug® that promotes one of the values.",
+            "fact": "Scouts must explain create a scouting-related travel bug® that promotes one of the values using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49).",
+            "fact_correction": "Scouts must explain create a scouting-related travel bug® that promotes one of the values using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49).",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)"
           },
           "starting_requirement_gate": {
@@ -1497,23 +1599,29 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8c Structured Study & Explanation Notes",
             "headers": [
-              "Req 8c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Set up and hide a public geocache, following the guidelines in the Geocaching",
+              "2. Before doing so, share with your counselor a three-month maintenance plan",
+              "3. After setting up the geocache, with your parent or guardian's permission",
+              "4. You must archive the geocache when you are no longer maintaining it"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8c is enough for Geocaching Requirement 8c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c grounded in the official Geocaching pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on set up and hide a public geocache, following the guidelines in the geocaching.",
+            "fact": "Scouts must explain set up and hide a public geocache, following the guidelines in the geocaching using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49).",
+            "fact_correction": "Scouts must explain set up and hide a public geocache, following the guidelines in the geocaching using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49).",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)"
           },
           "starting_requirement_gate": {
@@ -1568,23 +1676,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8d Structured Study & Explanation Notes",
             "headers": [
-              "Req 8d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain what Cache In Trash Out (CITO) means, and describe how you",
+              "2. Then, either create CITO containers to leave at public caches, or host a CITO"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8d is enough for Geocaching Requirement 8d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Geocaching pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Geocaching pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain what cache in trash out (cito) means, and describe how you.",
+            "fact": "Scouts must explain explain what cache in trash out (cito) means, and describe how you using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49).",
+            "fact_correction": "Scouts must explain explain what cache in trash out (cito) means, and describe how you using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49).",
             "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)"
           },
           "starting_requirement_gate": null,
@@ -1657,26 +1769,32 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "table_title": "Req 8 Activity & Observation Log Table",
         "headers": [
           "Date / Entry #",
           "Activity / Observation / Metric",
           "Measured Result / Notes",
           "Verifier Initials"
         ],
-        "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+        "column_headers": [
+          "Date / Entry #",
+          "Activity / Observation / Metric",
+          "Measured Result / Notes",
+          "Verifier Initials"
         ],
-        "min_rows": 5,
+        "row_labels": [
+          "(a) If a Cache to Eagle® series exists in your council, visit at least three",
+          "(b) Create a Scouting-related Travel Bug® that promotes one of the values",
+          "(c) Set up and hide a public geocache, following the guidelines in the Geocaching",
+          "(d) Explain what Cache In Trash Out (CITO) means, and describe how you"
+        ],
+        "min_rows": 4,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of If a Cache to Eagle® series is enough for Geocaching Requirement 8 sign-off.",
-        "fact": "Each Scout must actively visit the specific principles and real-world steps of If a Cache to Eagle® series grounded in the official Geocaching pamphlet.",
-        "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of If a Cache to Eagle® series grounded in the official Geocaching pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if a cache to eagle® series exists in your council, visit at least three.",
+        "fact": "Scouts must visit if a cache to eagle® series exists in your council, visit at least three using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49).",
+        "fact_correction": "Scouts must visit if a cache to eagle® series exists in your council, visit at least three using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49).",
         "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)"
       },
       "starting_requirement_gate": {
@@ -1770,22 +1888,28 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Study & Explanation Notes",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Your troop",
+          "A neighboring pack",
+          "At school",
+          "Your place of worship"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Plan a geohunt for a youth is enough for Geocaching Requirement 9 sign-off.",
-        "fact": "Each Scout must actively plan the specific principles and real-world steps of Plan a geohunt for a youth grounded in the official Geocaching pamphlet.",
-        "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Plan a geohunt for a youth grounded in the official Geocaching pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on your troop.",
+        "fact": "Scouts must plan your troop using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 51, p. 52).",
+        "fact_correction": "Scouts must plan your troop using verified procedures, field evidence, and safety standards from Official Scouting America Geocaching Merit Badge Pamphlet (p. 51, p. 52).",
         "pamphlet_page_ref": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 51, p. 52)"
       },
       "starting_requirement_gate": null,

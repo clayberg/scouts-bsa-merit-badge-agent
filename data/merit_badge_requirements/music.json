@@ -51,22 +51,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 1 Structured Study & Explanation Notes",
         "headers": [
-          "Req 1 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Sing or play a simple song or hymn chosen by your counselor, using good",
+          "2. Read all the signs and terms of the score"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Sing or play a simple song is enough for Music Requirement 1 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Sing or play a simple song grounded in the official Music pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Sing or play a simple song grounded in the official Music pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on sing or play a simple song or hymn chosen by your counselor, using good.",
+        "fact": "Scouts must explain sing or play a simple song or hymn chosen by your counselor, using good using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must explain sing or play a simple song or hymn chosen by your counselor, using good using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -182,22 +186,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Name the five general groups of musical instruments",
+          "2. Create an illustration that shows how tones are generated and how instruments"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Name the five general groups is enough for Music Requirement 2 sign-off.",
-        "fact": "Each Scout must actively name the specific principles and real-world steps of Name the five general groups grounded in the official Music pamphlet.",
-        "fact_correction": "Each Scout must actively name the specific principles and real-world steps of Name the five general groups grounded in the official Music pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name the five general groups of musical instruments.",
+        "fact": "Scouts must name name the five general groups of musical instruments using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must name name the five general groups of musical instruments using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -270,28 +278,36 @@
           "children": [],
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
-            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 3a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+              "1. Attend a live performance, or listen to three hours of recordings from any",
+              "2. Describe the sound of the music and the instruments used",
+              "3. Identify the composers or songwriters, the performers, and the titles",
+              "4. If it was a live performance, describe the setting and the reaction",
+              "5. Discuss your thoughts about the music"
             ],
             "min_rows": 5,
-            "pre_approval_gate": false
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Music Requirement 3a sign-off.",
-            "fact": "Each Scout must actively attend the specific principles and real-world steps of Req 3a grounded in the official Music pamphlet.",
-            "fact_correction": "Each Scout must actively attend the specific principles and real-world steps of Req 3a grounded in the official Music pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on attend a live performance, or listen to three hours of recordings from any.",
+            "fact": "Scouts must attend attend a live performance, or listen to three hours of recordings from any using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must attend attend a live performance, or listen to three hours of recordings from any using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -328,23 +344,30 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3b Structured Study & Explanation Notes",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Interview an adult member of your family about music",
+              "2. Find out what the most popular music was when he or she was your age",
+              "3. Find out what his or her favorite music is now, and listen to three of your",
+              "4. How do those favorites sound to you?",
+              "5. Ask what he or she thinks of your favorite music"
             ],
-            "min_rows": 3,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Music Requirement 3b sign-off.",
-            "fact": "Each Scout must actively research the specific principles and real-world steps of Req 3b grounded in the official Music pamphlet.",
-            "fact_correction": "Each Scout must actively research the specific principles and real-world steps of Req 3b grounded in the official Music pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on interview an adult member of your family about music.",
+            "fact": "Scouts must research interview an adult member of your family about music using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must research interview an adult member of your family about music using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -381,26 +404,33 @@
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 3c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Serve for six months as a member of a school band, choir",
+              "2. Other organized musical group",
+              "3. Perform as a soloist in public six times"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3c is enough for Music Requirement 3c sign-off.",
-            "fact": "Each Scout must actively serve the specific principles and real-world steps of Req 3c grounded in the official Music pamphlet.",
-            "fact_correction": "Each Scout must actively serve the specific principles and real-world steps of Req 3c grounded in the official Music pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on serve for six months as a member of a school band, choir.",
+            "fact": "Scouts must serve serve for six months as a member of a school band, choir using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must serve serve for six months as a member of a school band, choir using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -437,26 +467,32 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 3d Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. List five people who are important in the history of American music",
+              "2. Include at least one composer, one performer, one innovator, and one person"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3d is enough for Music Requirement 3d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Music pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Music pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on list five people who are important in the history of american music.",
+            "fact": "Scouts must explain list five people who are important in the history of american music using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must explain list five people who are important in the history of american music using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -503,27 +539,34 @@
       "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+          "(a) Attend a live performance, or listen to three hours of recordings from any",
+          "(b) Interview an adult member of your family about music",
+          "(c) Serve for six months as a member of a school band, choir, or other organized",
+          "(d) List five people who are important in the history of American music"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Attend a live performance, or listen is enough for Music Requirement 3 sign-off.",
-        "fact": "Each Scout must actively attend the specific principles and real-world steps of Attend a live performance, or listen grounded in the official Music pamphlet.",
-        "fact_correction": "Each Scout must actively attend the specific principles and real-world steps of Attend a live performance, or listen grounded in the official Music pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on attend a live performance, or listen to three hours of recordings from any.",
+        "fact": "Scouts must attend attend a live performance, or listen to three hours of recordings from any using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must attend attend a live performance, or listen to three hours of recordings from any using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -610,23 +653,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Study & Explanation Notes",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Teach three songs to a group of people",
+              "2. Lead them in singing the songs, using proper hand motions"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Music Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Music pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Music pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on teach three songs to a group of people.",
+            "fact": "Scouts must explain teach three songs to a group of people using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must explain teach three songs to a group of people using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -663,23 +710,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Compose and write the score for a piece of music of 12 measures or more",
+              "2. Play this music on an instrument"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Music Requirement 4b sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 4b grounded in the official Music pamphlet.",
-            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 4b grounded in the official Music pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on compose and write the score for a piece of music of 12 measures or more.",
+            "fact": "Scouts must write compose and write the score for a piece of music of 12 measures or more using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must write compose and write the score for a piece of music of 12 measures or more using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -716,26 +767,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Make a traditional instrument and learn to play it",
+              "Pamphlet Standard & Key Facts (4c)",
+              "Field Application & Counselor Verification (Make)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4c is enough for Music Requirement 4c sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 4c grounded in the official Music pamphlet.",
-            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 4c grounded in the official Music pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make a traditional instrument and learn to play it.",
+            "fact": "Scouts must make make a traditional instrument and learn to play it using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must make make a traditional instrument and learn to play it using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -783,22 +841,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Study & Explanation Notes",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Teach three songs to a group of people",
+          "(b) Compose and write the score for a piece of music of 12 measures or more",
+          "(c) Make a traditional instrument and learn to play it"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Teach three songs to a group is enough for Music Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Teach three songs to a group grounded in the official Music pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Teach three songs to a group grounded in the official Music pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on teach three songs to a group of people.",
+        "fact": "Scouts must explain teach three songs to a group of people using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must explain teach three songs to a group of people using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -886,27 +949,27 @@
       "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+          "1. Define for your counselor intellectual property (IP)",
+          "2. Explain how to properly obtain and share recorded music"
         ],
-        "min_rows": 5,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Define for your counselor intellectual property is enough for Music Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Define for your counselor intellectual property grounded in the official Music pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Define for your counselor intellectual property grounded in the official Music pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on define for your counselor intellectual property (ip).",
+        "fact": "Scouts must explain define for your counselor intellectual property (ip) using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must explain define for your counselor intellectual property (ip) using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -984,17 +1047,25 @@
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 6a Career & Pathway Exploration Card",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
@@ -1048,23 +1119,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Study & Explanation Notes",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explore how you could use knowledge and skills from this merit badge",
+              "2. Research any training needed, expenses, and organizations that promote",
+              "3. Discuss with your counselor what short-term and long-term goals you"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Music Requirement 6b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Music pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Music pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explore how you could use knowledge and skills from this merit badge.",
+            "fact": "Scouts must explain explore how you could use knowledge and skills from this merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must explain explore how you could use knowledge and skills from this merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Music Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -1120,17 +1196,25 @@
       "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 6 Career & Pathway Exploration Card",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {

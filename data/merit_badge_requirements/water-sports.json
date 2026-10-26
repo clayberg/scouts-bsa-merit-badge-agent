@@ -27,26 +27,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Water Sports hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Water Sports prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Water Sports prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Water Sports hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Water Sports prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Water Sports prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)"
           },
           "starting_requirement_gate": {
@@ -109,23 +120,31 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Study & Explanation Notes",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Injuries",
+              "Illnesses that could occur while participating in water sports: blisters",
+              "Cold-water shock",
+              "Hypothermia",
+              "Dehydration",
+              "Heat-related illnesses"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Water Sports Requirement 1b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Water Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Water Sports pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)"
           },
           "starting_requirement_gate": null,
@@ -167,23 +186,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Review the Scouting America Safety Afloat policy",
+              "2. Tell how it applies to water sports"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1c is enough for Water Sports Requirement 1c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Water Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Water Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on review the scouting america safety afloat policy.",
+            "fact": "Scouts must explain review the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32).",
+            "fact_correction": "Scouts must explain review the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32).",
             "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)"
           },
           "starting_requirement_gate": null,
@@ -255,25 +278,36 @@
       "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Water Sports hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Water Sports prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Water Sports prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Water Sports hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Water Sports prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Water Sports prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)"
       },
       "starting_requirement_gate": {
@@ -375,26 +409,32 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Discuss with your counselor the characteristics of life jackets most",
+              "2. Then demonstrate how to select and fit a life jacket for water sports"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Water Sports Requirement 2a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a grounded in the official Water Sports pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a grounded in the official Water Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor the characteristics of life jackets most.",
+            "fact": "Scouts must discuss discuss with your counselor the characteristics of life jackets most using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41).",
+            "fact_correction": "Scouts must discuss discuss with your counselor the characteristics of life jackets most using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41).",
             "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)"
           },
           "starting_requirement_gate": {
@@ -441,23 +481,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Review and discuss the Water Sports Safety Code with your counselor",
+              "2. Promise that you will live up to it and follow it in all water work for this",
+              "3. Review the safety precautions that must be used by the boat operator"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Water Sports Requirement 2b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b grounded in the official Water Sports pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b grounded in the official Water Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on review and discuss the water sports safety code with your counselor.",
+            "fact": "Scouts must discuss review and discuss the water sports safety code with your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41).",
+            "fact_correction": "Scouts must discuss review and discuss the water sports safety code with your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41).",
             "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)"
           },
           "starting_requirement_gate": null,
@@ -510,25 +555,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Discuss with your counselor the characteristics of life jackets most",
+          "(b) Review and discuss the Water Sports Safety Code with your counselor"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The characteristics of life jackets is enough for Water Sports Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The characteristics of life jackets grounded in the official Water Sports pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The characteristics of life jackets grounded in the official Water Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor the characteristics of life jackets most.",
+        "fact": "Scouts must demonstrate discuss with your counselor the characteristics of life jackets most using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41).",
+        "fact_correction": "Scouts must demonstrate discuss with your counselor the characteristics of life jackets most using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41).",
         "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)"
       },
       "starting_requirement_gate": {
@@ -622,25 +673,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Before doing requirements 4 through 6, successfully complete the Scouting",
+          "2. Key Pamphlet Examples & Evidence (Req 3)",
+          "3. Practical Explain & Safety Verification"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Before doing requirements 4 through 6 is enough for Water Sports Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Before doing requirements 4 through 6 grounded in the official Water Sports pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Before doing requirements 4 through 6 grounded in the official Water Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing requirements 4 through 6, successfully complete the scouting.",
+        "fact": "Scouts must explain before doing requirements 4 through 6, successfully complete the scouting using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 12, p. 15).",
+        "fact_correction": "Scouts must explain before doing requirements 4 through 6, successfully complete the scouting using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 12, p. 15).",
         "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 12, p. 15)"
       },
-      "starting_requirement_gate": null,
+      "starting_requirement_gate": {
+        "gate_type": "HARD_PREREQ_BADGE",
+        "gate_label": "BSA Swimmer Classification Gate",
+        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+        "blocking_in_class": true
+      },
       "curated_resources": [
         {
           "title": "Official Scouting America Water Sports Merit Badge Hub (Req 3)",
@@ -739,25 +800,32 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Show the following skier signals to the safety observer in the boat",
+          "2. Key Pamphlet Examples & Evidence (Req 4)",
+          "3. Practical Show & Safety Verification"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Signals to the safety observer is enough for Water Sports Requirement 4 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Signals to the safety observer grounded in the official Water Sports pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Signals to the safety observer grounded in the official Water Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show the following skier signals to the safety observer in the boat.",
+        "fact": "Scouts must show show the following skier signals to the safety observer in the boat using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 20, p. 21).",
+        "fact_correction": "Scouts must show show the following skier signals to the safety observer in the boat using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 20, p. 21).",
         "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 20, p. 21)"
       },
       "starting_requirement_gate": null,
@@ -847,27 +915,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 5a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Show how to enter the water from a boat and make a deepwater start without help",
+              "Pamphlet Standard & Key Facts (5a)",
+              "Field Application & Counselor Verification (Show)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Water Sports Requirement 5a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5a grounded in the official Water Sports pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 5a grounded in the official Water Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to enter the water from a boat and make a deepwater start without help.",
+            "fact": "Scouts must show show how to enter the water from a boat and make a deepwater start without help using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69).",
+            "fact_correction": "Scouts must show show how to enter the water from a boat and make a deepwater start without help using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69).",
             "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)"
           },
           "starting_requirement_gate": null,
@@ -917,26 +992,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 5b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Starting from outside the wakes, show you can cross both wakes four times",
+              "2. Key Pamphlet Examples & Evidence (Req 5b)",
+              "3. Practical Show & Safety Verification"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Water Sports Requirement 5b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5b grounded in the official Water Sports pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 5b grounded in the official Water Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on starting from outside the wakes, show you can cross both wakes four times.",
+            "fact": "Scouts must show starting from outside the wakes, show you can cross both wakes four times using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69).",
+            "fact_correction": "Scouts must show starting from outside the wakes, show you can cross both wakes four times using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69).",
             "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)"
           },
           "starting_requirement_gate": null,
@@ -973,26 +1055,32 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 5c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Show you can fall properly to avoid an obstacle",
+              "2. Also show that you can drop handle and coast to a stop without losing your"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5c is enough for Water Sports Requirement 5c sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 5c grounded in the official Water Sports pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 5c grounded in the official Water Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show you can fall properly to avoid an obstacle.",
+            "fact": "Scouts must show show you can fall properly to avoid an obstacle using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69).",
+            "fact_correction": "Scouts must show show you can fall properly to avoid an obstacle using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69).",
             "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)"
           },
           "starting_requirement_gate": null,
@@ -1069,25 +1157,32 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Show how to enter the water from a boat and make a deepwater start without",
+          "(b) Starting from outside the wakes, show you can cross both wakes four times",
+          "(c) Show you can fall properly to avoid an obstacle"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Showing reasonable control is enough for Water Sports Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Showing reasonable control grounded in the official Water Sports pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Showing reasonable control grounded in the official Water Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to enter the water from a boat and make a deepwater start without.",
+        "fact": "Scouts must demonstrate show how to enter the water from a boat and make a deepwater start without using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69).",
+        "fact_correction": "Scouts must demonstrate show how to enter the water from a boat and make a deepwater start without using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69).",
         "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)"
       },
       "starting_requirement_gate": null,
@@ -1112,15 +1207,15 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Putslightly Moreweight: To keep the boardfrom wobbling, putslightly moreweight on yourfront foot than onyour back foot asthe boat begins Alternate Method for Deepwater.",
+        "Putslightly Moreweight: To keep the board from wobbling, putslightly moreweight on your front foot than onyour back foot asthe boat begins Alternate Method for Deepwater.",
         "Youmay Prefer Start: Youmay prefer to start out with the wakeboard partially rotated uptoward the front foot.",
         "Begin Wakeboard Out: Begin with the wakeboard out in front ofyou and parallel to the water’s surface, as before.",
-        "Yourknees Bent Hold: Keep yourknees bent and hold the rope handle with your arms straight."
+        "Your knees Bent Hold: Keep your knees bent and hold the rope handle with your arms straight."
       ],
       "step_by_step_procedure": [
         "Position Ready Shout: When you are in position and ready, shout out “Hit it!” to letthe driver know to accelerate.",
         "Soon Boat Starts: As soon as the boat starts to pull, twist at the hips to turnthe front of the board up and toward the boat.",
-        "Yourknees Bent Transfer: Keeping yourknees bent, transfer more weight to your back foot as the boatpulls you up.",
+        "Your knees Bent Transfer: Keeping your knees bent, transfer more weight to your back foot as the boatpulls you up.",
         "Alternate Starting Position: Alternate starting position to pull you out ofthe water."
       ],
       "gear_checklist": [
@@ -1171,25 +1266,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 6 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(s) Or wakeboard to fit yourself",
+          "(s) Or wakeboard that has come off during a fall"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of While on shore is enough for Water Sports Requirement 6 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of While on shore grounded in the official Water Sports pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of While on shore grounded in the official Water Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on or wakeboard to fit yourself.",
+        "fact": "Scouts must show or wakeboard to fit yourself using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 49).",
+        "fact_correction": "Scouts must show or wakeboard to fit yourself using verified procedures, field evidence, and safety standards from Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 49).",
         "pamphlet_page_ref": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 49)"
       },
       "starting_requirement_gate": null,
@@ -1214,9 +1315,9 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Wakeboards Angle Yourfeet: With wakeboards, the angle of yourfeet on the board can be adjusteddepending on your skill level.",
+        "Wakeboards Angle Your feet: With wakeboards, the angle of your feet on the board can be adjusteddepending on your skill level.",
         "Beginner Want Followthe: As a beginner, you’ll want to followthe steps below, fine-tuning theadjustments to find a stance thatfeels most comfortable to you.",
-        "Adjust Distancebetween: Step 1, Adjust the distancebetween the bindings to aboutshoulder-width apart, with yourback foot slightly more toward therear of the board for better.",
+        "Adjust Distancebetween: Step 1, Adjust the distancebetween the bindings to aboutshoulder-width apart, with your back foot slightly more toward therear of the board for better.",
         "Adjust Angle Theback: Step 2, Adjust the angle of theback foot so that it is straightacross the board or turned outslightly toward the back (at zeroto 9 degrees."
       ],
       "step_by_step_procedure": [

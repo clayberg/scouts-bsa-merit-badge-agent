@@ -33,26 +33,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Pioneering hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Pioneering prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Pioneering prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Pioneering hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Pioneering prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Pioneering prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)"
           },
           "starting_requirement_gate": null,
@@ -102,16 +113,24 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Study & Explanation Notes",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Rope splinters",
+              "Rope burns",
+              "Cuts",
+              "Scratches",
+              "Insect bites",
+              "Stings"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)",
@@ -182,25 +201,36 @@
       "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Pioneering hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Pioneering prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Pioneering prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Pioneering hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Pioneering prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Pioneering prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)"
       },
       "starting_requirement_gate": null,
@@ -305,27 +335,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 2a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate the West Country method of whipping a rope",
+              "Pamphlet Standard & Key Facts (2a)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Pioneering Requirement 2a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a grounded in the official Pioneering pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a grounded in the official Pioneering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the west country method of whipping a rope.",
+            "fact": "Scouts must demonstrate demonstrate the west country method of whipping a rope using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36).",
+            "fact_correction": "Scouts must demonstrate demonstrate the west country method of whipping a rope using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36).",
             "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)"
           },
           "starting_requirement_gate": null,
@@ -386,27 +423,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 2b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate how to tie a rope tackle and the following knots: clove hitch",
+              "2. Rolling hitch"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Pioneering Requirement 2b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b grounded in the official Pioneering pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b grounded in the official Pioneering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate how to tie a rope tackle and the following knots: clove hitch.",
+            "fact": "Scouts must demonstrate demonstrate how to tie a rope tackle and the following knots: clove hitch using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36).",
+            "fact_correction": "Scouts must demonstrate demonstrate how to tie a rope tackle and the following knots: clove hitch using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36).",
             "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)"
           },
           "starting_requirement_gate": null,
@@ -467,27 +510,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 2c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate",
+              "2. When to use the following lashings: square, diagonal, round, shear, tripod",
+              "3. Floor lashing"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2c is enough for Pioneering Requirement 2c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Pioneering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Pioneering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate.",
+            "fact": "Scouts must explain demonstrate using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36).",
+            "fact_correction": "Scouts must explain demonstrate using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36).",
             "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)"
           },
           "starting_requirement_gate": null,
@@ -592,25 +642,32 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Demonstrate the West Country method of whipping a rope",
+          "(b) Demonstrate how to tie a rope tackle and the following knots: clove hitch",
+          "(c) Demonstrate and explain when to use the following lashings: square, diagonal"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The West Country method of whipping is enough for Pioneering Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The West Country method of whipping grounded in the official Pioneering pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The West Country method of whipping grounded in the official Pioneering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the west country method of whipping a rope.",
+        "fact": "Scouts must demonstrate demonstrate the west country method of whipping a rope using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36).",
+        "fact_correction": "Scouts must demonstrate demonstrate the west country method of whipping a rope using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36).",
         "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)"
       },
       "starting_requirement_gate": null,
@@ -642,7 +699,7 @@
       ],
       "step_by_step_procedure": [
         "Instead Rightunderhand Loops: When preceding from the right, instead of rightunderhand loops, form left underhand loops.",
-        "Withoutbeing Informed: Withoutbeing informed, one can just look at two of these halfhitches and see they look exactly like a clove hitch.",
+        "Without being Informed: Without being informed, one can just look at two of these halfhitches and see they look exactly like a clove hitch.",
         "Ofcourse Half Hitches: Ofcourse, that’s because these two half hitches are a clovehitch.",
         "Placing Half Hitches: Placing two half hitches over the open end of avertical pole is the hands down, quickest way for tying aclove hitch."
       ],
@@ -689,26 +746,33 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 3a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Using square and tripod lashings from requirement 2(c), build a Tripod",
+              "2. Key Pamphlet Examples & Evidence (Req 3a)",
+              "3. Practical Build & Safety Verification"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Pioneering Requirement 3a sign-off.",
-            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 3a grounded in the official Pioneering pamphlet.",
-            "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Req 3a grounded in the official Pioneering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using square and tripod lashings from requirement 2(c), build a tripod.",
+            "fact": "Scouts must build using square and tripod lashings from requirement 2(c), build a tripod using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68).",
+            "fact_correction": "Scouts must build using square and tripod lashings from requirement 2(c), build a tripod using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68).",
             "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)"
           },
           "starting_requirement_gate": null,
@@ -750,23 +814,27 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3b Structured Study & Explanation Notes",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Using rolling hitches or roundturns with two half hitches",
+              "2. Round lashings from requirements 2(b) and 2(c), build a 15-foot Scout Stave"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Pioneering Requirement 3b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Pioneering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Pioneering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using rolling hitches or roundturns with two half hitches.",
+            "fact": "Scouts must explain using rolling hitches or roundturns with two half hitches using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68).",
+            "fact_correction": "Scouts must explain using rolling hitches or roundturns with two half hitches using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68).",
             "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)"
           },
           "starting_requirement_gate": null,
@@ -808,23 +876,28 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3c Structured Study & Explanation Notes",
             "headers": [
-              "Req 3c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Using shear, square",
+              "2. Floor lashings, clove hitches on a bight",
+              "3. Rope tackles from requirements 2(b) and 2(c), build a Simple Camp Table"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3c is enough for Pioneering Requirement 3c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Pioneering pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Pioneering pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using shear, square.",
+            "fact": "Scouts must explain using shear, square using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68).",
+            "fact_correction": "Scouts must explain using shear, square using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68).",
             "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)"
           },
           "starting_requirement_gate": null,
@@ -885,25 +958,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Using square and tripod lashings from requirement 2(c), build a Tripod Wash",
+          "(b) Using rolling hitches or roundturns with two half hitches, and round lashings",
+          "(b) And 2(c), build a 15-foot Scout Stave Flagpole (or with your counselor's",
+          "(c) Using shear, square, and floor lashings, clove hitches on a bight, and rope",
+          "(b) And 2(c), build a Simple Camp Table (or with your counselor's permission",
+          "(b) And 2(c), build a 15-foot Scout Stave Flagpole (or with your counselor's"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Using square and tripod lashings is enough for Pioneering Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Using square and tripod lashings grounded in the official Pioneering pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Using square and tripod lashings grounded in the official Pioneering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using square and tripod lashings from requirement 2(c), build a tripod wash.",
+        "fact": "Scouts must demonstrate using square and tripod lashings from requirement 2(c), build a tripod wash using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68).",
+        "fact_correction": "Scouts must demonstrate using square and tripod lashings from requirement 2(c), build a tripod wash using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68).",
         "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)"
       },
       "starting_requirement_gate": null,
@@ -1005,22 +1088,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Study & Explanation Notes",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Explain the differences between synthetic ropes and natural-fiber ropes",
+          "2. Discuss which types of rope are suitable for pioneering work and why",
+          "3. Include the following in your discussion: breaking strength, safe working"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The differences between synthetic ropes is enough for Pioneering Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The differences between synthetic ropes grounded in the official Pioneering pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The differences between synthetic ropes grounded in the official Pioneering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the differences between synthetic ropes and natural-fiber ropes.",
+        "fact": "Scouts must explain explain the differences between synthetic ropes and natural-fiber ropes using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 9, p. 10).",
+        "fact_correction": "Scouts must explain explain the differences between synthetic ropes and natural-fiber ropes using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 9, p. 10).",
         "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 9, p. 10)"
       },
       "starting_requirement_gate": null,
@@ -1130,22 +1218,26 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Explain the uses for the back splice, eye splice, and short splice",
+          "2. View a demonstration on forming each splice"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The uses for the back splice is enough for Pioneering Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The uses for the back splice grounded in the official Pioneering pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The uses for the back splice grounded in the official Pioneering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the uses for the back splice, eye splice, and short splice.",
+        "fact": "Scouts must explain explain the uses for the back splice, eye splice, and short splice using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 52, p. 53).",
+        "fact_correction": "Scouts must explain explain the uses for the back splice, eye splice, and short splice using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 52, p. 53).",
         "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 52, p. 53)"
       },
       "starting_requirement_gate": null,
@@ -1234,25 +1326,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 6 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Using a rope-making device or machine, make a rope at least 6 feet long",
+          "2. Whip the ends"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Using a rope-making device or machine is enough for Pioneering Requirement 6 sign-off.",
-        "fact": "Each Scout must actively make the specific principles and real-world steps of Using a rope-making device or machine grounded in the official Pioneering pamphlet.",
-        "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Using a rope-making device or machine grounded in the official Pioneering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using a rope-making device or machine, make a rope at least 6 feet long.",
+        "fact": "Scouts must make using a rope-making device or machine, make a rope at least 6 feet long using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 13, p. 47).",
+        "fact_correction": "Scouts must make using a rope-making device or machine, make a rope at least 6 feet long using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 13, p. 47).",
         "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 13, p. 47)"
       },
       "starting_requirement_gate": null,
@@ -1341,22 +1439,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Explain the importance of effectively anchoring a pioneering project",
+          "2. Describe to your counselor the 3-2-1 anchoring system and the log-and-stake"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The importance of effectively anchoring is enough for Pioneering Requirement 7 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The importance of effectively anchoring grounded in the official Pioneering pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The importance of effectively anchoring grounded in the official Pioneering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the importance of effectively anchoring a pioneering project.",
+        "fact": "Scouts must explain explain the importance of effectively anchoring a pioneering project using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 84, p. 88).",
+        "fact_correction": "Scouts must explain explain the importance of effectively anchoring a pioneering project using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 84, p. 88).",
         "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 84, p. 88)"
       },
       "starting_requirement_gate": null,
@@ -1445,22 +1547,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 8 Structured Study & Explanation Notes",
         "headers": [
-          "Req 8 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Describe the lashings that are used when building a trestle",
+          "2. The poles are positioned",
+          "3. How X braces contribute to the overall structural integrity of a pioneering"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Lashings that are used when building is enough for Pioneering Requirement 8 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of Lashings that are used when building grounded in the official Pioneering pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Lashings that are used when building grounded in the official Pioneering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the lashings that are used when building a trestle.",
+        "fact": "Scouts must describe describe the lashings that are used when building a trestle using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 70, p. 88).",
+        "fact_correction": "Scouts must describe describe the lashings that are used when building a trestle using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 70, p. 88).",
         "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 70, p. 88)"
       },
       "starting_requirement_gate": null,
@@ -1565,25 +1672,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 9 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Working in a group, (or individually with the help of your counselor) build",
+          "2. Carefully plan the project, assembling and organizing all the materials"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Working in a group, build is enough for Pioneering Requirement 9 sign-off.",
-        "fact": "Each Scout must actively build the specific principles and real-world steps of Working in a group, build grounded in the official Pioneering pamphlet.",
-        "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Working in a group, build grounded in the official Pioneering pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on working in a group, (or individually with the help of your counselor) build.",
+        "fact": "Scouts must build working in a group, (or individually with the help of your counselor) build using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 10, p. 79).",
+        "fact_correction": "Scouts must build working in a group, (or individually with the help of your counselor) build using verified procedures, field evidence, and safety standards from Official Scouting America Pioneering Merit Badge Pamphlet (p. 10, p. 79).",
         "pamphlet_page_ref": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 10, p. 79)"
       },
       "starting_requirement_gate": null,

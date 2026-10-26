@@ -44,26 +44,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Motorboating hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Motorboating prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Motorboating prevents most field injuries.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor the following hazards you might encounter while.",
+            "fact": "Scouts must discuss discuss with your counselor the following hazards you might encounter while using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14).",
+            "fact_correction": "Scouts must discuss discuss with your counselor the following hazards you might encounter while using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)"
           },
           "starting_requirement_gate": null,
@@ -116,24 +127,36 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
+            ],
+            "column_headers": [
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Hypothermia",
+              "Heat reactions",
+              "Dehydration",
+              "Motion sickness",
+              "Bug bites",
+              "Blisters"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Motorboating Requirement 1b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Motorboating pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)"
           },
           "starting_requirement_gate": null,
@@ -175,23 +198,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss the Scouting America Safety Afloat policy",
+              "2. Tell how it applies to motorboating activities"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1c is enough for Motorboating Requirement 1c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the scouting america safety afloat policy.",
+            "fact": "Scouts must discuss discuss the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14).",
+            "fact_correction": "Scouts must discuss discuss the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)"
           },
           "starting_requirement_gate": null,
@@ -275,25 +302,36 @@
       "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Motorboating hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Motorboating prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Motorboating prevents most field injuries.",
+        "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+        "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+        "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
         "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)"
       },
       "starting_requirement_gate": null,
@@ -395,26 +433,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Before doing requirement 5, successfully complete the Scouting America",
+              "2. Key Pamphlet Examples & Evidence (Req 2a)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Motorboating Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing requirement 5, successfully complete the scouting america.",
+            "fact": "Scouts must explain before doing requirement 5, successfully complete the scouting america using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
+            "fact_correction": "Scouts must explain before doing requirement 5, successfully complete the scouting america using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)"
           },
-          "starting_requirement_gate": null,
+          "starting_requirement_gate": {
+            "gate_type": "HARD_PREREQ_BADGE",
+            "gate_label": "BSA Swimmer Classification Gate",
+            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+            "blocking_in_class": true
+          },
           "curated_resources": [
             {
               "title": "Official Scouting America Motorboating Merit Badge Hub (Req 2a)",
@@ -453,23 +501,27 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Name the different types of personal flotation devices (PFDs), and explain",
+              "2. Show how to choose and properly fit a PFD"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Motorboating Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name the different types of personal flotation devices (pfds), and explain.",
+            "fact": "Scouts must explain name the different types of personal flotation devices (pfds), and explain using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
+            "fact_correction": "Scouts must explain name the different types of personal flotation devices (pfds), and explain using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)"
           },
           "starting_requirement_gate": null,
@@ -526,28 +578,39 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Before doing requirement 5, successfully complete the Scouting America",
+          "(b) Name the different types of personal flotation devices (PFDs), and explain"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Before doing requirement 5, successfully complete is enough for Motorboating Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Before doing requirement 5, successfully complete grounded in the official Motorboating pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Before doing requirement 5, successfully complete grounded in the official Motorboating pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing requirement 5, successfully complete the scouting america.",
+        "fact": "Scouts must demonstrate before doing requirement 5, successfully complete the scouting america using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
+        "fact_correction": "Scouts must demonstrate before doing requirement 5, successfully complete the scouting america using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
         "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)"
       },
-      "starting_requirement_gate": null,
+      "starting_requirement_gate": {
+        "gate_type": "HARD_PREREQ_BADGE",
+        "gate_label": "BSA Swimmer Classification Gate",
+        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
+        "blocking_in_class": true
+      },
       "curated_resources": [
         {
           "title": "Official Scouting America Motorboating Merit Badge Hub (Req 2)",
@@ -627,23 +690,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Study & Explanation Notes",
             "headers": [
-              "Req 3a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each",
+              "Pamphlet Standard & Key Facts (3a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Motorboating Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each.",
+            "fact": "Scouts must explain explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
+            "fact_correction": "Scouts must explain explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)"
           },
           "starting_requirement_gate": null,
@@ -689,23 +757,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3b Structured Study & Explanation Notes",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the safety procedures and precautions involving handling fuel",
+              "2. Equipment storage and placement"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Motorboating Requirement 3b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the safety procedures and precautions involving handling fuel.",
+            "fact": "Scouts must explain explain the safety procedures and precautions involving handling fuel using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
+            "fact_correction": "Scouts must explain explain the safety procedures and precautions involving handling fuel using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)"
           },
           "starting_requirement_gate": null,
@@ -747,23 +819,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3c Structured Study & Explanation Notes",
             "headers": [
-              "Req 3c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain how to winterize a boat motor and tell why this procedure is necessary",
+              "Pamphlet Standard & Key Facts (3c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3c is enough for Motorboating Requirement 3c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how to winterize a boat motor and tell why this procedure is necessary.",
+            "fact": "Scouts must explain explain how to winterize a boat motor and tell why this procedure is necessary using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
+            "fact_correction": "Scouts must explain explain how to winterize a boat motor and tell why this procedure is necessary using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)"
           },
           "starting_requirement_gate": null,
@@ -805,23 +882,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3d Structured Study & Explanation Notes",
             "headers": [
-              "Req 3d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the safety procedures and precautions involving swimmers and skiers",
+              "2. Boat wakes"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3d is enough for Motorboating Requirement 3d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the safety procedures and precautions involving swimmers and skiers.",
+            "fact": "Scouts must explain explain the safety procedures and precautions involving swimmers and skiers using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
+            "fact_correction": "Scouts must explain explain the safety procedures and precautions involving swimmers and skiers using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)"
           },
           "starting_requirement_gate": null,
@@ -894,25 +975,33 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain inboard, outboard, and inboard/outboard motors, and the uses",
+          "(b) Explain the safety procedures and precautions involving handling fuel",
+          "(c) Explain how to winterize a boat motor and tell why this procedure is necessary",
+          "(d) Explain the safety procedures and precautions involving swimmers and skiers"
         ],
         "min_rows": 4,
-        "pre_approval_gate": false
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Inboard, outboard, and inboard/outboard motors is enough for Motorboating Requirement 3 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Inboard, outboard, and inboard/outboard motors grounded in the official Motorboating pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Inboard, outboard, and inboard/outboard motors grounded in the official Motorboating pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain inboard, outboard, and inboard/outboard motors, and the uses.",
+        "fact": "Scouts must demonstrate explain inboard, outboard, and inboard/outboard motors, and the uses using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
+        "fact_correction": "Scouts must demonstrate explain inboard, outboard, and inboard/outboard motors, and the uses using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
         "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)"
       },
       "starting_requirement_gate": null,
@@ -999,23 +1088,30 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Study & Explanation Notes",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Checking the weather prior to",
+              "During time on the water",
+              "Confirming all required equipment is present",
+              "Functional",
+              "Following a float plan"
             ],
-            "min_rows": 3,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Motorboating Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on checking the weather prior to.",
+            "fact": "Scouts must explain checking the weather prior to using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
+            "fact_correction": "Scouts must explain checking the weather prior to using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
           },
           "starting_requirement_gate": null,
@@ -1057,23 +1153,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the rules or laws that apply to recreational boating in your area",
+              "2. Have a permit to operate a motorboat, if required by the laws of your state",
+              "3. Discuss how you would find information regarding the boating laws"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Motorboating Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the rules or laws that apply to recreational boating in your area.",
+            "fact": "Scouts must explain explain the rules or laws that apply to recreational boating in your area using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
+            "fact_correction": "Scouts must explain explain the rules or laws that apply to recreational boating in your area using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
           },
           "starting_requirement_gate": null,
@@ -1123,26 +1224,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Discuss how hazards of weather and heavy water conditions can affect",
+              "2. Key Pamphlet Examples & Evidence (Req 4c)",
+              "3. Practical Discuss & Safety Verification"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Motorboating hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Motorboating prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Motorboating prevents most field injuries.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss how hazards of weather and heavy water conditions can affect.",
+            "fact": "Scouts must discuss discuss how hazards of weather and heavy water conditions can affect using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
+            "fact_correction": "Scouts must discuss discuss how hazards of weather and heavy water conditions can affect using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
           },
           "starting_requirement_gate": null,
@@ -1179,23 +1287,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4d Structured Study & Explanation Notes",
             "headers": [
-              "Req 4d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Promise that you will follow Scouting America Safety Afloat guidelines",
+              "2. Explain the meaning of each point"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4d is enough for Motorboating Requirement 4d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on promise that you will follow scouting america safety afloat guidelines.",
+            "fact": "Scouts must explain promise that you will follow scouting america safety afloat guidelines using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
+            "fact_correction": "Scouts must explain promise that you will follow scouting america safety afloat guidelines using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
           },
           "starting_requirement_gate": null,
@@ -1237,23 +1349,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4e Structured Study & Explanation Notes",
             "headers": [
-              "Req 4e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain and show the correct use of equipment required by both state",
+              "2. Key Pamphlet Examples & Evidence (Req 4e)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4e is enough for Motorboating Requirement 4e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain and show the correct use of equipment required by both state.",
+            "fact": "Scouts must explain explain and show the correct use of equipment required by both state using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
+            "fact_correction": "Scouts must explain explain and show the correct use of equipment required by both state using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
           },
           "starting_requirement_gate": null,
@@ -1295,23 +1412,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4f Structured Study & Explanation Notes",
             "headers": [
-              "Req 4f Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain federal and state rules for a ventilation system",
+              "2. Tell why these rules are required"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4f is enough for Motorboating Requirement 4f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4f grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4f grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain federal and state rules for a ventilation system.",
+            "fact": "Scouts must explain explain federal and state rules for a ventilation system using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
+            "fact_correction": "Scouts must explain explain federal and state rules for a ventilation system using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
           },
           "starting_requirement_gate": null,
@@ -1353,23 +1474,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4g Structured Study & Explanation Notes",
             "headers": [
-              "Req 4g Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4g Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4g Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain the use of lights (sight signals) and sound signals on motorboats",
+              "Pamphlet Standard & Key Facts (4g)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4g is enough for Motorboating Requirement 4g sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4g grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4g grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the use of lights (sight signals) and sound signals on motorboats.",
+            "fact": "Scouts must explain explain the use of lights (sight signals) and sound signals on motorboats using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
+            "fact_correction": "Scouts must explain explain the use of lights (sight signals) and sound signals on motorboats using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
           },
           "starting_requirement_gate": null,
@@ -1419,23 +1545,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4h Structured Study & Explanation Notes",
             "headers": [
-              "Req 4h Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4h Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4h Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss the common types of anchors used in motorboating and under what",
+              "2. Explain proper anchoring techniques"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4h is enough for Motorboating Requirement 4h sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4h grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4h grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the common types of anchors used in motorboating and under what.",
+            "fact": "Scouts must discuss discuss the common types of anchors used in motorboating and under what using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
+            "fact_correction": "Scouts must discuss discuss the common types of anchors used in motorboating and under what using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
           },
           "starting_requirement_gate": null,
@@ -1524,25 +1654,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Review how each item of the Scouting America Safety Afloat policy applies",
+          "(b) Explain the rules or laws that apply to recreational boating in your area",
+          "(c) Discuss how hazards of weather and heavy water conditions can affect safety",
+          "(d) Promise that you will follow Scouting America Safety Afloat guidelines",
+          "(e) Explain and show the correct use of equipment required by both state",
+          "(f) Explain federal and state rules for a ventilation system, and tell why these"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Motorboating hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Motorboating prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Motorboating prevents most field injuries.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on review how each item of the scouting america safety afloat policy applies.",
+        "fact": "Scouts must show review how each item of the scouting america safety afloat policy applies using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
+        "fact_correction": "Scouts must show review how each item of the scouting america safety afloat policy applies using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
         "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
       },
       "starting_requirement_gate": null,
@@ -1625,23 +1765,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5a Structured Study & Explanation Notes",
             "headers": [
-              "Req 5a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Board and assist others in boarding",
+              "2. Confirm that all passengers on board are wearing properly fitted life jackets"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Motorboating Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on board and assist others in boarding.",
+            "fact": "Scouts must explain board and assist others in boarding using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
+            "fact_correction": "Scouts must explain board and assist others in boarding using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1683,23 +1827,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5b Structured Study & Explanation Notes",
             "headers": [
-              "Req 5b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Fuel the boat and complete a safety check",
+              "Pamphlet Standard & Key Facts (5b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Motorboating Requirement 5b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on fuel the boat and complete a safety check.",
+            "fact": "Scouts must explain fuel the boat and complete a safety check using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
+            "fact_correction": "Scouts must explain fuel the boat and complete a safety check using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1741,23 +1890,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5c Structured Study & Explanation Notes",
             "headers": [
-              "Req 5c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. If equipped, attach the engine cut-off switch link and safely start the motor",
+              "2. Get underway from dockside or from a beach launch"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5c is enough for Motorboating Requirement 5c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if equipped, attach the engine cut-off switch link and safely start the motor.",
+            "fact": "Scouts must explain if equipped, attach the engine cut-off switch link and safely start the motor using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
+            "fact_correction": "Scouts must explain if equipped, attach the engine cut-off switch link and safely start the motor using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1799,23 +1952,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5d Structured Study & Explanation Notes",
             "headers": [
-              "Req 5d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Run a course for at least a mile, showing procedures for overtaking",
+              "2. Using navigation aids"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5d is enough for Motorboating Requirement 5d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on run a course for at least a mile, showing procedures for overtaking.",
+            "fact": "Scouts must explain run a course for at least a mile, showing procedures for overtaking using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
+            "fact_correction": "Scouts must explain run a course for at least a mile, showing procedures for overtaking using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1852,23 +2009,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5e Structured Study & Explanation Notes",
             "headers": [
-              "Req 5e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Stop and secure the boat in position on the open water using anchors",
+              "2. Raise and stow the anchor and get underway"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5e is enough for Motorboating Requirement 5e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5e grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on stop and secure the boat in position on the open water using anchors.",
+            "fact": "Scouts must explain stop and secure the boat in position on the open water using anchors using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
+            "fact_correction": "Scouts must explain stop and secure the boat in position on the open water using anchors using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1910,23 +2071,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5f Structured Study & Explanation Notes",
             "headers": [
-              "Req 5f Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Land or dock the boat, disembark, and assist others in doing the same",
+              "Pamphlet Standard & Key Facts (5f)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5f is enough for Motorboating Requirement 5f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5f grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5f grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on land or dock the boat, disembark, and assist others in doing the same.",
+            "fact": "Scouts must explain land or dock the boat, disembark, and assist others in doing the same using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
+            "fact_correction": "Scouts must explain land or dock the boat, disembark, and assist others in doing the same using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1972,23 +2138,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5g Structured Study & Explanation Notes",
             "headers": [
-              "Req 5g Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5g Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5g Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Moor, dock, or beach the boat and secure all gear",
+              "Pamphlet Standard & Key Facts (5g)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5g is enough for Motorboating Requirement 5g sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5g grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5g grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on moor, dock, or beach the boat and secure all gear.",
+            "fact": "Scouts must explain moor, dock, or beach the boat and secure all gear using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
+            "fact_correction": "Scouts must explain moor, dock, or beach the boat and secure all gear using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -2033,27 +2204,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 5h Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate knots used in boating: cleating hitch, bowline, clove hitch",
+              "2. Sheet bend"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5h is enough for Motorboating Requirement 5h sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5h grounded in the official Motorboating pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5h grounded in the official Motorboating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate knots used in boating: cleating hitch, bowline, clove hitch.",
+            "fact": "Scouts must demonstrate demonstrate knots used in boating: cleating hitch, bowline, clove hitch using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
+            "fact_correction": "Scouts must demonstrate demonstrate knots used in boating: cleating hitch, bowline, clove hitch using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -2142,25 +2319,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Board and assist others in boarding",
+          "(b) Fuel the boat and complete a safety check",
+          "(c) If equipped, attach the engine cut-off switch link and safely start the motor",
+          "(d) Run a course for at least a mile, showing procedures for overtaking",
+          "(e) Stop and secure the boat in position on the open water using anchors",
+          "(f) Land or dock the boat, disembark, and assist others in doing the same"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With your counselor or other adults is enough for Motorboating Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of With your counselor or other adults grounded in the official Motorboating pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of With your counselor or other adults grounded in the official Motorboating pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on board and assist others in boarding.",
+        "fact": "Scouts must demonstrate board and assist others in boarding using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
+        "fact_correction": "Scouts must demonstrate board and assist others in boarding using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
         "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
       },
       "starting_requirement_gate": null,

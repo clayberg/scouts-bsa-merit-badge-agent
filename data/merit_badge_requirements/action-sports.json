@@ -25,26 +25,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Action Sports hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Action Sports hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Action Sports prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Action Sports prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -81,14 +92,19 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Study & Explanation Notes",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Review prevention, symptoms",
+              "2. First-aid treatment for hypothermia, frostbite, dehydration, sunburn, heat",
+              "3. Spinal injuries"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
@@ -134,23 +150,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Show your helmet, wrist guards, knee/elbow pads, boots",
+              "2. Bindings",
+              "3. Explain how to inspect and fit them properly"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1c is enough for Action Sports Requirement 1c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Action Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1c grounded in the official Action Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show your helmet, wrist guards, knee/elbow pads, boots.",
+            "fact": "Scouts must explain show your helmet, wrist guards, knee/elbow pads, boots using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must explain show your helmet, wrist guards, knee/elbow pads, boots using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": {
@@ -202,25 +223,36 @@
       "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Action Sports hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Action Sports prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Action Sports hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Action Sports prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Action Sports prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
       },
       "starting_requirement_gate": {
@@ -322,23 +354,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette",
+              "2. Why each rule is vital to rider and bystander safety"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Action Sports Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Action Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Action Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the skier/snowboarder responsibility code or skatepark etiquette.",
+            "fact": "Scouts must explain explain the skier/snowboarder responsibility code or skatepark etiquette using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must explain explain the skier/snowboarder responsibility code or skatepark etiquette using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -374,27 +410,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 2b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate a warm-up, stretching, and conditioning routine for action sports",
+              "Pamphlet Standard & Key Facts (2b)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Action Sports Requirement 2b sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b grounded in the official Action Sports pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b grounded in the official Action Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate a warm-up, stretching, and conditioning routine for action sports.",
+            "fact": "Scouts must demonstrate demonstrate a warm-up, stretching, and conditioning routine for action sports using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must demonstrate demonstrate a warm-up, stretching, and conditioning routine for action sports using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -442,25 +485,31 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette",
+          "(b) Demonstrate a warm-up, stretching, and conditioning routine for action sports"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The Skier/Snowboarder Responsibility Code or Skatepark is enough for Action Sports Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The Skier/Snowboarder Responsibility Code or Skatepark grounded in the official Action Sports pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The Skier/Snowboarder Responsibility Code or Skatepark grounded in the official Action Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the skier/snowboarder responsibility code or skatepark etiquette.",
+        "fact": "Scouts must demonstrate explain the skier/snowboarder responsibility code or skatepark etiquette using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must demonstrate explain the skier/snowboarder responsibility code or skatepark etiquette using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -544,25 +593,32 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Identify the parts of your skateboard (deck, grip tape, trucks, kingpin",
+          "2. Routine inspection, cleaning",
+          "3. Maintenance"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Parts of your skateboard or snowboard is enough for Action Sports Requirement 3 sign-off.",
-        "fact": "Each Scout must actively identify the specific principles and real-world steps of Parts of your skateboard or snowboard grounded in the official Action Sports pamphlet.",
-        "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Parts of your skateboard or snowboard grounded in the official Action Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify the parts of your skateboard (deck, grip tape, trucks, kingpin.",
+        "fact": "Scouts must identify identify the parts of your skateboard (deck, grip tape, trucks, kingpin using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must identify identify the parts of your skateboard (deck, grip tape, trucks, kingpin using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -648,24 +704,30 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 4a Differential Comparison Matrix",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
+            ],
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Stance (regular vs",
+              "2. Goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Action Sports Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Action Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Action Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on stance (regular vs.",
+            "fact": "Scouts must explain stance (regular vs using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must explain stance (regular vs using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -702,23 +764,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Carving turns (frontside and backside), weight transfer, falling safely",
+              "2. Navigating slopes or skatepark transitions under full control"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Action Sports Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Action Sports pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Action Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on carving turns (frontside and backside), weight transfer, falling safely.",
+            "fact": "Scouts must explain carving turns (frontside and backside), weight transfer, falling safely using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must explain carving turns (frontside and backside), weight transfer, falling safely using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": null,
@@ -765,26 +831,29 @@
       "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 4 Differential Comparison Matrix",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
+        ],
+        "column_headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Stance (regular vs",
+          "(b) Carving turns (frontside and backside), weight transfer, falling safely"
         ],
-        "min_rows": 4,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Choose ONE option is enough for Action Sports Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Choose ONE option grounded in the official Action Sports pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Choose ONE option grounded in the official Action Sports pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on stance (regular vs.",
+        "fact": "Scouts must demonstrate stance (regular vs using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
+        "fact_correction": "Scouts must demonstrate stance (regular vs using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
         "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
       },
       "starting_requirement_gate": null,
@@ -857,27 +926,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 5a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate three intermediate maneuvers or tricks approved by your",
+              "2. Key Pamphlet Examples & Evidence (Req 5a)",
+              "3. Practical Demonstrate & Safety Verification"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": true
+            "min_rows": 3,
+            "pre_approval_gate": true,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Action Sports Requirement 5a sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5a grounded in the official Action Sports pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 5a grounded in the official Action Sports pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate three intermediate maneuvers or tricks approved by your.",
+            "fact": "Scouts must demonstrate demonstrate three intermediate maneuvers or tricks approved by your using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
+            "fact_correction": "Scouts must demonstrate demonstrate three intermediate maneuvers or tricks approved by your using verified procedures, field evidence, and safety standards from Official Scouting America Action Sports Merit Badge Pamphlet.",
             "pamphlet_page_ref": "Official Scouting America Action Sports Merit Badge Pamphlet"
           },
           "starting_requirement_gate": {
@@ -918,17 +994,25 @@
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 5b Career & Pathway Exploration Card",
             "headers": [
-              "Req 5b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
@@ -982,18 +1066,23 @@
       "pamphlet_page_citation": "Official Scouting America Action Sports Merit Badge Pamphlet",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 5 Career & Pathway Exploration Card",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
         "min_rows": 4,
         "pre_approval_gate": true

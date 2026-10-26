@@ -32,26 +32,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Skating hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Skating prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Skating prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Skating hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Skating prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Skating prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90)"
           },
           "starting_requirement_gate": null,
@@ -92,20 +103,31 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
+            ],
+            "column_headers": [
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Hypothermia",
+              "Frostbite",
+              "Lacerations",
+              "Abrasions",
+              "Fractures",
+              "Sprains",
+              "Strains",
+              "Concussions"
             ],
-            "min_rows": 4,
+            "min_rows": 8,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90)",
@@ -168,25 +190,36 @@
       "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Skating hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Skating prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Skating prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Skating hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Skating prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Skating prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90)"
       },
       "starting_requirement_gate": null,
@@ -302,23 +335,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain the general safety and courtesy guidelines for ice skating",
+                  "Pamphlet Standard & Key Facts (2a(1))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(1) is enough for Skating Requirement 2a(1) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(1) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(1) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the general safety and courtesy guidelines for ice skating.",
+                "fact": "Scouts must explain explain the general safety and courtesy guidelines for ice skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain explain the general safety and courtesy guidelines for ice skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -372,23 +410,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Discuss preparations that must be taken when skating outdoors on natural ice",
+                  "2. Explain how to make an ice rescue"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(2) is enough for Skating Requirement 2a(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(2) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(2) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss preparations that must be taken when skating outdoors on natural ice.",
+                "fact": "Scouts must explain discuss preparations that must be taken when skating outdoors on natural ice using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain discuss preparations that must be taken when skating outdoors on natural ice using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -430,23 +472,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(3) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(3) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Discuss the parts and functions of the different types of ice skates",
+                  "Pamphlet Standard & Key Facts (2a(3))",
+                  "Field Application & Counselor Verification (Discuss)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(3) is enough for Skating Requirement 2a(3) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a(3) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2a(3) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the parts and functions of the different types of ice skates.",
+                "fact": "Scouts must discuss discuss the parts and functions of the different types of ice skates using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must discuss discuss the parts and functions of the different types of ice skates using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -488,23 +535,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(4) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(4) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Describe the proper way to carry ice skates at the rink and for travel",
+                  "Pamphlet Standard & Key Facts (2a(4))",
+                  "Field Application & Counselor Verification (Describe)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(4) is enough for Skating Requirement 2a(4) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2a(4) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2a(4) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the proper way to carry ice skates at the rink and for travel.",
+                "fact": "Scouts must describe describe the proper way to carry ice skates at the rink and for travel using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must describe describe the proper way to carry ice skates at the rink and for travel using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -546,23 +598,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(5) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(5) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Describe how to store ice skates for long periods of time, such as seasonal storage",
+                  "Pamphlet Standard & Key Facts (2a(5))",
+                  "Field Application & Counselor Verification (Describe)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(5) is enough for Skating Requirement 2a(5) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2a(5) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2a(5) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe how to store ice skates for long periods of time, such as seasonal storage.",
+                "fact": "Scouts must describe describe how to store ice skates for long periods of time, such as seasonal storage using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must describe describe how to store ice skates for long periods of time, such as seasonal storage using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -604,23 +661,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(6) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(6) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Skate forward at least 40 feet and come to a complete stop",
+                  "2. Use either a two-foot snowplow stop or a one-foot snowplow stop"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(6) is enough for Skating Requirement 2a(6) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(6) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(6) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on skate forward at least 40 feet and come to a complete stop.",
+                "fact": "Scouts must explain skate forward at least 40 feet and come to a complete stop using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain skate forward at least 40 feet and come to a complete stop using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -662,23 +723,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(7) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(7) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(7) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(7) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "After skating forward, glide forward on two feet, then on one foot, first right and then left",
+                  "Pamphlet Standard & Key Facts (2a(7))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(7) is enough for Skating Requirement 2a(7) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(7) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(7) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on after skating forward, glide forward on two feet, then on one foot, first right and then left.",
+                "fact": "Scouts must explain after skating forward, glide forward on two feet, then on one foot, first right and then left using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain after skating forward, glide forward on two feet, then on one foot, first right and then left using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -720,23 +786,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(8) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(8) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(8) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(8) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Starting from a T position, stroke forward around the test area, avoiding",
+                  "2. Key Pamphlet Examples & Evidence (Req 2a(8))",
+                  "3. Practical Explain & Safety Verification"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(8) is enough for Skating Requirement 2a(8) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(8) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(8) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on starting from a t position, stroke forward around the test area, avoiding.",
+                "fact": "Scouts must explain starting from a t position, stroke forward around the test area, avoiding using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain starting from a t position, stroke forward around the test area, avoiding using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -778,23 +849,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(9) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(9) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(9) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(9) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Glide backward on two feet for at least two times the skater's height",
+                  "Pamphlet Standard & Key Facts (2a(9))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(9) is enough for Skating Requirement 2a(9) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(9) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(9) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on glide backward on two feet for at least two times the skater's height.",
+                "fact": "Scouts must explain glide backward on two feet for at least two times the skater's height using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain glide backward on two feet for at least two times the skater's height using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -831,23 +907,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(10) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(10) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(10) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(10) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Skate backward for at least 20 feet on two skates",
+                  "Pamphlet Standard & Key Facts (2a(10))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(10) is enough for Skating Requirement 2a(10) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(10) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(10) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on skate backward for at least 20 feet on two skates.",
+                "fact": "Scouts must explain skate backward for at least 20 feet on two skates using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain skate backward for at least 20 feet on two skates using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -889,23 +970,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(11) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(11) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(11) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(11) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. After gaining forward speed, glide forward on two feet, making a turn",
+                  "2. Key Pamphlet Examples & Evidence (Req 2a(11))",
+                  "3. Practical Explain & Safety Verification"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(11) is enough for Skating Requirement 2a(11) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(11) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(11) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on after gaining forward speed, glide forward on two feet, making a turn.",
+                "fact": "Scouts must explain after gaining forward speed, glide forward on two feet, making a turn using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain after gaining forward speed, glide forward on two feet, making a turn using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -951,26 +1037,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2a(12) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Perform forward crossovers in a figure-eight pattern",
+                  "Pamphlet Standard & Key Facts (2a(12))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(12) is enough for Skating Requirement 2a(12) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a(12) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a(12) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform forward crossovers in a figure-eight pattern.",
+                "fact": "Scouts must demonstrate perform forward crossovers in a figure-eight pattern using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate perform forward crossovers in a figure-eight pattern using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1016,23 +1109,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(13) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(13) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(13) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(13) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain to your counselor the safety considerations for participating in an ice-skating race",
+                  "Pamphlet Standard & Key Facts (2a(13))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(13) is enough for Skating Requirement 2a(13) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(13) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(13) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor the safety considerations for participating in an ice-skating race.",
+                "fact": "Scouts must explain explain to your counselor the safety considerations for participating in an ice-skating race using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain explain to your counselor the safety considerations for participating in an ice-skating race using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1074,26 +1172,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2a(14) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Perform a hockey stop",
+                  "Pamphlet Standard & Key Facts (2a(14))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(14) is enough for Skating Requirement 2a(14) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a(14) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a(14) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a hockey stop.",
+                "fact": "Scouts must demonstrate perform a hockey stop using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate perform a hockey stop using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1125,26 +1230,36 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Explain the general safety and courtesy guidelines for ice skating",
+              "(2) Discuss preparations that must be taken when skating outdoors on natural ice",
+              "(3) Discuss the parts and functions of the different types of ice skates",
+              "(4) Describe the proper way to carry ice skates at the rink and for travel",
+              "(5) Describe how to store ice skates for long periods of time, such as seasonal",
+              "(6) Skate forward at least 40 feet and come to a complete stop"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Skating Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Skating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Skating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the general safety and courtesy guidelines for ice skating.",
+            "fact": "Scouts must explain explain the general safety and courtesy guidelines for ice skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+            "fact_correction": "Scouts must explain explain the general safety and courtesy guidelines for ice skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
             "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
           },
           "starting_requirement_gate": null,
@@ -1192,23 +1307,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain the general safety rules and etiquette guidelines for roller skating",
+                  "Pamphlet Standard & Key Facts (2b(1))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(1) is enough for Skating Requirement 2b(1) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(1) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(1) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the general safety rules and etiquette guidelines for roller skating.",
+                "fact": "Scouts must explain explain the general safety rules and etiquette guidelines for roller skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain explain the general safety rules and etiquette guidelines for roller skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1245,23 +1365,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Discuss the parts of a roller skate and their functions",
+                  "Pamphlet Standard & Key Facts (2b(2))",
+                  "Field Application & Counselor Verification (Discuss)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(2) is enough for Skating Requirement 2b(2) sign-off.",
-                "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b(2) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b(2) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the parts of a roller skate and their functions.",
+                "fact": "Scouts must discuss discuss the parts of a roller skate and their functions using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must discuss discuss the parts of a roller skate and their functions using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1298,23 +1423,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(3) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(3) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Describe five essential steps to good roller skate care",
+                  "Pamphlet Standard & Key Facts (2b(3))",
+                  "Field Application & Counselor Verification (Describe)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(3) is enough for Skating Requirement 2b(3) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2b(3) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2b(3) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe five essential steps to good roller skate care.",
+                "fact": "Scouts must describe describe five essential steps to good roller skate care using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must describe describe five essential steps to good roller skate care using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1356,26 +1486,32 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2b(4) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Skate forward with smooth, linked strokes on two feet for at least 100 feet",
+                  "2. Proper techniques for stopping"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(4) is enough for Skating Requirement 2b(4) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(4) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(4) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on skate forward with smooth, linked strokes on two feet for at least 100 feet.",
+                "fact": "Scouts must explain skate forward with smooth, linked strokes on two feet for at least 100 feet using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain skate forward with smooth, linked strokes on two feet for at least 100 feet using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1412,23 +1548,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(5) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(5) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Skate forward and glide at least 15 feet on one skate, then on the other skate",
+                  "Pamphlet Standard & Key Facts (2b(5))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(5) is enough for Skating Requirement 2b(5) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(5) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(5) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on skate forward and glide at least 15 feet on one skate, then on the other skate.",
+                "fact": "Scouts must explain skate forward and glide at least 15 feet on one skate, then on the other skate using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain skate forward and glide at least 15 feet on one skate, then on the other skate using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1470,26 +1611,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2b(6) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Perform a forward crossover",
+                  "Pamphlet Standard & Key Facts (2b(6))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(6) is enough for Skating Requirement 2b(6) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(6) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(6) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a forward crossover.",
+                "fact": "Scouts must demonstrate perform a forward crossover using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate perform a forward crossover using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1531,23 +1679,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(7) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(7) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(7) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(7) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Skate backward for at least 40 feet on two skates, then for at least 15 feet on one skate",
+                  "Pamphlet Standard & Key Facts (2b(7))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(7) is enough for Skating Requirement 2b(7) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(7) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(7) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on skate backward for at least 40 feet on two skates, then for at least 15 feet on one skate.",
+                "fact": "Scouts must explain skate backward for at least 40 feet on two skates, then for at least 15 feet on one skate using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain skate backward for at least 40 feet on two skates, then for at least 15 feet on one skate using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1584,23 +1737,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(8) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(8) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(8) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(8) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Skate forward in a slalom pattern for at least 40 feet on two skates",
+                  "2. Key Pamphlet Examples & Evidence (Req 2b(8))",
+                  "3. Practical Explain & Safety Verification"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(8) is enough for Skating Requirement 2b(8) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(8) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(8) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on skate forward in a slalom pattern for at least 40 feet on two skates.",
+                "fact": "Scouts must explain skate forward in a slalom pattern for at least 40 feet on two skates using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain skate forward in a slalom pattern for at least 40 feet on two skates using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1637,23 +1795,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(9) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(9) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(9) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(9) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Skate backward in a slalom pattern for at least 15 feet on two skates",
+                  "Pamphlet Standard & Key Facts (2b(9))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(9) is enough for Skating Requirement 2b(9) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(9) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(9) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on skate backward in a slalom pattern for at least 15 feet on two skates.",
+                "fact": "Scouts must explain skate backward in a slalom pattern for at least 15 feet on two skates using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain skate backward in a slalom pattern for at least 15 feet on two skates using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1690,23 +1853,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(10) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(10) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(10) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(10) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Shuttle skate once around the rink, bending twice along the way, without stopping",
+                  "Pamphlet Standard & Key Facts (2b(10))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(10) is enough for Skating Requirement 2b(10) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(10) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(10) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on shuttle skate once around the rink, bending twice along the way, without stopping.",
+                "fact": "Scouts must explain shuttle skate once around the rink, bending twice along the way, without stopping using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain shuttle skate once around the rink, bending twice along the way, without stopping using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1748,26 +1916,32 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2b(11) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Perform a series of two consecutive spins on skates, OR hop, skip",
+                  "2. Jump on skates for at least 10 feet"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(11) is enough for Skating Requirement 2b(11) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(11) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(11) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a series of two consecutive spins on skates, or hop, skip.",
+                "fact": "Scouts must demonstrate perform a series of two consecutive spins on skates, or hop, skip using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate perform a series of two consecutive spins on skates, or hop, skip using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1804,26 +1978,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2b(12) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Perform a stepover",
+                  "Pamphlet Standard & Key Facts (2b(12))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(12) is enough for Skating Requirement 2b(12) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(12) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(12) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a stepover.",
+                "fact": "Scouts must demonstrate perform a stepover using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate perform a stepover using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1860,23 +2041,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(13) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(13) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(13) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(13) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. While skating, dribble a basketball at least 40 feet, then back to your",
+                  "2. Key Pamphlet Examples & Evidence (Req 2b(13))",
+                  "3. Practical Explain & Safety Verification"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(13) is enough for Skating Requirement 2b(13) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(13) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(13) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on while skating, dribble a basketball at least 40 feet, then back to your.",
+                "fact": "Scouts must explain while skating, dribble a basketball at least 40 feet, then back to your using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain while skating, dribble a basketball at least 40 feet, then back to your using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -1908,26 +2094,36 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Explain the general safety rules and etiquette guidelines for roller skating",
+              "(2) Discuss the parts of a roller skate and their functions",
+              "(3) Describe five essential steps to good roller skate care",
+              "(4) Skate forward with smooth, linked strokes on two feet for at least 100 feet",
+              "(5) Skate forward and glide at least 15 feet on one skate, then on the other skate",
+              "(6) Perform a forward crossover"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Skating Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Skating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Skating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the general safety rules and etiquette guidelines for roller skating.",
+            "fact": "Scouts must explain explain the general safety rules and etiquette guidelines for roller skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+            "fact_correction": "Scouts must explain explain the general safety rules and etiquette guidelines for roller skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
             "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
           },
           "starting_requirement_gate": null,
@@ -1975,23 +2171,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain the general safety rules and courtesy guidelines for in-line skating",
+                  "Pamphlet Standard & Key Facts (2c(1))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(1) is enough for Skating Requirement 2c(1) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(1) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(1) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the general safety rules and courtesy guidelines for in-line skating.",
+                "fact": "Scouts must explain explain the general safety rules and courtesy guidelines for in-line skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain explain the general safety rules and courtesy guidelines for in-line skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2033,23 +2234,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Describe the parts of an in-line skate and their functions",
+                  "Pamphlet Standard & Key Facts (2c(2))",
+                  "Field Application & Counselor Verification (Describe)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(2) is enough for Skating Requirement 2c(2) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(2) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(2) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the parts of an in-line skate and their functions.",
+                "fact": "Scouts must describe describe the parts of an in-line skate and their functions using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must describe describe the parts of an in-line skate and their functions using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2095,23 +2301,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(3) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(3) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Describe the required and recommended safety equipment for in-line skating",
+                  "Pamphlet Standard & Key Facts (2c(3))",
+                  "Field Application & Counselor Verification (Describe)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(3) is enough for Skating Requirement 2c(3) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(3) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(3) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the required and recommended safety equipment for in-line skating.",
+                "fact": "Scouts must describe describe the required and recommended safety equipment for in-line skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must describe describe the required and recommended safety equipment for in-line skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2157,23 +2368,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(4) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(4) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain four essential steps to good in-line skate care",
+                  "Pamphlet Standard & Key Facts (2c(4))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(4) is enough for Skating Requirement 2c(4) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(4) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(4) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain four essential steps to good in-line skate care.",
+                "fact": "Scouts must explain explain four essential steps to good in-line skate care using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain explain four essential steps to good in-line skate care using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2215,23 +2431,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(5) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(5) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Skate forward with smooth, linked strokes on two feet for at least 100 feet",
+                  "Pamphlet Standard & Key Facts (2c(5))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(5) is enough for Skating Requirement 2c(5) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(5) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(5) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on skate forward with smooth, linked strokes on two feet for at least 100 feet.",
+                "fact": "Scouts must explain skate forward with smooth, linked strokes on two feet for at least 100 feet using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain skate forward with smooth, linked strokes on two feet for at least 100 feet using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2273,23 +2494,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(6) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(6) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Skate forward and glide at least 15 feet on one skate, then on the other skate",
+                  "Pamphlet Standard & Key Facts (2c(6))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(6) is enough for Skating Requirement 2c(6) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(6) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(6) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on skate forward and glide at least 15 feet on one skate, then on the other skate.",
+                "fact": "Scouts must explain skate forward and glide at least 15 feet on one skate, then on the other skate using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain skate forward and glide at least 15 feet on one skate, then on the other skate using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2331,23 +2557,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(7) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(7) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(7) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(7) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Stop on command on flat pavement using the heel brake",
+                  "Pamphlet Standard & Key Facts (2c(7))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(7) is enough for Skating Requirement 2c(7) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(7) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(7) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on stop on command on flat pavement using the heel brake.",
+                "fact": "Scouts must explain stop on command on flat pavement using the heel brake using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain stop on command on flat pavement using the heel brake using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2393,26 +2624,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2c(8) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Perform a forward crossover",
+                  "Pamphlet Standard & Key Facts (2c(8))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(8) is enough for Skating Requirement 2c(8) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c(8) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c(8) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a forward crossover.",
+                "fact": "Scouts must demonstrate perform a forward crossover using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate perform a forward crossover using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2454,26 +2692,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2c(9) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Perform a series of forward, linked swizzles for at least 40 feet",
+                  "Pamphlet Standard & Key Facts (2c(9))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(9) is enough for Skating Requirement 2c(9) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c(9) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c(9) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a series of forward, linked swizzles for at least 40 feet.",
+                "fact": "Scouts must demonstrate perform a series of forward, linked swizzles for at least 40 feet using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate perform a series of forward, linked swizzles for at least 40 feet using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2515,23 +2760,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(10) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(10) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(10) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(10) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Skate backward for at least 40 feet in a series of linked, backward swizzles",
+                  "Pamphlet Standard & Key Facts (2c(10))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(10) is enough for Skating Requirement 2c(10) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(10) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c(10) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on skate backward for at least 40 feet in a series of linked, backward swizzles.",
+                "fact": "Scouts must explain skate backward for at least 40 feet in a series of linked, backward swizzles using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain skate backward for at least 40 feet in a series of linked, backward swizzles using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2573,26 +2823,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2c(11) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "From a strong pace, perform a lunge turn around an object predetermined by your counselor",
+                  "Pamphlet Standard & Key Facts (2c(11))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(11) is enough for Skating Requirement 2c(11) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c(11) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c(11) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on from a strong pace, perform a lunge turn around an object predetermined by your counselor.",
+                "fact": "Scouts must demonstrate from a strong pace, perform a lunge turn around an object predetermined by your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate from a strong pace, perform a lunge turn around an object predetermined by your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2634,26 +2891,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2c(12) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Perform a mohawk",
+                  "Pamphlet Standard & Key Facts (2c(12))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(12) is enough for Skating Requirement 2c(12) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c(12) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c(12) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a mohawk.",
+                "fact": "Scouts must demonstrate perform a mohawk using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate perform a mohawk using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2695,26 +2959,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2c(13) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Perform a series of at least four one-footed downhill slaloms on pavement with a gentle slope",
+                  "Pamphlet Standard & Key Facts (2c(13))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(13) is enough for Skating Requirement 2c(13) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c(13) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2c(13) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a series of at least four one-footed downhill slaloms on pavement with a gentle slope.",
+                "fact": "Scouts must demonstrate perform a series of at least four one-footed downhill slaloms on pavement with a gentle slope using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate perform a series of at least four one-footed downhill slaloms on pavement with a gentle slope using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2756,23 +3027,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(14) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(14) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(14) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(14) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Describe how to pass a pedestrian or another skater from behind",
+                  "Pamphlet Standard & Key Facts (2c(14))",
+                  "Field Application & Counselor Verification (Describe)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(14) is enough for Skating Requirement 2c(14) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(14) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(14) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe how to pass a pedestrian or another skater from behind.",
+                "fact": "Scouts must describe describe how to pass a pedestrian or another skater from behind using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must describe describe how to pass a pedestrian or another skater from behind using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2814,23 +3090,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2c(15) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2c(15) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2c(15) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2c(15) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Describe at least three ways to avoid an unforeseen obstacle while skating",
+                  "Pamphlet Standard & Key Facts (2c(15))",
+                  "Field Application & Counselor Verification (Describe)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(15) is enough for Skating Requirement 2c(15) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(15) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(15) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe at least three ways to avoid an unforeseen obstacle while skating.",
+                "fact": "Scouts must describe describe at least three ways to avoid an unforeseen obstacle while skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must describe describe at least three ways to avoid an unforeseen obstacle while skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2872,26 +3153,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2c(16) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Describe two ways to get on and off a curb, and demonstrate at least one of these methods",
+                  "Pamphlet Standard & Key Facts (2c(16))",
+                  "Field Application & Counselor Verification (Describe)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2c(16) is enough for Skating Requirement 2c(16) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(16) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2c(16) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe two ways to get on and off a curb, and demonstrate at least one of these methods.",
+                "fact": "Scouts must describe describe two ways to get on and off a curb, and demonstrate at least one of these methods using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must describe describe two ways to get on and off a curb, and demonstrate at least one of these methods using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -2923,26 +3211,36 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "(1) Explain the general safety rules and courtesy guidelines for in-line skating",
+              "(2) Describe the parts of an in-line skate and their functions",
+              "(3) Describe the required and recommended safety equipment for in-line skating",
+              "(4) Explain four essential steps to good in-line skate care",
+              "(5) Skate forward with smooth, linked strokes on two feet for at least 100 feet",
+              "(6) Skate forward and glide at least 15 feet on one skate, then on the other skate"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2c is enough for Skating Requirement 2c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Skating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Skating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the general safety rules and courtesy guidelines for in-line skating.",
+            "fact": "Scouts must explain explain the general safety rules and courtesy guidelines for in-line skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+            "fact_correction": "Scouts must explain explain the general safety rules and courtesy guidelines for in-line skating using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
             "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
           },
           "starting_requirement_gate": null,
@@ -3003,23 +3301,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2d(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2d(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2d(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2d(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain the history and evolution of skateboarding",
+                  "Pamphlet Standard & Key Facts (2d(1))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(1) is enough for Skating Requirement 2d(1) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(1) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(1) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the history and evolution of skateboarding.",
+                "fact": "Scouts must explain explain the history and evolution of skateboarding using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain explain the history and evolution of skateboarding using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3065,23 +3368,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2d(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2d(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2d(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2d(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Describe the benefits of skateboarding (physical fitness, balance",
+                  "2. Creativity)"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(2) is enough for Skating Requirement 2d(2) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2d(2) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2d(2) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the benefits of skateboarding (physical fitness, balance.",
+                "fact": "Scouts must describe describe the benefits of skateboarding (physical fitness, balance using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must describe describe the benefits of skateboarding (physical fitness, balance using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3139,23 +3446,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2d(3) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2d(3) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2d(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2d(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Right-of-way",
+                  "Communication signals",
+                  "Warnings"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(3) is enough for Skating Requirement 2d(3) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(3) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(3) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on right-of-way.",
+                "fact": "Scouts must explain right-of-way using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain right-of-way using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3197,23 +3509,30 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2d(4) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2d(4) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2d(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2d(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Helmet",
+                  "Knee pads",
+                  "Elbow pads",
+                  "Wrist guards",
+                  "Show how to wear them correctly"
                 ],
-                "min_rows": 3,
+                "min_rows": 5,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(4) is enough for Skating Requirement 2d(4) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(4) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(4) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on helmet.",
+                "fact": "Scouts must explain helmet using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain helmet using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": {
@@ -3255,23 +3574,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2d(5) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2d(5) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2d(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2d(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Describe the two main styles of skateboarding (street and vert)",
+                  "2. Describe common skatepark features (ramps, manual pad, rails, spine, etc.)"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(5) is enough for Skating Requirement 2d(5) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 2d(5) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 2d(5) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the two main styles of skateboarding (street and vert).",
+                "fact": "Scouts must describe describe the two main styles of skateboarding (street and vert) using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must describe describe the two main styles of skateboarding (street and vert) using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3313,23 +3636,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2d(6) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2d(6) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2d(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2d(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain skateboard anatomy (deck, trucks, wheels, hardware, etc.)",
+                  "Pamphlet Standard & Key Facts (2d(6))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(6) is enough for Skating Requirement 2d(6) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(6) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(6) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain skateboard anatomy (deck, trucks, wheels, hardware, etc.).",
+                "fact": "Scouts must explain explain skateboard anatomy (deck, trucks, wheels, hardware, etc.) using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain explain skateboard anatomy (deck, trucks, wheels, hardware, etc.) using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3375,26 +3703,32 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2d(7) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Build a board by assembling all pieces (deck, wheels, trucks, hardware",
+                  "2. Grip tape) in the proper order"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(7) is enough for Skating Requirement 2d(7) sign-off.",
-                "fact": "Each Scout must actively build the specific principles and real-world steps of Req 2d(7) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Req 2d(7) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on build a board by assembling all pieces (deck, wheels, trucks, hardware.",
+                "fact": "Scouts must build build a board by assembling all pieces (deck, wheels, trucks, hardware using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must build build a board by assembling all pieces (deck, wheels, trucks, hardware using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3436,23 +3770,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2d(8) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2d(8) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2d(8) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2d(8) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Explain skateboard maintenance (cleaning, adjusting bolts, and replacing parts)",
+                  "Pamphlet Standard & Key Facts (2d(8))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(8) is enough for Skating Requirement 2d(8) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(8) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(8) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain skateboard maintenance (cleaning, adjusting bolts, and replacing parts).",
+                "fact": "Scouts must explain explain skateboard maintenance (cleaning, adjusting bolts, and replacing parts) using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain explain skateboard maintenance (cleaning, adjusting bolts, and replacing parts) using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3494,24 +3833,30 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
+                "table_title": "Req 2d(9) Differential Comparison Matrix",
                 "headers": [
                   "Concept / Method A",
                   "Concept / Method B",
                   "Key Field Distinction & When to Use"
                 ],
+                "column_headers": [
+                  "Concept / Method A",
+                  "Concept / Method B",
+                  "Key Field Distinction & When to Use"
+                ],
                 "row_labels": [
-                  "Primary Mechanism",
-                  "Field Indicator",
-                  "Safety / Application"
+                  "Explain the difference between regular and goofy stance, and demonstrate your preferred stance",
+                  "Pamphlet Standard & Key Facts (2d(9))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(9) is enough for Skating Requirement 2d(9) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(9) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(9) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the difference between regular and goofy stance, and demonstrate your preferred stance.",
+                "fact": "Scouts must explain explain the difference between regular and goofy stance, and demonstrate your preferred stance using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain explain the difference between regular and goofy stance, and demonstrate your preferred stance using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3556,27 +3901,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 2d(10) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Demonstrate how to push, cruise, and carve on flat ground",
+                  "Pamphlet Standard & Key Facts (2d(10))",
+                  "Field Application & Counselor Verification (Demonstrate)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(10) is enough for Skating Requirement 2d(10) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2d(10) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2d(10) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate how to push, cruise, and carve on flat ground.",
+                "fact": "Scouts must demonstrate demonstrate how to push, cruise, and carve on flat ground using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate demonstrate how to push, cruise, and carve on flat ground using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3618,26 +3970,33 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2d(11) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Show at least two braking and stopping techniques",
+                  "Pamphlet Standard & Key Facts (2d(11))",
+                  "Field Application & Counselor Verification (Show)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(11) is enough for Skating Requirement 2d(11) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2d(11) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 2d(11) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show at least two braking and stopping techniques.",
+                "fact": "Scouts must show show at least two braking and stopping techniques using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must show show at least two braking and stopping techniques using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3679,23 +4038,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2d(12) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2d(12) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2d(12) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2d(12) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Do a basic ollie and at least one variation",
+                  "Pamphlet Standard & Key Facts (2d(12))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(12) is enough for Skating Requirement 2d(12) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(12) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d(12) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on do a basic ollie and at least one variation.",
+                "fact": "Scouts must explain do a basic ollie and at least one variation using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must explain do a basic ollie and at least one variation using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3731,27 +4095,34 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 2d(13) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "Show how to drop-in from coping",
+                  "Pamphlet Standard & Key Facts (2d(13))",
+                  "Field Application & Counselor Verification (Show)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(13) is enough for Skating Requirement 2d(13) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2d(13) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 2d(13) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to drop-in from coping.",
+                "fact": "Scouts must show show how to drop-in from coping using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must show show how to drop-in from coping using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3882,27 +4253,36 @@
               ],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+                "table_title": "Req 2d(14) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) Flat ground tricks",
+                  "(b) Flip and shove-it tricks",
+                  "(c) Grind and slide tricks",
+                  "(d) Air and grab tricks",
+                  "(e) Footplant tricks"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 5,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2d(14) is enough for Skating Requirement 2d(14) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2d(14) grounded in the official Skating pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2d(14) grounded in the official Skating pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on flat ground tricks.",
+                "fact": "Scouts must demonstrate flat ground tricks using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+                "fact_correction": "Scouts must demonstrate flat ground tricks using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
                 "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
               },
               "starting_requirement_gate": null,
@@ -3934,24 +4314,31 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 2d Differential Comparison Matrix",
             "headers": [
               "Concept / Method A",
               "Concept / Method B",
               "Key Field Distinction & When to Use"
             ],
-            "row_labels": [
-              "Primary Mechanism",
-              "Field Indicator",
-              "Safety / Application"
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
             ],
-            "min_rows": 3,
+            "row_labels": [
+              "(1) Explain the history and evolution of skateboarding",
+              "(2) Describe the benefits of skateboarding (physical fitness, balance",
+              "(3) Explain the safety rules and courtesy guidelines for skateboarding",
+              "(4) Explain the protective gear needed to skate safely, including helmet, knee"
+            ],
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2d is enough for Skating Requirement 2d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2d grounded in the official Skating pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2d grounded in the official Skating pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the history and evolution of skateboarding.",
+            "fact": "Scouts must explain explain the history and evolution of skateboarding using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+            "fact_correction": "Scouts must explain explain the history and evolution of skateboarding using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
             "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
           },
           "starting_requirement_gate": {
@@ -4265,23 +4652,30 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 2 Differential Comparison Matrix",
         "headers": [
           "Concept / Method A",
           "Concept / Method B",
           "Key Field Distinction & When to Use"
         ],
-        "row_labels": [
-          "Primary Mechanism",
-          "Field Indicator",
-          "Safety / Application"
+        "column_headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
         ],
-        "min_rows": 3,
+        "row_labels": [
+          "(a) Option A, Ice Skating. Do ALL of the following",
+          "(1) Explain the general safety and courtesy guidelines for ice skating",
+          "(2) Discuss preparations that must be taken when skating outdoors on natural ice",
+          "(3) Discuss the parts and functions of the different types of ice skates"
+        ],
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Ice Skating / Roller Skating / In-Line Skating is enough for Skating Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Ice Skating / Roller Skating / In-Line Skating grounded in the official Skating pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Ice Skating / Roller Skating / In-Line Skating grounded in the official Skating pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on option a, ice skating. do all of the following.",
+        "fact": "Scouts must explain option a, ice skating. do all of the following using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
+        "fact_correction": "Scouts must explain option a, ice skating. do all of the following using verified procedures, field evidence, and safety standards from Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93).",
         "pamphlet_page_ref": "Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)"
       },
       "starting_requirement_gate": {
@@ -4318,7 +4712,7 @@
       ],
       "step_by_step_procedure": [
         "Tendency Tolunge Forward: You will notice a tendency tolunge forward while stopping.",
-        "Resist Supporting Yourbody: Try to resist by supporting yourbody with a firm back and leaning slightly away from yourdirection of travel until your skates come to a halt.",
+        "Resist Supporting Your body: Try to resist by supporting your body with a firm back and leaning slightly away from your direction of travel until your skates come.",
         "Stopping Action Gradual: The stopping action should be gradual and controlled, notquick.",
         "Top Part Bodywill: If you try to stop suddenly, the top part of your bodywill pitch forward."
       ],

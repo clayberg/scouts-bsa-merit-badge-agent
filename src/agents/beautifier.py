@@ -480,6 +480,7 @@ def beautify_slide_storyboard(
     beautification_tier: str = "BEAUTIFIED",
     max_ai_images: int = 20,
     audience_level: str = "All Scouts (Ages 11–17)",
+    research_artifact: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Transforms a `StoryboardPlan` into a magazine-grade `DeckVisualBlueprint` and enriches slide metadata.
 
@@ -547,6 +548,47 @@ def beautify_slide_storyboard(
     injected_local_reqs: set = set()
     used_diagram_md5s: Dict[str, int] = {}
     seen_visual_captions: set = set()
+    req_slide_counts: Dict[str, int] = {}
+
+    # Build a lookup map from research_artifact.get("requirements", []) indexing both top-level req_id/req_number
+    # and nested sub_requirements (sr["req_id"] / sr["sub_id"]).
+    req_lookup_map: Dict[str, Dict[str, Any]] = {}
+    raw_reqs_list: List[Dict[str, Any]] = list(
+        (research_artifact or {}).get("requirements")
+        or storyboard.get("requirements")
+        or (storyboard.get("research_artifact") or {}).get("requirements")
+        or []
+    )
+    if not raw_reqs_list:
+        try:
+            from src.tools.scouting_scraper import BENCHMARK_BADGES_DATA
+
+            bm_entry = BENCHMARK_BADGES_DATA.get(badge_name.lower()) or {}
+            raw_reqs_list = list(bm_entry.get("requirements") or [])
+        except Exception:
+            raw_reqs_list = []
+
+    for r_item in raw_reqs_list:
+        if not isinstance(r_item, dict):
+            continue
+        r_key = str(r_item.get("req_id") or r_item.get("req_number") or "").strip()
+        if r_key:
+            req_lookup_map[r_key] = r_item
+            req_lookup_map[r_key.lower()] = r_item
+        r_num_alt = str(r_item.get("req_number") or "").strip()
+        if r_num_alt:
+            req_lookup_map[r_num_alt] = r_item
+            req_lookup_map[r_num_alt.lower()] = r_item
+        for sr in r_item.get("sub_requirements") or []:
+            if not isinstance(sr, dict):
+                continue
+            sr_key = str(sr.get("req_id") or sr.get("sub_id") or sr.get("id") or sr.get("sub_req_label") or "").strip()
+            if sr_key:
+                merged_sr = dict(r_item)
+                merged_sr.update(sr)
+                merged_sr["sub_requirements"] = [sr]
+                req_lookup_map[sr_key] = merged_sr
+                req_lookup_map[sr_key.lower()] = merged_sr
 
     def _file_md5(path_str: Optional[str]) -> str:
         if not path_str:
@@ -970,6 +1012,14 @@ def beautify_slide_storyboard(
             "REQUIREMENTS_TRIAGE_MATRIX",
             "SOURCES_AND_REFERENCES",
         ):
+            cur_slide_idx_in_req = req_slide_counts.get(req_num.lower(), 0)
+            req_slide_counts[req_num.lower()] = cur_slide_idx_in_req + 1
+            matched_req_dict = (
+                req_lookup_map.get(req_num)
+                or req_lookup_map.get(req_num.lower())
+                or req_lookup_map.get(base_req_num)
+                or req_lookup_map.get(base_req_num.lower())
+            )
             slide["presenter_notes"] = _build_slide_teaching_notes(
                 badge_name=badge_name,
                 req_num=req_num,
@@ -978,6 +1028,7 @@ def beautify_slide_storyboard(
                 archetype=str(slide.get("archetype") or arch),
                 req_text=str(slide.get("verbatim_requirement_text") or ""),
                 bullet_points=list(slide.get("bullet_points") or []),
+                req_dict=matched_req_dict,
                 comparison_data=slide.get("comparison_data"),
                 worked_example=slide.get("worked_example"),
                 quiz_item=slide.get("quiz_item"),
@@ -986,6 +1037,9 @@ def beautify_slide_storyboard(
                 has_visual=bool(slide.get("diagram_path")),
                 safety_callout=slide.get("safety_warning"),
                 audience_level=str(audience_level or "All Scouts (Ages 11-17)"),
+                local_grounding_callout=str(slide.get("local_grounding_callout") or ""),
+                slide_dict=slide,
+                slide_idx_in_req=cur_slide_idx_in_req,
             )
         else:
             notes_str = _sanitize_no_ellipsis_or_emdash(str(slide.get("presenter_notes") or ""))

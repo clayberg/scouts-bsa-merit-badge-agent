@@ -32,26 +32,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Gardening hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Gardening prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Gardening prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Gardening hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Gardening prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Gardening prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)"
           },
           "starting_requirement_gate": null,
@@ -93,23 +104,31 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Study & Explanation Notes",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Cuts",
+              "Scratches",
+              "Puncture wounds",
+              "Insect bites",
+              "Anaphylactic shock",
+              "Heat reactions"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Gardening Requirement 1b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1b grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on cuts.",
+            "fact": "Scouts must discuss cuts using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70).",
+            "fact_correction": "Scouts must discuss cuts using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)"
           },
           "starting_requirement_gate": null,
@@ -165,25 +184,36 @@
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Gardening hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Gardening prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Gardening prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Gardening hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Gardening prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Gardening prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)"
       },
       "starting_requirement_gate": null,
@@ -217,7 +247,7 @@
         "Treat Minorcuts Scrapes: Treat minorcuts and scrapes by flushing the area with cleanwater for at least five minutes to wash away foreignmatter.",
         "Rusty Nails Sharp: Rusty nails, sharp sticks, andbroken glass could cause a puncture wound.",
         "Thesewounds Difficult Easily: Thesewounds are difficult to clean and are easily infected.",
-        "Flush Out Dirt: Help flush out dirt or particles by irrigating the areawith clean, running water for about five minutes."
+        "Flush Out Dirt: Help flush out dirt or particles by irrigating the area with clean, running water for about five minutes."
       ],
       "gear_checklist": [
         "Official Gardening Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
@@ -293,23 +323,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Grow six vegetables, three from seeds and three from seedlings, through harvest",
+              "Pamphlet Standard & Key Facts (2a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Gardening Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on grow six vegetables, three from seeds and three from seedlings, through harvest.",
+            "fact": "Scouts must explain grow six vegetables, three from seeds and three from seedlings, through harvest using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47).",
+            "fact_correction": "Scouts must explain grow six vegetables, three from seeds and three from seedlings, through harvest using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)"
           },
           "starting_requirement_gate": null,
@@ -355,23 +390,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Grow six flowers, three from seeds and three from seedlings, through flowering",
+              "Pamphlet Standard & Key Facts (2b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Gardening Requirement 2b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on grow six flowers, three from seeds and three from seedlings, through flowering.",
+            "fact": "Scouts must explain grow six flowers, three from seeds and three from seedlings, through flowering using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47).",
+            "fact_correction": "Scouts must explain grow six flowers, three from seeds and three from seedlings, through flowering using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)"
           },
           "starting_requirement_gate": null,
@@ -440,25 +480,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Grow six vegetables, three from seeds and three from seedlings",
+          "(b) Grow six flowers, three from seeds and three from seedlings"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of And discuss your observations throughout is enough for Gardening Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of And discuss your observations throughout grounded in the official Gardening pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of And discuss your observations throughout grounded in the official Gardening pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on grow six vegetables, three from seeds and three from seedlings.",
+        "fact": "Scouts must demonstrate grow six vegetables, three from seeds and three from seedlings using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47).",
+        "fact_correction": "Scouts must demonstrate grow six vegetables, three from seeds and three from seedlings using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47).",
         "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)"
       },
       "starting_requirement_gate": null,
@@ -489,7 +535,7 @@
         "Garden Chance Surviving: Your garden has a better chance of surviving outdoorsif you plant seedlings that already have roots."
       ],
       "step_by_step_procedure": [
-        "Map Garden Yourplants: When youare ready to plant, use the map of your garden to place yourplants in the areas you planned.",
+        "Map Garden Your plants: When youare ready to plant, use the map of your garden to place your plants in the areas you planned.",
         "Show Others Hardyou: You can show others how hardyou worked and what you learned.",
         "Garden Contests Atcounty: You might find garden contests atcounty and state fairs, county extension services, farmers’ markets, andlocal garden clubs.",
         "Read Gardensection Local: Read the gardensection in your local newspaper tofind out about garden shows."
@@ -545,23 +591,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Study & Explanation Notes",
             "headers": [
-              "Req 3a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Three root or tuber crops",
+              "Pamphlet Standard & Key Facts (3a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Gardening Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on three root or tuber crops.",
+            "fact": "Scouts must explain three root or tuber crops using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45).",
+            "fact_correction": "Scouts must explain three root or tuber crops using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -611,23 +662,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3b Structured Study & Explanation Notes",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Three vegetables that bear above the ground",
+              "Pamphlet Standard & Key Facts (3b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Gardening Requirement 3b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on three vegetables that bear above the ground.",
+            "fact": "Scouts must explain three vegetables that bear above the ground using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45).",
+            "fact_correction": "Scouts must explain three vegetables that bear above the ground using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -677,23 +733,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3c Structured Study & Explanation Notes",
             "headers": [
-              "Req 3c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Three fruits",
+              "Pamphlet Standard & Key Facts (3c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3c is enough for Gardening Requirement 3c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on three fruits.",
+            "fact": "Scouts must explain three fruits using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45).",
+            "fact_correction": "Scouts must explain three fruits using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -778,22 +839,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) Three root or tuber crops",
+          "(b) Three vegetables that bear above the ground",
+          "(c) Three fruits Three root or tuber crops Three vegetables that bear"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Nutritional value is enough for Gardening Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Nutritional value grounded in the official Gardening pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Nutritional value grounded in the official Gardening pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on three root or tuber crops.",
+        "fact": "Scouts must explain three root or tuber crops using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45).",
+        "fact_correction": "Scouts must explain three root or tuber crops using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45).",
         "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)"
       },
       "starting_requirement_gate": null,
@@ -824,7 +890,7 @@
         "Thrift Stores Hardware: Thrift stores, hardware stores, and discount gardencenters are good places to find garden implements."
       ],
       "step_by_step_procedure": [
-        "Planning Garden Decide: Before you plantyour garden, Planning Your Garden decide what crops After you have decided what you want to grow, identify whichcrops grow.",
+        "Planning Garden Decide: Before you plantyour garden, Planning Your Garden decide what crops After you have decided what you want to grow, identify which crops grow.",
         "Sometimesyou Plant Crops: Sometimesyou can plant crops that need cooler temperatures beneath thevines or stalks of a taller crop that can tolerate full sun.",
         "Growing Seed Fun: Growing from seed is fun because you can watch the entire lifecycle of a plant.",
         "Sprout Germinate Seeds: It is best to sprout, germinate, seeds indoorsin small pots or from seed-starting kits."
@@ -895,22 +961,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Study & Explanation Notes",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Test 100 seeds for germination",
+          "2. Determine the percentage of seeds that germinate",
+          "3. Explain why you think some did not germinate"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Test 100 seeds for germination is enough for Gardening Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Test 100 seeds for germination grounded in the official Gardening pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Test 100 seeds for germination grounded in the official Gardening pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on test 100 seeds for germination.",
+        "fact": "Scouts must explain test 100 seeds for germination using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 72).",
+        "fact_correction": "Scouts must explain test 100 seeds for germination using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 72).",
         "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 72)"
       },
       "starting_requirement_gate": null,
@@ -942,7 +1013,7 @@
       ],
       "step_by_step_procedure": [
         "Recent Years Scientists: In recent years, scientists have beenconcerned about the declining populations of pollinators, very likely caused by habitat loss.",
-        "Care Pesticides Herbicides: Take care in using pesticides and herbicides, and make yourgarden friendly for pollinators with plants and trees that attract them.",
+        "Care Pesticides Herbicides: Take care in using pesticides and herbicides, and make your garden friendly for pollinators with plants and trees that attract them.",
         "Think Creating Garden: If you enjoy watching wildlife, think about creating a garden friendly for thewildlife in your own backyard.",
         "Adding Feeders Foodsources: Adding feeders and other foodsources makes a garden even more irresistible for wildlife."
       ],
@@ -999,22 +1070,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Visit your county extension office, local university, agricultural college",
+          "2. Report on what you learned"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Visit your county extension office, local is enough for Gardening Requirement 5 sign-off.",
-        "fact": "Each Scout must actively visit the specific principles and real-world steps of Visit your county extension office, local grounded in the official Gardening pamphlet.",
-        "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Visit your county extension office, local grounded in the official Gardening pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit your county extension office, local university, agricultural college.",
+        "fact": "Scouts must visit visit your county extension office, local university, agricultural college using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 47, p. 89).",
+        "fact_correction": "Scouts must visit visit your county extension office, local university, agricultural college using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 47, p. 89).",
         "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 47, p. 89)"
       },
       "starting_requirement_gate": null,
@@ -1039,10 +1114,10 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Bee Suit Zippered: A bee suit, a zippered coverallfastened at the wrists and ankleswith loop and hook bands, is safe and easy to use.",
+        "Bee Suit Zippered: A bee suit, a zippered coverallfastened at the wrists and ankles with loop and hook bands, is safe and easy to use.",
         "Wearhigh-topped Shoes Boots: Wearhigh-topped shoes or boots andgood leather gloves.",
-        "Alwayswear Veil Preferably: Alwayswear a veil, preferably one with a stiff screen made of wire orplastic so it stands out from yourface.",
-        "Bewithout Veil Workingwith: You should never bewithout a veil when workingwith bees."
+        "Alwayswear Veil Preferably: Alwayswear a veil, preferably one with a stiff screen made of wire orplastic so it stands out from your face.",
+        "Bewithout Veil Working with: You should never bewithout a veil when working with bees."
       ],
       "step_by_step_procedure": [
         "Youfeel Safe Gear: Most important is that youfeel safe with your gear.",
@@ -1107,22 +1182,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Explain to your counselor how and why honeybees are used in pollinating food",
+          "2. Discuss what the impact to humanity would be if there were no pollinators"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of How and why honeybees is enough for Gardening Requirement 6 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of How and why honeybees grounded in the official Gardening pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of How and why honeybees grounded in the official Gardening pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor how and why honeybees are used in pollinating food.",
+        "fact": "Scouts must explain explain to your counselor how and why honeybees are used in pollinating food using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 83).",
+        "fact_correction": "Scouts must explain explain to your counselor how and why honeybees are used in pollinating food using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 83).",
         "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 83)"
       },
       "starting_requirement_gate": null,
@@ -1215,22 +1294,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Study & Explanation Notes",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 7 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Identify five garden pests (insects, diseased plants)",
+          "2. Recommend two solutions for each pest",
+          "3. At least one of the two solutions must be an organic method"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Five garden pests is enough for Gardening Requirement 7 sign-off.",
-        "fact": "Each Scout must actively identify the specific principles and real-world steps of Five garden pests grounded in the official Gardening pamphlet.",
-        "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Five garden pests grounded in the official Gardening pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify five garden pests (insects, diseased plants).",
+        "fact": "Scouts must identify identify five garden pests (insects, diseased plants) using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 58, p. 70).",
+        "fact_correction": "Scouts must identify identify five garden pests (insects, diseased plants) using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 58, p. 70).",
         "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 58, p. 70)"
       },
       "starting_requirement_gate": null,
@@ -1255,7 +1339,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Carefullyread Label Onall: Always carefullyread the label onall pesticides, fertilizers, andother treatments.",
+        "Carefully read Label Onall: Always carefully read the label onall pesticides, fertilizers, andother treatments.",
         "Follow Themanufacturer: Follow themanufacturer’sinstructions, and use thesechemicals onlyunder closeadult supervision.",
         "Pesticides Insecticides: Pesticides, also called insecticides, are chemical mixtures thatkill bugs.",
         "Properly They Provide: Properly used, they provide quick, effective ways tocontrol insects and disease in your garden."
@@ -1309,27 +1393,32 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 8a Activity & Observation Log Table",
             "headers": [
               "Date / Entry #",
               "Activity / Observation / Metric",
               "Measured Result / Notes",
               "Verifier Initials"
             ],
-            "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+            "column_headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
             ],
-            "min_rows": 5,
+            "row_labels": [
+              "Build a compost bin and maintain it for 90 days",
+              "Pamphlet Standard & Key Facts (8a)",
+              "Field Application & Counselor Verification (Build)"
+            ],
+            "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8a is enough for Gardening Requirement 8a sign-off.",
-            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 8a grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Req 8a grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on build a compost bin and maintain it for 90 days.",
+            "fact": "Scouts must build build a compost bin and maintain it for 90 days using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
+            "fact_correction": "Scouts must build build a compost bin and maintain it for 90 days using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)"
           },
           "starting_requirement_gate": null,
@@ -1371,27 +1460,32 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 8b Activity & Observation Log Table",
             "headers": [
               "Date / Entry #",
               "Activity / Observation / Metric",
               "Measured Result / Notes",
               "Verifier Initials"
             ],
-            "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+            "column_headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
             ],
-            "min_rows": 5,
+            "row_labels": [
+              "Build a vermicompost bin (worm compost bin) and maintain it for 90 days",
+              "Pamphlet Standard & Key Facts (8b)",
+              "Field Application & Counselor Verification (Build)"
+            ],
+            "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8b is enough for Gardening Requirement 8b sign-off.",
-            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 8b grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Req 8b grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on build a vermicompost bin (worm compost bin) and maintain it for 90 days.",
+            "fact": "Scouts must build build a vermicompost bin (worm compost bin) and maintain it for 90 days using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
+            "fact_correction": "Scouts must build build a vermicompost bin (worm compost bin) and maintain it for 90 days using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)"
           },
           "starting_requirement_gate": null,
@@ -1437,27 +1531,31 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 8c Activity & Observation Log Table",
             "headers": [
               "Date / Entry #",
               "Activity / Observation / Metric",
               "Measured Result / Notes",
               "Verifier Initials"
             ],
-            "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+            "column_headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
             ],
-            "min_rows": 5,
+            "row_labels": [
+              "1. Build a hydroponic garden containing three vegetables or herbs, or three",
+              "2. Maintain this garden through harvest or flowering, or for 90 days"
+            ],
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8c is enough for Gardening Requirement 8c sign-off.",
-            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 8c grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Req 8c grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on build a hydroponic garden containing three vegetables or herbs, or three.",
+            "fact": "Scouts must build build a hydroponic garden containing three vegetables or herbs, or three using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
+            "fact_correction": "Scouts must build build a hydroponic garden containing three vegetables or herbs, or three using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)"
           },
           "starting_requirement_gate": null,
@@ -1499,27 +1597,31 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 8d Activity & Observation Log Table",
             "headers": [
               "Date / Entry #",
               "Activity / Observation / Metric",
               "Measured Result / Notes",
               "Verifier Initials"
             ],
-            "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+            "column_headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
             ],
-            "min_rows": 5,
+            "row_labels": [
+              "1. Build one water garden, either in a container (at least 12 by 6 inches",
+              "2. Maintain the water garden for 90 days"
+            ],
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8d is enough for Gardening Requirement 8d sign-off.",
-            "fact": "Each Scout must actively build the specific principles and real-world steps of Req 8d grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively build the specific principles and real-world steps of Req 8d grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on build one water garden, either in a container (at least 12 by 6 inches.",
+            "fact": "Scouts must build build one water garden, either in a container (at least 12 by 6 inches using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
+            "fact_correction": "Scouts must build build one water garden, either in a container (at least 12 by 6 inches using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)"
           },
           "starting_requirement_gate": null,
@@ -1565,26 +1667,32 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 8e Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Prepare a honey super for use on a hive or colony",
+              "2. Remove a filled honey super from the hive or colony and prepare the honey"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8e is enough for Gardening Requirement 8e sign-off.",
-            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 8e grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Req 8e grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on prepare a honey super for use on a hive or colony.",
+            "fact": "Scouts must prepare prepare a honey super for use on a hive or colony using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
+            "fact_correction": "Scouts must prepare prepare a honey super for use on a hive or colony using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)"
           },
           "starting_requirement_gate": null,
@@ -1634,27 +1742,31 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 8f Activity & Observation Log Table",
             "headers": [
               "Date / Entry #",
               "Activity / Observation / Metric",
               "Measured Result / Notes",
               "Verifier Initials"
             ],
-            "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+            "column_headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
             ],
-            "min_rows": 5,
+            "row_labels": [
+              "1. Grow a garden of your own using soil from seed or plantings to harvest",
+              "2. This can be an outdoor garden or indoors using appropriate containers"
+            ],
+            "min_rows": 2,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8f is enough for Gardening Requirement 8f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on grow a garden of your own using soil from seed or plantings to harvest.",
+            "fact": "Scouts must explain grow a garden of your own using soil from seed or plantings to harvest using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
+            "fact_correction": "Scouts must explain grow a garden of your own using soil from seed or plantings to harvest using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)"
           },
           "starting_requirement_gate": {
@@ -1748,26 +1860,34 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "table_title": "Req 8 Activity & Observation Log Table",
         "headers": [
           "Date / Entry #",
           "Activity / Observation / Metric",
           "Measured Result / Notes",
           "Verifier Initials"
         ],
-        "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+        "column_headers": [
+          "Date / Entry #",
+          "Activity / Observation / Metric",
+          "Measured Result / Notes",
+          "Verifier Initials"
         ],
-        "min_rows": 5,
+        "row_labels": [
+          "(a) Build a compost bin and maintain it for 90 days",
+          "(b) Build a vermicompost bin (worm compost bin) and maintain it for 90 days",
+          "(c) Build a hydroponic garden containing three vegetables or herbs, or three",
+          "(d) Build one water garden, either in a container (at least 12 by 6 inches",
+          "(e) Prepare a honey super for use on a hive or colony",
+          "(f) Grow a garden of your own using soil from seed or plantings to harvest"
+        ],
+        "min_rows": 6,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of And record weekly observations is enough for Gardening Requirement 8 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of And record weekly observations grounded in the official Gardening pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of And record weekly observations grounded in the official Gardening pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on build a compost bin and maintain it for 90 days.",
+        "fact": "Scouts must discuss build a compost bin and maintain it for 90 days using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
+        "fact_correction": "Scouts must discuss build a compost bin and maintain it for 90 days using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57).",
         "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)"
       },
       "starting_requirement_gate": {
@@ -1854,17 +1974,25 @@
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 9a Career & Pathway Exploration Card",
             "headers": [
-              "Req 9a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
@@ -1913,23 +2041,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9b Structured Study & Explanation Notes",
             "headers": [
-              "Req 9b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 9b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 9b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Identify how you might use the skills and knowledge in gardening to pursue",
+              "2. Research the additional training required, expenses, and affiliation",
+              "3. Discuss what you learned with your counselor and share what short-term"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 9b is enough for Gardening Requirement 9b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 9b grounded in the official Gardening pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 9b grounded in the official Gardening pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify how you might use the skills and knowledge in gardening to pursue.",
+            "fact": "Scouts must identify identify how you might use the skills and knowledge in gardening to pursue using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97).",
+            "fact_correction": "Scouts must identify identify how you might use the skills and knowledge in gardening to pursue using verified procedures, field evidence, and safety standards from Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97).",
             "pamphlet_page_ref": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)"
           },
           "starting_requirement_gate": null,
@@ -1989,17 +2122,25 @@
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 9 Career & Pathway Exploration Card",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {

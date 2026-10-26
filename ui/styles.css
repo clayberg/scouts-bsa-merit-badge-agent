@@ -10228,4 +10228,131 @@ body.m3-dark-mode .m3-trace-stage-badge {
   text-decoration: line-through;
 }
 
+/* ============================================================================
+   PLAN v2.2 TRACK C: UNIFIED SPLIT-BUTTON DROPDOWNS, COMPACT HERO & SEGMENTED CONTROLS
+   ============================================================================ */
+
+.m3-split-btn-group {
+  display: inline-flex;
+  align-items: stretch;
+  position: relative;
+  border-radius: 999px;
+}
+
+.m3-split-btn-group > .m3-split-btn-primary {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.28) !important;
+}
+
+.m3-split-btn-group > .m3-split-btn-caret {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  padding-left: 8px !important;
+  padding-right: 10px !important;
+  min-width: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.m3-split-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 245px;
+  max-width: 320px;
+  background: var(--md-sys-color-surface, #FFFFFF);
+  border: 1.5px solid var(--md-sys-color-outline, #CBD5E1);
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.18);
+  padding: 6px;
+  z-index: 1250;
+  display: none;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.m3-split-dropdown-menu.open {
+  display: flex !important;
+}
+
+.m3-menu-section-label {
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--md-sys-color-on-surface-variant, #64748B);
+  padding: 6px 10px 3px;
+  border-top: 1px solid var(--md-sys-color-outline-variant, #E2E8F0);
+  margin-top: 2px;
+}
+
+.m3-menu-section-label:first-child {
+  border-top: none;
+  margin-top: 0;
+}
+
+.workbook-view-segmented-control {
+  display: inline-flex;
+  align-items: center;
+  background: var(--md-sys-color-surface-container-low, #F1F5F9);
+  border: 1px solid var(--md-sys-color-outline-variant, #CBD5E1);
+  border-radius: 999px;
+  padding: 3px;
+  gap: 3px;
+}
+
+.m3-bluecard-toolbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.m3-bluecard-toolbar-left,
+.m3-bluecard-toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* Auto-Slimming Hero Banner when a deck is loaded */
+body.deck-loaded-compact-hero .m3-hero-banner {
+  padding: 10px 18px;
+  gap: 12px;
+}
+
+body.deck-loaded-compact-hero .m3-hero-banner p,
+body.deck-loaded-compact-hero .m3-hero-banner #hero-tour-pill-bar {
+  display: none !important;
+}
+
+body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-kpis {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+body.dark-mode .m3-split-dropdown-menu {
+  background: #1E293B;
+  border-color: #334155;
+  box-shadow: 0 12px 32px rgba(2, 6, 23, 0.55);
+}
+
+body.dark-mode .m3-menu-section-label {
+  color: #94A3B8;
+  border-top-color: #334155;
+}
+
+body.dark-mode .workbook-view-segmented-control {
+  background: #0F172A;
+  border-color: #334155;
+}
+
+
 

@@ -52,25 +52,32 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 1 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "A short history",
+          "Why you enjoy your collection",
+          "What you have learned from collecting"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Short written report or outline is enough for Collections Requirement 1 sign-off.",
-        "fact": "Each Scout must actively prepare the specific principles and real-world steps of Short written report or outline grounded in the official Collections pamphlet.",
-        "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Short written report or outline grounded in the official Collections pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on a short history.",
+        "fact": "Scouts must prepare a short history using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 9, p. 14).",
+        "fact_correction": "Scouts must prepare a short history using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 9, p. 14).",
         "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 9, p. 14)"
       },
       "starting_requirement_gate": null,
@@ -194,22 +201,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Explain the growth and development of your collection",
+          "Pamphlet Standard & Key Facts (2)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The growth and development is enough for Collections Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The growth and development grounded in the official Collections pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The growth and development grounded in the official Collections pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the growth and development of your collection.",
+        "fact": "Scouts must explain explain the growth and development of your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 8, p. 9).",
+        "fact_correction": "Scouts must explain explain the growth and development of your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 8, p. 9).",
         "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 8, p. 9)"
       },
       "starting_requirement_gate": null,
@@ -304,23 +316,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Study & Explanation Notes",
             "headers": [
-              "Req 3a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Handling",
+              "Cleaning",
+              "Storage"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Collections Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on handling.",
+            "fact": "Scouts must explain handling using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13).",
+            "fact_correction": "Scouts must explain handling using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)"
           },
           "starting_requirement_gate": null,
@@ -370,23 +387,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3b Structured Study & Explanation Notes",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain how best to display your collection, keeping in mind preserving as discussed above",
+              "Pamphlet Standard & Key Facts (3b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Collections Requirement 3b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3b grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how best to display your collection, keeping in mind preserving as discussed above.",
+            "fact": "Scouts must explain explain how best to display your collection, keeping in mind preserving as discussed above using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13).",
+            "fact_correction": "Scouts must explain explain how best to display your collection, keeping in mind preserving as discussed above using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)"
           },
           "starting_requirement_gate": null,
@@ -428,23 +450,31 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3c Structured Study & Explanation Notes",
             "headers": [
-              "Req 3c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Shows",
+              "Seminars",
+              "Conventions",
+              "Contests",
+              "Museum programs",
+              "Exhibits"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3c is enough for Collections Requirement 3c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on shows.",
+            "fact": "Scouts must explain shows using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13).",
+            "fact_correction": "Scouts must explain shows using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)"
           },
           "starting_requirement_gate": null,
@@ -498,23 +528,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3d Structured Study & Explanation Notes",
             "headers": [
-              "Req 3d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain to your counselor how you keep track of your collection",
+              "2. Describe your cataloging method"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3d is enough for Collections Requirement 3d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3d grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor how you keep track of your collection.",
+            "fact": "Scouts must explain explain to your counselor how you keep track of your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13).",
+            "fact_correction": "Scouts must explain explain to your counselor how you keep track of your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)"
           },
           "starting_requirement_gate": null,
@@ -614,26 +648,34 @@
       "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain the precautions you need to take to preserve your collection",
+          "(b) Explain how best to display your collection, keeping in mind preserving",
+          "(c) Explain to your counselor the events available for a hobbyist of this",
+          "(d) Explain to your counselor how you keep track of your collection"
         ],
         "min_rows": 4,
-        "pre_approval_gate": false
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Your knowledge of preserving and displaying is enough for Collections Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Your knowledge of preserving and displaying grounded in the official Collections pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Your knowledge of preserving and displaying grounded in the official Collections pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the precautions you need to take to preserve your collection.",
+        "fact": "Scouts must explain explain the precautions you need to take to preserve your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13).",
+        "fact_correction": "Scouts must explain explain the precautions you need to take to preserve your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13).",
         "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)"
       },
       "starting_requirement_gate": null,
@@ -664,7 +706,7 @@
         "Adocument Collection Youmay: It also is adocument about your collection that youmay need to produce if your collectionbecomes so valuable that you should carrycollectibles."
       ],
       "step_by_step_procedure": [
-        "Records Items Yourcollection: The records for all the items in yourcollection make up your master list.",
+        "Records Items Your collection: The records for all the items in your collection make up your master list.",
         "Youmight Want Information: Youmight want to keep this information in athree-ring binder or set up an electronic catalog.",
         "Youacquire Item Collection: When youacquire an item for your collection, give it a number.",
         "Keepcomic Books Andsports: It is best to keepcomic books andsports cards intheir protectivejackets or inboxes becausehandling themwill decreasetheir value."
@@ -729,23 +771,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Study & Explanation Notes",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "How investing and speculation would apply to your collection",
+              "Pamphlet Standard & Key Facts (4a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Collections Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on how investing and speculation would apply to your collection.",
+            "fact": "Scouts must explain how investing and speculation would apply to your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57).",
+            "fact_correction": "Scouts must explain how investing and speculation would apply to your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57)"
           },
           "starting_requirement_gate": null,
@@ -782,23 +829,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "What you would look for in purchasing other collections similar to yours",
+              "Pamphlet Standard & Key Facts (4b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Collections Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on what you would look for in purchasing other collections similar to yours.",
+            "fact": "Scouts must explain what you would look for in purchasing other collections similar to yours using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57).",
+            "fact_correction": "Scouts must explain what you would look for in purchasing other collections similar to yours using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57)"
           },
           "starting_requirement_gate": null,
@@ -840,23 +892,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4c Structured Study & Explanation Notes",
             "headers": [
-              "Req 4c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "What you would expect in return value if you decided to sell all or part of the collection",
+              "Pamphlet Standard & Key Facts (4c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4c is enough for Collections Requirement 4c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on what you would expect in return value if you decided to sell all or part of the collection.",
+            "fact": "Scouts must explain what you would expect in return value if you decided to sell all or part of the collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57).",
+            "fact_correction": "Scouts must explain what you would expect in return value if you decided to sell all or part of the collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57)"
           },
           "starting_requirement_gate": null,
@@ -924,26 +981,33 @@
       "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) How investing and speculation would apply to your collection",
+          "(b) What you would look for in purchasing other collections similar to yours",
+          "(c) What you would expect in return value if you decided to sell all or part"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Your knowledge of collecting and investing is enough for Collections Requirement 4 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Your knowledge of collecting and investing grounded in the official Collections pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Your knowledge of collecting and investing grounded in the official Collections pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on how investing and speculation would apply to your collection.",
+        "fact": "Scouts must discuss how investing and speculation would apply to your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57).",
+        "fact_correction": "Scouts must discuss how investing and speculation would apply to your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57).",
         "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57)"
       },
       "starting_requirement_gate": null,
@@ -968,7 +1032,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Moreinformation Onidentifying: For moreinformation onidentifying rocks, see the Geology meritbadge pamphlet.",
+        "More information Onidentifying: For more information onidentifying rocks, see the Geology meritbadge pamphlet.",
         "Own Notebook Record: In your own notebook, record the specimen’s number and name, date you collected the rock, description of the collection site, andother relevant data.",
         "Seller Sname Purchase: If you bought the rock, note the seller’sname, purchase price, and purchase date.",
         "Determining Value: Determining the value of a nonprecious rock or mineral collection can be difficult because there are no price guides availableas there are for other kinds."
@@ -1022,23 +1086,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5a Structured Study & Explanation Notes",
             "headers": [
-              "Req 5a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss with your counselor at least 10 terms commonly used to describe",
+              "2. Key Pamphlet Examples & Evidence (Req 5a)",
+              "3. Practical Discuss & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Collections Requirement 5a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 5a grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 5a grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor at least 10 terms commonly used to describe.",
+            "fact": "Scouts must discuss discuss with your counselor at least 10 terms commonly used to describe using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
+            "fact_correction": "Scouts must discuss discuss with your counselor at least 10 terms commonly used to describe using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1075,23 +1144,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5b Structured Study & Explanation Notes",
             "headers": [
-              "Req 5b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Show your counselor any two groups from your collection",
+              "2. Explain how you organized your collection and why you chose that method"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Collections Requirement 5b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show your counselor any two groups from your collection.",
+            "fact": "Scouts must explain show your counselor any two groups from your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
+            "fact_correction": "Scouts must explain show your counselor any two groups from your collection using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1137,23 +1210,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5c Structured Study & Explanation Notes",
             "headers": [
-              "Req 5c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain the monetary value of your collection and where you learned about those values",
+              "Pamphlet Standard & Key Facts (5c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5c is enough for Collections Requirement 5c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5c grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the monetary value of your collection and where you learned about those values.",
+            "fact": "Scouts must explain explain the monetary value of your collection and where you learned about those values using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
+            "fact_correction": "Scouts must explain explain the monetary value of your collection and where you learned about those values using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1195,23 +1273,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5d Structured Study & Explanation Notes",
             "headers": [
-              "Req 5d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain how your collection is graded for value, physical defects, size",
+              "2. Show the various classifications or ratings used in your collection"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5d is enough for Collections Requirement 5d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5d grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how your collection is graded for value, physical defects, size.",
+            "fact": "Scouts must explain explain how your collection is graded for value, physical defects, size using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
+            "fact_correction": "Scouts must explain explain how your collection is graded for value, physical defects, size using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1253,23 +1335,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5e Structured Study & Explanation Notes",
             "headers": [
-              "Req 5e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. List the national, state",
+              "2. Local association(s) related to or associated with your collection"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5e is enough for Collections Requirement 5e sign-off.",
-            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 5e grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 5e grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on list the national, state.",
+            "fact": "Scouts must list list the national, state using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
+            "fact_correction": "Scouts must list list the national, state using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1306,23 +1392,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5f Structured Study & Explanation Notes",
             "headers": [
-              "Req 5f Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain to your counselor the purpose of and reason for the identification",
+              "2. Any other special identification marks"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5f is enough for Collections Requirement 5f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5f grounded in the official Collections pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5f grounded in the official Collections pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain to your counselor the purpose of and reason for the identification.",
+            "fact": "Scouts must explain explain to your counselor the purpose of and reason for the identification using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
+            "fact_correction": "Scouts must explain explain to your counselor the purpose of and reason for the identification using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
             "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)"
           },
           "starting_requirement_gate": null,
@@ -1391,25 +1481,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Discuss with your counselor at least 10 terms commonly used to describe your",
+          "(b) Show your counselor any two groups from your collection",
+          "(c) Explain the monetary value of your collection and where you learned",
+          "(d) Explain how your collection is graded for value, physical defects, size",
+          "(e) List the national, state, or local association",
+          "(s) Related to or associated with your collection"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of At least 10 terms commonly is enough for Collections Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of At least 10 terms commonly grounded in the official Collections pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of At least 10 terms commonly grounded in the official Collections pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor at least 10 terms commonly used to describe your.",
+        "fact": "Scouts must demonstrate discuss with your counselor at least 10 terms commonly used to describe your using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
+        "fact_correction": "Scouts must demonstrate discuss with your counselor at least 10 terms commonly used to describe your using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53).",
         "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)"
       },
       "starting_requirement_gate": null,
@@ -1493,22 +1593,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Discuss with your counselor the plans you have to continue with the collection in the future",
+          "Pamphlet Standard & Key Facts (6)",
+          "Field Application & Counselor Verification (Discuss)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The plans you have to continue is enough for Collections Requirement 6 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of The plans you have to continue grounded in the official Collections pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of The plans you have to continue grounded in the official Collections pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor the plans you have to continue with the collection in the future.",
+        "fact": "Scouts must discuss discuss with your counselor the plans you have to continue with the collection in the future using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 49, p. 62).",
+        "fact_correction": "Scouts must discuss discuss with your counselor the plans you have to continue with the collection in the future using verified procedures, field evidence, and safety standards from Official Scouting America Collections Merit Badge Pamphlet (p. 49, p. 62).",
         "pamphlet_page_ref": "Official Scouting America Collections Merit Badge Pamphlet (p. 49, p. 62)"
       },
       "starting_requirement_gate": null,
@@ -1533,7 +1638,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Players Earn Money: Players earn money for having theirpictures featured.",
+        "Players Earn Money: Players earn money for having their pictures featured.",
         "Sports Leagues They: The sports leagues in which they play getroyalties for the use of the league names and logos.",
         "Card Companies Money: Card companies make money producing and selling cards.",
         "Pittsburgh Pirates Shortstop: In 1909, Pittsburgh Pirates shortstop Honus Wagner created a ruckus about his image being used on a sports card."
@@ -1600,17 +1705,25 @@
       "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 60, p. 62)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 7 Career & Pathway Exploration Card",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {

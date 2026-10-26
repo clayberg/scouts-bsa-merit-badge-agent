@@ -47,22 +47,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 1 Structured Study & Explanation Notes",
         "headers": [
-          "Req 1 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 1 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Your troop",
+          "Class at school",
+          "Some other group"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Give a three- to five-minute introduction is enough for Public Speaking Requirement 1 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Give a three- to five-minute introduction grounded in the official Public Speaking pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Give a three- to five-minute introduction grounded in the official Public Speaking pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on your troop.",
+        "fact": "Scouts must explain your troop using verified procedures, field evidence, and safety standards from Official Scouting America Public Speaking Merit Badge Pamphlet (p. 7, p. 10).",
+        "fact_correction": "Scouts must explain your troop using verified procedures, field evidence, and safety standards from Official Scouting America Public Speaking Merit Badge Pamphlet (p. 7, p. 10).",
         "pamphlet_page_ref": "Official Scouting America Public Speaking Merit Badge Pamphlet (p. 7, p. 10)"
       },
       "starting_requirement_gate": null,
@@ -96,7 +101,7 @@
         "City Council Wants: Your city council wants to turn your onlyneighborhood basketball court into a much-needed parking lot.",
         "Decide Speech Class: You decide to give a speech to your class about how much thebasketball court means to you and your friends.",
         "Goal Call Attention: Your goal is to call attention to thisissue and inspire the audience to care about the basketballcourt as much as you do.",
-        "Cite Lack Playground: Cite the lack of playground facilities in yourarea, or how many students who once played at the local courtwent on to play high school and/or."
+        "Cite Lack Playground: Cite the lack of playground facilities in your area, or how many students who once played at the local courtwent on to play high school and/or."
       ],
       "gear_checklist": [
         "Official Public Speaking Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
@@ -186,25 +191,32 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Prepare a three- to five-minute talk on a topic of your choice",
+          "2. Key Pamphlet Examples & Evidence (Req 2)",
+          "3. Practical Prepare & Safety Verification"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Three- to five-minute talk is enough for Public Speaking Requirement 2 sign-off.",
-        "fact": "Each Scout must actively prepare the specific principles and real-world steps of Three- to five-minute talk grounded in the official Public Speaking pamphlet.",
-        "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Three- to five-minute talk grounded in the official Public Speaking pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on prepare a three- to five-minute talk on a topic of your choice.",
+        "fact": "Scouts must prepare prepare a three- to five-minute talk on a topic of your choice using verified procedures, field evidence, and safety standards from Official Scouting America Public Speaking Merit Badge Pamphlet (p. 19, p. 31).",
+        "fact_correction": "Scouts must prepare prepare a three- to five-minute talk on a topic of your choice using verified procedures, field evidence, and safety standards from Official Scouting America Public Speaking Merit Badge Pamphlet (p. 19, p. 31).",
         "pamphlet_page_ref": "Official Scouting America Public Speaking Merit Badge Pamphlet (p. 19, p. 31)"
       },
       "starting_requirement_gate": null,
@@ -309,22 +321,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Give an impromptu talk of at least two minutes, either as part of a group",
+          "2. Use a subject selected by your counselor that is interesting to you"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Give an impromptu talk is enough for Public Speaking Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Give an impromptu talk grounded in the official Public Speaking pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Give an impromptu talk grounded in the official Public Speaking pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on give an impromptu talk of at least two minutes, either as part of a group.",
+        "fact": "Scouts must explain give an impromptu talk of at least two minutes, either as part of a group using verified procedures, field evidence, and safety standards from Official Scouting America Public Speaking Merit Badge Pamphlet (p. 43, p. 46).",
+        "fact_correction": "Scouts must explain give an impromptu talk of at least two minutes, either as part of a group using verified procedures, field evidence, and safety standards from Official Scouting America Public Speaking Merit Badge Pamphlet (p. 43, p. 46).",
         "pamphlet_page_ref": "Official Scouting America Public Speaking Merit Badge Pamphlet (p. 43, p. 46)"
       },
       "starting_requirement_gate": null,
@@ -357,7 +373,7 @@
       "step_by_step_procedure": [
         "Think Moment Campout: Think for a moment what you know about the campout, then quicklyorganize your thoughts.",
         "Don Afraid Pause: Don’t be afraid to pause for a second and reflect on thequestion or topic you have been asked to present.",
-        "Remind End Speech: Remind Scouts at the end of your speech to checkwith their folks about volunteering as chaperones.",
+        "Remind End Speech: Remind Scouts at the end of your speech to check with their folks about volunteering as chaperones.",
         "Probablywon Asked Talk: You probablywon’t be asked to talk about a topic you don’t know somethingabout."
       ],
       "gear_checklist": [
@@ -430,22 +446,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Study & Explanation Notes",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Select a topic of interest to your audience",
+          "2. Collect and organize information about the topic and prepare an outline",
+          "3. Write an eight- to 10-minute speech, practice it, then deliver it"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Select a topic of interest is enough for Public Speaking Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Select a topic of interest grounded in the official Public Speaking pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Select a topic of interest grounded in the official Public Speaking pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on select a topic of interest to your audience.",
+        "fact": "Scouts must explain select a topic of interest to your audience using verified procedures, field evidence, and safety standards from Official Scouting America Public Speaking Merit Badge Pamphlet (p. 31, p. 33).",
+        "fact_correction": "Scouts must explain select a topic of interest to your audience using verified procedures, field evidence, and safety standards from Official Scouting America Public Speaking Merit Badge Pamphlet (p. 31, p. 33).",
         "pamphlet_page_ref": "Official Scouting America Public Speaking Merit Badge Pamphlet (p. 31, p. 33)"
       },
       "starting_requirement_gate": null,
@@ -470,7 +491,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Now Prepared Speech: Now that you have prepared your speech and practiced infront of friends and family, you are ready to deliver yourspeech to the intended audience.",
+        "Now Prepared Speech: Now that you have prepared your speech and practiced infront of friends and family, you are ready to deliver your speech to the intended audience.",
         "Task Prepare Room: Your first task is to prepare the room where you plan to speak.",
         "Equipment Electrical Outlets: If your equipment uses electrical outlets, be prepared!.",
         "Bring Three-prong Two-prong: Bring a three-prong/two-prong outlet adapter and an extensioncord with you."
@@ -538,25 +559,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Show you know parliamentary procedure by leading a discussion or meeting",
+          "2. Or by answering questions on the rules of order"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of You know parliamentary procedure by leading is enough for Public Speaking Requirement 5 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of You know parliamentary procedure by leading grounded in the official Public Speaking pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of You know parliamentary procedure by leading grounded in the official Public Speaking pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show you know parliamentary procedure by leading a discussion or meeting.",
+        "fact": "Scouts must show show you know parliamentary procedure by leading a discussion or meeting using verified procedures, field evidence, and safety standards from Official Scouting America Public Speaking Merit Badge Pamphlet (p. 45, p. 46).",
+        "fact_correction": "Scouts must show show you know parliamentary procedure by leading a discussion or meeting using verified procedures, field evidence, and safety standards from Official Scouting America Public Speaking Merit Badge Pamphlet (p. 45, p. 46).",
         "pamphlet_page_ref": "Official Scouting America Public Speaking Merit Badge Pamphlet (p. 45, p. 46)"
       },
       "starting_requirement_gate": null,
@@ -584,7 +611,7 @@
         "Come Order Parliamentary: Come to Order, Parliamentary Procedure Made Easy In formal meetings, the chair, or leader, conducts all business.",
         "Leader Informal Meeting: While the leader of an informal meeting may participatein the discussion, the chair of a formal meeting only conductsthe meeting.",
         "Speakers Recognized Chair: Speakers must be recognized by the chair andtechnically, all remarks are directed to the chair.",
-        "Questionsfrom Individual: Questionsfrom individual to individual also are directed via the chair."
+        "Questions from Individual: Questions from individual to individual also are directed via the chair."
       ],
       "step_by_step_procedure": [
         "Formal Meeting Debate: The formal meeting is more a debate of opposing ideas, eachof which strives for audience approval.",

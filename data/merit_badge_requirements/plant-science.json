@@ -47,25 +47,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 1 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Make a drawing and identify five or more parts of a flowering plant",
+          "2. Tell what each part does"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Drawing and identify five or more is enough for Plant Science Requirement 1 sign-off.",
-        "fact": "Each Scout must actively make the specific principles and real-world steps of Drawing and identify five or more grounded in the official Plant Science pamphlet.",
-        "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Drawing and identify five or more grounded in the official Plant Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make a drawing and identify five or more parts of a flowering plant.",
+        "fact": "Scouts must make make a drawing and identify five or more parts of a flowering plant using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 19, p. 35).",
+        "fact_correction": "Scouts must make make a drawing and identify five or more parts of a flowering plant using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 19, p. 35).",
         "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 19, p. 35)"
       },
       "starting_requirement_gate": null,
@@ -185,22 +191,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Explain photosynthesis and tell why this process is important",
+          "2. Tell at least five ways that humans depend on plants"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Photosynthesis and tell why this process is enough for Plant Science Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Photosynthesis and tell why this process grounded in the official Plant Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Photosynthesis and tell why this process grounded in the official Plant Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain photosynthesis and tell why this process is important.",
+        "fact": "Scouts must explain explain photosynthesis and tell why this process is important using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 17, p. 21).",
+        "fact_correction": "Scouts must explain explain photosynthesis and tell why this process is important using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 17, p. 21).",
         "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 17, p. 21)"
       },
       "starting_requirement_gate": null,
@@ -297,22 +307,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Explain how honeybees and other pollinating insects are important to plant life",
+          "Pamphlet Standard & Key Facts (3)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Honeybees and other pollinating insects is enough for Plant Science Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Honeybees and other pollinating insects grounded in the official Plant Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Honeybees and other pollinating insects grounded in the official Plant Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how honeybees and other pollinating insects are important to plant life.",
+        "fact": "Scouts must explain explain how honeybees and other pollinating insects are important to plant life using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 21, p. 43).",
+        "fact_correction": "Scouts must explain explain how honeybees and other pollinating insects are important to plant life using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 21, p. 43).",
         "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 21, p. 43)"
       },
       "starting_requirement_gate": null,
@@ -426,22 +441,28 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Study & Explanation Notes",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Explain how water, light, air, temperature, and pests affect plants",
+          "2. Describe the nature and function of soil and explain its importance",
+          "3. Tell about the texture, structure, and composition of fertile soil",
+          "4. Tell how soil may be improved"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Water, light, air, temperature, and pests is enough for Plant Science Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Water, light, air, temperature, and pests grounded in the official Plant Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Water, light, air, temperature, and pests grounded in the official Plant Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how water, light, air, temperature, and pests affect plants.",
+        "fact": "Scouts must explain explain how water, light, air, temperature, and pests affect plants using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 22, p. 25).",
+        "fact_correction": "Scouts must explain explain how water, light, air, temperature, and pests affect plants using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 22, p. 25).",
         "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 22, p. 25)"
       },
       "starting_requirement_gate": null,
@@ -534,22 +555,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Tell how to propagate plants by seeds, roots, cuttings, tubers, and grafting",
+          "2. Grow a plant by ONE of these methods"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Tell how to propagate plants is enough for Plant Science Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Tell how to propagate plants grounded in the official Plant Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Tell how to propagate plants grounded in the official Plant Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell how to propagate plants by seeds, roots, cuttings, tubers, and grafting.",
+        "fact": "Scouts must explain tell how to propagate plants by seeds, roots, cuttings, tubers, and grafting using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 29, p. 67).",
+        "fact_correction": "Scouts must explain tell how to propagate plants by seeds, roots, cuttings, tubers, and grafting using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 29, p. 67).",
         "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 29, p. 67)"
       },
       "starting_requirement_gate": null,
@@ -646,22 +671,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Study & Explanation Notes",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 6 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. List by common name at least 10 native plants and 10 cultivated plants",
+          "2. List five invasive non-native plants in your area and tell how they",
+          "3. Tell how the spread of invasive plants may be avoided or controlled in ways"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of List by common name is enough for Plant Science Requirement 6 sign-off.",
-        "fact": "Each Scout must actively list the specific principles and real-world steps of List by common name grounded in the official Plant Science pamphlet.",
-        "fact_correction": "Each Scout must actively list the specific principles and real-world steps of List by common name grounded in the official Plant Science pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on list by common name at least 10 native plants and 10 cultivated plants.",
+        "fact": "Scouts must list list by common name at least 10 native plants and 10 cultivated plants using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 47, p. 73).",
+        "fact_correction": "Scouts must list list by common name at least 10 native plants and 10 cultivated plants using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 47, p. 73).",
         "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 47, p. 73)"
       },
       "starting_requirement_gate": null,
@@ -747,17 +777,25 @@
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 7a Career & Pathway Exploration Card",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90)",
@@ -819,23 +857,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7b Structured Study & Explanation Notes",
             "headers": [
-              "Req 7b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explore how you could use knowledge and skills from this merit badge",
+              "2. Research any training needed, expenses, and organizations that promote",
+              "3. Discuss with your counselor what short-term and long-term goals you"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Plant Science Requirement 7b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Plant Science pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 7b grounded in the official Plant Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explore how you could use knowledge and skills from this merit badge.",
+            "fact": "Scouts must explain explore how you could use knowledge and skills from this merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90).",
+            "fact_correction": "Scouts must explain explore how you could use knowledge and skills from this merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90).",
             "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90)"
           },
           "starting_requirement_gate": null,
@@ -907,17 +950,25 @@
       "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 7 Career & Pathway Exploration Card",
         "headers": [
-          "Req 7 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
@@ -1017,23 +1068,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 8a(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 8a(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 8a(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 8a(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Describe how to prepare a seedbed",
+                  "Pamphlet Standard & Key Facts (8a(1))",
+                  "Field Application & Counselor Verification (Describe)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8a(1) is enough for Plant Science Requirement 8a(1) sign-off.",
-                "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 8a(1) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 8a(1) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe how to prepare a seedbed.",
+                "fact": "Scouts must describe describe how to prepare a seedbed using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must describe describe how to prepare a seedbed using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -1075,26 +1131,32 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 8a(2) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Make and use a seed germination tester to test 50 seeds of four",
+                  "2. Determine the percentage of live seeds"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8a(2) is enough for Plant Science Requirement 8a(2) sign-off.",
-                "fact": "Each Scout must actively make the specific principles and real-world steps of Req 8a(2) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 8a(2) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make and use a seed germination tester to test 50 seeds of four.",
+                "fact": "Scouts must make make and use a seed germination tester to test 50 seeds of four using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must make make and use a seed germination tester to test 50 seeds of four using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -1140,23 +1202,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 8a(3) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 8a(3) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 8a(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 8a(3) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Explain one important insect pest and one important disease that damage each",
+                  "2. Collect and name five weeds that compete with crops in your locality",
+                  "3. Tell how to control these weeds without harming people, wildlife, or useful"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8a(3) is enough for Plant Science Requirement 8a(3) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a(3) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a(3) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain one important insect pest and one important disease that damage each.",
+                "fact": "Scouts must explain explain one important insect pest and one important disease that damage each using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must explain explain one important insect pest and one important disease that damage each using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -1206,23 +1273,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 8a(4) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 8a(4) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 8a(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 8a(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. On a map of the United States, identify the chief regions where corn, cotton",
+                  "2. Tell how the climate and location of these regions make them leaders"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8a(4) is enough for Plant Science Requirement 8a(4) sign-off.",
-                "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 8a(4) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 8a(4) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on on a map of the united states, identify the chief regions where corn, cotton.",
+                "fact": "Scouts must identify on a map of the united states, identify the chief regions where corn, cotton using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must identify on a map of the united states, identify the chief regions where corn, cotton using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -1525,27 +1596,35 @@
               "syllabus_bucket": "Pre-Class Prerequisite",
               "workbook_organizer": {
                 "organizer_type": "TIME_SERIES_LOG_TABLE",
+                "table_title": "Req 8a(5) Activity & Observation Log Table",
                 "headers": [
                   "Date / Entry #",
                   "Activity / Observation / Metric",
                   "Measured Result / Notes",
                   "Verifier Initials"
                 ],
-                "row_labels": [
-                  "Entry 1",
-                  "Entry 2",
-                  "Entry 3",
-                  "Entry 4",
-                  "Entry 5"
+                "column_headers": [
+                  "Date / Entry #",
+                  "Activity / Observation / Metric",
+                  "Measured Result / Notes",
+                  "Verifier Initials"
                 ],
-                "min_rows": 5,
+                "row_labels": [
+                  "(a) Corn",
+                  "(1) Grow a plot of corn and have your plot inspected by your counselor",
+                  "(2) Tell about modern methods of commercial corn farming and the contributions",
+                  "(3) Tell about an insect that can damage corn, and explain how it affects corn",
+                  "(b) Cotton",
+                  "(1) Grow a plot of cotton and have your plot inspected by your counselor"
+                ],
+                "min_rows": 6,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8a(5) is enough for Plant Science Requirement 8a(5) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8a(5) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8a(5) grounded in the official Plant Science pamphlet.",
+                "misconception": "Inducing vomiting is the fastest first-aid response whenever someone swallows a household poison.",
+                "fact": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
+                "fact_correction": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -1577,27 +1656,35 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 8a Activity & Observation Log Table",
             "headers": [
               "Date / Entry #",
               "Activity / Observation / Metric",
               "Measured Result / Notes",
               "Verifier Initials"
             ],
-            "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+            "column_headers": [
+              "Date / Entry #",
+              "Activity / Observation / Metric",
+              "Measured Result / Notes",
+              "Verifier Initials"
             ],
-            "min_rows": 5,
+            "row_labels": [
+              "(1) Describe how to prepare a seedbed",
+              "(2) Make and use a seed germination tester to test 50 seeds of four",
+              "(3) Explain one important insect pest and one important disease that damage each",
+              "(4) On a map of the United States, identify the chief regions where corn, cotton",
+              "(5) Do ALL of the requirements in ONE of the following alternatives",
+              "(a) Corn"
+            ],
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8a is enough for Plant Science Requirement 8a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 8a grounded in the official Plant Science pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 8a grounded in the official Plant Science pamphlet.",
+            "misconception": "Inducing vomiting is the fastest first-aid response whenever someone swallows a household poison.",
+            "fact": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
+            "fact_correction": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
             "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
           },
           "starting_requirement_gate": null,
@@ -1645,23 +1732,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 8b(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 8b(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 8b(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 8b(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Visit one of the following places",
+                  "2. What you learned about horticulture there: public garden, arboretum, retail",
+                  "3. Conservatory greenhouse"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8b(1) is enough for Plant Science Requirement 8b(1) sign-off.",
-                "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 8b(1) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 8b(1) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit one of the following places.",
+                "fact": "Scouts must visit visit one of the following places using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must visit visit one of the following places using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -1711,23 +1803,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 8b(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 8b(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 8b(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 8b(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Terms: hardiness zone, shade tolerance, pH, moisture requirement, native",
+                  "2. Find out what hardiness zone you live in and list 10 landscape plants you"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8b(2) is enough for Plant Science Requirement 8b(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b(2) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b(2) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on terms: hardiness zone, shade tolerance, ph, moisture requirement, native.",
+                "fact": "Scouts must explain terms: hardiness zone, shade tolerance, ph, moisture requirement, native using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must explain terms: hardiness zone, shade tolerance, ph, moisture requirement, native using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -1829,24 +1925,31 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
+                "table_title": "Req 8b(3) Differential Comparison Matrix",
                 "headers": [
                   "Concept / Method A",
                   "Concept / Method B",
                   "Key Field Distinction & When to Use"
                 ],
-                "row_labels": [
-                  "Primary Mechanism",
-                  "Field Indicator",
-                  "Safety / Application"
+                "column_headers": [
+                  "Concept / Method A",
+                  "Concept / Method B",
+                  "Key Field Distinction & When to Use"
                 ],
-                "min_rows": 3,
+                "row_labels": [
+                  "(a) Explain the difference between vegetative and sexual propagation methods",
+                  "(b) Transplant 12 seedlings or rooted cuttings to larger containers and grow them",
+                  "(c) Demonstrate good pruning techniques and tell why pruning is important",
+                  "(d) After obtaining permission, plant a tree or shrub properly in an appropriate"
+                ],
+                "min_rows": 4,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8b(3) is enough for Plant Science Requirement 8b(3) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b(3) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b(3) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the difference between vegetative and sexual propagation methods.",
+                "fact": "Scouts must explain explain the difference between vegetative and sexual propagation methods using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must explain explain the difference between vegetative and sexual propagation methods using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -1926,26 +2029,33 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 8b(4) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) Explain the importance of good landscape design and selection of plants",
+                  "(b) Tell why it is important to know how big a plant will grow",
+                  "(c) Tell why slower-growing landscape plants are sometimes a better choice than"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8b(4) is enough for Plant Science Requirement 8b(4) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8b(4) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 8b(4) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the importance of good landscape design and selection of plants.",
+                "fact": "Scouts must demonstrate explain the importance of good landscape design and selection of plants using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must demonstrate explain the importance of good landscape design and selection of plants using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -2276,28 +2386,37 @@
               ],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "TIME_SERIES_LOG_TABLE",
+                "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 8b(5) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Date / Entry #",
-                  "Activity / Observation / Metric",
-                  "Measured Result / Notes",
-                  "Verifier Initials"
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Entry 1",
-                  "Entry 2",
-                  "Entry 3",
-                  "Entry 4",
-                  "Entry 5"
+                  "(a) Bedding Plants",
+                  "(1) Grow bedding plants appropriate for your area in pots or flats from seed",
+                  "(2) Transplant plants to a bed in the landscape and maintain the bed until",
+                  "(3) Demonstrate mulching, fertilizing, watering, weeding, and deadheading",
+                  "(4) Tell some differences between gardening with annuals and perennials",
+                  "(b) Fruit, Berry, and Nut Crops"
                 ],
-                "min_rows": 5,
-                "pre_approval_gate": false
+                "min_rows": 6,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8b(5) is enough for Plant Science Requirement 8b(5) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8b(5) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8b(5) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on bedding plants.",
+                "fact": "Scouts must explain bedding plants using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must explain bedding plants using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -2329,24 +2448,31 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 8b Differential Comparison Matrix",
             "headers": [
               "Concept / Method A",
               "Concept / Method B",
               "Key Field Distinction & When to Use"
             ],
-            "row_labels": [
-              "Primary Mechanism",
-              "Field Indicator",
-              "Safety / Application"
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
             ],
-            "min_rows": 3,
+            "row_labels": [
+              "(1) Visit one of the following places and tell what you learned",
+              "(2) Explain the following terms: hardiness zone, shade tolerance, pH, moisture",
+              "(3) Do ONE of the following",
+              "(a) Explain the difference between vegetative and sexual propagation methods"
+            ],
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8b is enough for Plant Science Requirement 8b sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 8b grounded in the official Plant Science pamphlet.",
-            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 8b grounded in the official Plant Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit one of the following places and tell what you learned.",
+            "fact": "Scouts must visit visit one of the following places and tell what you learned using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+            "fact_correction": "Scouts must visit visit one of the following places and tell what you learned using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
             "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
           },
           "starting_requirement_gate": null,
@@ -2421,28 +2547,29 @@
               ],
               "syllabus_bucket": "Pre-Class Prerequisite",
               "workbook_organizer": {
-                "organizer_type": "TIME_SERIES_LOG_TABLE",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 8c(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Date / Entry #",
-                  "Activity / Observation / Metric",
-                  "Measured Result / Notes",
-                  "Verifier Initials"
+                  "Req 8c(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 8c(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Entry 1",
-                  "Entry 2",
-                  "Entry 3",
-                  "Entry 4",
-                  "Entry 5"
+                  "(a) Determine which species of plants are the largest and which are the most",
+                  "(b) Using information from maps, textbooks, or the internet, describe",
+                  "(c) Record any differences in the types of plants you see at the edge"
                 ],
-                "min_rows": 5,
+                "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8c(1) is enough for Plant Science Requirement 8c(1) sign-off.",
-                "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 8c(1) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 8c(1) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on determine which species of plants are the largest and which are the most.",
+                "fact": "Scouts must visit determine which species of plants are the largest and which are the most using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must visit determine which species of plants are the largest and which are the most using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -2484,26 +2611,33 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 8c(2) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "1. Select a study site that is at least 100 by 100 feet",
+                  "2. Make a list of 10 woody plants (trees and shrubs) and 10 non-woody plants",
+                  "3. Find out which of these are native plants and which are exotic (or non-native)"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8c(2) is enough for Plant Science Requirement 8c(2) sign-off.",
-                "fact": "Each Scout must actively make the specific principles and real-world steps of Req 8c(2) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 8c(2) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on select a study site that is at least 100 by 100 feet.",
+                "fact": "Scouts must make select a study site that is at least 100 by 100 feet using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must make select a study site that is at least 100 by 100 feet using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -2549,24 +2683,29 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
+                "table_title": "Req 8c(3) Differential Comparison Matrix",
                 "headers": [
                   "Concept / Method A",
                   "Concept / Method B",
                   "Key Field Distinction & When to Use"
                 ],
-                "row_labels": [
-                  "Primary Mechanism",
-                  "Field Indicator",
-                  "Safety / Application"
+                "column_headers": [
+                  "Concept / Method A",
+                  "Concept / Method B",
+                  "Key Field Distinction & When to Use"
                 ],
-                "min_rows": 3,
+                "row_labels": [
+                  "1. Tell how an identification key works and use a simple key to identify",
+                  "2. Tell the difference between common and scientific names and tell why"
+                ],
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8c(3) is enough for Plant Science Requirement 8c(3) sign-off.",
-                "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 8c(3) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 8c(3) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell how an identification key works and use a simple key to identify.",
+                "fact": "Scouts must identify tell how an identification key works and use a simple key to identify using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must identify tell how an identification key works and use a simple key to identify using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -2608,23 +2747,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 8c(4) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 8c(4) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 8c(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 8c(4) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. After gaining permission, collect, identify, press, mount, and label",
+                  "2. Tell why voucher specimens are important for documentation of a field"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8c(4) is enough for Plant Science Requirement 8c(4) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c(4) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c(4) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on after gaining permission, collect, identify, press, mount, and label.",
+                "fact": "Scouts must explain after gaining permission, collect, identify, press, mount, and label using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must explain after gaining permission, collect, identify, press, mount, and label using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -2666,23 +2809,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 8c(5) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 8c(5) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 8c(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 8c(5) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Obtain a list of rare plants of your state",
+                  "2. Tell what is being done to protect rare plants and natural areas in your state",
+                  "3. Write a paragraph about one of the rare plants in your state"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8c(5) is enough for Plant Science Requirement 8c(5) sign-off.",
-                "fact": "Each Scout must actively list the specific principles and real-world steps of Req 8c(5) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 8c(5) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on obtain a list of rare plants of your state.",
+                "fact": "Scouts must list obtain a list of rare plants of your state using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must list obtain a list of rare plants of your state using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": null,
@@ -2999,28 +3147,32 @@
               ],
               "syllabus_bucket": "Pre-Class Prerequisite",
               "workbook_organizer": {
-                "organizer_type": "TIME_SERIES_LOG_TABLE",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 8c(6) Structured Study & Explanation Notes",
                 "headers": [
-                  "Date / Entry #",
-                  "Activity / Observation / Metric",
-                  "Measured Result / Notes",
-                  "Verifier Initials"
+                  "Req 8c(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 8c(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Entry 1",
-                  "Entry 2",
-                  "Entry 3",
-                  "Entry 4",
-                  "Entry 5"
+                  "(a) Tree Inventory",
+                  "(1) Identify the trees of your neighborhood, a park, a section of your town",
+                  "(2) Collect, press, and label leaves, flowers, or fruits to document your",
+                  "(3) List the types of trees by scientific name and give common names",
+                  "(4) Show two or more people how to use a leaf or twig key to identify at least",
+                  "(b) Transect Study"
                 ],
-                "min_rows": 5,
+                "min_rows": 6,
                 "pre_approval_gate": true
               },
               "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 8c(6) is enough for Plant Science Requirement 8c(6) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8c(6) grounded in the official Plant Science pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8c(6) grounded in the official Plant Science pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tree inventory.",
+                "fact": "Scouts must explain tree inventory using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+                "fact_correction": "Scouts must explain tree inventory using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
                 "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
               },
               "starting_requirement_gate": {
@@ -3057,24 +3209,31 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 8c Differential Comparison Matrix",
             "headers": [
               "Concept / Method A",
               "Concept / Method B",
               "Key Field Distinction & When to Use"
             ],
-            "row_labels": [
-              "Primary Mechanism",
-              "Field Indicator",
-              "Safety / Application"
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
             ],
-            "min_rows": 3,
+            "row_labels": [
+              "(1) Visit a park, forest, Scout camp, or other natural area near your home",
+              "(a) Determine which species of plants are the largest and which are the most",
+              "(b) Using information from maps, textbooks, or the internet, describe",
+              "(c) Record any differences in the types of plants you see at the edge"
+            ],
+            "min_rows": 4,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8c is enough for Plant Science Requirement 8c sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 8c grounded in the official Plant Science pamphlet.",
-            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 8c grounded in the official Plant Science pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit a park, forest, scout camp, or other natural area near your home.",
+            "fact": "Scouts must visit visit a park, forest, scout camp, or other natural area near your home using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
+            "fact_correction": "Scouts must visit visit a park, forest, scout camp, or other natural area near your home using verified procedures, field evidence, and safety standards from Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88).",
             "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
           },
           "starting_requirement_gate": {
@@ -3196,23 +3355,30 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 8 Differential Comparison Matrix",
         "headers": [
           "Concept / Method A",
           "Concept / Method B",
           "Key Field Distinction & When to Use"
         ],
-        "row_labels": [
-          "Primary Mechanism",
-          "Field Indicator",
-          "Safety / Application"
+        "column_headers": [
+          "Concept / Method A",
+          "Concept / Method B",
+          "Key Field Distinction & When to Use"
         ],
-        "min_rows": 3,
+        "row_labels": [
+          "(a) Option A, Agronomy. Do ALL of the following",
+          "(1) Describe how to prepare a seedbed",
+          "(2) Make and use a seed germination tester to test 50 seeds of four",
+          "(3) Explain one important insect pest and one important disease that damage each"
+        ],
+        "min_rows": 4,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Agronomy / Horticulture / Field Botany is enough for Plant Science Requirement 8 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Agronomy / Horticulture / Field Botany grounded in the official Plant Science pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Agronomy / Horticulture / Field Botany grounded in the official Plant Science pamphlet.",
+        "misconception": "Inducing vomiting is the fastest first-aid response whenever someone swallows a household poison.",
+        "fact": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
+        "fact_correction": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
         "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)"
       },
       "starting_requirement_gate": {
@@ -3323,22 +3489,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Study & Explanation Notes",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Discuss the importance of the Leave No Trace Seven Principles and the Outdoor",
+          "2. Explain how you have followed the Leave No Trace Seven Principles"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Leave No Trace & Outdoor Ethics is enough for Plant Science Requirement 9 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Plant Science pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Leave No Trace & Outdoor Ethics grounded in the official Plant Science pamphlet.",
+        "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+        "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
         "pamphlet_page_ref": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 80, p. 88)"
       },
       "starting_requirement_gate": null,

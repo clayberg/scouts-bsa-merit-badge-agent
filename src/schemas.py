@@ -35,6 +35,23 @@ class WorkbookOrganizerType(str, Enum):
     """Verb-aligned graphic organizer types for the Fillable Scout Workbook (`BUCKY-FEAT-01`)."""
     ATOMIC_SOCRATIC_PROMPTS = "ATOMIC_SOCRATIC_PROMPTS"
     HAZARD_5COL = "HAZARD_5COL"
+    SYMPTOMS_FIRST_AID_PREVENTION_3COL = "SYMPTOMS_FIRST_AID_PREVENTION_3COL"
+    CAMPING_LOG_20NIGHT = "CAMPING_LOG_20NIGHT"
+    FITNESS_ASSESSMENT_4STAGE = "FITNESS_ASSESSMENT_4STAGE"
+    FITNESS_LOG_12WK = "FITNESS_LOG_12WK"
+    MEAL_PLANNER_AND_COST_TABLE = "MEAL_PLANNER_AND_COST_TABLE"
+    CITIZENSHIP_CIVIC_ORGANIZER = "CITIZENSHIP_CIVIC_ORGANIZER"
+    SCIENTIFIC_EXPERIMENT_SHEET = "SCIENTIFIC_EXPERIMENT_SHEET"
+    SENSORY_OBSERVATION_LOG = "SENSORY_OBSERVATION_LOG"
+    ENGINEERING_DESIGN_NOTEBOOK = "ENGINEERING_DESIGN_NOTEBOOK"
+    CAREER_EXPLORATION_CARD = "CAREER_EXPLORATION_CARD"
+    SKETCH_AND_OBSERVATION_CANVAS = "SKETCH_AND_OBSERVATION_CANVAS"
+    PHYSICAL_SKILL_VERIFICATION_RUBRIC = "PHYSICAL_SKILL_VERIFICATION_RUBRIC"
+    CAUSE_PREVENTION_MITIGATION_3COL = "CAUSE_PREVENTION_MITIGATION_3COL"
+    COMPARE_CONTRAST_2COL = "COMPARE_CONTRAST_2COL"
+    TIME_SERIES_LOG_TABLE = "TIME_SERIES_LOG_TABLE"
+    STEP_BY_STEP_CHECKLIST = "STEP_BY_STEP_CHECKLIST"
+    RULED_EXPLAIN_BOX = "RULED_EXPLAIN_BOX"
     FIRST_AID_3COL = "FIRST_AID_3COL"
     COMPARISON_2COL = "COMPARISON_2COL"
     LEDGER_13WK = "LEDGER_13WK"
@@ -63,9 +80,12 @@ class WorkbookOrganizerSpec(BaseModel):
     """Structured table/prompt layout specification for a sub-requirement in the Scout Workbook."""
     organizer_type: WorkbookOrganizerType = WorkbookOrganizerType.ATOMIC_SOCRATIC_PROMPTS
     table_title: str = Field(default="Structured Study & Preparation Notes", max_length=140)
+    headers: List[str] = Field(default_factory=list)
     column_headers: List[str] = Field(default_factory=list)
     row_labels: List[str] = Field(default_factory=list)
     sub_prompts: List[str] = Field(default_factory=list)
+    min_rows: int = 3
+    pre_approval_gate: bool = False
     requires_counselor_preapproval: bool = False
     requires_parent_permission: bool = False
     is_physical_demonstration: bool = False

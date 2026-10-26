@@ -33,26 +33,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Hiking hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Hiking prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Hiking prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Hiking hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Hiking prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Hiking prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)"
           },
           "starting_requirement_gate": null,
@@ -97,27 +108,38 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
+            ],
+            "column_headers": [
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Hypothermia",
+              "Frostbite",
+              "Dehydration",
+              "Heat exhaustion",
+              "Heatstroke",
+              "Sunburn",
+              "Hyperventilation",
+              "Altitude sickness"
             ],
-            "min_rows": 4,
+            "min_rows": 8,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Hiking Requirement 1b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Hiking pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Hiking pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)"
           },
           "starting_requirement_gate": null,
@@ -177,25 +199,36 @@
       "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Hiking hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Hiking prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Hiking prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Hiking hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Hiking prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Hiking prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)"
       },
       "starting_requirement_gate": null,
@@ -297,23 +330,31 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Study & Explanation Notes",
             "headers": [
-              "Req 2a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Proper outdoor ethics",
+              "Hiking safety in the daytime",
+              "At night",
+              "Courtesy to others",
+              "Choice of footwear",
+              "Proper care of feet"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Hiking Requirement 2a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Hiking pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a grounded in the official Hiking pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on proper outdoor ethics.",
+            "fact": "Scouts must explain proper outdoor ethics using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29).",
+            "fact_correction": "Scouts must explain proper outdoor ethics using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29).",
             "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)"
           },
           "starting_requirement_gate": null,
@@ -359,23 +400,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Study & Explanation Notes",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Read aloud or recite the Leave No Trace Seven Principles",
+              "2. Discuss why each is important while hiking"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2b is enough for Hiking Requirement 2b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b grounded in the official Hiking pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2b grounded in the official Hiking pamphlet.",
+            "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+            "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+            "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
             "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)"
           },
           "starting_requirement_gate": null,
@@ -417,23 +462,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2c Structured Study & Explanation Notes",
             "headers": [
-              "Req 2c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Read aloud or recite the Outdoor Code, and give examples of how to follow it on a hike",
+              "Pamphlet Standard & Key Facts (2c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2c is enough for Hiking Requirement 2c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Hiking pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2c grounded in the official Hiking pamphlet.",
+            "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+            "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+            "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
             "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)"
           },
           "starting_requirement_gate": null,
@@ -498,25 +548,32 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain and, where possible, show the points of good hiking practices",
+          "(b) Read aloud or recite the Leave No Trace Seven Principles, and discuss why",
+          "(c) Read aloud or recite the Outdoor Code, and give examples of how to follow it"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of And, where possible, show the points is enough for Hiking Requirement 2 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of And, where possible, show the points grounded in the official Hiking pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of And, where possible, show the points grounded in the official Hiking pamphlet.",
+        "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+        "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
         "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)"
       },
       "starting_requirement_gate": null,
@@ -544,7 +601,7 @@
         "Caring Environment: Caring for the environment is an important responsibility ofevery hiker.",
         "Leave Trace Principles: Leave No Trace is just one set of principles that canhelp you live up to that responsibility and enjoy the outdoorsfully by knowing that you.",
         "Group Plan Hike: As you and your group plan a hike, ask yourselves how youcan follow each of the principles of Leave No Trace.",
-        "Leave Trace Outdoor: Leave No Trace and The Outdoor Code are principles that help yourespect the environment and be considerate to others who areenjoying the outdoors."
+        "Leave Trace Outdoor: Leave No Trace and The Outdoor Code are principles that help you respect the environment and be considerate to others who areenjoying the outdoors."
       ],
       "step_by_step_procedure": [
         "Explain Desired Route: Explain your desired route and askhow you can best implement Leave No Trace.",
@@ -609,22 +666,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Explain how hiking is an aerobic activity",
+          "2. Develop a plan for conditioning yourself for 10-mile hikes, and describe how"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Hiking is an aerobic activity is enough for Hiking Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Hiking is an aerobic activity grounded in the official Hiking pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Hiking is an aerobic activity grounded in the official Hiking pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how hiking is an aerobic activity.",
+        "fact": "Scouts must explain explain how hiking is an aerobic activity using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 33, p. 41).",
+        "fact_correction": "Scouts must explain explain how hiking is an aerobic activity using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 33, p. 41).",
         "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 33, p. 41)"
       },
       "starting_requirement_gate": null,
@@ -650,7 +711,7 @@
       ],
       "pamphlet_excerpts": [
         "Setting Off Hike: Setting off on a hike without properly preparing can havedisastrous results.",
-        "Ready Yourphysical Condition: Make sure you are ready, from yourphysical condition to the best gear for the trip.",
+        "Ready Your physical Condition: Make sure you are ready, from your physical condition to the best gear for the trip.",
         "Want Goodshape: To enjoy hiking to the fullest, you will want to be in goodshape.",
         "Requirement Calls Developing: That is why requirement 3 calls for developing a planfor conditioning yourself."
       ],
@@ -711,23 +772,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Study & Explanation Notes",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "10-mile hike #1",
+              "Pamphlet Standard & Key Facts (4a)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Hiking Requirement 4a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Hiking pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4a grounded in the official Hiking pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on 10-mile hike #1.",
+            "fact": "Scouts must explain 10-mile hike #1 using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
+            "fact_correction": "Scouts must explain 10-mile hike #1 using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
             "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)"
           },
           "starting_requirement_gate": null,
@@ -764,23 +830,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "10-mile hike #2",
+              "Pamphlet Standard & Key Facts (4b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Hiking Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Hiking pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Hiking pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on 10-mile hike #2.",
+            "fact": "Scouts must explain 10-mile hike #2 using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
+            "fact_correction": "Scouts must explain 10-mile hike #2 using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
             "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)"
           },
           "starting_requirement_gate": null,
@@ -817,23 +888,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4c Structured Study & Explanation Notes",
             "headers": [
-              "Req 4c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "10-mile hike #3",
+              "Pamphlet Standard & Key Facts (4c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4c is enough for Hiking Requirement 4c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Hiking pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4c grounded in the official Hiking pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on 10-mile hike #3.",
+            "fact": "Scouts must explain 10-mile hike #3 using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
+            "fact_correction": "Scouts must explain 10-mile hike #3 using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
             "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)"
           },
           "starting_requirement_gate": null,
@@ -870,23 +946,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4d Structured Study & Explanation Notes",
             "headers": [
-              "Req 4d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "10-mile hike #4",
+              "Pamphlet Standard & Key Facts (4d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4d is enough for Hiking Requirement 4d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Hiking pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Hiking pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on 10-mile hike #4.",
+            "fact": "Scouts must explain 10-mile hike #4 using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
+            "fact_correction": "Scouts must explain 10-mile hike #4 using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
             "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)"
           },
           "starting_requirement_gate": null,
@@ -923,23 +1004,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4e Structured Study & Explanation Notes",
             "headers": [
-              "Req 4e Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "20-mile hike",
+              "Pamphlet Standard & Key Facts (4e)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4e is enough for Hiking Requirement 4e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Hiking pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4e grounded in the official Hiking pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on 20-mile hike.",
+            "fact": "Scouts must explain 20-mile hike using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
+            "fact_correction": "Scouts must explain 20-mile hike using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
             "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)"
           },
           "starting_requirement_gate": null,
@@ -1000,22 +1086,29 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Study & Explanation Notes",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "(a) 10-mile hike #1",
+          "(b) 10-mile hike #2",
+          "(c) 10-mile hike #3",
+          "(d) 10-mile hike #4",
+          "(e) 20-mile hike 10-mile hike #1 10-mile hike #2 10-mile hike #3 10-mile hike"
         ],
-        "min_rows": 3,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Take four 10-mile hikes is enough for Hiking Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Take four 10-mile hikes grounded in the official Hiking pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Take four 10-mile hikes grounded in the official Hiking pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on 10-mile hike #1.",
+        "fact": "Scouts must explain 10-mile hike #1 using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
+        "fact_correction": "Scouts must explain 10-mile hike #1 using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
         "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)"
       },
       "starting_requirement_gate": null,
@@ -1099,22 +1192,28 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. After each of the hikes (or during each hike if on one continuous trek)",
+          "2. For each hike, give the date and description (or map) of the route covered",
+          "3. It may include something you learned about yourself, about the outdoors",
+          "4. Share this with your counselor"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of After each of the hikes is enough for Hiking Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of After each of the hikes grounded in the official Hiking pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of After each of the hikes grounded in the official Hiking pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on after each of the hikes (or during each hike if on one continuous trek).",
+        "fact": "Scouts must explain after each of the hikes (or during each hike if on one continuous trek) using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
+        "fact_correction": "Scouts must explain after each of the hikes (or during each hike if on one continuous trek) using verified procedures, field evidence, and safety standards from Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43).",
         "pamphlet_page_ref": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)"
       },
       "starting_requirement_gate": null,

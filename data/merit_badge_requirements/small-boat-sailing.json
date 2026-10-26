@@ -32,26 +32,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Small-Boat Sailing hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Small-Boat Sailing prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Small-Boat Sailing prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Small-Boat Sailing hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Small-Boat Sailing prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Small-Boat Sailing prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": {
@@ -114,23 +125,31 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Study & Explanation Notes",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Injuries",
+              "Illnesses that can occur while sailing: blisters",
+              "Cold-water shock",
+              "Hypothermia",
+              "Dehydration",
+              "Heat-related illnesses"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Small-Boat Sailing Requirement 1b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -172,23 +191,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss the Scouting America Safety Afloat policy",
+              "2. Tell how it applies to small-boat sailing activities"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1c is enough for Small-Boat Sailing Requirement 1c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 1c grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the scouting america safety afloat policy.",
+            "fact": "Scouts must discuss discuss the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must discuss discuss the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -264,25 +287,36 @@
       "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Small-Boat Sailing hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Small-Boat Sailing prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Small-Boat Sailing prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Small-Boat Sailing hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Small-Boat Sailing prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Small-Boat Sailing prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "starting_requirement_gate": {
@@ -399,22 +433,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Before doing the following requirements, successfully complete",
+          "2. Key Pamphlet Examples & Evidence (Req 2)",
+          "3. Practical Explain & Safety Verification"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Scouting America Merit Badge Reference Guide: Small-Boat Sailing is enough for Small-Boat Sailing Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Scouting America Merit Badge Reference Guide: Small-Boat Sailing grounded in the official Small-Boat Sailing pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Scouting America Merit Badge Reference Guide: Small-Boat Sailing grounded in the official Small-Boat Sailing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing the following requirements, successfully complete.",
+        "fact": "Scouts must explain before doing the following requirements, successfully complete using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+        "fact_correction": "Scouts must explain before doing the following requirements, successfully complete using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
         "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "starting_requirement_gate": {
@@ -508,25 +547,33 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Describe the boat you will be using for the sailing requirement, naming all",
+          "2. Sailboards are not acceptable",
+          "3. While no specific sail plan is recommended, it is suggested that the craft",
+          "4. The boat must be capsizable and have the capability of sailing to windward"
         ],
         "min_rows": 4,
-        "pre_approval_gate": false
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Boat you is enough for Small-Boat Sailing Requirement 3 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of Boat you grounded in the official Small-Boat Sailing pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Boat you grounded in the official Small-Boat Sailing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the boat you will be using for the sailing requirement, naming all.",
+        "fact": "Scouts must describe describe the boat you will be using for the sailing requirement, naming all using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+        "fact_correction": "Scouts must describe describe the boat you will be using for the sailing requirement, naming all using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
         "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "starting_requirement_gate": null,
@@ -618,23 +665,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Study & Explanation Notes",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Discuss the nine points of the Scouting America Safety Afloat plan",
+              "Pamphlet Standard & Key Facts (4a)",
+              "Field Application & Counselor Verification (Discuss)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Small-Boat Sailing Requirement 4a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4a grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4a grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the nine points of the scouting america safety afloat plan.",
+            "fact": "Scouts must discuss discuss the nine points of the scouting america safety afloat plan using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must discuss discuss the nine points of the scouting america safety afloat plan using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -676,23 +728,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Explain the rules of the road in general and any specific rules or laws",
+              "2. Key Pamphlet Examples & Evidence (Req 4b)",
+              "3. Practical Explain & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Small-Boat Sailing Requirement 4b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4b grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the rules of the road in general and any specific rules or laws.",
+            "fact": "Scouts must explain explain the rules of the road in general and any specific rules or laws using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must explain explain the rules of the road in general and any specific rules or laws using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -729,26 +786,32 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Explain how water conditions, the hazards of weather",
+              "2. Heavy winds can affect both safety and performance in sailing"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Small-Boat Sailing hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Small-Boat Sailing prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Small-Boat Sailing prevents most field injuries.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how water conditions, the hazards of weather.",
+            "fact": "Scouts must explain explain how water conditions, the hazards of weather using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must explain explain how water conditions, the hazards of weather using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -798,23 +861,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4d Structured Study & Explanation Notes",
             "headers": [
-              "Req 4d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss the warning signs of inclement weather and what",
+              "2. Key Pamphlet Examples & Evidence (Req 4d)",
+              "3. Practical Discuss & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4d is enough for Small-Boat Sailing Requirement 4d sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4d grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4d grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the warning signs of inclement weather and what.",
+            "fact": "Scouts must discuss discuss the warning signs of inclement weather and what using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must discuss discuss the warning signs of inclement weather and what using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -860,26 +928,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 4e Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Prepare a typical float plan",
+              "Pamphlet Standard & Key Facts (4e)",
+              "Field Application & Counselor Verification (Prepare)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4e is enough for Small-Boat Sailing Requirement 4e sign-off.",
-            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 4e grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Req 4e grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on prepare a typical float plan.",
+            "fact": "Scouts must prepare prepare a typical float plan using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must prepare prepare a typical float plan using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -921,23 +996,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4f Structured Study & Explanation Notes",
             "headers": [
-              "Req 4f Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss the proper clothing, footwear, and personal gear required",
+              "2. Explain how choosing the proper clothing, footwear, and personal gear"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4f is enough for Small-Boat Sailing Requirement 4f sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4f grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4f grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the proper clothing, footwear, and personal gear required.",
+            "fact": "Scouts must discuss discuss the proper clothing, footwear, and personal gear required using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must discuss discuss the proper clothing, footwear, and personal gear required using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -1018,25 +1097,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Discuss the nine points of the Scouting America Safety Afloat plan",
+          "(b) Explain the rules of the road in general and any specific rules or laws",
+          "(c) Explain how water conditions, the hazards of weather, and heavy winds",
+          "(d) Discuss the warning signs of inclement weather and what to do should heavy",
+          "(e) Prepare a typical float plan",
+          "(f) Discuss the proper clothing, footwear, and personal gear required"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Small-Boat Sailing hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Small-Boat Sailing prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Small-Boat Sailing prevents most field injuries.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the nine points of the scouting america safety afloat plan.",
+        "fact": "Scouts must discuss discuss the nine points of the scouting america safety afloat plan using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+        "fact_correction": "Scouts must discuss discuss the nine points of the scouting america safety afloat plan using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
         "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "starting_requirement_gate": null,
@@ -1125,22 +1214,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Discuss with your counselor how to identify the wind direction and wind",
+          "2. Explain the importance of this task before setting sail"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of How to identify the wind direction is enough for Small-Boat Sailing Requirement 5 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of How to identify the wind direction grounded in the official Small-Boat Sailing pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of How to identify the wind direction grounded in the official Small-Boat Sailing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor how to identify the wind direction and wind.",
+        "fact": "Scouts must discuss discuss with your counselor how to identify the wind direction and wind using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+        "fact_correction": "Scouts must discuss discuss with your counselor how to identify the wind direction and wind using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
         "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "starting_requirement_gate": null,
@@ -1214,26 +1307,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 6a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Prepare a boat for sailing, including a safety inspection",
+              "Pamphlet Standard & Key Facts (6a)",
+              "Field Application & Counselor Verification (Prepare)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6a is enough for Small-Boat Sailing Requirement 6a sign-off.",
-            "fact": "Each Scout must actively prepare the specific principles and real-world steps of Req 6a grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively prepare the specific principles and real-world steps of Req 6a grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on prepare a boat for sailing, including a safety inspection.",
+            "fact": "Scouts must prepare prepare a boat for sailing, including a safety inspection using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must prepare prepare a boat for sailing, including a safety inspection using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -1275,23 +1375,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Study & Explanation Notes",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Get underway from a dock, mooring, or beach",
+              "Pamphlet Standard & Key Facts (6b)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Small-Boat Sailing Requirement 6b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on get underway from a dock, mooring, or beach.",
+            "fact": "Scouts must explain get underway from a dock, mooring, or beach using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must explain get underway from a dock, mooring, or beach using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -1345,26 +1450,32 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 6c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Properly set sails for a round-trip course approved by your counselor",
+              "2. While sailing, demonstrate good helmsmanship skills"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": true
+            "min_rows": 2,
+            "pre_approval_gate": true,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6c is enough for Small-Boat Sailing Requirement 6c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6c grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on properly set sails for a round-trip course approved by your counselor.",
+            "fact": "Scouts must explain properly set sails for a round-trip course approved by your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must explain properly set sails for a round-trip course approved by your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": {
@@ -1415,23 +1526,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6d Structured Study & Explanation Notes",
             "headers": [
-              "Req 6d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Change direction by tacking",
+              "2. Change direction by jibing"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6d is enough for Small-Boat Sailing Requirement 6d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on change direction by tacking.",
+            "fact": "Scouts must explain change direction by tacking using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must explain change direction by tacking using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -1467,27 +1582,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 6e Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate getting out of irons",
+              "Pamphlet Standard & Key Facts (6e)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6e is enough for Small-Boat Sailing Requirement 6e sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6e grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6e grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate getting out of irons.",
+            "fact": "Scouts must demonstrate demonstrate getting out of irons using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must demonstrate demonstrate getting out of irons using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -1523,27 +1645,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 6f Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate the safety position",
+              "Pamphlet Standard & Key Facts (6f)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6f is enough for Small-Boat Sailing Requirement 6f sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6f grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6f grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the safety position.",
+            "fact": "Scouts must demonstrate demonstrate the safety position using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must demonstrate demonstrate the safety position using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -1584,27 +1713,35 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 6g Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Demonstrate capsize procedures and the rescue of a person overboard",
+              "2. A rescue boat should be standing by to assist, if necessary, and to tow",
+              "3. Self-bailing boats are acceptable for this requirement",
+              "4. Extreme care should be taken to avoid personal injury and damage to the boat"
             ],
             "min_rows": 4,
-            "pre_approval_gate": false
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6g is enough for Small-Boat Sailing Requirement 6g sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6g grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6g grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate capsize procedures and the rescue of a person overboard.",
+            "fact": "Scouts must demonstrate demonstrate capsize procedures and the rescue of a person overboard using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must demonstrate demonstrate capsize procedures and the rescue of a person overboard using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -1645,27 +1782,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 6h Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Demonstrate the procedure to take after running aground",
+              "Pamphlet Standard & Key Facts (6h)",
+              "Field Application & Counselor Verification (Demonstrate)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6h is enough for Small-Boat Sailing Requirement 6h sign-off.",
-            "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6h grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 6h grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate the procedure to take after running aground.",
+            "fact": "Scouts must demonstrate demonstrate the procedure to take after running aground using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must demonstrate demonstrate the procedure to take after running aground using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -1702,23 +1846,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6i Structured Study & Explanation Notes",
             "headers": [
-              "Req 6i Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6i Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6i Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths",
+              "Pamphlet Standard & Key Facts (6i)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6i is enough for Small-Boat Sailing Requirement 6i sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6i grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6i grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths.",
+            "fact": "Scouts must explain accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must explain accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -1755,23 +1904,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6j Structured Study & Explanation Notes",
             "headers": [
-              "Req 6j Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6j Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6j Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Upon returning to the dock, mooring",
+              "2. Beach, properly secure all equipment, furl or stow sails",
+              "3. Prepare the craft for unattended docking or beaching overnight or longer"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6j is enough for Small-Boat Sailing Requirement 6j sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6j grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6j grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on upon returning to the dock, mooring.",
+            "fact": "Scouts must explain upon returning to the dock, mooring using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+            "fact_correction": "Scouts must explain upon returning to the dock, mooring using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
           },
           "starting_requirement_gate": null,
@@ -1856,25 +2010,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 6 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Prepare a boat for sailing, including a safety inspection",
+          "(b) Get underway from a dock, mooring, or beach",
+          "(c) Properly set sails for a round-trip course approved by your counselor",
+          "(d) Change direction by tacking; change direction by jibing",
+          "(e) Demonstrate getting out of irons",
+          "(f) Demonstrate the safety position"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": true
+        "min_rows": 6,
+        "pre_approval_gate": true,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Scouting America Merit Badge Reference Guide: Small-Boat Sailing is enough for Small-Boat Sailing Requirement 6 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of Scouting America Merit Badge Reference Guide: Small-Boat Sailing grounded in the official Small-Boat Sailing pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Scouting America Merit Badge Reference Guide: Small-Boat Sailing grounded in the official Small-Boat Sailing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on prepare a boat for sailing, including a safety inspection.",
+        "fact": "Scouts must show prepare a boat for sailing, including a safety inspection using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+        "fact_correction": "Scouts must show prepare a boat for sailing, including a safety inspection using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
         "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "starting_requirement_gate": {
@@ -1961,27 +2125,33 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 7a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline",
+              "2. Demonstrate the use of each"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Small-Boat Sailing Requirement 7a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7a grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7a grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to tie a square (reef) knot, clove hitch, two half hitches, bowline.",
+            "fact": "Scouts must show show how to tie a square (reef) knot, clove hitch, two half hitches, bowline using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8).",
+            "fact_correction": "Scouts must show show how to tie a square (reef) knot, clove hitch, two half hitches, bowline using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
@@ -2026,27 +2196,34 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+            "table_title": "Req 7b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Show how to heave a line, coil a line, and fake down a line",
+              "Pamphlet Standard & Key Facts (7b)",
+              "Field Application & Counselor Verification (Show)"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Small-Boat Sailing Requirement 7b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 7b grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 7b grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to heave a line, coil a line, and fake down a line.",
+            "fact": "Scouts must show show how to heave a line, coil a line, and fake down a line using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8).",
+            "fact_correction": "Scouts must show show how to heave a line, coil a line, and fake down a line using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
@@ -2088,23 +2265,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7c Structured Study & Explanation Notes",
             "headers": [
-              "Req 7c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss the kinds of lines used on sailboats and the types of fibers used",
+              "2. Explain the advantages and disadvantages of each"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7c is enough for Small-Boat Sailing Requirement 7c sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c grounded in the official Small-Boat Sailing pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 7c grounded in the official Small-Boat Sailing pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the kinds of lines used on sailboats and the types of fibers used.",
+            "fact": "Scouts must discuss discuss the kinds of lines used on sailboats and the types of fibers used using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8).",
+            "fact_correction": "Scouts must discuss discuss the kinds of lines used on sailboats and the types of fibers used using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8).",
             "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)"
           },
           "starting_requirement_gate": null,
@@ -2172,26 +2353,33 @@
       "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
+        "table_title": "Req 7 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline",
+          "(b) Show how to heave a line, coil a line, and fake down a line",
+          "(c) Discuss the kinds of lines used on sailboats and the types of fibers used"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of A working knowledge of marlinespike seamanship is enough for Small-Boat Sailing Requirement 7 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of A working knowledge of marlinespike seamanship grounded in the official Small-Boat Sailing pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of A working knowledge of marlinespike seamanship grounded in the official Small-Boat Sailing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show how to tie a square (reef) knot, clove hitch, two half hitches, bowline.",
+        "fact": "Scouts must demonstrate show how to tie a square (reef) knot, clove hitch, two half hitches, bowline using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8).",
+        "fact_correction": "Scouts must demonstrate show how to tie a square (reef) knot, clove hitch, two half hitches, bowline using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8).",
         "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "starting_requirement_gate": null,
@@ -2275,22 +2463,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 8 Structured Study & Explanation Notes",
         "headers": [
-          "Req 8 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Describe how you would care for and maintain a sailboat and its gear throughout the year",
+          "Pamphlet Standard & Key Facts (8)",
+          "Field Application & Counselor Verification (Describe)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of You would care for and maintain is enough for Small-Boat Sailing Requirement 8 sign-off.",
-        "fact": "Each Scout must actively describe the specific principles and real-world steps of You would care for and maintain grounded in the official Small-Boat Sailing pamphlet.",
-        "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of You would care for and maintain grounded in the official Small-Boat Sailing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe how you would care for and maintain a sailboat and its gear throughout the year.",
+        "fact": "Scouts must describe describe how you would care for and maintain a sailboat and its gear throughout the year using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
+        "fact_correction": "Scouts must describe describe how you would care for and maintain a sailboat and its gear throughout the year using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7).",
         "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "starting_requirement_gate": null,
@@ -2374,22 +2567,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Study & Explanation Notes",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 9 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. With your counselor, review sailing terminology and the points of sail",
+          "2. Discuss various types of sailboats in use today and explain their differences"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With your counselor, review sailing terminology is enough for Small-Boat Sailing Requirement 9 sign-off.",
-        "fact": "Each Scout must actively discuss the specific principles and real-world steps of With your counselor, review sailing terminology grounded in the official Small-Boat Sailing pamphlet.",
-        "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of With your counselor, review sailing terminology grounded in the official Small-Boat Sailing pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your counselor, review sailing terminology and the points of sail.",
+        "fact": "Scouts must discuss with your counselor, review sailing terminology and the points of sail using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 8).",
+        "fact_correction": "Scouts must discuss with your counselor, review sailing terminology and the points of sail using verified procedures, field evidence, and safety standards from Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 8).",
         "pamphlet_page_ref": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 8)"
       },
       "starting_requirement_gate": null,

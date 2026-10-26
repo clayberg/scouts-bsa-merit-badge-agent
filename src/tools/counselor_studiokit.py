@@ -678,9 +678,9 @@ def generate_class_preparation_page_cpp(
         md_lines.append(f"- [ ] {bi}")
 
     md_lines.extend(["", "## 4. What We Will Complete Together in Class"])
-    for ir in in_class_reqs[:8]:
+    for ir in in_class_reqs:
         md_lines.append(
-            f"- **Req {ir.get('req_number')} ({ir.get('syllabus_bucket', 'In-Class')}):** {ir.get('topic_title') or ir.get('req_text', '')[:90]}"
+            f"- **Req {ir.get('req_number')} ({ir.get('syllabus_bucket', 'In-Class')}):** {ir.get('topic_title') or ir.get('req_text', '')}"
         )
 
     gates_html = "".join(
@@ -695,8 +695,8 @@ def generate_class_preparation_page_cpp(
 
     bring_html = "".join(f"<li>☐ {_html.escape(str(bi))}</li>" for bi in bring_items)
     in_class_html = "".join(
-        f"<li><strong>Req {_html.escape(str(ir.get('req_number')))} ({_html.escape(str(ir.get('syllabus_bucket', 'In-Class')))}):</strong> {_html.escape(str(ir.get('topic_title') or ir.get('req_text', '')[:90]))}</li>"
-        for ir in in_class_reqs[:8]
+        f"<li><strong>Req {_html.escape(str(ir.get('req_number')))} ({_html.escape(str(ir.get('syllabus_bucket', 'In-Class')))}):</strong> {_html.escape(str(ir.get('topic_title') or ir.get('req_text', '')))}</li>"
+        for ir in in_class_reqs
     )
 
     cpp_html = f"""<!DOCTYPE html>
@@ -916,6 +916,162 @@ def generate_three_stage_ypt_communication_pack(
     }
 
 
+def _sanitize_pdf_text(text: str) -> str:
+    """Replaces Unicode symbols outside WinAnsiEncoding / Latin-1 with clean ASCII equivalents for Base-14 PDF fonts."""
+    if not text:
+        return ""
+    replacements = (
+        ("•", "-"),
+        ("‣", "-"),
+        ("▪", "-"),
+        ("◦", "-"),
+        ("●", "-"),
+        ("☐", "[ ]"),
+        ("☑", "[x]"),
+        ("✓", "[x]"),
+        ("✔", "[x]"),
+        ("✅", "[x]"),
+        ("—", "-"),
+        ("–", "-"),
+        ("−", "-"),
+        ("“", '"'),
+        ("”", '"'),
+        ("‘", "'"),
+        ("’", "'"),
+        ("…", "..."),
+        ("§", "Sec. "),
+        ("→", "->"),
+        ("\u00a0", " "),
+    )
+    out = str(text)
+    for src, dst in replacements:
+        out = out.replace(src, dst)
+    out = out.encode("latin-1", errors="ignore").decode("latin-1")
+    return "".join(ch for ch in out if ch == "\n" or ch == "\t" or 32 <= ord(ch) <= 255)
+
+
+def _wrap_pdf_lines(
+    text: str,
+    max_width: float,
+    fontname: str = "helv",
+    fontsize: float = 8.0,
+) -> List[str]:
+    """Word-wraps sanitized text using exact PyMuPDF font metrics so every line fits inside `max_width`."""
+    import fitz
+
+    clean = _sanitize_pdf_text(text)
+    if not clean.strip():
+        return []
+    usable_width = max(40.0, float(max_width) - 4.0)
+    wrapped: List[str] = []
+    for raw_para in clean.splitlines():
+        para = raw_para.strip()
+        if not para:
+            wrapped.append("")
+            continue
+        words = para.split(" ")
+        cur_line = ""
+        for word in words:
+            if not word:
+                continue
+            # Break single ultra-long unbroken tokens (e.g. URLs) if needed
+            if fitz.get_text_length(word, fontname=fontname, fontsize=fontsize) > usable_width:
+                if cur_line:
+                    wrapped.append(cur_line)
+                    cur_line = ""
+                chunk = ""
+                for ch in word:
+                    cand_chunk = chunk + ch
+                    if fitz.get_text_length(cand_chunk, fontname=fontname, fontsize=fontsize) <= usable_width:
+                        chunk = cand_chunk
+                    else:
+                        if chunk:
+                            wrapped.append(chunk)
+                        chunk = ch
+                cur_line = chunk
+                continue
+            cand = f"{cur_line} {word}".strip() if cur_line else word
+            if fitz.get_text_length(cand, fontname=fontname, fontsize=fontsize) <= usable_width:
+                cur_line = cand
+            else:
+                if cur_line:
+                    wrapped.append(cur_line)
+                cur_line = word
+        if cur_line:
+            wrapped.append(cur_line)
+    return wrapped
+
+
+def _insert_wrapped_pdf_text(
+    doc: Any,
+    page: Any,
+    y_cursor: float,
+    x0: float,
+    x1: float,
+    text: str,
+    fontsize: float = 8.0,
+    fontname: str = "helv",
+    color: tuple[float, float, float] = (0.1, 0.14, 0.2),
+    bg_fill: Optional[tuple[float, float, float]] = None,
+    border_color: Optional[tuple[float, float, float]] = None,
+    pad_x: float = 5.0,
+    pad_y: float = 3.5,
+    max_y: float = 752.0,
+) -> tuple[Any, float]:
+    """Renders wrapped multi-line text onto `page`, dynamically growing box height and paginating across pages so 0 text is ever dropped."""
+    import fitz
+
+    lines = _wrap_pdf_lines(text, (x1 - x0) - 2.0 * pad_x, fontname=fontname, fontsize=fontsize)
+    if not lines:
+        return page, y_cursor
+
+    line_h = max(10.0, fontsize * 1.32)
+    total_h = len(lines) * line_h + 2.0 * pad_y
+    page_usable_h = max_y - 36.0
+
+    # If the block fits on a single page cleanly but overflows the remaining space on the current page, start a new page first
+    if total_h <= page_usable_h and (y_cursor + total_h > max_y):
+        page = doc.new_page(width=612, height=792)
+        y_cursor = 36.0
+
+    idx = 0
+    total_lines = len(lines)
+    while idx < total_lines:
+        avail_h = max_y - y_cursor
+        max_lines_here = int((avail_h - 2.0 * pad_y) // line_h)
+        if max_lines_here < 1:
+            page = doc.new_page(width=612, height=792)
+            y_cursor = 36.0
+            avail_h = max_y - y_cursor
+            max_lines_here = max(1, int((avail_h - 2.0 * pad_y) // line_h))
+
+        chunk = lines[idx : idx + max_lines_here]
+        box_h = len(chunk) * line_h + 2.0 * pad_y
+        if bg_fill is not None or border_color is not None:
+            page.draw_rect(
+                fitz.Rect(x0, y_cursor, x1, y_cursor + box_h),
+                color=border_color or bg_fill,
+                fill=bg_fill,
+            )
+        for line_idx, line_str in enumerate(chunk):
+            if line_str:
+                baseline_y = y_cursor + pad_y + (line_idx + 0.82) * line_h
+                page.insert_text(
+                    fitz.Point(x0 + pad_x, baseline_y),
+                    line_str,
+                    fontsize=fontsize,
+                    fontname=fontname,
+                    color=color,
+                )
+        y_cursor += box_h + 2.0
+        idx += len(chunk)
+        if idx < total_lines:
+            page = doc.new_page(width=612, height=792)
+            y_cursor = 36.0
+
+    return page, y_cursor
+
+
 def generate_fillable_scout_workbook_pdf(
     badge_name: str,
     counselor_info: Optional[Dict[str, Any]] = None,
@@ -927,8 +1083,10 @@ def generate_fillable_scout_workbook_pdf(
     Includes:
     - Scouting America Guide to Advancement Section 7.0.3.2 compliance notice banner.
     - Interactive AcroForm text fields (`Scout Name`, `Troop & Council`, `BSA Member ID`, `Counselor Name`).
-    - Per-requirement verbatim text, verb-aligned organizer prompts, interactive multi-line AcroForm notes field,
-      and Counselor Sign-Off checkbox (`fitz.Widget`).
+    - Unrolled sub-requirements (`1a`, `1b`, `2a`, `2b1`, etc.) with parent requirement group banners.
+    - Full verbatim requirement text (zero mid-word truncation or overflow drops), pamphlet fact-vs-myth callout,
+      counselor pre-approval gate checkboxes, interactive gear checklist checkboxes, bordered dot-grid sketch canvases,
+      structured multi-row/multi-column graphic organizer tables with per-row AcroForm text fields, and Counselor Sign-Off checkboxes.
     """
     import fitz
 
@@ -936,6 +1094,7 @@ def generate_fillable_scout_workbook_pdf(
     from src.tools.scouting_scraper import (
         CounselorTitleSlideInfo,
         MeritBadgeResearchRequest,
+        _iter_unrolled_workbook_units,
         fetch_merit_badge_pamphlet_pdf,
     )
 
@@ -949,9 +1108,9 @@ def generate_fillable_scout_workbook_pdf(
     resolved_badge = str(res.get("badge_name") or badge_name)
     reqs = list(res.get("requirements") or [])
     c_info = counselor_info or {}
-    c_name = str(c_info.get("counselor_name") or "Merit Badge Counselor")
-    c_troop = str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council")
-    dates_str = " | ".join(session_dates) if session_dates else "Sessions 1-4 + Make-Up Day"
+    c_name = _sanitize_pdf_text(str(c_info.get("counselor_name") or "Merit Badge Counselor"))
+    c_troop = _sanitize_pdf_text(str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council"))
+    dates_str = _sanitize_pdf_text(" | ".join(session_dates) if session_dates else "Sessions 1-4 + Make-Up Day")
 
     doc = fitz.open()
     page = doc.new_page(width=612, height=792)
@@ -960,35 +1119,42 @@ def generate_fillable_scout_workbook_pdf(
     page.draw_rect(fitz.Rect(28, 24, 584, 76), color=(0, 0.247, 0.529), fill=(0, 0.247, 0.529))
     page.insert_text(
         fitz.Point(38, 46),
-        f"{resolved_badge.upper()} MERIT BADGE — FILLABLE SCOUT WORKBOOK",
-        fontsize=13.5,
+        _sanitize_pdf_text(f"{resolved_badge.upper()} MERIT BADGE - FILLABLE SCOUT WORKBOOK"),
+        fontsize=13.0,
         fontname="helv",
         color=(1, 1, 1),
     )
     page.insert_text(
         fitz.Point(38, 64),
-        f"Counselor: {c_name} ({c_troop})  |  Track: {option_track.upper()}  |  Schedule: {dates_str}",
-        fontsize=8.5,
+        _sanitize_pdf_text(f"Counselor: {c_name} ({c_troop})  |  Track: {option_track.upper()}  |  Schedule: {dates_str}"),
+        fontsize=8.2,
         fontname="helv",
         color=(0.88, 0.94, 1.0),
     )
 
     # GTA 7.0.3.2 Compliance Banner
-    page.draw_rect(fitz.Rect(28, 82, 584, 116), color=(0.8, 0.6, 0.1), fill=(1.0, 0.98, 0.90))
-    page.insert_textbox(
-        fitz.Rect(34, 85, 578, 114),
+    y_cursor = 82.0
+    page, y_cursor = _insert_wrapped_pdf_text(
+        doc,
+        page,
+        y_cursor,
+        28.0,
+        584.0,
         "BSA Guide to Advancement Section 7.0.3.2 Notice: Merit badge workbooks are optional organizational study aids. "
         "A counselor must never require a Scout to submit a written worksheet when the official requirement specifies oral explanation, discussion, or physical demonstration.",
-        fontsize=7.8,
+        fontsize=7.6,
         fontname="helv",
         color=(0.35, 0.22, 0.02),
+        bg_fill=(1.0, 0.98, 0.90),
+        border_color=(0.8, 0.6, 0.1),
     )
+    y_cursor += 8.0
 
     # Interactive Scout Info AcroForm Fields
     id_fields = [
-        ("scout_name", "Scout Name:", "", fitz.Rect(28, 122, 195, 140)),
-        ("troop_unit", "Troop & Council:", "", fitz.Rect(205, 122, 395, 140)),
-        ("bsa_id", "BSA Member ID:", "", fitz.Rect(405, 122, 584, 140)),
+        ("scout_name", "Scout Name:", "", fitz.Rect(28, y_cursor + 8, 195, y_cursor + 24)),
+        ("troop_unit", "Troop & Council:", "", fitz.Rect(205, y_cursor + 8, 395, y_cursor + 24)),
+        ("bsa_id", "BSA Member ID:", "", fitz.Rect(405, y_cursor + 8, 584, y_cursor + 24)),
     ]
     for f_key, f_lbl, f_val, f_rect in id_fields:
         page.insert_text(fitz.Point(f_rect.x0, f_rect.y0 - 2), f_lbl, fontsize=7.5, fontname="helv", color=(0.2, 0.25, 0.33))
@@ -1002,74 +1168,250 @@ def generate_fillable_scout_workbook_pdf(
         w.text_fontsize = 8.5
         page.add_widget(w)
 
-    y_cursor = 152.0
-    for idx, r in enumerate(reqs, start=1):
-        if y_cursor > 650.0:
-            page = doc.new_page(width=612, height=792)
-            y_cursor = 36.0
-
-        r_num = str(r.get("req_number") or str(idx))
-        r_title = str(r.get("topic_title") or f"Requirement {r_num}")
-        r_text = str(r.get("req_text") or "")
-        r_bucket = str(r.get("syllabus_bucket") or "In-Class Concept")
-        r_cit = str(r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or "Official BSA Pamphlet")
-        org = r.get("workbook_organizer") or {}
-        org_type = str(org.get("organizer_type") or "RULED_EXPLAIN_BOX")
+    y_cursor += 34.0
+    units = _iter_unrolled_workbook_units(reqs)
+    for idx, u in enumerate(units, start=1):
+        r_num = str(u.get("req_number") or u.get("req_id") or str(idx)).strip()
+        r_title = str(u.get("topic_title") or u.get("title") or f"Requirement {r_num}").strip()
+        r_text = str(u.get("req_text") or "").strip()
+        r_bucket = str(u.get("syllabus_bucket") or "In-Class Concept").strip()
+        r_cit = str(u.get("pamphlet_page_citation") or u.get("pamphlet_citation") or "Official BSA Pamphlet").strip()
+        org = u.get("workbook_organizer") or {}
+        org_type = str(org.get("organizer_type") or "RULED_EXPLAIN_BOX").strip()
         org_label = _format_workbook_organizer_label(r_num, org_type)
         headers = [str(h) for h in (org.get("headers") or ["Concept / Step", "Scout Notes & Field Evidence"])]
         row_labels = [str(rl) for rl in (org.get("row_labels") or ["Point 1", "Point 2", "Point 3"])]
+        pre_approval_gate = bool(org.get("pre_approval_gate")) or bool(u.get("starting_requirement_gate"))
+        gear_checklist = [str(g) for g in (u.get("gear_checklist") or []) if str(g).strip()]
+        mis_pair = u.get("common_misconception_pair") or {}
 
-        # Requirement Header Bar
-        page.draw_rect(fitz.Rect(28, y_cursor, 584, y_cursor + 18), color=(0.85, 0.89, 0.95), fill=(0.93, 0.96, 0.99))
-        page.insert_text(
-            fitz.Point(34, y_cursor + 12.5),
-            f"[Req {r_num}] {r_title[:58]}   |   {r_bucket}   |   {r_cit[:34]}",
-            fontsize=8.2,
+        if u.get("is_group_header"):
+            if y_cursor > 685.0:
+                page = doc.new_page(width=612, height=792)
+                y_cursor = 36.0
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                28.0,
+                584.0,
+                f"[Requirement {r_num} Overview] {r_title}   |   {r_bucket}   |   {r_cit}",
+                fontsize=8.4,
+                fontname="helv",
+                color=(0.0, 0.20, 0.45),
+                bg_fill=(0.88, 0.93, 0.99),
+                border_color=(0.0, 0.247, 0.529),
+            )
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                32.0,
+                580.0,
+                f"Official Requirement {r_num}: {r_text}",
+                fontsize=8.0,
+                fontname="helv",
+                color=(0.08, 0.12, 0.18),
+            )
+            y_cursor += 4.0
+            continue
+
+        if y_cursor > 645.0:
+            page = doc.new_page(width=612, height=792)
+            y_cursor = 36.0
+
+        # Requirement / Sub-Requirement Header Strip (full text, zero slicing)
+        page, y_cursor = _insert_wrapped_pdf_text(
+            doc,
+            page,
+            y_cursor,
+            28.0,
+            584.0,
+            f"[Req {r_num}] {r_title}   |   {r_bucket}   |   {org_type}   |   {r_cit}",
+            fontsize=8.1,
             fontname="helv",
             color=(0.0, 0.22, 0.48),
+            bg_fill=(0.93, 0.96, 0.99),
+            border_color=(0.82, 0.88, 0.95),
         )
-        y_cursor += 21.0
 
-        # Verbatim Requirement Text
-        text_height = max(24.0, min(52.0, 14.0 * ((len(r_text) // 95) + 1)))
-        page.insert_textbox(
-            fitz.Rect(32, y_cursor, 580, y_cursor + text_height),
+        # Full Verbatim Requirement Text (dynamically wrapped and paginated)
+        page, y_cursor = _insert_wrapped_pdf_text(
+            doc,
+            page,
+            y_cursor,
+            32.0,
+            580.0,
             f"Official Requirement {r_num}: {r_text}",
             fontsize=8.0,
             fontname="helv",
             color=(0.1, 0.14, 0.2),
         )
-        y_cursor += text_height + 2.0
 
-        # Organizer Prompt & Interactive Multi-line Notes Widget
-        prompt_str = f"{org_label} ({' / '.join(headers)}): {', '.join(row_labels[:4])}"
-        page.insert_text(fitz.Point(32, y_cursor + 8), prompt_str[:108], fontsize=7.4, fontname="helv", color=(0.3, 0.36, 0.45))
-        y_cursor += 12.0
+        # Common Misconception vs Pamphlet Truth Strip
+        myth_val = str(mis_pair.get("misconception") or mis_pair.get("myth") or "").strip() if isinstance(mis_pair, dict) else ""
+        fact_val = str(mis_pair.get("fact") or mis_pair.get("fact_correction") or "").strip() if isinstance(mis_pair, dict) else ""
+        if myth_val and fact_val:
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                32.0,
+                580.0,
+                f"Common Misconception: {myth_val}  |  Pamphlet Fact: {fact_val}",
+                fontsize=7.2,
+                fontname="helv",
+                color=(0.32, 0.22, 0.04),
+                bg_fill=(1.0, 0.99, 0.94),
+                border_color=(0.90, 0.78, 0.38),
+                pad_y=2.5,
+            )
 
-        notes_rect = fitz.Rect(32, y_cursor, 515, y_cursor + 44)
-        w_notes = fitz.Widget()
-        w_notes.field_name = f"req_{r_num}_notes_{idx}"
-        w_notes.field_type = fitz.PDF_WIDGET_TYPE_TEXT
-        w_notes.field_flags = fitz.PDF_TX_FIELD_IS_MULTILINE
-        w_notes.field_value = ""
-        w_notes.rect = notes_rect
-        w_notes.border_color = (0.65, 0.72, 0.82)
-        w_notes.fill_color = (1.0, 1.0, 1.0)
-        w_notes.text_fontsize = 8.2
-        page.add_widget(w_notes)
+        # Counselor Pre-Approval Gate Box (when required before starting)
+        if pre_approval_gate:
+            if y_cursor > 715.0:
+                page = doc.new_page(width=612, height=792)
+                y_cursor = 36.0
+            gate_y0 = y_cursor
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                48.0,
+                580.0,
+                "COUNSELOR PRE-APPROVAL GATE: Obtain Counselor approval BEFORE starting this requirement/plan/experiment. Counselor Initials & Date: ____________",
+                fontsize=7.4,
+                fontname="helv",
+                color=(0.45, 0.18, 0.02),
+                bg_fill=(1.0, 0.95, 0.88),
+                border_color=(0.88, 0.48, 0.08),
+                pad_y=3.0,
+            )
+            w_gate = fitz.Widget()
+            w_gate.field_name = f"req_{r_num}_preapproval_{idx}"
+            w_gate.field_type = fitz.PDF_WIDGET_TYPE_CHECKBOX
+            w_gate.field_value = False
+            w_gate.rect = fitz.Rect(33.0, gate_y0 + 2.0, 45.0, gate_y0 + 14.0)
+            w_gate.border_color = (0.85, 0.40, 0.05)
+            page.add_widget(w_gate)
 
-        # Sign-Off Checkbox Widget
-        page.insert_text(fitz.Point(522, y_cursor + 12), "Done:", fontsize=7.5, fontname="helv", color=(0.2, 0.25, 0.33))
-        w_chk = fitz.Widget()
-        w_chk.field_name = f"req_{r_num}_done_{idx}"
-        w_chk.field_type = fitz.PDF_WIDGET_TYPE_CHECKBOX
-        w_chk.field_value = False
-        w_chk.rect = fitz.Rect(552, y_cursor + 3, 566, y_cursor + 17)
-        w_chk.border_color = (0.0, 0.25, 0.53)
-        page.add_widget(w_chk)
-        page.insert_text(fitz.Point(522, y_cursor + 32), "Init: _____", fontsize=7.5, fontname="helv", color=(0.3, 0.35, 0.42))
+        # Interactive Gear / Preparation Checklist
+        if gear_checklist:
+            for g_idx, g_item in enumerate(gear_checklist, start=1):
+                if y_cursor > 728.0:
+                    page = doc.new_page(width=612, height=792)
+                    y_cursor = 36.0
+                g_y0 = y_cursor
+                page, y_cursor = _insert_wrapped_pdf_text(
+                    doc,
+                    page,
+                    y_cursor,
+                    48.0,
+                    580.0,
+                    f"Gear / Kit Checklist: {g_item}",
+                    fontsize=7.3,
+                    fontname="helv",
+                    color=(0.18, 0.24, 0.32),
+                    pad_y=1.5,
+                )
+                w_gear = fitz.Widget()
+                w_gear.field_name = f"req_{r_num}_gear_{idx}_{g_idx}"
+                w_gear.field_type = fitz.PDF_WIDGET_TYPE_CHECKBOX
+                w_gear.field_value = False
+                w_gear.rect = fitz.Rect(33.0, g_y0 + 1.0, 44.0, g_y0 + 12.0)
+                w_gear.border_color = (0.35, 0.45, 0.58)
+                page.add_widget(w_gear)
 
-        y_cursor += 52.0
+        # Sketch & Observation Canvas (dot-grid / astronomy circle canvas)
+        low_text = r_text.lower()
+        if org_type == "SKETCH_AND_OBSERVATION_CANVAS" or any(
+            kw in low_text for kw in ("sketch", "draw", "diagram", "map", "chart the")
+        ):
+            if y_cursor + 92.0 > 748.0:
+                page = doc.new_page(width=612, height=792)
+                y_cursor = 36.0
+            canvas_rect = fitz.Rect(32.0, y_cursor, 580.0, y_cursor + 84.0)
+            page.draw_rect(canvas_rect, color=(0.55, 0.64, 0.76), fill=(0.99, 0.995, 1.0))
+            page.insert_text(
+                fitz.Point(38.0, y_cursor + 11.0),
+                _sanitize_pdf_text(f"Sketch & Observation Canvas (Req {r_num}) - Draw, diagram, and label key features:"),
+                fontsize=7.3,
+                fontname="helv",
+                color=(0.25, 0.32, 0.42),
+            )
+            for gx in range(48, 570, 24):
+                for gy in range(int(y_cursor) + 20, int(y_cursor) + 78, 16):
+                    page.draw_circle(fitz.Point(float(gx), float(gy)), 0.6, color=(0.75, 0.80, 0.86), fill=(0.75, 0.80, 0.86))
+            if any(k in low_text for k in ("moon", "planet", "constellation", "sky", "eclipse", "telescope", "horizon")):
+                page.draw_circle(fitz.Point(500.0, y_cursor + 46.0), 22.0, color=(0.60, 0.68, 0.78))
+                page.draw_line(fitz.Point(40.0, y_cursor + 72.0), fitz.Point(455.0, y_cursor + 72.0), color=(0.65, 0.72, 0.80))
+            y_cursor += 88.0
+
+        # Structured Graphic Organizer Header Strip
+        page, y_cursor = _insert_wrapped_pdf_text(
+            doc,
+            page,
+            y_cursor,
+            32.0,
+            580.0,
+            f"{org_label} [{org_type}]  |  Columns: {' / '.join(headers)}",
+            fontsize=7.4,
+            fontname="helv",
+            color=(0.15, 0.24, 0.38),
+            bg_fill=(0.91, 0.95, 0.99),
+            border_color=(0.76, 0.83, 0.92),
+            pad_y=2.5,
+        )
+
+        # Render Structured Organizer Rows + AcroForm Text Fields + Counselor Sign-Off Checkbox
+        signoff_placed = False
+        for r_idx, rl in enumerate(row_labels, start=1):
+            label_lines = _wrap_pdf_lines(f"{r_idx}. {rl}", 172.0, fontname="helv", fontsize=7.3) or [f"{r_idx}."]
+            row_h = max(20.0, len(label_lines) * 9.8 + 6.0)
+            if y_cursor + row_h > 748.0:
+                page = doc.new_page(width=612, height=792)
+                y_cursor = 36.0
+            row_y0 = y_cursor
+            page.draw_rect(
+                fitz.Rect(32.0, row_y0, 212.0, row_y0 + row_h),
+                color=(0.78, 0.83, 0.90),
+                fill=(0.97, 0.98, 1.0),
+            )
+            for l_i, l_str in enumerate(label_lines):
+                page.insert_text(
+                    fitz.Point(36.0, row_y0 + 3.0 + (l_i + 0.82) * 9.8),
+                    l_str,
+                    fontsize=7.3,
+                    fontname="helv",
+                    color=(0.12, 0.18, 0.26),
+                )
+
+            w_row = fitz.Widget()
+            w_row.field_name = f"req_{r_num}_notes_{idx}" if r_idx == 1 else f"req_{r_num}_row_{idx}_{r_idx}"
+            w_row.field_type = fitz.PDF_WIDGET_TYPE_TEXT
+            w_row.field_flags = fitz.PDF_TX_FIELD_IS_MULTILINE
+            w_row.field_value = ""
+            w_row.rect = fitz.Rect(214.0, row_y0 + 1.0, 515.0, row_y0 + row_h - 1.0)
+            w_row.border_color = (0.68, 0.75, 0.84)
+            w_row.fill_color = (1.0, 1.0, 1.0)
+            w_row.text_fontsize = 8.0
+            page.add_widget(w_row)
+
+            if not signoff_placed:
+                page.insert_text(fitz.Point(520.0, row_y0 + 10.0), "Done:", fontsize=7.3, fontname="helv", color=(0.2, 0.25, 0.33))
+                w_chk = fitz.Widget()
+                w_chk.field_name = f"req_{r_num}_done_{idx}"
+                w_chk.field_type = fitz.PDF_WIDGET_TYPE_CHECKBOX
+                w_chk.field_value = False
+                w_chk.rect = fitz.Rect(548.0, row_y0 + 2.0, 561.0, row_y0 + 15.0)
+                w_chk.border_color = (0.0, 0.25, 0.53)
+                page.add_widget(w_chk)
+                page.insert_text(fitz.Point(520.0, row_y0 + 19.0), "Init:____", fontsize=7.0, fontname="helv", color=(0.3, 0.35, 0.42))
+                signoff_placed = True
+
+            y_cursor += row_h + 1.0
+
+        y_cursor += 7.0
 
     pdf_bytes = doc.tobytes()
     doc.close()
@@ -1082,7 +1424,7 @@ def generate_class_preparation_page_cpp_pdf(
     session_dates: Optional[List[str]] = None,
     room_location: str = "",
 ) -> bytes:
-    """Generates a 1-page printable Class Preparation Page (CPP) in PDF format."""
+    """Generates a printable Class Preparation Page (CPP) in PDF format with automatic multi-page flow and 0% overflow drops."""
     import fitz
 
     cpp_data = generate_class_preparation_page_cpp(
@@ -1093,29 +1435,81 @@ def generate_class_preparation_page_cpp_pdf(
     )
     resolved_badge = str(cpp_data.get("badge_name") or badge_name)
     md_text = str(cpp_data.get("cpp_markdown") or "")
-    plain_lines = [
-        line.replace("**", "").replace("`", "")
-        for line in md_text.splitlines()
-    ]
 
     doc = fitz.open()
     page = doc.new_page(width=612, height=792)
     page.draw_rect(fitz.Rect(28, 24, 584, 68), color=(0, 0.247, 0.529), fill=(0, 0.247, 0.529))
     page.insert_text(
         fitz.Point(38, 48),
-        f"{resolved_badge.upper()} MERIT BADGE — 1-PAGE CLASS PREPARATION PAGE (CPP)",
+        _sanitize_pdf_text(f"{resolved_badge.upper()} MERIT BADGE - CLASS PREPARATION PAGE (CPP)"),
         fontsize=12.5,
         fontname="helv",
         color=(1, 1, 1),
     )
-    page.insert_textbox(
-        fitz.Rect(32, 78, 580, 760),
-        "\n".join(plain_lines),
-        fontsize=9.2,
-        fontname="helv",
-        color=(0.08, 0.12, 0.18),
-    )
+
+    y_cursor = 76.0
+    in_gate_section = False
+    for raw_line in md_text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            y_cursor += 4.0
+            continue
+        if line.startswith("# "):
+            continue
+        clean_line = (
+            line.replace("**", "")
+            .replace("`", "")
+            .replace("- [ ] ", "[ ] ")
+        )
+        if clean_line.startswith("## "):
+            hdr_text = clean_line[3:].strip()
+            in_gate_section = "Gate Alert" in hdr_text
+            y_cursor += 3.0
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                28.0,
+                584.0,
+                hdr_text,
+                fontsize=9.4,
+                fontname="helv",
+                color=(0.0, 0.22, 0.48),
+                bg_fill=(0.92, 0.96, 0.99),
+                border_color=(0.78, 0.85, 0.94),
+                pad_y=3.5,
+            )
+        elif in_gate_section:
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                32.0,
+                580.0,
+                clean_line,
+                fontsize=8.4,
+                fontname="helv",
+                color=(0.38, 0.22, 0.02),
+                bg_fill=(1.0, 0.98, 0.90),
+                border_color=(0.88, 0.68, 0.18),
+                pad_y=3.0,
+            )
+        else:
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                32.0,
+                580.0,
+                clean_line,
+                fontsize=8.4,
+                fontname="helv",
+                color=(0.08, 0.12, 0.18),
+                pad_y=2.0,
+            )
+
     pdf_bytes = doc.tobytes()
     doc.close()
     return pdf_bytes
+
 

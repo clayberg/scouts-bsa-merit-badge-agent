@@ -32,26 +32,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+            "organizer_type": "HAZARD_5COL",
+            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
             "headers": [
-              "Activity Hazard / Risk",
-              "Prevention & PPE Strategy",
-              "Emergency Response & First Aid"
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
+            ],
+            "column_headers": [
+              "Hazard / Risk",
+              "Anticipate",
+              "Help Prevent",
+              "Mitigate",
+              "Respond"
             ],
             "row_labels": [
-              "Hazard 1",
-              "Hazard 2",
-              "Hazard 3",
-              "Hazard 4"
+              "Hazard #1",
+              "Hazard #2",
+              "Hazard #3",
+              "Hazard #4",
+              "Hazard #5"
             ],
-            "min_rows": 4,
+            "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Astronomy hands-on activities and deal with hazards only after an accident happens.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Astronomy prevents most field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Astronomy prevents most field injuries.",
+            "misconception": "Scouts can jump straight into Astronomy hands-on activities and address hazards only after an incident occurs.",
+            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Astronomy prevents field injuries.",
+            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Astronomy prevents field injuries.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)"
           },
           "starting_requirement_gate": null,
@@ -100,24 +111,36 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
             "headers": [
-              "Req 1b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
+            ],
+            "column_headers": [
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Heat",
+              "Cold reactions",
+              "Dehydration",
+              "Bites",
+              "Stings",
+              "Damage to your eyes that could occur during observations"
             ],
-            "min_rows": 3,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Astronomy Requirement 1b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1b grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)"
           },
           "starting_requirement_gate": null,
@@ -159,23 +182,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1c Structured Study & Explanation Notes",
             "headers": [
-              "Req 1c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Describe the proper clothing and other precautions for safely making",
+              "2. Key Pamphlet Examples & Evidence (Req 1c)",
+              "3. Practical Describe & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1c is enough for Astronomy Requirement 1c sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 1c grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)"
           },
           "starting_requirement_gate": null,
@@ -217,23 +245,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1d Structured Study & Explanation Notes",
             "headers": [
-              "Req 1d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 1d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 1d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain how to safely observe the Sun, objects near the Sun and solar eclipses",
+              "Pamphlet Standard & Key Facts (1d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1d is enough for Astronomy Requirement 1d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 1d grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)"
           },
           "starting_requirement_gate": null,
@@ -305,25 +338,36 @@
       "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "CAUSE_PREVENTION_MITIGATION_3COL",
+        "organizer_type": "HAZARD_5COL",
+        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
         "headers": [
-          "Activity Hazard / Risk",
-          "Prevention & PPE Strategy",
-          "Emergency Response & First Aid"
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
+        ],
+        "column_headers": [
+          "Hazard / Risk",
+          "Anticipate",
+          "Help Prevent",
+          "Mitigate",
+          "Respond"
         ],
         "row_labels": [
-          "Hazard 1",
-          "Hazard 2",
-          "Hazard 3",
-          "Hazard 4"
+          "Hazard #1",
+          "Hazard #2",
+          "Hazard #3",
+          "Hazard #4",
+          "Hazard #5"
         ],
-        "min_rows": 4,
+        "min_rows": 5,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Astronomy hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Astronomy prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Astronomy prevents most field injuries.",
+        "misconception": "Scouts can jump straight into Astronomy hands-on activities and address hazards only after an incident occurs.",
+        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Astronomy prevents field injuries.",
+        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Astronomy prevents field injuries.",
         "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)"
       },
       "starting_requirement_gate": null,
@@ -354,7 +398,7 @@
         "Victim Sleeping Bag: Place the victim into a sleeping bag with one or two other people."
       ],
       "step_by_step_procedure": [
-        "Stripped Clothing: All should be stripped of most clothing so that skin-to-skincontact can hasten the warming, and perhaps save a life.",
+        "Stripped Clothing: All should be stripped of most clothing so that skin-to-skin contact can hasten the warming, and perhaps save a life.",
         "Severe Hypothermia Requires: Severe hypothermia requires immediate medical attention.",
         "Cold Weather Wear: In cold weather, wear layers to keep in the heat.",
         "Bring Along Woolen: Bring along a woolen cap, scarf, gloves, extra socks, and a coat."
@@ -447,22 +491,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Explain what light pollution is and how it and air pollution affect astronomy",
+          "Pamphlet Standard & Key Facts (2)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Light pollution is and how it is enough for Astronomy Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Light pollution is and how it grounded in the official Astronomy pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Light pollution is and how it grounded in the official Astronomy pamphlet.",
+        "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+        "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+        "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
         "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 24, p. 69)"
       },
       "starting_requirement_gate": null,
@@ -488,7 +537,7 @@
       ],
       "pamphlet_excerpts": [
         "Light Pollution Simply: Light pollution is, very simply, too much artificial lightconcentrated in urban areas (areas around cities).",
-        "Glareof Streetlights Outdoor: The glareof streetlights, outdoor signs, parking-lot lights, dusk-to-dawnsecurity lights, and outdoor fixtures around private homescreates.",
+        "Glareof Streetlights Outdoor: The glareof streetlights, outdoor signs, parking-lot lights, dusk-to-dawn security lights, and outdoor fixtures around private homescreates.",
         "Turbulent Air Ruinviews: Turbulent air can ruinviews of the Moon, planets, and faint nebulae.",
         "Windless Nightsare Studying: Windless nightsare better for studying the Moon and planets."
       ],
@@ -496,7 +545,7 @@
         "Conditionsthat Affect: Other conditionsthat can affect observing are clouds, high or low humidity, andair pollution such as dust and chemicals.",
         "Faint Stars Bevisible: Faint stars may bevisible only on clear, dark nights.",
         "Light Pollution Interferes: If light pollution interferes with your stargazing, trythese tricks.",
-        "Willhelp Prevent Light: This willhelp prevent light from streetlights, passing cars, and the glowing sky itself from ruining yournight vision."
+        "Willhelp Prevent Light: This willhelp prevent light from streetlights, passing cars, and the glowing sky itself from ruining your night vision."
       ],
       "gear_checklist": [
         "Official Astronomy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
@@ -545,26 +594,32 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 3a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Explain why binoculars and telescopes are important astronomical tools",
+              "2. Demonstrate or explain how these tools are used"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3a is enough for Astronomy Requirement 3a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3a grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)"
           },
           "starting_requirement_gate": null,
@@ -617,24 +672,31 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 3b Differential Comparison Matrix",
             "headers": [
-              "Req 3b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
+            ],
+            "column_headers": [
+              "Concept / Method A",
+              "Concept / Method B",
+              "Key Field Distinction & When to Use"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Describe the similarities and differences of several types of astronomical",
+              "2. At least one that observes light beyond the visible part of the spectrum",
+              "3. Infrared)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3b is enough for Astronomy Requirement 3b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 3b grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)"
           },
           "starting_requirement_gate": null,
@@ -688,23 +750,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3c Structured Study & Explanation Notes",
             "headers": [
-              "Req 3c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain the purposes of three instruments used with astronomical telescopes",
+              "Pamphlet Standard & Key Facts (3c)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3c is enough for Astronomy Requirement 3c sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 3c grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)"
           },
           "starting_requirement_gate": null,
@@ -758,23 +825,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3d Structured Study & Explanation Notes",
             "headers": [
-              "Req 3d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 3d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Describe the proper care and storage of telescopes and binoculars both",
+              "2. Key Pamphlet Examples & Evidence (Req 3d)",
+              "3. Practical Describe & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 3d is enough for Astronomy Requirement 3d sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 3d grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 3d grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)"
           },
           "starting_requirement_gate": null,
@@ -874,26 +946,31 @@
       "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+        "table_title": "Req 3 Field Sketch & Observation Canvas",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
+        ],
+        "column_headers": [
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Explain why binoculars and telescopes are important astronomical tools",
+          "(b) Describe the similarities and differences of several types of astronomical",
+          "(c) Explain the purposes of three instruments used with astronomical telescopes",
+          "(d) Describe the proper care and storage of telescopes and binoculars both"
         ],
         "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With the aid of diagrams is enough for Astronomy Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of With the aid of diagrams grounded in the official Astronomy pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of With the aid of diagrams grounded in the official Astronomy pamphlet.",
+        "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+        "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+        "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
         "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)"
       },
       "starting_requirement_gate": null,
@@ -919,7 +996,7 @@
       ],
       "pamphlet_excerpts": [
         "Repeated Bumping Shaking: Repeated bumping, shaking, and dropping can cause the lenses to break orbecome misaligned. • Keep your equipment clean.",
-        "Lenses Freefrom Dirt: Keep lenses freefrom dirt, debris, fingerprints, and moisture.",
+        "Lenses Free from Dirt: Keep lenses free from dirt, debris, fingerprints, and moisture.",
         "Cloth Microfiber Cloth: Use a cloth (such as a microfiber cloth) andcleaner made especially for lenses.",
         "Applycleaner Sparingly Cloth: Applycleaner very sparingly to the cloth and neverdirectly to the lenses. • \u0007Keep dust from buildingup on lenses."
       ],
@@ -927,7 +1004,7 @@
         "Aside Fromnormal Cleaning: Aside fromnormal cleaning, you mayuse a very soft brush (suchas camel’s hair), or compressed air if you take someprecautions.",
         "Want Toavoid Contact: You want toavoid any contact with thelenses and any liquid fromthe can.",
         "Alwayshold Upright Andnever: Alwayshold the can upright andnever tilted or directlyoverhead while spraying.",
-        "Few Short Secondor: Use a few short (a secondor two) bursts of air; stopimmediately if the can startsto feel cold."
+        "Few Short Secondor: Use a few short (a secondor two) bursts of air; stop immediately if the can startsto feel cold."
       ],
       "gear_checklist": [
         "Official Astronomy Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
@@ -993,23 +1070,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Study & Explanation Notes",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Identify in the sky 10 constellations, at least four of which are in the zodiac",
+              "Pamphlet Standard & Key Facts (4a)",
+              "Field Application & Counselor Verification (Identify)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Astronomy Requirement 4a sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 4a grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 4a grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)"
           },
           "starting_requirement_gate": null,
@@ -1055,23 +1137,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Identify in the sky eight conspicuous stars, five of which are of magnitude 1 or brighter",
+              "Pamphlet Standard & Key Facts (4b)",
+              "Field Application & Counselor Verification (Identify)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Astronomy Requirement 4b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 4b grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 4b grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)"
           },
           "starting_requirement_gate": null,
@@ -1120,28 +1207,31 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+            "table_title": "Req 4c Field Sketch & Observation Canvas",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
+            ],
+            "column_headers": [
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
             ],
             "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+              "Early Evening Horizon vs. Several Hours Later",
+              "Big Dipper / Cassiopeia & Polaris Position",
+              "Observation Date, Time & Sky Conditions"
             ],
-            "min_rows": 5,
+            "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4c is enough for Astronomy Requirement 4c sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 4c grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 4c grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)"
           },
           "starting_requirement_gate": null,
@@ -1191,23 +1281,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4d Structured Study & Explanation Notes",
             "headers": [
-              "Req 4d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Explain what we see when we look at the Milky Way",
+              "Pamphlet Standard & Key Facts (4d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4d is enough for Astronomy Requirement 4d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 4d grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)"
           },
           "starting_requirement_gate": null,
@@ -1295,27 +1390,30 @@
       "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+        "table_title": "Req 4 Field Sketch & Observation Canvas",
         "headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
+        ],
+        "column_headers": [
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
         ],
         "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+          "Early Evening Horizon vs. Several Hours Later",
+          "Big Dipper / Cassiopeia & Polaris Position",
+          "Observation Date, Time & Sky Conditions"
         ],
-        "min_rows": 5,
+        "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Stars and Constellations is enough for Astronomy Requirement 4 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Stars and Constellations grounded in the official Astronomy pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Stars and Constellations grounded in the official Astronomy pamphlet.",
+        "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+        "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+        "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
         "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)"
       },
       "starting_requirement_gate": null,
@@ -1341,14 +1439,14 @@
       ],
       "pamphlet_excerpts": [
         "Star Hot People: A star is a hot, People have always enjoyed studying the stars.",
-        "Themkeep Track Stars: To help themkeep track of the stars, ancient Greeks creatively drew imaginarylines between stars to form images of mythological charactersor other.",
+        "Themkeep Track Stars: To help themkeep track of the stars, ancient Greeks creatively drew imaginary lines between stars to form images of mythological charactersor other.",
         "Today Astronomers Recognize: Today, astronomers recognize 88 constellations.",
         "Direction Facing Bottomof: The direction you are facing should be at the bottomof the chart."
       ],
       "step_by_step_procedure": [
         "Hold Starchart South: If you are facing south, hold the starchart with south at the bottom.",
         "Turn Chart East: If you are facing east, turn the chart so that east is at the bottom. gas that producesenergy by nuclearreactions in itssun is a star.",
-        "Constellationis Pattern: A constellationis a pattern ofstars in the sky. b.",
+        "Constellation is Pattern: A constellation is a pattern ofstars in the sky. b.",
         "Isbecause Looking Sky: This isbecause we are looking up into the sky rather thandown onto Earth."
       ],
       "gear_checklist": [
@@ -1402,23 +1500,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5a Structured Study & Explanation Notes",
             "headers": [
-              "Req 5a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. List the names of the five most visible planets",
+              "2. Explain which ones can appear in phases similar to lunar phases"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Astronomy Requirement 5a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5a grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)"
           },
           "starting_requirement_gate": null,
@@ -1463,28 +1565,29 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5b Structured Study & Explanation Notes",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+              "1. Using the internet (with your parent or guardian's permission) and other",
+              "2. Key Pamphlet Examples & Evidence (Req 5b)",
+              "3. Practical Explain & Safety Verification"
             ],
-            "min_rows": 5,
+            "min_rows": 3,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5b is enough for Astronomy Requirement 5b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 5b grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)"
           },
           "starting_requirement_gate": {
@@ -1535,23 +1638,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5c Structured Study & Explanation Notes",
             "headers": [
-              "Req 5c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Describe the motion of the planets across the sky",
+              "Pamphlet Standard & Key Facts (5c)",
+              "Field Application & Counselor Verification (Describe)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5c is enough for Astronomy Requirement 5c sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5c grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 5c grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)"
           },
           "starting_requirement_gate": null,
@@ -1601,23 +1709,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5d Structured Study & Explanation Notes",
             "headers": [
-              "Req 5d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Observe a planet and describe what you saw",
+              "Pamphlet Standard & Key Facts (5d)",
+              "Field Application & Counselor Verification (Describe)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5d is enough for Astronomy Requirement 5d sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 5d grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 5d grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)"
           },
           "starting_requirement_gate": null,
@@ -1701,27 +1814,36 @@
       "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+          "(a) List the names of the five most visible planets",
+          "(b) Using the internet (with your parent or guardian's permission) and other",
+          "(a) Will be observable in the evening sky during the next 12 months, then compile",
+          "(c) Describe the motion of the planets across the sky",
+          "(d) Observe a planet and describe what you saw",
+          "(a) Will be observable in the evening sky during the next 12 months, then compile"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": true
+        "min_rows": 6,
+        "pre_approval_gate": true,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The five most visible planets is enough for Astronomy Requirement 5 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The five most visible planets grounded in the official Astronomy pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The five most visible planets grounded in the official Astronomy pamphlet.",
+        "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+        "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+        "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
         "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)"
       },
       "starting_requirement_gate": {
@@ -1754,7 +1876,7 @@
         "Venus Appears Early: Venus also appears only in the early evening or earlymorning sky, but it is much easier to see than Mercury.",
         "Morning Evening Star: Sometimes called the morning or the evening star, diamondwhite and brilliant Venus is the brightest planet as seen fromthe Earth.",
         "Venus Evening Sky: If Venus is in the evening sky, you can’t miss it.",
-        "Different Parts Their: Because different parts of their sunlit areas are visiblefrom Earth at different times, Mercury and Venus have phasessimilar to the Moon’s."
+        "Different Parts Their: Because different parts of their sunlit areas are visible from Earth at different times, Mercury and Venus have phasessimilar to the Moon’s."
       ],
       "step_by_step_procedure": [
         "Different Times They: At different times, they appear full, gibbous (three-quarters full), half-full (like a first-quarter or lastquarter moon), as a crescent.",
@@ -1816,24 +1938,31 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+            "table_title": "Req 6a Field Sketch & Observation Canvas",
             "headers": [
-              "Req 6a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
+            ],
+            "column_headers": [
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Lunar Seas (5) & Craters (5) Moon Circle",
+              "Five Major Lunar Seas (Maria) Labeled",
+              "Five Major Lunar Craters Labeled"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6a is enough for Astronomy Requirement 6a sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6a grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -1882,24 +2011,32 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+            "table_title": "Req 6b Field Sketch & Observation Canvas",
             "headers": [
-              "Req 6b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
+            ],
+            "column_headers": [
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Night 1 Moon Phase & Horizon",
+              "Night 2 Moon Phase & Horizon",
+              "Night 3 Moon Phase & Horizon",
+              "Night 4 Moon Phase & Horizon"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6b is enough for Astronomy Requirement 6b sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6b grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -1949,23 +2086,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6c Structured Study & Explanation Notes",
             "headers": [
-              "Req 6c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 6c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 6c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "List the factors that keep the Moon in orbit around Earth",
+              "Pamphlet Standard & Key Facts (6c)",
+              "Field Application & Counselor Verification (List)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6c is enough for Astronomy Requirement 6c sign-off.",
-            "fact": "Each Scout must actively list the specific principles and real-world steps of Req 6c grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively list the specific principles and real-world steps of Req 6c grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -2018,24 +2160,32 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+            "table_title": "Req 6d Field Sketch & Observation Canvas",
             "headers": [
-              "Req 6d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
+            ],
+            "column_headers": [
+              "Sketch / Diagram Target",
+              "Required Labels & Landmarks",
+              "Observation Date, Time & Notes"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. With the aid of diagrams, explain the relative positions of the Sun, Earth",
+              "2. The Moon at the times of lunar and solar eclipses",
+              "3. At the times of new, first-quarter, full",
+              "4. Last-quarter phases of the Moon"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 6d is enough for Astronomy Requirement 6d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 6d grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)"
           },
           "starting_requirement_gate": null,
@@ -2139,26 +2289,30 @@
       "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
+        "table_title": "Req 6 Field Sketch & Observation Canvas",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
+        ],
+        "column_headers": [
+          "Sketch / Diagram Target",
+          "Required Labels & Landmarks",
+          "Observation Date, Time & Notes"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "Lunar Seas (5) & Craters (5) Moon Circle",
+          "Five Major Lunar Seas (Maria) Labeled",
+          "Five Major Lunar Craters Labeled"
         ],
-        "min_rows": 4,
+        "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The Moon and indicate five seas is enough for Astronomy Requirement 6 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of The Moon and indicate five seas grounded in the official Astronomy pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of The Moon and indicate five seas grounded in the official Astronomy pamphlet.",
+        "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+        "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+        "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
         "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)"
       },
       "starting_requirement_gate": null,
@@ -2183,7 +2337,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Draw Contours: Draw the contours of visiblefeatures and label seas and prominent craters.",
+        "Draw Contours: Draw the contours of visible features and label seas and prominent craters.",
         "Havetrouble Identifying: If you havetrouble identifying craters, most public libraries have astronomybooks with lunar maps.",
         "Due Rotation Earth: Due to the rotation of the Earth, the Moon appears to travelwestward since we see it rise in the east and set in the west.",
         "Ifyou Moon Position: Ifyou watch the Moon’s position against the background stars, you will see that it also moves slowly eastward due to its orbitaround the Earth."
@@ -2241,23 +2395,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7a Structured Study & Explanation Notes",
             "headers": [
-              "Req 7a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Describe the composition of the Sun, its relationship to other stars",
+              "2. Some effects of its radiation on Earth's weather and communications"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7a is enough for Astronomy Requirement 7a sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 7a grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 7a grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)"
           },
           "starting_requirement_gate": null,
@@ -2307,23 +2465,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7b Structured Study & Explanation Notes",
             "headers": [
-              "Req 7b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Define sunspots and describe some of the effects they may have on solar radiation",
+              "Pamphlet Standard & Key Facts (7b)",
+              "Field Application & Counselor Verification (Describe)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7b is enough for Astronomy Requirement 7b sign-off.",
-            "fact": "Each Scout must actively describe the specific principles and real-world steps of Req 7b grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively describe the specific principles and real-world steps of Req 7b grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)"
           },
           "starting_requirement_gate": null,
@@ -2369,23 +2532,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7c Structured Study & Explanation Notes",
             "headers": [
-              "Req 7c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 7c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Identify at least one red star, one blue star, and one yellow star (other",
+              "2. Explain the meaning of these colors"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 7c is enough for Astronomy Requirement 7c sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 7c grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 7c grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)"
           },
           "starting_requirement_gate": null,
@@ -2462,25 +2629,32 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 7 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Describe the composition of the Sun, its relationship to other stars",
+          "(b) Define sunspots and describe some of the effects they may have on solar",
+          "(c) Identify at least one red star, one blue star, and one yellow star (other"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Composition of the Sun, its relationship is enough for Astronomy Requirement 7 sign-off.",
-        "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Composition of the Sun, its relationship grounded in the official Astronomy pamphlet.",
-        "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Composition of the Sun, its relationship grounded in the official Astronomy pamphlet.",
+        "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+        "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+        "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
         "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)"
       },
       "starting_requirement_gate": null,
@@ -2563,23 +2737,27 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8a Structured Study & Explanation Notes",
             "headers": [
-              "Req 8a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Visit a planetarium or astronomical observatory",
+              "2. Submit a written report, a scrapbook, OR a video presentation afterward"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8a is enough for Astronomy Requirement 8a sign-off.",
-            "fact": "Each Scout must actively visit the specific principles and real-world steps of Req 8a grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of Req 8a grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -2615,28 +2793,32 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8b Structured Study & Explanation Notes",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Req 8b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+              "1. Plan and participate in an observation session that includes using binoculars",
+              "2. These might be lunar features, Messier objects, additional constellations",
+              "3. List the celestial objects you want to observe and find each in a star chart",
+              "4. Prepare a log or notebook",
+              "5. Discuss with your counselor what you hope to observe prior to your",
+              "6. Review your log or notebook with your counselor afterward"
             ],
-            "min_rows": 5,
+            "min_rows": 6,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8b is enough for Astronomy Requirement 8b sign-off.",
-            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 8b grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 8b grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -2686,23 +2868,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8c Structured Study & Explanation Notes",
             "headers": [
-              "Req 8c Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8c Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Plan and host a star party for your Scout troop or other group such as your",
+              "2. Use binoculars or a telescope to show and explain celestial objects"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8c is enough for Astronomy Requirement 8c sign-off.",
-            "fact": "Each Scout must actively plan the specific principles and real-world steps of Req 8c grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively plan the specific principles and real-world steps of Req 8c grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -2752,23 +2938,28 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8d Structured Study & Explanation Notes",
             "headers": [
-              "Req 8d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "Help an astronomy club in your community hold a star party that is open to the public",
+              "Pamphlet Standard & Key Facts (8d)",
+              "Field Application & Counselor Verification (Explain)"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8d is enough for Astronomy Requirement 8d sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8d grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -2809,28 +3000,31 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8e Structured Study & Explanation Notes",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Req 8e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8e Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Entry 1",
-              "Entry 2",
-              "Entry 3",
-              "Entry 4",
-              "Entry 5"
+              "1. Personally take a series of photographs or digital images of the movement",
+              "2. In your visual display, label each image and include the date and time it",
+              "3. Show all positions on a star chart or map",
+              "4. Show your display at school or at a troop meeting",
+              "5. Explain the changes you observed"
             ],
             "min_rows": 5,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8e is enough for Astronomy Requirement 8e sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8e grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8e grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)"
           },
           "starting_requirement_gate": null,
@@ -2872,23 +3066,29 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8f Structured Study & Explanation Notes",
             "headers": [
-              "Req 8f Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 8f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 8f Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "SkyNet to observe planets",
+              "Comets",
+              "Galaxies",
+              "And/or the sun"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 8f is enough for Astronomy Requirement 8f sign-off.",
-            "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 8f grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)"
           },
           "starting_requirement_gate": {
@@ -2973,27 +3173,31 @@
       "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 8 Structured Study & Explanation Notes",
         "headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 8 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Entry 1",
-          "Entry 2",
-          "Entry 3",
-          "Entry 4",
-          "Entry 5"
+          "(a) Visit a planetarium or astronomical observatory",
+          "(b) Plan and participate in an observation session that includes using binoculars",
+          "(c) Plan and host a star party for your Scout troop or other group such as your",
+          "(d) Help an astronomy club in your community hold a star party that is open",
+          "(e) Personally take a series of photographs or digital images of the movement",
+          "(f) With your parent or guardian's and counselor's approval, use online observing"
         ],
-        "min_rows": 5,
+        "min_rows": 6,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of With your counselor's approval and guidance is enough for Astronomy Requirement 8 sign-off.",
-        "fact": "Each Scout must actively visit the specific principles and real-world steps of With your counselor's approval and guidance grounded in the official Astronomy pamphlet.",
-        "fact_correction": "Each Scout must actively visit the specific principles and real-world steps of With your counselor's approval and guidance grounded in the official Astronomy pamphlet.",
+        "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+        "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+        "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
         "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)"
       },
       "starting_requirement_gate": {
@@ -3030,8 +3234,8 @@
       ],
       "step_by_step_procedure": [
         "Thus Spectrum Usedto: Thus, a spectrum can also be usedto measure the speed with which objects are approaching orreceding from us.",
-        "Astronomical Photography: Astronomical photography allows you to keep a record of yourobservations of the sky and to share your experiences withfriends and family.",
-        "Modern Digital Cameras: Modern digital cameras are very sensitiveto light, and objects appear brighter and clearer in photographsthan through a telescope or binoculars.",
+        "Astronomical Photography: Astronomical photography allows you to keep a record of your observations of the sky and to share your experiences withfriends and family.",
+        "Modern Digital Cameras: Modern digital cameras are very sensitiveto light, and objects appear brighter and clearer in photographs than through a telescope or binoculars.",
         "Canadjust Process Digital: In addition, you canadjust and process digital images to bring out even more detailsand colors that you cannot see with the eye."
       ],
       "gear_checklist": [
@@ -3080,17 +3284,25 @@
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 9a Career & Pathway Exploration Card",
             "headers": [
-              "Req 9a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76)",
@@ -3146,24 +3358,32 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 9b Career & Pathway Exploration Card",
             "headers": [
-              "Req 9b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 9b is enough for Astronomy Requirement 9b sign-off.",
-            "fact": "Each Scout must actively identify the specific principles and real-world steps of Req 9b grounded in the official Astronomy pamphlet.",
-            "fact_correction": "Each Scout must actively identify the specific principles and real-world steps of Req 9b grounded in the official Astronomy pamphlet.",
+            "misconception": "Looking at the Sun through sunglasses or an unfiltered finder scope is safe if done for only a few seconds.",
+            "fact": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
+            "fact_correction": "Never look directly at the Sun without a certified ISO 12312-2 solar filter or indirect pinhole projection; use red-light flashlights for night sky sketches.",
             "pamphlet_page_ref": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76)"
           },
           "starting_requirement_gate": null,
@@ -3231,17 +3451,25 @@
       "pamphlet_page_citation": "Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 9 Career & Pathway Exploration Card",
         "headers": [
-          "Req 9 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {

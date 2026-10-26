@@ -42,23 +42,37 @@
       "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 53, p. 55)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+        "table_title": "Req 1 Symptoms, First Aid & Prevention Matrix",
         "headers": [
-          "Req 1 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Condition / Injury",
+          "Symptoms & Signs",
+          "First Aid / Treatment",
+          "Prevention"
+        ],
+        "column_headers": [
+          "Condition / Injury",
+          "Symptoms & Signs",
+          "First Aid / Treatment",
+          "Prevention"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Lightning",
+          "Heat reactions",
+          "Sunburn",
+          "Dehydration",
+          "Blisters",
+          "Animal",
+          "Bug bites",
+          "Poison ivy exposure"
         ],
-        "min_rows": 3,
+        "min_rows": 8,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Golf hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Golf prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Golf prevents most field injuries.",
+        "misconception": "Inducing vomiting is the fastest first-aid response whenever someone swallows a household poison.",
+        "fact": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
+        "fact_correction": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
         "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 53, p. 55)"
       },
       "starting_requirement_gate": null,
@@ -216,26 +230,33 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2a(1) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) Tell about the three categories of golf etiquette",
+                  "(b) Demonstrate that you understand the definitions of golf terms",
+                  "(c) Show that you understand the Rules of Amateur Status"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(1) is enough for Golf Requirement 2a(1) sign-off.",
-                "fact": "Each Scout must actively research the specific principles and real-world steps of Req 2a(1) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively research the specific principles and real-world steps of Req 2a(1) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell about the three categories of golf etiquette.",
+                "fact": "Scouts must research tell about the three categories of golf etiquette using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must research tell about the three categories of golf etiquette using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": null,
@@ -277,23 +298,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Tell about your understanding of the World Handicap System",
+                  "Pamphlet Standard & Key Facts (2a(2))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(2) is enough for Golf Requirement 2a(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(2) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(2) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell about your understanding of the world handicap system.",
+                "fact": "Scouts must explain tell about your understanding of the world handicap system using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must explain tell about your understanding of the world handicap system using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": null,
@@ -377,26 +403,33 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2a(3) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) Tell about the early history of golf",
+                  "(b) Describe golf's early years in the United States",
+                  "(c) Tell about the accomplishments of a top golfer of your choice"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(3) is enough for Golf Requirement 2a(3) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a(3) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a(3) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell about the early history of golf.",
+                "fact": "Scouts must demonstrate tell about the early history of golf using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must demonstrate tell about the early history of golf using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": null,
@@ -462,26 +495,32 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2a(4) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) Tell how golf can contribute to a healthy lifestyle, mentally and physically",
+                  "(b) Tell how a golf exercise plan can help you play better"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(4) is enough for Golf Requirement 2a(4) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a(4) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2a(4) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell how golf can contribute to a healthy lifestyle, mentally and physically.",
+                "fact": "Scouts must demonstrate tell how golf can contribute to a healthy lifestyle, mentally and physically using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must demonstrate tell how golf can contribute to a healthy lifestyle, mentally and physically using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": null,
@@ -643,26 +682,36 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2a(5) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) The proper grip, stance, posture, and key fundamentals of a good swing",
+                  "(b) Driver played from a tee",
+                  "(c) The fairway wood shot",
+                  "(d) The long iron shot",
+                  "(e) The short iron shot",
+                  "(f) The approach, chip-and-run, and pitch shots"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 6,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(5) is enough for Golf Requirement 2a(5) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2a(5) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 2a(5) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the proper grip, stance, posture, and key fundamentals of a good swing.",
+                "fact": "Scouts must show the proper grip, stance, posture, and key fundamentals of a good swing using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must show the proper grip, stance, posture, and key fundamentals of a good swing using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": null,
@@ -732,23 +781,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2a(6) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2a(6) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2a(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2a(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "(a) Follow the Rules of Golf",
+                  "(b) Practice good golf etiquette",
+                  "(c) Show respect to fellow golfers, committee, sponsor, and gallery"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": true
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2a(6) is enough for Golf Requirement 2a(6) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(6) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2a(6) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on follow the rules of golf.",
+                "fact": "Scouts must explain follow the rules of golf using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must explain follow the rules of golf using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": {
@@ -798,17 +852,25 @@
               "children": [],
               "syllabus_bucket": "Make-Up Eligible",
               "workbook_organizer": {
-                "organizer_type": "RULED_EXPLAIN_BOX",
+                "organizer_type": "CAREER_EXPLORATION_CARD",
+                "table_title": "Req 2a(7) Career & Pathway Exploration Card",
                 "headers": [
-                  "Req 2a(7) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Career Research Dimension",
+                  "Selected Career Details",
+                  "Education, Training & Personal Goals"
+                ],
+                "column_headers": [
+                  "Career Research Dimension",
+                  "Selected Career Details",
+                  "Education, Training & Personal Goals"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Three Career Opportunities Identified",
+                  "2. Selected Career: Education & Training Required",
+                  "3. Daily Duties, Licensing & Expenses",
+                  "4. Starting Salary, Job Outlook & Personal Goals"
                 ],
-                "min_rows": 3,
+                "min_rows": 4,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
@@ -846,18 +908,23 @@
           ],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 2a Career & Pathway Exploration Card",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
             "min_rows": 4,
             "pre_approval_gate": true
@@ -956,23 +1023,27 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(1) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(1) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(1) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "(a) Tell about the six areas of Courtesy (812)",
+                  "(b) Describe the seven areas of Scoring (808)"
                 ],
-                "min_rows": 3,
+                "min_rows": 2,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(1) is enough for Golf Requirement 2b(1) sign-off.",
-                "fact": "Each Scout must actively research the specific principles and real-world steps of Req 2b(1) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively research the specific principles and real-world steps of Req 2b(1) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell about the six areas of courtesy (812).",
+                "fact": "Scouts must research tell about the six areas of courtesy (812) using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must research tell about the six areas of courtesy (812) using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": null,
@@ -1014,23 +1085,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(2) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(2) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(2) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "Tell about the history of disc golf and why it is an inclusive game",
+                  "Pamphlet Standard & Key Facts (2b(2))",
+                  "Field Application & Counselor Verification (Explain)"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(2) is enough for Golf Requirement 2b(2) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(2) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(2) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell about the history of disc golf and why it is an inclusive game.",
+                "fact": "Scouts must explain tell about the history of disc golf and why it is an inclusive game using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must explain tell about the history of disc golf and why it is an inclusive game using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": null,
@@ -1114,26 +1190,34 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2b(3) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) Tell about the history of disc golf and why it is an inclusive game",
+                  "(b) Discuss with your counselor the contributions Ed Headrick made to the sport",
+                  "(c) Describe the evolution of disc design",
+                  "(d) Tell about the accomplishments of a top disc golfer of your choice"
                 ],
                 "min_rows": 4,
-                "pre_approval_gate": false
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(3) is enough for Golf Requirement 2b(3) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(3) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(3) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell about the history of disc golf and why it is an inclusive game.",
+                "fact": "Scouts must demonstrate tell about the history of disc golf and why it is an inclusive game using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must demonstrate tell about the history of disc golf and why it is an inclusive game using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": null,
@@ -1199,26 +1283,32 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2b(4) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) Tell how disc golf can contribute to a healthy lifestyle, mentally",
+                  "(b) Tell how a disc golf exercise plan can help you play better"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(4) is enough for Golf Requirement 2b(4) sign-off.",
-                "fact": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(4) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively demonstrate the specific principles and real-world steps of Req 2b(4) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tell how disc golf can contribute to a healthy lifestyle, mentally.",
+                "fact": "Scouts must demonstrate tell how disc golf can contribute to a healthy lifestyle, mentally using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must demonstrate tell how disc golf can contribute to a healthy lifestyle, mentally using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": null,
@@ -1410,26 +1500,36 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "STEP_BY_STEP_CHECKLIST",
+                "table_title": "Req 2b(5) Practical Skill & Verification Checklist (GTA 7.0.3.2)",
                 "headers": [
-                  "Step #",
-                  "Physical Technique / Safety Standard",
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
+                  "Buddy Practice Check",
+                  "Counselor Sign-Off"
+                ],
+                "column_headers": [
+                  "Skill / Step Element",
+                  "Technique & Safety Standard",
                   "Buddy Practice Check",
                   "Counselor Sign-Off"
                 ],
                 "row_labels": [
-                  "Step 1: Pre-Task Safety & Gear Check",
-                  "Step 2: Core Technique Execution",
-                  "Step 3: Quality & Accuracy Verification",
-                  "Step 4: Post-Task Reset & Debrief"
+                  "(a) A good throwing grip",
+                  "(b) A good runup (X-step) when throwing a disc",
+                  "(c) Backhand shot",
+                  "(d) Forehand shot",
+                  "(e) Overhand shot",
+                  "(f) Rolling shot"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "min_rows": 6,
+                "pre_approval_gate": false,
+                "is_physical_demonstration": true
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(5) is enough for Golf Requirement 2b(5) sign-off.",
-                "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2b(5) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 2b(5) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on a good throwing grip.",
+                "fact": "Scouts must show a good throwing grip using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must show a good throwing grip using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": null,
@@ -1499,23 +1599,28 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 2b(6) Structured Study & Explanation Notes",
                 "headers": [
-                  "Req 2b(6) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Req 2b(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
+                ],
+                "column_headers": [
+                  "Req 2b(6) Clause / Topic",
+                  "Key Pamphlet Facts & Real-World Scouting Application"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "(a) Follow the PDGA Official Rules of Disc Golf",
+                  "(b) Practice good disc golf etiquette",
+                  "(c) Show respect to fellow disc golfers and other people in the park along"
                 ],
                 "min_rows": 3,
                 "pre_approval_gate": true
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
               "common_misconception_pair": {
-                "misconception": "Reading a short definition of Req 2b(6) is enough for Golf Requirement 2b(6) sign-off.",
-                "fact": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(6) grounded in the official Golf pamphlet.",
-                "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Req 2b(6) grounded in the official Golf pamphlet.",
+                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on follow the pdga official rules of disc golf.",
+                "fact": "Scouts must explain follow the pdga official rules of disc golf using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
+                "fact_correction": "Scouts must explain follow the pdga official rules of disc golf using verified procedures, field evidence, and safety standards from Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80).",
                 "pamphlet_page_ref": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)"
               },
               "starting_requirement_gate": {
@@ -1565,17 +1670,25 @@
               "children": [],
               "syllabus_bucket": "Make-Up Eligible",
               "workbook_organizer": {
-                "organizer_type": "RULED_EXPLAIN_BOX",
+                "organizer_type": "CAREER_EXPLORATION_CARD",
+                "table_title": "Req 2b(7) Career & Pathway Exploration Card",
                 "headers": [
-                  "Req 2b(7) Concept / Sub-Part",
-                  "Key Pamphlet Facts & Field Examples"
+                  "Career Research Dimension",
+                  "Selected Career Details",
+                  "Education, Training & Personal Goals"
+                ],
+                "column_headers": [
+                  "Career Research Dimension",
+                  "Selected Career Details",
+                  "Education, Training & Personal Goals"
                 ],
                 "row_labels": [
-                  "Core Principle",
-                  "Real-World Scouting Application",
-                  "Key Term / Standard"
+                  "1. Three Career Opportunities Identified",
+                  "2. Selected Career: Education & Training Required",
+                  "3. Daily Duties, Licensing & Expenses",
+                  "4. Starting Salary, Job Outlook & Personal Goals"
                 ],
-                "min_rows": 3,
+                "min_rows": 4,
                 "pre_approval_gate": false
               },
               "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
@@ -1613,17 +1726,25 @@
           ],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 2b Career & Pathway Exploration Card",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
@@ -1743,18 +1864,23 @@
       "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 2 Career & Pathway Exploration Card",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
         "min_rows": 4,
         "pre_approval_gate": true

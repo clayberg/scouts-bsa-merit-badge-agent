@@ -33,26 +33,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 1a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Show that you have had an average grade of B or higher (80% or higher)",
+              "2. Key Pamphlet Examples & Evidence (Req 1a)",
+              "3. Practical Show & Safety Verification"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1a is enough for Scholarship Requirement 1a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1a grounded in the official Scholarship pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1a grounded in the official Scholarship pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show that you have had an average grade of b or higher (80% or higher).",
+            "fact": "Scouts must show show that you have had an average grade of b or higher (80% or higher) using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21).",
+            "fact_correction": "Scouts must show show that you have had an average grade of b or higher (80% or higher) using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21).",
             "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)"
           },
           "starting_requirement_gate": null,
@@ -94,26 +101,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 1b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Show that for one term or semester you have improved your school grades",
+              "2. Key Pamphlet Examples & Evidence (Req 1b)",
+              "3. Practical Show & Safety Verification"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1b is enough for Scholarship Requirement 1b sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Scholarship pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1b grounded in the official Scholarship pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show that for one term or semester you have improved your school grades.",
+            "fact": "Scouts must show show that for one term or semester you have improved your school grades using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21).",
+            "fact_correction": "Scouts must show show that for one term or semester you have improved your school grades using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21).",
             "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)"
           },
           "starting_requirement_gate": null,
@@ -170,25 +184,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 1 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Show that you have had an average grade of B or higher (80% or higher)",
+          "(b) Show that for one term or semester you have improved your school grades"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of That you have had an average is enough for Scholarship Requirement 1 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of That you have had an average grounded in the official Scholarship pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of That you have had an average grounded in the official Scholarship pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show that you have had an average grade of b or higher (80% or higher).",
+        "fact": "Scouts must show show that you have had an average grade of b or higher (80% or higher) using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21).",
+        "fact_correction": "Scouts must show show that you have had an average grade of b or higher (80% or higher) using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21).",
         "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)"
       },
       "starting_requirement_gate": null,
@@ -219,7 +239,7 @@
         "Sturdy Chairand Table: It also should have a sturdy chairand a table or desk where you canspread out your papers and books."
       ],
       "step_by_step_procedure": [
-        "Area Thoroughly Beforeyou: Clean the area thoroughly beforeyou start using it as your work space.",
+        "Area Thoroughly Before you: Clean the area thoroughly before you start using it as your work space.",
         "Think Location Inyour: If you use a computer, think about the best location for it inyour work space.",
         "Small Items Canbe: Small items canbe placed in a shoebox or othercontainer if the area you use hasmultiple purposes and must beshared with family members.",
         "Dictionary Thesaurus Wallor: Place a dictionary, a thesaurus, and a wallor desk calendar within easy reach."
@@ -290,26 +310,32 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Make a list of educational places located where you live (other than schools)",
+              "2. Visit one, and report on how you used the place for self-education"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2a is enough for Scholarship Requirement 2a sign-off.",
-            "fact": "Each Scout must actively make the specific principles and real-world steps of Req 2a grounded in the official Scholarship pamphlet.",
-            "fact_correction": "Each Scout must actively make the specific principles and real-world steps of Req 2a grounded in the official Scholarship pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make a list of educational places located where you live (other than schools).",
+            "fact": "Scouts must make make a list of educational places located where you live (other than schools) using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47).",
+            "fact_correction": "Scouts must make make a list of educational places located where you live (other than schools) using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47).",
             "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)"
           },
           "starting_requirement_gate": null,
@@ -350,17 +376,25 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 2b Career & Pathway Exploration Card",
             "headers": [
-              "Req 2b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": true
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
@@ -418,26 +452,32 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 2c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Using a daily planner, show your counselor how you keep track",
+              "2. Discuss how you manage your time"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2c is enough for Scholarship Requirement 2c sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 2c grounded in the official Scholarship pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 2c grounded in the official Scholarship pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using a daily planner, show your counselor how you keep track.",
+            "fact": "Scouts must show using a daily planner, show your counselor how you keep track using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47).",
+            "fact_correction": "Scouts must show using a daily planner, show your counselor how you keep track using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47).",
             "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)"
           },
           "starting_requirement_gate": null,
@@ -483,23 +523,29 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2d Structured Study & Explanation Notes",
             "headers": [
-              "Req 2d Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 2d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 2d Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "The library",
+              "Books",
+              "Periodicals",
+              "The internet"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 2d is enough for Scholarship Requirement 2d sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 2d grounded in the official Scholarship pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 2d grounded in the official Scholarship pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the library.",
+            "fact": "Scouts must discuss the library using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47).",
+            "fact_correction": "Scouts must discuss the library using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47).",
             "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)"
           },
           "starting_requirement_gate": null,
@@ -571,18 +617,23 @@
       "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 2 Career & Pathway Exploration Card",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
         "min_rows": 4,
         "pre_approval_gate": true
@@ -629,7 +680,7 @@
         "Trash Youwould Junk: If you get something suspicious, trash it just as youwould any other junk mail. 4.",
         "Receive Discover Information: If you receive or discover any information that makes youuncomfortable, leave it and tell your parent or guardian.",
         "Notrespond Message: Do notrespond to any message that is disturbing or hurtful. 5.",
-        "Agree Together Someone: Never agree to get together with someone you “meet” online, unless your parent or guardian approves of the meeting and goeswith you. 6."
+        "Agree Together Someone: Never agree to get together with someone you “meet” online, unless your parent or guardian approves of the meeting and goes with you. 6."
       ],
       "gear_checklist": [
         "Official Scholarship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
@@ -679,22 +730,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Get a note from the principal of your school (or another school official",
+          "2. Service have been satisfactory"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Get a note from the principal is enough for Scholarship Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Get a note from the principal grounded in the official Scholarship pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Get a note from the principal grounded in the official Scholarship pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on get a note from the principal of your school (or another school official.",
+        "fact": "Scouts must explain get a note from the principal of your school (or another school official using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51).",
+        "fact_correction": "Scouts must explain get a note from the principal of your school (or another school official using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51).",
         "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51)"
       },
       "starting_requirement_gate": {
@@ -791,23 +846,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Study & Explanation Notes",
             "headers": [
-              "Req 4a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Show that you have taken part in an extracurricular school activity",
+              "2. Discuss with your counselor the benefits of participation and what you"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4a is enough for Scholarship Requirement 4a sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4a grounded in the official Scholarship pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4a grounded in the official Scholarship pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show that you have taken part in an extracurricular school activity.",
+            "fact": "Scouts must discuss show that you have taken part in an extracurricular school activity using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54).",
+            "fact_correction": "Scouts must discuss show that you have taken part in an extracurricular school activity using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54).",
             "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)"
           },
           "starting_requirement_gate": null,
@@ -853,23 +912,27 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Study & Explanation Notes",
             "headers": [
-              "Req 4b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 4b Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Discuss your participation in a school project during the past semester where",
+              "2. Tell about the positive contributions you made to the team and the project"
             ],
-            "min_rows": 3,
+            "min_rows": 2,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 4b is enough for Scholarship Requirement 4b sign-off.",
-            "fact": "Each Scout must actively discuss the specific principles and real-world steps of Req 4b grounded in the official Scholarship pamphlet.",
-            "fact_correction": "Each Scout must actively discuss the specific principles and real-world steps of Req 4b grounded in the official Scholarship pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss your participation in a school project during the past semester where.",
+            "fact": "Scouts must discuss discuss your participation in a school project during the past semester where using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54).",
+            "fact_correction": "Scouts must discuss discuss your participation in a school project during the past semester where using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54).",
             "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)"
           },
           "starting_requirement_gate": null,
@@ -930,25 +993,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
+          "Skill / Step Element",
+          "Technique & Safety Standard",
+          "Buddy Practice Check",
+          "Counselor Sign-Off"
+        ],
+        "column_headers": [
+          "Skill / Step Element",
+          "Technique & Safety Standard",
           "Buddy Practice Check",
           "Counselor Sign-Off"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Show that you have taken part in an extracurricular school activity",
+          "(b) Discuss your participation in a school project during the past semester where"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "is_physical_demonstration": true
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of That you have taken part is enough for Scholarship Requirement 4 sign-off.",
-        "fact": "Each Scout must actively show the specific principles and real-world steps of That you have taken part grounded in the official Scholarship pamphlet.",
-        "fact_correction": "Each Scout must actively show the specific principles and real-world steps of That you have taken part grounded in the official Scholarship pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show that you have taken part in an extracurricular school activity.",
+        "fact": "Scouts must show show that you have taken part in an extracurricular school activity using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54).",
+        "fact_correction": "Scouts must show show that you have taken part in an extracurricular school activity using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54).",
         "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)"
       },
       "starting_requirement_gate": null,
@@ -980,9 +1049,9 @@
       ],
       "step_by_step_procedure": [
         "Brainpower Andperspectives: The more brainpower andperspectives a group can devote to a problem or challenge, the betterthe overall results will be.",
-        "Think Extracurricular: Think about the extracurricular activities in whichyou participate.",
+        "Think Extracurricular: Think about the extracurricular activities in which you participate.",
         "Youbenefited Joining: How have youbenefited from joining a groupactivity or organization?.",
-        "Writedown Activities: Writedown all of the activities in whichyou participate, and include two."
+        "Writedown Activities: Writedown all of the activities in which you participate, and include two."
       ],
       "gear_checklist": [
         "Official Scholarship Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
@@ -1027,23 +1096,28 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5a Structured Study & Explanation Notes",
             "headers": [
-              "Req 5a Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
+            ],
+            "column_headers": [
+              "Req 5a Clause / Topic",
+              "Key Pamphlet Facts & Real-World Scouting Application"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Write a report of 250 to 300 words about how the education you receive",
+              "2. Key Pamphlet Examples & Evidence (Req 5a)",
+              "3. Practical Write & Safety Verification"
             ],
             "min_rows": 3,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 5a is enough for Scholarship Requirement 5a sign-off.",
-            "fact": "Each Scout must actively write the specific principles and real-world steps of Req 5a grounded in the official Scholarship pamphlet.",
-            "fact_correction": "Each Scout must actively write the specific principles and real-world steps of Req 5a grounded in the official Scholarship pamphlet.",
+            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write a report of 250 to 300 words about how the education you receive.",
+            "fact": "Scouts must write write a report of 250 to 300 words about how the education you receive using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63).",
+            "fact_correction": "Scouts must write write a report of 250 to 300 words about how the education you receive using verified procedures, field evidence, and safety standards from Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63).",
             "pamphlet_page_ref": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)"
           },
           "starting_requirement_gate": null,
@@ -1084,17 +1158,25 @@
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "CAREER_EXPLORATION_CARD",
+            "table_title": "Req 5b Career & Pathway Exploration Card",
             "headers": [
-              "Req 5b Concept / Sub-Part",
-              "Key Pamphlet Facts & Field Examples"
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
+            ],
+            "column_headers": [
+              "Career Research Dimension",
+              "Selected Career Details",
+              "Education, Training & Personal Goals"
             ],
             "row_labels": [
-              "Core Principle",
-              "Real-World Scouting Application",
-              "Key Term / Standard"
+              "1. Three Career Opportunities Identified",
+              "2. Selected Career: Education & Training Required",
+              "3. Daily Duties, Licensing & Expenses",
+              "4. Starting Salary, Job Outlook & Personal Goals"
             ],
-            "min_rows": 3,
+            "min_rows": 4,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
@@ -1157,17 +1239,25 @@
       "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 5 Career & Pathway Exploration Card",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {

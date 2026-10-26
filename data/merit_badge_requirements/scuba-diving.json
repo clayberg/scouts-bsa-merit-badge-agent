@@ -52,27 +52,38 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+            "table_title": "Req 1a Symptoms, First Aid & Prevention Matrix",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
+            ],
+            "column_headers": [
+              "Condition / Injury",
+              "Symptoms & Signs",
+              "First Aid / Treatment",
+              "Prevention"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "Hypothermia",
+              "Hyperventilation",
+              "Squeezes",
+              "Decompression illness",
+              "Nitrogen narcosis",
+              "Motion sickness",
+              "Fatigue",
+              "Overexertion"
             ],
-            "min_rows": 4,
+            "min_rows": 8,
             "pre_approval_gate": false
           },
           "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Reading a short definition of Req 1a is enough for Scuba Diving Requirement 1a sign-off.",
-            "fact": "Each Scout must actively show the specific principles and real-world steps of Req 1a grounded in the official Scuba Diving pamphlet.",
-            "fact_correction": "Each Scout must actively show the specific principles and real-world steps of Req 1a grounded in the official Scuba Diving pamphlet.",
+            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
+            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
             "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)"
           },
           "starting_requirement_gate": {
@@ -119,20 +130,26 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "STEP_BY_STEP_CHECKLIST",
+            "table_title": "Req 1b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
             "headers": [
-              "Step #",
-              "Physical Technique / Safety Standard",
+              "Skill / Step Element",
+              "Technique & Safety Standard",
+              "Buddy Practice Check",
+              "Counselor Sign-Off"
+            ],
+            "column_headers": [
+              "Skill / Step Element",
+              "Technique & Safety Standard",
               "Buddy Practice Check",
               "Counselor Sign-Off"
             ],
             "row_labels": [
-              "Step 1: Pre-Task Safety & Gear Check",
-              "Step 2: Core Technique Execution",
-              "Step 3: Quality & Accuracy Verification",
-              "Step 4: Post-Task Reset & Debrief"
+              "1. Identify the conditions that must exist before performing CPR on a person",
+              "2. Demonstrate the proper technique for performing CPR using a training device"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": true
+            "min_rows": 2,
+            "pre_approval_gate": true,
+            "is_physical_demonstration": true
           },
           "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
@@ -219,26 +236,31 @@
       "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
+        "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
+        "table_title": "Req 1 Symptoms, First Aid & Prevention Matrix",
         "headers": [
-          "Step #",
-          "Physical Technique / Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Condition / Injury",
+          "Symptoms & Signs",
+          "First Aid / Treatment",
+          "Prevention"
+        ],
+        "column_headers": [
+          "Condition / Injury",
+          "Symptoms & Signs",
+          "First Aid / Treatment",
+          "Prevention"
         ],
         "row_labels": [
-          "Step 1: Pre-Task Safety & Gear Check",
-          "Step 2: Core Technique Execution",
-          "Step 3: Quality & Accuracy Verification",
-          "Step 4: Post-Task Reset & Debrief"
+          "(a) Show that you know first aid for injuries or illnesses that could occur while",
+          "(b) Identify the conditions that must exist before performing CPR on a person"
         ],
-        "min_rows": 4,
+        "min_rows": 2,
         "pre_approval_gate": true
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Scuba Diving hands-on activities and deal with hazards only after an accident happens.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Scuba Diving prevents most field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing a clear emergency action plan before starting Scuba Diving prevents most field injuries.",
+        "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
+        "fact": "Deliver continuous chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
+        "fact_correction": "Deliver continuous chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
         "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)"
       },
       "starting_requirement_gate": {
@@ -355,22 +377,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Study & Explanation Notes",
         "headers": [
-          "Req 2 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 2 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Before completing requirements 3 through 6, earn the Swimming merit badge",
+          "Pamphlet Standard & Key Facts (2)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Before completing requirements 3 through 6 is enough for Scuba Diving Requirement 2 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Before completing requirements 3 through 6 grounded in the official Scuba Diving pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Before completing requirements 3 through 6 grounded in the official Scuba Diving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before completing requirements 3 through 6, earn the swimming merit badge.",
+        "fact": "Scouts must explain before completing requirements 3 through 6, earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17).",
+        "fact_correction": "Scouts must explain before completing requirements 3 through 6, earn the swimming merit badge using verified procedures, field evidence, and safety standards from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17).",
         "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17)"
       },
       "starting_requirement_gate": {
@@ -464,22 +491,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Study & Explanation Notes",
         "headers": [
-          "Req 3 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 3 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Discuss the Scuba Diver's Code with your counselor",
+          "2. Explain the importance of each guideline to a scuba diver's safety"
         ],
-        "min_rows": 3,
+        "min_rows": 2,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of The Scuba Diver's Code is enough for Scuba Diving Requirement 3 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of The Scuba Diver's Code grounded in the official Scuba Diving pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of The Scuba Diver's Code grounded in the official Scuba Diving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the scuba diver's code with your counselor.",
+        "fact": "Scouts must explain discuss the scuba diver's code with your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50).",
+        "fact_correction": "Scouts must explain discuss the scuba diver's code with your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50).",
         "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)"
       },
       "starting_requirement_gate": null,
@@ -581,22 +612,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Study & Explanation Notes",
         "headers": [
-          "Req 4 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 4 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Earn an Open Water Diver Certification from a scuba organization",
+          "2. Key Pamphlet Examples & Evidence (Req 4)",
+          "3. Practical Explain & Safety Verification"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of Earn an Open Water Diver Certification is enough for Scuba Diving Requirement 4 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of Earn an Open Water Diver Certification grounded in the official Scuba Diving pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of Earn an Open Water Diver Certification grounded in the official Scuba Diving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on earn an open water diver certification from a scuba organization.",
+        "fact": "Scouts must explain earn an open water diver certification from a scuba organization using verified procedures, field evidence, and safety standards from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12).",
+        "fact_correction": "Scouts must explain earn an open water diver certification from a scuba organization using verified procedures, field evidence, and safety standards from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12).",
         "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12)"
       },
       "starting_requirement_gate": null,
@@ -685,22 +721,27 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Study & Explanation Notes",
         "headers": [
-          "Req 5 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
+        ],
+        "column_headers": [
+          "Req 5 Clause / Topic",
+          "Key Pamphlet Facts & Real-World Scouting Application"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "Explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience",
+          "Pamphlet Standard & Key Facts (5)",
+          "Field Application & Counselor Verification (Explain)"
         ],
         "min_rows": 3,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
-        "misconception": "Reading a short definition of An ecosystem is enough for Scuba Diving Requirement 5 sign-off.",
-        "fact": "Each Scout must actively explain the specific principles and real-world steps of An ecosystem grounded in the official Scuba Diving pamphlet.",
-        "fact_correction": "Each Scout must actively explain the specific principles and real-world steps of An ecosystem grounded in the official Scuba Diving pamphlet.",
+        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience.",
+        "fact": "Scouts must explain explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience using verified procedures, field evidence, and safety standards from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75).",
+        "fact_correction": "Scouts must explain explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience using verified procedures, field evidence, and safety standards from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75).",
         "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75)"
       },
       "starting_requirement_gate": null,
@@ -804,17 +845,25 @@
       "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 83, p. 86)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "CAREER_EXPLORATION_CARD",
+        "table_title": "Req 6 Career & Pathway Exploration Card",
         "headers": [
-          "Req 6 Concept / Sub-Part",
-          "Key Pamphlet Facts & Field Examples"
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
+        ],
+        "column_headers": [
+          "Career Research Dimension",
+          "Selected Career Details",
+          "Education, Training & Personal Goals"
         ],
         "row_labels": [
-          "Core Principle",
-          "Real-World Scouting Application",
-          "Key Term / Standard"
+          "1. Three Career Opportunities Identified",
+          "2. Selected Career: Education & Training Required",
+          "3. Daily Duties, Licensing & Expenses",
+          "4. Starting Salary, Job Outlook & Personal Goals"
         ],
-        "min_rows": 3,
+        "min_rows": 4,
         "pre_approval_gate": false
       },
       "common_misconception_pair": {
