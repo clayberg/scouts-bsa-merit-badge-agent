@@ -1039,7 +1039,7 @@ def test_v16_ui_pptx_parity_transparent_emblems_and_progress_placement(tmp_path)
     assert "Dark Slate — Pamphlet + AI Visuals" in html
     assert "Crisp White — Pamphlet Figures Only" in html
     assert "/assets/bsa_logo.png" in html
-    assert "All 144 Official Merit Badges &bull; Teaching Slide Decks &amp; Printable Scout Workbooks" in html
+    assert "All 149 Official &amp; Test Lab Merit Badges &bull; Teaching Slide Decks &amp; Printable Scout Workbooks" in html
     assert "NotebookLM" not in html
 
     # 2. Verify #trace-progress-card placement inside #storyboard-left-col
