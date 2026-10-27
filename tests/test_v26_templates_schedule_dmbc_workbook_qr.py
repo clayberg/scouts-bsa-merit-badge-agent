@@ -11,8 +11,8 @@ Verifies:
 from __future__ import annotations
 
 import pathlib
-import re
 import shutil
+import urllib.request
 import fitz  # PyMuPDF
 import pytest
 from fastapi.testclient import TestClient
@@ -145,7 +145,20 @@ def test_item5_qr_checklist_pdf_real_iso_matrix_and_bsa_logo() -> None:
 
 def test_v26_browser_ui_end_to_end() -> None:
     """Verifies Items 1-4 in headless Chromium against live port 8085 and captures visual proof screenshots."""
-    from playwright.sync_api import sync_playwright
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        pytest.skip("Playwright not installed in headless CI environment")
+
+    if not pathlib.Path("/usr/bin/google-chrome").exists():
+        pytest.skip("/usr/bin/google-chrome not present in headless CI environment")
+
+    try:
+        with urllib.request.urlopen("http://127.0.0.1:8085/api/health", timeout=2) as resp:
+            if resp.status != 200:
+                pytest.skip("Local workbench server on 127.0.0.1:8085 not active")
+    except Exception:
+        pytest.skip("Local workbench server on 127.0.0.1:8085 not active in CI runner")
 
     created_custom_ids: list[str] = []
     try:

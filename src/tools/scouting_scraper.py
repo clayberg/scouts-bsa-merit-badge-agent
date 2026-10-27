@@ -5002,7 +5002,6 @@ def extract_pdf_pamphlet_text(pdf_path_or_bytes: Union[str, Path, bytes]) -> Lis
         return []
 
 
-import re as _re_mod
 import re
 
 _OCR_GLUED_WORD_FIXES: tuple[tuple[str, str], ...] = (

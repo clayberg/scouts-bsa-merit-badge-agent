@@ -20,12 +20,6 @@ from typing import Any, Deque, Dict, List, Optional
 
 from src.config import CONFIG_DIR, _read_cached_json
 from src.observability.logging_setup import (
-    NANPA_TOLL_FREE_PREFIXES,
-    PERSONAL_PII_PHONE_HOTWORDS,
-    PHONE_REGEX,
-    PUBLIC_EMERGENCY_AND_INSTITUTIONAL_PHONES,
-    PUBLIC_INSTITUTIONAL_PHONE_HOTWORDS,
-    _redact_phone_match_if_personal,
     logger,
     scrub_pii_before_sink,
 )

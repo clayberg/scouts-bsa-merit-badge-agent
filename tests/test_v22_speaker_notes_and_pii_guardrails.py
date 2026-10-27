@@ -8,13 +8,11 @@ from src.agents.beautifier import beautify_slide_storyboard
 from src.agents.guardrails import (
     NANPA_TOLL_FREE_PREFIXES,
     PERSONAL_PII_PHONE_HOTWORDS,
-    PHONE_REGEX,
     PUBLIC_EMERGENCY_AND_INSTITUTIONAL_PHONES,
     PUBLIC_INSTITUTIONAL_PHONE_HOTWORDS,
-    _redact_phone_match_if_personal,
     sanitize_text_with_model_armor,
 )
-from src.agents.planner import _build_slide_teaching_notes, generate_slide_storyboard
+from src.agents.planner import generate_slide_storyboard
 from src.observability.logging_setup import scrub_pii_before_sink, scrub_pii_from_structure
 from src.tools.pamphlet_extractor import _CURATED_REQ1_SAFETY_QUIZZES
 from src.tools.scouting_scraper import fetch_merit_badge_pamphlet_pdf
@@ -214,7 +212,7 @@ def test_v22_studio_ai_polish_endpoint_and_synthesizer_elevation() -> None:
 
     if not hasattr(builtins, "Tuple"):
         setattr(builtins, "Tuple", Tuple)
-    from src.server import _synthesize_studio_narrative_script, app
+    from src.server import app
 
     client = TestClient(app)
     sample_slide = {

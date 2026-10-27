@@ -8254,7 +8254,10 @@ function renderBlueCardTracker(result) {
           return Boolean(curVal);
         });
       const dateHint = schedCfg.sessionTooltips?.[sk] ? ` • ${schedCfg.sessionTooltips[sk]}` : "";
-      return `<button type="button" class="m3-bc-attendance-pill m3-bc-col-session-btn ${allPresent ? "is-present" : "is-absent"}" data-bc-col-sess="${escapeHtml(sk)}" title="1-Click Patrol Attendance: Toggle ${escapeHtml(sk)} for all Scouts${escapeHtml(dateHint)}" style="font-size:0.61rem; padding:1px 5px; line-height:1.15;">✓${escapeHtml(sk)}</button>`;
+      const btnInlineStyle = allPresent
+        ? "background:#DCFCE7 !important; color:#064E3B !important; border:1.5px solid #10B981 !important; font-size:0.72rem !important; font-weight:800 !important; padding:2px 8px !important; border-radius:6px !important; line-height:1.25 !important; text-decoration:none !important; box-shadow:0 1px 3px rgba(0,0,0,0.28);"
+        : "background:#FFE4E6 !important; color:#881337 !important; border:1.5px solid #F43F5E !important; font-size:0.72rem !important; font-weight:800 !important; padding:2px 8px !important; border-radius:6px !important; line-height:1.25 !important; text-decoration:none !important; box-shadow:0 1px 3px rgba(0,0,0,0.28);";
+      return `<button type="button" class="m3-bc-attendance-pill m3-bc-col-session-btn ${allPresent ? "is-present" : "is-absent"}" data-bc-col-sess="${escapeHtml(sk)}" title="1-Click Patrol Attendance: Toggle ${escapeHtml(sk)} for all Scouts${escapeHtml(dateHint)}" style="${btnInlineStyle}">✓${escapeHtml(sk)}</button>`;
     })
     .join("");
 
@@ -8264,10 +8267,10 @@ function renderBlueCardTracker(result) {
         <tr>
           <th>Scout Name &amp; Troop</th>
           <th data-testid="bluecard-session-attendance-header">
-            <div style="display:flex; flex-direction:column; gap:3px;">
+            <div style="display:flex; flex-direction:column; gap:4px;">
               <span>Smart Partial &amp; Session Attendance (${escapeHtml(schedCfg.headerRangeLabel || "S1–S4 | M")})</span>
-              <div style="display:flex; align-items:center; gap:3px; flex-wrap:wrap;" title="Click a session pill to toggle attendance for the entire patrol at once">
-                <span style="font-size:0.60rem; font-weight:700; color:#475569;">Patrol All:</span>
+              <div style="display:flex; align-items:center; gap:5px; flex-wrap:wrap;" title="Click a session pill to toggle attendance for the entire patrol at once">
+                <span class="m3-bc-patrol-all-label" style="font-size:0.71rem; font-weight:800; color:#FFFFFF !important; letter-spacing:0.01em;">Patrol All:</span>
                 ${headerSessionBtnsHtml}
               </div>
             </div>
@@ -13469,7 +13472,7 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
   const parts = [];
   if (isCover && prof.cover_bg_url) {
     parts.push(
-      `<img src="${escapeHtml(withTplVer(prof.cover_bg_url))}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.22" : "0.18"}; pointer-events:none;" />`
+      `<img src="${escapeHtml(withTplVer(prof.cover_bg_url))}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.28" : "0.26"}; pointer-events:none;" />`
     );
   } else if (prof.canvas_watermark_url) {
     parts.push(
@@ -14774,41 +14777,29 @@ async function initPowerPointTemplateStudio() {
 
   state.tplAiPreviewSlideMode = "content";
 
-  const buildProceduralCoverBackdropSvgDataUrl = (styleFamily, promptText, pHex, aHex) => {
-    const promptLower = `${styleFamily || ""} ${promptText || ""}`.toLowerCase();
-    const hasLake = /lake|water|river|shore|cove|harbor|ocean|nautical|aquatic|canoe|dock/.test(promptLower);
-    const hasSunset = /sunset|sunrise|dawn|dusk|campfire|amber|gold/.test(promptLower);
-    const hasCupola = /collegiate|mbc|university|school|cupola|campus|academic|danvers|holten/.test(promptLower);
-    const skyTop = hasSunset ? aHex : pHex;
-    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" preserveAspectRatio="none">
-      <defs>
-        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="${skyTop}" stop-opacity="0.24"/>
-          <stop offset="58%" stop-color="${aHex}" stop-opacity="0.14"/>
-          <stop offset="100%" stop-color="#FAF8F5" stop-opacity="0.95"/>
-        </linearGradient>
-      </defs>
-      <rect width="800" height="450" fill="#FAF8F5"/>
-      <rect width="800" height="450" fill="url(#sky)"/>
-      ${
-        hasSunset
-          ? `<circle cx="590" cy="175" r="78" fill="${aHex}" fill-opacity="0.22"/><circle cx="590" cy="175" r="44" fill="${aHex}" fill-opacity="0.30"/>`
-          : `<circle cx="640" cy="120" r="64" fill="${pHex}" fill-opacity="0.12"/>`
-      }
-      <path d="M0,290 Q160,210 330,265 T670,225 L800,260 L800,450 L0,450 Z" fill="${pHex}" fill-opacity="0.15"/>
-      <path d="M0,335 Q220,265 430,315 T800,295 L800,450 L0,450 Z" fill="${pHex}" fill-opacity="0.22"/>
-      ${
-        hasCupola
-          ? `<g fill="${pHex}" fill-opacity="0.18"><rect x="330" y="210" width="140" height="95"/><polygon points="320,210 400,165 480,210"/><rect x="385" y="135" width="30" height="32"/><polygon points="380,135 400,110 420,135"/></g>`
-          : ""
-      }
-      ${
-        hasLake
-          ? `<rect x="0" y="345" width="800" height="105" fill="${aHex}" fill-opacity="0.12"/><line x1="120" y1="372" x2="680" y2="372" stroke="${pHex}" stroke-opacity="0.22" stroke-width="2"/><line x1="210" y1="396" x2="590" y2="396" stroke="${aHex}" stroke-opacity="0.28" stroke-width="2"/>`
-          : ""
-      }
-    </svg>`;
-    return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+  const resolvePhotorealisticCoverBackdropUrl = (styleFamily, promptText) => {
+    const customLower = `${promptText || ""}`.toLowerCase();
+    if (/collegiate|university|school|cupola|campus|academic|danvers|holten|brick/.test(customLower)) {
+      return "/assets/templates/overlays/nano_base_collegiate_mbc.jpg";
+    }
+    if (/aquatic|nautical|lighthouse|ocean|harbor|cove|sail|waterfront/.test(customLower)) {
+      return "/assets/templates/overlays/nano_base_aquatics_nautical.jpg";
+    }
+    if (/stem|blueprint|robot|circuit|observatory|engineering|cad|rocket/.test(customLower)) {
+      return "/assets/templates/overlays/nano_base_stem_blueprint.jpg";
+    }
+    if (/lodge|fireplace|pioneer|council ring/.test(customLower)) {
+      return "/assets/templates/overlays/nano_base_heritage_embroidery.jpg";
+    }
+    const styleMap = {
+      pinewood_campfire: "/assets/templates/overlays/nano_base_pinewood_campfire.jpg",
+      topographic_adventure: "/assets/templates/overlays/nano_base_topographic_adventure.jpg",
+      heritage_embroidery: "/assets/templates/overlays/nano_base_heritage_embroidery.jpg",
+      collegiate_mbc: "/assets/templates/overlays/nano_base_collegiate_mbc.jpg",
+      aquatics_nautical: "/assets/templates/overlays/nano_base_aquatics_nautical.jpg",
+      stem_blueprint: "/assets/templates/overlays/nano_base_stem_blueprint.jpg",
+    };
+    return styleMap[styleFamily] || "/assets/templates/overlays/nano_base_pinewood_campfire.jpg";
   };
 
   const updateNanoBananaLivePreview = () => {
@@ -14917,9 +14908,9 @@ async function initPowerPointTemplateStudio() {
 
     if (stageBox) {
       const coverBgUrl =
-        genVar?.cover_bg_url || buildProceduralCoverBackdropSvgDataUrl(styleFamily, promptText, pHex, aHex);
+        genVar?.cover_bg_url || resolvePhotorealisticCoverBackdropUrl(styleFamily, promptText);
       if (previewMode === "cover") {
-        stageBox.style.backgroundImage = `linear-gradient(rgba(250,248,245,0.58), rgba(250,248,245,0.68)), url('${coverBgUrl}')`;
+        stageBox.style.backgroundImage = `linear-gradient(135deg, rgba(250,248,245,0.72) 0%, ${pHex}1F 50%, rgba(250,248,245,0.76) 100%), url('${coverBgUrl}')`;
         stageBox.style.backgroundSize = "cover";
         stageBox.style.backgroundPosition = "center";
       } else if (genVar?.canvas_watermark_url || genVar?.cover_bg_url) {
@@ -15027,6 +15018,41 @@ async function initPowerPointTemplateStudio() {
   document.getElementById("tpl-ai-consent-checkbox")?.addEventListener("change", (ev) => {
     const genBtn = document.getElementById("btn-tpl-ai-generate");
     if (genBtn) genBtn.disabled = !ev.target.checked;
+  });
+
+  document.getElementById("tpl-ai-style-select")?.addEventListener("change", (ev) => {
+    const val = ev.target.value || "pinewood_campfire";
+    const frameSel = document.getElementById("tpl-ai-frame-select");
+    if (frameSel) {
+      const defaultGeomMap = {
+        pinewood_campfire: "horizon_silhouette",
+        topographic_adventure: "horizon_silhouette",
+        aquatics_nautical: "horizon_silhouette",
+        heritage_embroidery: "heritage_border",
+        collegiate_mbc: "brushed_header_footer",
+        stem_blueprint: "brushed_header_footer",
+      };
+      if (defaultGeomMap[val]) {
+        frameSel.value = defaultGeomMap[val];
+      }
+    }
+    const defaultPalettes = {
+      pinewood_campfire: ["#1B5E20", "#0284C7", "#D97706"],
+      topographic_adventure: ["#9A3412", "#15803D", "#CA8A04"],
+      heritage_embroidery: ["#003F87", "#CE1126", "#FDB913"],
+      collegiate_mbc: ["#991B1B", "#1E3A8A", "#D97706"],
+      aquatics_nautical: ["#003F87", "#0284C7", "#D97706"],
+      stem_blueprint: ["#0F766E", "#2563EB", "#7C3AED"],
+    };
+    const pal = defaultPalettes[val];
+    if (pal) {
+      const c1In = document.getElementById("tpl-ai-color1");
+      const c2In = document.getElementById("tpl-ai-color2");
+      const c3In = document.getElementById("tpl-ai-color3");
+      if (c1In) c1In.value = pal[0];
+      if (c2In) c2In.value = pal[1];
+      if (c3In) c3In.value = pal[2];
+    }
   });
 
   [

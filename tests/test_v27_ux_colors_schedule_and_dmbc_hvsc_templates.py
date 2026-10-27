@@ -24,6 +24,8 @@ from __future__ import annotations
 import datetime
 import pathlib
 import shutil
+import urllib.request
+import pytest
 from fastapi.testclient import TestClient
 
 from src.server import app
@@ -115,7 +117,20 @@ def test_item6_hvsc_and_dmbc_three_versions_each() -> None:
 
 def test_v27_browser_ui_end_to_end() -> None:
     """Verifies Items 1-6 in headless Chromium against live port 8085 and captures visual proof screenshots."""
-    from playwright.sync_api import sync_playwright
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        pytest.skip("Playwright not installed in headless CI environment")
+
+    if not pathlib.Path("/usr/bin/google-chrome").exists():
+        pytest.skip("/usr/bin/google-chrome not present in headless CI environment")
+
+    try:
+        with urllib.request.urlopen("http://127.0.0.1:8085/api/health", timeout=2) as resp:
+            if resp.status != 200:
+                pytest.skip("Local workbench server on 127.0.0.1:8085 not active")
+    except Exception:
+        pytest.skip("Local workbench server on 127.0.0.1:8085 not active in CI runner")
 
     created_custom_ids: list[str] = []
     try:

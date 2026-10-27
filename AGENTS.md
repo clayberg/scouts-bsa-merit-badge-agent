@@ -40,11 +40,15 @@ This repository is governed by an automated AI-Assisted Engineering Harness desi
 
 ---
 
-## 3. Pre-Commit Verification & Regression Gates
+## 3. Pre-Commit, Repository Sync & GitHub Actions CI Verification Gates
 
-Before committing code or packaging `repo.bundle`, run:
+Before committing code, pushing to remotes, or packaging `repo.bundle`, you MUST run all verification checks below. **Whenever you sync (`git push`) the two GitHub repositories (`origin`: `clayberg/scouts-bsa-merit-badge-agent` and `fde`: `cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`), you MUST check GitHub Actions and fix any lint, test, or workflow errors before finishing your turn.**
 
-1. **Test Suite (`133/133` passing tests: `112` unit/integration + `21` golden eval)**:
+0. **Blocking Ruff Static Linter (`0` errors required before push)**:
+   ```bash
+   .venv/bin/ruff check src/ tests/ scripts/
+   ```
+1. **Test Suite (`133/133`+ passing unit, security, fault-injection, and golden eval tests)**:
    ```bash
    .venv/bin/pytest tests/ tests/eval_golden_suite.py -q
    ```
@@ -62,6 +66,13 @@ Before committing code or packaging `repo.bundle`, run:
    .venv/bin/python3 scripts/build_submission_bundle.py
    python3 /usr/local/google/home/clayberg/.gemini/config/skills/fde-capstone-coach/scripts/capstone_preflight.py --repo-root . --check-claims
    ```
+5. **Post-Push GitHub Actions CI Verification Gate (Mandatory on Every Repo Sync)**:
+   - After pushing to `origin` (`https://github.com/clayberg/scouts-bsa-merit-badge-agent`) and `fde` (`https://github.com/cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent`), inspect the live workflow status:
+     ```bash
+     gh run list --repo clayberg/scouts-bsa-merit-badge-agent --limit 3
+     gh run list --repo cloud-ai-fde/clayberg-scouts-bsa-merit-badge-agent --limit 3
+     ```
+   - Wait for the triggered run to complete (`gh run watch <run-id> --repo clayberg/scouts-bsa-merit-badge-agent --exit-status`). If any step fails (`gh run view <run-id> --log-failed`), diagnose and fix the failure, re-push to both remotes, and verify a green `✓` build before concluding the turn.
 
 ---
 

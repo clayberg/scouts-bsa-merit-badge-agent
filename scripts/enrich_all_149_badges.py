@@ -1280,16 +1280,16 @@ def _build_misconception_pair(badge_name: str, req_num: str, topic_title: str, f
         )
     elif bl == "dance":
         m = f"Cold static stretching right before high-impact movement is the safest way to prepare for {clean_topic}."
-        f = f"Dynamic warm-ups raise muscle temperature and joint mobility before dancing, while static stretching belongs in the post-dance cool-down."
+        f = "Dynamic warm-ups raise muscle temperature and joint mobility before dancing, while static stretching belongs in the post-dance cool-down."
     elif bl == "physics":
         m = f"Heavier objects always accelerate faster than lighter objects during {clean_topic}."
-        f = f"In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction."
+        f = "In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction."
     elif bl == "psychology":
         m = f"Negative reinforcement is just another term for punishment in {clean_topic}."
-        f = f"Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
+        f = "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
     elif bl == "sewing and needlework":
         m = f"Using a 48-inch thread and holding extra pins in your mouth saves time during {clean_topic}."
-        f = f"Keep hand-sewing thread to 18-24 inches to prevent tangles and always store needles and pins in a pincushion or magnetic tray."
+        f = "Keep hand-sewing thread to 18-24 inches to prevent tangles and always store needles and pins in a pincushion or magnetic tray."
     else:
         clauses = _extract_condition_or_clause_labels(full_text, req_num, verb.capitalize(), max_rows=2)
         focus_clause = re.sub(r"^(?:\([a-zA-Z1-9]\)|\d+\.)\s*", "", clauses[0]).strip()

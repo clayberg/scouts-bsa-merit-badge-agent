@@ -776,7 +776,6 @@ def _build_slide_teaching_notes(
         _split_anchor_and_detail(p, f"Concept {idx + 1}")
         for idx, p in enumerate(pts)
     ]
-    anchors = [a for a, _ in parsed_points if a]
     meaningful_topics = [
         _extract_meaningful_topic_phrase(a, b, clean_title)
         for a, b in parsed_points

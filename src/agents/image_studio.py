@@ -2011,16 +2011,16 @@ def _get_genai_client(location_override: Optional[str] = None) -> Any:
         from google import genai  # type: ignore
 
         http_opts: Dict[str, Any] = {"timeout": 25000, "retry_options": {"attempts": 1}}
-        if use_vertex and project_id:
+        if use_vertex and project_id and project_id != "clayberg-scouts-bsa-prod":
             try:
                 return genai.Client(vertexai=True, project=project_id, location=location, http_options=http_opts)
             except Exception:
                 return genai.Client(vertexai=True, project=project_id, location=location)
         if api_key and "your-" not in api_key.lower() and len(api_key) > 20:
             try:
-                return genai.Client(api_key=api_key, http_options=http_opts)
+                return genai.Client(api_key=api_key, vertexai=False, http_options=http_opts)
             except Exception:
-                return genai.Client(api_key=api_key)
+                return genai.Client(api_key=api_key, vertexai=False)
     except Exception as exc:
         logger.debug("Could not initialize genai.Client: %s", exc)
     return None

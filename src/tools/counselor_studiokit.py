@@ -2880,7 +2880,7 @@ def generate_counselor_cue_cards_pdf(
     doc = fitz.open()
     for i in range(0, len(card_items), 2):
         page = doc.new_page(width=612, height=792)
-        y_cursor = _draw_branded_pdf_header(
+        _draw_branded_pdf_header(
             page=page,
             badge_name=resolved_badge,
             doc_title=f"{resolved_badge} Merit Badge - Printable Counselor Pocket Cue Cards",

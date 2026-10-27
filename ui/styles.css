@@ -3048,7 +3048,7 @@ body.m3-sunlight-mode .m3-slide-card {
 
 .m3-finops-table thead th *,
 .m3-sticky-matrix-table thead th *,
-.m3-bluecard-table thead th *,
+.m3-bluecard-table thead th *:not(.m3-bc-col-session-btn),
 .m3-markdown-body table thead th * {
   color: #FFFFFF !important;
 }
@@ -10226,6 +10226,35 @@ body.m3-dark-mode .m3-trace-stage-badge {
   color: #991B1B;
   border-color: #FCA5A5;
   text-decoration: line-through;
+}
+
+.m3-bluecard-table thead th .m3-bc-col-session-btn {
+  font-size: 0.72rem !important;
+  font-weight: 800 !important;
+  padding: 2px 8px !important;
+  border-radius: 6px !important;
+  line-height: 1.25 !important;
+  text-decoration: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.28);
+}
+
+.m3-bluecard-table thead th .m3-bc-col-session-btn.is-present {
+  background: #DCFCE7 !important;
+  color: #064E3B !important;
+  border: 1.5px solid #10B981 !important;
+  text-decoration: none !important;
+}
+
+.m3-bluecard-table thead th .m3-bc-col-session-btn.is-absent {
+  background: #FFE4E6 !important;
+  color: #881337 !important;
+  border: 1.5px solid #F43F5E !important;
+  text-decoration: none !important;
+}
+
+.m3-bluecard-table thead th .m3-bc-col-session-btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(0.97);
 }
 
 /* ============================================================================

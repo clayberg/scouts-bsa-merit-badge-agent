@@ -2117,6 +2117,81 @@ def _compute_nano_template_safe_bounds(
     )
 
 
+def _resolve_nano_photorealistic_base_cover(
+    visual_style: str,
+    custom_prompt: str = "",
+    family_id: str = "",
+    allow_live_synthesis: bool = False,
+) -> Path:
+    """Resolves a high-resolution 16:9 photorealistic scenic base photograph for Slide 1 cover_bg_url."""
+    import os
+
+    style_key = str(visual_style or "pinewood_campfire").strip().lower()
+
+    if (
+        allow_live_synthesis
+        and family_id
+        and not os.getenv("PYTEST_CURRENT_TEST")
+        and os.getenv("ENABLE_LIVE_TEMPLATE_COVER_AI", "false").lower() in ("true", "1", "yes")
+    ):
+        ai_base_path = CUSTOM_TEMPLATES_DIR / f"{family_id}_ai_base_cover.png"
+        if ai_base_path.exists() and ai_base_path.stat().st_size > 10000:
+            return ai_base_path
+        try:
+            from src.agents.image_studio import _try_live_ai_image_synthesis
+
+            subj = (
+                custom_prompt.strip()
+                if custom_prompt and len(custom_prompt.strip()) >= 12
+                else f"Wide-angle 16:9 DSLR outdoor scenic landscape for {style_key.replace('_', ' ')} Scouting theme"
+            )
+            if _try_live_ai_image_synthesis(
+                visual_subject=f"Wide-angle 16:9 DSLR landscape or architectural photograph: {subj}",
+                visual_style="Photorealistic Image",
+                seed_int=abs(hash(family_id)) % 10000,
+                out_path=ai_base_path,
+                include_humans=False,
+                compress_800x600=False,
+                badge_name="Camping",
+            ):
+                if ai_base_path.exists() and ai_base_path.stat().st_size > 10000:
+                    return ai_base_path
+        except Exception:
+            pass
+
+    style_map = {
+        "pinewood_campfire": OVERLAYS_DIR / "nano_base_pinewood_campfire.jpg",
+        "topographic_adventure": OVERLAYS_DIR / "nano_base_topographic_adventure.jpg",
+        "heritage_embroidery": OVERLAYS_DIR / "nano_base_heritage_embroidery.jpg",
+        "collegiate_mbc": OVERLAYS_DIR / "nano_base_collegiate_mbc.jpg",
+        "aquatics_nautical": OVERLAYS_DIR / "nano_base_aquatics_nautical.jpg",
+        "stem_blueprint": OVERLAYS_DIR / "nano_base_stem_blueprint.jpg",
+    }
+    candidates: List[Path] = []
+    custom_lc = (custom_prompt or "").lower()
+    if any(k in custom_lc for k in ("collegiate", "university", "school", "cupola", "campus", "academic", "danvers", "holten", "brick")):
+        candidates.append(OVERLAYS_DIR / "nano_base_collegiate_mbc.jpg")
+    elif any(k in custom_lc for k in ("aquatic", "nautical", "lighthouse", "ocean", "harbor", "cove", "sail", "waterfront")):
+        candidates.append(OVERLAYS_DIR / "nano_base_aquatics_nautical.jpg")
+    elif any(k in custom_lc for k in ("stem", "blueprint", "robot", "circuit", "observatory", "engineering", "cad", "rocket")):
+        candidates.append(OVERLAYS_DIR / "nano_base_stem_blueprint.jpg")
+    elif any(k in custom_lc for k in ("lodge", "fireplace", "pioneer", "council ring")):
+        candidates.append(OVERLAYS_DIR / "nano_base_heritage_embroidery.jpg")
+
+    if style_key in style_map:
+        candidates.append(style_map[style_key])
+    candidates.extend([
+        OVERLAYS_DIR / "nano_base_pinewood_campfire.jpg",
+        OVERLAYS_DIR / "forest_sunrise_cover.jpg",
+        OVERLAYS_DIR / "high_adventure_climb.jpg",
+        OVERLAYS_DIR / "dmbc_v1_cover_bg.jpg",
+    ])
+    for cand in candidates:
+        if cand.exists():
+            return cand
+    return OVERLAYS_DIR / "forest_sunrise_cover.jpg"
+
+
 def _render_nano_template_variant_assets(
     variant_id: str,
     visual_style: str,
@@ -2126,10 +2201,11 @@ def _render_nano_template_variant_assets(
     logo_img: Optional[Image.Image],
     logo_position: str,
     custom_prompt: str = "",
+    base_cover_path: Optional[Path] = None,
 ) -> Dict[str, str]:
-    """Synthesizes coordinated 16:9 PIL artwork for top_banner, bottom_silhouette, canvas_watermark (5% opacity), and cover_bg."""
+    """Synthesizes coordinated 16:9 artwork for top_banner, bottom_silhouette, canvas_watermark (5% opacity), and photorealistic cover_bg."""
     import math as _math
-    from PIL import ImageDraw
+    from PIL import ImageDraw, ImageEnhance, ImageOps
 
     _ensure_dirs()
     p_rgb = hex_to_rgb(primary_hex, (0, 63, 135))
@@ -2183,7 +2259,7 @@ def _render_nano_template_variant_assets(
     bddraw.rectangle([0, 46, bot_w, bot_h], fill=(240, 245, 255, 235))
     bddraw.rectangle([0, 38, bot_w, 46], fill=(*a_rgb, 255))
 
-    if style_key in ("pinewood_campfire", "topographic_adventure") or geom_key == "horizon_silhouette":
+    if style_key in ("pinewood_campfire", "topographic_adventure"):
         # Mountain ridge + pine tree horizon silhouette along top of footer
         ridge_pts = [(0, 46)]
         for x in range(0, bot_w + 40, 40):
@@ -2205,6 +2281,14 @@ def _render_nano_template_variant_assets(
         wave_pts.append((bot_w, 46))
         bdraw.polygon(wave_pts, fill=(*p_rgb, 255))
         bddraw.polygon(wave_pts, fill=(240, 245, 255, 235))
+    elif style_key == "collegiate_mbc":
+        # Classical academic podium band with subtle gold accent rule
+        bdraw.rectangle([0, 32, bot_w, 38], fill=(*p_rgb, 235))
+        bddraw.rectangle([0, 32, bot_w, 38], fill=(240, 245, 255, 220))
+    elif style_key == "stem_blueprint":
+        for x in range(0, bot_w, 40):
+            bdraw.line([(x, 46), (x, bot_h)], fill=(255, 255, 255, 42), width=1)
+            bddraw.line([(x, 46), (x, bot_h)], fill=(*p_rgb, 48), width=1)
     elif style_key == "heritage_embroidery" or geom_key == "heritage_border":
         for x in range(20, bot_w - 20, 32):
             bdraw.rectangle([x, 52, x + 16, 57], fill=(*a_rgb, 235))
@@ -2264,102 +2348,37 @@ def _render_nano_template_variant_assets(
     wm_path = CUSTOM_TEMPLATES_DIR / f"{variant_id}_watermark.png"
     wm_im.save(wm_path)
 
-    # 4. Full-Bleed Slide 1 Washed Cover Backdrop (1600 x 900)
-    # Note: In `ui/app.js` (`opacity: 0.18–0.22`) and `decorate_slide_with_template_chrome` (`alpha=0.22`),
-    # `cover_bg_url` is blended across the entire first slide just like `BSA Forest Sunrise` (`forest_sunrise_cover.jpg`)
-    # and `BSA High Adventure` (`high_adventure_climb.jpg`).
+    # 4. Full-Bleed Photorealistic Slide 1 Washed Cover Backdrop (1600 x 900)
+    # Note: In `ui/app.js` (`opacity: 0.18-0.22`) and `decorate_slide_with_template_chrome` (`alpha=0.22`),
+    # `cover_bg_url` is blended across the entire first slide just like `BSA Forest Sunrise` (`forest_sunrise_cover.jpg`),
+    # `BSA High Adventure` (`high_adventure_climb.jpg`), `Camp Hidden Valley` (`hvsc_v1_cover_bg.jpg`), and `Danvers MBC` (`dmbc_v1_cover_bg.jpg`).
     cov_w, cov_h = 1600, 900
-    cov_im = Image.new("RGBA", (cov_w, cov_h), (248, 246, 240, 255))
-    cdraw = ImageDraw.Draw(cov_im)
-    prompt_lc = str(custom_prompt or "").lower()
-
-    # Soft multi-stop sky/background wash across the full 16:9 canvas
-    for y_band in range(0, cov_h, 6):
-        t_ratio = y_band / float(cov_h)
-        if "sunset" in prompt_lc or "sunrise" in prompt_lc or style_key == "pinewood_campfire":
-            # Golden-hour sky blending from soft brand tint to warm sunset amber near horizon
-            r_b = int(244 * (1 - t_ratio) + (a_rgb[0] * 0.55 + 110) * t_ratio)
-            g_b = int(247 * (1 - t_ratio) + (a_rgb[1] * 0.55 + 105) * t_ratio)
-            b_b = int(250 * (1 - t_ratio) + (p_rgb[2] * 0.45 + 110) * t_ratio)
-        else:
-            r_b = int(248 * (1 - t_ratio) + (p_rgb[0] * 0.35 + 160) * t_ratio)
-            g_b = int(249 * (1 - t_ratio) + (p_rgb[1] * 0.35 + 160) * t_ratio)
-            b_b = int(251 * (1 - t_ratio) + (p_rgb[2] * 0.35 + 165) * t_ratio)
-        cdraw.rectangle([0, y_band, cov_w, y_band + 6], fill=(min(255, r_b), min(255, g_b), min(255, b_b), 255))
-
-    # Sun / compass halo in upper-right / center-right sky
-    sun_x, sun_y = int(cov_w * 0.68), int(cov_h * 0.34)
-    for s_rad, s_alpha in ((260, 28), (190, 44), (125, 68), (75, 95)):
-        cdraw.ellipse(
-            [sun_x - s_rad, sun_y - s_rad, sun_x + s_rad, sun_y + s_rad],
-            fill=(*a_rgb, s_alpha),
+    resolved_cover_src = base_cover_path or _resolve_nano_photorealistic_base_cover(
+        visual_style=style_key,
+        custom_prompt=custom_prompt,
+    )
+    if resolved_cover_src.exists():
+        with Image.open(resolved_cover_src) as raw_cov:
+            photo_rgb = ImageOps.fit(raw_cov.convert("RGB"), (cov_w, cov_h), method=Image.Resampling.LANCZOS)
+        # Apply subtle, natural photographic color grading toward the variant's primary & accent brand palette
+        # while preserving 100% of the crisp DSLR photographic detail, clouds, water reflections, and textures.
+        gray = ImageOps.grayscale(photo_rgb)
+        mid_tint = (
+            min(255, int(p_rgb[0] * 0.55 + a_rgb[0] * 0.45)),
+            min(255, int(p_rgb[1] * 0.55 + a_rgb[1] * 0.45)),
+            min(255, int(p_rgb[2] * 0.55 + a_rgb[2] * 0.45)),
         )
-
-    # Full-canvas topographic contour rings when topographic or mountain/contour prompt
-    if style_key in ("topographic_adventure", "pinewood_campfire") or "contour" in prompt_lc or "topographic" in prompt_lc or "mountain" in prompt_lc:
-        for rad in range(110, 1150, 75):
-            cdraw.ellipse(
-                [cx - rad * 1.35, cy - rad * 0.85, cx + rad * 1.35, cy + rad * 0.85],
-                outline=(*p_rgb, 48),
-                width=3,
-            )
-
-    # Distant and midground mountain / ridge / forest layers across full width
-    if style_key in ("pinewood_campfire", "topographic_adventure", "heritage_embroidery") or any(
-        k in prompt_lc for k in ("pine", "lake", "camp", "mountain", "ridge", "forest", "sunset")
-    ):
-        far_ridge = [(0, cov_h)]
-        for x in range(0, cov_w + 40, 40):
-            yr = int(cov_h * 0.54 - 85 * abs(_math.sin(x / 310.0)) - 35 * _math.cos(x / 120.0))
-            far_ridge.append((x, yr))
-        far_ridge.append((cov_w, cov_h))
-        cdraw.polygon(far_ridge, fill=(*p_rgb, 85))
-
-        mid_ridge = [(0, cov_h)]
-        for x in range(0, cov_w + 40, 40):
-            yr = int(cov_h * 0.66 - 60 * abs(_math.cos(x / 240.0)) - 25 * _math.sin(x / 95.0))
-            mid_ridge.append((x, yr))
-        mid_ridge.append((cov_w, cov_h))
-        cdraw.polygon(mid_ridge, fill=(*p_rgb, 135))
-
-        # Pine tree line along the lake shoreline (y = 0.68 * cov_h)
-        shore_y = int(cov_h * 0.70)
-        for tx in range(30, cov_w - 30, 38):
-            th = 48 + (tx % 34)
-            cdraw.polygon([(tx, shore_y - th), (tx - 16, shore_y), (tx + 16, shore_y)], fill=(*p_rgb, 165))
-            cdraw.polygon([(tx, shore_y - th - 18), (tx - 12, shore_y - 14), (tx + 12, shore_y - 14)], fill=(*p_rgb, 180))
-
-        # Shimmering lake water & sunset reflection across lower 30%
-        cdraw.rectangle([0, shore_y, cov_w, cov_h], fill=(*p_rgb, 95))
-        for wy in range(shore_y + 14, cov_h - 30, 18):
-            w_len = max(40, 220 - abs(wy - (shore_y + 80)))
-            cdraw.line([(sun_x - w_len, wy), (sun_x + w_len, wy)], fill=(*a_rgb, 115), width=4)
-    elif style_key == "collegiate_mbc" or any(k in prompt_lc for k in ("collegiate", "school", "cupola", "academic", "brick")):
-        # Classical Georgian cupola, colonnade & academic pediment across the full slide
-        base_y = int(cov_h * 0.74)
-        cdraw.rectangle([180, int(cov_h * 0.42), cov_w - 180, base_y], fill=(*p_rgb, 70), outline=(*p_rgb, 140), width=3)
-        cdraw.polygon([(140, int(cov_h * 0.42)), (cx, int(cov_h * 0.24)), (cov_w - 140, int(cov_h * 0.42))], fill=(*p_rgb, 95), outline=(*a_rgb, 160))
-        # Cupola tower in center
-        cdraw.rectangle([cx - 55, int(cov_h * 0.14), cx + 55, int(cov_h * 0.26)], fill=(255, 255, 255, 180), outline=(*p_rgb, 150), width=3)
-        cdraw.polygon([(cx - 68, int(cov_h * 0.14)), (cx, int(cov_h * 0.06)), (cx + 68, int(cov_h * 0.14))], fill=(*a_rgb, 165))
-        for col_x in range(260, cov_w - 240, 110):
-            cdraw.rectangle([col_x, int(cov_h * 0.44), col_x + 22, base_y], fill=(255, 255, 255, 140), outline=(*p_rgb, 110), width=2)
-    elif style_key == "aquatics_nautical" or any(k in prompt_lc for k in ("nautical", "waterfront", "lighthouse", "ocean", "aquatics")):
-        # Coastal lighthouse & layered ocean waves across the full slide
-        for wy in range(int(cov_h * 0.52), cov_h, 48):
-            pts = [(x, int(wy + 18 * _math.sin(x / 58.0))) for x in range(0, cov_w + 24, 24)]
-            cdraw.line(pts, fill=(*p_rgb, 115), width=5)
-        # Lighthouse on right shoreline
-        lx = int(cov_w * 0.78)
-        cdraw.polygon([(lx - 38, int(cov_h * 0.62)), (lx - 22, int(cov_h * 0.22)), (lx + 22, int(cov_h * 0.22)), (lx + 38, int(cov_h * 0.62))], fill=(*p_rgb, 145))
-        cdraw.polygon([(lx - 22, int(cov_h * 0.24)), (lx - 680, int(cov_h * 0.10)), (lx - 680, int(cov_h * 0.36))], fill=(*a_rgb, 55))
-    elif style_key == "stem_blueprint":
-        for gx in range(0, cov_w, 60):
-            cdraw.line([(gx, 0), (gx, cov_h)], fill=(*p_rgb, 42), width=2)
-        for gy in range(0, cov_h, 60):
-            cdraw.line([(0, gy), (cov_w, gy)], fill=(*p_rgb, 42), width=2)
-        for r_ring in (120, 210, 310):
-            cdraw.ellipse([sun_x - r_ring, sun_y - r_ring, sun_x + r_ring, sun_y + r_ring], outline=(*a_rgb, 110), width=4)
+        high_tint = (
+            min(255, int(235 + a_rgb[0] * 0.08)),
+            min(255, int(235 + a_rgb[1] * 0.08)),
+            min(255, int(235 + a_rgb[2] * 0.08)),
+        )
+        duotone = ImageOps.colorize(gray, black=p_rgb, mid=mid_tint, white=high_tint)
+        graded_rgb = Image.blend(photo_rgb, duotone, alpha=0.18)
+        graded_rgb = ImageEnhance.Contrast(graded_rgb).enhance(1.05)
+        cov_im = graded_rgb.convert("RGBA")
+    else:
+        cov_im = Image.new("RGBA", (cov_w, cov_h), (248, 246, 240, 255))
 
     if logo_img is not None:
         c_logo = logo_img.copy()
@@ -2658,6 +2677,13 @@ def generate_nano_banana_template_family(
         has_logo=(processed_logo_img is not None),
     )
 
+    family_base_cover = _resolve_nano_photorealistic_base_cover(
+        visual_style=style_key,
+        custom_prompt=clean_prompt,
+        family_id=family_id,
+        allow_live_synthesis=(not preview_only),
+    )
+
     built_profiles: List[TemplateProfile] = []
     for var_slug, var_label, pri_hex, acc_hex, swatch_hex in variant_specs:
         variant_id = f"{family_id}_{var_slug}"
@@ -2670,6 +2696,7 @@ def generate_nano_banana_template_family(
             logo_img=processed_logo_img,
             logo_position=logo_pos,
             custom_prompt=clean_prompt,
+            base_cover_path=family_base_cover,
         )
         desc_parts = [
             f"Nano Banana AI {style_meta['label']} template ({var_label})",
