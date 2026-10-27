@@ -1661,8 +1661,8 @@ paths:
   /api/v1/studiokit/fillable-workbook:
     get:
       summary: Api Get Fillable Workbook Html
-      description: Renders the interactive Verb-Aligned Fillable Scout Workbook HTML
-        in browser for printing or direct PDF download.
+      description: Renders the interactive Fillable Scout Workbook HTML in browser
+        for printing or direct PDF download.
       operationId: api_get_fillable_workbook_html_api_v1_studiokit_fillable_workbook_get
       parameters:
       - name: badge_name
@@ -1693,6 +1693,14 @@ paths:
           type: string
           default: Troop 19, Northeast Massachusetts Council
           title: Troop Name
+      - name: session_dates
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Session Dates
       - name: authorization
         in: header
         required: false
@@ -1724,8 +1732,8 @@ paths:
                 $ref: '#/components/schemas/HTTPValidationError'
     post:
       summary: Api Generate Fillable Workbook
-      description: Generates the verb-aligned fillable Scout Workbook HTML & Markdown
-        with GTA Section 7.0.3.2 banner.
+      description: Generates the fillable Scout Workbook HTML & Markdown with GTA
+        Section 7.0.3.2 banner.
       operationId: api_generate_fillable_workbook_api_v1_studiokit_fillable_workbook_post
       parameters:
       - name: authorization
@@ -1769,8 +1777,8 @@ paths:
   /api/studiokit/fillable-workbook:
     get:
       summary: Api Get Fillable Workbook Html
-      description: Renders the interactive Verb-Aligned Fillable Scout Workbook HTML
-        in browser for printing or direct PDF download.
+      description: Renders the interactive Fillable Scout Workbook HTML in browser
+        for printing or direct PDF download.
       operationId: api_get_fillable_workbook_html_api_studiokit_fillable_workbook_get
       parameters:
       - name: badge_name
@@ -1801,6 +1809,14 @@ paths:
           type: string
           default: Troop 19, Northeast Massachusetts Council
           title: Troop Name
+      - name: session_dates
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Session Dates
       - name: authorization
         in: header
         required: false
@@ -1832,8 +1848,8 @@ paths:
                 $ref: '#/components/schemas/HTTPValidationError'
     post:
       summary: Api Generate Fillable Workbook
-      description: Generates the verb-aligned fillable Scout Workbook HTML & Markdown
-        with GTA Section 7.0.3.2 banner.
+      description: Generates the fillable Scout Workbook HTML & Markdown with GTA
+        Section 7.0.3.2 banner.
       operationId: api_generate_fillable_workbook_api_studiokit_fillable_workbook_post
       parameters:
       - name: authorization
@@ -5516,6 +5532,126 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/preferences/custom-lists:
+    get:
+      summary: Api Get Custom Session Lists
+      description: Returns persisted custom session locations and bundle tags from
+        `.cache/custom_session_lists.json`.
+      operationId: api_get_custom_session_lists_api_v1_preferences_custom_lists_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Custom Session Lists Api V1 Preferences Custom
+                  Lists Get
+    post:
+      summary: Api Update Custom Session Lists
+      description: Adds (floating to index 0, deduplicated) or removes a custom room
+        location or bundle tag.
+      operationId: api_update_custom_session_lists_api_v1_preferences_custom_lists_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CustomSessionListUpdateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Update Custom Session Lists Api V1 Preferences
+                  Custom Lists Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/preferences/custom-lists:
+    get:
+      summary: Api Get Custom Session Lists
+      description: Returns persisted custom session locations and bundle tags from
+        `.cache/custom_session_lists.json`.
+      operationId: api_get_custom_session_lists_api_preferences_custom_lists_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Custom Session Lists Api Preferences Custom
+                  Lists Get
+    post:
+      summary: Api Update Custom Session Lists
+      description: Adds (floating to index 0, deduplicated) or removes a custom room
+        location or bundle tag.
+      operationId: api_update_custom_session_lists_api_preferences_custom_lists_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CustomSessionListUpdateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Update Custom Session Lists Api Preferences Custom
+                  Lists Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
   /api/v1/templates:
     get:
       summary: Api List Powerpoint Templates
@@ -5986,6 +6122,96 @@ paths:
                 additionalProperties: true
                 title: Response Api Delete Custom Template Api Templates  Template
                   Id  Delete
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/templates/generate-ai:
+    post:
+      summary: Api Generate Nano Banana Template Family
+      description: Generates a 1-to-3 color variant Nano Banana AI Slide Template
+        Family with YPT/Zero-PII guardrails and FinOps consent gating.
+      operationId: api_generate_nano_banana_template_family_api_v1_templates_generate_ai_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NanoBananaTemplateGenerateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Nano Banana Template Family Api V1 Templates
+                  Generate Ai Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/templates/generate-ai:
+    post:
+      summary: Api Generate Nano Banana Template Family
+      description: Generates a 1-to-3 color variant Nano Banana AI Slide Template
+        Family with YPT/Zero-PII guardrails and FinOps consent gating.
+      operationId: api_generate_nano_banana_template_family_api_templates_generate_ai_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NanoBananaTemplateGenerateRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Generate Nano Banana Template Family Api Templates
+                  Generate Ai Post
         '422':
           description: Validation Error
           content:
@@ -7036,6 +7262,48 @@ components:
           title: Custom Troop Logo Path
       type: object
       title: CounselorProfileSaveRequest
+    CustomSessionListUpdateRequest:
+      properties:
+        list_type:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: List Type
+          description: '''locations'' or ''bundle_tags'''
+        updated_type:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Updated Type
+          description: Alias for list_type
+        action:
+          type: string
+          title: Action
+          description: '''add'' or ''remove'''
+          default: add
+        value:
+          type: string
+          title: Value
+          description: Location or bundle tag value to add or remove.
+          default: ''
+        custom_locations:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Custom Locations
+          description: Full custom_locations list override.
+        custom_bundle_tags:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Custom Bundle Tags
+          description: Full custom_bundle_tags list override.
+      type: object
+      title: CustomSessionListUpdateRequest
     DeckStylePreferencesRequest:
       properties:
         default_template_id:
@@ -7318,6 +7586,112 @@ components:
       required:
       - badge_name
       title: NanoBananaGenerateRequest
+    NanoBananaTemplateGenerateRequest:
+      properties:
+        family_name:
+          type: string
+          title: Family Name
+          description: Human-readable name for the 3-variant template family.
+          default: Troop 19 High Adventure
+        template_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Template Name
+          description: Alias for family_name.
+        visual_style:
+          type: string
+          title: Visual Style
+          description: Template visual style ID.
+          default: pinewood_campfire
+        style_family:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Style Family
+          description: Alias for visual_style.
+        frame_geometry:
+          type: string
+          title: Frame Geometry
+          description: Template frame geometry ID.
+          default: horizon_silhouette
+        frame_preset:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Frame Preset
+          description: Alias for frame_geometry.
+        colors:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Colors
+          description: 1 to 3 brand hex colors.
+        include_secondary:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Include Secondary
+          description: Whether Color 2 (Secondary) variant is enabled.
+        include_accent:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Include Accent
+          description: Whether Color 3 (Accent) variant is enabled.
+        custom_prompt:
+          type: string
+          title: Custom Prompt
+          description: Optional custom theme prompt.
+          default: ''
+        prompt:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Prompt
+          description: Alias for custom_prompt.
+        logo_data_url:
+          type: string
+          title: Logo Data Url
+          description: Optional base64 data URL of uploaded logo.
+          default: ''
+        logo_position:
+          type: string
+          title: Logo Position
+          description: 'Logo placement: bottom_left, bottom_right, top_right, cover_only.'
+          default: bottom_left
+        remove_logo_white_bg:
+          type: boolean
+          title: Remove Logo White Bg
+          description: Automatically make near-white logo background pixels transparent.
+          default: true
+        remove_logo_bg:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Remove Logo Bg
+          description: Alias for remove_logo_white_bg.
+        preview_only:
+          type: boolean
+          title: Preview Only
+          description: When True, previews the variants at $0.00 without saving to
+            catalog.
+          default: false
+        user_consented:
+          type: boolean
+          title: User Consented
+          description: Explicit FinOps ($0.08 USD) user consent.
+          default: false
+        confirm_finops_cost:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Confirm Finops Cost
+          description: Alias for user_consented.
+      type: object
+      title: NanoBananaTemplateGenerateRequest
     SlideDeckCustomizeRequest:
       properties:
         badge_name:
@@ -7837,6 +8211,13 @@ components:
           type: boolean
           title: Include Qr
           default: true
+        session_dates:
+          anyOf:
+          - items:
+              type: string
+            type: array
+          - type: 'null'
+          title: Session Dates
       type: object
       title: StudioKitFillableWorkbookRequest
     StudioKitOrganizerSpecRequest:
@@ -8343,6 +8724,30 @@ components:
           type: string
           title: Camp Bundle Tag
           default: ''
+        class_start_time:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Class Start Time
+          default: ''
+        room_location:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Room Location
+          default: ''
+        session_dates:
+          anyOf:
+          - {}
+          - type: 'null'
+          title: Session Dates
+          default: ''
+        class_logistics:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Class Logistics
         template_id:
           type: string
           title: Template Id

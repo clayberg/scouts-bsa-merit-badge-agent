@@ -158,14 +158,9 @@ def test_consolidation_4_studiokit_handouts_agenda_and_letter_split_menus() -> N
     for action_id in (
         "btn-studiokit-fillable-workbook",
         "btn-studiokit-open-fillable-workbook",
-        "btn-studiokit-download-fillable-pdf",
-        "btn-studiokit-open-fillable-workbook-pdf",
-        "btn-studiokit-cpp",
-        "btn-studiokit-open-cpp",
-        "btn-studiokit-open-cpp-pdf",
         "btn-studiokit-organizer-spec",
         "btn-studiokit-open-organizer-spec",
-        "btn-studiokit-print-field-qr",
+        "btn-studiokit-gear-rotator-pdf",
         "btn-print-agenda",
         "btn-download-agenda-md",
         "btn-copy-agenda",
@@ -173,7 +168,7 @@ def test_consolidation_4_studiokit_handouts_agenda_and_letter_split_menus() -> N
         "btn-gmail-letter",
         "btn-mailto-letter",
         "btn-mailto-parent-letter",
-        "btn-print-letter",
+        "btn-download-letter-pdf",
         "btn-download-letter-md",
         "btn-copy-letter",
         "btn-copy-letter-md",
@@ -267,11 +262,10 @@ def test_items_1_to_6_multimedia_drawer_logistics_slides_footer_compact_hero_and
         "btn-apply-logistics-slides",
         "btn-remove-logistics-slides",
         "ws-class-logistics-panel",
-        "ws-class-time-input",
-        "ws-class-time-datalist",
+        "ws-start-time-input",
+        "ws-time-presets-menu",
         "ws-room-location-input",
-        "ws-room-location-datalist",
-        "ws-session-dates-input",
+        "ws-room-presets-menu",
         "ws-chk-include-slide2",
         "ws-chk-include-sliden",
         "btn-ws-apply-logistics-slides",
@@ -283,7 +277,7 @@ def test_items_1_to_6_multimedia_drawer_logistics_slides_footer_compact_hero_and
     assert "room_location" in js
 
     # Item 3: 2-line footer wrapping in renderActiveSlide
-    assert 'white-space:nowrap; font-weight:600;">📝' in js
+    assert "Workbook Requirement " in js
 
     # Item 4: Slim single-row compact hero banner CSS
     assert "body.deck-loaded-compact-hero .m3-hero-banner .m3-hero-patch-img" in css
