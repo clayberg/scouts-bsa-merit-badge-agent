@@ -68,10 +68,11 @@ class SlideSpec(BaseModel):
     gear_checklist: List[str] = Field(default_factory=list, description="Equipment or inspection checklist items.")
     visual_caption: str = Field("", description="Caption displayed below the visual diagram.")
     diagram_type: str = Field("pamphlet_figure", description="Diagram type key.")
-    beautification_tier: str = Field("STANDARD", description="Visual polish tier: STANDARD, BEAUTIFIED, or STUDIO.")
+    beautification_tier: str = Field("BEAUTIFIED", description="Visual polish tier: STANDARD, BEAUTIFIED, or STUDIO.")
     visual_theme: str = Field("STANDARD_CLEAN", description="Layer-0 magazine vector card theme.")
     accent_palette_key: str = Field("NAVY_GOLD", description="Brand color palette key (NAVY_GOLD, OLIVE_FOREST, EAGLE_CRIMSON, SLATE_ACTION, MATCH_TEMPLATE).")
     template_id: str = Field("default_workbench", description="Selected PowerPoint template ID.")
+    slide_id: Optional[str] = Field(None, description="Optional unique slide identifier (e.g. overview-logistics, homework-checkout).")
     container_style_override: Optional[str] = Field(
         None,
         description="Optional per-slide text container style override: AUTO, CLEAN_OPEN, LEFT_ACCENT_LINE, or BOXED_CARDS.",
@@ -3305,10 +3306,21 @@ def inject_class_opening_and_closing_slides(
         "Session 4",
         "Make-Up Day",
     ]
+    cadence_prefix = ""
     if isinstance(raw_dates, str):
-        session_dates = [s.strip() for s in re.split(r"[|•,;]+", raw_dates) if s.strip()] or [raw_dates.strip()]
+        raw_str = raw_dates.strip()
+        paren_match = re.match(r"^([^(]+)\((.+)\)\s*$", raw_str)
+        if paren_match:
+            cadence_prefix = paren_match.group(1).strip()
+            raw_str = paren_match.group(2).strip()
+        raw_tokens = [s.strip().strip("()") for s in re.split(r"[|•,;]+", raw_str) if s.strip().strip("()")]
+        session_dates = [re.sub(r"\s*:\s*", " — ", tok) for tok in raw_tokens] or [re.sub(r"\s*:\s*", " — ", raw_str)]
     else:
-        session_dates = [str(s).strip() for s in raw_dates if str(s).strip()] or [
+        session_dates = [
+            re.sub(r"\s*:\s*", " — ", str(s).strip().strip("()"))
+            for s in raw_dates
+            if str(s).strip().strip("()")
+        ] or [
             "Session 1",
             "Session 2",
             "Session 3",
@@ -3331,12 +3343,24 @@ def inject_class_opening_and_closing_slides(
     clean_slides: List[Dict[str, Any]] = []
     for s in slides or []:
         s_dict = s.model_dump() if hasattr(s, "model_dump") else dict(s)
-        if s_dict.get("slide_role") in ("overview-logistics", "homework-checkout"):
+        if (
+            s_dict.get("slide_role") in ("overview-logistics", "homework-checkout")
+            or s_dict.get("slide_id") in ("overview-logistics", "homework-checkout")
+        ):
             continue
         clean_slides.append(s_dict)
 
     if not include_opening and not include_closing:
         return clean_slides
+
+    ref_slide = clean_slides[0] if clean_slides else {}
+    inherited_template_id = str(cfg.get("template_id") or ref_slide.get("template_id") or "default_workbench")
+    inherited_tier = str(cfg.get("beautification_tier") or ref_slide.get("beautification_tier") or "BEAUTIFIED")
+    if inherited_tier == "STANDARD":
+        inherited_tier = "BEAUTIFIED"
+    inherited_palette = str(cfg.get("accent_palette_key") or ref_slide.get("accent_palette_key") or "NAVY_GOLD")
+    inherited_theme = str(cfg.get("visual_theme") or ref_slide.get("visual_theme") or "STANDARD_CLEAN")
+    inherited_deck_style = cfg.get("deck_style") or ref_slide.get("deck_style")
 
     reqs = list(requirements or [])
     prereq_ids = ", ".join(
@@ -3354,10 +3378,20 @@ def inject_class_opening_and_closing_slides(
     subtitle_parts = [room_location]
     if class_start_time:
         subtitle_parts.append(class_start_time)
+    if cadence_prefix:
+        subtitle_parts.append(cadence_prefix)
     subtitle_parts.append(" | ".join(session_dates[:3]))
 
+    schedule_summary_str = (
+        f"{cadence_prefix} ({' | '.join(session_dates)})"
+        if cadence_prefix
+        else " | ".join(session_dates)
+    )
+    last_date_raw = session_dates[-1] if session_dates else "Make-Up Day"
+    clean_makeup_date = re.sub(r"^(?:make-?up(?:\s+day)?)\s*(?:—|-|:)?\s*", "", last_date_raw, flags=re.IGNORECASE).strip() or last_date_raw
+
     opening_bullets = [
-        f"Clinic Schedule & Room: {' | '.join(session_dates)}{time_clause} in {room_location}.",
+        f"Clinic Schedule & Room: {schedule_summary_str}{time_clause} in {room_location}.",
         f"Pre-Class Prerequisites Due: Complete and bring proof for Requirements ({prereq_ids}).",
         f"What to Bring Every Session: {'; '.join(what_to_bring[:3])}.",
         f"YPT Two-Deep Communication Rule: Copy a parent/guardian or unit leader on all messages to {ypt_contact}.",
@@ -3376,7 +3410,13 @@ def inject_class_opening_and_closing_slides(
         safety_warning="Follow Scouting America Youth Protection (YPT) Two-Deep Leadership and the Buddy System at all times.",
         archetype="STEP_BY_STEP_PROCEDURE_4CARD",
         req_number="Overview",
+        slide_id="overview-logistics",
         slide_role="overview-logistics",
+        beautification_tier=inherited_tier,
+        template_id=inherited_template_id,
+        accent_palette_key=inherited_palette,
+        visual_theme=inherited_theme,
+        deck_style=inherited_deck_style,
         execution_mode="IN_CLASS_DISCUSSION",
         edge_phase="Explain & Plan",
         subtitle=" • ".join(subtitle_parts),
@@ -3387,7 +3427,7 @@ def inject_class_opening_and_closing_slides(
 
     closing_bullets = [
         f"Next Session & Make-Up Homework: Complete workbook organizer tables for {badge_name} and review Make-Up Eligible Reqs ({makeup_ids}).",
-        f"Make-Up Day Protocol ({session_dates[-1]}): Scouts who missed a session can verify Make-Up Eligible items during our dedicated Make-Up block.",
+        f"Make-Up Day Protocol ({clean_makeup_date}): Scouts who missed a session can verify Make-Up Eligible items during our dedicated Make-Up block.",
         "Smart Partial vs. Full Sign-Off: Actionable Make-Up Partials can be finished at clinic; Expected Home-Troop Partials (campouts/logs) finish with your unit.",
         "Blue Card (#34124) & Scoutbook Check-Out: Verify your completed requirement numbers with the counselor before departing.",
     ]
@@ -3405,7 +3445,13 @@ def inject_class_opening_and_closing_slides(
         safety_warning=None,
         archetype="STEP_BY_STEP_PROCEDURE_4CARD",
         req_number="Summary",
+        slide_id="homework-checkout",
         slide_role="homework-checkout",
+        beautification_tier=inherited_tier,
+        template_id=inherited_template_id,
+        accent_palette_key=inherited_palette,
+        visual_theme=inherited_theme,
+        deck_style=inherited_deck_style,
         execution_mode="IN_CLASS_DISCUSSION",
         edge_phase="Enable",
         subtitle="Next Session Preparation & Blue Card (#34124) Verification",

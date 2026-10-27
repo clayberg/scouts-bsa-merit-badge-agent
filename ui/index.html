@@ -3456,15 +3456,65 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
 
             <!-- RIGHT COLUMN: INTERACTIVE LIVE 16:9 SLIDE & COLOR VARIANT PREVIEW -->
             <div class="m3-tpl-ai-preview-col">
+              <!-- WASHED BACKGROUND DROPDOWN + AI PROMPT SYNTHESIS + CUSTOM IMAGE UPLOAD & DESCRIPTION -->
+              <div id="tpl-ai-backdrop-control-bar" style="padding:8px 10px; border-radius:10px; border:1px solid var(--md-sys-color-outline-variant); background:var(--md-sys-color-surface-container-low); margin-bottom:8px; display:flex; flex-direction:column; gap:6px;">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; flex-wrap:wrap;">
+                  <label for="tpl-ai-backdrop-select" style="font-size:0.73rem; font-weight:800; color:var(--md-sys-color-primary); margin:0; white-space:nowrap;">
+                    🏞️ Washed Background Image:
+                  </label>
+                  <select id="tpl-ai-backdrop-select" class="m3-select" style="flex:1; min-width:210px; padding:4px 8px; font-size:0.74rem; font-weight:700;">
+                    <option value="auto" selected>✨ Auto (Match Custom Prompt or Visual Style)</option>
+                    <option value="ai_prompt">🍌 AI Synthesized from Custom Prompt</option>
+                    <option value="custom_upload" id="tpl-ai-backdrop-opt-custom" disabled>📤 Uploaded Custom Background Image</option>
+                    <optgroup label="Scouting Emblem &amp; Heritage Backdrops (Built-In)">
+                      <option value="bsa_emblem_color">⚜️ Large Washed Color BSA Universal Emblem</option>
+                      <option value="eagle_court_of_honor">🦅 Eagle Scout Court of Honor Ceremony Amphitheater</option>
+                      <option value="heritage_embroidery">🏕️ Rustic Timber Council Lodge &amp; Stone Hearth</option>
+                      <option value="collegiate_mbc">🎓 Collegiate Brick Quadrangle &amp; Bell Cupola</option>
+                    </optgroup>
+                    <optgroup label="Outdoor, Camp &amp; High Adventure Backdrops (Built-In)">
+                      <option value="pinewood_campfire">🌲 Pinewood Forest &amp; Campfire Clearing</option>
+                      <option value="topographic_adventure">🏔️ High Adventure Alpine Summit Ridge</option>
+                      <option value="pioneering_signal_tower">🪢 Pioneering Lashed Signal Tower &amp; Monkey Bridge</option>
+                      <option value="archery_target_range">🏹 Archery &amp; Target Sports Timber Range</option>
+                      <option value="dutch_oven_camp_cooking">🍳 Campfire Dutch Oven &amp; Backcountry Trail Cooking</option>
+                      <option value="first_aid_search_rescue">⛑️ Wilderness First Aid &amp; Search-and-Rescue Basecamp</option>
+                    </optgroup>
+                    <optgroup label="Space, Aviation, Waterfront &amp; Nature Backdrops (Built-In)">
+                      <option value="apollo_rocket_launch">🚀 Space Exploration &amp; Apollo Rocket Launch</option>
+                      <option value="aviation_glider_airfield">✈️ Aviation Airfield &amp; Sailplane Glider Flight Line</option>
+                      <option value="aquatics_nautical">⚓ Coastal Lighthouse &amp; Waterfront Dock</option>
+                      <option value="whitewater_kayak_rapids">🛶 Whitewater Kayaking &amp; Canoeing River Rapids</option>
+                      <option value="environmental_wetlands">🌿 Environmental Science &amp; Nature Wetland Boardwalk</option>
+                      <option value="stem_blueprint">🔬 STEM Robotics Lab &amp; Observatory Dome</option>
+                    </optgroup>
+                  </select>
+                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-tpl-ai-synthesize-prompt-bg" title="Synthesize or match a photorealistic washed background directly from your Custom Theme Prompt" style="padding:4px 9px; font-size:0.71rem; font-weight:800; white-space:nowrap;">
+                    🍌 Match / Generate from Prompt
+                  </button>
+                </div>
+                <div style="display:grid; grid-template-columns:auto 1fr auto; gap:6px; align-items:center;">
+                  <label class="m3-btn m3-btn-outlined" for="tpl-ai-custom-bg-file-input" title="Upload a custom photo (PNG, JPG, WebP) to process into a washed slide background" style="padding:4px 9px; font-size:0.71rem; font-weight:700; cursor:pointer; margin:0; white-space:nowrap;">
+                    📤 Upload Background Image
+                  </label>
+                  <input type="file" id="tpl-ai-custom-bg-file-input" accept=".png,.jpg,.jpeg,.webp" class="hidden" />
+                  <input type="text" id="tpl-ai-custom-bg-desc-input" class="m3-input" placeholder="Optional uploaded background description (e.g., Camp Sunrise or Apollo Rocket Launch)..." style="padding:4px 8px; font-size:0.73rem;" />
+                  <button type="button" class="m3-btn m3-btn-outlined" id="btn-tpl-ai-clear-custom-bg" title="Clear uploaded custom background image" style="padding:4px 8px; font-size:0.71rem;">✕ Clear</button>
+                </div>
+              </div>
+
               <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; flex-wrap:wrap; margin-bottom:8px;">
                 <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
                   <span style="font-size:0.77rem; font-weight:800; color:var(--md-sys-color-primary);">Live 16:9 Preview</span>
                   <div class="workbook-view-segmented-control" id="tpl-ai-preview-slide-mode-switcher" style="display:inline-flex; gap:3px;">
-                    <button type="button" class="m3-quick-mode-btn" data-tpl-ai-slide-mode="cover" title="Preview Slide 1 with full-bleed Washed Cover Backdrop (cover_bg_url)" style="padding:3px 8px; font-size:0.70rem;">
-                      🖼️ Slide 1: Washed Cover
+                    <button type="button" class="m3-quick-mode-btn" data-tpl-ai-slide-mode="backdrop" title="Preview the full-bleed Washed Background canvas without slide cards" style="padding:3px 8px; font-size:0.70rem;">
+                      🏞️ Washed Background
                     </button>
-                    <button type="button" class="m3-quick-mode-btn active" data-tpl-ai-slide-mode="content" title="Preview Slide 2+ Content Slide with Header/Footer Frame and Watermark" style="padding:3px 8px; font-size:0.70rem;">
-                      📊 Slide 2+: Content Frame
+                    <button type="button" class="m3-quick-mode-btn active" data-tpl-ai-slide-mode="cover" title="Preview Slide 1 with full-bleed Washed Cover Backdrop (cover_bg_url)" style="padding:3px 8px; font-size:0.70rem;">
+                      🖼️ Slide 1
+                    </button>
+                    <button type="button" class="m3-quick-mode-btn" data-tpl-ai-slide-mode="content" title="Preview Slide 2-N Content Slide with Header/Footer Frame and Watermark" style="padding:3px 8px; font-size:0.70rem;">
+                      📊 Slide 2-N
                     </button>
                   </div>
                 </div>
@@ -3586,11 +3636,14 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
           <div id="ws-schedule-builder-collapsible-body">
             <!-- 1-CLICK VENUE MACROS (INSIDE BUILDER AREA SO THEY COLLAPSE WITH IT) -->
             <div id="ws-venue-macros-row" style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-bottom:10px; padding-bottom:8px; border-bottom:1px dashed var(--md-sys-color-outline-variant);">
-              <span style="font-size:0.74rem; font-weight:800; color:var(--md-sys-color-primary);">⚡ 1-Click Venue Macros:</span>
-              <button type="button" class="m3-studiokit-pill" id="btn-ws-macro-mbc" data-ws-venue-macro="danvers_mbc" data-generic-label="🏫 Merit Badge College (4x 75m Sat + Makeup)" data-dmbc-label="🏫 Danvers MBC (4x 75m Sat + Makeup)" style="font-size:0.72rem; padding:3px 9px;">🏫 Merit Badge College (4x 75m Sat + Makeup)</button>
-              <button type="button" class="m3-studiokit-pill" id="btn-ws-macro-camp" data-ws-venue-macro="hidden_valley" data-generic-label="🏕️ Summer Camp (4x 50m Mon–Thu + Fri Makeup)" data-dmbc-label="🏕️ Camp Hidden Valley (4x 50m Mon–Thu + Fri Makeup)" style="font-size:0.72rem; padding:3px 9px;">🏕️ Summer Camp (4x 50m Mon–Thu + Fri Makeup)</button>
-              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="troop_evening" style="font-size:0.72rem; padding:3px 9px;">⚜️ Evening Troop Meeting (3x 60m Weekly)</button>
-              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="saturday_midway" style="font-size:0.72rem; padding:3px 9px;">🎯 Saturday Midway (1x 180m)</button>
+              <span style="font-size:0.73rem; font-weight:800; color:var(--md-sys-color-primary);">⚡ 1-Click Venue Macros:</span>
+              <button type="button" class="m3-studiokit-pill" id="btn-ws-macro-mbc" data-ws-venue-macro="danvers_mbc" data-generic-label="🏫 Merit Badge College (4x 75m Sat + Makeup)" data-dmbc-label="🏫 Danvers MBC (4x 75m Sat + Makeup)" style="font-size:0.71rem; padding:3px 8px;">🏫 Merit Badge College (4x 75m Sat + Makeup)</button>
+              <button type="button" class="m3-studiokit-pill" id="btn-ws-macro-camp" data-ws-venue-macro="hidden_valley" data-generic-label="🏕️ Summer Camp (4x 50m Mon–Thu + Fri Makeup)" data-dmbc-label="🏕️ Camp Hidden Valley (4x 50m Mon–Thu + Fri Makeup)" style="font-size:0.71rem; padding:3px 8px;">🏕️ Summer Camp (4x 50m Mon–Thu + Fri Makeup)</button>
+              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="troop_evening" style="font-size:0.71rem; padding:3px 8px;">⚜️ Evening Troop Meeting (3x 60m Weekly)</button>
+              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="saturday_midway" style="font-size:0.71rem; padding:3px 8px;">🎯 Saturday Midway (1x 180m)</button>
+              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="weekend_campout" style="font-size:0.71rem; padding:3px 8px;">🥾 Weekend Campout (2x 120m Sat–Sun)</button>
+              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="trail_to_eagle" style="font-size:0.71rem; padding:3px 8px;">🧭 Trail to Eagle Clinic (3x 90m Sat)</button>
+              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="stem_lab" style="font-size:0.71rem; padding:3px 8px;">🔬 STEM / Trade Lab (2x 90m Weekly)</button>
             </div>
 
             <!-- ROW 1: DECK TITLE + AUTO-TITLE | SECTION NAME | SECTION # | STARTING DATE + WEEKDAY BADGE | FREQUENCY | # SESSIONS + MAKEUP -->

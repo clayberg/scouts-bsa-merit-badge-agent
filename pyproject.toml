@@ -54,6 +54,11 @@ scouts-bsa-agent = "src.server:main"
 scouts-bsa-mcp = "src.mcp_server:main"
 run-eval-suite = "tests.eval_golden_suite:run_eval_suite"
 
+[project.entry-points."scouts_bsa.plugins"]
+noaa_weather_forecast = "src.plugins.registry:get_noaa_plugin_spec"
+usgs_topographic_elevation = "src.plugins.registry:get_usgs_plugin_spec"
+nps_campsite_lookup = "src.plugins.registry:get_nps_plugin_spec"
+
 [tool.pytest.ini_options]
 minversion = "8.0"
 addopts = "-ra -q --asyncio-mode=auto"

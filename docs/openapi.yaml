@@ -1,7 +1,6 @@
 openapi: 3.1.0
 info:
-  title: "Scouts BSA Merit Badge Agent \u2014 Material 3 Expressive A2UI & A2A 1.0\
-    \ Server"
+  title: Scouts BSA Merit Badge Agent — Material 3 Expressive A2UI & A2A 1.0 Server
   description: Production ADK multi-agent system with 5-Tier Deep Pamphlet Research,
     12-Archetype Slide Engine, Tri-Modal Visual Synthesis, 2-Stage Conformance/Vision
     Critic, FastMCP HITL Confirmation Tokens, and Google Material 3 Expressive A2UI.
@@ -582,7 +581,7 @@ paths:
         required: false
         schema:
           type: string
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
           title: Audience Level
       - name: template_id
         in: query
@@ -719,7 +718,7 @@ paths:
         required: false
         schema:
           type: string
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
           title: Audience Level
       - name: template_id
         in: query
@@ -6128,6 +6127,126 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/templates/backdrops:
+    get:
+      summary: Api List Nano Builtin Backdrops
+      description: Returns the catalog of 16 curated Scouting washed background images.
+      operationId: api_list_nano_builtin_backdrops_api_v1_templates_backdrops_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api List Nano Builtin Backdrops Api V1 Templates Backdrops
+                  Get
+  /api/templates/backdrops:
+    get:
+      summary: Api List Nano Builtin Backdrops
+      description: Returns the catalog of 16 curated Scouting washed background images.
+      operationId: api_list_nano_builtin_backdrops_api_templates_backdrops_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api List Nano Builtin Backdrops Api Templates Backdrops
+                  Get
+  /api/v1/templates/synthesize-backdrop:
+    post:
+      summary: Api Synthesize Nano Washed Backdrop
+      description: Synthesizes or processes a custom 16:9 washed background from a
+        prompt or uploaded image.
+      operationId: api_synthesize_nano_washed_backdrop_api_v1_templates_synthesize_backdrop_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NanoBananaBackdropSynthesizeRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Synthesize Nano Washed Backdrop Api V1 Templates
+                  Synthesize Backdrop Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/templates/synthesize-backdrop:
+    post:
+      summary: Api Synthesize Nano Washed Backdrop
+      description: Synthesizes or processes a custom 16:9 washed background from a
+        prompt or uploaded image.
+      operationId: api_synthesize_nano_washed_backdrop_api_templates_synthesize_backdrop_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NanoBananaBackdropSynthesizeRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Synthesize Nano Washed Backdrop Api Templates
+                  Synthesize Backdrop Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
   /api/v1/templates/generate-ai:
     post:
       summary: Api Generate Nano Banana Template Family
@@ -6989,6 +7108,334 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/finops/semantic-cache:
+    get:
+      summary: Api Get Semantic Cache Stats
+      description: Returns live cosine-similarity SemanticCache hit/miss statistics
+        and estimated FinOps USD savings.
+      operationId: api_get_semantic_cache_stats_api_v1_finops_semantic_cache_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Semantic Cache Stats Api V1 Finops Semantic
+                  Cache Get
+    post:
+      summary: Api Lookup Or Store Semantic Cache
+      description: Performs a 64-dim cosine-similarity lookup (`>= 0.92`) in `GLOBAL_SEMANTIC_CACHE`
+        and optionally stores a new entry.
+      operationId: api_lookup_or_store_semantic_cache_api_v1_finops_semantic_cache_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SemanticCacheLookupRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Lookup Or Store Semantic Cache Api V1 Finops Semantic
+                  Cache Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/finops/semantic-cache:
+    get:
+      summary: Api Get Semantic Cache Stats
+      description: Returns live cosine-similarity SemanticCache hit/miss statistics
+        and estimated FinOps USD savings.
+      operationId: api_get_semantic_cache_stats_api_finops_semantic_cache_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Semantic Cache Stats Api Finops Semantic Cache
+                  Get
+    post:
+      summary: Api Lookup Or Store Semantic Cache
+      description: Performs a 64-dim cosine-similarity lookup (`>= 0.92`) in `GLOBAL_SEMANTIC_CACHE`
+        and optionally stores a new entry.
+      operationId: api_lookup_or_store_semantic_cache_api_finops_semantic_cache_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SemanticCacheLookupRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Lookup Or Store Semantic Cache Api Finops Semantic
+                  Cache Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/experiments/ab-status:
+    get:
+      summary: Api Get Ab Experiment Status
+      description: Returns deterministic SHA-256 A/B traffic routing assignment and
+        per-variant telemetry summary.
+      operationId: api_get_ab_experiment_status_api_v1_experiments_ab_status_get
+      parameters:
+      - name: session_id
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Session Id
+      - name: experiment_id
+        in: query
+        required: false
+        schema:
+          type: string
+          default: curriculum_synthesis_v2
+          title: Experiment Id
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Ab Experiment Status Api V1 Experiments Ab
+                  Status Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/experiments/ab-status:
+    get:
+      summary: Api Get Ab Experiment Status
+      description: Returns deterministic SHA-256 A/B traffic routing assignment and
+        per-variant telemetry summary.
+      operationId: api_get_ab_experiment_status_api_experiments_ab_status_get
+      parameters:
+      - name: session_id
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Session Id
+      - name: experiment_id
+        in: query
+        required: false
+        schema:
+          type: string
+          default: curriculum_synthesis_v2
+          title: Experiment Id
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Get Ab Experiment Status Api Experiments Ab Status
+                  Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/plugins:
+    get:
+      summary: Api List Registered Plugins
+      description: Lists all registered `@register_tool_plugin` and `entry_points(group='scouts_bsa.plugins')`
+        tool plugins.
+      operationId: api_list_registered_plugins_api_v1_plugins_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api List Registered Plugins Api V1 Plugins Get
+  /api/plugins:
+    get:
+      summary: Api List Registered Plugins
+      description: Lists all registered `@register_tool_plugin` and `entry_points(group='scouts_bsa.plugins')`
+        tool plugins.
+      operationId: api_list_registered_plugins_api_plugins_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Api List Registered Plugins Api Plugins Get
+  /api/v1/plugins/{plugin_name}/execute:
+    post:
+      summary: Api Execute Registered Plugin
+      description: Validates `req.payload` against the plugin's JSON-Schema and executes
+        the plugin.
+      operationId: api_execute_registered_plugin_api_v1_plugins__plugin_name__execute_post
+      parameters:
+      - name: plugin_name
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Plugin Name
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PluginExecuteRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Execute Registered Plugin Api V1 Plugins  Plugin
+                  Name  Execute Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/plugins/{plugin_name}/execute:
+    post:
+      summary: Api Execute Registered Plugin
+      description: Validates `req.payload` against the plugin's JSON-Schema and executes
+        the plugin.
+      operationId: api_execute_registered_plugin_api_plugins__plugin_name__execute_post
+      parameters:
+      - name: plugin_name
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Plugin Name
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PluginExecuteRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Execute Registered Plugin Api Plugins  Plugin
+                  Name  Execute Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
   /:
     get:
       summary: Serve A2Ui Workbench
@@ -7476,6 +7923,45 @@ components:
           title: Detail
       type: object
       title: HTTPValidationError
+    NanoBananaBackdropSynthesizeRequest:
+      properties:
+        prompt:
+          type: string
+          title: Prompt
+          description: Custom theme or backdrop prompt.
+          default: ''
+        visual_style:
+          type: string
+          title: Visual Style
+          description: Template visual style ID.
+          default: pinewood_campfire
+        backdrop_id:
+          type: string
+          title: Backdrop Id
+          description: Built-in backdrop ID, 'auto', 'ai_prompt', or 'custom_upload'.
+          default: ai_prompt
+        custom_bg_data_url:
+          type: string
+          title: Custom Bg Data Url
+          description: Optional base64 data URL of uploaded custom background image.
+          default: ''
+        custom_bg_description:
+          type: string
+          title: Custom Bg Description
+          description: Optional description of uploaded custom background image.
+          default: ''
+        primary_hex:
+          type: string
+          title: Primary Hex
+          description: Primary brand hex color for duotone wash grading.
+          default: '#1B5E20'
+        accent_hex:
+          type: string
+          title: Accent Hex
+          description: Accent brand hex color for duotone wash grading.
+          default: '#D97706'
+      type: object
+      title: NanoBananaBackdropSynthesizeRequest
     NanoBananaCostRequest:
       properties:
         badge_name:
@@ -7673,6 +8159,21 @@ components:
           - type: 'null'
           title: Remove Logo Bg
           description: Alias for remove_logo_white_bg.
+        backdrop_id:
+          type: string
+          title: Backdrop Id
+          description: Built-in washed backdrop ID, 'auto', 'ai_prompt', or 'custom_upload'.
+          default: auto
+        custom_bg_data_url:
+          type: string
+          title: Custom Bg Data Url
+          description: Optional base64 data URL of uploaded custom background image.
+          default: ''
+        custom_bg_description:
+          type: string
+          title: Custom Bg Description
+          description: Optional description of uploaded custom background image.
+          default: ''
         preview_only:
           type: boolean
           title: Preview Only
@@ -7692,6 +8193,41 @@ components:
           description: Alias for user_consented.
       type: object
       title: NanoBananaTemplateGenerateRequest
+    PluginExecuteRequest:
+      properties:
+        payload:
+          additionalProperties: true
+          type: object
+          title: Payload
+          description: Input arguments validated against the plugin JSON-Schema.
+      type: object
+      title: PluginExecuteRequest
+    SemanticCacheLookupRequest:
+      properties:
+        query:
+          type: string
+          title: Query
+          description: Query string for semantic similarity lookup.
+        badge_name:
+          type: string
+          title: Badge Name
+          description: Merit Badge context.
+          default: First Aid
+        model_tier:
+          type: string
+          title: Model Tier
+          description: Target model tier.
+          default: flash
+        response_payload:
+          anyOf:
+          - {}
+          - type: 'null'
+          title: Response Payload
+          description: Optional response payload to store on cache miss.
+      type: object
+      required:
+      - query
+      title: SemanticCacheLookupRequest
     SlideDeckCustomizeRequest:
       properties:
         badge_name:
@@ -8637,7 +9173,7 @@ components:
           type: string
           title: Audience Level
           description: Target Scout audience level.
-          default: "All Scouts (Ages 11\u201317)"
+          default: All Scouts (Ages 11–17)
         session_id:
           type: string
           title: Session Id

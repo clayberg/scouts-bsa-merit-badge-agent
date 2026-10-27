@@ -2117,22 +2117,223 @@ def _compute_nano_template_safe_bounds(
     )
 
 
+NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
+    {
+        "id": "pinewood_campfire",
+        "label": "🌲 Pinewood Forest & Campfire Clearing",
+        "url": "/assets/templates/overlays/nano_base_pinewood_campfire.jpg",
+        "file": "nano_base_pinewood_campfire.jpg",
+        "keywords": "pinewood forest campfire clearing woods timber camp tent lantern",
+    },
+    {
+        "id": "topographic_adventure",
+        "label": "🏔️ High Adventure Alpine Summit Ridge",
+        "url": "/assets/templates/overlays/nano_base_topographic_adventure.jpg",
+        "file": "nano_base_topographic_adventure.jpg",
+        "keywords": "topographic mountain summit ridge hiking trail peak high adventure backpack",
+    },
+    {
+        "id": "heritage_embroidery",
+        "label": "🏕️ Rustic Timber Council Lodge & Stone Hearth",
+        "url": "/assets/templates/overlays/nano_base_heritage_embroidery.jpg",
+        "file": "nano_base_heritage_embroidery.jpg",
+        "keywords": "heritage lodge timber fireplace pavilion cabin council hall",
+    },
+    {
+        "id": "collegiate_mbc",
+        "label": "🎓 Collegiate Brick Quadrangle & Bell Cupola",
+        "url": "/assets/templates/overlays/nano_base_collegiate_mbc.jpg",
+        "file": "nano_base_collegiate_mbc.jpg",
+        "keywords": "collegiate university school cupola campus academic danvers holten brick merit badge college",
+    },
+    {
+        "id": "aquatics_nautical",
+        "label": "⚓ Coastal Lighthouse & Waterfront Dock",
+        "url": "/assets/templates/overlays/nano_base_aquatics_nautical.jpg",
+        "file": "nano_base_aquatics_nautical.jpg",
+        "keywords": "aquatics nautical lighthouse ocean harbor cove sail sea waterfront dock",
+    },
+    {
+        "id": "stem_blueprint",
+        "label": "🔬 STEM Robotics Lab & Observatory Dome",
+        "url": "/assets/templates/overlays/nano_base_stem_blueprint.jpg",
+        "file": "nano_base_stem_blueprint.jpg",
+        "keywords": "stem blueprint robot circuit observatory engineering cad lab workshop",
+    },
+    {
+        "id": "bsa_emblem_color",
+        "label": "⚜️ Large Washed Color BSA Universal Emblem",
+        "url": "/assets/templates/overlays/nano_base_bsa_emblem_color.jpg",
+        "file": "nano_base_bsa_emblem_color.jpg",
+        "keywords": "bsa logo emblem fleur de lis scouting america universal crest shield color",
+    },
+    {
+        "id": "apollo_rocket_launch",
+        "label": "🚀 Space Exploration & Apollo Rocket Launch",
+        "url": "/assets/templates/overlays/nano_base_apollo_rocket_launch.jpg",
+        "file": "nano_base_apollo_rocket_launch.jpg",
+        "keywords": "apollo rocket launch space exploration nasa saturn pad astronautcape canaveral",
+    },
+    {
+        "id": "archery_target_range",
+        "label": "🏹 Archery & Target Sports Timber Range",
+        "url": "/assets/templates/overlays/nano_base_archery_target_range.jpg",
+        "file": "nano_base_archery_target_range.jpg",
+        "keywords": "archery bow arrow target range shooting sports rifle shotgun",
+    },
+    {
+        "id": "pioneering_signal_tower",
+        "label": "🪢 Pioneering Lashed Signal Tower & Monkey Bridge",
+        "url": "/assets/templates/overlays/nano_base_pioneering_signal_tower.jpg",
+        "file": "nano_base_pioneering_signal_tower.jpg",
+        "keywords": "pioneering signal tower monkey bridge lashing rope knot spar timber",
+    },
+    {
+        "id": "whitewater_kayak_rapids",
+        "label": "🛶 Whitewater Kayaking & Canoeing River Rapids",
+        "url": "/assets/templates/overlays/nano_base_whitewater_kayak_rapids.jpg",
+        "file": "nano_base_whitewater_kayak_rapids.jpg",
+        "keywords": "whitewater kayak canoe rapids river paddle rafting watercraft",
+    },
+    {
+        "id": "first_aid_search_rescue",
+        "label": "⛑️ Wilderness First Aid & Search-and-Rescue Basecamp",
+        "url": "/assets/templates/overlays/nano_base_first_aid_search_rescue.jpg",
+        "file": "nano_base_first_aid_search_rescue.jpg",
+        "keywords": "first aid emergency medical search rescue triage wilderness survival",
+    },
+    {
+        "id": "eagle_court_of_honor",
+        "label": "🦅 Eagle Scout Court of Honor Ceremony Amphitheater",
+        "url": "/assets/templates/overlays/nano_base_eagle_court_of_honor.jpg",
+        "file": "nano_base_eagle_court_of_honor.jpg",
+        "keywords": "eagle court of honor ceremony amphitheater flag stage citizenship",
+    },
+    {
+        "id": "environmental_wetlands",
+        "label": "🌿 Environmental Science & Nature Wetland Boardwalk",
+        "url": "/assets/templates/overlays/nano_base_environmental_wetlands.jpg",
+        "file": "nano_base_environmental_wetlands.jpg",
+        "keywords": "environmental science nature ecology wetland marsh boardwalk forestry wildlife",
+    },
+    {
+        "id": "aviation_glider_airfield",
+        "label": "✈️ Aviation Airfield & Sailplane Glider Flight Line",
+        "url": "/assets/templates/overlays/nano_base_aviation_glider_airfield.jpg",
+        "file": "nano_base_aviation_glider_airfield.jpg",
+        "keywords": "aviation airplane aircraft glider sailplane airfield flight pilot airport",
+    },
+    {
+        "id": "dutch_oven_camp_cooking",
+        "label": "🍳 Campfire Dutch Oven & Backcountry Trail Cooking",
+        "url": "/assets/templates/overlays/nano_base_dutch_oven_camp_cooking.jpg",
+        "file": "nano_base_dutch_oven_camp_cooking.jpg",
+        "keywords": "dutch oven cooking campfire hearth kitchen chuck box coals cast iron",
+    },
+]
+
+
+def list_nano_builtin_backdrops() -> List[Dict[str, str]]:
+    """Returns the catalog of 16 built-in Scouting washed background images."""
+    return [dict(item) for item in NANO_BUILT_IN_BACKDROPS_CATALOG]
+
+
+def _match_badge_catalog_photo_for_prompt(custom_prompt: str) -> Optional[Path]:
+    """Searches `assets/badge_image_catalog/` for a high-resolution photo matching `custom_prompt` keywords."""
+    if not custom_prompt or not custom_prompt.strip():
+        return None
+    badge_cat_dir = OVERLAYS_DIR.parent.parent / "badge_image_catalog"
+    if not badge_cat_dir.is_dir():
+        return None
+    tokens = [
+        tok
+        for tok in re.findall(r"[a-z0-9]+", custom_prompt.lower())
+        if len(tok) >= 3 and tok not in {"the", "and", "for", "with", "shot", "distance", "from", "into", "over", "under", "washed", "background", "backdrop", "slide", "template"}
+    ]
+    if not tokens:
+        return None
+    best_folder: Optional[Path] = None
+    best_score = 0
+    for folder in sorted(badge_cat_dir.iterdir()):
+        if not folder.is_dir() or folder.name.startswith("_"):
+            continue
+        fname = folder.name.lower()
+        score = sum(3 if tok in fname.split("_") else (2 if tok in fname else 0) for tok in tokens)
+        if score > best_score:
+            best_score = score
+            best_folder = folder
+    if best_folder is not None and best_score >= 2:
+        imgs = sorted(
+            [p for p in best_folder.iterdir() if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp") and p.stat().st_size > 25000],
+            key=lambda p: p.stat().st_size,
+            reverse=True,
+        )
+        if imgs:
+            return imgs[0]
+    return None
+
+
 def _resolve_nano_photorealistic_base_cover(
     visual_style: str,
     custom_prompt: str = "",
     family_id: str = "",
     allow_live_synthesis: bool = False,
+    backdrop_id: str = "",
+    custom_bg_path: Optional[Path] = None,
 ) -> Path:
     """Resolves a high-resolution 16:9 photorealistic scenic base photograph for Slide 1 cover_bg_url."""
     import os
 
-    style_key = str(visual_style or "pinewood_campfire").strip().lower()
+    if custom_bg_path is not None and custom_bg_path.exists():
+        return custom_bg_path
 
+    clean_backdrop_id = str(backdrop_id or "").strip().lower()
+    by_id = {item["id"]: OVERLAYS_DIR / item["file"] for item in NANO_BUILT_IN_BACKDROPS_CATALOG}
+
+    # If user explicitly chose one of the 16 built-in backdrops from the dropdown:
+    if clean_backdrop_id and clean_backdrop_id not in ("auto", "ai_prompt", "custom_upload"):
+        explicit_path = by_id.get(clean_backdrop_id)
+        if explicit_path and explicit_path.exists():
+            return explicit_path
+
+    style_key = str(visual_style or "pinewood_campfire").strip().lower()
+    custom_lc = (custom_prompt or "").strip().lower()
+
+    # Check if the prompt strongly matches one of our 16 purpose-built high-resolution Scouting backdrops
+    keyword_priority: List[Tuple[Tuple[str, ...], str]] = [
+        (("apollo", "rocket", "launch", "saturn", "nasa", "astronaut", "space exploration", "launchpad"), "apollo_rocket_launch"),
+        (("bsa logo", "bsa emblem", "fleur", "universal emblem", "scouting logo", "color bsa"), "bsa_emblem_color"),
+        (("archery", "bow", "arrow", "target range", "rifle", "shotgun", "shooting sports"), "archery_target_range"),
+        (("pioneer", "signal tower", "monkey bridge", "lashing", "lashed", "spar"), "pioneering_signal_tower"),
+        (("whitewater", "kayak", "canoe", "rapids", "rafting", "paddle"), "whitewater_kayak_rapids"),
+        (("first aid", "search and rescue", "triage", "emergency medical", "stretcher", "wilderness survival"), "first_aid_search_rescue"),
+        (("court of honor", "eagle scout", "amphitheater", "ceremony stage", "color guard"), "eagle_court_of_honor"),
+        (("wetland", "marsh", "boardwalk", "environmental science", "ecology", "wildlife", "nature study"), "environmental_wetlands"),
+        (("aviation", "glider", "sailplane", "airfield", "airplane", "aircraft", "flight line"), "aviation_glider_airfield"),
+        (("dutch oven", "camp cooking", "cast iron", "chuck box", "campfire cooking", "outdoor kitchen"), "dutch_oven_camp_cooking"),
+        (("collegiate", "university", "school", "cupola", "campus", "academic", "danvers", "holten", "brick"), "collegiate_mbc"),
+        (("aquatic", "nautical", "lighthouse", "ocean", "harbor", "cove", "sail", "waterfront"), "aquatics_nautical"),
+        (("stem", "blueprint", "robot", "circuit", "observatory", "engineering", "cad"), "stem_blueprint"),
+        (("lodge", "fireplace", "council ring", "pavilion"), "heritage_embroidery"),
+        (("summit", "alpine", "mountain", "ridge", "topographic", "philmont"), "topographic_adventure"),
+        (("pinewood", "campfire", "forest", "pine"), "pinewood_campfire"),
+    ]
+    matched_builtin_path: Optional[Path] = None
+    if custom_lc:
+        for kw_tuple, bid in keyword_priority:
+            if any(k in custom_lc for k in kw_tuple):
+                cand_p = by_id.get(bid)
+                if cand_p and cand_p.exists():
+                    matched_builtin_path = cand_p
+                    break
+
+    # Live AI Image Synthesis when requested (`ai_prompt` or custom_prompt with `allow_live_synthesis`)
     if (
         allow_live_synthesis
         and family_id
+        and (clean_backdrop_id == "ai_prompt" or (custom_lc and matched_builtin_path is None))
         and not os.getenv("PYTEST_CURRENT_TEST")
-        and os.getenv("ENABLE_LIVE_TEMPLATE_COVER_AI", "false").lower() in ("true", "1", "yes")
+        and os.getenv("ENABLE_LIVE_TEMPLATE_COVER_AI", "true").lower() in ("true", "1", "yes")
     ):
         ai_base_path = CUSTOM_TEMPLATES_DIR / f"{family_id}_ai_base_cover.png"
         if ai_base_path.exists() and ai_base_path.stat().st_size > 10000:
@@ -2142,13 +2343,13 @@ def _resolve_nano_photorealistic_base_cover(
 
             subj = (
                 custom_prompt.strip()
-                if custom_prompt and len(custom_prompt.strip()) >= 12
+                if custom_prompt and len(custom_prompt.strip()) >= 6
                 else f"Wide-angle 16:9 DSLR outdoor scenic landscape for {style_key.replace('_', ' ')} Scouting theme"
             )
             if _try_live_ai_image_synthesis(
                 visual_subject=f"Wide-angle 16:9 DSLR landscape or architectural photograph: {subj}",
                 visual_style="Photorealistic Image",
-                seed_int=abs(hash(family_id)) % 10000,
+                seed_int=abs(hash(f"{family_id}:{subj}")) % 10000,
                 out_path=ai_base_path,
                 include_humans=False,
                 compress_800x600=False,
@@ -2159,34 +2360,18 @@ def _resolve_nano_photorealistic_base_cover(
         except Exception:
             pass
 
-    style_map = {
-        "pinewood_campfire": OVERLAYS_DIR / "nano_base_pinewood_campfire.jpg",
-        "topographic_adventure": OVERLAYS_DIR / "nano_base_topographic_adventure.jpg",
-        "heritage_embroidery": OVERLAYS_DIR / "nano_base_heritage_embroidery.jpg",
-        "collegiate_mbc": OVERLAYS_DIR / "nano_base_collegiate_mbc.jpg",
-        "aquatics_nautical": OVERLAYS_DIR / "nano_base_aquatics_nautical.jpg",
-        "stem_blueprint": OVERLAYS_DIR / "nano_base_stem_blueprint.jpg",
-    }
-    candidates: List[Path] = []
-    custom_lc = (custom_prompt or "").lower()
-    if any(k in custom_lc for k in ("collegiate", "university", "school", "cupola", "campus", "academic", "danvers", "holten", "brick")):
-        candidates.append(OVERLAYS_DIR / "nano_base_collegiate_mbc.jpg")
-    elif any(k in custom_lc for k in ("aquatic", "nautical", "lighthouse", "ocean", "harbor", "cove", "sail", "waterfront")):
-        candidates.append(OVERLAYS_DIR / "nano_base_aquatics_nautical.jpg")
-    elif any(k in custom_lc for k in ("stem", "blueprint", "robot", "circuit", "observatory", "engineering", "cad", "rocket")):
-        candidates.append(OVERLAYS_DIR / "nano_base_stem_blueprint.jpg")
-    elif any(k in custom_lc for k in ("lodge", "fireplace", "pioneer", "council ring")):
-        candidates.append(OVERLAYS_DIR / "nano_base_heritage_embroidery.jpg")
+    if matched_builtin_path is not None and matched_builtin_path.exists():
+        return matched_builtin_path
 
-    if style_key in style_map:
-        candidates.append(style_map[style_key])
-    candidates.extend([
-        OVERLAYS_DIR / "nano_base_pinewood_campfire.jpg",
-        OVERLAYS_DIR / "forest_sunrise_cover.jpg",
-        OVERLAYS_DIR / "high_adventure_climb.jpg",
-        OVERLAYS_DIR / "dmbc_v1_cover_bg.jpg",
-    ])
-    for cand in candidates:
+    badge_photo = _match_badge_catalog_photo_for_prompt(custom_prompt)
+    if badge_photo is not None and badge_photo.exists():
+        return badge_photo
+
+    if style_key in by_id and by_id[style_key].exists():
+        return by_id[style_key]
+
+    for fallback_name in ("nano_base_pinewood_campfire.jpg", "forest_sunrise_cover.jpg", "high_adventure_climb.jpg"):
+        cand = OVERLAYS_DIR / fallback_name
         if cand.exists():
             return cand
     return OVERLAYS_DIR / "forest_sunrise_cover.jpg"
@@ -2495,6 +2680,128 @@ def _build_nano_template_master_pptx(profile: TemplateProfile) -> str:
     return f"assets/templates/custom/{out_pptx.name}"
 
 
+def synthesize_custom_washed_backdrop(
+    prompt: str = "",
+    visual_style: str = "pinewood_campfire",
+    backdrop_id: str = "ai_prompt",
+    custom_bg_data_url: str = "",
+    custom_bg_description: str = "",
+    primary_hex: str = "#1B5E20",
+    accent_hex: str = "#D97706",
+) -> Dict[str, Any]:
+    """Synthesizes or resolves a 16:9 washed background image from a custom prompt, uploaded photo, or built-in theme."""
+    import base64
+    from PIL import ImageEnhance, ImageOps
+
+    try:
+        from src.security.spiffe_and_armor import sanitize_text_with_model_armor  # type: ignore
+    except Exception:
+        from src.agents.guardrails import sanitize_text_with_model_armor
+
+    clean_prompt = str(prompt or "").strip()
+    clean_bg_desc = str(custom_bg_description or "").strip()
+    combined = f"{clean_prompt} {clean_bg_desc}".strip()
+    if combined:
+        raw_guard = sanitize_text_with_model_armor(combined)
+        guard_res = dict(raw_guard) if isinstance(raw_guard, dict) else {"is_safe": True, "allowed": True}
+        violations = list(guard_res.get("violations") or [])
+        for v_code, pat in _TEMPLATE_YPT_AND_PII_PATTERNS:
+            if pat.search(combined) and v_code not in violations:
+                violations.append(v_code)
+        if not bool(guard_res.get("is_safe", True)) or not bool(guard_res.get("allowed", True)) or violations:
+            return {
+                "status": "BLOCKED_BY_GUARDRAIL",
+                "blocked": True,
+                "message": "Blocked by Scouting America Youth Protection (YPT) & Zero-PII Model Armor Guardrail.",
+                "violations": violations,
+            }
+
+    _ensure_dirs()
+    short_key = hashlib.sha256(
+        f"{clean_prompt}:{visual_style}:{backdrop_id}:{clean_bg_desc}:{primary_hex}:{accent_hex}:{len(custom_bg_data_url or '')}".encode("utf-8")
+    ).hexdigest()[:10]
+    synth_id = f"nanobg_{short_key}"
+
+    uploaded_path: Optional[Path] = None
+    if custom_bg_data_url and str(custom_bg_data_url).strip():
+        raw_b64 = str(custom_bg_data_url).strip()
+        if "," in raw_b64:
+            raw_b64 = raw_b64.split(",", 1)[1]
+        try:
+            bg_bytes = base64.b64decode(raw_b64)
+            with Image.open(io.BytesIO(bg_bytes)) as uim:
+                fitted_u = ImageOps.fit(uim.convert("RGB"), (1600, 900), method=Image.Resampling.LANCZOS)
+                uploaded_path = CUSTOM_TEMPLATES_DIR / f"{synth_id}_uploaded_raw.jpg"
+                fitted_u.save(uploaded_path, "JPEG", quality=92)
+        except Exception:
+            uploaded_path = None
+
+    resolved_src = _resolve_nano_photorealistic_base_cover(
+        visual_style=visual_style,
+        custom_prompt=clean_prompt or clean_bg_desc,
+        family_id=synth_id,
+        allow_live_synthesis=True,
+        backdrop_id=backdrop_id,
+        custom_bg_path=uploaded_path,
+    )
+
+    p_rgb = hex_to_rgb(primary_hex, (27, 94, 32))
+    a_rgb = hex_to_rgb(accent_hex, (217, 119, 6))
+    cov_w, cov_h = 1600, 900
+    if resolved_src.exists():
+        with Image.open(resolved_src) as raw_cov:
+            photo_rgb = ImageOps.fit(raw_cov.convert("RGB"), (cov_w, cov_h), method=Image.Resampling.LANCZOS)
+        gray = ImageOps.grayscale(photo_rgb)
+        mid_tint = (
+            min(255, int(p_rgb[0] * 0.55 + a_rgb[0] * 0.45)),
+            min(255, int(p_rgb[1] * 0.55 + a_rgb[1] * 0.45)),
+            min(255, int(p_rgb[2] * 0.55 + a_rgb[2] * 0.45)),
+        )
+        high_tint = (
+            min(255, int(235 + a_rgb[0] * 0.08)),
+            min(255, int(235 + a_rgb[1] * 0.08)),
+            min(255, int(235 + a_rgb[2] * 0.08)),
+        )
+        duotone = ImageOps.colorize(gray, black=p_rgb, mid=mid_tint, white=high_tint)
+        graded_rgb = Image.blend(photo_rgb, duotone, alpha=0.18)
+        graded_rgb = ImageEnhance.Contrast(graded_rgb).enhance(1.05)
+    else:
+        graded_rgb = Image.new("RGB", (cov_w, cov_h), (248, 246, 240))
+
+    graded_out = CUSTOM_TEMPLATES_DIR / f"{synth_id}_cover_bg.jpg"
+    graded_rgb.save(graded_out, "JPEG", quality=91)
+
+    # Also build a pre-washed 16:9 canvas image (blended 26% with warm cream #FAF8F5) for standalone Washed Background inspection
+    warm_cream = Image.new("RGB", (cov_w, cov_h), (250, 248, 245))
+    washed_canvas = Image.blend(warm_cream, graded_rgb, alpha=0.26)
+    washed_out = CUSTOM_TEMPLATES_DIR / f"{synth_id}_washed_preview.jpg"
+    washed_canvas.save(washed_out, "JPEG", quality=91)
+
+    matched_id = backdrop_id
+    matched_label = "Nano Banana AI Washed Backdrop"
+    if uploaded_path is not None and uploaded_path.exists():
+        matched_label = f"Uploaded Photo ({clean_bg_desc or 'Custom Background'})"
+    else:
+        for item in NANO_BUILT_IN_BACKDROPS_CATALOG:
+            if resolved_src.name == item["file"]:
+                matched_id = item["id"]
+                matched_label = item["label"]
+                break
+
+    cover_bg_rel = f"/assets/templates/custom/{graded_out.name}"
+    return {
+        "status": "SUCCESS",
+        "synth_id": synth_id,
+        "backdrop_id": matched_id,
+        "source_file": resolved_src.name,
+        "source_label": matched_label,
+        "backdrop_url": cover_bg_rel,
+        "cover_bg_url": cover_bg_rel,
+        "washed_preview_url": f"/assets/templates/custom/{washed_out.name}",
+        "description": clean_bg_desc or clean_prompt or resolved_src.stem.replace("nano_base_", "").replace("_", " ").title(),
+    }
+
+
 def generate_nano_banana_template_family(
     family_name: str,
     visual_style: str = "pinewood_campfire",
@@ -2508,9 +2815,13 @@ def generate_nano_banana_template_family(
     user_consented: bool = False,
     include_secondary: Optional[bool] = None,
     include_accent: Optional[bool] = None,
+    backdrop_id: str = "auto",
+    custom_bg_data_url: str = "",
+    custom_bg_description: str = "",
 ) -> Dict[str, Any]:
     """Generates a coordinated 1-to-3 Color Variant Nano Banana AI Slide Template Family with YPT/Zero-PII guardrails and FinOps gating."""
     import base64
+    from PIL import ImageOps
 
     try:
         from src.security.spiffe_and_armor import sanitize_text_with_model_armor  # type: ignore
@@ -2519,7 +2830,8 @@ def generate_nano_banana_template_family(
 
     clean_name = str(family_name or "Custom Scouting Template").strip() or "Custom Scouting Template"
     clean_prompt = str(custom_prompt or "").strip()
-    combined_input = f"{clean_name} {clean_prompt}".strip()
+    clean_bg_desc = str(custom_bg_description or "").strip()
+    combined_input = f"{clean_name} {clean_prompt} {clean_bg_desc}".strip()
 
     # Step 1 — Model Armor & YPT / Zero-PII Guardrail Check
     raw_guardrail = sanitize_text_with_model_armor(combined_input)
@@ -2677,11 +2989,27 @@ def generate_nano_banana_template_family(
         has_logo=(processed_logo_img is not None),
     )
 
+    uploaded_bg_path: Optional[Path] = None
+    if custom_bg_data_url and str(custom_bg_data_url).strip():
+        raw_bg_b64 = str(custom_bg_data_url).strip()
+        if "," in raw_bg_b64:
+            raw_bg_b64 = raw_bg_b64.split(",", 1)[1]
+        try:
+            bg_bytes = base64.b64decode(raw_bg_b64)
+            with Image.open(io.BytesIO(bg_bytes)) as ubim:
+                fitted_ub = ImageOps.fit(ubim.convert("RGB"), (1600, 900), method=Image.Resampling.LANCZOS)
+                uploaded_bg_path = CUSTOM_TEMPLATES_DIR / f"{family_id}_uploaded_base_cover.jpg"
+                fitted_ub.save(uploaded_bg_path, "JPEG", quality=92)
+        except Exception:
+            uploaded_bg_path = None
+
     family_base_cover = _resolve_nano_photorealistic_base_cover(
         visual_style=style_key,
-        custom_prompt=clean_prompt,
+        custom_prompt=clean_prompt or clean_bg_desc,
         family_id=family_id,
         allow_live_synthesis=(not preview_only),
+        backdrop_id=backdrop_id,
+        custom_bg_path=uploaded_bg_path,
     )
 
     built_profiles: List[TemplateProfile] = []
@@ -2704,6 +3032,8 @@ def generate_nano_banana_template_family(
         ]
         if clean_prompt:
             desc_parts.append(f"Theme focus: {clean_prompt}.")
+        if clean_bg_desc:
+            desc_parts.append(f"Backdrop: {clean_bg_desc}.")
         profile = TemplateProfile(
             template_id=variant_id,
             name=f"{clean_name} ({var_label})",
@@ -2749,6 +3079,8 @@ def generate_nano_banana_template_family(
         "family_name": clean_name,
         "visual_style": style_key,
         "frame_geometry": geom_key,
+        "backdrop_id": backdrop_id,
+        "source_cover_file": family_base_cover.name,
         "preview_only": bool(preview_only),
         "cost_usd": 0.0 if preview_only else 0.08,
         "variant_count": len(built_profiles),

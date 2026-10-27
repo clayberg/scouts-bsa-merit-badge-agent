@@ -3867,17 +3867,13 @@ async def api_inject_class_logistics_slides(
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
     """Opt-in injection/removal of Slide 2 (Class Overview & Session Roadmap) and Slide N (Homework, Make-Up & Blue Card Check-Out)."""
-    from src.tools.pptx_builder import SlideSpec, inject_class_opening_and_closing_slides
+    from src.tools.pptx_builder import inject_class_opening_and_closing_slides
     from src.tools.scouting_scraper import fetch_official_merit_badge_requirements
 
     res_data = req.research_result or fetch_official_merit_badge_requirements(req.badge_name)
-    specs = [
-        SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
-        for s in (req.slides or [])
-    ]
     out_slides = inject_class_opening_and_closing_slides(
         badge_name=req.badge_name,
-        slides=specs,
+        slides=req.slides or [],
         logistics_config=req.logistics_config,
         requirements=res_data.get("requirements", []),
     )
@@ -5275,6 +5271,47 @@ async def api_delete_custom_template(
     }
 
 
+class NanoBananaBackdropSynthesizeRequest(BaseModel):
+    prompt: str = Field("", description="Custom theme or backdrop prompt.")
+    visual_style: str = Field("pinewood_campfire", description="Template visual style ID.")
+    backdrop_id: str = Field("ai_prompt", description="Built-in backdrop ID, 'auto', 'ai_prompt', or 'custom_upload'.")
+    custom_bg_data_url: str = Field("", description="Optional base64 data URL of uploaded custom background image.")
+    custom_bg_description: str = Field("", description="Optional description of uploaded custom background image.")
+    primary_hex: str = Field("#1B5E20", description="Primary brand hex color for duotone wash grading.")
+    accent_hex: str = Field("#D97706", description="Accent brand hex color for duotone wash grading.")
+
+
+@app.get("/api/templates/backdrops")
+@app.get("/api/v1/templates/backdrops")
+async def api_list_nano_builtin_backdrops() -> Dict[str, Any]:
+    """Returns the catalog of 16 curated Scouting washed background images."""
+    from src.tools.template_engine import list_nano_builtin_backdrops
+
+    items = await asyncio.to_thread(list_nano_builtin_backdrops)
+    return {"status": "SUCCESS", "total": len(items), "backdrops": items}
+
+
+@app.post("/api/templates/synthesize-backdrop")
+@app.post("/api/v1/templates/synthesize-backdrop")
+async def api_synthesize_nano_washed_backdrop(
+    req: NanoBananaBackdropSynthesizeRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Synthesizes or processes a custom 16:9 washed background from a prompt or uploaded image."""
+    from src.tools.template_engine import synthesize_custom_washed_backdrop
+
+    return await asyncio.to_thread(
+        synthesize_custom_washed_backdrop,
+        prompt=req.prompt,
+        visual_style=req.visual_style,
+        backdrop_id=req.backdrop_id,
+        custom_bg_data_url=req.custom_bg_data_url,
+        custom_bg_description=req.custom_bg_description,
+        primary_hex=req.primary_hex,
+        accent_hex=req.accent_hex,
+    )
+
+
 class NanoBananaTemplateGenerateRequest(BaseModel):
     family_name: str = Field("Troop 19 High Adventure", description="Human-readable name for the 3-variant template family.")
     template_name: Optional[str] = Field(default=None, description="Alias for family_name.")
@@ -5291,6 +5328,9 @@ class NanoBananaTemplateGenerateRequest(BaseModel):
     logo_position: str = Field("bottom_left", description="Logo placement: bottom_left, bottom_right, top_right, cover_only.")
     remove_logo_white_bg: bool = Field(True, description="Automatically make near-white logo background pixels transparent.")
     remove_logo_bg: Optional[bool] = Field(default=None, description="Alias for remove_logo_white_bg.")
+    backdrop_id: str = Field("auto", description="Built-in washed backdrop ID, 'auto', 'ai_prompt', or 'custom_upload'.")
+    custom_bg_data_url: str = Field("", description="Optional base64 data URL of uploaded custom background image.")
+    custom_bg_description: str = Field("", description="Optional description of uploaded custom background image.")
     preview_only: bool = Field(False, description="When True, previews the variants at $0.00 without saving to catalog.")
     user_consented: bool = Field(False, description="Explicit FinOps ($0.08 USD) user consent.")
     confirm_finops_cost: Optional[bool] = Field(default=None, description="Alias for user_consented.")
@@ -5329,6 +5369,9 @@ async def api_generate_nano_banana_template_family(
         user_consented=resolved_consented,
         include_secondary=req.include_secondary,
         include_accent=req.include_accent,
+        backdrop_id=req.backdrop_id,
+        custom_bg_data_url=req.custom_bg_data_url,
+        custom_bg_description=req.custom_bg_description,
     )
     if res.get("status") == "SUCCESS" and not req.preview_only:
         all_profiles = await asyncio.to_thread(load_template_catalog)
@@ -5535,6 +5578,119 @@ async def api_mcp_sse_endpoint(
         yield f"event: manifest\ndata: {json.dumps(manifest)}\n\n"
 
     return StreamingResponse(_sse_gen(), media_type="text/event-stream")
+
+
+# ==============================================================================
+# PLAN 17: FDE CAPSTONE 3.0 WIRED SEMANTIC CACHE, A/B ROUTER & PLUGIN REGISTRY
+# ==============================================================================
+
+from src.plugins.registry import GLOBAL_PLUGIN_REGISTRY, PluginValidationError  # noqa: E402
+from src.services.ab_router import GLOBAL_AB_ROUTER  # noqa: E402
+from src.services.semantic_cache import GLOBAL_SEMANTIC_CACHE  # noqa: E402
+
+GLOBAL_PLUGIN_REGISTRY.discover_entry_point_plugins()
+
+
+class SemanticCacheLookupRequest(BaseModel):
+    query: str = Field(..., description="Query string for semantic similarity lookup.")
+    badge_name: str = Field("First Aid", description="Merit Badge context.")
+    model_tier: str = Field("flash", description="Target model tier.")
+    response_payload: Optional[Any] = Field(default=None, description="Optional response payload to store on cache miss.")
+
+
+class PluginExecuteRequest(BaseModel):
+    payload: Dict[str, Any] = Field(default_factory=dict, description="Input arguments validated against the plugin JSON-Schema.")
+
+
+@app.get("/api/finops/semantic-cache")
+@app.get("/api/v1/finops/semantic-cache")
+async def api_get_semantic_cache_stats() -> Dict[str, Any]:
+    """Returns live cosine-similarity SemanticCache hit/miss statistics and estimated FinOps USD savings."""
+    return {"status": "SUCCESS", **GLOBAL_SEMANTIC_CACHE.get_stats()}
+
+
+@app.post("/api/finops/semantic-cache")
+@app.post("/api/v1/finops/semantic-cache")
+async def api_lookup_or_store_semantic_cache(
+    req: SemanticCacheLookupRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Performs a 64-dim cosine-similarity lookup (`>= 0.92`) in `GLOBAL_SEMANTIC_CACHE` and optionally stores a new entry."""
+    cached = GLOBAL_SEMANTIC_CACHE.get(
+        query=req.query,
+        badge_name=req.badge_name,
+        model_tier=req.model_tier,
+    )
+    if cached is not None:
+        return {
+            "status": "HIT",
+            "cache_hit": True,
+            "result": cached,
+            "stats": GLOBAL_SEMANTIC_CACHE.get_stats(),
+        }
+    if req.response_payload is not None:
+        GLOBAL_SEMANTIC_CACHE.put(
+            query=req.query,
+            response=req.response_payload,
+            badge_name=req.badge_name,
+            model_tier=req.model_tier,
+        )
+    return {
+        "status": "MISS",
+        "cache_hit": False,
+        "result": req.response_payload,
+        "stats": GLOBAL_SEMANTIC_CACHE.get_stats(),
+    }
+
+
+@app.get("/api/experiments/ab-status")
+@app.get("/api/v1/experiments/ab-status")
+async def api_get_ab_experiment_status(
+    session_id: Optional[str] = None,
+    experiment_id: str = "curriculum_synthesis_v2",
+) -> Dict[str, Any]:
+    """Returns deterministic SHA-256 A/B traffic routing assignment and per-variant telemetry summary."""
+    assignment = (
+        GLOBAL_AB_ROUTER.assign_variant(session_id=session_id, experiment_id=experiment_id)
+        if session_id
+        else None
+    )
+    return {
+        "status": "SUCCESS",
+        "assignment": assignment,
+        "summary": GLOBAL_AB_ROUTER.get_experiment_summary(),
+    }
+
+
+@app.get("/api/plugins")
+@app.get("/api/v1/plugins")
+async def api_list_registered_plugins() -> Dict[str, Any]:
+    """Lists all registered `@register_tool_plugin` and `entry_points(group='scouts_bsa.plugins')` tool plugins."""
+    GLOBAL_PLUGIN_REGISTRY.discover_entry_point_plugins()
+    plugins = GLOBAL_PLUGIN_REGISTRY.list_plugins()
+    return {
+        "status": "SUCCESS",
+        "total": len(plugins),
+        "entry_point_group": GLOBAL_PLUGIN_REGISTRY.DEFAULT_ENTRY_POINT_GROUP,
+        "plugins": plugins,
+    }
+
+
+@app.post("/api/plugins/{plugin_name}/execute")
+@app.post("/api/v1/plugins/{plugin_name}/execute")
+async def api_execute_registered_plugin(
+    plugin_name: str,
+    req: PluginExecuteRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Validates `req.payload` against the plugin's JSON-Schema and executes the plugin."""
+    try:
+        out = await asyncio.to_thread(GLOBAL_PLUGIN_REGISTRY.execute_plugin, plugin_name, req.payload)
+        return {"status": "SUCCESS", "plugin": plugin_name, "result": out}
+    except PluginValidationError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    except KeyError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
 
 
 @app.api_route("/favicon.ico", methods=["GET", "HEAD"], include_in_schema=False)
