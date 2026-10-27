@@ -486,8 +486,7 @@ scouts-bsa-merit-badge-agent/
 │   ├── test_memory.py                           # SQLite session store, compaction, and hybrid retrieval tests
 │   ├── test_pii_scrubber.py                     # 3-layer context-aware Pre-LLM PII redaction and Model Armor guardrail tests
 │   ├── test_resilience_and_fault_injection.py   # Circuit breaker, 429 retry, auth, and OpenAPI schema tests
-│   ├── test_tools.py                            # Tool validation and GuidedToolError recovery tests
-│   └── test_v29_items_and_capstone_3_0.py       # v2.9 features, 7 Critical Reviewer Downgrade Guards, and Capstone 3.0/3.0 verification suite
+│   └── test_tools.py                            # Tool validation and GuidedToolError recovery tests
 ├── ARCHITECTURE_DECISIONS.md   # 11 Architecture Decision Records (ADR-01 to ADR-11) + benchmarks & post-mortems
 ├── SCOPE.md                    # Project scope, target user personas, and Build-vs-Buy ADK defense
 ├── SPEC.md                     # Technical specification of agent topology and endpoints
