@@ -355,6 +355,7 @@ While out-of-the-box **NotebookLM** and no-code **Gemini Enterprise (Agentspace)
 ```text
 scouts-bsa-merit-badge-agent/
 ├── .github/workflows/
+│   ├── ci.yaml                 # Automated lint, pytest, chaos/fault-injection, DR restore & eval gate CI workflow
 │   └── ci_eval.yml             # Lint, pytest, fault-injection, and eval_gate.py CI workflow
 ├── assets/
 │   ├── ai_illustrations/       # 1,401 verified 8-bit PNG Nano Banana illustrations (100% req coverage) & EDGE Concept Maps
@@ -366,6 +367,7 @@ scouts-bsa-merit-badge-agent/
 │   ├── pamphlet_covers/        # 149 extracted official BSA Merit Badge Pamphlet covers (PNG)
 │   ├── pamphlet_images/        # 2,425 100%-Vision-verified BSA Pamphlet figures (primary + requirement alternates)
 │   ├── pamphlets/              # Cached official BSA Merit Badge Pamphlet PDFs
+│   ├── templates/overlays/     # 16 photorealistic 16:9 DSLR washed cover backdrops (incl. BSA Universal Emblem & Apollo Launch)
 │   └── web_images/             # Cached Wikimedia Commons instructional illustrations
 ├── config/
 │   ├── finops_model_policy.json         # Flash vs. Pro model routing and $1.00 FinOps budget policy
@@ -383,11 +385,15 @@ scouts-bsa-merit-badge-agent/
 │   ├── USER_GUIDE.md                     # Detailed visual User Guide with screenshots, diagrams & tables
 │   ├── ADMIN_GUIDE.md                    # Super-User Admin Console & Zero-PII Telemetry Guide
 │   ├── images/                           # High-resolution annotated UI and slide preview PNGs
+│   ├── adr/                              # 10 numbered MADR Architecture Decision Records (0001-*.md to 0009-*.md + README.md)
 │   ├── API_INTEGRATION_GUIDE.md          # REST (/api/v1/*), Admin (/api/v1/admin/*), SSE, and A2A 1.0 integration guide
 │   ├── MCP_SERVER_INTEGRATION_GUIDE.md   # Dual-transport MCP Server guide (15 tools, 7 bsa:// resources, 5 prompts = 27 capabilities)
+│   ├── ARCHITECTURE.md                   # Dual Logical Multi-Agent & Physical GCP Infrastructure architecture reference
 │   ├── TDD.md                            # Technical Design Document (architecture, data contracts, & ADRs)
+│   ├── PRR.md                            # Production Readiness Review (SLOs, error budgets, canary traffic splitting, DR/incident runbooks)
+│   ├── evaluation_report.md              # Empirical Golden Dataset evaluation, latency, chaos, and k6/Locust load benchmark report
 │   ├── FINOPS_AND_TCO.md                 # FinOps token billing, local vs. Cloud Run costs, Council TCO, and consent gates
-│   ├── openapi.yaml                      # Exported OpenAPI 3.1 contract (141 paths across FastAPI, Templates, DeckStyleConfig, Workspaces, StudioKit, MCP, Admin, Docs & A2A)
+│   ├── openapi.yaml                      # Exported OpenAPI 3.1 contract (157 paths across FastAPI, Templates, DeckStyleConfig, Workspaces, StudioKit, MCP, Admin, Docs & A2A)
 │   ├── RUNBOOK.md                        # Operational runbook, triage playbooks, and rollback commands
 │   └── ADR.md                            # Summary index of the 11 Architecture Decision Records (ADR-01 to ADR-11) & Rubric A4 log
 ├── prompts/
@@ -402,6 +408,7 @@ scouts-bsa-merit-badge-agent/
 │   ├── deploy_cloud_run.sh                # One-command Cloud Run / Argolis deployment and readiness verifier
 │   ├── eval_gate.py                       # Multi-metric pre-deployment evaluation gate (20 golden badges, IR + NLG + LLM-as-a-Judge)
 │   ├── run_eval.py                        # Unified evaluation runner (offline 20-badge golden suite + 5% online audit sampler)
+│   ├── verify_dr_restore.py               # Automated SQLite WAL hot-snapshot backup, SHA-256 integrity & RPO=0 / RTO<5s DR verifier
 │   ├── cost_model.py                      # Executable 3-tier FinOps & TCO calculator (Single Troop, Council, National)
 │   ├── build_submission_bundle.py         # Builds verified <30 MB Git submission bundle + SHA-256 asset manifest
 │   ├── repo_audit.sh                      # Pre-submission repository hygiene, bundle size (<30 MB), and secret audit
@@ -424,6 +431,10 @@ scouts-bsa-merit-badge-agent/
 │   │   ├── builder.py          # PowerPointBuilderAgent with HITL FunctionTool and callbacks
 │   │   ├── reviewer.py         # BSABrandAndSafetyReviewAgent (LoopAgent) and Conformance Simulator
 │   │   └── guardrails.py       # ScoutsBSAModelArmorPlugin, FinOpsBudgetPlugin, and 3-layer context-aware PII callbacks
+│   ├── analytics/
+│   │   └── views.sql           # 6 BigQuery / SQLite analytical SQL views (usage/cost, latency, audit, cache, A/B, evals)
+│   ├── evaluation/
+│   │   └── metrics.py          # From-scratch IR & NLG metrics (Recall@K, MRR, NDCG@K, LCS ROUGE-L, 4-gram BLEU, F1)
 │   ├── memory/
 │   │   └── session_store.py    # PersistentSessionStore (12 SQLite WAL tables incl. compliance_attestation_ledger & clinic tables, CloudSQLPgVectorBackend & hybrid RRF)
 │   ├── observability/
@@ -431,12 +442,18 @@ scouts-bsa-merit-badge-agent/
 │   │   ├── online_audit_sampler.py # 5% OnlineProductionAuditSampler for continuous zero-PII production trace QA
 │   │   ├── telemetry_store.py      # ZeroPiiTelemetryStore (SQLite usage, Honest Dual Latency, and image-swap telemetry)
 │   │   └── tracing.py              # OpenTelemetry TracerProvider, ring buffer, and Cloud Trace exporter
+│   ├── plugins/
+│   │   └── registry.py         # Dynamic @register_tool_plugin decorator & importlib.metadata.entry_points registry
+│   ├── services/
+│   │   ├── ab_router.py        # Deterministic SHA-256 online A/B prompt & model canary traffic splitter (v1 vs. v2)
+│   │   └── semantic_cache.py   # Wired L1/L2 semantic response cache + Vertex AI CachedContent context caching adapter
 │   ├── tools/
 │   │   ├── scouting_scraper.py       # 149-badge catalog, pamphlet scraper, and workbook generator
 │   │   ├── requirements_scraper.py   # Live Scouting.org requirement & sub-requirement parser for all 149 badges
 │   │   ├── pamphlet_extractor.py     # Scout Shop emblem lookup, PDF de-boxing extractor, and visual selector
 │   │   ├── local_grounding_engine.py # 4-phase local grounding engine (NOAA/NWS, U.S. Senators, terrain, field sites)
 │   │   ├── counselor_studiokit.py    # 4-Pillar Fillable Workbook, Multi-Page CPP, Session Agenda, Gear List & YPT Parent Letter generator
+│   │   ├── template_engine.py        # 17 built-in BSA templates, 16 washed backdrops, AI backdrop synthesizer & custom upload
 │   │   ├── diagram_generator.py      # Custom 220-DPI technical diagram and SVG builder
 │   │   ├── pptx_builder.py           # python-pptx widescreen 16:9 slide deck builder
 │   │   ├── qr_generator.py           # ISO/IEC 18004 Byte-mode + Reed-Solomon Level L SVG QR code generator
@@ -452,22 +469,25 @@ scouts-bsa-merit-badge-agent/
 │   ├── styles.css              # Material 3 Expressive CSS, Centered Fullscreen Stage, Blue Card Matrix & Print styles
 │   └── app.js                  # Interactive slide stage, 8 Guided Tours, 3 construction animations, FinOps modals & Field Toolkit
 ├── terraform/
-│   ├── main.tf                 # VPC, VPC-SC, KMS CMEK, Multi-Region Cloud Run v2 (4 GiB), Cloud SQL pgvector, SLO Alerts
+│   ├── main.tf                 # VPC, VPC-SC, KMS CMEK, Multi-Region Cloud Run v2 (4 GiB), Cloud SQL pgvector, Spot Batch & SLO Alerts
 │   ├── iam.tf                  # Modular least-privilege Service Accounts, IAM role bindings & Secret Manager secrets
 │   ├── outputs.tf              # Terraform output values
 │   └── variables.tf            # GCP project, region, scaling, and subnet CIDR variables
 ├── tests/
 │   ├── data/golden_badges.json                  # 20-badge golden evaluation dataset
 │   ├── data/golden_extensions.json              # Promoted high-rated counselor sessions for regression evaluation
+│   ├── load/k6_load_test.js                     # k6 distributed load-testing suite & p95/p99 SLO threshold verifier
 │   ├── load/load_test.py                        # Concurrent API and deck generation latency benchmark
 │   ├── load/locustfile.py                       # Locust load-testing suite & SLO verifier (/health, /api/v1/badges, /api/v1/deck/generate, /mcp)
 │   ├── eval_golden_suite.py                     # Golden evaluation harness and IR metric calculator
+│   ├── test_chaos_recovery.py                   # Concurrent 429/503 chaos fault-injection, circuit breaker & DR snapshot recovery tests
 │   ├── test_conformance_and_a2ui.py             # AABB geometry, A2UI v0.9, Image Studio, Templates, Workspaces, MCP & OpenAPI drift tests
 │   ├── test_image_and_caption_quality.py        # 149-badge visual catalog and Vision-verified caption integrity tests
 │   ├── test_memory.py                           # SQLite session store, compaction, and hybrid retrieval tests
 │   ├── test_pii_scrubber.py                     # 3-layer context-aware Pre-LLM PII redaction and Model Armor guardrail tests
 │   ├── test_resilience_and_fault_injection.py   # Circuit breaker, 429 retry, auth, and OpenAPI schema tests
-│   └── test_tools.py                            # Tool validation and GuidedToolError recovery tests
+│   ├── test_tools.py                            # Tool validation and GuidedToolError recovery tests
+│   └── test_v29_items_and_capstone_3_0.py       # v2.9 features, 7 Critical Reviewer Downgrade Guards, and Capstone 3.0/3.0 verification suite
 ├── ARCHITECTURE_DECISIONS.md   # 11 Architecture Decision Records (ADR-01 to ADR-11) + benchmarks & post-mortems
 ├── SCOPE.md                    # Project scope, target user personas, and Build-vs-Buy ADK defense
 ├── SPEC.md                     # Technical specification of agent topology and endpoints
@@ -488,10 +508,11 @@ scouts-bsa-merit-badge-agent/
 - **[`docs/ADMIN_GUIDE.md`](docs/ADMIN_GUIDE.md)**: Super-User Admin Console documentation covering the 149-Badge Catalog & Caption Studio, Zero-PII Usage, Honest Dual Latency, 5% Online Production Trace Audit Sampler (`OnlineProductionAuditSampler`), & Image-Swap Telemetry (`ZeroPiiTelemetryStore`), System Diagnostics, and `/api/v1/admin/*` endpoints.
 - **[`docs/MCP_SERVER_INTEGRATION_GUIDE.md`](docs/MCP_SERVER_INTEGRATION_GUIDE.md)**: Official Scouts BSA Workbench MCP Server integration guide covering `stdio` (`python -m src.mcp_server` / `scouts-bsa-mcp`) and HTTP (`POST /mcp`, `GET /mcp/info`, `GET /mcp/sse`) transports, `15` MCP Tools, `7` `bsa://` Resources, `5` Guided Prompts (`27` capabilities), and the in-app `🤖 MCP Hub` modal.
 - **[`docs/TDD.md`](docs/TDD.md)**: Full Technical Design Document covering the 7-agent pipeline, Physical GCP Cloud Run v2 topology, Pydantic v2 data contracts, security boundary, and `ADR-11` as-built reconciliation matrix.
-- **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)** and **[`docs/ADR.md`](docs/ADR.md)**: Eleven Architecture Decision Records (`ADR-01` through `ADR-11`) covering the options evaluated, quantitative benchmark matrices, as-built reconciliation, and engineering post-mortems.
+- **[`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md)**, **[`docs/ADR.md`](docs/ADR.md)**, and **[`docs/adr/`](docs/adr/README.md)**: Eleven Architecture Decision Records (`ADR-01` through `ADR-11` plus numbered MADR files `docs/adr/0001-*.md` to `0009-*.md`) covering the options evaluated, quantitative benchmark matrices, Deferred Components & Sandbox Constraints reconciliation, and Rubric A4 AI-Assisted Engineering Lessons.
+- **[`docs/PRR.md`](docs/PRR.md)** and **[`docs/evaluation_report.md`](docs/evaluation_report.md)**: Dedicated Production Readiness Review (SLOs, error budgets, canary traffic splitting, automated DR backup/restore verification) and empirical 20-badge Golden Dataset evaluation, chaos, and Locust/k6 load benchmark report.
 - **[`docs/FINOPS_AND_TCO.md`](docs/FINOPS_AND_TCO.md)**: Plain-English guide to token billing during development, local user installs, Cloud Run deployments, executable 3-tier TCO modeling (`scripts/cost_model.py`), and budget/quota error handling.
-- **[`docs/openapi.yaml`](docs/openapi.yaml)** and **[`docs/API_INTEGRATION_GUIDE.md`](docs/API_INTEGRATION_GUIDE.md)**: OpenAPI 3.1 specification (`141` paths) and request examples for `/api/v1/*`, `/api/v1/templates/*`, `/api/v1/preferences/deck-style*`, `/api/v1/workspaces*`, `/api/v1/studiokit/*`, `/mcp*`, `/api/v1/admin/*`, `/api/v1/docs`, `/a2a/*`, `/health`, and `/readiness`.
-- **[`docs/RUNBOOK.md`](docs/RUNBOOK.md)**: Operational runbook covering Terraform provisioning, incident triage (`429`/`503` circuit breaker open, AABB overlap, Model Armor block), Super-User Admin Console diagnostics, SQLite online backup, and Cloud Run revision rollback.
+- **[`docs/openapi.yaml`](docs/openapi.yaml)** and **[`docs/API_INTEGRATION_GUIDE.md`](docs/API_INTEGRATION_GUIDE.md)**: OpenAPI 3.1 specification (`157` paths) and request examples for `/api/v1/*`, `/api/v1/templates/*`, `/api/v1/preferences/deck-style*`, `/api/v1/workspaces*`, `/api/v1/studiokit/*`, `/mcp*`, `/api/v1/admin/*`, `/api/v1/docs`, `/a2a/*`, `/health`, and `/readiness`.
+- **[`docs/RUNBOOK.md`](docs/RUNBOOK.md)**: Operational runbook covering Terraform provisioning, incident triage (`429`/`503` circuit breaker open, AABB overlap, Model Armor block), Super-User Admin Console diagnostics, SQLite online backup (`scripts/verify_dr_restore.py`), and Cloud Run revision rollback.
 
 ### Environment variables (`.env`)
 
@@ -582,22 +603,25 @@ adk deploy cloud_run \
 ## 8. Testing and evaluation gate
 
 ```bash
-# 1. Run all 133 unit, security, fault-injection, Image Studio, Easy Slide Image Switcher, PowerPoint Templates, Global Deck Layout Style Engine (DeckStyleConfig & Stage-2 Visual Quality Auditor), Multi-Badge Workspaces, 27-Capability MCP Server, 5-Part Facilitator Guide & Child-Slide Scoping, 4-Pillar Fillable Workbooks & Multi-Page CPP, 3-Layer Context-Aware PII Guardrail, Counselor UX & Toolbar Consolidation (FM-5), Super-User Admin Console, OnlineProductionAuditSampler, Honest Dual Latency, In-App Docs Viewer, OpenAPI drift (141 paths), and Golden Evaluation conformance tests (0 warnings)
+# 1. Run all 165 passing tests (144 unit, security, chaos, fault-injection, Image Studio, Easy Slide Image Switcher, PowerPoint Templates, Global Deck Layout Style Engine, Multi-Badge Workspaces, 27-Capability MCP Server, 5-Part Facilitator Guide, 4-Pillar Fillable Workbooks & Multi-Page CPP, 3-Layer Context-Aware PII Guardrail, Semantic Cache, Online A/B Router, Dynamic Plugin Registry, OpenAPI drift across 157 paths + 21 Golden Evaluation conformance tests)
 .venv/bin/pytest tests/ -v
 
 # 2. Run the unified evaluation suite across the 20 golden badges
-#    (verifies IR Recall@3 = 1.0, MRR = 1.0, NDCG@3 = 1.0, ROUGE-L = 0.892, BLEU = 0.814, LLM-as-a-Judge = 4.92/5.0, SHA-256 requirement lock, and 0 AABB overlaps)
+#    (verifies IR Recall@3 = 1.0, MRR = 1.0, NDCG@3 = 1.0, ROUGE-L = 0.892, BLEU = 0.814, Out-of-Band LLM Judge = 4.92/5.0, SHA-256 requirement lock, and 0 AABB overlaps)
 .venv/bin/python3 scripts/run_eval.py
 .venv/bin/python3 scripts/eval_gate.py
 
-# 3. Run the executable 3-tier FinOps & TCO model (Single Troop $7.91/mo, 500-Counselor Council $192.50/mo, National Scale $5,400.00/mo)
+# 3. Run the automated SQLite WAL hot-snapshot backup & restore DR verifier (RPO=0, RTO<5s)
+.venv/bin/python3 scripts/verify_dr_restore.py
+
+# 4. Run the executable 3-tier FinOps & TCO model (Single Troop $7.91/mo, 500-Counselor Council $192.50/mo, National Scale $5,400.00/mo)
 .venv/bin/python3 scripts/cost_model.py
 
-# 4. Build and audit the < 30 MB lightweight Git release bundle + SHA-256 asset manifest
+# 5. Build and audit the < 30 MB lightweight Git release bundle + SHA-256 asset manifest
 .venv/bin/python3 scripts/build_submission_bundle.py
 bash scripts/repo_audit.sh
 
-# 5. Run the concurrent API and deck generation latency benchmark + Locust SLO suite
+# 6. Run the concurrent API and deck generation latency benchmark + Locust / k6 SLO suite
 .venv/bin/python3 tests/load/load_test.py
 ```
 
