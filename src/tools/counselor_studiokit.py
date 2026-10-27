@@ -1606,21 +1606,35 @@ def generate_fillable_scout_workbook_pdf(
     y_cursor += 35.0
     units = _iter_unrolled_workbook_units(reqs)
 
-    # Page-1 At-a-Glance Requirement Completion & Counselor Sign-Off Index
+    # Page-1 At-a-Glance Requirement Completion & Counselor Sign-Off Index (Grouped by Parent Requirement)
     fillable_req_nums = [
         str(u.get("req_number") or u.get("req_id") or "").strip()
         for u in units
         if not u.get("is_group_header") and str(u.get("req_number") or u.get("req_id") or "").strip()
     ]
     if fillable_req_nums:
-        chips_line = "   ".join(f"[ ] Req {rn}" for rn in fillable_req_nums)
+        grouped_pdf_reqs: Dict[str, List[str]] = {}
+        grouped_pdf_order: List[str] = []
+        for rn in fillable_req_nums:
+            m_p = re.match(r"^(\d+)", rn)
+            p_key = m_p.group(1) if m_p else rn
+            if p_key not in grouped_pdf_reqs:
+                grouped_pdf_order.append(p_key)
+                grouped_pdf_reqs[p_key] = []
+            grouped_pdf_reqs[p_key].append(rn)
+        grouped_segments = [
+            f"Req {pk}: " + "  ".join(f"[ ] {sub}" for sub in grouped_pdf_reqs[pk])
+            for pk in grouped_pdf_order
+        ]
+        chips_lines_formatted = "   |   ".join(grouped_segments)
         page, y_cursor = _insert_wrapped_pdf_text(
             doc,
             page,
             y_cursor,
             28.0,
             584.0,
-            f"Page-1 Requirement Completion & Counselor Verification Index:  {chips_line}\n"
+            f"Page-1 Requirement Completion & Counselor Verification Index ({len(grouped_pdf_order)} Core Reqs / {len(fillable_req_nums)} Checkpoints):\n"
+            f"{chips_lines_formatted}\n"
             "Unit Leader Pre-Approval (Blue Card #34124): ______________________   Counselor Final Sign-Off: ______________________   Date: ____/____/2026",
             fontsize=7.3,
             fontname="helv",
@@ -1862,8 +1876,8 @@ def generate_fillable_scout_workbook_pdf(
         )
         page.insert_text(
             fitz.Point(left_col_x0 + 4.0, y_cursor + 10.5),
-            _sanitize_pdf_text(headers[0])[:30],
-            fontsize=7.0,
+            _sanitize_pdf_text(headers[0]),
+            fontsize=6.8,
             fontname="helv",
             color=(1.0, 1.0, 1.0),
         )
@@ -1875,11 +1889,12 @@ def generate_fillable_scout_workbook_pdf(
                 color=(0.82, 0.88, 0.95),
                 fill=(0.0, 0.247, 0.529),
             )
-            max_chars_hdr = max(8, int((col_w - 6.0) / 3.9))
+            hdr_clean = _sanitize_pdf_text(h_title)
+            hdr_fs = 6.8 if len(hdr_clean) * 3.6 <= (col_w - 6.0) else max(5.6, (col_w - 6.0) / max(1, len(hdr_clean)) * 1.8)
             page.insert_text(
                 fitz.Point(cx0 + 3.5, y_cursor + 10.5),
-                _sanitize_pdf_text(h_title)[:max_chars_hdr],
-                fontsize=6.9,
+                hdr_clean,
+                fontsize=hdr_fs,
                 fontname="helv",
                 color=(1.0, 1.0, 1.0),
             )
@@ -2644,9 +2659,14 @@ def generate_field_qr_checklist_pdf(
     )
     y_cursor += 5.0
 
-    # Drawn QR-Style Quick-Access Reference Cards + Clickable Links
+    # Real Scannable ISO/IEC 18004 QR Code Quick-Access Reference Cards + Centered BSA Emblem + Full Wrapped URLs
+    from src.config import ASSETS_DIR
+    from src.tools.qr_generator import encode_qr_matrix
+
+    bsa_logo_path = ASSETS_DIR / "bsa_logo.png"
+    has_bsa_logo = bsa_logo_path.exists()
     qr_box_y0 = y_cursor
-    qr_box_h = 68.0
+    qr_box_h = 82.0
     for box_idx, (title_lbl, url_val) in enumerate(
         [
             (f"Official {resolved_badge} Pamphlet PDF", pamphlet_url),
@@ -2656,22 +2676,56 @@ def generate_field_qr_checklist_pdf(
         bx0 = 28.0 if box_idx == 0 else 310.0
         bx1 = 302.0 if box_idx == 0 else 584.0
         card_rect = fitz.Rect(bx0, qr_box_y0, bx1, qr_box_y0 + qr_box_h)
-        page.draw_rect(card_rect, color=(0.0, 0.247, 0.529), fill=(0.95, 0.98, 1.0))
-        # Draw stylized QR matrix icon
-        qx0 = bx0 + 8.0
-        qy0 = qr_box_y0 + 8.0
-        page.draw_rect(fitz.Rect(qx0, qy0, qx0 + 52.0, qy0 + 52.0), color=(0.0, 0.247, 0.529), fill=(1.0, 1.0, 1.0), width=1.2)
-        for rx, ry in [(qx0 + 4, qy0 + 4), (qx0 + 34, qy0 + 4), (qx0 + 4, qy0 + 34)]:
-            page.draw_rect(fitz.Rect(rx, ry, rx + 14, ry + 14), color=(0.0, 0.247, 0.529), width=1.5)
-            page.draw_rect(fitz.Rect(rx + 4, ry + 4, rx + 10, ry + 10), color=(0.0, 0.247, 0.529), fill=(0.0, 0.247, 0.529))
-        for dx in range(22, 46, 6):
-            for dy in range(22, 46, 6):
-                if (dx + dy + box_idx * 3) % 2 == 0:
-                    page.draw_rect(fitz.Rect(qx0 + dx, qy0 + dy, qx0 + dx + 3.5, qy0 + dy + 3.5), color=(0.0, 0.247, 0.529), fill=(0.0, 0.247, 0.529))
+        page.draw_rect(card_rect, color=(0.0, 0.247, 0.529), fill=(0.95, 0.98, 1.0), width=1.1)
 
-        page.insert_text(fitz.Point(qx0 + 60.0, qr_box_y0 + 20.0), _sanitize_pdf_text(title_lbl)[:38], fontsize=8.4, fontname="helv", color=(0.0, 0.22, 0.48))
-        page.insert_text(fitz.Point(qx0 + 60.0, qr_box_y0 + 34.0), "Scan or click to open official BSA resource:", fontsize=7.2, fontname="helv", color=(0.25, 0.32, 0.42))
-        page.insert_text(fitz.Point(qx0 + 60.0, qr_box_y0 + 48.0), _sanitize_pdf_text(url_val)[:44], fontsize=6.8, fontname="helv", color=(0.02, 0.38, 0.75))
+        # Render real ISO/IEC 18004 vector QR matrix with quiet zone + centered BSA emblem
+        qx0 = bx0 + 7.0
+        qy0 = qr_box_y0 + 7.0
+        qr_size_pt = 68.0
+        qr_outer_rect = fitz.Rect(qx0, qy0, qx0 + qr_size_pt, qy0 + qr_size_pt)
+        page.draw_rect(qr_outer_rect, color=(0.0, 0.247, 0.529), fill=(1.0, 1.0, 1.0), width=1.0)
+        try:
+            qr_matrix = encode_qr_matrix(url_val)
+            mod_count = len(qr_matrix)
+            quiet_mods = 2
+            total_mods = mod_count + quiet_mods * 2
+            cell_pt = qr_size_pt / float(total_mods)
+            shape = page.new_shape()
+            for r_i, row_vals in enumerate(qr_matrix):
+                for c_i, is_dark in enumerate(row_vals):
+                    if is_dark:
+                        mx0 = qx0 + (c_i + quiet_mods) * cell_pt
+                        my0 = qy0 + (r_i + quiet_mods) * cell_pt
+                        shape.draw_rect(fitz.Rect(mx0, my0, mx0 + cell_pt + 0.08, my0 + cell_pt + 0.08))
+            shape.finish(color=None, fill=(0.0, 0.16, 0.36))
+            shape.commit()
+            if has_bsa_logo:
+                logo_box_w = qr_size_pt * 0.21
+                lx0 = qx0 + (qr_size_pt - logo_box_w) / 2.0
+                ly0 = qy0 + (qr_size_pt - logo_box_w) / 2.0
+                logo_bg_rect = fitz.Rect(lx0 - 1.4, ly0 - 1.4, lx0 + logo_box_w + 1.4, ly0 + logo_box_w + 1.4)
+                page.draw_rect(logo_bg_rect, color=(0.0, 0.247, 0.529), fill=(1.0, 1.0, 1.0), width=0.6)
+                page.insert_image(fitz.Rect(lx0, ly0, lx0 + logo_box_w, ly0 + logo_box_w), filename=str(bsa_logo_path), keep_proportion=True)
+        except Exception:
+            pass
+
+        text_x0 = qx0 + qr_size_pt + 7.0
+        text_x1 = bx1 - 5.0
+        text_w = text_x1 - text_x0
+        clean_title = _sanitize_pdf_text(title_lbl)
+        title_lines = _wrap_pdf_lines(clean_title, text_w, fontsize=8.1)
+        ty = qr_box_y0 + 16.0
+        for tl in title_lines[:2]:
+            page.insert_text(fitz.Point(text_x0, ty), tl, fontsize=8.1, fontname="helv", color=(0.0, 0.22, 0.48))
+            ty += 9.5
+        page.insert_text(fitz.Point(text_x0, ty + 1.0), "Scan QR or click card to open official BSA resource:", fontsize=6.8, fontname="helv", color=(0.25, 0.32, 0.42))
+        ty += 10.5
+        clean_url = _sanitize_pdf_text(url_val)
+        url_char_cap = max(24, int(text_w / 3.15))
+        url_chunks = [clean_url[i : i + url_char_cap] for i in range(0, len(clean_url), url_char_cap)]
+        for u_line in url_chunks[:3]:
+            page.insert_text(fitz.Point(text_x0, ty), u_line, fontsize=6.2, fontname="helv", color=(0.02, 0.38, 0.75))
+            ty += 8.0
         try:
             page.insert_link({"kind": fitz.LINK_URI, "from": card_rect, "uri": url_val})
         except Exception:

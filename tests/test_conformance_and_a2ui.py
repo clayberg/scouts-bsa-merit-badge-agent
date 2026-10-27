@@ -1188,18 +1188,16 @@ def test_phase1_phase2_phase3_counselor_ux_and_features():
         assert len(data["agenda"]["sessions"]) >= 3
         assert sched in data["agenda"]["markdown_content"]
 
-    # 5. Phase 3 Feature F4 (One-Click Copy, Email/Gmail Draft, and Print-Ready Handouts)
+    # 5. Phase 3 Feature F4 (One-Click Copy, Email/Gmail Draft, and Printable PDF Handouts)
     for btn_id in (
         "btn-copy-workbook",
-        "btn-print-workbook",
+        "btn-download-workbook",
         "btn-copy-agenda",
-        "btn-print-agenda",
-        "btn-download-agenda-md",
+        "btn-download-agenda-pdf",
         "btn-copy-letter",
         "btn-mailto-letter",
         "btn-gmail-letter",
-        "btn-print-letter",
-        "btn-download-letter-md",
+        "btn-download-letter-pdf",
     ):
         assert f'id="{btn_id}"' in html
     assert "@media print" in css
@@ -2708,7 +2706,7 @@ def test_plan17_favorites_workspaces_templates_mcp_and_theme_aliases(tmp_path):
     assert 'id="delete-workspace-confirm-modal"' in ui_html
     assert 'id="chk-skip-delete-deck-confirm"' in ui_html
     assert 'id="edit-template-meta-modal"' in ui_html
-    assert 'id="ws-session-presets-menu"' in ui_html
+    assert 'id="ws-room-presets-menu"' in ui_html
     assert 'id="ws-bundle-presets-menu"' in ui_html
     assert "Gemini CLI / AGY" in ui_html
     assert "Gemini CLI / Jetski" not in ui_html

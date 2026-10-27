@@ -7047,6 +7047,36 @@ function bindCounselorToolkitActions() {
   };
 
   // Fillable HTML/PDF Workbook & 1-Page CPP & Organizer Spec Sheet actions
+  const bindEmbeddedWorkbookIndexMatrixInteractions = (rootEl) => {
+    if (!rootEl) return;
+    const toggleBtn = rootEl.querySelector('[data-testid="btn-wb-index-toggle-compact"]');
+    const matrixEl = rootEl.querySelector('[data-testid="wb-page1-grouped-matrix"]');
+    if (toggleBtn && matrixEl) {
+      toggleBtn.addEventListener("click", () => {
+        const isCompact = matrixEl.classList.toggle("is-compact");
+        toggleBtn.setAttribute("aria-expanded", isCompact ? "false" : "true");
+        toggleBtn.textContent = isCompact
+          ? "▾ Expand All Sub-Requirements"
+          : "▴ Compact Summary View";
+      });
+    }
+    rootEl.querySelectorAll('.wb-index-chip input[type="checkbox"]').forEach((cb) => {
+      cb.addEventListener("change", () => {
+        const grp = cb.closest(".wb-index-parent-group");
+        if (!grp) return;
+        const allBoxes = grp.querySelectorAll('.wb-index-chip input[type="checkbox"]');
+        let checkedCount = 0;
+        allBoxes.forEach((b) => {
+          if (b.checked) checkedCount += 1;
+        });
+        const cntEl = grp.querySelector(".wb-index-parent-count");
+        if (cntEl) {
+          cntEl.textContent = `${checkedCount}/${allBoxes.length} Done`;
+        }
+      });
+    });
+  };
+
   const syncWorkbookPdfDownloadLinks = () => {
     const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
     const optTrack =
@@ -7055,11 +7085,19 @@ function bindCounselorToolkitActions() {
       "ALL";
     const counselor = sanitizeMiddletonTypo(document.getElementById("input-counselor-name")?.value || "Eric Clayberg");
     const troop = sanitizeMiddletonTypo(document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council");
+    const schedCfg =
+      typeof window.getActiveScheduleConfig === "function"
+        ? window.getActiveScheduleConfig()
+        : { sessionPillLabels: [] };
+    const sessionDatesParam =
+      Array.isArray(schedCfg.sessionPillLabels) && schedCfg.sessionPillLabels.length > 0
+        ? `&session_dates=${encodeURIComponent(schedCfg.sessionPillLabels.join(","))}`
+        : "";
     const pdfHref = `/api/v1/studiokit/fillable-workbook.pdf?badge_name=${encodeURIComponent(
       badge
     )}&option_track=${encodeURIComponent(optTrack)}&counselor_name=${encodeURIComponent(
       counselor
-    )}&troop_name=${encodeURIComponent(troop)}`;
+    )}&troop_name=${encodeURIComponent(troop)}${sessionDatesParam}`;
     const wbLink1 = document.getElementById("btn-workbook-download-fillable-pdf");
     const wbLink2 = document.getElementById("btn-studiokit-download-fillable-pdf");
     const wbLinkTop = document.getElementById("btn-download-workbook-top");
@@ -7084,7 +7122,7 @@ function bindCounselorToolkitActions() {
     )}&stage=${encodeURIComponent(activeStage)}`;
     const letterPdfLink = document.getElementById("btn-download-letter-md");
     if (letterPdfLink) letterPdfLink.href = letterPdfHref;
-    return { badge, optTrack, counselor, troop, pdfHref };
+    return { badge, optTrack, counselor, troop, pdfHref, sessionPillLabels: schedCfg.sessionPillLabels || [] };
   };
 
   const setWorkbookSegmentedActive = (activeBtnId) => {
@@ -7113,12 +7151,16 @@ function bindCounselorToolkitActions() {
   });
 
   const handleOpenFillableWorkbook = async () => {
-    const { badge, optTrack, counselor, troop } = syncWorkbookPdfDownloadLinks();
+    const { badge, optTrack, counselor, troop, sessionPillLabels } = syncWorkbookPdfDownloadLinks();
+    const sessionDatesParam =
+      Array.isArray(sessionPillLabels) && sessionPillLabels.length > 0
+        ? `&session_dates=${encodeURIComponent(sessionPillLabels.join(","))}`
+        : "";
     const htmlUrl = `/api/v1/studiokit/fillable-workbook?badge_name=${encodeURIComponent(
       badge
     )}&option_track=${encodeURIComponent(optTrack)}&counselor_name=${encodeURIComponent(
       counselor
-    )}&troop_name=${encodeURIComponent(troop)}`;
+    )}&troop_name=${encodeURIComponent(troop)}${sessionDatesParam}`;
     try {
       const resp = await fetch("/api/v1/studiokit/fillable-workbook", {
         method: "POST",
@@ -7126,6 +7168,7 @@ function bindCounselorToolkitActions() {
         body: JSON.stringify({
           badge_name: badge,
           selected_option_track: optTrack,
+          session_dates: Array.isArray(sessionPillLabels) && sessionPillLabels.length > 0 ? sessionPillLabels : null,
           counselor_info: {
             counselor_name: counselor,
             troop_affiliation: troop,
@@ -7151,6 +7194,7 @@ function bindCounselorToolkitActions() {
               ${innerHtml}
             </div>
           `;
+          bindEmbeddedWorkbookIndexMatrixInteractions(wbPreview);
           wbPreview.scrollIntoView({ behavior: "smooth", block: "start" });
           return;
         }
@@ -7557,16 +7601,21 @@ function bindCounselorToolkitActions() {
     if (state.currentResult) renderBlueCardTracker(state.currentResult);
   });
 
-  // One-Click Session Requirement Stamper (S1..S4 | M)
+  // One-Click Session Requirement Stamper (S1..SN | M)
   document.getElementById("btn-bluecard-stamp-session")?.addEventListener("click", () => {
     if (!state.currentResult) return;
     const badgeName = state.currentResult.badge_name || "First Aid";
     const reqs = state.currentResult.research_artifact?.requirements || [];
     const sessKey = document.getElementById("bluecard-session-stamp-select")?.value || "S1";
+    const schedCfg =
+      typeof window.getActiveScheduleConfig === "function"
+        ? window.getActiveScheduleConfig()
+        : { numSessions: 4 };
+    const totalSess = Math.max(1, schedCfg.numSessions || 4);
     const roster = loadBadgeBlueCardRoster(badgeName);
     const inClassReqs = reqs.filter((r) => resolveReqSyllabusBucket(r) !== "PRE_CLASS_PREREQUISITE");
     const targetReqs = inClassReqs.length > 0 ? inClassReqs : reqs;
-    const chunkSize = Math.max(1, Math.ceil(targetReqs.length / 4));
+    const chunkSize = Math.max(1, Math.ceil(targetReqs.length / totalSess));
     let stampedNums = [];
     if (sessKey === "M") {
       stampedNums = reqs
@@ -7574,7 +7623,7 @@ function bindCounselorToolkitActions() {
         .map((r) => String(r.req_number));
       if (stampedNums.length === 0) stampedNums = targetReqs.map((r) => String(r.req_number));
     } else {
-      const sIdx = Math.max(0, Math.min(3, parseInt(sessKey.replace("S", ""), 10) - 1));
+      const sIdx = Math.max(0, Math.min(totalSess - 1, parseInt(sessKey.replace("S", ""), 10) - 1));
       const slice = targetReqs.slice(sIdx * chunkSize, (sIdx + 1) * chunkSize);
       stampedNums = (slice.length > 0 ? slice : targetReqs).map((r) => String(r.req_number));
     }
@@ -8058,7 +8107,37 @@ function renderBlueCardTracker(result) {
     })
     .join("");
 
-  const sessionKeys = ["S1", "S2", "S3", "S4", "M"];
+  const schedCfg =
+    typeof window.getActiveScheduleConfig === "function"
+      ? window.getActiveScheduleConfig()
+      : {
+          sessionKeys: ["S1", "S2", "S3", "S4", "M"],
+          headerRangeLabel: "S1–S4 | M",
+          sessionTooltips: {},
+          stampSelectOptions: [
+            { value: "S1", label: "S1 (Session 1)" },
+            { value: "S2", label: "S2 (Session 2)" },
+            { value: "S3", label: "S3 (Session 3)" },
+            { value: "S4", label: "S4 (Session 4)" },
+            { value: "M", label: "M (Make-Up Block)" },
+          ],
+        };
+  const sessionKeys = schedCfg.sessionKeys || ["S1", "S2", "S3", "S4", "M"];
+
+  const stampSel = document.getElementById("bluecard-session-stamp-select");
+  if (stampSel && Array.isArray(schedCfg.stampSelectOptions) && schedCfg.stampSelectOptions.length > 0) {
+    const prevVal = stampSel.value;
+    stampSel.innerHTML = schedCfg.stampSelectOptions
+      .map(
+        (opt) =>
+          `<option value="${escapeHtml(opt.value)}">${escapeHtml(opt.label)}</option>`
+      )
+      .join("");
+    if (schedCfg.stampSelectOptions.some((o) => o.value === prevVal)) {
+      stampSel.value = prevVal;
+    }
+  }
+
   const bodyRows = roster.scouts
     .map((scout, sIdx) => {
       if (activeTroopFilter !== "ALL" && String(scout.troop || "Troop 123") !== activeTroopFilter) {
@@ -8068,11 +8147,16 @@ function renderBlueCardTracker(result) {
       const doneCount = reqs.filter((r) => completedSet.has(String(r.req_number))).length;
       const isComplete = doneCount === reqs.length && reqs.length > 0;
       const smartPartial = classifySmartPartialStatus(scout, reqs);
-      const att = scout.attendance || { S1: true, S2: true, S3: true, S4: true, M: false };
+      const defaultAtt = {};
+      sessionKeys.forEach((k) => {
+        defaultAtt[k] = k !== "M";
+      });
+      const att = Object.assign(defaultAtt, scout.attendance || {});
       const attPillsHtml = sessionKeys
         .map((sk) => {
           const isPresent = Boolean(att[sk]);
-          return `<button type="button" class="m3-bc-attendance-pill ${isPresent ? "is-present" : "is-absent"}" data-bc-att-scout="${sIdx}" data-bc-att-sess="${sk}" title="Toggle ${sk} Attendance (${isPresent ? "Present" : "Absent / Not Attended"})">${sk}</button>`;
+          const dateHint = schedCfg.sessionTooltips?.[sk] ? ` • ${schedCfg.sessionTooltips[sk]}` : "";
+          return `<button type="button" class="m3-bc-attendance-pill ${isPresent ? "is-present" : "is-absent"}" data-bc-att-scout="${sIdx}" data-bc-att-sess="${sk}" title="Toggle ${sk} Attendance (${isPresent ? "Present" : "Absent / Not Attended"}${escapeHtml(dateHint)})">${sk}</button>`;
         })
         .join("");
 
@@ -8098,7 +8182,7 @@ function renderBlueCardTracker(result) {
           <td>
             <div style="display:flex; flex-direction:column; gap:4px;">
               ${smartPartial.html}
-              <div style="display:flex; align-items:center; gap:3px; flex-wrap:wrap;" title="Multi-Session Clinic Attendance (S1..S4 | Make-Up)">
+              <div style="display:flex; align-items:center; gap:3px; flex-wrap:wrap;" title="Multi-Session Clinic Attendance (${escapeHtml(schedCfg.headerRangeLabel || "S1–S4 | M")})">
                 ${attPillsHtml}
               </div>
             </div>
@@ -8122,7 +8206,7 @@ function renderBlueCardTracker(result) {
       <thead>
         <tr>
           <th>Scout Name &amp; Troop</th>
-          <th>Smart Partial &amp; Session Attendance (S1–S4 | M)</th>
+          <th data-testid="bluecard-session-attendance-header">Smart Partial &amp; Session Attendance (${escapeHtml(schedCfg.headerRangeLabel || "S1–S4 | M")})</th>
           <th>Quick</th>
           ${headerCols}
         </tr>
@@ -9656,7 +9740,7 @@ async function checkAdminSessionAndInit() {
     const requestedAdminUrl = urlParams.get("admin") === "1" || urlParams.get("admin") === "true";
     state.canAutoUnlockWorkstation = Boolean(data.is_admin);
     state.adminAuthMode = data.auth_mode || "verified";
-    state.isAdminSession = Boolean(data.is_admin) && (data.auth_mode === "signed_cookie" || requestedAdminUrl);
+    state.isAdminSession = Boolean(data.is_admin);
     const adminTabBtn = document.getElementById("tab-btn-admin");
     const footerBtn = document.getElementById("btn-footer-admin-unlock");
     const modeChip = document.getElementById("admin-auth-mode-chip");
@@ -13061,8 +13145,16 @@ function bindDocumentationViewerModal() {
 const TEMPLATE_STORAGE_KEY = "scouts_bsa_active_template_id_v1";
 
 function getActiveTemplateProfile() {
-  const tplId = state.activeTemplateId || "bsa_scouting_america";
-  const list = state.templateCatalog || [];
+  let tplId = state.activeTemplateId || "bsa_scouting_america";
+  const dmbcOn =
+    typeof window.isDmbcHvscCustomizationsEnabled === "function"
+      ? window.isDmbcHvscCustomizationsEnabled()
+      : Boolean(state.enableDmbcHvscCustomizations);
+  if (!dmbcOn && (tplId === "camp_hidden_valley" || tplId === "danvers_mbc")) {
+    tplId = "bsa_scouting_america";
+    state.activeTemplateId = "bsa_scouting_america";
+  }
+  const list = typeof getVisibleTemplateCatalog === "function" ? getVisibleTemplateCatalog() : state.templateCatalog || [];
   return (
     list.find((t) => t.template_id === tplId) ||
     list.find((t) => t.template_id === "bsa_scouting_america") ||
@@ -13513,10 +13605,30 @@ function populateTemplateSelectOptgroups(sel, list, activeId) {
   }
 }
 
+const DMBC_HVSC_TEMPLATE_IDS = new Set(["camp_hidden_valley", "danvers_mbc"]);
+
+function isDmbcHvscTemplateEntry(t) {
+  if (!t) return false;
+  const tid = String(t.template_id || "");
+  if (DMBC_HVSC_TEMPLATE_IDS.has(tid)) return true;
+  const combined = `${tid} ${t.family_id || ""} ${t.name || ""} ${t.family_name || ""} ${t.description || ""}`;
+  return /danvers|hidden[_\s-]*valley|\bhvsc\b|\bdmbc\b|holten|griswold/i.test(combined);
+}
+
+function getVisibleTemplateCatalog() {
+  const full = state.templateCatalog || [];
+  const dmbcOn =
+    typeof window.isDmbcHvscCustomizationsEnabled === "function"
+      ? window.isDmbcHvscCustomizationsEnabled()
+      : Boolean(state.enableDmbcHvscCustomizations);
+  if (dmbcOn) return full;
+  return full.filter((t) => !isDmbcHvscTemplateEntry(t));
+}
+
 function renderStageTemplateSplitDropdown() {
   const menuEl = document.getElementById("stage-template-dropdown-menu");
   if (!menuEl) return;
-  const list = state.templateCatalog || [];
+  const list = getVisibleTemplateCatalog();
   const activeId = state.activeTemplateId || "default_workbench";
   const groups = groupTemplatesByStyleFamily(list);
 
@@ -13819,9 +13931,10 @@ function syncTemplateSelectorUi() {
   const prof = getActiveTemplateProfile();
   state.activeTemplateProfile = prof;
   const sel = document.getElementById("template-select");
+  const visibleList = getVisibleTemplateCatalog();
   if (sel) {
-    if ((state.templateCatalog || []).length > 0) {
-      populateTemplateSelectOptgroups(sel, state.templateCatalog, prof.template_id);
+    if (visibleList.length > 0) {
+      populateTemplateSelectOptgroups(sel, visibleList, prof.template_id);
     } else if (Array.from(sel.options).some((o) => o.value === prof.template_id)) {
       sel.value = prof.template_id;
     }
@@ -13930,7 +14043,7 @@ function openEditTemplateMetaModal(tpl) {
 function renderTemplateCatalogGrid() {
   const grid = document.getElementById("template-catalog-grid");
   if (!grid) return;
-  const list = state.templateCatalog || [];
+  const list = getVisibleTemplateCatalog();
   const activeId = state.activeTemplateId || "default_workbench";
   const groups = groupTemplatesByStyleFamily(list);
   const countChip = document.getElementById("template-catalog-count-chip");
@@ -14195,6 +14308,9 @@ async function initPowerPointTemplateStudio() {
   });
 
   const openModal = () => {
+    if (typeof window.switchTemplateStudioTab === "function") {
+      window.switchTemplateStudioTab("gallery");
+    }
     syncDeckStyleSelectorsUi();
     renderTemplateCatalogGrid();
     const m = document.getElementById("template-studio-modal");
@@ -14397,8 +14513,46 @@ async function initPowerPointTemplateStudio() {
   document.getElementById("btn-import-template-url-submit")?.addEventListener("click", handleImportTemplateUrl);
 
   // =========================================================================
-  // v2.5 ITEM 6: NANO BANANA SLIDE TEMPLATE STUDIO (3-TAB SEGMENTED BAR + AI BUILDER)
+  // v2.5 ITEM 6 + v2.6 ITEM 1: NANO BANANA SLIDE TEMPLATE STUDIO (3-TAB SEGMENTED BAR + AI BUILDER)
   // =========================================================================
+  state.tplAiCustomLogoDataUrl = "";
+  state.tplAiGeneratedVariants = [];
+  state.tplAiActiveVariantIndex = 0;
+  state.tplAiSamplePromptIdx = -1;
+
+  const suggestNextAvailableAiTemplateName = (currentVal) => {
+    const dmbcOn =
+      typeof window.isDmbcHvscCustomizationsEnabled === "function"
+        ? window.isDmbcHvscCustomizationsEnabled()
+        : Boolean(state.enableDmbcHvscCustomizations);
+    const defaultBase = dmbcOn
+      ? "Camp Hidden Valley - Summer 2026 Theme"
+      : "Summer Scout Camp - 2026 Theme";
+    const raw = String(currentVal || defaultBase).trim() || defaultBase;
+    const baseClean = raw.replace(/\s+#\d+$/, "").trim() || defaultBase;
+    const existingNames = new Set(
+      (state.templateCatalog || [])
+        .filter((t) => !t.is_builtin)
+        .map((t) => String(t.family_name || t.name || "").replace(/\s*\([^)]*\)\s*$/, "").trim().toLowerCase())
+    );
+    if (!existingNames.has(raw.toLowerCase())) {
+      return raw;
+    }
+    let counter = 2;
+    while (existingNames.has(`${baseClean} #${counter}`.toLowerCase())) {
+      counter += 1;
+    }
+    return `${baseClean} #${counter}`;
+  };
+
+  const invalidateAiGeneratedVariantsDraft = () => {
+    state.tplAiGeneratedVariants = [];
+    const statusEl = document.getElementById("tpl-ai-status-msg");
+    if (statusEl && statusEl.textContent.startsWith("✓ Saved")) {
+      statusEl.textContent = "";
+    }
+  };
+
   const switchTemplateStudioTab = (targetTab = "gallery") => {
     document.querySelectorAll("[data-tpl-studio-tab]").forEach((btn) => {
       const isAct = btn.getAttribute("data-tpl-studio-tab") === targetTab;
@@ -14420,12 +14574,18 @@ async function initPowerPointTemplateStudio() {
   });
 
   document.getElementById("btn-tpl-open-ai-tab")?.addEventListener("click", () => {
+    state.tplAiGeneratedVariants = [];
+    state.tplAiActiveVariantIndex = 0;
+    document.getElementById("tpl-ai-guardrail-banner")?.classList.add("hidden");
+    const statusEl = document.getElementById("tpl-ai-status-msg");
+    if (statusEl) statusEl.textContent = "";
+    const nameIn = document.getElementById("tpl-ai-name-input");
+    if (nameIn) {
+      nameIn.value = suggestNextAvailableAiTemplateName(nameIn.value);
+    }
     switchTemplateStudioTab("ai");
+    nameIn?.focus();
   });
-
-  state.tplAiCustomLogoDataUrl = "";
-  state.tplAiGeneratedVariants = [];
-  state.tplAiActiveVariantIndex = 0;
 
   const updateNanoBananaLivePreview = () => {
     const c1 = document.getElementById("tpl-ai-color1")?.value || "#1B5E20";
@@ -14447,7 +14607,12 @@ async function initPowerPointTemplateStudio() {
     const activeAccent = accentColors[activeVariantIdx] || "#D4AF37";
     const framePreset = document.getElementById("tpl-ai-frame-select")?.value || "horizon_silhouette";
     const styleFamily = document.getElementById("tpl-ai-style-select")?.value || "pinewood_campfire";
-    const tplName = (document.getElementById("tpl-ai-name-input")?.value || "Camp Hidden Valley — Summer 2026 Theme").trim();
+    const dmbcOn =
+      typeof window.isDmbcHvscCustomizationsEnabled === "function"
+        ? window.isDmbcHvscCustomizationsEnabled()
+        : Boolean(state.enableDmbcHvscCustomizations);
+    const defaultTplName = dmbcOn ? "Camp Hidden Valley - Summer 2026 Theme" : "Summer Scout Camp - 2026 Theme";
+    const tplName = (document.getElementById("tpl-ai-name-input")?.value || defaultTplName).trim();
     const logoPos = document.getElementById("tpl-ai-logo-pos-select")?.value || "top_right";
 
     const stageBox = document.getElementById("tpl-ai-live-preview-stage");
@@ -14467,9 +14632,9 @@ async function initPowerPointTemplateStudio() {
     const styleDisplay = styleBadgeMap[styleFamily] || styleFamily;
     const logoSrc = genVar?.corner_logo_url || state.tplAiCustomLogoDataUrl || "/assets/badge_emblems/first_aid.png";
     const logoCornerStyle =
-      logoPos === "bottom_left"
+      logoPos === "bottom_left" || logoPos === "bottom-left"
         ? "bottom:8px; left:10px;"
-        : logoPos === "bottom_right"
+        : logoPos === "bottom_right" || logoPos === "bottom-right"
         ? "bottom:8px; right:10px;"
         : "top:7px; right:10px;";
 
@@ -14532,6 +14697,7 @@ async function initPowerPointTemplateStudio() {
       `;
     }
   };
+  window.updateNanoBananaLivePreview = updateNanoBananaLivePreview;
 
   document.getElementById("tpl-ai-consent-checkbox")?.addEventListener("change", (ev) => {
     const genBtn = document.getElementById("btn-tpl-ai-generate");
@@ -14549,9 +14715,14 @@ async function initPowerPointTemplateStudio() {
     "tpl-ai-use-color3",
     "tpl-ai-logo-pos-select",
     "tpl-ai-logo-remove-bg",
+    "tpl-ai-prompt-input",
   ].forEach((id) => {
-    document.getElementById(id)?.addEventListener("input", updateNanoBananaLivePreview);
-    document.getElementById(id)?.addEventListener("change", updateNanoBananaLivePreview);
+    const handleEditChange = () => {
+      invalidateAiGeneratedVariantsDraft();
+      updateNanoBananaLivePreview();
+    };
+    document.getElementById(id)?.addEventListener("input", handleEditChange);
+    document.getElementById(id)?.addEventListener("change", handleEditChange);
   });
 
   document.querySelectorAll("[data-tpl-palette-c1]").forEach((chip) => {
@@ -14562,6 +14733,7 @@ async function initPowerPointTemplateStudio() {
       if (c1In) c1In.value = chip.getAttribute("data-tpl-palette-c1") || "#1B5E20";
       if (c2In) c2In.value = chip.getAttribute("data-tpl-palette-c2") || "#D4AF37";
       if (c3In) c3In.value = chip.getAttribute("data-tpl-palette-c3") || "#003F87";
+      invalidateAiGeneratedVariantsDraft();
       updateNanoBananaLivePreview();
     });
   });
@@ -14572,6 +14744,7 @@ async function initPowerPointTemplateStudio() {
     const reader = new FileReader();
     reader.onload = () => {
       state.tplAiCustomLogoDataUrl = String(reader.result || "");
+      invalidateAiGeneratedVariantsDraft();
       updateNanoBananaLivePreview();
     };
     reader.readAsDataURL(file);
@@ -14581,16 +14754,121 @@ async function initPowerPointTemplateStudio() {
     state.tplAiCustomLogoDataUrl = "";
     const fileIn = document.getElementById("tpl-ai-logo-file-input");
     if (fileIn) fileIn.value = "";
+    invalidateAiGeneratedVariantsDraft();
     updateNanoBananaLivePreview();
   });
 
-  document.getElementById("btn-tpl-ai-sample-safe")?.addEventListener("click", () => {
+  const GENERIC_AI_SAMPLE_PROMPTS = [
+    {
+      prompt:
+        "Crisp pine forest ridgeline silhouette along the bottom footer, subtle topographic elevation contour lines in warm parchment, and a brass compass rose accent in the top banner.",
+      style: "pinewood_campfire",
+      frame: "horizon_silhouette",
+      c1: "#1B5E20",
+      c2: "#0284C7",
+      c3: "#D97706",
+    },
+    {
+      prompt:
+        "Collegiate Merit Badge College academic crest motif with clean architectural header rule, crimson and navy ribbon border, and subtle parchment lecture hall watermark.",
+      style: "collegiate_mbc",
+      frame: "top_banner_strip",
+      c1: "#991B1B",
+      c2: "#1E293B",
+      c3: "#D97706",
+    },
+    {
+      prompt:
+        "Backcountry high-adventure topographic map contours with granite mountain ridge silhouette, trail cairn markers, and sunset canyon amber highlights.",
+      style: "topographic_adventure",
+      frame: "horizon_silhouette",
+      c1: "#9A3412",
+      c2: "#D97706",
+      c3: "#1E3A8A",
+    },
+    {
+      prompt:
+        "Waterfront aquatics and nautical chart theme with coastal lighthouse silhouette, rope knot border accents, and crisp ocean wave lines along the lower footer.",
+      style: "aquatics_nautical",
+      frame: "corner_crest",
+      c1: "#0369A1",
+      c2: "#0F766E",
+      c3: "#F59E0B",
+    },
+    {
+      prompt:
+        "STEM and engineering blueprint grid with precision drafting callouts, subtle circuit-and-gear watermark in the corners, and high-contrast technical header band.",
+      style: "stem_blueprint",
+      frame: "top_banner_strip",
+      c1: "#1E3A8A",
+      c2: "#0284C7",
+      c3: "#D97706",
+    },
+    {
+      prompt:
+        "Heritage Scouting America olive twill sash embroidery border, gold fleur-de-lis corner filigree, and classic outdoor timberline silhouette.",
+      style: "heritage_embroidery",
+      frame: "heritage_border",
+      c1: "#003F87",
+      c2: "#CE1126",
+      c3: "#D4AF37",
+    },
+  ];
+
+  const DMBC_HVSC_AI_SAMPLE_PROMPTS = [
+    {
+      prompt:
+        "Camp Hidden Valley Griswold Scout Reservation pinewood timberline and lake shore silhouette along the bottom footer, warm campfire gold reflection, and New England granite contour lines.",
+      style: "pinewood_campfire",
+      frame: "horizon_silhouette",
+      c1: "#1B5E20",
+      c2: "#0284C7",
+      c3: "#D97706",
+    },
+    {
+      prompt:
+        "Danvers Merit Badge College collegiate crest theme with Holten-Richmond crimson and slate header band, clean academic column accents, and parchment study guide texture.",
+      style: "collegiate_mbc",
+      frame: "top_banner_strip",
+      c1: "#991B1B",
+      c2: "#1E293B",
+      c3: "#D97706",
+    },
+    GENERIC_AI_SAMPLE_PROMPTS[2],
+    GENERIC_AI_SAMPLE_PROMPTS[3],
+    GENERIC_AI_SAMPLE_PROMPTS[4],
+    GENERIC_AI_SAMPLE_PROMPTS[5],
+  ];
+
+  document.getElementById("btn-tpl-ai-sample-safe")?.addEventListener("click", (ev) => {
+    const dmbcOn =
+      typeof window.isDmbcHvscCustomizationsEnabled === "function"
+        ? window.isDmbcHvscCustomizationsEnabled()
+        : Boolean(state.enableDmbcHvscCustomizations);
+    const pool = dmbcOn ? DMBC_HVSC_AI_SAMPLE_PROMPTS : GENERIC_AI_SAMPLE_PROMPTS;
+    state.tplAiSamplePromptIdx = ((state.tplAiSamplePromptIdx ?? -1) + 1) % pool.length;
+    const item = pool[state.tplAiSamplePromptIdx];
     const promptIn = document.getElementById("tpl-ai-prompt-input");
     if (promptIn) {
-      promptIn.value =
-        " Crisp pine forest ridgeline silhouette along the bottom footer, subtle topographic elevation contour lines in warm parchment, and a brass compass rose accent in the top banner.";
+      promptIn.value = item.prompt;
+    }
+    const styleSel = document.getElementById("tpl-ai-style-select");
+    const frameSel = document.getElementById("tpl-ai-frame-select");
+    const c1In = document.getElementById("tpl-ai-color1");
+    const c2In = document.getElementById("tpl-ai-color2");
+    const c3In = document.getElementById("tpl-ai-color3");
+    if (styleSel && item.style) styleSel.value = item.style;
+    if (frameSel && item.frame) frameSel.value = item.frame;
+    if (c1In && item.c1) c1In.value = item.c1;
+    if (c2In && item.c2) c2In.value = item.c2;
+    if (c3In && item.c3) c3In.value = item.c3;
+    const btn = ev.currentTarget || document.getElementById("btn-tpl-ai-sample-safe");
+    if (btn) {
+      const prefix = dmbcOn ? "✨ Sample DMBC / HVSC Prompt" : "✨ Sample Camp / MBC Prompt";
+      btn.textContent = `${prefix} (${state.tplAiSamplePromptIdx + 1}/${pool.length})`;
     }
     document.getElementById("tpl-ai-guardrail-banner")?.classList.add("hidden");
+    invalidateAiGeneratedVariantsDraft();
     updateNanoBananaLivePreview();
   });
 
@@ -14643,7 +14921,7 @@ async function initPowerPointTemplateStudio() {
     }
 
     if (consentChk && !consentChk.checked) {
-      showToast("Please check the $0.039 FinOps confirmation checkbox first (or use Free SVG Preview).", "warning");
+      showToast("Please check the $0.08 FinOps confirmation checkbox first (or use Free SVG Preview).", "warning");
       return;
     }
 
@@ -14651,34 +14929,49 @@ async function initPowerPointTemplateStudio() {
     const origLabel = genBtn?.innerHTML || "";
     if (genBtn) {
       genBtn.disabled = true;
-      genBtn.textContent = "⏳ Generating 4-Color Template Series...";
+      genBtn.textContent = "⏳ Generating 3-Variant Template Series...";
     }
     if (statusEl) {
       statusEl.style.color = "#0369A1";
-      statusEl.textContent = "Synthesizing 16:9 Nano Banana slide frame & 4 color variants (Green, Blue, Red, Tan)...";
+      statusEl.textContent = "Synthesizing 16:9 Nano Banana slide frame & 3 color variants (Variant A, Variant B, Variant C)...";
     }
 
     const c1 = document.getElementById("tpl-ai-color1")?.value || "#1B5E20";
-    const c2 = document.getElementById("tpl-ai-color2")?.value || "#D4AF37";
-    const c3 = document.getElementById("tpl-ai-color3")?.value || "#003F87";
+    const c2 = document.getElementById("tpl-ai-color2")?.value || "#0284C7";
+    const c3 = document.getElementById("tpl-ai-color3")?.value || "#D97706";
     const useC2 = document.getElementById("tpl-ai-use-color2")?.checked !== false;
     const useC3 = document.getElementById("tpl-ai-use-color3")?.checked !== false;
     const colors = [c1];
     if (useC2) colors.push(c2);
     if (useC3) colors.push(c3);
 
+    const nameIn = document.getElementById("tpl-ai-name-input");
+    const requestedName = (nameIn?.value || "Summer Scout Camp - 2026 Theme").trim();
+    const styleVal = document.getElementById("tpl-ai-style-select")?.value || "pinewood_campfire";
+    const frameVal = document.getElementById("tpl-ai-frame-select")?.value || "horizon_silhouette";
+    const logoPosVal = (document.getElementById("tpl-ai-logo-pos-select")?.value || "top_right").replace(/-/g, "_");
+    const removeBgVal = document.getElementById("tpl-ai-logo-remove-bg")?.checked !== false;
+
     const payload = {
-      template_name: (document.getElementById("tpl-ai-name-input")?.value || "Troop 19 High Adventure Series").trim(),
-      style_family: document.getElementById("tpl-ai-style-select")?.value || "TOPOGRAPHIC_OUTDOOR",
-      frame_preset: document.getElementById("tpl-ai-frame-select")?.value || "TOP_AND_BOTTOM_SILHOUETTE",
+      family_name: requestedName,
+      template_name: requestedName,
+      visual_style: styleVal,
+      style_family: styleVal,
+      frame_geometry: frameVal,
+      frame_preset: frameVal,
       colors,
       primary_hex: c1,
-      accent_hex: useC2 ? c2 : "#D4AF37",
-      secondary_hex: useC3 ? c3 : "#003F87",
+      secondary_hex: useC2 ? c2 : c1,
+      accent_hex: useC3 ? c3 : "#D4AF37",
+      include_secondary: useC2,
+      include_accent: useC3,
+      custom_prompt: promptText,
       prompt: promptText,
-      logo_position: document.getElementById("tpl-ai-logo-pos-select")?.value || "bottom-right",
-      remove_logo_bg: document.getElementById("tpl-ai-logo-remove-bg")?.checked !== false,
+      logo_position: logoPosVal,
+      remove_logo_white_bg: removeBgVal,
+      remove_logo_bg: removeBgVal,
       logo_data_url: state.tplAiCustomLogoDataUrl || "",
+      user_consented: true,
       confirm_finops_cost: true,
     };
 
@@ -14689,8 +14982,8 @@ async function initPowerPointTemplateStudio() {
         body: JSON.stringify(payload),
       });
       const data = await resp.json().catch(() => ({}));
-      if (!resp.ok) {
-        const msg = data.detail || data.error || "Template generation blocked or failed.";
+      if (!resp.ok || data.status === "BLOCKED_BY_GUARDRAIL" || data.status === "CONSENT_REQUIRED") {
+        const msg = data.reason || data.detail || data.error || "Template generation blocked or failed.";
         if (guardrailEl) {
           guardrailEl.textContent = `🛡️ ${msg}`;
           guardrailEl.classList.remove("hidden");
@@ -14706,6 +14999,7 @@ async function initPowerPointTemplateStudio() {
         : data.template
         ? [data.template]
         : [];
+      const savedFamilyName = data.family_name || createdVariants[0]?.family_name || requestedName;
       state.tplAiGeneratedVariants = createdVariants;
       state.tplAiActiveVariantIndex = 0;
       syncTemplateSelectorUi();
@@ -14716,9 +15010,12 @@ async function initPowerPointTemplateStudio() {
       }
       if (statusEl) {
         statusEl.style.color = "#15803D";
-        statusEl.textContent = `✓ Saved "${payload.template_name}" (${createdVariants.length || 4} color variants) to your Template Gallery!`;
+        statusEl.textContent = `✓ Saved "${savedFamilyName}" (${createdVariants.length || 3} color variants) to your Template Gallery! Ready to create another or apply.`;
       }
-      showToast(`🍌 Generated "${payload.template_name}" 4-color template family!`, "info");
+      if (nameIn) {
+        nameIn.value = suggestNextAvailableAiTemplateName(savedFamilyName);
+      }
+      showToast(`🍌 Generated "${savedFamilyName}" (${createdVariants.length || 3} variants)!`, "info");
     } catch (err) {
       if (statusEl) {
         statusEl.style.color = "#B91C1C";
@@ -14726,7 +15023,7 @@ async function initPowerPointTemplateStudio() {
       }
     } finally {
       if (genBtn) {
-        genBtn.disabled = false;
+        genBtn.disabled = !(consentChk ? consentChk.checked : true);
         genBtn.innerHTML = origLabel;
       }
     }
@@ -14739,6 +15036,12 @@ async function initPowerPointTemplateStudio() {
       await applyTemplateToActiveDeck(chosen.template_id, true);
       switchTemplateStudioTab("gallery");
     } else {
+      const consentChk = document.getElementById("tpl-ai-consent-checkbox");
+      if (consentChk && !consentChk.checked) {
+        consentChk.checked = true;
+        const genBtn = document.getElementById("btn-tpl-ai-generate");
+        if (genBtn) genBtn.disabled = false;
+      }
       document.getElementById("btn-tpl-ai-generate")?.click();
     }
   });
@@ -15004,12 +15307,24 @@ function renderQuickSelectBadgesRow() {
         .map((ws) => {
           const isAct = ws.workspace_id === state.activeWorkspaceId;
           const slug = badgeNameToEmblemSlug(ws.badge_name || "First Aid");
-          const shortSession = ws.session_label ? ws.session_label.split("(")[0].replace("Clinic", "").trim() : "";
-          const label = shortSession
+          const rawShortSession = ws.session_label ? ws.session_label.split("(")[0].replace("Clinic", "").trim() : "";
+          const shortSession =
+            typeof window.sanitizeDmbcHvscDisplayText === "function"
+              ? window.sanitizeDmbcHvscDisplayText(rawShortSession)
+              : rawShortSession;
+          const rawLabel = shortSession
             ? `${ws.badge_name} • ${shortSession}`
             : ws.workspace_title || ws.badge_name;
+          const label =
+            typeof window.sanitizeDmbcHvscDisplayText === "function"
+              ? window.sanitizeDmbcHvscDisplayText(rawLabel)
+              : rawLabel;
+          const titleText =
+            typeof window.sanitizeDmbcHvscDisplayText === "function"
+              ? window.sanitizeDmbcHvscDisplayText(ws.workspace_title || ws.badge_name)
+              : ws.workspace_title || ws.badge_name;
           return `
-            <button type="button" class="m3-ws-pill ${isAct ? "active" : ""}" data-switch-ws="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(ws.workspace_title || ws.badge_name)} (${escapeHtml(ws.session_label || "")} • ${ws.slide_count || 0} slides, ${ws.scout_count || 0} Scouts)">
+            <button type="button" class="m3-ws-pill ${isAct ? "active" : ""}" data-switch-ws="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(titleText)} (${escapeHtml(shortSession)} • ${ws.slide_count || 0} slides, ${ws.scout_count || 0} Scouts)">
               <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:15px; height:15px; border-radius:50%; object-fit:contain;" />
               <span>${escapeHtml(label)}</span>
               <span class="m3-ws-pill-meta">(${ws.scout_count || 0})</span>
@@ -15159,10 +15474,13 @@ function renderActiveWorkspacesBar() {
     copySelect.innerHTML =
       `<option value="">🔁 Copy Scouts From Deck (${otherWs.length})...</option>` +
       otherWs
-        .map(
-          (w) =>
-            `<option value="${escapeHtml(w.workspace_id)}">📋 ${escapeHtml(w.workspace_title || w.badge_name)} (${w.scout_count || 0} Scouts)</option>`
-        )
+        .map((w) => {
+          const dispTitle =
+            typeof window.sanitizeDmbcHvscDisplayText === "function"
+              ? window.sanitizeDmbcHvscDisplayText(w.workspace_title || w.badge_name)
+              : w.workspace_title || w.badge_name;
+          return `<option value="${escapeHtml(w.workspace_id)}">📋 ${escapeHtml(dispTitle)} (${w.scout_count || 0} Scouts)</option>`;
+        })
         .join("");
   }
 
@@ -15178,12 +15496,24 @@ function renderActiveWorkspacesBar() {
     .map((ws) => {
       const isAct = ws.workspace_id === state.activeWorkspaceId;
       const slug = badgeNameToEmblemSlug(ws.badge_name || "First Aid");
-      const shortSession = ws.session_label ? ws.session_label.split("(")[0].replace("Clinic", "").trim() : "";
-      const label = shortSession
+      const rawShortSession = ws.session_label ? ws.session_label.split("(")[0].replace("Clinic", "").trim() : "";
+      const shortSession =
+        typeof window.sanitizeDmbcHvscDisplayText === "function"
+          ? window.sanitizeDmbcHvscDisplayText(rawShortSession)
+          : rawShortSession;
+      const rawLabel = shortSession
         ? `${ws.badge_name} • ${shortSession}`
         : ws.workspace_title || ws.badge_name;
+      const label =
+        typeof window.sanitizeDmbcHvscDisplayText === "function"
+          ? window.sanitizeDmbcHvscDisplayText(rawLabel)
+          : rawLabel;
+      const titleText =
+        typeof window.sanitizeDmbcHvscDisplayText === "function"
+          ? window.sanitizeDmbcHvscDisplayText(ws.workspace_title || ws.badge_name)
+          : ws.workspace_title || ws.badge_name;
       return `
-        <button type="button" class="m3-ws-pill ${isAct ? "active" : ""}" data-ws-bar-id="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(ws.workspace_title || ws.badge_name)} (${escapeHtml(ws.session_label || "")} • ${ws.slide_count || 0} slides, ${ws.scout_count || 0} Scouts)">
+        <button type="button" class="m3-ws-pill ${isAct ? "active" : ""}" data-ws-bar-id="${escapeHtml(ws.workspace_id)}" title="Switch to ${escapeHtml(titleText)} (${escapeHtml(shortSession)} • ${ws.slide_count || 0} slides, ${ws.scout_count || 0} Scouts)">
           <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:15px; height:15px; border-radius:50%; object-fit:contain;" />
           <span>${escapeHtml(label)}</span>
           <span class="m3-ws-pill-meta">(${ws.scout_count || 0})</span>
@@ -15492,15 +15822,130 @@ function promptOrExecuteWorkspaceDeletion(wid) {
   modal?.classList.add("open");
 }
 
+const DMBC_HVSC_CUSTOMIZATIONS_STORAGE_KEY = "scouts_bsa_enable_dmbc_hvsc_v1";
+
+window.isDmbcHvscCustomizationsEnabled = function isDmbcHvscCustomizationsEnabled() {
+  if (typeof state.enableDmbcHvscCustomizations === "boolean") {
+    return state.enableDmbcHvscCustomizations;
+  }
+  const chk = document.getElementById("chk-admin-dmbc-hvsc-customizations");
+  if (chk) {
+    state.enableDmbcHvscCustomizations = Boolean(chk.checked);
+    return state.enableDmbcHvscCustomizations;
+  }
+  return false;
+};
+
+window.sanitizeDmbcHvscDisplayText = function sanitizeDmbcHvscDisplayText(str) {
+  const s = String(str || "");
+  if (!s || window.isDmbcHvscCustomizationsEnabled()) return s;
+  return s
+    .replace(/Holten-Richmond MS\s*-\s*Room HR\s*(\d+)\s*\(Danvers MBC\)/gi, "Main School Building - Room $1 (MBC)")
+    .replace(/Holten-Richmond MS\s*-\s*Room HR\s*(\d+)/gi, "Main School Building - Room $1")
+    .replace(/Holten-Richmond/gi, "Main School Building")
+    .replace(/Danvers Merit Badge College/gi, "District Merit Badge College")
+    .replace(/Danvers MBC/gi, "Merit Badge College")
+    .replace(/\bDanvers\b/gi, "District")
+    .replace(/Camp Hidden Valley\s*\(Griswold Scout Reservation\)/gi, "Summer Scout Camp")
+    .replace(/Camp Hidden Valley/gi, "Summer Scout Camp")
+    .replace(/Hidden Valley Scout Camp/gi, "Summer Scout Camp")
+    .replace(/Hidden Valley/gi, "Summer Scout Camp")
+    .replace(/Griswold Scout Reservation/gi, "Council Scout Reservation")
+    .replace(/\bDMBC\b/g, "MBC")
+    .replace(/\bHVSC\b/g, "Camp");
+};
+
+window.applyDmbcHvscCustomizationsMode = function applyDmbcHvscCustomizationsMode(enabled, persist = false) {
+  const isOn = Boolean(enabled);
+  state.enableDmbcHvscCustomizations = isOn;
+  const chk = document.getElementById("chk-admin-dmbc-hvsc-customizations");
+  if (chk && chk.checked !== isOn) {
+    chk.checked = isOn;
+  }
+  if (persist) {
+    try {
+      window.localStorage.setItem(DMBC_HVSC_CUSTOMIZATIONS_STORAGE_KEY, isOn ? "1" : "0");
+    } catch (_e) {}
+  }
+
+  // Toggle visibility of [data-dmbc-hvsc-only] items (room presets, bundle tag presets)
+  document.querySelectorAll("[data-dmbc-hvsc-only]").forEach((el) => {
+    el.classList.toggle("hidden", !isOn);
+  });
+
+  // Update elements that carry both generic and DMBC/HVSC labels/titles/placeholders/defaults
+  document.querySelectorAll("[data-generic-label][data-dmbc-label]").forEach((el) => {
+    el.textContent = isOn
+      ? el.getAttribute("data-dmbc-label") || el.textContent
+      : el.getAttribute("data-generic-label") || el.textContent;
+  });
+  document.querySelectorAll("[data-generic-title][data-dmbc-title]").forEach((el) => {
+    el.setAttribute(
+      "title",
+      isOn ? el.getAttribute("data-dmbc-title") || "" : el.getAttribute("data-generic-title") || ""
+    );
+  });
+  document.querySelectorAll("input[data-generic-val], input[data-generic-placeholder]").forEach((inp) => {
+    if (inp.hasAttribute("data-generic-placeholder") || inp.hasAttribute("data-dmbc-placeholder")) {
+      inp.setAttribute(
+        "placeholder",
+        isOn ? inp.getAttribute("data-dmbc-placeholder") || "" : inp.getAttribute("data-generic-placeholder") || ""
+      );
+    }
+    const gDef = inp.getAttribute("data-generic-val") || inp.getAttribute("data-generic-default") || "";
+    const dDef = inp.getAttribute("data-dmbc-val") || inp.getAttribute("data-dmbc-default") || "";
+    if (isOn && (inp.value === gDef || !inp.value.trim())) {
+      inp.value = dDef;
+    } else if (!isOn && (inp.value === dDef || /danvers|hidden valley|holten-richmond|griswold/i.test(inp.value))) {
+      inp.value = gDef || window.sanitizeDmbcHvscDisplayText(inp.value);
+    }
+  });
+
+  const roomIn = document.getElementById("ws-room-location-input");
+  if (roomIn) {
+    if (!isOn && /danvers|hidden valley|holten-richmond|griswold/i.test(roomIn.value)) {
+      roomIn.value = window.sanitizeDmbcHvscDisplayText(roomIn.value);
+    } else if (isOn && roomIn.value === "Main School Building - Room 107 (MBC)") {
+      roomIn.value = "Holten-Richmond MS - Room HR 107 (Danvers MBC)";
+    }
+  }
+  const tagIn = document.getElementById("ws-bundle-tag-input");
+  if (tagIn) {
+    if (!isOn && /danvers|hidden valley|holten-richmond|griswold/i.test(tagIn.value)) {
+      tagIn.value = window.sanitizeDmbcHvscDisplayText(tagIn.value);
+    } else if (isOn && tagIn.value === "District Merit Badge College") {
+      tagIn.value = "Danvers Merit Badge College";
+    }
+  }
+
+  const sampleBtn = document.getElementById("btn-tpl-ai-sample-safe");
+  if (sampleBtn) {
+    const idx = Math.max(0, state.tplAiSamplePromptIdx ?? 0);
+    sampleBtn.textContent = isOn
+      ? `✨ Sample DMBC / HVSC Prompt (${idx + 1}/6)`
+      : `✨ Sample Camp / MBC Prompt (${idx + 1}/6)`;
+  }
+
+  syncTemplateSelectorUi();
+  renderTemplateCatalogGrid();
+  if (typeof window.updateNanoBananaLivePreview === "function") {
+    window.updateNanoBananaLivePreview();
+  }
+  if (typeof window.computeAndSyncWorkspaceSchedulePreview === "function") {
+    window.computeAndSyncWorkspaceSchedulePreview();
+  }
+  renderSavedWorkspacesGrid();
+  renderActiveWorkspacesBar();
+};
+
 function renderSavedWorkspacesGrid() {
   const grid = document.getElementById("saved-workspaces-grid");
   if (!grid) return;
   const q = (document.getElementById("workspaces-search-input")?.value || "").trim().toLowerCase();
   const list = (state.savedWorkspaces || []).filter((w) => {
     if (!q) return true;
-    return `${w.workspace_title || ""} ${w.badge_name || ""} ${w.session_label || ""} ${w.camp_bundle_tag || ""}`
-      .toLowerCase()
-      .includes(q);
+    const rawSearch = `${w.workspace_title || ""} ${w.badge_name || ""} ${w.session_label || ""} ${w.camp_bundle_tag || ""}`;
+    return window.sanitizeDmbcHvscDisplayText(rawSearch).toLowerCase().includes(q);
   });
 
   if (list.length === 0) {
@@ -15508,33 +15953,42 @@ function renderSavedWorkspacesGrid() {
     return;
   }
 
+  const visibleCatalog = getVisibleTemplateCatalog();
   grid.innerHTML = list
     .map((w) => {
       const isAct = w.workspace_id === state.activeWorkspaceId;
       const slug = badgeNameToEmblemSlug(w.badge_name || "First Aid");
-      const tplProf = (state.templateCatalog || []).find((t) => t.template_id === w.template_id) || {
-        template_id: w.template_id || "default_workbench",
-        name: "Workbench Classic",
+      const effectiveTplId =
+        !window.isDmbcHvscCustomizationsEnabled() && DMBC_HVSC_TEMPLATE_IDS.has(String(w.template_id || ""))
+          ? "bsa_scouting_america"
+          : w.template_id;
+      const tplProf = visibleCatalog.find((t) => t.template_id === effectiveTplId) || {
+        template_id: effectiveTplId || "default_workbench",
+        name: "BSA Scouting America (Green)",
       };
       const tplDisplayHtml = formatTemplateNameWithColorDotHtml(tplProf, 9);
       const updatedLabel = formatWorkspaceTimestamp(w.updated_at);
+      const dispTitle = window.sanitizeDmbcHvscDisplayText(w.workspace_title || w.badge_name);
+      const dispSession = window.sanitizeDmbcHvscDisplayText(w.session_label || "");
+      const dispBundle = window.sanitizeDmbcHvscDisplayText(w.camp_bundle_tag || "");
+      const dispRoom = window.sanitizeDmbcHvscDisplayText(w.room_location || "");
       return `
         <div class="m3-workspace-card ${isAct ? "active" : ""}">
           <div>
             <div style="display:flex; align-items:center; gap:10px;">
               <img src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" style="width:42px; height:42px; object-fit:contain; flex-shrink:0;" onerror="this.style.display='none'" />
               <div style="min-width:0; flex:1;">
-                <div class="m3-workspace-card-title" style="font-size:0.86rem; font-weight:800; color:#003F87; line-height:1.25;">${escapeHtml(w.workspace_title || w.badge_name)}</div>
+                <div class="m3-workspace-card-title" style="font-size:0.86rem; font-weight:800; color:#003F87; line-height:1.25;">${escapeHtml(dispTitle)}</div>
                 <div class="m3-workspace-card-sub" style="font-size:0.72rem; color:#475569; margin-top:2px;">
                   <strong>${escapeHtml(w.badge_name)}</strong>
-                  ${w.session_label ? ` &bull; ${escapeHtml(w.session_label)}` : ""}
-                  ${w.camp_bundle_tag ? ` &bull; <span style="color:#0284C7; font-weight:700;">🏕️ ${escapeHtml(w.camp_bundle_tag)}</span>` : ""}
+                  ${dispSession ? ` &bull; ${escapeHtml(dispSession)}` : ""}
+                  ${dispBundle ? ` &bull; <span style="color:#0284C7; font-weight:700;">🏕️ ${escapeHtml(dispBundle)}</span>` : ""}
                 </div>
                 ${
-                  w.class_start_time || w.room_location
+                  w.class_start_time || dispRoom
                     ? `<div class="m3-workspace-card-logistics-chips" style="display:flex; flex-wrap:wrap; gap:5px; margin-top:5px;">
                         ${w.class_start_time ? `<span class="m3-chip m3-chip-secondary" style="font-size:0.66rem; padding:1px 7px;">⏰ ${escapeHtml(w.class_start_time)}</span>` : ""}
-                        ${w.room_location ? `<span class="m3-chip m3-chip-secondary" style="font-size:0.66rem; padding:1px 7px;">📍 ${escapeHtml(w.room_location)}</span>` : ""}
+                        ${dispRoom ? `<span class="m3-chip m3-chip-secondary" style="font-size:0.66rem; padding:1px 7px;">📍 ${escapeHtml(dispRoom)}</span>` : ""}
                       </div>`
                     : ""
                 }
@@ -15603,7 +16057,7 @@ function renderSavedWorkspacesGrid() {
         renderActiveWorkspacesBar();
         renderQuickSelectBadgesRow();
         showToast(
-          `📑 Cloned "${data.workspace?.workspace_title || srcWs?.badge_name}" with a clean Blue Card roster!`,
+          `📑 Cloned "${window.sanitizeDmbcHvscDisplayText(data.workspace?.workspace_title || srcWs?.badge_name)}" with a clean Blue Card roster!`,
           "info"
         );
       }
@@ -15619,6 +16073,33 @@ function renderSavedWorkspacesGrid() {
 }
 
 async function initMultiBadgeWorkspacesAndFavorites() {
+  // Default Add DMBC & HVSC Customizations checkbox to unchecked (false)
+  state.enableDmbcHvscCustomizations = false;
+  const adminDmbcChk = document.getElementById("chk-admin-dmbc-hvsc-customizations");
+  if (adminDmbcChk) {
+    adminDmbcChk.checked = false;
+    adminDmbcChk.addEventListener("change", () => {
+      window.applyDmbcHvscCustomizationsMode(Boolean(adminDmbcChk.checked), true);
+      showToast(
+        adminDmbcChk.checked
+          ? "🏕️ Enabled Danvers MBC & Camp Hidden Valley customizations across the Workbench."
+          : "✨ Switched to generic Merit Badge College & Summer Camp mode (DMBC & HVSC hidden).",
+        "info"
+      );
+    });
+  }
+
+  // Wire compact collapse chevron on 2-Row Session & Class Logistics Builder
+  const toggleBuilderBtn = document.getElementById("btn-ws-toggle-schedule-builder");
+  const collapsibleBuilderBody = document.getElementById("ws-schedule-builder-collapsible-body");
+  if (toggleBuilderBtn && collapsibleBuilderBody) {
+    toggleBuilderBtn.addEventListener("click", () => {
+      const isHidden = collapsibleBuilderBody.classList.toggle("hidden");
+      toggleBuilderBtn.setAttribute("aria-expanded", isHidden ? "false" : "true");
+      toggleBuilderBtn.textContent = isHidden ? "▾ Expand Schedule Builder" : "▴ Collapse Builder";
+    });
+  }
+
   state.quickSelectMode = "popular";
   try {
     const localFavs = JSON.parse(
@@ -15788,7 +16269,12 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     const includeMakeup = document.getElementById("ws-chk-makeup-session")?.checked !== false;
     const rawStartVal = (document.getElementById("ws-start-time-input")?.value || "08:30").trim();
     const durationMin = Math.max(15, parseInt(document.getElementById("ws-duration-min-input")?.value || "60", 10) || 60);
-    const roomLoc = (document.getElementById("ws-room-location-input")?.value || "Holten-Richmond MS - Room HR 107 (Danvers MBC)").trim();
+    const defaultRoom = window.isDmbcHvscCustomizationsEnabled()
+      ? "Holten-Richmond MS - Room HR 107 (Danvers MBC)"
+      : "Main School Building - Room 107 (MBC)";
+    const roomLoc = window.sanitizeDmbcHvscDisplayText(
+      (document.getElementById("ws-room-location-input")?.value || defaultRoom).trim()
+    );
 
     const startMins = parseTime12hToMinutes(rawStartVal);
     const startTimeStr = formatTime12h(Math.floor(startMins / 60), startMins % 60);
@@ -15817,15 +16303,31 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     const isOnce = freq === "ONCE" || freq === "SINGLE_DAY";
     const stepDays = freq === "DAILY" ? 1 : freq === "BIWEEKLY" ? 14 : freq === "MONTHLY" ? 28 : isOnce ? 0 : 7;
     const sessionLabels = [];
+    const sessionKeys = [];
+    const sessionTooltips = {};
+    const stampSelectOptions = [];
     for (let i = 0; i < numSessions; i++) {
       const d = new Date(baseDate.getTime() + i * stepDays * 86400000);
       const mName = monthNames[d.getMonth()] || "Jan";
-      sessionLabels.push(`S${i + 1}: ${weekdayNames[d.getDay()]} ${mName} ${d.getDate()}`);
+      const dayDateStr = `${weekdayNames[d.getDay()]} ${mName} ${d.getDate()}`;
+      const sk = `S${i + 1}`;
+      sessionKeys.push(sk);
+      sessionLabels.push(`${sk}: ${dayDateStr}`);
+      sessionTooltips[sk] = `${dayDateStr} (${fullTimeRange})`;
+      stampSelectOptions.push({ value: sk, label: `${sk} (${dayDateStr})` });
     }
-    if (includeMakeup && !isOnce) {
+    const effectiveMakeup = includeMakeup && !isOnce;
+    if (effectiveMakeup) {
       const mDate = new Date(baseDate.getTime() + numSessions * stepDays * 86400000);
-      sessionLabels.push(`Make-Up: ${weekdayNames[mDate.getDay()]} ${monthNames[mDate.getMonth()]} ${mDate.getDate()}`);
+      const mDayDateStr = `${weekdayNames[mDate.getDay()]} ${monthNames[mDate.getMonth()]} ${mDate.getDate()}`;
+      sessionKeys.push("M");
+      sessionLabels.push(`Make-Up: ${mDayDateStr}`);
+      sessionTooltips.M = `Make-Up: ${mDayDateStr} (${fullTimeRange})`;
+      stampSelectOptions.push({ value: "M", label: `M (Make-Up • ${mDayDateStr})` });
     }
+
+    const rangePart = numSessions === 1 ? "S1" : `S1–S${numSessions}`;
+    const headerRangeLabel = effectiveMakeup ? `${rangePart} | M` : rangePart;
 
     const secPart = secNum ? `${secName} ${secNum}` : secName;
     const combinedSectionLabel = `${secPart} (${startTimeStr})`;
@@ -15846,7 +16348,8 @@ async function initMultiBadgeWorkspacesAndFavorites() {
         sessionLabels.join(" | ")
       )} &bull; 📍 ${escapeHtml(roomLoc)}`;
     }
-    return {
+
+    const activeSchedObj = {
       combinedSectionLabel,
       fullTimeRange,
       datesSummary,
@@ -15857,7 +16360,24 @@ async function initMultiBadgeWorkspacesAndFavorites() {
       secName,
       secNum,
       secPart,
+      numSessions,
+      includeMakeup: effectiveMakeup,
+      sessionKeys,
+      headerRangeLabel,
+      sessionPillLabels: sessionLabels,
+      sessionTooltips,
+      stampSelectOptions,
     };
+    state.activeScheduleConfig = activeSchedObj;
+    if (state.currentResult) {
+      renderBlueCardTracker(state.currentResult);
+    }
+    return activeSchedObj;
+  };
+  window.computeAndSyncWorkspaceSchedulePreview = computeAndSyncWorkspaceSchedulePreview;
+  window.getActiveScheduleConfig = () => {
+    if (state.activeScheduleConfig) return state.activeScheduleConfig;
+    return computeAndSyncWorkspaceSchedulePreview();
   };
 
   const openWsModal = () => {
@@ -15868,9 +16388,14 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     const bundleIn = document.getElementById("ws-bundle-tag-input");
     const wsTimeIn = document.getElementById("ws-class-time-input");
     const wsRoomIn = document.getElementById("ws-room-location-input");
-    if (titleIn) titleIn.value = activeWs?.workspace_title || curBadge;
-    if (sessionIn && activeWs?.session_label) sessionIn.value = activeWs.session_label;
-    if (bundleIn) bundleIn.value = activeWs?.camp_bundle_tag || "Danvers Merit Badge College";
+    const dmbcOn = window.isDmbcHvscCustomizationsEnabled();
+    const defaultBundle = dmbcOn ? "Danvers Merit Badge College" : "District Merit Badge College";
+    const defaultRoom = dmbcOn
+      ? "Holten-Richmond MS - Room HR 107 (Danvers MBC)"
+      : "Main School Building - Room 107 (MBC)";
+    if (titleIn) titleIn.value = window.sanitizeDmbcHvscDisplayText(activeWs?.workspace_title || curBadge);
+    if (sessionIn && activeWs?.session_label) sessionIn.value = window.sanitizeDmbcHvscDisplayText(activeWs.session_label);
+    if (bundleIn) bundleIn.value = window.sanitizeDmbcHvscDisplayText(activeWs?.camp_bundle_tag || defaultBundle);
     if (wsTimeIn) {
       wsTimeIn.value =
         activeWs?.class_start_time ||
@@ -15878,10 +16403,11 @@ async function initMultiBadgeWorkspacesAndFavorites() {
         "8:30 AM – 9:45 AM";
     }
     if (wsRoomIn) {
-      wsRoomIn.value =
+      wsRoomIn.value = window.sanitizeDmbcHvscDisplayText(
         activeWs?.room_location ||
-        document.getElementById("input-logistics-room")?.value ||
-        "Holten-Richmond MS - Room HR 107 (Danvers MBC)";
+          document.getElementById("input-logistics-room")?.value ||
+          defaultRoom
+      );
     }
     renderCustomPresetGroup("ws-custom-locations-group", CUSTOM_LOCATIONS_KEY, "ws-room-location-input", "ws-room-presets-menu");
     renderCustomPresetGroup("ws-custom-tags-group", CUSTOM_TAGS_KEY, "ws-bundle-tag-input", "ws-bundle-presets-menu");
@@ -15981,6 +16507,7 @@ async function initMultiBadgeWorkspacesAndFavorites() {
   document.querySelectorAll("[data-ws-venue-macro]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const macro = btn.getAttribute("data-ws-venue-macro");
+      const dmbcOn = window.isDmbcHvscCustomizationsEnabled();
       const secNameEl = document.getElementById("ws-section-name-select");
       const secNumEl = document.getElementById("ws-section-num-select");
       const freqEl = document.getElementById("ws-frequency-select");
@@ -15998,8 +16525,14 @@ async function initMultiBadgeWorkspacesAndFavorites() {
         if (makeupChk) makeupChk.checked = true;
         if (startEl) startEl.value = "08:30";
         if (durEl) durEl.value = "75";
-        if (roomEl) roomEl.value = "Holten-Richmond MS - Room HR 107 (Danvers MBC)";
-        if (tagEl) tagEl.value = "Danvers Merit Badge College";
+        if (roomEl) {
+          roomEl.value = dmbcOn
+            ? "Holten-Richmond MS - Room HR 107 (Danvers MBC)"
+            : "Main School Building - Room 107 (MBC)";
+        }
+        if (tagEl) {
+          tagEl.value = dmbcOn ? "Danvers Merit Badge College" : "District Merit Badge College";
+        }
       } else if (macro === "hidden_valley") {
         if (secNameEl) secNameEl.value = "Period";
         if (secNumEl) secNumEl.value = "1";
@@ -16008,8 +16541,14 @@ async function initMultiBadgeWorkspacesAndFavorites() {
         if (makeupChk) makeupChk.checked = true;
         if (startEl) startEl.value = "09:00";
         if (durEl) durEl.value = "50";
-        if (roomEl) roomEl.value = "Camp Hidden Valley - Scoutcraft Pavilion";
-        if (tagEl) tagEl.value = "Camp Hidden Valley - Week 1";
+        if (roomEl) {
+          roomEl.value = dmbcOn
+            ? "Camp Hidden Valley - Scoutcraft Pavilion"
+            : "Summer Camp - Scoutcraft Pavilion";
+        }
+        if (tagEl) {
+          tagEl.value = dmbcOn ? "Camp Hidden Valley - Week 1" : "Summer Scout Camp - Week 1";
+        }
       } else if (macro === "troop_evening") {
         if (secNameEl) secNameEl.value = "Evening Troop Meeting";
         if (secNumEl) secNumEl.value = "1";
@@ -16045,6 +16584,9 @@ async function initMultiBadgeWorkspacesAndFavorites() {
       titleIn.value = `${curBadge} • ${sched.secPart} (${sched.startTimeStr}–${sched.endTimeStr})`;
     }
   });
+
+  // Apply initial default (unchecked) DMBC & HVSC mode
+  window.applyDmbcHvscCustomizationsMode(false, false);
 
   // ＋ Add Custom Location & ＋ Add Custom Tag
   document.getElementById("btn-ws-add-custom-location")?.addEventListener("click", async () => {

@@ -2184,6 +2184,15 @@
               </div>
             </div>
             <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <label
+                for="chk-admin-dmbc-hvsc-customizations"
+                id="lbl-admin-dmbc-hvsc-customizations"
+                title="When checked, enables DMBC and HVSC templates, venue macros, rooms, and tags across the UI. Unchecked by default for a clean generic Scouting America experience."
+                style="display:inline-flex; align-items:center; gap:6px; padding:5px 11px; border-radius:999px; border:1.5px solid var(--md-sys-color-primary); background:var(--md-sys-color-surface); font-size:0.77rem; font-weight:800; color:var(--md-sys-color-primary); cursor:pointer;"
+              >
+                <input type="checkbox" id="chk-admin-dmbc-hvsc-customizations" style="width:15px; height:15px; cursor:pointer;" />
+                <span>Add DMBC &amp; HVSC Customizations</span>
+              </label>
               <span class="m3-chip m3-chip-secondary" id="admin-auth-mode-chip">🔒 Zero-PII Enforced</span>
               <button type="button" class="m3-btn m3-btn-outlined" id="btn-admin-refresh-all" style="padding:6px 12px; font-size:0.78rem;">
                 🔄 Refresh Admin Data
@@ -3336,7 +3345,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
             <div class="m3-tpl-ai-controls-col">
               <div>
                 <label class="m3-field-label" for="tpl-ai-name-input" style="font-size:0.74rem; font-weight:800;">Template Family Name</label>
-                <input type="text" id="tpl-ai-name-input" class="m3-input" value="Camp Hidden Valley — Summer 2026 Theme" placeholder="e.g., Camp Hidden Valley — Summer 2026 Theme" style="padding:6px 10px; font-size:0.80rem;" />
+                <input type="text" id="tpl-ai-name-input" class="m3-input" value="Summer Scout Camp - 2026 Theme" data-generic-val="Summer Scout Camp - 2026 Theme" data-dmbc-val="Camp Hidden Valley - Summer 2026 Theme" placeholder="e.g., Summer Scout Camp - 2026 Theme" style="padding:6px 10px; font-size:0.80rem;" />
               </div>
 
               <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
@@ -3384,9 +3393,9 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                 </div>
                 <div style="display:flex; align-items:center; gap:5px; flex-wrap:wrap;">
                   <span style="font-size:0.70rem; font-weight:700; color:var(--md-sys-color-on-surface-variant);">1-Click Palettes:</span>
-                  <button type="button" class="m3-studiokit-pill" data-tpl-palette-c1="#1B5E20" data-tpl-palette-c2="#0284C7" data-tpl-palette-c3="#D97706" style="font-size:0.70rem; padding:3px 8px;">🌲 Hidden Valley Pine &amp; Lake</button>
+                  <button type="button" class="m3-studiokit-pill" id="btn-tpl-palette-pine" data-tpl-palette-c1="#1B5E20" data-tpl-palette-c2="#0284C7" data-tpl-palette-c3="#D97706" data-generic-label="🌲 Pinewood &amp; Lake Shore" data-dmbc-label="🌲 Hidden Valley Pine &amp; Lake" style="font-size:0.70rem; padding:3px 8px;">🌲 Pinewood &amp; Lake Shore</button>
                   <button type="button" class="m3-studiokit-pill" data-tpl-palette-c1="#003F87" data-tpl-palette-c2="#CE1126" data-tpl-palette-c3="#FDB913" style="font-size:0.70rem; padding:3px 8px;">⚜️ BSA Navy, Crimson &amp; Gold</button>
-                  <button type="button" class="m3-studiokit-pill" data-tpl-palette-c1="#991B1B" data-tpl-palette-c2="#1E3A8A" data-tpl-palette-c3="#D97706" style="font-size:0.70rem; padding:3px 8px;">🏫 Danvers Crimson &amp; Slate</button>
+                  <button type="button" class="m3-studiokit-pill" id="btn-tpl-palette-mbc" data-tpl-palette-c1="#991B1B" data-tpl-palette-c2="#1E3A8A" data-tpl-palette-c3="#D97706" data-generic-label="🏫 MBC Crimson &amp; Slate" data-dmbc-label="🏫 Danvers Crimson &amp; Slate" style="font-size:0.70rem; padding:3px 8px;">🏫 MBC Crimson &amp; Slate</button>
                   <button type="button" class="m3-studiokit-pill" data-tpl-palette-c1="#9A3412" data-tpl-palette-c2="#15803D" data-tpl-palette-c3="#CA8A04" style="font-size:0.70rem; padding:3px 8px;">⛰️ High Adventure Canyon</button>
                   <button type="button" class="m3-studiokit-pill" data-tpl-palette-c1="#0F766E" data-tpl-palette-c2="#2563EB" data-tpl-palette-c3="#7C3AED" style="font-size:0.70rem; padding:3px 8px;">🔬 STEM Cyber Teal</button>
                 </div>
@@ -3416,12 +3425,12 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                 <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; flex-wrap:wrap; margin-bottom:5px;">
                   <label class="m3-field-label" for="tpl-ai-prompt-input" style="font-size:0.74rem; font-weight:800; margin:0;">5. Custom Theme Prompt</label>
                   <div style="display:flex; gap:6px; flex-wrap:wrap;">
-                    <button type="button" class="m3-btn m3-btn-tonal" id="btn-tpl-ai-sample-safe" style="padding:3px 8px; font-size:0.71rem;">✨ Sample Camp / MBC Prompt</button>
+                    <button type="button" class="m3-btn m3-btn-tonal" id="btn-tpl-ai-sample-safe" title="Click repeatedly to cycle through 6 curated Camp &amp; Merit Badge College theme prompts" style="padding:3px 8px; font-size:0.71rem;">✨ Sample Camp / MBC Prompt (1/6)</button>
                     <button type="button" class="m3-btn m3-btn-outlined" id="btn-tpl-ai-sample-guardrail" style="padding:3px 8px; font-size:0.71rem;">🛡️ Test YPT / PII Safety Guardrail</button>
                   </div>
                 </div>
-                <textarea id="tpl-ai-prompt-input" class="m3-input" rows="2" placeholder="Describe scenic camp silhouettes, pine ridges, waterfront motifs, or collegiate headers (no youth faces or PII)..." style="font-size:0.76rem; width:100%;">Crisp New England pine forest and Lake Eileen shoreline silhouette at dusk with subtle topographic contour lines and classic Scouting outdoor emblem accents.</textarea>
-                <div id="tpl-ai-guardrail-banner" class="hidden" style="margin-top:6px; padding:7px 10px; border-radius:8px; background:var(--md-sys-color-error-container, #FEE2E2); color:var(--md-sys-color-on-error-container, #991B1B); font-size:0.74rem; font-weight:700;"></div>
+                <textarea id="tpl-ai-prompt-input" class="m3-input" rows="2" placeholder="Describe scenic camp silhouettes, pine ridges, waterfront motifs, or collegiate headers (no youth faces or PII)..." style="font-size:0.76rem; width:100%;">Crisp pine forest and mountain lake shoreline silhouette at dusk with subtle topographic contour lines and classic Scouting outdoor emblem accents.</textarea>
+                <div id="tpl-ai-guardrail-banner" class="hidden" style="margin-top:6px; padding:7px 10px; border-radius:8px; background:var(--md-sys-color-error-container); color:var(--md-sys-color-on-error-container); font-size:0.74rem; font-weight:700;"></div>
               </div>
 
               <div class="m3-tpl-ai-finops-box" style="padding:10px 12px; border-radius:10px; border:1.5px solid var(--md-sys-color-warning-accent); background:var(--md-sys-color-warning-surface);">
@@ -3451,15 +3460,15 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                 <span style="font-size:0.78rem; font-weight:800; color:var(--md-sys-color-primary);">Live 16:9 Slide &amp; 3-Variant Preview</span>
                 <div class="workbook-view-segmented-control" id="tpl-ai-variant-switcher" style="display:flex; gap:4px;">
                   <button type="button" class="m3-quick-mode-btn active" data-tpl-ai-variant="A" style="display:inline-flex; align-items:center; gap:5px; padding:4px 9px; font-size:0.73rem;">
-                    <span id="tpl-ai-dot-a" style="width:10px; height:10px; border-radius:50%; background:#1B5E20; display:inline-block;"></span>
+                    <span id="tpl-ai-dot-a" style="width:10px; height:10px; border-radius:50%; background:rgb(27, 94, 32); display:inline-block;"></span>
                     Variant A (Primary)
                   </button>
                   <button type="button" class="m3-quick-mode-btn" data-tpl-ai-variant="B" style="display:inline-flex; align-items:center; gap:5px; padding:4px 9px; font-size:0.73rem;">
-                    <span id="tpl-ai-dot-b" style="width:10px; height:10px; border-radius:50%; background:#0284C7; display:inline-block;"></span>
+                    <span id="tpl-ai-dot-b" style="width:10px; height:10px; border-radius:50%; background:rgb(2, 132, 199); display:inline-block;"></span>
                     Variant B (Secondary)
                   </button>
                   <button type="button" class="m3-quick-mode-btn" data-tpl-ai-variant="C" style="display:inline-flex; align-items:center; gap:5px; padding:4px 9px; font-size:0.73rem;">
-                    <span id="tpl-ai-dot-c" style="width:10px; height:10px; border-radius:50%; background:#D97706; display:inline-block;"></span>
+                    <span id="tpl-ai-dot-c" style="width:10px; height:10px; border-radius:50%; background:rgb(217, 119, 6); display:inline-block;"></span>
                     Variant C (Accent)
                   </button>
                 </div>
@@ -3547,8 +3556,8 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
           <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid var(--md-sys-color-outline-variant);">
             <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
               <span style="font-size:0.75rem; font-weight:800; color:var(--md-sys-color-primary);">⚡ 1-Click Venue Macros:</span>
-              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="danvers_mbc" style="font-size:0.72rem; padding:3px 9px;">🏫 Danvers MBC (4x 75m Sat + Makeup)</button>
-              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="hidden_valley" style="font-size:0.72rem; padding:3px 9px;">🏕️ Camp Hidden Valley (4x 50m Mon–Thu + Fri Makeup)</button>
+              <button type="button" class="m3-studiokit-pill" id="btn-ws-macro-mbc" data-ws-venue-macro="danvers_mbc" data-generic-label="🏫 Merit Badge College (4x 75m Sat + Makeup)" data-dmbc-label="🏫 Danvers MBC (4x 75m Sat + Makeup)" style="font-size:0.72rem; padding:3px 9px;">🏫 Merit Badge College (4x 75m Sat + Makeup)</button>
+              <button type="button" class="m3-studiokit-pill" id="btn-ws-macro-camp" data-ws-venue-macro="hidden_valley" data-generic-label="🏕️ Summer Camp (4x 50m Mon–Thu + Fri Makeup)" data-dmbc-label="🏕️ Camp Hidden Valley (4x 50m Mon–Thu + Fri Makeup)" style="font-size:0.72rem; padding:3px 9px;">🏕️ Summer Camp (4x 50m Mon–Thu + Fri Makeup)</button>
               <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="troop_evening" style="font-size:0.72rem; padding:3px 9px;">⚜️ Evening Troop Meeting (3x 60m Weekly)</button>
               <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="saturday_midway" style="font-size:0.72rem; padding:3px 9px;">🎯 Saturday Midway (1x 180m)</button>
             </div>
@@ -3561,9 +3570,21 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                 <input type="checkbox" id="ws-chk-include-sliden" checked style="width:14px; height:14px;" />
                 Final Slide: Homework &amp; Blue Card Check-Out
               </label>
+              <button
+                type="button"
+                class="m3-btn m3-btn-outlined"
+                id="btn-ws-toggle-schedule-builder"
+                aria-expanded="true"
+                aria-controls="ws-schedule-builder-collapsible-body"
+                title="Collapse or expand the 2-Row Session &amp; Schedule Builder form while keeping the live schedule summary bar visible"
+                style="padding:3px 9px; font-size:0.71rem; font-weight:800;"
+              >
+                ▴ Collapse Builder
+              </button>
             </div>
           </div>
 
+          <div id="ws-schedule-builder-collapsible-body">
           <!-- ROW 1: DECK TITLE + AUTO-TITLE | SECTION NAME | SECTION # | STARTING DATE + WEEKDAY BADGE | FREQUENCY | # SESSIONS + MAKEUP -->
           <div class="m3-ws-builder-row1" style="display:grid; grid-template-columns:1.5fr 1.05fr 0.55fr 1.05fr 0.72fr 0.95fr; gap:8px; align-items:end; margin-bottom:10px;">
             <div>
@@ -3680,7 +3701,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                 <button type="button" class="m3-export-menu-item" data-ws-duration-val="45">45 min</button>
                 <button type="button" class="m3-export-menu-item" data-ws-duration-val="50">50 min (Summer Camp Block)</button>
                 <button type="button" class="m3-export-menu-item" data-ws-duration-val="60">60 min (Standard Hour)</button>
-                <button type="button" class="m3-export-menu-item" data-ws-duration-val="75">75 min (Danvers MBC Block)</button>
+                <button type="button" class="m3-export-menu-item" id="btn-ws-duration-75" data-ws-duration-val="75" data-generic-label="75 min (MBC Block)" data-dmbc-label="75 min (Danvers MBC Block)">75 min (MBC Block)</button>
                 <button type="button" class="m3-export-menu-item" data-ws-duration-val="80">80 min</button>
                 <button type="button" class="m3-export-menu-item" data-ws-duration-val="90">90 min</button>
                 <button type="button" class="m3-export-menu-item" data-ws-duration-val="120">120 min (2-Hour Clinic)</button>
@@ -3693,27 +3714,39 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
               <label class="m3-field-label" for="ws-room-location-input" style="font-size:0.71rem;">Classroom / Location</label>
               <div style="display:flex; gap:4px; align-items:center;">
                 <div class="m3-ws-combobox-input-group" style="flex:1;">
-                  <input type="text" id="ws-room-location-input" class="m3-input m3-ws-combo-input" value="Holten-Richmond MS - Room HR 107 (Danvers MBC)" placeholder="e.g., Holten-Richmond MS - Room HR 107" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
+                  <input type="text" id="ws-room-location-input" class="m3-input m3-ws-combo-input" value="Main School Building - Room 107 (MBC)" data-generic-val="Main School Building - Room 107 (MBC)" data-dmbc-val="Holten-Richmond MS - Room HR 107 (Danvers MBC)" placeholder="e.g., Main School Building - Room 107 (MBC)" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
                   <button type="button" class="m3-ws-combo-caret-btn" id="btn-ws-room-presets" title="Choose a Classroom / Camp Location or saved custom venue" aria-label="Toggle Classroom Location Presets">▾</button>
                 </div>
                 <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-add-custom-location" title="Save current Classroom / Location to your custom top-of-list presets" style="padding:5px 8px; font-size:0.76rem; font-weight:900;">+</button>
               </div>
               <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-room-presets-menu" role="listbox" style="max-height:270px; overflow-y:auto;">
                 <div id="ws-custom-locations-group"></div>
-                <div class="m3-ws-combo-menu-kicker">🏫 Danvers Merit Badge College (Holten-Richmond MS)</div>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 104 (Danvers MBC)">Holten-Richmond MS - Room HR 104 (Danvers MBC)</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 107 (Danvers MBC)">Holten-Richmond MS - Room HR 107 (Danvers MBC)</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 112 Science Lab (Danvers MBC)">Holten-Richmond MS - Room HR 112 Science Lab (Danvers MBC)</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Main Cafeteria &amp; Commons (Danvers MBC)">Holten-Richmond MS - Main Cafeteria &amp; Commons (Danvers MBC)</button>
-                <div class="m3-ws-combo-menu-kicker">🏕️ Camp Hidden Valley (Griswold Scout Reservation)</div>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Lake Eileen Main Waterfront">Camp Hidden Valley - Lake Eileen Main Waterfront</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Chase Waterfront Boating Cove">Camp Hidden Valley - Chase Waterfront Boating Cove</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Emergency Skills Area">Camp Hidden Valley - Emergency Skills Area</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Scoutcraft Pavilion">Camp Hidden Valley - Scoutcraft Pavilion</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Nature &amp; Ecology Lodge">Camp Hidden Valley - Nature &amp; Ecology Lodge</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - STEM &amp; Skilled Trades Shop">Camp Hidden Valley - STEM &amp; Skilled Trades Shop</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Frontier! First-Year Stockade">Camp Hidden Valley - Frontier! First-Year Stockade</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Gilbert Hall Dining Room">Camp Hidden Valley - Gilbert Hall Dining Room</button>
+                <div class="m3-ws-combo-menu-kicker" data-generic-only="1">🏫 Merit Badge College &amp; School Classrooms</div>
+                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Room 104 (MBC)">Main School Building - Room 104 (MBC)</button>
+                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Room 107 (MBC)">Main School Building - Room 107 (MBC)</button>
+                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Room 112 Science Lab (MBC)">Main School Building - Room 112 Science Lab (MBC)</button>
+                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Main Cafeteria &amp; Commons (MBC)">Main School Building - Main Cafeteria &amp; Commons (MBC)</button>
+                <div class="m3-ws-combo-menu-kicker" data-generic-only="1">🏕️ Summer Scout Camp Teaching Areas</div>
+                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Main Waterfront &amp; Aquatics Dock">Summer Camp - Main Waterfront &amp; Aquatics Dock</button>
+                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Boating &amp; Canoeing Cove">Summer Camp - Boating &amp; Canoeing Cove</button>
+                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Emergency Skills &amp; First Aid Lodge">Summer Camp - Emergency Skills &amp; First Aid Lodge</button>
+                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Scoutcraft Pavilion">Summer Camp - Scoutcraft Pavilion</button>
+                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Nature &amp; Ecology Lodge">Summer Camp - Nature &amp; Ecology Lodge</button>
+                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - STEM &amp; Skilled Trades Shop">Summer Camp - STEM &amp; Skilled Trades Shop</button>
+                <div class="m3-ws-combo-menu-kicker hidden" data-dmbc-hvsc-only="1">🏫 Danvers Merit Badge College (Holten-Richmond MS)</div>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 104 (Danvers MBC)">Holten-Richmond MS - Room HR 104 (Danvers MBC)</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 107 (Danvers MBC)">Holten-Richmond MS - Room HR 107 (Danvers MBC)</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 112 Science Lab (Danvers MBC)">Holten-Richmond MS - Room HR 112 Science Lab (Danvers MBC)</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Main Cafeteria &amp; Commons (Danvers MBC)">Holten-Richmond MS - Main Cafeteria &amp; Commons (Danvers MBC)</button>
+                <div class="m3-ws-combo-menu-kicker hidden" data-dmbc-hvsc-only="1">🏕️ Camp Hidden Valley (Griswold Scout Reservation)</div>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Lake Eileen Main Waterfront">Camp Hidden Valley - Lake Eileen Main Waterfront</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Chase Waterfront Boating Cove">Camp Hidden Valley - Chase Waterfront Boating Cove</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Emergency Skills Area">Camp Hidden Valley - Emergency Skills Area</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Scoutcraft Pavilion">Camp Hidden Valley - Scoutcraft Pavilion</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Nature &amp; Ecology Lodge">Camp Hidden Valley - Nature &amp; Ecology Lodge</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - STEM &amp; Skilled Trades Shop">Camp Hidden Valley - STEM &amp; Skilled Trades Shop</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Frontier! First-Year Stockade">Camp Hidden Valley - Frontier! First-Year Stockade</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Gilbert Hall Dining Room">Camp Hidden Valley - Gilbert Hall Dining Room</button>
                 <div class="m3-ws-combo-menu-kicker">⚜️ Troop &amp; Community Venues</div>
                 <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Scout Hut / Parish Fellowship Hall">Scout Hut / Parish Fellowship Hall</button>
                 <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Outdoor Pavilion / Picnic Shelter">Outdoor Pavilion / Picnic Shelter</button>
@@ -3724,7 +3757,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
               <label class="m3-field-label" for="ws-bundle-tag-input" style="font-size:0.71rem;">Camp Week / Midway Tag</label>
               <div style="display:flex; gap:4px; align-items:center;">
                 <div class="m3-ws-combobox-input-group" style="flex:1;">
-                  <input type="text" id="ws-bundle-tag-input" class="m3-input m3-ws-combo-input" value="Danvers Merit Badge College" placeholder="Optional (click ▾ for examples)" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
+                  <input type="text" id="ws-bundle-tag-input" class="m3-input m3-ws-combo-input" value="District Merit Badge College" data-generic-val="District Merit Badge College" data-dmbc-val="Danvers Merit Badge College" placeholder="Optional (click ▾ for examples)" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
                   <button type="button" class="m3-ws-combo-caret-btn" id="btn-ws-bundle-presets" title="Choose a Camp Week / Midway Tag or saved custom tag" aria-label="Toggle Camp Week / Midway Tag examples">▾</button>
                 </div>
                 <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-add-custom-tag" title="Save current Camp Week / Midway Tag to your custom top-of-list presets" style="padding:5px 8px; font-size:0.76rem; font-weight:900;">+</button>
@@ -3733,11 +3766,11 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                 <div id="ws-custom-tags-group"></div>
                 <div class="m3-ws-combo-menu-kicker">Camp Week / Midway Tag Examples</div>
                 <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="">(Leave Blank)</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Danvers Merit Badge College">Danvers Merit Badge College</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 1">Camp Hidden Valley - Week 1</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 2">Camp Hidden Valley - Week 2</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 3">Camp Hidden Valley - Week 3</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 4">Camp Hidden Valley - Week 4</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Danvers Merit Badge College">Danvers Merit Badge College</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 1">Camp Hidden Valley - Week 1</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 2">Camp Hidden Valley - Week 2</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 3">Camp Hidden Valley - Week 3</button>
+                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 4">Camp Hidden Valley - Week 4</button>
                 <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 1">Summer Camp Week 1</button>
                 <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 2">Summer Camp Week 2</button>
                 <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 3">Summer Camp Week 3</button>
@@ -3758,11 +3791,12 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
               </button>
             </div>
           </div>
+          </div>
 
           <!-- LIVE COMPUTED SCHEDULE PREVIEW STRIP + SLIDE INJECTION CONTROLS -->
           <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; padding-top:8px; border-top:1px dashed var(--md-sys-color-outline-variant);">
             <div id="ws-live-schedule-strip" style="font-size:0.76rem; font-weight:700; color:var(--md-sys-color-primary);">
-              🗓️ 4x 60-Min Weekly Sessions: Sat Jan 10, Jan 17, Jan 24, Jan 31 + Make-Up Sat Feb 7 &bull; 8:30 AM – 9:30 AM &bull; Holten-Richmond MS - Room HR 107 (Danvers MBC)
+              🗓️ 4x 60-Min Weekly Sessions: Sat Jan 10, Jan 17, Jan 24, Jan 31 + Make-Up Sat Feb 7 &bull; 8:30 AM – 9:30 AM &bull; Main School Building - Room 107 (MBC)
             </div>
             <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
               <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-apply-logistics-slides" style="padding:5px 11px; font-size:0.74rem; font-weight:800; white-space:nowrap;">

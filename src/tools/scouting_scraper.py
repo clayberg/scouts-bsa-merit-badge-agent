@@ -5962,17 +5962,90 @@ def generate_fillable_scout_workbook_html(
         for u in unrolled_units
         if not u.get("is_group_header") and str(u.get("req_number") or u.get("req_id") or "").strip()
     ]
-    index_chips_html = "".join(
-        f'<label class="wb-index-chip" style="display:inline-flex; align-items:center; gap:4px; padding:2px 7px; border:1px solid #cbd5e1; border-radius:4px; background:#ffffff; font-size:11px; font-weight:600; color:#1e293b;">'
-        f'<input type="checkbox" name="idx_done_{_html.escape(rn)}" /> Req {_html.escape(rn)}</label>'
-        for rn in fillable_unit_nums
-    )
+    # Group sub-requirements by parent requirement (Req 1, Req 2, ...) for scannable hierarchy
+    parent_groups_order: List[str] = []
+    parent_groups_map: Dict[str, Dict[str, Any]] = {}
+    raw_parent_titles: Dict[str, str] = {}
+    for r_item in reqs:
+        p_id = str(r_item.get("req_number") or r_item.get("req_id") or "").strip()
+        m_p = re.match(r"^(\d+)", p_id)
+        p_key = m_p.group(1) if m_p else p_id
+        if p_key and p_key not in raw_parent_titles:
+            t_raw = str(r_item.get("topic_title") or r_item.get("title") or r_item.get("req_text") or "").strip()
+            t_clean = re.sub(r"^(?:Requirement\s+\S+\s*[:\-–—]\s*)", "", t_raw, flags=re.IGNORECASE).strip()
+            if len(t_clean) > 48:
+                t_clean = t_clean[:45].rsplit(" ", 1)[0] + "..."
+            raw_parent_titles[p_key] = t_clean or f"Requirement {p_key}"
+
+    for u in unrolled_units:
+        if u.get("is_group_header"):
+            continue
+        rn = str(u.get("req_number") or u.get("req_id") or "").strip()
+        if not rn:
+            continue
+        p_num = str(u.get("parent_req_number") or "").strip()
+        if not p_num:
+            m_rn = re.match(r"^(\d+)", rn)
+            p_num = m_rn.group(1) if m_rn else rn
+        if p_num not in parent_groups_map:
+            parent_groups_order.append(p_num)
+            p_title = raw_parent_titles.get(p_num) or str(u.get("topic_title") or u.get("title") or f"Requirement {p_num}").strip()
+            if len(p_title) > 48:
+                p_title = p_title[:45].rsplit(" ", 1)[0] + "..."
+            parent_groups_map[p_num] = {
+                "parent_num": p_num,
+                "parent_title": p_title,
+                "bucket": str(u.get("syllabus_bucket") or "In-Class Concept").strip(),
+                "units": [],
+            }
+        parent_groups_map[p_num]["units"].append(rn)
+
+    group_cards_html: List[str] = []
+    for p_num in parent_groups_order:
+        grp = parent_groups_map[p_num]
+        u_list = grp["units"]
+        p_title_esc = _html.escape(grp["parent_title"])
+        p_bucket_esc = _html.escape(grp["bucket"])
+        sub_chips = "".join(
+            f'<label class="wb-index-chip" style="display:inline-flex; align-items:center; gap:4px; padding:2px 7px; border:1px solid #cbd5e1; border-radius:4px; background:#ffffff; font-size:11px; font-weight:600; color:#1e293b; cursor:pointer;">'
+            f'<input type="checkbox" name="idx_done_{_html.escape(rn)}" data-parent-req="{_html.escape(p_num)}" '
+            f'onchange="var g=this.closest(\'.wb-index-parent-group\'); if(g){{var c=g.querySelectorAll(\'input[type=checkbox]:checked\').length; var t=g.querySelectorAll(\'input[type=checkbox]\').length; var b=g.querySelector(\'.wb-index-group-count\'); if(b)b.textContent=c+\'/\'+t;}}" /> '
+            f'Req {_html.escape(rn)}</label>'
+            for rn in u_list
+        )
+        group_cards_html.append(
+            f'<div class="wb-index-parent-group" data-parent-req="{_html.escape(p_num)}" '
+            f'style="display:flex; flex-direction:column; gap:5px; padding:6px 8px; border:1px solid #dbeafe; border-left:3.5px solid #003f87; border-radius:5px; background:#ffffff;">'
+            f'<div style="display:flex; align-items:center; justify-content:space-between; gap:6px; flex-wrap:wrap;">'
+            f'<div style="display:flex; align-items:center; gap:6px; min-width:0;">'
+            f'<span style="background:#003f87; color:#ffffff; font-size:10.5px; font-weight:800; padding:1px 6px; border-radius:3px; white-space:nowrap;">Req {_html.escape(p_num)}</span>'
+            f'<span style="font-size:11px; font-weight:700; color:#0f172a; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" title="{p_title_esc}">{p_title_esc}</span>'
+            f'</div>'
+            f'<div style="display:flex; align-items:center; gap:4px;">'
+            f'<span style="font-size:9.5px; font-weight:600; color:#475569; background:#f1f5f9; padding:1px 5px; border-radius:3px;">{p_bucket_esc}</span>'
+            f'<span class="wb-index-group-count" style="font-size:10px; font-weight:800; color:#003f87; background:#eff6ff; border:1px solid #bfdbfe; padding:0px 5px; border-radius:999px;">0/{len(u_list)}</span>'
+            f'</div>'
+            f'</div>'
+            f'<div class="wb-index-subchips-row" style="display:flex; flex-wrap:wrap; gap:5px;">{sub_chips}</div>'
+            f'</div>'
+        )
+
+    total_parent_count = len(parent_groups_order)
+    total_sub_count = len(fillable_unit_nums)
     signoff_index_html = (
         '<div class="wb-signoff-index-grid" data-testid="wb-page1-signoff-grid" '
         'style="border:1.5px solid #003f87; border-radius:6px; background:#f8fafc; padding:10px 12px; margin-bottom:16px; font-size:11.5px;">'
-        '<div style="font-weight:800; color:#003f87; margin-bottom:6px;">'
-        '📋 Page-1 Requirement Completion &amp; Counselor Verification Index (Check Off as Completed):</div>'
-        f'<div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px;">{index_chips_html}</div>'
+        '<div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:8px;">'
+        '<div style="font-weight:800; color:#003f87;">'
+        '📋 Page-1 Requirement Completion &amp; Counselor Verification Index '
+        f'<span style="font-weight:600; font-size:10.5px; color:#475569; margin-left:4px;">({total_parent_count} Core Requirements • {total_sub_count} Checkpoints)</span>'
+        '</div>'
+        '<button type="button" class="wb-index-collapse-btn" data-testid="btn-wb-index-toggle-compact" '
+        'onclick="var grid=this.closest(\'.wb-signoff-index-grid\'); if(!grid)return; var compact=grid.getAttribute(\'data-compact\')===\'1\'; grid.setAttribute(\'data-compact\', compact?\'0\':\'1\'); grid.querySelectorAll(\'.wb-index-subchips-row\').forEach(function(r){{r.style.display=compact?\'flex\':\'none\';}}); this.textContent=compact?\'▴ Compact Summary View\':\'▾ Expand All Sub-Requirements\';" '
+        'style="font-size:10.5px; font-weight:700; color:#003f87; background:#eff6ff; border:1px solid #93c5fd; border-radius:4px; padding:2px 8px; cursor:pointer;">'
+        '▴ Compact Summary View</button>'
+        '</div>'
+        f'<div class="wb-index-grouped-matrix" data-testid="wb-page1-grouped-matrix" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(295px, 1fr)); gap:7px; margin-bottom:8px;">{"".join(group_cards_html)}</div>'
         '<div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; border-top:1px dashed #cbd5e1; padding-top:6px; color:#334155;">'
         '<span><strong>Unit Leader Pre-Approval (Blue Card #34124):</strong> _____________________ Date: ________</span>'
         '<span><strong>Counselor Final Sign-Off:</strong> _____________________ Date: ____/____/2026</span>'
@@ -6059,6 +6132,7 @@ def generate_fillable_scout_workbook_html(
         "gta_compliance_clause": "GTA §7.0.3.2",
         "workbook_html": html_doc,
         "html_content": html_doc,
+        "html_document": html_doc,
         "workbook_markdown": res.get("counselor_workbook_markdown", ""),
     }
 

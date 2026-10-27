@@ -802,6 +802,78 @@ BUILTIN_TEMPLATES: List[TemplateProfile] = [
     ),
 ]
 
+# Optional Camp & Merit Badge College Customizations (Visible when 'Add DMBC & HVSC Customizations' is enabled in Admin Console)
+DMBC_HVSC_TEMPLATES: List[TemplateProfile] = [
+    TemplateProfile(
+        template_id="camp_hidden_valley",
+        name="Camp Hidden Valley (Griswold Scout Reservation)",
+        category="Camp & Merit Badge College",
+        family_id="camp_hidden_valley_edition",
+        family_name="7. Camp Hidden Valley (Griswold Scout Reservation)",
+        variant_label="Camp Hidden Valley",
+        variant_swatch_hex="#1B4332",
+        description="Camp Hidden Valley (Griswold Scout Reservation, Gilmanton Iron Works, NH) summer camp template with White Mountains pine ridge, Lake Eileen waterfront blue accent, and campfire gold trim.",
+        is_builtin=True,
+        pptx_path="assets/templates/scouting_america_forest_sunrise.pptx",
+        content_layout_index=6,
+        cover_layout_index=0,
+        use_native_master_layouts=False,
+        primary_hex="#1B4332",
+        accent_hex="#0284C7",
+        card_bg_hex="#F0FDF4",
+        bottom_bar_hex="#1B4332",
+        bottom_accent_hex="#F59E0B",
+        corner_logo_url="/assets/templates/overlays/scouting_america_horiz_color.png",
+        corner_logo_dark_url="/assets/templates/overlays/scouting_america_horiz_white.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.18,
+            header_height_in=0.80,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.86,
+            safety_bar_height_in=0.68,
+            footer_top_in=6.98,
+            footer_max_width_in=9.50,
+            suppress_native_footer=True,
+        ),
+    ),
+    TemplateProfile(
+        template_id="danvers_mbc",
+        name="Danvers Merit Badge College (Holten-Richmond MS)",
+        category="Camp & Merit Badge College",
+        family_id="danvers_mbc_edition",
+        family_name="8. Danvers Merit Badge College (Holten-Richmond MS)",
+        variant_label="Danvers MBC",
+        variant_swatch_hex="#991B1B",
+        description="Danvers Merit Badge College academic classroom template featuring Collegiate Crimson (#991B1B), Academic Navy (#0F172A), and Gold (#D97706) trim.",
+        is_builtin=True,
+        pptx_path="assets/templates/classic_fleur_crimson_crest.pptx",
+        content_layout_index=6,
+        cover_layout_index=6,
+        use_native_master_layouts=False,
+        primary_hex="#991B1B",
+        accent_hex="#D97706",
+        card_bg_hex="#FEF2F2",
+        bottom_bar_hex="#991B1B",
+        bottom_accent_hex="#0F172A",
+        corner_logo_url="/assets/templates/overlays/scouting_fleur_color.png",
+        corner_logo_dark_url="/assets/templates/overlays/scouting_fleur_color.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.18,
+            header_height_in=0.80,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.86,
+            safety_bar_height_in=0.68,
+            footer_top_in=6.98,
+            footer_max_width_in=11.20,
+            suppress_native_footer=True,
+        ),
+    ),
+]
+
 
 def _ensure_dirs() -> None:
     for d in (TEMPLATES_DIR, OVERLAYS_DIR, PREVIEWS_DIR, CUSTOM_TEMPLATES_DIR):
@@ -814,7 +886,7 @@ _CATALOG_MTIME = 0.0
 def load_template_catalog() -> List[TemplateProfile]:
     global _CATALOG_CACHE, _CATALOG_MTIME
     _ensure_dirs()
-    by_id: Dict[str, TemplateProfile] = {t.template_id: t for t in BUILTIN_TEMPLATES}
+    by_id: Dict[str, TemplateProfile] = {t.template_id: t for t in [*BUILTIN_TEMPLATES, *DMBC_HVSC_TEMPLATES]}
     cat_mtime = CATALOG_JSON_PATH.stat().st_mtime_ns if CATALOG_JSON_PATH.exists() else 0
     reg_mtime = CUSTOM_REGISTRY_JSON_PATH.stat().st_mtime_ns if CUSTOM_REGISTRY_JSON_PATH.exists() else 0
     combined_mtime = cat_mtime + reg_mtime
@@ -1004,22 +1076,39 @@ def resolve_effective_slide_style(
 
 
 def delete_custom_template(template_id: str) -> bool:
-    """Deletes a custom (non-builtin) template from the catalog."""
+    """Deletes a custom (non-builtin) template or 3-variant custom Nano Banana family from the catalog."""
     norm = str(template_id or "").strip()
     if not norm:
         return False
     profiles = load_template_catalog()
-    target = next((p for p in profiles if p.template_id == norm), None)
+    target = next((p for p in profiles if p.template_id == norm or p.family_id == norm), None)
     if not target or target.is_builtin:
         return False
-    remaining = [p for p in profiles if p.template_id != norm]
+    fam_id = str(target.family_id or "").strip()
+    if fam_id and fam_id.startswith("nanobanana_tpl_"):
+        ids_to_delete = {
+            p.template_id
+            for p in profiles
+            if not p.is_builtin and (p.family_id == fam_id or p.template_id == norm)
+        }
+        prefixes_to_clean = list(ids_to_delete | {fam_id})
+    else:
+        ids_to_delete = {target.template_id}
+        prefixes_to_clean = [target.template_id]
+
+    remaining = [p for p in profiles if p.template_id not in ids_to_delete]
     save_template_catalog(remaining)
-    for f in list(OVERLAYS_DIR.glob(f"{norm}*")) + list(TEMPLATES_DIR.glob(f"{norm}*")):
-        try:
-            if f.is_file():
-                f.unlink()
-        except Exception:
-            pass
+    for pfx in prefixes_to_clean:
+        for f in (
+            list(OVERLAYS_DIR.glob(f"{pfx}*"))
+            + list(TEMPLATES_DIR.glob(f"{pfx}*"))
+            + list(CUSTOM_TEMPLATES_DIR.glob(f"{pfx}*"))
+        ):
+            try:
+                if f.is_file():
+                    f.unlink()
+            except Exception:
+                pass
     return True
 
 
@@ -2131,6 +2220,30 @@ def generate_nano_banana_template_family(
     logo_pos = str(logo_position or "bottom_left").strip().lower()
     if logo_pos not in ("bottom_left", "bottom_right", "top_right", "cover_only"):
         logo_pos = "bottom_left"
+
+    if not preview_only:
+        existing_profiles = load_template_catalog()
+        existing_family_names = {
+            str(p.family_name or "").strip().lower()
+            for p in existing_profiles
+            if not p.is_builtin and str(p.family_name or "").strip()
+        }
+        existing_family_ids = {
+            str(p.family_id or "").strip()
+            for p in existing_profiles
+            if not p.is_builtin and str(p.family_id or "").strip()
+        }
+        base_clean_name = re.sub(r"\s+#\d+$", "", clean_name).strip() or clean_name
+        candidate_name = clean_name
+        suffix_num = 2
+        while (
+            candidate_name.lower() in existing_family_names
+            or f"nanobanana_tpl_{hashlib.sha256(f'{candidate_name}:{style_key}:{geom_key}:{c1}:{c2}:{c3}:{clean_prompt}:{logo_pos}'.encode('utf-8')).hexdigest()[:8]}"
+            in existing_family_ids
+        ):
+            candidate_name = f"{base_clean_name} #{suffix_num}"
+            suffix_num += 1
+        clean_name = candidate_name
 
     short_hash = hashlib.sha256(
         f"{clean_name}:{style_key}:{geom_key}:{c1}:{c2}:{c3}:{clean_prompt}:{logo_pos}".encode("utf-8")

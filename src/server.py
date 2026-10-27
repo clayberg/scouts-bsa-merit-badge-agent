@@ -3181,6 +3181,7 @@ class StudioKitFillableWorkbookRequest(BaseModel):
     selected_option_track: Optional[str] = None
     counselor_info: Optional[Dict[str, Any]] = None
     include_qr: bool = True
+    session_dates: Optional[List[str]] = None
 
 
 class StudioKitClassPrepCppRequest(BaseModel):
@@ -3289,15 +3290,22 @@ async def api_get_fillable_workbook_html(
     option_track: str = "ALL",
     counselor_name: str = "Merit Badge Counselor",
     troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    session_dates: Optional[str] = None,
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> HTMLResponse:
-    """Renders the interactive Verb-Aligned Fillable Scout Workbook HTML in browser for printing or direct PDF download."""
+    """Renders the interactive Fillable Scout Workbook HTML in browser for printing or direct PDF download."""
     from src.tools.scouting_scraper import generate_fillable_scout_workbook_html
 
+    parsed_dates = (
+        [s.strip() for s in str(session_dates).split("|") if s.strip()]
+        if session_dates and str(session_dates).strip()
+        else None
+    )
     res = generate_fillable_scout_workbook_html(
         badge_name=badge_name,
         counselor_info={"counselor_name": counselor_name, "troop_affiliation": troop_name},
         option_track=option_track or "ALL",
+        session_dates=parsed_dates,
     )
     return HTMLResponse(content=str(res.get("workbook_html") or res.get("html_document") or ""))
 
@@ -3309,16 +3317,23 @@ async def api_get_fillable_workbook_pdf(
     option_track: str = "ALL",
     counselor_name: str = "Merit Badge Counselor",
     troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    session_dates: Optional[str] = None,
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Response:
     """Downloads the interactive AcroForm PDF Fillable Scout Workbook (GTA Section 7.0.3.2 compliant)."""
     from src.config import badge_file_slug
     from src.tools.counselor_studiokit import generate_fillable_scout_workbook_pdf
 
+    parsed_dates = (
+        [s.strip() for s in str(session_dates).split("|") if s.strip()]
+        if session_dates and str(session_dates).strip()
+        else None
+    )
     pdf_bytes = generate_fillable_scout_workbook_pdf(
         badge_name=badge_name,
         counselor_info={"counselor_name": counselor_name, "troop_affiliation": troop_name},
         option_track=option_track or "ALL",
+        session_dates=parsed_dates,
     )
     slug = badge_file_slug(badge_name)
     return Response(
@@ -3334,16 +3349,19 @@ async def api_generate_fillable_workbook(
     req: StudioKitFillableWorkbookRequest,
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Generates the verb-aligned fillable Scout Workbook HTML & Markdown with GTA Section 7.0.3.2 banner."""
+    """Generates the fillable Scout Workbook HTML & Markdown with GTA Section 7.0.3.2 banner."""
+    from urllib.parse import quote
     from src.tools.scouting_scraper import generate_fillable_scout_workbook_html
 
     res = generate_fillable_scout_workbook_html(
         badge_name=req.badge_name,
         counselor_info=req.counselor_info,
         option_track=req.selected_option_track or "ALL",
+        session_dates=req.session_dates,
     )
+    dates_qs = f"&session_dates={quote('|'.join(req.session_dates))}" if req.session_dates else ""
     res["pdf_download_url"] = (
-        f"/api/v1/studiokit/fillable-workbook.pdf?badge_name={req.badge_name}&option_track={req.selected_option_track or 'ALL'}"
+        f"/api/v1/studiokit/fillable-workbook.pdf?badge_name={quote(req.badge_name)}&option_track={quote(req.selected_option_track or 'ALL')}{dates_qs}"
     )
     return res
 
@@ -4924,9 +4942,12 @@ async def api_reset_deck_style_preferences(
 
 
 class CustomSessionListUpdateRequest(BaseModel):
-    list_type: str = Field(..., description="'locations' or 'bundle_tags'")
+    list_type: Optional[str] = Field(default=None, description="'locations' or 'bundle_tags'")
+    updated_type: Optional[str] = Field(default=None, description="Alias for list_type")
     action: str = Field("add", description="'add' or 'remove'")
     value: str = Field("", description="Location or bundle tag value to add or remove.")
+    custom_locations: Optional[List[str]] = Field(default=None, description="Full custom_locations list override.")
+    custom_bundle_tags: Optional[List[str]] = Field(default=None, description="Full custom_bundle_tags list override.")
 
 
 _CUSTOM_LISTS_LOCK = threading.Lock()
@@ -5000,12 +5021,33 @@ async def api_update_custom_session_lists(
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
     """Adds (floating to index 0, deduplicated) or removes a custom room location or bundle tag."""
-    data = await asyncio.to_thread(
-        _update_custom_session_lists_sync,
-        req.list_type,
-        req.action,
-        req.value,
-    )
+    if req.custom_locations is not None or req.custom_bundle_tags is not None:
+        def _save_bulk_sync() -> Dict[str, List[str]]:
+            with _CUSTOM_LISTS_LOCK:
+                data = _load_custom_session_lists_sync()
+                if req.custom_locations is not None:
+                    data["custom_locations"] = [
+                        str(x).replace("Middelton", "Middleton").strip()
+                        for x in req.custom_locations
+                        if str(x).strip()
+                    ]
+                if req.custom_bundle_tags is not None:
+                    data["custom_bundle_tags"] = [
+                        str(x).replace("Middelton", "Middleton").strip()
+                        for x in req.custom_bundle_tags
+                        if str(x).strip()
+                    ]
+                path = _get_custom_session_lists_path()
+                path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+                return data
+        data = await asyncio.to_thread(_save_bulk_sync)
+    else:
+        data = await asyncio.to_thread(
+            _update_custom_session_lists_sync,
+            req.list_type or req.updated_type or "locations",
+            req.action,
+            req.value,
+        )
     return {
         "status": "SUCCESS",
         "custom_locations": data["custom_locations"],
@@ -5235,15 +5277,21 @@ async def api_delete_custom_template(
 
 class NanoBananaTemplateGenerateRequest(BaseModel):
     family_name: str = Field("Troop 19 High Adventure", description="Human-readable name for the 3-variant template family.")
+    template_name: Optional[str] = Field(default=None, description="Alias for family_name.")
     visual_style: str = Field("pinewood_campfire", description="Template visual style ID.")
+    style_family: Optional[str] = Field(default=None, description="Alias for visual_style.")
     frame_geometry: str = Field("horizon_silhouette", description="Template frame geometry ID.")
+    frame_preset: Optional[str] = Field(default=None, description="Alias for frame_geometry.")
     colors: Optional[List[str]] = Field(default=None, description="1 to 3 brand hex colors.")
     custom_prompt: str = Field("", description="Optional custom theme prompt.")
+    prompt: Optional[str] = Field(default=None, description="Alias for custom_prompt.")
     logo_data_url: str = Field("", description="Optional base64 data URL of uploaded logo.")
     logo_position: str = Field("bottom_left", description="Logo placement: bottom_left, bottom_right, top_right, cover_only.")
     remove_logo_white_bg: bool = Field(True, description="Automatically make near-white logo background pixels transparent.")
+    remove_logo_bg: Optional[bool] = Field(default=None, description="Alias for remove_logo_white_bg.")
     preview_only: bool = Field(False, description="When True, previews the 3 variants at $0.00 without saving to catalog.")
     user_consented: bool = Field(False, description="Explicit FinOps ($0.08 USD) user consent.")
+    confirm_finops_cost: Optional[bool] = Field(default=None, description="Alias for user_consented.")
 
 
 @app.post("/api/templates/generate-ai")
@@ -5258,18 +5306,25 @@ async def api_generate_nano_banana_template_family(
         load_template_catalog,
     )
 
+    resolved_family_name = (req.template_name or req.family_name or "Troop 19 High Adventure").strip()
+    resolved_visual_style = (req.style_family or req.visual_style or "pinewood_campfire").strip()
+    resolved_frame_geom = (req.frame_preset or req.frame_geometry or "horizon_silhouette").strip()
+    resolved_prompt = req.prompt if req.prompt is not None else req.custom_prompt
+    resolved_remove_bg = req.remove_logo_bg if req.remove_logo_bg is not None else req.remove_logo_white_bg
+    resolved_consented = bool(req.user_consented or req.confirm_finops_cost)
+
     res = await asyncio.to_thread(
         generate_nano_banana_template_family,
-        family_name=req.family_name,
-        visual_style=req.visual_style,
-        frame_geometry=req.frame_geometry,
+        family_name=resolved_family_name,
+        visual_style=resolved_visual_style,
+        frame_geometry=resolved_frame_geom,
         colors=req.colors,
-        custom_prompt=req.custom_prompt,
+        custom_prompt=resolved_prompt,
         logo_data_url=req.logo_data_url,
         logo_position=req.logo_position,
-        remove_logo_white_bg=req.remove_logo_white_bg,
+        remove_logo_white_bg=resolved_remove_bg,
         preview_only=req.preview_only,
-        user_consented=req.user_consented,
+        user_consented=resolved_consented,
     )
     if res.get("status") == "SUCCESS" and not req.preview_only:
         all_profiles = await asyncio.to_thread(load_template_catalog)

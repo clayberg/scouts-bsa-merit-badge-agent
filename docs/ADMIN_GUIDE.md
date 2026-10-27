@@ -69,6 +69,12 @@ The backend authentication gate (`verify_admin_superuser()` in `src/security.py`
 
 To end an administrative session at any time, click **`🔒 Lock Admin Session`** in the top-right corner of the Admin Console (`POST /api/v1/admin/lock`).
 
+### `Add DMBC & HVSC Customizations` Toggle (`#chk-admin-dmbc-hvsc-customizations`, Default Unchecked)
+
+In the top-right header of the Admin Console (`#admin-console-header-card`), the **`[ ] Add DMBC & HVSC Customizations`** checkbox lets maintainers switch between a completely generic Scouting America workbench and a customized Danvers Merit Badge College (`DMBC`) and Camp Hidden Valley (`HVSC`) experience:
+- **Unchecked (`false`, Default)**: Hides or genericizes all Danvers MBC and Hidden Valley templates, venue macros, duration labels, room/location presets, camp tags, sample prompts, and workspace card badges so the words `"Danvers"`, `"Hidden Valley"`, `"Holten-Richmond"`, and `"Griswold"` never appear anywhere in the UI (retaining generic Scouting labels such as `🏫 Merit Badge College`, `🏕️ Summer Camp`, and `Main School Building - Room 107 (MBC)`).
+- **Checked (`true`)**: Enables the built-in **Camp Hidden Valley (Griswold Scout Reservation)** and **Danvers Merit Badge College** templates in the Template Studio, restores the `🏫 Danvers MBC` and `🏕️ Camp Hidden Valley` 1-click venue macros, and reveals the `Holten-Richmond MS` and `Camp Hidden Valley` classroom and waterfront location presets.
+
 ---
 
 ## 3. Tab 1: Cached Image & Caption Studio (149-Badge Catalog Manager)
