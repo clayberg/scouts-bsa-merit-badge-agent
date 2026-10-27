@@ -806,69 +806,229 @@ BUILTIN_TEMPLATES: List[TemplateProfile] = [
 DMBC_HVSC_TEMPLATES: List[TemplateProfile] = [
     TemplateProfile(
         template_id="camp_hidden_valley",
-        name="Camp Hidden Valley (Griswold Scout Reservation)",
+        name="Camp Hidden Valley (Green)",
         category="Camp & Merit Badge College",
         family_id="camp_hidden_valley_edition",
         family_name="7. Camp Hidden Valley (Griswold Scout Reservation)",
-        variant_label="Camp Hidden Valley",
+        variant_color="green",
+        variant_label="Green",
         variant_swatch_hex="#1B4332",
-        description="Camp Hidden Valley (Griswold Scout Reservation, Gilmanton Iron Works, NH) summer camp template with White Mountains pine ridge, Lake Eileen waterfront blue accent, and campfire gold trim.",
+        description="Version 1 (Green - Split Council Dock): Full-bleed washed Lake Eileen sunset dock cover backdrop with full-color Scouting America New Hampshire lower-left badge dock, White Mountains Pine (#1B4332) bar, and Sunset Gold (#D97706) trim.",
         is_builtin=True,
         pptx_path="assets/templates/scouting_america_forest_sunrise.pptx",
         content_layout_index=6,
         cover_layout_index=0,
         use_native_master_layouts=False,
         primary_hex="#1B4332",
-        accent_hex="#0284C7",
+        accent_hex="#D97706",
         card_bg_hex="#F0FDF4",
-        bottom_bar_hex="#1B4332",
-        bottom_accent_hex="#F59E0B",
-        corner_logo_url="/assets/templates/overlays/scouting_america_horiz_color.png",
-        corner_logo_dark_url="/assets/templates/overlays/scouting_america_horiz_white.png",
+        cover_bg_url="/assets/templates/overlays/hvsc_v1_cover_bg.jpg",
+        canvas_watermark_url="/assets/templates/overlays/hvsc_v1_watermark.png",
+        top_banner_url="/assets/templates/overlays/hvsc_v1_top_banner.png",
+        bottom_silhouette_url="/assets/templates/overlays/hvsc_v1_footer_banner.png",
+        bottom_silhouette_dark_url="/assets/templates/overlays/hvsc_v1_footer_banner_dark.png",
         safe_bounds=SafeCanvasBounds(
             left_in=0.60,
             right_in=12.733,
-            header_top_in=0.18,
+            header_top_in=0.22,
             header_height_in=0.80,
+            header_banner_height_in=0.26,
             content_top_min_in=1.12,
-            content_bottom_max_in=6.86,
+            content_bottom_max_in=6.84,
             safety_bar_height_in=0.68,
-            footer_top_in=6.98,
-            footer_max_width_in=9.50,
+            footer_left_in=3.49,
+            footer_top_in=7.02,
+            footer_max_width_in=9.24,
+            suppress_native_footer=True,
+        ),
+    ),
+    TemplateProfile(
+        template_id="camp_hidden_valley_v2",
+        name="Camp Hidden Valley (Olive)",
+        category="Camp & Merit Badge College",
+        family_id="camp_hidden_valley_edition",
+        family_name="7. Camp Hidden Valley (Griswold Scout Reservation)",
+        variant_color="olive",
+        variant_label="Olive",
+        variant_swatch_hex="#2E4600",
+        description="Version 2 (Olive - Brushed Pine & Reverse-White Council Lockup): Washed Lake Eileen sunset cover with topographic contours and a full-width brushed Woodland Pine (#2E4600) footer banner featuring a luminous reverse-white Scouting America New Hampshire lockup in the lower-left corner.",
+        is_builtin=True,
+        pptx_path="assets/templates/scouting_america_forest_sunrise.pptx",
+        content_layout_index=6,
+        cover_layout_index=0,
+        use_native_master_layouts=False,
+        primary_hex="#2E4600",
+        accent_hex="#F59E0B",
+        card_bg_hex="#F7FEE7",
+        cover_bg_url="/assets/templates/overlays/hvsc_v2_cover_bg.jpg",
+        canvas_watermark_url="/assets/templates/overlays/hvsc_v2_watermark.png",
+        top_banner_url="/assets/templates/overlays/hvsc_v2_top_banner.png",
+        bottom_silhouette_url="/assets/templates/overlays/hvsc_v2_footer_banner.png",
+        bottom_silhouette_dark_url="/assets/templates/overlays/hvsc_v2_footer_banner_dark.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.22,
+            header_height_in=0.80,
+            header_banner_height_in=0.26,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.84,
+            safety_bar_height_in=0.68,
+            footer_left_in=3.49,
+            footer_top_in=7.02,
+            footer_max_width_in=9.24,
+            suppress_native_footer=True,
+        ),
+    ),
+    TemplateProfile(
+        template_id="camp_hidden_valley_v3",
+        name="Camp Hidden Valley (Blue)",
+        category="Camp & Merit Badge College",
+        family_id="camp_hidden_valley_edition",
+        family_name="7. Camp Hidden Valley (Griswold Scout Reservation)",
+        variant_color="blue",
+        variant_label="Blue",
+        variant_swatch_hex="#075697",
+        description="Version 3 (Blue - Lake Eileen Waterfront Horizon): Double-rule framed Lake Eileen sunset cover with a scenic White Mountains pine-ridge silhouette footer in Lake Blue (#075697) and a rounded cream Scouting America New Hampshire emblem in the lower-left corner.",
+        is_builtin=True,
+        pptx_path="assets/templates/scouting_america_forest_sunrise.pptx",
+        content_layout_index=6,
+        cover_layout_index=0,
+        use_native_master_layouts=False,
+        primary_hex="#075697",
+        accent_hex="#EA580C",
+        card_bg_hex="#F0F9FF",
+        cover_bg_url="/assets/templates/overlays/hvsc_v3_cover_bg.jpg",
+        canvas_watermark_url="/assets/templates/overlays/hvsc_v3_watermark.png",
+        top_banner_url="/assets/templates/overlays/hvsc_v3_top_banner.png",
+        bottom_silhouette_url="/assets/templates/overlays/hvsc_v3_footer_banner.png",
+        bottom_silhouette_dark_url="/assets/templates/overlays/hvsc_v3_footer_banner_dark.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.22,
+            header_height_in=0.80,
+            header_banner_height_in=0.26,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.80,
+            safety_bar_height_in=0.68,
+            footer_left_in=3.49,
+            footer_top_in=7.02,
+            footer_max_width_in=9.24,
             suppress_native_footer=True,
         ),
     ),
     TemplateProfile(
         template_id="danvers_mbc",
-        name="Danvers Merit Badge College (Holten-Richmond MS)",
+        name="Danvers Merit Badge College (Crimson)",
         category="Camp & Merit Badge College",
         family_id="danvers_mbc_edition",
         family_name="8. Danvers Merit Badge College (Holten-Richmond MS)",
-        variant_label="Danvers MBC",
-        variant_swatch_hex="#991B1B",
-        description="Danvers Merit Badge College academic classroom template featuring Collegiate Crimson (#991B1B), Academic Navy (#0F172A), and Gold (#D97706) trim.",
+        variant_color="crimson",
+        variant_label="Crimson",
+        variant_swatch_hex="#8B0000",
+        description="Version 1 (Crimson - Collegiate Split Council Dock): Full-bleed washed Holten-Richmond Middle School facade cover backdrop with a full-color Spirit of Adventure Council lower-left badge dock, Collegiate Crimson (#8B0000) bar, and Gold (#D4AF37) chevron trim.",
         is_builtin=True,
         pptx_path="assets/templates/classic_fleur_crimson_crest.pptx",
         content_layout_index=6,
         cover_layout_index=6,
         use_native_master_layouts=False,
-        primary_hex="#991B1B",
-        accent_hex="#D97706",
+        primary_hex="#8B0000",
+        accent_hex="#D4AF37",
         card_bg_hex="#FEF2F2",
-        bottom_bar_hex="#991B1B",
-        bottom_accent_hex="#0F172A",
-        corner_logo_url="/assets/templates/overlays/scouting_fleur_color.png",
-        corner_logo_dark_url="/assets/templates/overlays/scouting_fleur_color.png",
+        cover_bg_url="/assets/templates/overlays/dmbc_v1_cover_bg.jpg",
+        canvas_watermark_url="/assets/templates/overlays/dmbc_v1_watermark.png",
+        top_banner_url="/assets/templates/overlays/dmbc_v1_top_banner.png",
+        bottom_silhouette_url="/assets/templates/overlays/dmbc_v1_footer_banner.png",
+        bottom_silhouette_dark_url="/assets/templates/overlays/dmbc_v1_footer_banner_dark.png",
         safe_bounds=SafeCanvasBounds(
             left_in=0.60,
             right_in=12.733,
-            header_top_in=0.18,
+            header_top_in=0.22,
             header_height_in=0.80,
+            header_banner_height_in=0.26,
             content_top_min_in=1.12,
-            content_bottom_max_in=6.86,
+            content_bottom_max_in=6.84,
             safety_bar_height_in=0.68,
-            footer_top_in=6.98,
-            footer_max_width_in=11.20,
+            footer_left_in=3.55,
+            footer_top_in=7.02,
+            footer_max_width_in=9.18,
+            suppress_native_footer=True,
+        ),
+    ),
+    TemplateProfile(
+        template_id="danvers_mbc_v2",
+        name="Danvers Merit Badge College (Navy)",
+        category="Camp & Merit Badge College",
+        family_id="danvers_mbc_edition",
+        family_name="8. Danvers Merit Badge College (Holten-Richmond MS)",
+        variant_color="navy",
+        variant_label="Navy",
+        variant_swatch_hex="#003F87",
+        description="Version 2 (Navy - Brushed Council Bar & Reverse-White Lockup): Framed washed Holten-Richmond MS cupola cover backdrop with a full-width brushed Scouting Navy (#003F87) footer banner and luminous reverse-white Spirit of Adventure Council lockup in the lower-left corner.",
+        is_builtin=True,
+        pptx_path="assets/templates/classic_fleur_crimson_crest.pptx",
+        content_layout_index=6,
+        cover_layout_index=6,
+        use_native_master_layouts=False,
+        primary_hex="#003F87",
+        accent_hex="#CE1126",
+        card_bg_hex="#EFF6FF",
+        cover_bg_url="/assets/templates/overlays/dmbc_v2_cover_bg.jpg",
+        canvas_watermark_url="/assets/templates/overlays/dmbc_v2_watermark.png",
+        top_banner_url="/assets/templates/overlays/dmbc_v2_top_banner.png",
+        bottom_silhouette_url="/assets/templates/overlays/dmbc_v2_footer_banner.png",
+        bottom_silhouette_dark_url="/assets/templates/overlays/dmbc_v2_footer_banner_dark.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.22,
+            header_height_in=0.80,
+            header_banner_height_in=0.26,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.84,
+            safety_bar_height_in=0.68,
+            footer_left_in=3.55,
+            footer_top_in=7.02,
+            footer_max_width_in=9.18,
+            suppress_native_footer=True,
+        ),
+    ),
+    TemplateProfile(
+        template_id="danvers_mbc_v3",
+        name="Danvers Merit Badge College (Brick)",
+        category="Camp & Merit Badge College",
+        family_id="danvers_mbc_edition",
+        family_name="8. Danvers Merit Badge College (Holten-Richmond MS)",
+        variant_color="brown",
+        variant_label="Brick",
+        variant_swatch_hex="#7F1D1D",
+        description="Version 3 (Brick & Patina - Georgian Cupola Heritage): Parchment-washed Holten-Richmond MS brick & cupola cover with Copper-Cupola Patina (#0F766E) trim and a rounded cream Spirit of Adventure Council crest in the lower-left corner.",
+        is_builtin=True,
+        pptx_path="assets/templates/classic_fleur_crimson_crest.pptx",
+        content_layout_index=6,
+        cover_layout_index=6,
+        use_native_master_layouts=False,
+        primary_hex="#7F1D1D",
+        accent_hex="#0F766E",
+        card_bg_hex="#FFFBEB",
+        cover_bg_url="/assets/templates/overlays/dmbc_v3_cover_bg.jpg",
+        canvas_watermark_url="/assets/templates/overlays/dmbc_v3_watermark.png",
+        top_banner_url="/assets/templates/overlays/dmbc_v3_top_banner.png",
+        bottom_silhouette_url="/assets/templates/overlays/dmbc_v3_footer_banner.png",
+        bottom_silhouette_dark_url="/assets/templates/overlays/dmbc_v3_footer_banner_dark.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.22,
+            header_height_in=0.80,
+            header_banner_height_in=0.26,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.80,
+            safety_bar_height_in=0.68,
+            footer_left_in=3.55,
+            footer_top_in=7.02,
+            footer_max_width_in=9.18,
             suppress_native_footer=True,
         ),
     ),
@@ -904,7 +1064,17 @@ def load_template_catalog() -> List[TemplateProfile]:
                     if isinstance(item, dict) and item.get("template_id"):
                         tid = str(item["template_id"])
                         if tid not in by_id:
-                            by_id[tid] = TemplateProfile(**item)
+                            prof = TemplateProfile(**item)
+                            if prof.variant_label and prof.variant_label.startswith("Variant "):
+                                cname = get_closest_color_name(prof.variant_swatch_hex or prof.primary_hex or "#003F87")
+                                old_lbl = prof.variant_label
+                                prof.variant_label = cname
+                                prof.variant_color = cname.lower().replace(" ", "_")
+                                if f"({old_lbl})" in (prof.name or ""):
+                                    prof.name = prof.name.replace(f"({old_lbl})", f"({cname})")
+                                if f"({old_lbl})" in (prof.description or ""):
+                                    prof.description = prof.description.replace(f"({old_lbl})", f"({cname})")
+                            by_id[tid] = prof
 
             _CATALOG_CACHE = list(by_id.values())
             _CATALOG_MTIME = combined_mtime
@@ -1584,7 +1754,14 @@ def decorate_slide_with_template_chrome(
         cov_disk = REPO_ROOT / profile.cover_bg_url.lstrip("/")
         if cov_disk.exists():
             try:
-                pic = slide.shapes.add_picture(str(cov_disk), Inches(0.0), Inches(0.0), width=Inches(13.333), height=Inches(7.5))
+                with Image.open(cov_disk) as cim:
+                    c_rgb = cim.convert("RGB")
+                    veil = Image.new("RGB", c_rgb.size, (250, 248, 245))
+                    washed = Image.blend(veil, c_rgb, alpha=0.22)
+                    buf = io.BytesIO()
+                    washed.save(buf, format="JPEG", quality=90)
+                    buf.seek(0)
+                pic = slide.shapes.add_picture(buf, Inches(0.0), Inches(0.0), width=Inches(13.333), height=Inches(7.5))
                 pic.name = "TemplateChrome_CoverBg"
             except Exception:
                 pass
@@ -1948,6 +2125,7 @@ def _render_nano_template_variant_assets(
     accent_hex: str,
     logo_img: Optional[Image.Image],
     logo_position: str,
+    custom_prompt: str = "",
 ) -> Dict[str, str]:
     """Synthesizes coordinated 16:9 PIL artwork for top_banner, bottom_silhouette, canvas_watermark (5% opacity), and cover_bg."""
     import math as _math
@@ -2086,19 +2264,106 @@ def _render_nano_template_variant_assets(
     wm_path = CUSTOM_TEMPLATES_DIR / f"{variant_id}_watermark.png"
     wm_im.save(wm_path)
 
-    # 4. Cover Slide Backdrop (1600 x 900)
+    # 4. Full-Bleed Slide 1 Washed Cover Backdrop (1600 x 900)
+    # Note: In `ui/app.js` (`opacity: 0.18–0.22`) and `decorate_slide_with_template_chrome` (`alpha=0.22`),
+    # `cover_bg_url` is blended across the entire first slide just like `BSA Forest Sunrise` (`forest_sunrise_cover.jpg`)
+    # and `BSA High Adventure` (`high_adventure_climb.jpg`).
     cov_w, cov_h = 1600, 900
-    cov_im = Image.new("RGBA", (cov_w, cov_h), (248, 250, 252, 255))
+    cov_im = Image.new("RGBA", (cov_w, cov_h), (248, 246, 240, 255))
     cdraw = ImageDraw.Draw(cov_im)
-    # Soft gradient band & geometric hero framing
-    cdraw.rectangle([0, 0, cov_w, 120], fill=(*p_rgb, 255))
-    cdraw.rectangle([0, 120, cov_w, 132], fill=(*a_rgb, 255))
-    cdraw.rectangle([0, cov_h - 115, cov_w, cov_h], fill=(*p_rgb, 255))
-    cdraw.rectangle([0, cov_h - 125, cov_w, cov_h - 115], fill=(*a_rgb, 255))
-    cov_im.alpha_composite(wm_im, (0, 0))
+    prompt_lc = str(custom_prompt or "").lower()
+
+    # Soft multi-stop sky/background wash across the full 16:9 canvas
+    for y_band in range(0, cov_h, 6):
+        t_ratio = y_band / float(cov_h)
+        if "sunset" in prompt_lc or "sunrise" in prompt_lc or style_key == "pinewood_campfire":
+            # Golden-hour sky blending from soft brand tint to warm sunset amber near horizon
+            r_b = int(244 * (1 - t_ratio) + (a_rgb[0] * 0.55 + 110) * t_ratio)
+            g_b = int(247 * (1 - t_ratio) + (a_rgb[1] * 0.55 + 105) * t_ratio)
+            b_b = int(250 * (1 - t_ratio) + (p_rgb[2] * 0.45 + 110) * t_ratio)
+        else:
+            r_b = int(248 * (1 - t_ratio) + (p_rgb[0] * 0.35 + 160) * t_ratio)
+            g_b = int(249 * (1 - t_ratio) + (p_rgb[1] * 0.35 + 160) * t_ratio)
+            b_b = int(251 * (1 - t_ratio) + (p_rgb[2] * 0.35 + 165) * t_ratio)
+        cdraw.rectangle([0, y_band, cov_w, y_band + 6], fill=(min(255, r_b), min(255, g_b), min(255, b_b), 255))
+
+    # Sun / compass halo in upper-right / center-right sky
+    sun_x, sun_y = int(cov_w * 0.68), int(cov_h * 0.34)
+    for s_rad, s_alpha in ((260, 28), (190, 44), (125, 68), (75, 95)):
+        cdraw.ellipse(
+            [sun_x - s_rad, sun_y - s_rad, sun_x + s_rad, sun_y + s_rad],
+            fill=(*a_rgb, s_alpha),
+        )
+
+    # Full-canvas topographic contour rings when topographic or mountain/contour prompt
+    if style_key in ("topographic_adventure", "pinewood_campfire") or "contour" in prompt_lc or "topographic" in prompt_lc or "mountain" in prompt_lc:
+        for rad in range(110, 1150, 75):
+            cdraw.ellipse(
+                [cx - rad * 1.35, cy - rad * 0.85, cx + rad * 1.35, cy + rad * 0.85],
+                outline=(*p_rgb, 48),
+                width=3,
+            )
+
+    # Distant and midground mountain / ridge / forest layers across full width
+    if style_key in ("pinewood_campfire", "topographic_adventure", "heritage_embroidery") or any(
+        k in prompt_lc for k in ("pine", "lake", "camp", "mountain", "ridge", "forest", "sunset")
+    ):
+        far_ridge = [(0, cov_h)]
+        for x in range(0, cov_w + 40, 40):
+            yr = int(cov_h * 0.54 - 85 * abs(_math.sin(x / 310.0)) - 35 * _math.cos(x / 120.0))
+            far_ridge.append((x, yr))
+        far_ridge.append((cov_w, cov_h))
+        cdraw.polygon(far_ridge, fill=(*p_rgb, 85))
+
+        mid_ridge = [(0, cov_h)]
+        for x in range(0, cov_w + 40, 40):
+            yr = int(cov_h * 0.66 - 60 * abs(_math.cos(x / 240.0)) - 25 * _math.sin(x / 95.0))
+            mid_ridge.append((x, yr))
+        mid_ridge.append((cov_w, cov_h))
+        cdraw.polygon(mid_ridge, fill=(*p_rgb, 135))
+
+        # Pine tree line along the lake shoreline (y = 0.68 * cov_h)
+        shore_y = int(cov_h * 0.70)
+        for tx in range(30, cov_w - 30, 38):
+            th = 48 + (tx % 34)
+            cdraw.polygon([(tx, shore_y - th), (tx - 16, shore_y), (tx + 16, shore_y)], fill=(*p_rgb, 165))
+            cdraw.polygon([(tx, shore_y - th - 18), (tx - 12, shore_y - 14), (tx + 12, shore_y - 14)], fill=(*p_rgb, 180))
+
+        # Shimmering lake water & sunset reflection across lower 30%
+        cdraw.rectangle([0, shore_y, cov_w, cov_h], fill=(*p_rgb, 95))
+        for wy in range(shore_y + 14, cov_h - 30, 18):
+            w_len = max(40, 220 - abs(wy - (shore_y + 80)))
+            cdraw.line([(sun_x - w_len, wy), (sun_x + w_len, wy)], fill=(*a_rgb, 115), width=4)
+    elif style_key == "collegiate_mbc" or any(k in prompt_lc for k in ("collegiate", "school", "cupola", "academic", "brick")):
+        # Classical Georgian cupola, colonnade & academic pediment across the full slide
+        base_y = int(cov_h * 0.74)
+        cdraw.rectangle([180, int(cov_h * 0.42), cov_w - 180, base_y], fill=(*p_rgb, 70), outline=(*p_rgb, 140), width=3)
+        cdraw.polygon([(140, int(cov_h * 0.42)), (cx, int(cov_h * 0.24)), (cov_w - 140, int(cov_h * 0.42))], fill=(*p_rgb, 95), outline=(*a_rgb, 160))
+        # Cupola tower in center
+        cdraw.rectangle([cx - 55, int(cov_h * 0.14), cx + 55, int(cov_h * 0.26)], fill=(255, 255, 255, 180), outline=(*p_rgb, 150), width=3)
+        cdraw.polygon([(cx - 68, int(cov_h * 0.14)), (cx, int(cov_h * 0.06)), (cx + 68, int(cov_h * 0.14))], fill=(*a_rgb, 165))
+        for col_x in range(260, cov_w - 240, 110):
+            cdraw.rectangle([col_x, int(cov_h * 0.44), col_x + 22, base_y], fill=(255, 255, 255, 140), outline=(*p_rgb, 110), width=2)
+    elif style_key == "aquatics_nautical" or any(k in prompt_lc for k in ("nautical", "waterfront", "lighthouse", "ocean", "aquatics")):
+        # Coastal lighthouse & layered ocean waves across the full slide
+        for wy in range(int(cov_h * 0.52), cov_h, 48):
+            pts = [(x, int(wy + 18 * _math.sin(x / 58.0))) for x in range(0, cov_w + 24, 24)]
+            cdraw.line(pts, fill=(*p_rgb, 115), width=5)
+        # Lighthouse on right shoreline
+        lx = int(cov_w * 0.78)
+        cdraw.polygon([(lx - 38, int(cov_h * 0.62)), (lx - 22, int(cov_h * 0.22)), (lx + 22, int(cov_h * 0.22)), (lx + 38, int(cov_h * 0.62))], fill=(*p_rgb, 145))
+        cdraw.polygon([(lx - 22, int(cov_h * 0.24)), (lx - 680, int(cov_h * 0.10)), (lx - 680, int(cov_h * 0.36))], fill=(*a_rgb, 55))
+    elif style_key == "stem_blueprint":
+        for gx in range(0, cov_w, 60):
+            cdraw.line([(gx, 0), (gx, cov_h)], fill=(*p_rgb, 42), width=2)
+        for gy in range(0, cov_h, 60):
+            cdraw.line([(0, gy), (cov_w, gy)], fill=(*p_rgb, 42), width=2)
+        for r_ring in (120, 210, 310):
+            cdraw.ellipse([sun_x - r_ring, sun_y - r_ring, sun_x + r_ring, sun_y + r_ring], outline=(*a_rgb, 110), width=4)
+
     if logo_img is not None:
         c_logo = logo_img.copy()
-        c_logo.thumbnail((140, 140), Image.Resampling.LANCZOS)
+        c_logo.thumbnail((150, 150), Image.Resampling.LANCZOS)
         cov_im.alpha_composite(c_logo, (cov_w - c_logo.width - 48, cov_h - c_logo.height - 28))
 
     cov_path = CUSTOM_TEMPLATES_DIR / f"{variant_id}_cover_bg.png"
@@ -2111,6 +2376,82 @@ def _render_nano_template_variant_assets(
         "canvas_watermark_url": f"/assets/templates/custom/{wm_path.name}",
         "cover_bg_url": f"/assets/templates/custom/{cov_path.name}",
     }
+
+
+_NAMED_COLOR_ANCHORS: List[Tuple[str, Tuple[int, int, int]]] = [
+    ("Red", (206, 17, 38)),
+    ("Crimson", (139, 0, 0)),
+    ("Green", (27, 94, 32)),
+    ("Olive", (63, 98, 18)),
+    ("Blue", (2, 132, 199)),
+    ("Navy", (0, 63, 135)),
+    ("Gold", (217, 119, 6)),
+    ("Orange", (234, 88, 12)),
+    ("Teal", (15, 118, 110)),
+    ("Purple", (124, 58, 237)),
+    ("Brown", (120, 63, 4)),
+    ("Slate", (30, 41, 59)),
+]
+
+
+def get_closest_color_name(hex_str: str) -> str:
+    """Maps any hex color to a human-friendly common color name (Red, Green, Blue, Gold, Navy, Teal, Orange, Purple, Crimson, Brown, Slate, Olive)."""
+    import colorsys
+
+    r, g, b = hex_to_rgb(hex_str, (27, 94, 32))
+    h_val, l_val, s_val = colorsys.rgb_to_hls(r / 255.0, g / 255.0, b / 255.0)
+    deg = (h_val * 360.0) % 360.0
+
+    if s_val < 0.16 or l_val < 0.12:
+        return "Slate"
+    if 345 <= deg or deg < 14:
+        return "Crimson" if l_val < 0.34 else "Red"
+    if 14 <= deg < 30:
+        return "Brown" if l_val < 0.34 else "Orange"
+    if 30 <= deg < 62:
+        return "Brown" if (l_val < 0.28 and s_val < 0.65) else "Gold"
+    if 62 <= deg < 92:
+        return "Olive"
+    if 92 <= deg < 164:
+        return "Green"
+    if 164 <= deg < 194:
+        return "Teal"
+    if 194 <= deg < 255:
+        return "Navy" if l_val < 0.30 else "Blue"
+    if 255 <= deg < 315:
+        return "Purple"
+    return "Crimson" if l_val < 0.35 else "Red"
+
+
+def get_disambiguated_color_names(hex_list: List[str]) -> List[str]:
+    """Returns distinct color names for up to 3 hex colors (e.g. ['Green', 'Blue', 'Gold'])."""
+    fallbacks_by_base = {
+        "Blue": ["Navy", "Teal", "Slate"],
+        "Navy": ["Blue", "Slate", "Teal"],
+        "Red": ["Crimson", "Orange", "Gold"],
+        "Crimson": ["Red", "Brown", "Gold"],
+        "Green": ["Olive", "Teal", "Gold"],
+        "Olive": ["Green", "Brown", "Gold"],
+        "Gold": ["Orange", "Brown", "Red"],
+        "Orange": ["Gold", "Red", "Brown"],
+        "Teal": ["Blue", "Green", "Navy"],
+        "Purple": ["Navy", "Crimson", "Slate"],
+        "Brown": ["Gold", "Crimson", "Olive"],
+        "Slate": ["Navy", "Blue", "Teal"],
+    }
+    used: set[str] = set()
+    out: List[str] = []
+    for hx in hex_list:
+        base = get_closest_color_name(hx)
+        chosen = base
+        if chosen in used:
+            for alt in fallbacks_by_base.get(base, ["Blue", "Gold", "Red"]):
+                if alt not in used:
+                    chosen = alt
+                    break
+        used.add(chosen)
+        out.append(chosen)
+    return out
 
 
 def _build_nano_template_master_pptx(profile: TemplateProfile) -> str:
@@ -2146,8 +2487,10 @@ def generate_nano_banana_template_family(
     remove_logo_white_bg: bool = True,
     preview_only: bool = False,
     user_consented: bool = False,
+    include_secondary: Optional[bool] = None,
+    include_accent: Optional[bool] = None,
 ) -> Dict[str, Any]:
-    """Generates a coordinated 3-Variant Nano Banana AI Slide Template Family with YPT/Zero-PII guardrails and FinOps gating."""
+    """Generates a coordinated 1-to-3 Color Variant Nano Banana AI Slide Template Family with YPT/Zero-PII guardrails and FinOps gating."""
     import base64
 
     try:
@@ -2201,12 +2544,29 @@ def generate_nano_banana_template_family(
             "status": "CONSENT_REQUIRED",
             "requires_user_consent": True,
             "estimated_cost_usd": 0.08,
-            "message": "User consent ($0.08 USD) is required before generating a 3-variant Nano Banana AI template family.",
+            "message": "User consent ($0.08 USD) is required before generating a Nano Banana AI template family.",
         }
 
-    # Step 3 — Normalize Colors (1 to 3 Colors -> 3 Distinct Variants)
-    c1, c2, c3 = _normalize_three_variant_colors(colors)
+    # Step 3 — Normalize Colors & Determine Active Variant Count (1, 2, or 3)
+    cleaned_input_colors: List[str] = []
+    for raw in colors or []:
+        if raw and str(raw).strip():
+            chx = _clean_hex_color(raw, "")
+            if chx:
+                cleaned_input_colors.append(chx)
+
+    c1, c2, c3 = _normalize_three_variant_colors(cleaned_input_colors or None)
     c3_safe_primary = _ensure_wcag_aa_dark_hex(c3)
+
+    # Determine how many variants are enabled (default 3 when colors is None or 3 colors given; 1 or 2 when fewer colors enabled)
+    if cleaned_input_colors and len(cleaned_input_colors) in (1, 2):
+        target_variant_count = len(cleaned_input_colors)
+    else:
+        target_variant_count = 3
+        if include_secondary is False and include_accent is False:
+            target_variant_count = 1
+        elif include_secondary is False or include_accent is False:
+            target_variant_count = 2
 
     style_key = str(visual_style or "pinewood_campfire").strip().lower()
     if style_key not in NANO_BANANA_TEMPLATE_VISUAL_STYLES:
@@ -2279,12 +2639,19 @@ def generate_nano_banana_template_family(
             processed_logo_img = None
             logo_rel_url = ""
 
-    # Step 5 — Synthesize Coordinated Header, Footer, Watermark & Cover Backdrop Assets for Each of the 3 Variants
+    # Step 5 — Synthesize Coordinated Header, Footer, Watermark & Cover Backdrop Assets Named by Closest Color
+    all_swatches = [c1, c2, c3][:target_variant_count]
+    color_names = get_disambiguated_color_names(all_swatches)
+    raw_specs = [
+        ("a", c1, c2, c1),
+        ("b", c2, c3, c2),
+        ("c", c3_safe_primary, c1, c3),
+    ][:target_variant_count]
     variant_specs = [
-        ("a", "Variant A", c1, c2, c1),
-        ("b", "Variant B", c2, c3, c2),
-        ("c", "Variant C", c3_safe_primary, c1, c3),
+        (slug, color_names[idx], pri, acc, sw)
+        for idx, (slug, pri, acc, sw) in enumerate(raw_specs)
     ]
+
     safe_bounds = _compute_nano_template_safe_bounds(
         frame_geometry=geom_key,
         logo_position=logo_pos,
@@ -2302,6 +2669,7 @@ def generate_nano_banana_template_family(
             accent_hex=acc_hex,
             logo_img=processed_logo_img,
             logo_position=logo_pos,
+            custom_prompt=clean_prompt,
         )
         desc_parts = [
             f"Nano Banana AI {style_meta['label']} template ({var_label})",
@@ -2315,6 +2683,7 @@ def generate_nano_banana_template_family(
             category="Nano Banana AI Custom Series",
             family_id=family_id,
             family_name=clean_name,
+            variant_color=var_label.lower(),
             variant_label=var_label,
             variant_swatch_hex=swatch_hex,
             description=" — ".join(desc_parts),
@@ -2347,7 +2716,6 @@ def generate_nano_banana_template_family(
         catalog.extend(built_profiles)
         save_template_catalog(catalog)
 
-    profile_a, profile_b, profile_c = built_profiles[0], built_profiles[1], built_profiles[2]
     return {
         "status": "SUCCESS",
         "family_id": family_id,
@@ -2356,6 +2724,8 @@ def generate_nano_banana_template_family(
         "frame_geometry": geom_key,
         "preview_only": bool(preview_only),
         "cost_usd": 0.0 if preview_only else 0.08,
-        "variants": [profile_a.to_dict(), profile_b.to_dict(), profile_c.to_dict()],
-        "default_template_id": profile_a.template_id,
+        "variant_count": len(built_profiles),
+        "color_names": color_names,
+        "variants": [p.to_dict() for p in built_profiles],
+        "default_template_id": built_profiles[0].template_id,
     }

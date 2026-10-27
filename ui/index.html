@@ -3328,7 +3328,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
         <div id="template-studio-tab-gallery">
           <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; flex-wrap:wrap;">
             <div style="font-size:0.84rem; font-weight:800; color:var(--md-sys-color-primary);">
-              1. Curated Scouting America &amp; Heritage Style Families (Click a card or Variant A/B/C color pill for instant live switch)
+              1. Curated Scouting America &amp; Heritage Style Families (Click a card or color variant pill for instant live switch)
             </div>
             <button type="button" class="m3-btn m3-btn-tonal" id="btn-tpl-open-ai-tab" style="padding:5px 12px; font-size:0.76rem; font-weight:800;">
               🍌 + Create AI Template
@@ -3372,22 +3372,22 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
               </div>
 
               <div class="m3-tpl-ai-section-box">
-                <div style="font-size:0.74rem; font-weight:800; color:var(--md-sys-color-primary); margin-bottom:6px;">
-                  3. Up to 3 Brand Colors (Generates 3 Switchable Variants A / B / C)
+                <div id="tpl-ai-colors-heading" style="font-size:0.74rem; font-weight:800; color:var(--md-sys-color-primary); margin-bottom:6px;">
+                  3. Up to 3 Brand Colors (Generates 3 Switchable Color Variants)
                 </div>
                 <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:8px;">
                   <label style="display:inline-flex; align-items:center; gap:6px; font-size:0.75rem; font-weight:700;">
-                    <span>Variant A (Primary):</span>
+                    <span id="tpl-ai-color1-label">Green (Primary):</span>
                     <input type="color" id="tpl-ai-color1" value="#1B5E20" style="width:28px; height:24px; border:none; background:none; cursor:pointer;" />
                   </label>
                   <label style="display:inline-flex; align-items:center; gap:5px; font-size:0.75rem; font-weight:700;">
                     <input type="checkbox" id="tpl-ai-use-color2" checked />
-                    <span>Variant B:</span>
+                    <span id="tpl-ai-color2-label">Blue (Secondary):</span>
                     <input type="color" id="tpl-ai-color2" value="#0284C7" style="width:28px; height:24px; border:none; background:none; cursor:pointer;" />
                   </label>
                   <label style="display:inline-flex; align-items:center; gap:5px; font-size:0.75rem; font-weight:700;">
                     <input type="checkbox" id="tpl-ai-use-color3" checked />
-                    <span>Variant C:</span>
+                    <span id="tpl-ai-color3-label">Gold (Accent):</span>
                     <input type="color" id="tpl-ai-color3" value="#D97706" style="width:28px; height:24px; border:none; background:none; cursor:pointer;" />
                   </label>
                 </div>
@@ -3423,20 +3423,20 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
 
               <div class="m3-tpl-ai-section-box">
                 <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; flex-wrap:wrap; margin-bottom:5px;">
-                  <label class="m3-field-label" for="tpl-ai-prompt-input" style="font-size:0.74rem; font-weight:800; margin:0;">5. Custom Theme Prompt</label>
+                  <label class="m3-field-label" for="tpl-ai-prompt-input" style="font-size:0.74rem; font-weight:800; margin:0;">5. Custom Theme Prompt (Drives Slide 1 Washed Cover Backdrop &amp; Frame)</label>
                   <div style="display:flex; gap:6px; flex-wrap:wrap;">
                     <button type="button" class="m3-btn m3-btn-tonal" id="btn-tpl-ai-sample-safe" title="Click repeatedly to cycle through 6 curated Camp &amp; Merit Badge College theme prompts" style="padding:3px 8px; font-size:0.71rem;">✨ Sample Camp / MBC Prompt (1/6)</button>
                     <button type="button" class="m3-btn m3-btn-outlined" id="btn-tpl-ai-sample-guardrail" style="padding:3px 8px; font-size:0.71rem;">🛡️ Test YPT / PII Safety Guardrail</button>
                   </div>
                 </div>
-                <textarea id="tpl-ai-prompt-input" class="m3-input" rows="2" placeholder="Describe scenic camp silhouettes, pine ridges, waterfront motifs, or collegiate headers (no youth faces or PII)..." style="font-size:0.76rem; width:100%;">Crisp pine forest and mountain lake shoreline silhouette at dusk with subtle topographic contour lines and classic Scouting outdoor emblem accents.</textarea>
+                <textarea id="tpl-ai-prompt-input" class="m3-input" rows="2" placeholder="Describe scenic camp silhouettes, pine ridges, lake sunsets, waterfront motifs, or collegiate headers (no youth faces or PII)..." style="font-size:0.76rem; width:100%;">Crisp pine forest and mountain lake shoreline silhouette at dusk with subtle topographic contour lines and classic Scouting outdoor emblem accents.</textarea>
                 <div id="tpl-ai-guardrail-banner" class="hidden" style="margin-top:6px; padding:7px 10px; border-radius:8px; background:var(--md-sys-color-error-container); color:var(--md-sys-color-on-error-container); font-size:0.74rem; font-weight:700;"></div>
               </div>
 
               <div class="m3-tpl-ai-finops-box" style="padding:10px 12px; border-radius:10px; border:1.5px solid var(--md-sys-color-warning-accent); background:var(--md-sys-color-warning-surface);">
                 <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-bottom:6px;">
                   <strong style="font-size:0.76rem; color:var(--md-sys-color-primary);">6. FinOps Cost Banner ($0.08 USD) &amp; Consent</strong>
-                  <span class="m3-chip m3-chip-eagle" style="font-size:0.70rem;">Est. Cost: $0.08 USD (3 Variants A/B/C)</span>
+                  <span id="tpl-ai-finops-count-chip" class="m3-chip m3-chip-eagle" style="font-size:0.70rem;">Est. Cost: $0.08 USD (3 Color Variants)</span>
                 </div>
                 <label style="display:flex; align-items:center; gap:7px; font-size:0.74rem; font-weight:700; cursor:pointer; margin-bottom:8px;">
                   <input type="checkbox" id="tpl-ai-consent-checkbox" style="width:15px; height:15px;" />
@@ -3454,22 +3454,32 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
               </div>
             </div>
 
-            <!-- RIGHT COLUMN: INTERACTIVE LIVE 16:9 SLIDE & 3-VARIANT PREVIEW -->
+            <!-- RIGHT COLUMN: INTERACTIVE LIVE 16:9 SLIDE & COLOR VARIANT PREVIEW -->
             <div class="m3-tpl-ai-preview-col">
-              <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
-                <span style="font-size:0.78rem; font-weight:800; color:var(--md-sys-color-primary);">Live 16:9 Slide &amp; 3-Variant Preview</span>
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; flex-wrap:wrap; margin-bottom:8px;">
+                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                  <span style="font-size:0.77rem; font-weight:800; color:var(--md-sys-color-primary);">Live 16:9 Preview</span>
+                  <div class="workbook-view-segmented-control" id="tpl-ai-preview-slide-mode-switcher" style="display:inline-flex; gap:3px;">
+                    <button type="button" class="m3-quick-mode-btn" data-tpl-ai-slide-mode="cover" title="Preview Slide 1 with full-bleed Washed Cover Backdrop (cover_bg_url)" style="padding:3px 8px; font-size:0.70rem;">
+                      🖼️ Slide 1: Washed Cover
+                    </button>
+                    <button type="button" class="m3-quick-mode-btn active" data-tpl-ai-slide-mode="content" title="Preview Slide 2+ Content Slide with Header/Footer Frame and Watermark" style="padding:3px 8px; font-size:0.70rem;">
+                      📊 Slide 2+: Content Frame
+                    </button>
+                  </div>
+                </div>
                 <div class="workbook-view-segmented-control" id="tpl-ai-variant-switcher" style="display:flex; gap:4px;">
-                  <button type="button" class="m3-quick-mode-btn active" data-tpl-ai-variant="A" style="display:inline-flex; align-items:center; gap:5px; padding:4px 9px; font-size:0.73rem;">
+                  <button type="button" class="m3-quick-mode-btn active" data-tpl-ai-variant="A" style="display:inline-flex; align-items:center; gap:5px; padding:4px 9px; font-size:0.72rem;">
                     <span id="tpl-ai-dot-a" style="width:10px; height:10px; border-radius:50%; background:rgb(27, 94, 32); display:inline-block;"></span>
-                    Variant A (Primary)
+                    <span id="tpl-ai-var-label-a">Green (Primary)</span>
                   </button>
-                  <button type="button" class="m3-quick-mode-btn" data-tpl-ai-variant="B" style="display:inline-flex; align-items:center; gap:5px; padding:4px 9px; font-size:0.73rem;">
+                  <button type="button" class="m3-quick-mode-btn" data-tpl-ai-variant="B" style="display:inline-flex; align-items:center; gap:5px; padding:4px 9px; font-size:0.72rem;">
                     <span id="tpl-ai-dot-b" style="width:10px; height:10px; border-radius:50%; background:rgb(2, 132, 199); display:inline-block;"></span>
-                    Variant B (Secondary)
+                    <span id="tpl-ai-var-label-b">Blue (Secondary)</span>
                   </button>
-                  <button type="button" class="m3-quick-mode-btn" data-tpl-ai-variant="C" style="display:inline-flex; align-items:center; gap:5px; padding:4px 9px; font-size:0.73rem;">
+                  <button type="button" class="m3-quick-mode-btn" data-tpl-ai-variant="C" style="display:inline-flex; align-items:center; gap:5px; padding:4px 9px; font-size:0.72rem;">
                     <span id="tpl-ai-dot-c" style="width:10px; height:10px; border-radius:50%; background:rgb(217, 119, 6); display:inline-block;"></span>
-                    Variant C (Accent)
+                    <span id="tpl-ai-var-label-c">Gold (Accent)</span>
                   </button>
                 </div>
               </div>
@@ -3479,7 +3489,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
 
               <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:10px; flex-wrap:wrap;">
                 <div style="font-size:0.73rem; color:var(--md-sys-color-on-surface-variant);">
-                  SafeCanvasBounds automatically reserves header &amp; footer silhouette bands so slide cards never collide with artwork.
+                  Slide 1 includes a full-bleed <strong>Washed Cover Backdrop</strong> (<code>cover_bg_url</code>); Slide 2+ reserves <code>SafeCanvasBounds</code> header &amp; footer bands.
                 </div>
                 <button type="button" class="m3-btn m3-btn-filled" id="btn-tpl-ai-apply-variant" style="padding:7px 14px; font-size:0.77rem; font-weight:800;">
                   ✅ Apply Active Variant to Deck
@@ -3552,266 +3562,279 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
       <div style="padding:14px 22px 22px; overflow-y:auto; flex:1 1 auto; min-height:0;">
         <!-- UNIFIED 2-ROW CLASSROOM SESSION & DECK SCHEDULE BUILDER CARD (OPTION 5A) -->
         <div id="ws-class-logistics-panel" class="m3-ws-save-bar m3-ws-unified-schedule-card" style="padding:12px 14px; border-radius:12px; border:1.5px solid var(--md-sys-color-info-outline); background:var(--md-sys-color-info-surface); margin-bottom:14px;">
-          <!-- TOP QUICK-PRESET STRIP -->
-          <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid var(--md-sys-color-outline-variant);">
-            <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-              <span style="font-size:0.75rem; font-weight:800; color:var(--md-sys-color-primary);">⚡ 1-Click Venue Macros:</span>
-              <button type="button" class="m3-studiokit-pill" id="btn-ws-macro-mbc" data-ws-venue-macro="danvers_mbc" data-generic-label="🏫 Merit Badge College (4x 75m Sat + Makeup)" data-dmbc-label="🏫 Danvers MBC (4x 75m Sat + Makeup)" style="font-size:0.72rem; padding:3px 9px;">🏫 Merit Badge College (4x 75m Sat + Makeup)</button>
-              <button type="button" class="m3-studiokit-pill" id="btn-ws-macro-camp" data-ws-venue-macro="hidden_valley" data-generic-label="🏕️ Summer Camp (4x 50m Mon–Thu + Fri Makeup)" data-dmbc-label="🏕️ Camp Hidden Valley (4x 50m Mon–Thu + Fri Makeup)" style="font-size:0.72rem; padding:3px 9px;">🏕️ Summer Camp (4x 50m Mon–Thu + Fri Makeup)</button>
-              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="troop_evening" style="font-size:0.72rem; padding:3px 9px;">⚜️ Evening Troop Meeting (3x 60m Weekly)</button>
-              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="saturday_midway" style="font-size:0.72rem; padding:3px 9px;">🎯 Saturday Midway (1x 180m)</button>
-            </div>
-            <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
-              <label style="display:inline-flex; align-items:center; gap:4px; font-size:0.73rem; font-weight:700; cursor:pointer;">
-                <input type="checkbox" id="ws-chk-include-slide2" checked style="width:14px; height:14px;" />
-                Slide 2: Class Overview &amp; Pre-Work
-              </label>
-              <label style="display:inline-flex; align-items:center; gap:4px; font-size:0.73rem; font-weight:700; cursor:pointer;">
-                <input type="checkbox" id="ws-chk-include-sliden" checked style="width:14px; height:14px;" />
-                Final Slide: Homework &amp; Blue Card Check-Out
-              </label>
+          <!-- BUILDER HEADER WITH COLLAPSE BUTTON RIGHT NEXT TO IT -->
+          <div id="ws-schedule-builder-header-bar" style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-bottom:8px; padding-bottom:6px; border-bottom:1px solid var(--md-sys-color-outline-variant);">
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <span style="font-size:0.78rem; font-weight:800; color:var(--md-sys-color-primary);">🗓️ Classroom Session &amp; Schedule Builder</span>
               <button
                 type="button"
                 class="m3-btn m3-btn-outlined"
                 id="btn-ws-toggle-schedule-builder"
                 aria-expanded="true"
                 aria-controls="ws-schedule-builder-collapsible-body"
-                title="Collapse or expand the 2-Row Session &amp; Schedule Builder form while keeping the live schedule summary bar visible"
+                title="Collapse or expand the 2-Row Session &amp; Schedule Builder form (including 1-Click Venue Macros) while keeping the live schedule summary and slide controls visible"
                 style="padding:3px 9px; font-size:0.71rem; font-weight:800;"
               >
                 ▴ Collapse Builder
               </button>
             </div>
+            <span style="font-size:0.71rem; color:var(--md-sys-color-on-surface-variant);">
+              Syncs session dates, times, and location across Slides, Parent Letters, and Patrol Blue Card Attendance
+            </span>
           </div>
 
           <div id="ws-schedule-builder-collapsible-body">
-          <!-- ROW 1: DECK TITLE + AUTO-TITLE | SECTION NAME | SECTION # | STARTING DATE + WEEKDAY BADGE | FREQUENCY | # SESSIONS + MAKEUP -->
-          <div class="m3-ws-builder-row1" style="display:grid; grid-template-columns:1.5fr 1.05fr 0.55fr 1.05fr 0.72fr 0.95fr; gap:8px; align-items:end; margin-bottom:10px;">
-            <div>
-              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-bottom:2px;">
-                <label class="m3-field-label" for="ws-title-input" style="font-size:0.71rem; margin:0;">Active Deck Title</label>
-                <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-autogen-title" title="Generate a descriptive deck title from Badge + Section + Time + Location" style="padding:1px 7px; font-size:0.68rem; font-weight:800;">✨ Auto-Title</button>
-              </div>
-              <input type="text" id="ws-title-input" class="m3-input" placeholder="e.g., First Aid • Period 1 (8:30–9:45 AM)" style="padding:5px 9px; font-size:0.78rem;" />
+            <!-- 1-CLICK VENUE MACROS (INSIDE BUILDER AREA SO THEY COLLAPSE WITH IT) -->
+            <div id="ws-venue-macros-row" style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-bottom:10px; padding-bottom:8px; border-bottom:1px dashed var(--md-sys-color-outline-variant);">
+              <span style="font-size:0.74rem; font-weight:800; color:var(--md-sys-color-primary);">⚡ 1-Click Venue Macros:</span>
+              <button type="button" class="m3-studiokit-pill" id="btn-ws-macro-mbc" data-ws-venue-macro="danvers_mbc" data-generic-label="🏫 Merit Badge College (4x 75m Sat + Makeup)" data-dmbc-label="🏫 Danvers MBC (4x 75m Sat + Makeup)" style="font-size:0.72rem; padding:3px 9px;">🏫 Merit Badge College (4x 75m Sat + Makeup)</button>
+              <button type="button" class="m3-studiokit-pill" id="btn-ws-macro-camp" data-ws-venue-macro="hidden_valley" data-generic-label="🏕️ Summer Camp (4x 50m Mon–Thu + Fri Makeup)" data-dmbc-label="🏕️ Camp Hidden Valley (4x 50m Mon–Thu + Fri Makeup)" style="font-size:0.72rem; padding:3px 9px;">🏕️ Summer Camp (4x 50m Mon–Thu + Fri Makeup)</button>
+              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="troop_evening" style="font-size:0.72rem; padding:3px 9px;">⚜️ Evening Troop Meeting (3x 60m Weekly)</button>
+              <button type="button" class="m3-studiokit-pill" data-ws-venue-macro="saturday_midway" style="font-size:0.72rem; padding:3px 9px;">🎯 Saturday Midway (1x 180m)</button>
             </div>
 
-            <div>
-              <label class="m3-field-label" for="ws-section-name-select" style="font-size:0.71rem;">Class Section Name</label>
-              <select id="ws-section-name-select" class="m3-select" style="padding:5px 8px; font-size:0.77rem;">
-                <option value="Session">Session</option>
-                <option value="Period" selected>Period</option>
-                <option value="Morning Session">Morning Session</option>
-                <option value="Afternoon Session">Afternoon Session</option>
-                <option value="Evening Troop Meeting">Evening Troop Meeting</option>
-                <option value="First-Year Camper / Trailblazer">First-Year Camper / Trailblazer</option>
-                <option value="Older Scouts / Eagle Prep Section">Older Scouts / Eagle Prep Section</option>
-                <option value="Double-Block Clinic">Double-Block Clinic</option>
-                <option value="Twilight / Open Bonus Session">Twilight / Open Bonus Session</option>
-                <option value="Weekend Campout Practicum">Weekend Campout Practicum</option>
-              </select>
-            </div>
-
-            <div>
-              <label class="m3-field-label" for="ws-section-num-select" style="font-size:0.71rem;">Section #</label>
-              <select id="ws-section-num-select" class="m3-select" style="padding:5px 7px; font-size:0.77rem;">
-                <option value="1" selected>1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="">(None)</option>
-              </select>
-            </div>
-
-            <div>
-              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-bottom:2px;">
-                <label class="m3-field-label" for="ws-start-date-input" style="font-size:0.71rem; margin:0;">Starting Date</label>
-                <span id="ws-derived-weekday-badge" class="m3-chip m3-chip-primary" style="font-size:0.66rem; padding:1px 6px;">📅 Saturday</span>
-              </div>
-              <input type="date" id="ws-start-date-input" class="m3-input" value="2026-01-10" style="padding:4px 8px; font-size:0.76rem;" />
-            </div>
-
-            <div>
-              <label class="m3-field-label" for="ws-frequency-select" style="font-size:0.71rem;">Frequency</label>
-              <select id="ws-frequency-select" class="m3-select" style="padding:5px 7px; font-size:0.77rem;">
-                <option value="Once">Once</option>
-                <option value="Daily">Daily</option>
-                <option value="Weekly" selected>Weekly</option>
-                <option value="Monthly">Monthly</option>
-              </select>
-            </div>
-
-            <div>
-              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-bottom:2px;">
-                <label class="m3-field-label" for="ws-num-sessions-select" style="font-size:0.71rem; margin:0;"># Sessions</label>
-                <label style="display:inline-flex; align-items:center; gap:3px; font-size:0.68rem; font-weight:700; cursor:pointer;" title="Append a Make-Up / Snow-Day Session at the end of the schedule">
-                  <input type="checkbox" id="ws-chk-makeup-session" checked style="width:12px; height:12px;" />
-                  <span>+1 Makeup</span>
-                </label>
-              </div>
-              <select id="ws-num-sessions-select" class="m3-select" style="padding:5px 7px; font-size:0.77rem;">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4" selected>4</option>
-                <option value="5">5</option>
-              </select>
-            </div>
-          </div>
-
-          <!-- ROW 2: START TIME | DURATION + ENDS BADGE | CLASSROOM / LOCATION (+) | CAMP WEEK / MIDWAY TAG (+) | ACTIONS -->
-          <div class="m3-ws-builder-row2" style="display:grid; grid-template-columns:0.85fr 0.95fr 1.35fr 1.25fr auto; gap:8px; align-items:end; margin-bottom:10px;">
-            <div class="m3-ws-combobox-wrap" style="position:relative;">
-              <label class="m3-field-label" for="ws-start-time-input" style="font-size:0.71rem;">Start Time</label>
-              <div class="m3-ws-combobox-input-group">
-                <input type="time" id="ws-start-time-input" step="300" value="08:30" class="m3-input m3-ws-combo-input" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
-                <button type="button" class="m3-ws-combo-caret-btn" id="btn-ws-time-presets" title="Choose a common Class Start Time" aria-label="Toggle Start Time Presets">▾</button>
-              </div>
-              <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-time-presets-menu" role="listbox">
-                <div class="m3-ws-combo-menu-kicker">Quick Start Times</div>
-                <button type="button" class="m3-export-menu-item" data-ws-time-val="08:00">8:00 AM</button>
-                <button type="button" class="m3-export-menu-item" data-ws-time-val="08:30">8:30 AM</button>
-                <button type="button" class="m3-export-menu-item" data-ws-time-val="09:00">9:00 AM</button>
-                <button type="button" class="m3-export-menu-item" data-ws-time-val="09:20">9:20 AM</button>
-                <button type="button" class="m3-export-menu-item" data-ws-time-val="10:00">10:00 AM</button>
-                <button type="button" class="m3-export-menu-item" data-ws-time-val="10:45">10:45 AM</button>
-                <button type="button" class="m3-export-menu-item" data-ws-time-val="13:00">1:00 PM</button>
-                <button type="button" class="m3-export-menu-item" data-ws-time-val="14:00">2:00 PM</button>
-                <button type="button" class="m3-export-menu-item" data-ws-time-val="15:30">3:30 PM</button>
-                <button type="button" class="m3-export-menu-item" data-ws-time-val="19:00">7:00 PM</button>
-              </div>
-            </div>
-
-            <div class="m3-ws-combobox-wrap" style="position:relative;">
-              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-bottom:2px;">
-                <label class="m3-field-label" for="ws-duration-min-input" style="font-size:0.71rem; margin:0;">Duration (min)</label>
-                <span id="ws-derived-endtime-badge" class="m3-chip m3-chip-secondary" style="font-size:0.66rem; padding:1px 6px;">Ends 9:30 AM</span>
-              </div>
-              <div class="m3-ws-combobox-input-group">
-                <input type="number" id="ws-duration-min-input" min="15" max="480" step="5" value="60" class="m3-input m3-ws-combo-input" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
-                <button type="button" class="m3-ws-combo-caret-btn" id="btn-ws-duration-presets" title="Choose a common Class Duration (minutes)" aria-label="Toggle Duration Presets">▾</button>
-              </div>
-              <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-duration-presets-menu" role="listbox">
-                <div class="m3-ws-combo-menu-kicker">Duration Presets (Minutes)</div>
-                <button type="button" class="m3-export-menu-item" data-ws-duration-val="30">30 min</button>
-                <button type="button" class="m3-export-menu-item" data-ws-duration-val="45">45 min</button>
-                <button type="button" class="m3-export-menu-item" data-ws-duration-val="50">50 min (Summer Camp Block)</button>
-                <button type="button" class="m3-export-menu-item" data-ws-duration-val="60">60 min (Standard Hour)</button>
-                <button type="button" class="m3-export-menu-item" id="btn-ws-duration-75" data-ws-duration-val="75" data-generic-label="75 min (MBC Block)" data-dmbc-label="75 min (Danvers MBC Block)">75 min (MBC Block)</button>
-                <button type="button" class="m3-export-menu-item" data-ws-duration-val="80">80 min</button>
-                <button type="button" class="m3-export-menu-item" data-ws-duration-val="90">90 min</button>
-                <button type="button" class="m3-export-menu-item" data-ws-duration-val="120">120 min (2-Hour Clinic)</button>
-                <button type="button" class="m3-export-menu-item" data-ws-duration-val="180">180 min (Half-Day Midway)</button>
-                <button type="button" class="m3-export-menu-item" data-ws-duration-val="240">240 min (Full Morning/Afternoon)</button>
-              </div>
-            </div>
-
-            <div class="m3-ws-combobox-wrap" id="ws-room-combobox-wrap" style="position:relative;">
-              <label class="m3-field-label" for="ws-room-location-input" style="font-size:0.71rem;">Classroom / Location</label>
-              <div style="display:flex; gap:4px; align-items:center;">
-                <div class="m3-ws-combobox-input-group" style="flex:1;">
-                  <input type="text" id="ws-room-location-input" class="m3-input m3-ws-combo-input" value="Main School Building - Room 107 (MBC)" data-generic-val="Main School Building - Room 107 (MBC)" data-dmbc-val="Holten-Richmond MS - Room HR 107 (Danvers MBC)" placeholder="e.g., Main School Building - Room 107 (MBC)" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
-                  <button type="button" class="m3-ws-combo-caret-btn" id="btn-ws-room-presets" title="Choose a Classroom / Camp Location or saved custom venue" aria-label="Toggle Classroom Location Presets">▾</button>
+            <!-- ROW 1: DECK TITLE + AUTO-TITLE | SECTION NAME | SECTION # | STARTING DATE + WEEKDAY BADGE | FREQUENCY | # SESSIONS + MAKEUP -->
+            <div class="m3-ws-builder-row1" style="display:grid; grid-template-columns:1.5fr 1.05fr 0.55fr 1.05fr 0.72fr 0.95fr; gap:8px; align-items:end; margin-bottom:10px;">
+              <div>
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-bottom:2px;">
+                  <label class="m3-field-label" for="ws-title-input" style="font-size:0.71rem; margin:0;">Active Deck Title</label>
+                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-autogen-title" title="Generate a descriptive deck title from Badge + Section + Time + Location" style="padding:1px 7px; font-size:0.68rem; font-weight:800;">✨ Auto-Title</button>
                 </div>
-                <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-add-custom-location" title="Save current Classroom / Location to your custom top-of-list presets" style="padding:5px 8px; font-size:0.76rem; font-weight:900;">+</button>
+                <input type="text" id="ws-title-input" class="m3-input" placeholder="e.g., First Aid • Period 1 (8:30–9:45 AM)" style="padding:5px 9px; font-size:0.78rem;" />
               </div>
-              <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-room-presets-menu" role="listbox" style="max-height:270px; overflow-y:auto;">
-                <div id="ws-custom-locations-group"></div>
-                <div class="m3-ws-combo-menu-kicker" data-generic-only="1">🏫 Merit Badge College &amp; School Classrooms</div>
-                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Room 104 (MBC)">Main School Building - Room 104 (MBC)</button>
-                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Room 107 (MBC)">Main School Building - Room 107 (MBC)</button>
-                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Room 112 Science Lab (MBC)">Main School Building - Room 112 Science Lab (MBC)</button>
-                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Main Cafeteria &amp; Commons (MBC)">Main School Building - Main Cafeteria &amp; Commons (MBC)</button>
-                <div class="m3-ws-combo-menu-kicker" data-generic-only="1">🏕️ Summer Scout Camp Teaching Areas</div>
-                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Main Waterfront &amp; Aquatics Dock">Summer Camp - Main Waterfront &amp; Aquatics Dock</button>
-                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Boating &amp; Canoeing Cove">Summer Camp - Boating &amp; Canoeing Cove</button>
-                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Emergency Skills &amp; First Aid Lodge">Summer Camp - Emergency Skills &amp; First Aid Lodge</button>
-                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Scoutcraft Pavilion">Summer Camp - Scoutcraft Pavilion</button>
-                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Nature &amp; Ecology Lodge">Summer Camp - Nature &amp; Ecology Lodge</button>
-                <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - STEM &amp; Skilled Trades Shop">Summer Camp - STEM &amp; Skilled Trades Shop</button>
-                <div class="m3-ws-combo-menu-kicker hidden" data-dmbc-hvsc-only="1">🏫 Danvers Merit Badge College (Holten-Richmond MS)</div>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 104 (Danvers MBC)">Holten-Richmond MS - Room HR 104 (Danvers MBC)</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 107 (Danvers MBC)">Holten-Richmond MS - Room HR 107 (Danvers MBC)</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 112 Science Lab (Danvers MBC)">Holten-Richmond MS - Room HR 112 Science Lab (Danvers MBC)</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Main Cafeteria &amp; Commons (Danvers MBC)">Holten-Richmond MS - Main Cafeteria &amp; Commons (Danvers MBC)</button>
-                <div class="m3-ws-combo-menu-kicker hidden" data-dmbc-hvsc-only="1">🏕️ Camp Hidden Valley (Griswold Scout Reservation)</div>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Lake Eileen Main Waterfront">Camp Hidden Valley - Lake Eileen Main Waterfront</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Chase Waterfront Boating Cove">Camp Hidden Valley - Chase Waterfront Boating Cove</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Emergency Skills Area">Camp Hidden Valley - Emergency Skills Area</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Scoutcraft Pavilion">Camp Hidden Valley - Scoutcraft Pavilion</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Nature &amp; Ecology Lodge">Camp Hidden Valley - Nature &amp; Ecology Lodge</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - STEM &amp; Skilled Trades Shop">Camp Hidden Valley - STEM &amp; Skilled Trades Shop</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Frontier! First-Year Stockade">Camp Hidden Valley - Frontier! First-Year Stockade</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Gilbert Hall Dining Room">Camp Hidden Valley - Gilbert Hall Dining Room</button>
-                <div class="m3-ws-combo-menu-kicker">⚜️ Troop &amp; Community Venues</div>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Scout Hut / Parish Fellowship Hall">Scout Hut / Parish Fellowship Hall</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Outdoor Pavilion / Picnic Shelter">Outdoor Pavilion / Picnic Shelter</button>
-              </div>
-            </div>
 
-            <div class="m3-ws-combobox-wrap" id="ws-bundle-combobox-wrap" style="position:relative;">
-              <label class="m3-field-label" for="ws-bundle-tag-input" style="font-size:0.71rem;">Camp Week / Midway Tag</label>
-              <div style="display:flex; gap:4px; align-items:center;">
-                <div class="m3-ws-combobox-input-group" style="flex:1;">
-                  <input type="text" id="ws-bundle-tag-input" class="m3-input m3-ws-combo-input" value="District Merit Badge College" data-generic-val="District Merit Badge College" data-dmbc-val="Danvers Merit Badge College" placeholder="Optional (click ▾ for examples)" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
-                  <button type="button" class="m3-ws-combo-caret-btn" id="btn-ws-bundle-presets" title="Choose a Camp Week / Midway Tag or saved custom tag" aria-label="Toggle Camp Week / Midway Tag examples">▾</button>
+              <div>
+                <label class="m3-field-label" for="ws-section-name-select" style="font-size:0.71rem;">Class Section Name</label>
+                <select id="ws-section-name-select" class="m3-select" style="padding:5px 8px; font-size:0.77rem;">
+                  <option value="Session">Session</option>
+                  <option value="Period" selected>Period</option>
+                  <option value="Morning Session">Morning Session</option>
+                  <option value="Afternoon Session">Afternoon Session</option>
+                  <option value="Evening Troop Meeting">Evening Troop Meeting</option>
+                  <option value="First-Year Camper / Trailblazer">First-Year Camper / Trailblazer</option>
+                  <option value="Older Scouts / Eagle Prep Section">Older Scouts / Eagle Prep Section</option>
+                  <option value="Double-Block Clinic">Double-Block Clinic</option>
+                  <option value="Twilight / Open Bonus Session">Twilight / Open Bonus Session</option>
+                  <option value="Weekend Campout Practicum">Weekend Campout Practicum</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="m3-field-label" for="ws-section-num-select" style="font-size:0.71rem;">Section #</label>
+                <select id="ws-section-num-select" class="m3-select" style="padding:5px 7px; font-size:0.77rem;">
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="">(None)</option>
+                </select>
+              </div>
+
+              <div>
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-bottom:2px;">
+                  <label class="m3-field-label" for="ws-start-date-input" style="font-size:0.71rem; margin:0;">Starting Date</label>
+                  <span id="ws-derived-weekday-badge" class="m3-chip m3-chip-primary" style="font-size:0.66rem; padding:1px 6px;">📅 Today</span>
                 </div>
-                <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-add-custom-tag" title="Save current Camp Week / Midway Tag to your custom top-of-list presets" style="padding:5px 8px; font-size:0.76rem; font-weight:900;">+</button>
+                <input type="date" id="ws-start-date-input" class="m3-input" value="" style="padding:4px 8px; font-size:0.76rem;" />
               </div>
-              <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-bundle-presets-menu" role="listbox" style="max-height:270px; overflow-y:auto;">
-                <div id="ws-custom-tags-group"></div>
-                <div class="m3-ws-combo-menu-kicker">Camp Week / Midway Tag Examples</div>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="">(Leave Blank)</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Danvers Merit Badge College">Danvers Merit Badge College</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 1">Camp Hidden Valley - Week 1</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 2">Camp Hidden Valley - Week 2</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 3">Camp Hidden Valley - Week 3</button>
-                <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 4">Camp Hidden Valley - Week 4</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 1">Summer Camp Week 1</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 2">Summer Camp Week 2</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 3">Summer Camp Week 3</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Council Merit Badge Midway">Council Merit Badge Midway</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="District Merit Badge College">District Merit Badge College</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Fall Camporee Skill Station">Fall Camporee Skill Station</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Winter Cabin Lock-In">Winter Cabin Lock-In</button>
-                <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Spring Eagle Trail Weekend">Spring Eagle Trail Weekend</button>
+
+              <div>
+                <label class="m3-field-label" for="ws-frequency-select" style="font-size:0.71rem;">Frequency</label>
+                <select id="ws-frequency-select" class="m3-select" style="padding:5px 7px; font-size:0.77rem;">
+                  <option value="Once">Once</option>
+                  <option value="Daily">Daily</option>
+                  <option value="Weekly" selected>Weekly</option>
+                  <option value="Monthly">Monthly</option>
+                </select>
+              </div>
+
+              <div>
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-bottom:2px;">
+                  <label class="m3-field-label" for="ws-num-sessions-select" style="font-size:0.71rem; margin:0;"># Sessions</label>
+                  <label style="display:inline-flex; align-items:center; gap:3px; font-size:0.68rem; font-weight:700; cursor:pointer;" title="Append a Make-Up / Snow-Day Session at the end of the schedule">
+                    <input type="checkbox" id="ws-chk-makeup-session" checked style="width:12px; height:12px;" />
+                    <span>+1 Makeup</span>
+                  </label>
+                </div>
+                <select id="ws-num-sessions-select" class="m3-select" style="padding:5px 7px; font-size:0.77rem;">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4" selected>4</option>
+                  <option value="5">5</option>
+                </select>
               </div>
             </div>
 
-            <div style="display:flex; gap:6px; align-items:center;">
-              <button type="button" class="m3-btn m3-btn-filled" id="btn-modal-save-workspace" style="padding:6px 12px; font-size:0.76rem; font-weight:800; white-space:nowrap;">
-                💾 Save Active Deck
-              </button>
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-modal-clone-workspace" title="Increments Section #, advances Start Time by Duration + 10 min passing buffer, updates Title, and saves cloned deck" style="padding:6px 11px; font-size:0.76rem; font-weight:800; white-space:nowrap;">
-                📑 Clone Next Period
-              </button>
+            <!-- ROW 2: START TIME | DURATION + ENDS BADGE | CLASSROOM / LOCATION (+) | CAMP WEEK / MIDWAY TAG (+) -->
+            <div class="m3-ws-builder-row2" style="display:grid; grid-template-columns:0.85fr 0.95fr 1.45fr 1.35fr; gap:8px; align-items:end; margin-bottom:10px;">
+              <div class="m3-ws-combobox-wrap" style="position:relative;">
+                <label class="m3-field-label" for="ws-start-time-input" style="font-size:0.71rem;">Start Time</label>
+                <div class="m3-ws-combobox-input-group">
+                  <input type="time" id="ws-start-time-input" step="300" value="08:30" class="m3-input m3-ws-combo-input" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
+                  <button type="button" class="m3-ws-combo-caret-btn" id="btn-ws-time-presets" title="Choose a common Class Start Time" aria-label="Toggle Start Time Presets">▾</button>
+                </div>
+                <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-time-presets-menu" role="listbox">
+                  <div class="m3-ws-combo-menu-kicker">Quick Start Times</div>
+                  <button type="button" class="m3-export-menu-item" data-ws-time-val="08:00">8:00 AM</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-time-val="08:30">8:30 AM</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-time-val="09:00">9:00 AM</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-time-val="09:20">9:20 AM</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-time-val="10:00">10:00 AM</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-time-val="10:45">10:45 AM</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-time-val="13:00">1:00 PM</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-time-val="14:00">2:00 PM</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-time-val="15:30">3:30 PM</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-time-val="19:00">7:00 PM</button>
+                </div>
+              </div>
+
+              <div class="m3-ws-combobox-wrap" style="position:relative;">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:4px; margin-bottom:2px;">
+                  <label class="m3-field-label" for="ws-duration-min-input" style="font-size:0.71rem; margin:0;">Duration (min)</label>
+                  <span id="ws-derived-endtime-badge" class="m3-chip m3-chip-secondary" style="font-size:0.66rem; padding:1px 6px;">Ends 9:30 AM</span>
+                </div>
+                <div class="m3-ws-combobox-input-group">
+                  <input type="number" id="ws-duration-min-input" min="15" max="480" step="5" value="60" class="m3-input m3-ws-combo-input" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
+                  <button type="button" class="m3-ws-combo-caret-btn" id="btn-ws-duration-presets" title="Choose a common Class Duration (minutes)" aria-label="Toggle Duration Presets">▾</button>
+                </div>
+                <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-duration-presets-menu" role="listbox">
+                  <div class="m3-ws-combo-menu-kicker">Duration Presets (Minutes)</div>
+                  <button type="button" class="m3-export-menu-item" data-ws-duration-val="30">30 min</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-duration-val="45">45 min</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-duration-val="50">50 min (Summer Camp Block)</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-duration-val="60">60 min (Standard Hour)</button>
+                  <button type="button" class="m3-export-menu-item" id="btn-ws-duration-75" data-ws-duration-val="75" data-generic-label="75 min (MBC Block)" data-dmbc-label="75 min (Danvers MBC Block)">75 min (MBC Block)</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-duration-val="80">80 min</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-duration-val="90">90 min</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-duration-val="120">120 min (2-Hour Clinic)</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-duration-val="180">180 min (Half-Day Midway)</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-duration-val="240">240 min (Full Morning/Afternoon)</button>
+                </div>
+              </div>
+
+              <div class="m3-ws-combobox-wrap" id="ws-room-combobox-wrap" style="position:relative;">
+                <label class="m3-field-label" for="ws-room-location-input" style="font-size:0.71rem;">Classroom / Location</label>
+                <div style="display:flex; gap:4px; align-items:center;">
+                  <div class="m3-ws-combobox-input-group" style="flex:1;">
+                    <input type="text" id="ws-room-location-input" class="m3-input m3-ws-combo-input" value="Main School Building - Room 107 (MBC)" data-generic-val="Main School Building - Room 107 (MBC)" data-dmbc-val="Holten-Richmond MS - Room HR 107 (Danvers MBC)" placeholder="e.g., Main School Building - Room 107 (MBC)" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
+                    <button type="button" class="m3-ws-combo-caret-btn" id="btn-ws-room-presets" title="Choose a Classroom / Camp Location or saved custom venue" aria-label="Toggle Classroom Location Presets">▾</button>
+                  </div>
+                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-add-custom-location" title="Save current Classroom / Location to your custom top-of-list presets" style="padding:5px 8px; font-size:0.76rem; font-weight:900;">+</button>
+                </div>
+                <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-room-presets-menu" role="listbox" style="max-height:270px; overflow-y:auto;">
+                  <div id="ws-custom-locations-group"></div>
+                  <div class="m3-ws-combo-menu-kicker" data-generic-only="1">🏫 Merit Badge College &amp; School Classrooms</div>
+                  <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Room 104 (MBC)">Main School Building - Room 104 (MBC)</button>
+                  <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Room 107 (MBC)">Main School Building - Room 107 (MBC)</button>
+                  <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Room 112 Science Lab (MBC)">Main School Building - Room 112 Science Lab (MBC)</button>
+                  <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Main School Building - Main Cafeteria &amp; Commons (MBC)">Main School Building - Main Cafeteria &amp; Commons (MBC)</button>
+                  <div class="m3-ws-combo-menu-kicker" data-generic-only="1">🏕️ Summer Scout Camp Teaching Areas</div>
+                  <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Main Waterfront &amp; Aquatics Dock">Summer Camp - Main Waterfront &amp; Aquatics Dock</button>
+                  <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Boating &amp; Canoeing Cove">Summer Camp - Boating &amp; Canoeing Cove</button>
+                  <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Emergency Skills &amp; First Aid Lodge">Summer Camp - Emergency Skills &amp; First Aid Lodge</button>
+                  <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Scoutcraft Pavilion">Summer Camp - Scoutcraft Pavilion</button>
+                  <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - Nature &amp; Ecology Lodge">Summer Camp - Nature &amp; Ecology Lodge</button>
+                  <button type="button" class="m3-export-menu-item" data-generic-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Summer Camp - STEM &amp; Skilled Trades Shop">Summer Camp - STEM &amp; Skilled Trades Shop</button>
+                  <div class="m3-ws-combo-menu-kicker hidden" data-dmbc-hvsc-only="1">🏫 Danvers Merit Badge College (Holten-Richmond MS)</div>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 104 (Danvers MBC)">Holten-Richmond MS - Room HR 104 (Danvers MBC)</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 107 (Danvers MBC)">Holten-Richmond MS - Room HR 107 (Danvers MBC)</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Room HR 112 Science Lab (Danvers MBC)">Holten-Richmond MS - Room HR 112 Science Lab (Danvers MBC)</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Holten-Richmond MS - Main Cafeteria &amp; Commons (Danvers MBC)">Holten-Richmond MS - Main Cafeteria &amp; Commons (Danvers MBC)</button>
+                  <div class="m3-ws-combo-menu-kicker hidden" data-dmbc-hvsc-only="1">🏕️ Camp Hidden Valley (Griswold Scout Reservation)</div>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Lake Eileen Main Waterfront">Camp Hidden Valley - Lake Eileen Main Waterfront</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Chase Waterfront Boating Cove">Camp Hidden Valley - Chase Waterfront Boating Cove</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Emergency Skills Area">Camp Hidden Valley - Emergency Skills Area</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Scoutcraft Pavilion">Camp Hidden Valley - Scoutcraft Pavilion</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Nature &amp; Ecology Lodge">Camp Hidden Valley - Nature &amp; Ecology Lodge</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - STEM &amp; Skilled Trades Shop">Camp Hidden Valley - STEM &amp; Skilled Trades Shop</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Frontier! First-Year Stockade">Camp Hidden Valley - Frontier! First-Year Stockade</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Camp Hidden Valley - Gilbert Hall Dining Room">Camp Hidden Valley - Gilbert Hall Dining Room</button>
+                  <div class="m3-ws-combo-menu-kicker">⚜️ Troop &amp; Community Venues</div>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Scout Hut / Parish Fellowship Hall">Scout Hut / Parish Fellowship Hall</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-room-location-input" data-ws-preset-val="Outdoor Pavilion / Picnic Shelter">Outdoor Pavilion / Picnic Shelter</button>
+                </div>
+              </div>
+
+              <div class="m3-ws-combobox-wrap" id="ws-bundle-combobox-wrap" style="position:relative;">
+                <label class="m3-field-label" for="ws-bundle-tag-input" style="font-size:0.71rem;">Camp Week / Midway Tag</label>
+                <div style="display:flex; gap:4px; align-items:center;">
+                  <div class="m3-ws-combobox-input-group" style="flex:1;">
+                    <input type="text" id="ws-bundle-tag-input" class="m3-input m3-ws-combo-input" value="District Merit Badge College" data-generic-val="District Merit Badge College" data-dmbc-val="Danvers Merit Badge College" placeholder="Optional (click ▾ for examples)" style="padding:5px 26px 5px 8px; font-size:0.77rem;" />
+                    <button type="button" class="m3-ws-combo-caret-btn" id="btn-ws-bundle-presets" title="Choose a Camp Week / Midway Tag or saved custom tag" aria-label="Toggle Camp Week / Midway Tag examples">▾</button>
+                  </div>
+                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-add-custom-tag" title="Save current Camp Week / Midway Tag to your custom top-of-list presets" style="padding:5px 8px; font-size:0.76rem; font-weight:900;">+</button>
+                </div>
+                <div class="m3-export-dropdown-menu m3-ws-combo-menu hidden" id="ws-bundle-presets-menu" role="listbox" style="max-height:270px; overflow-y:auto;">
+                  <div id="ws-custom-tags-group"></div>
+                  <div class="m3-ws-combo-menu-kicker">Camp Week / Midway Tag Examples</div>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="">(Leave Blank)</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Danvers Merit Badge College">Danvers Merit Badge College</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 1">Camp Hidden Valley - Week 1</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 2">Camp Hidden Valley - Week 2</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 3">Camp Hidden Valley - Week 3</button>
+                  <button type="button" class="m3-export-menu-item hidden" data-dmbc-hvsc-only="1" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Camp Hidden Valley - Week 4">Camp Hidden Valley - Week 4</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 1">Summer Camp Week 1</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 2">Summer Camp Week 2</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Summer Camp Week 3">Summer Camp Week 3</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Council Merit Badge Midway">Council Merit Badge Midway</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="District Merit Badge College">District Merit Badge College</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Fall Camporee Skill Station">Fall Camporee Skill Station</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Winter Cabin Lock-In">Winter Cabin Lock-In</button>
+                  <button type="button" class="m3-export-menu-item" data-ws-preset-target="ws-bundle-tag-input" data-ws-preset-val="Spring Eagle Trail Weekend">Spring Eagle Trail Weekend</button>
+                </div>
+              </div>
             </div>
           </div>
-          </div>
 
-          <!-- LIVE COMPUTED SCHEDULE PREVIEW STRIP + SLIDE INJECTION CONTROLS -->
-          <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; padding-top:8px; border-top:1px dashed var(--md-sys-color-outline-variant);">
+          <!-- LIVE COMPUTED SCHEDULE PREVIEW STRIP + SLIDE INJECTION CHECKBOXES & UNIFIED ACTION BAR -->
+          <div style="display:flex; flex-direction:column; gap:8px; padding-top:8px; border-top:1px dashed var(--md-sys-color-outline-variant);">
             <div id="ws-live-schedule-strip" style="font-size:0.76rem; font-weight:700; color:var(--md-sys-color-primary);">
-              🗓️ 4x 60-Min Weekly Sessions: Sat Jan 10, Jan 17, Jan 24, Jan 31 + Make-Up Sat Feb 7 &bull; 8:30 AM – 9:30 AM &bull; Main School Building - Room 107 (MBC)
+              🗓️ 4x 60-Min Weekly Sessions &bull; 8:30 AM – 9:30 AM &bull; Main School Building - Room 107 (MBC)
             </div>
-            <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-              <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-apply-logistics-slides" style="padding:5px 11px; font-size:0.74rem; font-weight:800; white-space:nowrap;">
-                ➕ Insert / Update Slides in Deck
-              </button>
-              <button type="button" class="m3-btn m3-btn-outlined" id="btn-ws-remove-logistics-slides" style="padding:5px 9px; font-size:0.74rem; font-weight:700; white-space:nowrap;">
-                🗑️ Remove Logistics Slides
-              </button>
+
+            <!-- SLIDE 2 & FINAL SLIDE CHECKBOXES DIRECTLY ABOVE INSERT/REMOVE BUTTONS -->
+            <div id="ws-logistics-checkboxes-row" style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+              <label style="display:inline-flex; align-items:center; gap:5px; font-size:0.74rem; font-weight:700; cursor:pointer;">
+                <input type="checkbox" id="ws-chk-include-slide2" checked style="width:14px; height:14px;" />
+                <span>Slide 2: Class Overview &amp; Pre-Work</span>
+              </label>
+              <label style="display:inline-flex; align-items:center; gap:5px; font-size:0.74rem; font-weight:700; cursor:pointer;">
+                <input type="checkbox" id="ws-chk-include-sliden" checked style="width:14px; height:14px;" />
+                <span>Final Slide: Homework &amp; Blue Card Check-Out</span>
+              </label>
+            </div>
+
+            <!-- UNIFIED ACTION BUTTONS ROW: INSERT/REMOVE LEFT + SAVE/CLONE FLUSH RIGHT -->
+            <div id="ws-logistics-actions-row" style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; width:100%;">
+              <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                <button type="button" class="m3-btn m3-btn-tonal" id="btn-ws-apply-logistics-slides" style="padding:5px 11px; font-size:0.74rem; font-weight:800; white-space:nowrap;">
+                  ➕ Insert / Update Slides in Deck
+                </button>
+                <button type="button" class="m3-btn m3-btn-outlined" id="btn-ws-remove-logistics-slides" style="padding:5px 9px; font-size:0.74rem; font-weight:700; white-space:nowrap;">
+                  🗑️ Remove Logistics Slides
+                </button>
+              </div>
+              <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-left:auto;">
+                <button type="button" class="m3-btn m3-btn-filled" id="btn-modal-save-workspace" style="padding:6px 12px; font-size:0.76rem; font-weight:800; white-space:nowrap;">
+                  💾 Save Active Deck
+                </button>
+                <button type="button" class="m3-btn m3-btn-tonal" id="btn-modal-clone-workspace" title="Increments Section #, advances Start Time by Duration + 10 min passing buffer, updates Title, and saves cloned deck" style="padding:6px 11px; font-size:0.76rem; font-weight:800; white-space:nowrap;">
+                  📑 Clone Next Period
+                </button>
+              </div>
             </div>
           </div>
 
           <!-- HIDDEN LEGACY SYNC INPUTS SO ALL CALLERS WORK SEAMLESSLY -->
           <input type="hidden" id="ws-session-label-input" value="Period 1 (8:30 AM – 9:30 AM)" />
           <input type="hidden" id="ws-class-time-input" value="8:30 AM – 9:30 AM" />
-          <input type="hidden" id="ws-session-dates-input" value="4x 60-Min Weekly Sessions: Sat Jan 10, Jan 17, Jan 24, Jan 31 + Make-Up Sat Feb 7" />
+          <input type="hidden" id="ws-session-dates-input" value="4x 60-Min Weekly Sessions" />
         </div>
 
         <div id="saved-workspaces-grid" class="m3-saved-workspaces-grid"></div>

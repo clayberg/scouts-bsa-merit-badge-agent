@@ -7417,16 +7417,59 @@ function bindCounselorToolkitActions() {
       if (btn) {
         btn.textContent = remove ? "✅ Removed Logistics Slides!" : "✅ Injected Logistics Slides!";
         setTimeout(() => {
-          btn.textContent = origText;
-        }, 2000);
+          if (typeof window.syncLogisticsSlidesButtonsUi === "function") {
+            window.syncLogisticsSlidesButtonsUi();
+          } else {
+            btn.textContent = origText;
+          }
+        }, 1800);
+      } else if (typeof window.syncLogisticsSlidesButtonsUi === "function") {
+        window.syncLogisticsSlidesButtonsUi();
       }
     } catch (_e) {
       if (btn) btn.textContent = origText;
     } finally {
       if (btn) btn.disabled = false;
+      if (typeof window.syncLogisticsSlidesButtonsUi === "function") {
+        setTimeout(() => window.syncLogisticsSlidesButtonsUi(), 1850);
+      }
     }
   };
   window.applyOrRemoveClassLogisticsSlides = applyOrRemoveClassLogisticsSlides;
+
+  const syncLogisticsSlidesButtonsUi = () => {
+    const slides = state.currentResult?.storyboard?.slides || [];
+    const hasOpening = slides.some((s) => s.slide_id === "overview-logistics");
+    const hasClosing = slides.some((s) => s.slide_id === "homework-checkout");
+    const activeCount = (hasOpening ? 1 : 0) + (hasClosing ? 1 : 0);
+
+    const applyWsBtn = document.getElementById("btn-ws-apply-logistics-slides");
+    const removeWsBtn = document.getElementById("btn-ws-remove-logistics-slides");
+    const applyDrawerBtn = document.getElementById("btn-apply-logistics-slides");
+    const removeDrawerBtn = document.getElementById("btn-remove-logistics-slides");
+
+    const activeLabel =
+      activeCount > 0
+        ? `✓ ${activeCount} Logistics Slide${activeCount === 1 ? "" : "s"} Active — Click to Sync`
+        : "➕ Insert / Update Slides in Deck";
+
+    if (applyWsBtn && !applyWsBtn.textContent.startsWith("⏳") && !applyWsBtn.textContent.startsWith("✅")) {
+      applyWsBtn.textContent = activeLabel;
+    }
+    if (applyDrawerBtn && !applyDrawerBtn.textContent.startsWith("⏳") && !applyDrawerBtn.textContent.startsWith("✅")) {
+      applyDrawerBtn.textContent = activeLabel;
+    }
+    [removeWsBtn, removeDrawerBtn].forEach((rBtn) => {
+      if (!rBtn) return;
+      rBtn.disabled = activeCount === 0;
+      rBtn.style.opacity = activeCount === 0 ? "0.55" : "1";
+      rBtn.title =
+        activeCount === 0
+          ? "No Class Logistics slides are currently inserted in this deck"
+          : `Remove ${activeCount} Class Logistics slide${activeCount === 1 ? "" : "s"} from deck`;
+    });
+  };
+  window.syncLogisticsSlidesButtonsUi = syncLogisticsSlidesButtonsUi;
 
   document.getElementById("btn-apply-logistics-slides")?.addEventListener("click", (ev) => {
     applyOrRemoveClassLogisticsSlides({ remove: false, fromModal: false, triggerBtn: ev.currentTarget });
@@ -8201,12 +8244,34 @@ function renderBlueCardTracker(result) {
     })
     .join("");
 
+  const headerSessionBtnsHtml = sessionKeys
+    .map((sk) => {
+      const allPresent =
+        roster.scouts.length > 0 &&
+        roster.scouts.every((sc) => {
+          const defVal = sk !== "M";
+          const curVal = sc.attendance && typeof sc.attendance[sk] === "boolean" ? sc.attendance[sk] : defVal;
+          return Boolean(curVal);
+        });
+      const dateHint = schedCfg.sessionTooltips?.[sk] ? ` • ${schedCfg.sessionTooltips[sk]}` : "";
+      return `<button type="button" class="m3-bc-attendance-pill m3-bc-col-session-btn ${allPresent ? "is-present" : "is-absent"}" data-bc-col-sess="${escapeHtml(sk)}" title="1-Click Patrol Attendance: Toggle ${escapeHtml(sk)} for all Scouts${escapeHtml(dateHint)}" style="font-size:0.61rem; padding:1px 5px; line-height:1.15;">✓${escapeHtml(sk)}</button>`;
+    })
+    .join("");
+
   container.innerHTML = `
     <table class="m3-bluecard-table">
       <thead>
         <tr>
           <th>Scout Name &amp; Troop</th>
-          <th data-testid="bluecard-session-attendance-header">Smart Partial &amp; Session Attendance (${escapeHtml(schedCfg.headerRangeLabel || "S1–S4 | M")})</th>
+          <th data-testid="bluecard-session-attendance-header">
+            <div style="display:flex; flex-direction:column; gap:3px;">
+              <span>Smart Partial &amp; Session Attendance (${escapeHtml(schedCfg.headerRangeLabel || "S1–S4 | M")})</span>
+              <div style="display:flex; align-items:center; gap:3px; flex-wrap:wrap;" title="Click a session pill to toggle attendance for the entire patrol at once">
+                <span style="font-size:0.60rem; font-weight:700; color:#475569;">Patrol All:</span>
+                ${headerSessionBtnsHtml}
+              </div>
+            </div>
+          </th>
           <th>Quick</th>
           ${headerCols}
         </tr>
@@ -8216,6 +8281,35 @@ function renderBlueCardTracker(result) {
       </tbody>
     </table>
   `;
+
+  container.querySelectorAll("button[data-bc-col-sess]").forEach((colBtn) => {
+    colBtn.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const sessKey = colBtn.getAttribute("data-bc-col-sess") || "S1";
+      const allPresentNow =
+        roster.scouts.length > 0 &&
+        roster.scouts.every((sc) => {
+          const defVal = sessKey !== "M";
+          const curVal = sc.attendance && typeof sc.attendance[sessKey] === "boolean" ? sc.attendance[sessKey] : defVal;
+          return Boolean(curVal);
+        });
+      const nextVal = !allPresentNow;
+      roster.scouts.forEach((sc) => {
+        const defaultAtt = {};
+        sessionKeys.forEach((k) => {
+          defaultAtt[k] = k !== "M";
+        });
+        sc.attendance = Object.assign(defaultAtt, sc.attendance || {});
+        sc.attendance[sessKey] = nextVal;
+      });
+      saveBadgeBlueCardRoster(badgeName, roster);
+      renderBlueCardTracker(result);
+      showToast(
+        `📋 Marked entire patrol ${nextVal ? "Present ✓" : "Absent"} for ${sessKey}.`,
+        "info"
+      );
+    });
+  });
 
   container.querySelectorAll("button[data-bc-att-scout][data-bc-att-sess]").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -13473,6 +13567,56 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
   }
 };
 
+const COMMON_COLOR_SWATCH_PALETTE = [
+  { name: "Green", r: 27, g: 94, b: 32 },
+  { name: "Blue", r: 2, g: 132, b: 199 },
+  { name: "Navy", r: 0, g: 63, b: 135 },
+  { name: "Red", r: 206, g: 17, b: 38 },
+  { name: "Crimson", r: 153, g: 27, b: 27 },
+  { name: "Gold", r: 217, g: 119, b: 6 },
+  { name: "Orange", r: 234, g: 88, b: 12 },
+  { name: "Teal", r: 15, g: 118, b: 110 },
+  { name: "Purple", r: 124, g: 58, b: 237 },
+  { name: "Brown", r: 139, g: 90, b: 43 },
+  { name: "Slate", r: 51, g: 65, b: 85 },
+  { name: "Olive", r: 77, g: 124, b: 15 },
+];
+
+function getClosestColorName(hexStr) {
+  const s = String(hexStr || "#1B5E20").trim().replace(/^#/, "");
+  const full = s.length === 3 ? s.split("").map((c) => c + c).join("") : s.padEnd(6, "0").slice(0, 6);
+  const r = parseInt(full.slice(0, 2), 16) || 0;
+  const g = parseInt(full.slice(2, 4), 16) || 0;
+  const b = parseInt(full.slice(4, 6), 16) || 0;
+  let bestName = "Blue";
+  let bestDist = Infinity;
+  COMMON_COLOR_SWATCH_PALETTE.forEach((c) => {
+    const d = 2 * Math.pow(r - c.r, 2) + 4 * Math.pow(g - c.g, 2) + 3 * Math.pow(b - c.b, 2);
+    if (d < bestDist) {
+      bestDist = d;
+      bestName = c.name;
+    }
+  });
+  return bestName;
+}
+window.getClosestColorName = getClosestColorName;
+
+function getDisambiguatedColorNames(hexList) {
+  const rawNames = (hexList || []).map((h) => getClosestColorName(h));
+  const counts = {};
+  const result = [];
+  rawNames.forEach((nm) => {
+    counts[nm] = (counts[nm] || 0) + 1;
+    if (counts[nm] === 1) {
+      result.push(nm);
+    } else {
+      result.push(`${nm} ${counts[nm]}`);
+    }
+  });
+  return result;
+}
+window.getDisambiguatedColorNames = getDisambiguatedColorNames;
+
 function groupTemplatesByStyleFamily(list) {
   const groups = [];
   const byKey = new Map();
@@ -13487,18 +13631,30 @@ function groupTemplatesByStyleFamily(list) {
       t.family_id &&
         t.family_id !== "custom_uploaded" &&
         (familyCounts.get(t.family_id) >= 2 ||
-          ["brushed_banner", "outdoor_silhouette", "forest_sunrise", "topographic", "fleur_crest"].includes(t.family_id) ||
-          String(t.family_id).startsWith("nanobanana_tpl_"))
+          [
+            "brushed_banner",
+            "outdoor_silhouette",
+            "forest_sunrise",
+            "topographic",
+            "fleur_crest",
+            "camp_hidden_valley_edition",
+            "danvers_mbc_edition",
+          ].includes(t.family_id) ||
+          String(t.family_id).startsWith("nanobanana_tpl_") ||
+          String(t.family_id).startsWith("nb_"))
     );
     const groupKey = isMultiColorFamily ? `family:${t.family_id}` : `single:${t.template_id}`;
     if (!byKey.has(groupKey)) {
-      const baseName = String(t.name || "").replace(/\s*\([^)]+\)\s*$/, "");
+      const baseName = String(t.name || "")
+        .replace(/\s*\([^)]+\)\s*$/, "")
+        .replace(/\s*[—–-]\s*(HV-\d+|DMBC-\d+)\b.*$/i, "")
+        .trim();
       const entry = {
         groupKey,
         isMultiColorFamily,
         familyId: t.family_id || "custom_uploaded",
         familyName: t.family_name || (t.is_builtin ? "Built-In Templates" : "Custom & AI Templates"),
-        seriesTitle: isMultiColorFamily ? baseName : t.name,
+        seriesTitle: isMultiColorFamily ? baseName || t.name : t.name,
         variants: [],
       };
       byKey.set(groupKey, entry);
@@ -13513,14 +13669,18 @@ function getTemplateBaseDisplayName(t) {
   const raw = String(t?.name || "Workbench Classic")
     .replace(" (Full Canvas)", "")
     .replace("Scouting America | ", "");
-  return raw.replace(/\s*\((Green|Blue|Red|Tan)\)\s*$/i, "").trim();
+  return raw
+    .replace(/\s*\((Green|Blue|Red|Tan|Gold|Navy|Teal|Orange|Purple|Crimson|Brown|Slate|Olive|Variant\s+[A-C])(?:\s+\d+)?\)\s*$/i, "")
+    .trim();
 }
 
 function getTemplateVariantInfo(t) {
   let colorKey = String(t?.variant_color || "").toLowerCase();
   let label = String(t?.variant_label || "");
   if (!colorKey) {
-    const m = String(t?.name || "").match(/\((Green|Blue|Red|Tan)\)\s*$/i);
+    const m = String(t?.name || "").match(
+      /\((Green|Blue|Red|Tan|Gold|Navy|Teal|Orange|Purple|Crimson|Brown|Slate|Olive)(?:\s+\d+)?\)\s*$/i
+    );
     if (m) {
       label = m[1];
       colorKey = m[1].toLowerCase();
@@ -13529,15 +13689,33 @@ function getTemplateVariantInfo(t) {
   if (!colorKey) return null;
   const defaultHexMap = {
     green: "#1B5E20",
-    blue: "#003F87",
+    blue: "#0284C7",
+    navy: "#003F87",
     red: "#CE1126",
+    crimson: "#991B1B",
     tan: "#8B5A2B",
+    brown: "#8B5A2B",
+    gold: "#D97706",
+    orange: "#EA580C",
+    teal: "#0F766E",
+    purple: "#7C3AED",
+    slate: "#334155",
+    olive: "#4D7C0F",
   };
   const emojiMap = {
     green: "🟢",
+    olive: "🟢",
+    teal: "🟢",
     blue: "🔵",
+    navy: "🔵",
+    slate: "🔵",
     red: "🔴",
+    crimson: "🔴",
     tan: "🟤",
+    brown: "🟤",
+    gold: "🟡",
+    orange: "🟠",
+    purple: "🟣",
   };
   return {
     colorKey,
@@ -13605,7 +13783,14 @@ function populateTemplateSelectOptgroups(sel, list, activeId) {
   }
 }
 
-const DMBC_HVSC_TEMPLATE_IDS = new Set(["camp_hidden_valley", "danvers_mbc"]);
+const DMBC_HVSC_TEMPLATE_IDS = new Set([
+  "camp_hidden_valley",
+  "camp_hidden_valley_v2",
+  "camp_hidden_valley_v3",
+  "danvers_mbc",
+  "danvers_mbc_v2",
+  "danvers_mbc_v3",
+]);
 
 function isDmbcHvscTemplateEntry(t) {
   if (!t) return false;
@@ -14587,18 +14772,102 @@ async function initPowerPointTemplateStudio() {
     nameIn?.focus();
   });
 
+  state.tplAiPreviewSlideMode = "content";
+
+  const buildProceduralCoverBackdropSvgDataUrl = (styleFamily, promptText, pHex, aHex) => {
+    const promptLower = `${styleFamily || ""} ${promptText || ""}`.toLowerCase();
+    const hasLake = /lake|water|river|shore|cove|harbor|ocean|nautical|aquatic|canoe|dock/.test(promptLower);
+    const hasSunset = /sunset|sunrise|dawn|dusk|campfire|amber|gold/.test(promptLower);
+    const hasCupola = /collegiate|mbc|university|school|cupola|campus|academic|danvers|holten/.test(promptLower);
+    const skyTop = hasSunset ? aHex : pHex;
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="${skyTop}" stop-opacity="0.24"/>
+          <stop offset="58%" stop-color="${aHex}" stop-opacity="0.14"/>
+          <stop offset="100%" stop-color="#FAF8F5" stop-opacity="0.95"/>
+        </linearGradient>
+      </defs>
+      <rect width="800" height="450" fill="#FAF8F5"/>
+      <rect width="800" height="450" fill="url(#sky)"/>
+      ${
+        hasSunset
+          ? `<circle cx="590" cy="175" r="78" fill="${aHex}" fill-opacity="0.22"/><circle cx="590" cy="175" r="44" fill="${aHex}" fill-opacity="0.30"/>`
+          : `<circle cx="640" cy="120" r="64" fill="${pHex}" fill-opacity="0.12"/>`
+      }
+      <path d="M0,290 Q160,210 330,265 T670,225 L800,260 L800,450 L0,450 Z" fill="${pHex}" fill-opacity="0.15"/>
+      <path d="M0,335 Q220,265 430,315 T800,295 L800,450 L0,450 Z" fill="${pHex}" fill-opacity="0.22"/>
+      ${
+        hasCupola
+          ? `<g fill="${pHex}" fill-opacity="0.18"><rect x="330" y="210" width="140" height="95"/><polygon points="320,210 400,165 480,210"/><rect x="385" y="135" width="30" height="32"/><polygon points="380,135 400,110 420,135"/></g>`
+          : ""
+      }
+      ${
+        hasLake
+          ? `<rect x="0" y="345" width="800" height="105" fill="${aHex}" fill-opacity="0.12"/><line x1="120" y1="372" x2="680" y2="372" stroke="${pHex}" stroke-opacity="0.22" stroke-width="2"/><line x1="210" y1="396" x2="590" y2="396" stroke="${aHex}" stroke-opacity="0.28" stroke-width="2"/>`
+          : ""
+      }
+    </svg>`;
+    return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+  };
+
   const updateNanoBananaLivePreview = () => {
     const c1 = document.getElementById("tpl-ai-color1")?.value || "#1B5E20";
     const c2 = document.getElementById("tpl-ai-color2")?.value || "#0284C7";
     const c3 = document.getElementById("tpl-ai-color3")?.value || "#D97706";
     const useC2 = document.getElementById("tpl-ai-use-color2")?.checked !== false;
     const useC3 = document.getElementById("tpl-ai-use-color3")?.checked !== false;
+
+    const [c1Name, c2Name, c3Name] = getDisambiguatedColorNames([c1, c2, c3]);
+    const lbl1 = document.getElementById("tpl-ai-color1-label");
+    const lbl2 = document.getElementById("tpl-ai-color2-label");
+    const lbl3 = document.getElementById("tpl-ai-color3-label");
+    if (lbl1) lbl1.textContent = `${c1Name} (Primary):`;
+    if (lbl2) lbl2.textContent = `${c2Name} (Secondary):`;
+    if (lbl3) lbl3.textContent = `${c3Name} (Accent):`;
+
+    const enabledCount = 1 + (useC2 ? 1 : 0) + (useC3 ? 1 : 0);
+    const colorsHeading = document.getElementById("tpl-ai-colors-heading");
+    if (colorsHeading) {
+      colorsHeading.textContent = `3. Up to 3 Brand Colors (Generates ${enabledCount} Switchable Color Variant${
+        enabledCount === 1 ? "" : "s"
+      })`;
+    }
+    const finopsChip = document.getElementById("tpl-ai-finops-count-chip");
+    if (finopsChip) {
+      finopsChip.textContent = `Est. Cost: $0.08 USD (${enabledCount} Color Variant${enabledCount === 1 ? "" : "s"})`;
+    }
+    const genBtn = document.getElementById("btn-tpl-ai-generate");
+    if (genBtn && !genBtn.textContent.startsWith("⏳")) {
+      genBtn.textContent = `🍌 Generate & Save ${enabledCount}-Variant AI Template Family ($0.08 USD)`;
+    }
+
     const dotA = document.getElementById("tpl-ai-dot-a");
     const dotB = document.getElementById("tpl-ai-dot-b");
     const dotC = document.getElementById("tpl-ai-dot-c");
     if (dotA) dotA.style.background = c1;
     if (dotB) dotB.style.background = useC2 ? c2 : c1;
     if (dotC) dotC.style.background = useC3 ? c3 : c1;
+
+    const varLblA = document.getElementById("tpl-ai-var-label-a");
+    const varLblB = document.getElementById("tpl-ai-var-label-b");
+    const varLblC = document.getElementById("tpl-ai-var-label-c");
+    if (varLblA) varLblA.textContent = `${c1Name} (Primary)`;
+    if (varLblB) varLblB.textContent = `${c2Name} (Secondary)`;
+    if (varLblC) varLblC.textContent = `${c3Name} (Accent)`;
+
+    const pillA = document.querySelector('[data-tpl-ai-variant="A"]');
+    const pillB = document.querySelector('[data-tpl-ai-variant="B"]');
+    const pillC = document.querySelector('[data-tpl-ai-variant="C"]');
+    if (pillB) pillB.classList.toggle("hidden", !useC2);
+    if (pillC) pillC.classList.toggle("hidden", !useC3);
+
+    if ((state.tplAiActiveVariantIndex === 1 && !useC2) || (state.tplAiActiveVariantIndex === 2 && !useC3)) {
+      state.tplAiActiveVariantIndex = 0;
+      document.querySelectorAll("[data-tpl-ai-variant]").forEach((p) => {
+        p.classList.toggle("active", p === pillA);
+      });
+    }
 
     const activeVariantIdx = state.tplAiActiveVariantIndex || 0;
     const primaryColors = [c1, useC2 ? c2 : c1, useC3 ? c3 : c1];
@@ -14607,6 +14876,7 @@ async function initPowerPointTemplateStudio() {
     const activeAccent = accentColors[activeVariantIdx] || "#D4AF37";
     const framePreset = document.getElementById("tpl-ai-frame-select")?.value || "horizon_silhouette";
     const styleFamily = document.getElementById("tpl-ai-style-select")?.value || "pinewood_campfire";
+    const promptText = (document.getElementById("tpl-ai-prompt-input")?.value || "").trim();
     const dmbcOn =
       typeof window.isDmbcHvscCustomizationsEnabled === "function"
         ? window.isDmbcHvscCustomizationsEnabled()
@@ -14616,11 +14886,16 @@ async function initPowerPointTemplateStudio() {
     const logoPos = document.getElementById("tpl-ai-logo-pos-select")?.value || "top_right";
 
     const stageBox = document.getElementById("tpl-ai-live-preview-stage");
-    const genVar = (state.tplAiGeneratedVariants || [])[activeVariantIdx];
+    const enabledGenMap = {
+      0: (state.tplAiGeneratedVariants || [])[0],
+      1: useC2 ? (state.tplAiGeneratedVariants || [])[1] : null,
+      2: useC3 ? (state.tplAiGeneratedVariants || [])[useC2 ? 2 : 1] : null,
+    };
+    const genVar = enabledGenMap[activeVariantIdx] || null;
     const pHex = genVar?.primary_hex || activePrimary;
     const aHex = genVar?.accent_hex || activeAccent;
-    const variantLabels = ["Variant A (Primary)", "Variant B (Secondary)", "Variant C (Accent)"];
-    const activeVariantLabel = variantLabels[activeVariantIdx] || "Variant A";
+    const variantLabels = [`${c1Name} (Primary)`, `${c2Name} (Secondary)`, `${c3Name} (Accent)`];
+    const activeVariantLabel = variantLabels[activeVariantIdx] || `${c1Name} (Primary)`;
     const styleBadgeMap = {
       pinewood_campfire: "🌲 Pinewood & Lake Silhouette",
       topographic_adventure: "🗺️ Topographic Contour Map",
@@ -14638,10 +14913,18 @@ async function initPowerPointTemplateStudio() {
         ? "bottom:8px; right:10px;"
         : "top:7px; right:10px;";
 
+    const previewMode = state.tplAiPreviewSlideMode || "content";
+
     if (stageBox) {
-      if (genVar?.cover_bg_url || genVar?.canvas_watermark_url) {
-        const bgUrl = genVar.cover_bg_url || genVar.canvas_watermark_url;
-        stageBox.style.backgroundImage = `linear-gradient(rgba(250,248,245,0.82), rgba(250,248,245,0.88)), url('${bgUrl}')`;
+      const coverBgUrl =
+        genVar?.cover_bg_url || buildProceduralCoverBackdropSvgDataUrl(styleFamily, promptText, pHex, aHex);
+      if (previewMode === "cover") {
+        stageBox.style.backgroundImage = `linear-gradient(rgba(250,248,245,0.58), rgba(250,248,245,0.68)), url('${coverBgUrl}')`;
+        stageBox.style.backgroundSize = "cover";
+        stageBox.style.backgroundPosition = "center";
+      } else if (genVar?.canvas_watermark_url || genVar?.cover_bg_url) {
+        const bgUrl = genVar.canvas_watermark_url || genVar.cover_bg_url;
+        stageBox.style.backgroundImage = `linear-gradient(rgba(250,248,245,0.84), rgba(250,248,245,0.90)), url('${bgUrl}')`;
         stageBox.style.backgroundSize = "cover";
       } else {
         stageBox.style.backgroundImage = `radial-gradient(circle at 85% 18%, ${pHex}14 0%, transparent 55%), linear-gradient(180deg, #FAF8F5 0%, #F4F1EA 100%)`;
@@ -14650,54 +14933,96 @@ async function initPowerPointTemplateStudio() {
 
       const perimeterBorder =
         framePreset === "heritage_border" ? `box-shadow: inset 0 0 0 4px ${pHex}, inset 0 0 0 7px ${aHex};` : "";
-      stageBox.innerHTML = `
-        <div style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; justify-content:space-between; ${perimeterBorder}">
-          <!-- Top Header Band -->
-          <div id="tpl-ai-preview-header-band" style="background:linear-gradient(135deg, ${escapeHtml(pHex)} 0%, ${escapeHtml(pHex)}E6 100%); border-bottom:3px solid ${escapeHtml(aHex)}; padding:8px 14px; color:#FFFFFF; display:flex; align-items:center; justify-content:space-between; gap:8px;">
-            <div style="min-width:0;">
-              <div style="font-size:0.60rem; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; opacity:0.9;">${escapeHtml(styleDisplay)} &bull; ${escapeHtml(activeVariantLabel)}</div>
-              <div id="tpl-ai-preview-title-text" style="font-family:'Roboto Slab',serif; font-size:0.82rem; font-weight:800; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${escapeHtml(tplName)}</div>
-            </div>
-            <span style="background:rgba(255,255,255,0.2); border:1px solid rgba(255,255,255,0.45); border-radius:999px; padding:2px 8px; font-size:0.62rem; font-weight:800; white-space:nowrap;">16:9 Safe Bounds</span>
-          </div>
 
-          <!-- Center SafeCanvasBounds Content Preview -->
-          <div style="padding:10px 14px; display:grid; grid-template-columns:1.25fr 0.85fr; gap:10px; flex:1; align-items:stretch;">
-            <div id="tpl-ai-preview-safe-card" style="background:rgba(255,255,255,0.94); border:1px solid #CBD5E1; border-left:4px solid ${escapeHtml(pHex)}; border-radius:8px; padding:8px 10px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 2px 6px rgba(15,23,42,0.06);">
-              <div>
-                <div style="font-size:0.64rem; font-weight:800; color:${escapeHtml(pHex)}; text-transform:uppercase;">Requirement 1 &bull; Protected Content Zone</div>
-                <div style="font-size:0.74rem; font-weight:800; color:#0F172A; margin-top:2px;">Scene Assessment &amp; Triage Priorities</div>
-                <ul style="margin:4px 0 0 14px; padding:0; font-size:0.66rem; color:#334155; line-height:1.35;">
-                  <li>Check scene safety before approaching patient</li>
-                  <li>Activate 911 / EMS &amp; retrieve unit first-aid kit</li>
-                  <li>Protected y: 1.12"&ndash;6.55" above silhouette</li>
-                </ul>
+      const topRightBadgeMargin =
+        logoPos === "bottom_left" || logoPos === "bottom-left" || logoPos === "bottom_right" || logoPos === "bottom-right"
+          ? ""
+          : "margin-right:32px;";
+
+      if (previewMode === "cover") {
+        stageBox.innerHTML = `
+          <div id="tpl-ai-preview-cover-mode" style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; justify-content:space-between; ${perimeterBorder}">
+            <div id="tpl-ai-preview-header-band" style="background:linear-gradient(135deg, ${escapeHtml(pHex)} 0%, ${escapeHtml(pHex)}E6 100%); border-bottom:3px solid ${escapeHtml(aHex)}; padding:7px 14px; color:#FFFFFF; display:flex; align-items:center; justify-content:space-between; gap:8px;">
+              <div style="font-size:0.60rem; font-weight:800; letter-spacing:0.06em; text-transform:uppercase;">Slide 1: Washed Cover Backdrop (cover_bg_url) &bull; ${escapeHtml(activeVariantLabel)}</div>
+              <span style="background:rgba(255,255,255,0.2); border:1px solid rgba(255,255,255,0.45); border-radius:999px; padding:1px 8px; font-size:0.60rem; font-weight:800; white-space:nowrap; ${topRightBadgeMargin}">Full-Slide Light Wash</span>
+            </div>
+            <div style="padding:14px 18px; display:flex; align-items:center; justify-content:space-between; gap:14px; flex:1;">
+              <div style="background:rgba(255,255,255,0.78); backdrop-filter:blur(2px); border-left:5px solid ${escapeHtml(pHex)}; border-radius:10px; padding:12px 14px; flex:1; box-shadow:0 4px 14px rgba(15,23,42,0.08);">
+                <div style="font-size:0.62rem; font-weight:800; color:${escapeHtml(aHex)}; text-transform:uppercase; letter-spacing:0.05em;">SCOUTS BSA MERIT BADGE CURRICULUM</div>
+                <div id="tpl-ai-preview-title-text" style="font-family:'Roboto Slab',serif; font-size:1.05rem; font-weight:800; color:${escapeHtml(pHex)}; margin-top:2px;">First Aid Merit Badge</div>
+                <div style="font-size:0.68rem; color:#334155; margin-top:4px; font-weight:600;">${escapeHtml(tplName)} &bull; ${escapeHtml(styleDisplay)}</div>
+                <div style="font-size:0.60rem; color:#475569; margin-top:6px;">Full-bleed scenic cover backdrop washed at 18%&ndash;22% opacity (matches BSA High Adventure &amp; Forest Sunrise).</div>
               </div>
-              <div style="font-family:var(--font-mono); font-size:0.59rem; color:#475569; background:#F1F5F9; padding:2px 6px; border-radius:4px; width:fit-content;">
-                📐 SafeCanvasBounds: 12.13" &times; 5.43" (Zero Overlap)
+              <img src="/assets/badge_emblems/first_aid.png" alt="" style="width:68px; height:68px; object-fit:contain; filter:drop-shadow(0 4px 10px rgba(15,23,42,0.18));" />
+            </div>
+            <div id="tpl-ai-preview-bottom-silhouette" style="position:relative; height:34px; background:linear-gradient(90deg, ${escapeHtml(pHex)} 0%, ${escapeHtml(pHex)}D9 65%, ${escapeHtml(aHex)} 100%); border-top:2.5px solid ${escapeHtml(aHex)}; display:flex; align-items:center; justify-content:space-between; padding:0 12px; color:#FFFFFF; font-size:0.61rem; font-weight:700;">
+              <span>Scouts BSA First Aid Merit Badge &bull; Cover Slide 1</span>
+              <span>${escapeHtml(activeVariantLabel)}</span>
+            </div>
+            <img id="tpl-ai-preview-corner-logo" src="${escapeHtml(logoSrc)}" alt="Template Corner Emblem" style="position:absolute; ${logoCornerStyle} width:28px; height:28px; object-fit:contain; background:rgba(255,255,255,0.92); border-radius:50%; padding:2px; box-shadow:0 2px 6px rgba(15,23,42,0.22); z-index:4;" />
+          </div>
+        `;
+      } else {
+        stageBox.innerHTML = `
+          <div style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; justify-content:space-between; ${perimeterBorder}">
+            <!-- Top Header Band -->
+            <div id="tpl-ai-preview-header-band" style="background:linear-gradient(135deg, ${escapeHtml(pHex)} 0%, ${escapeHtml(pHex)}E6 100%); border-bottom:3px solid ${escapeHtml(aHex)}; padding:8px 14px; color:#FFFFFF; display:flex; align-items:center; justify-content:space-between; gap:8px;">
+              <div style="min-width:0;">
+                <div style="font-size:0.60rem; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; opacity:0.9;">${escapeHtml(styleDisplay)} &bull; ${escapeHtml(activeVariantLabel)}</div>
+                <div id="tpl-ai-preview-title-text" style="font-family:'Roboto Slab',serif; font-size:0.82rem; font-weight:800; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${escapeHtml(tplName)}</div>
+              </div>
+              <span style="background:rgba(255,255,255,0.2); border:1px solid rgba(255,255,255,0.45); border-radius:999px; padding:2px 8px; font-size:0.62rem; font-weight:800; white-space:nowrap; ${topRightBadgeMargin}">16:9 Safe Bounds</span>
+            </div>
+
+            <!-- Center SafeCanvasBounds Content Preview -->
+            <div style="padding:10px 14px; display:grid; grid-template-columns:1.25fr 0.85fr; gap:10px; flex:1; align-items:stretch;">
+              <div id="tpl-ai-preview-safe-card" style="background:rgba(255,255,255,0.94); border:1px solid #CBD5E1; border-left:4px solid ${escapeHtml(pHex)}; border-radius:8px; padding:8px 10px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 2px 6px rgba(15,23,42,0.06);">
+                <div>
+                  <div style="font-size:0.64rem; font-weight:800; color:${escapeHtml(pHex)}; text-transform:uppercase;">Requirement 1 &bull; Protected Content Zone</div>
+                  <div style="font-size:0.74rem; font-weight:800; color:#0F172A; margin-top:2px;">Scene Assessment &amp; Triage Priorities</div>
+                  <ul style="margin:4px 0 0 14px; padding:0; font-size:0.66rem; color:#334155; line-height:1.35;">
+                    <li>Check scene safety before approaching patient</li>
+                    <li>Activate 911 / EMS &amp; retrieve unit first-aid kit</li>
+                    <li>Protected y: 1.12"&ndash;6.55" above silhouette</li>
+                  </ul>
+                </div>
+                <div style="font-family:var(--font-mono); font-size:0.59rem; color:#475569; background:#F1F5F9; padding:2px 6px; border-radius:4px; width:fit-content;">
+                  📐 SafeCanvasBounds: 12.13" &times; 5.43" (Zero Overlap)
+                </div>
+              </div>
+
+              <div style="background:rgba(255,255,255,0.92); border:1.5px dashed ${escapeHtml(aHex)}; border-radius:8px; padding:8px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:4px;">
+                <img src="/assets/badge_emblems/first_aid.png" alt="" style="width:42px; height:42px; object-fit:contain;" />
+                <div style="font-size:0.66rem; font-weight:800; color:#0F172A;">Pamphlet Figure / Hero Zone</div>
+                <div style="font-size:0.59rem; color:#475569;">Harmonized with ${escapeHtml(pHex)} &amp; ${escapeHtml(aHex)}</div>
               </div>
             </div>
 
-            <div style="background:rgba(255,255,255,0.92); border:1.5px dashed ${escapeHtml(aHex)}; border-radius:8px; padding:8px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:4px;">
-              <img src="/assets/badge_emblems/first_aid.png" alt="" style="width:42px; height:42px; object-fit:contain;" />
-              <div style="font-size:0.66rem; font-weight:800; color:#0F172A;">Pamphlet Figure / Hero Zone</div>
-              <div style="font-size:0.59rem; color:#475569;">Harmonized with ${escapeHtml(pHex)} &amp; ${escapeHtml(aHex)}</div>
+            <!-- Scenic Bottom Horizon Silhouette & Footer Bar -->
+            <div id="tpl-ai-preview-bottom-silhouette" style="position:relative; height:34px; background:linear-gradient(90deg, ${escapeHtml(pHex)} 0%, ${escapeHtml(pHex)}D9 65%, ${escapeHtml(aHex)} 100%); border-top:2.5px solid ${escapeHtml(aHex)}; display:flex; align-items:center; justify-content:space-between; padding:0 12px; color:#FFFFFF; font-size:0.61rem; font-weight:700;">
+              <span>Scouts BSA First Aid Merit Badge &bull; 📖 Pamphlet (p. 19)</span>
+              <span>Slide 6 of 83 &bull; Requirement 1</span>
             </div>
-          </div>
 
-          <!-- Scenic Bottom Horizon Silhouette & Footer Bar -->
-          <div id="tpl-ai-preview-bottom-silhouette" style="position:relative; height:34px; background:linear-gradient(90deg, ${escapeHtml(pHex)} 0%, ${escapeHtml(pHex)}D9 65%, ${escapeHtml(aHex)} 100%); border-top:2.5px solid ${escapeHtml(aHex)}; display:flex; align-items:center; justify-content:space-between; padding:0 12px; color:#FFFFFF; font-size:0.61rem; font-weight:700;">
-            <span>Scouts BSA First Aid Merit Badge &bull; 📖 Pamphlet (p. 19)</span>
-            <span>Slide 6 of 83 &bull; Requirement 1</span>
+            <!-- Corner Emblem / Uploaded Camp Logo Preview -->
+            <img id="tpl-ai-preview-corner-logo" src="${escapeHtml(logoSrc)}" alt="Template Corner Emblem" style="position:absolute; ${logoCornerStyle} width:28px; height:28px; object-fit:contain; background:rgba(255,255,255,0.92); border-radius:50%; padding:2px; box-shadow:0 2px 6px rgba(15,23,42,0.22); z-index:4;" />
           </div>
-
-          <!-- Corner Emblem / Uploaded Camp Logo Preview -->
-          <img id="tpl-ai-preview-corner-logo" src="${escapeHtml(logoSrc)}" alt="Template Corner Emblem" style="position:absolute; ${logoCornerStyle} width:28px; height:28px; object-fit:contain; background:rgba(255,255,255,0.92); border-radius:50%; padding:2px; box-shadow:0 2px 6px rgba(15,23,42,0.22); z-index:4;" />
-        </div>
-      `;
+        `;
+      }
     }
   };
   window.updateNanoBananaLivePreview = updateNanoBananaLivePreview;
+
+  document.querySelectorAll("[data-tpl-ai-slide-mode]").forEach((modeBtn) => {
+    modeBtn.addEventListener("click", () => {
+      const m = modeBtn.getAttribute("data-tpl-ai-slide-mode") || "content";
+      state.tplAiPreviewSlideMode = m;
+      document.querySelectorAll("[data-tpl-ai-slide-mode]").forEach((b) => {
+        b.classList.toggle("active", b === modeBtn);
+      });
+      updateNanoBananaLivePreview();
+    });
+  });
 
   document.getElementById("tpl-ai-consent-checkbox")?.addEventListener("change", (ev) => {
     const genBtn = document.getElementById("btn-tpl-ai-generate");
@@ -14925,17 +15250,6 @@ async function initPowerPointTemplateStudio() {
       return;
     }
 
-    const genBtn = document.getElementById("btn-tpl-ai-generate");
-    const origLabel = genBtn?.innerHTML || "";
-    if (genBtn) {
-      genBtn.disabled = true;
-      genBtn.textContent = "⏳ Generating 3-Variant Template Series...";
-    }
-    if (statusEl) {
-      statusEl.style.color = "#0369A1";
-      statusEl.textContent = "Synthesizing 16:9 Nano Banana slide frame & 3 color variants (Variant A, Variant B, Variant C)...";
-    }
-
     const c1 = document.getElementById("tpl-ai-color1")?.value || "#1B5E20";
     const c2 = document.getElementById("tpl-ai-color2")?.value || "#0284C7";
     const c3 = document.getElementById("tpl-ai-color3")?.value || "#D97706";
@@ -14944,6 +15258,20 @@ async function initPowerPointTemplateStudio() {
     const colors = [c1];
     if (useC2) colors.push(c2);
     if (useC3) colors.push(c3);
+    const enabledCount = colors.length;
+    const activeColorNames = getDisambiguatedColorNames(colors);
+
+    const genBtn = document.getElementById("btn-tpl-ai-generate");
+    if (genBtn) {
+      genBtn.disabled = true;
+      genBtn.textContent = `⏳ Generating ${enabledCount}-Variant Template Series...`;
+    }
+    if (statusEl) {
+      statusEl.style.color = "#0369A1";
+      statusEl.textContent = `Synthesizing 16:9 Nano Banana slide frame, Slide 1 Washed Cover Backdrop & ${enabledCount} color variant${
+        enabledCount === 1 ? "" : "s"
+      } (${activeColorNames.join(", ")})...`;
+    }
 
     const nameIn = document.getElementById("tpl-ai-name-input");
     const requestedName = (nameIn?.value || "Summer Scout Camp - 2026 Theme").trim();
@@ -15005,17 +15333,41 @@ async function initPowerPointTemplateStudio() {
       syncTemplateSelectorUi();
       renderTemplateCatalogGrid();
       updateNanoBananaLivePreview();
-      if (createdVariants[0]?.template_id) {
-        await applyTemplateToActiveDeck(createdVariants[0].template_id, false);
+      const firstNewId = createdVariants[0]?.template_id || "";
+      if (firstNewId) {
+        await applyTemplateToActiveDeck(firstNewId, false);
       }
       if (statusEl) {
+        const varCount = createdVariants.length || enabledCount;
         statusEl.style.color = "#15803D";
-        statusEl.textContent = `✓ Saved "${savedFamilyName}" (${createdVariants.length || 3} color variants) to your Template Gallery! Ready to create another or apply.`;
+        statusEl.innerHTML = `<span>✓ Saved "${escapeHtml(savedFamilyName)}" (${varCount} color variant${
+          varCount === 1 ? "" : "s"
+        }: ${escapeHtml(activeColorNames.join(", "))}) to your Template Gallery! Ready to create another or apply.</span>
+        <button type="button" class="m3-btn m3-btn-tonal" id="btn-tpl-ai-view-in-gallery" data-target-tpl-id="${escapeHtml(
+          firstNewId
+        )}" style="margin-left:8px; padding:2px 9px; font-size:0.71rem; font-weight:800;">🗂️ View in Template Gallery &rarr;</button>`;
+        const viewBtn = document.getElementById("btn-tpl-ai-view-in-gallery");
+        viewBtn?.addEventListener("click", () => {
+          switchTemplateStudioTab("gallery");
+          const targetId = viewBtn.getAttribute("data-target-tpl-id");
+          if (targetId) {
+            const cardEl = document.querySelector(
+              `#template-catalog-grid .m3-template-card[data-select-template="${CSS.escape(targetId)}"]`
+            );
+            if (cardEl) {
+              cardEl.scrollIntoView({ behavior: "smooth", block: "center" });
+              cardEl.style.boxShadow = "0 0 0 3px rgb(217, 119, 6), 0 8px 20px rgba(217, 119, 6, 0.28)";
+              setTimeout(() => {
+                cardEl.style.boxShadow = "";
+              }, 2600);
+            }
+          }
+        });
       }
       if (nameIn) {
         nameIn.value = suggestNextAvailableAiTemplateName(savedFamilyName);
       }
-      showToast(`🍌 Generated "${savedFamilyName}" (${createdVariants.length || 3} variants)!`, "info");
+      showToast(`🍌 Generated "${savedFamilyName}" (${createdVariants.length || enabledCount} color variants)!`, "info");
     } catch (err) {
       if (statusEl) {
         statusEl.style.color = "#B91C1C";
@@ -15023,9 +15375,10 @@ async function initPowerPointTemplateStudio() {
       }
     } finally {
       if (genBtn) {
+        genBtn.textContent = "";
         genBtn.disabled = !(consentChk ? consentChk.checked : true);
-        genBtn.innerHTML = origLabel;
       }
+      updateNanoBananaLivePreview();
     }
   });
 
@@ -16259,10 +16612,61 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     return h * 60 + mins;
   };
 
+  const getTodayLocalIsoDate = () => {
+    const now = new Date();
+    const yyyy = now.getFullYear();
+    const mm = String(now.getMonth() + 1).padStart(2, "0");
+    const dd = String(now.getDate()).padStart(2, "0");
+    return `${yyyy}-${mm}-${dd}`;
+  };
+  window.getTodayLocalIsoDate = getTodayLocalIsoDate;
+
+  const initStartDateEl = document.getElementById("ws-start-date-input");
+  if (initStartDateEl && (!initStartDateEl.value || initStartDateEl.value === "2026-01-10")) {
+    initStartDateEl.value = getTodayLocalIsoDate();
+  }
+
+  const syncCustomPresetSaveBtnUi = (btnId, inputId, storageKey) => {
+    const btn = document.getElementById(btnId);
+    const inp = document.getElementById(inputId);
+    if (!btn || !inp || btn.getAttribute("data-morph-active") === "1") return;
+    const curVal = (inp.value || "").trim().toLowerCase();
+    const saved = loadCustomList(storageKey).some((x) => String(x || "").trim().toLowerCase() === curVal && curVal.length > 0);
+    if (saved) {
+      btn.textContent = "✓";
+      btn.style.background = "rgb(220, 252, 231)";
+      btn.style.color = "rgb(22, 101, 52)";
+      btn.style.borderColor = "rgb(134, 239, 172)";
+    } else {
+      btn.textContent = "+";
+      btn.style.background = "";
+      btn.style.color = "";
+      btn.style.borderColor = "";
+    }
+  };
+
+  const triggerCustomPresetMorphFeedback = (btnId, inputId, storageKey) => {
+    const btn = document.getElementById(btnId);
+    if (!btn) return;
+    btn.setAttribute("data-morph-active", "1");
+    btn.textContent = "✓ Saved";
+    btn.style.background = "rgb(22, 163, 74)";
+    btn.style.color = "rgb(255, 255, 255)";
+    btn.style.borderColor = "rgb(21, 128, 61)";
+    setTimeout(() => {
+      btn.removeAttribute("data-morph-active");
+      syncCustomPresetSaveBtnUi(btnId, inputId, storageKey);
+    }, 1500);
+  };
+
   const computeAndSyncWorkspaceSchedulePreview = () => {
     const secName = document.getElementById("ws-section-name-select")?.value || "Period";
     const secNum = document.getElementById("ws-section-num-select")?.value ?? "1";
-    const startDateRaw = document.getElementById("ws-start-date-input")?.value || "2026-01-10";
+    const startDateInputEl = document.getElementById("ws-start-date-input");
+    if (startDateInputEl && !startDateInputEl.value) {
+      startDateInputEl.value = getTodayLocalIsoDate();
+    }
+    const startDateRaw = startDateInputEl?.value || getTodayLocalIsoDate();
     const freqRaw = document.getElementById("ws-frequency-select")?.value || "Weekly";
     const freq = String(freqRaw).toUpperCase();
     const numSessions = Math.max(1, parseInt(document.getElementById("ws-num-sessions-select")?.value || "4", 10));
@@ -16292,7 +16696,7 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     let baseDate = new Date(`${startDateRaw}T12:00:00`);
     if (isNaN(baseDate.getTime())) {
-      baseDate = new Date("2026-01-10T12:00:00");
+      baseDate = new Date(`${getTodayLocalIsoDate()}T12:00:00`);
     }
     const weekdayLabel = weekdayFullNames[baseDate.getDay()] || "Saturday";
     const weekdayBadge = document.getElementById("ws-derived-weekday-badge");
@@ -16347,6 +16751,12 @@ async function initMultiBadgeWorkspacesAndFavorites() {
       )} &bull; ${escapeHtml(fullTimeRange)} (${durationMin}m) &bull; ${escapeHtml(
         sessionLabels.join(" | ")
       )} &bull; 📍 ${escapeHtml(roomLoc)}`;
+    }
+
+    syncCustomPresetSaveBtnUi("btn-ws-add-custom-location", "ws-room-location-input", CUSTOM_LOCATIONS_KEY);
+    syncCustomPresetSaveBtnUi("btn-ws-add-custom-tag", "ws-bundle-tag-input", CUSTOM_TAGS_KEY);
+    if (typeof window.syncLogisticsSlidesButtonsUi === "function") {
+      window.syncLogisticsSlidesButtonsUi();
     }
 
     const activeSchedObj = {
@@ -16412,6 +16822,9 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     renderCustomPresetGroup("ws-custom-locations-group", CUSTOM_LOCATIONS_KEY, "ws-room-location-input", "ws-room-presets-menu");
     renderCustomPresetGroup("ws-custom-tags-group", CUSTOM_TAGS_KEY, "ws-bundle-tag-input", "ws-bundle-presets-menu");
     computeAndSyncWorkspaceSchedulePreview();
+    if (typeof window.syncLogisticsSlidesButtonsUi === "function") {
+      window.syncLogisticsSlidesButtonsUi();
+    }
     renderSavedWorkspacesGrid();
     const m = document.getElementById("saved-workspaces-modal");
     m?.classList.remove("hidden");
@@ -16487,13 +16900,39 @@ async function initMultiBadgeWorkspacesAndFavorites() {
   wirePresetDropdown("btn-ws-duration-presets", "ws-duration-presets-menu", "ws-duration-min-input", "data-ws-duration-val");
   wirePresetDropdown("btn-ws-room-presets", "ws-room-presets-menu", "ws-room-location-input", "data-ws-preset-val");
 
+  // Recommendation R1: Auto-lock #ws-num-sessions-select = 1 and uncheck #ws-chk-makeup-session when Frequency === "Once"
+  document.getElementById("ws-frequency-select")?.addEventListener("change", (ev) => {
+    const val = String(ev.target.value || "").toUpperCase();
+    if (val === "ONCE" || val === "SINGLE_DAY") {
+      const numSessEl = document.getElementById("ws-num-sessions-select");
+      const makeupChk = document.getElementById("ws-chk-makeup-session");
+      if (numSessEl) numSessEl.value = "1";
+      if (makeupChk) makeupChk.checked = false;
+    }
+    computeAndSyncWorkspaceSchedulePreview();
+  });
+
+  document.getElementById("ws-num-sessions-select")?.addEventListener("change", (ev) => {
+    const count = parseInt(ev.target.value || "1", 10);
+    const freqEl = document.getElementById("ws-frequency-select");
+    if (count > 1 && freqEl && String(freqEl.value || "").toUpperCase() === "ONCE") {
+      freqEl.value = "Weekly";
+    }
+    computeAndSyncWorkspaceSchedulePreview();
+  });
+
+  document.getElementById("ws-chk-makeup-session")?.addEventListener("change", (ev) => {
+    const freqEl = document.getElementById("ws-frequency-select");
+    if (ev.target.checked && freqEl && String(freqEl.value || "").toUpperCase() === "ONCE") {
+      freqEl.value = "Weekly";
+    }
+    computeAndSyncWorkspaceSchedulePreview();
+  });
+
   [
     "ws-section-name-select",
     "ws-section-num-select",
     "ws-start-date-input",
-    "ws-frequency-select",
-    "ws-num-sessions-select",
-    "ws-chk-makeup-session",
     "ws-start-time-input",
     "ws-duration-min-input",
     "ws-room-location-input",
@@ -16588,7 +17027,7 @@ async function initMultiBadgeWorkspacesAndFavorites() {
   // Apply initial default (unchecked) DMBC & HVSC mode
   window.applyDmbcHvscCustomizationsMode(false, false);
 
-  // ＋ Add Custom Location & ＋ Add Custom Tag
+  // ＋ Add Custom Location & ＋ Add Custom Tag (Recommendation R2: Visual Morph to ✓ Saved)
   document.getElementById("btn-ws-add-custom-location")?.addEventListener("click", async () => {
     const roomIn = document.getElementById("ws-room-location-input");
     const val = (roomIn?.value || "").trim();
@@ -16596,6 +17035,7 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     const list = [val, ...loadCustomList(CUSTOM_LOCATIONS_KEY).filter((x) => x.toLowerCase() !== val.toLowerCase())].slice(0, 12);
     await saveCustomList(CUSTOM_LOCATIONS_KEY, list, "locations");
     renderCustomPresetGroup("ws-custom-locations-group", CUSTOM_LOCATIONS_KEY, "ws-room-location-input", "ws-room-presets-menu");
+    triggerCustomPresetMorphFeedback("btn-ws-add-custom-location", "ws-room-location-input", CUSTOM_LOCATIONS_KEY);
     showToast(`📍 Saved "${val}" to your custom Room/Venue presets!`, "info");
   });
 
@@ -16606,6 +17046,7 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     const list = [val, ...loadCustomList(CUSTOM_TAGS_KEY).filter((x) => x.toLowerCase() !== val.toLowerCase())].slice(0, 12);
     await saveCustomList(CUSTOM_TAGS_KEY, list, "tags");
     renderCustomPresetGroup("ws-custom-tags-group", CUSTOM_TAGS_KEY, "ws-bundle-tag-input", "ws-bundle-presets-menu");
+    triggerCustomPresetMorphFeedback("btn-ws-add-custom-tag", "ws-bundle-tag-input", CUSTOM_TAGS_KEY);
     showToast(`🏷️ Saved "${val}" to your custom Camp/Event Tag presets!`, "info");
   });
 

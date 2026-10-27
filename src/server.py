@@ -5283,13 +5283,15 @@ class NanoBananaTemplateGenerateRequest(BaseModel):
     frame_geometry: str = Field("horizon_silhouette", description="Template frame geometry ID.")
     frame_preset: Optional[str] = Field(default=None, description="Alias for frame_geometry.")
     colors: Optional[List[str]] = Field(default=None, description="1 to 3 brand hex colors.")
+    include_secondary: Optional[bool] = Field(default=None, description="Whether Color 2 (Secondary) variant is enabled.")
+    include_accent: Optional[bool] = Field(default=None, description="Whether Color 3 (Accent) variant is enabled.")
     custom_prompt: str = Field("", description="Optional custom theme prompt.")
     prompt: Optional[str] = Field(default=None, description="Alias for custom_prompt.")
     logo_data_url: str = Field("", description="Optional base64 data URL of uploaded logo.")
     logo_position: str = Field("bottom_left", description="Logo placement: bottom_left, bottom_right, top_right, cover_only.")
     remove_logo_white_bg: bool = Field(True, description="Automatically make near-white logo background pixels transparent.")
     remove_logo_bg: Optional[bool] = Field(default=None, description="Alias for remove_logo_white_bg.")
-    preview_only: bool = Field(False, description="When True, previews the 3 variants at $0.00 without saving to catalog.")
+    preview_only: bool = Field(False, description="When True, previews the variants at $0.00 without saving to catalog.")
     user_consented: bool = Field(False, description="Explicit FinOps ($0.08 USD) user consent.")
     confirm_finops_cost: Optional[bool] = Field(default=None, description="Alias for user_consented.")
 
@@ -5300,7 +5302,7 @@ async def api_generate_nano_banana_template_family(
     req: NanoBananaTemplateGenerateRequest,
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Generates a 3-variant Nano Banana AI Slide Template Family with YPT/Zero-PII guardrails and FinOps consent gating."""
+    """Generates a 1-to-3 color variant Nano Banana AI Slide Template Family with YPT/Zero-PII guardrails and FinOps consent gating."""
     from src.tools.template_engine import (
         generate_nano_banana_template_family,
         load_template_catalog,
@@ -5325,6 +5327,8 @@ async def api_generate_nano_banana_template_family(
         remove_logo_white_bg=resolved_remove_bg,
         preview_only=req.preview_only,
         user_consented=resolved_consented,
+        include_secondary=req.include_secondary,
+        include_accent=req.include_accent,
     )
     if res.get("status") == "SUCCESS" and not req.preview_only:
         all_profiles = await asyncio.to_thread(load_template_catalog)
