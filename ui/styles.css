@@ -10411,5 +10411,136 @@ body.dark-mode .workbook-view-segmented-control {
   border-color: #334155;
 }
 
+/* ============================================================================
+   PLAN v2.5 TRACK C: COMPACT 2-LINE SLIDE FOOTER, FILLABLE CITATION TAG,
+   STREAMLINED SCHEDULE BUILDER, & NANO BANANA TEMPLATE STUDIO
+   ============================================================================ */
+
+/* Item 2: Compact 2-Line Slide Footer & 2-Line Right Page/Requirement Indicator */
+#stage-footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
+  min-width: 0;
+}
+
+.stage-footer-line1 {
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stage-footer-line2 {
+  font-size: 0.73rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.92;
+}
+
+#stage-footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  gap: 1px;
+  flex-shrink: 0;
+}
+
+.stage-footer-r-line1 {
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.18;
+  white-space: nowrap;
+}
+
+.stage-footer-r-line2 {
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.18;
+  white-space: nowrap;
+  opacity: 0.88;
+}
+
+/* Item 3: Ensure Fillable Workbook Pamphlet Citation Tag sits on its own line */
+.m3-fillable-workbook-embed .wb-cit-tag,
+#workbook-markdown-preview .wb-cit-tag,
+.wb-cit-tag {
+  display: block !important;
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Item 5 & 6: Template Studio Segmented Tab Bar, Variant Pills, & Schedule Builder */
+.m3-tpl-studio-tab-btn.active {
+  background: var(--md-sys-color-primary, #003F87) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 6px rgba(0, 63, 135, 0.24);
+}
+
+.m3-tpl-ai-variant-pill.active {
+  outline: 2px solid var(--md-sys-color-primary, #003F87);
+  background: #EFF6FF !important;
+}
+
+.m3-tpl-ai-studio-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 16px;
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .m3-tpl-ai-studio-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.m3-tpl-ai-controls-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.m3-tpl-ai-section-box {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--md-sys-color-outline-variant, #CBD5E1);
+  background: var(--md-sys-color-surface, #FFFFFF);
+}
+
+.m3-tpl-ai-preview-col {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid var(--md-sys-color-outline-variant, #CBD5E1);
+  background: var(--md-sys-color-surface-container-low, #F8FAFC);
+}
+
+.m3-tpl-ai-live-preview-stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 245px;
+  border-radius: 10px;
+  border: 2px solid var(--md-sys-color-outline, #94A3B8);
+  background: #FAF8F5;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.14);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
 
 

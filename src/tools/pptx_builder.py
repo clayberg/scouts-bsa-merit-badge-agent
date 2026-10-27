@@ -3149,18 +3149,23 @@ def generate_bsa_slide_deck_pptx(
 
         from src.agents.planner import _format_workbook_organizer_label
 
-        footer_line1_parts = [f"Scouts BSA {badge_title} Merit Badge"]
         if slide_spec.pamphlet_reference:
-            footer_line1_parts.append(str(slide_spec.pamphlet_reference))
-        footer_line1 = " • ".join(footer_line1_parts)
-        if len(footer_line1) > 88:
-            footer_line1 = footer_line1_parts[0] + (f" • {footer_line1_parts[1][:48]}" if len(footer_line1_parts) > 1 else "")
+            compact_ref = _format_compact_footer_pamphlet_ref(str(slide_spec.pamphlet_reference), badge_title)
+            footer_line1 = f"Scouts BSA {badge_title} Merit Badge • 📖 {compact_ref}"
+        else:
+            footer_line1 = f"Scouts BSA {badge_title} Merit Badge"
 
         wb_ref_str = ""
         if slide_spec.workbook_table_ref:
             raw_wb_ref = str(slide_spec.workbook_table_ref).strip()
             if "_" in raw_wb_ref:
                 raw_wb_ref = _format_workbook_organizer_label(slide_spec.req_number, raw_wb_ref)
+            raw_wb_ref = re.sub(
+                r"^(?:📝\s*)?(?:Scout\s+)?Workbook\s+Req(?:uirement)?\s+",
+                "Workbook Requirement ",
+                raw_wb_ref,
+                flags=re.IGNORECASE,
+            )
             if not raw_wb_ref.startswith("📝"):
                 raw_wb_ref = f"📝 {raw_wb_ref}"
             wb_ref_str = raw_wb_ref
@@ -3181,13 +3186,14 @@ def generate_bsa_slide_deck_pptx(
             align=PP_ALIGN.LEFT,
         )
 
+        full_req_tag = re.sub(r"^Req\s+", "Requirement ", str(req_tag).strip(), flags=re.IGNORECASE)
         footer_right_box = content_slide.shapes.add_textbox(Inches(right_x), Inches(f_top), Inches(right_w), Inches(0.28))
         fr_tf = footer_right_box.text_frame
         fr_tf.word_wrap = True
         fr_tf.vertical_anchor = MSO_ANCHOR.TOP
         _set_paragraph_runs(
             fr_tf.paragraphs[0],
-            f"Slide {slide_num} of {total_deck_slides} • {req_tag}",
+            f"Slide {slide_num} of {total_deck_slides}\n{full_req_tag}",
             "",
             font_size_pt=12.5,
             anchor_rgb=footer_rgb,
@@ -3239,6 +3245,38 @@ def generate_bsa_slide_deck_pptx(
     return result.model_dump()
 
 
+def _format_compact_footer_pamphlet_ref(raw_ref: str, badge_title: str = "") -> str:
+    """Strips redundant leading badge/organization prefixes so footer citations remain compact ('Pamphlet (p. 19, p. 21)')."""
+    clean = re.sub(r"^\s*📖\s*", "", str(raw_ref or "").strip())
+    if not clean:
+        return "Pamphlet"
+    b_esc = re.escape(str(badge_title or "").strip())
+    if b_esc:
+        clean = re.sub(
+            rf"^(?:Official\s+)?(?:Scouting\s+America|BSA|Scouts\s+BSA)\s+{b_esc}(?:\s+Merit\s+Badge)?\s+",
+            "",
+            clean,
+            flags=re.IGNORECASE,
+        ).strip()
+        clean = re.sub(
+            rf"^{b_esc}(?:\s+Merit\s+Badge)?\s+",
+            "",
+            clean,
+            flags=re.IGNORECASE,
+        ).strip()
+    clean = re.sub(
+        r"^(?:Official\s+)?(?:Scouting\s+America|BSA|Scouts\s+BSA)\s+(?:[A-Za-z0-9,&'\-\s]+?\s+Merit\s+Badge\s+)?",
+        "",
+        clean,
+        flags=re.IGNORECASE,
+    ).strip()
+    if not clean:
+        return "Pamphlet"
+    if clean.startswith("(") and "pamphlet" not in clean.lower():
+        return f"Pamphlet {clean}"
+    return clean
+
+
 compile_deck_to_pptx = generate_bsa_slide_deck_pptx
 
 
@@ -3284,7 +3322,7 @@ def inject_class_opening_and_closing_slides(
         cfg.get("what_to_bring")
         or [
             f"Official Scouting America {badge_name} Merit Badge Pamphlet",
-            f"Verb-Aligned {badge_name} Fillable Scout Workbook",
+            f"Fillable Form (GTA §7.0.3.2) {badge_name} Scout Workbook",
             "Signed Blue Card (#34124) or active Scoutbook connection",
             "Completed Pre-Class Prerequisite logs and field gear",
         ]

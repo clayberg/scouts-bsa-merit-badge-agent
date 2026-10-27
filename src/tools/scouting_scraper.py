@@ -168,7 +168,7 @@ class RequirementPoint(BaseModel):
     )
     workbook_organizer: Optional[Dict[str, Any]] = Field(
         None,
-        description="Verb-aligned WorkbookOrganizerSpec dictionary."
+        description="Structured WorkbookOrganizerSpec dictionary."
     )
     pamphlet_page_citation: Optional[str] = Field(
         None,
@@ -5692,7 +5692,7 @@ def generate_counselor_workbook_markdown(
 
     lines.extend([
         "",
-        "## 4. Detailed Requirement Study Notes, Verb-Aligned Organizers & Pamphlet Summaries",
+        "## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries",
         "",
     ])
     unrolled_units = _iter_unrolled_workbook_units(reqs)
@@ -5789,7 +5789,7 @@ def generate_fillable_scout_workbook_html(
     option_track: str = "ALL",
     session_dates: Optional[List[str]] = None,
 ) -> Dict[str, Any]:
-    """Generates a print-ready, verb-aligned Fillable Scout Workbook (HTML + Markdown) for any of the 149 badges.
+    """Generates a print-ready Fillable Form (GTA §7.0.3.2) Scout Workbook (HTML + Markdown) for any of the 149 badges.
 
     Enforces:
     1. Mandatory `GTA §7.0.3.2` compliance banner (`Optional organizational study aid`).
@@ -5858,7 +5858,10 @@ def generate_fillable_scout_workbook_html(
                       <span class="wb-req-badge">Requirement {r_num} Group</span>
                       <strong style="color:#003f87; font-size:14px;">{r_title}</strong>
                     </div>
-                    <span class="wb-cit-tag">📖 {r_cit}</span>
+                    <br/>
+                    <div class="wb-req-cit-row" style="margin-top:4px; width:100%;">
+                      <span class="wb-cit-tag">📖 {r_cit}</span>
+                    </div>
                   </div>
                   <p style="margin:6px 0 0 0; font-size:12px; color:#1e293b;">{r_text}</p>
                 </div>
@@ -5921,16 +5924,19 @@ def generate_fillable_scout_workbook_html(
         req_sections_html.append(
             f"""
             <section class="wb-req-block" data-req-number="{r_num}" data-organizer-type="{org_type}">
-              <div class="wb-req-header">
+              <div class="wb-req-header" style="flex-wrap:wrap;">
                 <div>
                   <span class="wb-req-badge">Req {r_num}</span>
                   <strong class="wb-req-title">{r_title}</strong>
                 </div>
-                <div class="wb-req-meta">
+                <div class="wb-req-meta" style="text-align:right;">
                   <span class="wb-verb-tag">{r_verb}</span>
                   <span class="wb-bucket-tag">{r_bucket}</span>
                   <span class="wb-verb-tag">{org_display_label}</span>
-                  <span class="wb-cit-tag">📖 {r_cit}</span>
+                  <br/>
+                  <div class="wb-req-cit-row" style="margin-top:4px; width:100%;">
+                    <span class="wb-cit-tag">📖 {r_cit}</span>
+                  </div>
                 </div>
               </div>
               <p class="wb-verbatim-text">{r_text}</p>
@@ -6018,14 +6024,11 @@ def generate_fillable_scout_workbook_html(
       <a href="/api/v1/studiokit/class-prep-cpp.pdf?badge_name={_html.escape(resolved_badge.replace(' ', '%20'))}" download style="background:#e0f2fe; color:#075985; text-decoration:none; padding:6px 12px; border-radius:6px; font-size:12px; font-weight:800;">
         📄 Download 1-Page CPP (.PDF)
       </a>
-      <button type="button" onclick="window.print()" style="background:#ffffff; color:#003f87; border:none; padding:6px 12px; border-radius:6px; font-size:12px; font-weight:800; cursor:pointer;">
-        🖨️ Print / Save as PDF
-      </button>
     </div>
   </div>
   <div class="wb-header">
     <div>
-      <h1 class="wb-title">{_html.escape(resolved_badge)} Merit Badge — Verb-Aligned Fillable Scout Workbook</h1>
+      <h1 class="wb-title">{_html.escape(resolved_badge)} Merit Badge — Fillable Form (GTA §7.0.3.2) Scout Workbook</h1>
       <div>{badge_pills_html}</div>
       <div style="font-size:12px; color:#475569; margin-top:4px;">Counselor: {c_name} ({c_troop}) • {c_email} • Schedule: {_html.escape(dates_str)}</div>
     </div>
@@ -6055,6 +6058,7 @@ def generate_fillable_scout_workbook_html(
         "unrolled_unit_count": len([u for u in unrolled_units if not u.get("is_group_header")]),
         "gta_compliance_clause": "GTA §7.0.3.2",
         "workbook_html": html_doc,
+        "html_content": html_doc,
         "workbook_markdown": res.get("counselor_workbook_markdown", ""),
     }
 

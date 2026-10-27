@@ -35,6 +35,8 @@ const state = {
   presenterFontScale: 0.90,
   revealedQuizSlides: new Set(),
   checkedGearItems: new Set(),
+  activeLetterStage: "stage_1_welcome_cpp",
+  counselorProfile: null,
 };
 window.state = state;
 
@@ -659,19 +661,34 @@ async function loadCachedCounselorProfile() {
   }
   try {
     const serverProf = await fetch("/api/counselor-profile").then((r) => r.json());
-    if (serverProf && serverProf.cached_locally) {
-      prof = { ...(prof || {}), ...serverProf };
+    const unwrapped = serverProf?.profile || serverProf;
+    if (unwrapped && (serverProf.cached_locally || unwrapped.counselor_name || unwrapped.troop_affiliation)) {
+      prof = { ...(prof || {}), ...unwrapped };
     }
   } catch (_e) {
     // ignore offline
   }
   if (!prof) return;
+  let fixedTypo = false;
+  ["counselor_name", "troop_affiliation", "location_or_zip"].forEach((k) => {
+    if (typeof prof[k] === "string" && /Middelton/i.test(prof[k])) {
+      prof[k] = prof[k].replace(/Middelton/gi, "Middleton");
+      fixedTypo = true;
+    }
+  });
+  state.counselorProfile = prof;
+  if (fixedTypo) {
+    try {
+      window.localStorage.setItem(COUNSELOR_STORAGE_KEY, JSON.stringify(prof));
+    } catch (_e) {}
+  }
   const setVal = (id, val) => {
     const el = document.getElementById(id);
-    if (el && typeof val === "string") el.value = val;
+    if (el && typeof val === "string") el.value = val.replace(/Middelton/gi, "Middleton");
   };
   setVal("input-counselor-name", prof.counselor_name || "Scoutmaster Bob");
   setVal("input-troop-name", prof.troop_affiliation || "Troop 123, My Council");
+  setVal("input-troop", prof.troop_affiliation || "Troop 123, My Council");
   setVal("input-counselor-location", prof.location_or_zip || "");
   setVal("input-counselor-email", prof.email_address || "counselor@troop123.org");
   setVal("input-counselor-phone", prof.phone_number || "(000) 555-1234");
@@ -726,15 +743,22 @@ async function clearCustomTroopLogo(showNotification = true) {
 }
 
 async function saveCachedCounselorProfile() {
+  ["input-counselor-name", "input-troop-name", "input-troop", "input-counselor-location"].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el && typeof el.value === "string" && /Middelton/i.test(el.value)) {
+      el.value = el.value.replace(/Middelton/gi, "Middleton");
+    }
+  });
   syncCounselorProfileSummary();
   const payload = {
-    counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
-    troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
-    location_or_zip: document.getElementById("input-counselor-location")?.value || "",
+    counselor_name: (document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob").replace(/Middelton/gi, "Middleton"),
+    troop_affiliation: (document.getElementById("input-troop-name")?.value || "Troop 123, My Council").replace(/Middelton/gi, "Middleton"),
+    location_or_zip: (document.getElementById("input-counselor-location")?.value || "").replace(/Middelton/gi, "Middleton"),
     email_address: document.getElementById("input-counselor-email")?.value || "",
     phone_number: document.getElementById("input-counselor-phone")?.value || "",
     custom_troop_logo_path: state.customLogoPath || null,
   };
+  state.counselorProfile = payload;
   try {
     window.localStorage.setItem(COUNSELOR_STORAGE_KEY, JSON.stringify(payload));
   } catch (_e) {
@@ -2730,32 +2754,240 @@ function hydrateWorkbench(rawResult, options = {}) {
   }
 }
 
-function getLiveParentLetterMarkdown(result) {
+function sanitizeMiddletonTypo(str) {
+  return String(str || "").replace(/Middelton/gi, "Middleton");
+}
+
+function getLiveParentLetterSubject(result, stageId = state.activeLetterStage || "stage_1_welcome_cpp") {
+  const badgeName = result?.badge_name || state.currentBadge || "First Aid";
+  const activeWs = (state.savedWorkspaces || []).find((w) => w.workspace_id === state.activeWorkspaceId);
+  const sessLabel = sanitizeMiddletonTypo(
+    document.getElementById("ws-session-label-input")?.value?.trim() || activeWs?.session_label || ""
+  );
+  const sessionSuffix = sessLabel ? ` (${sessLabel})` : "";
+  if (stageId === "stage_2_mid_clinic_alert" || stageId === "stage2") {
+    return `${badgeName} Merit Badge${sessionSuffix}: Mid-Session Progress, Homework & Make-Up Update`;
+  }
+  if (stageId === "stage_3_final_packet" || stageId === "stage3") {
+    return `${badgeName} Merit Badge${sessionSuffix}: Final Completion, Blue Card (#34124) Sign-Off & Partial Transfer Packet`;
+  }
+  return `${badgeName} Merit Badge${sessionSuffix}: Pre-Class Welcome & Prerequisite Guide`;
+}
+
+function getLiveParentLetterMarkdown(result, stageId = state.activeLetterStage || "stage_1_welcome_cpp") {
   if (!result) return "# Parent Prerequisite Letter";
-  const counselorName = document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob";
-  const troopName = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
-  const email = document.getElementById("input-counselor-email")?.value || "counselor@troop123.org";
-  const phone = document.getElementById("input-counselor-phone")?.value || "(000) 555-1234";
-  const storedCounselor = result.counselor_info?.counselor_name || "Scoutmaster Bob";
-  const storedTroop = result.counselor_info?.troop_affiliation || "Troop 123, My Council";
+  const badgeName = result.badge_name || state.currentBadge || "First Aid";
+  const counselorName = sanitizeMiddletonTypo(
+    document.getElementById("input-counselor-name")?.value || state.counselorProfile?.counselor_name || "Eric Clayberg"
+  );
+  const troopName = sanitizeMiddletonTypo(
+    document.getElementById("input-troop-name")?.value || state.counselorProfile?.troop_affiliation || "Troop 19, Middleton, MA"
+  );
+  const locationOrZip = sanitizeMiddletonTypo(
+    document.getElementById("input-counselor-location")?.value || state.counselorProfile?.location_or_zip || ""
+  );
+  const email = document.getElementById("input-counselor-email")?.value || state.counselorProfile?.email_address || "counselor@troop19.org";
+  const phone = document.getElementById("input-counselor-phone")?.value || state.counselorProfile?.phone_number || "(000) 555-1234";
+  const storedCounselor = sanitizeMiddletonTypo(result.counselor_info?.counselor_name || "Scoutmaster Bob");
+  const storedTroop = sanitizeMiddletonTypo(result.counselor_info?.troop_affiliation || "Troop 123, My Council");
   const storedEmail = result.counselor_info?.email_address || "counselor@troop123.org";
   const storedPhone = result.counselor_info?.phone_number || "(000) 555-1234";
-  let rawLetter = result.prerequisite_parent_letter?.letter_markdown || "# Parent Prerequisite Letter";
-  return rawLetter
-    .split(storedCounselor).join(counselorName)
-    .split("Scoutmaster Bob").join(counselorName)
-    .split(storedTroop).join(troopName)
-    .split("Troop 123, My Council").join(troopName)
-    .split(storedEmail).join(email)
-    .split("counselor@troop123.org").join(email)
-    .split(storedPhone).join(phone)
-    .split("(000) 555-1234").join(phone);
+
+  const activeWs = (state.savedWorkspaces || []).find((w) => w.workspace_id === state.activeWorkspaceId);
+  const sessLabel = sanitizeMiddletonTypo(
+    document.getElementById("ws-session-label-input")?.value?.trim() || activeWs?.session_label || "Multi-Unit Merit Badge Session"
+  );
+  const classTime =
+    document.getElementById("ws-class-time-input")?.value?.trim() ||
+    activeWs?.class_start_time ||
+    document.getElementById("input-logistics-time")?.value?.trim() ||
+    "8:30 AM – 10:00 AM";
+  const roomLoc = sanitizeMiddletonTypo(
+    document.getElementById("ws-room-location-input")?.value?.trim() ||
+      activeWs?.room_location ||
+      document.getElementById("input-logistics-room")?.value?.trim() ||
+      "Main Classroom / Outdoor Station"
+  );
+  const sessDates =
+    document.getElementById("ws-session-dates-input")?.value?.trim() ||
+    activeWs?.session_dates ||
+    document.getElementById("input-logistics-sessions")?.value?.trim() ||
+    "4x 75-Min Sessions (S1–S4) + Make-Up Block";
+
+  const applySubstitutionsAndCleanHeader = (rawMd, defaultSalutation) => {
+    let text = sanitizeMiddletonTypo(rawMd)
+      .split(storedCounselor).join(counselorName)
+      .split("Scoutmaster Bob").join(counselorName)
+      .split(storedTroop).join(troopName)
+      .split("Troop 123, My Council").join(troopName)
+      .split(storedEmail).join(email)
+      .split("counselor@troop123.org").join(email)
+      .split(storedPhone).join(phone)
+      .split("(000) 555-1234").join(phone);
+    // Strip any unit parenthetical from top # Title or Dear ... Salutation so multi-troop classes are never mislabeled
+    text = text.replace(/^(#\s+[^\n(]+?)\s*\((?:Troop|Pack|Crew|Unit)[^)\n]*\)\s*$/gim, "$1");
+    text = text.replace(/^Dear\s+[^\n]*?\((?:Troop|Pack|Crew|Unit)[^)\n]*\)[^\n]*$/gim, defaultSalutation);
+    text = text.replace(/^Dear\s+(?:Troop|Pack|Crew)\s+\d+[^,\n]*,\s*$/gim, defaultSalutation);
+    return text;
+  };
+
+  const normalizedStage =
+    stageId === "stage2" || stageId === "stage_2_mid_clinic_alert"
+      ? "stage_2_mid_clinic_alert"
+      : stageId === "stage3" || stageId === "stage_3_final_packet"
+      ? "stage_3_final_packet"
+      : "stage_1_welcome_cpp";
+
+  const salutationMap = {
+    stage_1_welcome_cpp: `Dear ${badgeName} Merit Badge Scouts, Parents/Guardians, and Unit Leaders,`,
+    stage_2_mid_clinic_alert: `Dear ${badgeName} Merit Badge Scouts, Parents/Guardians, and Unit Advancement Chairs,`,
+    stage_3_final_packet: `Dear ${badgeName} Merit Badge Scouts, Parents/Guardians, Scoutmasters, and Advancement Chairs,`,
+  };
+  const targetSalutation = salutationMap[normalizedStage];
+
+  // Check if backend already provided distinct stages dictionary
+  const backendStages = result.prerequisite_parent_letter?.stages || {};
+  if (backendStages[normalizedStage] && typeof backendStages[normalizedStage] === "string") {
+    return applySubstitutionsAndCleanHeader(backendStages[normalizedStage], targetSalutation);
+  }
+  const yptPack = state.activeYptPack || {};
+  if (normalizedStage === "stage_2_mid_clinic_alert" && yptPack.stage_2_midpoint_homework_markdown) {
+    return applySubstitutionsAndCleanHeader(yptPack.stage_2_midpoint_homework_markdown, targetSalutation);
+  }
+  if (normalizedStage === "stage_3_final_packet" && yptPack.stage_3_post_class_bluecard_markdown) {
+    return applySubstitutionsAndCleanHeader(yptPack.stage_3_post_class_bluecard_markdown, targetSalutation);
+  }
+  if (normalizedStage === "stage_1_welcome_cpp" && result.prerequisite_parent_letter?.letter_markdown) {
+    return applySubstitutionsAndCleanHeader(result.prerequisite_parent_letter.letter_markdown, targetSalutation);
+  }
+
+  // Synthesize rich, stage-specific multi-troop Markdown letters for Stage 1, Stage 2, and Stage 3
+  const reqs = Array.isArray(result.research_artifact?.requirements) ? result.research_artifact.requirements : [];
+  const prereqReqs = reqs.filter((r) => r.execution_mode === "PREREQUISITE_CAMPOUT_HOME");
+  const stationReqs = reqs.filter((r) => r.execution_mode === "HANDS_ON_SKILL_STATION");
+  const inClassReqs = reqs.filter((r) => r.execution_mode !== "PREREQUISITE_CAMPOUT_HOME");
+  const roster = typeof loadBadgeBlueCardRoster === "function" ? loadBadgeBlueCardRoster(badgeName) : { scouts: [] };
+  const scoutsList = Array.isArray(roster?.scouts) ? roster.scouts : [];
+  const totalReqCount = Math.max(1, reqs.length);
+  const completedScouts = scoutsList.filter((s) => (s.completedReqs || []).length >= totalReqCount);
+  const partialScouts = scoutsList.filter((s) => (s.completedReqs || []).length < totalReqCount);
+  const unitFooterLine = locationOrZip && !troopName.toLowerCase().includes(locationOrZip.toLowerCase())
+    ? `${troopName} (${locationOrZip})`
+    : troopName;
+
+  if (normalizedStage === "stage_2_mid_clinic_alert") {
+    const hwLines = (prereqReqs.length > 0 ? prereqReqs : reqs.slice(0, 3))
+      .map((r) => `- **Requirement ${r.req_number}:** ${r.req_text}`)
+      .join("\n");
+    const stationLines = (stationReqs.length > 0 ? stationReqs : inClassReqs.slice(0, 3))
+      .map((r) => `- **Requirement ${r.req_number} (Hands-On Station):** ${r.req_text}`)
+      .join("\n");
+    return [
+      `# ${badgeName} Merit Badge — Stage 2: Mid-Session Progress, Homework & Make-Up Update`,
+      ``,
+      `**Session / Period:** ${sessLabel} • **Time:** ${classTime} • **Room / Venue:** ${roomLoc}`,
+      `**Schedule:** ${sessDates}`,
+      ``,
+      targetSalutation,
+      ``,
+      `Thank you for our Scouts' enthusiasm and active participation in the first half of our **${badgeName} Merit Badge** sessions! Because this class serves Scouts from multiple units, please review the mid-session progress checkpoints, between-session workbook assignments, and upcoming make-up station schedule below.`,
+      ``,
+      `### 📋 1. Between-Session Workbook & Home Prerequisite Check-In`,
+      `Before our next class meeting, every Scout should verify that their **${badgeName} Fillable Merit Badge Workbook** is up to date and bring written notes, photos, or signed verification for the following requirements:`,
+      hwLines || `- Complete all assigned between-session tables in your ${badgeName} Merit Badge Workbook.`,
+      ``,
+      `### 🛠️ 2. Upcoming Hands-On EDGE Skill Stations & Make-Up Block`,
+      `During our next sessions (plus our scheduled **Make-Up Block** for any Scout who missed S1 or S2), we will run practical hands-on demonstrations for:`,
+      stationLines || `- Practical hands-on skill demonstrations and individual counselor verification.`,
+      ``,
+      `### 🛡️ 3. Scouting America Youth Protection (YPT) & Two-Deep Digital Communication`,
+      `Per **Scouting America Youth Protection guidelines (18 U.S.C. § 707)**, Scouts must **always copy (CC) a parent, legal guardian, or second registered adult leader** on any email, text, or digital workbook submission sent to the Merit Badge Counselor.`,
+      ``,
+      `Yours in Scouting,`,
+      ``,
+      `**${counselorName}**`,
+      `Registered Merit Badge Counselor — ${badgeName} Merit Badge`,
+      `Counselor Unit Affiliation: ${unitFooterLine}`,
+      `Email: ${email} • Phone: ${phone}`,
+    ].join("\n");
+  }
+
+  if (normalizedStage === "stage_3_final_packet") {
+    const prereqNums = prereqReqs.map((r) => `Req ${r.req_number}`).join(", ") || "Home / Campout Prerequisites";
+    return [
+      `# ${badgeName} Merit Badge — Stage 3: Final Completion, Blue Card (#34124) Sign-Off & Partial Transfer Packet`,
+      ``,
+      `**Session / Period:** ${sessLabel} • **Venue:** ${roomLoc} • **Schedule Completed:** ${sessDates}`,
+      ``,
+      targetSalutation,
+      ``,
+      `Congratulations to all Scouts who participated in our **${badgeName} Merit Badge** class! This final wrap-up packet summarizes **Application for Merit Badge (Blue Card #34124)** completions, **Scoutbook Plus CSV advancement import instructions** for Unit Advancement Chairs, and step-by-step guidance for finishing any remaining **Partial Blue Cards**.`,
+      ``,
+      `### 🪪 1. Final Class Roster & Blue Card (#34124) Summary`,
+      `- **Enrolled Scouts on Roster:** ${scoutsList.length} Scout(s) across participating units`,
+      `- **100% Complete Blue Cards Signed Off:** ${completedScouts.length} Scout(s) (${completedScouts.map((s) => `${s.name} [${s.troop || "Unit"}]`).join(", ") || "See attached unit CSV packet"})`,
+      `- **Partial Blue Cards Issued for Home/Troop Completion:** ${partialScouts.length} Scout(s) (${partialScouts.map((s) => `${s.name} [${s.troop || "Unit"}]`).join(", ") || "None — all in-class requirements verified"})`,
+      ``,
+      `### 📥 2. Unit Advancement Chairs: Scoutbook Plus CSV Import & 3-Panel Blue Cards`,
+      `1. **Scoutbook Plus Import:** Unit Advancement Chairs can import the attached \`${badgeName.replace(/\s+/g, "_")}_Scoutbook_BlueCard_Export.csv\` directly into **Scoutbook Plus (Internet Advancement 2.0)** to credit all completed requirements.`,
+      `2. **3-Panel Blue Card (#34124) Distribution:** Each Scout's signed 3-panel Blue Card PDF includes the **Applicant's Record**, **Counselor's Record**, and **Unit Leader's Record** with individualized requirement initials.`,
+      ``,
+      `### 🧭 3. How to Finish a Partial ${badgeName} Merit Badge`,
+      `Scouts holding a **Partial Blue Card** have completed their in-class discussions and skill stations and only need to finish their remaining home/troop requirements (${prereqNums}):`,
+      `- Complete the remaining logs, campout tasks, or time-tracked charts in your **${badgeName} Merit Badge Workbook**.`,
+      `- Reply to this thread (**always CC'ing a parent/guardian or second registered adult leader** per Scouting America YPT Two-Deep rules) with photos/scans of your completed workbook pages, or present them to a registered **${badgeName} Merit Badge Counselor** in your home troop for final sign-off.`,
+      ``,
+      `Thank you for supporting your Scouts on the trail to Eagle!`,
+      ``,
+      `Yours in Scouting,`,
+      ``,
+      `**${counselorName}**`,
+      `Registered Merit Badge Counselor — ${badgeName} Merit Badge`,
+      `Counselor Unit Affiliation: ${unitFooterLine}`,
+      `Email: ${email} • Phone: ${phone}`,
+    ].join("\n");
+  }
+
+  // Default Stage 1: Pre-Class Welcome & Prerequisite Guide
+  const prereqBullets =
+    prereqReqs.length > 0
+      ? prereqReqs.map((r) => `- **Requirement ${r.req_number}:** ${r.req_text}`).join("\n")
+      : `- Review the official **${badgeName} Merit Badge Pamphlet** and bring your **${badgeName} Fillable Workbook** to Session 1.`;
+  return [
+    `# ${badgeName} Merit Badge — Stage 1: Pre-Class Welcome & Prerequisite Guide`,
+    ``,
+    `**Session / Period:** ${sessLabel} • **Time:** ${classTime} • **Room / Venue:** ${roomLoc}`,
+    `**Schedule:** ${sessDates}`,
+    ``,
+    targetSalutation,
+    ``,
+    `Welcome to our upcoming **${badgeName} Merit Badge** class! We are excited to welcome Scouts from all participating troops and districts. Please review the pre-class preparation checklist, required gear, and **Scouting America Youth Protection (YPT)** communication guidelines below before Session 1.`,
+    ``,
+    `### 🏠 1. Pre-Class Prerequisites & At-Home Preparation`,
+    `The following requirements involve multi-week tracking, home inspections, or campout preparation and should be started **before Session 1**:`,
+    prereqBullets,
+    ``,
+    `### 🎒 2. What Every Scout Should Bring to Class`,
+    `- **${badgeName} Fillable Merit Badge Workbook** (printed or digital tablet copy) & pen/pencil`,
+    `- **Signed Blue Card (#34124)** from your Unit Leader (or unit registration confirmation in Scoutbook Plus)`,
+    `- **Official ${badgeName} Merit Badge Pamphlet** (physical or digital edition) and personal water bottle`,
+    ``,
+    `### 🛡️ 3. Mandatory Scouting America Youth Protection (YPT) Two-Deep Rule`,
+    `In strict compliance with **Scouting America Youth Protection policies**, there is **no one-on-one digital contact** between youth and adults. Scouts must **always copy (CC) a parent, legal guardian, or second registered adult leader** on every email, text message, or workbook submission.`,
+    ``,
+    `Yours in Scouting,`,
+    ``,
+    `**${counselorName}**`,
+    `Registered Merit Badge Counselor — ${badgeName} Merit Badge`,
+    `Counselor Unit Affiliation: ${unitFooterLine}`,
+    `Email: ${email} • Phone: ${phone}`,
+  ].join("\n");
 }
 
 function renderStudioKitAndParentLetter(result) {
   if (!result) return;
   const finops = result.finops_cost_estimate || {};
-  const troopName = document.getElementById("input-troop-name")?.value || "Troop 123, My Council";
+  const troopName = sanitizeMiddletonTypo(document.getElementById("input-troop-name")?.value || "Troop 123, My Council");
   syncCompanionBadgePillBar(result);
 
   const agendaPreview = document.getElementById("studiokit-agenda-preview");
@@ -2765,11 +2997,24 @@ function renderStudioKitAndParentLetter(result) {
     );
   }
 
-  // Dynamically update Prerequisite Parent Letter with live Counselor inputs so it never reverts to defaults
+  // Dynamically update Prerequisite Parent Letter with live Counselor inputs and active stage (Stage 1/2/3)
+  const activeStage = state.activeLetterStage || "stage_1_welcome_cpp";
+  const letterMd = getLiveParentLetterMarkdown(result, activeStage);
   const letterPreview = document.getElementById("studiokit-letter-preview");
   if (letterPreview) {
-    letterPreview.innerHTML = renderMarkdownToStyledHtml(getLiveParentLetterMarkdown(result));
+    letterPreview.innerHTML = renderMarkdownToStyledHtml(letterMd);
   }
+  const yptSubjIn = document.getElementById("ypt-email-subject-input");
+  if (yptSubjIn) {
+    yptSubjIn.value = getLiveParentLetterSubject(result, activeStage);
+  }
+  const yptBodyIn = document.getElementById("ypt-email-body-textarea");
+  if (yptBodyIn) {
+    yptBodyIn.value = letterMd;
+  }
+  document.querySelectorAll("[data-letter-stage]").forEach((b) => {
+    b.classList.toggle("active", b.getAttribute("data-letter-stage") === activeStage);
+  });
 
   const citList = document.getElementById("studiokit-citations-list");
   if (citList) {
@@ -3641,11 +3886,11 @@ function renderActiveSlide(idx) {
     const reqNumChip = document.getElementById("stage-req-number");
     if (reqNumChip) reqNumChip.style.display = "none";
     if (footerLeft) {
-      footerLeft.textContent = `Scouts BSA ${res.badge_name} Merit Badge`;
+      footerLeft.innerHTML = `<div class="stage-footer-line1">Scouts BSA ${escapeHtml(res.badge_name)} Merit Badge</div>`;
       footerLeft.style.color = coverTokens.footerColor;
     }
     if (footerRight) {
-      footerRight.textContent = `${totalSlides} Slides`;
+      footerRight.innerHTML = `<div class="stage-footer-r-line1">Slide 1 of ${totalSlides}</div><div class="stage-footer-r-line2">Cover Slide</div>`;
       footerRight.style.color = coverTokens.footerColor;
     }
 
@@ -3938,27 +4183,54 @@ function renderActiveSlide(idx) {
     (topReqNum ? allReqs.find((r) => String(r.req_number || "").trim() === topReqNum) : null) ||
     null;
   const resolvedPamphletRef = slide.pamphlet_reference || matchingReq?.pamphlet_page_citation || "";
+  function formatCompactFooterPamphletRef(rawRef, badgeName) {
+    let ref = String(rawRef || "").trim();
+    if (!ref) return "";
+    const escapedBadge = String(badgeName || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    if (escapedBadge) {
+      ref = ref.replace(
+        new RegExp(`^(?:Official\\s+)?(?:Scouting\\s+America\\s+|BSA\\s+|Scouts\\s+BSA\\s+)?${escapedBadge}\\s+(?:Merit\\s+Badge\\s+)?`, "i"),
+        ""
+      );
+    }
+    ref = ref.replace(/^(?:Official\s+)?(?:Scouting\s+America\s+|BSA\s+|Scouts\s+BSA\s+)?(?:Merit\s+Badge\s+)?/i, "").trim();
+    if (ref && !/^pamphlet/i.test(ref)) {
+      ref = `Pamphlet ${ref}`;
+    }
+    return ref;
+  }
+  const compactPamphletRef = formatCompactFooterPamphletRef(resolvedPamphletRef, res.badge_name);
   const rawSlideWbRef = slide.workbook_table_ref || matchingReq?.workbook_organizer_type || "";
   let cleanWbRef = formatUiWorkbookOrganizerLabel(rawSlideWbRef);
-  if (cleanWbRef && !/workbook/i.test(cleanWbRef)) {
-    cleanWbRef = `Scout Workbook ${reqLabel} • ${cleanWbRef}`;
+  const fullReqLabel =
+    slide.req_number === "Overview" || slide.req_number === "Sources"
+      ? slide.req_number
+      : `Requirement ${slide.req_number || idx + 1}`;
+  if (cleanWbRef) {
+    if (!/workbook/i.test(cleanWbRef)) {
+      cleanWbRef = `Workbook ${fullReqLabel} • ${cleanWbRef}`;
+    } else {
+      cleanWbRef = cleanWbRef
+        .replace(/^Scout\s+Workbook\s+/i, "Workbook ")
+        .replace(/^Workbook\s+Req(?:uirement)?\s+/i, "Workbook Requirement ");
+    }
   }
 
   const reqNumChip = document.getElementById("stage-req-number");
   if (reqNumChip) reqNumChip.style.display = "none";
   if (footerLeft) {
-    const line1 = `Scouts BSA ${escapeHtml(res.badge_name)} Merit Badge${
-      resolvedPamphletRef ? ` • 📖 ${escapeHtml(resolvedPamphletRef)}` : ""
-    }`;
-    const line2 = cleanWbRef
-      ? `<br/><span style="display:inline-block; white-space:nowrap; font-weight:600;">📝 ${escapeHtml(cleanWbRef)}</span>`
+    const line1Html = `<div class="stage-footer-line1">Scouts BSA ${escapeHtml(res.badge_name)} Merit Badge${
+      compactPamphletRef ? ` • 📖 ${escapeHtml(compactPamphletRef)}` : ""
+    }</div>`;
+    const line2Html = cleanWbRef
+      ? `<div class="stage-footer-line2">📝 ${escapeHtml(cleanWbRef)}</div>`
       : "";
-    footerLeft.innerHTML = `${line1}${line2}`;
+    footerLeft.innerHTML = `${line1Html}${line2Html}`;
     footerLeft.style.color = tokens.footerColor;
-    footerLeft.style.lineHeight = "1.28";
+    footerLeft.style.lineHeight = "1.22";
   }
   if (footerRight) {
-    footerRight.textContent = `Slide ${idx + 2} of ${totalSlides} • ${reqLabel}`;
+    footerRight.innerHTML = `<div class="stage-footer-r-line1">Slide ${idx + 2} of ${totalSlides}</div><div class="stage-footer-r-line2">${escapeHtml(fullReqLabel)}</div>`;
     footerRight.style.color = tokens.footerColor;
   }
 
@@ -6765,6 +7037,15 @@ function bindCounselorToolkitActions() {
   scheduleSel?.addEventListener("change", rebuildStudioKitAgenda);
   snowdaySel?.addEventListener("change", rebuildStudioKitAgenda);
 
+  const triggerPdfEndpointDownload = (urlPath) => {
+    const a = document.createElement("a");
+    a.href = urlPath;
+    a.setAttribute("download", "");
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  };
+
   // Fillable HTML/PDF Workbook & 1-Page CPP & Organizer Spec Sheet actions
   const syncWorkbookPdfDownloadLinks = () => {
     const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
@@ -6772,8 +7053,8 @@ function bindCounselorToolkitActions() {
       state.currentResult?.option_track ||
       document.getElementById("option-track-select")?.value ||
       "ALL";
-    const counselor = document.getElementById("input-counselor-name")?.value || "Eric Clayberg";
-    const troop = document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council";
+    const counselor = sanitizeMiddletonTypo(document.getElementById("input-counselor-name")?.value || "Eric Clayberg");
+    const troop = sanitizeMiddletonTypo(document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council");
     const pdfHref = `/api/v1/studiokit/fillable-workbook.pdf?badge_name=${encodeURIComponent(
       badge
     )}&option_track=${encodeURIComponent(optTrack)}&counselor_name=${encodeURIComponent(
@@ -6787,11 +7068,22 @@ function bindCounselorToolkitActions() {
     if (wbLink2) wbLink2.href = pdfHref;
     if (wbLinkTop) wbLinkTop.href = pdfHref;
     if (wbLink3) wbLink3.href = pdfHref;
-    const cppHref = `/api/v1/studiokit/class-prep-cpp.pdf?badge_name=${encodeURIComponent(badge)}`;
+    const cppHref = `/api/v1/studiokit/cpp.pdf?badge_name=${encodeURIComponent(badge)}`;
     const cppLink1 = document.getElementById("btn-class-prep-cpp-pdf");
     const cppLink2 = document.getElementById("btn-studiokit-open-cpp-pdf");
     if (cppLink1) cppLink1.href = cppHref;
     if (cppLink2) cppLink2.href = cppHref;
+    const counselorWbHref = `/api/v1/studiokit/counselor-workbook.pdf?badge_name=${encodeURIComponent(
+      badge
+    )}&option_track=${encodeURIComponent(optTrack)}`;
+    const counselorWbLink = document.getElementById("btn-download-counselor-workbook-pdf");
+    if (counselorWbLink) counselorWbLink.href = counselorWbHref;
+    const activeStage = state.activeLetterStage || "stage_1_welcome_cpp";
+    const letterPdfHref = `/api/v1/studiokit/parent-letter.pdf?badge_name=${encodeURIComponent(
+      badge
+    )}&stage=${encodeURIComponent(activeStage)}`;
+    const letterPdfLink = document.getElementById("btn-download-letter-md");
+    if (letterPdfLink) letterPdfLink.href = letterPdfHref;
     return { badge, optTrack, counselor, troop, pdfHref };
   };
 
@@ -6821,7 +7113,7 @@ function bindCounselorToolkitActions() {
   });
 
   const handleOpenFillableWorkbook = async () => {
-    const { badge, optTrack, counselor, troop, pdfHref } = syncWorkbookPdfDownloadLinks();
+    const { badge, optTrack, counselor, troop } = syncWorkbookPdfDownloadLinks();
     const htmlUrl = `/api/v1/studiokit/fillable-workbook?badge_name=${encodeURIComponent(
       badge
     )}&option_track=${encodeURIComponent(optTrack)}&counselor_name=${encodeURIComponent(
@@ -6851,8 +7143,8 @@ function bindCounselorToolkitActions() {
         if (wbPreview) {
           const bodyMatch = htmlDoc.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
           const styleMatch = htmlDoc.match(/<style[^>]*>([\s\S]*?)<\/style>/i);
-          const inlineStyle = styleMatch ? `<style>${styleMatch[1]}</style>` : "";
-          const innerHtml = bodyMatch ? bodyMatch[1] : htmlDoc;
+          const inlineStyle = styleMatch ? `<style>${styleMatch[1]}\n.wb-cit-tag { display: block !important; width: 100%; margin-top: 5px; }</style>` : `<style>.wb-cit-tag { display: block !important; width: 100%; margin-top: 5px; }</style>`;
+          const innerHtml = (bodyMatch ? bodyMatch[1] : htmlDoc).replace(/\s*\(Verb-Aligned\)|\bVerb-Aligned\s+/gi, "");
           wbPreview.innerHTML = `
             ${inlineStyle}
             <div class="m3-fillable-workbook-embed" style="background:#ffffff; color:#0f172a; padding:16px; border-radius:10px; border:1px solid #cbd5e1;">
@@ -6867,9 +7159,15 @@ function bindCounselorToolkitActions() {
     window.open(htmlUrl, "_blank", "noopener,noreferrer");
   };
   document.getElementById("btn-workbook-open-fillable-html")?.addEventListener("click", handleOpenFillableWorkbook);
-  document.getElementById("btn-studiokit-fillable-workbook")?.addEventListener("click", handleOpenFillableWorkbook);
   document.getElementById("btn-workbook-download-fillable-pdf")?.addEventListener("click", syncWorkbookPdfDownloadLinks);
   document.getElementById("btn-studiokit-download-fillable-pdf")?.addEventListener("click", syncWorkbookPdfDownloadLinks);
+
+  const handleDownloadCueCardsPdf = (ev) => {
+    if (ev) ev.preventDefault();
+    const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
+    triggerPdfEndpointDownload(`/api/v1/studiokit/cue-cards.pdf?badge_name=${encodeURIComponent(badge)}`);
+  };
+  document.getElementById("btn-studiokit-fillable-workbook")?.addEventListener("click", handleDownloadCueCardsPdf);
 
   const handleOpenCpp = async () => {
     const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
@@ -6882,8 +7180,8 @@ function bindCounselorToolkitActions() {
           badge_name: badge,
           schedule_format: scheduleFormat,
           counselor_info: {
-            counselor_name: document.getElementById("input-counselor-name")?.value || "Eric Clayberg",
-            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council",
+            counselor_name: sanitizeMiddletonTypo(document.getElementById("input-counselor-name")?.value || "Eric Clayberg"),
+            troop_affiliation: sanitizeMiddletonTypo(document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council"),
             email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop19.org",
             phone_number: document.getElementById("input-counselor-phone")?.value || "(000) 555-1234",
           },
@@ -6901,11 +7199,8 @@ function bindCounselorToolkitActions() {
             <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; background:#003f87; color:#fff; padding:12px 16px; border-radius:10px; margin-bottom:14px;">
               <div style="font-size:0.95rem; font-weight:800;">📄 ${escapeHtml(badge)} Merit Badge — 1-Page Class Preparation Page (CPP)</div>
               <div style="display:flex; gap:8px;">
-                <a href="/api/v1/studiokit/class-prep-cpp.pdf?badge_name=${encodeURIComponent(badge)}" download class="m3-btn" style="background:#f59e0b; color:#0f172a; font-weight:800; font-size:0.78rem; padding:7px 13px; border-radius:6px; text-decoration:none;">
+                <a href="/api/v1/studiokit/cpp.pdf?badge_name=${encodeURIComponent(badge)}" download class="m3-btn" style="background:#f59e0b; color:#0f172a; font-weight:800; font-size:0.78rem; padding:7px 13px; border-radius:6px; text-decoration:none;">
                   📥 Download 1-Page CPP (.PDF)
-                </a>
-                <a href="/api/v1/studiokit/class-prep-cpp?badge_name=${encodeURIComponent(badge)}" target="_blank" rel="noopener noreferrer" class="m3-btn" style="background:#ffffff; color:#003f87; font-weight:800; font-size:0.78rem; padding:7px 13px; border-radius:6px; text-decoration:none;">
-                  🖨️ Open / Print Full Page
                 </a>
               </div>
             </div>
@@ -6921,33 +7216,25 @@ function bindCounselorToolkitActions() {
   document.getElementById("btn-workbook-open-cpp")?.addEventListener("click", handleOpenCpp);
   document.getElementById("btn-studiokit-cpp")?.addEventListener("click", handleOpenCpp);
 
-  document.getElementById("btn-studiokit-organizer-spec")?.addEventListener("click", async () => {
+  document.getElementById("btn-studiokit-organizer-spec")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
     const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
     const scheduleFormat = document.getElementById("studiokit-schedule-select")?.value || "4_session_mbc";
-    try {
-      const resp = await fetch("/api/v1/studiokit/organizer-spec-sheet", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          badge_name: badge,
-          schedule_format: scheduleFormat,
-          counselor_info: {
-            counselor_name: document.getElementById("input-counselor-name")?.value || "Eric Clayberg",
-            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 19, Northeast Massachusetts Council",
-            email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop19.org",
-            phone_number: document.getElementById("input-counselor-phone")?.value || "(000) 555-1234",
-          },
-        }),
-      }).then((r) => r.json());
-      const md = resp?.spec_sheet_markdown || resp?.spec_markdown;
-      if (md) {
-        printHtmlDocument(
-          `${badge} Merit Badge — 1-Page MBC Organizer Syllabus Spec Sheet`,
-          `Catalog & Room/Equipment Spec • ${scheduleFormat}`,
-          renderMarkdownToStyledHtml(md)
-        );
-      }
-    } catch (_e) {}
+    triggerPdfEndpointDownload(
+      `/api/v1/studiokit/organizer-spec.pdf?badge_name=${encodeURIComponent(badge)}&schedule_format=${encodeURIComponent(scheduleFormat)}`
+    );
+  });
+
+  document.getElementById("btn-studiokit-gear-rotator-pdf")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const badge = state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
+    const patrolSize = document.getElementById("gear-patrol-size-select")?.value || "8";
+    const stationMins = document.getElementById("rotator-minutes-select")?.value || "15";
+    triggerPdfEndpointDownload(
+      `/api/v1/studiokit/gear-rotator.pdf?badge_name=${encodeURIComponent(badge)}&patrol_size=${encodeURIComponent(
+        patrolSize
+      )}&station_minutes=${encodeURIComponent(stationMins)}`
+    );
   });
 
   // Class Opening Setup Slide (Slide 2) & Class Closing Wrap-Up Slide (Slide N) Injection & Removal
@@ -7122,45 +7409,61 @@ function bindCounselorToolkitActions() {
     URL.revokeObjectURL(url);
   };
 
-  // F4: Scout Workbook Copy & Print
+  // F4: Scout Workbook Copy & Counselor Guide PDF Download
   document.getElementById("btn-copy-workbook")?.addEventListener("click", (e) => {
     const md = state.currentResult?.workbook_markdown || "";
     copyTextWithFeedback(e.currentTarget, md, "✅ Copied Workbook!");
   });
-  document.getElementById("btn-print-workbook")?.addEventListener("click", () => {
-    const badge = state.currentResult?.badge_name || "Merit Badge";
-    const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
-    const html = document.getElementById("workbook-markdown-preview")?.innerHTML || "";
-    printHtmlDocument(`${badge} Merit Badge — Scout Workbook`, `Prepared for ${troop}`, html);
-  });
+  const handleDownloadCounselorGuidePdf = (ev) => {
+    if (ev) ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    const optTrack = state.currentResult?.option_track || document.getElementById("option-track-select")?.value || "ALL";
+    triggerPdfEndpointDownload(
+      `/api/v1/studiokit/counselor-workbook.pdf?badge_name=${encodeURIComponent(badge)}&option_track=${encodeURIComponent(optTrack)}`
+    );
+  };
+  document.getElementById("btn-download-counselor-workbook-pdf")?.addEventListener("click", handleDownloadCounselorGuidePdf);
+  document.getElementById("btn-print-workbook")?.addEventListener("click", handleDownloadCounselorGuidePdf);
 
-  // F4: Session Agenda Copy, Print & .MD Download
+  // F4: Session Agenda Copy & PDF Download
   document.getElementById("btn-copy-agenda")?.addEventListener("click", (e) => {
     const md = state.currentResult?.session_agenda?.agenda_markdown || "";
     copyTextWithFeedback(e.currentTarget, md, "✅ Copied Agenda!");
   });
-  document.getElementById("btn-print-agenda")?.addEventListener("click", () => {
-    const badge = state.currentResult?.badge_name || "Merit Badge";
-    const fmt = document.getElementById("studiokit-schedule-select")?.value || "Session Plan";
-    const html = document.getElementById("studiokit-agenda-preview")?.innerHTML || "";
-    printHtmlDocument(`${badge} Merit Badge — Counselor Teaching Plan`, fmt, html);
+  const handleDownloadAgendaPdf = (ev) => {
+    if (ev) ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    const fmt = document.getElementById("studiokit-schedule-select")?.value || "4_session_mbc";
+    triggerPdfEndpointDownload(
+      `/api/v1/studiokit/agenda.pdf?badge_name=${encodeURIComponent(badge)}&schedule_format=${encodeURIComponent(fmt)}`
+    );
+  };
+  document.getElementById("btn-print-agenda")?.addEventListener("click", handleDownloadAgendaPdf);
+  document.getElementById("btn-download-agenda-md")?.addEventListener("click", handleDownloadAgendaPdf);
+
+  // F4: Parent Prerequisite Letter Copy, mailto:, Gmail Compose & .PDF Download
+  document.getElementById("btn-copy-letter")?.addEventListener("click", (e) => {
+    const md = getLiveParentLetterMarkdown(state.currentResult, state.activeLetterStage);
+    copyTextWithFeedback(e.currentTarget, md, "✅ Copied Letter!");
   });
 
-  // F4: Parent Prerequisite Letter Copy, mailto:, Gmail Compose, Print & .PDF Download
-  document.getElementById("btn-copy-letter")?.addEventListener("click", (e) => {
-    const md = getLiveParentLetterMarkdown(state.currentResult);
-    copyTextWithFeedback(e.currentTarget, md, "✅ Copied Letter!");
+  document.getElementById("btn-download-letter-md")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    const activeStage = state.activeLetterStage || "stage_1_welcome_cpp";
+    triggerPdfEndpointDownload(
+      `/api/v1/studiokit/parent-letter.pdf?badge_name=${encodeURIComponent(badge)}&stage=${encodeURIComponent(activeStage)}`
+    );
   });
 
   const handleMailtoLetter = (e) => {
     const btn = e.currentTarget;
-    const badge = state.currentResult?.badge_name || "Merit Badge";
-    const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
     const counselorEmail = document.getElementById("input-counselor-email")?.value || "";
-    const rawMd = getLiveParentLetterMarkdown(state.currentResult);
+    const activeStage = state.activeLetterStage || "stage_1_welcome_cpp";
+    const rawMd = getLiveParentLetterMarkdown(state.currentResult, activeStage);
     const plainBody = getPlainEmailBodyFromMarkdown(rawMd);
     copyTextWithFeedback(btn, plainBody, "✅ Opening Email App (Copied!)");
-    const subject = encodeURIComponent(`[${troop}] ${badge} Merit Badge — Parent Prerequisite & Safety Letter`);
+    const subject = encodeURIComponent(getLiveParentLetterSubject(state.currentResult, activeStage));
     const body = encodeURIComponent(plainBody.slice(0, 1800));
     const mailtoHref = `mailto:?cc=${encodeURIComponent(counselorEmail)}&subject=${subject}&body=${body}`;
     const link = document.createElement("a");
@@ -7174,13 +7477,12 @@ function bindCounselorToolkitActions() {
 
   const handleGmailLetter = (e) => {
     const btn = e.currentTarget;
-    const badge = state.currentResult?.badge_name || "Merit Badge";
-    const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
     const counselorEmail = document.getElementById("input-counselor-email")?.value || "";
-    const rawMd = getLiveParentLetterMarkdown(state.currentResult);
+    const activeStage = state.activeLetterStage || "stage_1_welcome_cpp";
+    const rawMd = getLiveParentLetterMarkdown(state.currentResult, activeStage);
     const plainBody = getPlainEmailBodyFromMarkdown(rawMd);
     copyTextWithFeedback(btn, plainBody, "✅ Opening Gmail Tab...");
-    const subject = encodeURIComponent(`[${troop}] ${badge} Merit Badge — Parent Prerequisite & Safety Letter`);
+    const subject = encodeURIComponent(getLiveParentLetterSubject(state.currentResult, activeStage));
     const body = encodeURIComponent(plainBody.slice(0, 1800));
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&cc=${encodeURIComponent(counselorEmail)}&su=${subject}&body=${body}`;
     window.open(gmailUrl, "_blank", "noopener,noreferrer");
@@ -7188,14 +7490,16 @@ function bindCounselorToolkitActions() {
   document.getElementById("btn-gmail-letter")?.addEventListener("click", handleGmailLetter);
   document.getElementById("btn-email-letter-gmail")?.addEventListener("click", handleGmailLetter);
 
-  document.getElementById("btn-print-letter")?.addEventListener("click", () => {
-    const badge = state.currentResult?.badge_name || "Merit Badge";
-    const troop = document.getElementById("input-troop-name")?.value || "Troop 123";
-    const html = document.getElementById("studiokit-letter-preview")?.innerHTML || "";
-    printHtmlDocument(`${badge} Merit Badge — Parent Prerequisite & Youth Protection Letter`, troop, html);
+  document.getElementById("btn-print-letter")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    const activeStage = state.activeLetterStage || "stage_1_welcome_cpp";
+    triggerPdfEndpointDownload(
+      `/api/v1/studiokit/parent-letter.pdf?badge_name=${encodeURIComponent(badge)}&stage=${encodeURIComponent(activeStage)}`
+    );
   });
 
-  // F5: Quartermaster Gear Patrol Size Multiplier, Copy & Print
+  // F5: Quartermaster Gear Patrol Size Multiplier, Copy & PDF Download
   document.getElementById("gear-patrol-size-select")?.addEventListener("change", () => {
     if (state.currentResult) {
       renderQuartermasterGearChecklist(state.currentResult);
@@ -7208,14 +7512,15 @@ function bindCounselorToolkitActions() {
   document.getElementById("btn-copy-gear-list")?.addEventListener("click", handleCopyGearList);
   document.getElementById("btn-copy-gear-checklist")?.addEventListener("click", handleCopyGearList);
 
-  const handlePrintGearList = () => {
-    const badge = state.currentResult?.badge_name || "Merit Badge";
+  const handlePrintGearList = (ev) => {
+    if (ev) ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
     const patrolSize = document.getElementById("gear-patrol-size-select")?.value || "8";
-    const md = buildQuartermasterGearMarkdown(state.currentResult);
-    printHtmlDocument(
-      `${badge} Merit Badge — Master Quartermaster Gear & Station Packing Checklist`,
-      `Scaled for Patrol of ${patrolSize} Scouts`,
-      renderMarkdownToStyledHtml(md)
+    const stationMins = document.getElementById("rotator-minutes-select")?.value || "15";
+    triggerPdfEndpointDownload(
+      `/api/v1/studiokit/gear-rotator.pdf?badge_name=${encodeURIComponent(badge)}&patrol_size=${encodeURIComponent(
+        patrolSize
+      )}&station_minutes=${encodeURIComponent(stationMins)}`
     );
   };
   document.getElementById("btn-print-gear-list")?.addEventListener("click", handlePrintGearList);
@@ -7302,29 +7607,48 @@ function bindCounselorToolkitActions() {
     exportBlueCardCsv(state.currentResult, true);
   });
   document.getElementById("btn-bluecard-print")?.addEventListener("click", () => {
-    if (!state.currentResult) return;
-    printBlueCardSignOffSheet(state.currentResult);
+    const badge = state.currentResult?.badge_name || "First Aid";
+    triggerPdfEndpointDownload(`/api/v1/studiokit/bluecards.pdf?badge_name=${encodeURIComponent(badge)}&mode=sheet`);
   });
 
   // 3-Stage YPT-Safe Email Composer
   const yptBox = document.getElementById("bluecard-ypt-composer-box");
   const renderActiveYptStage = () => {
-    const pack = state.activeYptPack || {};
-    const stageKey = state.activeYptStageKey || "stage1";
-    const map = {
-      stage1: pack.stage_1_welcome_and_cpp_markdown || "",
-      stage2: pack.stage_2_midpoint_homework_markdown || "",
-      stage3: pack.stage_3_post_class_bluecard_markdown || "",
-    };
+    const stageKey = state.activeYptStageKey || "stage_1_welcome_cpp";
+    const normStage =
+      stageKey === "stage2" || stageKey === "stage_2_mid_clinic_alert"
+        ? "stage_2_mid_clinic_alert"
+        : stageKey === "stage3" || stageKey === "stage_3_final_packet"
+        ? "stage_3_final_packet"
+        : "stage_1_welcome_cpp";
+    state.activeLetterStage = normStage;
+    const md = getLiveParentLetterMarkdown(state.currentResult, normStage);
+    const subj = getLiveParentLetterSubject(state.currentResult, normStage);
     const previewEl = document.getElementById("ypt-stage-markdown-preview");
     if (previewEl) {
-      previewEl.innerHTML = renderMarkdownToStyledHtml(map[stageKey] || "Select a stage above.");
+      previewEl.innerHTML = renderMarkdownToStyledHtml(md || "Select a stage above.");
     }
-    yptBox?.querySelectorAll(".m3-ypt-stage-tab").forEach((btn) => {
-      const isAct = btn.getAttribute("data-ypt-stage") === stageKey;
+    const yptSubjIn = document.getElementById("ypt-email-subject-input");
+    if (yptSubjIn) yptSubjIn.value = subj;
+    const yptBodyIn = document.getElementById("ypt-email-body-textarea");
+    if (yptBodyIn) yptBodyIn.value = md;
+    const letterPreview = document.getElementById("studiokit-letter-preview");
+    if (letterPreview) {
+      letterPreview.innerHTML = renderMarkdownToStyledHtml(md);
+    }
+    yptBox?.querySelectorAll(".m3-ypt-stage-tab, [data-ypt-stage]").forEach((btn) => {
+      const btnStage = btn.getAttribute("data-ypt-stage") || "";
+      const isAct =
+        btnStage === normStage ||
+        (normStage === "stage_1_welcome_cpp" && btnStage === "stage1") ||
+        (normStage === "stage_2_mid_clinic_alert" && btnStage === "stage2") ||
+        (normStage === "stage_3_final_packet" && btnStage === "stage3");
       btn.classList.toggle("m3-btn-tonal", isAct);
       btn.classList.toggle("m3-btn-outlined", !isAct);
       btn.classList.toggle("active", isAct);
+    });
+    document.querySelectorAll("[data-letter-stage]").forEach((btn) => {
+      btn.classList.toggle("active", btn.getAttribute("data-letter-stage") === normStage);
     });
   };
 
@@ -7344,8 +7668,8 @@ function bindCounselorToolkitActions() {
           schedule_format: document.getElementById("studiokit-schedule-select")?.value || "4_session_mbc",
           roster_scouts: roster.scouts || [],
           counselor_info: {
-            counselor_name: document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob",
-            troop_affiliation: document.getElementById("input-troop-name")?.value || "Troop 123, My Council",
+            counselor_name: sanitizeMiddletonTypo(document.getElementById("input-counselor-name")?.value || "Scoutmaster Bob"),
+            troop_affiliation: sanitizeMiddletonTypo(document.getElementById("input-troop-name")?.value || "Troop 123, My Council"),
             email_address: document.getElementById("input-counselor-email")?.value || "counselor@troop123.org",
             phone_number: document.getElementById("input-counselor-phone")?.value || "(000) 555-1234",
           },
@@ -7353,25 +7677,21 @@ function bindCounselorToolkitActions() {
       }).then((r) => r.json());
       if (resp && resp.ypt_pack) {
         state.activeYptPack = resp.ypt_pack;
-        state.activeYptStageKey = state.activeYptStageKey || "stage1";
-        renderActiveYptStage();
       }
     } catch (_e) {}
+    state.activeYptStageKey = state.activeLetterStage || "stage_1_welcome_cpp";
+    renderActiveYptStage();
   });
 
-  yptBox?.querySelectorAll(".m3-ypt-stage-tab").forEach((btn) => {
+  yptBox?.querySelectorAll(".m3-ypt-stage-tab, [data-ypt-stage]").forEach((btn) => {
     btn.addEventListener("click", () => {
-      state.activeYptStageKey = btn.getAttribute("data-ypt-stage") || "stage1";
+      state.activeYptStageKey = btn.getAttribute("data-ypt-stage") || "stage_1_welcome_cpp";
       renderActiveYptStage();
     });
   });
 
   const getActiveYptStageMarkdown = () => {
-    const pack = state.activeYptPack || {};
-    const stageKey = state.activeYptStageKey || "stage1";
-    if (stageKey === "stage2") return pack.stage_2_midpoint_homework_markdown || "";
-    if (stageKey === "stage3") return pack.stage_3_post_class_bluecard_markdown || "";
-    return pack.stage_1_welcome_and_cpp_markdown || "";
+    return getLiveParentLetterMarkdown(state.currentResult, state.activeLetterStage || "stage_1_welcome_cpp");
   };
 
   document.getElementById("btn-ypt-copy-stage")?.addEventListener("click", (ev) => {
@@ -7388,10 +7708,9 @@ function bindCounselorToolkitActions() {
 
   document.getElementById("btn-ypt-mailto-stage")?.addEventListener("click", (ev) => {
     const { ccString } = checkTwoDeepCcEmails();
-    const badge = state.currentResult?.badge_name || "Merit Badge";
     const plain = getPlainEmailBodyFromMarkdown(getActiveYptStageMarkdown());
     copyTextWithFeedback(ev.currentTarget, plain, "✅ Opening Mail Client (YPT CC Included)");
-    const subject = encodeURIComponent(`[YPT Two-Deep CC] ${badge} Merit Badge — Multi-Session Clinic Update`);
+    const subject = encodeURIComponent(getLiveParentLetterSubject(state.currentResult, state.activeLetterStage));
     const body = encodeURIComponent(plain.slice(0, 1800));
     const link = document.createElement("a");
     link.href = `mailto:?cc=${encodeURIComponent(ccString)}&subject=${subject}&body=${body}`;
@@ -7402,10 +7721,9 @@ function bindCounselorToolkitActions() {
 
   document.getElementById("btn-ypt-gmail-stage")?.addEventListener("click", (ev) => {
     const { ccString } = checkTwoDeepCcEmails();
-    const badge = state.currentResult?.badge_name || "Merit Badge";
     const plain = getPlainEmailBodyFromMarkdown(getActiveYptStageMarkdown());
     copyTextWithFeedback(ev.currentTarget, plain, "✅ Opening Gmail (YPT CC Included)");
-    const subject = encodeURIComponent(`[YPT Two-Deep CC] ${badge} Merit Badge — Multi-Session Clinic Update`);
+    const subject = encodeURIComponent(getLiveParentLetterSubject(state.currentResult, state.activeLetterStage));
     const body = encodeURIComponent(plain.slice(0, 1800));
     window.open(
       `https://mail.google.com/mail/?view=cm&fs=1&cc=${encodeURIComponent(ccString)}&su=${subject}&body=${body}`,
@@ -10814,17 +11132,30 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   document.querySelectorAll("[data-letter-stage]").forEach((stageBtn) => {
     stageBtn.addEventListener("click", () => {
       const stageId = stageBtn.getAttribute("data-letter-stage") || "stage_1_welcome_cpp";
+      state.activeLetterStage = stageId;
       document.querySelectorAll("[data-letter-stage]").forEach((b) => {
         b.classList.toggle("active", b === stageBtn);
       });
       const yptBtn = document.querySelector(`[data-ypt-stage="${stageId}"]`);
-      yptBtn?.click();
-      const yptBody = document.getElementById("ypt-email-body-textarea")?.value;
+      if (yptBtn) {
+        yptBtn.click();
+      }
+      const md = getLiveParentLetterMarkdown(state.currentResult, stageId);
+      const subj = getLiveParentLetterSubject(state.currentResult, stageId);
       const letterPreview = document.getElementById("studiokit-letter-preview");
-      if (letterPreview && yptBody && stageId !== "stage_1_welcome_cpp") {
-        letterPreview.innerHTML = renderMarkdownToStyledHtml(yptBody);
-      } else if (letterPreview && state.currentResult) {
-        letterPreview.innerHTML = renderMarkdownToStyledHtml(getLiveParentLetterMarkdown(state.currentResult));
+      if (letterPreview) {
+        letterPreview.innerHTML = renderMarkdownToStyledHtml(md);
+      }
+      const yptSubjIn = document.getElementById("ypt-email-subject-input");
+      if (yptSubjIn) yptSubjIn.value = subj;
+      const yptBodyIn = document.getElementById("ypt-email-body-textarea");
+      if (yptBodyIn) yptBodyIn.value = md;
+      const badge = state.currentResult?.badge_name || "First Aid";
+      const letterPdfLink = document.getElementById("btn-download-letter-md");
+      if (letterPdfLink) {
+        letterPdfLink.href = `/api/v1/studiokit/parent-letter.pdf?badge_name=${encodeURIComponent(
+          badge
+        )}&stage=${encodeURIComponent(stageId)}`;
       }
     });
   });
@@ -10888,26 +11219,46 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   document.addEventListener("click", () => {
     closeAllPopoverMenus(null);
   });
+  const downloadPdfFromUrl = (urlPath) => {
+    const a = document.createElement("a");
+    a.href = urlPath;
+    a.setAttribute("download", "");
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  };
   document.getElementById("btn-top-print-workbook")?.addEventListener("click", () => {
     document.getElementById("btn-print-workbook")?.click();
   });
-  document.getElementById("btn-top-print-field-qr-handout")?.addEventListener("click", () => {
-    printPocketFieldQrHandout(state.currentResult);
+  document.getElementById("btn-top-print-field-qr-handout")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    downloadPdfFromUrl(`/api/v1/studiokit/field-qr-checklist.pdf?badge_name=${encodeURIComponent(badge)}`);
   });
-  document.getElementById("btn-workbook-print-field-qr")?.addEventListener("click", () => {
-    printPocketFieldQrHandout(state.currentResult);
+  document.getElementById("btn-workbook-print-field-qr")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    downloadPdfFromUrl(`/api/v1/studiokit/field-qr-checklist.pdf?badge_name=${encodeURIComponent(badge)}`);
   });
-  document.getElementById("btn-studiokit-print-field-qr")?.addEventListener("click", () => {
-    printPocketFieldQrHandout(state.currentResult);
+  document.getElementById("btn-studiokit-print-field-qr")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    downloadPdfFromUrl(`/api/v1/studiokit/field-qr-checklist.pdf?badge_name=${encodeURIComponent(badge)}`);
   });
-  document.getElementById("btn-top-print-3panel-bluecards")?.addEventListener("click", () => {
-    printThreePanelBlueCards(state.currentResult);
+  document.getElementById("btn-top-print-3panel-bluecards")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    downloadPdfFromUrl(`/api/v1/studiokit/bluecards.pdf?badge_name=${encodeURIComponent(badge)}&mode=3panel`);
   });
-  document.getElementById("btn-bluecard-print-3panel")?.addEventListener("click", () => {
-    printThreePanelBlueCards(state.currentResult);
+  document.getElementById("btn-bluecard-print-3panel")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    downloadPdfFromUrl(`/api/v1/studiokit/bluecards.pdf?badge_name=${encodeURIComponent(badge)}&mode=3panel`);
   });
-  document.getElementById("btn-top-print-cue-cards")?.addEventListener("click", () => {
-    printCounselorPocketCueCards();
+  document.getElementById("btn-top-print-cue-cards")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    downloadPdfFromUrl(`/api/v1/studiokit/cue-cards.pdf?badge_name=${encodeURIComponent(badge)}`);
   });
   document.getElementById("btn-top-export-bluecard-csv")?.addEventListener("click", () => {
     if (state.currentResult) exportBlueCardCsv(state.currentResult);
@@ -11400,9 +11751,11 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     document.getElementById("btn-apply-codesign")?.click();
   });
 
-  // UI-4 & C4: Workbook search filter & Pocket Cue Cards
-  document.getElementById("btn-print-cue-cards")?.addEventListener("click", () => {
-    printCounselorPocketCueCards();
+  // UI-4 & C4: Workbook search filter & Pocket Cue Cards PDF
+  document.getElementById("btn-print-cue-cards")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    const badge = state.currentResult?.badge_name || "First Aid";
+    downloadPdfFromUrl(`/api/v1/studiokit/cue-cards.pdf?badge_name=${encodeURIComponent(badge)}`);
   });
   document.getElementById("workbook-search-input")?.addEventListener("input", (ev) => {
     const q = (ev.target.value || "").trim().toLowerCase();
@@ -11445,10 +11798,16 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
   document.getElementById("rotator-minutes-select")?.addEventListener("change", () => {
     if (state.currentResult) renderBuddyStationRotator(state.currentResult);
   });
-  document.getElementById("btn-print-rotator")?.addEventListener("click", () => {
+  document.getElementById("btn-print-rotator")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
     const badge = state.currentResult?.badge_name || "First Aid";
-    const html = document.getElementById("buddy-rotator-matrix-wrap")?.innerHTML || "";
-    printHtmlDocument(`${badge} Merit Badge — Patrol & Buddy Skill Station Rotation Matrix`, "Hands-On EDGE Station Schedule", html);
+    const patrolSize = document.getElementById("gear-patrol-size-select")?.value || "8";
+    const stationMins = document.getElementById("rotator-minutes-select")?.value || "15";
+    downloadPdfFromUrl(
+      `/api/v1/studiokit/gear-rotator.pdf?badge_name=${encodeURIComponent(badge)}&patrol_size=${encodeURIComponent(
+        patrolSize
+      )}&station_minutes=${encodeURIComponent(stationMins)}`
+    );
   });
 
   // Feature C3: Copy Pre-Class Prerequisite Reminder
@@ -13025,11 +13384,19 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
 function groupTemplatesByStyleFamily(list) {
   const groups = [];
   const byKey = new Map();
+  const familyCounts = new Map();
+  (list || []).forEach((t) => {
+    if (t.family_id && t.family_id !== "custom_uploaded") {
+      familyCounts.set(t.family_id, (familyCounts.get(t.family_id) || 0) + 1);
+    }
+  });
   (list || []).forEach((t) => {
     const isMultiColorFamily = Boolean(
-      t.is_builtin &&
-        t.family_id &&
-        ["brushed_banner", "outdoor_silhouette", "forest_sunrise", "topographic", "fleur_crest"].includes(t.family_id)
+      t.family_id &&
+        t.family_id !== "custom_uploaded" &&
+        (familyCounts.get(t.family_id) >= 2 ||
+          ["brushed_banner", "outdoor_silhouette", "forest_sunrise", "topographic", "fleur_crest"].includes(t.family_id) ||
+          String(t.family_id).startsWith("nanobanana_tpl_"))
     );
     const groupKey = isMultiColorFamily ? `family:${t.family_id}` : `single:${t.template_id}`;
     if (!byKey.has(groupKey)) {
@@ -13038,7 +13405,7 @@ function groupTemplatesByStyleFamily(list) {
         groupKey,
         isMultiColorFamily,
         familyId: t.family_id || "custom_uploaded",
-        familyName: t.family_name || (t.is_builtin ? "Built-In Templates" : "Custom Uploaded Templates"),
+        familyName: t.family_name || (t.is_builtin ? "Built-In Templates" : "Custom & AI Templates"),
         seriesTitle: isMultiColorFamily ? baseName : t.name,
         variants: [],
       };
@@ -14028,6 +14395,353 @@ async function initPowerPointTemplateStudio() {
   };
   document.getElementById("btn-import-template-url")?.addEventListener("click", handleImportTemplateUrl);
   document.getElementById("btn-import-template-url-submit")?.addEventListener("click", handleImportTemplateUrl);
+
+  // =========================================================================
+  // v2.5 ITEM 6: NANO BANANA SLIDE TEMPLATE STUDIO (3-TAB SEGMENTED BAR + AI BUILDER)
+  // =========================================================================
+  const switchTemplateStudioTab = (targetTab = "gallery") => {
+    document.querySelectorAll("[data-tpl-studio-tab]").forEach((btn) => {
+      const isAct = btn.getAttribute("data-tpl-studio-tab") === targetTab;
+      btn.classList.toggle("active", isAct);
+      btn.setAttribute("aria-selected", isAct ? "true" : "false");
+    });
+    document.getElementById("template-studio-tab-gallery")?.classList.toggle("hidden", targetTab !== "gallery");
+    document.getElementById("template-studio-tab-ai")?.classList.toggle("hidden", targetTab !== "ai");
+    document.getElementById("template-studio-tab-upload")?.classList.toggle("hidden", targetTab !== "upload");
+    if (targetTab === "ai") {
+      updateNanoBananaLivePreview();
+    }
+  };
+
+  document.querySelectorAll("[data-tpl-studio-tab]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      switchTemplateStudioTab(btn.getAttribute("data-tpl-studio-tab") || "gallery");
+    });
+  });
+
+  document.getElementById("btn-tpl-open-ai-tab")?.addEventListener("click", () => {
+    switchTemplateStudioTab("ai");
+  });
+
+  state.tplAiCustomLogoDataUrl = "";
+  state.tplAiGeneratedVariants = [];
+  state.tplAiActiveVariantIndex = 0;
+
+  const updateNanoBananaLivePreview = () => {
+    const c1 = document.getElementById("tpl-ai-color1")?.value || "#1B5E20";
+    const c2 = document.getElementById("tpl-ai-color2")?.value || "#0284C7";
+    const c3 = document.getElementById("tpl-ai-color3")?.value || "#D97706";
+    const useC2 = document.getElementById("tpl-ai-use-color2")?.checked !== false;
+    const useC3 = document.getElementById("tpl-ai-use-color3")?.checked !== false;
+    const dotA = document.getElementById("tpl-ai-dot-a");
+    const dotB = document.getElementById("tpl-ai-dot-b");
+    const dotC = document.getElementById("tpl-ai-dot-c");
+    if (dotA) dotA.style.background = c1;
+    if (dotB) dotB.style.background = useC2 ? c2 : c1;
+    if (dotC) dotC.style.background = useC3 ? c3 : c1;
+
+    const activeVariantIdx = state.tplAiActiveVariantIndex || 0;
+    const primaryColors = [c1, useC2 ? c2 : c1, useC3 ? c3 : c1];
+    const accentColors = [useC3 ? c3 : "#D4AF37", c1, useC2 ? c2 : c1];
+    const activePrimary = primaryColors[activeVariantIdx] || c1;
+    const activeAccent = accentColors[activeVariantIdx] || "#D4AF37";
+    const framePreset = document.getElementById("tpl-ai-frame-select")?.value || "horizon_silhouette";
+    const styleFamily = document.getElementById("tpl-ai-style-select")?.value || "pinewood_campfire";
+    const tplName = (document.getElementById("tpl-ai-name-input")?.value || "Camp Hidden Valley — Summer 2026 Theme").trim();
+    const logoPos = document.getElementById("tpl-ai-logo-pos-select")?.value || "top_right";
+
+    const stageBox = document.getElementById("tpl-ai-live-preview-stage");
+    const genVar = (state.tplAiGeneratedVariants || [])[activeVariantIdx];
+    const pHex = genVar?.primary_hex || activePrimary;
+    const aHex = genVar?.accent_hex || activeAccent;
+    const variantLabels = ["Variant A (Primary)", "Variant B (Secondary)", "Variant C (Accent)"];
+    const activeVariantLabel = variantLabels[activeVariantIdx] || "Variant A";
+    const styleBadgeMap = {
+      pinewood_campfire: "🌲 Pinewood & Lake Silhouette",
+      topographic_adventure: "🗺️ Topographic Contour Map",
+      heritage_embroidery: "⚜️ Heritage Sash Embroidery",
+      collegiate_mbc: "🏛️ Collegiate MBC Crest",
+      aquatics_nautical: "⚓ Waterfront Nautical Chart",
+      stem_blueprint: "📐 STEM Engineering Blueprint",
+    };
+    const styleDisplay = styleBadgeMap[styleFamily] || styleFamily;
+    const logoSrc = genVar?.corner_logo_url || state.tplAiCustomLogoDataUrl || "/assets/badge_emblems/first_aid.png";
+    const logoCornerStyle =
+      logoPos === "bottom_left"
+        ? "bottom:8px; left:10px;"
+        : logoPos === "bottom_right"
+        ? "bottom:8px; right:10px;"
+        : "top:7px; right:10px;";
+
+    if (stageBox) {
+      if (genVar?.cover_bg_url || genVar?.canvas_watermark_url) {
+        const bgUrl = genVar.cover_bg_url || genVar.canvas_watermark_url;
+        stageBox.style.backgroundImage = `linear-gradient(rgba(250,248,245,0.82), rgba(250,248,245,0.88)), url('${bgUrl}')`;
+        stageBox.style.backgroundSize = "cover";
+      } else {
+        stageBox.style.backgroundImage = `radial-gradient(circle at 85% 18%, ${pHex}14 0%, transparent 55%), linear-gradient(180deg, #FAF8F5 0%, #F4F1EA 100%)`;
+        stageBox.style.backgroundSize = "cover";
+      }
+
+      const perimeterBorder =
+        framePreset === "heritage_border" ? `box-shadow: inset 0 0 0 4px ${pHex}, inset 0 0 0 7px ${aHex};` : "";
+      stageBox.innerHTML = `
+        <div style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; justify-content:space-between; ${perimeterBorder}">
+          <!-- Top Header Band -->
+          <div id="tpl-ai-preview-header-band" style="background:linear-gradient(135deg, ${escapeHtml(pHex)} 0%, ${escapeHtml(pHex)}E6 100%); border-bottom:3px solid ${escapeHtml(aHex)}; padding:8px 14px; color:#FFFFFF; display:flex; align-items:center; justify-content:space-between; gap:8px;">
+            <div style="min-width:0;">
+              <div style="font-size:0.60rem; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; opacity:0.9;">${escapeHtml(styleDisplay)} &bull; ${escapeHtml(activeVariantLabel)}</div>
+              <div id="tpl-ai-preview-title-text" style="font-family:'Roboto Slab',serif; font-size:0.82rem; font-weight:800; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${escapeHtml(tplName)}</div>
+            </div>
+            <span style="background:rgba(255,255,255,0.2); border:1px solid rgba(255,255,255,0.45); border-radius:999px; padding:2px 8px; font-size:0.62rem; font-weight:800; white-space:nowrap;">16:9 Safe Bounds</span>
+          </div>
+
+          <!-- Center SafeCanvasBounds Content Preview -->
+          <div style="padding:10px 14px; display:grid; grid-template-columns:1.25fr 0.85fr; gap:10px; flex:1; align-items:stretch;">
+            <div id="tpl-ai-preview-safe-card" style="background:rgba(255,255,255,0.94); border:1px solid #CBD5E1; border-left:4px solid ${escapeHtml(pHex)}; border-radius:8px; padding:8px 10px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 2px 6px rgba(15,23,42,0.06);">
+              <div>
+                <div style="font-size:0.64rem; font-weight:800; color:${escapeHtml(pHex)}; text-transform:uppercase;">Requirement 1 &bull; Protected Content Zone</div>
+                <div style="font-size:0.74rem; font-weight:800; color:#0F172A; margin-top:2px;">Scene Assessment &amp; Triage Priorities</div>
+                <ul style="margin:4px 0 0 14px; padding:0; font-size:0.66rem; color:#334155; line-height:1.35;">
+                  <li>Check scene safety before approaching patient</li>
+                  <li>Activate 911 / EMS &amp; retrieve unit first-aid kit</li>
+                  <li>Protected y: 1.12"&ndash;6.55" above silhouette</li>
+                </ul>
+              </div>
+              <div style="font-family:var(--font-mono); font-size:0.59rem; color:#475569; background:#F1F5F9; padding:2px 6px; border-radius:4px; width:fit-content;">
+                📐 SafeCanvasBounds: 12.13" &times; 5.43" (Zero Overlap)
+              </div>
+            </div>
+
+            <div style="background:rgba(255,255,255,0.92); border:1.5px dashed ${escapeHtml(aHex)}; border-radius:8px; padding:8px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:4px;">
+              <img src="/assets/badge_emblems/first_aid.png" alt="" style="width:42px; height:42px; object-fit:contain;" />
+              <div style="font-size:0.66rem; font-weight:800; color:#0F172A;">Pamphlet Figure / Hero Zone</div>
+              <div style="font-size:0.59rem; color:#475569;">Harmonized with ${escapeHtml(pHex)} &amp; ${escapeHtml(aHex)}</div>
+            </div>
+          </div>
+
+          <!-- Scenic Bottom Horizon Silhouette & Footer Bar -->
+          <div id="tpl-ai-preview-bottom-silhouette" style="position:relative; height:34px; background:linear-gradient(90deg, ${escapeHtml(pHex)} 0%, ${escapeHtml(pHex)}D9 65%, ${escapeHtml(aHex)} 100%); border-top:2.5px solid ${escapeHtml(aHex)}; display:flex; align-items:center; justify-content:space-between; padding:0 12px; color:#FFFFFF; font-size:0.61rem; font-weight:700;">
+            <span>Scouts BSA First Aid Merit Badge &bull; 📖 Pamphlet (p. 19)</span>
+            <span>Slide 6 of 83 &bull; Requirement 1</span>
+          </div>
+
+          <!-- Corner Emblem / Uploaded Camp Logo Preview -->
+          <img id="tpl-ai-preview-corner-logo" src="${escapeHtml(logoSrc)}" alt="Template Corner Emblem" style="position:absolute; ${logoCornerStyle} width:28px; height:28px; object-fit:contain; background:rgba(255,255,255,0.92); border-radius:50%; padding:2px; box-shadow:0 2px 6px rgba(15,23,42,0.22); z-index:4;" />
+        </div>
+      `;
+    }
+  };
+
+  document.getElementById("tpl-ai-consent-checkbox")?.addEventListener("change", (ev) => {
+    const genBtn = document.getElementById("btn-tpl-ai-generate");
+    if (genBtn) genBtn.disabled = !ev.target.checked;
+  });
+
+  [
+    "tpl-ai-name-input",
+    "tpl-ai-style-select",
+    "tpl-ai-frame-select",
+    "tpl-ai-color1",
+    "tpl-ai-color2",
+    "tpl-ai-color3",
+    "tpl-ai-use-color2",
+    "tpl-ai-use-color3",
+    "tpl-ai-logo-pos-select",
+    "tpl-ai-logo-remove-bg",
+  ].forEach((id) => {
+    document.getElementById(id)?.addEventListener("input", updateNanoBananaLivePreview);
+    document.getElementById(id)?.addEventListener("change", updateNanoBananaLivePreview);
+  });
+
+  document.querySelectorAll("[data-tpl-palette-c1]").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      const c1In = document.getElementById("tpl-ai-color1");
+      const c2In = document.getElementById("tpl-ai-color2");
+      const c3In = document.getElementById("tpl-ai-color3");
+      if (c1In) c1In.value = chip.getAttribute("data-tpl-palette-c1") || "#1B5E20";
+      if (c2In) c2In.value = chip.getAttribute("data-tpl-palette-c2") || "#D4AF37";
+      if (c3In) c3In.value = chip.getAttribute("data-tpl-palette-c3") || "#003F87";
+      updateNanoBananaLivePreview();
+    });
+  });
+
+  document.getElementById("tpl-ai-logo-file-input")?.addEventListener("change", (ev) => {
+    const file = ev.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      state.tplAiCustomLogoDataUrl = String(reader.result || "");
+      updateNanoBananaLivePreview();
+    };
+    reader.readAsDataURL(file);
+  });
+
+  document.getElementById("btn-tpl-ai-clear-logo")?.addEventListener("click", () => {
+    state.tplAiCustomLogoDataUrl = "";
+    const fileIn = document.getElementById("tpl-ai-logo-file-input");
+    if (fileIn) fileIn.value = "";
+    updateNanoBananaLivePreview();
+  });
+
+  document.getElementById("btn-tpl-ai-sample-safe")?.addEventListener("click", () => {
+    const promptIn = document.getElementById("tpl-ai-prompt-input");
+    if (promptIn) {
+      promptIn.value =
+        " Crisp pine forest ridgeline silhouette along the bottom footer, subtle topographic elevation contour lines in warm parchment, and a brass compass rose accent in the top banner.";
+    }
+    document.getElementById("tpl-ai-guardrail-banner")?.classList.add("hidden");
+    updateNanoBananaLivePreview();
+  });
+
+  document.getElementById("btn-tpl-ai-sample-guardrail")?.addEventListener("click", () => {
+    const promptIn = document.getElementById("tpl-ai-prompt-input");
+    if (promptIn) {
+      promptIn.value = " Realistic tactical combat sniper rifle scope and beer bottle party background";
+    }
+    const banner = document.getElementById("tpl-ai-guardrail-banner");
+    if (banner) {
+      banner.textContent =
+        "🛡️ Policy Guardrail Demo: Prompts containing weapons/firearms, alcohol/drugs, or trademarked characters are automatically blocked by the 3-Layer Scouting Safety Filter before any model call.";
+      banner.classList.remove("hidden");
+    }
+  });
+
+  document.getElementById("btn-tpl-ai-preview-free")?.addEventListener("click", () => {
+    document.getElementById("tpl-ai-guardrail-banner")?.classList.add("hidden");
+    updateNanoBananaLivePreview();
+    showToast("👁️ Updated free SVG/Canvas 16:9 template preview ($0.00).", "info");
+  });
+
+  document.querySelectorAll("[data-tpl-ai-variant]").forEach((pill) => {
+    pill.addEventListener("click", () => {
+      const raw = String(pill.getAttribute("data-tpl-ai-variant") || "A").toUpperCase();
+      const idxMap = { A: 0, B: 1, C: 2, "0": 0, "1": 1, "2": 2 };
+      state.tplAiActiveVariantIndex = idxMap[raw] ?? 0;
+      document.querySelectorAll("[data-tpl-ai-variant]").forEach((p) => {
+        p.classList.toggle("active", p === pill);
+      });
+      updateNanoBananaLivePreview();
+    });
+  });
+
+  document.getElementById("btn-tpl-ai-generate")?.addEventListener("click", async () => {
+    const consentChk = document.getElementById("tpl-ai-consent-checkbox");
+    const guardrailEl = document.getElementById("tpl-ai-guardrail-banner");
+    const statusEl = document.getElementById("tpl-ai-status-msg");
+    guardrailEl?.classList.add("hidden");
+
+    const promptText = (document.getElementById("tpl-ai-prompt-input")?.value || "").trim();
+    const blockedRegex = /\b(sniper|tactical\s+combat|assault\s+rifle|handgun|beer|whiskey|vodka|alcohol|marijuana|vape|cigarette|gore|explicit|nude)\b/i;
+    if (blockedRegex.test(promptText)) {
+      if (guardrailEl) {
+        guardrailEl.textContent =
+          "🛡️ Blocked by Scouting Safety & Youth Protection Guardrail: Prompt contains restricted keywords. Please use outdoor, knots, compass, STEM, or camp craft motifs.";
+        guardrailEl.classList.remove("hidden");
+      }
+      return;
+    }
+
+    if (consentChk && !consentChk.checked) {
+      showToast("Please check the $0.039 FinOps confirmation checkbox first (or use Free SVG Preview).", "warning");
+      return;
+    }
+
+    const genBtn = document.getElementById("btn-tpl-ai-generate");
+    const origLabel = genBtn?.innerHTML || "";
+    if (genBtn) {
+      genBtn.disabled = true;
+      genBtn.textContent = "⏳ Generating 4-Color Template Series...";
+    }
+    if (statusEl) {
+      statusEl.style.color = "#0369A1";
+      statusEl.textContent = "Synthesizing 16:9 Nano Banana slide frame & 4 color variants (Green, Blue, Red, Tan)...";
+    }
+
+    const c1 = document.getElementById("tpl-ai-color1")?.value || "#1B5E20";
+    const c2 = document.getElementById("tpl-ai-color2")?.value || "#D4AF37";
+    const c3 = document.getElementById("tpl-ai-color3")?.value || "#003F87";
+    const useC2 = document.getElementById("tpl-ai-use-color2")?.checked !== false;
+    const useC3 = document.getElementById("tpl-ai-use-color3")?.checked !== false;
+    const colors = [c1];
+    if (useC2) colors.push(c2);
+    if (useC3) colors.push(c3);
+
+    const payload = {
+      template_name: (document.getElementById("tpl-ai-name-input")?.value || "Troop 19 High Adventure Series").trim(),
+      style_family: document.getElementById("tpl-ai-style-select")?.value || "TOPOGRAPHIC_OUTDOOR",
+      frame_preset: document.getElementById("tpl-ai-frame-select")?.value || "TOP_AND_BOTTOM_SILHOUETTE",
+      colors,
+      primary_hex: c1,
+      accent_hex: useC2 ? c2 : "#D4AF37",
+      secondary_hex: useC3 ? c3 : "#003F87",
+      prompt: promptText,
+      logo_position: document.getElementById("tpl-ai-logo-pos-select")?.value || "bottom-right",
+      remove_logo_bg: document.getElementById("tpl-ai-logo-remove-bg")?.checked !== false,
+      logo_data_url: state.tplAiCustomLogoDataUrl || "",
+      confirm_finops_cost: true,
+    };
+
+    try {
+      const resp = await fetch("/api/v1/templates/generate-ai", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok) {
+        const msg = data.detail || data.error || "Template generation blocked or failed.";
+        if (guardrailEl) {
+          guardrailEl.textContent = `🛡️ ${msg}`;
+          guardrailEl.classList.remove("hidden");
+        }
+        if (statusEl) statusEl.textContent = "";
+        return;
+      }
+      if (Array.isArray(data.templates) && data.templates.length > 0) {
+        state.templateCatalog = data.templates;
+      }
+      const createdVariants = Array.isArray(data.variants)
+        ? data.variants
+        : data.template
+        ? [data.template]
+        : [];
+      state.tplAiGeneratedVariants = createdVariants;
+      state.tplAiActiveVariantIndex = 0;
+      syncTemplateSelectorUi();
+      renderTemplateCatalogGrid();
+      updateNanoBananaLivePreview();
+      if (createdVariants[0]?.template_id) {
+        await applyTemplateToActiveDeck(createdVariants[0].template_id, false);
+      }
+      if (statusEl) {
+        statusEl.style.color = "#15803D";
+        statusEl.textContent = `✓ Saved "${payload.template_name}" (${createdVariants.length || 4} color variants) to your Template Gallery!`;
+      }
+      showToast(`🍌 Generated "${payload.template_name}" 4-color template family!`, "info");
+    } catch (err) {
+      if (statusEl) {
+        statusEl.style.color = "#B91C1C";
+        statusEl.textContent = `⚠️ Error: ${err.message}`;
+      }
+    } finally {
+      if (genBtn) {
+        genBtn.disabled = false;
+        genBtn.innerHTML = origLabel;
+      }
+    }
+  });
+
+  document.getElementById("btn-tpl-ai-apply-variant")?.addEventListener("click", async () => {
+    const idx = state.tplAiActiveVariantIndex || 0;
+    const chosen = (state.tplAiGeneratedVariants || [])[idx] || (state.tplAiGeneratedVariants || [])[0];
+    if (chosen?.template_id) {
+      await applyTemplateToActiveDeck(chosen.template_id, true);
+      switchTemplateStudioTab("gallery");
+    } else {
+      document.getElementById("btn-tpl-ai-generate")?.click();
+    }
+  });
 }
 
 // ============================================================================
@@ -14978,6 +15692,174 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     });
   });
 
+  const CUSTOM_LOCATIONS_KEY = "bsa_custom_locations_v1";
+  const CUSTOM_TAGS_KEY = "bsa_custom_bundle_tags_v1";
+
+  const loadCustomList = (storageKey) => {
+    try {
+      const raw = window.localStorage.getItem(storageKey);
+      const parsed = raw ? JSON.parse(raw) : [];
+      return Array.isArray(parsed) ? parsed.filter(Boolean) : [];
+    } catch (_e) {
+      return [];
+    }
+  };
+
+  const saveCustomList = async (storageKey, list, listType) => {
+    try {
+      window.localStorage.setItem(storageKey, JSON.stringify(list));
+    } catch (_e) {}
+    try {
+      await fetch("/api/v1/preferences/custom-lists", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          custom_locations: loadCustomList(CUSTOM_LOCATIONS_KEY),
+          custom_bundle_tags: loadCustomList(CUSTOM_TAGS_KEY),
+          updated_type: listType,
+        }),
+      });
+    } catch (_e) {}
+  };
+
+  const renderCustomPresetGroup = (groupId, storageKey, inputId, menuId) => {
+    const grp = document.getElementById(groupId);
+    if (!grp) return;
+    const items = loadCustomList(storageKey);
+    if (items.length === 0) {
+      grp.innerHTML = "";
+      return;
+    }
+    grp.innerHTML =
+      `<div style="font-size:0.65rem; font-weight:800; color:#003F87; padding:4px 8px; text-transform:uppercase;">★ Saved Custom Presets</div>` +
+      items
+        .map(
+          (val) =>
+            `<button type="button" class="m3-ws-combo-opt" data-ws-preset-val="${escapeHtml(val)}">★ ${escapeHtml(val)}</button>`
+        )
+        .join("") +
+      `<div style="border-bottom:1px solid #E2E8F0; margin:3px 0;"></div>`;
+    const inputEl = document.getElementById(inputId);
+    const menuEl = document.getElementById(menuId);
+    grp.querySelectorAll("[data-ws-preset-val]").forEach((btn) => {
+      btn.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        if (inputEl) inputEl.value = btn.getAttribute("data-ws-preset-val") || "";
+        menuEl?.classList.add("hidden");
+        computeAndSyncWorkspaceSchedulePreview();
+      });
+    });
+  };
+
+  const formatTime12h = (hours24, mins) => {
+    const h = ((hours24 % 24) + 24) % 24;
+    const ampm = h >= 12 ? "PM" : "AM";
+    const h12 = h % 12 === 0 ? 12 : h % 12;
+    return `${h12}:${String(mins).padStart(2, "0")} ${ampm}`;
+  };
+
+  const formatTime24h = (hours24, mins) => {
+    const h = ((hours24 % 24) + 24) % 24;
+    return `${String(h).padStart(2, "0")}:${String(mins).padStart(2, "0")}`;
+  };
+
+  const parseTime12hToMinutes = (str) => {
+    const m = String(str || "")
+      .trim()
+      .match(/^(\d{1,2}):(\d{2})\s*(AM|PM)?$/i);
+    if (!m) return 8 * 60 + 30;
+    let h = parseInt(m[1], 10);
+    const mins = parseInt(m[2], 10);
+    if (m[3]) {
+      const mer = m[3].toUpperCase();
+      if (mer === "PM" && h < 12) h += 12;
+      if (mer === "AM" && h === 12) h = 0;
+    }
+    return h * 60 + mins;
+  };
+
+  const computeAndSyncWorkspaceSchedulePreview = () => {
+    const secName = document.getElementById("ws-section-name-select")?.value || "Period";
+    const secNum = document.getElementById("ws-section-num-select")?.value ?? "1";
+    const startDateRaw = document.getElementById("ws-start-date-input")?.value || "2026-01-10";
+    const freqRaw = document.getElementById("ws-frequency-select")?.value || "Weekly";
+    const freq = String(freqRaw).toUpperCase();
+    const numSessions = Math.max(1, parseInt(document.getElementById("ws-num-sessions-select")?.value || "4", 10));
+    const includeMakeup = document.getElementById("ws-chk-makeup-session")?.checked !== false;
+    const rawStartVal = (document.getElementById("ws-start-time-input")?.value || "08:30").trim();
+    const durationMin = Math.max(15, parseInt(document.getElementById("ws-duration-min-input")?.value || "60", 10) || 60);
+    const roomLoc = (document.getElementById("ws-room-location-input")?.value || "Holten-Richmond MS - Room HR 107 (Danvers MBC)").trim();
+
+    const startMins = parseTime12hToMinutes(rawStartVal);
+    const startTimeStr = formatTime12h(Math.floor(startMins / 60), startMins % 60);
+    const endMins = startMins + durationMin;
+    const endTimeStr = formatTime12h(Math.floor(endMins / 60), endMins % 60);
+    const fullTimeRange = `${startTimeStr} – ${endTimeStr}`;
+
+    const endBadge = document.getElementById("ws-derived-endtime-badge");
+    if (endBadge) {
+      endBadge.textContent = `Ends ${endTimeStr}`;
+    }
+
+    const weekdayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    const weekdayFullNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    let baseDate = new Date(`${startDateRaw}T12:00:00`);
+    if (isNaN(baseDate.getTime())) {
+      baseDate = new Date("2026-01-10T12:00:00");
+    }
+    const weekdayLabel = weekdayFullNames[baseDate.getDay()] || "Saturday";
+    const weekdayBadge = document.getElementById("ws-derived-weekday-badge");
+    if (weekdayBadge) {
+      weekdayBadge.textContent = `📅 ${weekdayLabel}`;
+    }
+
+    const isOnce = freq === "ONCE" || freq === "SINGLE_DAY";
+    const stepDays = freq === "DAILY" ? 1 : freq === "BIWEEKLY" ? 14 : freq === "MONTHLY" ? 28 : isOnce ? 0 : 7;
+    const sessionLabels = [];
+    for (let i = 0; i < numSessions; i++) {
+      const d = new Date(baseDate.getTime() + i * stepDays * 86400000);
+      const mName = monthNames[d.getMonth()] || "Jan";
+      sessionLabels.push(`S${i + 1}: ${weekdayNames[d.getDay()]} ${mName} ${d.getDate()}`);
+    }
+    if (includeMakeup && !isOnce) {
+      const mDate = new Date(baseDate.getTime() + numSessions * stepDays * 86400000);
+      sessionLabels.push(`Make-Up: ${weekdayNames[mDate.getDay()]} ${monthNames[mDate.getMonth()]} ${mDate.getDate()}`);
+    }
+
+    const secPart = secNum ? `${secName} ${secNum}` : secName;
+    const combinedSectionLabel = `${secPart} (${startTimeStr})`;
+    const datesSummary = `${numSessions}x ${durationMin}-Min Sessions (${sessionLabels.join(" • ")})`;
+
+    const sessionIn = document.getElementById("ws-session-label-input");
+    const wsTimeIn = document.getElementById("ws-class-time-input");
+    const wsDatesIn = document.getElementById("ws-session-dates-input");
+    if (sessionIn) sessionIn.value = combinedSectionLabel;
+    if (wsTimeIn) wsTimeIn.value = fullTimeRange;
+    if (wsDatesIn) wsDatesIn.value = datesSummary;
+
+    const liveStrip = document.getElementById("ws-live-schedule-strip");
+    if (liveStrip) {
+      liveStrip.innerHTML = `🗓️ <strong>Live Schedule Preview:</strong> ${escapeHtml(
+        combinedSectionLabel
+      )} &bull; ${escapeHtml(fullTimeRange)} (${durationMin}m) &bull; ${escapeHtml(
+        sessionLabels.join(" | ")
+      )} &bull; 📍 ${escapeHtml(roomLoc)}`;
+    }
+    return {
+      combinedSectionLabel,
+      fullTimeRange,
+      datesSummary,
+      roomLoc,
+      startTimeStr,
+      endTimeStr,
+      durationMin,
+      secName,
+      secNum,
+      secPart,
+    };
+  };
+
   const openWsModal = () => {
     const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
     const activeWs = (state.savedWorkspaces || []).find((w) => w.workspace_id === state.activeWorkspaceId);
@@ -14987,20 +15869,23 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     const wsTimeIn = document.getElementById("ws-class-time-input");
     const wsRoomIn = document.getElementById("ws-room-location-input");
     if (titleIn) titleIn.value = activeWs?.workspace_title || curBadge;
-    if (sessionIn) sessionIn.value = activeWs?.session_label || "";
-    if (bundleIn) bundleIn.value = activeWs?.camp_bundle_tag || "";
+    if (sessionIn && activeWs?.session_label) sessionIn.value = activeWs.session_label;
+    if (bundleIn) bundleIn.value = activeWs?.camp_bundle_tag || "Danvers Merit Badge College";
     if (wsTimeIn) {
       wsTimeIn.value =
         activeWs?.class_start_time ||
         document.getElementById("input-logistics-time")?.value ||
-        "8:30 AM – 10:00 AM";
+        "8:30 AM – 9:45 AM";
     }
     if (wsRoomIn) {
       wsRoomIn.value =
         activeWs?.room_location ||
         document.getElementById("input-logistics-room")?.value ||
-        "Science Lab 204 / Outdoor Pavilion";
+        "Holten-Richmond MS - Room HR 107 (Danvers MBC)";
     }
+    renderCustomPresetGroup("ws-custom-locations-group", CUSTOM_LOCATIONS_KEY, "ws-room-location-input", "ws-room-presets-menu");
+    renderCustomPresetGroup("ws-custom-tags-group", CUSTOM_TAGS_KEY, "ws-bundle-tag-input", "ws-bundle-presets-menu");
+    computeAndSyncWorkspaceSchedulePreview();
     renderSavedWorkspacesGrid();
     const m = document.getElementById("saved-workspaces-modal");
     m?.classList.remove("hidden");
@@ -15044,7 +15929,7 @@ async function initMultiBadgeWorkspacesAndFavorites() {
   document.getElementById("btn-confirm-delete-workspace")?.addEventListener("click", handleConfirmDeleteDeck);
   document.getElementById("btn-confirm-delete-ws-action")?.addEventListener("click", handleConfirmDeleteDeck);
 
-  // Editable Combobox Preset Dropdowns for Class Section / Period and Camp Week / Midway Tag
+  // Editable Combobox Preset Dropdowns for Start Time, Duration, Room/Location, and Camp/Event Tag
   const wirePresetDropdown = (btnId, menuId, inputId, attrName) => {
     const btn = document.getElementById(btnId);
     const menu = document.getElementById(menuId);
@@ -15065,12 +15950,122 @@ async function initMultiBadgeWorkspacesAndFavorites() {
           : optBtn.getAttribute(attrName) || "";
         input.value = val;
         menu.classList.add("hidden");
+        computeAndSyncWorkspaceSchedulePreview();
         input.focus();
       });
     });
   };
   wirePresetDropdown("btn-ws-session-presets", "ws-session-presets-menu", "ws-session-label-input", "data-session-preset");
   wirePresetDropdown("btn-ws-bundle-presets", "ws-bundle-presets-menu", "ws-bundle-tag-input", "data-bundle-preset");
+  wirePresetDropdown("btn-ws-time-presets", "ws-time-presets-menu", "ws-start-time-input", "data-ws-time-val");
+  wirePresetDropdown("btn-ws-duration-presets", "ws-duration-presets-menu", "ws-duration-min-input", "data-ws-duration-val");
+  wirePresetDropdown("btn-ws-room-presets", "ws-room-presets-menu", "ws-room-location-input", "data-ws-preset-val");
+
+  [
+    "ws-section-name-select",
+    "ws-section-num-select",
+    "ws-start-date-input",
+    "ws-frequency-select",
+    "ws-num-sessions-select",
+    "ws-chk-makeup-session",
+    "ws-start-time-input",
+    "ws-duration-min-input",
+    "ws-room-location-input",
+    "ws-bundle-tag-input",
+  ].forEach((id) => {
+    document.getElementById(id)?.addEventListener("input", computeAndSyncWorkspaceSchedulePreview);
+    document.getElementById(id)?.addEventListener("change", computeAndSyncWorkspaceSchedulePreview);
+  });
+
+  // One-click Venue & Event Macros
+  document.querySelectorAll("[data-ws-venue-macro]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const macro = btn.getAttribute("data-ws-venue-macro");
+      const secNameEl = document.getElementById("ws-section-name-select");
+      const secNumEl = document.getElementById("ws-section-num-select");
+      const freqEl = document.getElementById("ws-frequency-select");
+      const numSessEl = document.getElementById("ws-num-sessions-select");
+      const makeupChk = document.getElementById("ws-chk-makeup-session");
+      const startEl = document.getElementById("ws-start-time-input");
+      const durEl = document.getElementById("ws-duration-min-input");
+      const roomEl = document.getElementById("ws-room-location-input");
+      const tagEl = document.getElementById("ws-bundle-tag-input");
+      if (macro === "danvers_mbc") {
+        if (secNameEl) secNameEl.value = "Period";
+        if (secNumEl) secNumEl.value = "1";
+        if (freqEl) freqEl.value = "Weekly";
+        if (numSessEl) numSessEl.value = "4";
+        if (makeupChk) makeupChk.checked = true;
+        if (startEl) startEl.value = "08:30";
+        if (durEl) durEl.value = "75";
+        if (roomEl) roomEl.value = "Holten-Richmond MS - Room HR 107 (Danvers MBC)";
+        if (tagEl) tagEl.value = "Danvers Merit Badge College";
+      } else if (macro === "hidden_valley") {
+        if (secNameEl) secNameEl.value = "Period";
+        if (secNumEl) secNumEl.value = "1";
+        if (freqEl) freqEl.value = "Daily";
+        if (numSessEl) numSessEl.value = "4";
+        if (makeupChk) makeupChk.checked = true;
+        if (startEl) startEl.value = "09:00";
+        if (durEl) durEl.value = "50";
+        if (roomEl) roomEl.value = "Camp Hidden Valley - Scoutcraft Pavilion";
+        if (tagEl) tagEl.value = "Camp Hidden Valley - Week 1";
+      } else if (macro === "troop_evening") {
+        if (secNameEl) secNameEl.value = "Evening Troop Meeting";
+        if (secNumEl) secNumEl.value = "1";
+        if (freqEl) freqEl.value = "Weekly";
+        if (numSessEl) numSessEl.value = "3";
+        if (makeupChk) makeupChk.checked = false;
+        if (startEl) startEl.value = "19:00";
+        if (durEl) durEl.value = "60";
+        if (roomEl) roomEl.value = "Scout Hut / Parish Fellowship Hall";
+        if (tagEl) tagEl.value = "Spring Eagle Trail Weekend";
+      } else if (macro === "saturday_midway") {
+        if (secNameEl) secNameEl.value = "Double-Block Clinic";
+        if (secNumEl) secNumEl.value = "1";
+        if (freqEl) freqEl.value = "Once";
+        if (numSessEl) numSessEl.value = "1";
+        if (makeupChk) makeupChk.checked = false;
+        if (startEl) startEl.value = "08:30";
+        if (durEl) durEl.value = "180";
+        if (roomEl) roomEl.value = "Outdoor Pavilion / Picnic Shelter";
+        if (tagEl) tagEl.value = "Council Merit Badge Midway";
+      }
+      computeAndSyncWorkspaceSchedulePreview();
+      document.getElementById("btn-ws-autogen-title")?.click();
+    });
+  });
+
+  // ✨ Auto-Title button
+  document.getElementById("btn-ws-autogen-title")?.addEventListener("click", () => {
+    const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
+    const sched = computeAndSyncWorkspaceSchedulePreview();
+    const titleIn = document.getElementById("ws-title-input");
+    if (titleIn) {
+      titleIn.value = `${curBadge} • ${sched.secPart} (${sched.startTimeStr}–${sched.endTimeStr})`;
+    }
+  });
+
+  // ＋ Add Custom Location & ＋ Add Custom Tag
+  document.getElementById("btn-ws-add-custom-location")?.addEventListener("click", async () => {
+    const roomIn = document.getElementById("ws-room-location-input");
+    const val = (roomIn?.value || "").trim();
+    if (!val) return;
+    const list = [val, ...loadCustomList(CUSTOM_LOCATIONS_KEY).filter((x) => x.toLowerCase() !== val.toLowerCase())].slice(0, 12);
+    await saveCustomList(CUSTOM_LOCATIONS_KEY, list, "locations");
+    renderCustomPresetGroup("ws-custom-locations-group", CUSTOM_LOCATIONS_KEY, "ws-room-location-input", "ws-room-presets-menu");
+    showToast(`📍 Saved "${val}" to your custom Room/Venue presets!`, "info");
+  });
+
+  document.getElementById("btn-ws-add-custom-tag")?.addEventListener("click", async () => {
+    const tagIn = document.getElementById("ws-bundle-tag-input");
+    const val = (tagIn?.value || "").trim();
+    if (!val) return;
+    const list = [val, ...loadCustomList(CUSTOM_TAGS_KEY).filter((x) => x.toLowerCase() !== val.toLowerCase())].slice(0, 12);
+    await saveCustomList(CUSTOM_TAGS_KEY, list, "tags");
+    renderCustomPresetGroup("ws-custom-tags-group", CUSTOM_TAGS_KEY, "ws-bundle-tag-input", "ws-bundle-presets-menu");
+    showToast(`🏷️ Saved "${val}" to your custom Camp/Event Tag presets!`, "info");
+  });
 
   document.addEventListener("click", (ev) => {
     if (!ev.target.closest(".m3-combobox-wrapper, .m3-ws-combo-wrap, .m3-ws-combobox-input-group")) {
@@ -15079,6 +16074,7 @@ async function initMultiBadgeWorkspacesAndFavorites() {
   });
 
   document.getElementById("btn-ws-save-current")?.addEventListener("click", async () => {
+    computeAndSyncWorkspaceSchedulePreview();
     await saveCurrentDeckAsWorkspace({
       forceNew: false,
       toastMessage: "💾 Saved current deck & Blue Card roster to your Deck Library!",
@@ -15086,9 +16082,10 @@ async function initMultiBadgeWorkspacesAndFavorites() {
   });
 
   document.getElementById("btn-modal-save-workspace")?.addEventListener("click", async () => {
+    computeAndSyncWorkspaceSchedulePreview();
     await saveCurrentDeckAsWorkspace({
       forceNew: false,
-      toastMessage: "💾 Updated active deck in your Deck Library!",
+      toastMessage: "💾 Updated active deck & schedule in your Deck Library!",
     });
   });
 
@@ -15096,16 +16093,31 @@ async function initMultiBadgeWorkspacesAndFavorites() {
     if (!state.activeWorkspaceId) {
       await saveCurrentDeckAsWorkspace({ toastMessage: "" });
     }
-    const activeWs = (state.savedWorkspaces || []).find((w) => w.workspace_id === state.activeWorkspaceId);
+    // Smart "Clone Next Period": auto-increment Section # and advance Start Time by Duration + 10 min passing period
+    const secNumSel = document.getElementById("ws-section-num-select");
+    const startIn = document.getElementById("ws-start-time-input");
+    const durIn = document.getElementById("ws-duration-min-input");
+    if (secNumSel) {
+      const curNum = parseInt(secNumSel.value || "1", 10);
+      if (!isNaN(curNum) && curNum < 9) {
+        secNumSel.value = String(curNum + 1);
+      }
+    }
+    if (startIn) {
+      const curStartMins = parseTime12hToMinutes(startIn.value || "08:30");
+      const durMins = Math.max(15, parseInt(durIn?.value || "75", 10) || 75);
+      const nextStartMins = curStartMins + durMins + 10;
+      startIn.value = formatTime24h(Math.floor(nextStartMins / 60), nextStartMins % 60);
+    }
+    const sched = computeAndSyncWorkspaceSchedulePreview();
     const curBadge = state.currentResult?.badge_name || state.currentBadge || "First Aid";
-    const copiedTitle =
-      document.getElementById("ws-title-input")?.value?.trim() ||
-      activeWs?.workspace_title ||
-      curBadge;
-    const copiedSession =
-      document.getElementById("ws-session-label-input")?.value !== undefined
-        ? document.getElementById("ws-session-label-input").value.trim()
-        : activeWs?.session_label || "";
+    const nextTitle = `${curBadge} • ${sched.secPart} (${sched.startTimeStr}–${sched.endTimeStr})`;
+    const titleIn = document.getElementById("ws-title-input");
+    if (titleIn) titleIn.value = nextTitle;
+
+    const activeWs = (state.savedWorkspaces || []).find((w) => w.workspace_id === state.activeWorkspaceId);
+    const copiedTitle = nextTitle || activeWs?.workspace_title || curBadge;
+    const copiedSession = sched.combinedSectionLabel || activeWs?.session_label || "";
     const copiedBundle =
       document.getElementById("ws-bundle-tag-input")?.value !== undefined
         ? document.getElementById("ws-bundle-tag-input").value.trim()
@@ -15119,6 +16131,9 @@ async function initMultiBadgeWorkspacesAndFavorites() {
           new_title: copiedTitle,
           session_label: copiedSession,
           camp_bundle_tag: copiedBundle,
+          class_start_time: sched.fullTimeRange,
+          room_location: sched.roomLoc,
+          session_dates: sched.datesSummary,
           copy_roster: false,
         }),
       });
@@ -15128,7 +16143,7 @@ async function initMultiBadgeWorkspacesAndFavorites() {
         if (data.workspace?.workspace_id) {
           await switchActiveWorkspace(data.workspace.workspace_id);
         }
-        showToast(`📑 Cloned "${copiedTitle}" with a fresh Blue Card roster!`, "info");
+        showToast(`📑 Cloned Next Period "${copiedTitle}" with a fresh Blue Card roster!`, "info");
         return;
       }
     }
@@ -15138,12 +16153,14 @@ async function initMultiBadgeWorkspacesAndFavorites() {
       workspace_title: copiedTitle,
       session_label: copiedSession,
       camp_bundle_tag: copiedBundle,
+      class_start_time: sched.fullTimeRange,
+      room_location: sched.roomLoc,
     });
     if (ws) {
       saveBadgeBlueCardRoster(ws.badge_name, { scouts: [] });
       renderBlueCardTracker(state.currentResult);
       renderQuickSelectBadgesRow();
-      showToast(`📑 Cloned "${copiedTitle}" (copied Title, Class Section & Camp Week)!`, "info");
+      showToast(`📑 Cloned Next Period "${copiedTitle}"!`, "info");
     }
   };
 

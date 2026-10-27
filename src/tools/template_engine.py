@@ -35,6 +35,7 @@ OVERLAYS_DIR = TEMPLATES_DIR / "overlays"
 PREVIEWS_DIR = TEMPLATES_DIR / "previews"
 CUSTOM_TEMPLATES_DIR = TEMPLATES_DIR / "custom"
 CATALOG_JSON_PATH = TEMPLATES_DIR / "catalog.json"
+CUSTOM_REGISTRY_JSON_PATH = CUSTOM_TEMPLATES_DIR / "custom_registry.json"
 
 
 class SafeCanvasBounds(BaseModel):
@@ -814,39 +815,54 @@ def load_template_catalog() -> List[TemplateProfile]:
     global _CATALOG_CACHE, _CATALOG_MTIME
     _ensure_dirs()
     by_id: Dict[str, TemplateProfile] = {t.template_id: t for t in BUILTIN_TEMPLATES}
-    if CATALOG_JSON_PATH.exists():
+    cat_mtime = CATALOG_JSON_PATH.stat().st_mtime_ns if CATALOG_JSON_PATH.exists() else 0
+    reg_mtime = CUSTOM_REGISTRY_JSON_PATH.stat().st_mtime_ns if CUSTOM_REGISTRY_JSON_PATH.exists() else 0
+    combined_mtime = cat_mtime + reg_mtime
+    if CATALOG_JSON_PATH.exists() or CUSTOM_REGISTRY_JSON_PATH.exists():
         try:
-            current_mtime = CATALOG_JSON_PATH.stat().st_mtime_ns
-            if _CATALOG_CACHE is not None and _CATALOG_MTIME == current_mtime:
+            if _CATALOG_CACHE is not None and _CATALOG_MTIME == combined_mtime:
                 return _CATALOG_CACHE
-            
-            raw = json.loads(CATALOG_JSON_PATH.read_text(encoding="utf-8"))
-            if isinstance(raw, list):
-                for item in raw:
+
+            for json_p in (CATALOG_JSON_PATH, CUSTOM_REGISTRY_JSON_PATH):
+                if not json_p.exists():
+                    continue
+                raw = json.loads(json_p.read_text(encoding="utf-8"))
+                items_list = raw.get("templates", []) if isinstance(raw, dict) else (raw if isinstance(raw, list) else [])
+                for item in items_list:
                     if isinstance(item, dict) and item.get("template_id"):
                         tid = str(item["template_id"])
                         if tid not in by_id:
                             by_id[tid] = TemplateProfile(**item)
-            
+
             _CATALOG_CACHE = list(by_id.values())
-            _CATALOG_MTIME = current_mtime
+            _CATALOG_MTIME = combined_mtime
         except Exception:
             pass
     else:
         save_template_catalog(list(by_id.values()))
         _CATALOG_CACHE = list(by_id.values())
         _CATALOG_MTIME = 0.0
-    
+
     return _CATALOG_CACHE if _CATALOG_CACHE is not None else list(by_id.values())
 
 
 def save_template_catalog(profiles: List[TemplateProfile]) -> None:
-    """Persists the full template catalog to `assets/templates/catalog.json`."""
+    """Persists the full template catalog to `assets/templates/catalog.json` and custom templates to `custom_registry.json`."""
+    global _CATALOG_CACHE, _CATALOG_MTIME
     _ensure_dirs()
     CATALOG_JSON_PATH.write_text(
         json.dumps([p.model_dump() for p in profiles], indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
+    custom_only = [p.model_dump() for p in profiles if not p.is_builtin]
+    CUSTOM_REGISTRY_JSON_PATH.write_text(
+        json.dumps(custom_only, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    _CATALOG_CACHE = list(profiles)
+    cat_mtime = CATALOG_JSON_PATH.stat().st_mtime_ns if CATALOG_JSON_PATH.exists() else 0
+    reg_mtime = CUSTOM_REGISTRY_JSON_PATH.stat().st_mtime_ns if CUSTOM_REGISTRY_JSON_PATH.exists() else 0
+    _CATALOG_MTIME = cat_mtime + reg_mtime
 
 
 def get_template_profile(template_id: Optional[str]) -> TemplateProfile:
@@ -1607,3 +1623,626 @@ def create_presentation_from_template(
         return slide
 
     return prs, _add_slide, profile.safe_bounds, profile
+
+
+# ==============================================================================
+# NANO BANANA 3-VARIANT AI SLIDE TEMPLATE GENERATOR (v2.5 ITEM 6)
+# ==============================================================================
+
+NANO_BANANA_TEMPLATE_VISUAL_STYLES: Dict[str, Dict[str, str]] = {
+    "topographic_adventure": {
+        "label": "Topographic High Adventure & Contour Map",
+        "description": "USGS contour lines, compass rose watermark, and mountain ridge silhouette.",
+    },
+    "pinewood_campfire": {
+        "label": "Pinewood, Lake & Campfire Silhouette",
+        "description": "Brushed timber header, pine trees & lake horizon footer silhouette, and campfire emblem watermark.",
+    },
+    "heritage_embroidery": {
+        "label": "Heritage Embroidery & Merit Badge Sash",
+        "description": "Twill border stitching, classic heritage frame, and fleur-de-lis watermark.",
+    },
+    "collegiate_mbc": {
+        "label": "Collegiate / Merit Badge University Crest",
+        "description": "Academic column/chevron header band, shield watermark, and podium footer.",
+    },
+    "aquatics_nautical": {
+        "label": "Aquatics, Nautical & Waterfront Chart",
+        "description": "Bathymetric depth contours, rope-knot accent stripe, and wave-crest footer.",
+    },
+    "stem_blueprint": {
+        "label": "STEM Blueprint & Engineering Grid",
+        "description": "Isometric CAD grid header/footer and technical circuit/gear watermark.",
+    },
+}
+
+NANO_BANANA_FRAME_GEOMETRIES: Tuple[str, ...] = (
+    "brushed_header_footer",
+    "horizon_silhouette",
+    "heritage_border",
+    "split_header_minimal",
+)
+
+_TEMPLATE_YPT_AND_PII_PATTERNS: List[Tuple[str, re.Pattern]] = [
+    (
+        "YPT_YOUTH_PHOTO_OR_FACE_REQUEST",
+        re.compile(
+            r"\b(?:youth\s+photos?|scout\s+photos?|real\s+scout\s+faces?|child(?:ren)?\s+faces?|"
+            r"minor\s+faces?|photos?\s+of\s+(?:a\s+)?(?:youth|child|children|minor|boy|girl|scouts?)|"
+            r"faces?\s+of\s+(?:scouts?|youth|children|minors|kids)|identifiable\s+(?:youth|scout|child|minor)|"
+            r"realistic\s+(?:youth|child|scout)\s+portraits?)\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "YPT_ONE_ON_ONE_CONTACT_VIOLATION",
+        re.compile(
+            r"\b(?:one[-\s]on[-\s]one|private\s+(?:meeting|tent|session|chat|dm)|"
+            r"alone\s+with\s+(?:a\s+)?(?:scout|youth|child|minor)|no\s+adults?\s+present|"
+            r"skip\s+two[-\s]deep|bypass\s+ypt)\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "ZERO_PII_EMAIL_DETECTED",
+        re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b"),
+    ),
+    (
+        "ZERO_PII_PHONE_DETECTED",
+        re.compile(r"(?:\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]\d{3}[-.\s]\d{4}\b"),
+    ),
+    (
+        "ZERO_PII_STREET_ADDRESS_DETECTED",
+        re.compile(
+            r"\b\d{1,5}\s+[A-Za-z0-9.\s]{2,30}\s+"
+            r"(?:Street|St|Avenue|Ave|Road|Rd|Boulevard|Blvd|Lane|Ln|Drive|Dr|Court|Ct|Way|Parkway|Pkwy)\b",
+            re.IGNORECASE,
+        ),
+    ),
+]
+
+
+def _clean_hex_color(raw: Optional[str], fallback: str = "#003F87") -> str:
+    """Normalizes a `#RRGGBB` or `#RGB` hex color string."""
+    s = str(raw or "").strip().lstrip("#").upper()
+    if len(s) == 3 and all(c in "0123456789ABCDEF" for c in s):
+        s = "".join(c * 2 for c in s)
+    if len(s) == 6 and all(c in "0123456789ABCDEF" for c in s):
+        return f"#{s}"
+    return fallback
+
+
+def _ensure_wcag_aa_dark_hex(hex_str: str) -> str:
+    """Ensures `hex_str` is dark enough that white (`#FFFFFF`) header/footer text achieves >= 4.5:1 WCAG AA contrast."""
+    r, g, b = hex_to_rgb(hex_str, (180, 83, 9))
+
+    def _srgb_chan(c: int) -> float:
+        v = c / 255.0
+        return v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4
+
+    def _rel_lum(ri: int, gi: int, bi: int) -> float:
+        return 0.2126 * _srgb_chan(ri) + 0.7152 * _srgb_chan(gi) + 0.0722 * _srgb_chan(bi)
+
+    # White luminance is 1.0; contrast = 1.05 / (L + 0.05) >= 4.5 => L <= 0.1833
+    lum = _rel_lum(r, g, b)
+    while lum > 0.175 and (r > 0 or g > 0 or b > 0):
+        r = int(r * 0.88)
+        g = int(g * 0.88)
+        b = int(b * 0.88)
+        lum = _rel_lum(r, g, b)
+    return f"#{r:02X}{g:02X}{b:02X}"
+
+
+def _normalize_three_variant_colors(colors: Optional[List[str]]) -> Tuple[str, str, str]:
+    """Normalizes 0..3 input hex colors into 3 distinct coordinated brand colors `(c1, c2, c3)`."""
+    valid: List[str] = []
+    for raw in colors or []:
+        if not raw or not str(raw).strip():
+            continue
+        cleaned = _clean_hex_color(raw, "")
+        if cleaned and cleaned not in valid:
+            valid.append(cleaned)
+
+    if not valid:
+        return ("#003F87", "#1B5E20", "#D97706")
+
+    if len(valid) == 1:
+        c1 = valid[0]
+        r1, g1, b1 = hex_to_rgb(c1, (0, 63, 135))
+        # Derive c2 (complementary dark forest/navy)
+        if b1 > r1 and b1 > g1:
+            c2 = "#1B5E20"
+        elif g1 > r1 and g1 >= b1:
+            c2 = "#003F87"
+        else:
+            c2 = "#003F87" if c1 != "#003F87" else "#1B5E20"
+        # Derive c3 (warm gold/amber accent or crimson if c1 is already gold/amber)
+        if r1 > 160 and g1 > 90 and b1 < 80:
+            c3 = "#8B0000"
+        else:
+            c3 = "#D97706"
+        return (c1, c2, c3)
+
+    if len(valid) == 2:
+        c1, c2 = valid[0], valid[1]
+        for candidate in ("#D97706", "#003F87", "#1B5E20", "#8B0000"):
+            if candidate not in (c1, c2):
+                return (c1, c2, candidate)
+        return (c1, c2, "#D97706")
+
+    return (valid[0], valid[1], valid[2])
+
+
+def _compute_nano_template_safe_bounds(
+    frame_geometry: str,
+    logo_position: str,
+    has_logo: bool = False,
+) -> SafeCanvasBounds:
+    """Computes collision-free `SafeCanvasBounds` dynamically from `frame_geometry` and `logo_position`."""
+    geom = str(frame_geometry or "horizon_silhouette").strip().lower()
+    logo_pos = str(logo_position or "bottom_left").strip().lower()
+
+    left_in = 0.60
+    right_in = 12.733
+    header_top_in = 0.22
+    header_height_in = 0.80
+    header_banner_height_in = 0.22
+    content_top_min_in = 1.12
+    content_bottom_max_in = 6.82
+    footer_left_in = 0.60
+    footer_top_in = 7.02
+    footer_max_width_in = 12.133
+
+    if geom == "brushed_header_footer":
+        header_top_in = 0.32
+        header_banner_height_in = 0.27
+        content_top_min_in = 1.15
+        content_bottom_max_in = 6.86
+        footer_top_in = 7.04
+    elif geom == "horizon_silhouette":
+        header_top_in = 0.22
+        header_banner_height_in = 0.18
+        content_top_min_in = 1.12
+        content_bottom_max_in = 6.80
+        footer_top_in = 7.06
+    elif geom == "heritage_border":
+        left_in = 0.68
+        right_in = 12.65
+        header_top_in = 0.28
+        header_banner_height_in = 0.24
+        content_top_min_in = 1.16
+        content_bottom_max_in = 6.78
+        footer_top_in = 7.00
+    elif geom == "split_header_minimal":
+        header_top_in = 0.18
+        header_banner_height_in = 0.14
+        content_top_min_in = 1.08
+        content_bottom_max_in = 6.90
+        footer_top_in = 7.08
+
+    if logo_pos == "bottom_left":
+        footer_left_in = 2.45 if has_logo else 1.85
+        footer_max_width_in = round(right_in - footer_left_in, 3)
+    elif logo_pos == "bottom_right":
+        footer_left_in = left_in
+        footer_max_width_in = round((10.35 if has_logo else 10.95) - footer_left_in, 3)
+    elif logo_pos == "top_right":
+        footer_left_in = left_in
+        footer_max_width_in = round(right_in - left_in, 3)
+        if has_logo:
+            header_top_in = max(header_top_in, 0.28)
+    else:  # cover_only
+        footer_left_in = left_in
+        footer_max_width_in = round(right_in - left_in, 3)
+
+    return SafeCanvasBounds(
+        left_in=left_in,
+        right_in=right_in,
+        header_top_in=header_top_in,
+        header_height_in=header_height_in,
+        header_banner_height_in=header_banner_height_in,
+        content_top_min_in=content_top_min_in,
+        content_bottom_max_in=content_bottom_max_in,
+        safety_bar_height_in=0.68,
+        footer_left_in=footer_left_in,
+        footer_top_in=footer_top_in,
+        footer_max_width_in=footer_max_width_in,
+        suppress_native_footer=True,
+    )
+
+
+def _render_nano_template_variant_assets(
+    variant_id: str,
+    visual_style: str,
+    frame_geometry: str,
+    primary_hex: str,
+    accent_hex: str,
+    logo_img: Optional[Image.Image],
+    logo_position: str,
+) -> Dict[str, str]:
+    """Synthesizes coordinated 16:9 PIL artwork for top_banner, bottom_silhouette, canvas_watermark (5% opacity), and cover_bg."""
+    import math as _math
+    from PIL import ImageDraw
+
+    _ensure_dirs()
+    p_rgb = hex_to_rgb(primary_hex, (0, 63, 135))
+    a_rgb = hex_to_rgb(accent_hex, (217, 119, 6))
+    style_key = str(visual_style or "pinewood_campfire").strip().lower()
+    geom_key = str(frame_geometry or "horizon_silhouette").strip().lower()
+    logo_pos = str(logo_position or "bottom_left").strip().lower()
+
+    # 1. Top Header Strip (1600 x 72)
+    top_w, top_h = 1600, 72
+    top_im = Image.new("RGBA", (top_w, top_h), (0, 0, 0, 0))
+    tdraw = ImageDraw.Draw(top_im)
+    bar_h = 52 if geom_key != "split_header_minimal" else 34
+    tdraw.rectangle([0, 0, top_w, bar_h], fill=(*p_rgb, 255))
+    tdraw.rectangle([0, bar_h, top_w, bar_h + 8], fill=(*a_rgb, 255))
+    if style_key == "heritage_embroidery" or geom_key == "heritage_border":
+        for x in range(16, top_w - 16, 28):
+            tdraw.rectangle([x, bar_h - 10, x + 14, bar_h - 6], fill=(*a_rgb, 230))
+    elif style_key == "stem_blueprint":
+        for x in range(0, top_w, 40):
+            tdraw.line([(x, 0), (x, bar_h)], fill=(255, 255, 255, 45), width=1)
+    elif style_key == "collegiate_mbc":
+        for x in range(40, top_w, 120):
+            tdraw.polygon([(x, 0), (x + 24, 0), (x + 12, bar_h)], fill=(*a_rgb, 95))
+    elif style_key == "topographic_adventure":
+        for y_off in (12, 26, 38):
+            pts = [(x, int(y_off + 5 * _math.sin(x / 90.0))) for x in range(0, top_w + 20, 20)]
+            tdraw.line(pts, fill=(255, 255, 255, 55), width=2)
+    elif style_key == "aquatics_nautical":
+        pts = [(x, int(bar_h - 10 + 4 * _math.sin(x / 32.0))) for x in range(0, top_w + 16, 16)]
+        tdraw.line(pts, fill=(*a_rgb, 220), width=3)
+
+    if logo_img is not None and logo_pos == "top_right":
+        l_thumb = logo_img.copy()
+        l_thumb.thumbnail((56, 56), Image.Resampling.LANCZOS)
+        top_im.alpha_composite(l_thumb, (top_w - l_thumb.width - 28, max(2, (bar_h - l_thumb.height) // 2)))
+
+    top_path = CUSTOM_TEMPLATES_DIR / f"{variant_id}_top_banner.png"
+    top_im.save(top_path)
+
+    # 2. Bottom Silhouette / Footer Banner (1600 x 110) + Dark Slate Variant
+    bot_w, bot_h = 1600, 110
+    bot_im = Image.new("RGBA", (bot_w, bot_h), (0, 0, 0, 0))
+    bdraw = ImageDraw.Draw(bot_im)
+    bot_dark = Image.new("RGBA", (bot_w, bot_h), (0, 0, 0, 0))
+    bddraw = ImageDraw.Draw(bot_dark)
+
+    # Base footer band
+    bdraw.rectangle([0, 46, bot_w, bot_h], fill=(*p_rgb, 255))
+    bdraw.rectangle([0, 38, bot_w, 46], fill=(*a_rgb, 255))
+    bddraw.rectangle([0, 46, bot_w, bot_h], fill=(240, 245, 255, 235))
+    bddraw.rectangle([0, 38, bot_w, 46], fill=(*a_rgb, 255))
+
+    if style_key in ("pinewood_campfire", "topographic_adventure") or geom_key == "horizon_silhouette":
+        # Mountain ridge + pine tree horizon silhouette along top of footer
+        ridge_pts = [(0, 46)]
+        for x in range(0, bot_w + 40, 40):
+            y_r = int(28 - 14 * abs(_math.sin(x / 180.0)) - 6 * _math.cos(x / 75.0))
+            ridge_pts.append((x, max(6, y_r)))
+        ridge_pts.append((bot_w, 46))
+        bdraw.polygon(ridge_pts, fill=(*p_rgb, 255))
+        bddraw.polygon(ridge_pts, fill=(240, 245, 255, 235))
+        if style_key == "pinewood_campfire":
+            for tx in range(60, bot_w - 60, 55):
+                th = 22 + (tx % 14)
+                bdraw.polygon([(tx, 44 - th), (tx - 10, 44), (tx + 10, 44)], fill=(*p_rgb, 255))
+                bddraw.polygon([(tx, 44 - th), (tx - 10, 44), (tx + 10, 44)], fill=(240, 245, 255, 235))
+    elif style_key == "aquatics_nautical":
+        wave_pts = [(0, 46)]
+        for x in range(0, bot_w + 20, 20):
+            y_w = int(32 + 8 * _math.sin(x / 28.0))
+            wave_pts.append((x, y_w))
+        wave_pts.append((bot_w, 46))
+        bdraw.polygon(wave_pts, fill=(*p_rgb, 255))
+        bddraw.polygon(wave_pts, fill=(240, 245, 255, 235))
+    elif style_key == "heritage_embroidery" or geom_key == "heritage_border":
+        for x in range(20, bot_w - 20, 32):
+            bdraw.rectangle([x, 52, x + 16, 57], fill=(*a_rgb, 235))
+            bddraw.rectangle([x, 52, x + 16, 57], fill=(*p_rgb, 235))
+
+    if logo_img is not None and logo_pos in ("bottom_left", "bottom_right"):
+        l_thumb = logo_img.copy()
+        l_thumb.thumbnail((72, 72), Image.Resampling.LANCZOS)
+        lx = 32 if logo_pos == "bottom_left" else (bot_w - l_thumb.width - 32)
+        ly = max(8, bot_h - l_thumb.height - 10)
+        bot_im.alpha_composite(l_thumb, (lx, ly))
+        bot_dark.alpha_composite(l_thumb, (lx, ly))
+
+    bot_path = CUSTOM_TEMPLATES_DIR / f"{variant_id}_bottom_silhouette.png"
+    bot_dark_path = CUSTOM_TEMPLATES_DIR / f"{variant_id}_bottom_silhouette_dark.png"
+    bot_im.save(bot_path)
+    bot_dark.save(bot_dark_path)
+
+    # 3. Subtle 5% Opacity Full-Canvas Watermark (1600 x 900)
+    wm_w, wm_h = 1600, 900
+    wm_im = Image.new("RGBA", (wm_w, wm_h), (0, 0, 0, 0))
+    wdraw = ImageDraw.Draw(wm_im)
+    wm_alpha = 13  # ~5% opacity (13 / 255 = 5.1%)
+    cx, cy = wm_w // 2, wm_h // 2
+
+    if style_key == "topographic_adventure":
+        for rad in range(90, 680, 65):
+            wdraw.ellipse([cx - rad * 1.3, cy - rad * 0.8, cx + rad * 1.3, cy + rad * 0.8], outline=(*p_rgb, wm_alpha), width=3)
+        # Compass rose in center
+        wdraw.ellipse([cx - 110, cy - 110, cx + 110, cy + 110], outline=(*a_rgb, wm_alpha + 4), width=3)
+        wdraw.polygon([(cx, cy - 140), (cx + 28, cy), (cx, cy + 140), (cx - 28, cy)], outline=(*p_rgb, wm_alpha + 4))
+    elif style_key == "pinewood_campfire":
+        # Campfire + pine emblem watermark
+        wdraw.ellipse([cx - 170, cy - 170, cx + 170, cy + 170], outline=(*p_rgb, wm_alpha), width=4)
+        wdraw.polygon([(cx, cy - 110), (cx + 65, cy + 40), (cx - 65, cy + 40)], outline=(*a_rgb, wm_alpha + 4), fill=(*a_rgb, wm_alpha // 2))
+        wdraw.rectangle([cx - 75, cy + 48, cx + 75, cy + 68], fill=(*p_rgb, wm_alpha))
+    elif style_key == "heritage_embroidery":
+        # Sash diagonal stitching & fleur crest ring
+        wdraw.line([(160, 80), (1440, 820)], fill=(*p_rgb, wm_alpha), width=5)
+        wdraw.line([(185, 80), (1465, 820)], fill=(*a_rgb, wm_alpha), width=3)
+        wdraw.ellipse([cx - 160, cy - 160, cx + 160, cy + 160], outline=(*p_rgb, wm_alpha + 3), width=5)
+    elif style_key == "collegiate_mbc":
+        # Academic shield crest
+        shield_pts = [(cx - 140, cy - 150), (cx + 140, cy - 150), (cx + 140, cy + 20), (cx, cy + 170), (cx - 140, cy + 20)]
+        wdraw.polygon(shield_pts, outline=(*p_rgb, wm_alpha + 4), fill=(*p_rgb, wm_alpha // 2))
+    elif style_key == "aquatics_nautical":
+        for wy in range(160, 760, 85):
+            pts = [(x, int(wy + 18 * _math.sin(x / 75.0))) for x in range(120, 1480, 24)]
+            wdraw.line(pts, fill=(*p_rgb, wm_alpha), width=3)
+    elif style_key == "stem_blueprint":
+        for gx in range(100, 1500, 80):
+            wdraw.line([(gx, 80), (gx, 820)], fill=(*p_rgb, wm_alpha), width=1)
+        for gy in range(100, 820, 80):
+            wdraw.line([(100, gy), (1500, gy)], fill=(*p_rgb, wm_alpha), width=1)
+        wdraw.ellipse([cx - 150, cy - 150, cx + 150, cy + 150], outline=(*a_rgb, wm_alpha + 4), width=4)
+
+    wm_path = CUSTOM_TEMPLATES_DIR / f"{variant_id}_watermark.png"
+    wm_im.save(wm_path)
+
+    # 4. Cover Slide Backdrop (1600 x 900)
+    cov_w, cov_h = 1600, 900
+    cov_im = Image.new("RGBA", (cov_w, cov_h), (248, 250, 252, 255))
+    cdraw = ImageDraw.Draw(cov_im)
+    # Soft gradient band & geometric hero framing
+    cdraw.rectangle([0, 0, cov_w, 120], fill=(*p_rgb, 255))
+    cdraw.rectangle([0, 120, cov_w, 132], fill=(*a_rgb, 255))
+    cdraw.rectangle([0, cov_h - 115, cov_w, cov_h], fill=(*p_rgb, 255))
+    cdraw.rectangle([0, cov_h - 125, cov_w, cov_h - 115], fill=(*a_rgb, 255))
+    cov_im.alpha_composite(wm_im, (0, 0))
+    if logo_img is not None:
+        c_logo = logo_img.copy()
+        c_logo.thumbnail((140, 140), Image.Resampling.LANCZOS)
+        cov_im.alpha_composite(c_logo, (cov_w - c_logo.width - 48, cov_h - c_logo.height - 28))
+
+    cov_path = CUSTOM_TEMPLATES_DIR / f"{variant_id}_cover_bg.png"
+    cov_im.save(cov_path)
+
+    return {
+        "top_banner_url": f"/assets/templates/custom/{top_path.name}",
+        "bottom_silhouette_url": f"/assets/templates/custom/{bot_path.name}",
+        "bottom_silhouette_dark_url": f"/assets/templates/custom/{bot_dark_path.name}",
+        "canvas_watermark_url": f"/assets/templates/custom/{wm_path.name}",
+        "cover_bg_url": f"/assets/templates/custom/{cov_path.name}",
+    }
+
+
+def _build_nano_template_master_pptx(profile: TemplateProfile) -> str:
+    """Creates and saves a valid 16:9 widescreen `.pptx` master file for `profile` under `CUSTOM_TEMPLATES_DIR`."""
+    _ensure_dirs()
+    prs = Presentation()
+    prs.slide_width = Inches(13.333)
+    prs.slide_height = Inches(7.5)
+    blank_layout = prs.slide_layouts[min(6, len(prs.slide_layouts) - 1)]
+
+    # Add sample cover and content slides decorated with the variant's chrome
+    cover_slide = prs.slides.add_slide(blank_layout)
+    _strip_slide_placeholders(cover_slide)
+    decorate_slide_with_template_chrome(cover_slide, profile, is_cover=True, tier="BEAUTIFIED")
+
+    content_slide = prs.slides.add_slide(blank_layout)
+    _strip_slide_placeholders(content_slide)
+    decorate_slide_with_template_chrome(content_slide, profile, is_cover=False, tier="BEAUTIFIED")
+
+    out_pptx = CUSTOM_TEMPLATES_DIR / f"{profile.template_id}.pptx"
+    prs.save(str(out_pptx))
+    return f"assets/templates/custom/{out_pptx.name}"
+
+
+def generate_nano_banana_template_family(
+    family_name: str,
+    visual_style: str = "pinewood_campfire",
+    frame_geometry: str = "horizon_silhouette",
+    colors: Optional[List[str]] = None,
+    custom_prompt: str = "",
+    logo_data_url: str = "",
+    logo_position: str = "bottom_left",
+    remove_logo_white_bg: bool = True,
+    preview_only: bool = False,
+    user_consented: bool = False,
+) -> Dict[str, Any]:
+    """Generates a coordinated 3-Variant Nano Banana AI Slide Template Family with YPT/Zero-PII guardrails and FinOps gating."""
+    import base64
+
+    try:
+        from src.security.spiffe_and_armor import sanitize_text_with_model_armor  # type: ignore
+    except Exception:
+        from src.agents.guardrails import sanitize_text_with_model_armor
+
+    clean_name = str(family_name or "Custom Scouting Template").strip() or "Custom Scouting Template"
+    clean_prompt = str(custom_prompt or "").strip()
+    combined_input = f"{clean_name} {clean_prompt}".strip()
+
+    # Step 1 — Model Armor & YPT / Zero-PII Guardrail Check
+    raw_guardrail = sanitize_text_with_model_armor(combined_input)
+    guardrail_res: Dict[str, Any] = dict(raw_guardrail) if isinstance(raw_guardrail, dict) else {"is_safe": True, "allowed": True}
+    detected_violations: List[str] = list(guardrail_res.get("violations") or [])
+    for v_code, pat in _TEMPLATE_YPT_AND_PII_PATTERNS:
+        if pat.search(combined_input) and v_code not in detected_violations:
+            detected_violations.append(v_code)
+
+    is_safe = (
+        bool(guardrail_res.get("is_safe", True))
+        and bool(guardrail_res.get("allowed", True))
+        and len(detected_violations) == 0
+    )
+    if not is_safe:
+        block_msg = (
+            guardrail_res.get("block_reason")
+            or guardrail_res.get("remediation")
+            or (
+                "Blocked by Scouting America Youth Protection (YPT) & Zero-PII Model Armor Guardrail: "
+                + ", ".join(detected_violations)
+                if detected_violations
+                else "Blocked by Scouting America Youth Protection (YPT) & Zero-PII Model Armor Guardrail."
+            )
+        )
+        guardrail_res["is_safe"] = False
+        guardrail_res["allowed"] = False
+        guardrail_res["violations"] = detected_violations
+        guardrail_res["block_reason"] = block_msg
+        return {
+            "status": "BLOCKED_BY_GUARDRAIL",
+            "blocked": True,
+            "guardrail": guardrail_res,
+            "cost_usd": 0.0,
+            "message": block_msg,
+        }
+
+    # Step 2 — FinOps Consent Check
+    if not preview_only and not user_consented:
+        return {
+            "status": "CONSENT_REQUIRED",
+            "requires_user_consent": True,
+            "estimated_cost_usd": 0.08,
+            "message": "User consent ($0.08 USD) is required before generating a 3-variant Nano Banana AI template family.",
+        }
+
+    # Step 3 — Normalize Colors (1 to 3 Colors -> 3 Distinct Variants)
+    c1, c2, c3 = _normalize_three_variant_colors(colors)
+    c3_safe_primary = _ensure_wcag_aa_dark_hex(c3)
+
+    style_key = str(visual_style or "pinewood_campfire").strip().lower()
+    if style_key not in NANO_BANANA_TEMPLATE_VISUAL_STYLES:
+        style_key = "pinewood_campfire"
+    style_meta = NANO_BANANA_TEMPLATE_VISUAL_STYLES[style_key]
+
+    geom_key = str(frame_geometry or "horizon_silhouette").strip().lower()
+    if geom_key not in NANO_BANANA_FRAME_GEOMETRIES:
+        geom_key = "horizon_silhouette"
+
+    logo_pos = str(logo_position or "bottom_left").strip().lower()
+    if logo_pos not in ("bottom_left", "bottom_right", "top_right", "cover_only"):
+        logo_pos = "bottom_left"
+
+    short_hash = hashlib.sha256(
+        f"{clean_name}:{style_key}:{geom_key}:{c1}:{c2}:{c3}:{clean_prompt}:{logo_pos}".encode("utf-8")
+    ).hexdigest()[:8]
+    family_id = f"nanobanana_tpl_{short_hash}"
+
+    # Step 4 — Process Optional Uploaded Logo (`logo_data_url`)
+    _ensure_dirs()
+    processed_logo_img: Optional[Image.Image] = None
+    logo_rel_url = ""
+    if logo_data_url and str(logo_data_url).strip():
+        raw_b64 = str(logo_data_url).strip()
+        if "," in raw_b64:
+            raw_b64 = raw_b64.split(",", 1)[1]
+        try:
+            logo_bytes = base64.b64decode(raw_b64)
+            with Image.open(io.BytesIO(logo_bytes)) as lim:
+                rgba = lim.convert("RGBA")
+                if remove_logo_white_bg:
+                    get_fn = getattr(rgba, "get_flattened_data", None) or rgba.getdata
+                    pixels = list(get_fn())
+                    cleaned_pixels = [
+                        (255, 255, 255, 0) if (r > 238 and g > 238 and b > 238) else (r, g, b, a)
+                        for (r, g, b, a) in pixels
+                    ]
+                    rgba.putdata(cleaned_pixels)
+                rgba.thumbnail((240, 240), Image.Resampling.LANCZOS)
+                processed_logo_img = rgba.copy()
+                logo_out_path = CUSTOM_TEMPLATES_DIR / f"{family_id}_logo.png"
+                processed_logo_img.save(logo_out_path)
+                logo_rel_url = f"/assets/templates/custom/{logo_out_path.name}"
+        except Exception:
+            processed_logo_img = None
+            logo_rel_url = ""
+
+    # Step 5 — Synthesize Coordinated Header, Footer, Watermark & Cover Backdrop Assets for Each of the 3 Variants
+    variant_specs = [
+        ("a", "Variant A", c1, c2, c1),
+        ("b", "Variant B", c2, c3, c2),
+        ("c", "Variant C", c3_safe_primary, c1, c3),
+    ]
+    safe_bounds = _compute_nano_template_safe_bounds(
+        frame_geometry=geom_key,
+        logo_position=logo_pos,
+        has_logo=(processed_logo_img is not None),
+    )
+
+    built_profiles: List[TemplateProfile] = []
+    for var_slug, var_label, pri_hex, acc_hex, swatch_hex in variant_specs:
+        variant_id = f"{family_id}_{var_slug}"
+        asset_urls = _render_nano_template_variant_assets(
+            variant_id=variant_id,
+            visual_style=style_key,
+            frame_geometry=geom_key,
+            primary_hex=pri_hex,
+            accent_hex=acc_hex,
+            logo_img=processed_logo_img,
+            logo_position=logo_pos,
+        )
+        desc_parts = [
+            f"Nano Banana AI {style_meta['label']} template ({var_label})",
+            style_meta["description"],
+        ]
+        if clean_prompt:
+            desc_parts.append(f"Theme focus: {clean_prompt}.")
+        profile = TemplateProfile(
+            template_id=variant_id,
+            name=f"{clean_name} ({var_label})",
+            category="Nano Banana AI Custom Series",
+            family_id=family_id,
+            family_name=clean_name,
+            variant_label=var_label,
+            variant_swatch_hex=swatch_hex,
+            description=" — ".join(desc_parts),
+            is_builtin=False,
+            pptx_path=f"assets/templates/custom/{variant_id}.pptx" if not preview_only else None,
+            content_layout_index=6,
+            cover_layout_index=0,
+            use_native_master_layouts=False,
+            primary_hex=pri_hex,
+            accent_hex=acc_hex,
+            card_bg_hex=_derive_soft_card_bg_hex(pri_hex),
+            cover_bg_url=asset_urls["cover_bg_url"],
+            canvas_watermark_url=asset_urls["canvas_watermark_url"],
+            bottom_bar_hex=pri_hex,
+            bottom_accent_hex=acc_hex,
+            bottom_silhouette_url=asset_urls["bottom_silhouette_url"],
+            bottom_silhouette_dark_url=asset_urls["bottom_silhouette_dark_url"],
+            corner_logo_url=logo_rel_url if logo_pos == "bottom_right" else "",
+            corner_logo_dark_url=logo_rel_url if logo_pos == "bottom_right" else "",
+            top_banner_url=asset_urls["top_banner_url"],
+            safe_bounds=safe_bounds.model_copy(deep=True),
+        )
+        if not preview_only:
+            profile.pptx_path = _build_nano_template_master_pptx(profile)
+        built_profiles.append(profile)
+
+    if not preview_only:
+        new_ids = {p.template_id for p in built_profiles}
+        catalog = [p for p in load_template_catalog() if p.template_id not in new_ids]
+        catalog.extend(built_profiles)
+        save_template_catalog(catalog)
+
+    profile_a, profile_b, profile_c = built_profiles[0], built_profiles[1], built_profiles[2]
+    return {
+        "status": "SUCCESS",
+        "family_id": family_id,
+        "family_name": clean_name,
+        "visual_style": style_key,
+        "frame_geometry": geom_key,
+        "preview_only": bool(preview_only),
+        "cost_usd": 0.0 if preview_only else 0.08,
+        "variants": [profile_a.to_dict(), profile_b.to_dict(), profile_c.to_dict()],
+        "default_template_id": profile_a.template_id,
+    }

@@ -796,7 +796,7 @@ def mcp_tool_generate_fillable_scout_workbook(
     selected_option_track: Optional[str] = None,
     include_qr: bool = True,
 ) -> Dict[str, Any]:
-    """Generates the verb-aligned fillable Scout Workbook HTML & Markdown with Guide to Advancement Section 7.0.3.2 banner."""
+    """Generates the Fillable Form (GTA §7.0.3.2) Scout Workbook HTML & Markdown with Guide to Advancement Section 7.0.3.2 banner."""
     from src.tools.scouting_scraper import (
         fetch_official_merit_badge_requirements,
         generate_fillable_scout_workbook_html,
@@ -1102,7 +1102,7 @@ MCP_TOOLS_REGISTRY: Dict[str, Dict[str, Any]] = {
     },
     "generate_fillable_scout_workbook": {
         "name": "generate_fillable_scout_workbook",
-        "description": "Generates a verb-aligned fillable Scout Workbook (HTML & Markdown) with Guide to Advancement Section 7.0.3.2 banner, option-track filtering, and pre-approval signature boxes.",
+        "description": "Generates a Fillable Form (GTA §7.0.3.2) Scout Workbook (HTML & Markdown) with Guide to Advancement Section 7.0.3.2 banner, option-track filtering, and pre-approval signature boxes.",
         "inputSchema": {
             "type": "object",
             "required": ["badge_name"],

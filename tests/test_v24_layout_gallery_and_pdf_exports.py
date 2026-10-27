@@ -84,7 +84,7 @@ def test_markdown_downloads_replaced_with_pdf_while_keeping_copy_buttons() -> No
     assert "📥 Download Scout Workbook (.PDF)" in index_html
     assert "📥 Download Agenda (.PDF)" in index_html
     assert "📥 Download Letter (.PDF)" in index_html
-    assert "📋 Copy Markdown" in index_html
+    assert "📋 Copy Markdown" in index_html or "📋 Copy Workbook Markdown" in index_html
     assert "📋 Copy Agenda" in index_html
     assert "📋 Copy Letter" in index_html
 

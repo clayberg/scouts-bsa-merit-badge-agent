@@ -260,6 +260,60 @@ def _connect_session_db(db_path: str):
     conn.execute("PRAGMA synchronous=NORMAL;")
     return conn
 
+
+def _fix_middelton_str(val: str) -> str:
+    if not val or ("Middelton" not in val and "middelton" not in val):
+        return val
+    return val.replace("Middelton", "Middleton").replace("middelton", "middleton")
+
+
+def _repair_middelton_typo_in_db_and_cache(conn: Optional[sqlite3.Connection] = None) -> None:
+    """Automatically replaces any 'Middelton' typo with 'Middleton' in SQLite tables and `.cache/counselor_profile.json`."""
+    if conn is not None:
+        conn.execute(
+            """
+            UPDATE counselor_sessions
+            SET counselor_info = REPLACE(REPLACE(counselor_info, 'Middelton', 'Middleton'), 'middelton', 'middleton'),
+                history_json = REPLACE(REPLACE(history_json, 'Middelton', 'Middleton'), 'middelton', 'middleton')
+            WHERE counselor_info LIKE '%Middelton%' OR history_json LIKE '%Middelton%'
+               OR counselor_info LIKE '%middelton%' OR history_json LIKE '%middelton%'
+            """
+        )
+        conn.execute(
+            """
+            UPDATE counselor_workspaces
+            SET workspace_title = REPLACE(REPLACE(workspace_title, 'Middelton', 'Middleton'), 'middelton', 'middleton'),
+                session_label = REPLACE(REPLACE(session_label, 'Middelton', 'Middleton'), 'middelton', 'middleton'),
+                camp_bundle_tag = REPLACE(REPLACE(camp_bundle_tag, 'Middelton', 'Middleton'), 'middelton', 'middleton'),
+                counselor_info_json = REPLACE(REPLACE(counselor_info_json, 'Middelton', 'Middleton'), 'middelton', 'middleton'),
+                deck_result_json = REPLACE(REPLACE(deck_result_json, 'Middelton', 'Middleton'), 'middelton', 'middleton'),
+                class_prep_json = REPLACE(REPLACE(class_prep_json, 'Middelton', 'Middleton'), 'middelton', 'middleton'),
+                local_grounding_json = REPLACE(REPLACE(local_grounding_json, 'Middelton', 'Middleton'), 'middelton', 'middleton')
+            WHERE workspace_title LIKE '%Middelton%' OR session_label LIKE '%Middelton%'
+               OR camp_bundle_tag LIKE '%Middelton%' OR counselor_info_json LIKE '%Middelton%'
+               OR deck_result_json LIKE '%Middelton%' OR class_prep_json LIKE '%Middelton%'
+               OR local_grounding_json LIKE '%Middelton%'
+            """
+        )
+        conn.execute(
+            """
+            UPDATE clinic_session_schedules
+            SET room_location = REPLACE(REPLACE(room_location, 'Middelton', 'Middleton'), 'middelton', 'middleton')
+            WHERE room_location LIKE '%Middelton%' OR room_location LIKE '%middelton%'
+            """
+        )
+    try:
+        from src.config import LOCAL_CACHE_DIR
+
+        for cache_fname in ("counselor_profile.json", "custom_session_lists.json"):
+            cp_path = LOCAL_CACHE_DIR / cache_fname
+            if cp_path.exists():
+                raw_txt = cp_path.read_text(encoding="utf-8")
+                if "Middelton" in raw_txt or "middelton" in raw_txt:
+                    cp_path.write_text(_fix_middelton_str(raw_txt), encoding="utf-8")
+    except Exception:
+        pass
+
 class PersistentSessionStore:
     """Manages persistent session state and vector memory across SQLite, ADK Vertex AI Session Service, and Vertex AI Search."""
 
@@ -496,7 +550,13 @@ class PersistentSessionStore:
                     )
             except Exception:
                 logger.debug("Baseline version check skipped", exc_info=True)
+            try:
+                _repair_middelton_typo_in_db_and_cache(conn)
+            except Exception:
+                logger.debug("Middelton typo repair skipped", exc_info=True)
             conn.commit()
+
+    init_db = _init_db
 
     def upsert_clinic_session_schedule_sync(
         self,
@@ -1269,7 +1329,8 @@ def load_local_counselor_profile() -> Dict[str, Any]:
                     "custom_troop_logo_path",
                 ):
                     if k in data and data[k] is not None:
-                        merged[k] = data[k]
+                        val = data[k]
+                        merged[k] = _fix_middelton_str(val) if isinstance(val, str) else val
                 merged["cached_locally"] = True
                 return merged
         except Exception:
@@ -1288,9 +1349,9 @@ def save_local_counselor_profile(profile: Dict[str, Any]) -> Dict[str, Any]:
         return {"status": "SKIPPED_CLOUD_MULTI_TENANT", "saved": False}
 
     clean_payload = {
-        "counselor_name": str(profile.get("counselor_name") or "Scoutmaster Bob").strip(),
-        "troop_affiliation": str(profile.get("troop_affiliation") or "Troop 123, My Council").strip(),
-        "location_or_zip": str(profile.get("location_or_zip") or "").strip(),
+        "counselor_name": _fix_middelton_str(str(profile.get("counselor_name") or "Scoutmaster Bob").strip()),
+        "troop_affiliation": _fix_middelton_str(str(profile.get("troop_affiliation") or "Troop 123, My Council").strip()),
+        "location_or_zip": _fix_middelton_str(str(profile.get("location_or_zip") or "").strip()),
         "email_address": str(profile.get("email_address") or "").strip(),
         "phone_number": str(profile.get("phone_number") or "").strip(),
         "custom_troop_logo_path": profile.get("custom_troop_logo_path"),
@@ -1545,16 +1606,117 @@ def save_polished_speaker_notes(
 # MULTI-BADGE COUNSELOR WORKSPACES & FAVORITES (PLAN 16B)
 # ==============================================================================
 
+_CLASS_LOGISTICS_DEFAULTS: Dict[str, Any] = {
+    "section_name": "",
+    "section_number": "",
+    "start_date": "",
+    "derived_weekday": "",
+    "frequency": "weekly",
+    "num_sessions": 4,
+    "include_makeup": True,
+    "start_time_24h": "",
+    "duration_minutes": 75,
+    "computed_end_time": "",
+    "computed_schedule_summary": "",
+    "computed_session_dates": "",
+    "room_location": "",
+    "bundle_tag": "",
+    "include_slide2": False,
+    "include_sliden": False,
+}
+
+
+def _normalize_class_logistics_dict(
+    raw_logistics: Optional[Dict[str, Any]],
+    class_start_time: str = "",
+    room_location: str = "",
+    session_dates: Any = "",
+    session_label: str = "",
+    camp_bundle_tag: str = "",
+) -> Dict[str, Any]:
+    """Builds a normalized `class_logistics` dictionary guaranteed to include all 16 canonical keys."""
+    merged = dict(_CLASS_LOGISTICS_DEFAULTS)
+    if isinstance(raw_logistics, dict):
+        for k, v in raw_logistics.items():
+            if v is not None:
+                merged[k] = _fix_middelton_str(v) if isinstance(v, str) else v
+
+    if class_start_time and not merged.get("start_time_24h"):
+        merged["start_time_24h"] = _fix_middelton_str(str(class_start_time))
+    if room_location and not merged.get("room_location"):
+        merged["room_location"] = _fix_middelton_str(str(room_location))
+    if session_dates and not merged.get("computed_session_dates"):
+        merged["computed_session_dates"] = (
+            _fix_middelton_str(session_dates) if isinstance(session_dates, str) else session_dates
+        )
+    if session_label and not merged.get("section_name"):
+        merged["section_name"] = _fix_middelton_str(str(session_label))
+    if camp_bundle_tag and not merged.get("bundle_tag"):
+        merged["bundle_tag"] = _fix_middelton_str(str(camp_bundle_tag))
+    return merged
+
+
+def _unpack_workspace_logistics_fields(
+    class_prep: Dict[str, Any],
+    session_label: str = "",
+    camp_bundle_tag: str = "",
+) -> Dict[str, Any]:
+    """Unpacks `class_start_time`, `room_location`, `session_dates`, and `class_logistics` from `class_prep`."""
+    cp = class_prep if isinstance(class_prep, dict) else {}
+    raw_log = cp.get("class_logistics") if isinstance(cp.get("class_logistics"), dict) else {}
+
+    start_time = str(
+        cp.get("class_start_time")
+        if cp.get("class_start_time") not in (None, "")
+        else (raw_log.get("start_time_24h") or "")
+    ).strip()
+    room_loc = _fix_middelton_str(
+        str(
+            cp.get("room_location")
+            if cp.get("room_location") not in (None, "")
+            else (raw_log.get("room_location") or "")
+        ).strip()
+    )
+    sess_dates_raw = (
+        cp.get("session_dates")
+        if cp.get("session_dates") not in (None, "")
+        else (raw_log.get("computed_session_dates") or "")
+    )
+    if isinstance(sess_dates_raw, list):
+        sess_dates = ", ".join(_fix_middelton_str(str(x)) for x in sess_dates_raw if str(x).strip())
+    else:
+        sess_dates = _fix_middelton_str(str(sess_dates_raw or "").strip())
+
+    norm_log = _normalize_class_logistics_dict(
+        raw_logistics=raw_log,
+        class_start_time=start_time,
+        room_location=room_loc,
+        session_dates=sess_dates,
+        session_label=session_label,
+        camp_bundle_tag=camp_bundle_tag,
+    )
+    return {
+        "class_start_time": start_time,
+        "room_location": room_loc,
+        "session_dates": sess_dates,
+        "class_logistics": norm_log,
+    }
+
 
 def save_counselor_workspace(
-    workspace_payload: Dict[str, Any],
+    workspace_payload: Optional[Dict[str, Any]] = None,
     store: Optional[PersistentSessionStore] = None,
+    **kwargs: Any,
 ) -> Dict[str, Any]:
     """Creates or updates a multi-badge counselor deck workspace in SQLite (`counselor_workspaces`)."""
+    if workspace_payload is None:
+        workspace_payload = dict(kwargs)
+    elif kwargs:
+        workspace_payload = {**workspace_payload, **kwargs}
     s = store or _default_store
     ws_id = str(workspace_payload.get("workspace_id") or "").strip()
     badge_name = str(workspace_payload.get("badge_name") or "First Aid").strip()
-    session_label = str(workspace_payload.get("session_label") or "").strip()
+    session_label = _fix_middelton_str(str(workspace_payload.get("session_label") or "").strip())
     force_new = bool(workspace_payload.get("force_new") or workspace_payload.get("forceNew"))
 
     # If no workspace_id was passed and force_new is False, reuse an existing workspace for the same (badge_name, session_label)
@@ -1593,12 +1755,16 @@ def save_counselor_workspace(
 
     existing_ws = get_counselor_workspace(ws_id, include_deck_payload=True, store=s)
 
-    ws_title = str(workspace_payload.get("workspace_title") or (existing_ws.get("workspace_title") if existing_ws else "") or badge_name).strip()
-    camp_bundle_tag = str(
-        workspace_payload.get("camp_bundle_tag")
-        if "camp_bundle_tag" in workspace_payload and workspace_payload.get("camp_bundle_tag") is not None
-        else (existing_ws.get("camp_bundle_tag") if existing_ws else "") or ""
-    ).strip()
+    ws_title = _fix_middelton_str(
+        str(workspace_payload.get("workspace_title") or (existing_ws.get("workspace_title") if existing_ws else "") or badge_name).strip()
+    )
+    camp_bundle_tag = _fix_middelton_str(
+        str(
+            workspace_payload.get("camp_bundle_tag")
+            if "camp_bundle_tag" in workspace_payload and workspace_payload.get("camp_bundle_tag") is not None
+            else (existing_ws.get("camp_bundle_tag") if existing_ws else "") or ""
+        ).strip()
+    )
     template_id = str(
         workspace_payload.get("template_id")
         or (existing_ws.get("template_id") if existing_ws else "")
@@ -1621,12 +1787,83 @@ def save_counselor_workspace(
         if workspace_payload.get("blue_card_roster")
         else (existing_ws.get("blue_card_roster") if existing_ws else {}) or {}
     )
-    class_prep = (
+    existing_cp = dict((existing_ws.get("class_prep") if existing_ws else {}) or {})
+    incoming_cp = dict(
         workspace_payload.get("class_prep")
         or workspace_payload.get("class_prep_payload")
-        or (existing_ws.get("class_prep") if existing_ws else {})
         or {}
     )
+    class_prep: Dict[str, Any] = {**existing_cp, **incoming_cp}
+
+    # Merge top-level and nested class_start_time, room_location, session_dates, and class_logistics into class_prep
+    merged_raw_logistics: Dict[str, Any] = {}
+    if existing_ws and isinstance(existing_ws.get("class_logistics"), dict):
+        merged_raw_logistics.update(existing_ws["class_logistics"])
+    if isinstance(existing_cp.get("class_logistics"), dict):
+        merged_raw_logistics.update(existing_cp["class_logistics"])
+    if isinstance(incoming_cp.get("class_logistics"), dict):
+        merged_raw_logistics.update(incoming_cp["class_logistics"])
+    if isinstance(workspace_payload.get("class_logistics"), dict):
+        merged_raw_logistics.update(workspace_payload["class_logistics"])
+
+    eff_start_time = str(
+        workspace_payload.get("class_start_time")
+        if workspace_payload.get("class_start_time") not in (None, "")
+        else (
+            incoming_cp.get("class_start_time")
+            or merged_raw_logistics.get("start_time_24h")
+            or existing_cp.get("class_start_time")
+            or (existing_ws.get("class_start_time") if existing_ws else "")
+            or ""
+        )
+    ).strip()
+
+    eff_room_location = _fix_middelton_str(
+        str(
+            workspace_payload.get("room_location")
+            if workspace_payload.get("room_location") not in (None, "")
+            else (
+                incoming_cp.get("room_location")
+                or merged_raw_logistics.get("room_location")
+                or existing_cp.get("room_location")
+                or (existing_ws.get("room_location") if existing_ws else "")
+                or ""
+            )
+        ).strip()
+    )
+
+    raw_sess_dates = (
+        workspace_payload.get("session_dates")
+        if workspace_payload.get("session_dates") not in (None, "")
+        else (
+            incoming_cp.get("session_dates")
+            or merged_raw_logistics.get("computed_session_dates")
+            or existing_cp.get("session_dates")
+            or (existing_ws.get("session_dates") if existing_ws else "")
+            or ""
+        )
+    )
+    if isinstance(raw_sess_dates, list):
+        eff_session_dates = ", ".join(_fix_middelton_str(str(x)) for x in raw_sess_dates if str(x).strip())
+    else:
+        eff_session_dates = _fix_middelton_str(str(raw_sess_dates or "").strip())
+
+    eff_class_logistics = _normalize_class_logistics_dict(
+        raw_logistics=merged_raw_logistics,
+        class_start_time=eff_start_time,
+        room_location=eff_room_location,
+        session_dates=eff_session_dates,
+        session_label=session_label,
+        camp_bundle_tag=camp_bundle_tag,
+    )
+    class_prep["class_start_time"] = eff_start_time
+    class_prep["room_location"] = eff_room_location
+    class_prep["session_dates"] = eff_session_dates
+    class_prep["class_logistics"] = eff_class_logistics
+
+    if not camp_bundle_tag and eff_class_logistics.get("bundle_tag"):
+        camp_bundle_tag = str(eff_class_logistics["bundle_tag"]).strip()
+
     local_grounding = workspace_payload.get("local_grounding") or (existing_ws.get("local_grounding") if existing_ws else {}) or {}
 
     active_slide_idx = int(workspace_payload.get("active_slide_idx", existing_ws.get("active_slide_idx", -1) if existing_ws else -1))
@@ -1687,11 +1924,11 @@ def save_counselor_workspace(
                 session_label,
                 camp_bundle_tag,
                 template_id,
-                json.dumps(counselor_info, ensure_ascii=False),
-                json.dumps(deck_result, ensure_ascii=False),
-                json.dumps(blue_card_roster, ensure_ascii=False),
-                json.dumps(class_prep, ensure_ascii=False),
-                json.dumps(local_grounding, ensure_ascii=False),
+                _fix_middelton_str(json.dumps(counselor_info, ensure_ascii=False)),
+                _fix_middelton_str(json.dumps(deck_result, ensure_ascii=False)),
+                _fix_middelton_str(json.dumps(blue_card_roster, ensure_ascii=False)),
+                _fix_middelton_str(json.dumps(class_prep, ensure_ascii=False)),
+                _fix_middelton_str(json.dumps(local_grounding, ensure_ascii=False)),
                 active_slide_idx,
                 slide_count,
                 custom_edits_count,
@@ -1730,7 +1967,7 @@ def list_counselor_workspaces(
             rows = conn.execute(
                 f"""
                 SELECT workspace_id, workspace_title, badge_name, session_label, camp_bundle_tag,
-                       template_id, active_slide_idx, slide_count, custom_edits_count,
+                       template_id, class_prep_json, active_slide_idx, slide_count, custom_edits_count,
                        scout_count, is_pinned, is_archived, created_at, updated_at
                 FROM counselor_workspaces
                 WHERE {where_sql}
@@ -1739,13 +1976,28 @@ def list_counselor_workspaces(
                 params,
             ).fetchall()
             for r in rows:
+                cp_dict: Dict[str, Any] = {}
+                if r["class_prep_json"]:
+                    try:
+                        parsed_cp = json.loads(r["class_prep_json"])
+                        if isinstance(parsed_cp, dict):
+                            cp_dict = parsed_cp
+                    except Exception:
+                        cp_dict = {}
+                s_label = _fix_middelton_str(r["session_label"] or "")
+                b_tag = _fix_middelton_str(r["camp_bundle_tag"] or "")
+                unpacked = _unpack_workspace_logistics_fields(
+                    class_prep=cp_dict,
+                    session_label=s_label,
+                    camp_bundle_tag=b_tag,
+                )
                 items.append(
                     {
                         "workspace_id": r["workspace_id"],
-                        "workspace_title": r["workspace_title"],
+                        "workspace_title": _fix_middelton_str(r["workspace_title"] or ""),
                         "badge_name": r["badge_name"],
-                        "session_label": r["session_label"] or "",
-                        "camp_bundle_tag": r["camp_bundle_tag"] or "",
+                        "session_label": s_label,
+                        "camp_bundle_tag": b_tag,
                         "template_id": r["template_id"] or "default_workbench",
                         "active_slide_idx": int(r["active_slide_idx"] or -1),
                         "slide_count": int(r["slide_count"] or 0),
@@ -1755,6 +2007,10 @@ def list_counselor_workspaces(
                         "is_archived": bool(r["is_archived"]),
                         "created_at": r["created_at"],
                         "updated_at": r["updated_at"],
+                        "class_start_time": unpacked["class_start_time"],
+                        "room_location": unpacked["room_location"],
+                        "session_dates": unpacked["session_dates"],
+                        "class_logistics": unpacked["class_logistics"],
                     }
                 )
     except Exception:
@@ -1792,12 +2048,25 @@ def get_counselor_workspace(
                     logger.debug("Database operation failed", exc_info=True)
                     return {}
 
+            s_label = _fix_middelton_str(row["session_label"] or "")
+            b_tag = _fix_middelton_str(row["camp_bundle_tag"] or "")
+            cp_dict = _safe_json(row["class_prep_json"])
+            unpacked = _unpack_workspace_logistics_fields(
+                class_prep=cp_dict,
+                session_label=s_label,
+                camp_bundle_tag=b_tag,
+            )
+            cp_dict["class_start_time"] = unpacked["class_start_time"]
+            cp_dict["room_location"] = unpacked["room_location"]
+            cp_dict["session_dates"] = unpacked["session_dates"]
+            cp_dict["class_logistics"] = unpacked["class_logistics"]
+
             res: Dict[str, Any] = {
                 "workspace_id": row["workspace_id"],
-                "workspace_title": row["workspace_title"],
+                "workspace_title": _fix_middelton_str(row["workspace_title"] or ""),
                 "badge_name": row["badge_name"],
-                "session_label": row["session_label"] or "",
-                "camp_bundle_tag": row["camp_bundle_tag"] or "",
+                "session_label": s_label,
+                "camp_bundle_tag": b_tag,
                 "template_id": row["template_id"] or "default_workbench",
                 "active_slide_idx": int(row["active_slide_idx"] or -1),
                 "slide_count": int(row["slide_count"] or 0),
@@ -1809,8 +2078,12 @@ def get_counselor_workspace(
                 "updated_at": row["updated_at"],
                 "counselor_info": _safe_json(row["counselor_info_json"]),
                 "blue_card_roster": _safe_json(row["blue_card_roster_json"]),
-                "class_prep": _safe_json(row["class_prep_json"]),
+                "class_prep": cp_dict,
                 "local_grounding": _safe_json(row["local_grounding_json"]),
+                "class_start_time": unpacked["class_start_time"],
+                "room_location": unpacked["room_location"],
+                "session_dates": unpacked["session_dates"],
+                "class_logistics": unpacked["class_logistics"],
             }
             parsed_deck = _safe_json(row["deck_result_json"])
             if isinstance(parsed_deck.get("deck_style"), dict):

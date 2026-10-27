@@ -240,7 +240,7 @@ def _format_workbook_organizer_label(
             _sanitize_no_ellipsis_or_emdash(raw_type.replace("_", " ").title()) if raw_type else "Concept & Examples Notes",
         )
         if str(wb_org or "").strip():
-            return f"Scout Workbook Req {wb_org} • {friendly}"
+            return f"Workbook Requirement {wb_org} • {friendly}"
         return friendly
     if isinstance(wb_org, str):
         raw_type = wb_org.strip().upper()
@@ -852,8 +852,8 @@ def _build_slide_teaching_notes(
     )
     wb_org = req_data.get("workbook_organizer") or s_dict.get("workbook_table_ref") or {}
     wb_type = _format_workbook_organizer_label(wb_org)
-    # Strip duplicate 'Scout Workbook Req X • ' prefix if wb_org was already a formatted string
-    wb_type_clean = re.sub(r"^Scout\s+Workbook\s+Req\s+[^•\-]+\s*[•\-]\s*", "", wb_type, flags=re.IGNORECASE).strip() or wb_type
+    # Strip duplicate 'Workbook Requirement X • ' prefix if wb_org was already a formatted string
+    wb_type_clean = re.sub(r"^(?:Scout\s+)?Workbook\s+Req(?:uirement)?\s+[^•\-]+\s*[•\-]\s*", "", wb_type, flags=re.IGNORECASE).strip() or wb_type
 
     req_display_label = f"Reqs {sub_range_label}" if sub_range_label and "-" in sub_range_label else f"Requirement {sub_range_label or clean_req}"
 
@@ -1473,7 +1473,7 @@ def generate_slide_storyboard(
         )
         wb_org = req.get("workbook_organizer") if isinstance(req.get("workbook_organizer"), dict) else {}
         wb_type_label = _format_workbook_organizer_label(wb_org)
-        req_wb_ref = f"Scout Workbook Req {req_num} • {wb_type_label}"
+        req_wb_ref = f"Workbook Requirement {req_num} • {wb_type_label}"
         gate_obj = req.get("starting_requirement_gate") if isinstance(req.get("starting_requirement_gate"), dict) else {}
         req_gate_badges = [str(gate_obj["gate_label"])] if gate_obj.get("gate_label") else []
         req_curated_res = list(req.get("curated_resources") or [])

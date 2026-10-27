@@ -3396,6 +3396,28 @@ async def api_get_class_prep_cpp_pdf(
     )
 
 
+def _invoke_studiokit_pdf_callable(fn: Any, **candidate_kwargs: Any) -> bytes:
+    """Invokes a StudioKit PDF generator function, passing only supported keyword arguments from `candidate_kwargs`."""
+    import inspect
+
+    sig = inspect.signature(fn)
+    has_var_kw = any(p.kind == inspect.Parameter.VAR_KEYWORD for p in sig.parameters.values())
+    if has_var_kw:
+        filtered = {k: v for k, v in candidate_kwargs.items() if v is not None}
+    else:
+        filtered = {
+            k: v
+            for k, v in candidate_kwargs.items()
+            if k in sig.parameters and v is not None
+        }
+    out = fn(**filtered)
+    if isinstance(out, (bytes, bytearray)):
+        return bytes(out)
+    if isinstance(out, dict) and isinstance(out.get("pdf_bytes"), (bytes, bytearray)):
+        return bytes(out["pdf_bytes"])
+    return b""
+
+
 @app.get("/api/studiokit/agenda.pdf", include_in_schema=False)
 @app.get("/api/v1/studiokit/agenda.pdf", include_in_schema=False)
 async def api_get_studiokit_agenda_pdf(
@@ -3405,18 +3427,36 @@ async def api_get_studiokit_agenda_pdf(
     troop_name: str = "Troop 19, Northeast Massachusetts Council",
     postponed_session_idx: Optional[int] = None,
     companion_badge_name: Optional[str] = None,
+    session_tag: str = "",
+    class_start_time: str = "",
+    room_location: str = "",
+    session_dates: str = "",
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Response:
     """Downloads the graphically styled Counselor Session Agenda & Lesson Plan as a printable PDF."""
     from src.config import badge_file_slug
     from src.tools.counselor_studiokit import generate_session_agenda_pdf
 
-    pdf_bytes = generate_session_agenda_pdf(
+    c_info: Dict[str, Any] = {
+        "counselor_name": counselor_name,
+        "troop_affiliation": troop_name,
+        "session_tag": session_tag,
+        "class_start_time": class_start_time,
+        "room_location": room_location,
+        "session_dates": session_dates,
+    }
+    pdf_bytes = await asyncio.to_thread(
+        _invoke_studiokit_pdf_callable,
+        generate_session_agenda_pdf,
         badge_name=badge_name,
         schedule_format=schedule_format,
-        counselor_info={"counselor_name": counselor_name, "troop_affiliation": troop_name},
+        counselor_info=c_info,
         postponed_session_idx=postponed_session_idx,
         companion_badge_name=companion_badge_name,
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates,
     )
     slug = badge_file_slug(badge_name)
     return Response(
@@ -3434,26 +3474,312 @@ async def api_get_studiokit_parent_letter_pdf(
     counselor_name: str = "Merit Badge Counselor",
     troop_name: str = "Troop 19, Northeast Massachusetts Council",
     counselor_email: str = "counselor@scouting.org",
+    session_tag: str = "",
+    class_start_time: str = "",
+    room_location: str = "",
+    session_dates: str = "",
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Response:
     """Downloads the graphically styled YPT-Compliant Parent Prerequisite & Welcome Letter as a printable PDF."""
     from src.config import badge_file_slug
     from src.tools.counselor_studiokit import generate_parent_letter_pdf
 
-    pdf_bytes = generate_parent_letter_pdf(
+    c_info: Dict[str, Any] = {
+        "counselor_name": counselor_name,
+        "troop_affiliation": troop_name,
+        "email_address": counselor_email,
+        "session_tag": session_tag,
+        "class_start_time": class_start_time,
+        "room_location": room_location,
+        "session_dates": session_dates,
+    }
+    pdf_bytes = await asyncio.to_thread(
+        _invoke_studiokit_pdf_callable,
+        generate_parent_letter_pdf,
         badge_name=badge_name,
-        counselor_info={
-            "counselor_name": counselor_name,
-            "troop_affiliation": troop_name,
-            "email_address": counselor_email,
-        },
+        counselor_info=c_info,
         stage=stage,
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates,
     )
     slug = badge_file_slug(badge_name)
     return Response(
         content=pdf_bytes,
         media_type="application/pdf",
         headers={"Content-Disposition": f'attachment; filename="{slug}_parent_prerequisite_letter.pdf"'},
+    )
+
+
+@app.get("/api/studiokit/counselor-workbook.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/counselor-workbook.pdf", include_in_schema=False)
+async def api_get_counselor_workbook_pdf(
+    badge_name: str = "First Aid",
+    option_track: str = "ALL",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    session_tag: str = "",
+    class_start_time: str = "",
+    room_location: str = "",
+    session_dates: str = "",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the Counselor Answer Key & Teaching Workbook PDF."""
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import generate_counselor_workbook_pdf
+
+    c_info: Dict[str, Any] = {
+        "counselor_name": counselor_name,
+        "troop_affiliation": troop_name,
+        "session_tag": session_tag,
+        "class_start_time": class_start_time,
+        "room_location": room_location,
+        "session_dates": session_dates,
+    }
+    pdf_bytes = await asyncio.to_thread(
+        _invoke_studiokit_pdf_callable,
+        generate_counselor_workbook_pdf,
+        badge_name=badge_name,
+        counselor_info=c_info,
+        option_track=option_track or "ALL",
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates,
+    )
+    slug = badge_file_slug(badge_name)
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{slug}_counselor_workbook.pdf"'},
+    )
+
+
+@app.get("/api/studiokit/field-qr-checklist.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/field-qr-checklist.pdf", include_in_schema=False)
+async def api_get_field_qr_checklist_pdf(
+    badge_name: str = "First Aid",
+    option_track: str = "ALL",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    session_tag: str = "",
+    class_start_time: str = "",
+    room_location: str = "",
+    session_dates: str = "",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the Field QR Evidence & Verification Checklist PDF."""
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import generate_field_qr_checklist_pdf
+
+    c_info: Dict[str, Any] = {
+        "counselor_name": counselor_name,
+        "troop_affiliation": troop_name,
+        "session_tag": session_tag,
+        "class_start_time": class_start_time,
+        "room_location": room_location,
+        "session_dates": session_dates,
+    }
+    pdf_bytes = await asyncio.to_thread(
+        _invoke_studiokit_pdf_callable,
+        generate_field_qr_checklist_pdf,
+        badge_name=badge_name,
+        counselor_info=c_info,
+        option_track=option_track or "ALL",
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates,
+    )
+    slug = badge_file_slug(badge_name)
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{slug}_field_qr_checklist.pdf"'},
+    )
+
+
+@app.get("/api/studiokit/cue-cards.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/cue-cards.pdf", include_in_schema=False)
+async def api_get_counselor_cue_cards_pdf(
+    badge_name: str = "First Aid",
+    option_track: str = "ALL",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    session_tag: str = "",
+    class_start_time: str = "",
+    room_location: str = "",
+    session_dates: str = "",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the Printable Counselor Pocket Cue Cards PDF."""
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import generate_counselor_cue_cards_pdf
+
+    c_info: Dict[str, Any] = {
+        "counselor_name": counselor_name,
+        "troop_affiliation": troop_name,
+        "session_tag": session_tag,
+        "class_start_time": class_start_time,
+        "room_location": room_location,
+        "session_dates": session_dates,
+    }
+    pdf_bytes = await asyncio.to_thread(
+        _invoke_studiokit_pdf_callable,
+        generate_counselor_cue_cards_pdf,
+        badge_name=badge_name,
+        counselor_info=c_info,
+        option_track=option_track or "ALL",
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates,
+    )
+    slug = badge_file_slug(badge_name)
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{slug}_counselor_cue_cards.pdf"'},
+    )
+
+
+@app.get("/api/studiokit/organizer-spec.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/organizer-spec.pdf", include_in_schema=False)
+async def api_get_organizer_spec_pdf(
+    badge_name: str = "First Aid",
+    schedule_format: str = "4_session_mbc",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    session_tag: str = "",
+    class_start_time: str = "",
+    room_location: str = "",
+    session_dates: str = "",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the 1-Page Organizer & Syllabus Catalog Spec Sheet PDF."""
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import generate_organizer_spec_pdf
+
+    c_info: Dict[str, Any] = {
+        "counselor_name": counselor_name,
+        "troop_affiliation": troop_name,
+        "session_tag": session_tag,
+        "class_start_time": class_start_time,
+        "room_location": room_location,
+        "session_dates": session_dates,
+    }
+    pdf_bytes = await asyncio.to_thread(
+        _invoke_studiokit_pdf_callable,
+        generate_organizer_spec_pdf,
+        badge_name=badge_name,
+        counselor_info=c_info,
+        schedule_format=schedule_format,
+        session_mode=schedule_format,
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates,
+    )
+    slug = badge_file_slug(badge_name)
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{slug}_organizer_spec.pdf"'},
+    )
+
+
+@app.get("/api/studiokit/gear-rotator.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/gear-rotator.pdf", include_in_schema=False)
+async def api_get_gear_rotator_pdf(
+    badge_name: str = "First Aid",
+    schedule_format: str = "4_session_mbc",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    session_tag: str = "",
+    class_start_time: str = "",
+    room_location: str = "",
+    session_dates: str = "",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the Quartermaster Gear Pull-List & Buddy Station Rotator PDF."""
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import generate_gear_and_rotator_pdf
+
+    c_info: Dict[str, Any] = {
+        "counselor_name": counselor_name,
+        "troop_affiliation": troop_name,
+        "session_tag": session_tag,
+        "class_start_time": class_start_time,
+        "room_location": room_location,
+        "session_dates": session_dates,
+    }
+    pdf_bytes = await asyncio.to_thread(
+        _invoke_studiokit_pdf_callable,
+        generate_gear_and_rotator_pdf,
+        badge_name=badge_name,
+        counselor_info=c_info,
+        schedule_format=schedule_format,
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates,
+    )
+    slug = badge_file_slug(badge_name)
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{slug}_gear_rotator.pdf"'},
+    )
+
+
+@app.get("/api/studiokit/bluecards.pdf", include_in_schema=False)
+@app.get("/api/v1/studiokit/bluecards.pdf", include_in_schema=False)
+async def api_get_bluecards_pdf(
+    badge_name: str = "First Aid",
+    mode: str = "3panel",
+    signoff_date: str = "",
+    workspace_id: str = "default_workspace",
+    troop_filter: str = "ALL",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    session_tag: str = "",
+    class_start_time: str = "",
+    room_location: str = "",
+    session_dates: str = "",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the Printable BSA Blue Card (#34124) 3-Panel or Avery 5371 Packet PDF."""
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import generate_bluecards_pdf
+
+    c_info: Dict[str, Any] = {
+        "counselor_name": counselor_name,
+        "troop_affiliation": troop_name,
+        "session_tag": session_tag,
+        "class_start_time": class_start_time,
+        "room_location": room_location,
+        "session_dates": session_dates,
+    }
+    pdf_bytes = await asyncio.to_thread(
+        _invoke_studiokit_pdf_callable,
+        generate_bluecards_pdf,
+        badge_name=badge_name,
+        mode=mode,
+        signoff_date=signoff_date,
+        workspace_id=workspace_id,
+        troop_filter=troop_filter,
+        counselor_info=c_info,
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates,
+    )
+    slug = badge_file_slug(badge_name)
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{slug}_bluecards_{mode}.pdf"'},
     )
 
 
@@ -4597,6 +4923,96 @@ async def api_reset_deck_style_preferences(
     }
 
 
+class CustomSessionListUpdateRequest(BaseModel):
+    list_type: str = Field(..., description="'locations' or 'bundle_tags'")
+    action: str = Field("add", description="'add' or 'remove'")
+    value: str = Field("", description="Location or bundle tag value to add or remove.")
+
+
+_CUSTOM_LISTS_LOCK = threading.Lock()
+
+
+def _get_custom_session_lists_path() -> Path:
+    cache_dir = PROJECT_ROOT / ".cache"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    return cache_dir / "custom_session_lists.json"
+
+
+def _load_custom_session_lists_sync() -> Dict[str, List[str]]:
+    path = _get_custom_session_lists_path()
+    default_data: Dict[str, List[str]] = {"custom_locations": [], "custom_bundle_tags": []}
+    if not path.exists():
+        return default_data
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(raw, dict):
+            locs = [
+                str(x).replace("Middelton", "Middleton").strip()
+                for x in (raw.get("custom_locations") or [])
+                if str(x).strip()
+            ]
+            tags = [
+                str(x).replace("Middelton", "Middleton").strip()
+                for x in (raw.get("custom_bundle_tags") or [])
+                if str(x).strip()
+            ]
+            return {"custom_locations": locs, "custom_bundle_tags": tags}
+    except Exception:
+        pass
+    return default_data
+
+
+def _update_custom_session_lists_sync(list_type: str, action: str, value: str) -> Dict[str, List[str]]:
+    with _CUSTOM_LISTS_LOCK:
+        data = _load_custom_session_lists_sync()
+        lt = str(list_type or "").strip().lower()
+        key = "custom_locations" if "loc" in lt else "custom_bundle_tags"
+        act = str(action or "add").strip().lower()
+        clean_val = str(value or "").replace("Middelton", "Middleton").strip()
+        cur_list = list(data.get(key) or [])
+        if clean_val:
+            # Remove existing case-insensitive duplicate first
+            cur_list = [item for item in cur_list if item.lower() != clean_val.lower()]
+            if act in ("add", "upsert", "prepend"):
+                cur_list.insert(0, clean_val)
+        data[key] = cur_list
+        path = _get_custom_session_lists_path()
+        path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        return data
+
+
+@app.get("/api/preferences/custom-lists")
+@app.get("/api/v1/preferences/custom-lists")
+async def api_get_custom_session_lists() -> Dict[str, Any]:
+    """Returns persisted custom session locations and bundle tags from `.cache/custom_session_lists.json`."""
+    data = await asyncio.to_thread(_load_custom_session_lists_sync)
+    return {
+        "status": "SUCCESS",
+        "custom_locations": data["custom_locations"],
+        "custom_bundle_tags": data["custom_bundle_tags"],
+    }
+
+
+@app.post("/api/preferences/custom-lists")
+@app.post("/api/v1/preferences/custom-lists")
+async def api_update_custom_session_lists(
+    req: CustomSessionListUpdateRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Adds (floating to index 0, deduplicated) or removes a custom room location or bundle tag."""
+    data = await asyncio.to_thread(
+        _update_custom_session_lists_sync,
+        req.list_type,
+        req.action,
+        req.value,
+    )
+    return {
+        "status": "SUCCESS",
+        "custom_locations": data["custom_locations"],
+        "custom_bundle_tags": data["custom_bundle_tags"],
+    }
+
+
 @app.get("/api/templates")
 @app.get("/api/v1/templates")
 async def api_list_powerpoint_templates() -> Dict[str, Any]:
@@ -4817,6 +5233,50 @@ async def api_delete_custom_template(
     }
 
 
+class NanoBananaTemplateGenerateRequest(BaseModel):
+    family_name: str = Field("Troop 19 High Adventure", description="Human-readable name for the 3-variant template family.")
+    visual_style: str = Field("pinewood_campfire", description="Template visual style ID.")
+    frame_geometry: str = Field("horizon_silhouette", description="Template frame geometry ID.")
+    colors: Optional[List[str]] = Field(default=None, description="1 to 3 brand hex colors.")
+    custom_prompt: str = Field("", description="Optional custom theme prompt.")
+    logo_data_url: str = Field("", description="Optional base64 data URL of uploaded logo.")
+    logo_position: str = Field("bottom_left", description="Logo placement: bottom_left, bottom_right, top_right, cover_only.")
+    remove_logo_white_bg: bool = Field(True, description="Automatically make near-white logo background pixels transparent.")
+    preview_only: bool = Field(False, description="When True, previews the 3 variants at $0.00 without saving to catalog.")
+    user_consented: bool = Field(False, description="Explicit FinOps ($0.08 USD) user consent.")
+
+
+@app.post("/api/templates/generate-ai")
+@app.post("/api/v1/templates/generate-ai")
+async def api_generate_nano_banana_template_family(
+    req: NanoBananaTemplateGenerateRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Dict[str, Any]:
+    """Generates a 3-variant Nano Banana AI Slide Template Family with YPT/Zero-PII guardrails and FinOps consent gating."""
+    from src.tools.template_engine import (
+        generate_nano_banana_template_family,
+        load_template_catalog,
+    )
+
+    res = await asyncio.to_thread(
+        generate_nano_banana_template_family,
+        family_name=req.family_name,
+        visual_style=req.visual_style,
+        frame_geometry=req.frame_geometry,
+        colors=req.colors,
+        custom_prompt=req.custom_prompt,
+        logo_data_url=req.logo_data_url,
+        logo_position=req.logo_position,
+        remove_logo_white_bg=req.remove_logo_white_bg,
+        preview_only=req.preview_only,
+        user_consented=req.user_consented,
+    )
+    if res.get("status") == "SUCCESS" and not req.preview_only:
+        all_profiles = await asyncio.to_thread(load_template_catalog)
+        res["templates"] = [p.model_dump() for p in all_profiles]
+    return res
+
+
 # ==============================================================================
 # PLAN 16B: MULTI-BADGE COUNSELOR WORKSPACES & FAVORITES ENDPOINTS
 # ==============================================================================
@@ -4828,6 +5288,10 @@ class WorkspaceSaveRequest(BaseModel):
     badge_name: str = "First Aid"
     session_label: str = ""
     camp_bundle_tag: str = ""
+    class_start_time: Optional[str] = ""
+    room_location: Optional[str] = ""
+    session_dates: Optional[Any] = ""
+    class_logistics: Optional[Dict[str, Any]] = None
     template_id: str = "default_workbench"
     deck_style: Optional[Dict[str, Any]] = None
     counselor_info: Dict[str, Any] = Field(default_factory=dict)
