@@ -44,7 +44,7 @@
 - [x] **Step 11**: Verified Executive Readout deck requirements (`12` core slides, strictly `<= 15` core slides)
 - [x] **Step 12**: Built 12-slide Executive Readout deck via Slide Ops (`pres-fc3fc5e36b5b`) and synced to Google Slides (`1YhwpfuubIGGrToktzhY8T7Xo5_GRdTMldUdyaS83G3E`)
 - [x] **Step 13**: Authored humanized speaker script & 5-minute live demo choreography (`docs/CAPSTONE_PANEL_PLAYBOOK.md` & `docs/CAPSTONE_CONVERSATIONAL_PRESENTATION_AND_DEMO_SCRIPT.md`)
-- [x] **Step 14**: Authored 55-question persona Q&A bank with code citations (`docs/PERSONAL_TECHNICAL_BRIEFING.md`, `docs/FDE_CAPSTONE_COMPANION_GUIDE.md` & `docs/CAPSTONE_PANEL_PLAYBOOK.md`)
+- [x] **Step 14**: Authored 56-question persona Q&A bank with code citations (`docs/PERSONAL_TECHNICAL_BRIEFING.md`, `docs/FDE_CAPSTONE_COMPANION_GUIDE.md` & `docs/CAPSTONE_PANEL_PLAYBOOK.md`)
 - [x] **Step 15**: Authored "For Your Eyes Only" Personal Technical Briefing & Jargon Decoder (`docs/PERSONAL_TECHNICAL_BRIEFING.md` & `docs/FDE_CAPSTONE_COMPANION_GUIDE.md`)
 - [x] **Step 16**: Ran Stage 1 (`capstone_preflight.py --check-claims`) + Stage 2 dry-run analyzer audit (`docs/CAPSTONE_ANALYZER_DRY_RUN_REPORT.md` & `docs/CAPSTONE_ARTIFACT_ANALYZER_REPORT.md`)
 - [x] **Step 17**: Remediated all `< 3.0` gaps, added `ADR-11` As-Built Reconciliation & Per-Badge GitHub Asset Hydrator, and verified zero Claims-vs-Code drift
