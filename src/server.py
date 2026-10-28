@@ -3037,13 +3037,15 @@ class SlideDeckCustomizeRequest(BaseModel):
     badge_name: str = Field("First Aid", description="Official Merit Badge name.")
     action: str = Field(
         "sync_slides",
-        description="Customization action (`insert_custom_slide`, `toggle_hide_slide`, `hide_home_prereq_slides`, `reorder_slide`, `sync_slides`).",
+        description="Customization action (`insert_custom_slide`, `toggle_hide_slide`, `hide_home_prereq_slides`, `reorder_slide`, `delete_custom`, `sync_slides`).",
     )
     slide_index: int = Field(0, description="Target slide index in storyboard_slides.")
+    target_slide_index: Optional[int] = Field(None, description="Optional alias for slide_index.")
     direction: Optional[str] = Field(None, description="Reorder direction (`up` or `down`).")
     hide_prereqs: Optional[bool] = Field(None, description="Whether to hide home-prereq slides.")
     custom_slide: Optional[Dict[str, Any]] = Field(None, description="Custom slide payload when action is `insert_custom_slide`.")
     storyboard_slides: List[Dict[str, Any]] = Field(default_factory=list, description="Full slide array from client state.")
+    slides: Optional[List[Dict[str, Any]]] = Field(None, description="Optional alias for storyboard_slides.")
     counselor_info: Optional[Dict[str, Any]] = Field(None, description="Optional Counselor Title Slide metadata.")
     output_path: Optional[str] = Field(None, description="Optional PPTX output path.")
     template_id: Optional[str] = Field("default_workbench", description="Optional PowerPoint template ID.")
@@ -3052,25 +3054,31 @@ class SlideDeckCustomizeRequest(BaseModel):
 
 @app.post("/api/slide/deck-customize")
 @app.post("/api/v1/slide/deck-customize")
+@app.post("/api/slide/customize")
+@app.post("/api/v1/slide/customize")
+@app.post("/api/deck/customize")
+@app.post("/api/v1/deck/customize")
 async def api_customize_slide_deck(
     req: SlideDeckCustomizeRequest,
     _auth: Dict[str, Any] = Depends(verify_caller_auth),
 ) -> Dict[str, Any]:
-    """Inserts a custom local slide, hides/skips slides, or reorders slides, and rebuilds the .pptx excluding hidden slides."""
+    """Inserts a custom local slide, hides/skips slides, reorders slides, or deletes custom slides, and rebuilds the .pptx excluding hidden slides."""
     from src.tools.pptx_builder import (
-    CounselorTitleSlideInfo,
+        CounselorTitleSlideInfo,
         PowerPointBuildRequest,
         SlideSpec,
         generate_bsa_slide_deck_pptx,
     )
 
-    slides_list = [dict(s) for s in (req.storyboard_slides or [])]
+    raw_slides = req.storyboard_slides if req.storyboard_slides else (req.slides or [])
+    slides_list = [dict(s) for s in raw_slides]
     tpl_id = str(req.template_id or "default_workbench").strip() or "default_workbench"
     for s in slides_list:
         if tpl_id != "default_workbench" or not s.get("template_id"):
             s["template_id"] = tpl_id
     act = (req.action or "sync_slides").strip().lower()
-    active_idx = max(0, min(req.slide_index, max(0, len(slides_list) - 1)))
+    raw_idx = req.target_slide_index if req.target_slide_index is not None else req.slide_index
+    active_idx = max(0, min(raw_idx, max(0, len(slides_list) - 1)))
 
     if act in ("insert_custom_slide", "insert") and isinstance(req.custom_slide, dict):
         cs = dict(req.custom_slide)
@@ -3120,6 +3128,23 @@ async def api_customize_slide_deck(
         if 0 <= swap_idx < len(slides_list):
             slides_list[active_idx], slides_list[swap_idx] = slides_list[swap_idx], slides_list[active_idx]
             active_idx = swap_idx
+    elif act in ("delete_custom", "delete_custom_slide", "delete") and 0 <= active_idx < len(slides_list):
+        target_s = slides_list[active_idx]
+        is_custom = (
+            bool(target_s.get("is_custom_slide"))
+            or str(target_s.get("req_number") or "").strip().lower() in ("local", "custom")
+            or str(target_s.get("slide_id") or "").startswith("custom-")
+        )
+        if not is_custom:
+            raise HTTPException(
+                status_code=400,
+                detail="Only custom slides can be permanently deleted. Use toggle_hide_slide for official requirement slides.",
+            )
+        slides_list.pop(active_idx)
+        active_idx = max(0, min(active_idx, max(0, len(slides_list) - 1)))
+        for idx_s, s_item in enumerate(slides_list):
+            s_item["slide_number"] = idx_s + 1
+
 
     visible_specs = [
         SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
@@ -3799,6 +3824,330 @@ async def api_get_bluecards_pdf(
         media_type="application/pdf",
         headers={"Content-Disposition": f'attachment; filename="{slug}_bluecards_{mode}.pdf"'},
     )
+
+
+class ClassPacketZipRequest(BaseModel):
+    badge_name: str = "First Aid"
+    option_track: str = "ALL"
+    schedule_format: str = "4_session_mbc"
+    template_id: str = "scouting_america_forest_sunrise"
+    counselor_info: Optional[Dict[str, Any]] = None
+    class_logistics: Optional[Dict[str, Any]] = None
+    storyboard_slides: Optional[List[Dict[str, Any]]] = None
+    pptx_download_url: Optional[str] = None
+    deck_style: Optional[Dict[str, Any]] = None
+
+
+def _build_complete_class_packet_zip_bytes(
+    badge_name: str = "First Aid",
+    option_track: str = "ALL",
+    schedule_format: str = "4_session_mbc",
+    template_id: str = "scouting_america_forest_sunrise",
+    counselor_info: Optional[Dict[str, Any]] = None,
+    class_logistics: Optional[Dict[str, Any]] = None,
+    storyboard_slides: Optional[List[Dict[str, Any]]] = None,
+    pptx_download_url: Optional[str] = None,
+    deck_style: Optional[Dict[str, Any]] = None,
+) -> Tuple[bytes, str]:
+    """Packages all 9 class deliverables into an in-memory .ZIP archive for 1-click download."""
+    import io
+    import re
+    import tempfile
+    import zipfile
+
+    from src.config import badge_file_slug
+    from src.tools.counselor_studiokit import (
+        generate_class_preparation_page_cpp_pdf,
+        generate_counselor_cue_cards_pdf,
+        generate_counselor_workbook_pdf,
+        generate_field_qr_checklist_pdf,
+        generate_fillable_scout_workbook_pdf,
+        generate_gear_and_rotator_pdf,
+        generate_session_agenda_pdf,
+        generate_three_stage_ypt_communication_pack,
+    )
+    from src.tools.pptx_builder import (
+        CounselorTitleSlideInfo,
+        PowerPointBuildRequest,
+        SlideSpec,
+        generate_bsa_slide_deck_pptx,
+    )
+
+    clean_badge = (badge_name or "First Aid").strip() or "First Aid"
+    badge_prefix = re.sub(r"[^A-Za-z0-9]+", "_", clean_badge).strip("_") or "First_Aid"
+    slug = badge_file_slug(clean_badge)
+    c_info: Dict[str, Any] = dict(counselor_info or {})
+    if "counselor_name" not in c_info:
+        c_info["counselor_name"] = "Merit Badge Counselor"
+    if "troop_affiliation" not in c_info:
+        c_info["troop_affiliation"] = "Troop 19, Northeast Massachusetts Council"
+    logistics = dict(class_logistics or {})
+    room_location = str(logistics.get("room_location") or c_info.get("room_location") or "")
+    session_tag = str(logistics.get("session_tag") or c_info.get("session_tag") or "")
+    class_start_time = str(logistics.get("class_start_time") or c_info.get("class_start_time") or "")
+    raw_dates = logistics.get("session_dates") or c_info.get("session_dates") or []
+    if isinstance(raw_dates, str):
+        parsed_dates = [s.strip() for s in raw_dates.split("|") if s.strip()]
+        session_dates_str = raw_dates
+    elif isinstance(raw_dates, list):
+        parsed_dates = [str(s).strip() for s in raw_dates if str(s).strip()]
+        session_dates_str = "|".join(parsed_dates)
+    else:
+        parsed_dates = []
+        session_dates_str = ""
+
+    # 1. Resolve or generate 01_Slide_Deck/<Badge>_Merit_Badge_Deck.pptx
+    pptx_bytes: bytes = b""
+    if pptx_download_url and str(pptx_download_url).startswith("/deliverables/"):
+        cand_pptx = GENERATED_DECKS_DIR / Path(str(pptx_download_url)).name
+        if cand_pptx.is_file():
+            pptx_bytes = cand_pptx.read_bytes()
+
+    if not pptx_bytes and storyboard_slides:
+        visible_specs = [
+            SlideSpec(**{k: v for k, v in s.items() if k in SlideSpec.model_fields})
+            for s in storyboard_slides
+            if isinstance(s, dict) and not s.get("hidden")
+        ]
+        if visible_specs:
+            with tempfile.NamedTemporaryFile(suffix=".pptx", delete=False) as tf:
+                tmp_pptx_path = tf.name
+            try:
+                c_title = CounselorTitleSlideInfo(**{
+                    k: v for k, v in c_info.items() if k in CounselorTitleSlideInfo.model_fields
+                })
+                generate_bsa_slide_deck_pptx(
+                    PowerPointBuildRequest(
+                        badge_name=clean_badge,
+                        slides=visible_specs,
+                        counselor_info=c_title,
+                        output_path=tmp_pptx_path,
+                        template_id=template_id or "scouting_america_forest_sunrise",
+                        deck_style=deck_style,
+                    )
+                )
+                if Path(tmp_pptx_path).is_file():
+                    pptx_bytes = Path(tmp_pptx_path).read_bytes()
+            except Exception as exc:
+                logger.warning("Failed to build custom slides PPTX for class packet zip: %s", exc)
+            finally:
+                try:
+                    Path(tmp_pptx_path).unlink(missing_ok=True)
+                except Exception:
+                    pass
+
+    if not pptx_bytes:
+        for cand_name in (
+            f"{badge_prefix}_Merit_Badge_Deck.pptx",
+            f"{slug}_Merit_Badge_Deck.pptx",
+            f"{badge_prefix}_Customized_Merit_Badge_Deck.pptx",
+        ):
+            cand_p = GENERATED_DECKS_DIR / cand_name
+            if cand_p.is_file() and cand_p.stat().st_size > 1000:
+                pptx_bytes = cand_p.read_bytes()
+                break
+
+    if not pptx_bytes:
+        with tempfile.NamedTemporaryFile(suffix=".pptx", delete=False) as tf:
+            tmp_pptx_path = tf.name
+        try:
+            c_title = CounselorTitleSlideInfo(**{
+                k: v for k, v in c_info.items() if k in CounselorTitleSlideInfo.model_fields
+            })
+            default_slides = [
+                SlideSpec(
+                    req_number="Overview",
+                    title=f"{clean_badge} Merit Badge — Class Overview",
+                    bullet_points=[
+                        f"**Official Scouting America Requirement Alignment**: Complete overview for {clean_badge}.",
+                        "**EDGE Teaching Progression**: Explain, Demonstrate, Guide, Enable.",
+                        "**Buddy System & Safety**: Follow all Scouting America Youth Protection & safety guidelines.",
+                    ],
+                    presenter_notes=f"[SAY] Welcome to the {clean_badge} Merit Badge session.",
+                )
+            ]
+            generate_bsa_slide_deck_pptx(
+                PowerPointBuildRequest(
+                    badge_name=clean_badge,
+                    slides=default_slides,
+                    counselor_info=c_title,
+                    output_path=tmp_pptx_path,
+                    template_id=template_id or "scouting_america_forest_sunrise",
+                    deck_style=deck_style,
+                )
+            )
+            if Path(tmp_pptx_path).is_file():
+                pptx_bytes = Path(tmp_pptx_path).read_bytes()
+        finally:
+            try:
+                Path(tmp_pptx_path).unlink(missing_ok=True)
+            except Exception:
+                pass
+
+    # 2. Generate the 7 PDFs
+    workbook_pdf = generate_fillable_scout_workbook_pdf(
+        badge_name=clean_badge,
+        counselor_info=c_info,
+        option_track=option_track or "ALL",
+        session_dates=parsed_dates or None,
+    )
+    cpp_pdf = generate_class_preparation_page_cpp_pdf(
+        badge_name=clean_badge,
+        counselor_info=c_info,
+        room_location=room_location,
+    )
+    qr_checklist_pdf = _invoke_studiokit_pdf_callable(
+        generate_field_qr_checklist_pdf,
+        badge_name=clean_badge,
+        counselor_info=c_info,
+        option_track=option_track or "ALL",
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates_str,
+    )
+    counselor_key_pdf = _invoke_studiokit_pdf_callable(
+        generate_counselor_workbook_pdf,
+        badge_name=clean_badge,
+        counselor_info=c_info,
+        option_track=option_track or "ALL",
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates_str,
+    )
+    agenda_pdf = _invoke_studiokit_pdf_callable(
+        generate_session_agenda_pdf,
+        badge_name=clean_badge,
+        schedule_format=schedule_format or "4_session_mbc",
+        counselor_info=c_info,
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates_str,
+    )
+    cue_cards_pdf = _invoke_studiokit_pdf_callable(
+        generate_counselor_cue_cards_pdf,
+        badge_name=clean_badge,
+        counselor_info=c_info,
+        option_track=option_track or "ALL",
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates_str,
+    )
+    gear_rotator_pdf = _invoke_studiokit_pdf_callable(
+        generate_gear_and_rotator_pdf,
+        badge_name=clean_badge,
+        counselor_info=c_info,
+        schedule_format=schedule_format or "4_session_mbc",
+        session_tag=session_tag,
+        class_start_time=class_start_time,
+        room_location=room_location,
+        session_dates=session_dates_str,
+    )
+
+    # 3. Generate 04_YPT_Communications/<Badge>_3Stage_Parent_Scoutmaster_Emails.md
+    ypt_pack = generate_three_stage_ypt_communication_pack(
+        badge_name=clean_badge,
+        counselor_info=c_info,
+        session_dates=parsed_dates or None,
+        room_location=room_location,
+    )
+    stages_dict = ypt_pack.get("stages") if isinstance(ypt_pack.get("stages"), dict) else {}
+    md_sections = [
+        f"# {clean_badge} Merit Badge — 3-Stage YPT Two-Deep Parent & Scoutmaster Communications\n",
+        f"**Mandatory YPT CC Policy**: {ypt_pack.get('ypt_mandatory_cc_header', 'All electronic communications with youth must copy a parent/guardian or Scoutmaster (2-deep leadership).')}\n",
+    ]
+    for stage_key, stage_heading in (
+        ("stage_1_welcome_cpp", "## Stage 1: T-14 Days Pre-Class Welcome & Prerequisites"),
+        ("stage_2_mid_clinic_alert", "## Stage 2: Mid-Clinic Progress & Make-Up Alert"),
+        ("stage_3_final_packet", "## Stage 3: Post-Clinic Blue Card Sign-Off & Partial Packet"),
+    ):
+        st_obj = stages_dict.get(stage_key) or {}
+        if isinstance(st_obj, dict):
+            subj = st_obj.get("subject") or stage_heading
+            body = st_obj.get("body_markdown") or st_obj.get("email_body") or st_obj.get("body") or ""
+            md_sections.append(f"{stage_heading}\n\n**Subject**: {subj}\n\n{body}\n")
+    emails_md_bytes = "\n---\n\n".join(md_sections).encode("utf-8")
+
+    # 4. Package all 9 files into in-memory ZIP
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, mode="w", compression=zipfile.ZIP_DEFLATED) as zf:
+        zf.writestr(f"01_Slide_Deck/{badge_prefix}_Merit_Badge_Deck.pptx", pptx_bytes)
+        zf.writestr(f"02_Scout_Handouts/{badge_prefix}_Fillable_Scout_Workbook.pdf", workbook_pdf)
+        zf.writestr(f"02_Scout_Handouts/{badge_prefix}_1Page_Class_Preparation_CPP.pdf", cpp_pdf)
+        zf.writestr(f"02_Scout_Handouts/{badge_prefix}_Pocket_Field_QR_Checklist.pdf", qr_checklist_pdf)
+        zf.writestr(f"03_Counselor_Materials/{badge_prefix}_Counselor_Answer_Key_Guide.pdf", counselor_key_pdf)
+        zf.writestr(f"03_Counselor_Materials/{badge_prefix}_Session_Lesson_Plan_Agenda.pdf", agenda_pdf)
+        zf.writestr(f"03_Counselor_Materials/{badge_prefix}_3x5_EDGE_Pocket_Cue_Cards.pdf", cue_cards_pdf)
+        zf.writestr(f"03_Counselor_Materials/{badge_prefix}_Quartermaster_Gear_and_Rotator.pdf", gear_rotator_pdf)
+        zf.writestr(f"04_YPT_Communications/{badge_prefix}_3Stage_Parent_Scoutmaster_Emails.md", emails_md_bytes)
+
+    return buf.getvalue(), f"{badge_prefix}_Complete_Class_Packet.zip"
+
+
+@app.get("/api/export/class-packet.zip")
+@app.get("/api/v1/export/class-packet.zip")
+async def api_get_complete_class_packet_zip(
+    badge_name: str = "First Aid",
+    option_track: str = "ALL",
+    schedule_format: str = "4_session_mbc",
+    template_id: str = "scouting_america_forest_sunrise",
+    counselor_name: str = "Merit Badge Counselor",
+    troop_name: str = "Troop 19, Northeast Massachusetts Council",
+    room_location: str = "",
+    session_dates: str = "",
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Downloads the 1-Click Complete Class Packet (.ZIP) containing all 9 organized slide, Scout, counselor, and YPT files."""
+    c_info = {
+        "counselor_name": counselor_name,
+        "troop_affiliation": troop_name,
+        "room_location": room_location,
+        "session_dates": session_dates,
+    }
+    zip_bytes, zip_filename = await asyncio.to_thread(
+        _build_complete_class_packet_zip_bytes,
+        badge_name=badge_name,
+        option_track=option_track,
+        schedule_format=schedule_format,
+        template_id=template_id,
+        counselor_info=c_info,
+        class_logistics={"room_location": room_location, "session_dates": session_dates},
+    )
+    return Response(
+        content=zip_bytes,
+        media_type="application/zip",
+        headers={"Content-Disposition": f'attachment; filename="{zip_filename}"'},
+    )
+
+
+@app.post("/api/export/class-packet.zip")
+@app.post("/api/v1/export/class-packet.zip")
+async def api_post_complete_class_packet_zip(
+    req: ClassPacketZipRequest,
+    _auth: Dict[str, Any] = Depends(verify_caller_auth),
+) -> Response:
+    """Builds and downloads the 1-Click Complete Class Packet (.ZIP) using active deck slides and counselor configuration."""
+    zip_bytes, zip_filename = await asyncio.to_thread(
+        _build_complete_class_packet_zip_bytes,
+        badge_name=req.badge_name,
+        option_track=req.option_track,
+        schedule_format=req.schedule_format,
+        template_id=req.template_id,
+        counselor_info=req.counselor_info,
+        class_logistics=req.class_logistics,
+        storyboard_slides=req.storyboard_slides,
+        pptx_download_url=req.pptx_download_url,
+        deck_style=req.deck_style,
+    )
+    return Response(
+        content=zip_bytes,
+        media_type="application/zip",
+        headers={"Content-Disposition": f'attachment; filename="{zip_filename}"'},
+    )
+
 
 
 @app.post("/api/studiokit/class-prep-cpp")

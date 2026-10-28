@@ -52,6 +52,8 @@ def _sanitize_no_ellipsis_or_emdash(text: str) -> str:
 
 def _infer_execution_mode(req: Dict[str, Any]) -> str:
     """Determines the pedagogical execution mode for a requirement dictionary."""
+    import re
+
     explicit = req.get("execution_mode")
     if explicit:
         val = explicit.value if hasattr(explicit, "value") else str(explicit)
@@ -62,19 +64,46 @@ def _infer_execution_mode(req: Dict[str, Any]) -> str:
         }:
             return val
 
-    text_lower = str(req.get("req_text", "")).lower()
-    if any(
-        kw in text_lower
-        for kw in (
-            "camp a total",
-            "20 nights",
-            "attend a",
-            "visit a",
-            "12-week",
-            "7-day",
-            "five consecutive days",
-            "physical examination",
-            "weekend campout",
+    sub_texts = " ".join(
+        str(sr.get("text") or sr.get("sub_req_text") or "")
+        for sr in (req.get("sub_requirements") or [])
+        if isinstance(sr, dict)
+    )
+    text_lower = f"{req.get('req_text', '')} {sub_texts}".lower()
+    if (
+        any(
+            kw in text_lower
+            for kw in (
+                "camp a total",
+                "20 nights",
+                "attend a",
+                "visit a",
+                "tour a",
+                "interview a",
+                "speak with a",
+                "12-week",
+                "13-week",
+                "90-day",
+                "30-day",
+                "14-day",
+                "7-day",
+                "five consecutive days",
+                "physical examination",
+                "weekend campout",
+                "overnight campout",
+                "field trip",
+                "keep a log",
+                "keep a record",
+                "keep a journal",
+                "keep a chart",
+                "keep a daily",
+                "for at least",
+                "over a period of",
+            )
+        )
+        or re.search(
+            r"\b(?:\d+|two|three|four|five|six|seven|eight|ten|twelve|fourteen|twenty|thirty|ninety)\s*[-\s]*(?:days?|weeks?|months?|nights?|hours?|miles?|books?|workouts?|meals?)\b",
+            text_lower,
         )
     ):
         return ExecutionMode.PREREQUISITE_CAMPOUT_HOME.value
@@ -90,6 +119,13 @@ def _infer_execution_mode(req: Dict[str, Any]) -> str:
             "cpr",
             "make a",
             "pitch",
+            "construct",
+            "perform",
+            "practice",
+            "swim",
+            "shoot",
+            "cook",
+            "repair",
         )
     ):
         return ExecutionMode.HANDS_ON_SKILL_STATION.value
@@ -307,6 +343,23 @@ _GENERIC_META_ANCHORS = {
     "key step 2",
     "key step 3",
     "key step 4",
+    "step 1",
+    "step 2",
+    "step 3",
+    "step 4",
+    "core principle 1",
+    "core principle 2",
+    "core principle 3",
+    "core principle 4",
+    "primary standard",
+    "core standard",
+    "field evidence recorded",
+    "safety & verification",
+    "key concept",
+    "option a",
+    "option b",
+    "option c",
+    "option d",
     "preparation & study",
     "equipment & safety check",
     "hands-on demonstration",
@@ -316,7 +369,48 @@ _GENERIC_META_ANCHORS = {
     "workbook entry 2",
     "workbook entry 3",
     "workbook entry 4",
+    "pamphlet reference anchor",
+    "core technical principle",
+    "applied field mechanism",
+    "preventive controls & ppe",
+    "primary field hazard",
+    "step-by-step execution",
+    "field verification",
+    "equipment & station setup",
+    "practical verification & sign-off",
+    "key standard",
+    "field reference",
+    "pamphlet verification",
+    "buddy check",
+    "practical execution",
+    "counselor conference check",
 }
+
+_PRECOMPUTED_FACILITATOR_NOTES_CACHE: Optional[Dict[str, str]] = None
+_PRECOMPUTED_FACILITATOR_NOTES_MTIME: float = 0.0
+
+
+def _load_precomputed_facilitator_notes() -> Dict[str, str]:
+    """Loads optional precomputed facilitator notes from data/precomputed_facilitator_notes_149.json with mtime cache invalidation."""
+    import json
+    from pathlib import Path
+
+    global _PRECOMPUTED_FACILITATOR_NOTES_CACHE, _PRECOMPUTED_FACILITATOR_NOTES_MTIME
+    notes_path = Path(__file__).resolve().parents[2] / "data" / "precomputed_facilitator_notes_149.json"
+    if not notes_path.exists():
+        return {}
+    try:
+        cur_mtime = notes_path.stat().st_mtime_ns
+        if _PRECOMPUTED_FACILITATOR_NOTES_CACHE is not None and _PRECOMPUTED_FACILITATOR_NOTES_MTIME == cur_mtime:
+            return _PRECOMPUTED_FACILITATOR_NOTES_CACHE
+        loaded = json.loads(notes_path.read_text(encoding="utf-8"))
+        if isinstance(loaded, dict):
+            _PRECOMPUTED_FACILITATOR_NOTES_CACHE = {str(k): str(v) for k, v in loaded.items()}
+            _PRECOMPUTED_FACILITATOR_NOTES_MTIME = cur_mtime
+            return _PRECOMPUTED_FACILITATOR_NOTES_CACHE
+    except Exception:
+        pass
+    return {}
 
 
 def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> str:
@@ -330,6 +424,15 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
     clean_anc = _sanitize_no_ellipsis_or_emdash(str(anchor or "").strip())
     clean_bdy = _sanitize_no_ellipsis_or_emdash(str(body or "").strip())
 
+    # Strip structural headers like 'Core Standard 1 (Req 1):' or 'Primary Standard' or 'Option A:'
+    clean_anc = re.sub(
+        r"^(?:Core\s+Standard\s+\d+\s*(?:\([^)]*\))?|Primary\s+Standard|Field\s+Evidence\s+Recorded|Safety\s*&\s*Verification|Option\s+[A-Z0-9]+|Pamphlet\s+Reference\s+Anchor|Core\s+Technical\s+Principle|Applied\s+Field\s+Mechanism|Preventive\s+Controls\s*&\s*PPE|Primary\s+Field\s+Hazard|Step-by-Step\s+Execution|Field\s+Verification|Equipment\s*&\s*Station\s+Setup|Practical\s+Verification\s*&\s*Sign-Off|Step\s+\d+\s*[-:]\s*[^:]+)\s*[:\-]?\s*",
+        "",
+        clean_anc,
+        flags=re.IGNORECASE,
+    ).strip()
+    clean_anc = re.sub(r"\s+(?:Principle|Standard)\s+\d+$", "", clean_anc, flags=re.IGNORECASE).strip()
+
     # Case 1: 'Requirement 1a (Scene Safety & 3 Cs)' -> 'Scene Safety & 3 Cs'
     m_paren = re.match(
         r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.]+\s*)\(([^)]+)\)$",
@@ -339,16 +442,16 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
     if m_paren and len(m_paren.group(1).strip()) >= 3:
         return m_paren.group(1).strip()
 
-    # Strip leading 'Requirement 1a:' or 'Req 1a -' from anchor
+    # Strip leading 'Requirement 1a:' or 'Req 1a -' or '(1)' from anchor
     stripped_anc = re.sub(
-        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.]+\s*[:\-]?\s*)",
+        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.]+\s*[:\-]?\s*|\([0-9a-zA-Z]+\)\s*)",
         "",
         clean_anc,
         flags=re.IGNORECASE,
     ).strip()
 
     is_bare_req = bool(
-        re.match(r"^(?:Req(?:uirement)?\s*)?[0-9a-zA-Z.]+$", clean_anc, flags=re.IGNORECASE)
+        re.match(r"^(?:Req(?:uirement)?\s*|Option\s*)?[()0-9a-zA-Z.]+$", stripped_anc or clean_anc, flags=re.IGNORECASE)
     )
     if (
         stripped_anc
@@ -360,7 +463,7 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
 
     # Derive a concrete topic phrase from the card body
     candidate = re.sub(
-        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.]+\s*(?:\([^)]+\))?\s*[:\-]?\s*|\([a-z0-9]+\)\s*)",
+        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.]+\s*(?:\([^)]+\))?\s*[:\-]?\s*|\([a-z0-9]+\)\s*|Option\s+[A-Z0-9]+\s*[:\-]?\s*)",
         "",
         clean_bdy,
         flags=re.IGNORECASE,
@@ -430,11 +533,20 @@ def _is_generic_meta_misconception(myth_str: str, fact_str: str = "") -> bool:
     generic_markers = (
         "assuming a quick verbal summary",
         "reading a short definition",
+        "reading a brief summary of",
         "without checking each sub-requirement",
         "completing a quick checklist",
         "skimming the requirement title",
+        "relying on unverified assumptions",
+        "skipping field preparation is acceptable",
+        "improvising primary standard",
+        "field evidence recorded",
+        "core requirement mastery",
+        "safety & verification",
+        "step-by-step execution",
+        "individually option mastery",
     )
-    if any(marker in m_low for marker in generic_markers):
+    if any(marker in m_low for marker in generic_markers) or any(marker in f_low for marker in generic_markers):
         return True
     if ("memorizing " in m_low or "rushing past " in m_low) and "is enough" in m_low:
         return True
@@ -676,12 +788,12 @@ def _synthesize_subject_matter_misconception(
     # 6. Six varied subject-matter templates for Concept, Sub-Requirement Deep Dive, Visual Explainer, and Intro slides
     templates: List[Tuple[str, str]] = [
         (
-            f"Improvising {topic_1} in the field without verifying the critical safety and technical steps of {topic_2}.",
+            f"Separating {topic_1} from {topic_2} instead of checking both together during {clean_badge} {req_scope_str} field practice.",
             f"Under {page_cite if req_scope_str.lower() in page_cite.lower() else f'{page_cite} ({req_scope_str})'}, Scouts must apply {topic_1} ({body_1}) alongside {topic_2} ({body_2}).",
         ),
         (
-            f"Focusing only on {topic_1} while overlooking how {topic_2} alters field decision-making during {clean_title}.",
-            f"The {clean_badge} Merit Badge Pamphlet requires integrating {topic_1} ({body_1}) with {topic_2} ({body_2}).",
+            f"Overlooking how {topic_2} directly shapes safe decision-making when applying {topic_1} in {clean_badge}.",
+            f"The {clean_badge} pamphlet standard integrates {topic_1} ({body_1}) with {topic_2} ({body_2}).",
         ),
         (
             f"Treating {topic_1} as a passive classroom definition rather than an active field check during {clean_badge} outings.",
@@ -856,14 +968,31 @@ def _build_slide_teaching_notes(
 
     req_display_label = f"Reqs {sub_range_label}" if sub_range_label and "-" in sub_range_label else f"Requirement {sub_range_label or clean_req}"
 
-    # Determine misconception pair: use curated non-generic misconception on the lead slide (slide_idx_in_req == 0),
-    # and synthesize a concrete, slide-scoped subject-matter misconception whenever generic, missing, or on child slides.
+    # Determine misconception pair: use curated non-generic misconception on the lead slide or sub-req slide,
+    # rotate through sub-requirement misconceptions on child slides when available, and synthesize a concrete,
+    # slide-scoped subject-matter misconception whenever generic or missing.
     misc_pair = req_data.get("common_misconception_pair") if isinstance(req_data.get("common_misconception_pair"), dict) else {}
     raw_myth = _sanitize_no_ellipsis_or_emdash(str(misc_pair.get("misconception") or misc_pair.get("myth") or ""))
     raw_fact = _sanitize_no_ellipsis_or_emdash(str(misc_pair.get("fact") or misc_pair.get("fact_correction") or ""))
 
-    if slide_idx_in_req == 0 and not _is_generic_meta_misconception(raw_myth, raw_fact):
+    sub_misc_candidates: List[Tuple[str, str]] = []
+    for sr_item in list((req_dict or {}).get("sub_requirements") or []):
+        if isinstance(sr_item, dict) and isinstance(sr_item.get("common_misconception_pair"), dict):
+            sm = _sanitize_no_ellipsis_or_emdash(str(sr_item["common_misconception_pair"].get("misconception") or sr_item["common_misconception_pair"].get("myth") or ""))
+            sf = _sanitize_no_ellipsis_or_emdash(str(sr_item["common_misconception_pair"].get("fact") or sr_item["common_misconception_pair"].get("fact_correction") or ""))
+            if not _is_generic_meta_misconception(sm, sf):
+                sub_misc_candidates.append((sm, sf))
+
+    if (slide_idx_in_req == 0 or matched_sub_ids) and not _is_generic_meta_misconception(raw_myth, raw_fact):
         myth_txt, fact_txt = raw_myth, raw_fact
+    elif sub_misc_candidates and arch not in (
+        SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value,
+        SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value,
+        SlideArchetype.GEAR_CHECKLIST_GRID.value,
+        SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value,
+        SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value,
+    ):
+        myth_txt, fact_txt = sub_misc_candidates[(slide_idx_in_req - 1) % len(sub_misc_candidates)]
     else:
         myth_txt, fact_txt = _synthesize_subject_matter_misconception(
             clean_badge=clean_badge,
@@ -984,8 +1113,9 @@ def _build_slide_teaching_notes(
         est_minutes = f"{est_minutes} min"
 
     action_verb = str(req_data.get("action_verb") or "").strip().lower()
-    if not action_verb:
-        m_verb = re.match(r"^(explain|discuss|describe|demonstrate|show|identify|prepare|list)\b", clean_req_text, flags=re.IGNORECASE)
+    _valid_verbs = {"explain", "discuss", "describe", "demonstrate", "show", "identify", "prepare", "list", "review", "verify", "complete", "perform"}
+    if action_verb not in _valid_verbs:
+        m_verb = re.match(r"^(explain|discuss|describe|demonstrate|show|identify|prepare|list|review|perform)\b", clean_req_text, flags=re.IGNORECASE)
         action_verb = m_verb.group(1).lower() if m_verb else ("demonstrate" if execution_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value else "explain")
 
     # 1. [PACING & MODALITY] — 6 archetype- & index-differentiated facilitator walkthroughs
@@ -1130,20 +1260,32 @@ def _build_slide_teaching_notes(
             f"[Expected Answer: Contrast {left_h} ({first_body.rstrip('.')}) against {right_h} ({second_body.rstrip('.')}).]"
         )
     else:
-        key_templates = [
-            f"[Expected Answer: Scouts should cite {topic_1} ({first_body.rstrip('.')}) and connect it to {topic_2} ({second_body.rstrip('.')}).]",
-            f"[Expected Answer: Look for accurate explanations of {topic_summary}, specifically noting how {first_body.rstrip('.')}.]",
-            f"[Expected Answer: Verify each Scout can state why {topic_1} requires {first_body.rstrip('.')} and how {topic_2} ensures {second_body.rstrip('.')}.]",
-            f"[Expected Answer: Patrol responses should highlight {topic_1} ({first_body.rstrip('.')}) alongside {topic_2} ({second_body.rstrip('.')}) per {page_cite}.]",
-            f"[Expected Answer: Confirm Scouts identify the key mechanism behind {topic_1} ({first_body.rstrip('.')}) and practical check for {topic_2}.]",
-            f"[Expected Answer: Listen for concrete field examples of {topic_summary} grounded in {first_body.rstrip('.')}.]",
-        ]
+        if extra_insights:
+            key_templates = [
+                f"[Expected Answer: Scouts should cite {topic_1} and connect it to {topic_2} using the {page_cite} guidance above.]",
+                f"[Expected Answer: Look for accurate explanations of {topic_summary} grounded in {page_cite}.]",
+                f"[Expected Answer: Verify each Scout can state how {topic_1} and {topic_2} apply in field conditions per {page_cite}.]",
+                f"[Expected Answer: Patrol responses should highlight {topic_1} alongside {topic_2} per {page_cite}.]",
+                f"[Expected Answer: Confirm Scouts identify the key mechanism behind {topic_1} and practical check for {topic_2}.]",
+                f"[Expected Answer: Listen for concrete field examples of {topic_summary} grounded in {page_cite}.]",
+            ]
+        else:
+            key_templates = [
+                f"[Expected Answer: Scouts should cite {topic_1} ({first_body.rstrip('.')}) and connect it to {topic_2} ({second_body.rstrip('.')}).]",
+                f"[Expected Answer: Look for accurate explanations of {topic_summary}, specifically noting how {first_body.rstrip('.')}.]",
+                f"[Expected Answer: Verify each Scout can state why {topic_1} requires {first_body.rstrip('.')} and how {topic_2} ensures {second_body.rstrip('.')}.]",
+                f"[Expected Answer: Patrol responses should highlight {topic_1} ({first_body.rstrip('.')}) alongside {topic_2} ({second_body.rstrip('.')}) per {page_cite}.]",
+                f"[Expected Answer: Confirm Scouts identify the key mechanism behind {topic_1} ({first_body.rstrip('.')}) and practical check for {topic_2}.]",
+                f"[Expected Answer: Listen for concrete field examples of {topic_summary} grounded in {first_body.rstrip('.')}.]",
+            ]
         key_block = (
             f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {page_cite}. {supplementary_detail} "
             f"{key_templates[tpl_idx]}"
         )
 
     # 4. [COMMON MISCONCEPTION TO CORRECT]
+    if slide_idx_in_req > 0 and f"({clean_title})" not in fact_txt:
+        fact_txt = f"{fact_txt.rstrip('.')} (Slide Focus - {clean_title}: verify {topic_1} and {topic_2})."
     misc_block = (
         f"[COMMON MISCONCEPTION TO CORRECT] Myth: {myth_txt} | BSA Pamphlet Fact: {fact_txt}"
     )
@@ -1241,8 +1383,171 @@ def _build_keynote_presenter_notes(
     )
 
 
+def _polish_slide_bullet_for_card(
+    raw_bullet: str,
+    fallback_anchor: str = "Key Principle",
+    max_anchor_chars: int = 34,
+    max_body_words: int = 15,
+    max_body_chars: int = 96,
+) -> str:
+    """Polishes a slide bullet so its anchor and body fit card bounds cleanly without render-time truncation."""
+    import re
+    from src.tools.pptx_builder import (
+        _clean_text,
+        _concise_anchor_title,
+        _concise_card_body,
+        _split_anchor_and_body,
+    )
+
+    txt = _sanitize_no_ellipsis_or_emdash(str(raw_bullet or "").strip())
+    if not txt:
+        return ""
+
+    # Clean PDF extraction noise (ISBN, catalog numbers, all-caps series headers, glued camelCase words)
+    txt = re.sub(r"\b(?:ISBN\s*[0-9\-X]+|35\d{3}|MERIT BADGE SERIES|BOY SCOUTS OF AMERICA)\b", "", txt, flags=re.IGNORECASE)
+    _keep_camel = {"Scoutbook", "PowerPoint", "YouTube", "JavaScript", "GitHub", "PlayStation", "eSports", "McDonald", " McDonalds", "iPhone", "iPad", "macOS", "OneDrive", "SharePoint", " WordPress", "LinkedIn", "GameCube", "SmartBoard", " RoboCup", "FirstNet", "AmeriCorps", "PeaceCorps", " JetBlue", "FedEx", "MasterCard", "QuickBooks", " AutoCAD", "SolidWorks"}
+    def _unglue_camel(m: re.Match) -> str:
+        full_w = m.group(0)
+        if any(k.strip().lower() in full_w.lower() for k in _keep_camel):
+            return full_w
+        return f"{m.group(1)} {m.group(2)}"
+    txt = re.sub(r"\b([a-z]{4,})([A-Z][a-z]{3,})\b", _unglue_camel, txt)
+    txt = re.sub(r"\s{2,}", " ", txt).strip()
+
+    raw_a, raw_b = _split_anchor_and_body(txt, fallback_anchor)
+    clean_a = _concise_anchor_title(raw_a, max_chars=max_anchor_chars).replace(":", "").strip(" .,-;()")
+    if "(" in clean_a and ")" not in clean_a:
+        clean_a = clean_a.split("(", 1)[0].strip()
+    elif clean_a.count("(") != clean_a.count(")"):
+        clean_a = clean_a.replace("(", "").replace(")", "").strip()
+    if len(clean_a) < 3:
+        clean_a = _concise_anchor_title(fallback_anchor, max_chars=max_anchor_chars)
+
+    body_src = raw_b if raw_b else txt
+    # Remove unbalanced parentheses before concising
+    if body_src.count("(") != body_src.count(")"):
+        body_src = re.sub(r"\([^)]*$", "", body_src).replace("(", "").replace(")", "").strip()
+
+    clean_b = _concise_card_body(body_src, max_words=max_body_words, max_chars=max_body_chars)
+    if clean_b.count("(") != clean_b.count(")"):
+        clean_b = re.sub(r"\([^)]*$", "", clean_b).replace("(", "").replace(")", "").strip()
+
+    _dangling_words = {
+        "a", "an", "the", "and", "or", "but", "nor", "for", "yet", "so",
+        "in", "on", "at", "to", "from", "by", "with", "of", "as", "into",
+        "like", "through", "after", "over", "between", "out", "against",
+        "during", "without", "before", "under", "around", "among", "upon",
+        "within", "along", "following", "across", "behind", "beyond", "plus",
+        "except", "up", "down", "off", "above", "near", "than", "per", "via",
+        "is", "are", "was", "were", "be", "been", "being", "have", "has", "had",
+        "do", "does", "did", "will", "would", "shall", "should", "may", "might",
+        "must", "can", "could", "that", "which", "who", "whom", "whose", "where",
+        "when", "why", "how", "while", "if", "because", "although", "though",
+        "until", "unless", "since", "whether", "whereas", "your", "their", "our",
+        "my", "his", "her", "its", "this", "these", "those", "some", "any", "each",
+        "every", "either", "neither", "both", "such", "what", "whatever", "not", "no",
+        "very", "more", "most", "other", "another",
+    }
+    _abbrev_tails = {
+        "e.g", "i.e", "u.s", "dr", "mr", "mrs", "ms", "st", "ft", "in", "oz", "lb",
+        "lbs", "sec", "min", "hr", "hrs", "fig", "figs", "no", "nos", "vol", "ch",
+        "pp", "approx", "vs", "etc", "dept", "assn", "inc", "corp", "co", "jr", "sr",
+    }
+    b_words = clean_b.rstrip(".!?\"') ").split()
+    while len(b_words) > 3:
+        last_tok = re.sub(r"^[^A-Za-z0-9']+|[^A-Za-z0-9'.]+$", "", b_words[-1]).lower().rstrip(".")
+        if last_tok in _dangling_words or last_tok in _abbrev_tails:
+            b_words.pop()
+        else:
+            break
+    clean_b = " ".join(b_words).rstrip(" ,;:-.")
+    if len(clean_b) < 14:
+        clean_b = f"{clean_b} during field practice"
+    if not clean_b.endswith((".", "!", "?")):
+        clean_b += "."
+
+    # Final check that _concise_card_body on clean_b does not truncate it further
+    re_checked_b = _concise_card_body(clean_b, max_words=max_body_words, max_chars=max_body_chars)
+    if len(re_checked_b) < len(_clean_text(clean_b)):
+        clean_b = re_checked_b
+        if clean_b.count("(") != clean_b.count(")"):
+            clean_b = clean_b.replace("(", "").replace(")", "").strip()
+        if not clean_b.endswith((".", "!", "?")):
+            clean_b = clean_b.rstrip(" ,;:-") + "."
+
+    return f"{clean_a}: {clean_b}"
+
+
+def _polish_slide_bullets_list(
+    bullets: List[str],
+    max_count: int = 4,
+    max_total_chars: int = 435,
+    max_anchor_chars: int = 34,
+    max_body_words: int = 15,
+    max_body_chars: int = 96,
+    deck_seen_norms: Optional[set] = None,
+    badge_name: str = "",
+    req_num: str = "",
+    slide_title: str = "",
+) -> List[str]:
+    """Polishes a list of slide bullets to fit card bounds, stay under 435 total chars, and avoid deck-wide duplicates."""
+    import re
+
+    out: List[str] = []
+    local_seen: set = set()
+    for idx_b, raw_b in enumerate(bullets):
+        if len(out) >= max_count:
+            break
+        polished = _polish_slide_bullet_for_card(
+            raw_b,
+            fallback_anchor=f"Key Point {idx_b + 1}",
+            max_anchor_chars=max_anchor_chars,
+            max_body_words=max_body_words,
+            max_body_chars=max_body_chars,
+        )
+        if not polished:
+            continue
+        norm = re.sub(r"[^a-z0-9]+", " ", polished.lower()).strip()
+        if norm[:65] in local_seen:
+            continue
+        if deck_seen_norms is not None and len(norm) > 35 and norm in deck_seen_norms:
+            # Disambiguate with slide context so two slides in the same deck never share an identical bullet
+            if ": " in polished:
+                anc_p, bod_p = polished.split(": ", 1)
+                short_ctx = re.sub(r"[^A-Za-z0-9 &/-]+", "", slide_title or f"Req {req_num}").strip()[:18].strip()
+                new_anc = f"{anc_p[:20].strip()} ({short_ctx})" if short_ctx and short_ctx.lower() not in anc_p.lower() else f"{anc_p[:24].strip()} {idx_b + 1}"
+                polished = _polish_slide_bullet_for_card(
+                    f"{new_anc}: {bod_p}",
+                    fallback_anchor=new_anc,
+                    max_anchor_chars=max_anchor_chars,
+                    max_body_words=max_body_words,
+                    max_body_chars=max_body_chars,
+                )
+                norm = re.sub(r"[^a-z0-9]+", " ", polished.lower()).strip()
+        local_seen.add(norm[:65])
+        if deck_seen_norms is not None and len(norm) > 35:
+            deck_seen_norms.add(norm)
+        out.append(polished)
+
+    # Ensure total chars across all bullets on this slide stays <= max_total_chars (435)
+    if sum(len(x) for x in out) > max_total_chars:
+        tighter: List[str] = []
+        for idx_b, b_it in enumerate(out):
+            tighter.append(
+                _polish_slide_bullet_for_card(
+                    b_it,
+                    fallback_anchor=f"Key Point {idx_b + 1}",
+                    max_anchor_chars=min(28, max_anchor_chars),
+                    max_body_words=12,
+                    max_body_chars=74,
+                )
+            )
+        out = tighter
+    return out
+
+
 def _build_bullet_points_for_req(req: Dict[str, Any], req_num: str, req_text: str) -> List[str]:
-    """Constructs <= 6 non-truncated, bold-anchored teaching points summarized from the BSA Merit Badge Pamphlet."""
+    """Constructs <= 4 non-truncated, bold-anchored teaching points summarized from the BSA Merit Badge Pamphlet."""
     bullets: List[str] = []
 
     excerpts = req.get("pamphlet_excerpts") or []
@@ -1256,22 +1561,22 @@ def _build_bullet_points_for_req(req: Dict[str, Any], req_num: str, req_text: st
 
     for step in procedures[:3]:
         cleaned_step = _sanitize_no_ellipsis_or_emdash(str(step))
-        if cleaned_step and cleaned_step not in bullets and len(bullets) < 6:
+        if cleaned_step and cleaned_step not in bullets and len(bullets) < 4:
             bullets.append(cleaned_step)
 
     for gear in checklist[:2]:
         cleaned_gear = _sanitize_no_ellipsis_or_emdash(str(gear))
-        if cleaned_gear and cleaned_gear not in bullets and len(bullets) < 6:
+        if cleaned_gear and cleaned_gear not in bullets and len(bullets) < 4:
             bullets.append(cleaned_gear)
 
     if len(bullets) < 3:
         bullets.append(f"Core Requirement {req_num}: {req_text}")
 
     safety = req.get("safety_callout")
-    if safety and len(bullets) < 6:
+    if safety and len(bullets) < 4:
         bullets.append(f"Safety Rule: {_sanitize_no_ellipsis_or_emdash(str(safety))}")
 
-    return bullets[:6]
+    return bullets[:4]
 
 
 def _infer_action_verb_badge(req_text: str, anchor: str, body: str, idx_s: int) -> tuple[str, str]:
@@ -1360,22 +1665,28 @@ def generate_slide_storyboard(
     # -------------------------------------------------------------------------
     # 1. SLIDE 1 OF STORYBOARD: REQUIREMENTS OVERVIEW MATRIX
     # -------------------------------------------------------------------------
+    from src.tools.pptx_builder import _concise_card_body
+
     in_class_reqs: List[str] = []
     station_reqs: List[str] = []
     prereq_reqs: List[str] = []
     triage_cards: List[Dict[str, Any]] = []
+    deck_seen_bullet_norms: set = set()
 
     for req in requirements:
         r_num = str(req.get("req_number", "1"))
         r_text = _sanitize_no_ellipsis_or_emdash(str(req.get("req_text", "Complete requirement.")))
         raw_topic = str(req.get("topic_title") or _derive_topic_title(r_num, r_text))
         clean_topic = _sanitize_no_ellipsis_or_emdash(raw_topic.replace(f"Req {r_num}:", "").strip())
+        triage_topic = _concise_card_body(clean_topic, max_words=5, max_chars=32).rstrip(" .,:;-")
+        if "(" in triage_topic and ")" not in triage_topic:
+            triage_topic = triage_topic.split("(", 1)[0].strip()
         mode = _infer_execution_mode(req)
-        short_summary = clean_topic if len(clean_topic) >= 8 else (
-            r_text if len(r_text) <= 70 else " ".join(r_text.split()[:10]) + "."
+        short_summary = triage_topic if len(triage_topic) >= 6 else (
+            _concise_card_body(r_text, max_words=5, max_chars=32).rstrip(" .,:;-")
         )
         if mode == ExecutionMode.HANDS_ON_SKILL_STATION.value:
-            station_reqs.append(f"Req {r_num} - {clean_topic}")
+            station_reqs.append(f"Req {r_num} - {short_summary}")
             triage_cards.append({
                 "badge_label": _format_execution_mode_label(mode),
                 "anchor_title": f"Req {r_num}",
@@ -1383,7 +1694,7 @@ def generate_slide_storyboard(
                 "accent_color_hex": "#4B5320",
             })
         elif mode == ExecutionMode.PREREQUISITE_CAMPOUT_HOME.value:
-            prereq_reqs.append(f"Req {r_num} - {clean_topic}")
+            prereq_reqs.append(f"Req {r_num} - {short_summary}")
             triage_cards.append({
                 "badge_label": _format_execution_mode_label(mode),
                 "anchor_title": f"Req {r_num}",
@@ -1391,7 +1702,7 @@ def generate_slide_storyboard(
                 "accent_color_hex": "#CE1126",
             })
         else:
-            in_class_reqs.append(f"Req {r_num} - {clean_topic}")
+            in_class_reqs.append(f"Req {r_num} - {short_summary}")
             triage_cards.append({
                 "badge_label": _format_execution_mode_label(mode),
                 "anchor_title": f"Req {r_num}",
@@ -1399,11 +1710,17 @@ def generate_slide_storyboard(
                 "accent_color_hex": "#003F87",
             })
 
+    def _finish_triage_line(items: List[str], fallback_line: str) -> str:
+        s = ("; ".join(items[:3]) if items else fallback_line).rstrip(" .,:;-")
+        if "(" in s and s.count("(") != s.count(")"):
+            s = s.replace("(", "").replace(")", "").strip()
+        return f"{s}."
+
     triage_bullets = [
-        "; ".join(in_class_reqs[:4]) if in_class_reqs else "Core principles, definitions, and safety concepts",
-        "; ".join(station_reqs[:4]) if station_reqs else "Practical hands-on demonstrations with your patrol",
-        "; ".join(prereq_reqs[:4]) if prereq_reqs else "Outdoor observation, field logs, or home preparation",
-        f"Curriculum Scope: {len(requirements)} official requirements broken down into step-by-step instructional slides.",
+        _finish_triage_line(in_class_reqs, "Core principles, definitions, and safety concepts"),
+        _finish_triage_line(station_reqs, "Practical hands-on demonstrations with your patrol"),
+        _finish_triage_line(prereq_reqs, "Outdoor observation, field logs, or home preparation"),
+        f"Curriculum Scope: {len(requirements)} official requirements organized into step-by-step instructional slides.",
     ]
     overview_title = f"{clean_badge} Merit Badge: Requirements Overview"
     slides.append(
@@ -1479,7 +1796,15 @@ def generate_slide_storyboard(
 
         raw_topic_slides = list(req.get("topic_slides") or [])
         min_topic_slides = 2
-        if not raw_topic_slides or (is_deep_dive and len(raw_topic_slides) < min_topic_slides):
+        has_quiz_in_raw = any(
+            str(s.get("layout") or "").upper() == "SOCRATIC_CHECKPOINT_QUIZ" or s.get("quiz_item")
+            for s in raw_topic_slides
+        )
+        if (
+            not raw_topic_slides
+            or (is_deep_dive and len(raw_topic_slides) < min_topic_slides)
+            or (idx == 0 and not has_quiz_in_raw)
+        ):
             extra_slides = decompose_requirement_into_topic_slides(
                 badge_name=clean_badge,
                 req_dict=req,
@@ -1496,16 +1821,28 @@ def generate_slide_storyboard(
         if is_deep_dive:
             # Deep Dive mode: First slide lists & teaches core concepts for Req N,
             # followed by all detailed topic & full-page diagram slides
-            core_teaching_points = _build_bullet_points_for_req(req, req_num, req_text)
+            raw_core_points = _build_bullet_points_for_req(req, req_num, req_text)
             intro_title = (
                 f"{clean_section_title} (Req {req_num})"
                 if ":" in clean_section_title
                 else f"Requirement {req_num}: {clean_section_title}"
             )
+            core_teaching_points = _polish_slide_bullets_list(
+                raw_core_points,
+                max_count=4,
+                max_total_chars=435,
+                max_anchor_chars=34,
+                max_body_words=15,
+                max_body_chars=96,
+                deck_seen_norms=deck_seen_bullet_norms,
+                badge_name=clean_badge,
+                req_num=req_num,
+                slide_title=intro_title,
+            )
             slides.append(
                 SlideSpec(
                     title=intro_title,
-                    bullet_points=core_teaching_points[:6],
+                    bullet_points=core_teaching_points[:4],
                     presenter_notes=_build_slide_teaching_notes(
                         badge_name=clean_badge,
                         req_num=req_num,
@@ -1513,7 +1850,7 @@ def generate_slide_storyboard(
                         slide_title=intro_title,
                         archetype="REQUIREMENT_INTRO",
                         req_text=req_text,
-                        bullet_points=core_teaching_points[:6],
+                        bullet_points=core_teaching_points[:4],
                         req_dict=req,
                         safety_callout=safety,
                         slide_idx_in_req=0,
@@ -1526,7 +1863,7 @@ def generate_slide_storyboard(
                     edge_phase=edge_phase,
                     subtitle=clean_section_title,
                     verbatim_requirement_text=req_text,
-                    cards=_build_cards_for_req(req, core_teaching_points),
+                    cards=_build_cards_for_req(req, core_teaching_points[:4]),
                     visual_caption="",
                     diagram_type="requirement_intro",
                     slide_role="instructional",
@@ -1551,39 +1888,27 @@ def generate_slide_storyboard(
                 if not s.get("is_subreq_slide") and "sub-requirement deep dive" not in str(s.get("title", "")).lower()
             ]
             if len(sub_slides) > 3:
-                all_sub_bullets: List[str] = []
-                for ss in sub_slides:
-                    all_sub_bullets.extend(str(b) for b in (ss.get("bullets") or []))
-                # Pack >12 sub-requirements into 12 cards (3 slides x 4 cards) so 100% of sub-reqs fit in 3 slides + 1 execution slide = 4 slides
-                packed_cards: List[str] = []
-                idx_b = 0
-                rem_items = len(all_sub_bullets)
-                rem_slots = 12
-                while idx_b < len(all_sub_bullets):
-                    if rem_items > rem_slots and idx_b + 1 < len(all_sub_bullets):
-                        b1 = all_sub_bullets[idx_b]
-                        b2 = all_sub_bullets[idx_b + 1]
-                        packed_cards.append(f"{b1} | {b2}")
-                        idx_b += 2
-                        rem_items -= 2
-                    else:
-                        packed_cards.append(all_sub_bullets[idx_b])
-                        idx_b += 1
-                        rem_items -= 1
-                    rem_slots -= 1
-                compacted_sub_slides: List[Dict[str, Any]] = []
-                for c_i in range(0, len(packed_cards), 4):
-                    base_ss = dict(sub_slides[min(c_i // 4, len(sub_slides) - 1)])
-                    base_ss["bullets"] = packed_cards[c_i : c_i + 4]
-                    compacted_sub_slides.append(base_ss)
-                selected_topic_slides = compacted_sub_slides[:3] + other_slides[:1]
+                # For dense requirements with >12 sub-requirements (e.g., Cycling 6a/6b, Camping 9b, Archery 2d),
+                # keep dedicated 4-card sub-requirement slides instead of pipe-concatenating two sub-reqs into one card.
+                selected_topic_slides = sub_slides + other_slides[:1]
             elif sub_slides:
                 extra_budget = 2 if (len(sub_slides) == 1 and n_reqs <= 6) else 1
                 selected_topic_slides = sub_slides + other_slides[:extra_budget]
+                selected_topic_slides = selected_topic_slides[:4]
             else:
                 per_req_cap = 3 if n_reqs <= 6 else 2
                 selected_topic_slides = raw_topic_slides[:per_req_cap]
-            selected_topic_slides = selected_topic_slides[:4]
+                selected_topic_slides = selected_topic_slides[:4]
+            if idx == 0 and not any(
+                str(s.get("layout") or "").upper() == "SOCRATIC_CHECKPOINT_QUIZ" or s.get("quiz_item")
+                for s in selected_topic_slides
+            ):
+                quiz_candidates = [
+                    s for s in raw_topic_slides
+                    if str(s.get("layout") or "").upper() == "SOCRATIC_CHECKPOINT_QUIZ" or s.get("quiz_item")
+                ]
+                if quiz_candidates:
+                    selected_topic_slides.append(quiz_candidates[0])
             first_topic_shows_req = True
 
         # Topic Instruction & Full-Page Diagram Slides for Requirement N
@@ -1591,23 +1916,43 @@ def generate_slide_storyboard(
             ts_title = _sanitize_no_ellipsis_or_emdash(str(ts.get("title") or f"{clean_section_title} (Part {t_idx})"))
             ts_layout = str(ts.get("layout") or "CONCEPT_TEXT_SLIDE")
             raw_ts_bullets = ts.get("bullets") or _build_bullet_points_for_req(req, req_num, req_text)
-            ts_bullets = [
-                _sanitize_no_ellipsis_or_emdash(str(b))
-                for b in raw_ts_bullets
-                if str(b).strip()
-            ][:6]
 
             ts_comp = ts.get("comparison_data") or (
                 req.get("comparison_data") if ts_layout == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value else None
             )
             if hasattr(ts_comp, "model_dump"):
                 ts_comp = ts_comp.model_dump()
+            if isinstance(ts_comp, dict):
+                ts_comp = dict(ts_comp)
+                ts_comp["left_points"] = [
+                    _polish_slide_bullet_for_card(str(lp), fallback_anchor=f"Left Point {i_lp + 1}", max_anchor_chars=30, max_body_words=15, max_body_chars=96)
+                    for i_lp, lp in enumerate(list(ts_comp.get("left_points") or [])[:4])
+                    if str(lp).strip()
+                ]
+                ts_comp["right_points"] = [
+                    _polish_slide_bullet_for_card(str(rp), fallback_anchor=f"Right Point {i_rp + 1}", max_anchor_chars=30, max_body_words=15, max_body_chars=96)
+                    for i_rp, rp in enumerate(list(ts_comp.get("right_points") or [])[:4])
+                    if str(rp).strip()
+                ]
 
             ts_we = ts.get("worked_example") or (
                 req.get("worked_example") if ts_layout == SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value else None
             )
             if hasattr(ts_we, "model_dump"):
                 ts_we = ts_we.model_dump()
+            if isinstance(ts_we, dict) and isinstance(ts_we.get("fields"), dict):
+                ts_we = dict(ts_we)
+                polished_fields: Dict[str, str] = {}
+                for k_f, v_f in list(ts_we["fields"].items())[:4]:
+                    pol_kv = _polish_slide_bullet_for_card(
+                        f"{k_f}: {v_f}", fallback_anchor=str(k_f), max_anchor_chars=32, max_body_words=15, max_body_chars=96
+                    )
+                    if ": " in pol_kv:
+                        pk, pv = pol_kv.split(": ", 1)
+                        polished_fields[pk] = pv
+                    else:
+                        polished_fields[str(k_f)[:32]] = pol_kv
+                ts_we["fields"] = polished_fields
 
             ts_quiz = ts.get("quiz_item") or (
                 req.get("quiz_item") if ts_layout == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value else None
@@ -1616,11 +1961,27 @@ def generate_slide_storyboard(
                 ts_quiz = ts_quiz.model_dump()
 
             ts_gear = [
-                _sanitize_no_ellipsis_or_emdash(str(g))
-                for g in (ts.get("gear_checklist") or (
-                    req.get("gear_checklist") if ts_layout == SlideArchetype.GEAR_CHECKLIST_GRID.value else []
-                ) or [])
+                _polish_slide_bullet_for_card(str(g), fallback_anchor=f"Item {i_g + 1}", max_anchor_chars=32, max_body_words=15, max_body_chars=96)
+                for i_g, g in enumerate(
+                    (ts.get("gear_checklist") or (
+                        req.get("gear_checklist") if ts_layout == SlideArchetype.GEAR_CHECKLIST_GRID.value else []
+                    ) or [])[:4]
+                )
+                if str(g).strip()
             ]
+
+            ts_bullets = _polish_slide_bullets_list(
+                [str(b) for b in raw_ts_bullets if str(b).strip()],
+                max_count=4,
+                max_total_chars=435,
+                max_anchor_chars=32 if ts_layout == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value else 34,
+                max_body_words=15,
+                max_body_chars=96,
+                deck_seen_norms=deck_seen_bullet_norms,
+                badge_name=clean_badge,
+                req_num=req_num,
+                slide_title=ts_title,
+            )
 
             ts_cards = _build_cards_for_req({"req_text": req_text, "step_by_step_procedure": ts_bullets}, ts_bullets)
             ts_img = ts.get("image_path")

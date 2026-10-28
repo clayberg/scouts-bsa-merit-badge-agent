@@ -45,37 +45,38 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "HAZARD_5COL",
-            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+            "table_title": "Req 1a Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix",
             "headers": [
-              "Hazard / Risk",
-              "Anticipate",
-              "Help Prevent",
-              "Mitigate",
-              "Respond"
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
             ],
             "column_headers": [
-              "Hazard / Risk",
-              "Anticipate",
-              "Help Prevent",
-              "Mitigate",
-              "Respond"
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
             ],
             "row_labels": [
-              "Hazard #1",
-              "Hazard #2",
-              "Hazard #3",
-              "Hazard #4",
-              "Hazard #5"
+              "1. Primary Environmental Hazard in Motorboating",
+              "2. Equipment or Tool Handling Hazard",
+              "3. Acute Physical / Medical Injury Risk",
+              "4. Emergency Communication & Evacuation Protocol"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Primary Environmental Hazard in Motorboating",
+              "2. Equipment or Tool Handling Hazard",
+              "3. Acute Physical / Medical Injury Risk",
+              "4. Emergency Communication & Evacuation Protocol"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor the following hazards you might encounter while.",
-            "fact": "Scouts must discuss discuss with your counselor the following hazards you might encounter while using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14).",
-            "fact_correction": "Scouts must discuss discuss with your counselor the following hazards you might encounter while using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)"
+            "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Motorboating Hazards and First Aid activity (p. 10, p. 14).",
+            "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Motorboating Hazards and First Aid activity (p. 10, p. 14).",
+            "pamphlet_page_ref": "p. 10, p. 14"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -100,7 +101,12 @@
           ],
           "id": "1a",
           "sub_req_label": "1a",
-          "sub_req_text": "Discuss with your counselor the following hazards you might encounter while motorboating: flammable fuel; carbon monoxide; propellers; collisions; falls overboard; capsize; or running aground. Explain what you should do to anticipate, prevent, mitigate, and respond to these hazards."
+          "sub_req_text": "Discuss with your counselor the following hazards you might encounter while motorboating: flammable fuel; carbon monoxide; propellers; collisions; falls overboard; capsize; or running aground. Explain what you should do to anticipate, prevent, mitigate, and respond to these hazards.",
+          "topic_title": "Req 1a: Motorboating Hazards and First Aid",
+          "pamphlet_summary": "Motorboating Hazards and First Aid: Boating Safely Principle 3: Discipline All participants should know, understand, and respect the rules and procedures for safe activity afloat (p. 10).",
+          "pamphlet_excerpts": [
+            "Motorboating Hazards and First Aid: Boating Safely Principle 3: Discipline All participants should know, understand, and respect the rules and procedures for safe activity afloat (p. 10)."
+          ]
         },
         {
           "sub_id": "1b",
@@ -128,29 +134,31 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
-            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
+            "table_title": "Req 1b Clinical Signs, First-Aid Treatment & Prevention Matrix",
             "headers": [
-              "Condition / Injury",
-              "Symptoms & Signs",
-              "First Aid / Treatment",
-              "Prevention"
+              "Condition / Emergency",
+              "Recognizable Signs & Symptoms",
+              "Step-by-Step First-Aid Care",
+              "Field Prevention Standard"
             ],
             "column_headers": [
-              "Condition / Injury",
-              "Symptoms & Signs",
-              "First Aid / Treatment",
-              "Prevention"
+              "Condition / Emergency",
+              "Recognizable Signs & Symptoms",
+              "Step-by-Step First-Aid Care",
+              "Field Prevention Standard"
             ],
             "row_labels": [
-              "Hypothermia",
-              "Heat reactions",
-              "Dehydration",
-              "Motion sickness",
-              "Bug bites",
-              "Blisters"
+              "1. Acute Traumatic or Thermal Injury",
+              "2. Environmental Exposure (Heat / Cold / Dehydration)",
+              "3. Soft-Tissue Wound, Blister, or Sprain",
+              "4. Life-Threatening Emergency Escalation"
             ],
-            "min_rows": 6,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Acute Traumatic or Thermal Injury",
+              "2. Environmental Exposure (Heat / Cold / Dehydration)",
+              "3. Soft-Tissue Wound, Blister, or Sprain",
+              "4. Life-Threatening Emergency Escalation"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
           "common_misconception_pair": {
@@ -182,7 +190,12 @@
           ],
           "id": "1b",
           "sub_req_label": "1b",
-          "sub_req_text": "Explain first aid for injuries or illnesses that could occur while motorboating, including hypothermia, heat reactions, dehydration, motion sickness, bug bites, and blisters."
+          "sub_req_text": "Explain first aid for injuries or illnesses that could occur while motorboating, including hypothermia, heat reactions, dehydration, motion sickness, bug bites, and blisters.",
+          "topic_title": "Req 1b: Emergency First Aid and Prevention",
+          "pamphlet_summary": "Emergency First Aid and Prevention: Boating Safely Principle 4: The group should review the applicable rules just before setting (p. 10).",
+          "pamphlet_excerpts": [
+            "Emergency First Aid and Prevention: Boating Safely Principle 4: The group should review the applicable rules just before setting (p. 10)."
+          ]
         },
         {
           "sub_id": "1c",
@@ -198,28 +211,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Study & Explanation Notes",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
             "headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the Scouting America Safety Afloat policy",
-              "2. Tell how it applies to motorboating activities"
+              "1. Core Definition & Mechanism (Safe Swim Defense and Safety Afloat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Safe Swim Defense and Safety Afloat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the scouting america safety afloat policy.",
-            "fact": "Scouts must discuss discuss the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14).",
-            "fact_correction": "Scouts must discuss discuss the scouting america safety afloat policy using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)"
+            "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safe Swim Defense and Safety Afloat activity (p. 10, p. 14).",
+            "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safe Swim Defense and Safety Afloat activity (p. 10, p. 14).",
+            "pamphlet_page_ref": "p. 10, p. 14"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -244,7 +265,12 @@
           ],
           "id": "1c",
           "sub_req_label": "1c",
-          "sub_req_text": "Discuss the Scouting America Safety Afloat policy. Tell how it applies to motorboating activities."
+          "sub_req_text": "Discuss the Scouting America Safety Afloat policy. Tell how it applies to motorboating activities.",
+          "topic_title": "Req 1c: Safe Swim Defense and Safety Afloat",
+          "pamphlet_summary": "Safe Swim Defense and Safety Afloat: The Safety Afloat guidelines were developed to promoteboating safety and to set standards for safe Scouting activityafloat (p. 10).",
+          "pamphlet_excerpts": [
+            "Safe Swim Defense and Safety Afloat: The Safety Afloat guidelines were developed to promoteboating safety and to set standards for safe Scouting activityafloat (p. 10)."
+          ]
         }
       ],
       "resources": [
@@ -295,38 +321,37 @@
       },
       "topic_title": "Req 1: Boating Safely",
       "action_verb": "Demonstrate",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Motorboating Requirement 1 activities.",
       "pamphlet_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
       "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
-      "syllabus_bucket": "In-Class Concept",
+      "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "HAZARD_5COL",
-        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+        "table_title": "Req 1 Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix",
         "headers": [
-          "Hazard / Risk",
-          "Anticipate",
-          "Help Prevent",
-          "Mitigate",
-          "Respond"
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
         ],
         "column_headers": [
-          "Hazard / Risk",
-          "Anticipate",
-          "Help Prevent",
-          "Mitigate",
-          "Respond"
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
         ],
         "row_labels": [
-          "Hazard #1",
-          "Hazard #2",
-          "Hazard #3",
-          "Hazard #4",
-          "Hazard #5"
+          "(1a) Motorboating Hazards and First Aid",
+          "(1b) Emergency First Aid and Prevention",
+          "(1c) Safe Swim Defense and Safety Afloat"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false
+        "rows": [
+          "(1a) Motorboating Hazards and First Aid",
+          "(1b) Emergency First Aid and Prevention",
+          "(1c) Safe Swim Defense and Safety Afloat"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
@@ -356,61 +381,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Safety Afloat Guidelines: The Safety Afloat guidelines were developed to promoteboating safety and to set standards for safe Scouting activityafloat.",
-        "Guidelines Mind Allboating: Be sure to keep these guidelines in mind during allboating activities. 1.",
-        "Discipline Participants: Discipline All participants should know, understand, and respect the rulesand procedures for safe activity afloat.",
-        "Group Reviewthe Applicable: The group should reviewthe applicable rules just before setting off."
+        "Boating Safely: The Safety Afloat guidelines were developed to promoteboating safety and to set standards for safe Scouting activityafloat (p. 10).",
+        "Boating Safely Principle 2: Be sure to keep these guidelines in mind during allboating activities. 1 (p. 10).",
+        "Boating Safely Principle 3: Discipline All participants should know, understand, and respect the rules and procedures for safe activity afloat (p. 10).",
+        "Boating Safely Principle 4: The group should review the applicable rules just before setting (p. 10)."
       ],
       "step_by_step_procedure": [
-        "Safety Rules Pluscommon: Safety rules, pluscommon sense and good judgment, keep the fun from beingspoiled by accidents or injury.",
-        "Afloat Guidelines Eliminate: Following the Safety Afloat guidelines will eliminate manyserious risks in outings afloat.",
-        "Water Essential Nearly: Water is essential for nearly every bodily function, includingdigestion, respiration, brain activity, producing heat, and staying cool.",
-        "Water Lost Than: When more water is lost than the body is taking in, aperson risks becoming dehydrated."
+        "Step 1 (Boating Safely): Safety rules, pluscommon sense and good judgment, keep the fun from beingspoiled by accidents or injury (p. 10).",
+        "Step 2 (Boating Safely): Following the Safety Afloat guidelines will eliminate manyserious risks in outings afloat (p. 10).",
+        "Step 3 (Boating Safely): Water is essential for nearly every bodily function, includingdigestion, respiration, brain activity, producing heat, and staying cool (p. 10).",
+        "Step 4 (Boating Safely): When more water is lost than the body is taking in, aperson risks becoming dehydrated (p. 10)."
       ],
       "gear_checklist": [
-        "Official Motorboating Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Boating Safely",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Motorboating Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Boating Safely)",
+        "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
+        "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs.",
+        "Emergency action plan checklist and simulated patient assessment cards."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Motorboating Approach",
-        "right_header": "Official BSA Motorboating Standard (Boating Safely)",
+        "left_header": "Proactive Hazard Prevention (Boating Safely)",
+        "right_header": "Acute Emergency Response (Boating Safely)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Boating Safely.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Eliminate environmental and equipment risks before starting.",
+          "Boating Safely: The Safety Afloat guidelines were developed to promoteboating safety and to set standards for safe Scouting activityafloat ()",
+          "Pre-activity PPE, weather, and buddy shakedown."
         ],
         "right_points": [
-          "Reviews Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Motorboating Workbook organizer.",
-          "Clearly demonstrates and explains Boating Safely using the BSA EDGE method."
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Boating Safely Principle 2: Be sure to keep these guidelines in mind during allboating activities. 1 (p. 10).",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Boating Safely: The Safety Afloat guidelines were developed to promoteboating safety and to set standards for safe Scouting activityafloat (",
+            "right": "Boating Safely Principle 2: Be sure to keep these guidelines in mind during allboating activities. 1 (p. 10)."
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Motorboating Req 1",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Motorboating Req 1 (Boating Safely)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
-          "Requirement & Topic": "Req 1 - Boating Safely",
-          "Primary Standard": "Discuss with your counselor the following hazards you might encounter while motorboating: flammable fuel; carbon monoxide; propellers; collisions; falls overboard; capsize; or running aground.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Motorboating terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14) and verified during counselor conference."
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Boating Safely.",
+          "Preventive Controls & PPE": "Boating Safely: The Safety Afloat guidelines were developed to promoteboating safety and to set standards for safe Scouting activityafloat (p. 10).",
+          "Acute First-Aid Response": "Boating Safely Principle 2: Be sure to keep these guidelines in mind during allboating activities. 1 (p. 10).",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)."
         },
-        "counselor_tip": "Complete your Motorboating Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Boating Safely: Boating Safely: The Safety Afloat guidelines were developed to promoteboating safety and to set standards for safe Scouting activityafloat (",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before starting hands-on or field work for Motorboating (Boating Safely), which patrol preparation step best aligns with the official Motorboating standard?",
+        "scenario_prompt": "While working on Motorboating Requirement 1 (Boating Safely), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Motorboating Requirement 1 (Boating Safely), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
         "options": [
-          "Review the Motorboating hazards, PPE, and prerequisite standards in Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14) with your counselor and patrol buddy before beginning",
-          "Begin the practical station immediately and review the safety rules only if a problem occurs",
-          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
-          "Skip the pre-activity briefing when practicing indoors"
+          "A. Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+          "B. Defer all Boating Safely measurements and safety checks until after the field session concludes.",
+          "C. Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
         ],
-        "correct_answer": "Option A - Review the Motorboating hazards, PPE, and prerequisite standards in Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14) with your counselor and patrol buddy before beginning",
-        "explanation": "Per Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
+        "choices": [
+          "A. Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+          "B. Defer all Boating Safely measurements and safety checks until after the field session concludes.",
+          "C. Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual.",
+        "explanation": "Correct Answer (C): Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming. (Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)).",
+        "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Motorboating Workbook organizer table and practical demonstration for Req 1."
+      "homework_verification_note": "Verify completed Motorboating Workbook organizer table and practical demonstration for Req 1.",
+      "workbook_diagram_url": "assets/ai_illustrations/motorboating_req_1_workbook_diagram.png"
     },
     {
       "req_id": "2",
@@ -433,29 +487,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Study & Explanation Notes",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (BSA Swimmer Qualification and Safety)",
             "headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Before doing requirement 5, successfully complete the Scouting America",
-              "2. Key Pamphlet Examples & Evidence (Req 2a)",
-              "3. Practical Explain & Safety Verification"
+              "1. Core Definition & Mechanism (BSA Swimmer Qualification and Safety)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (BSA Swimmer Qualification and Safety)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing requirement 5, successfully complete the scouting america.",
-            "fact": "Scouts must explain before doing requirement 5, successfully complete the scouting america using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
-            "fact_correction": "Scouts must explain before doing requirement 5, successfully complete the scouting america using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)"
+            "misconception": "General familiarity with doing, requirement is sufficient for Motorboating Requirement 2a without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of BSA Swimmer Qualification and Safety (p. 11, p. 19).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of BSA Swimmer Qualification and Safety (p. 11, p. 19).",
+            "pamphlet_page_ref": "p. 11, p. 19"
           },
           "starting_requirement_gate": {
             "gate_type": "HARD_PREREQ_BADGE",
@@ -485,7 +546,12 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Before doing requirement 5, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test."
+          "sub_req_text": "Before doing requirement 5, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.",
+          "topic_title": "Req 2a: BSA Swimmer Qualification and Safety",
+          "pamphlet_summary": "BSA Swimmer Qualification and Safety Principle 4: The device gives alot of flotation in the chest, shoulders, and upper back areas (p. 11).",
+          "pamphlet_excerpts": [
+            "BSA Swimmer Qualification and Safety Principle 4: The device gives alot of flotation in the chest, shoulders, and upper back areas (p. 11)."
+          ]
         },
         {
           "sub_id": "2b",
@@ -500,29 +566,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Study & Explanation Notes",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (Different Types of Personal Flotation)",
             "headers": [
-              "Req 2b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Req 2b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Name the different types of personal flotation devices (PFDs), and explain",
-              "2. Show how to choose and properly fit a PFD"
+              "1. Pre-Operation Tool & Safety Check (Different Types of Personal Flotation)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Different Types of Personal Flotation)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on name the different types of personal flotation devices (pfds), and explain.",
-            "fact": "Scouts must explain name the different types of personal flotation devices (pfds), and explain using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
-            "fact_correction": "Scouts must explain name the different types of personal flotation devices (pfds), and explain using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)"
+            "misconception": "Describing how to perform Different Types of Personal Flotation verbally can substitute for a physical hands-on demonstration in Motorboating Requirement 2b.",
+            "fact": "Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate Different Types of Personal Flotation with proper technique (p. 11, p. 19).",
+            "fact_correction": "Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate Different Types of Personal Flotation with proper technique (p. 11, p. 19).",
+            "pamphlet_page_ref": "p. 11, p. 19"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -547,7 +621,12 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Name the different types of personal flotation devices (PFDs), and explain when each type should be used. Show how to choose and properly fit a PFD."
+          "sub_req_text": "Name the different types of personal flotation devices (PFDs), and explain when each type should be used. Show how to choose and properly fit a PFD.",
+          "topic_title": "Req 2b: Different Types of Personal Flotation",
+          "pamphlet_summary": "Different Types of Personal Flotation: BSA Swimmer Qualification and Safety: Only U. S. Coast Guard-approved equipment is acceptable for use in Scouting aquatics (p. 11).",
+          "pamphlet_excerpts": [
+            "Different Types of Personal Flotation: BSA Swimmer Qualification and Safety: Only U. S. Coast Guard-approved equipment is acceptable for use in Scouting aquatics (p. 11)."
+          ]
         }
       ],
       "resources": [
@@ -568,7 +647,7 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Before doing requirement 5, successfully complete",
+      "topic_title": "Req 2: BSA Swimmer Qualification and Safety",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
@@ -577,33 +656,32 @@
       "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (BSA Swimmer Qualification and Safety)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(a) Before doing requirement 5, successfully complete the Scouting America",
-          "(b) Name the different types of personal flotation devices (PFDs), and explain"
+          "(2a) BSA Swimmer Qualification and Safety",
+          "(2b) Different Types of Personal Flotation"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(2a) BSA Swimmer Qualification and Safety",
+          "(2b) Different Types of Personal Flotation"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on before doing requirement 5, successfully complete the scouting america.",
-        "fact": "Scouts must demonstrate before doing requirement 5, successfully complete the scouting america using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
-        "fact_correction": "Scouts must demonstrate before doing requirement 5, successfully complete the scouting america using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19).",
-        "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)"
+        "misconception": "Describing how to perform BSA Swimmer Qualification and Safety verbally can substitute for a physical hands-on demonstration in Motorboating Requirement 2.",
+        "fact": "Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate BSA Swimmer Qualification and Safety with proper technique (p. 11, p. 19).",
+        "fact_correction": "Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate BSA Swimmer Qualification and Safety with proper technique (p. 11, p. 19).",
+        "pamphlet_page_ref": "p. 11, p. 19"
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -632,36 +710,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Coast Guard Approved: Only U.S. Coast Guard-approved equipment is acceptable for use in Scouting aquatics.",
-        "Andadult Leaders Learn: Scouts andadult leaders should learn which type of life jacket isappropriate for each specific circumstance and how to wearthem and check for proper.",
-        "Type Devices Designed: Type I devices are designed toturn most unconscious victims faceup.",
-        "Device Alot Flotation: The device gives alot of flotation in the chest, shoulders, and upper back areas."
+        "BSA Swimmer Qualification and Safety: Only U. S. Coast Guard-approved equipment is acceptable for use in Scouting aquatics (p. 11).",
+        "BSA Swimmer Qualification and Safety Principle 2: Scouts andadult leaders should learn which type of life jacket isappropriate for each specific circumstance and how to wearthem and check for proper (p. 11).",
+        "BSA Swimmer Qualification and Safety Principle 3: Type I devices are designed toturn most unconscious victims faceup (p. 11).",
+        "BSA Swimmer Qualification and Safety Principle 4: The device gives alot of flotation in the chest, shoulders, and upper back areas (p. 11)."
       ],
       "step_by_step_procedure": [
-        "Type Life Jacket: The Type I life jacket is not designed for recreational boatingbut for passengers on cruising vessels, such as ferries on largebodies of water.",
-        "Life Jackets Aredesigned: These life jackets aredesigned to turn an unconscious person in the water faceup incalm, inland waters.",
-        "Shaped Horse Collar: Shaped like a horse collar, the Type II lifejacket design places all the flotation in the front and aroundthe neck.",
-        "Not Bulky Type: While it is not as bulky as the Type I, the Type IIcan be uncomfortable for longer boating trips."
+        "Step 1 (BSA Swimmer Qualification and Safety): The Type I life jacket is not designed for recreational boatingbut for passengers on cruising vessels, such as ferries on largebodies of water (p. 11).",
+        "Step 2 (BSA Swimmer Qualification and Safety): These life jackets aredesigned to turn an unconscious person in the water faceup incalm, inland waters (p. 11).",
+        "Step 3 (BSA Swimmer Qualification and Safety): Shaped like a horse collar, the Type II lifejacket design places all the flotation in the front and around the neck (p. 11).",
+        "Step 4 (BSA Swimmer Qualification and Safety): While it is not as bulky as the Type I, the Type IIcan be uncomfortable for longer boating trips (p. 11)."
       ],
       "gear_checklist": [
-        "Official Motorboating Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Before doing requirement 5, successfully complete",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Motorboating Merit Badge Pamphlet and Fillable Workbook (open to Req 2: BSA Swimmer Qualification and Safety)",
+        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
+        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
+        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Motorboating Req 2",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 2 - Before doing requirement 5, successfully complete",
-          "Primary Standard": "Before doing requirement 5, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Motorboating terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Motorboating Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (BSA Swimmer Qualification and Safety)",
+        "right_header": "Applied Field Execution (BSA Swimmer Qualification and Safety)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for BSA Swimmer Qualification and Safety.",
+          "BSA Swimmer Qualification and Safety: Only U. S. Coast Guard-approved equipment is acceptable for use in Scouting aquatics (p. 11).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Motorboating.",
+          "BSA Swimmer Qualification and Safety Principle 2: Scouts andadult leaders should learn which type of life jacket isappropriate for each spec.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for BSA Swimmer Qualification and Safety.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Motorboating."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "BSA Swimmer Qualification and Safety: Only U. S. Coast Guard-approved equipment is acceptable for use in Scouting aquatics (p. 11).",
+            "right": "BSA Swimmer Qualification and Safety Principle 2: Scouts andadult leaders should learn which type of life jacket isappropriate for each spec"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Motorboating Req 2 (BSA Swimmer Qualification and Safety)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for BSA Swimmer Qualification and Safety.",
+          "Step-by-Step Execution": "BSA Swimmer Qualification and Safety: Only U. S. Coast Guard-approved equipment is acceptable for use in Scouting aquatics (p. 11).",
+          "Quality & Tolerance Check": "BSA Swimmer Qualification and Safety Principle 2: Scouts andadult leaders should learn which type of life jacket isappropriate for each specific circumstance and how to wearthem.",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19))"
+        },
+        "sample_output": "BSA Swimmer Qualification and Safety: BSA Swimmer Qualification and Safety: Only U. S. Coast Guard-approved equipment is acceptable for use in Scouting aquatics (p. 11).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Motorboating Requirement 2 (BSA Swimmer Qualification and Safety), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Motorboating Requirement 2 (BSA Swimmer Qualification and Safety), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate BSA.",
+          "B. Describing how to perform BSA Swimmer Qualification and Safety verbally can substitute for a physical hands-on demonstration in.",
+          "C. Defer all BSA Swimmer Qualification and Safety measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+        ],
+        "choices": [
+          "A. Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate BSA.",
+          "B. Describing how to perform BSA Swimmer Qualification and Safety verbally can substitute for a physical hands-on demonstration in.",
+          "C. Defer all BSA Swimmer Qualification and Safety measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate BSA.",
+        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate BSA Swimmer Qualification and Safety with proper technique (p. 11, p. 19). (Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)).",
+        "pamphlet_page_ref": "p. 11, p. 19"
+      },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Motorboating Workbook organizer table and practical demonstration for Req 2."
     },
@@ -675,7 +804,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each.",
+          "text": "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages.",
           "resources": [
             {
               "title": "Whats the Difference Between Inboard, Outboard & Sterndrive Boat Engines? (video)",
@@ -690,29 +819,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Study & Explanation Notes",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Inboard Outboard and Inboard/outboard Motors)",
             "headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each",
-              "Pamphlet Standard & Key Facts (3a)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Inboard Outboard and Inboard/outboard Motors)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Inboard Outboard and Inboard/outboard Motors)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each.",
-            "fact": "Scouts must explain explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
-            "fact_correction": "Scouts must explain explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)"
+            "misconception": "General familiarity with Explain, inboard is sufficient for Motorboating Requirement 3a without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Inboard Outboard and Inboard/outboard Motors (p. 53, p. 70).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Inboard Outboard and Inboard/outboard Motors (p. 53, p. 70).",
+            "pamphlet_page_ref": "p. 53, p. 70"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -737,7 +873,12 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each."
+          "sub_req_text": "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages.",
+          "topic_title": "Req 3a: Inboard Outboard and Inboard/outboard Motors",
+          "pamphlet_summary": "Inboard Outboard and Inboard/outboard Motors: Inboard, outboard, and inboard/outboard motors: Care of Boat, Motor, and Equipment The Motor Today's boat motors, inboard and outboard, should be serviced and repaired by professionals (p. 53).",
+          "pamphlet_excerpts": [
+            "Inboard Outboard and Inboard/outboard Motors: Inboard, outboard, and inboard/outboard motors: Care of Boat, Motor, and Equipment The Motor Today's boat motors, inboard and outboard, should be serviced and repaired by professionals (p. 53)."
+          ]
         },
         {
           "sub_id": "3b",
@@ -757,28 +898,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Study & Explanation Notes",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Safety Procedures and Precautions Involving)",
             "headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the safety procedures and precautions involving handling fuel",
-              "2. Equipment storage and placement"
+              "1. Core Definition & Mechanism (Safety Procedures and Precautions Involving)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Safety Procedures and Precautions Involving)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the safety procedures and precautions involving handling fuel.",
-            "fact": "Scouts must explain explain the safety procedures and precautions involving handling fuel using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
-            "fact_correction": "Scouts must explain explain the safety procedures and precautions involving handling fuel using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)"
+            "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safety Procedures and Precautions Involving activity (p. 53, p. 70).",
+            "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safety Procedures and Precautions Involving activity (p. 53, p. 70).",
+            "pamphlet_page_ref": "p. 53, p. 70"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -803,7 +952,12 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Explain the safety procedures and precautions involving handling fuel and engine servicing, and equipment storage and placement."
+          "sub_req_text": "Explain the safety procedures and precautions involving handling fuel and engine servicing, and equipment storage and placement.",
+          "topic_title": "Req 3b: Safety Procedures and Precautions Involving",
+          "pamphlet_summary": "Safety Procedures and Precautions Involving: Inboard, outboard, and inboard/outboard motors Principle 2: The owner's manual will provide amaintenance schedule and will identify servicing procedures (p. 53).",
+          "pamphlet_excerpts": [
+            "Safety Procedures and Precautions Involving: Inboard, outboard, and inboard/outboard motors Principle 2: The owner's manual will provide amaintenance schedule and will identify servicing procedures (p. 53)."
+          ]
         },
         {
           "sub_id": "3c",
@@ -819,29 +973,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Study & Explanation Notes",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Winterize A Boat Motor)",
             "headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Explain how to winterize a boat motor and tell why this procedure is necessary",
-              "Pamphlet Standard & Key Facts (3c)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Winterize A Boat Motor)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Winterize A Boat Motor)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain how to winterize a boat motor and tell why this procedure is necessary.",
-            "fact": "Scouts must explain explain how to winterize a boat motor and tell why this procedure is necessary using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
-            "fact_correction": "Scouts must explain explain how to winterize a boat motor and tell why this procedure is necessary using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)"
+            "misconception": "General familiarity with Explain, winterize is sufficient for Motorboating Requirement 3c without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Winterize A Boat Motor (p. 53, p. 70).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Winterize A Boat Motor (p. 53, p. 70).",
+            "pamphlet_page_ref": "p. 53, p. 70"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -866,7 +1027,12 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "Explain how to winterize a boat motor and tell why this procedure is necessary."
+          "sub_req_text": "Explain how to winterize a boat motor and tell why this procedure is necessary.",
+          "topic_title": "Req 3c: Winterize A Boat Motor",
+          "pamphlet_summary": "Winterize A Boat Motor: Inboard, outboard, and inboard/outboard motors Principle 3: Learn and follow these manufacturer recommendations (p. 53).",
+          "pamphlet_excerpts": [
+            "Winterize A Boat Motor: Inboard, outboard, and inboard/outboard motors Principle 3: Learn and follow these manufacturer recommendations (p. 53)."
+          ]
         },
         {
           "sub_id": "3d",
@@ -882,28 +1048,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Study & Explanation Notes",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Safety Procedures and Precautions Involving)",
             "headers": [
-              "Req 3d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the safety procedures and precautions involving swimmers and skiers",
-              "2. Boat wakes"
+              "1. Core Definition & Mechanism (Safety Procedures and Precautions Involving)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Safety Procedures and Precautions Involving)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the safety procedures and precautions involving swimmers and skiers.",
-            "fact": "Scouts must explain explain the safety procedures and precautions involving swimmers and skiers using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
-            "fact_correction": "Scouts must explain explain the safety procedures and precautions involving swimmers and skiers using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)"
+            "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safety Procedures and Precautions Involving activity (p. 53, p. 70).",
+            "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safety Procedures and Precautions Involving activity (p. 53, p. 70).",
+            "pamphlet_page_ref": "p. 53, p. 70"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -928,7 +1102,12 @@
           ],
           "id": "3d",
           "sub_req_label": "3d",
-          "sub_req_text": "Explain the safety procedures and precautions involving swimmers and skiers in the water, passenger positions underway, and boat wakes."
+          "sub_req_text": "Explain the safety procedures and precautions involving swimmers and skiers in the water, passenger positions underway, and boat wakes.",
+          "topic_title": "Req 3d: Safety Procedures and Precautions Involving",
+          "pamphlet_summary": "Safety Procedures and Precautions Involving: Inboard, outboard, and inboard/outboard motors Principle 4: Although much of your motor's servicing will need to bedone professionally, you should learn a few basic maintenancepractices (p. 53).",
+          "pamphlet_excerpts": [
+            "Safety Procedures and Precautions Involving: Inboard, outboard, and inboard/outboard motors Principle 4: Although much of your motor's servicing will need to bedone professionally, you should learn a few basic maintenancepractices (p. 53)."
+          ]
         }
       ],
       "resources": [
@@ -974,35 +1153,36 @@
       "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Inboard, outboard, and inboard/outboard motors)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Explain inboard, outboard, and inboard/outboard motors, and the uses",
-          "(b) Explain the safety procedures and precautions involving handling fuel",
-          "(c) Explain how to winterize a boat motor and tell why this procedure is necessary",
-          "(d) Explain the safety procedures and precautions involving swimmers and skiers"
+          "(3a) Inboard Outboard and Inboard/outboard Motors",
+          "(3b) Safety Procedures and Precautions Involving",
+          "(3c) Winterize A Boat Motor",
+          "(3d) Safety Procedures and Precautions Involving"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(3a) Inboard Outboard and Inboard/outboard Motors",
+          "(3b) Safety Procedures and Precautions Involving",
+          "(3c) Winterize A Boat Motor",
+          "(3d) Safety Procedures and Precautions Involving"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain inboard, outboard, and inboard/outboard motors, and the uses.",
-        "fact": "Scouts must demonstrate explain inboard, outboard, and inboard/outboard motors, and the uses using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
-        "fact_correction": "Scouts must demonstrate explain inboard, outboard, and inboard/outboard motors, and the uses using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70).",
-        "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)"
+        "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Inboard, outboard, and inboard/outboard motors activity (p. 53, p. 70).",
+        "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Inboard, outboard, and inboard/outboard motors activity (p. 53, p. 70).",
+        "pamphlet_page_ref": "p. 53, p. 70"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1026,49 +1206,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Care Boat Motor: Care of Boat, Motor, and Equipment The Motor Today’s boat motors, inboard and outboard, should be servicedand repaired by professionals.",
-        "Owner Manual Provide: The owner’s manual will provide amaintenance schedule and will identify servicing procedures.",
-        "Learn Follow Manufacturer: Learn and follow these manufacturer recommendations.",
-        "Motor Servicing Bedone: Although much of your motor’s servicing will need to bedone professionally, you should learn a few basic maintenancepractices."
+        "Inboard, outboard, and inboard/outboard motors: Care of Boat, Motor, and Equipment The Motor Today's boat motors, inboard and outboard, should be serviced and repaired by professionals (p. 53).",
+        "Inboard, outboard, and inboard/outboard motors Principle 2: The owner's manual will provide amaintenance schedule and will identify servicing procedures (p. 53).",
+        "Inboard, outboard, and inboard/outboard motors Principle 3: Learn and follow these manufacturer recommendations (p. 53).",
+        "Inboard, outboard, and inboard/outboard motors Principle 4: Although much of your motor's servicing will need to bedone professionally, you should learn a few basic maintenancepractices (p. 53)."
       ],
       "step_by_step_procedure": [
-        "Boat Engines Water-cooled: Boat engines that are water-cooled usingwater drawn from a lake or river require seasonal winterizingto prevent freezing damage.",
-        "Water Drained Theengine: The water is drained from theengine block and usually replaced with chemical antifreeze.",
-        "Boats Year-round: For boats used year-round, manufacturer service schedules and procedures, usually based on operating hours, should be followed.",
-        "Pull Dipstick Check: Pull the dipstick to check the engine fluid levels."
+        "Step 1 (Inboard, outboard, and inboard/outboard motors): Boat engines that are water-cooled usingwater drawn from a lake or river require seasonal winterizing to prevent freezing damage (p. 53).",
+        "Step 2 (Inboard, outboard, and inboard/outboard motors): The water is drained from theengine block and usually replaced with chemical antifreeze (p. 53).",
+        "Step 3 (Inboard, outboard, and inboard/outboard motors): For boats used year-round, manufacturer service schedules and procedures, usually based on operating hours, should be followed (p. 53).",
+        "Step 4 (Inboard, outboard, and inboard/outboard motors): Pull the dipstick to check the engine fluid levels (p. 53)."
       ],
       "gear_checklist": [
-        "Official Motorboating Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Inboard, outboard, and inboard/outboard motors",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Motorboating Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Inboard, outboard, and inboard/outboard motors)",
+        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
+        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
+        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Motorboating Approach",
-        "right_header": "Official BSA Motorboating Standard (Inboard, outboard, and inboard/outboard motors)",
+        "left_header": "Proactive Hazard Prevention (Inboard, outboard, and inboard/outboard motors)",
+        "right_header": "Acute Emergency Response (Inboard, outboard, and inboard/outboard motors)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Inboard, outboard, and inboard/outboard motors.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Eliminate environmental and equipment risks before starting.",
+          "Inboard, outboard, and inboard/outboard motors: Care of Boat, Motor, and Equipment The Motor Today's boat motors, inboard and outboard, shou.",
+          "Pre-activity PPE, weather, and buddy shakedown."
         ],
         "right_points": [
-          "Reviews Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Motorboating Workbook organizer.",
-          "Clearly demonstrates and explains Inboard, outboard, and inboard/outboard motors using the BSA EDGE method."
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Inboard, outboard, and inboard/outboard motors Principle 2: The owner's manual will provide amaintenance schedule and will identify servicin.",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Inboard, outboard, and inboard/outboard motors: Care of Boat, Motor, and Equipment The Motor Today's boat motors, inboard and outboard, shou",
+            "right": "Inboard, outboard, and inboard/outboard motors Principle 2: The owner's manual will provide amaintenance schedule and will identify servicin"
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Motorboating Req 3",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Motorboating Req 3 (Inboard, outboard, and inboard/outboard motors)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
-          "Requirement & Topic": "Req 3 - Inboard, outboard, and inboard/outboard motors",
-          "Primary Standard": "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Motorboating terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70) and verified during counselor conference."
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Inboard, outboard, and inboard/outboard motors.",
+          "Preventive Controls & PPE": "Inboard, outboard, and inboard/outboard motors: Care of Boat, Motor, and Equipment The Motor Today's boat motors, inboard and outboard, should be serviced and repaired by professio.",
+          "Acute First-Aid Response": "Inboard, outboard, and inboard/outboard motors Principle 2: The owner's manual will provide amaintenance schedule and will identify servicing procedures (p. 53).",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)."
         },
-        "counselor_tip": "Complete your Motorboating Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Inboard, outboard, and inboard/outboard motors: Inboard, outboard, and inboard/outboard motors: Care of Boat, Motor, and Equipment The Motor Today's boat motors, inboard and outboard, shou",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Motorboating Requirement 3 (Inboard, outboard, and inboard/outboard motors), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Motorboating Requirement 3 (Inboard, outboard, and inboard/outboard motors), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Inboard, outboard, and inboard/outboard motors measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure.",
+          "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        ],
+        "choices": [
+          "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Inboard, outboard, and inboard/outboard motors measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure.",
+          "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "explanation": "Correct Answer (D): The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Inboard, outboard, and inboard/outboard motors activity (p. 53, p. 70). (Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)).",
+        "pamphlet_page_ref": "p. 53, p. 70"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Motorboating Workbook organizer table and practical demonstration for Req 3."
     },
@@ -1088,31 +1306,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Study & Explanation Notes",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
             "headers": [
-              "Req 4a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Checking the weather prior to",
-              "During time on the water",
-              "Confirming all required equipment is present",
-              "Functional",
-              "Following a float plan"
+              "1. Core Definition & Mechanism (Safe Swim Defense and Safety Afloat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Safe Swim Defense and Safety Afloat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on checking the weather prior to.",
-            "fact": "Scouts must explain checking the weather prior to using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "fact_correction": "Scouts must explain checking the weather prior to using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
+            "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safe Swim Defense and Safety Afloat activity (p. 8, p. 12).",
+            "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safe Swim Defense and Safety Afloat activity (p. 8, p. 12).",
+            "pamphlet_page_ref": "p. 8, p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1137,7 +1360,12 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Review how each item of the Scouting America Safety Afloat policy applies, including checking the weather prior to and during time on the water, confirming all required equipment is present and functional, and following a float plan."
+          "sub_req_text": "Review how each item of the Scouting America Safety Afloat policy applies, including checking the weather prior to and during time on the water, confirming all required equipment is present and functional, and following a float plan.",
+          "topic_title": "Req 4a: Safe Swim Defense and Safety Afloat",
+          "pamphlet_summary": "Safe Swim Defense and Safety Afloat: You know safety guidelines for motorboating Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 8).",
+          "pamphlet_excerpts": [
+            "Safe Swim Defense and Safety Afloat: You know safety guidelines for motorboating Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 8)."
+          ]
         },
         {
           "sub_id": "4b",
@@ -1153,29 +1381,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Study & Explanation Notes",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Rules or Laws That Apply)",
             "headers": [
-              "Req 4b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the rules or laws that apply to recreational boating in your area",
-              "2. Have a permit to operate a motorboat, if required by the laws of your state",
-              "3. Discuss how you would find information regarding the boating laws"
+              "1. Core Definition & Mechanism (Rules or Laws That Apply)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Rules or Laws That Apply)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the rules or laws that apply to recreational boating in your area.",
-            "fact": "Scouts must explain explain the rules or laws that apply to recreational boating in your area using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "fact_correction": "Scouts must explain explain the rules or laws that apply to recreational boating in your area using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
+            "misconception": "General familiarity with Explain, rules is sufficient for Motorboating Requirement 4b without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Rules or Laws That Apply (p. 8, p. 12).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Rules or Laws That Apply (p. 8, p. 12).",
+            "pamphlet_page_ref": "p. 8, p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1200,7 +1435,12 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Explain the rules or laws that apply to recreational boating in your area or state. Have a permit to operate a motorboat, if required by the laws of your state. Discuss how you would find information regarding the boating laws in different states."
+          "sub_req_text": "Explain the rules or laws that apply to recreational boating in your area or state. Have a permit to operate a motorboat, if required by the laws of your state. Discuss how you would find information regarding the boating laws in different states.",
+          "topic_title": "Req 4b: Rules or Laws That Apply",
+          "pamphlet_summary": "Rules or Laws That Apply: You know safety guidelines for motorboating Principle 3: If your boat goes afloat, the same the principles of the buddyrule applies, go with a buddy boat. system (p. 8).",
+          "pamphlet_excerpts": [
+            "Rules or Laws That Apply: You know safety guidelines for motorboating Principle 3: If your boat goes afloat, the same the principles of the buddyrule applies, go with a buddy boat. system (p. 8)."
+          ]
         },
         {
           "sub_id": "4c",
@@ -1223,35 +1463,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 4c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Hazards of Weather and Heavy)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 4c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 4c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss how hazards of weather and heavy water conditions can affect",
-              "2. Key Pamphlet Examples & Evidence (Req 4c)",
-              "3. Practical Discuss & Safety Verification"
+              "1. Core Definition & Mechanism (Hazards of Weather and Heavy)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Core Definition & Mechanism (Hazards of Weather and Heavy)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss how hazards of weather and heavy water conditions can affect.",
-            "fact": "Scouts must discuss discuss how hazards of weather and heavy water conditions can affect using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "fact_correction": "Scouts must discuss discuss how hazards of weather and heavy water conditions can affect using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
+            "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards of Weather and Heavy activity (p. 8, p. 12).",
+            "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards of Weather and Heavy activity (p. 8, p. 12).",
+            "pamphlet_page_ref": "p. 8, p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1276,7 +1518,12 @@
           ],
           "id": "4c",
           "sub_req_label": "4c",
-          "sub_req_text": "Discuss how hazards of weather and heavy water conditions can affect safety and performance in motorboating."
+          "sub_req_text": "Discuss how hazards of weather and heavy water conditions can affect safety and performance in motorboating.",
+          "topic_title": "Req 4c: Hazards of Weather and Heavy",
+          "pamphlet_summary": "Hazards of Weather and Heavy: You know safety guidelines for motorboating Principle 4: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water (p. 8).",
+          "pamphlet_excerpts": [
+            "Hazards of Weather and Heavy: You know safety guidelines for motorboating Principle 4: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water (p. 8)."
+          ]
         },
         {
           "sub_id": "4d",
@@ -1287,28 +1534,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Study & Explanation Notes",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
             "headers": [
-              "Req 4d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Promise that you will follow Scouting America Safety Afloat guidelines",
-              "2. Explain the meaning of each point"
+              "1. Core Definition & Mechanism (Safe Swim Defense and Safety Afloat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Safe Swim Defense and Safety Afloat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on promise that you will follow scouting america safety afloat guidelines.",
-            "fact": "Scouts must explain promise that you will follow scouting america safety afloat guidelines using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "fact_correction": "Scouts must explain promise that you will follow scouting america safety afloat guidelines using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
+            "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safe Swim Defense and Safety Afloat activity (p. 8, p. 12).",
+            "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safe Swim Defense and Safety Afloat activity (p. 8, p. 12).",
+            "pamphlet_page_ref": "p. 8, p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1333,7 +1588,12 @@
           ],
           "id": "4d",
           "sub_req_label": "4d",
-          "sub_req_text": "Promise that you will follow Scouting America Safety Afloat guidelines. Explain the meaning of each point."
+          "sub_req_text": "Promise that you will follow Scouting America Safety Afloat guidelines. Explain the meaning of each point.",
+          "topic_title": "Req 4d: Safe Swim Defense and Safety Afloat",
+          "pamphlet_summary": "Safe Swim Defense and Safety Afloat: You know safety guidelines for motorboating: Type III life jackets arerecommended for generalrecreational use. 5 (p. 8).",
+          "pamphlet_excerpts": [
+            "Safe Swim Defense and Safety Afloat: You know safety guidelines for motorboating: Type III life jackets arerecommended for generalrecreational use. 5 (p. 8)."
+          ]
         },
         {
           "sub_id": "4e",
@@ -1349,29 +1609,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Study & Explanation Notes",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Motorboating Applied Field Standard)",
             "headers": [
-              "Req 4e Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4e Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain and show the correct use of equipment required by both state",
-              "2. Key Pamphlet Examples & Evidence (Req 4e)",
-              "3. Practical Explain & Safety Verification"
+              "1. Core Definition & Mechanism (Motorboating Applied Field Standard)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Motorboating Applied Field Standard)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain and show the correct use of equipment required by both state.",
-            "fact": "Scouts must explain explain and show the correct use of equipment required by both state using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "fact_correction": "Scouts must explain explain and show the correct use of equipment required by both state using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
+            "misconception": "Describing how to perform Motorboating Core Field Standard verbally can substitute for a physical hands-on demonstration in Motorboating Requirement 4e.",
+            "fact": "Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate Motorboating Core Field Standard with proper technique (p. 8, p. 12).",
+            "fact_correction": "Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate Motorboating Core Field Standard with proper technique (p. 8, p. 12).",
+            "pamphlet_page_ref": "p. 8, p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1396,7 +1663,12 @@
           ],
           "id": "4e",
           "sub_req_label": "4e",
-          "sub_req_text": "Explain and show the correct use of equipment required by both state and federal regulations to be carried aboard a motorboat."
+          "sub_req_text": "Explain and show the correct use of equipment required by both state and federal regulations to be carried aboard a motorboat.",
+          "topic_title": "Req 4e: Motorboating Applied Field Standard",
+          "pamphlet_summary": "Motorboating Applied Field Standard: Motorboating Core Field Standard: You know safety guidelines for motorboating Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 8).",
+          "pamphlet_excerpts": [
+            "Motorboating Applied Field Standard: Motorboating Core Field Standard: You know safety guidelines for motorboating Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 8)."
+          ]
         },
         {
           "sub_id": "4f",
@@ -1412,28 +1684,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4f Structured Study & Explanation Notes",
+            "table_title": "Req 4f Structured Technical Study & Explanation Matrix (Federal and State Rules)",
             "headers": [
-              "Req 4f Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4f Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4f Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4f Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain federal and state rules for a ventilation system",
-              "2. Tell why these rules are required"
+              "1. Core Definition & Mechanism (Federal and State Rules)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Federal and State Rules)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain federal and state rules for a ventilation system.",
-            "fact": "Scouts must explain explain federal and state rules for a ventilation system using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "fact_correction": "Scouts must explain explain federal and state rules for a ventilation system using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
+            "misconception": "General familiarity with Explain, federal is sufficient for Motorboating Requirement 4f without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Federal and State Rules (p. 8, p. 12).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Federal and State Rules (p. 8, p. 12).",
+            "pamphlet_page_ref": "p. 8, p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1458,7 +1738,12 @@
           ],
           "id": "4f",
           "sub_req_label": "4f",
-          "sub_req_text": "Explain federal and state rules for a ventilation system, and tell why these rules are required."
+          "sub_req_text": "Explain federal and state rules for a ventilation system, and tell why these rules are required.",
+          "topic_title": "Req 4f: Federal and State Rules",
+          "pamphlet_summary": "Federal and State Rules: You know safety guidelines for motorboating Principle 3: If your boat goes afloat, the same the principles of the buddyrule applies, go with a buddy boat. system (p. 8).",
+          "pamphlet_excerpts": [
+            "Federal and State Rules: You know safety guidelines for motorboating Principle 3: If your boat goes afloat, the same the principles of the buddyrule applies, go with a buddy boat. system (p. 8)."
+          ]
         },
         {
           "sub_id": "4g",
@@ -1474,29 +1759,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4g Structured Study & Explanation Notes",
+            "table_title": "Req 4g Structured Technical Study & Explanation Matrix (Lights Sight Signals and Sound)",
             "headers": [
-              "Req 4g Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4g Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4g Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4g Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Explain the use of lights (sight signals) and sound signals on motorboats",
-              "Pamphlet Standard & Key Facts (4g)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Lights Sight Signals and Sound)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Lights Sight Signals and Sound)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the use of lights (sight signals) and sound signals on motorboats.",
-            "fact": "Scouts must explain explain the use of lights (sight signals) and sound signals on motorboats using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "fact_correction": "Scouts must explain explain the use of lights (sight signals) and sound signals on motorboats using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
+            "misconception": "General familiarity with Explain, lights is sufficient for Motorboating Requirement 4g without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Use of Lights Sight Signals (p. 8, p. 12).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Use of Lights Sight Signals (p. 8, p. 12).",
+            "pamphlet_page_ref": "p. 8, p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1521,7 +1813,12 @@
           ],
           "id": "4g",
           "sub_req_label": "4g",
-          "sub_req_text": "Explain the use of lights (sight signals) and sound signals on motorboats."
+          "sub_req_text": "Explain the use of lights (sight signals) and sound signals on motorboats.",
+          "topic_title": "Req 4g: Lights Sight Signals and Sound",
+          "pamphlet_summary": "Lights Sight Signals and Sound: Use of Lights Sight Signals: You know safety guidelines for motorboating Principle 4: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water (p. 8).",
+          "pamphlet_excerpts": [
+            "Lights Sight Signals and Sound: Use of Lights Sight Signals: You know safety guidelines for motorboating Principle 4: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water (p. 8)."
+          ]
         },
         {
           "sub_id": "4h",
@@ -1545,28 +1842,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4h Structured Study & Explanation Notes",
+            "table_title": "Req 4h Structured Technical Study & Explanation Matrix (Common Types of Anchors Used)",
             "headers": [
-              "Req 4h Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4h Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4h Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4h Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the common types of anchors used in motorboating and under what",
-              "2. Explain proper anchoring techniques"
+              "1. Core Definition & Mechanism (Common Types of Anchors Used)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Common Types of Anchors Used)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the common types of anchors used in motorboating and under what.",
-            "fact": "Scouts must discuss discuss the common types of anchors used in motorboating and under what using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "fact_correction": "Scouts must discuss discuss the common types of anchors used in motorboating and under what using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
+            "misconception": "General familiarity with Discuss, common is sufficient for Motorboating Requirement 4h without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Common Types of Anchors Used (p. 8, p. 12).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Common Types of Anchors Used (p. 8, p. 12).",
+            "pamphlet_page_ref": "p. 8, p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1591,7 +1896,12 @@
           ],
           "id": "4h",
           "sub_req_label": "4h",
-          "sub_req_text": "Discuss the common types of anchors used in motorboating and under what conditions each would be preferred. Explain proper anchoring techniques."
+          "sub_req_text": "Discuss the common types of anchors used in motorboating and under what conditions each would be preferred. Explain proper anchoring techniques.",
+          "topic_title": "Req 4h: Common Types of Anchors Used",
+          "pamphlet_summary": "Common Types of Anchors Used: You know safety guidelines for motorboating: Type III life jackets arerecommended for generalrecreational use. 5 (p. 8).",
+          "pamphlet_excerpts": [
+            "Common Types of Anchors Used: You know safety guidelines for motorboating: Type III life jackets arerecommended for generalrecreational use. 5 (p. 8)."
+          ]
         }
       ],
       "resources": [
@@ -1653,37 +1963,44 @@
       "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (You know safety guidelines for motorboating)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 4 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 4 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Review how each item of the Scouting America Safety Afloat policy applies",
-          "(b) Explain the rules or laws that apply to recreational boating in your area",
-          "(c) Discuss how hazards of weather and heavy water conditions can affect safety",
-          "(d) Promise that you will follow Scouting America Safety Afloat guidelines",
-          "(e) Explain and show the correct use of equipment required by both state",
-          "(f) Explain federal and state rules for a ventilation system, and tell why these"
+          "(4a) Safe Swim Defense and Safety Afloat",
+          "(4b) Rules or Laws That Apply",
+          "(4c) Hazards of Weather and Heavy",
+          "(4d) Safe Swim Defense and Safety Afloat",
+          "(4e) Motorboating Applied Field Standard",
+          "(4f) Federal and State Rules",
+          "(4g) Lights Sight Signals and Sound",
+          "(4h) Common Types of Anchors Used"
         ],
-        "min_rows": 6,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(4a) Safe Swim Defense and Safety Afloat",
+          "(4b) Rules or Laws That Apply",
+          "(4c) Hazards of Weather and Heavy",
+          "(4d) Safe Swim Defense and Safety Afloat",
+          "(4e) Motorboating Applied Field Standard",
+          "(4f) Federal and State Rules",
+          "(4g) Lights Sight Signals and Sound",
+          "(4h) Common Types of Anchors Used"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on review how each item of the scouting america safety afloat policy applies.",
-        "fact": "Scouts must show review how each item of the scouting america safety afloat policy applies using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-        "fact_correction": "Scouts must show review how each item of the scouting america safety afloat policy applies using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12).",
-        "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)"
+        "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any You know safety guidelines for motorboating activity (p. 8, p. 12).",
+        "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any You know safety guidelines for motorboating activity (p. 8, p. 12).",
+        "pamphlet_page_ref": "p. 8, p. 12"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1707,36 +2024,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Type III Life: Type III life jackets arerecommended for generalrecreational use. 5.",
-        "Buddy System Activity: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy with you.",
-        "Boat Goes Afloat: If your boat goes afloat, the samethe principles of the buddyrule applies, go with a buddy boat. system.",
-        "Individual Musthave Buddy: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water."
+        "You know safety guidelines for motorboating: Type III life jackets arerecommended for generalrecreational use. 5 (p. 8).",
+        "You know safety guidelines for motorboating Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 8).",
+        "You know safety guidelines for motorboating Principle 3: If your boat goes afloat, the same the principles of the buddyrule applies, go with a buddy boat. system (p. 8).",
+        "You know safety guidelines for motorboating Principle 4: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water (p. 8)."
       ],
       "step_by_step_procedure": [
-        "Skill Proficiency: Skill Proficiency All participants in activity afloat must be trained and experiencedin watercraft handling skills, safety, and emergency procedures.",
-        "Anyone Operating Powerboat: Anyone operating a powerboat must be able to meetrequirements for the Motorboating merit badge or equivalent. 7.",
-        "Exactly Group Pullout: Know exactly where the group will put in and pullout, and what course it will follow.",
-        "Determine Stopoverpoints: Determine all stopoverpoints in advance, and review the plan beforehand with otherswho have made the trip recently."
+        "Step 1 (You know safety guidelines for motorboating): Skill Proficiency All participants in activity afloat must be trained and experiencedin watercraft handling skills, safety, and emergency procedures (p. 8).",
+        "Step 2 (You know safety guidelines for motorboating): Anyone operating a powerboat must be able to meetrequirements for the Motorboating merit badge or equivalent. 7 (p. 8).",
+        "Step 3 (You know safety guidelines for motorboating): Know exactly where the group will put in and pullout, and what course it will follow (p. 8).",
+        "Step 4 (You know safety guidelines for motorboating): Determine all stopoverpoints in advance, and review the plan beforehand with otherswho have made the trip recently (p. 8)."
       ],
       "gear_checklist": [
-        "Official Motorboating Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for You know safety guidelines for motorboating",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Motorboating Merit Badge Pamphlet and Fillable Workbook (open to Req 4: You know safety guidelines for motorboating)",
+        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
+        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
+        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Motorboating Req 4",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 4 - You know safety guidelines for motorboating",
-          "Primary Standard": "Review how each item of the Scouting America Safety Afloat policy applies, including checking the weather prior to and during time on the water, confirming all required equipment is present and functional, and following a float plan.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Motorboating terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Motorboating Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Proactive Hazard Prevention (You know safety guidelines for motorboating)",
+        "right_header": "Acute Emergency Response (You know safety guidelines for motorboating)",
+        "left_points": [
+          "Eliminate environmental and equipment risks before starting.",
+          "You know safety guidelines for motorboating: Type III life jackets arerecommended for generalrecreational use. 5 (p. 8).",
+          "Pre-activity PPE, weather, and buddy shakedown."
+        ],
+        "right_points": [
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "You know safety guidelines for motorboating Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure.",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "You know safety guidelines for motorboating: Type III life jackets arerecommended for generalrecreational use. 5 (p. 8).",
+            "right": "You know safety guidelines for motorboating Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you"
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Motorboating Req 4 (You know safety guidelines for motorboating)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
+        "fields": {
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during You know safety guidelines for motorboating.",
+          "Preventive Controls & PPE": "You know safety guidelines for motorboating: Type III life jackets arerecommended for generalrecreational use. 5 (p. 8).",
+          "Acute First-Aid Response": "You know safety guidelines for motorboating Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 8).",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)."
+        },
+        "sample_output": "You know safety guidelines for motorboating: You know safety guidelines for motorboating: Type III life jackets arerecommended for generalrecreational use. 5 (p. 8).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Motorboating Requirement 4 (You know safety guidelines for motorboating), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Motorboating Requirement 4 (You know safety guidelines for motorboating), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all You know safety guidelines for motorboating measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure.",
+          "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        ],
+        "choices": [
+          "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all You know safety guidelines for motorboating measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure.",
+          "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "explanation": "Correct Answer (D): The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any You know safety guidelines for motorboating activity (p. 8, p. 12). (Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)).",
+        "pamphlet_page_ref": "p. 8, p. 12"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Motorboating Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1765,28 +2133,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Study & Explanation Notes",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Board and Assist Others)",
             "headers": [
-              "Req 5a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Board and assist others in boarding",
-              "2. Confirm that all passengers on board are wearing properly fitted life jackets"
+              "1. Core Definition & Mechanism (Board and Assist Others)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Board and Assist Others)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on board and assist others in boarding.",
-            "fact": "Scouts must explain board and assist others in boarding using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "fact_correction": "Scouts must explain board and assist others in boarding using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
+            "misconception": "General familiarity with Board, assist is sufficient for Motorboating Requirement 5a without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Board and Assist Others (p. 12, p. 53).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Board and Assist Others (p. 12, p. 53).",
+            "pamphlet_page_ref": "p. 12, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1811,7 +2187,12 @@
           ],
           "id": "5a",
           "sub_req_label": "5a",
-          "sub_req_text": "Board and assist others in boarding. Confirm that all passengers on board are wearing properly fitted life jackets."
+          "sub_req_text": "Board and assist others in boarding. Confirm that all passengers on board are wearing properly fitted life jackets.",
+          "topic_title": "Req 5a: Board and Assist Others",
+          "pamphlet_summary": "Board and Assist Others: Your Counselor or Other Adults Principle 3: If your boat goes afloat, the same the principles of the buddyrule applies, go with a buddy boat. system (p. 12).",
+          "pamphlet_excerpts": [
+            "Board and Assist Others: Your Counselor or Other Adults Principle 3: If your boat goes afloat, the same the principles of the buddyrule applies, go with a buddy boat. system (p. 12)."
+          ]
         },
         {
           "sub_id": "5b",
@@ -1827,29 +2208,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Study & Explanation Notes",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Fuel The Boat and Complete)",
             "headers": [
-              "Req 5b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Fuel the boat and complete a safety check",
-              "Pamphlet Standard & Key Facts (5b)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Fuel The Boat and Complete)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Fuel The Boat and Complete)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on fuel the boat and complete a safety check.",
-            "fact": "Scouts must explain fuel the boat and complete a safety check using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "fact_correction": "Scouts must explain fuel the boat and complete a safety check using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
+            "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Fuel The Boat and Complete activity (p. 12, p. 53).",
+            "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Fuel The Boat and Complete activity (p. 12, p. 53).",
+            "pamphlet_page_ref": "p. 12, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1874,7 +2262,12 @@
           ],
           "id": "5b",
           "sub_req_label": "5b",
-          "sub_req_text": "Fuel the boat and complete a safety check."
+          "sub_req_text": "Fuel the boat and complete a safety check.",
+          "topic_title": "Req 5b: Fuel The Boat and Complete",
+          "pamphlet_summary": "Fuel The Boat and Complete: Your Counselor or Other Adults Principle 4: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water (p. 12).",
+          "pamphlet_excerpts": [
+            "Fuel The Boat and Complete: Your Counselor or Other Adults Principle 4: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water (p. 12)."
+          ]
         },
         {
           "sub_id": "5c",
@@ -1890,28 +2283,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Study & Explanation Notes",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Equipped Attach The Engine Cut-off)",
             "headers": [
-              "Req 5c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. If equipped, attach the engine cut-off switch link and safely start the motor",
-              "2. Get underway from dockside or from a beach launch"
+              "1. Core Definition & Mechanism (Equipped Attach The Engine Cut-off)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Equipped Attach The Engine Cut-off)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on if equipped, attach the engine cut-off switch link and safely start the motor.",
-            "fact": "Scouts must explain if equipped, attach the engine cut-off switch link and safely start the motor using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "fact_correction": "Scouts must explain if equipped, attach the engine cut-off switch link and safely start the motor using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
+            "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any If Equipped Attach The Engine activity (p. 12, p. 53).",
+            "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any If Equipped Attach The Engine activity (p. 12, p. 53).",
+            "pamphlet_page_ref": "p. 12, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1936,7 +2337,12 @@
           ],
           "id": "5c",
           "sub_req_label": "5c",
-          "sub_req_text": "If equipped, attach the engine cut-off switch link and safely start the motor. Get underway from dockside or from a beach launch."
+          "sub_req_text": "If equipped, attach the engine cut-off switch link and safely start the motor. Get underway from dockside or from a beach launch.",
+          "topic_title": "Req 5c: Equipped Attach The Engine Cut-off",
+          "pamphlet_summary": "Equipped Attach The Engine Cut-off: If Equipped Attach The Engine: Your Counselor or Other Adults: Type III life jackets arerecommended for generalrecreational use. 5 (p. 12).",
+          "pamphlet_excerpts": [
+            "Equipped Attach The Engine Cut-off: If Equipped Attach The Engine: Your Counselor or Other Adults: Type III life jackets arerecommended for generalrecreational use. 5 (p. 12)."
+          ]
         },
         {
           "sub_id": "5d",
@@ -1952,28 +2358,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Study & Explanation Notes",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Run A Course)",
             "headers": [
-              "Req 5d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Run a course for at least a mile, showing procedures for overtaking",
-              "2. Using navigation aids"
+              "1. Core Definition & Mechanism (Run A Course)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Run A Course)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on run a course for at least a mile, showing procedures for overtaking.",
-            "fact": "Scouts must explain run a course for at least a mile, showing procedures for overtaking using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "fact_correction": "Scouts must explain run a course for at least a mile, showing procedures for overtaking using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
+            "misconception": "Describing how to perform Run A Course verbally can substitute for a physical hands-on demonstration in Motorboating Requirement 5d.",
+            "fact": "Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate Run A Course with proper technique (p. 12, p. 53).",
+            "fact_correction": "Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate Run A Course with proper technique (p. 12, p. 53).",
+            "pamphlet_page_ref": "p. 12, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1998,7 +2412,12 @@
           ],
           "id": "5d",
           "sub_req_label": "5d",
-          "sub_req_text": "Run a course for at least a mile, showing procedures for overtaking and passing slower vessels, yielding right-of-way, passing oncoming traffic, making turns, reversing direction, and using navigation aids."
+          "sub_req_text": "Run a course for at least a mile, showing procedures for overtaking and passing slower vessels, yielding right-of-way, passing oncoming traffic, making turns, reversing direction, and using navigation aids.",
+          "topic_title": "Req 5d: Run A Course",
+          "pamphlet_summary": "Run A Course: Your Counselor or Other Adults Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 12).",
+          "pamphlet_excerpts": [
+            "Run A Course: Your Counselor or Other Adults Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 12)."
+          ]
         },
         {
           "sub_id": "5e",
@@ -2009,28 +2428,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5e Structured Study & Explanation Notes",
+            "table_title": "Req 5e Structured Technical Study & Explanation Matrix (Stop and Secure The Boat)",
             "headers": [
-              "Req 5e Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5e Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Stop and secure the boat in position on the open water using anchors",
-              "2. Raise and stow the anchor and get underway"
+              "1. Core Definition & Mechanism (Stop and Secure The Boat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Stop and Secure The Boat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on stop and secure the boat in position on the open water using anchors.",
-            "fact": "Scouts must explain stop and secure the boat in position on the open water using anchors using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "fact_correction": "Scouts must explain stop and secure the boat in position on the open water using anchors using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
+            "misconception": "General familiarity with secure, position is sufficient for Motorboating Requirement 5e without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Stop and Secure The Boat (p. 12, p. 53).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Stop and Secure The Boat (p. 12, p. 53).",
+            "pamphlet_page_ref": "p. 12, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2055,7 +2482,12 @@
           ],
           "id": "5e",
           "sub_req_label": "5e",
-          "sub_req_text": "Stop and secure the boat in position on the open water using anchors. Raise and stow the anchor and get underway."
+          "sub_req_text": "Stop and secure the boat in position on the open water using anchors. Raise and stow the anchor and get underway.",
+          "topic_title": "Req 5e: Stop and Secure The Boat",
+          "pamphlet_summary": "Stop and Secure The Boat: Your Counselor or Other Adults Principle 3: If your boat goes afloat, the same the principles of the buddyrule applies, go with a buddy boat. system (p. 12).",
+          "pamphlet_excerpts": [
+            "Stop and Secure The Boat: Your Counselor or Other Adults Principle 3: If your boat goes afloat, the same the principles of the buddyrule applies, go with a buddy boat. system (p. 12)."
+          ]
         },
         {
           "sub_id": "5f",
@@ -2071,29 +2503,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5f Structured Study & Explanation Notes",
+            "table_title": "Req 5f Structured Technical Study & Explanation Matrix (Land or Dock The Boat)",
             "headers": [
-              "Req 5f Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5f Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5f Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5f Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Land or dock the boat, disembark, and assist others in doing the same",
-              "Pamphlet Standard & Key Facts (5f)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Land or Dock The Boat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Land or Dock The Boat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on land or dock the boat, disembark, and assist others in doing the same.",
-            "fact": "Scouts must explain land or dock the boat, disembark, and assist others in doing the same using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "fact_correction": "Scouts must explain land or dock the boat, disembark, and assist others in doing the same using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
+            "misconception": "General familiarity with disembark, assist is sufficient for Motorboating Requirement 5f without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Land or Dock The Boat (p. 12, p. 53).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Land or Dock The Boat (p. 12, p. 53).",
+            "pamphlet_page_ref": "p. 12, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2118,7 +2557,12 @@
           ],
           "id": "5f",
           "sub_req_label": "5f",
-          "sub_req_text": "Land or dock the boat, disembark, and assist others in doing the same."
+          "sub_req_text": "Land or dock the boat, disembark, and assist others in doing the same.",
+          "topic_title": "Req 5f: Land or Dock The Boat",
+          "pamphlet_summary": "Land or Dock The Boat: Your Counselor or Other Adults Principle 4: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water (p. 12).",
+          "pamphlet_excerpts": [
+            "Land or Dock The Boat: Your Counselor or Other Adults Principle 4: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water (p. 12)."
+          ]
         },
         {
           "sub_id": "5g",
@@ -2138,29 +2582,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5g Structured Study & Explanation Notes",
+            "table_title": "Req 5g Structured Technical Study & Explanation Matrix (Moor Dock or Beach)",
             "headers": [
-              "Req 5g Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5g Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5g Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5g Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Moor, dock, or beach the boat and secure all gear",
-              "Pamphlet Standard & Key Facts (5g)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Moor Dock or Beach)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Moor Dock or Beach)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on moor, dock, or beach the boat and secure all gear.",
-            "fact": "Scouts must explain moor, dock, or beach the boat and secure all gear using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "fact_correction": "Scouts must explain moor, dock, or beach the boat and secure all gear using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
+            "misconception": "General familiarity with beach, secure is sufficient for Motorboating Requirement 5g without citing specific functional mechanisms.",
+            "fact": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Moor Dock or Beach (p. 12, p. 53).",
+            "fact_correction": "The Motorboating pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Moor Dock or Beach (p. 12, p. 53).",
+            "pamphlet_page_ref": "p. 12, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2185,7 +2636,12 @@
           ],
           "id": "5g",
           "sub_req_label": "5g",
-          "sub_req_text": "Moor, dock, or beach the boat and secure all gear."
+          "sub_req_text": "Moor, dock, or beach the boat and secure all gear.",
+          "topic_title": "Req 5g: Moor Dock or Beach",
+          "pamphlet_summary": "Moor Dock or Beach: Your Counselor or Other Adults: Type III life jackets arerecommended for generalrecreational use. 5 (p. 12).",
+          "pamphlet_excerpts": [
+            "Moor Dock or Beach: Your Counselor or Other Adults: Type III life jackets arerecommended for generalrecreational use. 5 (p. 12)."
+          ]
         },
         {
           "sub_id": "5h",
@@ -2204,34 +2660,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "PHYSICAL_SKILL_VERIFICATION_RUBRIC",
-            "table_title": "Req 5h Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 5h Hands-On Skill Station & EDGE Verification Checklist (Knots Used in Boating)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate knots used in boating: cleating hitch, bowline, clove hitch",
-              "2. Sheet bend"
+              "1. Pre-Operation Tool & Safety Check (Knots Used in Boating)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Knots Used in Boating)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on demonstrate knots used in boating: cleating hitch, bowline, clove hitch.",
-            "fact": "Scouts must demonstrate demonstrate knots used in boating: cleating hitch, bowline, clove hitch using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "fact_correction": "Scouts must demonstrate demonstrate knots used in boating: cleating hitch, bowline, clove hitch using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
+            "misconception": "Describing how to perform Knots Used in Boating verbally can substitute for a physical hands-on demonstration in Motorboating Requirement 5h.",
+            "fact": "Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate Knots Used in Boating with proper technique (p. 12, p. 53).",
+            "fact_correction": "Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate Knots Used in Boating with proper technique (p. 12, p. 53).",
+            "pamphlet_page_ref": "p. 12, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2256,7 +2715,12 @@
           ],
           "id": "5h",
           "sub_req_label": "5h",
-          "sub_req_text": "Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and sheet bend."
+          "sub_req_text": "Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and sheet bend.",
+          "topic_title": "Req 5h: Knots Used in Boating",
+          "pamphlet_summary": "Knots Used in Boating: Your Counselor or Other Adults Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 12).",
+          "pamphlet_excerpts": [
+            "Knots Used in Boating: Your Counselor or Other Adults Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 12)."
+          ]
         }
       ],
       "resources": [
@@ -2309,7 +2773,7 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: With your counselor or other adults",
+      "topic_title": "Req 5: Counselor or Other Adults",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
@@ -2318,37 +2782,44 @@
       "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Counselor or Other Adults)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(a) Board and assist others in boarding",
-          "(b) Fuel the boat and complete a safety check",
-          "(c) If equipped, attach the engine cut-off switch link and safely start the motor",
-          "(d) Run a course for at least a mile, showing procedures for overtaking",
-          "(e) Stop and secure the boat in position on the open water using anchors",
-          "(f) Land or dock the boat, disembark, and assist others in doing the same"
+          "(5a) Board and Assist Others",
+          "(5b) Fuel The Boat and Complete",
+          "(5c) Equipped Attach The Engine Cut-off",
+          "(5d) Run A Course",
+          "(5e) Stop and Secure The Boat",
+          "(5f) Land or Dock The Boat",
+          "(5g) Moor Dock or Beach",
+          "(5h) Knots Used in Boating"
         ],
-        "min_rows": 6,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(5a) Board and Assist Others",
+          "(5b) Fuel The Boat and Complete",
+          "(5c) Equipped Attach The Engine Cut-off",
+          "(5d) Run A Course",
+          "(5e) Stop and Secure The Boat",
+          "(5f) Land or Dock The Boat",
+          "(5g) Moor Dock or Beach",
+          "(5h) Knots Used in Boating"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on board and assist others in boarding.",
-        "fact": "Scouts must demonstrate board and assist others in boarding using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-        "fact_correction": "Scouts must demonstrate board and assist others in boarding using verified procedures, field evidence, and safety standards from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53).",
-        "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)"
+        "misconception": "Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Your Counselor or Other Adults activity (p. 12, p. 53).",
+        "fact_correction": "The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Your Counselor or Other Adults activity (p. 12, p. 53).",
+        "pamphlet_page_ref": "p. 12, p. 53"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2372,44 +2843,229 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Type III Life: Type III life jackets arerecommended for generalrecreational use. 5.",
-        "Buddy System Activity: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy with you.",
-        "Boat Goes Afloat: If your boat goes afloat, the samethe principles of the buddyrule applies, go with a buddy boat. system.",
-        "Individual Musthave Buddy: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water."
+        "Counselor or Other Adults: Your Counselor or Other Adults: Type III life jackets arerecommended for generalrecreational use. 5 (p. 12).",
+        "Counselor or Other Adults Principle 2: Your Counselor or Other Adults Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy (p. 12).",
+        "Counselor or Other Adults Principle 3: Your Counselor or Other Adults Principle 3: If your boat goes afloat, the same the principles of the buddyrule applies, go with a buddy boat. system (p. 12).",
+        "Counselor or Other Adults Principle 4: Your Counselor or Other Adults Principle 4: Every individual musthave a buddy, and every craft should have a buddy boat whenon the water (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Skill Proficiency: Skill Proficiency All participants in activity afloat must be trained and experiencedin watercraft handling skills, safety, and emergency procedures.",
-        "Anyone Operating Powerboat: Anyone operating a powerboat must be able to meetrequirements for the Motorboating merit badge or equivalent. 7.",
-        "Exactly Group Pullout: Know exactly where the group will put in and pullout, and what course it will follow.",
-        "Determine Stopoverpoints: Determine all stopoverpoints in advance, and review the plan beforehand with otherswho have made the trip recently."
+        "Step 1 (Counselor or Other Adults): Step 1 (Your Counselor or Other Adults): Skill Proficiency All participants in activity afloat must be trained and experiencedin watercraft handling skills, safety, and emergency procedures (p. 12).",
+        "Step 2 (Counselor or Other Adults): Step 2 (Your Counselor or Other Adults): Anyone operating a powerboat must be able to meetrequirements for the Motorboating merit badge or equivalent. 7 (p. 12).",
+        "Step 3 (Counselor or Other Adults): Step 3 (Your Counselor or Other Adults): Know exactly where the group will put in and pullout, and what course it will follow (p. 12).",
+        "Step 4 (Counselor or Other Adults): Step 4 (Your Counselor or Other Adults): Determine all stopoverpoints in advance, and review the plan beforehand with otherswho have made the trip recently (p. 12)."
       ],
       "gear_checklist": [
-        "Official Motorboating Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for With your counselor or other adults",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Motorboating Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Counselor or Other Adults)",
+        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
+        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
+        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Motorboating Req 5",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 5 - With your counselor or other adults",
-          "Primary Standard": "Board and assist others in boarding. Confirm that all passengers on board are wearing properly fitted life jackets.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Motorboating terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Motorboating Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Proactive Hazard Prevention (Your Counselor or Other Adults)",
+        "right_header": "Acute Emergency Response (Your Counselor or Other Adults)",
+        "left_points": [
+          "Eliminate environmental and equipment risks before starting.",
+          "Your Counselor or Other Adults: Type III life jackets arerecommended for generalrecreational use. 5 (p. 12).",
+          "Pre-activity PPE, weather, and buddy shakedown."
+        ],
+        "right_points": [
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Your Counselor or Other Adults Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy.",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Your Counselor or Other Adults: Type III life jackets arerecommended for generalrecreational use. 5 (p. 12).",
+            "right": "Your Counselor or Other Adults Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy "
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Motorboating Req 5 (Counselor or Other Adults)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
+        "fields": {
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Counselor or Other Adults.",
+          "Preventive Controls & PPE": "Counselor or Other Adults: Your Counselor or Other Adults: Type III life jackets arerecommended for generalrecreational use. 5 (p. 12).",
+          "Acute First-Aid Response": "Counselor or Other Adults Principle 2: Your Counselor or Other Adults Principle 2: Buddy System All activity afloat must follow Whenever you go boating, make sure you have abuddy.",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)."
+        },
+        "sample_output": "Counselor or Other Adults: Counselor or Other Adults: Your Counselor or Other Adults: Type III life jackets arerecommended for generalrecreational use. 5 (p. 12).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Motorboating Requirement 5 (Counselor or Other Adults), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Motorboating Requirement 5 (Counselor or Other Adults), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Counselor or Other Adults measurements and safety checks until after the field session concludes.",
+          "C. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+        ],
+        "choices": [
+          "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Counselor or Other Adults measurements and safety checks until after the field session concludes.",
+          "C. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "explanation": "Correct Answer (C): The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Your Counselor or Other Adults activity (p. 12, p. 53). (Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)).",
+        "pamphlet_page_ref": "p. 12, p. 53"
+      },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Motorboating Workbook organizer table and practical demonstration for Req 5."
     }
   ],
   "badge_slug": "motorboating",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0",
+  "schema_baseline_version": "2026.v30",
   "is_test_lab": false,
   "is_discontinued": false,
-  "status": "ACTIVE"
+  "status": "OFFICIAL",
+  "patrol_quiz_bank": [
+    {
+      "scenario_prompt": "While working on Motorboating Requirement 1 (Boating Safely), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Motorboating Requirement 1 (Boating Safely), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+        "B. Defer all Boating Safely measurements and safety checks until after the field session concludes.",
+        "C. Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+      ],
+      "choices": [
+        "A. Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
+        "B. Defer all Boating Safely measurements and safety checks until after the field session concludes.",
+        "C. Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual.",
+      "explanation": "Correct Answer (C): Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming. (Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)).",
+      "pamphlet_page_ref": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Motorboating Requirement 2 (BSA Swimmer Qualification and Safety), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Motorboating Requirement 2 (BSA Swimmer Qualification and Safety), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate BSA.",
+        "B. Describing how to perform BSA Swimmer Qualification and Safety verbally can substitute for a physical hands-on demonstration in.",
+        "C. Defer all BSA Swimmer Qualification and Safety measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+      ],
+      "choices": [
+        "A. Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate BSA.",
+        "B. Describing how to perform BSA Swimmer Qualification and Safety verbally can substitute for a physical hands-on demonstration in.",
+        "C. Defer all BSA Swimmer Qualification and Safety measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate BSA.",
+      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Motorboating pamphlet, each Scout must physically execute and demonstrate BSA Swimmer Qualification and Safety with proper technique (p. 11, p. 19). (Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)).",
+      "pamphlet_page_ref": "p. 11, p. 19",
+      "req_id": "2",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Motorboating Requirement 3 (Inboard, outboard, and inboard/outboard motors), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Motorboating Requirement 3 (Inboard, outboard, and inboard/outboard motors), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Inboard, outboard, and inboard/outboard motors measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure.",
+        "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "choices": [
+        "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Inboard, outboard, and inboard/outboard motors measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure.",
+        "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (D): The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Inboard, outboard, and inboard/outboard motors activity (p. 53, p. 70). (Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)).",
+      "pamphlet_page_ref": "p. 53, p. 70",
+      "req_id": "3",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Motorboating Requirement 4 (You know safety guidelines for motorboating), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Motorboating Requirement 4 (You know safety guidelines for motorboating), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all You know safety guidelines for motorboating measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure.",
+        "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "choices": [
+        "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all You know safety guidelines for motorboating measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure.",
+        "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (D): The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any You know safety guidelines for motorboating activity (p. 8, p. 12). (Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)).",
+      "pamphlet_page_ref": "p. 8, p. 12",
+      "req_id": "4",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Motorboating Requirement 5 (Counselor or Other Adults), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Motorboating Requirement 5 (Counselor or Other Adults), your patrol encounters a decision point on proper procedure. According to the Motorboating Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Counselor or Other Adults measurements and safety checks until after the field session concludes.",
+        "C. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+      ],
+      "choices": [
+        "A. Experienced Motorboating participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Counselor or Other Adults measurements and safety checks until after the field session concludes.",
+        "C. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Motorboating pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (C): The Motorboating pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Your Counselor or Other Adults activity (p. 12, p. 53). (Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)).",
+      "pamphlet_page_ref": "p. 12, p. 53",
+      "req_id": "5",
+      "option_id": null
+    }
+  ],
+  "quartermaster_manifest": {
+    "badge_name": "Motorboating",
+    "patrol_equipment": [
+      "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
+      "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs",
+      "Emergency action plan checklist and simulated patient assessment cards",
+      "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout",
+      "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle",
+      "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board"
+    ],
+    "individual_scout_gear": [
+      "Official Motorboating Merit Badge Pamphlet",
+      "Printed or Fillable Motorboating Scout Workbook",
+      "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
+      "Field notebook, pen/pencil, and personal safety equipment (PPE)"
+    ]
+  }
 }

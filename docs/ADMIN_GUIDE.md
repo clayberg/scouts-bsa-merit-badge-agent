@@ -4,7 +4,7 @@ This guide explains how system administrators and curriculum maintainers unlock 
 
 While the standard Counselor Workbench interface (**[User Guide (`docs/USER_GUIDE.md`)](USER_GUIDE.md)**) and the built-in Model Context Protocol server (**[MCP Server Integration Guide (`docs/MCP_SERVER_INTEGRATION_GUIDE.md`)](MCP_SERVER_INTEGRATION_GUIDE.md)**) stay focused on preparing classes, applying PowerPoint templates, managing multi-badge deck workspaces, presenting slides, and tracking Blue Card requirements for Scouts, the **Super-User Admin Console** gives authorized maintainers a dedicated control center to:
 
-- Browse and curate the **4,124 built-in visual assets** (**2,425 100%-Vision-verified BSA Pamphlet figures**, **1,401 pre-generated Nano Banana requirement hero & topic illustrations**, **149 badge emblems**, and **149 pamphlet covers**) across all **149 Merit Badges** (`143` Active Official Merit Badges including *Sewing and Needlework*, `5` Scouting America Test Lab Pilots: *Auctioneering*, *Dance*, *Physics*, *Psychology*, and *Sewing and Needlework*, and `1` Discontinued Historical badge: *Citizenship in Society* annotated with a red `🚫 Discontinued` indicator in the Patch Gallery).
+- Browse and curate the **4,958 built-in visual assets** (**2,425 100%-Vision-verified BSA Pamphlet figures**, **2,235 pre-generated Nano Banana requirement hero, child-slide topic, multi-option & workbook reference illustrations**, **149 badge emblems**, and **149 pamphlet covers**) across all **149 Merit Badges** (`143` Active Official Merit Badges including *Wildland Fire Management*, `5` Scouting America Test Lab Pilots: *Auctioneering*, *Dance*, *Physics*, *Psychology*, and *Sewing and Needlework*, and `1` Discontinued Historical badge: *Citizenship in Society* annotated with a red `🚫 Discontinued` indicator in the Patch Gallery).
 - Edit image titles, Vision-verified captions, and requirement mappings in place, with automatic synchronization to both the per-badge catalog (`assets/badge_image_catalog/<slug>/catalog.json`) and the master pamphlet image catalog (`data/pamphlet_image_catalog.json`).
 - Promote a preferred `Pamphlet Alternate #1` or `Pamphlet Alternate #2` image to become the default **Primary** visual for a requirement in one click.
 - Re-run multimodal **Gemini 2.5 Flash Vision** captioning on individual catalog figures, replace a built-in catalog asset on disk (`📤 Replace / Upload Built-In Asset`, quantized to an 8-bit PNG with an automatic `.bak.<timestamp>` backup), or regenerate a Nano Banana illustration in place (`🍌 Regenerate AI Image In-Place`).
@@ -74,6 +74,15 @@ To end an administrative session at any time, click **`🔒 Lock Admin Session`*
 In the top-right header of the Admin Console (`#admin-console-header-card`), the **`[ ] Add DMBC & HVSC Customizations`** checkbox lets maintainers switch between a completely generic Scouting America workbench and a customized Danvers Merit Badge College (`DMBC`) and Camp Hidden Valley (`HVSC`) experience:
 - **Unchecked (`false`, Default)**: Hides or genericizes all Danvers MBC and Hidden Valley templates, venue macros, duration labels, room/location presets, camp tags, sample prompts, and workspace card badges so the words `"Danvers"`, `"Hidden Valley"`, `"Holten-Richmond"`, and `"Griswold"` never appear anywhere in the UI (retaining generic Scouting labels such as `🏫 Merit Badge College`, `🏕️ Summer Camp`, and `Main School Building - Room 107 (MBC)`).
 - **Checked (`true`)**: Enables the built-in **Camp Hidden Valley (Griswold Scout Reservation)** and **Danvers Merit Badge College** templates in the Template Studio, restores the `🏫 Danvers MBC` and `🏕️ Camp Hidden Valley` 1-click venue macros, and reveals the `Holten-Richmond MS` and `Camp Hidden Valley` classroom and waterfront location presets.
+
+### 5-Step Pre-Merit-Badge-College Admin Readiness Checklist
+
+Before hosting a District Merit Badge College, Council University of Scouting, or Summer Camp week, run through this 5-step readiness check in the Admin Console (`Ctrl + Shift + A`):
+1. **Configure Venue Customizations**: Check **`Add DMBC & HVSC Customizations`** if hosting Danvers Merit Badge College or Camp Hidden Valley (or leave it unchecked for a council-neutral Scouting America event).
+2. **Refresh Civic Grounding Cache**: On Tab 3, click **`🏛️ Refresh 100 U.S. Senators Cache`** so *Citizenship in the Nation* Requirement 8 decks have up-to-date congressional delegation details for your state.
+3. **Verify 149-Badge Asset Health**: On Tab 3, confirm **`149/149`** green checkmarks across `Cover`, `Emblem`, `Pamphlet Figs`, `Nano Heroes`, and `PDF & Index` (click **`🔧 Verify & Repair 149 Covers & Emblems`** if any local cache file was moved).
+4. **Review Visual Swap Hotspots**: On Tab 2, check the **Anonymous Visual Swap & Regeneration Hotspots** table and click **`🔍 Open in Studio`** to promote any counselor-preferred alternate figure to Primary default.
+5. **Export Baseline Telemetry Snapshot**: On Tab 3, click **`📥 Download Zero-PII Telemetry Snapshot (.JSON)`** to archive a pre-event baseline of catalog SHA-256 hashes and usage counters.
 
 ---
 
@@ -193,7 +202,7 @@ Configure the following environment variables in `.env` (for local runs) or in y
 
 ## 8. Admin REST API Reference (`/api/v1/admin/*` & `/api/admin/*`)
 
-All administrative endpoints are defined in `src/server.py` and exported in `docs/openapi.yaml` (part of the `141` total OpenAPI 3.1 paths). Both `/api/v1/admin/*` and `/api/admin/*` route aliases are supported:
+All administrative endpoints are defined in `src/server.py` and exported in `docs/openapi.yaml` (part of the `158` total OpenAPI 3.1 paths). Both `/api/v1/admin/*` and `/api/admin/*` route aliases are supported:
 
 | Method & Path | Request Payload / Query Params | Response Summary |
 | :--- | :--- | :--- |

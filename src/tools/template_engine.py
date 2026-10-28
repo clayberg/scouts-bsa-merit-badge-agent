@@ -29,6 +29,8 @@ from pptx.enum.shapes import MSO_SHAPE
 from pptx.util import Inches
 from pydantic import BaseModel, Field
 
+from src.tools.asset_hydrator import hydrate_single_asset_on_demand
+
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 TEMPLATES_DIR = REPO_ROOT / "assets" / "templates"
 OVERLAYS_DIR = TEMPLATES_DIR / "overlays"
@@ -800,7 +802,223 @@ BUILTIN_TEMPLATES: List[TemplateProfile] = [
             suppress_native_footer=True,
         ),
     ),
+    # 7. Specialty Program & Heritage Editions (6 New Built-In Templates -> 23 Built-In Total)
+    TemplateProfile(
+        template_id="stem_nova_blueprint",
+        name="STEM Nova Engineering • Blueprint",
+        category="Scouting America Official",
+        family_id="stem_nova_series",
+        family_name="9. STEM Nova & Specialty Programs",
+        variant_label="Blueprint",
+        variant_swatch_hex="#1E3A8A",
+        description="STEM Nova engineering blueprint template in Cobalt (#1E3A8A), Circuit Teal (#0284C7), and Amber (#D97706) with a robotics & laboratory washed cover backdrop.",
+        is_builtin=True,
+        pptx_path="assets/templates/scouting_america_topographic.pptx",
+        content_layout_index=6,
+        cover_layout_index=0,
+        use_native_master_layouts=False,
+        primary_hex="#1E3A8A",
+        accent_hex="#0284C7",
+        card_bg_hex="#EFF6FF",
+        cover_bg_url="assets/templates/overlays/nano_base_stem_robotics_lab.jpg",
+        canvas_watermark_url="/assets/templates/overlays/topographic_contour_bg.png",
+        bottom_bar_hex="#1E3A8A",
+        bottom_accent_hex="#D97706",
+        corner_logo_url="/assets/templates/overlays/scouting_america_horiz_color.png",
+        corner_logo_dark_url="/assets/templates/overlays/scouting_america_horiz_white.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.18,
+            header_height_in=0.80,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.86,
+            safety_bar_height_in=0.68,
+            footer_top_in=6.98,
+            footer_max_width_in=9.50,
+            suppress_native_footer=True,
+        ),
+    ),
+    TemplateProfile(
+        template_id="eagle_court_of_honor",
+        name="Eagle Court of Honor • Navy & Silver",
+        category="Heritage & High Adventure",
+        family_id="eagle_court_series",
+        family_name="10. Eagle Court of Honor & Ceremonial Series",
+        variant_label="Navy & Silver",
+        variant_swatch_hex="#0F172A",
+        description="Formal Eagle Scout Court of Honor template in Royal Navy (#0F172A), Eagle Crimson (#DC2626), and Sterling Silver (#475569) with a Capitol civic heritage cover backdrop.",
+        is_builtin=True,
+        pptx_path="assets/templates/classic_fleur_navy_crest.pptx",
+        content_layout_index=6,
+        cover_layout_index=6,
+        use_native_master_layouts=False,
+        primary_hex="#0F172A",
+        accent_hex="#DC2626",
+        card_bg_hex="#F8FAFC",
+        cover_bg_url="assets/templates/overlays/nano_base_citizenship_capitol_civic.jpg",
+        bottom_bar_hex="#0F172A",
+        bottom_accent_hex="#475569",
+        corner_logo_url="/assets/templates/overlays/scouting_fleur_color.png",
+        corner_logo_dark_url="/assets/templates/overlays/scouting_fleur_color.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.18,
+            header_height_in=0.80,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.86,
+            safety_bar_height_in=0.68,
+            footer_top_in=6.98,
+            footer_max_width_in=11.20,
+            suppress_native_footer=True,
+        ),
+    ),
+    TemplateProfile(
+        template_id="sea_scouts_maritime",
+        name="Sea Scouts Maritime • Admiral Navy",
+        category="Scouting America Official",
+        family_id="sea_scouts_series",
+        family_name="11. Sea Scouts & Venturing Series",
+        variant_label="Admiral Navy",
+        variant_swatch_hex="#0C4A6E",
+        description="Sea Scouts maritime navigation and aquatics template in Dress Navy (#0C4A6E), Ocean Teal (#0D9488), and Brass (#B45309) with a coastal lighthouse waterfront cover backdrop.",
+        is_builtin=True,
+        pptx_path="assets/templates/bsa_scouting_america_blue.pptx",
+        content_layout_index=6,
+        cover_layout_index=0,
+        use_native_master_layouts=False,
+        primary_hex="#0C4A6E",
+        accent_hex="#0D9488",
+        card_bg_hex="#F0FDFA",
+        cover_bg_url="assets/templates/overlays/nano_base_aquatics_nautical.jpg",
+        bottom_bar_hex="#0C4A6E",
+        bottom_accent_hex="#B45309",
+        corner_logo_url="/assets/templates/overlays/scouting_america_horiz_color.png",
+        corner_logo_dark_url="/assets/templates/overlays/scouting_america_horiz_white.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.18,
+            header_height_in=0.80,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.86,
+            safety_bar_height_in=0.68,
+            footer_top_in=6.98,
+            footer_max_width_in=9.50,
+            suppress_native_footer=True,
+        ),
+    ),
+    TemplateProfile(
+        template_id="oa_ceremonial_lodge",
+        name="Order of the Arrow • Lodge Sash",
+        category="Heritage & High Adventure",
+        family_id="oa_ceremonial_series",
+        family_name="10. Eagle Court of Honor & Ceremonial Series",
+        variant_label="Lodge Sash",
+        variant_swatch_hex="#B91C1C",
+        description="Order of the Arrow ceremonial lodge template in Ceremonial Pine (#1F2937), Sash Scarlet (#B91C1C), and Warm Gold (#B45309) with a pinewood campfire clearing cover backdrop.",
+        is_builtin=True,
+        pptx_path="assets/templates/classic_fleur_crimson_crest.pptx",
+        content_layout_index=6,
+        cover_layout_index=6,
+        use_native_master_layouts=False,
+        primary_hex="#1F2937",
+        accent_hex="#B91C1C",
+        card_bg_hex="#FEF2F2",
+        cover_bg_url="assets/templates/overlays/nano_base_pinewood_campfire.jpg",
+        bottom_bar_hex="#1F2937",
+        bottom_accent_hex="#B45309",
+        corner_logo_url="/assets/templates/overlays/scouting_fleur_color.png",
+        corner_logo_dark_url="/assets/templates/overlays/scouting_fleur_color.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.18,
+            header_height_in=0.80,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.86,
+            safety_bar_height_in=0.68,
+            footer_top_in=6.98,
+            footer_max_width_in=11.20,
+            suppress_native_footer=True,
+        ),
+    ),
+    TemplateProfile(
+        template_id="venturing_alpine_emerald",
+        name="Venturing High Adventure • Alpine Emerald",
+        category="Heritage & High Adventure",
+        family_id="venturing_series",
+        family_name="11. Sea Scouts & Venturing Series",
+        variant_label="Alpine Emerald",
+        variant_swatch_hex="#065F46",
+        description="Venturing high-adventure backcountry template in Venturing Green (#065F46), Summit Slate (#334155), and Gold (#D97706) with an alpine summit ridge cover backdrop.",
+        is_builtin=True,
+        pptx_path="assets/templates/scouting_america_topographic_green.pptx",
+        content_layout_index=6,
+        cover_layout_index=0,
+        use_native_master_layouts=False,
+        primary_hex="#065F46",
+        accent_hex="#334155",
+        card_bg_hex="#ECFDF5",
+        cover_bg_url="assets/templates/overlays/nano_base_high_adventure_summit.jpg",
+        canvas_watermark_url="/assets/templates/overlays/topographic_contour_green_bg.png",
+        bottom_bar_hex="#065F46",
+        bottom_accent_hex="#D97706",
+        corner_logo_url="/assets/templates/overlays/scouting_america_horiz_color.png",
+        corner_logo_dark_url="/assets/templates/overlays/scouting_america_horiz_white.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.18,
+            header_height_in=0.80,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.86,
+            safety_bar_height_in=0.68,
+            footer_top_in=6.98,
+            footer_max_width_in=9.50,
+            suppress_native_footer=True,
+        ),
+    ),
+    TemplateProfile(
+        template_id="wood_badge_gilwell",
+        name="Wood Badge Heritage • MacLaren Tartan",
+        category="Heritage & High Adventure",
+        family_id="wood_badge_series",
+        family_name="12. Wood Badge Gilwell Heritage",
+        variant_label="MacLaren Tartan",
+        variant_swatch_hex="#14532D",
+        description="Wood Badge Gilwell leadership heritage template in Gilwell Forest (#14532D), Tartan Crimson (#991B1B), and Buff (#92400E) with a pioneering timber tower cover backdrop.",
+        is_builtin=True,
+        pptx_path="assets/templates/wilderness_camp_timber.pptx",
+        content_layout_index=6,
+        cover_layout_index=6,
+        use_native_master_layouts=False,
+        primary_hex="#14532D",
+        accent_hex="#991B1B",
+        card_bg_hex="#FEFCE8",
+        cover_bg_url="assets/templates/overlays/nano_base_pioneering_timber_tower.jpg",
+        canvas_watermark_url="/assets/templates/overlays/topographic_contour_tan_bg.png",
+        bottom_bar_hex="#14532D",
+        bottom_accent_hex="#92400E",
+        corner_logo_url="/assets/templates/overlays/scouting_fleur_color.png",
+        corner_logo_dark_url="/assets/templates/overlays/scouting_fleur_color.png",
+        safe_bounds=SafeCanvasBounds(
+            left_in=0.60,
+            right_in=12.733,
+            header_top_in=0.18,
+            header_height_in=0.80,
+            content_top_min_in=1.12,
+            content_bottom_max_in=6.86,
+            safety_bar_height_in=0.68,
+            footer_top_in=6.98,
+            footer_max_width_in=11.20,
+            suppress_native_footer=True,
+        ),
+    ),
 ]
+
+BUILT_IN_TEMPLATES: List[TemplateProfile] = BUILTIN_TEMPLATES
 
 # Optional Camp & Merit Badge College Customizations (Visible when 'Add DMBC & HVSC Customizations' is enabled in Admin Console)
 DMBC_HVSC_TEMPLATES: List[TemplateProfile] = [
@@ -1107,19 +1325,52 @@ def save_template_catalog(profiles: List[TemplateProfile]) -> None:
     _CATALOG_MTIME = cat_mtime + reg_mtime
 
 
-def get_template_profile(template_id: Optional[str]) -> TemplateProfile:
+def _resolve_and_hydrate_template_asset(rel_or_abs: str | Path) -> Path:
+    """Resolves a template or backdrop path on disk, calling `hydrate_single_asset_on_demand` for `assets/...` paths."""
+    if isinstance(rel_or_abs, Path):
+        try:
+            rel_str = rel_or_abs.resolve().relative_to(REPO_ROOT.resolve()).as_posix()
+        except Exception:
+            rel_str = str(rel_or_abs).lstrip("/")
+        disk_path = rel_or_abs
+    else:
+        rel_str = str(rel_or_abs or "").split("?")[0].strip().lstrip("/")
+        disk_path = REPO_ROOT / rel_str
+    if rel_str.startswith("assets/"):
+        try:
+            hydrate_single_asset_on_demand(rel_str, repo_root=REPO_ROOT)
+        except Exception:
+            pass
+    return disk_path
+
+
+def get_template_profile(
+    template_id: Optional[str],
+    badge_name: str = "",
+    cover_backdrop_id: str = "AUTO_TEMPLATE",
+) -> TemplateProfile:
     """Resolves a `TemplateProfile` by `template_id`, falling back to `default_workbench`."""
     norm = str(template_id or "default_workbench").strip() or "default_workbench"
+    matched: Optional[TemplateProfile] = None
     for prof in load_template_catalog():
         if prof.template_id == norm:
-            return prof
-    return BUILTIN_TEMPLATES[0]
+            matched = prof
+            break
+    if matched is None:
+        matched = BUILTIN_TEMPLATES[0]
+    norm_bd = str(cover_backdrop_id or "AUTO_TEMPLATE").strip()
+    if matched.is_builtin and matched.template_id != "default_workbench" and not matched.cover_bg_url and norm_bd.upper() in ("", "AUTO", "AUTO_TEMPLATE") and badge_name:
+        cloned = matched.model_copy(deep=True)
+        cloned.cover_bg_url = resolve_default_cover_backdrop_for_badge(badge_name, cloned.template_id)
+        return cloned
+    return matched
 
 
 def resolve_effective_slide_style(
     template_profile: Any = None,
     deck_style: Optional[Any] = None,
     slide_spec: Optional[Any] = None,
+    badge_name: str = "",
 ) -> Dict[str, Any]:
     """Resolves the effective slide layout & chrome styling with strict precedence:
     1. Per-slide override (`slide_spec.container_style_override`, `card_theme_style`, or `visual_theme` when set to a layout style).
@@ -1131,16 +1382,16 @@ def resolve_effective_slide_style(
     if isinstance(template_profile, TemplateProfile):
         prof = template_profile
     elif isinstance(template_profile, dict) and template_profile.get("template_id"):
-        prof = get_template_profile(str(template_profile.get("template_id")))
+        prof = get_template_profile(str(template_profile.get("template_id")), badge_name=badge_name)
     elif isinstance(template_profile, str) and template_profile.strip():
-        prof = get_template_profile(template_profile.strip())
+        prof = get_template_profile(template_profile.strip(), badge_name=badge_name)
     else:
         slide_tpl = None
         if isinstance(slide_spec, dict):
             slide_tpl = slide_spec.get("template_id")
         elif slide_spec is not None:
             slide_tpl = getattr(slide_spec, "template_id", None)
-        prof = get_template_profile(str(slide_tpl or "default_workbench"))
+        prof = get_template_profile(str(slide_tpl or "default_workbench"), badge_name=badge_name)
 
     # Normalize deck_style dict
     ds: Dict[str, Any] = {}
@@ -1230,6 +1481,19 @@ def resolve_effective_slide_style(
 
     match_palette = bool(ds.get("match_template_palette", True))
 
+    cover_backdrop_id = str(ds.get("cover_backdrop_id") or "AUTO_TEMPLATE").strip()
+    eff_cover_bg_url = str(getattr(prof, "cover_bg_url", "") or "").strip()
+    if cover_backdrop_id.upper() == "NONE":
+        eff_cover_bg_url = ""
+    elif cover_backdrop_id and cover_backdrop_id.upper() not in ("", "AUTO", "AUTO_TEMPLATE"):
+        by_bid = {item["id"]: item["url"] for item in NANO_BUILT_IN_BACKDROPS_CATALOG}
+        eff_cover_bg_url = by_bid.get(cover_backdrop_id.lower(), eff_cover_bg_url)
+    elif not eff_cover_bg_url and getattr(prof, "is_builtin", True):
+        eff_cover_bg_url = resolve_default_cover_backdrop_for_badge(
+            badge_name or str(ds.get("badge_name") or ""),
+            prof.template_id,
+        )
+
     return {
         "template_id": prof.template_id,
         "layout_style_preset": raw_preset,
@@ -1240,6 +1504,8 @@ def resolve_effective_slide_style(
         "font_size_delta_pt": font_size_delta_pt,
         "safety_banner_mode": safety_mode,
         "match_template_palette": match_palette,
+        "cover_backdrop_id": cover_backdrop_id,
+        "cover_bg_url": eff_cover_bg_url,
         "explicit_image_frame_override": gran_img in ("FRAMELESS_CLEAN", "SOFT_SHADOW", "FRAMED_CARD") or raw_preset != "AUTO_TEMPLATE",
         "explicit_header_chrome_override": gran_hdr in ("MINIMAL_ACCENT", "COMPACT_SINGLE_LINE", "FULL_BANNER") or raw_preset != "AUTO_TEMPLATE",
     }
@@ -1742,21 +2008,35 @@ def decorate_slide_with_template_chrome(
     profile: TemplateProfile,
     is_cover: bool = False,
     tier: str = "BEAUTIFIED",
+    badge_name: str = "",
+    cover_backdrop_id: str = "AUTO_TEMPLATE",
 ) -> None:
     """Applies template watermark, top header strip, bottom silhouette/bar, and corner logo shapes onto a slide when not already in the native layout."""
-    if profile.template_id == "default_workbench":
-        return
-
     norm_tier = normalize_visual_theme(tier)
+    norm_bd = str(cover_backdrop_id or "AUTO_TEMPLATE").strip()
+
+    # Resolve effective cover_bg_url (auto-matching built-in templates with cover_bg_url == "" when AUTO_TEMPLATE)
+    eff_cover_bg_url = str(profile.cover_bg_url or "").strip()
+    if norm_bd.upper() == "NONE":
+        eff_cover_bg_url = ""
+    elif norm_bd and norm_bd.upper() not in ("", "AUTO", "AUTO_TEMPLATE"):
+        by_bid = {item["id"]: item["url"] for item in NANO_BUILT_IN_BACKDROPS_CATALOG}
+        eff_cover_bg_url = by_bid.get(norm_bd.lower(), eff_cover_bg_url)
+    elif is_cover and not eff_cover_bg_url and profile.is_builtin and profile.template_id != "default_workbench":
+        eff_cover_bg_url = resolve_default_cover_backdrop_for_badge(badge_name, profile.template_id)
 
     # 1. Cover hero background or subtle content-slide watermark
-    if is_cover and profile.cover_bg_url and not profile.use_native_master_layouts:
-        cov_disk = REPO_ROOT / profile.cover_bg_url.lstrip("/")
+    if is_cover and eff_cover_bg_url and (
+        not profile.use_native_master_layouts
+        or profile.template_id in ("scouting_america_forest_sunrise", "scouting_america_250")
+    ):
+        cov_disk = _resolve_and_hydrate_template_asset(eff_cover_bg_url)
         if cov_disk.exists():
             try:
                 with Image.open(cov_disk) as cim:
                     c_rgb = cim.convert("RGB")
-                    veil = Image.new("RGB", c_rgb.size, (250, 248, 245))
+                    veil_rgb = (15, 23, 42) if norm_tier == "STUDIO" else (250, 248, 245)
+                    veil = Image.new("RGB", c_rgb.size, veil_rgb)
                     washed = Image.blend(veil, c_rgb, alpha=0.22)
                     buf = io.BytesIO()
                     washed.save(buf, format="JPEG", quality=90)
@@ -1765,18 +2045,34 @@ def decorate_slide_with_template_chrome(
                 pic.name = "TemplateChrome_CoverBg"
             except Exception:
                 pass
-    elif profile.canvas_watermark_url and norm_tier != "STUDIO":
-        wm_disk = REPO_ROOT / profile.canvas_watermark_url.lstrip("/")
+    elif profile.canvas_watermark_url:
+        wm_disk = _resolve_and_hydrate_template_asset(profile.canvas_watermark_url)
         if wm_disk.exists():
             try:
-                pic = slide.shapes.add_picture(str(wm_disk), Inches(0.0), Inches(0.0), width=Inches(13.333), height=Inches(7.5))
-                pic.name = "TemplateChrome_Watermark"
+                if norm_tier == "STUDIO":
+                    with Image.open(wm_disk) as wim:
+                        w_rgba = wim.convert("RGBA")
+                        r_ch, g_ch, b_ch, a_ch = w_rgba.split()
+                        dark_a = a_ch.point(lambda a: min(18, int(a * 0.35)))
+                        silver = Image.new("L", w_rgba.size, 180)
+                        dark_wm = Image.merge("RGBA", (silver, silver, silver, dark_a))
+                        wbuf = io.BytesIO()
+                        dark_wm.save(wbuf, format="PNG")
+                        wbuf.seek(0)
+                    pic = slide.shapes.add_picture(wbuf, Inches(0.0), Inches(0.0), width=Inches(13.333), height=Inches(7.5))
+                    pic.name = "TemplateChrome_Watermark"
+                else:
+                    pic = slide.shapes.add_picture(str(wm_disk), Inches(0.0), Inches(0.0), width=Inches(13.333), height=Inches(7.5))
+                    pic.name = "TemplateChrome_Watermark"
             except Exception:
                 pass
 
+    if profile.template_id == "default_workbench":
+        return
+
     # 1b. Top header strip / crest banner (e.g. Guide to Advancement green header strip or Fleur-de-Lis crest)
     if profile.top_banner_url and not profile.use_native_master_layouts:
-        top_disk = REPO_ROOT / profile.top_banner_url.lstrip("/")
+        top_disk = _resolve_and_hydrate_template_asset(profile.top_banner_url)
         if top_disk.exists():
             try:
                 with Image.open(top_disk) as tim:
@@ -1796,7 +2092,7 @@ def decorate_slide_with_template_chrome(
     # 2. Bottom horizon silhouette or composited custom footer banner (e.g., BSA Outdoor Adventure or Guide to Advancement)
     sil_url = profile.bottom_silhouette_dark_url if norm_tier == "STUDIO" else profile.bottom_silhouette_url
     if sil_url:
-        sil_disk = REPO_ROOT / sil_url.lstrip("/")
+        sil_disk = _resolve_and_hydrate_template_asset(sil_url)
         if sil_disk.exists():
             try:
                 sil_h = 0.56 if "_footer_banner" in sil_disk.name else 0.76
@@ -1822,7 +2118,7 @@ def decorate_slide_with_template_chrome(
     # 3. Bottom-right corner logo
     logo_url = profile.corner_logo_dark_url if norm_tier == "STUDIO" else profile.corner_logo_url
     if logo_url and not is_cover:
-        logo_disk = REPO_ROOT / logo_url.lstrip("/")
+        logo_disk = _resolve_and_hydrate_template_asset(logo_url)
         if logo_disk.exists():
             try:
                 with Image.open(logo_disk) as im:
@@ -1845,6 +2141,8 @@ def decorate_slide_with_template_chrome(
 
 def create_presentation_from_template(
     template_id: Optional[str] = None,
+    badge_name: str = "",
+    cover_backdrop_id: str = "AUTO_TEMPLATE",
 ) -> Tuple[Presentation, Callable[[bool, str], Any], SafeCanvasBounds, TemplateProfile]:
     """Instantiates a `Presentation` backed by `template_id` (Option C Hybrid).
 
@@ -1855,7 +2153,7 @@ def create_presentation_from_template(
       - `safe_bounds`: `SafeCanvasBounds` for AABB card/visual placement.
       - `profile`: `TemplateProfile` metadata.
     """
-    profile = get_template_profile(template_id)
+    profile = get_template_profile(template_id, badge_name=badge_name, cover_backdrop_id=cover_backdrop_id)
     prs: Optional[Presentation] = None
 
     if profile.pptx_path and profile.use_native_master_layouts:
@@ -1885,7 +2183,14 @@ def create_presentation_from_template(
     def _add_slide(is_cover: bool = False, tier: str = "BEAUTIFIED") -> Any:
         slide = prs.slides.add_slide(blank_layout)
         _strip_slide_placeholders(slide)
-        decorate_slide_with_template_chrome(slide, profile, is_cover=is_cover, tier=tier)
+        decorate_slide_with_template_chrome(
+            slide,
+            profile,
+            is_cover=is_cover,
+            tier=tier,
+            badge_name=badge_name,
+            cover_backdrop_id=cover_backdrop_id,
+        )
         return slide
 
     return prs, _add_slide, profile.safe_bounds, profile
@@ -2122,6 +2427,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "pinewood_campfire",
         "label": "🌲 Pinewood Forest & Campfire Clearing",
         "url": "/assets/templates/overlays/nano_base_pinewood_campfire.jpg",
+        "path": "assets/templates/overlays/nano_base_pinewood_campfire.jpg",
         "file": "nano_base_pinewood_campfire.jpg",
         "keywords": "pinewood forest campfire clearing woods timber camp tent lantern",
     },
@@ -2129,6 +2435,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "topographic_adventure",
         "label": "🏔️ High Adventure Alpine Summit Ridge",
         "url": "/assets/templates/overlays/nano_base_topographic_adventure.jpg",
+        "path": "assets/templates/overlays/nano_base_topographic_adventure.jpg",
         "file": "nano_base_topographic_adventure.jpg",
         "keywords": "topographic mountain summit ridge hiking trail peak high adventure backpack",
     },
@@ -2136,6 +2443,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "heritage_embroidery",
         "label": "🏕️ Rustic Timber Council Lodge & Stone Hearth",
         "url": "/assets/templates/overlays/nano_base_heritage_embroidery.jpg",
+        "path": "assets/templates/overlays/nano_base_heritage_embroidery.jpg",
         "file": "nano_base_heritage_embroidery.jpg",
         "keywords": "heritage lodge timber fireplace pavilion cabin council hall",
     },
@@ -2143,6 +2451,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "collegiate_mbc",
         "label": "🎓 Collegiate Brick Quadrangle & Bell Cupola",
         "url": "/assets/templates/overlays/nano_base_collegiate_mbc.jpg",
+        "path": "assets/templates/overlays/nano_base_collegiate_mbc.jpg",
         "file": "nano_base_collegiate_mbc.jpg",
         "keywords": "collegiate university school cupola campus academic danvers holten brick merit badge college",
     },
@@ -2150,6 +2459,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "aquatics_nautical",
         "label": "⚓ Coastal Lighthouse & Waterfront Dock",
         "url": "/assets/templates/overlays/nano_base_aquatics_nautical.jpg",
+        "path": "assets/templates/overlays/nano_base_aquatics_nautical.jpg",
         "file": "nano_base_aquatics_nautical.jpg",
         "keywords": "aquatics nautical lighthouse ocean harbor cove sail sea waterfront dock",
     },
@@ -2157,6 +2467,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "stem_blueprint",
         "label": "🔬 STEM Robotics Lab & Observatory Dome",
         "url": "/assets/templates/overlays/nano_base_stem_blueprint.jpg",
+        "path": "assets/templates/overlays/nano_base_stem_blueprint.jpg",
         "file": "nano_base_stem_blueprint.jpg",
         "keywords": "stem blueprint robot circuit observatory engineering cad lab workshop",
     },
@@ -2164,6 +2475,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "bsa_emblem_color",
         "label": "⚜️ Large Washed Color BSA Universal Emblem",
         "url": "/assets/templates/overlays/nano_base_bsa_emblem_color.jpg",
+        "path": "assets/templates/overlays/nano_base_bsa_emblem_color.jpg",
         "file": "nano_base_bsa_emblem_color.jpg",
         "keywords": "bsa logo emblem fleur de lis scouting america universal crest shield color",
     },
@@ -2171,6 +2483,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "apollo_rocket_launch",
         "label": "🚀 Space Exploration & Apollo Rocket Launch",
         "url": "/assets/templates/overlays/nano_base_apollo_rocket_launch.jpg",
+        "path": "assets/templates/overlays/nano_base_apollo_rocket_launch.jpg",
         "file": "nano_base_apollo_rocket_launch.jpg",
         "keywords": "apollo rocket launch space exploration nasa saturn pad astronautcape canaveral",
     },
@@ -2178,6 +2491,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "archery_target_range",
         "label": "🏹 Archery & Target Sports Timber Range",
         "url": "/assets/templates/overlays/nano_base_archery_target_range.jpg",
+        "path": "assets/templates/overlays/nano_base_archery_target_range.jpg",
         "file": "nano_base_archery_target_range.jpg",
         "keywords": "archery bow arrow target range shooting sports rifle shotgun",
     },
@@ -2185,6 +2499,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "pioneering_signal_tower",
         "label": "🪢 Pioneering Lashed Signal Tower & Monkey Bridge",
         "url": "/assets/templates/overlays/nano_base_pioneering_signal_tower.jpg",
+        "path": "assets/templates/overlays/nano_base_pioneering_signal_tower.jpg",
         "file": "nano_base_pioneering_signal_tower.jpg",
         "keywords": "pioneering signal tower monkey bridge lashing rope knot spar timber",
     },
@@ -2192,6 +2507,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "whitewater_kayak_rapids",
         "label": "🛶 Whitewater Kayaking & Canoeing River Rapids",
         "url": "/assets/templates/overlays/nano_base_whitewater_kayak_rapids.jpg",
+        "path": "assets/templates/overlays/nano_base_whitewater_kayak_rapids.jpg",
         "file": "nano_base_whitewater_kayak_rapids.jpg",
         "keywords": "whitewater kayak canoe rapids river paddle rafting watercraft",
     },
@@ -2199,6 +2515,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "first_aid_search_rescue",
         "label": "⛑️ Wilderness First Aid & Search-and-Rescue Basecamp",
         "url": "/assets/templates/overlays/nano_base_first_aid_search_rescue.jpg",
+        "path": "assets/templates/overlays/nano_base_first_aid_search_rescue.jpg",
         "file": "nano_base_first_aid_search_rescue.jpg",
         "keywords": "first aid emergency medical search rescue triage wilderness survival",
     },
@@ -2206,6 +2523,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "eagle_court_of_honor",
         "label": "🦅 Eagle Scout Court of Honor Ceremony Amphitheater",
         "url": "/assets/templates/overlays/nano_base_eagle_court_of_honor.jpg",
+        "path": "assets/templates/overlays/nano_base_eagle_court_of_honor.jpg",
         "file": "nano_base_eagle_court_of_honor.jpg",
         "keywords": "eagle court of honor ceremony amphitheater flag stage citizenship",
     },
@@ -2213,6 +2531,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "environmental_wetlands",
         "label": "🌿 Environmental Science & Nature Wetland Boardwalk",
         "url": "/assets/templates/overlays/nano_base_environmental_wetlands.jpg",
+        "path": "assets/templates/overlays/nano_base_environmental_wetlands.jpg",
         "file": "nano_base_environmental_wetlands.jpg",
         "keywords": "environmental science nature ecology wetland marsh boardwalk forestry wildlife",
     },
@@ -2220,6 +2539,7 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "aviation_glider_airfield",
         "label": "✈️ Aviation Airfield & Sailplane Glider Flight Line",
         "url": "/assets/templates/overlays/nano_base_aviation_glider_airfield.jpg",
+        "path": "assets/templates/overlays/nano_base_aviation_glider_airfield.jpg",
         "file": "nano_base_aviation_glider_airfield.jpg",
         "keywords": "aviation airplane aircraft glider sailplane airfield flight pilot airport",
     },
@@ -2227,15 +2547,128 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "id": "dutch_oven_camp_cooking",
         "label": "🍳 Campfire Dutch Oven & Backcountry Trail Cooking",
         "url": "/assets/templates/overlays/nano_base_dutch_oven_camp_cooking.jpg",
+        "path": "assets/templates/overlays/nano_base_dutch_oven_camp_cooking.jpg",
         "file": "nano_base_dutch_oven_camp_cooking.jpg",
         "keywords": "dutch oven cooking campfire hearth kitchen chuck box coals cast iron",
+    },
+    {
+        "id": "citizenship_capitol_civic",
+        "label": "🏛️ Capitol Dome, Constitution & Civic Heritage",
+        "url": "/assets/templates/overlays/nano_base_citizenship_capitol_civic.jpg",
+        "path": "assets/templates/overlays/nano_base_citizenship_capitol_civic.jpg",
+        "file": "nano_base_citizenship_capitol_civic.jpg",
+        "keywords": "citizenship capitol dome constitution civic heritage government law nation community world american",
+    },
+    {
+        "id": "personal_management_ledger",
+        "label": "🧭 Financial Ledger, Planning Compass & Time Management",
+        "url": "/assets/templates/overlays/nano_base_personal_management_ledger.jpg",
+        "path": "assets/templates/overlays/nano_base_personal_management_ledger.jpg",
+        "file": "nano_base_personal_management_ledger.jpg",
+        "keywords": "personal management financial ledger planning compass time budget family life entrepreneurship business",
+    },
+    {
+        "id": "fitness_cycling_trail",
+        "label": "🚴 Athletic Track, Cycling Trail & Personal Fitness",
+        "url": "/assets/templates/overlays/nano_base_fitness_cycling_trail.jpg",
+        "path": "assets/templates/overlays/nano_base_fitness_cycling_trail.jpg",
+        "file": "nano_base_fitness_cycling_trail.jpg",
+        "keywords": "athletic track cycling trail personal fitness sports athletics skating running",
+    },
+    {
+        "id": "communications_studio",
+        "label": "🎙️ Broadcast Microphone, Press Notebook & Council Podium",
+        "url": "/assets/templates/overlays/nano_base_communications_studio.jpg",
+        "path": "assets/templates/overlays/nano_base_communications_studio.jpg",
+        "file": "nano_base_communications_studio.jpg",
+        "keywords": "communication broadcast microphone press notebook council podium journalism public speaking radio theater",
+    },
+    {
+        "id": "trades_welding_workshop",
+        "label": "🛠️ Craftsman Workbench, Welding Sparks & Skilled Trades",
+        "url": "/assets/templates/overlays/nano_base_trades_welding_workshop.jpg",
+        "path": "assets/templates/overlays/nano_base_trades_welding_workshop.jpg",
+        "file": "nano_base_trades_welding_workshop.jpg",
+        "keywords": "trades welding workshop craftsman workbench sparks metalwork woodwork plumbing electricity automotive",
+    },
+    {
+        "id": "wildlife_forestry_conservation",
+        "label": "🦌 Old-Growth Forest Canopy, Wildlife Habitat & Conservation",
+        "url": "/assets/templates/overlays/nano_base_wildlife_forestry_conservation.jpg",
+        "path": "assets/templates/overlays/nano_base_wildlife_forestry_conservation.jpg",
+        "file": "nano_base_wildlife_forestry_conservation.jpg",
+        "keywords": "old growth forest canopy wildlife habitat conservation forestry mammal bird reptile nature fish",
+    },
+    {
+        "id": "astronomy_deep_space_observatory",
+        "label": "🔭 Night Sky Observatory Dome, Telescope & Milky Way",
+        "url": "/assets/templates/overlays/nano_base_astronomy_deep_space_observatory.jpg",
+        "path": "assets/templates/overlays/nano_base_astronomy_deep_space_observatory.jpg",
+        "file": "nano_base_astronomy_deep_space_observatory.jpg",
+        "keywords": "night sky observatory dome telescope milky way astronomy stars constellation galaxy deep space",
+    },
+    {
+        "id": "emergency_medical_triage",
+        "label": "🚑 Emergency First Aid Kit, Rescue Litter & Field Triage",
+        "url": "/assets/templates/overlays/nano_base_emergency_medical_triage.jpg",
+        "path": "assets/templates/overlays/nano_base_emergency_medical_triage.jpg",
+        "file": "nano_base_emergency_medical_triage.jpg",
+        "keywords": "emergency first aid kit rescue litter field triage preparedness lifesaving cpr medical health",
     },
 ]
 
 
 def list_nano_builtin_backdrops() -> List[Dict[str, str]]:
-    """Returns the catalog of 16 built-in Scouting washed background images."""
+    """Returns the catalog of 24 built-in Scouting washed background images."""
     return [dict(item) for item in NANO_BUILT_IN_BACKDROPS_CATALOG]
+
+
+_BADGE_KEYWORD_TO_BACKDROP_ID: List[Tuple[Tuple[str, ...], str]] = [
+    (("space exploration", "apollo", "rocket", "launch", "saturn", "nasa", "astronaut", "launchpad"), "apollo_rocket_launch"),
+    (("astronomy", "night sky", "observatory dome", "telescope", "milky way", "constellation", "planetarium"), "astronomy_deep_space_observatory"),
+    (("bsa logo", "bsa emblem", "universal emblem", "scouting logo", "color bsa"), "bsa_emblem_color"),
+    (("archery", "bow", "arrow", "target range", "rifle shooting", "shotgun shooting", "shooting sports"), "archery_target_range"),
+    (("pioneering", "signal tower", "monkey bridge", "lashing", "lashed", "spar", "timber tower"), "pioneering_signal_tower"),
+    (("whitewater", "kayaking", "kayak", "canoeing", "canoe", "rapids", "rafting", "paddle"), "whitewater_kayak_rapids"),
+    (("emergency preparedness", "emergency medical", "field triage", "rescue litter", "first aid kit", "dentistry", "health care", "medicine", "public health", "disabilities awareness"), "emergency_medical_triage"),
+    (("first aid", "search and rescue", "wilderness survival", "lifesaving", "safety", "fire safety", "crime prevention", "traffic safety", "signs, signals, and codes"), "first_aid_search_rescue"),
+    (("citizenship in the nation", "citizenship in the community", "citizenship in the world", "citizenship in society", "american heritage", "american cultures", "american labor", "law", "capitol dome", "constitution", "civic heritage"), "citizenship_capitol_civic"),
+    (("court of honor", "eagle scout", "amphitheater", "ceremony stage", "color guard", "scouting heritage"), "eagle_court_of_honor"),
+    (("personal management", "family life", "american business", "entrepreneurship", "salesmanship", "coin collecting", "stamp collecting", "collections", "genealogy", "scholarship", "reading", "financial ledger", "planning compass"), "personal_management_ledger"),
+    (("personal fitness", "cycling", "athletics", "sports", "skating", "golf", "geocaching", "horsemanship", "snow sports", "climbing", "athletic track", "cycling trail"), "fitness_cycling_trail"),
+    (("communication", "communications", "journalism", "public speaking", "radio", "theater", "moviemaking", "photography", "graphic arts", "music", "bugling", "animation", "art", "sculpture", "pottery", "broadcast microphone", "press notebook"), "communications_studio"),
+    (("welding", "metalwork", "woodwork", "wood carving", "plumbing", "electricity", "automotive maintenance", "home repairs", "painting", "Pulp and Paper", "pulp and paper", "textile", "leatherwork", "basketry", "model design", "composite materials", "drafting", "surveying", "farm mechanics", "truck transportation", "railroading", "craftsman workbench"), "trades_welding_workshop"),
+    (("forestry", "fish and wildlife", "mammal study", "bird study", "reptile and amphibian", "insect study", "nature", "plant science", "gardening", "landscape architecture", "animal science", "veterinary", "dog care", "pets", "horsemanship", "old-growth forest", "wildlife habitat"), "wildlife_forestry_conservation"),
+    (("environmental science", "sustainability", "soil and water", "oceanography", "weather", "geology", "energy", "wetland", "marsh", "boardwalk", "ecology"), "environmental_wetlands"),
+    (("aviation", "glider", "sailplane", "airfield", "airplane", "aircraft", "flight line"), "aviation_glider_airfield"),
+    (("cooking", "dutch oven", "camp cooking", "cast iron", "chuck box", "campfire cooking", "outdoor kitchen"), "dutch_oven_camp_cooking"),
+    (("collegiate", "university", "school", "cupola", "campus", "academic", "danvers", "holten", "brick"), "collegiate_mbc"),
+    (("swimming", "small-boat sailing", "motorboating", "water sports", "scuba", "rowing", "fishing", "fly-fishing", "aquatic", "nautical", "lighthouse", "ocean", "harbor", "cove", "sail", "waterfront"), "aquatics_nautical"),
+    (("robotics", "programming", "cybersecurity", "digital technology", "electronics", "engineering", "chemistry", "nuclear science", "mining in society", "inventing", "game design", "architecture", "chess", "stem", "blueprint", "robot", "circuit", "cad"), "stem_blueprint"),
+    (("indian lore", "archaeology", "Theater", "lodge", "fireplace", "council ring", "pavilion", "embroidery"), "heritage_embroidery"),
+    (("backpacking", "hiking", "orienteering", "mountaineering", "summit", "alpine", "mountain", "ridge", "topographic", "philmont"), "topographic_adventure"),
+    (("camping", "woodcraft", "totin", "firem", "pinewood", "campfire", "forest", "pine"), "pinewood_campfire"),
+]
+
+
+def resolve_default_cover_backdrop_for_badge(badge_name: str, template_id: str = "") -> str:
+    """Resolves the badge-matched washed cover backdrop relative URL (`assets/templates/overlays/nano_base_*.jpg`)."""
+    clean_badge = str(badge_name or "").strip()
+    clean_tpl = str(template_id or "").strip().lower()
+    if clean_tpl and not clean_badge:
+        for prof in [*BUILTIN_TEMPLATES, *DMBC_HVSC_TEMPLATES]:
+            if prof.template_id == clean_tpl and prof.cover_bg_url:
+                _resolve_and_hydrate_template_asset(prof.cover_bg_url)
+                return prof.cover_bg_url
+    resolved_path = _resolve_nano_photorealistic_base_cover(
+        visual_style=clean_badge or clean_tpl or "pinewood_campfire",
+        custom_prompt=clean_badge,
+    )
+    try:
+        rel_str = resolved_path.resolve().relative_to(REPO_ROOT.resolve()).as_posix()
+        return f"/{rel_str}" if not rel_str.startswith("/") else rel_str
+    except Exception:
+        return f"/assets/templates/overlays/{resolved_path.name}"
 
 
 def _match_badge_catalog_photo_for_prompt(custom_prompt: str) -> Optional[Path]:
@@ -2274,7 +2707,7 @@ def _match_badge_catalog_photo_for_prompt(custom_prompt: str) -> Optional[Path]:
 
 
 def _resolve_nano_photorealistic_base_cover(
-    visual_style: str,
+    visual_style: str = "pinewood_campfire",
     custom_prompt: str = "",
     family_id: str = "",
     allow_live_synthesis: bool = False,
@@ -2290,42 +2723,29 @@ def _resolve_nano_photorealistic_base_cover(
     clean_backdrop_id = str(backdrop_id or "").strip().lower()
     by_id = {item["id"]: OVERLAYS_DIR / item["file"] for item in NANO_BUILT_IN_BACKDROPS_CATALOG}
 
-    # If user explicitly chose one of the 16 built-in backdrops from the dropdown:
+    # If user explicitly chose one of the 24 built-in backdrops from the dropdown:
     if clean_backdrop_id and clean_backdrop_id not in ("auto", "ai_prompt", "custom_upload"):
         explicit_path = by_id.get(clean_backdrop_id)
-        if explicit_path and explicit_path.exists():
-            return explicit_path
+        if explicit_path is not None:
+            _resolve_and_hydrate_template_asset(explicit_path)
+            if explicit_path.exists():
+                return explicit_path
 
     style_key = str(visual_style or "pinewood_campfire").strip().lower()
     custom_lc = (custom_prompt or "").strip().lower()
+    # Allow calling `_resolve_nano_photorealistic_base_cover(badge_name)` with 1 positional argument
+    search_lc = custom_lc if custom_lc else (style_key if style_key not in by_id else "")
 
-    # Check if the prompt strongly matches one of our 16 purpose-built high-resolution Scouting backdrops
-    keyword_priority: List[Tuple[Tuple[str, ...], str]] = [
-        (("apollo", "rocket", "launch", "saturn", "nasa", "astronaut", "space exploration", "launchpad"), "apollo_rocket_launch"),
-        (("bsa logo", "bsa emblem", "fleur", "universal emblem", "scouting logo", "color bsa"), "bsa_emblem_color"),
-        (("archery", "bow", "arrow", "target range", "rifle", "shotgun", "shooting sports"), "archery_target_range"),
-        (("pioneer", "signal tower", "monkey bridge", "lashing", "lashed", "spar"), "pioneering_signal_tower"),
-        (("whitewater", "kayak", "canoe", "rapids", "rafting", "paddle"), "whitewater_kayak_rapids"),
-        (("first aid", "search and rescue", "triage", "emergency medical", "stretcher", "wilderness survival"), "first_aid_search_rescue"),
-        (("court of honor", "eagle scout", "amphitheater", "ceremony stage", "color guard"), "eagle_court_of_honor"),
-        (("wetland", "marsh", "boardwalk", "environmental science", "ecology", "wildlife", "nature study"), "environmental_wetlands"),
-        (("aviation", "glider", "sailplane", "airfield", "airplane", "aircraft", "flight line"), "aviation_glider_airfield"),
-        (("dutch oven", "camp cooking", "cast iron", "chuck box", "campfire cooking", "outdoor kitchen"), "dutch_oven_camp_cooking"),
-        (("collegiate", "university", "school", "cupola", "campus", "academic", "danvers", "holten", "brick"), "collegiate_mbc"),
-        (("aquatic", "nautical", "lighthouse", "ocean", "harbor", "cove", "sail", "waterfront"), "aquatics_nautical"),
-        (("stem", "blueprint", "robot", "circuit", "observatory", "engineering", "cad"), "stem_blueprint"),
-        (("lodge", "fireplace", "council ring", "pavilion"), "heritage_embroidery"),
-        (("summit", "alpine", "mountain", "ridge", "topographic", "philmont"), "topographic_adventure"),
-        (("pinewood", "campfire", "forest", "pine"), "pinewood_campfire"),
-    ]
     matched_builtin_path: Optional[Path] = None
-    if custom_lc:
-        for kw_tuple, bid in keyword_priority:
-            if any(k in custom_lc for k in kw_tuple):
+    if search_lc:
+        for kw_tuple, bid in _BADGE_KEYWORD_TO_BACKDROP_ID:
+            if any(k in search_lc for k in kw_tuple):
                 cand_p = by_id.get(bid)
-                if cand_p and cand_p.exists():
-                    matched_builtin_path = cand_p
-                    break
+                if cand_p is not None:
+                    _resolve_and_hydrate_template_asset(cand_p)
+                    if cand_p.exists():
+                        matched_builtin_path = cand_p
+                        break
 
     # Live AI Image Synthesis when requested (`ai_prompt` or custom_prompt with `allow_live_synthesis`)
     if (
@@ -2363,15 +2783,18 @@ def _resolve_nano_photorealistic_base_cover(
     if matched_builtin_path is not None and matched_builtin_path.exists():
         return matched_builtin_path
 
-    badge_photo = _match_badge_catalog_photo_for_prompt(custom_prompt)
+    badge_photo = _match_badge_catalog_photo_for_prompt(custom_prompt or search_lc)
     if badge_photo is not None and badge_photo.exists():
         return badge_photo
 
-    if style_key in by_id and by_id[style_key].exists():
-        return by_id[style_key]
+    if style_key in by_id:
+        _resolve_and_hydrate_template_asset(by_id[style_key])
+        if by_id[style_key].exists():
+            return by_id[style_key]
 
     for fallback_name in ("nano_base_pinewood_campfire.jpg", "forest_sunrise_cover.jpg", "high_adventure_climb.jpg"):
         cand = OVERLAYS_DIR / fallback_name
+        _resolve_and_hydrate_template_asset(cand)
         if cand.exists():
             return cand
     return OVERLAYS_DIR / "forest_sunrise_cover.jpg"
@@ -2438,10 +2861,10 @@ def _render_nano_template_variant_assets(
     bot_dark = Image.new("RGBA", (bot_w, bot_h), (0, 0, 0, 0))
     bddraw = ImageDraw.Draw(bot_dark)
 
-    # Base footer band
+    # Base footer band (bot_dark uses genuinely dark translucent slate (15, 23, 42) behind #FFFFFF footer text for 13.8:1 contrast)
     bdraw.rectangle([0, 46, bot_w, bot_h], fill=(*p_rgb, 255))
     bdraw.rectangle([0, 38, bot_w, 46], fill=(*a_rgb, 255))
-    bddraw.rectangle([0, 46, bot_w, bot_h], fill=(240, 245, 255, 235))
+    bddraw.rectangle([0, 46, bot_w, bot_h], fill=(15, 23, 42, 240))
     bddraw.rectangle([0, 38, bot_w, 46], fill=(*a_rgb, 255))
 
     if style_key in ("pinewood_campfire", "topographic_adventure"):
@@ -2452,12 +2875,12 @@ def _render_nano_template_variant_assets(
             ridge_pts.append((x, max(6, y_r)))
         ridge_pts.append((bot_w, 46))
         bdraw.polygon(ridge_pts, fill=(*p_rgb, 255))
-        bddraw.polygon(ridge_pts, fill=(240, 245, 255, 235))
+        bddraw.polygon(ridge_pts, fill=(15, 23, 42, 240))
         if style_key == "pinewood_campfire":
             for tx in range(60, bot_w - 60, 55):
                 th = 22 + (tx % 14)
                 bdraw.polygon([(tx, 44 - th), (tx - 10, 44), (tx + 10, 44)], fill=(*p_rgb, 255))
-                bddraw.polygon([(tx, 44 - th), (tx - 10, 44), (tx + 10, 44)], fill=(240, 245, 255, 235))
+                bddraw.polygon([(tx, 44 - th), (tx - 10, 44), (tx + 10, 44)], fill=(15, 23, 42, 240))
     elif style_key == "aquatics_nautical":
         wave_pts = [(0, 46)]
         for x in range(0, bot_w + 20, 20):
@@ -2465,19 +2888,19 @@ def _render_nano_template_variant_assets(
             wave_pts.append((x, y_w))
         wave_pts.append((bot_w, 46))
         bdraw.polygon(wave_pts, fill=(*p_rgb, 255))
-        bddraw.polygon(wave_pts, fill=(240, 245, 255, 235))
+        bddraw.polygon(wave_pts, fill=(15, 23, 42, 240))
     elif style_key == "collegiate_mbc":
         # Classical academic podium band with subtle gold accent rule
         bdraw.rectangle([0, 32, bot_w, 38], fill=(*p_rgb, 235))
-        bddraw.rectangle([0, 32, bot_w, 38], fill=(240, 245, 255, 220))
+        bddraw.rectangle([0, 32, bot_w, 38], fill=(15, 23, 42, 225))
     elif style_key == "stem_blueprint":
         for x in range(0, bot_w, 40):
             bdraw.line([(x, 46), (x, bot_h)], fill=(255, 255, 255, 42), width=1)
-            bddraw.line([(x, 46), (x, bot_h)], fill=(*p_rgb, 48), width=1)
+            bddraw.line([(x, 46), (x, bot_h)], fill=(255, 255, 255, 42), width=1)
     elif style_key == "heritage_embroidery" or geom_key == "heritage_border":
         for x in range(20, bot_w - 20, 32):
             bdraw.rectangle([x, 52, x + 16, 57], fill=(*a_rgb, 235))
-            bddraw.rectangle([x, 52, x + 16, 57], fill=(*p_rgb, 235))
+            bddraw.rectangle([x, 52, x + 16, 57], fill=(*a_rgb, 235))
 
     if logo_img is not None and logo_pos in ("bottom_left", "bottom_right"):
         l_thumb = logo_img.copy()
@@ -2580,6 +3003,9 @@ def _render_nano_template_variant_assets(
         "canvas_watermark_url": f"/assets/templates/custom/{wm_path.name}",
         "cover_bg_url": f"/assets/templates/custom/{cov_path.name}",
     }
+
+
+_generate_nano_banana_pillow_overlays = _render_nano_template_variant_assets
 
 
 _NAMED_COLOR_ANCHORS: List[Tuple[str, Tuple[int, int, int]]] = [

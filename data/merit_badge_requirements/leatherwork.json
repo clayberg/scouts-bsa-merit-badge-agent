@@ -33,37 +33,38 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "HAZARD_5COL",
-            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+            "table_title": "Req 1a Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix",
             "headers": [
-              "Hazard / Risk",
-              "Anticipate",
-              "Help Prevent",
-              "Mitigate",
-              "Respond"
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
             ],
             "column_headers": [
-              "Hazard / Risk",
-              "Anticipate",
-              "Help Prevent",
-              "Mitigate",
-              "Respond"
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
             ],
             "row_labels": [
-              "Hazard #1",
-              "Hazard #2",
-              "Hazard #3",
-              "Hazard #4",
-              "Hazard #5"
+              "1. Primary Environmental Hazard in Leatherwork",
+              "2. Equipment or Tool Handling Hazard",
+              "3. Acute Physical / Medical Injury Risk",
+              "4. Emergency Communication & Evacuation Protocol"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Primary Environmental Hazard in Leatherwork",
+              "2. Equipment or Tool Handling Hazard",
+              "3. Acute Physical / Medical Injury Risk",
+              "4. Emergency Communication & Evacuation Protocol"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Leatherwork hands-on activities and address hazards only after an incident occurs.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Leatherwork prevents field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Leatherwork prevents field injuries.",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)"
+            "misconception": "Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Leatherwork Hazards and First Aid activity (p. 10, p. 11).",
+            "fact_correction": "The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Leatherwork Hazards and First Aid activity (p. 10, p. 11).",
+            "pamphlet_page_ref": "p. 10, p. 11"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -88,7 +89,12 @@
           ],
           "id": "1a",
           "sub_req_label": "1a",
-          "sub_req_text": "Explain to your counselor the hazards you are most likely to encounter while using leatherwork tools and materials, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards."
+          "sub_req_text": "Explain to your counselor the hazards you are most likely to encounter while using leatherwork tools and materials, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.",
+          "topic_title": "Req 1a: Leatherwork Hazards and First Aid",
+          "pamphlet_summary": "Leatherwork Hazards and First Aid: Hazards, First Aid & Safety Principle 3: A piece of cardboard rubbed with jeweler's rouge should be used forhoning the swivel and utility knife blades (p. 10).",
+          "pamphlet_excerpts": [
+            "Leatherwork Hazards and First Aid: Hazards, First Aid & Safety Principle 3: A piece of cardboard rubbed with jeweler's rouge should be used forhoning the swivel and utility knife blades (p. 10)."
+          ]
         },
         {
           "sub_id": "1b",
@@ -112,37 +118,38 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
-            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
+            "table_title": "Req 1b Clinical Signs, First-Aid Treatment & Prevention Matrix",
             "headers": [
-              "Condition / Injury",
-              "Symptoms & Signs",
-              "First Aid / Treatment",
-              "Prevention"
+              "Condition / Emergency",
+              "Recognizable Signs & Symptoms",
+              "Step-by-Step First-Aid Care",
+              "Field Prevention Standard"
             ],
             "column_headers": [
-              "Condition / Injury",
-              "Symptoms & Signs",
-              "First Aid / Treatment",
-              "Prevention"
+              "Condition / Emergency",
+              "Recognizable Signs & Symptoms",
+              "Step-by-Step First-Aid Care",
+              "Field Prevention Standard"
             ],
             "row_labels": [
-              "Minor cuts",
-              "Scratches",
-              "Puncture wounds",
-              "Ingested poisoning",
-              "Reactions from exposure to chemicals such as dyes",
-              "Cements",
-              "Finishes used in leatherworking"
+              "1. Acute Traumatic or Thermal Injury",
+              "2. Environmental Exposure (Heat / Cold / Dehydration)",
+              "3. Soft-Tissue Wound, Blister, or Sprain",
+              "4. Life-Threatening Emergency Escalation"
             ],
-            "min_rows": 7,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Acute Traumatic or Thermal Injury",
+              "2. Environmental Exposure (Heat / Cold / Dehydration)",
+              "3. Soft-Tissue Wound, Blister, or Sprain",
+              "4. Life-Threatening Emergency Escalation"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)",
           "common_misconception_pair": {
-            "misconception": "Inducing vomiting is the fastest first-aid response whenever someone swallows a household poison.",
-            "fact": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
-            "fact_correction": "Never induce vomiting unless directed by a physician; call Poison Control at 1-800-222-1222 or 911 immediately and identify the container.",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)"
+            "misconception": "Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Emergency First Aid and Prevention activity (p. 10, p. 11).",
+            "fact_correction": "The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Emergency First Aid and Prevention activity (p. 10, p. 11).",
+            "pamphlet_page_ref": "p. 10, p. 11"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -167,7 +174,12 @@
           ],
           "id": "1b",
           "sub_req_label": "1b",
-          "sub_req_text": "Show that you know first aid for injuries or illnesses that could occur while working with leather, including minor cuts and scratches, puncture wounds, ingested poisoning, and reactions from exposure to chemicals such as dyes, cements, and finishes used in leatherworking."
+          "sub_req_text": "Show that you know first aid for injuries or illnesses that could occur while working with leather, including minor cuts and scratches, puncture wounds, ingested poisoning, and reactions from exposure to chemicals such as dyes, cements, and finishes used in leatherworking.",
+          "topic_title": "Req 1b: Emergency First Aid and Prevention",
+          "pamphlet_summary": "Emergency First Aid and Prevention: Hazards, First Aid & Safety Principle 4: Many dyes, cements, and finishes used in leatherworkingcontain hazardous chemicals (p. 10).",
+          "pamphlet_excerpts": [
+            "Emergency First Aid and Prevention: Hazards, First Aid & Safety Principle 4: Many dyes, cements, and finishes used in leatherworkingcontain hazardous chemicals (p. 10)."
+          ]
         }
       ],
       "resources": [
@@ -210,36 +222,33 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "HAZARD_5COL",
-        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+        "table_title": "Req 1 Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix",
         "headers": [
-          "Hazard / Risk",
-          "Anticipate",
-          "Help Prevent",
-          "Mitigate",
-          "Respond"
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
         ],
         "column_headers": [
-          "Hazard / Risk",
-          "Anticipate",
-          "Help Prevent",
-          "Mitigate",
-          "Respond"
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
         ],
         "row_labels": [
-          "Hazard #1",
-          "Hazard #2",
-          "Hazard #3",
-          "Hazard #4",
-          "Hazard #5"
+          "(1a) Leatherwork Hazards and First Aid",
+          "(1b) Emergency First Aid and Prevention"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false
+        "rows": [
+          "(1a) Leatherwork Hazards and First Aid",
+          "(1b) Emergency First Aid and Prevention"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Leatherwork hands-on activities and address hazards only after an incident occurs.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Leatherwork prevents field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Leatherwork prevents field injuries.",
-        "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)"
+        "misconception": "Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 10, p. 11).",
+        "fact_correction": "The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 10, p. 11).",
+        "pamphlet_page_ref": "p. 10, p. 11"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -263,61 +272,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Tools Leatherworking Sharp: Many tools used in leatherworking have sharp cutting edges.",
-        "Neverput Part Body: Neverput any part of your body in the path of a cutting edge.",
-        "Pieceof Cardboard Rubbed: A pieceof cardboard rubbed with jeweler’s rouge should be used forhoning the swivel and utility knife blades.",
-        "Dyes Cements Finishes: Many dyes, cements, and finishes used in leatherworkingcontain hazardous chemicals."
+        "Hazards, First Aid & Safety: Many tools used in leatherworking have sharp cutting edges (p. 10).",
+        "Hazards, First Aid & Safety Principle 2: Neverput any part of your body in the path of a cutting edge (p. 10).",
+        "Hazards, First Aid & Safety Principle 3: A piece of cardboard rubbed with jeweler's rouge should be used forhoning the swivel and utility knife blades (p. 10).",
+        "Hazards, First Aid & Safety Principle 4: Many dyes, cements, and finishes used in leatherworkingcontain hazardous chemicals (p. 10)."
       ],
       "step_by_step_procedure": [
-        "Work Well-ventilated Area: To safely use these materials, work in a well-ventilated area.",
-        "Carefully Read Follow: Carefully read and follow alllabel instructions and warnings.",
-        "Ingest Chemicalsor Allow: Never ingest these chemicalsor allow them to come in contact with skin.",
-        "Doctor Oremergency Medical: Have a doctor oremergency medical service telephone number handy in case ofan emergency."
+        "Step 1 (Hazards, First Aid & Safety): To safely use these materials, work in a well-ventilated area (p. 10).",
+        "Step 2 (Hazards, First Aid & Safety): Carefully read and follow alllabel instructions and warnings (p. 10).",
+        "Step 3 (Hazards, First Aid & Safety): Never ingest these chemicalsor allow them to come in contact with skin (p. 10).",
+        "Step 4 (Hazards, First Aid & Safety): Have a doctor oremergency medical service telephone number handy in case ofan emergency (p. 10)."
       ],
       "gear_checklist": [
-        "Official Leatherwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Leatherwork Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Hazards, First Aid & Safety)",
+        "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
+        "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs.",
+        "Emergency action plan checklist and simulated patient assessment cards."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Leatherwork Approach",
-        "right_header": "Official BSA Leatherwork Standard (Hazards, First Aid & Safety)",
+        "left_header": "Proactive Hazard Prevention (Hazards, First Aid & Safety)",
+        "right_header": "Acute Emergency Response (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Eliminate environmental and equipment risks before starting.",
+          "Hazards, First Aid & Safety: Many tools used in leatherworking have sharp cutting edges (p. 10).",
+          "Pre-activity PPE, weather, and buddy shakedown."
         ],
         "right_points": [
-          "Reviews Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Leatherwork Workbook organizer.",
-          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Hazards, First Aid & Safety Principle 2: Neverput any part of your body in the path of a cutting edge (p. 10).",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Hazards, First Aid & Safety: Many tools used in leatherworking have sharp cutting edges (p. 10).",
+            "right": "Hazards, First Aid & Safety Principle 2: Neverput any part of your body in the path of a cutting edge (p. 10)."
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Leatherwork Req 1",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Leatherwork Req 1 (Hazards, First Aid & Safety)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
-          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
-          "Primary Standard": "Explain to your counselor the hazards you are most likely to encounter while using leatherwork tools and materials, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Leatherwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11) and verified during counselor conference."
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Hazards, First Aid & Safety.",
+          "Preventive Controls & PPE": "Hazards, First Aid & Safety: Many tools used in leatherworking have sharp cutting edges (p. 10).",
+          "Acute First-Aid Response": "Hazards, First Aid & Safety Principle 2: Neverput any part of your body in the path of a cutting edge (p. 10).",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)."
         },
-        "counselor_tip": "Complete your Leatherwork Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Hazards, First Aid & Safety: Hazards, First Aid & Safety: Many tools used in leatherworking have sharp cutting edges (p. 10).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before starting hands-on or field work for Leatherwork (Hazards, First Aid & Safety), which patrol preparation step best aligns with the official Leatherwork standard?",
+        "scenario_prompt": "While working on Leatherwork Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Leatherwork Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
         "options": [
-          "Review the Leatherwork hazards, PPE, and prerequisite standards in Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11) with your counselor and patrol buddy before beginning",
-          "Begin the practical station immediately and review the safety rules only if a problem occurs",
-          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
-          "Skip the pre-activity briefing when practicing indoors"
+          "A. Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure.",
+          "D. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
         ],
-        "correct_answer": "Option A - Review the Leatherwork hazards, PPE, and prerequisite standards in Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11) with your counselor and patrol buddy before beginning",
-        "explanation": "Per Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
+        "choices": [
+          "A. Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure.",
+          "D. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "explanation": "Correct Answer (D): The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 10, p. 11). (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)).",
+        "pamphlet_page_ref": "p. 10, p. 11"
       },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Leatherwork Workbook organizer table and practical demonstration for Req 1."
+      "homework_verification_note": "Verify completed Leatherwork Workbook organizer table and practical demonstration for Req 1.",
+      "workbook_diagram_url": "assets/ai_illustrations/leatherwork_req_1_workbook_diagram.png"
     },
     {
       "req_id": "2",
@@ -329,7 +367,7 @@
         {
           "sub_id": "2a",
           "label": "(a)",
-          "text": "Where leather comes from",
+          "text": "Where leather comes from.",
           "resources": [
             {
               "title": "How is Leather Made? (video)",
@@ -340,29 +378,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Study & Explanation Notes",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Leather Comes)",
             "headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Where leather comes from",
-              "Pamphlet Standard & Key Facts (2a)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Leather Comes)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Leather Comes)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on where leather comes from.",
-            "fact": "Scouts must explain where leather comes from using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21).",
-            "fact_correction": "Scouts must explain where leather comes from using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)"
+            "misconception": "General familiarity with leather, comes is sufficient for Leatherwork Requirement 2a without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Leather Comes (p. 15, p. 21).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Leather Comes (p. 15, p. 21).",
+            "pamphlet_page_ref": "p. 15, p. 21"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -387,12 +432,17 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Where leather comes from"
+          "sub_req_text": "Where leather comes from.",
+          "topic_title": "Req 2a: Leather Comes",
+          "pamphlet_summary": "Leather Comes: Leatherwork Core Field Standard Principle 4: Chrome tanned leather (leather that has been tanned with chemicals that contain chromium salts) normally is used for items that call for a soft (p. 15).",
+          "pamphlet_excerpts": [
+            "Leather Comes: Leatherwork Core Field Standard Principle 4: Chrome tanned leather (leather that has been tanned with chemicals that contain chromium salts) normally is used for items that call for a soft (p. 15)."
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Kinds of hides that are used to make leather",
+          "text": "Kinds of hides that are used to make leather.",
           "resources": [
             {
               "title": "Picking the Best Part of the Leather Hide (video)",
@@ -406,35 +456,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 2b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Kinds of Hides)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 2b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 2b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Kinds of hides that are used to make leather",
-              "Pamphlet Standard & Key Facts (2b)",
-              "Field Application & Counselor Verification (Make)"
+              "1. Core Definition & Mechanism (Kinds of Hides)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Core Definition & Mechanism (Kinds of Hides)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on kinds of hides that are used to make leather.",
-            "fact": "Scouts must make kinds of hides that are used to make leather using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21).",
-            "fact_correction": "Scouts must make kinds of hides that are used to make leather using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)"
+            "misconception": "Describing how to perform Kinds of Hides verbally can substitute for a physical hands-on demonstration in Leatherwork Requirement 2b.",
+            "fact": "Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Kinds of Hides with proper technique (p. 15, p. 21).",
+            "fact_correction": "Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Kinds of Hides with proper technique (p. 15, p. 21).",
+            "pamphlet_page_ref": "p. 15, p. 21"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -459,12 +511,17 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Kinds of hides that are used to make leather"
+          "sub_req_text": "Kinds of hides that are used to make leather.",
+          "topic_title": "Req 2b: Kinds of Hides",
+          "pamphlet_summary": "Kinds of Hides: Leatherwork Core Field Standard: Types and Uses of Leather Many kinds of leather are available for leatherwork (p. 15).",
+          "pamphlet_excerpts": [
+            "Kinds of Hides: Leatherwork Core Field Standard: Types and Uses of Leather Many kinds of leather are available for leatherwork (p. 15)."
+          ]
         },
         {
           "sub_id": "2c",
           "label": "(c)",
-          "text": "Five types of leather",
+          "text": "Five types of leather.",
           "resources": [
             {
               "title": "Leather Is Made From Which Animal (video)",
@@ -475,29 +532,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Study & Explanation Notes",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Types of Leather)",
             "headers": [
-              "Req 2c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Five types of leather",
-              "Pamphlet Standard & Key Facts (2c)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Types of Leather)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Types of Leather)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on five types of leather.",
-            "fact": "Scouts must explain five types of leather using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21).",
-            "fact_correction": "Scouts must explain five types of leather using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)"
+            "misconception": "General familiarity with types, leather is sufficient for Leatherwork Requirement 2c without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Five Types of Leather (p. 15, p. 21).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Five Types of Leather (p. 15, p. 21).",
+            "pamphlet_page_ref": "p. 15, p. 21"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -522,12 +586,17 @@
           ],
           "id": "2c",
           "sub_req_label": "2c",
-          "sub_req_text": "Five types of leather"
+          "sub_req_text": "Five types of leather.",
+          "topic_title": "Req 2c: Types of Leather",
+          "pamphlet_summary": "Types of Leather: Five Types of Leather: Leatherwork Core Field Standard Principle 2: For instance, the wayleather has been tanned can determine how it is used (p. 15).",
+          "pamphlet_excerpts": [
+            "Types of Leather: Five Types of Leather: Leatherwork Core Field Standard Principle 2: For instance, the wayleather has been tanned can determine how it is used (p. 15)."
+          ]
         },
         {
           "sub_id": "2d",
           "label": "(d)",
-          "text": "Best uses for each type of leather",
+          "text": "Best uses for each type of leather.",
           "resources": [
             {
               "title": "What Leather Should I Use for Tooling? (video)",
@@ -542,29 +611,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Study & Explanation Notes",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Best Uses for Each Type)",
             "headers": [
-              "Req 2d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Best uses for each type of leather",
-              "Pamphlet Standard & Key Facts (2d)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Best Uses for Each Type)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Best Uses for Each Type)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on best uses for each type of leather.",
-            "fact": "Scouts must explain best uses for each type of leather using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21).",
-            "fact_correction": "Scouts must explain best uses for each type of leather using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)"
+            "misconception": "General familiarity with leather is sufficient for Leatherwork Requirement 2d without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Best Uses for Each Type (p. 15, p. 21).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Best Uses for Each Type (p. 15, p. 21).",
+            "pamphlet_page_ref": "p. 15, p. 21"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -589,7 +665,12 @@
           ],
           "id": "2d",
           "sub_req_label": "2d",
-          "sub_req_text": "Best uses for each type of leather"
+          "sub_req_text": "Best uses for each type of leather.",
+          "topic_title": "Req 2d: Best Uses for Each Type",
+          "pamphlet_summary": "Best Uses for Each Type: Leatherwork Core Field Standard Principle 3: Vegetable tanned leather (leather that has been tanned with extracts from tree bark) normally is used for items thatcall for a stiff, firm leather (p. 15).",
+          "pamphlet_excerpts": [
+            "Best Uses for Each Type: Leatherwork Core Field Standard Principle 3: Vegetable tanned leather (leather that has been tanned with extracts from tree bark) normally is used for items thatcall for a stiff, firm leather (p. 15)."
+          ]
         }
       ],
       "resources": [
@@ -626,7 +707,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Where leather comes from Kinds",
+      "topic_title": "Req 2: Leatherwork Core Field Standard",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -636,29 +717,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Study & Explanation Notes",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Leatherwork Core Field Standard)",
         "headers": [
-          "Req 2 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 2 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 2 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 2 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Where leather comes from",
-          "(b) Kinds of hides that are used to make leather",
-          "(c) Five types of leather",
-          "(d) Best uses for each type of leather Where leather comes from Kinds of hides"
+          "(2a) Leather Comes",
+          "(2b) Kinds of Hides",
+          "(2c) Types of Leather",
+          "(2d) Best Uses for Each Type"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "(2a) Leather Comes",
+          "(2b) Kinds of Hides",
+          "(2c) Types of Leather",
+          "(2d) Best Uses for Each Type"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on where leather comes from.",
-        "fact": "Scouts must explain where leather comes from using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21).",
-        "fact_correction": "Scouts must explain where leather comes from using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21).",
-        "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)"
+        "misconception": "Describing how to perform Leatherwork Core Field Standard verbally can substitute for a physical hands-on demonstration in Leatherwork Requirement 2.",
+        "fact": "Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Leatherwork Core Field Standard with proper technique (p. 15, p. 21).",
+        "fact_correction": "Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Leatherwork Core Field Standard with proper technique (p. 15, p. 21).",
+        "pamphlet_page_ref": "p. 15, p. 21"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -682,36 +769,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Types Leather Kinds: Types and Uses of Leather Many kinds of leather are available for leatherwork.",
-        "Instance Wayleather Tanned: For instance, the wayleather has been tanned can determine how it is used.",
-        "Vegetable Tanned Leather: Vegetable tanned leather (leather that has been tanned with extracts from tree bark) normally is used for items thatcall for a stiff, firm leather.",
-        "Chrome Tanned Leather: Chrome tanned leather (leather that has been tanned with chemicals that contain chromium salts) normally is usedfor items that call for a soft."
+        "Leatherwork Core Field Standard: Types and Uses of Leather Many kinds of leather are available for leatherwork (p. 15).",
+        "Leatherwork Core Field Standard Principle 2: For instance, the wayleather has been tanned can determine how it is used (p. 15).",
+        "Leatherwork Core Field Standard Principle 3: Vegetable tanned leather (leather that has been tanned with extracts from tree bark) normally is used for items thatcall for a stiff, firm leather (p. 15).",
+        "Leatherwork Core Field Standard Principle 4: Chrome tanned leather (leather that has been tanned with chemicals that contain chromium salts) normally is used for items that call for a soft (p. 15)."
       ],
       "step_by_step_procedure": [
-        "Leather Purchased Complete: Leather can be purchased in complete hides or skins.",
-        "Oneof Common Leathers: Oneof the more common leathers, cowhide, normally is sold inhalf-skins, called sides.",
-        "Common Types Leather: Common types of leather and their usesare listed here to help you select a leather for a project.",
-        "Buffalo Common Buffalo: Buffalo, The most common buffalo leather is Asian waterbuffalo."
+        "Step 1 (Leatherwork Core Field Standard): Leather can be purchased in complete hides or skins (p. 15).",
+        "Step 2 (Leatherwork Core Field Standard): Oneof the more common leathers, cowhide, normally is sold inhalf-skins, called sides (p. 15).",
+        "Step 3 (Leatherwork Core Field Standard): Common types of leather and their uses are listed here to help you select a leather for a project (p. 15).",
+        "Step 4 (Leatherwork Core Field Standard): Buffalo, The most common buffalo leather is Asian waterbuffalo (p. 15)."
       ],
       "gear_checklist": [
-        "Official Leatherwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Where leather comes from Kinds",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Leatherwork Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Leatherwork Core Field Standard)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Leatherwork Core Field Standard.",
+        "Structured Leatherwork Requirement 2 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Leatherwork Req 2",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 2 - Where leather comes from Kinds",
-          "Primary Standard": "Where leather comes from.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Leatherwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Leatherwork Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Leatherwork Core Field Standard)",
+        "right_header": "Applied Field Execution (Leatherwork Core Field Standard)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Leatherwork Core Field Standard.",
+          "Leatherwork Core Field Standard: Types and Uses of Leather Many kinds of leather are available for leatherwork (p. 15).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Leatherwork.",
+          "Leatherwork Core Field Standard Principle 2: For instance, the wayleather has been tanned can determine how it is used (p. 15).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Leatherwork Core Field Standard.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Leatherwork."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Leatherwork Core Field Standard: Types and Uses of Leather Many kinds of leather are available for leatherwork (p. 15).",
+            "right": "Leatherwork Core Field Standard Principle 2: For instance, the wayleather has been tanned can determine how it is used (p. 15)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Leatherwork Req 2 (Leatherwork Core Field Standard)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Leatherwork Core Field Standard.",
+          "Step-by-Step Execution": "Leatherwork Core Field Standard: Types and Uses of Leather Many kinds of leather are available for leatherwork (p. 15).",
+          "Quality & Tolerance Check": "Leatherwork Core Field Standard Principle 2: For instance, the wayleather has been tanned can determine how it is used (p. 15).",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21))"
+        },
+        "sample_output": "Leatherwork Core Field Standard: Leatherwork Core Field Standard: Types and Uses of Leather Many kinds of leather are available for leatherwork (p. 15).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Leatherwork Requirement 2 (Leatherwork Core Field Standard), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Leatherwork Requirement 2 (Leatherwork Core Field Standard), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Describing how to perform Leatherwork Core Field Standard verbally can substitute for a physical hands-on demonstration in.",
+          "B. Defer all Leatherwork Core Field Standard measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure.",
+          "D. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate."
+        ],
+        "choices": [
+          "A. Describing how to perform Leatherwork Core Field Standard verbally can substitute for a physical hands-on demonstration in.",
+          "B. Defer all Leatherwork Core Field Standard measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure.",
+          "D. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate.",
+        "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Leatherwork Core Field Standard with proper technique (p. 15, p. 21). (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)).",
+        "pamphlet_page_ref": "p. 15, p. 21"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Leatherwork Workbook organizer table and practical demonstration for Req 2."
     },
@@ -725,7 +863,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Pattern layout and transfer",
+          "text": "Pattern layout and transfer.",
           "resources": [
             {
               "title": "Transferring Patterns (video)",
@@ -740,29 +878,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Study & Explanation Notes",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Pattern Layout and Transfer)",
             "headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Pattern layout and transfer",
-              "Pamphlet Standard & Key Facts (3a)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Pattern Layout and Transfer)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Pattern Layout and Transfer)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on pattern layout and transfer.",
-            "fact": "Scouts must explain pattern layout and transfer using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "fact_correction": "Scouts must explain pattern layout and transfer using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)"
+            "misconception": "General familiarity with Pattern, layout is sufficient for Leatherwork Requirement 3a without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Pattern Layout and Transfer (p. 19, p. 53).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Pattern Layout and Transfer (p. 19, p. 53).",
+            "pamphlet_page_ref": "p. 19, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -787,12 +932,17 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Pattern layout and transfer"
+          "sub_req_text": "Pattern layout and transfer.",
+          "topic_title": "Req 3a: Pattern Layout and Transfer",
+          "pamphlet_summary": "Pattern Layout and Transfer: Make one or more articles: Use these for measuring, pattern and design layout, and for cutting straight lines (p. 19).",
+          "pamphlet_excerpts": [
+            "Pattern Layout and Transfer: Make one or more articles: Use these for measuring, pattern and design layout, and for cutting straight lines (p. 19)."
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Cutting leather",
+          "text": "Cutting leather.",
           "resources": [
             {
               "title": "Best Practices for Cutting Leather (video)",
@@ -803,29 +953,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Study & Explanation Notes",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Cutting Leather)",
             "headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Cutting leather",
-              "Pamphlet Standard & Key Facts (3b)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Cutting Leather)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Cutting Leather)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on cutting leather.",
-            "fact": "Scouts must explain cutting leather using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "fact_correction": "Scouts must explain cutting leather using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)"
+            "misconception": "General familiarity with Cutting, leather is sufficient for Leatherwork Requirement 3b without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Cutting Leather (p. 19, p. 53).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Cutting Leather (p. 19, p. 53).",
+            "pamphlet_page_ref": "p. 19, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -850,12 +1007,17 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Cutting leather"
+          "sub_req_text": "Cutting leather.",
+          "topic_title": "Req 3b: Cutting Leather",
+          "pamphlet_summary": "Cutting Leather: Make one or more articles Principle 2: Avoid unpainted steel rulers and squares because they will stainleather; ones made of aluminum, plastic, or wood work best (p. 19).",
+          "pamphlet_excerpts": [
+            "Cutting Leather: Make one or more articles Principle 2: Avoid unpainted steel rulers and squares because they will stainleather; ones made of aluminum, plastic, or wood work best (p. 19)."
+          ]
         },
         {
           "sub_id": "3c",
           "label": "(c)",
-          "text": "Punching holes",
+          "text": "Punching holes.",
           "resources": [
             {
               "title": "How to Use a Rotary Hole Punch (video)",
@@ -870,29 +1032,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Study & Explanation Notes",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Punching Holes)",
             "headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Punching holes",
-              "Pamphlet Standard & Key Facts (3c)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Punching Holes)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Punching Holes)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on punching holes.",
-            "fact": "Scouts must explain punching holes using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "fact_correction": "Scouts must explain punching holes using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)"
+            "misconception": "General familiarity with Punching, holes is sufficient for Leatherwork Requirement 3c without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Punching Holes (p. 19, p. 53).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Punching Holes (p. 19, p. 53).",
+            "pamphlet_page_ref": "p. 19, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -917,12 +1086,17 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "Punching holes"
+          "sub_req_text": "Punching holes.",
+          "topic_title": "Req 3c: Punching Holes",
+          "pamphlet_summary": "Punching Holes: Make one or more articles Principle 3: Use for marking theoutlines of cutting patterns andto mark the positions of holes forsnaps, rivets, stitching, and lacing (p. 19).",
+          "pamphlet_excerpts": [
+            "Punching Holes: Make one or more articles Principle 3: Use for marking theoutlines of cutting patterns andto mark the positions of holes forsnaps, rivets, stitching, and lacing (p. 19)."
+          ]
         },
         {
           "sub_id": "3d",
           "label": "(d)",
-          "text": "Carving or stamping surface designs",
+          "text": "Carving or stamping surface designs.",
           "resources": [
             {
               "title": "Basic Leather Carving (video)",
@@ -937,29 +1111,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Study & Explanation Notes",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Carving or Stamping Surface Designs)",
             "headers": [
-              "Req 3d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Carving or stamping surface designs",
-              "Pamphlet Standard & Key Facts (3d)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Carving or Stamping Surface Designs)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Carving or Stamping Surface Designs)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on carving or stamping surface designs.",
-            "fact": "Scouts must explain carving or stamping surface designs using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "fact_correction": "Scouts must explain carving or stamping surface designs using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)"
+            "misconception": "General familiarity with Carving, stamping is sufficient for Leatherwork Requirement 3d without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Carving or Stamping Surface Designs (p. 19, p. 53).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Carving or Stamping Surface Designs (p. 19, p. 53).",
+            "pamphlet_page_ref": "p. 19, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -984,12 +1165,17 @@
           ],
           "id": "3d",
           "sub_req_label": "3d",
-          "sub_req_text": "Carving or stamping surface designs"
+          "sub_req_text": "Carving or stamping surface designs.",
+          "topic_title": "Req 3d: Carving or Stamping Surface Designs",
+          "pamphlet_summary": "Carving or Stamping Surface Designs: Make one or more articles Principle 4: Any awl with a sharp point, evenan ice pick, will work (p. 19).",
+          "pamphlet_excerpts": [
+            "Carving or Stamping Surface Designs: Make one or more articles Principle 4: Any awl with a sharp point, evenan ice pick, will work (p. 19)."
+          ]
         },
         {
           "sub_id": "3e",
           "label": "(e)",
-          "text": "Applying dye or stain and finish to the project",
+          "text": "Applying dye or stain and finish to the project.",
           "resources": [
             {
               "title": "Basics of Hand Dyeing Leather (video)",
@@ -1000,29 +1186,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Study & Explanation Notes",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Applying Dye or Stain)",
             "headers": [
-              "Req 3e Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3e Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Applying dye or stain and finish to the project",
-              "Pamphlet Standard & Key Facts (3e)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Applying Dye or Stain)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Applying Dye or Stain)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on applying dye or stain and finish to the project.",
-            "fact": "Scouts must explain applying dye or stain and finish to the project using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "fact_correction": "Scouts must explain applying dye or stain and finish to the project using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)"
+            "misconception": "General familiarity with Applying, stain is sufficient for Leatherwork Requirement 3e without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Applying Dye or Stain (p. 19, p. 53).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Applying Dye or Stain (p. 19, p. 53).",
+            "pamphlet_page_ref": "p. 19, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1047,12 +1240,17 @@
           ],
           "id": "3e",
           "sub_req_label": "3e",
-          "sub_req_text": "Applying dye or stain and finish to the project"
+          "sub_req_text": "Applying dye or stain and finish to the project.",
+          "topic_title": "Req 3e: Applying Dye or Stain",
+          "pamphlet_summary": "Applying Dye or Stain: Make one or more articles: Use these for measuring, pattern and design layout, and for cutting straight lines (p. 19).",
+          "pamphlet_excerpts": [
+            "Applying Dye or Stain: Make one or more articles: Use these for measuring, pattern and design layout, and for cutting straight lines (p. 19)."
+          ]
         },
         {
           "sub_id": "3f",
           "label": "(f)",
-          "text": "Assembly by lacing or stitching",
+          "text": "Assembly by lacing or stitching.",
           "resources": [
             {
               "title": "How to Punch Holes (for Sewing) in Leather (video)",
@@ -1075,29 +1273,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3f Structured Study & Explanation Notes",
+            "table_title": "Req 3f Structured Technical Study & Explanation Matrix (Assembly By Lacing or Stitching)",
             "headers": [
-              "Req 3f Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3f Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3f Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3f Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Assembly by lacing or stitching",
-              "Pamphlet Standard & Key Facts (3f)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Assembly By Lacing or Stitching)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Assembly By Lacing or Stitching)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on assembly by lacing or stitching.",
-            "fact": "Scouts must explain assembly by lacing or stitching using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "fact_correction": "Scouts must explain assembly by lacing or stitching using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)"
+            "misconception": "General familiarity with Assembly, lacing is sufficient for Leatherwork Requirement 3f without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Assembly By Lacing or Stitching (p. 19, p. 53).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Assembly By Lacing or Stitching (p. 19, p. 53).",
+            "pamphlet_page_ref": "p. 19, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1122,12 +1327,17 @@
           ],
           "id": "3f",
           "sub_req_label": "3f",
-          "sub_req_text": "Assembly by lacing or stitching"
+          "sub_req_text": "Assembly by lacing or stitching.",
+          "topic_title": "Req 3f: Assembly By Lacing or Stitching",
+          "pamphlet_summary": "Assembly By Lacing or Stitching: Make one or more articles Principle 2: Avoid unpainted steel rulers and squares because they will stainleather; ones made of aluminum, plastic, or wood work best (p. 19).",
+          "pamphlet_excerpts": [
+            "Assembly By Lacing or Stitching: Make one or more articles Principle 2: Avoid unpainted steel rulers and squares because they will stainleather; ones made of aluminum, plastic, or wood work best (p. 19)."
+          ]
         },
         {
           "sub_id": "3g",
           "label": "(g)",
-          "text": "Setting snaps and rivets",
+          "text": "Setting snaps and rivets.",
           "resources": [
             {
               "title": "How to Set Snaps (video)",
@@ -1146,29 +1356,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3g Structured Study & Explanation Notes",
+            "table_title": "Req 3g Structured Technical Study & Explanation Matrix (Setting Snaps and Rivets)",
             "headers": [
-              "Req 3g Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3g Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3g Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3g Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Setting snaps and rivets",
-              "Pamphlet Standard & Key Facts (3g)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Setting Snaps and Rivets)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Setting Snaps and Rivets)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on setting snaps and rivets.",
-            "fact": "Scouts must explain setting snaps and rivets using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "fact_correction": "Scouts must explain setting snaps and rivets using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)"
+            "misconception": "General familiarity with Setting, snaps is sufficient for Leatherwork Requirement 3g without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Setting Snaps and Rivets (p. 19, p. 53).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Setting Snaps and Rivets (p. 19, p. 53).",
+            "pamphlet_page_ref": "p. 19, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1193,12 +1410,17 @@
           ],
           "id": "3g",
           "sub_req_label": "3g",
-          "sub_req_text": "Setting snaps and rivets"
+          "sub_req_text": "Setting snaps and rivets.",
+          "topic_title": "Req 3g: Setting Snaps and Rivets",
+          "pamphlet_summary": "Setting Snaps and Rivets: Make one or more articles Principle 3: Use for marking theoutlines of cutting patterns andto mark the positions of holes forsnaps, rivets, stitching, and lacing (p. 19).",
+          "pamphlet_excerpts": [
+            "Setting Snaps and Rivets: Make one or more articles Principle 3: Use for marking theoutlines of cutting patterns andto mark the positions of holes forsnaps, rivets, stitching, and lacing (p. 19)."
+          ]
         },
         {
           "sub_id": "3h",
           "label": "(h)",
-          "text": "Dressing edges",
+          "text": "Dressing edges.",
           "resources": [
             {
               "title": "Edge Finishing Techniques (video)",
@@ -1209,29 +1431,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3h Structured Study & Explanation Notes",
+            "table_title": "Req 3h Structured Technical Study & Explanation Matrix (Dressing Edges)",
             "headers": [
-              "Req 3h Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3h Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3h Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3h Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Dressing edges",
-              "Pamphlet Standard & Key Facts (3h)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Dressing Edges)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Dressing Edges)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on dressing edges.",
-            "fact": "Scouts must explain dressing edges using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "fact_correction": "Scouts must explain dressing edges using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)"
+            "misconception": "General familiarity with Dressing, edges is sufficient for Leatherwork Requirement 3h without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Dressing Edges (p. 19, p. 53).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Dressing Edges (p. 19, p. 53).",
+            "pamphlet_page_ref": "p. 19, p. 53"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1256,7 +1485,12 @@
           ],
           "id": "3h",
           "sub_req_label": "3h",
-          "sub_req_text": "Dressing edges"
+          "sub_req_text": "Dressing edges.",
+          "topic_title": "Req 3h: Dressing Edges",
+          "pamphlet_summary": "Dressing Edges: Make one or more articles Principle 4: Any awl with a sharp point, evenan ice pick, will work (p. 19).",
+          "pamphlet_excerpts": [
+            "Dressing Edges: Make one or more articles Principle 4: Any awl with a sharp point, evenan ice pick, will work (p. 19)."
+          ]
         }
       ],
       "resources": [
@@ -1333,8 +1567,8 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Make one or more articles",
-      "action_verb": "Make",
+      "topic_title": "Req 3: Articles of Leather That Use",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Leatherwork Requirement 3 activities.",
@@ -1342,37 +1576,44 @@
       "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Articles of Leather That Use)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Pattern layout and transfer",
-          "(b) Cutting leather",
-          "(c) Punching holes",
-          "(d) Carving or stamping surface designs",
-          "(e) Applying dye or stain and finish to the project",
-          "(f) Assembly by lacing or stitching"
+          "(3a) Pattern Layout and Transfer",
+          "(3b) Cutting Leather",
+          "(3c) Punching Holes",
+          "(3d) Carving or Stamping Surface Designs",
+          "(3e) Applying Dye or Stain",
+          "(3f) Assembly By Lacing or Stitching",
+          "(3g) Setting Snaps and Rivets",
+          "(3h) Dressing Edges"
         ],
-        "min_rows": 6,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(3a) Pattern Layout and Transfer",
+          "(3b) Cutting Leather",
+          "(3c) Punching Holes",
+          "(3d) Carving or Stamping Surface Designs",
+          "(3e) Applying Dye or Stain",
+          "(3f) Assembly By Lacing or Stitching",
+          "(3g) Setting Snaps and Rivets",
+          "(3h) Dressing Edges"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on pattern layout and transfer.",
-        "fact": "Scouts must make pattern layout and transfer using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-        "fact_correction": "Scouts must make pattern layout and transfer using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53).",
-        "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)"
+        "misconception": "Describing how to perform Make one or more articles verbally can substitute for a physical hands-on demonstration in Leatherwork Requirement 3.",
+        "fact": "Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Make one or more articles with proper technique (p. 19, p. 53).",
+        "fact_correction": "Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Make one or more articles with proper technique (p. 19, p. 53).",
+        "pamphlet_page_ref": "p. 19, p. 53"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1396,49 +1637,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Measuring Pattern Design: Use these for measuring, pattern and design layout, and for cutting straight lines.",
-        "Avoid Unpainted Steel: Avoid unpainted steel rulers and squares because they will stainleather; ones made of aluminum, plastic, or wood work best.",
-        "Marking Theoutlines Cutting: Use for marking theoutlines of cutting patterns andto mark the positions of holes forsnaps, rivets, stitching, and lacing.",
-        "Awl Sharp Point: Any awl with a sharp point, evenan ice pick, will work."
+        "Articles of Leather That Use: Make one or more articles: Use these for measuring, pattern and design layout, and for cutting straight lines (p. 19).",
+        "Articles of Leather That Use Principle 2: Make one or more articles Principle 2: Avoid unpainted steel rulers and squares because they will stainleather; ones made of aluminum, plastic, or wood work best (p. 19).",
+        "Articles of Leather That Use Principle 3: Make one or more articles Principle 3: Use for marking theoutlines of cutting patterns andto mark the positions of holes forsnaps, rivets, stitching, and lacing (p. 19).",
+        "Articles of Leather That Use Principle 4: Make one or more articles Principle 4: Any awl with a sharp point, evenan ice pick, will work (p. 19)."
       ],
       "step_by_step_procedure": [
-        "Utility Knife Box: A utility knife or box knifeworks well for general leatherwork.",
-        "Usingsnap-off Blades Ensure: Usingsnap-off blades will ensure a sharp cuttingedge.",
-        "Craft Knife Hobby: A craft knife or hobby knife works wellfor projects using lighter-weight leather.",
-        "Leather Shearswork Cutting: Leather shearswork well for cutting soft garment leathers but do notproduce as accurate a cut as a sharp knife."
+        "Step 1 (Articles of Leather That Use): Step 1 (Make one or more articles): A utility knife or box knifeworks well for general leatherwork (p. 19).",
+        "Step 2 (Articles of Leather That Use): Step 2 (Make one or more articles): Usingsnap-off blades will ensure a sharp cuttingedge (p. 19).",
+        "Step 3 (Articles of Leather That Use): Step 3 (Make one or more articles): A craft knife or hobby knife works well for projects using lighter-weight leather (p. 19).",
+        "Step 4 (Articles of Leather That Use): Step 4 (Make one or more articles): Leather shearswork well for cutting soft garment leathers but do notproduce as accurate a cut as a sharp knife (p. 19)."
       ],
       "gear_checklist": [
-        "Official Leatherwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Make one or more articles",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Leatherwork Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Articles of Leather That Use)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Articles of Leather That Use.",
+        "Structured Leatherwork Requirement 3 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Leatherwork Approach",
-        "right_header": "Official BSA Leatherwork Standard (Make one or more articles)",
+        "left_header": "Foundational Principles (Make one or more articles)",
+        "right_header": "Applied Field Execution (Make one or more articles)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Make one or more articles.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Make one or more articles.",
+          "Make one or more articles: Use these for measuring, pattern and design layout, and for cutting straight lines (p. 19).",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Leatherwork Workbook organizer.",
-          "Clearly demonstrates and explains Make one or more articles using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Leatherwork.",
+          "Make one or more articles Principle 2: Avoid unpainted steel rulers and squares because they will stainleather; ones made of aluminum, plast.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Make one or more articles.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Leatherwork."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Make one or more articles: Use these for measuring, pattern and design layout, and for cutting straight lines (p. 19).",
+            "right": "Make one or more articles Principle 2: Avoid unpainted steel rulers and squares because they will stainleather; ones made of aluminum, plast"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Leatherwork Req 3",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Skill Station Walkthrough: Leatherwork Req 3 (Articles of Leather That Use)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Requirement & Topic": "Req 3 - Make one or more articles",
-          "Primary Standard": "Pattern layout and transfer.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Leatherwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53) and verified during counselor conference."
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Articles of Leather That Use.",
+          "Step-by-Step Execution": "Articles of Leather That Use: Make one or more articles: Use these for measuring, pattern and design layout, and for cutting straight lines (p. 19).",
+          "Quality & Tolerance Check": "Articles of Leather That Use Principle 2: Make one or more articles Principle 2: Avoid unpainted steel rulers and squares because they will stainleather; ones made of aluminum, pla.",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53))"
         },
-        "counselor_tip": "Complete your Leatherwork Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Articles of Leather That Use: Articles of Leather That Use: Make one or more articles: Use these for measuring, pattern and design layout, and for cutting straight lines ",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Leatherwork Requirement 3 (Articles of Leather That Use), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Leatherwork Requirement 3 (Articles of Leather That Use), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Make.",
+          "B. Describing how to perform Make one or more articles verbally can substitute for a physical hands-on demonstration in Leatherwork.",
+          "C. Defer all Articles of Leather That Use measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+        ],
+        "choices": [
+          "A. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Make.",
+          "B. Describing how to perform Make one or more articles verbally can substitute for a physical hands-on demonstration in Leatherwork.",
+          "C. Defer all Articles of Leather That Use measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Make.",
+        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Make one or more articles with proper technique (p. 19, p. 53). (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)).",
+        "pamphlet_page_ref": "p. 19, p. 53"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Leatherwork Workbook organizer table and practical demonstration for Req 3."
     },
@@ -1467,7 +1746,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Braid or plait an article out",
+      "topic_title": "Req 4: Braid or Plait An Article",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -1477,28 +1756,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Study & Explanation Notes",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Braid or Plait An Article)",
         "headers": [
-          "Req 4 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 4 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 4 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 4 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "Braid or plait an article out of leather, vinyl lace, or paracord",
-          "Pamphlet Standard & Key Facts (4)",
-          "Field Application & Counselor Verification (Explain)"
+          "1. Core Definition & Mechanism (Braid or Plait An Article)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Core Definition & Mechanism (Braid or Plait An Article)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on braid or plait an article out of leather, vinyl lace, or paracord.",
-        "fact": "Scouts must explain braid or plait an article out of leather, vinyl lace, or paracord using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 68, p. 74).",
-        "fact_correction": "Scouts must explain braid or plait an article out of leather, vinyl lace, or paracord using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 68, p. 74).",
-        "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 68, p. 74)"
+        "misconception": "General familiarity with Braid, plait is sufficient for Leatherwork Requirement 4 without citing specific functional mechanisms.",
+        "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Braid or Plait An Article (p. 68, p. 74).",
+        "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Braid or Plait An Article (p. 68, p. 74).",
+        "pamphlet_page_ref": "p. 68, p. 74"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1522,36 +1808,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Popular Type Leather: Another popular type of leather crafting involves the braidingtechnique.",
-        "Once Master Technique: Once you master this technique, you can makeall kinds of things, including the lanyard described in thefollowing steps. • \u0007Pull all strands tight.",
-        "Synthetics Choices Comes: Synthetics We have many choices when it comes to selecting the materials we useevery day to make our lives easier.",
-        "Hiking Boots Backpacks: Hiking boots, backpacks, and manyother products can be made from either leather or synthetic materials likenylon, plastic, vinyl, or rubber."
+        "Braid or Plait An Article: Another popular type of leather crafting involves the braidingtechnique (p. 68).",
+        "Braid or Plait An Article Principle 2: Once you master this technique, you can makeall kinds of things, including the lanyard described in thefollowing steps. • \u0007Pull all strands tight (p. 68).",
+        "Braid or Plait An Article Principle 3: Synthetics We have many choices when it comes to selecting the materials we useevery day to make our lives easier (p. 68).",
+        "Braid or Plait An Article Principle 4: Hiking boots, backpacks, and many other products can be made from either leather or synthetic materials likenylon, plastic, vinyl, or rubber (p. 68)."
       ],
       "step_by_step_procedure": [
-        "Here Few Points: Here are a few points to consider.",
-        "Solid Vinyl Material: A solid vinyl material will repel water from the outside but ittraps heat on the inside, making you uncomfortable in warm weather.",
-        "However Repel Rain: However, to repel rain and snow, rubber may be a better choice. • \u0007When it comes to shoes, nothing fits or wears like leather.",
-        "Leather uppers Strong: Leather uppers are strong, flexible, and will mold to your feet."
+        "Step 1 (Braid or Plait An Article): Here are a few points to consider (p. 68).",
+        "Step 2 (Braid or Plait An Article): A solid vinyl material will repel water from the outside but ittraps heat on the inside, making you uncomfortable in warm weather (p. 68).",
+        "Step 3 (Braid or Plait An Article): However, to repel rain and snow, rubber may be a better choice. • \u0007When it comes to shoes, nothing fits or wears like leather (p. 68).",
+        "Step 4 (Braid or Plait An Article): Leather uppers are strong, flexible, and will mold to your feet (p. 68)."
       ],
       "gear_checklist": [
-        "Official Leatherwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Braid or plait an article out",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Leatherwork Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Braid or Plait An Article)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Braid or Plait An Article.",
+        "Structured Leatherwork Requirement 4 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Leatherwork Req 4",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 4 - Braid or plait an article out",
-          "Primary Standard": "Braid or plait an article out of leather, vinyl lace, or paracord.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Leatherwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Leatherwork Merit Badge Pamphlet (p. 68, p. 74) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Leatherwork Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Braid or Plait An Article)",
+        "right_header": "Applied Field Execution (Braid or Plait An Article)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Braid or Plait An Article.",
+          "Braid or Plait An Article: Another popular type of leather crafting involves the braidingtechnique (p. 68).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Leatherwork.",
+          "Braid or Plait An Article Principle 2: Once you master this technique, you can makeall kinds of things, including the lanyard described.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Braid or Plait An Article.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Leatherwork."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Braid or Plait An Article: Another popular type of leather crafting involves the braidingtechnique (p. 68).",
+            "right": "Braid or Plait An Article Principle 2: Once you master this technique, you can makeall kinds of things, including the lanyard described in t"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Leatherwork Req 4 (Braid or Plait An Article)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Braid or Plait An Article: Another popular type of leather crafting involves the braidingtechnique (p. 68).",
+          "Applied Field Mechanism": "Braid or Plait An Article Principle 2: Once you master this technique, you can makeall kinds of things, including the lanyard described in thefollowing steps. • \u0007Pull all strands.",
+          "Real-World Case Example": "Concrete application of Braid or Plait An Article documented during Leatherwork study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Leatherwork Merit Badge Pamphlet (p. 68, p. 74)."
+        },
+        "sample_output": "Braid or Plait An Article: Braid or Plait An Article: Another popular type of leather crafting involves the braidingtechnique (p. 68).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 68, p. 74)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Leatherwork Requirement 4 (Braid or Plait An Article), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Leatherwork Requirement 4 (Braid or Plait An Article), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. General familiarity with Braid, plait is sufficient for Leatherwork Requirement 4 without citing specific functional mechanisms.",
+          "B. The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Braid.",
+          "C. Defer all Braid or Plait An Article measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+        ],
+        "choices": [
+          "A. General familiarity with Braid, plait is sufficient for Leatherwork Requirement 4 without citing specific functional mechanisms.",
+          "B. The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Braid.",
+          "C. Defer all Braid or Plait An Article measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Braid.",
+        "explanation": "Correct Answer (B): The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Braid or Plait An Article (p. 68, p. 74). (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 68, p. 74)).",
+        "pamphlet_page_ref": "p. 68, p. 74"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Leatherwork Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1576,28 +1913,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Study & Explanation Notes",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Commercial Tanning Process)",
             "headers": [
-              "Req 5a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Learn about the commercial tanning process",
-              "2. Report about it to your counselor"
+              "1. Core Definition & Mechanism (Commercial Tanning Process)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Commercial Tanning Process)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on learn about the commercial tanning process.",
-            "fact": "Scouts must explain learn about the commercial tanning process using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90).",
-            "fact_correction": "Scouts must explain learn about the commercial tanning process using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)"
+            "misconception": "General familiarity with Learn, commercial is sufficient for Leatherwork Requirement 5a without citing specific functional mechanisms.",
+            "fact": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Learn About The Commercial Tanning (p. 88, p. 90).",
+            "fact_correction": "The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Learn About The Commercial Tanning (p. 88, p. 90).",
+            "pamphlet_page_ref": "p. 88, p. 90"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1622,7 +1967,12 @@
           ],
           "id": "5a",
           "sub_req_label": "5a",
-          "sub_req_text": "Learn about the commercial tanning process. Report about it to your counselor."
+          "sub_req_text": "Learn about the commercial tanning process. Report about it to your counselor.",
+          "topic_title": "Req 5a: Commercial Tanning Process",
+          "pamphlet_summary": "Commercial Tanning Process: Learn About The Commercial Tanning: Do ONE of The Following Principle 3: Whether it's a small, custom-leather shop or a large industry (tannery, apparel manufacturer, etc.), it will be exciting toexplore the endless ways (p. 88).",
+          "pamphlet_excerpts": [
+            "Commercial Tanning Process: Learn About The Commercial Tanning: Do ONE of The Following Principle 3: Whether it's a small, custom-leather shop or a large industry (tannery, apparel manufacturer, etc.), it will be exciting toexplore the endless ways (p. 88)."
+          ]
         },
         {
           "sub_id": "5b",
@@ -1638,28 +1988,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Study & Explanation Notes",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Tan The Skin)",
             "headers": [
-              "Req 5b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tan the skin of a small animal",
-              "2. Describe the safety precautions you will take and the tanning method that you"
+              "1. Core Definition & Mechanism (Tan The Skin)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Tan The Skin)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tan the skin of a small animal.",
-            "fact": "Scouts must describe tan the skin of a small animal using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90).",
-            "fact_correction": "Scouts must describe tan the skin of a small animal using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)"
+            "misconception": "Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Tan The Skin activity (p. 88, p. 90).",
+            "fact_correction": "The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Tan The Skin activity (p. 88, p. 90).",
+            "pamphlet_page_ref": "p. 88, p. 90"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1684,7 +2042,12 @@
           ],
           "id": "5b",
           "sub_req_label": "5b",
-          "sub_req_text": "Tan the skin of a small animal. Describe the safety precautions you will take and the tanning method that you used."
+          "sub_req_text": "Tan the skin of a small animal. Describe the safety precautions you will take and the tanning method that you used.",
+          "topic_title": "Req 5b: Tan The Skin",
+          "pamphlet_summary": "Tan The Skin: Do ONE of The Following Principle 4: You may be surprised how welcome you will be in theseindustries (p. 88).",
+          "pamphlet_excerpts": [
+            "Tan The Skin: Do ONE of The Following Principle 4: You may be surprised how welcome you will be in theseindustries (p. 88)."
+          ]
         },
         {
           "sub_id": "5c",
@@ -1712,31 +2075,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 5c Differential Comparison Matrix",
+            "table_title": "Req 5c Technical Comparison Matrix (Recondition or Show That You)",
             "headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "column_headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "row_labels": [
-              "1. Recondition or show that you can take proper care of your shoes, a baseball",
-              "2. Discuss with your counselor the advantages or disadvantages of leather vs",
-              "3. Synthetic materials"
+              "1. Operating Principle & Design (Recondition or Show That You)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Operating Principle & Design (Recondition or Show That You)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on recondition or show that you can take proper care of your shoes, a baseball.",
-            "fact": "Scouts must show recondition or show that you can take proper care of your shoes, a baseball using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90).",
-            "fact_correction": "Scouts must show recondition or show that you can take proper care of your shoes, a baseball using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)"
+            "misconception": "All methods covered under Recondition or Show That You in Leatherwork are interchangeable regardless of operating conditions.",
+            "fact": "Each method or system in Recondition or Show That You has distinct operating limits, efficiency trade-offs, and field applications defined in the Leatherwork pamphlet (p. 88, p. 90).",
+            "fact_correction": "Each method or system in Recondition or Show That You has distinct operating limits, efficiency trade-offs, and field applications defined in the Leatherwork pamphlet (p. 88, p. 90).",
+            "pamphlet_page_ref": "p. 88, p. 90"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1761,7 +2129,12 @@
           ],
           "id": "5c",
           "sub_req_label": "5c",
-          "sub_req_text": "Recondition or show that you can take proper care of your shoes, a baseball glove, a saddle, furniture, or other articles of leather. Discuss with your counselor the advantages or disadvantages of leather vs. synthetic materials."
+          "sub_req_text": "Recondition or show that you can take proper care of your shoes, a baseball glove, a saddle, furniture, or other articles of leather. Discuss with your counselor the advantages or disadvantages of leather vs. synthetic materials.",
+          "topic_title": "Req 5c: Recondition or Show That You",
+          "pamphlet_summary": "Recondition or Show That You: Do ONE of The Following: An optional requirement for the Leatherwork merit badge isto visit and report on a leather-related business (p. 88).",
+          "pamphlet_excerpts": [
+            "Recondition or Show That You: Do ONE of The Following: An optional requirement for the Leatherwork merit badge isto visit and report on a leather-related business (p. 88)."
+          ]
         },
         {
           "sub_id": "5d",
@@ -1777,29 +2150,36 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Study & Explanation Notes",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Leather-related Business)",
             "headers": [
-              "Req 5d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Visit a leather-related business",
-              "2. This could be a leathercraft supply company, a tannery, a leather goods",
-              "3. Report on your visit to your counselor"
+              "1. Core Definition & Mechanism (Leather-related Business)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Leather-related Business)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit a leather-related business.",
-            "fact": "Scouts must visit visit a leather-related business using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90).",
-            "fact_correction": "Scouts must visit visit a leather-related business using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90).",
-            "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)"
+            "misconception": "Watching a generic video without preparing questions or counselor approval fulfills the Visit A Leather-related Business field investigation in Leatherwork.",
+            "fact": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit A Leather-related Business, and document specific findings (p. 88, p. 90).",
+            "fact_correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit A Leather-related Business, and document specific findings (p. 88, p. 90).",
+            "pamphlet_page_ref": "p. 88, p. 90"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1824,7 +2204,12 @@
           ],
           "id": "5d",
           "sub_req_label": "5d",
-          "sub_req_text": "Visit a leather-related business. This could be a leathercraft supply company, a tannery, a leather goods or shoe factory, or a saddle shop. Report on your visit to your counselor."
+          "sub_req_text": "Visit a leather-related business. This could be a leathercraft supply company, a tannery, a leather goods or shoe factory, or a saddle shop. Report on your visit to your counselor.",
+          "topic_title": "Req 5d: Leather-related Business",
+          "pamphlet_summary": "Leather-related Business: Visit A Leather-related Business: Do ONE of The Following Principle 2: Almost everytown in America has a leather-related business available totour (p. 88).",
+          "pamphlet_excerpts": [
+            "Leather-related Business: Visit A Leather-related Business: Do ONE of The Following Principle 2: Almost everytown in America has a leather-related business available totour (p. 88)."
+          ]
         }
       ],
       "resources": [
@@ -1865,7 +2250,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Learn about the commercial tanning process",
+      "topic_title": "Req 5: Commercial Tanning Process",
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
@@ -1875,31 +2260,35 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 5 Differential Comparison Matrix",
+        "table_title": "Req 5 Technical Comparison Matrix (Commercial Tanning Process)",
         "headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "column_headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "row_labels": [
-          "(a) Learn about the commercial tanning process. Report about it to your counselor",
-          "(b) Tan the skin of a small animal",
-          "(c) Recondition or show that you can take proper care of your shoes, a baseball",
-          "(d) Visit a leather-related business"
+          "(5a) Commercial Tanning Process",
+          "(5b) Tan The Skin",
+          "(5c) Recondition or Show That You",
+          "(5d) Leather-related Business"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "(5a) Commercial Tanning Process",
+          "(5b) Tan The Skin",
+          "(5c) Recondition or Show That You",
+          "(5d) Leather-related Business"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on learn about the commercial tanning process. report about it to your counselor.",
-        "fact": "Scouts must explain learn about the commercial tanning process. report about it to your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90).",
-        "fact_correction": "Scouts must explain learn about the commercial tanning process. report about it to your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90).",
-        "pamphlet_page_ref": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)"
+        "misconception": "Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Do ONE of The Following activity (p. 88, p. 90).",
+        "fact_correction": "The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Do ONE of The Following activity (p. 88, p. 90).",
+        "pamphlet_page_ref": "p. 88, p. 90"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1923,44 +2312,231 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Optional Requirement: An optional requirement for the Leatherwork merit badge isto visit and report on a leather-related business.",
-        "Almost Everytown America: Almost everytown in America has a leather-related business available totour.",
-        "Small Custom-leather Shop: Whether it’s a small, custom-leather shop or a large industry (tannery, apparel manufacturer, etc.), it will be exciting toexplore the endless ways.",
-        "Surprised Welcome: You may be surprised how welcome you will be in theseindustries."
+        "Commercial Tanning Process: Do ONE of The Following: An optional requirement for the Leatherwork merit badge isto visit and report on a leather-related business (p. 88).",
+        "Commercial Tanning Process Principle 2: Do ONE of The Following Principle 2: Almost everytown in America has a leather-related business available totour (p. 88).",
+        "Commercial Tanning Process Principle 3: Do ONE of The Following Principle 3: Whether it's a small, custom-leather shop or a large industry (tannery, apparel manufacturer, etc.), it will be exciting toexplore the endless ways (p. 88).",
+        "Commercial Tanning Process Principle 4: Do ONE of The Following Principle 4: You may be surprised how welcome you will be in theseindustries (p. 88)."
       ],
       "step_by_step_procedure": [
-        "Shop Factory Managers: Most shop or factory managers will be pleased togive you the “grand tour” and answer questions about their operation.",
-        "Overall Understanding: Try to get an overall understanding of exactly whattakes place; take notes and pictures (but ask first, please).",
-        "Leather Hand-tooled: Is the leather hand-tooled, machineembossed, sewn, or laced? 4.",
-        "Theysold Directly General: Are theysold directly to the general public orto other businesses? 5."
+        "Step 1 (Commercial Tanning Process): Step 1 (Do ONE of The Following): Most shop or factory managers will be pleased togive you the \"grand tour\" and answer questions about their operation (p. 88).",
+        "Step 2 (Commercial Tanning Process): Step 2 (Do ONE of The Following): Try to get an overall understanding of exactly whattakes place; take notes and pictures (but ask first, please) (p. 88).",
+        "Step 3 (Commercial Tanning Process): Step 3 (Do ONE of The Following): Is the leather hand-tooled, machineembossed, sewn, or laced? 4 (p. 88).",
+        "Step 4 (Commercial Tanning Process): Step 4 (Do ONE of The Following): Are theysold directly to the general public orto other businesses? 5 (p. 88)."
       ],
       "gear_checklist": [
-        "Official Leatherwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Learn about the commercial tanning process",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Leatherwork Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Commercial Tanning Process)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Commercial Tanning Process.",
+        "Structured Leatherwork Requirement 5 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Leatherwork Req 5",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 5 - Learn about the commercial tanning process",
-          "Primary Standard": "Learn about the commercial tanning process. Report about it to your counselor.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Leatherwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Leatherwork Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Proactive Hazard Prevention (Do ONE of The Following)",
+        "right_header": "Acute Emergency Response (Do ONE of The Following)",
+        "left_points": [
+          "Eliminate environmental and equipment risks before starting.",
+          "Do ONE of The Following: An optional requirement for the Leatherwork merit badge isto visit and report on a leather-related business (p. 88).",
+          "Pre-activity PPE, weather, and buddy shakedown."
+        ],
+        "right_points": [
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Do ONE of The Following Principle 2: Almost everytown in America has a leather-related business available totour (p. 88).",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Do ONE of The Following: An optional requirement for the Leatherwork merit badge isto visit and report on a leather-related business (p. 88)",
+            "right": "Do ONE of The Following Principle 2: Almost everytown in America has a leather-related business available totour (p. 88)."
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Leatherwork Req 5 (Commercial Tanning Process)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
+        "fields": {
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Commercial Tanning Process.",
+          "Preventive Controls & PPE": "Commercial Tanning Process: Do ONE of The Following: An optional requirement for the Leatherwork merit badge isto visit and report on a leather-related business (p. 88).",
+          "Acute First-Aid Response": "Commercial Tanning Process Principle 2: Do ONE of The Following Principle 2: Almost everytown in America has a leather-related business available totour (p. 88).",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)."
+        },
+        "sample_output": "Commercial Tanning Process: Commercial Tanning Process: Do ONE of The Following: An optional requirement for the Leatherwork merit badge isto visit and report on a leat",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Leatherwork Requirement 5 (Commercial Tanning Process), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Leatherwork Requirement 5 (Commercial Tanning Process), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Commercial Tanning Process measurements and safety checks until after the field session concludes.",
+          "C. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+        ],
+        "choices": [
+          "A. Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Commercial Tanning Process measurements and safety checks until after the field session concludes.",
+          "C. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "explanation": "Correct Answer (C): The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Do ONE of The Following activity (p. 88, p. 90). (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)).",
+        "pamphlet_page_ref": "p. 88, p. 90"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Leatherwork Workbook organizer table and practical demonstration for Req 5."
     }
   ],
   "badge_slug": "leatherwork",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0",
+  "schema_baseline_version": "2026.v30",
   "is_test_lab": false,
   "is_discontinued": false,
-  "status": "ACTIVE"
+  "status": "OFFICIAL",
+  "patrol_quiz_bank": [
+    {
+      "scenario_prompt": "While working on Leatherwork Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Leatherwork Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure.",
+        "D. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "choices": [
+        "A. Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure.",
+        "D. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (D): The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 10, p. 11). (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)).",
+      "pamphlet_page_ref": "p. 10, p. 11",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Leatherwork Requirement 2 (Leatherwork Core Field Standard), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Leatherwork Requirement 2 (Leatherwork Core Field Standard), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Describing how to perform Leatherwork Core Field Standard verbally can substitute for a physical hands-on demonstration in.",
+        "B. Defer all Leatherwork Core Field Standard measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure.",
+        "D. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate."
+      ],
+      "choices": [
+        "A. Describing how to perform Leatherwork Core Field Standard verbally can substitute for a physical hands-on demonstration in.",
+        "B. Defer all Leatherwork Core Field Standard measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure.",
+        "D. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate.",
+      "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Leatherwork Core Field Standard with proper technique (p. 15, p. 21). (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)).",
+      "pamphlet_page_ref": "p. 15, p. 21",
+      "req_id": "2",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Leatherwork Requirement 3 (Articles of Leather That Use), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Leatherwork Requirement 3 (Articles of Leather That Use), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Make.",
+        "B. Describing how to perform Make one or more articles verbally can substitute for a physical hands-on demonstration in Leatherwork.",
+        "C. Defer all Articles of Leather That Use measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+      ],
+      "choices": [
+        "A. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Make.",
+        "B. Describing how to perform Make one or more articles verbally can substitute for a physical hands-on demonstration in Leatherwork.",
+        "C. Defer all Articles of Leather That Use measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Make.",
+      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Leatherwork pamphlet, each Scout must physically execute and demonstrate Make one or more articles with proper technique (p. 19, p. 53). (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)).",
+      "pamphlet_page_ref": "p. 19, p. 53",
+      "req_id": "3",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Leatherwork Requirement 4 (Braid or Plait An Article), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Leatherwork Requirement 4 (Braid or Plait An Article), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. General familiarity with Braid, plait is sufficient for Leatherwork Requirement 4 without citing specific functional mechanisms.",
+        "B. The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Braid.",
+        "C. Defer all Braid or Plait An Article measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+      ],
+      "choices": [
+        "A. General familiarity with Braid, plait is sufficient for Leatherwork Requirement 4 without citing specific functional mechanisms.",
+        "B. The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Braid.",
+        "C. Defer all Braid or Plait An Article measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+      ],
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Braid.",
+      "explanation": "Correct Answer (B): The Leatherwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Braid or Plait An Article (p. 68, p. 74). (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 68, p. 74)).",
+      "pamphlet_page_ref": "p. 68, p. 74",
+      "req_id": "4",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Leatherwork Requirement 5 (Commercial Tanning Process), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Leatherwork Requirement 5 (Commercial Tanning Process), your patrol encounters a decision point on proper procedure. According to the Leatherwork Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Commercial Tanning Process measurements and safety checks until after the field session concludes.",
+        "C. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+      ],
+      "choices": [
+        "A. Experienced Leatherwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Commercial Tanning Process measurements and safety checks until after the field session concludes.",
+        "C. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Leatherwork pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (C): The Leatherwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Do ONE of The Following activity (p. 88, p. 90). (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)).",
+      "pamphlet_page_ref": "p. 88, p. 90",
+      "req_id": "5",
+      "option_id": null
+    }
+  ],
+  "quartermaster_manifest": {
+    "badge_name": "Leatherwork",
+    "patrol_equipment": [
+      "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
+      "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs",
+      "Emergency action plan checklist and simulated patient assessment cards",
+      "Primary reference documents, case-study exhibits, and regulation charts for Leatherwork Core Field Standard",
+      "Structured Leatherwork Requirement 2 worksheet, index cards, and verification rubric",
+      "Buddy-pair discussion prompt cards and counselor sign-off checklist",
+      "Primary reference documents, case-study exhibits, and regulation charts for Articles of Leather That Use",
+      "Structured Leatherwork Requirement 3 worksheet, index cards, and verification rubric"
+    ],
+    "individual_scout_gear": [
+      "Official Leatherwork Merit Badge Pamphlet",
+      "Printed or Fillable Leatherwork Scout Workbook",
+      "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
+      "Field notebook, pen/pencil, and personal safety equipment (PPE)"
+    ]
+  }
 }

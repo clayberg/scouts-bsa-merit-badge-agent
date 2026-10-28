@@ -51,12 +51,15 @@ _ALLOWED_ASSET_PREFIXES: tuple[str, ...] = (
     "assets/ai_illustrations/",
     "assets/badge_image_catalog/",
     "assets/pptx_templates/",
+    "assets/templates/overlays/",
     "assets/construction_anim/",
 )
 
 _CATALOG_CACHE_LOCK = threading.Lock()
 _PAMPHLET_CATALOG_MEM: dict[str, Any] | None = None
+_PAMPHLET_CATALOG_MTIME: float = -1.0
 _NANO_CATALOG_MEM: dict[str, Any] | None = None
+_NANO_CATALOG_MTIME: float = -1.0
 _FILE_HYDRATION_LOCKS: dict[str, threading.Lock] = {}
 _GLOBAL_LOCK = threading.Lock()
 
@@ -77,8 +80,8 @@ def _get_file_lock(rel_path: str) -> threading.Lock:
 
 
 def _load_tracked_catalogs(repo_root: Path) -> tuple[dict[str, Any], dict[str, Any]]:
-    """Loads `data/pamphlet_image_catalog.json` and `data/nano_banana_image_catalog.json` into memory."""
-    global _PAMPHLET_CATALOG_MEM, _NANO_CATALOG_MEM
+    """Loads `data/pamphlet_image_catalog.json` and `data/nano_banana_image_catalog.json` into memory with mtime invalidation."""
+    global _PAMPHLET_CATALOG_MEM, _PAMPHLET_CATALOG_MTIME, _NANO_CATALOG_MEM, _NANO_CATALOG_MTIME
     if repo_root != REPO_ROOT:
         p_path = repo_root / "data" / "pamphlet_image_catalog.json"
         n_path = repo_root / "data" / "nano_banana_image_catalog.json"
@@ -87,20 +90,24 @@ def _load_tracked_catalogs(repo_root: Path) -> tuple[dict[str, Any], dict[str, A
         return p_data, n_data
 
     with _CATALOG_CACHE_LOCK:
-        if _PAMPHLET_CATALOG_MEM is None:
-            p_path = repo_root / "data" / "pamphlet_image_catalog.json"
+        p_path = repo_root / "data" / "pamphlet_image_catalog.json"
+        p_mtime = p_path.stat().st_mtime if p_path.exists() else 0.0
+        if _PAMPHLET_CATALOG_MEM is None or p_mtime != _PAMPHLET_CATALOG_MTIME:
             try:
                 _PAMPHLET_CATALOG_MEM = (
                     json.loads(p_path.read_text(encoding="utf-8")) if p_path.exists() else {}
                 )
+                _PAMPHLET_CATALOG_MTIME = p_mtime
             except Exception:
                 _PAMPHLET_CATALOG_MEM = {}
-        if _NANO_CATALOG_MEM is None:
-            n_path = repo_root / "data" / "nano_banana_image_catalog.json"
+        n_path = repo_root / "data" / "nano_banana_image_catalog.json"
+        n_mtime = n_path.stat().st_mtime if n_path.exists() else 0.0
+        if _NANO_CATALOG_MEM is None or n_mtime != _NANO_CATALOG_MTIME:
             try:
                 _NANO_CATALOG_MEM = (
                     json.loads(n_path.read_text(encoding="utf-8")) if n_path.exists() else {}
                 )
+                _NANO_CATALOG_MTIME = n_mtime
             except Exception:
                 _NANO_CATALOG_MEM = {}
         return _PAMPHLET_CATALOG_MEM, _NANO_CATALOG_MEM
@@ -115,6 +122,21 @@ def _is_safe_asset_rel_path(rel_path: str) -> bool:
     return norm.startswith(_ALLOWED_ASSET_PREFIXES)
 
 
+def _extract_req_asset_paths(node: Any, out: list[str]) -> None:
+    """Recursively extracts `workbook_diagram_url` and asset paths from requirement JSON structures."""
+    if isinstance(node, dict):
+        for k, v in node.items():
+            if k in ("workbook_diagram_url", "diagram_url", "pamphlet_image_path") and isinstance(v, str) and v.strip():
+                clean_v = v.strip().split("?")[0].lstrip("/")
+                if clean_v.startswith("assets/"):
+                    out.append(clean_v)
+            else:
+                _extract_req_asset_paths(v, out)
+    elif isinstance(node, list):
+        for item in node:
+            _extract_req_asset_paths(item, out)
+
+
 def collect_badge_asset_rel_paths(
     badge_name: str,
     template_id: str | None = None,
@@ -125,6 +147,7 @@ def collect_badge_asset_rel_paths(
     slug = badge_name_to_asset_slug(badge_name)
     if not slug:
         return []
+    hyphen_slug = slug.replace("_", "-")
 
     rel_paths: list[str] = [
         f"assets/badge_emblems/{slug}.png",
@@ -136,15 +159,59 @@ def collect_badge_asset_rel_paths(
     badge_lower = str(badge_name or "").strip().lower()
     pamphlet_prefix = f"{slug}_p"
     nano_prefix = f"{slug}_"
+    nano_hyphen_prefix = f"{hyphen_slug}_"
 
     for fname, meta in p_cat.items():
-        if str(fname).startswith(pamphlet_prefix):
-            rel_paths.append(f"assets/pamphlet_images/{fname}")
+        fname_s = str(fname).strip()
+        if fname_s.startswith(pamphlet_prefix) or fname_s.startswith(f"{hyphen_slug}_p"):
+            rel_paths.append(f"assets/pamphlet_images/{fname_s}")
 
     for fname, meta in n_cat.items():
-        meta_badge = str((meta or {}).get("badge_name") or (meta or {}).get("badge") or "").strip().lower()
-        if meta_badge == badge_lower or str(fname).startswith(nano_prefix):
-            rel_paths.append(f"assets/ai_illustrations/{fname}")
+        fname_s = str(fname).strip()
+        meta_dict = meta if isinstance(meta, dict) else {}
+        meta_badge = str(meta_dict.get("badge_name") or meta_dict.get("badge") or "").strip().lower()
+        meta_slug = badge_name_to_asset_slug(meta_badge) if meta_badge else ""
+        if (
+            meta_badge == badge_lower
+            or meta_slug == slug
+            or fname_s.startswith(nano_prefix)
+            or fname_s.startswith(nano_hyphen_prefix)
+        ):
+            clean_fname = fname_s.lstrip("/")
+            if clean_fname.startswith("assets/"):
+                rel_paths.append(clean_fname)
+            else:
+                rel_paths.append(f"assets/ai_illustrations/{clean_fname}")
+            for path_key in ("rel_path", "path", "workbook_diagram_url"):
+                extra_p = str(meta_dict.get(path_key) or "").strip().lstrip("/")
+                if extra_p.startswith("assets/"):
+                    rel_paths.append(extra_p)
+
+    # Inspect data/merit_badge_requirements/<slug>.json for workbook_diagram_url paths
+    req_dir = root / "data" / "merit_badge_requirements"
+    loaded_req_file = False
+    for candidate_name in (f"{hyphen_slug}.json", f"{slug}.json"):
+        req_file = req_dir / candidate_name
+        if req_file.exists():
+            try:
+                req_json = json.loads(req_file.read_text(encoding="utf-8"))
+                _extract_req_asset_paths(req_json, rel_paths)
+                loaded_req_file = True
+                break
+            except Exception:
+                pass
+
+    if not loaded_req_file:
+        cache_file = root / "data" / "official_requirements_cache.json"
+        if cache_file.exists():
+            try:
+                cache_json = json.loads(cache_file.read_text(encoding="utf-8"))
+                for k, v in (cache_json.items() if isinstance(cache_json, dict) else []):
+                    if str(k).strip().lower() == badge_lower or badge_name_to_asset_slug(str(k)) == slug:
+                        _extract_req_asset_paths(v, rel_paths)
+                        break
+            except Exception:
+                pass
 
     # Also inspect per-badge catalog.json if already present on disk
     badge_cat_path = root / "assets" / "badge_image_catalog" / slug / "catalog.json"

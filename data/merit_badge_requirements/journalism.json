@@ -10,7 +10,7 @@
   "under_maintenance_on_scouting_org": false,
   "requirements_source": "scouting.org",
   "requirements_count": 5,
-  "sub_requirements_total": 9,
+  "sub_requirements_total": 13,
   "requirements": [
     {
       "req_id": "1",
@@ -58,31 +58,36 @@
       "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 1 Differential Comparison Matrix",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Freedom of the press)",
         "headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Req 1 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Req 1 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain what freedom of the press is and how the First Amendment guarantees",
-          "2. In your discussion, tell how to distinguish between fact and opinion",
-          "3. Discuss how these matters relate to ethics in journalism"
+          "1. Core Definition & Mechanism (Freedom of the press)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Core Definition & Mechanism (Freedom of the press)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain what freedom of the press is and how the first amendment guarantees.",
-        "fact": "Scouts must explain explain what freedom of the press is and how the first amendment guarantees using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62).",
-        "fact_correction": "Scouts must explain explain what freedom of the press is and how the first amendment guarantees using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62).",
-        "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)"
+        "misconception": "General familiarity with Explain, freedom is sufficient for Journalism Requirement 1 without citing specific functional mechanisms.",
+        "fact": "The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Freedom of the press (p. 20, p. 62).",
+        "fact_correction": "The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Freedom of the press (p. 20, p. 62).",
+        "pamphlet_page_ref": "p. 20, p. 62"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -106,73 +111,102 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Journalists Shouldnever: Journalists shouldnever writesomething theyknow in advanceto be false, norshould theywrite somethingcarelessly, withreckless disregardfor the truth.",
-        "Doing Beused Civilcourt: Doing so can beused in a civilcourt as evidenceof malice, theintention of doingsomeone harm.",
-        "Journalists Careful Avoid: Journalists must be careful to avoid committing defamation, ordamaging someone’s reputation with false statements.",
-        "Thedamage Comes Written: When thedamage comes from written words or photographs, it is called libel."
+        "Freedom of the press: Journalists shouldnever writesomething theyknow in advance to be false, norshould theywrite somethingcarelessly, withreckless disregard for the truth (p. 20).",
+        "Freedom of the press Principle 2: Doing so can beused in a civilcourt as evidence of malice, theintention of doingsomeone harm (p. 20).",
+        "Freedom of the press Principle 3: Journalists must be careful to avoid committing defamation, ordamaging someone's reputation with false statements (p. 20).",
+        "Freedom of the press Principle 4: When thedamage comes from written words or photographs, it is called libel (p. 20)."
       ],
       "step_by_step_procedure": [
-        "Offending Words Spoken: When the offending words are spoken, it is called slander.",
-        "Libel Orslander Happens: Libel orslander happens, for example, when a journalist falsely reports thatsomeone has committed a crime.",
-        "Person Falsely Accused: The person falsely accused cansue the journalist and news organization in civil court.",
-        "Journalists Respect People: Journalists should respect people’s privacy, their rightto be left alone, out of public view."
+        "Step 1 (Freedom of the press): When the offending words are spoken, it is called slander (p. 20).",
+        "Step 2 (Freedom of the press): Libel orslander happens, for example, when a journalist falsely reports thatsomeone has committed a crime (p. 20).",
+        "Step 3 (Freedom of the press): The person falsely accused cansue the journalist and news organization in civil court (p. 20).",
+        "Step 4 (Freedom of the press): Journalists should respect people's privacy, their right to be left alone, out of public view (p. 20)."
       ],
       "gear_checklist": [
-        "Official Journalism Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Freedom of the press",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Journalism Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Freedom of the press)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Freedom of the press.",
+        "Structured Journalism Requirement 1 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Journalism Approach",
-        "right_header": "Official BSA Journalism Standard (Freedom of the press)",
+        "left_header": "Foundational Principles (Freedom of the press)",
+        "right_header": "Applied Field Execution (Freedom of the press)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Freedom of the press.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Freedom of the press.",
+          "Freedom of the press: Journalists shouldnever writesomething theyknow in advanceto be false, norshould theywrite somethingcarelessly, withre.",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Journalism Workbook organizer.",
-          "Clearly demonstrates and explains Freedom of the press using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Journalism.",
+          "Freedom of the press Principle 2: Doing so can beused in a civilcourt as evidenceof malice, theintention of doingsomeone harm (p. 20).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Freedom of the press.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Journalism."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Freedom of the press: Journalists shouldnever writesomething theyknow in advanceto be false, norshould theywrite somethingcarelessly, withre",
+            "right": "Freedom of the press Principle 2: Doing so can beused in a civilcourt as evidenceof malice, theintention of doingsomeone harm (p. 20)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Journalism Req 1",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Technical Analysis: Journalism Req 1 (Freedom of the press)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Requirement & Topic": "Req 1 - Freedom of the press",
-          "Primary Standard": "Explain what freedom of the press is and how the First Amendment guarantees that you can voice your opinion.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Journalism terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62) and verified during counselor conference."
+          "Core Technical Principle": "Freedom of the press: Journalists shouldnever writesomething theyknow in advance to be false, norshould theywrite somethingcarelessly, withreckless disregard for the truth (p. 20).",
+          "Applied Field Mechanism": "Freedom of the press Principle 2: Doing so can beused in a civilcourt as evidence of malice, theintention of doingsomeone harm (p. 20).",
+          "Real-World Case Example": "Concrete application of Freedom of the press documented during Journalism study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)."
         },
-        "counselor_tip": "Complete your Journalism Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Freedom of the press: Freedom of the press: Journalists shouldnever writesomething theyknow in advance to be false, norshould theywrite somethingcarelessly, withr",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before starting hands-on or field work for Journalism (Freedom of the press), which patrol preparation step best aligns with the official Journalism standard?",
+        "scenario_prompt": "While working on Journalism Requirement 1 (Freedom of the press), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Journalism Requirement 1 (Freedom of the press), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
         "options": [
-          "Review the Journalism hazards, PPE, and prerequisite standards in Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62) with your counselor and patrol buddy before beginning",
-          "Begin the practical station immediately and review the safety rules only if a problem occurs",
-          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
-          "Skip the pre-activity briefing when practicing indoors"
+          "A. General familiarity with Explain, freedom is sufficient for Journalism Requirement 1 without citing specific functional mechanisms.",
+          "B. The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Freedom.",
+          "C. Defer all Freedom of the press measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
         ],
-        "correct_answer": "Option A - Review the Journalism hazards, PPE, and prerequisite standards in Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62) with your counselor and patrol buddy before beginning",
-        "explanation": "Per Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
+        "choices": [
+          "A. General familiarity with Explain, freedom is sufficient for Journalism Requirement 1 without citing specific functional mechanisms.",
+          "B. The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Freedom.",
+          "C. Defer all Freedom of the press measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Freedom.",
+        "explanation": "Correct Answer (B): The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Freedom of the press (p. 20, p. 62). (Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)).",
+        "pamphlet_page_ref": "p. 20, p. 62"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Journalism Workbook organizer table and practical demonstration for Req 1."
+      "homework_verification_note": "Verify completed Journalism Workbook organizer table and practical demonstration for Req 1.",
+      "workbook_diagram_url": "assets/ai_illustrations/journalism_req_1_workbook_diagram.png"
     },
     {
       "req_id": "2",
       "req_number": "2",
       "topic_heading": null,
       "lead_text": "Do ONE of the following:",
-      "req_text": "Do ONE of the following: (a) Option A—Newspaper, Magazine, and Online Journalism. (Ask your parent or guardian's permission for the online option.) Do ALL of the following: (1) On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story. (2) Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a \"good\" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine ) (b) Option B—Radio and Television Journalism. Do ALL of the following: (1) All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view. (2) Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a \"good\" station. If possible, go with a reporter to cover a news event.",
+      "req_text": "Do ONE of the following: (a) Option A, Newspaper, Magazine, and Online Journalism. (Ask your parent or guardian's permission for the online option.) Do ALL of the following: (1) On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story. (2) Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a \"good\" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine ) (b) Option B, Radio and Television Journalism. Do ALL of the following: (1) All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view. (2) Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a \"good\" station. If possible, go with a reporter to cover a news event.",
       "sub_requirements": [
         {
           "sub_id": "2a",
           "label": "(a)",
-          "text": "Option A—Newspaper, Magazine, and Online Journalism. (Ask your parent or guardian's permission for the online option.) Do ALL of the following: (1) On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story. (2) Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a \"good\" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )",
+          "text": "Option A, Newspaper, Magazine, and Online Journalism. (Ask your parent or guardian's permission for the online option.) Do ALL of the following: (1) On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story. (2) Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a \"good\" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )",
           "resources": [],
           "children": [
             {
@@ -184,32 +218,36 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
-                "table_title": "Req 2a(1) Differential Comparison Matrix",
+                "table_title": "Req 2a(1) Technical Comparison Matrix (Same Day Read)",
                 "headers": [
-                  "Concept / Method A",
-                  "Concept / Method B",
-                  "Key Field Distinction & When to Use"
+                  "Comparison Dimension",
+                  "Method / System A Analysis",
+                  "Method / System B Analysis"
                 ],
                 "column_headers": [
-                  "Concept / Method A",
-                  "Concept / Method B",
-                  "Key Field Distinction & When to Use"
+                  "Comparison Dimension",
+                  "Method / System A Analysis",
+                  "Method / System B Analysis"
                 ],
                 "row_labels": [
-                  "1. On the same day, read a local news source or newspaper, a national news",
-                  "2. From each source, clip, read, and compare a story about the same event",
-                  "3. Tell your counselor how long each story is and how fair and accurate",
-                  "4. Tell how each source handled the story"
+                  "1. Operating Principle & Design (Same Day Read)",
+                  "2. Key Advantages & Ideal Field Conditions",
+                  "3. Limitations, Cost & Maintenance Trade-Offs",
+                  "4. Safety & Selection Criteria"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "rows": [
+                  "1. Operating Principle & Design (Same Day Read)",
+                  "2. Key Advantages & Ideal Field Conditions",
+                  "3. Limitations, Cost & Maintenance Trade-Offs",
+                  "4. Safety & Selection Criteria"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)",
               "common_misconception_pair": {
-                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on on the same day, read a local news source or newspaper, a national news.",
-                "fact": "Scouts must explain on the same day, read a local news source or newspaper, a national news using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-                "fact_correction": "Scouts must explain on the same day, read a local news source or newspaper, a national news using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-                "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)"
+                "misconception": "All methods covered under On The Same Day Read in Journalism are interchangeable regardless of operating conditions.",
+                "fact": "Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37).",
+                "fact_correction": "Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37).",
+                "pamphlet_page_ref": "p. 27, p. 37"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -234,7 +272,12 @@
               ],
               "id": "2a(1)",
               "sub_req_label": "2a(1)",
-              "sub_req_text": "On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story."
+              "sub_req_text": "On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story.",
+              "topic_title": "Req 2a(1): Same Day Read",
+              "pamphlet_summary": "Same Day Read: On The Same Day Read: Journalism Specialized Field Options Principle 2: This rule had required stations to presentnews of controversial issues of public importance, with allviewpoints given fair treatment (p. 27).",
+              "pamphlet_excerpts": [
+                "Same Day Read: On The Same Day Read: Journalism Specialized Field Options Principle 2: This rule had required stations to presentnews of controversial issues of public importance, with allviewpoints given fair treatment (p. 27)."
+              ]
             },
             {
               "sub_id": "2a(2)",
@@ -245,30 +288,36 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(2) Structured Study & Explanation Notes",
+                "table_title": "Req 2a(2) Structured Technical Study & Explanation Matrix (Office of A Newspaper Magazine)",
                 "headers": [
-                  "Req 2a(2) Clause / Topic",
-                  "Key Pamphlet Facts & Real-World Scouting Application"
+                  "Req 2a(2) Analysis Dimension",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Req 2a(2) Clause / Topic",
-                  "Key Pamphlet Facts & Real-World Scouting Application"
+                  "Req 2a(2) Analysis Dimension",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Visit the office of a newspaper, magazine, or internet news site",
-                  "2. Ask for a tour of the various divisions (editorial, business, and printing)",
-                  "3. During your tour, talk to an executive from the business side",
-                  "4. (You can request a virtual visit with Scout Life magazine )"
+                  "1. Core Definition & Mechanism (Office of A Newspaper Magazine)",
+                  "2. Key Pamphlet Facts & Technical Standards",
+                  "3. Practical Scouting / Field Application Example",
+                  "4. Counselor Discussion & Verification Summary"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "rows": [
+                  "1. Core Definition & Mechanism (Office of A Newspaper Magazine)",
+                  "2. Key Pamphlet Facts & Technical Standards",
+                  "3. Practical Scouting / Field Application Example",
+                  "4. Counselor Discussion & Verification Summary"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)",
               "common_misconception_pair": {
-                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit the office of a newspaper, magazine, or internet news site.",
-                "fact": "Scouts must visit visit the office of a newspaper, magazine, or internet news site using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-                "fact_correction": "Scouts must visit visit the office of a newspaper, magazine, or internet news site using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-                "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)"
+                "misconception": "Describing how to perform Visit The Office verbally can substitute for a physical hands-on demonstration in Journalism Requirement 2a(2).",
+                "fact": "Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit The Office with proper technique (p. 27, p. 37).",
+                "fact_correction": "Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit The Office with proper technique (p. 27, p. 37).",
+                "pamphlet_page_ref": "p. 27, p. 37"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -293,36 +342,43 @@
               ],
               "id": "2a(2)",
               "sub_req_label": "2a(2)",
-              "sub_req_text": "Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a \"good\" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )"
+              "sub_req_text": "Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a \"good\" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )",
+              "topic_title": "Req 2a(2): Office of A Newspaper Magazine",
+              "pamphlet_summary": "Office of A Newspaper Magazine: Visit The Office: Journalism Specialized Field Options Principle 3: After the repeal, many stationsreduced or eliminated their news staffs (p. 27).",
+              "pamphlet_excerpts": [
+                "Office of A Newspaper Magazine: Visit The Office: Journalism Specialized Field Options Principle 3: After the repeal, many stationsreduced or eliminated their news staffs (p. 27)."
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2a Differential Comparison Matrix",
+            "table_title": "Req 2a Technical Comparison Matrix (Option A Newspaper Magazine)",
             "headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "column_headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "row_labels": [
-              "(1) On the same day, read a local news source or newspaper, a national news",
-              "(2) Visit the office of a newspaper, magazine, or internet news site"
+              "(2a(1)) Same Day Read",
+              "(2a(2)) Office of A Newspaper Magazine"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": true
+            "rows": [
+              "(2a(1)) Same Day Read",
+              "(2a(2)) Office of A Newspaper Magazine"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on on the same day, read a local news source or newspaper, a national news.",
-            "fact": "Scouts must explain on the same day, read a local news source or newspaper, a national news using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-            "fact_correction": "Scouts must explain on the same day, read a local news source or newspaper, a national news using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-            "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)"
+            "misconception": "All methods covered under Option A Newspaper Magazine in Journalism are interchangeable regardless of operating conditions.",
+            "fact": "Each method or system in Option A Newspaper Magazine has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37).",
+            "fact_correction": "Each method or system in Option A Newspaper Magazine has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37).",
+            "pamphlet_page_ref": "p. 27, p. 37"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -352,12 +408,17 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Option A—Newspaper, Magazine, and Online Journalism. (Ask your parent or guardian's permission for the online option.) Do ALL of the following: (1) On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story. (2) Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a \"good\" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )"
+          "sub_req_text": "Option A, Newspaper, Magazine, and Online Journalism. (Ask your parent or guardian's permission for the online option.) Do ALL of the following: (1) On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story. (2) Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a \"good\" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )",
+          "topic_title": "Req 2a: Option A Newspaper Magazine",
+          "pamphlet_summary": "Option A Newspaper Magazine: Journalism Specialized Field Options Principle 4: Radio ranks second only to television in how much time people use it eachday (p. 27).",
+          "pamphlet_excerpts": [
+            "Option A Newspaper Magazine: Journalism Specialized Field Options Principle 4: Radio ranks second only to television in how much time people use it eachday (p. 27)."
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Option B—Radio and Television Journalism. Do ALL of the following: (1) All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view. (2) Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a \"good\" station. If possible, go with a reporter to cover a news event.",
+          "text": "Option B, Radio and Television Journalism. Do ALL of the following: (1) All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view. (2) Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a \"good\" station. If possible, go with a reporter to cover a news event.",
           "resources": [],
           "children": [
             {
@@ -369,32 +430,36 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
-                "table_title": "Req 2b(1) Differential Comparison Matrix",
+                "table_title": "Req 2b(1) Technical Comparison Matrix (All on The Same Day)",
                 "headers": [
-                  "Concept / Method A",
-                  "Concept / Method B",
-                  "Key Field Distinction & When to Use"
+                  "Comparison Dimension",
+                  "Method / System A Analysis",
+                  "Method / System B Analysis"
                 ],
                 "column_headers": [
-                  "Concept / Method A",
-                  "Concept / Method B",
-                  "Key Field Distinction & When to Use"
+                  "Comparison Dimension",
+                  "Method / System A Analysis",
+                  "Method / System B Analysis"
                 ],
                 "row_labels": [
-                  "1. All on the same day, watch a local and national network newscast, listen",
-                  "2. List the different news items and features presented, the different elements",
-                  "3. Compare the story lists and discuss whether the stories are fair and accurate",
-                  "4. Explain why different news outlets treated the stories differently and/or"
+                  "1. Operating Principle & Design (All on The Same Day)",
+                  "2. Key Advantages & Ideal Field Conditions",
+                  "3. Limitations, Cost & Maintenance Trade-Offs",
+                  "4. Safety & Selection Criteria"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": true
+                "rows": [
+                  "1. Operating Principle & Design (All on The Same Day)",
+                  "2. Key Advantages & Ideal Field Conditions",
+                  "3. Limitations, Cost & Maintenance Trade-Offs",
+                  "4. Safety & Selection Criteria"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)",
               "common_misconception_pair": {
-                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on all on the same day, watch a local and national network newscast, listen.",
-                "fact": "Scouts must explain all on the same day, watch a local and national network newscast, listen using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-                "fact_correction": "Scouts must explain all on the same day, watch a local and national network newscast, listen using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-                "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)"
+                "misconception": "All methods covered under All on The Same Day in Journalism are interchangeable regardless of operating conditions.",
+                "fact": "Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37).",
+                "fact_correction": "Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37).",
+                "pamphlet_page_ref": "p. 27, p. 37"
               },
               "starting_requirement_gate": {
                 "gate_type": "PARENT_CONSENT_GATE",
@@ -424,7 +489,12 @@
               ],
               "id": "2b(1)",
               "sub_req_label": "2b(1)",
-              "sub_req_text": "All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view."
+              "sub_req_text": "All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view.",
+              "topic_title": "Req 2b(1): All on The Same Day",
+              "pamphlet_summary": "All on The Same Day: Journalism Specialized Field Options Principle 3: After the repeal, many stationsreduced or eliminated their news staffs (p. 27).",
+              "pamphlet_excerpts": [
+                "All on The Same Day: Journalism Specialized Field Options Principle 3: After the repeal, many stationsreduced or eliminated their news staffs (p. 27)."
+              ]
             },
             {
               "sub_id": "2b(2)",
@@ -435,30 +505,36 @@
               "syllabus_bucket": "Pre-Class Prerequisite",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2b(2) Structured Study & Explanation Notes",
+                "table_title": "Req 2b(2) Structured Technical Study & Explanation Matrix (Radio or Television Station)",
                 "headers": [
-                  "Req 2b(2) Clause / Topic",
-                  "Key Pamphlet Facts & Real-World Scouting Application"
+                  "Req 2b(2) Analysis Dimension",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Req 2b(2) Clause / Topic",
-                  "Key Pamphlet Facts & Real-World Scouting Application"
+                  "Req 2b(2) Analysis Dimension",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Visit a radio or television station",
-                  "2. Ask for a tour of the various departments, concentrating on those related",
-                  "3. During your tour, talk to the station manager or other station management",
-                  "4. If possible, go with a reporter to cover a news event"
+                  "1. Core Definition & Mechanism (Radio or Television Station)",
+                  "2. Key Pamphlet Facts & Technical Standards",
+                  "3. Practical Scouting / Field Application Example",
+                  "4. Counselor Discussion & Verification Summary"
                 ],
-                "min_rows": 4,
-                "pre_approval_gate": false
+                "rows": [
+                  "1. Core Definition & Mechanism (Radio or Television Station)",
+                  "2. Key Pamphlet Facts & Technical Standards",
+                  "3. Practical Scouting / Field Application Example",
+                  "4. Counselor Discussion & Verification Summary"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)",
               "common_misconception_pair": {
-                "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit a radio or television station.",
-                "fact": "Scouts must visit visit a radio or television station using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-                "fact_correction": "Scouts must visit visit a radio or television station using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-                "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)"
+                "misconception": "Describing how to perform Visit A Radio or Television verbally can substitute for a physical hands-on demonstration in Journalism Requirement 2b(2).",
+                "fact": "Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit A Radio or Television with proper technique (p. 27, p. 37).",
+                "fact_correction": "Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit A Radio or Television with proper technique (p. 27, p. 37).",
+                "pamphlet_page_ref": "p. 27, p. 37"
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -483,36 +559,43 @@
               ],
               "id": "2b(2)",
               "sub_req_label": "2b(2)",
-              "sub_req_text": "Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a \"good\" station. If possible, go with a reporter to cover a news event."
+              "sub_req_text": "Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a \"good\" station. If possible, go with a reporter to cover a news event.",
+              "topic_title": "Req 2b(2): Radio or Television Station",
+              "pamphlet_summary": "Radio or Television Station: Visit A Radio or Television: Journalism Specialized Field Options Principle 4: Radio ranks second only to television in how much time people use it eachday (p. 27).",
+              "pamphlet_excerpts": [
+                "Radio or Television Station: Visit A Radio or Television: Journalism Specialized Field Options Principle 4: Radio ranks second only to television in how much time people use it eachday (p. 27)."
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2b Differential Comparison Matrix",
+            "table_title": "Req 2b Technical Comparison Matrix (Option B Radio and Television)",
             "headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "column_headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "row_labels": [
-              "(1) All on the same day, watch a local and national network newscast, listen",
-              "(2) Visit a radio or television station"
+              "(2b(1)) All on The Same Day",
+              "(2b(2)) Radio or Television Station"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": true
+            "rows": [
+              "(2b(1)) All on The Same Day",
+              "(2b(2)) Radio or Television Station"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on all on the same day, watch a local and national network newscast, listen.",
-            "fact": "Scouts must explain all on the same day, watch a local and national network newscast, listen using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-            "fact_correction": "Scouts must explain all on the same day, watch a local and national network newscast, listen using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-            "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)"
+            "misconception": "All methods covered under Option B Radio and Television in Journalism are interchangeable regardless of operating conditions.",
+            "fact": "Each method or system in Option B Radio and Television has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37).",
+            "fact_correction": "Each method or system in Option B Radio and Television has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37).",
+            "pamphlet_page_ref": "p. 27, p. 37"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -542,7 +625,12 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Option B—Radio and Television Journalism. Do ALL of the following: (1) All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view. (2) Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a \"good\" station. If possible, go with a reporter to cover a news event."
+          "sub_req_text": "Option B, Radio and Television Journalism. Do ALL of the following: (1) All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view. (2) Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a \"good\" station. If possible, go with a reporter to cover a news event.",
+          "topic_title": "Req 2b: Option B Radio and Television",
+          "pamphlet_summary": "Option B Radio and Television: Journalism Specialized Field Options: In 1987, the Federal Communication Commission, which grants radio and television stations licenses to broadcast, repealed the Fairness Doctrine (p. 27).",
+          "pamphlet_excerpts": [
+            "Option B Radio and Television: Journalism Specialized Field Options: In 1987, the Federal Communication Commission, which grants radio and television stations licenses to broadcast, repealed the Fairness Doctrine (p. 27)."
+          ]
         }
       ],
       "resources": [],
@@ -554,7 +642,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Option A, Newspaper, Magazine, and Online Journalism",
+      "topic_title": "Req 2: Journalism Specialized Field Options",
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
@@ -564,31 +652,31 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Differential Comparison Matrix",
+        "table_title": "Req 2 Technical Comparison Matrix (Journalism Specialized Field Options)",
         "headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "column_headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "row_labels": [
-          "(a) Option A, Newspaper, Magazine, and Online Journalism",
-          "(1) On the same day, read a local news source or newspaper, a national news",
-          "(2) Visit the office of a newspaper, magazine, or internet news site",
-          "(b) Option B, Radio and Television Journalism. Do ALL of the following"
+          "(2a) Option A Newspaper Magazine",
+          "(2b) Option B Radio and Television"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": true
+        "rows": [
+          "(2a) Option A Newspaper Magazine",
+          "(2b) Option B Radio and Television"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on option a, newspaper, magazine, and online journalism.",
-        "fact": "Scouts must explain option a, newspaper, magazine, and online journalism using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-        "fact_correction": "Scouts must explain option a, newspaper, magazine, and online journalism using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37).",
-        "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)"
+        "misconception": "All methods covered under Journalism Specialized Field Options in Journalism are interchangeable regardless of operating conditions.",
+        "fact": "Each method or system in Journalism Specialized Field Options has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37).",
+        "fact_correction": "Each method or system in Journalism Specialized Field Options has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37).",
+        "pamphlet_page_ref": "p. 27, p. 37"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -617,51 +705,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Federal Communication: In 1987, the Federal Communication Commission, which grants radioand television stations licenses to broadcast, repealed the Fairness Doctrine.",
-        "Rule Required Stations: This rule had required stations to presentnews of controversial issues of public importance, with allviewpoints given fair treatment.",
-        "Stationsreduced Eliminated: After the repeal, many stationsreduced or eliminated their news staffs.",
-        "Radio Ranks Television: Radio ranks second only to television in how much time people use it eachday."
+        "Journalism Specialized Field Options: In 1987, the Federal Communication Commission, which grants radio and television stations licenses to broadcast, repealed the Fairness Doctrine (p. 27).",
+        "Journalism Specialized Field Options Principle 2: This rule had required stations to presentnews of controversial issues of public importance, with allviewpoints given fair treatment (p. 27).",
+        "Journalism Specialized Field Options Principle 3: After the repeal, many stationsreduced or eliminated their news staffs (p. 27).",
+        "Journalism Specialized Field Options Principle 4: Radio ranks second only to television in how much time people use it eachday (p. 27)."
       ],
       "step_by_step_procedure": [
-        "Broadcast Radio Reaches: Broadcast radio reaches some 93 percent of all Americans.",
-        "There Licensed Broadcast: In 2015, there were 15,470 licensed broadcast radio stations in the United States, a number that has been slowly increasing over the past.",
-        "Development Consolidation: The other important development was consolidation.",
-        "Single Company Owning: A single company owning dozens or even hundreds of radiostations could combine staffs and broadcast national, insteadof local, programming."
+        "Step 1 (Journalism Specialized Field Options): Broadcast radio reaches some 93 percent of all Americans (p. 27).",
+        "Step 2 (Journalism Specialized Field Options): In 2015, there were 15,470 licensed broadcast radio stations in the United States, a number that has been slowly increasing over the past (p. 27).",
+        "Step 3 (Journalism Specialized Field Options): The other important development was consolidation (p. 27).",
+        "Step 4 (Journalism Specialized Field Options): A single company owning dozens or even hundreds of radiostations could combine staffs and broadcast national, instead of local, programming (p. 27)."
       ],
       "gear_checklist": [
-        "Official Journalism Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Option A, Newspaper, Magazine, and Online Journalism",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Journalism Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Journalism Specialized Field Options)",
+        "Digital multimeter (volt/ohm/ammeter), breadboard jumper kit, or diagnostic workstation.",
+        "Schematic symbol reference chart, engineering graph pad, and insulated hand tools.",
+        "ESD wrist strap, safety goggles, and component datasheet packet for Req 2."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Journalism Approach",
-        "right_header": "Official BSA Journalism Standard (Option A, Newspaper, Magazine, and Online Journalism)",
+        "left_header": "Foundational Principles (Journalism Specialized Field Options)",
+        "right_header": "Applied Field Execution (Journalism Specialized Field Options)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Option A, Newspaper, Magazine, and Online Journalism.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Journalism Specialized Field Options.",
+          "Journalism Specialized Field Options: In 1987, the Federal Communication Commission, which grants radioand television stations licenses.",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Journalism Workbook organizer.",
-          "Clearly demonstrates and explains Option A, Newspaper, Magazine, and Online Journalism using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Journalism.",
+          "Journalism Specialized Field Options Principle 2: This rule had required stations to presentnews of controversial issues of public importanc.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Journalism Specialized Field Options.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Journalism."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Journalism Specialized Field Options: In 1987, the Federal Communication Commission, which grants radioand television stations licenses to b",
+            "right": "Journalism Specialized Field Options Principle 2: This rule had required stations to presentnews of controversial issues of public importanc"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Journalism Req 2",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Quantitative Log Entry: Journalism Req 2 (Journalism Specialized Field Options)",
+        "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
-          "Requirement & Topic": "Req 2 - Option A, Newspaper, Magazine, and Online Journalism",
-          "Primary Standard": "Option A, Newspaper, Magazine, and Online Journalism.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Journalism terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37) and verified during counselor conference."
+          "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Journalism Specialized Field Options.",
+          "Tracked Field Data": "Journalism Specialized Field Options: In 1987, the Federal Communication Commission, which grants radio and television stations licenses to broadcast, repealed the Fairness Doctrin.",
+          "Variance & Outcome Analysis": "Journalism Specialized Field Options Principle 2: This rule had required stations to presentnews of controversial issues of public importance, with allviewpoints given fair treatme.",
+          "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37))"
         },
-        "counselor_tip": "Complete your Journalism Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Journalism Specialized Field Options: Journalism Specialized Field Options: In 1987, the Federal Communication Commission, which grants radio and television stations licenses to ",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Journalism Requirement 2 (Journalism Specialized Field Options), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Journalism Requirement 2 (Journalism Specialized Field Options), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. All methods covered under Journalism Specialized Field Options in Journalism are interchangeable regardless of operating conditions.",
+          "B. Defer all Journalism Specialized Field Options measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure.",
+          "D. Each method or system in Journalism Specialized Field Options has distinct operating limits, efficiency trade-offs, and field."
+        ],
+        "choices": [
+          "A. All methods covered under Journalism Specialized Field Options in Journalism are interchangeable regardless of operating conditions.",
+          "B. Defer all Journalism Specialized Field Options measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure.",
+          "D. Each method or system in Journalism Specialized Field Options has distinct operating limits, efficiency trade-offs, and field."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Each method or system in Journalism Specialized Field Options has distinct operating limits, efficiency trade-offs, and field.",
+        "explanation": "Correct Answer (D): Each method or system in Journalism Specialized Field Options has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+        "pamphlet_page_ref": "p. 27, p. 37"
+      },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Journalism Workbook organizer table and practical demonstration for Req 2."
+      "homework_verification_note": "Verify completed Journalism Workbook organizer table and practical demonstration for Req 2.",
+      "workbook_diagram_url": "assets/ai_illustrations/journalism_req_2_workbook_diagram.png"
     },
     {
       "req_id": "3",
@@ -679,29 +806,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Study & Explanation Notes",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Current or An Unusual Event)",
             "headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Choose a current or an unusual event of interest to you, and write either",
-              "2. Gear the article for print OR online OR audio OR video journalism",
-              "3. Share your article with your counselor"
+              "1. Core Definition & Mechanism (Current or An Unusual Event)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Current or An Unusual Event)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on choose a current or an unusual event of interest to you, and write either.",
-            "fact": "Scouts must write choose a current or an unusual event of interest to you, and write either using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74).",
-            "fact_correction": "Scouts must write choose a current or an unusual event of interest to you, and write either using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74).",
-            "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)"
+            "misconception": "General familiarity with Choose, current is sufficient for Journalism Requirement 3a without citing specific functional mechanisms.",
+            "fact": "The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Choose A Current (p. 68, p. 74).",
+            "fact_correction": "The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Choose A Current (p. 68, p. 74).",
+            "pamphlet_page_ref": "p. 68, p. 74"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -726,7 +860,12 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Choose a current or an unusual event of interest to you, and write either a hard news article OR a feature article about the event. Gear the article for print OR online OR audio OR video journalism. Share your article with your counselor."
+          "sub_req_text": "Choose a current or an unusual event of interest to you, and write either a hard news article OR a feature article about the event. Gear the article for print OR online OR audio OR video journalism. Share your article with your counselor.",
+          "topic_title": "Req 3a: Current or An Unusual Event",
+          "pamphlet_summary": "Current or An Unusual Event: Choose A Current: Hard News, Feature, Opinion & Editorial: Careers in Journalism. the internet, be Above all, journalists should be good communicators (p. 68).",
+          "pamphlet_excerpts": [
+            "Current or An Unusual Event: Choose A Current: Hard News, Feature, Opinion & Editorial: Careers in Journalism. the internet, be Above all, journalists should be good communicators (p. 68)."
+          ]
         },
         {
           "sub_id": "3b",
@@ -737,25 +876,29 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "CAREER_EXPLORATION_CARD",
-            "table_title": "Req 3b Career & Pathway Exploration Card",
+            "table_title": "Req 3b Career & Professional Pathway Investigation Matrix",
             "headers": [
               "Career Research Dimension",
-              "Selected Career Details",
-              "Education, Training & Personal Goals"
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
             ],
             "column_headers": [
               "Career Research Dimension",
-              "Selected Career Details",
-              "Education, Training & Personal Goals"
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
             ],
             "row_labels": [
-              "1. Three Career Opportunities Identified",
-              "2. Selected Career: Education & Training Required",
-              "3. Daily Duties, Licensing & Expenses",
-              "4. Starting Salary, Job Outlook & Personal Goals"
+              "1. Three Related Careers Identified",
+              "2. Selected Career: Education, Training & Licensing",
+              "3. Daily Responsibilities, Tools & Working Conditions",
+              "4. Salary Range, Advancement Outlook & Personal Fit"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": true
+            "rows": [
+              "1. Three Related Careers Identified",
+              "2. Selected Career: Education, Training & Licensing",
+              "3. Daily Responsibilities, Tools & Working Conditions",
+              "4. Salary Range, Advancement Outlook & Personal Fit"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)",
           "common_misconception_pair": {
@@ -792,7 +935,12 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "With your parent or guardian's permission and counselor's approval, interview someone in your community who is influential because of his or her leadership, talent, career, or life experiences. Then present to your counselor either a written or oral report telling what you learned about this person."
+          "sub_req_text": "With your parent or guardian's permission and counselor's approval, interview someone in your community who is influential because of his or her leadership, talent, career, or life experiences. Then present to your counselor either a written or oral report telling what you learned about this person.",
+          "topic_title": "Req 3b: Journalism Careers and Pathways",
+          "pamphlet_summary": "Journalism Careers and Pathways: Careers and Professional Pathways: Hard News, Feature, Opinion & Editorial Principle 2: Anability to write well is at the heart of many journalism positions (p. 68).",
+          "pamphlet_excerpts": [
+            "Journalism Careers and Pathways: Careers and Professional Pathways: Hard News, Feature, Opinion & Editorial Principle 2: Anability to write well is at the heart of many journalism positions (p. 68)."
+          ]
         },
         {
           "sub_id": "3c",
@@ -803,28 +951,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Study & Explanation Notes",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Counselor's Approval Read An Autobiography)",
             "headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With your parent or guardian's permission and counselor's approval, read",
-              "2. Write an article that tells what you learned about this person"
+              "1. Core Definition & Mechanism (Counselor's Approval Read An Autobiography)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": true
+            "rows": [
+              "1. Core Definition & Mechanism (Counselor's Approval Read An Autobiography)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your parent or guardian's permission and counselor's approval, read.",
-            "fact": "Scouts must explain with your parent or guardian's permission and counselor's approval, read using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74).",
-            "fact_correction": "Scouts must explain with your parent or guardian's permission and counselor's approval, read using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74).",
-            "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)"
+            "misconception": "General familiarity with parent, guardian's is sufficient for Journalism Requirement 3c without citing specific functional mechanisms.",
+            "fact": "The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Your Parent or Guardian's Permission (p. 68, p. 74).",
+            "fact_correction": "The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Your Parent or Guardian's Permission (p. 68, p. 74).",
+            "pamphlet_page_ref": "p. 68, p. 74"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -854,7 +1010,12 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "With your parent or guardian's permission and counselor's approval, read an autobiography written by a journalist you want to learn more about. Write an article that tells what you learned about this person and the contributions this person has made to the field of journalism."
+          "sub_req_text": "With your parent or guardian's permission and counselor's approval, read an autobiography written by a journalist you want to learn more about. Write an article that tells what you learned about this person and the contributions this person has made to the field of journalism.",
+          "topic_title": "Req 3c: Counselor's Approval Read An Autobiography",
+          "pamphlet_summary": "Counselor's Approval Read An Autobiography: Your Parent or Guardian's Permission: Hard News, Feature, Opinion & Editorial Principle 3: With advances in technology, never before has it been easier to try your hand at being ajournalist (p. 68).",
+          "pamphlet_excerpts": [
+            "Counselor's Approval Read An Autobiography: Your Parent or Guardian's Permission: Hard News, Feature, Opinion & Editorial Principle 3: With advances in technology, never before has it been easier to try your hand at being ajournalist (p. 68)."
+          ]
         },
         {
           "sub_id": "3d",
@@ -869,30 +1030,39 @@
           "children": [],
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Study & Explanation Notes",
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 3d Quantitative Field Observation & Activity Log (Scouting Event and Write)",
             "headers": [
-              "Req 3d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "column_headers": [
-              "Req 3d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Attend a Scouting event and write a 200-word article (feature or hard news)",
-              "2. Use either the inverted pyramid style or the chronological style",
-              "3. Review the article with your counselor, then submit it to your community"
+              "1. Baseline Entry & Starting Conditions (Scouting Event and Write)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Baseline Entry & Starting Conditions (Scouting Event and Write)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on attend a scouting event and write a 200-word article (feature or hard news).",
-            "fact": "Scouts must attend attend a scouting event and write a 200-word article (feature or hard news) using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74).",
-            "fact_correction": "Scouts must attend attend a scouting event and write a 200-word article (feature or hard news) using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74).",
-            "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)"
+            "misconception": "Estimating Attend A Scouting Event entries from memory at the end of the project satisfies the Journalism Requirement 3d standard.",
+            "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Journalism log as each Attend A Scouting Event milestone is completed (p. 68, p. 74).",
+            "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Journalism log as each Attend A Scouting Event milestone is completed (p. 68, p. 74).",
+            "pamphlet_page_ref": "p. 68, p. 74"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -917,7 +1087,12 @@
           ],
           "id": "3d",
           "sub_req_label": "3d",
-          "sub_req_text": "Attend a Scouting event and write a 200-word article (feature or hard news) about the event. Use either the inverted pyramid style or the chronological style. Review the article with your counselor, then submit it to your community newspaper or Scouting America local council or district newsletter for consideration."
+          "sub_req_text": "Attend a Scouting event and write a 200-word article (feature or hard news) about the event. Use either the inverted pyramid style or the chronological style. Review the article with your counselor, then submit it to your community newspaper or Scouting America local council or district newsletter for consideration.",
+          "topic_title": "Req 3d: Scouting Event and Write",
+          "pamphlet_summary": "Scouting Event and Write: Attend A Scouting Event: Hard News, Feature, Opinion & Editorial Principle 4: Anyone with a computer, some basic software, andan internet connection can do a grassroots form of journalism (p. 68).",
+          "pamphlet_excerpts": [
+            "Scouting Event and Write: Attend A Scouting Event: Hard News, Feature, Opinion & Editorial Principle 4: Anyone with a computer, some basic software, andan internet connection can do a grassroots form of journalism (p. 68)."
+          ]
         }
       ],
       "resources": [
@@ -952,25 +1127,29 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "CAREER_EXPLORATION_CARD",
-        "table_title": "Req 3 Career & Pathway Exploration Card",
+        "table_title": "Req 3 Career & Professional Pathway Investigation Matrix",
         "headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "column_headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. Three Career Opportunities Identified",
-          "2. Selected Career: Education & Training Required",
-          "3. Daily Duties, Licensing & Expenses",
-          "4. Starting Salary, Job Outlook & Personal Goals"
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": true
+        "rows": [
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Listing three job titles from a quick web search satisfies the Journalism career exploration requirement.",
@@ -1005,49 +1184,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Careers Journalism Internet: Careers in Journalism. the internet, be Above all, journalists should be good communicators.",
-        "Anability Write Heart: Anability to write well is at the heart of many journalism positions.",
-        "Advances Technology Easier: With advances in technology, never before has it been easier to try your hand at being ajournalist.",
-        "Anyone Computer Basic: Anyone with a computer, some basic software, andan internet connection can do a grassroots form of journalism."
+        "Hard News, Feature, Opinion & Editorial: Careers in Journalism. the internet, be Above all, journalists should be good communicators (p. 68).",
+        "Hard News, Feature, Opinion & Editorial Principle 2: Anability to write well is at the heart of many journalism positions (p. 68).",
+        "Hard News, Feature, Opinion & Editorial Principle 3: With advances in technology, never before has it been easier to try your hand at being ajournalist (p. 68).",
+        "Hard News, Feature, Opinion & Editorial Principle 4: Anyone with a computer, some basic software, andan internet connection can do a grassroots form of journalism (p. 68)."
       ],
       "step_by_step_procedure": [
-        "Creating Own Blog: Creating your own blog is a great way to share news and opinions withfriends, family, fellow Scouts, or the world beyond.",
-        "Parent Orguardian Permission: With your parent orguardian’s permission, get online and search for free blogging services.",
-        "Recently Read Agood: If you have recently read agood book or seen a good movie, you could post a review in the form of ablog.",
-        "Write Recent Outing: You could write about a recent Scout outing and include photos andquotes from your friends, all elements you would see in a mainstreammagazine."
+        "Step 1 (Hard News, Feature, Opinion & Editorial): Creating your own blog is a great way to share news and opinions withfriends, family, fellow Scouts, or the world beyond (p. 68).",
+        "Step 2 (Hard News, Feature, Opinion & Editorial): With your parent orguardian's permission, get online and search for free blogging services (p. 68).",
+        "Step 3 (Hard News, Feature, Opinion & Editorial): If you have recently read agood book or seen a good movie, you could post a review in the form of ablog (p. 68).",
+        "Step 4 (Hard News, Feature, Opinion & Editorial): You could write about a recent Scout outing and include photos andquotes from your friends, all elements you would see in a mainstreammagazine (p. 68)."
       ],
       "gear_checklist": [
-        "Official Journalism Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Hard News, Feature, Opinion & Editorial",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Journalism Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Hard News, Feature, Opinion & Editorial)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Journalism Approach",
-        "right_header": "Official BSA Journalism Standard (Hard News, Feature, Opinion & Editorial)",
+        "left_header": "Professional Career Track in Journalism",
+        "right_header": "Lifelong Avocation & Civic Service in Journalism",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Hard News, Feature, Opinion & Editorial.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Accredited degree, trade apprenticeship, or industry license.",
+          "Hard News, Feature, Opinion & Editorial: Careers in Journalism. the internet, be Above all, journalists should be good communicators (p. 68).",
+          "Full-time compensation and technical leadership."
         ],
         "right_points": [
-          "Reviews Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Journalism Workbook organizer.",
-          "Clearly demonstrates and explains Hard News, Feature, Opinion & Editorial using the BSA EDGE method."
+          "Merit badge mastery, club mentorship, and volunteer service.",
+          "Hard News, Feature, Opinion & Editorial Principle 2: Anability to write well is at the heart of many journalism positions (p. 68).",
+          "Community stewardship, outdoor recreation, and teaching others."
+        ],
+        "rows": [
+          {
+            "attribute": "Training Pathway",
+            "left": "Accredited degree, trade apprenticeship, or industry license.",
+            "right": "Merit badge mastery, club mentorship, and volunteer service."
+          },
+          {
+            "attribute": "Core Responsibilities",
+            "left": "Hard News, Feature, Opinion & Editorial: Careers in Journalism. the internet, be Above all, journalists should be good communicators (p. 68)",
+            "right": "Hard News, Feature, Opinion & Editorial Principle 2: Anability to write well is at the heart of many journalism positions (p. 68)."
+          },
+          {
+            "attribute": "Long-Term Outcome",
+            "left": "Full-time compensation and technical leadership.",
+            "right": "Community stewardship, outdoor recreation, and teaching others."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Journalism Req 3",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Quantitative Log Entry: Journalism Req 3 (Hard News, Feature, Opinion & Editorial)",
+        "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
-          "Requirement & Topic": "Req 3 - Hard News, Feature, Opinion & Editorial",
-          "Primary Standard": "Choose a current or an unusual event of interest to you, and write either a hard news article OR a feature article about the event. Gear the article for print OR online OR audio OR video journalism. Share your article with your counselor.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Journalism terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74) and verified during counselor conference."
+          "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Hard News, Feature, Opinion & Editorial.",
+          "Tracked Field Data": "Hard News, Feature, Opinion & Editorial: Careers in Journalism. the internet, be Above all, journalists should be good communicators (p. 68).",
+          "Variance & Outcome Analysis": "Hard News, Feature, Opinion & Editorial Principle 2: Anability to write well is at the heart of many journalism positions (p. 68).",
+          "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74))"
         },
-        "counselor_tip": "Complete your Journalism Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Hard News, Feature, Opinion & Editorial: Hard News, Feature, Opinion & Editorial: Careers in Journalism. the internet, be Above all, journalists should be good communicators (p. 68)",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Journalism Requirement 3 (Hard News, Feature, Opinion & Editorial), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Journalism Requirement 3 (Hard News, Feature, Opinion & Editorial), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Listing three job titles from a quick web search satisfies the Journalism career exploration requirement.",
+          "B. Scouts must research specific Journalism career pathways and discuss required education, training, licensing, and daily duties with.",
+          "C. Defer all Hard News, Feature, Opinion & Editorial measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+        ],
+        "choices": [
+          "A. Listing three job titles from a quick web search satisfies the Journalism career exploration requirement.",
+          "B. Scouts must research specific Journalism career pathways and discuss required education, training, licensing, and daily duties with.",
+          "C. Defer all Hard News, Feature, Opinion & Editorial measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Scouts must research specific Journalism career pathways and discuss required education, training, licensing, and daily duties with.",
+        "explanation": "Correct Answer (B): Scouts must research specific Journalism career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)).",
+        "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Journalism Workbook organizer table and practical demonstration for Req 3."
     },
@@ -1066,30 +1283,39 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Study & Explanation Notes",
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 4a Quantitative Field Observation & Activity Log (Articles About The Event One)",
             "headers": [
-              "Req 4a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "column_headers": [
-              "Req 4a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Write two articles about the event, one using the inverted pyramid style",
-              "2. Key Pamphlet Examples & Evidence (Req 4a)",
-              "3. Practical Write & Safety Verification"
+              "1. Baseline Entry & Starting Conditions (Articles About The Event One)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Baseline Entry & Starting Conditions (Articles About The Event One)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write two articles about the event, one using the inverted pyramid style.",
-            "fact": "Scouts must write write two articles about the event, one using the inverted pyramid style using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51).",
-            "fact_correction": "Scouts must write write two articles about the event, one using the inverted pyramid style using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51).",
-            "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)"
+            "misconception": "Estimating Write Two Articles entries from memory at the end of the project satisfies the Journalism Requirement 4a standard.",
+            "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Journalism log as each Write Two Articles milestone is completed (p. 25, p. 51).",
+            "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Journalism log as each Write Two Articles milestone is completed (p. 25, p. 51).",
+            "pamphlet_page_ref": "p. 25, p. 51"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1114,7 +1340,12 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Write two articles about the event, one using the inverted pyramid style and one using the chronological style."
+          "sub_req_text": "Write two articles about the event, one using the inverted pyramid style and one using the chronological style.",
+          "topic_title": "Req 4a: Articles About The Event One",
+          "pamphlet_summary": "Articles About The Event One: Write Two Articles: Attend a public event Principle 2: The writer begins with the most substantial details, followed by less importantdetails that can be trimmed, if necessary, without losing the gist (p. 25).",
+          "pamphlet_excerpts": [
+            "Articles About The Event One: Write Two Articles: Attend a public event Principle 2: The writer begins with the most substantial details, followed by less importantdetails that can be trimmed, if necessary, without losing the gist (p. 25)."
+          ]
         },
         {
           "sub_id": "4b",
@@ -1130,29 +1361,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Study & Explanation Notes",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Using A Radio Television)",
             "headers": [
-              "Req 4b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Using a radio, television",
-              "2. Podcasting style, write a news story, a feature story",
-              "3. A critical review of the event"
+              "1. Core Definition & Mechanism (Using A Radio Television)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Using A Radio Television)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using a radio, television.",
-            "fact": "Scouts must write using a radio, television using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51).",
-            "fact_correction": "Scouts must write using a radio, television using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51).",
-            "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)"
+            "misconception": "General familiarity with Using, radio is sufficient for Journalism Requirement 4b without citing specific functional mechanisms.",
+            "fact": "The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Using A Radio Television (p. 25, p. 51).",
+            "fact_correction": "The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Using A Radio Television (p. 25, p. 51).",
+            "pamphlet_page_ref": "p. 25, p. 51"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1177,7 +1415,12 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Using a radio, television, or podcasting style, write a news story, a feature story, and a critical review of the event."
+          "sub_req_text": "Using a radio, television, or podcasting style, write a news story, a feature story, and a critical review of the event.",
+          "topic_title": "Req 4b: Using A Radio Television",
+          "pamphlet_summary": "Using A Radio Television: Attend a public event Principle 3: Novels and storybooks usually present events in the orderin which they happen, or \"chronological\" order (p. 25).",
+          "pamphlet_excerpts": [
+            "Using A Radio Television: Attend a public event Principle 3: Novels and storybooks usually present events in the orderin which they happen, or \"chronological\" order (p. 25)."
+          ]
         },
         {
           "sub_id": "4c",
@@ -1193,29 +1436,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Study & Explanation Notes",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Series of Photographs to Help)",
             "headers": [
-              "Req 4c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Take a series of photographs to help tell the story of the event in pictures",
-              "2. Include news photos and feature photos in your presentation",
-              "3. Write a brief synopsis of the event as well as captions for your photos"
+              "1. Core Definition & Mechanism (Series of Photographs to Help)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Series of Photographs to Help)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on take a series of photographs to help tell the story of the event in pictures.",
-            "fact": "Scouts must explain take a series of photographs to help tell the story of the event in pictures using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51).",
-            "fact_correction": "Scouts must explain take a series of photographs to help tell the story of the event in pictures using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51).",
-            "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)"
+            "misconception": "General familiarity with series, photographs is sufficient for Journalism Requirement 4c without citing specific functional mechanisms.",
+            "fact": "The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Take A Series of Photographs (p. 25, p. 51).",
+            "fact_correction": "The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Take A Series of Photographs (p. 25, p. 51).",
+            "pamphlet_page_ref": "p. 25, p. 51"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1240,7 +1490,12 @@
           ],
           "id": "4c",
           "sub_req_label": "4c",
-          "sub_req_text": "Take a series of photographs to help tell the story of the event in pictures. Include news photos and feature photos in your presentation. Write a brief synopsis of the event as well as captions for your photos."
+          "sub_req_text": "Take a series of photographs to help tell the story of the event in pictures. Include news photos and feature photos in your presentation. Write a brief synopsis of the event as well as captions for your photos.",
+          "topic_title": "Req 4c: Series of Photographs to Help",
+          "pamphlet_summary": "Series of Photographs to Help: Take A Series of Photographs: Attend a public event Principle 4: The most important parts of the story usually come near the end, not the beginning (p. 25).",
+          "pamphlet_excerpts": [
+            "Series of Photographs to Help: Take A Series of Photographs: Attend a public event Principle 4: The most important parts of the story usually come near the end, not the beginning (p. 25)."
+          ]
         }
       ],
       "resources": [
@@ -1261,8 +1516,8 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Attend a public event",
-      "action_verb": "Attend",
+      "topic_title": "Req 4: Public Event and Do ONE",
+      "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Journalism Requirement 4 activities.",
@@ -1270,29 +1525,36 @@
       "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Study & Explanation Notes",
+        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "table_title": "Req 4 Quantitative Field Observation & Activity Log (Public Event and Do ONE)",
         "headers": [
-          "Req 4 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
         ],
         "column_headers": [
-          "Req 4 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
         ],
         "row_labels": [
-          "(a) Write two articles about the event, one using the inverted pyramid style",
-          "(b) Using a radio, television, or podcasting style, write a news story, a feature",
-          "(c) Take a series of photographs to help tell the story of the event in pictures"
+          "(4a) Articles About The Event One",
+          "(4b) Using A Radio Television",
+          "(4c) Series of Photographs to Help"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": false
+        "rows": [
+          "(4a) Articles About The Event One",
+          "(4b) Using A Radio Television",
+          "(4c) Series of Photographs to Help"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write two articles about the event, one using the inverted pyramid style.",
-        "fact": "Scouts must attend write two articles about the event, one using the inverted pyramid style using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51).",
-        "fact_correction": "Scouts must attend write two articles about the event, one using the inverted pyramid style using verified procedures, field evidence, and safety standards from Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51).",
-        "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)"
+        "misconception": "Estimating Attend a public event entries from memory at the end of the project satisfies the Journalism Requirement 4 standard.",
+        "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Journalism log as each Attend a public event milestone is completed (p. 25, p. 51).",
+        "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Journalism log as each Attend a public event milestone is completed (p. 25, p. 51).",
+        "pamphlet_page_ref": "p. 25, p. 51"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1316,36 +1578,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "News Story Usuallycreated: A news story is usuallycreated using the inverted pyramid structure.",
-        "Writer Begins with: The writer begins with the most substantial details, followed by less importantdetails that can be trimmed, if necessary, without losing the gistof.",
-        "Novels Storybooks Present: Novels and storybooks usually present events in the orderin which they happen, or “chronological” order.",
-        "Parts Story Come: The most important parts of the story usually come near the end, not the beginning."
+        "Public Event and Do ONE: Attend a public event: A news story is usuallycreated using the inverted pyramid structure (p. 25).",
+        "Public Event and Do ONE Principle 2: Attend a public event Principle 2: The writer begins with the most substantial details, followed by less importantdetails that can be trimmed, if necessary, without losing the gist (p. 25).",
+        "Public Event and Do ONE Principle 3: Attend a public event Principle 3: Novels and storybooks usually present events in the orderin which they happen, or \"chronological\" order (p. 25).",
+        "Public Event and Do ONE Principle 4: Attend a public event Principle 4: The most important parts of the story usually come near the end, not the beginning (p. 25)."
       ],
       "step_by_step_procedure": [
-        "Chronological Form Reading: The chronological form keeps you reading clear throughto find out what happens.",
-        "Newswriters Essential: Newswriters put the essential information at the beginning, knowingthat readers want the meat up front for information, not justfor entertainment.",
-        "Compare Stories Written: Compare these two stories written for a national readership.",
-        "Written Inverted Pyramid: One is written in inverted pyramid style; the other in chronological style, as a storyteller might tell it to a group."
+        "Step 1 (Public Event and Do ONE): Step 1 (Attend a public event): The chronological form keeps you reading clear through to find out what happens (p. 25).",
+        "Step 2 (Public Event and Do ONE): Step 2 (Attend a public event): Newswriters put the essential information at the beginning, knowing that readers want the meat up front for information, not just for entertainment (p. 25).",
+        "Step 3 (Public Event and Do ONE): Step 3 (Attend a public event): Compare these two stories written for a national readership (p. 25).",
+        "Step 4 (Public Event and Do ONE): Step 4 (Attend a public event): One is written in inverted pyramid style; the other in chronological style, as a storyteller might tell it to a group (p. 25)."
       ],
       "gear_checklist": [
-        "Official Journalism Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Attend a public event",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Journalism Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Public Event and Do ONE)",
+        "Digital multimeter (volt/ohm/ammeter), breadboard jumper kit, or diagnostic workstation.",
+        "Schematic symbol reference chart, engineering graph pad, and insulated hand tools.",
+        "ESD wrist strap, safety goggles, and component datasheet packet for Req 4."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Journalism Req 4",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 4 - Attend a public event",
-          "Primary Standard": "Write two articles about the event, one using the inverted pyramid style and one using the chronological style.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Journalism terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Journalism Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Attend a public event)",
+        "right_header": "Applied Field Execution (Attend a public event)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Attend a public event.",
+          "Attend a public event: A news story is usuallycreated using the inverted pyramid structure (p. 25).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Journalism.",
+          "Attend a public event Principle 2: The writer begins with the most substantial details, followed by less importantdetails that can be trimme.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Attend a public event.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Journalism."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Attend a public event: A news story is usuallycreated using the inverted pyramid structure (p. 25).",
+            "right": "Attend a public event Principle 2: The writer begins with the most substantial details, followed by less importantdetails that can be trimme"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Quantitative Log Entry: Journalism Req 4 (Public Event and Do ONE)",
+        "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
+        "fields": {
+          "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Public Event and Do ONE.",
+          "Tracked Field Data": "Public Event and Do ONE: Attend a public event: A news story is usuallycreated using the inverted pyramid structure (p. 25).",
+          "Variance & Outcome Analysis": "Public Event and Do ONE Principle 2: Attend a public event Principle 2: The writer begins with the most substantial details, followed by less importantdetails that can be trimmed.",
+          "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51))"
+        },
+        "sample_output": "Public Event and Do ONE: Public Event and Do ONE: Attend a public event: A news story is usuallycreated using the inverted pyramid structure (p. 25).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Journalism Requirement 4 (Public Event and Do ONE), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Journalism Requirement 4 (Public Event and Do ONE), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Estimating Attend a public event entries from memory at the end of the project satisfies the Journalism Requirement 4 standard.",
+          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Journalism log as each Attend a.",
+          "C. Defer all Public Event and Do ONE measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+        ],
+        "choices": [
+          "A. Estimating Attend a public event entries from memory at the end of the project satisfies the Journalism Requirement 4 standard.",
+          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Journalism log as each Attend a.",
+          "C. Defer all Public Event and Do ONE measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Journalism log as each Attend a.",
+        "explanation": "Correct Answer (B): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Journalism log as each Attend a public event milestone is completed (p. 25, p. 51). (Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)).",
+        "pamphlet_page_ref": "p. 25, p. 51"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Journalism Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1392,25 +1705,29 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "CAREER_EXPLORATION_CARD",
-        "table_title": "Req 5 Career & Pathway Exploration Card",
+        "table_title": "Req 5 Career & Professional Pathway Investigation Matrix",
         "headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "column_headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. Three Career Opportunities Identified",
-          "2. Selected Career: Education & Training Required",
-          "3. Daily Duties, Licensing & Expenses",
-          "4. Starting Salary, Job Outlook & Personal Goals"
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Listing three job titles from a quick web search satisfies the Journalism career exploration requirement.",
@@ -1440,44 +1757,392 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Orvideo Camera Travel: Take your still orvideo camera with you when you travel.",
-        "Click Away Images: If you see a newsworthyevent, click away and get the images to a local newspaper or TVstation as quickly as possible.",
-        "They Buy Pictures: They may buy your pictures orfootage and give you credit.",
-        "High Schools Newspaper: Most high schools have a newspaper or literary magazine."
+        "Careers & Professional Pathways: Take your still orvideo camera with you when you travel (p. 75).",
+        "Careers & Professional Pathways Principle 2: If you see a newsworthyevent, click away and get the images to a local newspaper or TVstation as quickly as possible (p. 75).",
+        "Careers & Professional Pathways Principle 3: They may buy your pictures orfootage and give you credit (p. 75).",
+        "Careers & Professional Pathways Principle 4: Most high schools have a newspaper or literary magazine (p. 75)."
       ],
       "step_by_step_procedure": [
-        "Websites Radio Facilities: Some have websites, radio facilities, and even TV studios.",
-        "Join Club Class: Join a club or class that produces high school media.",
-        "Your school Doesn Newspaper: If your school doesn’t have a newspaper or website, help create one.",
-        "Don Overlook Writing: Don’t overlook writing letters to the editor of your localnewspaper or a magazine as a way to get your ideas published."
+        "Step 1 (Careers & Professional Pathways): Some have websites, radio facilities, and even TV studios (p. 75).",
+        "Step 2 (Careers & Professional Pathways): Join a club or class that produces high school media (p. 75).",
+        "Step 3 (Careers & Professional Pathways): If your school doesn't have a newspaper or website, help create one (p. 75).",
+        "Step 4 (Careers & Professional Pathways): Don't overlook writing letters to the editor of your localnewspaper or a magazine as a way to get your ideas published (p. 75)."
       ],
       "gear_checklist": [
-        "Official Journalism Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Journalism Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Careers & Professional Pathways)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Careers & Professional Pathways.",
+        "Structured Journalism Requirement 5 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Journalism Req 5",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 5 - Careers & Professional Pathways",
-          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in journalism.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Journalism terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Journalism Merit Badge Pamphlet (p. 75, p. 77) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Journalism Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Professional Career Track in Journalism",
+        "right_header": "Lifelong Avocation & Civic Service in Journalism",
+        "left_points": [
+          "Accredited degree, trade apprenticeship, or industry license.",
+          "Careers & Professional Pathways: Take your still orvideo camera with you when you travel (p. 75).",
+          "Full-time compensation and technical leadership."
+        ],
+        "right_points": [
+          "Merit badge mastery, club mentorship, and volunteer service.",
+          "Careers & Professional Pathways Principle 2: If you see a newsworthyevent, click away and get the images to a local newspaper or TVstation.",
+          "Community stewardship, outdoor recreation, and teaching others."
+        ],
+        "rows": [
+          {
+            "attribute": "Training Pathway",
+            "left": "Accredited degree, trade apprenticeship, or industry license.",
+            "right": "Merit badge mastery, club mentorship, and volunteer service."
+          },
+          {
+            "attribute": "Core Responsibilities",
+            "left": "Careers & Professional Pathways: Take your still orvideo camera with you when you travel (p. 75).",
+            "right": "Careers & Professional Pathways Principle 2: If you see a newsworthyevent, click away and get the images to a local newspaper or TVstation a"
+          },
+          {
+            "attribute": "Long-Term Outcome",
+            "left": "Full-time compensation and technical leadership.",
+            "right": "Community stewardship, outdoor recreation, and teaching others."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Journalism Req 5 (Careers & Professional Pathways)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Careers & Professional Pathways: Take your still orvideo camera with you when you travel (p. 75).",
+          "Applied Field Mechanism": "Careers & Professional Pathways Principle 2: If you see a newsworthyevent, click away and get the images to a local newspaper or TVstation as quickly as possible (p. 75).",
+          "Real-World Case Example": "Concrete application of Careers & Professional Pathways documented during Journalism study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Journalism Merit Badge Pamphlet (p. 75, p. 77)."
+        },
+        "sample_output": "Careers & Professional Pathways: Careers & Professional Pathways: Take your still orvideo camera with you when you travel (p. 75).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Journalism Merit Badge Pamphlet (p. 75, p. 77)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Journalism Requirement 5 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Journalism Requirement 5 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Listing three job titles from a quick web search satisfies the Journalism career exploration requirement.",
+          "B. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "C. Scouts must research specific Journalism career pathways and discuss required education, training, licensing, and daily duties with.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+        ],
+        "choices": [
+          "A. Listing three job titles from a quick web search satisfies the Journalism career exploration requirement.",
+          "B. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "C. Scouts must research specific Journalism career pathways and discuss required education, training, licensing, and daily duties with.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Scouts must research specific Journalism career pathways and discuss required education, training, licensing, and daily duties with.",
+        "explanation": "Correct Answer (C): Scouts must research specific Journalism career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Journalism Merit Badge Pamphlet (p. 75, p. 77)).",
+        "pamphlet_page_ref": "Official Scouting America Journalism Merit Badge Pamphlet (p. 75, p. 77)"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Journalism Workbook organizer table and practical demonstration for Req 5."
     }
   ],
   "badge_slug": "journalism",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0",
+  "schema_baseline_version": "2026.v30",
   "is_test_lab": false,
   "is_discontinued": false,
-  "status": "ACTIVE"
+  "status": "OFFICIAL",
+  "patrol_quiz_bank": [
+    {
+      "scenario_prompt": "While working on Journalism Requirement 1 (Freedom of the press), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 1 (Freedom of the press), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. General familiarity with Explain, freedom is sufficient for Journalism Requirement 1 without citing specific functional mechanisms.",
+        "B. The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Freedom.",
+        "C. Defer all Freedom of the press measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. General familiarity with Explain, freedom is sufficient for Journalism Requirement 1 without citing specific functional mechanisms.",
+        "B. The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Freedom.",
+        "C. Defer all Freedom of the press measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Freedom.",
+      "explanation": "Correct Answer (B): The Journalism pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Freedom of the press (p. 20, p. 62). (Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)).",
+      "pamphlet_page_ref": "p. 20, p. 62",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2 (Journalism Specialized Field Options), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2 (Journalism Specialized Field Options), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. All methods covered under Journalism Specialized Field Options in Journalism are interchangeable regardless of operating conditions.",
+        "B. Defer all Journalism Specialized Field Options measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure.",
+        "D. Each method or system in Journalism Specialized Field Options has distinct operating limits, efficiency trade-offs, and field."
+      ],
+      "choices": [
+        "A. All methods covered under Journalism Specialized Field Options in Journalism are interchangeable regardless of operating conditions.",
+        "B. Defer all Journalism Specialized Field Options measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure.",
+        "D. Each method or system in Journalism Specialized Field Options has distinct operating limits, efficiency trade-offs, and field."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Each method or system in Journalism Specialized Field Options has distinct operating limits, efficiency trade-offs, and field.",
+      "explanation": "Correct Answer (D): Each method or system in Journalism Specialized Field Options has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2a(1)_q1 (Same Day Read (Check 1)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2a(1)_q1 (Same Day Read (Check 1)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "B. All methods covered under On The Same Day Read in Journalism are interchangeable regardless of operating conditions.",
+        "C. Defer all Same Day Read (Check 1) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "B. All methods covered under On The Same Day Read in Journalism are interchangeable regardless of operating conditions.",
+        "C. Defer all Same Day Read (Check 1) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined.",
+      "explanation": "Correct Answer (A): Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2a(1)",
+      "option_id": "2a"
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2a(2)_q2 (Office of A Newspaper Magazine (Check 2)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2a(2)_q2 (Office of A Newspaper Magazine (Check 2)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Describing how to perform Visit The Office verbally can substitute for a physical hands-on demonstration in Journalism Requirement.",
+        "B. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+        "C. Defer all Office of A Newspaper Magazine (Check 2) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. Describing how to perform Visit The Office verbally can substitute for a physical hands-on demonstration in Journalism Requirement.",
+        "B. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+        "C. Defer all Office of A Newspaper Magazine (Check 2) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+      "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit The Office with proper technique (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2a(2)",
+      "option_id": "2a"
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2a(1)_q3 (Same Day Read (Check 3)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2a(1)_q3 (Same Day Read (Check 3)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. All methods covered under On The Same Day Read in Journalism are interchangeable regardless of operating conditions.",
+        "B. Defer all Same Day Read (Check 3) measurements and safety checks until after the field session concludes.",
+        "C. Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. All methods covered under On The Same Day Read in Journalism are interchangeable regardless of operating conditions.",
+        "B. Defer all Same Day Read (Check 3) measurements and safety checks until after the field session concludes.",
+        "C. Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined.",
+      "explanation": "Correct Answer (C): Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2a(1)",
+      "option_id": "2a"
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2a(2)_q4 (Office of A Newspaper Magazine (Check 4)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2a(2)_q4 (Office of A Newspaper Magazine (Check 4)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Describing how to perform Visit The Office verbally can substitute for a physical hands-on demonstration in Journalism Requirement.",
+        "B. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+        "C. Defer all Office of A Newspaper Magazine (Check 4) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. Describing how to perform Visit The Office verbally can substitute for a physical hands-on demonstration in Journalism Requirement.",
+        "B. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+        "C. Defer all Office of A Newspaper Magazine (Check 4) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+      "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit The Office with proper technique (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2a(2)",
+      "option_id": "2a"
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2a(1)_q5 (Same Day Read (Check 5)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2a(1)_q5 (Same Day Read (Check 5)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "B. All methods covered under On The Same Day Read in Journalism are interchangeable regardless of operating conditions.",
+        "C. Defer all Same Day Read (Check 5) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "B. All methods covered under On The Same Day Read in Journalism are interchangeable regardless of operating conditions.",
+        "C. Defer all Same Day Read (Check 5) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined.",
+      "explanation": "Correct Answer (A): Each method or system in On The Same Day Read has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2a(1)",
+      "option_id": "2a"
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2b(1)_q1 (All on The Same Day (Check 1)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2b(1)_q1 (All on The Same Day (Check 1)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "B. All methods covered under All on The Same Day in Journalism are interchangeable regardless of operating conditions.",
+        "C. Defer all All on The Same Day (Check 1) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "B. All methods covered under All on The Same Day in Journalism are interchangeable regardless of operating conditions.",
+        "C. Defer all All on The Same Day (Check 1) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined.",
+      "explanation": "Correct Answer (A): Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2b(1)",
+      "option_id": "2b"
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2b(2)_q2 (Radio or Television Station (Check 2)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2b(2)_q2 (Radio or Television Station (Check 2)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+        "B. Describing how to perform Visit A Radio or Television verbally can substitute for a physical hands-on demonstration in Journalism.",
+        "C. Defer all Radio or Television Station (Check 2) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+        "B. Describing how to perform Visit A Radio or Television verbally can substitute for a physical hands-on demonstration in Journalism.",
+        "C. Defer all Radio or Television Station (Check 2) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit A Radio or Television with proper technique (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2b(2)",
+      "option_id": "2b"
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2b(1)_q3 (All on The Same Day (Check 3)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2b(1)_q3 (All on The Same Day (Check 3)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. All methods covered under All on The Same Day in Journalism are interchangeable regardless of operating conditions.",
+        "B. Defer all All on The Same Day (Check 3) measurements and safety checks until after the field session concludes.",
+        "C. Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. All methods covered under All on The Same Day in Journalism are interchangeable regardless of operating conditions.",
+        "B. Defer all All on The Same Day (Check 3) measurements and safety checks until after the field session concludes.",
+        "C. Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined.",
+      "explanation": "Correct Answer (C): Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2b(1)",
+      "option_id": "2b"
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2b(2)_q4 (Radio or Television Station (Check 4)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2b(2)_q4 (Radio or Television Station (Check 4)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Describing how to perform Visit A Radio or Television verbally can substitute for a physical hands-on demonstration in Journalism.",
+        "B. Defer all Radio or Television Station (Check 4) measurements and safety checks until after the field session concludes.",
+        "C. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. Describing how to perform Visit A Radio or Television verbally can substitute for a physical hands-on demonstration in Journalism.",
+        "B. Defer all Radio or Television Station (Check 4) measurements and safety checks until after the field session concludes.",
+        "C. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit.",
+      "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Journalism pamphlet, each Scout must physically execute and demonstrate Visit A Radio or Television with proper technique (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2b(2)",
+      "option_id": "2b"
+    },
+    {
+      "scenario_prompt": "While working on Journalism Requirement 2b(1)_q5 (All on The Same Day (Check 5)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Journalism Requirement 2b(1)_q5 (All on The Same Day (Check 5)), your patrol encounters a decision point on proper procedure. According to the Journalism Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "B. All methods covered under All on The Same Day in Journalism are interchangeable regardless of operating conditions.",
+        "C. Defer all All on The Same Day (Check 5) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "choices": [
+        "A. Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "B. All methods covered under All on The Same Day in Journalism are interchangeable regardless of operating conditions.",
+        "C. Defer all All on The Same Day (Check 5) measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Journalism pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined.",
+      "explanation": "Correct Answer (A): Each method or system in All on The Same Day has distinct operating limits, efficiency trade-offs, and field applications defined in the Journalism pamphlet (p. 27, p. 37). (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)).",
+      "pamphlet_page_ref": "p. 27, p. 37",
+      "req_id": "2b(1)",
+      "option_id": "2b"
+    }
+  ],
+  "quartermaster_manifest": {
+    "badge_name": "Journalism",
+    "patrol_equipment": [
+      "Primary reference documents, case-study exhibits, and regulation charts for Freedom of the press",
+      "Structured Journalism Requirement 1 worksheet, index cards, and verification rubric",
+      "Buddy-pair discussion prompt cards and counselor sign-off checklist",
+      "Digital multimeter (volt/ohm/ammeter), breadboard jumper kit, or diagnostic workstation",
+      "Schematic symbol reference chart, engineering graph pad, and insulated hand tools",
+      "ESD wrist strap, safety goggles, and component datasheet packet for Req 2",
+      "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron",
+      "Steel tape measure, vernier caliper or machinist square, and layout marking tools"
+    ],
+    "individual_scout_gear": [
+      "Official Journalism Merit Badge Pamphlet",
+      "Printed or Fillable Journalism Scout Workbook",
+      "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
+      "Field notebook, pen/pencil, and personal safety equipment (PPE)"
+    ]
+  }
 }

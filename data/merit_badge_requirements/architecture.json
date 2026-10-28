@@ -32,32 +32,37 @@
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 1a Field Sketch & Observation Canvas",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 1a Hands-On Skill Station & EDGE Verification Checklist (Tour Your Community and List)",
             "headers": [
-              "Sketch / Diagram Target",
-              "Required Labels & Landmarks",
-              "Observation Date, Time & Notes"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Target",
-              "Required Labels & Landmarks",
-              "Observation Date, Time & Notes"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Tour your community and list the different types of buildings you see",
-              "2. Try to identify buildings that can be associated with a specific period",
-              "3. Make a sketch of the building you most admire"
+              "1. Pre-Operation Tool & Safety Check (Tour Your Community and List)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Tour Your Community and List)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tour your community and list the different types of buildings you see.",
-            "fact": "Scouts must identify tour your community and list the different types of buildings you see using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "fact_correction": "Scouts must identify tour your community and list the different types of buildings you see using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+            "misconception": "Describing how to perform Tour Your Community and List verbally can substitute for a physical hands-on demonstration in Architecture Requirement 1a.",
+            "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour Your Community and List with proper technique (p. 12).",
+            "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour Your Community and List with proper technique (p. 12).",
+            "pamphlet_page_ref": "p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -82,7 +87,12 @@
           ],
           "id": "1a",
           "sub_req_label": "1a",
-          "sub_req_text": "Tour your community and list the different types of buildings you see. Try to identify buildings that can be associated with a specific period of history or style of architecture. Make a sketch of the building you most admire."
+          "sub_req_text": "Tour your community and list the different types of buildings you see. Try to identify buildings that can be associated with a specific period of history or style of architecture. Make a sketch of the building you most admire.",
+          "topic_title": "Req 1a: Tour Your Community and List",
+          "pamphlet_summary": "Tour your community and list Principle 3: (a) Tour your community and list the different types of buildings you see (p. 12).",
+          "pamphlet_excerpts": [
+            "Tour your community and list Principle 3: (a) Tour your community and list the different types of buildings you see (p. 12)."
+          ]
         },
         {
           "sub_id": "1b",
@@ -106,31 +116,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Study & Explanation Notes",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Historical Architectural Achievement)",
             "headers": [
-              "Req 1b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "The internet (with your parent",
-              "Guardian's permission)",
-              "Books",
-              "Magazines",
-              "Find out how this achievement has influenced the world today"
+              "1. Core Definition & Mechanism (Historical Architectural Achievement)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": true
+            "rows": [
+              "1. Core Definition & Mechanism (Historical Architectural Achievement)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the internet (with your parent.",
-            "fact": "Scouts must explain the internet (with your parent using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "fact_correction": "Scouts must explain the internet (with your parent using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+            "misconception": "General familiarity with Select, historical is sufficient for Architecture Requirement 1b without citing specific functional mechanisms.",
+            "fact": "The Architecture pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Select A Historical Architectural Achievement (p. 12).",
+            "fact_correction": "The Architecture pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Select A Historical Architectural Achievement (p. 12).",
+            "pamphlet_page_ref": "p. 12"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -160,7 +175,12 @@
           ],
           "id": "1b",
           "sub_req_label": "1b",
-          "sub_req_text": "Select a historical architectural achievement that has had a major impact on society. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out how this achievement has influenced the world today. Tell your counselor what you learned."
+          "sub_req_text": "Select a historical architectural achievement that has had a major impact on society. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out how this achievement has influenced the world today. Tell your counselor what you learned.",
+          "topic_title": "Req 1b: Historical Architectural Achievement",
+          "pamphlet_summary": "Historical Architectural Achievement: Select A Historical Architectural Achievement: Tour your community and list Principle 4: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12).",
+          "pamphlet_excerpts": [
+            "Historical Architectural Achievement: Select A Historical Architectural Achievement: Tour your community and list Principle 4: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12)."
+          ]
         }
       ],
       "resources": [
@@ -191,37 +211,39 @@
       },
       "topic_title": "Req 1: Tour your community and list",
       "action_verb": "Demonstrate",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Architecture Requirement 1 activities.",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
-      "syllabus_bucket": "Make-Up Eligible",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 1 Field Sketch & Observation Canvas",
+        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist (Tour your community and list)",
         "headers": [
-          "Sketch / Diagram Target",
-          "Required Labels & Landmarks",
-          "Observation Date, Time & Notes"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Target",
-          "Required Labels & Landmarks",
-          "Observation Date, Time & Notes"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(a) Tour your community and list the different types of buildings you see",
-          "(b) Select a historical architectural achievement that has had a major impact"
+          "(1a) Tour Your Community and List",
+          "(1b) Historical Architectural Achievement"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": true
+        "rows": [
+          "(1a) Tour Your Community and List",
+          "(1b) Historical Architectural Achievement"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on tour your community and list the different types of buildings you see.",
-        "fact": "Scouts must demonstrate tour your community and list the different types of buildings you see using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-        "fact_correction": "Scouts must demonstrate tour your community and list the different types of buildings you see using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+        "misconception": "Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in Architecture Requirement 1.",
+        "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour your community and list with proper technique (p. 12).",
+        "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour your community and list with proper technique (p. 12).",
+        "pamphlet_page_ref": "p. 12"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -250,61 +272,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Architecture Sub-Req 1a: Tour your community and list the different types of buildings you see.",
-        "Architecture Sub-Req 1b: Select a historical architectural achievement that has had a major impact on society.",
-        "Core Standard 1 (Req 1): (a) Tour your community and list the different types of buildings you see.",
-        "Core Standard 2 (Req 1): Try to identify buildings that can be associated with a specific period of history or style of architecture."
+        "Tour your community and list: Architecture Sub-Req 1a: Tour your community and list the different types of buildings you see (p. 12).",
+        "Tour your community and list Principle 2: Architecture Sub-Req 1b: Select a historical architectural achievement that has had a major impact on society (p. 12).",
+        "Tour your community and list Principle 3: (a) Tour your community and list the different types of buildings you see (p. 12).",
+        "Tour your community and list Principle 4: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Review Standard (Req 1): Read the official Architecture requirement and identify the key questions, terms, or skills covered in Tour your community and list.",
-        "Step 2 - Gather Evidence & Examples: Research the required facts in the Architecture Pamphlet and record structured notes in your Scout Workbook.",
-        "Step 3 - Practice & Apply (Demonstrate): Work with your patrol buddy or family (as required) to demonstrate each element of Tour your community and list with concrete real-world examples.",
-        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and demonstrate your understanding to your Merit Badge Counselor for Blue Card verification."
+        "Step 1 (Tour your community and list Preparation): Inspect the workspace, reference materials, and safety controls required for Architecture Requirement 1 (p. 10).",
+        "Step 2 (Tour your community and list Execution): Apply the official Architecture pamphlet method for Tour your community and list while recording observations in your Scout Workbook (p. 10).",
+        "Step 3 (Tour your community and list Buddy Check): Cross-check your Tour your community and list technique, measurements, and results with a patrol buddy using the EDGE method (p. 10).",
+        "Step 4 (Tour your community and list Verification): Review your completed Tour your community and list evidence and demonstrate proficiency during your counselor conference (p. 10)."
       ],
       "gear_checklist": [
-        "Official Architecture Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Tour your community and list",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Architecture Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Tour your community and list)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Tour your community and list.",
+        "Structured Architecture Requirement 1 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Architecture Approach",
-        "right_header": "Official BSA Architecture Standard (Tour your community and list)",
+        "left_header": "Foundational Principles (Tour your community and list)",
+        "right_header": "Applied Field Execution (Tour your community and list)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Tour your community and list.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Tour your community and list.",
+          "Tour your community and list: Architecture Sub-Req 1a: Tour your community and list the different types of buildings you see (p. 12).",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Architecture Merit Badge Pamphlet and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Architecture Workbook organizer.",
-          "Clearly demonstrates and explains Tour your community and list using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Architecture.",
+          "Tour your community and list Principle 2: Architecture Sub-Req 1b: Select a historical architectural achievement that has had a major impact.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Tour your community and list.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Architecture."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Tour your community and list: Architecture Sub-Req 1a: Tour your community and list the different types of buildings you see (p. 12).",
+            "right": "Tour your community and list Principle 2: Architecture Sub-Req 1b: Select a historical architectural achievement that has had a major impact"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Architecture Req 1",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Quantitative Log Entry: Architecture Req 1 (Tour your community and list)",
+        "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
-          "Requirement & Topic": "Req 1 - Tour your community and list",
-          "Primary Standard": "Tour your community and list the different types of buildings you see. Try to identify buildings that can be associated with a specific period of history or style of architecture. Make a sketch of the building you most admire.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Architecture terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Architecture Merit Badge Pamphlet and verified during counselor conference."
+          "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Tour your community and list.",
+          "Tracked Field Data": "Tour your community and list: Architecture Sub-Req 1a: Tour your community and list the different types of buildings you see (p. 12).",
+          "Variance & Outcome Analysis": "Tour your community and list Principle 2: Architecture Sub-Req 1b: Select a historical architectural achievement that has had a major impact on society (p. 12).",
+          "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Architecture Merit Badge Pamphlet)"
         },
-        "counselor_tip": "Complete your Architecture Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Tour your community and list: Tour your community and list: Architecture Sub-Req 1a: Tour your community and list the different types of buildings you see (p. 12).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Architecture Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "Before starting hands-on or field work for Architecture (Tour your community and list), which patrol preparation step best aligns with the official Architecture standard?",
+        "scenario_prompt": "While working on Architecture Requirement 1 (Tour your community and list), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Architecture Requirement 1 (Tour your community and list), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
         "options": [
-          "Review the Architecture hazards, PPE, and prerequisite standards in Official Scouting America Architecture Merit Badge Pamphlet with your counselor and patrol buddy before beginning",
-          "Begin the practical station immediately and review the safety rules only if a problem occurs",
-          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
-          "Skip the pre-activity briefing when practicing indoors"
+          "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour.",
+          "B. Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in.",
+          "C. Defer all Tour your community and list measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
         ],
-        "correct_answer": "Option A - Review the Architecture hazards, PPE, and prerequisite standards in Official Scouting America Architecture Merit Badge Pamphlet with your counselor and patrol buddy before beginning",
-        "explanation": "Per Official Scouting America Architecture Merit Badge Pamphlet, anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
+        "choices": [
+          "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour.",
+          "B. Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in.",
+          "C. Defer all Tour your community and list measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour.",
+        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour your community and list with proper technique (p. 12). (Official Scouting America Architecture Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 1."
+      "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 1.",
+      "workbook_diagram_url": "assets/ai_illustrations/architecture_req_1_workbook_diagram.png"
     },
     {
       "req_id": "2",
@@ -326,29 +377,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Study & Explanation Notes",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (Term Sustainable Architecture)",
             "headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. The term sustainable architecture",
-              "2. Identify three features typical of green buildings"
+              "1. Pre-Operation Tool & Safety Check (Term Sustainable Architecture)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Term Sustainable Architecture)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the term sustainable architecture.",
-            "fact": "Scouts must identify the term sustainable architecture using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "fact_correction": "Scouts must identify the term sustainable architecture using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+            "misconception": "Describing how to perform Term Sustainable Architecture verbally can substitute for a physical hands-on demonstration in Architecture Requirement 2a.",
+            "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Term Sustainable Architecture with proper technique (p. 12).",
+            "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Term Sustainable Architecture with proper technique (p. 12).",
+            "pamphlet_page_ref": "p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -373,7 +432,12 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "The term sustainable architecture. Identify three features typical of green buildings."
+          "sub_req_text": "The term sustainable architecture. Identify three features typical of green buildings.",
+          "topic_title": "Req 2a: Term Sustainable Architecture",
+          "pamphlet_summary": "Term Sustainable Architecture: Leave No Trace & Outdoor Ethics Principle 4: Architecture Sub-Req 2d: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12).",
+          "pamphlet_excerpts": [
+            "Term Sustainable Architecture: Leave No Trace & Outdoor Ethics Principle 4: Architecture Sub-Req 2d: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12)."
+          ]
         },
         {
           "sub_id": "2b",
@@ -401,30 +465,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2b Differential Comparison Matrix",
+            "table_title": "Req 2b Technical Comparison Matrix (Difference Between Renewable Building Materials)",
             "headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "column_headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "row_labels": [
-              "1. The difference between renewable building materials and recycled building",
-              "2. How each can be used in construction"
+              "1. Operating Principle & Design (Difference Between Renewable Building Materials)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Operating Principle & Design (Difference Between Renewable Building Materials)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the difference between renewable building materials and recycled building.",
-            "fact": "Scouts must explain the difference between renewable building materials and recycled building using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "fact_correction": "Scouts must explain the difference between renewable building materials and recycled building using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+            "misconception": "All methods covered under Difference Between Renewable Building Materials in Architecture are interchangeable regardless of operating conditions.",
+            "fact": "Each method or system in Difference Between Renewable Building Materials has distinct operating limits, efficiency trade-offs, and field applications defined in the Architecture pamphlet (p. 12).",
+            "fact_correction": "Each method or system in Difference Between Renewable Building Materials has distinct operating limits, efficiency trade-offs, and field applications defined in the Architecture pamphlet (p. 12).",
+            "pamphlet_page_ref": "p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -449,7 +519,12 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "The difference between renewable building materials and recycled building materials, and how each can be used in construction."
+          "sub_req_text": "The difference between renewable building materials and recycled building materials, and how each can be used in construction.",
+          "topic_title": "Req 2b: Difference Between Renewable Building Materials",
+          "pamphlet_summary": "Difference Between Renewable Building Materials: Leave No Trace & Outdoor Ethics: Architecture Sub-Req 2a: The term sustainable architecture. Identify three features typical of green buildings (p. 12).",
+          "pamphlet_excerpts": [
+            "Difference Between Renewable Building Materials: Leave No Trace & Outdoor Ethics: Architecture Sub-Req 2a: The term sustainable architecture. Identify three features typical of green buildings (p. 12)."
+          ]
         },
         {
           "sub_id": "2c",
@@ -473,29 +548,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Study & Explanation Notes",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Relationship of Architecture)",
             "headers": [
-              "Req 2c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "The relationship of architecture with its surrounding environment and the community",
-              "Pamphlet Standard & Key Facts (2c)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Relationship of Architecture)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Relationship of Architecture)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on the relationship of architecture with its surrounding environment and the community.",
-            "fact": "Scouts must explain the relationship of architecture with its surrounding environment and the community using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "fact_correction": "Scouts must explain the relationship of architecture with its surrounding environment and the community using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+            "misconception": "General familiarity with relationship, architecture is sufficient for Architecture Requirement 2c without citing specific functional mechanisms.",
+            "fact": "The Architecture pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Relationship of Architecture (p. 12).",
+            "fact_correction": "The Architecture pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Relationship of Architecture (p. 12).",
+            "pamphlet_page_ref": "p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -520,7 +602,12 @@
           ],
           "id": "2c",
           "sub_req_label": "2c",
-          "sub_req_text": "The relationship of architecture with its surrounding environment and the community."
+          "sub_req_text": "The relationship of architecture with its surrounding environment and the community.",
+          "topic_title": "Req 2c: Relationship of Architecture",
+          "pamphlet_summary": "Relationship of Architecture: Leave No Trace & Outdoor Ethics Principle 2: Architecture Sub-Req 2b: The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12).",
+          "pamphlet_excerpts": [
+            "Relationship of Architecture: Leave No Trace & Outdoor Ethics Principle 2: Architecture Sub-Req 2b: The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12)."
+          ]
         },
         {
           "sub_id": "2d",
@@ -543,30 +630,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Study & Explanation Notes",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 2d Hands-On Skill Station & EDGE Verification Checklist (Entire Buildings Can Be Reused)",
             "headers": [
-              "Req 2d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Req 2d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. How entire buildings can be reused rather than torn down when they no",
-              "2. Key Pamphlet Examples & Evidence (Req 2d)",
-              "3. Practical Serve & Safety Verification"
+              "1. Pre-Operation Tool & Safety Check (Entire Buildings Can Be Reused)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Entire Buildings Can Be Reused)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on how entire buildings can be reused rather than torn down when they no.",
-            "fact": "Scouts must serve how entire buildings can be reused rather than torn down when they no using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "fact_correction": "Scouts must serve how entire buildings can be reused rather than torn down when they no using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+            "misconception": "Describing how to perform Entire Buildings Can Be Reused verbally can substitute for a physical hands-on demonstration in Architecture Requirement 2d.",
+            "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Entire Buildings Can Be Reused with proper technique (p. 12).",
+            "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Entire Buildings Can Be Reused with proper technique (p. 12).",
+            "pamphlet_page_ref": "p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -591,7 +685,12 @@
           ],
           "id": "2d",
           "sub_req_label": "2d",
-          "sub_req_text": "How entire buildings can be reused rather than torn down when they no longer serve their original purpose."
+          "sub_req_text": "How entire buildings can be reused rather than torn down when they no longer serve their original purpose.",
+          "topic_title": "Req 2d: Entire Buildings Can Be Reused",
+          "pamphlet_summary": "Entire Buildings Can Be Reused: Leave No Trace & Outdoor Ethics Principle 3: Architecture Sub-Req 2c: The relationship of architecture with its surrounding environment and the community (p. 12).",
+          "pamphlet_excerpts": [
+            "Entire Buildings Can Be Reused: Leave No Trace & Outdoor Ethics Principle 3: Architecture Sub-Req 2c: The relationship of architecture with its surrounding environment and the community (p. 12)."
+          ]
         }
       ],
       "resources": [
@@ -658,25 +757,29 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Differential Comparison Matrix",
+        "table_title": "Req 2 Technical Comparison Matrix (Leave No Trace & Outdoor Ethics)",
         "headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "column_headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "row_labels": [
-          "(a) The term sustainable architecture",
-          "(b) The difference between renewable building materials and recycled building",
-          "(c) The relationship of architecture with its surrounding environment",
-          "(d) How entire buildings can be reused rather than torn down when they no longer"
+          "(2a) Term Sustainable Architecture",
+          "(2b) Difference Between Renewable Building Materials",
+          "(2c) Relationship of Architecture",
+          "(2d) Entire Buildings Can Be Reused"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "(2a) Term Sustainable Architecture",
+          "(2b) Difference Between Renewable Building Materials",
+          "(2c) Relationship of Architecture",
+          "(2d) Entire Buildings Can Be Reused"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
@@ -706,49 +809,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Architecture Sub-Req 2a: The term sustainable architecture. Identify three features typical of green buildings.",
-        "Architecture Sub-Req 2b: The difference between renewable building materials and recycled building materials, and how each can be used in construction.",
-        "Architecture Sub-Req 2c: The relationship of architecture with its surrounding environment and the community.",
-        "Architecture Sub-Req 2d: How entire buildings can be reused rather than torn down when they no longer serve their original purpose."
+        "Leave No Trace & Outdoor Ethics: Architecture Sub-Req 2a: The term sustainable architecture. Identify three features typical of green buildings (p. 12).",
+        "Leave No Trace & Outdoor Ethics Principle 2: Architecture Sub-Req 2b: The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12).",
+        "Leave No Trace & Outdoor Ethics Principle 3: Architecture Sub-Req 2c: The relationship of architecture with its surrounding environment and the community (p. 12).",
+        "Leave No Trace & Outdoor Ethics Principle 4: Architecture Sub-Req 2d: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Review Standard (Req 2): Read the official Architecture requirement and identify the key questions, terms, or skills covered in Leave No Trace & Outdoor Ethics.",
-        "Step 2 - Gather Evidence & Examples: Research the required facts in the Architecture Pamphlet and record structured notes in your Scout Workbook.",
-        "Step 3 - Practice & Apply (Explain): Work with your patrol buddy or family (as required) to explain each element of Leave No Trace & Outdoor Ethics with concrete real-world examples.",
-        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and explain your understanding to your Merit Badge Counselor for Blue Card verification."
+        "Step 1 (Leave No Trace & Outdoor Ethics Preparation): Inspect the workspace, reference materials, and safety controls required for Architecture Requirement 2 (p. 14).",
+        "Step 2 (Leave No Trace & Outdoor Ethics Execution): Apply the official Architecture pamphlet method for Leave No Trace & Outdoor Ethics while recording observations in your Scout Workbook (p. 14).",
+        "Step 3 (Leave No Trace & Outdoor Ethics Buddy Check): Cross-check your Leave No Trace & Outdoor Ethics technique, measurements, and results with a patrol buddy using the EDGE method (p. 14).",
+        "Step 4 (Leave No Trace & Outdoor Ethics Verification): Review your completed Leave No Trace & Outdoor Ethics evidence and demonstrate proficiency during your counselor conference (p. 14)."
       ],
       "gear_checklist": [
-        "Official Architecture Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Leave No Trace & Outdoor Ethics",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Architecture Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Leave No Trace & Outdoor Ethics)",
+        "Calibrated instant-read digital food thermometer and sanitizing wipes.",
+        "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves.",
+        "USDA MyPlate nutrition chart, recipe cards, and biodegradable three-pot wash basin kit."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Architecture Approach",
-        "right_header": "Official BSA Architecture Standard (Leave No Trace & Outdoor Ethics)",
+        "left_header": "Foundational Principles (Leave No Trace & Outdoor Ethics)",
+        "right_header": "Applied Field Execution (Leave No Trace & Outdoor Ethics)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Leave No Trace & Outdoor Ethics.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Leave No Trace & Outdoor Ethics.",
+          "Leave No Trace & Outdoor Ethics: Architecture Sub-Req 2a: The term sustainable architecture. Identify three features typical of green buildi.",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Architecture Merit Badge Pamphlet and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Architecture Workbook organizer.",
-          "Clearly demonstrates and explains Leave No Trace & Outdoor Ethics using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Architecture.",
+          "Leave No Trace & Outdoor Ethics Principle 2: Architecture Sub-Req 2b: The difference between renewable building materials and recycled build.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Leave No Trace & Outdoor Ethics.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Architecture."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Leave No Trace & Outdoor Ethics: Architecture Sub-Req 2a: The term sustainable architecture. Identify three features typical of green buildi",
+            "right": "Leave No Trace & Outdoor Ethics Principle 2: Architecture Sub-Req 2b: The difference between renewable building materials and recycled build"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Architecture Req 2",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Skill Station Walkthrough: Architecture Req 2 (Leave No Trace & Outdoor Ethics)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Requirement & Topic": "Req 2 - Leave No Trace & Outdoor Ethics",
-          "Primary Standard": "The term sustainable architecture. Identify three features typical of green buildings.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Architecture terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Architecture Merit Badge Pamphlet and verified during counselor conference."
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Leave No Trace & Outdoor Ethics.",
+          "Step-by-Step Execution": "Leave No Trace & Outdoor Ethics: Architecture Sub-Req 2a: The term sustainable architecture. Identify three features typical of green buildings (p. 12).",
+          "Quality & Tolerance Check": "Leave No Trace & Outdoor Ethics Principle 2: Architecture Sub-Req 2b: The difference between renewable building materials and recycled building materials, and how each can be used.",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Architecture Merit Badge Pamphlet)"
         },
-        "counselor_tip": "Complete your Architecture Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Leave No Trace & Outdoor Ethics: Leave No Trace & Outdoor Ethics: Architecture Sub-Req 2a: The term sustainable architecture. Identify three features typical of green buildi",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Architecture Merit Badge Pamphlet."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Architecture Requirement 2 (Leave No Trace & Outdoor Ethics), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Architecture Requirement 2 (Leave No Trace & Outdoor Ethics), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+          "B. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+          "C. Defer all Leave No Trace & Outdoor Ethics measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+        ],
+        "choices": [
+          "A. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+          "B. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+          "C. Defer all Leave No Trace & Outdoor Ethics measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "explanation": "Correct Answer (A): The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks. (Official Scouting America Architecture Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 2."
     },
@@ -767,31 +908,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Study & Explanation Notes",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist (Arrange to Meet)",
             "headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. With your parent or guardian's and counselor's permission and approval",
-              "2. Ask to see the scale model of a building and the drawings that a builder",
-              "3. Discuss why the different building materials were selected",
-              "4. Look at the details in the drawings and the model to see how the materials"
+              "1. Pre-Operation Tool & Safety Check (Arrange to Meet)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": true
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Arrange to Meet)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your parent or guardian's and counselor's permission and approval.",
-            "fact": "Scouts must explain with your parent or guardian's and counselor's permission and approval using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "fact_correction": "Scouts must explain with your parent or guardian's and counselor's permission and approval using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+            "misconception": "Describing how to perform Your Parent or Guardian's verbally can substitute for a physical hands-on demonstration in Architecture Requirement 3a.",
+            "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Your Parent or Guardian's with proper technique (p. 12).",
+            "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Your Parent or Guardian's with proper technique (p. 12).",
+            "pamphlet_page_ref": "p. 12"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -821,7 +968,12 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect. Ask to see the scale model of a building and the drawings that a builder would use to construct this building. Discuss why the different building materials were selected. Look at the details in the drawings and the model to see how the materials and components are attached to each other during construction."
+          "sub_req_text": "With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect. Ask to see the scale model of a building and the drawings that a builder would use to construct this building. Discuss why the different building materials were selected. Look at the details in the drawings and the model to see how the materials and components are attached to each other during construction.",
+          "topic_title": "Req 3a: Arrange to Meet",
+          "pamphlet_summary": "Arrange to Meet: Do ONE of The Following: Architecture Sub-Req 3a: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect (p. 12).",
+          "pamphlet_excerpts": [
+            "Arrange to Meet: Do ONE of The Following: Architecture Sub-Req 3a: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect (p. 12)."
+          ]
         },
         {
           "sub_id": "3b",
@@ -831,30 +983,37 @@
           "children": [],
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Study & Explanation Notes",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist (Arrange to Meet)",
             "headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "Wearing a hard hat",
-              "Protective eyewear",
-              "Proper footwear"
+              "1. Pre-Operation Tool & Safety Check (Arrange to Meet)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": true
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Arrange to Meet)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on wearing a hard hat.",
-            "fact": "Scouts must explain wearing a hard hat using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "fact_correction": "Scouts must explain wearing a hard hat using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+            "misconception": "Experienced Architecture participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Your Parent or Guardian's activity (p. 12).",
+            "fact_correction": "The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Your Parent or Guardian's activity (p. 12).",
+            "pamphlet_page_ref": "p. 12"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -884,7 +1043,12 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site. Ask the architect to bring drawings that the builder uses to construct the building. While at the site, discuss why the different building materials being used were selected. Discuss how the different building materials and components are attached to each other during construction. Note: To visit a construction site will require advance planning. You will need permission from a parent or guardian, counselor, the architect, and the construction site manager. A construction site is a very dangerous place. While there, you will need to closely follow the site manager's directions and comply with all the safety procedures, including wearing a hard hat, protective eyewear, and proper footwear. Be aware of the changing conditions at the site, and stay with the architect or site manager."
+          "sub_req_text": "With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site. Ask the architect to bring drawings that the builder uses to construct the building. While at the site, discuss why the different building materials being used were selected. Discuss how the different building materials and components are attached to each other during construction. Note: To visit a construction site will require advance planning. You will need permission from a parent or guardian, counselor, the architect, and the construction site manager. A construction site is a very dangerous place. While there, you will need to closely follow the site manager's directions and comply with all the safety procedures, including wearing a hard hat, protective eyewear, and proper footwear. Be aware of the changing conditions at the site, and stay with the architect or site manager.",
+          "topic_title": "Req 3b: Arrange to Meet",
+          "pamphlet_summary": "Arrange to Meet: Do ONE of The Following Principle 2: Architecture Sub-Req 3b: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
+          "pamphlet_excerpts": [
+            "Arrange to Meet: Do ONE of The Following Principle 2: Architecture Sub-Req 3b: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12)."
+          ]
         },
         {
           "sub_id": "3c",
@@ -899,30 +1063,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Study & Explanation Notes",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 3c Hands-On Skill Station & EDGE Verification Checklist (Interview Someone)",
             "headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Interview someone who might be your client (such as a prospective homeowner",
-              "2. Find out what your client's requirements would be for designing a new home",
-              "3. Write a short program including a list of requirements for the project"
+              "1. Pre-Operation Tool & Safety Check (Interview Someone)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Interview Someone)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on interview someone who might be your client (such as a prospective homeowner.",
-            "fact": "Scouts must discuss interview someone who might be your client (such as a prospective homeowner using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "fact_correction": "Scouts must discuss interview someone who might be your client (such as a prospective homeowner using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+            "misconception": "Describing how to perform Interview Someone verbally can substitute for a physical hands-on demonstration in Architecture Requirement 3c.",
+            "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Interview Someone with proper technique (p. 12).",
+            "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Interview Someone with proper technique (p. 12).",
+            "pamphlet_page_ref": "p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -947,7 +1118,12 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect. Find out what your client's requirements would be for designing a new home or business building. Write a short program including a list of requirements for the project, the functions of the building and site, how the functions relate to one another, and the goals of the project."
+          "sub_req_text": "Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect. Find out what your client's requirements would be for designing a new home or business building. Write a short program including a list of requirements for the project, the functions of the building and site, how the functions relate to one another, and the goals of the project.",
+          "topic_title": "Req 3c: Interview Someone",
+          "pamphlet_summary": "Interview Someone: Do ONE of The Following Principle 3: Architecture Sub-Req 3c: Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12).",
+          "pamphlet_excerpts": [
+            "Interview Someone: Do ONE of The Following Principle 3: Architecture Sub-Req 3c: Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12)."
+          ]
         }
       ],
       "resources": [
@@ -964,7 +1140,7 @@
         "slide_injection_label": "Local Landmarks, State Capitol, Federal Facilities & National Monuments",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: With your parent or guardian's",
+      "topic_title": "Req 3: Parent or Guardian's and Counselor's",
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
@@ -973,29 +1149,34 @@
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Study & Explanation Notes",
+        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Parent or Guardian's and Counselor's)",
         "headers": [
-          "Req 3 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "column_headers": [
-          "Req 3 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(a) With your parent or guardian's and counselor's permission and approval",
-          "(b) With your parent or guardian's and counselor's permission and approval",
-          "(c) Interview someone who might be your client (such as a prospective homeowner"
+          "(3a) Arrange to Meet",
+          "(3b) Arrange to Meet",
+          "(3c) Interview Someone"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": true
+        "rows": [
+          "(3a) Arrange to Meet",
+          "(3b) Arrange to Meet",
+          "(3c) Interview Someone"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your parent or guardian's and counselor's permission and approval.",
-        "fact": "Scouts must explain with your parent or guardian's and counselor's permission and approval using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-        "fact_correction": "Scouts must explain with your parent or guardian's and counselor's permission and approval using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+        "misconception": "Experienced Architecture participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Do ONE of The Following activity (p. 12).",
+        "fact_correction": "The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Do ONE of The Following activity (p. 12).",
+        "pamphlet_page_ref": "p. 12"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1024,49 +1205,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Architecture Sub-Req 3a: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect.",
-        "Architecture Sub-Req 3b: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site.",
-        "Architecture Sub-Req 3c: Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect.",
-        "Core Standard 1 (Req 3): Do ONE of the following: (a) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect."
+        "Parent or Guardian's and Counselor's: Do ONE of The Following: Architecture Sub-Req 3a: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect (p. 12).",
+        "Parent or Guardian's and Counselor's Principle 2: Do ONE of The Following Principle 2: Architecture Sub-Req 3b: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
+        "Parent or Guardian's and Counselor's Principle 3: Do ONE of The Following Principle 3: Architecture Sub-Req 3c: Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12).",
+        "Parent or Guardian's and Counselor's Principle 4: Do ONE of The Following Principle 4: Do ONE of the following: (a) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Review Standard (Req 3): Read the official Architecture requirement and identify the key questions, terms, or skills covered in With your parent or guardian's.",
-        "Step 2 - Gather Evidence & Examples: Research the required facts in the Architecture Pamphlet and record structured notes in your Scout Workbook.",
-        "Step 3 - Practice & Apply (Explain): Work with your patrol buddy or family (as required) to explain each element of With your parent or guardian's with concrete real-world examples.",
-        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and explain your understanding to your Merit Badge Counselor for Blue Card verification."
+        "Step 1 (Parent or Guardian's and Counselor's Preparation): Inspect the workspace, reference materials, and safety controls required for Architecture Requirement 3 (p. 18).",
+        "Step 2 (Parent or Guardian's and Counselor's Execution): Apply the official Architecture pamphlet method for Parent or Guardian's and Counselor's while recording observations in your Scout Workbook (p. 18).",
+        "Step 3 (Parent or Guardian's and Counselor's Buddy Check): Cross-check your Parent or Guardian's and Counselor's technique, measurements, and results with a patrol buddy using the EDGE method (p. 18).",
+        "Step 4 (Parent or Guardian's and Counselor's Verification): Review your completed Parent or Guardian's and Counselor's evidence and demonstrate proficiency during your counselor conference (p. 18)."
       ],
       "gear_checklist": [
-        "Official Architecture Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for With your parent or guardian's",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Architecture Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Parent or Guardian's and Counselor's)",
+        "ANSI Z87.1 impact-rated shooting safety glasses and NRR-rated hearing protection (or armguard/finger tab)",
+        "Range safety officer flags, chamber empty indicators (or bow rack), and official scoring targets.",
+        "Bore cleaning rod, patches, bronze brush, and manufacturer maintenance manual."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Architecture Approach",
-        "right_header": "Official BSA Architecture Standard (With your parent or guardian's)",
+        "left_header": "Proactive Hazard Prevention (Do ONE of The Following)",
+        "right_header": "Acute Emergency Response (Do ONE of The Following)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during With your parent or guardian's.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Eliminate environmental and equipment risks before starting.",
+          "Do ONE of The Following: Architecture Sub-Req 3a: With your parent or guardian's and counselor's permission and approval, arrange to meet.",
+          "Pre-activity PPE, weather, and buddy shakedown."
         ],
         "right_points": [
-          "Reviews Official Scouting America Architecture Merit Badge Pamphlet and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Architecture Workbook organizer.",
-          "Clearly demonstrates and explains With your parent or guardian's using the BSA EDGE method."
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Do ONE of The Following Principle 2: Architecture Sub-Req 3b: With your parent or guardian's and counselor's permission and approval, arrang.",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Do ONE of The Following: Architecture Sub-Req 3a: With your parent or guardian's and counselor's permission and approval, arrange to meet wi",
+            "right": "Do ONE of The Following Principle 2: Architecture Sub-Req 3b: With your parent or guardian's and counselor's permission and approval, arrang"
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Architecture Req 3",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Architecture Req 3 (Parent or Guardian's and Counselor's)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
-          "Requirement & Topic": "Req 3 - With your parent or guardian's",
-          "Primary Standard": "With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Architecture terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Architecture Merit Badge Pamphlet and verified during counselor conference."
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Parent or Guardian's and Counselor's.",
+          "Preventive Controls & PPE": "Parent or Guardian's and Counselor's: Do ONE of The Following: Architecture Sub-Req 3a: With your parent or guardian's and counselor's permission and approval, arrange to meet.",
+          "Acute First-Aid Response": "Parent or Guardian's and Counselor's Principle 2: Do ONE of The Following Principle 2: Architecture Sub-Req 3b: With your parent or guardian's and counselor's permission and approv.",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Architecture Merit Badge Pamphlet."
         },
-        "counselor_tip": "Complete your Architecture Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Parent or Guardian's and Counselor's: Parent or Guardian's and Counselor's: Do ONE of The Following: Architecture Sub-Req 3a: With your parent or guardian's and counselor's permi",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Architecture Merit Badge Pamphlet."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Architecture Requirement 3 (Parent or Guardian's and Counselor's), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Architecture Requirement 3 (Parent or Guardian's and Counselor's), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Experienced Architecture participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Parent or Guardian's and Counselor's measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure.",
+          "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        ],
+        "choices": [
+          "A. Experienced Architecture participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Parent or Guardian's and Counselor's measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure.",
+          "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "explanation": "Correct Answer (D): The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Do ONE of The Following activity (p. 12). (Official Scouting America Architecture Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "p. 12"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 3."
     },
@@ -1096,7 +1315,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Measure a room",
-      "action_verb": "Make",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Architecture Requirement 4 activities.",
@@ -1104,35 +1323,36 @@
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Measure a room)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Measure a room such as one where you live or where your troop meets",
-          "2. Make an accurately scaled drawing of the room's floor plan showing walls",
-          "3. Neatly label your drawing with the following: your name, the date, what room",
-          "4. (Drawing scale: ¼ inch = 1 foot)"
+          "1. Pre-Operation Tool & Safety Check (Measure a room)",
+          "2. Step-by-Step Setup & Alignment Procedure",
+          "3. Live Execution & Technique Verification",
+          "4. Post-Task Inspection, Maintenance & Stowage"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "1. Pre-Operation Tool & Safety Check (Measure a room)",
+          "2. Step-by-Step Setup & Alignment Procedure",
+          "3. Live Execution & Technique Verification",
+          "4. Post-Task Inspection, Maintenance & Stowage"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on measure a room such as one where you live or where your troop meets.",
-        "fact": "Scouts must make measure a room such as one where you live or where your troop meets using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-        "fact_correction": "Scouts must make measure a room such as one where you live or where your troop meets using verified procedures, field evidence, and safety standards from Official Scouting America Architecture Merit Badge Pamphlet.",
-        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+        "misconception": "Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
+        "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Measure a room with proper technique (p. 12).",
+        "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Measure a room with proper technique (p. 12).",
+        "pamphlet_page_ref": "p. 12"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1156,36 +1376,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 4): Measure a room such as one where you live or where your troop meets.",
-        "Core Standard 2 (Req 4): Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets.",
-        "Core Standard 3 (Req 4): Neatly label your drawing with the following: your name, the date, what room you drew, and the scale of the drawing.",
-        "Core Standard 4 (Req 4): (Drawing scale: ¼ inch = 1 foot)."
+        "Measure a room such as one where you live or where your troop meets (p. 12).",
+        "Measure a room Principle 2: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets (p. 12).",
+        "Measure a room Principle 3: Neatly label your drawing with the following: your name, the date, what room you drew, and the scale of the drawing (p. 12).",
+        "Measure a room Principle 4: (Drawing scale: ¼ inch = 1 foot) (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Review Standard (Req 4): Read the official Architecture requirement and identify the key questions, terms, or skills covered in Measure a room.",
-        "Step 2 - Gather Evidence & Examples: Research the required facts in the Architecture Pamphlet and record structured notes in your Scout Workbook.",
-        "Step 3 - Practice & Apply (Make): Work with your patrol buddy or family (as required) to make each element of Measure a room with concrete real-world examples.",
-        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and make your understanding to your Merit Badge Counselor for Blue Card verification."
+        "Step 1 (Measure a room Preparation): Inspect the workspace, reference materials, and safety controls required for Architecture Requirement 4 (p. 22).",
+        "Step 2 (Measure a room Execution): Apply the official Architecture pamphlet method for Measure a room while recording observations in your Scout Workbook (p. 22).",
+        "Step 3 (Measure a room Buddy Check): Cross-check your Measure a room technique, measurements, and results with a patrol buddy using the EDGE method (p. 22).",
+        "Step 4 (Measure a room Verification): Review your completed Measure a room evidence and demonstrate proficiency during your counselor conference (p. 22)."
       ],
       "gear_checklist": [
-        "Official Architecture Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Measure a room",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Architecture Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Measure a room)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Measure a room.",
+        "Structured Architecture Requirement 4 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Architecture Req 4",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 4 - Measure a room",
-          "Primary Standard": "Measure a room such as one where you live or where your troop meets.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Architecture terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Architecture Merit Badge Pamphlet and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Architecture Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Measure a room)",
+        "right_header": "Applied Field Execution (Measure a room)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Measure a room.",
+          "Measure a room such as one where you live or where your troop meets (p. 12).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Architecture.",
+          "Measure a room Principle 2: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Measure a room.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Architecture."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Measure a room such as one where you live or where your troop meets (p. 12).",
+            "right": "Measure a room Principle 2: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Architecture Req 4 (Measure a room)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Measure a room.",
+          "Step-by-Step Execution": "Measure a room such as one where you live or where your troop meets (p. 12).",
+          "Quality & Tolerance Check": "Measure a room Principle 2: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets (p. 12).",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Architecture Merit Badge Pamphlet)"
+        },
+        "sample_output": "Measure a room: Measure a room such as one where you live or where your troop meets (p. 12).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Architecture Merit Badge Pamphlet."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Architecture Requirement 4 (Measure a room), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Architecture Requirement 4 (Measure a room), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
+          "B. Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
+          "C. Defer all Measure a room measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+        ],
+        "choices": [
+          "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
+          "B. Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
+          "C. Defer all Measure a room measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
+        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Measure a room with proper technique (p. 12). (Official Scouting America Architecture Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "p. 12"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1231,7 +1502,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 5: Careers & Professional Pathways",
-      "action_verb": "Research",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Architecture Requirement 5 activities.",
@@ -1240,25 +1511,29 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "CAREER_EXPLORATION_CARD",
-        "table_title": "Req 5 Career & Pathway Exploration Card",
+        "table_title": "Req 5 Career & Professional Pathway Investigation Matrix",
         "headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "column_headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. Three Career Opportunities Identified",
-          "2. Selected Career: Education & Training Required",
-          "3. Daily Duties, Licensing & Expenses",
-          "4. Starting Salary, Job Outlook & Personal Goals"
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
@@ -1288,44 +1563,231 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Core Standard 1 (Req 5): Find out about three career opportunities in architecture.",
-        "Core Standard 2 (Req 5): Pick one and find out the education, training, and experience required for this profession.",
-        "Core Standard 3 (Req 5): Discuss this with your counselor, and explain why this profession might interest you.",
-        "Counselor Conference Readiness: Be prepared to research your findings and personal reflections on Careers & Professional Pathways with your Merit Badge Counselor."
+        "Careers & Professional Pathways: Find out about three career opportunities in architecture (p. 12).",
+        "Careers & Professional Pathways Principle 2: Pick one and find out the education, training, and experience required for this profession (p. 12).",
+        "Careers & Professional Pathways Principle 3: Discuss this with your counselor, and explain why this profession might interest (p. 12).",
+        "Careers & Professional Pathways Field Application 4: Verify all Architecture Requirement 5 measurements, safety controls, and technical criteria with your counselor (p. 26)."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Review Standard (Req 5): Read the official Architecture requirement and identify the key questions, terms, or skills covered in Careers & Professional Pathways.",
-        "Step 2 - Gather Evidence & Examples: Research the required facts in the Architecture Pamphlet and record structured notes in your Scout Workbook.",
-        "Step 3 - Practice & Apply (Research): Work with your patrol buddy or family (as required) to research each element of Careers & Professional Pathways with concrete real-world examples.",
-        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and research your understanding to your Merit Badge Counselor for Blue Card verification."
+        "Step 1 (Careers & Professional Pathways Preparation): Inspect the workspace, reference materials, and safety controls required for Architecture Requirement 5 (p. 26).",
+        "Step 2 (Careers & Professional Pathways Execution): Apply the official Architecture pamphlet method for Careers & Professional Pathways while recording observations in your Scout Workbook (p. 26).",
+        "Step 3 (Careers & Professional Pathways Buddy Check): Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol buddy using the EDGE method (p. 26).",
+        "Step 4 (Careers & Professional Pathways Verification): Review your completed Careers & Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 26)."
       ],
       "gear_checklist": [
-        "Official Architecture Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Architecture Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Careers & Professional Pathways)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Careers & Professional Pathways.",
+        "Structured Architecture Requirement 5 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Architecture Req 5",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 5 - Careers & Professional Pathways",
-          "Primary Standard": "Find out about three career opportunities in architecture. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this profession might interest you.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Architecture terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Architecture Merit Badge Pamphlet and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Architecture Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Professional Career Track in Architecture",
+        "right_header": "Lifelong Avocation & Civic Service in Architecture",
+        "left_points": [
+          "Accredited degree, trade apprenticeship, or industry license.",
+          "Careers & Professional Pathways: Find out about three career opportunities in architecture (p. 12).",
+          "Full-time compensation and technical leadership."
+        ],
+        "right_points": [
+          "Merit badge mastery, club mentorship, and volunteer service.",
+          "Careers & Professional Pathways Principle 2: Pick one and find out the education, training, and experience required for this profession.",
+          "Community stewardship, outdoor recreation, and teaching others."
+        ],
+        "rows": [
+          {
+            "attribute": "Training Pathway",
+            "left": "Accredited degree, trade apprenticeship, or industry license.",
+            "right": "Merit badge mastery, club mentorship, and volunteer service."
+          },
+          {
+            "attribute": "Core Responsibilities",
+            "left": "Careers & Professional Pathways: Find out about three career opportunities in architecture (p. 12).",
+            "right": "Careers & Professional Pathways Principle 2: Pick one and find out the education, training, and experience required for this profession (p. "
+          },
+          {
+            "attribute": "Long-Term Outcome",
+            "left": "Full-time compensation and technical leadership.",
+            "right": "Community stewardship, outdoor recreation, and teaching others."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Architecture Req 5 (Careers & Professional Pathways)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Careers & Professional Pathways: Find out about three career opportunities in architecture (p. 12).",
+          "Applied Field Mechanism": "Careers & Professional Pathways Principle 2: Pick one and find out the education, training, and experience required for this profession (p. 12).",
+          "Real-World Case Example": "Concrete application of Careers & Professional Pathways documented during Architecture study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Architecture Merit Badge Pamphlet."
+        },
+        "sample_output": "Careers & Professional Pathways: Careers & Professional Pathways: Find out about three career opportunities in architecture (p. 12).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Architecture Merit Badge Pamphlet."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Architecture Requirement 5 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Architecture Requirement 5 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties.",
+          "B. Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
+          "C. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+        ],
+        "choices": [
+          "A. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties.",
+          "B. Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
+          "C. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties.",
+        "explanation": "Correct Answer (A): Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Architecture Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 5."
     }
   ],
   "badge_slug": "architecture",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0",
+  "schema_baseline_version": "2026.v30",
   "is_test_lab": false,
   "is_discontinued": false,
-  "status": "ACTIVE"
+  "status": "OFFICIAL",
+  "patrol_quiz_bank": [
+    {
+      "scenario_prompt": "While working on Architecture Requirement 1 (Tour your community and list), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Architecture Requirement 1 (Tour your community and list), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour.",
+        "B. Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in.",
+        "C. Defer all Tour your community and list measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+      ],
+      "choices": [
+        "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour.",
+        "B. Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in.",
+        "C. Defer all Tour your community and list measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour.",
+      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour your community and list with proper technique (p. 12). (Official Scouting America Architecture Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "p. 12",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Architecture Requirement 2 (Leave No Trace & Outdoor Ethics), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Architecture Requirement 2 (Leave No Trace & Outdoor Ethics), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "B. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+        "C. Defer all Leave No Trace & Outdoor Ethics measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+      ],
+      "choices": [
+        "A. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "B. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+        "C. Defer all Leave No Trace & Outdoor Ethics measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+      "explanation": "Correct Answer (A): The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks. (Official Scouting America Architecture Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+      "req_id": "2",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Architecture Requirement 3 (Parent or Guardian's and Counselor's), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Architecture Requirement 3 (Parent or Guardian's and Counselor's), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Architecture participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Parent or Guardian's and Counselor's measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure.",
+        "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "choices": [
+        "A. Experienced Architecture participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Parent or Guardian's and Counselor's measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure.",
+        "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (D): The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Do ONE of The Following activity (p. 12). (Official Scouting America Architecture Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "p. 12",
+      "req_id": "3",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Architecture Requirement 4 (Measure a room), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Architecture Requirement 4 (Measure a room), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
+        "B. Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
+        "C. Defer all Measure a room measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+      ],
+      "choices": [
+        "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
+        "B. Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
+        "C. Defer all Measure a room measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
+      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Measure a room with proper technique (p. 12). (Official Scouting America Architecture Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "p. 12",
+      "req_id": "4",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Architecture Requirement 5 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Architecture Requirement 5 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Architecture Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties.",
+        "B. Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
+        "C. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+      ],
+      "choices": [
+        "A. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties.",
+        "B. Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
+        "C. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Architecture pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties.",
+      "explanation": "Correct Answer (A): Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Architecture Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+      "req_id": "5",
+      "option_id": null
+    }
+  ],
+  "quartermaster_manifest": {
+    "badge_name": "Architecture",
+    "patrol_equipment": [
+      "Primary reference documents, case-study exhibits, and regulation charts for Tour your community and list",
+      "Structured Architecture Requirement 1 worksheet, index cards, and verification rubric",
+      "Buddy-pair discussion prompt cards and counselor sign-off checklist",
+      "Calibrated instant-read digital food thermometer and sanitizing wipes",
+      "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves",
+      "USDA MyPlate nutrition chart, recipe cards, and biodegradable three-pot wash basin kit",
+      "ANSI Z87.1 impact-rated shooting safety glasses and NRR-rated hearing protection (or armguard/finger tab)",
+      "Range safety officer flags, chamber empty indicators (or bow rack), and official scoring targets"
+    ],
+    "individual_scout_gear": [
+      "Official Architecture Merit Badge Pamphlet",
+      "Printed or Fillable Architecture Scout Workbook",
+      "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
+      "Field notebook, pen/pencil, and personal safety equipment (PPE)"
+    ]
+  }
 }

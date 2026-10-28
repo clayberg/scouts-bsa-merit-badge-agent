@@ -33,37 +33,38 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "HAZARD_5COL",
-            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+            "table_title": "Req 1a Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix",
             "headers": [
-              "Hazard / Risk",
-              "Anticipate",
-              "Help Prevent",
-              "Mitigate",
-              "Respond"
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
             ],
             "column_headers": [
-              "Hazard / Risk",
-              "Anticipate",
-              "Help Prevent",
-              "Mitigate",
-              "Respond"
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
             ],
             "row_labels": [
-              "Hazard #1",
-              "Hazard #2",
-              "Hazard #3",
-              "Hazard #4",
-              "Hazard #5"
+              "1. Primary Environmental Hazard in Woodwork",
+              "2. Equipment or Tool Handling Hazard",
+              "3. Acute Physical / Medical Injury Risk",
+              "4. Emergency Communication & Evacuation Protocol"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Primary Environmental Hazard in Woodwork",
+              "2. Equipment or Tool Handling Hazard",
+              "3. Acute Physical / Medical Injury Risk",
+              "4. Emergency Communication & Evacuation Protocol"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Woodwork hands-on activities and address hazards only after an incident occurs.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Woodwork prevents field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Woodwork prevents field injuries.",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)"
+            "misconception": "Experienced Woodwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Woodwork Hazards and First Aid activity (p. 34, p. 36).",
+            "fact_correction": "The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Woodwork Hazards and First Aid activity (p. 34, p. 36).",
+            "pamphlet_page_ref": "p. 34, p. 36"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -88,7 +89,12 @@
           ],
           "id": "1a",
           "sub_req_label": "1a",
-          "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while participating in woodwork activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Explain what precautions you should take to safely use your tools."
+          "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while participating in woodwork activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Explain what precautions you should take to safely use your tools.",
+          "topic_title": "Req 1a: Woodwork Hazards and First Aid",
+          "pamphlet_summary": "Woodwork Hazards and First Aid: Hazards, First Aid & Safety Principle 3: Encourage the wound tobleed to flush out foreign matter (p. 34).",
+          "pamphlet_excerpts": [
+            "Woodwork Hazards and First Aid: Hazards, First Aid & Safety Principle 3: Encourage the wound tobleed to flush out foreign matter (p. 34)."
+          ]
         },
         {
           "sub_id": "1b",
@@ -103,29 +109,30 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
-            "table_title": "Req 1b Symptoms, First Aid & Prevention Matrix",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (You Know First Aid)",
             "headers": [
-              "Condition / Injury",
-              "Symptoms & Signs",
-              "First Aid / Treatment",
-              "Prevention"
+              "Req 1b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Condition / Injury",
-              "Symptoms & Signs",
-              "First Aid / Treatment",
-              "Prevention"
+              "Req 1b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Splinters",
-              "Scratches",
-              "Cuts",
-              "Severe bleeding",
-              "Shock"
+              "1. Core Definition & Mechanism (You Know First Aid)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (You Know First Aid)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)",
           "common_misconception_pair": {
@@ -157,7 +164,12 @@
           ],
           "id": "1b",
           "sub_req_label": "1b",
-          "sub_req_text": "Show that you know first aid for injuries that could occur while woodworking, including splinters, scratches, cuts, severe bleeding, and shock. Tell what precautions must be taken to help prevent loss of eyesight or hearing, and explain why and when it is necessary to use a dust mask."
+          "sub_req_text": "Show that you know first aid for injuries that could occur while woodworking, including splinters, scratches, cuts, severe bleeding, and shock. Tell what precautions must be taken to help prevent loss of eyesight or hearing, and explain why and when it is necessary to use a dust mask.",
+          "topic_title": "Req 1b: You Know First Aid",
+          "pamphlet_summary": "You Know First Aid: Show That You Know First: Hazards, First Aid & Safety Principle 4: Maketears flow by blinking or flush the eye with water to washaway the object (p. 34).",
+          "pamphlet_excerpts": [
+            "You Know First Aid: Show That You Know First: Hazards, First Aid & Safety Principle 4: Maketears flow by blinking or flush the eye with water to washaway the object (p. 34)."
+          ]
         },
         {
           "sub_id": "1c",
@@ -168,29 +180,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Study & Explanation Notes",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Totin Chip Recognition)",
             "headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Earn the Totin' Chip recognition",
-              "Pamphlet Standard & Key Facts (1c)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Totin Chip Recognition)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Totin Chip Recognition)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on earn the totin' chip recognition.",
-            "fact": "Scouts must explain earn the totin' chip recognition using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36).",
-            "fact_correction": "Scouts must explain earn the totin' chip recognition using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36).",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)"
+            "misconception": "General familiarity with Totin, recognition is sufficient for Woodwork Requirement 1c without citing specific functional mechanisms.",
+            "fact": "The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Earn The Totin Chip Recognition (p. 34, p. 36).",
+            "fact_correction": "The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Earn The Totin Chip Recognition (p. 34, p. 36).",
+            "pamphlet_page_ref": "p. 34, p. 36"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -215,7 +234,12 @@
           ],
           "id": "1c",
           "sub_req_label": "1c",
-          "sub_req_text": "Earn the Totin' Chip recognition."
+          "sub_req_text": "Earn the Totin' Chip recognition.",
+          "topic_title": "Req 1c: Totin Chip Recognition",
+          "pamphlet_summary": "Totin Chip Recognition: Earn The Totin Chip Recognition: Hazards, First Aid & Safety: Tools and How to Use Them First Aid Keep a first-aid kit on hand and know what to do for injuries that could occur while woodworking (p. 34).",
+          "pamphlet_excerpts": [
+            "Totin Chip Recognition: Earn The Totin Chip Recognition: Hazards, First Aid & Safety: Tools and How to Use Them First Aid Keep a first-aid kit on hand and know what to do for injuries that could occur while woodworking (p. 34)."
+          ]
         }
       ],
       "resources": [
@@ -242,36 +266,35 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "HAZARD_5COL",
-        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+        "table_title": "Req 1 Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix",
         "headers": [
-          "Hazard / Risk",
-          "Anticipate",
-          "Help Prevent",
-          "Mitigate",
-          "Respond"
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
         ],
         "column_headers": [
-          "Hazard / Risk",
-          "Anticipate",
-          "Help Prevent",
-          "Mitigate",
-          "Respond"
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
         ],
         "row_labels": [
-          "Hazard #1",
-          "Hazard #2",
-          "Hazard #3",
-          "Hazard #4",
-          "Hazard #5"
+          "(1a) Woodwork Hazards and First Aid",
+          "(1b) You Know First Aid",
+          "(1c) Totin Chip Recognition"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false
+        "rows": [
+          "(1a) Woodwork Hazards and First Aid",
+          "(1b) You Know First Aid",
+          "(1c) Totin Chip Recognition"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Woodwork hands-on activities and address hazards only after an incident occurs.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Woodwork prevents field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Woodwork prevents field injuries.",
-        "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)"
+        "misconception": "Experienced Woodwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 34, p. 36).",
+        "fact_correction": "The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 34, p. 36).",
+        "pamphlet_page_ref": "p. 34, p. 36"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -295,61 +318,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Tools Them Aid: Tools and How to Use Them First Aid Keep a first-aid kit on hand and know what to do for injuriesthat could occur while woodworking.",
-        "Details Aid Badgepamphlet: For details, see the First Aid merit badgepamphlet and the Scouts BSA handbook.",
-        "Encourage Wound Tobleed: Encourage the wound tobleed to flush out foreign matter.",
-        "Maketears Flow Blinking: Maketears flow by blinking or flushthe eye with water to washaway the object."
+        "Hazards, First Aid & Safety: Tools and How to Use Them First Aid Keep a first-aid kit on hand and know what to do for injuries that could occur while woodworking (p. 34).",
+        "Hazards, First Aid & Safety Principle 2: For details, see the First Aid merit badgepamphlet and the Scouts BSA handbook (p. 34).",
+        "Hazards, First Aid & Safety Principle 3: Encourage the wound tobleed to flush out foreign matter (p. 34).",
+        "Hazards, First Aid & Safety Principle 4: Maketears flow by blinking or flush the eye with water to washaway the object (p. 34)."
       ],
       "step_by_step_procedure": [
-        "Removean Object White: To removean object from the white partof the eye, use the corner of a clean cloth or handkerchief.",
-        "Not Out Something: Do not try to take out something that is stuck in the eye.",
-        "Cover Injured Eye: Cover the injured eye with a dry, sterile gauze pad andseek medical attention.",
-        "Severe Bleeding Apply: For severe bleeding, apply direct pressure to the wound."
+        "Step 1 (Hazards, First Aid & Safety): To removean object from the white part of the eye, use the corner of a clean cloth or handkerchief (p. 34).",
+        "Step 2 (Hazards, First Aid & Safety): Do not try to take out something that is stuck in the eye (p. 34).",
+        "Step 3 (Hazards, First Aid & Safety): Cover the injured eye with a dry, sterile gauze pad andseek medical attention (p. 34).",
+        "Step 4 (Hazards, First Aid & Safety): For severe bleeding, apply direct pressure to the wound (p. 34)."
       ],
       "gear_checklist": [
-        "Official Woodwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Woodwork Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Hazards, First Aid & Safety)",
+        "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
+        "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs.",
+        "Emergency action plan checklist and simulated patient assessment cards."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Woodwork Approach",
-        "right_header": "Official BSA Woodwork Standard (Hazards, First Aid & Safety)",
+        "left_header": "Proactive Hazard Prevention (Hazards, First Aid & Safety)",
+        "right_header": "Acute Emergency Response (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Eliminate environmental and equipment risks before starting.",
+          "Hazards, First Aid & Safety: Tools and How to Use Them First Aid Keep a first-aid kit on hand and know what to do for injuriesthat could occ.",
+          "Pre-activity PPE, weather, and buddy shakedown."
         ],
         "right_points": [
-          "Reviews Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Woodwork Workbook organizer.",
-          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Hazards, First Aid & Safety Principle 2: For details, see the First Aid merit badgepamphlet and the Scouts BSA handbook (p. 34).",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Hazards, First Aid & Safety: Tools and How to Use Them First Aid Keep a first-aid kit on hand and know what to do for injuriesthat could occ",
+            "right": "Hazards, First Aid & Safety Principle 2: For details, see the First Aid merit badgepamphlet and the Scouts BSA handbook (p. 34)."
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Woodwork Req 1",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Woodwork Req 1 (Hazards, First Aid & Safety)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
-          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
-          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while participating in woodwork activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Woodwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36) and verified during counselor conference."
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Hazards, First Aid & Safety.",
+          "Preventive Controls & PPE": "Hazards, First Aid & Safety: Tools and How to Use Them First Aid Keep a first-aid kit on hand and know what to do for injuries that could occur while woodworking (p. 34).",
+          "Acute First-Aid Response": "Hazards, First Aid & Safety Principle 2: For details, see the First Aid merit badgepamphlet and the Scouts BSA handbook (p. 34).",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)."
         },
-        "counselor_tip": "Complete your Woodwork Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Hazards, First Aid & Safety: Hazards, First Aid & Safety: Tools and How to Use Them First Aid Keep a first-aid kit on hand and know what to do for injuries that could oc",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before starting hands-on or field work for Woodwork (Hazards, First Aid & Safety), which patrol preparation step best aligns with the official Woodwork standard?",
+        "scenario_prompt": "While working on Woodwork Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Woodwork Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
         "options": [
-          "Review the Woodwork hazards, PPE, and prerequisite standards in Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36) with your counselor and patrol buddy before beginning",
-          "Begin the practical station immediately and review the safety rules only if a problem occurs",
-          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
-          "Skip the pre-activity briefing when practicing indoors"
+          "A. Experienced Woodwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+          "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
         ],
-        "correct_answer": "Option A - Review the Woodwork hazards, PPE, and prerequisite standards in Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36) with your counselor and patrol buddy before beginning",
-        "explanation": "Per Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
+        "choices": [
+          "A. Experienced Woodwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+          "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "explanation": "Correct Answer (B): The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 34, p. 36). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)).",
+        "pamphlet_page_ref": "p. 34, p. 36"
       },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Woodwork Workbook organizer table and practical demonstration for Req 1."
+      "homework_verification_note": "Verify completed Woodwork Workbook organizer table and practical demonstration for Req 1.",
+      "workbook_diagram_url": "assets/ai_illustrations/woodwork_req_1_workbook_diagram.png"
     },
     {
       "req_id": "2",
@@ -372,28 +424,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Study & Explanation Notes",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Timber Is Grown Harvested)",
             "headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe how timber is grown, harvested, and milled",
-              "2. Tell how lumber is cured, seasoned, graded, and sized"
+              "1. Core Definition & Mechanism (Timber Is Grown Harvested)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Timber Is Grown Harvested)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe how timber is grown, harvested, and milled.",
-            "fact": "Scouts must describe describe how timber is grown, harvested, and milled using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15).",
-            "fact_correction": "Scouts must describe describe how timber is grown, harvested, and milled using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15).",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)"
+            "misconception": "General familiarity with Describe, timber is sufficient for Woodwork Requirement 2a without citing specific functional mechanisms.",
+            "fact": "The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber Is Grown Harvested (p. 14, p. 15).",
+            "fact_correction": "The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber Is Grown Harvested (p. 14, p. 15).",
+            "pamphlet_page_ref": "p. 14, p. 15"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -418,12 +478,17 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Describe how timber is grown, harvested, and milled. Tell how lumber is cured, seasoned, graded, and sized."
+          "sub_req_text": "Describe how timber is grown, harvested, and milled. Tell how lumber is cured, seasoned, graded, and sized.",
+          "topic_title": "Req 2a: Timber Is Grown Harvested",
+          "pamphlet_summary": "Timber Is Grown Harvested: Timber is grown, harvested, and milled Principle 4: Small logs are often cut into boards in a single pass through a set of saws (a gang saw) that makes many cuts at once (p. 14).",
+          "pamphlet_excerpts": [
+            "Timber Is Grown Harvested: Timber is grown, harvested, and milled Principle 4: Small logs are often cut into boards in a single pass through a set of saws (a gang saw) that makes many cuts at once (p. 14)."
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief qualities of each. Give the best uses of each.",
+          "text": "Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief qualities of each. Give the best uses.",
           "resources": [
             {
               "title": "Types of Plywood (website w/ video)",
@@ -438,29 +503,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Study & Explanation Notes",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Label Blocks of Six Kinds)",
             "headers": [
-              "Req 2b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Collect and label blocks of six kinds of wood useful in woodworking",
-              "2. Describe the chief qualities of each",
-              "3. Give the best uses of each"
+              "1. Core Definition & Mechanism (Label Blocks of Six Kinds)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Label Blocks of Six Kinds)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on collect and label blocks of six kinds of wood useful in woodworking.",
-            "fact": "Scouts must describe collect and label blocks of six kinds of wood useful in woodworking using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15).",
-            "fact_correction": "Scouts must describe collect and label blocks of six kinds of wood useful in woodworking using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15).",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)"
+            "misconception": "General familiarity with Collect, label is sufficient for Woodwork Requirement 2b without citing specific functional mechanisms.",
+            "fact": "The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Collect and Label Blocks (p. 14, p. 15).",
+            "fact_correction": "The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Collect and Label Blocks (p. 14, p. 15).",
+            "pamphlet_page_ref": "p. 14, p. 15"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -485,7 +557,12 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief qualities of each. Give the best uses of each."
+          "sub_req_text": "Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief qualities of each. Give the best uses.",
+          "topic_title": "Req 2b: Label Blocks of Six Kinds",
+          "pamphlet_summary": "Label Blocks of Six Kinds: Collect and Label Blocks: Timber is grown, harvested, and milled: Then workers called buckers lop off the limbs and slice thetrunks into shorter lengths (logs) that are easier to handle (p. 14).",
+          "pamphlet_excerpts": [
+            "Label Blocks of Six Kinds: Collect and Label Blocks: Timber is grown, harvested, and milled: Then workers called buckers lop off the limbs and slice thetrunks into shorter lengths (logs) that are easier to handle (p. 14)."
+          ]
         }
       ],
       "resources": [
@@ -519,33 +596,32 @@
       "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Timber is grown, harvested, and milled)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 2 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 2 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Describe how timber is grown, harvested, and milled",
-          "(b) Collect and label blocks of six kinds of wood useful in woodworking"
+          "(2a) Timber Is Grown Harvested",
+          "(2b) Label Blocks of Six Kinds"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(2a) Timber Is Grown Harvested",
+          "(2b) Label Blocks of Six Kinds"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe how timber is grown, harvested, and milled.",
-        "fact": "Scouts must demonstrate describe how timber is grown, harvested, and milled using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15).",
-        "fact_correction": "Scouts must demonstrate describe how timber is grown, harvested, and milled using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15).",
-        "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)"
+        "misconception": "General familiarity with following, Describe is sufficient for Woodwork Requirement 2 without citing specific functional mechanisms.",
+        "fact": "The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber is grown, harvested, and milled (p. 14, p. 15).",
+        "fact_correction": "The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber is grown, harvested, and milled (p. 14, p. 15).",
+        "pamphlet_page_ref": "p. 14, p. 15"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -569,36 +645,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Then Workers Buckers: Then workers called buckers lop off the limbs and slice thetrunks into shorter lengths (logs) that are easier to handle.",
-        "Logs Trucked Floated: The logs are trucked, floated, or carried on railroads to asawmill.",
-        "Mill Logs Debarked: At the mill, logs are debarked (their bark is removed), and saws cut them into boards (lumber).",
-        "Small Logs Cut: Small logs are often cut into boards in a single pass through a set of saws (a gang saw) that makes many cuts at once."
+        "Timber is grown, harvested, and milled: Then workers called buckers lop off the limbs and slice thetrunks into shorter lengths (logs) that are easier to handle (p. 14).",
+        "Timber is grown, harvested, and milled Principle 2: The logs are trucked, floated, or carried on railroads to asawmill (p. 14).",
+        "Timber is grown, harvested, and milled Principle 3: At the mill, logs are debarked (their bark is removed), and saws cut them into boards (lumber) (p. 14).",
+        "Timber is grown, harvested, and milled Principle 4: Small logs are often cut into boards in a single pass through a set of saws (a gang saw) that makes many cuts at once (p. 14)."
       ],
       "step_by_step_procedure": [
-        "Largelogs Several Passes: Largelogs may make several passes through one saw (a headsaw) thatslices off a board at a time until the whole log is cut into lumber.",
-        "New Lumber Green: The new lumber, called green lumber, is edged and trimmed tostraighten the sides and cut into boards of standard lengths.",
-        "Lumber Graded Quality: Lumber is graded for quality, appearance, and strength.",
-        "Manufacturersuse Them Tomake: Manufacturersuse them tomake flooring, pallets, andsimilar products."
+        "Step 1 (Timber is grown, harvested, and milled): Largelogs may make several passes through one saw (a headsaw) thatslices off a board at a time until the whole log is cut into lumber (p. 14).",
+        "Step 2 (Timber is grown, harvested, and milled): The new lumber, called green lumber, is edged and trimmed tostraighten the sides and cut into boards of standard lengths (p. 14).",
+        "Step 3 (Timber is grown, harvested, and milled): Lumber is graded for quality, appearance, and strength (p. 14).",
+        "Step 4 (Timber is grown, harvested, and milled): Manufacturersuse them tomake flooring, pallets, andsimilar products (p. 14)."
       ],
       "gear_checklist": [
-        "Official Woodwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Timber is grown, harvested, and milled",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Woodwork Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Timber is grown, harvested, and milled)",
+        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
+        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
+        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Woodwork Req 2",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 2 - Timber is grown, harvested, and milled",
-          "Primary Standard": "Describe how timber is grown, harvested, and milled. Tell how lumber is cured, seasoned, graded, and sized.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Woodwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Woodwork Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Timber is grown, harvested, and milled)",
+        "right_header": "Applied Field Execution (Timber is grown, harvested, and milled)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Timber is grown, harvested, and milled.",
+          "Timber is grown, harvested, and milled: Then workers called buckers lop off the limbs and slice thetrunks into shorter lengths (logs)",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Woodwork.",
+          "Timber is grown, harvested, and milled Principle 2: The logs are trucked, floated, or carried on railroads to asawmill (p. 14).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Timber is grown, harvested, and milled.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Woodwork."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Timber is grown, harvested, and milled: Then workers called buckers lop off the limbs and slice thetrunks into shorter lengths (logs) that a",
+            "right": "Timber is grown, harvested, and milled Principle 2: The logs are trucked, floated, or carried on railroads to asawmill (p. 14)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Woodwork Req 2 (Timber is grown, harvested, and milled)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Timber is grown, harvested, and milled: Then workers called buckers lop off the limbs and slice thetrunks into shorter lengths (logs) that are easier to handle (p. 14).",
+          "Applied Field Mechanism": "Timber is grown, harvested, and milled Principle 2: The logs are trucked, floated, or carried on railroads to asawmill (p. 14).",
+          "Real-World Case Example": "Concrete application of Timber is grown, harvested, and milled documented during Woodwork study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)."
+        },
+        "sample_output": "Timber is grown, harvested, and milled: Timber is grown, harvested, and milled: Then workers called buckers lop off the limbs and slice thetrunks into shorter lengths (logs) that a",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Woodwork Requirement 2 (Timber is grown, harvested, and milled), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Woodwork Requirement 2 (Timber is grown, harvested, and milled), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber is.",
+          "B. General familiarity with following, Describe is sufficient for Woodwork Requirement 2 without citing specific functional mechanisms.",
+          "C. Defer all Timber is grown, harvested, and milled measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+        ],
+        "choices": [
+          "A. The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber is.",
+          "B. General familiarity with following, Describe is sufficient for Woodwork Requirement 2 without citing specific functional mechanisms.",
+          "C. Defer all Timber is grown, harvested, and milled measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber is.",
+        "explanation": "Correct Answer (A): The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber is grown, harvested, and milled (p. 14, p. 15). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)).",
+        "pamphlet_page_ref": "p. 14, p. 15"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Woodwork Workbook organizer table and practical demonstration for Req 2."
     },
@@ -622,34 +749,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 3a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Proper Care Use and Storage)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show the proper care, use",
-              "2. Storage of all working tools and equipment that you own or use at home"
+              "1. Core Definition & Mechanism (Proper Care Use and Storage)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Core Definition & Mechanism (Proper Care Use and Storage)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show the proper care, use.",
-            "fact": "Scouts must show show the proper care, use using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37).",
-            "fact_correction": "Scouts must show show the proper care, use using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37).",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)"
+            "misconception": "Describing how to perform Show The Proper Care Use verbally can substitute for a physical hands-on demonstration in Woodwork Requirement 3a.",
+            "fact": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The Proper Care Use with proper technique (p. 34, p. 37).",
+            "fact_correction": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The Proper Care Use with proper technique (p. 34, p. 37).",
+            "pamphlet_page_ref": "p. 34, p. 37"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -674,7 +804,12 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Show the proper care, use, and storage of all working tools and equipment that you own or use at home or school."
+          "sub_req_text": "Show the proper care, use, and storage of all working tools and equipment that you own or use at home or school.",
+          "topic_title": "Req 3a: Proper Care Use and Storage",
+          "pamphlet_summary": "Proper Care Use and Storage: Show The Proper Care Use: You are more likely to mar your work and injureyourself with a dull blade than a sharp one because dull bladesrequire extra force and can slip (p. 34).",
+          "pamphlet_excerpts": [
+            "Proper Care Use and Storage: Show The Proper Care Use: You are more likely to mar your work and injureyourself with a dull blade than a sharp one because dull bladesrequire extra force and can slip (p. 34)."
+          ]
         },
         {
           "sub_id": "3b",
@@ -690,29 +825,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Study & Explanation Notes",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Sharpen Correctly The Cutting Edges)",
             "headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Sharpen correctly the cutting edges of two different tools",
-              "Pamphlet Standard & Key Facts (3b)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Sharpen Correctly The Cutting Edges)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Sharpen Correctly The Cutting Edges)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on sharpen correctly the cutting edges of two different tools.",
-            "fact": "Scouts must explain sharpen correctly the cutting edges of two different tools using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37).",
-            "fact_correction": "Scouts must explain sharpen correctly the cutting edges of two different tools using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37).",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)"
+            "misconception": "General familiarity with Sharpen, correctly is sufficient for Woodwork Requirement 3b without citing specific functional mechanisms.",
+            "fact": "The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Sharpen Correctly The Cutting Edges (p. 34, p. 37).",
+            "fact_correction": "The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Sharpen Correctly The Cutting Edges (p. 34, p. 37).",
+            "pamphlet_page_ref": "p. 34, p. 37"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -737,7 +879,12 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Sharpen correctly the cutting edges of two different tools."
+          "sub_req_text": "Sharpen correctly the cutting edges of two different tools.",
+          "topic_title": "Req 3b: Sharpen Correctly The Cutting Edges",
+          "pamphlet_summary": "Sharpen Correctly The Cutting Edges: Show The Proper Care Use Principle 2: Rough handling will nick and dull the cutting edges (p. 34).",
+          "pamphlet_excerpts": [
+            "Sharpen Correctly The Cutting Edges: Show The Proper Care Use Principle 2: Rough handling will nick and dull the cutting edges (p. 34)."
+          ]
         }
       ],
       "resources": [
@@ -758,7 +905,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: The proper care, use, and storage",
+      "topic_title": "Req 3: Woodwork Applied Field Standard",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -767,33 +914,32 @@
       "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Woodwork Applied Field Standard)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Show the proper care, use, and storage of all working tools and equipment",
-          "(b) Sharpen correctly the cutting edges of two different tools"
+          "(3a) Proper Care Use and Storage",
+          "(3b) Sharpen Correctly The Cutting Edges"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(3a) Proper Care Use and Storage",
+          "(3b) Sharpen Correctly The Cutting Edges"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show the proper care, use, and storage of all working tools and equipment.",
-        "fact": "Scouts must demonstrate show the proper care, use, and storage of all working tools and equipment using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37).",
-        "fact_correction": "Scouts must demonstrate show the proper care, use, and storage of all working tools and equipment using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37).",
-        "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)"
+        "misconception": "Describing how to perform Show The Proper Care Use verbally can substitute for a physical hands-on demonstration in Woodwork Requirement 3.",
+        "fact": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The Proper Care Use with proper technique (p. 34, p. 37).",
+        "fact_correction": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The Proper Care Use with proper technique (p. 34, p. 37).",
+        "pamphlet_page_ref": "p. 34, p. 37"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -817,49 +963,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Likely Mar Work: You are more likely to mar your work and injureyourself with a dull blade than a sharp one because dull bladesrequire extra force and can slip.",
-        "Rough Handling will Nick: Rough handling will nick and dull the cutting edges.",
-        "Wood-cutting Tools: Most wood-cutting tools have two wedgeshapes on their cutting edge: the main or groundbevel, and the sharpening bevel.",
-        "Aresharpening Edge Working: When you aresharpening an edge, you should be working off thesharpening bevel only, not the larger ground bevel."
+        "Woodwork Applied Field Standard: Show The Proper Care Use: You are more likely to mar your work and injureyourself with a dull blade than a sharp one because dull bladesrequire extra force and can slip (p. 34).",
+        "Woodwork Applied Field Standard Principle 2: Show The Proper Care Use Principle 2: Rough handling will nick and dull the cutting edges (p. 34).",
+        "Woodwork Applied Field Standard Principle 3: Show The Proper Care Use Principle 3: Most wood-cutting tools have two wedgeshapes on their cutting edge: the main or groundbevel, and the sharpening bevel (p. 34).",
+        "Woodwork Applied Field Standard Principle 4: Show The Proper Care Use Principle 4: When you aresharpening an edge, you should be working off thesharpening bevel only, not the larger ground bevel (p. 34)."
       ],
       "step_by_step_procedure": [
-        "Start Roughstone Followed: When sharpening a blade, start with a roughstone, followed by (in this order and as needed) a medium, fine, and smooth stone.",
-        "Whet Edge Pushing: Whet the edge by pushing itforward over the stone.",
-        "Finish Turn Blade: To finish, turn the blade over on Correct angle for sharpening the cuttingits flat side and, keeping the back flatiron of a planeon the stone, push it.",
-        "Stoningboth Sides Produces: Stoningboth sides produces a little wiry burron the edge."
+        "Step 1 (Woodwork Applied Field Standard): Step 1 (Show The Proper Care Use): When sharpening a blade, start with a roughstone, followed by (in this order and as needed) a medium, fine, and smooth stone (p. 34).",
+        "Step 2 (Woodwork Applied Field Standard): Step 2 (Show The Proper Care Use): Whet the edge by pushing itforward over the stone (p. 34).",
+        "Step 3 (Woodwork Applied Field Standard): Step 3 (Show The Proper Care Use): To finish, turn the blade over on Correct angle for sharpening the cuttingits flat side and, keeping the back flatiron of a planeon the stone, push (p. 34).",
+        "Step 4 (Woodwork Applied Field Standard): Step 4 (Show The Proper Care Use): Stoningboth sides produces a little wiry burron the edge (p. 34)."
       ],
       "gear_checklist": [
-        "Official Woodwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for The proper care, use, and storage",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Woodwork Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Woodwork Applied Field Standard)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Woodwork Approach",
-        "right_header": "Official BSA Woodwork Standard (The proper care, use, and storage)",
+        "left_header": "Foundational Principles (Show The Proper Care Use)",
+        "right_header": "Applied Field Execution (Show The Proper Care Use)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during The proper care, use, and storage.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Show The Proper Care Use.",
+          "Show The Proper Care Use: You are more likely to mar your work and injureyourself with a dull blade than a sharp one because dull bladesrequ.",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Woodwork Workbook organizer.",
-          "Clearly demonstrates and explains The proper care, use, and storage using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Woodwork.",
+          "Show The Proper Care Use Principle 2: Rough handling will nick and dull the cutting edges (p. 34).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Show The Proper Care Use.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Woodwork."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Show The Proper Care Use: You are more likely to mar your work and injureyourself with a dull blade than a sharp one because dull bladesrequ",
+            "right": "Show The Proper Care Use Principle 2: Rough handling will nick and dull the cutting edges (p. 34)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Woodwork Req 3",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Skill Station Walkthrough: Woodwork Req 3 (Woodwork Applied Field Standard)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Requirement & Topic": "Req 3 - The proper care, use, and storage",
-          "Primary Standard": "Show the proper care, use, and storage of all working tools and equipment that you own or use at home or school.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Woodwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37) and verified during counselor conference."
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Woodwork Applied Field Standard.",
+          "Step-by-Step Execution": "Woodwork Applied Field Standard: Show The Proper Care Use: You are more likely to mar your work and injureyourself with a dull blade than a sharp one because dull bladesrequire ext.",
+          "Quality & Tolerance Check": "Woodwork Applied Field Standard Principle 2: Show The Proper Care Use Principle 2: Rough handling will nick and dull the cutting edges (p. 34).",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37))"
         },
-        "counselor_tip": "Complete your Woodwork Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Woodwork Applied Field Standard: Woodwork Applied Field Standard: Show The Proper Care Use: You are more likely to mar your work and injureyourself with a dull blade than a ",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Woodwork Requirement 3 (Woodwork Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Woodwork Requirement 3 (Woodwork Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Describing how to perform Show The Proper Care Use verbally can substitute for a physical hands-on demonstration in Woodwork.",
+          "B. Defer all Woodwork Applied Field Standard measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure.",
+          "D. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The."
+        ],
+        "choices": [
+          "A. Describing how to perform Show The Proper Care Use verbally can substitute for a physical hands-on demonstration in Woodwork.",
+          "B. Defer all Woodwork Applied Field Standard measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure.",
+          "D. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The.",
+        "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The Proper Care Use with proper technique (p. 34, p. 37). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)).",
+        "pamphlet_page_ref": "p. 34, p. 37"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Woodwork Workbook organizer table and practical demonstration for Req 3."
     },
@@ -889,7 +1073,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Using a saw, plane, hammer, brace",
-      "action_verb": "Make",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Woodwork Requirement 4 activities.",
@@ -897,33 +1081,36 @@
       "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 60, p. 62)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 4 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Using a saw, plane, hammer, brace)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 4 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 4 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Using a saw, plane, hammer, brace, and bit, make something useful of wood",
-          "2. Cut parts from lumber that you have squared and measured from working drawings"
+          "1. Core Definition & Mechanism (Using a saw, plane, hammer, brace)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "1. Core Definition & Mechanism (Using a saw, plane, hammer, brace)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on using a saw, plane, hammer, brace, and bit, make something useful of wood.",
-        "fact": "Scouts must make using a saw, plane, hammer, brace, and bit, make something useful of wood using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 60, p. 62).",
-        "fact_correction": "Scouts must make using a saw, plane, hammer, brace, and bit, make something useful of wood using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 60, p. 62).",
-        "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 60, p. 62)"
+        "misconception": "Describing how to perform Using a saw, plane, hammer, brace verbally can substitute for a physical hands-on demonstration in Woodwork Requirement 4.",
+        "fact": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Using a saw, plane, hammer, brace with proper technique (p. 60, p. 62).",
+        "fact_correction": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Using a saw, plane, hammer, brace with proper technique (p. 60, p. 62).",
+        "pamphlet_page_ref": "p. 60, p. 62"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -947,36 +1134,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Mortise Tenon Joint: A mortise and tenon joint has twoparts: the mortise is a hole in one pieceof wood, and the tenon is the part ofthe second piece that is cut and shapedto.",
-        "Simply Jointis Square: Simply, this jointis “a square peg in a square hole.” To start the mortise, drill the holesonly as deep as you want the mortiseto be.",
-        "Then Sharp Wood: Then use a sharp wood chisel toshave out any excess wood and squarethe corners.",
-        "Markits Depth Width: To make the tenon, markits depth and width on the end of thetenon piece."
+        "Using a saw, plane, hammer, brace: A mortise and tenon joint has twoparts: the mortise is a hole in one piece of wood, and the tenon is the part of the second piece that is cut and shaped (p. 60).",
+        "Using a saw, plane, hammer, brace Principle 2: Simply, this jointis \"a square peg in a square hole.\" To start the mortise, drill the holesonly as deep as you want the mortise (p. 60).",
+        "Using a saw, plane, hammer, brace Principle 3: Then use a sharp wood chisel toshave out any excess wood and square the corners (p. 60).",
+        "Using a saw, plane, hammer, brace Principle 4: To make the tenon, markits depth and width on the end of thetenon piece (p. 60)."
       ],
       "step_by_step_procedure": [
-        "Backsaw Cut Thetenon: Use a backsaw to cut thetenon, making a series of straight, square cuts to remove excess wood.",
-        "Think Tenant Someone: Think of “tenant”, someone whodwells inside a place, to help you remember that the tenon (the peg) goes inside the mortise (the hole).",
-        "Requirement Choose Aproject: For requirement 6, you might choose aproject below, take an idea from a bookor website listed in the resources section, or think.",
-        "Severalbutt Joints Projects: You have made severalbutt joints in your projects so far."
+        "Step 1 (Using a saw, plane, hammer, brace): Use a backsaw to cut thetenon, making a series of straight, square cuts to remove excess wood (p. 60).",
+        "Step 2 (Using a saw, plane, hammer, brace): Think of \"tenant\", someone whodwells inside a place, to help you remember that the tenon (the peg) goes inside the mortise (the hole) (p. 60).",
+        "Step 3 (Using a saw, plane, hammer, brace): For requirement 6, you might choose aproject below, take an idea from a bookor website listed in the resources section, or think (p. 60).",
+        "Step 4 (Using a saw, plane, hammer, brace): You have made severalbutt joints in your projects so far (p. 60)."
       ],
       "gear_checklist": [
-        "Official Woodwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Using a saw, plane, hammer, brace",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Woodwork Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Using a saw, plane, hammer, brace)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Woodwork Req 4",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 4 - Using a saw, plane, hammer, brace",
-          "Primary Standard": "Using a saw, plane, hammer, brace, and bit, make something useful of wood. Cut parts from lumber that you have squared and measured from working drawings.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Woodwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Woodwork Merit Badge Pamphlet (p. 60, p. 62) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Woodwork Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Using a saw, plane, hammer, brace)",
+        "right_header": "Applied Field Execution (Using a saw, plane, hammer, brace)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Using a saw, plane, hammer, brace.",
+          "Using a saw, plane, hammer, brace: A mortise and tenon joint has twoparts: the mortise is a hole in one pieceof wood, and the tenon.",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Woodwork.",
+          "Using a saw, plane, hammer, brace Principle 2: Simply, this jointis \"a square peg in a square hole.\" To start the mortise, drill the holeson.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Using a saw, plane, hammer, brace.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Woodwork."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Using a saw, plane, hammer, brace: A mortise and tenon joint has twoparts: the mortise is a hole in one pieceof wood, and the tenon is the p",
+            "right": "Using a saw, plane, hammer, brace Principle 2: Simply, this jointis \"a square peg in a square hole.\" To start the mortise, drill the holeson"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Woodwork Req 4 (Using a saw, plane, hammer, brace)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Using a saw, plane, hammer, brace.",
+          "Step-by-Step Execution": "Using a saw, plane, hammer, brace: A mortise and tenon joint has twoparts: the mortise is a hole in one piece of wood, and the tenon is the part of the second piece that is cut.",
+          "Quality & Tolerance Check": "Using a saw, plane, hammer, brace Principle 2: Simply, this jointis \"a square peg in a square hole.\" To start the mortise, drill the holesonly as deep as you want the mortise.",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Woodwork Merit Badge Pamphlet (p. 60, p. 62))"
+        },
+        "sample_output": "Using a saw, plane, hammer, brace: Using a saw, plane, hammer, brace: A mortise and tenon joint has twoparts: the mortise is a hole in one piece of wood, and the tenon is the ",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Woodwork Merit Badge Pamphlet (p. 60, p. 62)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Woodwork Requirement 4 (Using a saw, plane, hammer, brace), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Woodwork Requirement 4 (Using a saw, plane, hammer, brace), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Describing how to perform Using a saw, plane, hammer, brace verbally can substitute for a physical hands-on demonstration in.",
+          "B. Defer all Using a saw, plane, hammer, brace measurements and safety checks until after the field session concludes.",
+          "C. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Using a.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+        ],
+        "choices": [
+          "A. Describing how to perform Using a saw, plane, hammer, brace verbally can substitute for a physical hands-on demonstration in.",
+          "B. Defer all Using a saw, plane, hammer, brace measurements and safety checks until after the field session concludes.",
+          "C. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Using a.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Using a.",
+        "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Using a saw, plane, hammer, brace with proper technique (p. 60, p. 62). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 60, p. 62)).",
+        "pamphlet_page_ref": "p. 60, p. 62"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Woodwork Workbook organizer table and practical demonstration for Req 4."
     },
@@ -996,38 +1234,45 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Create your own woodworking project",
+      "topic_title": "Req 5: Own Woodworking Project",
       "action_verb": "List",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Woodwork Requirement 5 activities.",
       "pamphlet_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56)",
       "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56)",
-      "syllabus_bucket": "In-Class Concept",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Study & Explanation Notes",
+        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Own Woodworking Project)",
         "headers": [
-          "Req 5 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "column_headers": [
-          "Req 5 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Create your own woodworking project",
-          "2. Begin by making working drawings, list the materials you will need",
-          "3. Keep track of the time you spend and the cost of the materials"
+          "1. Pre-Operation Tool & Safety Check (Own Woodworking Project)",
+          "2. Step-by-Step Setup & Alignment Procedure",
+          "3. Live Execution & Technique Verification",
+          "4. Post-Task Inspection, Maintenance & Stowage"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Pre-Operation Tool & Safety Check (Own Woodworking Project)",
+          "2. Step-by-Step Setup & Alignment Procedure",
+          "3. Live Execution & Technique Verification",
+          "4. Post-Task Inspection, Maintenance & Stowage"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on create your own woodworking project.",
-        "fact": "Scouts must list create your own woodworking project using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56).",
-        "fact_correction": "Scouts must list create your own woodworking project using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56).",
-        "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56)"
+        "misconception": "Estimating Create your own woodworking project entries from memory at the end of the project satisfies the Woodwork Requirement 5 standard.",
+        "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Woodwork log as each Create your own woodworking project milestone is completed (p. 55, p. 56).",
+        "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Woodwork log as each Create your own woodworking project milestone is completed (p. 55, p. 56).",
+        "pamphlet_page_ref": "p. 55, p. 56"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1051,36 +1296,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "List Bill Ofmaterials: Your list (called a bill ofmaterials) should show the sizes and lengths of all lumberrequired, as well as any hardware needed, such as hinges, hasps.",
-        "Woodworkers Not Muchto: Woodworkers would not know how muchto charge for their work if they had no record of their time orcosts.",
-        "Detailed Jobs Requirement: Some detailed jobs For requirement 5, you are to create your own woodworkingproject.",
-        "Think Something Fun: Think of something fun to make or an item you want orneed."
+        "Own Woodworking Project: Create your own woodworking project: Your list (called a bill ofmaterials) should show the sizes and lengths of all lumberrequired, as well as any hardware needed, such as hinges, hasps (p. 55).",
+        "Own Woodworking Project Principle 2: Create your own woodworking project Principle 2: Woodworkers would not know how much to charge for their work if they had no record of their time orcosts (p. 55).",
+        "Own Woodworking Project Principle 3: Create your own woodworking project Principle 3: Some detailed jobs For requirement 5, you are to create your own woodworkingproject (p. 55).",
+        "Own Woodworking Project Principle 4: Create your own woodworking project Principle 4: Think of something fun to make or an item you want orneed (p. 55)."
       ],
       "step_by_step_procedure": [
-        "Bird Feeder Woodworkers: Bird feeder? for woodworkers Working Drawings might require as Whatever it is, start by sketching it out.",
-        "Sort Workingdrawings: Make the sort of workingdrawings you have used for the projects you have already built.",
-        "Seen Working Drawings: As you have seen, working drawings are fairly detailed andaccurate sketches of a project.",
-        "They Show Dimensions: They show the dimensions foreach piece and how the pieces fit together."
+        "Step 1 (Own Woodworking Project): Step 1 (Create your own woodworking project): Bird feeder? for woodworkers Working Drawings might require as Whatever it is, start by sketching (p. 55).",
+        "Step 2 (Own Woodworking Project): Step 2 (Create your own woodworking project): Make the sort of workingdrawings you have used for the projects you have already built (p. 55).",
+        "Step 3 (Own Woodworking Project): Step 3 (Create your own woodworking project): As you have seen, working drawings are fairly detailed andaccurate sketches of a project (p. 55).",
+        "Step 4 (Own Woodworking Project): Step 4 (Create your own woodworking project): They show the dimensions foreach piece and how the pieces fit together (p. 55)."
       ],
       "gear_checklist": [
-        "Official Woodwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Create your own woodworking project",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Woodwork Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Own Woodworking Project)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Woodwork Req 5",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 5 - Create your own woodworking project",
-          "Primary Standard": "Create your own woodworking project. Begin by making working drawings, list the materials you will need to complete your project, and then build your project. Keep track of the time you spend and the cost of the materials.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Woodwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Woodwork Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Create your own woodworking project)",
+        "right_header": "Applied Field Execution (Create your own woodworking project)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Create your own woodworking project.",
+          "Create your own woodworking project: Your list (called a bill ofmaterials) should show the sizes and lengths of all lumberrequired, as well.",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Woodwork.",
+          "Create your own woodworking project Principle 2: Woodworkers would not know how muchto charge for their work if they had no record.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Create your own woodworking project.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Woodwork."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Create your own woodworking project: Your list (called a bill ofmaterials) should show the sizes and lengths of all lumberrequired, as well ",
+            "right": "Create your own woodworking project Principle 2: Woodworkers would not know how muchto charge for their work if they had no record of their "
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Woodwork Req 5 (Own Woodworking Project)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Own Woodworking Project.",
+          "Step-by-Step Execution": "Own Woodworking Project: Create your own woodworking project: Your list (called a bill ofmaterials) should show the sizes and lengths of all lumberrequired, as well as any hardware.",
+          "Quality & Tolerance Check": "Own Woodworking Project Principle 2: Create your own woodworking project Principle 2: Woodworkers would not know how much to charge for their work if they had no record.",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56))"
+        },
+        "sample_output": "Own Woodworking Project: Own Woodworking Project: Create your own woodworking project: Your list (called a bill ofmaterials) should show the sizes and lengths of all",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Woodwork Requirement 5 (Own Woodworking Project), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Woodwork Requirement 5 (Own Woodworking Project), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Woodwork log as each Create your own.",
+          "B. Estimating Create your own woodworking project entries from memory at the end of the project satisfies the Woodwork Requirement 5.",
+          "C. Defer all Own Woodworking Project measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+        ],
+        "choices": [
+          "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Woodwork log as each Create your own.",
+          "B. Estimating Create your own woodworking project entries from memory at the end of the project satisfies the Woodwork Requirement 5.",
+          "C. Defer all Own Woodworking Project measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Woodwork log as each Create your own.",
+        "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Woodwork log as each Create your own woodworking project milestone is completed (p. 55, p. 56). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56)).",
+        "pamphlet_page_ref": "p. 55, p. 56"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Woodwork Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1094,7 +1390,7 @@
         {
           "sub_id": "6a",
           "label": "(a)",
-          "text": "Make working drawings of a project needing beveled or rounded edges and build it.",
+          "text": "Make working drawings of a project needing beveled or rounded edges and build.",
           "resources": [
             {
               "title": "Bevels- How to Make Beveled Panels on the Tablesaw (video)",
@@ -1108,35 +1404,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 6a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist (Working Drawings of A Project)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "Make working drawings of a project needing beveled or rounded edges and build it",
-              "Pamphlet Standard & Key Facts (6a)",
-              "Field Application & Counselor Verification (Make)"
+              "1. Pre-Operation Tool & Safety Check (Working Drawings of A Project)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Working Drawings of A Project)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make working drawings of a project needing beveled or rounded edges and build it.",
-            "fact": "Scouts must make make working drawings of a project needing beveled or rounded edges and build it using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-            "fact_correction": "Scouts must make make working drawings of a project needing beveled or rounded edges and build it using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)"
+            "misconception": "Describing how to perform Make Working Drawings verbally can substitute for a physical hands-on demonstration in Woodwork Requirement 6a.",
+            "fact": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make Working Drawings with proper technique (p. 62, p. 63).",
+            "fact_correction": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make Working Drawings with proper technique (p. 62, p. 63).",
+            "pamphlet_page_ref": "p. 62, p. 63"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1161,12 +1459,17 @@
           ],
           "id": "6a",
           "sub_req_label": "6a",
-          "sub_req_text": "Make working drawings of a project needing beveled or rounded edges and build it."
+          "sub_req_text": "Make working drawings of a project needing beveled or rounded edges and build.",
+          "topic_title": "Req 6a: Working Drawings of A Project",
+          "pamphlet_summary": "Working Drawings of A Project: Make working drawings of a project Principle 4: To make the tenon, markits depth and width on the end of thetenon piece (p. 62).",
+          "pamphlet_excerpts": [
+            "Working Drawings of A Project: Make working drawings of a project Principle 4: To make the tenon, markits depth and width on the end of thetenon piece (p. 62)."
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "Make working drawings of a project needing curved or incised cuttings and build it.",
+          "text": "Make working drawings of a project needing curved or incised cuttings and build.",
           "resources": [
             {
               "title": "Making Arcs & Curves the Easy Way (video)",
@@ -1176,35 +1479,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 6b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist (Working Drawings of A Project)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "Make working drawings of a project needing curved or incised cuttings and build it",
-              "Pamphlet Standard & Key Facts (6b)",
-              "Field Application & Counselor Verification (Make)"
+              "1. Pre-Operation Tool & Safety Check (Working Drawings of A Project)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Working Drawings of A Project)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make working drawings of a project needing curved or incised cuttings and build it.",
-            "fact": "Scouts must make make working drawings of a project needing curved or incised cuttings and build it using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-            "fact_correction": "Scouts must make make working drawings of a project needing curved or incised cuttings and build it using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)"
+            "misconception": "Describing how to perform Make Working Drawings verbally can substitute for a physical hands-on demonstration in Woodwork Requirement 6b.",
+            "fact": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make Working Drawings with proper technique (p. 62, p. 63).",
+            "fact_correction": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make Working Drawings with proper technique (p. 62, p. 63).",
+            "pamphlet_page_ref": "p. 62, p. 63"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1229,12 +1534,17 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Make working drawings of a project needing curved or incised cuttings and build it."
+          "sub_req_text": "Make working drawings of a project needing curved or incised cuttings and build.",
+          "topic_title": "Req 6b: Working Drawings of A Project",
+          "pamphlet_summary": "Working Drawings of A Project: Make working drawings of a project: A mortise and tenon joint has twoparts: the mortise is a hole in one piece of wood, and the tenon is the part of the second piece that is cut and shaped (p. 62).",
+          "pamphlet_excerpts": [
+            "Working Drawings of A Project: Make working drawings of a project: A mortise and tenon joint has twoparts: the mortise is a hole in one piece of wood, and the tenon is the part of the second piece that is cut and shaped (p. 62)."
+          ]
         },
         {
           "sub_id": "6c",
           "label": "(c)",
-          "text": "Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build it.",
+          "text": "Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build.",
           "resources": [
             {
               "title": "Mitered Mortise & Tenon Joint (video)",
@@ -1244,34 +1554,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 6c Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 6c Hands-On Skill Station & EDGE Verification Checklist (Working Drawings of A Project)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make working drawings of a project needing miter, dowel",
-              "2. Mortise and tenon joints and build it"
+              "1. Pre-Operation Tool & Safety Check (Working Drawings of A Project)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Working Drawings of A Project)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make working drawings of a project needing miter, dowel.",
-            "fact": "Scouts must make make working drawings of a project needing miter, dowel using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-            "fact_correction": "Scouts must make make working drawings of a project needing miter, dowel using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)"
+            "misconception": "Describing how to perform Make Working Drawings verbally can substitute for a physical hands-on demonstration in Woodwork Requirement 6c.",
+            "fact": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make Working Drawings with proper technique (p. 62, p. 63).",
+            "fact_correction": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make Working Drawings with proper technique (p. 62, p. 63).",
+            "pamphlet_page_ref": "p. 62, p. 63"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1296,7 +1609,12 @@
           ],
           "id": "6c",
           "sub_req_label": "6c",
-          "sub_req_text": "Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build it."
+          "sub_req_text": "Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build.",
+          "topic_title": "Req 6c: Working Drawings of A Project",
+          "pamphlet_summary": "Working Drawings of A Project: Make working drawings of a project Principle 2: Simply, this jointis \"a square peg in a square hole.\" To start the mortise, drill the holesonly as deep as you want the mortise (p. 62).",
+          "pamphlet_excerpts": [
+            "Working Drawings of A Project: Make working drawings of a project Principle 2: Simply, this jointis \"a square peg in a square hole.\" To start the mortise, drill the holesonly as deep as you want the mortise (p. 62)."
+          ]
         },
         {
           "sub_id": "6d",
@@ -1311,35 +1629,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 6d Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 6d Hands-On Skill Station & EDGE Verification Checklist (Cabinet Box or Something Else)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "Make a cabinet, box, or something else with a door or lid fastened with inset hinges",
-              "Pamphlet Standard & Key Facts (6d)",
-              "Field Application & Counselor Verification (Make)"
+              "1. Pre-Operation Tool & Safety Check (Cabinet Box or Something Else)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Cabinet Box or Something Else)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make a cabinet, box, or something else with a door or lid fastened with inset hinges.",
-            "fact": "Scouts must make make a cabinet, box, or something else with a door or lid fastened with inset hinges using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-            "fact_correction": "Scouts must make make a cabinet, box, or something else with a door or lid fastened with inset hinges using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)"
+            "misconception": "Describing how to perform Make A Cabinet Box verbally can substitute for a physical hands-on demonstration in Woodwork Requirement 6d.",
+            "fact": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make A Cabinet Box with proper technique (p. 62, p. 63).",
+            "fact_correction": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make A Cabinet Box with proper technique (p. 62, p. 63).",
+            "pamphlet_page_ref": "p. 62, p. 63"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1364,7 +1684,12 @@
           ],
           "id": "6d",
           "sub_req_label": "6d",
-          "sub_req_text": "Make a cabinet, box, or something else with a door or lid fastened with inset hinges."
+          "sub_req_text": "Make a cabinet, box, or something else with a door or lid fastened with inset hinges.",
+          "topic_title": "Req 6d: Cabinet Box or Something Else",
+          "pamphlet_summary": "Cabinet Box or Something Else: Make A Cabinet Box: Make working drawings of a project Principle 3: Then use a sharp wood chisel toshave out any excess wood and square the corners (p. 62).",
+          "pamphlet_excerpts": [
+            "Cabinet Box or Something Else: Make A Cabinet Box: Make working drawings of a project Principle 3: Then use a sharp wood chisel toshave out any excess wood and square the corners (p. 62)."
+          ]
         },
         {
           "sub_id": "6e",
@@ -1379,35 +1704,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 6e Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (Wooden Toys for Children)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 6e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 6e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Help make wooden toys for children OR help carry out a woodworking",
-              "2. Key Pamphlet Examples & Evidence (Req 6e)",
-              "3. Practical Make & Safety Verification"
+              "1. Core Definition & Mechanism (Wooden Toys for Children)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": true,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Core Definition & Mechanism (Wooden Toys for Children)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on help make wooden toys for children or help carry out a woodworking.",
-            "fact": "Scouts must make help make wooden toys for children or help carry out a woodworking using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-            "fact_correction": "Scouts must make help make wooden toys for children or help carry out a woodworking using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-            "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)"
+            "misconception": "Describing how to perform Help Make Wooden Toys verbally can substitute for a physical hands-on demonstration in Woodwork Requirement 6e.",
+            "fact": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Help Make Wooden Toys with proper technique (p. 62, p. 63).",
+            "fact_correction": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Help Make Wooden Toys with proper technique (p. 62, p. 63).",
+            "pamphlet_page_ref": "p. 62, p. 63"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1437,7 +1764,12 @@
           ],
           "id": "6e",
           "sub_req_label": "6e",
-          "sub_req_text": "Help make wooden toys for children OR help carry out a woodworking service project approved by your counselor for a charitable organization."
+          "sub_req_text": "Help make wooden toys for children OR help carry out a woodworking service project approved by your counselor for a charitable organization.",
+          "topic_title": "Req 6e: Wooden Toys for Children",
+          "pamphlet_summary": "Wooden Toys for Children: Help Make Wooden Toys: Make working drawings of a project Principle 4: To make the tenon, markits depth and width on the end of thetenon piece (p. 62).",
+          "pamphlet_excerpts": [
+            "Wooden Toys for Children: Help Make Wooden Toys: Make working drawings of a project Principle 4: To make the tenon, markits depth and width on the end of thetenon piece (p. 62)."
+          ]
         }
       ],
       "resources": [
@@ -1474,45 +1806,47 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 6: Make working drawings of a project",
-      "action_verb": "Make",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "topic_title": "Req 6: Working Drawings of A Project",
+      "action_verb": "Prepare",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Woodwork Requirement 6 activities.",
       "pamphlet_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
       "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
-      "syllabus_bucket": "In-Class Concept",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 6 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Working Drawings of A Project)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(a) Make working drawings of a project needing beveled or rounded edges and build",
-          "(b) Make working drawings of a project needing curved or incised cuttings",
-          "(c) Make working drawings of a project needing miter, dowel, or mortise and tenon",
-          "(d) Make a cabinet, box, or something else with a door or lid fastened with inset",
-          "(e) Help make wooden toys for children OR help carry out a woodworking service"
+          "(6a) Working Drawings of A Project",
+          "(6b) Working Drawings of A Project",
+          "(6c) Working Drawings of A Project",
+          "(6d) Cabinet Box or Something Else",
+          "(6e) Wooden Toys for Children"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": true,
-        "is_physical_demonstration": true
+        "rows": [
+          "(6a) Working Drawings of A Project",
+          "(6b) Working Drawings of A Project",
+          "(6c) Working Drawings of A Project",
+          "(6d) Cabinet Box or Something Else",
+          "(6e) Wooden Toys for Children"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on make working drawings of a project needing beveled or rounded edges and build.",
-        "fact": "Scouts must make make working drawings of a project needing beveled or rounded edges and build using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-        "fact_correction": "Scouts must make make working drawings of a project needing beveled or rounded edges and build using verified procedures, field evidence, and safety standards from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63).",
-        "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)"
+        "misconception": "Describing how to perform Make working drawings of a project verbally can substitute for a physical hands-on demonstration in Woodwork Requirement 6.",
+        "fact": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make working drawings of a project with proper technique (p. 62, p. 63).",
+        "fact_correction": "Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make working drawings of a project with proper technique (p. 62, p. 63).",
+        "pamphlet_page_ref": "p. 62, p. 63"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1541,36 +1875,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Mortise Tenon Joint: A mortise and tenon joint has twoparts: the mortise is a hole in one pieceof wood, and the tenon is the part ofthe second piece that is cut and shapedto.",
-        "Simply Jointis Square: Simply, this jointis “a square peg in a square hole.” To start the mortise, drill the holesonly as deep as you want the mortiseto be.",
-        "Then Sharp Wood: Then use a sharp wood chisel toshave out any excess wood and squarethe corners.",
-        "Markits Depth Width: To make the tenon, markits depth and width on the end of thetenon piece."
+        "Working Drawings of A Project: Make working drawings of a project: A mortise and tenon joint has twoparts: the mortise is a hole in one piece of wood, and the tenon is the part of the second piece that is cut and shaped (p. 62).",
+        "Working Drawings of A Project Principle 2: Make working drawings of a project Principle 2: Simply, this jointis \"a square peg in a square hole.\" To start the mortise, drill the holesonly as deep as you want the mortise (p. 62).",
+        "Working Drawings of A Project Principle 3: Make working drawings of a project Principle 3: Then use a sharp wood chisel toshave out any excess wood and square the corners (p. 62).",
+        "Working Drawings of A Project Principle 4: Make working drawings of a project Principle 4: To make the tenon, markits depth and width on the end of thetenon piece (p. 62)."
       ],
       "step_by_step_procedure": [
-        "Backsaw Cut Thetenon: Use a backsaw to cut thetenon, making a series of straight, square cuts to remove excess wood.",
-        "Think Tenant Someone: Think of “tenant”, someone whodwells inside a place, to help you remember that the tenon (the peg) goes inside the mortise (the hole).",
-        "Requirement Choose Aproject: For requirement 6, you might choose aproject below, take an idea from a bookor website listed in the resources section, or think.",
-        "Optional Requirement: For optional requirement 6(e), your merit badge counselor or Scoutmaster may suggest a Good Turn that you and your buddies can do."
+        "Step 1 (Working Drawings of A Project): Step 1 (Make working drawings of a project): Use a backsaw to cut thetenon, making a series of straight, square cuts to remove excess wood (p. 62).",
+        "Step 2 (Working Drawings of A Project): Step 2 (Make working drawings of a project): Think of \"tenant\", someone whodwells inside a place, to help you remember that the tenon (the peg) goes inside the mortise (the hole) (p. 62).",
+        "Step 3 (Working Drawings of A Project): Step 3 (Make working drawings of a project): For requirement 6, you might choose aproject below, take an idea from a bookor website listed in the resources section, or think (p. 62).",
+        "Step 4 (Working Drawings of A Project): Step 4 (Make working drawings of a project): For optional requirement 6(e), your merit badge counselor or Scoutmaster may suggest a Good Turn that you and your buddies (p. 62)."
       ],
       "gear_checklist": [
-        "Official Woodwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Make working drawings of a project",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Woodwork Merit Badge Pamphlet and Fillable Workbook (open to Req 6: Working Drawings of A Project)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Woodwork Req 6",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 6 - Make working drawings of a project",
-          "Primary Standard": "Make working drawings of a project needing beveled or rounded edges and build it.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Woodwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Woodwork Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Make working drawings of a project)",
+        "right_header": "Applied Field Execution (Make working drawings of a project)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Make working drawings of a project.",
+          "Make working drawings of a project: A mortise and tenon joint has twoparts: the mortise is a hole in one pieceof wood, and the tenon.",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Woodwork.",
+          "Make working drawings of a project Principle 2: Simply, this jointis \"a square peg in a square hole.\" To start the mortise, drill the holeso.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Make working drawings of a project.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Woodwork."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Make working drawings of a project: A mortise and tenon joint has twoparts: the mortise is a hole in one pieceof wood, and the tenon is the ",
+            "right": "Make working drawings of a project Principle 2: Simply, this jointis \"a square peg in a square hole.\" To start the mortise, drill the holeso"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Woodwork Req 6 (Working Drawings of A Project)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Working Drawings of A Project.",
+          "Step-by-Step Execution": "Working Drawings of A Project: Make working drawings of a project: A mortise and tenon joint has twoparts: the mortise is a hole in one piece of wood, and the tenon is the part.",
+          "Quality & Tolerance Check": "Working Drawings of A Project Principle 2: Make working drawings of a project Principle 2: Simply, this jointis \"a square peg in a square hole.\" To start the mortise, drill the hol.",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63))"
+        },
+        "sample_output": "Working Drawings of A Project: Working Drawings of A Project: Make working drawings of a project: A mortise and tenon joint has twoparts: the mortise is a hole in one piec",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Woodwork Requirement 6 (Working Drawings of A Project), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Woodwork Requirement 6 (Working Drawings of A Project), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Describing how to perform Make working drawings of a project verbally can substitute for a physical hands-on demonstration in.",
+          "B. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make.",
+          "C. Defer all Working Drawings of A Project measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+        ],
+        "choices": [
+          "A. Describing how to perform Make working drawings of a project verbally can substitute for a physical hands-on demonstration in.",
+          "B. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make.",
+          "C. Defer all Working Drawings of A Project measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make.",
+        "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Make working drawings of a project with proper technique (p. 62, p. 63). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)).",
+        "pamphlet_page_ref": "p. 62, p. 63"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Woodwork Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1609,25 +1994,29 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "CAREER_EXPLORATION_CARD",
-        "table_title": "Req 7 Career & Pathway Exploration Card",
+        "table_title": "Req 7 Career & Professional Pathway Investigation Matrix",
         "headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "column_headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. Three Career Opportunities Identified",
-          "2. Selected Career: Education & Training Required",
-          "3. Daily Duties, Licensing & Expenses",
-          "4. Starting Salary, Job Outlook & Personal Goals"
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Listing three job titles from a quick web search satisfies the Woodwork career exploration requirement.",
@@ -1657,44 +2046,231 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Highly Skilled Custom: Highly skilled custom woodworkers and cabinetmakersoften open their own shops.",
-        "They Specialize One-of-akind: They specialize in making one-of-akind furniture and other items, often using traditional hand toolsand portable power tools.",
-        "Production Woodworkers: Production woodworkers, on the otherhand, may operate high-speed computer-controlled machines toturn out lots of identical wooden parts.",
-        "Processes Millsand: Many processes in millsand manufacturing plants are now automated."
+        "Careers & Professional Pathways: Highly skilled custom woodworkers and cabinetmakersoften open their own shops (p. 68).",
+        "Careers & Professional Pathways Principle 2: They specialize in making one-of-akind furniture and other items, often using traditional hand tools and portable power tools (p. 68).",
+        "Careers & Professional Pathways Principle 3: Production woodworkers, on the otherhand, may operate high-speed computer-controlled machines toturn out lots of identical wooden parts (p. 68).",
+        "Careers & Professional Pathways Principle 4: Many processes in mills and manufacturing plants are now automated (p. 68)."
       ],
       "step_by_step_procedure": [
-        "Means Thatwoodworkers: This means thatwoodworkers with computer skills are increasingly in demand.",
-        "Working Conditions Wages: Working conditions and wages vary considerably in differentparts of the United States.",
-        "Local Carpenter Cabinetmaker: A local carpenter or cabinetmaker willbe able to tell you about your area.",
-        "Millwork: doors, sashes, baseboards, trim, mantels, or otherproducts madeby machine."
+        "Step 1 (Careers & Professional Pathways): This means thatwoodworkers with computer skills are increasingly in demand (p. 68).",
+        "Step 2 (Careers & Professional Pathways): Working conditions and wages vary considerably in differentparts of the United States (p. 68).",
+        "Step 3 (Careers & Professional Pathways): A local carpenter or cabinetmaker will be able to tell you about your area (p. 68).",
+        "Step 4 (Careers & Professional Pathways): Millwork: doors, sashes, baseboards, trim, mantels, or otherproducts madeby machine (p. 68)."
       ],
       "gear_checklist": [
-        "Official Woodwork Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Woodwork Merit Badge Pamphlet and Fillable Workbook (open to Req 7: Careers & Professional Pathways)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Woodwork Req 7",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 7 - Careers & Professional Pathways",
-          "Primary Standard": "Talk with a cabinetmaker or finish carpenter. Learn about training, apprenticeships, career opportunities, work conditions, work hours, pay rates, and union organization that woodworking experts have in your area.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Woodwork terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Woodwork Merit Badge Pamphlet (p. 68, p. 70) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Woodwork Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Professional Career Track in Woodwork",
+        "right_header": "Lifelong Avocation & Civic Service in Woodwork",
+        "left_points": [
+          "Accredited degree, trade apprenticeship, or industry license.",
+          "Careers & Professional Pathways: Highly skilled custom woodworkers and cabinetmakersoften open their own shops (p. 68).",
+          "Full-time compensation and technical leadership."
+        ],
+        "right_points": [
+          "Merit badge mastery, club mentorship, and volunteer service.",
+          "Careers & Professional Pathways Principle 2: They specialize in making one-of-akind furniture and other items, often using traditional hand.",
+          "Community stewardship, outdoor recreation, and teaching others."
+        ],
+        "rows": [
+          {
+            "attribute": "Training Pathway",
+            "left": "Accredited degree, trade apprenticeship, or industry license.",
+            "right": "Merit badge mastery, club mentorship, and volunteer service."
+          },
+          {
+            "attribute": "Core Responsibilities",
+            "left": "Careers & Professional Pathways: Highly skilled custom woodworkers and cabinetmakersoften open their own shops (p. 68).",
+            "right": "Careers & Professional Pathways Principle 2: They specialize in making one-of-akind furniture and other items, often using traditional hand "
+          },
+          {
+            "attribute": "Long-Term Outcome",
+            "left": "Full-time compensation and technical leadership.",
+            "right": "Community stewardship, outdoor recreation, and teaching others."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Woodwork Req 7 (Careers & Professional Pathways)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Careers & Professional Pathways.",
+          "Step-by-Step Execution": "Careers & Professional Pathways: Highly skilled custom woodworkers and cabinetmakersoften open their own shops (p. 68).",
+          "Quality & Tolerance Check": "Careers & Professional Pathways Principle 2: They specialize in making one-of-akind furniture and other items, often using traditional hand tools and portable power tools (p. 68).",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Woodwork Merit Badge Pamphlet (p. 68, p. 70))"
+        },
+        "sample_output": "Careers & Professional Pathways: Careers & Professional Pathways: Highly skilled custom woodworkers and cabinetmakersoften open their own shops (p. 68).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Woodwork Merit Badge Pamphlet (p. 68, p. 70)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Woodwork Requirement 7 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Woodwork Requirement 7 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Listing three job titles from a quick web search satisfies the Woodwork career exploration requirement.",
+          "B. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure.",
+          "D. Scouts must research specific Woodwork career pathways and discuss required education, training, licensing, and daily duties with."
+        ],
+        "choices": [
+          "A. Listing three job titles from a quick web search satisfies the Woodwork career exploration requirement.",
+          "B. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure.",
+          "D. Scouts must research specific Woodwork career pathways and discuss required education, training, licensing, and daily duties with."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Scouts must research specific Woodwork career pathways and discuss required education, training, licensing, and daily duties with.",
+        "explanation": "Correct Answer (D): Scouts must research specific Woodwork career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Woodwork Merit Badge Pamphlet (p. 68, p. 70)).",
+        "pamphlet_page_ref": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 68, p. 70)"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Woodwork Workbook organizer table and practical demonstration for Req 7."
     }
   ],
   "badge_slug": "woodwork",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0",
+  "schema_baseline_version": "2026.v30",
   "is_test_lab": false,
   "is_discontinued": false,
-  "status": "ACTIVE"
+  "status": "OFFICIAL",
+  "patrol_quiz_bank": [
+    {
+      "scenario_prompt": "While working on Woodwork Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Woodwork Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Woodwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+      ],
+      "choices": [
+        "A. Experienced Woodwork participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+      ],
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (B): The Woodwork pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 34, p. 36). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)).",
+      "pamphlet_page_ref": "p. 34, p. 36",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Woodwork Requirement 2 (Timber is grown, harvested, and milled), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Woodwork Requirement 2 (Timber is grown, harvested, and milled), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber is.",
+        "B. General familiarity with following, Describe is sufficient for Woodwork Requirement 2 without citing specific functional mechanisms.",
+        "C. Defer all Timber is grown, harvested, and milled measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+      ],
+      "choices": [
+        "A. The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber is.",
+        "B. General familiarity with following, Describe is sufficient for Woodwork Requirement 2 without citing specific functional mechanisms.",
+        "C. Defer all Timber is grown, harvested, and milled measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber is.",
+      "explanation": "Correct Answer (A): The Woodwork pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Timber is grown, harvested, and milled (p. 14, p. 15). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)).",
+      "pamphlet_page_ref": "p. 14, p. 15",
+      "req_id": "2",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Woodwork Requirement 3 (Woodwork Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Woodwork Requirement 3 (Woodwork Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Describing how to perform Show The Proper Care Use verbally can substitute for a physical hands-on demonstration in Woodwork.",
+        "B. Defer all Woodwork Applied Field Standard measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure.",
+        "D. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The."
+      ],
+      "choices": [
+        "A. Describing how to perform Show The Proper Care Use verbally can substitute for a physical hands-on demonstration in Woodwork.",
+        "B. Defer all Woodwork Applied Field Standard measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure.",
+        "D. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The.",
+      "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Show The Proper Care Use with proper technique (p. 34, p. 37). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)).",
+      "pamphlet_page_ref": "p. 34, p. 37",
+      "req_id": "3",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Woodwork Requirement 4 (Using a saw, plane, hammer, brace), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Woodwork Requirement 4 (Using a saw, plane, hammer, brace), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Describing how to perform Using a saw, plane, hammer, brace verbally can substitute for a physical hands-on demonstration in.",
+        "B. Defer all Using a saw, plane, hammer, brace measurements and safety checks until after the field session concludes.",
+        "C. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Using a.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+      ],
+      "choices": [
+        "A. Describing how to perform Using a saw, plane, hammer, brace verbally can substitute for a physical hands-on demonstration in.",
+        "B. Defer all Using a saw, plane, hammer, brace measurements and safety checks until after the field session concludes.",
+        "C. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Using a.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Using a.",
+      "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Woodwork pamphlet, each Scout must physically execute and demonstrate Using a saw, plane, hammer, brace with proper technique (p. 60, p. 62). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 60, p. 62)).",
+      "pamphlet_page_ref": "p. 60, p. 62",
+      "req_id": "4",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Woodwork Requirement 5 (Own Woodworking Project), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Woodwork Requirement 5 (Own Woodworking Project), your patrol encounters a decision point on proper procedure. According to the Woodwork Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Woodwork log as each Create your own.",
+        "B. Estimating Create your own woodworking project entries from memory at the end of the project satisfies the Woodwork Requirement 5.",
+        "C. Defer all Own Woodworking Project measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+      ],
+      "choices": [
+        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Woodwork log as each Create your own.",
+        "B. Estimating Create your own woodworking project entries from memory at the end of the project satisfies the Woodwork Requirement 5.",
+        "C. Defer all Own Woodworking Project measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Woodwork pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Woodwork log as each Create your own.",
+      "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Woodwork log as each Create your own woodworking project milestone is completed (p. 55, p. 56). (Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56)).",
+      "pamphlet_page_ref": "p. 55, p. 56",
+      "req_id": "5",
+      "option_id": null
+    }
+  ],
+  "quartermaster_manifest": {
+    "badge_name": "Woodwork",
+    "patrol_equipment": [
+      "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
+      "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs",
+      "Emergency action plan checklist and simulated patient assessment cards",
+      "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout",
+      "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle",
+      "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board",
+      "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron",
+      "Steel tape measure, vernier caliper or machinist square, and layout marking tools"
+    ],
+    "individual_scout_gear": [
+      "Official Woodwork Merit Badge Pamphlet",
+      "Printed or Fillable Woodwork Scout Workbook",
+      "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
+      "Field notebook, pen/pencil, and personal safety equipment (PPE)"
+    ]
+  }
 }

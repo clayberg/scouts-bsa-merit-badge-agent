@@ -10642,6 +10642,93 @@ body.dark-mode .workbook-view-segmented-control {
   color: var(--md-sys-color-error, #DC2626);
 }
 
+/* ============================================================================
+   DIRECT ON-STAGE INLINE CLICK-TO-EDIT & SUB-REQ JUMP CHIPS (v30 Track D)
+   ============================================================================ */
+
+.m3-stage-inline-editable {
+  cursor: text;
+  border-radius: 6px;
+  transition: outline 0.14s ease, background-color 0.14s ease;
+}
+
+.m3-stage-inline-editable:hover {
+  outline: 1.5px dashed rgba(37, 99, 235, 0.45);
+  outline-offset: 2px;
+}
+
+.m3-stage-inline-editable[contenteditable="true"] {
+  outline: 2px dashed var(--md-sys-color-primary, #003F87) !important;
+  outline-offset: 3px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+.m3-stage-inline-edit-bar {
+  position: absolute;
+  bottom: 42px;
+  right: 18px;
+  z-index: 35;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.92);
+  border: 1.5px solid #38BDF8;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+}
+
+.m3-stage-inline-edit-hint {
+  font-size: 0.73rem;
+  font-weight: 800;
+  color: #FDE68A;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.m3-stage-inline-save-btn {
+  padding: 4px 11px !important;
+  font-size: 0.74rem !important;
+  font-weight: 800 !important;
+}
+
+.m3-stage-inline-cancel-btn {
+  padding: 4px 9px !important;
+  font-size: 0.73rem !important;
+  color: #F8FAFC !important;
+  border-color: rgba(248, 250, 252, 0.4) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.m3-req-jump-subchips-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  padding: 2px 12px 6px 26px;
+}
+
+.m3-req-jump-subchip {
+  border: 1px solid var(--md-sys-color-outline-variant, #CBD5E1);
+  background: var(--md-sys-color-surface-container-low, #F8FAFC);
+  color: var(--md-sys-color-on-surface, #1E293B);
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+}
+
+.m3-req-jump-subchip:hover,
+.m3-req-jump-subchip.is-active {
+  background: var(--md-sys-color-primary, #003F87);
+  color: #FFFFFF;
+  border-color: var(--md-sys-color-primary, #003F87);
+}
+
+
 
 
 

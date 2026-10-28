@@ -100,10 +100,18 @@ def ensure_official_pamphlet_pdf(badge_name: str) -> Tuple[Optional[Path], str]:
 
 
 def _repair_pdf_word_concatenations(text: str) -> str:
-    """Repairs common line-wrap word concatenations from legacy PDF extraction passes."""
+    """Repairs common line-wrap word concatenations and OCR prefix glitches from legacy PDF extraction passes."""
     if not text:
         return ""
     s = text
+    # Strip synthetic 3-word OCR prefixes and "Core Standard N (Req N):" prefixes
+    s = re.sub(
+        r"^(?:Seen\s+Golfers\s+Lick|There\s+Few\s+First-aid|Party\s*trusts\s+She\s+Promised|"
+        r"Course\s+Profit\s+Not\s*be|Situation\s+Members\s*of|Core\s+Standard\s+\d+\s*\(\s*Req\.?\s*[0-9a-zA-Z()]+\s*\))\s*:\s*",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    )
     # Fix "Theindividual", "thekit", "themedication", "thevictim", "theperson", "thefirst"
     s = re.sub(
         r"\b(The|the)(individual|kit|medication|victim|person|patient|first|wound|scene|water|ground|body|blood|skin|bone|joint|splint|bandage|burn|fire|camp|trail|patrol|troop|scout|counselor|pamphlet)\b",
@@ -116,7 +124,7 @@ def _repair_pdf_word_concatenations(text: str) -> str:
         r"\1 \2",
         s,
     )
-    # Fix "personunder", "prescribedemergency", "trainedand", "carryinga"
+    # Fix glued OCR words across pamphlet extractions
     explicit_joins = {
         "prescribedemergency": "prescribed emergency",
         "personunder": "person under",
@@ -126,10 +134,31 @@ def _repair_pdf_word_concatenations(text: str) -> str:
         "handingit": "handing it",
         "bestthat": "best that",
         "administersthe": "administers the",
+        "partytrusts": "party trusts",
+        "notbe": "not be",
+        "membersof": "members of",
+        "fromother": "from other",
+        "willroll": "will roll",
+        "themsafe": "them safe",
+        "thatcan": "that can",
+        "shouldbe": "should be",
+        "mustbe": "must be",
+        "canbe": "can be",
+        "tobe": "to be",
+        "inthe": "in the",
+        "ofthe": "of the",
+        "onthe": "on the",
+        "forthe": "for the",
+        "withthe": "with the",
+        "bythe": "by the",
+        "atthe": "at the",
+        "fromthe": "from the",
     }
+    s_low = s.lower()
     for bad_tok, good_tok in explicit_joins.items():
-        if bad_tok in s.lower():
-            s = re.sub(re.escape(bad_tok), good_tok, s, flags=re.IGNORECASE)
+        if bad_tok in s_low:
+            s = re.sub(rf"\b{re.escape(bad_tok)}\b", good_tok, s, flags=re.IGNORECASE)
+            s_low = s.lower()
     return s
 
 
@@ -230,7 +259,13 @@ def _is_discardable_pamphlet_image(img_path: Path, page_num: int = 0, page_count
     try:
         with Image.open(img_path) as im:
             w, h = im.size
-            if w < 160 or h < 130 or (w / max(1, h)) > 3.2 or (h / max(1, w)) > 2.8:
+            if (
+                w < 160
+                or h < 130
+                or (h < 220 and (w / max(1, h)) >= 2.2)
+                or (w / max(1, h)) > 3.2
+                or (h / max(1, w)) > 2.8
+            ):
                 return True
             gray = im.convert("L").resize((160, 160))
             px = gray.load()
@@ -280,22 +315,42 @@ def _ensure_complete_caption_sentence(text: str, max_chars: int = 125) -> str:
     s = re.sub(r"\s+", " ", str(text or "")).strip()
     if not s:
         return ""
+    # Strip trailing or inline parenthetical page/requirement citations like "(p. 31, p. 32)" or "(Req. 1)"
+    s = re.sub(r"\s*\(\s*(?:pp?\.?|pages?)\s*\d+[^)]*\)", "", s, flags=re.IGNORECASE).strip()
+    s = re.sub(r"\s*\(\s*(?:pp?\.?|pages?|Req\.?|Reqs\.?)\s*\d*$", "", s, flags=re.IGNORECASE).strip()
     # Strip leading "Heading: " prefix if the remainder is a full sentence
     if ": " in s:
         head, tail = s.split(": ", 1)
-        if len(head) <= 45 and len(tail) >= 28 and tail[0].isupper():
+        if (len(head) <= 68 or "(req" in head.lower()) and len(tail) >= 24 and tail[0].isupper():
             s = tail.strip()
-    if len(s) > max_chars:
-        # Prefer splitting at a natural clause boundary before max_chars
-        window = s[:max_chars]
+    # Protect common abbreviations so ". " inside "Req. 1", "p. 12", "U.S.", "Dr.", "ft.", etc. never triggers a sentence split
+    _abbrev_token = "\x00"
+    s_prot = re.sub(
+        r"\b(Reqs?|pp?|U\.S|Dr|Mr|Mrs|Ms|St|Mt|Ft|ft|in|oz|lbs?|min|sec|hr|No|Fig|vs|e\.g|i\.e)\.\s+",
+        lambda m: f"{m.group(1)}{_abbrev_token} ",
+        s,
+    )
+    if len(s_prot) > max_chars:
+        # Prefer splitting at a natural clause boundary before max_chars with balanced parentheses
+        window = s_prot[:max_chars]
+        split_done = False
         for sep in (". ", "; ", " — ", " – ", ", which ", ", where ", ", while ", ", although ", ", because ", ", and ", ", or "):
             pos = window.rfind(sep)
-            if pos >= 42:
-                s = window[:pos].strip()
+            if pos >= 42 and window[:pos].count("(") == window[:pos].count(")"):
+                s_prot = window[:pos].strip()
+                split_done = True
                 break
+        if not split_done:
+            s_prot = window.rsplit(" ", 1)[0].strip()
+    s = s_prot.replace(_abbrev_token, ".")
+    # If an unclosed parenthesis remains near the tail, strip from the unclosed '('
+    if s.count("(") > s.count(")"):
+        last_open = s.rfind("(")
+        if last_open >= 24:
+            s = s[:last_open].strip()
         else:
-            s = window.rsplit(" ", 1)[0].strip()
-    s = s.rstrip(" ,;:-—")
+            s = s.replace("(", "")
+    s = s.rstrip(" ,;:-—(")
     # Remove any trailing dangling prepositions, articles, conjunctions, or auxiliaries
     dangling = {
         "a", "an", "the", "of", "in", "to", "for", "with", "on", "at", "from", "by", "about",
@@ -308,12 +363,12 @@ def _ensure_complete_caption_sentence(text: str, max_chars: int = 125) -> str:
         "more", "most", "some", "any", "each", "every", "either", "neither", "both", "all",
         "many", "much", "few", "several", "own", "same", "than", "too", "also", "just", "only",
         "put", "get", "make", "take", "keep", "stay", "top", "help", "need", "use", "using",
-        "simple", "physical", "great", "two", "three", "four", "five",
+        "simple", "physical", "great", "two", "three", "four", "five", "req", "reqs", "p", "pp",
     }
     words = s.split()
     while len(words) > 4 and re.sub(r"[^a-z]", "", words[-1].lower()) in dangling:
         words.pop()
-    s = " ".join(words).rstrip(" ,;:-—")
+    s = " ".join(words).rstrip(" ,;:-—(")
     if s and s[0].islower():
         s = s[0].upper() + s[1:]
     if s and not s.endswith((".", "!", "?")):
@@ -769,6 +824,8 @@ _ANCHOR_STOP_WORDS = {
     "scout", "scouts", "scouting", "merit", "badge", "counselor", "pamphlet",
     "yet", "step", "steps", "fill", "clean", "clear", "put", "place", "take", "get",
     "set", "let", "try", "see", "look", "watch", "note", "notice", "adult", "help",
+    "seen", "lick", "there", "few", "she", "promised", "partytrusts", "notbe",
+    "membersof", "fromother", "willroll", "themsafe", "thatcan", "situation", "profit",
 }
 
 
@@ -1056,12 +1113,25 @@ def summarize_pamphlet_for_requirement(
         # Tier 1: Option-track prefix match (e.g., '2a' matches '2a(1)')
         elif opt_prefix and any(r_item.lower() == opt_prefix for r_item in all_entry_reqs):
             matching_cat_entries.append((1, alt_rank, fname, entry))
+        # Tier 1b: Animal Science species-matched option track ('6c' Horse, '6e' Hog, '6f' Avian)
+        elif slug == "animal_science" and opt_prefix in ("6c", "6e", "6f"):
+            cap_low = (str(entry.get("caption") or "") + " " + str(entry.get("topic") or "")).lower()
+            if (
+                (opt_prefix == "6c" and any(w in cap_low for w in ("horse", "mare", "foal", "equine")))
+                or (opt_prefix == "6e" and any(w in cap_low for w in ("pig", "piglet", "hog", "swine")))
+                or (opt_prefix == "6f" and any(w in cap_low for w in ("chick", "poultry", "avian", "hen")))
+            ):
+                matching_cat_entries.append((1, alt_rank, fname, entry))
         # Tier 2: Base requirement match ('2'), ONLY if entry is not scoped to a conflicting option track
         elif clean_req_num in all_entry_reqs:
             has_conflicting_opt = opt_prefix and any(
                 re.match(r"^\d+[a-zA-Z]", r_item) and not r_item.lower().startswith(opt_prefix)
                 for r_item in all_entry_reqs
             )
+            if slug == "animal_science" and opt_prefix in ("6c", "6d", "6e", "6f"):
+                cap_low = (str(entry.get("caption") or "") + " " + str(entry.get("topic") or "")).lower()
+                if any(w in cap_low for w in ("cow", "cattle", "bull", "calf", "dairy", "beef", "shorthorn")):
+                    has_conflicting_opt = True
             if not has_conflicting_opt:
                 matching_cat_entries.append((2, alt_rank, fname, entry))
     matching_cat_entries.sort(key=lambda x: (x[0], x[1], x[2]))
@@ -1071,6 +1141,7 @@ def summarize_pamphlet_for_requirement(
         cand_md5 = _raw_file_md5(cand_path) if cand_path.exists() else ""
         if (
             cand_path.exists()
+            and not _is_discardable_pamphlet_image(cand_path)
             and str(cand_path) not in used_image_paths
             and (not cand_md5 or f"md5:{cand_md5}" not in used_image_paths)
         ):
@@ -1776,18 +1847,19 @@ def _build_sub_requirement_slides(
         last_id = f"{req_num}{last_raw}" if len(last_raw) == 1 and last_raw.isalpha() and not str(req_num).endswith(last_raw) else last_raw
         range_label = f"Reqs {first_id}-{last_id}" if len(chunk) > 1 else f"Req {first_id}"
 
-        # Build clean, non-redundant slide title without double colons or 'Sub-Requirement Deep Dive' boilerplate on option tracks
+        # Build clean, non-redundant slide title without double colons, duplicate '(Reqs X-Y)', or 'Sub-Requirement Deep Dive' boilerplate on option tracks
         if c_idx < len(curated_chunk_titles):
-            slide_title = f"{curated_chunk_titles[c_idx]} ({range_label})"
+            cur_t = str(curated_chunk_titles[c_idx]).strip()
+            slide_title = cur_t if (f"({range_label})" in cur_t or "(Req" in cur_t) else f"{cur_t} ({range_label})"
         elif ":" in base_title:
             opt_prefix = base_title.split(":", 1)[0].strip()
             if len(sub_chunks) == 1:
-                slide_title = f"{base_title} ({range_label})"
+                slide_title = base_title if (f"({range_label})" in base_title or "(Req" in base_title) else f"{base_title} ({range_label})"
             elif chunk_short_topics:
                 uniq_topics = list(dict.fromkeys(chunk_short_topics))[:3]
                 slide_title = f"{opt_prefix}: {', '.join(uniq_topics)} ({range_label})"
             else:
-                slide_title = f"{base_title} ({range_label})"
+                slide_title = base_title if (f"({range_label})" in base_title or "(Req" in base_title) else f"{base_title} ({range_label})"
         else:
             slide_title = f"{base_title}: Sub-Requirement Deep Dive ({range_label})"
 
@@ -1915,38 +1987,68 @@ def decompose_requirement_into_topic_slides(
             if p_comp_md5:
                 seen_cand_keys.add(f"md5:{p_comp_md5}")
 
-    # 1a. Check vision-verified catalog for additional images explicitly paired with this requirement
+    # 1a. Check vision-verified catalog for additional images explicitly paired with this requirement (prioritizing exact sub-req/option match)
+    m_opt_req = re.match(r"^(\d+[a-zA-Z])", str(req_num or "").strip())
+    opt_prefix_req = m_opt_req.group(1).lower() if m_opt_req else ""
+    tiered_cat_candidates: List[Tuple[int, str, Dict[str, Any]]] = []
     for fname, entry in catalog.items():
-        if not fname.startswith(f"{slug}_p"):
+        if not fname.startswith(f"{slug}_p") or entry.get("discard"):
             continue
+        entry_r = str(entry.get("req_number") or "").strip()
         allowed_reqs = [str(r).strip() for r in (entry.get("req_numbers") or []) if str(r).strip()]
-        if (str(entry.get("req_number") or "").strip() == clean_req_num or clean_req_num in allowed_reqs) and not entry.get("discard"):
-            cand_img = PAMPHLET_IMAGES_DIR / fname
-            if not cand_img.exists():
-                continue
-            c_md5 = _raw_file_md5(cand_img)
+        all_e_reqs = [entry_r] + allowed_reqs
+        if str(req_num).strip() in all_e_reqs:
+            tiered_cat_candidates.append((0, fname, entry))
+        elif opt_prefix_req and any(r_it.lower() == opt_prefix_req for r_it in all_e_reqs):
+            tiered_cat_candidates.append((1, fname, entry))
+        elif slug == "animal_science" and opt_prefix_req in ("6c", "6e", "6f"):
+            cap_low = (str(entry.get("caption") or "") + " " + str(entry.get("topic") or "")).lower()
             if (
-                str(cand_img) not in used_image_paths
-                and (not c_md5 or f"md5:{c_md5}" not in used_image_paths)
-                and str(cand_img) not in seen_cand_keys
-                and (not c_md5 or f"md5:{c_md5}" not in seen_cand_keys)
+                (opt_prefix_req == "6c" and any(w in cap_low for w in ("horse", "mare", "foal", "equine")))
+                or (opt_prefix_req == "6e" and any(w in cap_low for w in ("pig", "piglet", "hog", "swine")))
+                or (opt_prefix_req == "6f" and any(w in cap_low for w in ("chick", "poultry", "avian", "hen")))
             ):
-                seen_cand_keys.add(str(cand_img))
-                if c_md5:
-                    seen_cand_keys.add(f"md5:{c_md5}")
-                m_p = re.search(r"_p(\d+)_img", fname)
-                ep_num = int(m_p.group(1)) if m_p else 1
-                composed = _compose_pamphlet_visual_card(
-                    raw_img_path=cand_img,
-                    badge_name=badge_name,
-                    req_number=f"{req_num}_fig{len(matched_pamphlet_items) + 1}",
-                    topic_title=str(entry.get("topic") or base_title),
-                    pamphlet_page=ep_num,
-                )
-                cap_txt = strip_pamphlet_and_req_caption_prefixes(str(entry.get("caption") or base_title), badge_name)
-                matched_pamphlet_items.append((composed, cap_txt, str(cand_img), c_md5))
-                if len(matched_pamphlet_items) >= 4:
-                    break
+                tiered_cat_candidates.append((1, fname, entry))
+        elif clean_req_num in all_e_reqs:
+            has_conflicting_opt = opt_prefix_req and any(
+                re.match(r"^\d+[a-zA-Z]", r_it) and not r_it.lower().startswith(opt_prefix_req)
+                for r_it in all_e_reqs
+            )
+            if slug == "animal_science" and opt_prefix_req in ("6c", "6d", "6e", "6f"):
+                cap_low = (str(entry.get("caption") or "") + " " + str(entry.get("topic") or "")).lower()
+                if any(w in cap_low for w in ("cow", "cattle", "bull", "calf", "dairy", "beef", "shorthorn")):
+                    has_conflicting_opt = True
+            if not has_conflicting_opt:
+                tiered_cat_candidates.append((2, fname, entry))
+    tiered_cat_candidates.sort(key=lambda x: (x[0], x[1]))
+
+    for _, fname, entry in tiered_cat_candidates:
+        cand_img = PAMPHLET_IMAGES_DIR / fname
+        if not cand_img.exists() or _is_discardable_pamphlet_image(cand_img):
+            continue
+        c_md5 = _raw_file_md5(cand_img)
+        if (
+            str(cand_img) not in used_image_paths
+            and (not c_md5 or f"md5:{c_md5}" not in used_image_paths)
+            and str(cand_img) not in seen_cand_keys
+            and (not c_md5 or f"md5:{c_md5}" not in seen_cand_keys)
+        ):
+            seen_cand_keys.add(str(cand_img))
+            if c_md5:
+                seen_cand_keys.add(f"md5:{c_md5}")
+            m_p = re.search(r"_p(\d+)_img", fname)
+            ep_num = int(m_p.group(1)) if m_p else 1
+            composed = _compose_pamphlet_visual_card(
+                raw_img_path=cand_img,
+                badge_name=badge_name,
+                req_number=f"{req_num}_fig{len(matched_pamphlet_items) + 1}",
+                topic_title=str(entry.get("topic") or base_title),
+                pamphlet_page=ep_num,
+            )
+            cap_txt = strip_pamphlet_and_req_caption_prefixes(str(entry.get("caption") or base_title), badge_name)
+            matched_pamphlet_items.append((composed, cap_txt, str(cand_img), c_md5))
+            if len(matched_pamphlet_items) >= 4:
+                break
 
     # 1b. Check nearby extended_pages ONLY if analyze_and_match_pamphlet_image confirms a semantic match to this requirement
     if len(matched_pamphlet_items) < 3 and extended_pages and pages_map:
@@ -2134,6 +2236,38 @@ def decompose_requirement_into_topic_slides(
                     ts_copy["bullets"] = cur_bullets
             resolved_slides.append(ts_copy)
 
+        if not any(
+            str(s.get("layout") or "").upper() == "SOCRATIC_CHECKPOINT_QUIZ" or s.get("quiz_item")
+            for s in resolved_slides
+        ):
+            eff_q = _get_selective_safety_quiz_for_requirement(
+                badge_name=badge_name,
+                req_num=req_num,
+                req_index=req_index,
+                req_text=req_text,
+                base_title=base_title,
+                explicit_quiz=req_dict.get("quiz_item"),
+            )
+            if eff_q:
+                resolved_slides.append({
+                    "title": f"{base_title} (Safety Scenario)" if ":" in base_title else f"{base_title}: Patrol Safety Scenario",
+                    "layout": "SOCRATIC_CHECKPOINT_QUIZ",
+                    "quiz_item": eff_q,
+                    "bullets": [
+                        eff_q["scenario_prompt"],
+                        eff_q["correct_answer"],
+                        eff_q["explanation"],
+                    ],
+                    "image_path": None,
+                })
+
+        def _cap_slides_preserving_quiz(s_list: List[Dict[str, Any]], limit: int = 7) -> List[Dict[str, Any]]:
+            if len(s_list) <= limit:
+                return s_list
+            if str(s_list[-1].get("layout") or "").upper() == "SOCRATIC_CHECKPOINT_QUIZ":
+                return s_list[: limit - 1] + [s_list[-1]]
+            return s_list[:limit]
+
         if sub_reqs:
             existing_blob = " ".join(
                 str(ts.get("title", "")) + " " + " ".join(str(b) for b in (ts.get("bullets") or []))
@@ -2160,8 +2294,8 @@ def decompose_requirement_into_topic_slides(
                     s for s in resolved_slides
                     if not s.get("is_subreq_slide") and "sub-requirement deep dive" not in str(s.get("title", "")).lower()
                 ]
-                return combined_slides[:7]
-        return resolved_slides[:7]
+                return _cap_slides_preserving_quiz(combined_slides, 7)
+        return _cap_slides_preserving_quiz(resolved_slides, 7)
 
     # 2. Adaptive multi-slide EDGE decomposition for requirements without explicit `topic_slides`
     excerpts = _dedupe_slide_bullets(list(req_dict.get("pamphlet_excerpts") or []))
@@ -2207,16 +2341,12 @@ def decompose_requirement_into_topic_slides(
         all_pamphlet_bullets = []
 
     # Reserve `excerpts[:4]` for the REQUIREMENT_INTRO slide in Deep Dive mode so topic slides never repeat them,
-    # and strictly deduplicate `fresh_pamphlet_bullets` so the first two boxes of text are never identical!
+    # and keep `worked_fields_bullets` and `checklist` exclusive to their dedicated WORKED_EXAMPLE_TEMPLATE and
+    # GEAR_CHECKLIST_GRID slides so two slides in the same requirement never duplicate each other's bullets.
     intro_norms = {re.sub(r"[^a-z0-9]+", " ", b.lower()).strip()[:55] for b in excerpts[:4]}
     fresh_pamphlet_bullets: List[str] = []
     seen_fresh_norms: set = set(intro_norms)
-    worked_fields_bullets = (
-        [f"{k}: {v}" for k, v in list((worked_ex.get("fields") or {}).items())[:4]]
-        if isinstance(worked_ex, dict)
-        else []
-    )
-    for b in (excerpts[4:] + worked_fields_bullets + checklist + all_pamphlet_bullets + procedures):
+    for b in (excerpts[4:] + all_pamphlet_bullets):
         b_clean = str(b or "").strip()
         if not b_clean:
             continue
@@ -2269,11 +2399,12 @@ def decompose_requirement_into_topic_slides(
         else:
             vis_img, vis_cap = None, ""
         fallback_vis_bullets = [
-            f"Core Requirement Focus: Master all sub-parts of { badge_name } Requirement { req_num } ({ base_title }).",
-            *(excerpts[2:6] or checklist[:3] or procedures[:3] or excerpts[:3] or [req_text]),
+            f"Field Reference ({base_title}): Connect the visual diagram to each step of {badge_name} Requirement {req_num}.",
+            f"Pamphlet Verification: Review how {base_title} applies during troop outings and skill stations.",
+            f"Buddy Check: Trace the key components of {base_title} with your patrol partner before demonstration.",
         ]
         vis_bullets = _dedupe_slide_bullets(
-            fresh_pamphlet_bullets[:4] if len(fresh_pamphlet_bullets) >= 2 else fallback_vis_bullets[:4]
+            fresh_pamphlet_bullets[:4] if len(fresh_pamphlet_bullets) >= 2 else (fresh_pamphlet_bullets + fallback_vis_bullets)[:4]
         )
         for vb in vis_bullets:
             used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", vb.lower()).strip()[:55])
@@ -2286,8 +2417,13 @@ def decompose_requirement_into_topic_slides(
         })
     else:
         # Single-part requirement: teach the fresh pamphlet points not shown on REQUIREMENT_INTRO
+        single_fallback = [
+            f"Field Reference ({base_title}): Apply the official {badge_name} pamphlet principles for Requirement {req_num}.",
+            f"Practical Execution: Connect {base_title} definitions to hands-on patrol practice and field observations.",
+            f"Counselor Conference Check: Explain how {base_title} supports safe, effective execution in {badge_name}.",
+        ]
         deep_bullets = _dedupe_slide_bullets(
-            fresh_pamphlet_bullets[:4] if fresh_pamphlet_bullets else (excerpts[2:6] or excerpts[:4] or [req_text])
+            fresh_pamphlet_bullets[:4] if len(fresh_pamphlet_bullets) >= 2 else (fresh_pamphlet_bullets + single_fallback)[:4]
         )
         for db in deep_bullets:
             used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", db.lower()).strip()[:55])
@@ -2424,6 +2560,8 @@ def decompose_requirement_into_topic_slides(
             "image_path": None,
         })
 
+    if len(generated) > 7 and str(generated[-1].get("layout") or "").upper() == "SOCRATIC_CHECKPOINT_QUIZ":
+        return generated[:6] + [generated[-1]]
     return generated[:7]
 
 
@@ -2689,6 +2827,29 @@ def _get_selective_safety_quiz_for_requirement(
         curated = _CURATED_REQ1_SAFETY_QUIZZES.get(slug)
         if curated:
             return dict(curated)
+        if req_index == 0:
+            clean_t = re.sub(r"\s*\(Reqs?\s+[^)]+\)", "", str(base_title or f"{badge_name} Fundamentals")).strip()
+            short_req = re.sub(r"\s+", " ", str(req_text or clean_t)).strip().rstrip(".")
+            if len(short_req) > 130:
+                short_req = short_req[:127].rsplit(" ", 1)[0].rstrip(" ,;:-")
+            return {
+                "scenario_prompt": (
+                    f"Before beginning hands-on field work for {badge_name} Requirement {req_num} ({clean_t}), "
+                    f"your patrol reviews the required preparation and safety standards. Which action best satisfies the BSA {badge_name} Pamphlet standard?"
+                ),
+                "options": [
+                    f"Begin the {clean_t} activity immediately before inspecting equipment, workspace hazards, or buddy readiness.",
+                    f"Review the official {badge_name} Pamphlet guidance for {clean_t} ({short_req}), verify scene and equipment safety with your buddy, and confirm counselor expectations before starting.",
+                    f"Skip the pre-activity safety briefing and complete only half of the {clean_t} steps on your own.",
+                ],
+                "correct_answer": (
+                    f"Option B — Verify scene and equipment safety with your buddy and follow the {badge_name} Pamphlet standard for {clean_t}."
+                ),
+                "explanation": (
+                    f"Under the BSA Guide to Safe Scouting and the {badge_name} Merit Badge Pamphlet, Scouts must establish scene safety, "
+                    f"use the Buddy System, and apply the verified technical steps for {clean_t} ({short_req})."
+                ),
+            }
 
     return None
 

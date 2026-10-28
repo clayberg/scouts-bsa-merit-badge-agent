@@ -37,28 +37,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Study & Explanation Notes",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Tour of A Library)",
             "headers": [
-              "Req 1a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Take a tour of a library",
-              "2. Discuss with your counselor how the library is organized and what resources"
+              "1. Core Definition & Mechanism (Tour of A Library)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Tour of A Library)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on take a tour of a library.",
-            "fact": "Scouts must discuss take a tour of a library using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-            "fact_correction": "Scouts must discuss take a tour of a library using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
+            "misconception": "Watching a generic video without preparing questions or counselor approval fulfills the Take A Tour field investigation in Reading.",
+            "fact": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Take A Tour, and document specific findings (p. 21, p. 34).",
+            "fact_correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Take A Tour, and document specific findings (p. 21, p. 34).",
+            "pamphlet_page_ref": "p. 21, p. 34"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -83,7 +91,12 @@
           ],
           "id": "1a",
           "sub_req_label": "1a",
-          "sub_req_text": "Take a tour of a library. Discuss with your counselor how the library is organized and what resources and/or services are offered in the library."
+          "sub_req_text": "Take a tour of a library. Discuss with your counselor how the library is organized and what resources and/or services are offered in the library.",
+          "topic_title": "Req 1a: Tour of A Library",
+          "pamphlet_summary": "Tour of A Library: Take a tour of a library Principle 3: To find newspaper stories about your subject, check newspaper indexes on websites (p. 21).",
+          "pamphlet_excerpts": [
+            "Tour of A Library: Take a tour of a library Principle 3: To find newspaper stories about your subject, check newspaper indexes on websites (p. 21)."
+          ]
         },
         {
           "sub_id": "1b",
@@ -98,30 +111,39 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Study & Explanation Notes",
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 1b Quantitative Field Observation & Activity Log (Search for Material Using)",
             "headers": [
-              "Req 1b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "column_headers": [
-              "Req 1b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Learn how to search for material using a library's card catalog",
-              "2. Key Pamphlet Examples & Evidence (Req 1b)",
-              "3. Practical Explain & Safety Verification"
+              "1. Baseline Entry & Starting Conditions (Search for Material Using)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Baseline Entry & Starting Conditions (Search for Material Using)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on learn how to search for material using a library's card catalog.",
-            "fact": "Scouts must explain learn how to search for material using a library's card catalog using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-            "fact_correction": "Scouts must explain learn how to search for material using a library's card catalog using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
+            "misconception": "Estimating Learn How to Search entries from memory at the end of the project satisfies the Reading Requirement 1b standard.",
+            "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Learn How to Search milestone is completed (p. 21, p. 34).",
+            "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Learn How to Search milestone is completed (p. 21, p. 34).",
+            "pamphlet_page_ref": "p. 21, p. 34"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -146,7 +168,12 @@
           ],
           "id": "1b",
           "sub_req_label": "1b",
-          "sub_req_text": "Learn how to search for material using a library's card catalog or computerized catalog by author, title, and subject."
+          "sub_req_text": "Learn how to search for material using a library's card catalog or computerized catalog by author, title, and subject.",
+          "topic_title": "Req 1b: Search for Material Using",
+          "pamphlet_summary": "Search for Material Using: Learn How to Search: Take a tour of a library Principle 4: Your librarian can help you find newspaper indexes to locate the newspaper articles you want (p. 21).",
+          "pamphlet_excerpts": [
+            "Search for Material Using: Learn How to Search: Take a tour of a library Principle 4: Your librarian can help you find newspaper indexes to locate the newspaper articles you want (p. 21)."
+          ]
         },
         {
           "sub_id": "1c",
@@ -161,31 +188,39 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Study & Explanation Notes",
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 1c Quantitative Field Observation & Activity Log (Library Search The Card Catalog)",
             "headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "column_headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "row_labels": [
-              "Poetry",
-              "Fiction",
-              "Nonfiction",
-              "Biographies"
+              "1. Baseline Entry & Starting Conditions (Library Search The Card Catalog)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Baseline Entry & Starting Conditions (Library Search The Card Catalog)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on poetry.",
-            "fact": "Scouts must explain poetry using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-            "fact_correction": "Scouts must explain poetry using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
+            "misconception": "Estimating In A Library Search entries from memory at the end of the project satisfies the Reading Requirement 1c standard.",
+            "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each In A Library Search milestone is completed (p. 21, p. 34).",
+            "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each In A Library Search milestone is completed (p. 21, p. 34).",
+            "pamphlet_page_ref": "p. 21, p. 34"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -210,7 +245,12 @@
           ],
           "id": "1c",
           "sub_req_label": "1c",
-          "sub_req_text": "In a library, search the card catalog or computerized catalog for six books of four different types, such as poetry, fiction, nonfiction, and biographies."
+          "sub_req_text": "In a library, search the card catalog or computerized catalog for six books of four different types, such as poetry, fiction, nonfiction, and biographies.",
+          "topic_title": "Req 1c: Library Search The Card Catalog",
+          "pamphlet_summary": "Library Search The Card Catalog: In A Library Search: Take a tour of a library: To find articles on your chosen subject thathave been published in popular magazines, check the Readers' Guide to Periodical Literature (p. 21).",
+          "pamphlet_excerpts": [
+            "Library Search The Card Catalog: In A Library Search: Take a tour of a library: To find articles on your chosen subject thathave been published in popular magazines, check the Readers' Guide to Periodical Literature (p. 21)."
+          ]
         },
         {
           "sub_id": "1d",
@@ -221,29 +261,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Study & Explanation Notes",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (Reading Applied Field Standard)",
             "headers": [
-              "Req 1d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With the assistance of your counselor or the librarian, see if you",
-              "2. Key Pamphlet Examples & Evidence (Req 1d)",
-              "3. Practical Explain & Safety Verification"
+              "1. Core Definition & Mechanism (Reading Applied Field Standard)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Reading Applied Field Standard)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with the assistance of your counselor or the librarian, see if you.",
-            "fact": "Scouts must explain with the assistance of your counselor or the librarian, see if you using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-            "fact_correction": "Scouts must explain with the assistance of your counselor or the librarian, see if you using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
+            "misconception": "General familiarity with assistance, counselor is sufficient for Reading Requirement 1d without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Assistance of Your Counselor (p. 21, p. 34).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Assistance of Your Counselor (p. 21, p. 34).",
+            "pamphlet_page_ref": "p. 21, p. 34"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -268,7 +315,12 @@
           ],
           "id": "1d",
           "sub_req_label": "1d",
-          "sub_req_text": "With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books you selected."
+          "sub_req_text": "With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books you selected.",
+          "topic_title": "Req 1d: Reading Applied Field Standard",
+          "pamphlet_summary": "Reading Applied Field Standard: Assistance of Your Counselor: Take a tour of a library Principle 2: Your library will probably have the Guide as a set ofprinted books, or it may be available electronically (p. 21).",
+          "pamphlet_excerpts": [
+            "Reading Applied Field Standard: Assistance of Your Counselor: Take a tour of a library Principle 2: Your library will probably have the Guide as a set ofprinted books, or it may be available electronically (p. 21)."
+          ]
         },
         {
           "sub_id": "1e",
@@ -284,29 +336,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1e Structured Study & Explanation Notes",
+            "table_title": "Req 1e Structured Technical Study & Explanation Matrix (Library Card Is Why)",
             "headers": [
-              "Req 1e Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1e Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Explain what a library card is, why it is needed, and how to get one",
-              "Pamphlet Standard & Key Facts (1e)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Library Card Is Why)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Library Card Is Why)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain what a library card is, why it is needed, and how to get one.",
-            "fact": "Scouts must explain explain what a library card is, why it is needed, and how to get one using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-            "fact_correction": "Scouts must explain explain what a library card is, why it is needed, and how to get one using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
+            "misconception": "General familiarity with Explain, library is sufficient for Reading Requirement 1e without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Library Card Is Why (p. 21, p. 34).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Library Card Is Why (p. 21, p. 34).",
+            "pamphlet_page_ref": "p. 21, p. 34"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -331,7 +390,12 @@
           ],
           "id": "1e",
           "sub_req_label": "1e",
-          "sub_req_text": "Explain what a library card is, why it is needed, and how to get one."
+          "sub_req_text": "Explain what a library card is, why it is needed, and how to get one.",
+          "topic_title": "Req 1e: Library Card Is Why",
+          "pamphlet_summary": "Library Card Is Why: Take a tour of a library Principle 3: To find newspaper stories about your subject, check newspaper indexes on websites (p. 21).",
+          "pamphlet_excerpts": [
+            "Library Card Is Why: Take a tour of a library Principle 3: To find newspaper stories about your subject, check newspaper indexes on websites (p. 21)."
+          ]
         }
       ],
       "resources": [
@@ -364,45 +428,49 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Take a tour of a library",
+      "topic_title": "Req 1: Reading Applied Field Standard",
       "action_verb": "Demonstrate",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 1 activities.",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
-      "syllabus_bucket": "In-Class Concept",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 1 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "table_title": "Req 1 Quantitative Field Observation & Activity Log (Reading Applied Field Standard)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
         ],
         "row_labels": [
-          "(a) Take a tour of a library",
-          "(b) Learn how to search for material using a library's card catalog",
-          "(c) In a library, search the card catalog or computerized catalog for six books",
-          "(d) With the assistance of your counselor or the librarian, see if you can locate",
-          "(e) Explain what a library card is, why it is needed, and how to get one"
+          "(1a) Tour of A Library",
+          "(1b) Search for Material Using",
+          "(1c) Library Search The Card Catalog",
+          "(1d) Reading Applied Field Standard",
+          "(1e) Library Card Is Why"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(1a) Tour of A Library",
+          "(1b) Search for Material Using",
+          "(1c) Library Search The Card Catalog",
+          "(1d) Reading Applied Field Standard",
+          "(1e) Library Card Is Why"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on take a tour of a library.",
-        "fact": "Scouts must demonstrate take a tour of a library using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-        "fact_correction": "Scouts must demonstrate take a tour of a library using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34).",
-        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)"
+        "misconception": "Estimating Take a tour of a library entries from memory at the end of the project satisfies the Reading Requirement 1 standard.",
+        "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Take a tour of a library milestone is completed (p. 21, p. 34).",
+        "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Take a tour of a library milestone is completed (p. 21, p. 34).",
+        "pamphlet_page_ref": "p. 21, p. 34"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -426,61 +494,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Articles Chosen Subject: To find articles on your chosen subject thathave been published in popular magazines, checkthe Readers’ Guide to Periodical Literature.",
-        "Your library Probably Guide: Your library will probably have the Guide as a set ofprinted books, or it may be available electronically.",
-        "Newspaper Stories Subject: To find newspaper stories about your subject, check newspaper indexes on websites.",
-        "Your librarian Newspaper: Your librarian can help you find newspaper indexesto locate the newspaper articles you want."
+        "Reading Applied Field Standard: Take a tour of a library: To find articles on your chosen subject thathave been published in popular magazines, check the Readers' Guide to Periodical Literature (p. 21).",
+        "Reading Applied Field Standard Principle 2: Take a tour of a library Principle 2: Your library will probably have the Guide as a set ofprinted books, or it may be available electronically (p. 21).",
+        "Reading Applied Field Standard Principle 3: Take a tour of a library Principle 3: To find newspaper stories about your subject, check newspaper indexes on websites (p. 21).",
+        "Reading Applied Field Standard Principle 4: Take a tour of a library Principle 4: Your librarian can help you find newspaper indexes to locate the newspaper articles you want (p. 21)."
       ],
       "step_by_step_procedure": [
-        "Search Them Librarycard: Search for them using either the librarycard catalog or computerized catalog as you learnedfor requirement 1(b).",
-        "Internet Vast Collection: The internet is a vast collection of information.",
-        "Parent Guardian's Permission: Get your parent or guardian's permission touse the internet, and then ask your parent or guardian, counselor, or a librarian to help you.",
-        "They Show Search: They can show you how to search theinternet using web directories or search engines."
+        "Step 1 (Reading Applied Field Standard): Step 1 (Take a tour of a library): Search for them using either the librarycard catalog or computerized catalog as you learned for requirement (p. 21).",
+        "Step 2 (Reading Applied Field Standard): Step 2 (Take a tour of a library): The internet is a vast collection of information (p. 21).",
+        "Step 3 (Reading Applied Field Standard): Step 3 (Take a tour of a library): Get your parent or guardian's permission touse the internet, and then ask your parent or guardian, counselor, or a librarian to help (p. 21).",
+        "Step 4 (Reading Applied Field Standard): Step 4 (Take a tour of a library): They can show you how to search theinternet using web directories or search engines (p. 21)."
       ],
       "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Take a tour of a library",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Reading Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Reading Applied Field Standard)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Reading Applied Field Standard.",
+        "Structured Reading Requirement 1 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Reading Approach",
-        "right_header": "Official BSA Reading Standard (Take a tour of a library)",
+        "left_header": "Foundational Principles (Take a tour of a library)",
+        "right_header": "Applied Field Execution (Take a tour of a library)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Take a tour of a library.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Take a tour of a library.",
+          "Take a tour of a library: To find articles on your chosen subject thathave been published in popular magazines, checkthe Readers' Guide.",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Reading Workbook organizer.",
-          "Clearly demonstrates and explains Take a tour of a library using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Reading.",
+          "Take a tour of a library Principle 2: Your library will probably have the Guide as a set ofprinted books, or it may be available electronica.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Take a tour of a library.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Reading."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Take a tour of a library: To find articles on your chosen subject thathave been published in popular magazines, checkthe Readers' Guide to P",
+            "right": "Take a tour of a library Principle 2: Your library will probably have the Guide as a set ofprinted books, or it may be available electronica"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Reading Req 1",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Quantitative Log Entry: Reading Req 1 (Reading Applied Field Standard)",
+        "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
-          "Requirement & Topic": "Req 1 - Take a tour of a library",
-          "Primary Standard": "Take a tour of a library. Discuss with your counselor how the library is organized and what resources and/or services are offered in the library.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34) and verified during counselor conference."
+          "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Reading Applied Field Standard.",
+          "Tracked Field Data": "Reading Applied Field Standard: Take a tour of a library: To find articles on your chosen subject thathave been published in popular magazines, check the Readers' Guide to Periodic.",
+          "Variance & Outcome Analysis": "Reading Applied Field Standard Principle 2: Take a tour of a library Principle 2: Your library will probably have the Guide as a set ofprinted books, or it may be available electro.",
+          "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34))"
         },
-        "counselor_tip": "Complete your Reading Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Reading Applied Field Standard: Reading Applied Field Standard: Take a tour of a library: To find articles on your chosen subject thathave been published in popular magazin",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before starting hands-on or field work for Reading (Take a tour of a library), which patrol preparation step best aligns with the official Reading standard?",
+        "scenario_prompt": "While working on Reading Requirement 1 (Reading Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Reading Requirement 1 (Reading Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
         "options": [
-          "Review the Reading hazards, PPE, and prerequisite standards in Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34) with your counselor and patrol buddy before beginning",
-          "Begin the practical station immediately and review the safety rules only if a problem occurs",
-          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
-          "Skip the pre-activity briefing when practicing indoors"
+          "A. Estimating Take a tour of a library entries from memory at the end of the project satisfies the Reading Requirement 1 standard.",
+          "B. Defer all Reading Applied Field Standard measurements and safety checks until after the field session concludes.",
+          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Take a tour of a.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
         ],
-        "correct_answer": "Option A - Review the Reading hazards, PPE, and prerequisite standards in Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34) with your counselor and patrol buddy before beginning",
-        "explanation": "Per Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
+        "choices": [
+          "A. Estimating Take a tour of a library entries from memory at the end of the project satisfies the Reading Requirement 1 standard.",
+          "B. Defer all Reading Applied Field Standard measurements and safety checks until after the field session concludes.",
+          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Take a tour of a.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Take a tour of a.",
+        "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Take a tour of a library milestone is completed (p. 21, p. 34). (Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)).",
+        "pamphlet_page_ref": "p. 21, p. 34"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 1."
+      "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 1.",
+      "workbook_diagram_url": "assets/ai_illustrations/reading_req_1_workbook_diagram.png"
     },
     {
       "req_id": "2",
@@ -498,28 +595,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Study & Explanation Notes",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Book You Have Enjoyed)",
             "headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify a book you have enjoyed",
-              "2. Find out what other books the author has written"
+              "1. Core Definition & Mechanism (Book You Have Enjoyed)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Book You Have Enjoyed)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify a book you have enjoyed.",
-            "fact": "Scouts must identify identify a book you have enjoyed using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34).",
-            "fact_correction": "Scouts must identify identify a book you have enjoyed using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)"
+            "misconception": "General familiarity with Identify, enjoyed is sufficient for Reading Requirement 2a without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Book You Have Enjoyed (p. 20, p. 34).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Book You Have Enjoyed (p. 20, p. 34).",
+            "pamphlet_page_ref": "p. 20, p. 34"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -544,7 +649,12 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Identify a book you have enjoyed. Find out what other books the author has written."
+          "sub_req_text": "Identify a book you have enjoyed. Find out what other books the author has written.",
+          "topic_title": "Req 2a: Book You Have Enjoyed",
+          "pamphlet_summary": "Book You Have Enjoyed: A book you have enjoyed Principle 4: Your librarian can help you find newspaper indexes to locate the newspaper articles you want (p. 20).",
+          "pamphlet_excerpts": [
+            "Book You Have Enjoyed: A book you have enjoyed Principle 4: Your librarian can help you find newspaper indexes to locate the newspaper articles you want (p. 20)."
+          ]
         },
         {
           "sub_id": "2b",
@@ -564,29 +674,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Study & Explanation Notes",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Look At One)",
             "headers": [
-              "Req 2b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Look at one or more \"best books\" lists",
-              "2. These can be based on year, subject, or even all time",
-              "3. Identify at least one book you would like to read"
+              "1. Core Definition & Mechanism (Look At One)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Look At One)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on look at one or more \"best books\" lists.",
-            "fact": "Scouts must explain look at one or more \"best books\" lists using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34).",
-            "fact_correction": "Scouts must explain look at one or more \"best books\" lists using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)"
+            "misconception": "General familiarity with books, lists is sufficient for Reading Requirement 2b without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Look At One (p. 20, p. 34).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Look At One (p. 20, p. 34).",
+            "pamphlet_page_ref": "p. 20, p. 34"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -611,7 +728,12 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Look at one or more \"best books\" lists. These can be based on year, subject, or even all time. Identify at least one book you would like to read."
+          "sub_req_text": "Look at one or more \"best books\" lists. These can be based on year, subject, or even all time. Identify at least one book you would like to read.",
+          "topic_title": "Req 2b: Look At One",
+          "pamphlet_summary": "Look At One: A book you have enjoyed: To find articles on your chosen subject thathave been published in popular magazines, check the Readers' Guide to Periodical Literature (p. 20).",
+          "pamphlet_excerpts": [
+            "Look At One: A book you have enjoyed: To find articles on your chosen subject thathave been published in popular magazines, check the Readers' Guide to Periodical Literature (p. 20)."
+          ]
         }
       ],
       "resources": [
@@ -641,33 +763,32 @@
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (A book you have enjoyed)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 2 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 2 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Identify a book you have enjoyed",
-          "(b) Look at one or more \"best books\" lists"
+          "(2a) Book You Have Enjoyed",
+          "(2b) Look At One"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(2a) Book You Have Enjoyed",
+          "(2b) Look At One"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify a book you have enjoyed.",
-        "fact": "Scouts must demonstrate identify a book you have enjoyed using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34).",
-        "fact_correction": "Scouts must demonstrate identify a book you have enjoyed using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34).",
-        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)"
+        "misconception": "General familiarity with following, Identify is sufficient for Reading Requirement 2 without citing specific functional mechanisms.",
+        "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of A book you have enjoyed (p. 20, p. 34).",
+        "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of A book you have enjoyed (p. 20, p. 34).",
+        "pamphlet_page_ref": "p. 20, p. 34"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -691,36 +812,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Articles Chosen Subject: To find articles on your chosen subject thathave been published in popular magazines, checkthe Readers’ Guide to Periodical Literature.",
-        "Your library Probably Guide: Your library will probably have the Guide as a set ofprinted books, or it may be available electronically.",
-        "Newspaper Stories Subject: To find newspaper stories about your subject, check newspaper indexes on websites.",
-        "Your librarian Newspaper: Your librarian can help you find newspaper indexesto locate the newspaper articles you want."
+        "A book you have enjoyed: To find articles on your chosen subject thathave been published in popular magazines, check the Readers' Guide to Periodical Literature (p. 20).",
+        "A book you have enjoyed Principle 2: Your library will probably have the Guide as a set ofprinted books, or it may be available electronically (p. 20).",
+        "A book you have enjoyed Principle 3: To find newspaper stories about your subject, check newspaper indexes on websites (p. 20).",
+        "A book you have enjoyed Principle 4: Your librarian can help you find newspaper indexes to locate the newspaper articles you want (p. 20)."
       ],
       "step_by_step_procedure": [
-        "Search Them Librarycard: Search for them using either the librarycard catalog or computerized catalog as you learnedfor requirement 1(b).",
-        "Internet Vast Collection: The internet is a vast collection of information.",
-        "Parent Guardian's Permission: Get your parent or guardian's permission touse the internet, and then ask your parent or guardian, counselor, or a librarian to help you.",
-        "They Show Search: They can show you how to search theinternet using web directories or search engines."
+        "Step 1 (A book you have enjoyed): Search for them using either the librarycard catalog or computerized catalog as you learned for requirement (p. 20).",
+        "Step 2 (A book you have enjoyed): The internet is a vast collection of information (p. 20).",
+        "Step 3 (A book you have enjoyed): Get your parent or guardian's permission touse the internet, and then ask your parent or guardian, counselor, or a librarian to help (p. 20).",
+        "Step 4 (A book you have enjoyed): They can show you how to search theinternet using web directories or search engines (p. 20)."
       ],
       "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for A book you have enjoyed",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Reading Merit Badge Pamphlet and Fillable Workbook (open to Req 2: A book you have enjoyed)",
+        "Primary reference documents, case-study exhibits, and regulation charts for A book you have enjoyed.",
+        "Structured Reading Requirement 2 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Reading Req 2",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 2 - A book you have enjoyed",
-          "Primary Standard": "Identify a book you have enjoyed. Find out what other books the author has written.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Reading Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (A book you have enjoyed)",
+        "right_header": "Applied Field Execution (A book you have enjoyed)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for A book you have enjoyed.",
+          "A book you have enjoyed: To find articles on your chosen subject thathave been published in popular magazines, checkthe Readers' Guide.",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Reading.",
+          "A book you have enjoyed Principle 2: Your library will probably have the Guide as a set ofprinted books, or it may be available electronical.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for A book you have enjoyed.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Reading."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "A book you have enjoyed: To find articles on your chosen subject thathave been published in popular magazines, checkthe Readers' Guide to Pe",
+            "right": "A book you have enjoyed Principle 2: Your library will probably have the Guide as a set ofprinted books, or it may be available electronical"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Reading Req 2 (A book you have enjoyed)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "A book you have enjoyed: To find articles on your chosen subject thathave been published in popular magazines, check the Readers' Guide to Periodical Literature (p. 20).",
+          "Applied Field Mechanism": "A book you have enjoyed Principle 2: Your library will probably have the Guide as a set ofprinted books, or it may be available electronically (p. 20).",
+          "Real-World Case Example": "Concrete application of A book you have enjoyed documented during Reading study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)."
+        },
+        "sample_output": "A book you have enjoyed: A book you have enjoyed: To find articles on your chosen subject thathave been published in popular magazines, check the Readers' Guide to P",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Reading Requirement 2 (A book you have enjoyed), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Reading Requirement 2 (A book you have enjoyed), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of A book you.",
+          "B. General familiarity with following, Identify is sufficient for Reading Requirement 2 without citing specific functional mechanisms.",
+          "C. Defer all A book you have enjoyed measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "choices": [
+          "A. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of A book you.",
+          "B. General familiarity with following, Identify is sufficient for Reading Requirement 2 without citing specific functional mechanisms.",
+          "C. Defer all A book you have enjoyed measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of A book you.",
+        "explanation": "Correct Answer (A): The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of A book you have enjoyed (p. 20, p. 34). (Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)).",
+        "pamphlet_page_ref": "p. 20, p. 34"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 2."
     },
@@ -734,7 +906,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading it.",
+          "text": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading.",
           "resources": [
             {
               "title": "How to Write a Book Review (video)",
@@ -749,29 +921,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Study & Explanation Notes",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Reading Applied Field Standard)",
             "headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Write a review of the book",
-              "2. Include what you liked and/or didn't like about the book",
-              "3. Include whether you would recommend this book, and if so, who might enjoy"
+              "1. Core Definition & Mechanism (Reading Applied Field Standard)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Reading Applied Field Standard)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write a review of the book.",
-            "fact": "Scouts must write write a review of the book using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36).",
-            "fact_correction": "Scouts must write write a review of the book using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)"
+            "misconception": "General familiarity with Write, review is sufficient for Reading Requirement 3a without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Write A Review (p. 20, p. 36).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Write A Review (p. 20, p. 36).",
+            "pamphlet_page_ref": "p. 20, p. 36"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -796,7 +975,12 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading it."
+          "sub_req_text": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading.",
+          "topic_title": "Req 3a: Reading Applied Field Standard",
+          "pamphlet_summary": "Reading Applied Field Standard: Write A Review: Read four different types of books: Requirement 3 asks you to read books of different types (p. 20).",
+          "pamphlet_excerpts": [
+            "Reading Applied Field Standard: Write A Review: Read four different types of books: Requirement 3 asks you to read books of different types (p. 20)."
+          ]
         },
         {
           "sub_id": "3b",
@@ -812,28 +996,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Study & Explanation Notes",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Watch A Movie Based)",
             "headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Watch a movie based on the book",
-              "2. What was the same between the book and movie?"
+              "1. Core Definition & Mechanism (Watch A Movie Based)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Watch A Movie Based)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on watch a movie based on the book.",
-            "fact": "Scouts must explain watch a movie based on the book using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36).",
-            "fact_correction": "Scouts must explain watch a movie based on the book using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)"
+            "misconception": "General familiarity with Watch, movie is sufficient for Reading Requirement 3b without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Watch A Movie Based (p. 20, p. 36).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Watch A Movie Based (p. 20, p. 36).",
+            "pamphlet_page_ref": "p. 20, p. 36"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -858,7 +1050,12 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Watch a movie based on the book. What was the same between the book and movie? What was different? Which did you enjoy more? Discuss this with your counselor."
+          "sub_req_text": "Watch a movie based on the book. What was the same between the book and movie? What was different? Which did you enjoy more? Discuss this with your counselor.",
+          "topic_title": "Req 3b: Watch A Movie Based",
+          "pamphlet_summary": "Watch A Movie Based: Read four different types of books Principle 2: Books aredivided into two big groups depending on whether they are based onfacts or imagined stories (p. 20).",
+          "pamphlet_excerpts": [
+            "Watch A Movie Based: Read four different types of books Principle 2: Books aredivided into two big groups depending on whether they are based onfacts or imagined stories (p. 20)."
+          ]
         },
         {
           "sub_id": "3c",
@@ -874,29 +1071,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Study & Explanation Notes",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Book Talk to Your Class)",
             "headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Give a book talk to your class, troop, or patrol",
-              "Pamphlet Standard & Key Facts (3c)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Book Talk to Your Class)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Book Talk to Your Class)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on give a book talk to your class, troop, or patrol.",
-            "fact": "Scouts must explain give a book talk to your class, troop, or patrol using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36).",
-            "fact_correction": "Scouts must explain give a book talk to your class, troop, or patrol using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)"
+            "misconception": "General familiarity with class, troop is sufficient for Reading Requirement 3c without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Give A Book Talk (p. 20, p. 36).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Give A Book Talk (p. 20, p. 36).",
+            "pamphlet_page_ref": "p. 20, p. 36"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -921,7 +1125,12 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "Give a book talk to your class, troop, or patrol."
+          "sub_req_text": "Give a book talk to your class, troop, or patrol.",
+          "topic_title": "Req 3c: Book Talk to Your Class",
+          "pamphlet_summary": "Book Talk to Your Class: Give A Book Talk: Read four different types of books Principle 3: There are many types, or genres, of bookswithin these groups (p. 20).",
+          "pamphlet_excerpts": [
+            "Book Talk to Your Class: Give A Book Talk: Read four different types of books Principle 3: There are many types, or genres, of bookswithin these groups (p. 20)."
+          ]
         }
       ],
       "resources": [
@@ -962,7 +1171,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Read four different types of books",
+      "topic_title": "Req 3: Different Types of Books",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -972,28 +1181,33 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Study & Explanation Notes",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Different Types of Books)",
         "headers": [
-          "Req 3 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 3 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Write a review of the book",
-          "(b) Watch a movie based on the book",
-          "(c) Give a book talk to your class, troop, or patrol"
+          "(3a) Reading Applied Field Standard",
+          "(3b) Watch A Movie Based",
+          "(3c) Book Talk to Your Class"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": false
+        "rows": [
+          "(3a) Reading Applied Field Standard",
+          "(3b) Watch A Movie Based",
+          "(3c) Book Talk to Your Class"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write a review of the book.",
-        "fact": "Scouts must explain write a review of the book using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36).",
-        "fact_correction": "Scouts must explain write a review of the book using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36).",
-        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)"
+        "misconception": "General familiarity with different, types is sufficient for Reading Requirement 3 without citing specific functional mechanisms.",
+        "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read four different types of books (p. 20, p. 36).",
+        "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read four different types of books (p. 20, p. 36).",
+        "pamphlet_page_ref": "p. 20, p. 36"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1017,49 +1231,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Requirement Asks Read: Requirement 3 asks you to read books of different types.",
-        "Books Aredivided Big: Books aredivided into two big groups depending on whether they are based onfacts or imagined stories.",
-        "There Types Genres: There are many types, or genres, of bookswithin these groups.",
-        "Genre Group Books: A genre is a group of books that share somethingin common."
+        "Different Types of Books: Read four different types of books: Requirement 3 asks you to read books of different types (p. 20).",
+        "Different Types of Books Principle 2: Read four different types of books Principle 2: Books aredivided into two big groups depending on whether they are based onfacts or imagined stories (p. 20).",
+        "Different Types of Books Principle 3: Read four different types of books Principle 3: There are many types, or genres, of bookswithin these groups (p. 20).",
+        "Different Types of Books Principle 4: Read four different types of books Principle 4: A genre is a group of books that share somethingin common (p. 20)."
       ],
       "step_by_step_procedure": [
-        "Books Fantasy Genre: Books in the fantasy genre tell imaginedstories about places and circumstances that cannot be logically true.",
-        "Reader Expected Suspend: Yet the reader is expected to suspend disbelief, or go along with theauthor on this reading adventure.",
-        "Nonfiction Includes Factual: Nonfiction includes factual writing such as the Scouts BSA handbook, Fieldbook, merit badge pamphlets, and field guides.",
-        "Readnonfiction Information: You readnonfiction to get information or learn about a subject, person, or event."
+        "Step 1 (Different Types of Books): Step 1 (Read four different types of books): Books in the fantasy genre tell imaginedstories about places and circumstances that cannot be logically true (p. 20).",
+        "Step 2 (Different Types of Books): Step 2 (Read four different types of books): Yet the reader is expected to suspend disbelief, or go along with theauthor on this reading adventure (p. 20).",
+        "Step 3 (Different Types of Books): Step 3 (Read four different types of books): Nonfiction includes factual writing such as the Scouts BSA handbook, Fieldbook, merit badge pamphlets, and field guides (p. 20).",
+        "Step 4 (Different Types of Books): Step 4 (Read four different types of books): You readnonfiction to get information or learn about a subject, person, or event (p. 20)."
       ],
       "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Read four different types of books",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Reading Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Different Types of Books)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Different Types of Books.",
+        "Structured Reading Requirement 3 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Reading Approach",
-        "right_header": "Official BSA Reading Standard (Read four different types of books)",
+        "left_header": "Foundational Principles (Read four different types of books)",
+        "right_header": "Applied Field Execution (Read four different types of books)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Read four different types of books.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Read four different types of books.",
+          "Read four different types of books: Requirement 3 asks you to read books of different types (p. 20).",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Reading Workbook organizer.",
-          "Clearly demonstrates and explains Read four different types of books using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Reading.",
+          "Read four different types of books Principle 2: Books aredivided into two big groups depending on whether they are based onfacts or imagined.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Read four different types of books.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Reading."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Read four different types of books: Requirement 3 asks you to read books of different types (p. 20).",
+            "right": "Read four different types of books Principle 2: Books aredivided into two big groups depending on whether they are based onfacts or imagined"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Reading Req 3",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Technical Analysis: Reading Req 3 (Different Types of Books)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Requirement & Topic": "Req 3 - Read four different types of books",
-          "Primary Standard": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading it.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36) and verified during counselor conference."
+          "Core Technical Principle": "Different Types of Books: Read four different types of books: Requirement 3 asks you to read books of different types (p. 20).",
+          "Applied Field Mechanism": "Different Types of Books Principle 2: Read four different types of books Principle 2: Books aredivided into two big groups depending on whether they are based onfacts or imagined.",
+          "Real-World Case Example": "Concrete application of Different Types of Books documented during Reading study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)."
         },
-        "counselor_tip": "Complete your Reading Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Different Types of Books: Different Types of Books: Read four different types of books: Requirement 3 asks you to read books of different types (p. 20).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Reading Requirement 3 (Different Types of Books), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Reading Requirement 3 (Different Types of Books), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. General familiarity with different, types is sufficient for Reading Requirement 3 without citing specific functional mechanisms.",
+          "B. Defer all Different Types of Books measurements and safety checks until after the field session concludes.",
+          "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read four.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "choices": [
+          "A. General familiarity with different, types is sufficient for Reading Requirement 3 without citing specific functional mechanisms.",
+          "B. Defer all Different Types of Books measurements and safety checks until after the field session concludes.",
+          "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read four.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read four.",
+        "explanation": "Correct Answer (C): The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read four different types of books (p. 20, p. 36). (Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)).",
+        "pamphlet_page_ref": "p. 20, p. 36"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 3."
     },
@@ -1084,39 +1336,45 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Read a nonfiction book or magazine",
+      "topic_title": "Req 4: Nonfiction Book or Magazine",
       "action_verb": "Explain",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 4 activities.",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)",
-      "syllabus_bucket": "In-Class Concept",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Study & Explanation Notes",
+        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Nonfiction Book or Magazine)",
         "headers": [
-          "Req 4 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "column_headers": [
-          "Req 4 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Read a nonfiction book or magazine that teaches you how to do something like",
-          "2. With your counselor's and parent or guardian's permission, complete a project",
-          "3. Share your experience with your counselor",
-          "4. Reading a merit badge pamphlet will not count toward completing this"
+          "1. Pre-Operation Tool & Safety Check (Nonfiction Book or Magazine)",
+          "2. Step-by-Step Setup & Alignment Procedure",
+          "3. Live Execution & Technique Verification",
+          "4. Post-Task Inspection, Maintenance & Stowage"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": true
+        "rows": [
+          "1. Pre-Operation Tool & Safety Check (Nonfiction Book or Magazine)",
+          "2. Step-by-Step Setup & Alignment Procedure",
+          "3. Live Execution & Technique Verification",
+          "4. Post-Task Inspection, Maintenance & Stowage"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on read a nonfiction book or magazine that teaches you how to do something like.",
-        "fact": "Scouts must explain read a nonfiction book or magazine that teaches you how to do something like using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41).",
-        "fact_correction": "Scouts must explain read a nonfiction book or magazine that teaches you how to do something like using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41).",
-        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)"
+        "misconception": "Describing how to perform Read a nonfiction book or magazine verbally can substitute for a physical hands-on demonstration in Reading Requirement 4.",
+        "fact": "Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Read a nonfiction book or magazine with proper technique (p. 36, p. 41).",
+        "fact_correction": "Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Read a nonfiction book or magazine with proper technique (p. 36, p. 41).",
+        "pamphlet_page_ref": "p. 36, p. 41"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1145,36 +1403,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Reading Information: Reading for Information. by discussing withyour counselorwhat you have Reading is for fun and for discovery.",
-        "Book Talk Engaging: A “book talk” is an engaging presentationor discussion about a book, aimed at generating interest andencouraging others to read it.",
-        "Thought Mixbetween Book: It can be thought of as a mixbetween a book review and a sales pitch.",
-        "Summary: Provide a brief overview of the bookwithout giving away any spoilers."
+        "Nonfiction Book or Magazine: Read a nonfiction book or magazine: Reading for Information. by discussing withyour counselorwhat you have Reading is for fun and for discovery (p. 36).",
+        "Nonfiction Book or Magazine Principle 2: Read a nonfiction book or magazine Principle 2: A \"book talk\" is an engaging presentationor discussion about a book, aimed at generating interest andencouraging others to read (p. 36).",
+        "Nonfiction Book or Magazine Principle 3: Read a nonfiction book or magazine Principle 3: It can be thought of as a mixbetween a book review and a sales pitch (p. 36).",
+        "Nonfiction Book or Magazine Principle 4: Read a nonfiction book or magazine Principle 4: Summary: Provide a brief overview of the bookwithout giving away any spoilers (p. 36)."
       ],
       "step_by_step_procedure": [
-        "Mention Themain Plot: Mention themain plot, setting, and key characters.",
-        "Highlights: Share some interesting aspects ofthe book, such as a favorite scene, a memorable character, or a compelling theme.",
-        "Personal Connection: Explain why youchose the book and what it meant to you.",
-        "Personal Touch Others: This personal touch can help others connect with your enthusiasm."
+        "Step 1 (Nonfiction Book or Magazine): Step 1 (Read a nonfiction book or magazine): Mention themain plot, setting, and key characters (p. 36).",
+        "Step 2 (Nonfiction Book or Magazine): Step 2 (Read a nonfiction book or magazine): Highlights: Share some interesting aspects of the book, such as a favorite scene, a memorable character, or a compelling theme (p. 36).",
+        "Step 3 (Nonfiction Book or Magazine): Step 3 (Read a nonfiction book or magazine): Personal Connection: Explain why youchose the book and what it meant (p. 36).",
+        "Step 4 (Nonfiction Book or Magazine): Step 4 (Read a nonfiction book or magazine): This personal touch can help others connect with your enthusiasm (p. 36)."
       ],
       "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Read a nonfiction book or magazine",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Reading Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Nonfiction Book or Magazine)",
+        "Calibrated instant-read digital food thermometer and sanitizing wipes.",
+        "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves.",
+        "USDA MyPlate nutrition chart, recipe cards, and biodegradable three-pot wash basin kit."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Reading Req 4",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 4 - Read a nonfiction book or magazine",
-          "Primary Standard": "Read a nonfiction book or magazine that teaches you how to do something like cooking, wood-building projects, video game design, science experiments, knot-tying, etc.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Reading Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Read a nonfiction book or magazine)",
+        "right_header": "Applied Field Execution (Read a nonfiction book or magazine)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Read a nonfiction book or magazine.",
+          "Read a nonfiction book or magazine: Reading for Information. by discussing withyour counselorwhat you have Reading is for fun and for discov.",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Reading.",
+          "Read a nonfiction book or magazine Principle 2: A \"book talk\" is an engaging presentationor discussion about a book, aimed at generating int.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Read a nonfiction book or magazine.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Reading."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Read a nonfiction book or magazine: Reading for Information. by discussing withyour counselorwhat you have Reading is for fun and for discov",
+            "right": "Read a nonfiction book or magazine Principle 2: A \"book talk\" is an engaging presentationor discussion about a book, aimed at generating int"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Reading Req 4 (Nonfiction Book or Magazine)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Nonfiction Book or Magazine.",
+          "Step-by-Step Execution": "Nonfiction Book or Magazine: Read a nonfiction book or magazine: Reading for Information. by discussing withyour counselorwhat you have Reading is for fun and for discovery (p. 36).",
+          "Quality & Tolerance Check": "Nonfiction Book or Magazine Principle 2: Read a nonfiction book or magazine Principle 2: A \"book talk\" is an engaging presentationor discussion about a book, aimed at generating.",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41))"
+        },
+        "sample_output": "Nonfiction Book or Magazine: Nonfiction Book or Magazine: Read a nonfiction book or magazine: Reading for Information. by discussing withyour counselorwhat you have Read",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Reading Requirement 4 (Nonfiction Book or Magazine), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Reading Requirement 4 (Nonfiction Book or Magazine), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Describing how to perform Read a nonfiction book or magazine verbally can substitute for a physical hands-on demonstration in.",
+          "B. Defer all Nonfiction Book or Magazine measurements and safety checks until after the field session concludes.",
+          "C. Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Read a.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "choices": [
+          "A. Describing how to perform Read a nonfiction book or magazine verbally can substitute for a physical hands-on demonstration in.",
+          "B. Defer all Nonfiction Book or Magazine measurements and safety checks until after the field session concludes.",
+          "C. Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Read a.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Read a.",
+        "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Read a nonfiction book or magazine with proper technique (p. 36, p. 41). (Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)).",
+        "pamphlet_page_ref": "p. 36, p. 41"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1203,38 +1512,45 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Read about the world around",
+      "topic_title": "Req 5: World Around You",
       "action_verb": "Explain",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 5 activities.",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)",
-      "syllabus_bucket": "In-Class Concept",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Study & Explanation Notes",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (World Around You)",
         "headers": [
-          "Req 5 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 5 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 5 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 5 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Read about the world around you from any two sources: books, magazines",
-          "2. Topics may include Scouting, sports, environmental problems, politics, social",
-          "3. Discuss what you have learned with your counselor"
+          "1. Core Definition & Mechanism (World Around You)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": true
+        "rows": [
+          "1. Core Definition & Mechanism (World Around You)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on read about the world around you from any two sources: books, magazines.",
-        "fact": "Scouts must explain read about the world around you from any two sources: books, magazines using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41).",
-        "fact_correction": "Scouts must explain read about the world around you from any two sources: books, magazines using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41).",
-        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)"
+        "misconception": "General familiarity with world, sources is sufficient for Reading Requirement 5 without citing specific functional mechanisms.",
+        "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read About The World (p. 31, p. 41).",
+        "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read About The World (p. 31, p. 41).",
+        "pamphlet_page_ref": "p. 31, p. 41"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1263,36 +1579,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Requirement Research: For requirement 5 you will research subjects that interest you.",
-        "Pick Current Topic: You can pick any current topic, but your reading selections forrequirement 5 will be mostly, if not entirely, nonfiction.",
-        "Goal Learnabout World: Your goal is to learnabout the world around you by reading the most accurate andup-to-date sources you can find.",
-        "Maybe There Particular: Maybe there is some particular topic you have wanted to learnabout but have never found anybody to ask."
+        "World Around You: Read About The World: For requirement 5 you will research subjects that interest (p. 31).",
+        "World Around You Principle 2: Read About The World Principle 2: You can pick any current topic, but your reading selections forrequirement 5 will be mostly, if not entirely, nonfiction (p. 31).",
+        "World Around You Principle 3: Read About The World Principle 3: Your goal is to learnabout the world around you by reading the most accurate andup-to-date sources you can find (p. 31).",
+        "World Around You Principle 4: Read About The World Principle 4: Maybe there is some particular topic you have wanted to learnabout but have never found anybody to ask (p. 31)."
       ],
       "step_by_step_procedure": [
-        "Perhaps Thereis Topic: Or perhaps thereis a topic with which you are familiar but want to know moreabout.",
-        "There Something Want: Or there is something you want to know how to do ormake.",
-        "Whatever Subject Interests: Whatever subject interests you, you’re almost certain tofind that many people have written about it.",
-        "Here Examples Topicsmany: Here are some examples of topicsmany young people are curious about."
+        "Step 1 (World Around You): Step 1 (Read About The World): Or perhaps thereis a topic with which you are familiar but want to know moreabout (p. 31).",
+        "Step 2 (World Around You): Step 2 (Read About The World): Or there is something you want to know how to do ormake (p. 31).",
+        "Step 3 (World Around You): Step 3 (Read About The World): Whatever subject interests you, you're almost certain tofind that many people have written (p. 31).",
+        "Step 4 (World Around You): Step 4 (Read About The World): Here are some examples of topicsmany young people are curious (p. 31)."
       ],
       "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Read about the world around",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Reading Merit Badge Pamphlet and Fillable Workbook (open to Req 5: World)",
+        "10x pocket hand lens (loupe) or field binoculars and regional species/mineral identification guide.",
+        "Graduated collection vials, soil/water testing strips, or botanical specimen press.",
+        "Waterproof field observation notebook, metric ruler, and GPS/topographic map reference."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Reading Req 5",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 5 - Read about the world around",
-          "Primary Standard": "Read about the world around you from any two sources: books, magazines, newspapers, the internet (with your parent or guardian's permission), field manuals, etc.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Reading Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Read About The World)",
+        "right_header": "Applied Field Execution (Read About The World)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Read About The World.",
+          "Read About The World: For requirement 5 you will research subjects that interest (p. 31).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Reading.",
+          "Read About The World Principle 2: You can pick any current topic, but your reading selections forrequirement 5 will be mostly, if not entire.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Read About The World.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Reading."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Read About The World: For requirement 5 you will research subjects that interest you (p. 31).",
+            "right": "Read About The World Principle 2: You can pick any current topic, but your reading selections forrequirement 5 will be mostly, if not entire"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Reading Req 5 (World Around You)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "World Around You: Read About The World: For requirement 5 you will research subjects that interest (p. 31).",
+          "Applied Field Mechanism": "World Around You Principle 2: Read About The World Principle 2: You can pick any current topic, but your reading selections forrequirement 5 will be mostly, if not entirely, nonfic.",
+          "Real-World Case Example": "Concrete application of World Around You documented during Reading study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)."
+        },
+        "sample_output": "World Around You: World Around You: Read About The World: For requirement 5 you will research subjects that interest you (p. 31).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Reading Requirement 5 (World Around You), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Reading Requirement 5 (World Around You), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. General familiarity with world, sources is sufficient for Reading Requirement 5 without citing specific functional mechanisms.",
+          "B. Defer all World Around You measurements and safety checks until after the field session concludes.",
+          "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read About.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "choices": [
+          "A. General familiarity with world, sources is sufficient for Reading Requirement 5 without citing specific functional mechanisms.",
+          "B. Defer all World Around You measurements and safety checks until after the field session concludes.",
+          "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read About.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read About.",
+        "explanation": "Correct Answer (C): The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read About The World (p. 31, p. 41). (Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)).",
+        "pamphlet_page_ref": "p. 31, p. 41"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1317,29 +1684,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Study & Explanation Notes",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Sick Blind or Homebound Person)",
             "headers": [
-              "Req 6a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 6a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 6a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 6a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Read to a sick, blind, or homebound person in a hospital or in an extended-care facility",
-              "Pamphlet Standard & Key Facts (6a)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Sick Blind or Homebound Person)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Sick Blind or Homebound Person)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on read to a sick, blind, or homebound person in a hospital or in an extended-care facility.",
-            "fact": "Scouts must explain read to a sick, blind, or homebound person in a hospital or in an extended-care facility using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-            "fact_correction": "Scouts must explain read to a sick, blind, or homebound person in a hospital or in an extended-care facility using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
+            "misconception": "General familiarity with blind, homebound is sufficient for Reading Requirement 6a without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read to A Sick Blind (p. 43, p. 45).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read to A Sick Blind (p. 43, p. 45).",
+            "pamphlet_page_ref": "p. 43, p. 45"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1364,7 +1738,12 @@
           ],
           "id": "6a",
           "sub_req_label": "6a",
-          "sub_req_text": "Read to a sick, blind, or homebound person in a hospital or in an extended-care facility."
+          "sub_req_text": "Read to a sick, blind, or homebound person in a hospital or in an extended-care facility.",
+          "topic_title": "Req 6a: Sick Blind or Homebound Person",
+          "pamphlet_summary": "Sick Blind or Homebound Person: Read to A Sick Blind: Your Counselor's and Parent Principle 4: Reading aloud is a different skill from reading to yourself (p. 43).",
+          "pamphlet_excerpts": [
+            "Sick Blind or Homebound Person: Read to A Sick Blind: Your Counselor's and Parent Principle 4: Reading aloud is a different skill from reading to yourself (p. 43)."
+          ]
         },
         {
           "sub_id": "6b",
@@ -1379,35 +1758,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 6b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Volunteer Work At Your School)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 6b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 6b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Perform volunteer work at your school library or a public library",
-              "Pamphlet Standard & Key Facts (6b)",
-              "Field Application & Counselor Verification (Demonstrate)"
+              "1. Core Definition & Mechanism (Volunteer Work At Your School)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Core Definition & Mechanism (Volunteer Work At Your School)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform volunteer work at your school library or a public library.",
-            "fact": "Scouts must demonstrate perform volunteer work at your school library or a public library using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-            "fact_correction": "Scouts must demonstrate perform volunteer work at your school library or a public library using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
+            "misconception": "Describing how to perform Perform Volunteer Work verbally can substitute for a physical hands-on demonstration in Reading Requirement 6b.",
+            "fact": "Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Perform Volunteer Work with proper technique (p. 43, p. 45).",
+            "fact_correction": "Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Perform Volunteer Work with proper technique (p. 43, p. 45).",
+            "pamphlet_page_ref": "p. 43, p. 45"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1432,7 +1813,12 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Perform volunteer work at your school library or a public library."
+          "sub_req_text": "Perform volunteer work at your school library or a public library.",
+          "topic_title": "Req 6b: Volunteer Work At Your School",
+          "pamphlet_summary": "Volunteer Work At Your School: Perform Volunteer Work: Your Counselor's and Parent: Talk with your counselor about the different kinds of volunteerservice you might give (p. 43).",
+          "pamphlet_excerpts": [
+            "Volunteer Work At Your School: Perform Volunteer Work: Your Counselor's and Parent: Talk with your counselor about the different kinds of volunteerservice you might give (p. 43)."
+          ]
         },
         {
           "sub_id": "6c",
@@ -1448,29 +1834,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Study & Explanation Notes",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Stories to Younger Children)",
             "headers": [
-              "Req 6c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 6c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 6c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 6c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Read stories to younger children, in a group or individually",
-              "Pamphlet Standard & Key Facts (6c)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Stories to Younger Children)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Stories to Younger Children)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on read stories to younger children, in a group or individually.",
-            "fact": "Scouts must explain read stories to younger children, in a group or individually using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-            "fact_correction": "Scouts must explain read stories to younger children, in a group or individually using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
+            "misconception": "General familiarity with stories, younger is sufficient for Reading Requirement 6c without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read Stories to Younger Children (p. 43, p. 45).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read Stories to Younger Children (p. 43, p. 45).",
+            "pamphlet_page_ref": "p. 43, p. 45"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1495,7 +1888,12 @@
           ],
           "id": "6c",
           "sub_req_label": "6c",
-          "sub_req_text": "Read stories to younger children, in a group or individually."
+          "sub_req_text": "Read stories to younger children, in a group or individually.",
+          "topic_title": "Req 6c: Stories to Younger Children",
+          "pamphlet_summary": "Stories to Younger Children: Read Stories to Younger Children: Your Counselor's and Parent Principle 2: For many people, being read to is a favorite memory fromchildhood (p. 43).",
+          "pamphlet_excerpts": [
+            "Stories to Younger Children: Read Stories to Younger Children: Your Counselor's and Parent Principle 2: For many people, being read to is a favorite memory fromchildhood (p. 43)."
+          ]
         },
         {
           "sub_id": "6d",
@@ -1511,29 +1909,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Study & Explanation Notes",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Organize A Book Swap)",
             "headers": [
-              "Req 6d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 6d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 6d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 6d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Organize a book swap in your troop, school, or place of worship",
-              "Pamphlet Standard & Key Facts (6d)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Organize A Book Swap)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Organize A Book Swap)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on organize a book swap in your troop, school, or place of worship.",
-            "fact": "Scouts must explain organize a book swap in your troop, school, or place of worship using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-            "fact_correction": "Scouts must explain organize a book swap in your troop, school, or place of worship using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
+            "misconception": "General familiarity with Organize, troop is sufficient for Reading Requirement 6d without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Organize A Book Swap (p. 43, p. 45).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Organize A Book Swap (p. 43, p. 45).",
+            "pamphlet_page_ref": "p. 43, p. 45"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1558,7 +1963,12 @@
           ],
           "id": "6d",
           "sub_req_label": "6d",
-          "sub_req_text": "Organize a book swap in your troop, school, or place of worship."
+          "sub_req_text": "Organize a book swap in your troop, school, or place of worship.",
+          "topic_title": "Req 6d: Organize A Book Swap",
+          "pamphlet_summary": "Organize A Book Swap: Your Counselor's and Parent Principle 3: Chances are, you'll have even more funthan they (p. 43).",
+          "pamphlet_excerpts": [
+            "Organize A Book Swap: Your Counselor's and Parent Principle 3: Chances are, you'll have even more funthan they (p. 43)."
+          ]
         },
         {
           "sub_id": "6e",
@@ -1574,28 +1984,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6e Structured Study & Explanation Notes",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (Organize A Book Drive)",
             "headers": [
-              "Req 6e Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 6e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 6e Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 6e Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Organize a book drive to collect books",
-              "2. Donate them to an organization in need"
+              "1. Core Definition & Mechanism (Organize A Book Drive)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Organize A Book Drive)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on organize a book drive to collect books.",
-            "fact": "Scouts must explain organize a book drive to collect books using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-            "fact_correction": "Scouts must explain organize a book drive to collect books using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-            "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
+            "misconception": "General familiarity with Organize, drive is sufficient for Reading Requirement 6e without citing specific functional mechanisms.",
+            "fact": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Organize A Book Drive (p. 43, p. 45).",
+            "fact_correction": "The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Organize A Book Drive (p. 43, p. 45).",
+            "pamphlet_page_ref": "p. 43, p. 45"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1620,7 +2038,12 @@
           ],
           "id": "6e",
           "sub_req_label": "6e",
-          "sub_req_text": "Organize a book drive to collect books. Donate them to an organization in need."
+          "sub_req_text": "Organize a book drive to collect books. Donate them to an organization in need.",
+          "topic_title": "Req 6e: Organize A Book Drive",
+          "pamphlet_summary": "Organize A Book Drive: Your Counselor's and Parent Principle 4: Reading aloud is a different skill from reading to yourself (p. 43).",
+          "pamphlet_excerpts": [
+            "Organize A Book Drive: Your Counselor's and Parent Principle 4: Reading aloud is a different skill from reading to yourself (p. 43)."
+          ]
         }
       ],
       "resources": [
@@ -1653,45 +2076,47 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: With your counselor's and parent",
+      "topic_title": "Req 6: Counselor's and Parent or Guardian's",
       "action_verb": "Explain",
-      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Reading Requirement 6 activities.",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
-      "syllabus_bucket": "In-Class Demonstration",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 6 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Counselor's and Parent or Guardian's)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 6 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 6 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Read to a sick, blind, or homebound person in a hospital",
-          "(b) Perform volunteer work at your school library or a public library",
-          "(c) Read stories to younger children, in a group or individually",
-          "(d) Organize a book swap in your troop, school, or place of worship",
-          "(e) Organize a book drive to collect books"
+          "(6a) Sick Blind or Homebound Person",
+          "(6b) Volunteer Work At Your School",
+          "(6c) Stories to Younger Children",
+          "(6d) Organize A Book Swap",
+          "(6e) Organize A Book Drive"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": true,
-        "is_physical_demonstration": true
+        "rows": [
+          "(6a) Sick Blind or Homebound Person",
+          "(6b) Volunteer Work At Your School",
+          "(6c) Stories to Younger Children",
+          "(6d) Organize A Book Swap",
+          "(6e) Organize A Book Drive"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on read to a sick, blind, or homebound person in a hospital.",
-        "fact": "Scouts must explain read to a sick, blind, or homebound person in a hospital using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-        "fact_correction": "Scouts must explain read to a sick, blind, or homebound person in a hospital using verified procedures, field evidence, and safety standards from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45).",
-        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)"
+        "misconception": "Describing how to perform Your Counselor's and Parent verbally can substitute for a physical hands-on demonstration in Reading Requirement 6.",
+        "fact": "Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Your Counselor's and Parent with proper technique (p. 43, p. 45).",
+        "fact_correction": "Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Your Counselor's and Parent with proper technique (p. 43, p. 45).",
+        "pamphlet_page_ref": "p. 43, p. 45"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1720,36 +2145,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Talk Different Kinds: Talk with your counselor about the different kinds of volunteerservice you might give.",
-        "People Read Favorite: For many people, being read to is a favorite memory fromchildhood.",
-        "Chances Funthan They: Chances are, you’ll have even more funthan they will.",
-        "Reading Aloud Different: Reading aloud is a different skill from reading to yourself."
+        "Counselor's and Parent or Guardian's: Your Counselor's and Parent: Talk with your counselor about the different kinds of volunteerservice you might give (p. 43).",
+        "Counselor's and Parent or Guardian's Principle 2: Your Counselor's and Parent Principle 2: For many people, being read to is a favorite memory fromchildhood (p. 43).",
+        "Counselor's and Parent or Guardian's Principle 3: Your Counselor's and Parent Principle 3: Chances are, you'll have even more funthan they (p. 43).",
+        "Counselor's and Parent or Guardian's Principle 4: Your Counselor's and Parent Principle 4: Reading aloud is a different skill from reading to yourself (p. 43)."
       ],
       "step_by_step_procedure": [
-        "Losing Audience Read: To keep from losing your audience, you must read slowly.",
-        "Ifyou Normally Fast: Ifyou’re normally a fast talker, you may have to slow down your reading so much that, to your own ears, at least, you sounddraggy.",
-        "They Follow Story: They will follow the story much better if you go slowly, sayevery word, read with enthusiasm, and insert a few pauses fordramatic effect.",
-        "Read Anaudience Listener: Before you read to anaudience (of one listener or many), practice the materialyou have chosen."
+        "Step 1 (Counselor's and Parent or Guardian's): Step 1 (Your Counselor's and Parent): To keep from losing your audience, you must read slowly (p. 43).",
+        "Step 2 (Counselor's and Parent or Guardian's): Step 2 (Your Counselor's and Parent): Ifyou're normally a fast talker, you may have to slow down your reading so much that, to your own ears, at least, you sounddraggy (p. 43).",
+        "Step 3 (Counselor's and Parent or Guardian's): Step 3 (Your Counselor's and Parent): They will follow the story much better if you go slowly, sayevery word, read with enthusiasm, and insert a few pauses fordramatic effect (p. 43).",
+        "Step 4 (Counselor's and Parent or Guardian's): Step 4 (Your Counselor's and Parent): Before you read to anaudience (of one listener or many), practice the materialyou have chosen (p. 43)."
       ],
       "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for With your counselor's and parent",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Reading Merit Badge Pamphlet and Fillable Workbook (open to Req 6: Counselor's and Parent or Guardian's)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Counselor's and Parent or Guardian's.",
+        "Structured Reading Requirement 6 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Reading Req 6",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 6 - With your counselor's and parent",
-          "Primary Standard": "Read to a sick, blind, or homebound person in a hospital or in an extended-care facility.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Reading Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Your Counselor's and Parent)",
+        "right_header": "Applied Field Execution (Your Counselor's and Parent)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Your Counselor's and Parent.",
+          "Your Counselor's and Parent: Talk with your counselor about the different kinds of volunteerservice you might give (p. 43).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Reading.",
+          "Your Counselor's and Parent Principle 2: For many people, being read to is a favorite memory fromchildhood (p. 43).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Your Counselor's and Parent.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Reading."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Your Counselor's and Parent: Talk with your counselor about the different kinds of volunteerservice you might give (p. 43).",
+            "right": "Your Counselor's and Parent Principle 2: For many people, being read to is a favorite memory fromchildhood (p. 43)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Reading Req 6 (Counselor's and Parent or Guardian's)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Counselor's and Parent or Guardian's: Your Counselor's and Parent: Talk with your counselor about the different kinds of volunteerservice you might give (p. 43).",
+          "Applied Field Mechanism": "Counselor's and Parent or Guardian's Principle 2: Your Counselor's and Parent Principle 2: For many people, being read to is a favorite memory fromchildhood (p. 43).",
+          "Real-World Case Example": "Concrete application of Counselor's and Parent or Guardian's documented during Reading study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)."
+        },
+        "sample_output": "Counselor's and Parent or Guardian's: Counselor's and Parent or Guardian's: Your Counselor's and Parent: Talk with your counselor about the different kinds of volunteerservice yo",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Reading Requirement 6 (Counselor's and Parent or Guardian's), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Reading Requirement 6 (Counselor's and Parent or Guardian's), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Your.",
+          "B. Describing how to perform Your Counselor's and Parent verbally can substitute for a physical hands-on demonstration in Reading.",
+          "C. Defer all Counselor's and Parent or Guardian's measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "choices": [
+          "A. Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Your.",
+          "B. Describing how to perform Your Counselor's and Parent verbally can substitute for a physical hands-on demonstration in Reading.",
+          "C. Defer all Counselor's and Parent or Guardian's measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Your.",
+        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Your Counselor's and Parent with proper technique (p. 43, p. 45). (Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)).",
+        "pamphlet_page_ref": "p. 43, p. 45"
+      },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1779,25 +2255,29 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "CAREER_EXPLORATION_CARD",
-        "table_title": "Req 7 Career & Pathway Exploration Card",
+        "table_title": "Req 7 Career & Professional Pathway Investigation Matrix",
         "headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "column_headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. Three Career Opportunities Identified",
-          "2. Selected Career: Education & Training Required",
-          "3. Daily Duties, Licensing & Expenses",
-          "4. Starting Salary, Job Outlook & Personal Goals"
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Listing three job titles from a quick web search satisfies the Reading career exploration requirement.",
@@ -1827,44 +2307,231 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Careers Center Reading: Careers that center around reading can be incredibly fulfilling for those who have apassion for books, literature, or gathering and interpreting.",
-        "Careersoften Involve Skills: Such careersoften involve skills like analysis, communication, and creative thinking.",
-        "Manyreading-focused Roles: Manyreading-focused roles allow individuals to immerse themselves in stories, ideas, oracademic research, making them ideal for lifelong learners.",
-        "Examples Careers Realm: Examples of careers in this realm include librarians, who manage collections ofbooks and digital resources while guiding others in their reading."
+        "Careers & Professional Pathways: Careers that center around reading can be incredibly fulfilling for those who have apassion for books, literature, or gathering and interpreting (p. 12).",
+        "Careers & Professional Pathways Principle 2: Such careersoften involve skills like analysis, communication, and creative thinking (p. 12).",
+        "Careers & Professional Pathways Principle 3: Manyreading-focused roles allow individuals to immerse themselves in stories, ideas, oracademic research, making them ideal for lifelong learners (p. 12).",
+        "Careers & Professional Pathways Principle 4: Examples of careers in this realm include librarians, who manage collections ofbooks and digital resources while guiding others in their reading (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Editorsand Proofreaders Path: Editorsand proofreaders are another path; they play a critical role in refining written content for publication.",
-        "Writers Authors Course: Writers and authors, of course, craft compelling works forreaders to enjoy, while literary critics analyze and review books to provide.",
-        "Options Include Careers: Other options include careers in academia, where professors and researchers frequently engage with texts to educate and innovate in their fields.",
-        "Lawyersand Paralegals: Lawyersand paralegals also have careers deeply intertwined with reading, as they analyzelegal documents, contracts, and case studies."
+        "Step 1 (Careers & Professional Pathways): Editors and proofreaders are another path; they play a critical role in refining written content for publication (p. 12).",
+        "Step 2 (Careers & Professional Pathways): Writers and authors, of course, craft compelling works forreaders to enjoy, while literary critics analyze and review books to provide (p. 12).",
+        "Step 3 (Careers & Professional Pathways): Other options include careers in academia, where professors and researchers frequently engage with texts to educate and innovate in their fields (p. 12).",
+        "Step 4 (Careers & Professional Pathways): Lawyers and paralegals also have careers deeply intertwined with reading, as they analyzelegal documents, contracts, and case studies (p. 12)."
       ],
       "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Reading Merit Badge Pamphlet and Fillable Workbook (open to Req 7: Careers & Professional Pathways)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Careers & Professional Pathways.",
+        "Structured Reading Requirement 7 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Reading Req 7",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 7 - Careers & Professional Pathways",
-          "Primary Standard": "Identify three career opportunities that would use skills and knowledge in reading.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Reading terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Reading Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Professional Career Track in Reading",
+        "right_header": "Lifelong Avocation & Civic Service in Reading",
+        "left_points": [
+          "Accredited degree, trade apprenticeship, or industry license.",
+          "Careers & Professional Pathways: Careers that center around reading can be incredibly fulfilling for those who have apassion for books, lite.",
+          "Full-time compensation and technical leadership."
+        ],
+        "right_points": [
+          "Merit badge mastery, club mentorship, and volunteer service.",
+          "Careers & Professional Pathways Principle 2: Such careersoften involve skills like analysis, communication, and creative thinking (p. 12).",
+          "Community stewardship, outdoor recreation, and teaching others."
+        ],
+        "rows": [
+          {
+            "attribute": "Training Pathway",
+            "left": "Accredited degree, trade apprenticeship, or industry license.",
+            "right": "Merit badge mastery, club mentorship, and volunteer service."
+          },
+          {
+            "attribute": "Core Responsibilities",
+            "left": "Careers & Professional Pathways: Careers that center around reading can be incredibly fulfilling for those who have apassion for books, lite",
+            "right": "Careers & Professional Pathways Principle 2: Such careersoften involve skills like analysis, communication, and creative thinking (p. 12)."
+          },
+          {
+            "attribute": "Long-Term Outcome",
+            "left": "Full-time compensation and technical leadership.",
+            "right": "Community stewardship, outdoor recreation, and teaching others."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Reading Req 7 (Careers & Professional Pathways)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Careers & Professional Pathways: Careers that center around reading can be incredibly fulfilling for those who have apassion for books, literature, or gathering and interpreting.",
+          "Applied Field Mechanism": "Careers & Professional Pathways Principle 2: Such careersoften involve skills like analysis, communication, and creative thinking (p. 12).",
+          "Real-World Case Example": "Concrete application of Careers & Professional Pathways documented during Reading study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46)."
+        },
+        "sample_output": "Careers & Professional Pathways: Careers & Professional Pathways: Careers that center around reading can be incredibly fulfilling for those who have apassion for books, lite",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Reading Requirement 7 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Reading Requirement 7 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Listing three job titles from a quick web search satisfies the Reading career exploration requirement.",
+          "B. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure.",
+          "D. Scouts must research specific Reading career pathways and discuss required education, training, licensing, and daily duties with."
+        ],
+        "choices": [
+          "A. Listing three job titles from a quick web search satisfies the Reading career exploration requirement.",
+          "B. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure.",
+          "D. Scouts must research specific Reading career pathways and discuss required education, training, licensing, and daily duties with."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Scouts must research specific Reading career pathways and discuss required education, training, licensing, and daily duties with.",
+        "explanation": "Correct Answer (D): Scouts must research specific Reading career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46)).",
+        "pamphlet_page_ref": "Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46)"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Reading Workbook organizer table and practical demonstration for Req 7."
     }
   ],
   "badge_slug": "reading",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0",
+  "schema_baseline_version": "2026.v30",
   "is_test_lab": false,
   "is_discontinued": false,
-  "status": "ACTIVE"
+  "status": "OFFICIAL",
+  "patrol_quiz_bank": [
+    {
+      "scenario_prompt": "While working on Reading Requirement 1 (Reading Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Reading Requirement 1 (Reading Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Estimating Take a tour of a library entries from memory at the end of the project satisfies the Reading Requirement 1 standard.",
+        "B. Defer all Reading Applied Field Standard measurements and safety checks until after the field session concludes.",
+        "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Take a tour of a.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+      ],
+      "choices": [
+        "A. Estimating Take a tour of a library entries from memory at the end of the project satisfies the Reading Requirement 1 standard.",
+        "B. Defer all Reading Applied Field Standard measurements and safety checks until after the field session concludes.",
+        "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Take a tour of a.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Take a tour of a.",
+      "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Reading log as each Take a tour of a library milestone is completed (p. 21, p. 34). (Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)).",
+      "pamphlet_page_ref": "p. 21, p. 34",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Reading Requirement 2 (A book you have enjoyed), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Reading Requirement 2 (A book you have enjoyed), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of A book you.",
+        "B. General familiarity with following, Identify is sufficient for Reading Requirement 2 without citing specific functional mechanisms.",
+        "C. Defer all A book you have enjoyed measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+      ],
+      "choices": [
+        "A. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of A book you.",
+        "B. General familiarity with following, Identify is sufficient for Reading Requirement 2 without citing specific functional mechanisms.",
+        "C. Defer all A book you have enjoyed measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of A book you.",
+      "explanation": "Correct Answer (A): The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of A book you have enjoyed (p. 20, p. 34). (Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)).",
+      "pamphlet_page_ref": "p. 20, p. 34",
+      "req_id": "2",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Reading Requirement 3 (Different Types of Books), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Reading Requirement 3 (Different Types of Books), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. General familiarity with different, types is sufficient for Reading Requirement 3 without citing specific functional mechanisms.",
+        "B. Defer all Different Types of Books measurements and safety checks until after the field session concludes.",
+        "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read four.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+      ],
+      "choices": [
+        "A. General familiarity with different, types is sufficient for Reading Requirement 3 without citing specific functional mechanisms.",
+        "B. Defer all Different Types of Books measurements and safety checks until after the field session concludes.",
+        "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read four.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read four.",
+      "explanation": "Correct Answer (C): The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read four different types of books (p. 20, p. 36). (Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)).",
+      "pamphlet_page_ref": "p. 20, p. 36",
+      "req_id": "3",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Reading Requirement 4 (Nonfiction Book or Magazine), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Reading Requirement 4 (Nonfiction Book or Magazine), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Describing how to perform Read a nonfiction book or magazine verbally can substitute for a physical hands-on demonstration in.",
+        "B. Defer all Nonfiction Book or Magazine measurements and safety checks until after the field session concludes.",
+        "C. Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Read a.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+      ],
+      "choices": [
+        "A. Describing how to perform Read a nonfiction book or magazine verbally can substitute for a physical hands-on demonstration in.",
+        "B. Defer all Nonfiction Book or Magazine measurements and safety checks until after the field session concludes.",
+        "C. Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Read a.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Read a.",
+      "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Reading pamphlet, each Scout must physically execute and demonstrate Read a nonfiction book or magazine with proper technique (p. 36, p. 41). (Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)).",
+      "pamphlet_page_ref": "p. 36, p. 41",
+      "req_id": "4",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Reading Requirement 5 (World Around You), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Reading Requirement 5 (World Around You), your patrol encounters a decision point on proper procedure. According to the Reading Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. General familiarity with world, sources is sufficient for Reading Requirement 5 without citing specific functional mechanisms.",
+        "B. Defer all World Around You measurements and safety checks until after the field session concludes.",
+        "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read About.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+      ],
+      "choices": [
+        "A. General familiarity with world, sources is sufficient for Reading Requirement 5 without citing specific functional mechanisms.",
+        "B. Defer all World Around You measurements and safety checks until after the field session concludes.",
+        "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read About.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Reading pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read About.",
+      "explanation": "Correct Answer (C): The Reading pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Read About The World (p. 31, p. 41). (Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)).",
+      "pamphlet_page_ref": "p. 31, p. 41",
+      "req_id": "5",
+      "option_id": null
+    }
+  ],
+  "quartermaster_manifest": {
+    "badge_name": "Reading",
+    "patrol_equipment": [
+      "Primary reference documents, case-study exhibits, and regulation charts for Reading Applied Field Standard",
+      "Structured Reading Requirement 1 worksheet, index cards, and verification rubric",
+      "Buddy-pair discussion prompt cards and counselor sign-off checklist",
+      "Primary reference documents, case-study exhibits, and regulation charts for A book you have enjoyed",
+      "Structured Reading Requirement 2 worksheet, index cards, and verification rubric",
+      "Primary reference documents, case-study exhibits, and regulation charts for Different Types of Books",
+      "Structured Reading Requirement 3 worksheet, index cards, and verification rubric",
+      "Calibrated instant-read digital food thermometer and sanitizing wipes"
+    ],
+    "individual_scout_gear": [
+      "Official Reading Merit Badge Pamphlet",
+      "Printed or Fillable Reading Scout Workbook",
+      "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
+      "Field notebook, pen/pencil, and personal safety equipment (PPE)"
+    ]
+  }
 }

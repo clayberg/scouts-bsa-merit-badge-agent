@@ -37,37 +37,38 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "HAZARD_5COL",
-            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+            "table_title": "Req 1a Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix",
             "headers": [
-              "Hazard / Risk",
-              "Anticipate",
-              "Help Prevent",
-              "Mitigate",
-              "Respond"
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
             ],
             "column_headers": [
-              "Hazard / Risk",
-              "Anticipate",
-              "Help Prevent",
-              "Mitigate",
-              "Respond"
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
             ],
             "row_labels": [
-              "Hazard #1",
-              "Hazard #2",
-              "Hazard #3",
-              "Hazard #4",
-              "Hazard #5"
+              "1. Primary Environmental Hazard in Composite Materials",
+              "2. Equipment or Tool Handling Hazard",
+              "3. Acute Physical / Medical Injury Risk",
+              "4. Emergency Communication & Evacuation Protocol"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Primary Environmental Hazard in Composite Materials",
+              "2. Equipment or Tool Handling Hazard",
+              "3. Acute Physical / Medical Injury Risk",
+              "4. Emergency Communication & Evacuation Protocol"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Composite Materials hands-on activities and address hazards only after an incident occurs.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Composite Materials prevents field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Composite Materials prevents field injuries.",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)"
+            "misconception": "Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Composite Materials Hazards and First Aid activity (p. 44, p. 46).",
+            "fact_correction": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Composite Materials Hazards and First Aid activity (p. 44, p. 46).",
+            "pamphlet_page_ref": "p. 44, p. 46"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -92,7 +93,12 @@
           ],
           "id": "1a",
           "sub_req_label": "1a",
-          "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while working with composite materials and what you should do to anticipate, mitigate, prevent, and respond to these hazards. Describe the appropriate safety gear and clothing that should be used when working with composite materials."
+          "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while working with composite materials and what you should do to anticipate, mitigate, prevent, and respond to these hazards. Describe the appropriate safety gear and clothing that should be used when working with composite materials.",
+          "topic_title": "Req 1a: Composite Materials Hazards and First Aid",
+          "pamphlet_summary": "Composite Materials Hazards and First Aid: Hazards, First Aid & Safety Principle 3: Working on projects for this merit badge is similar to work you have done for other badges involving tools, paints, and coatings or other chemicals (p. 44).",
+          "pamphlet_excerpts": [
+            "Composite Materials Hazards and First Aid: Hazards, First Aid & Safety Principle 3: Working on projects for this merit badge is similar to work you have done for other badges involving tools, paints, and coatings or other chemicals (p. 44)."
+          ]
         },
         {
           "sub_id": "1b",
@@ -112,28 +118,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Study & Explanation Notes",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Precautions That Must Be Taken)",
             "headers": [
-              "Req 1b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the precautions that must be taken when handling, storing",
-              "2. Include in your discussion the importance of health, safety"
+              "1. Core Definition & Mechanism (Precautions That Must Be Taken)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Precautions That Must Be Taken)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain the precautions that must be taken when handling, storing.",
-            "fact": "Scouts must explain explain the precautions that must be taken when handling, storing using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46).",
-            "fact_correction": "Scouts must explain explain the precautions that must be taken when handling, storing using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)"
+            "misconception": "Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Precautions That Must Be Taken activity (p. 44, p. 46).",
+            "fact_correction": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Precautions That Must Be Taken activity (p. 44, p. 46).",
+            "pamphlet_page_ref": "p. 44, p. 46"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -158,7 +172,12 @@
           ],
           "id": "1b",
           "sub_req_label": "1b",
-          "sub_req_text": "Explain the precautions that must be taken when handling, storing, and disposing of resins, reinforcements, and other materials used in composites. Include in your discussion the importance of health, safety, and environmental responsibility and awareness."
+          "sub_req_text": "Explain the precautions that must be taken when handling, storing, and disposing of resins, reinforcements, and other materials used in composites. Include in your discussion the importance of health, safety, and environmental responsibility and awareness.",
+          "topic_title": "Req 1b: Precautions That Must Be Taken",
+          "pamphlet_summary": "Precautions That Must Be Taken: Hazards, First Aid & Safety Principle 4: However, some specific safetyrequirements apply when you are using composite materials (p. 44).",
+          "pamphlet_excerpts": [
+            "Precautions That Must Be Taken: Hazards, First Aid & Safety Principle 4: However, some specific safetyrequirements apply when you are using composite materials (p. 44)."
+          ]
         },
         {
           "sub_id": "1c",
@@ -174,29 +193,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Study & Explanation Notes",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Safety Data Sheet SDS)",
             "headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Describe what a safety data sheet (SDS) is and tell why it is used",
-              "Pamphlet Standard & Key Facts (1c)",
-              "Field Application & Counselor Verification (Describe)"
+              "1. Core Definition & Mechanism (Safety Data Sheet SDS)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Safety Data Sheet SDS)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe what a safety data sheet (sds) is and tell why it is used.",
-            "fact": "Scouts must describe describe what a safety data sheet (sds) is and tell why it is used using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46).",
-            "fact_correction": "Scouts must describe describe what a safety data sheet (sds) is and tell why it is used using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)"
+            "misconception": "Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safety Data Sheet SDS activity (p. 44, p. 46).",
+            "fact_correction": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safety Data Sheet SDS activity (p. 44, p. 46).",
+            "pamphlet_page_ref": "p. 44, p. 46"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -221,7 +247,12 @@
           ],
           "id": "1c",
           "sub_req_label": "1c",
-          "sub_req_text": "Describe what a safety data sheet (SDS) is and tell why it is used."
+          "sub_req_text": "Describe what a safety data sheet (SDS) is and tell why it is used.",
+          "topic_title": "Req 1c: Safety Data Sheet SDS",
+          "pamphlet_summary": "Safety Data Sheet SDS: Hazards, First Aid & Safety: Handling, storing, and disposing of substances used in composite materials can create safety and environmental hazards (p. 44).",
+          "pamphlet_excerpts": [
+            "Safety Data Sheet SDS: Hazards, First Aid & Safety: Handling, storing, and disposing of substances used in composite materials can create safety and environmental hazards (p. 44)."
+          ]
         }
       ],
       "resources": [
@@ -264,36 +295,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "HAZARD_5COL",
-        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+        "table_title": "Req 1 Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix",
         "headers": [
-          "Hazard / Risk",
-          "Anticipate",
-          "Help Prevent",
-          "Mitigate",
-          "Respond"
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
         ],
         "column_headers": [
-          "Hazard / Risk",
-          "Anticipate",
-          "Help Prevent",
-          "Mitigate",
-          "Respond"
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
         ],
         "row_labels": [
-          "Hazard #1",
-          "Hazard #2",
-          "Hazard #3",
-          "Hazard #4",
-          "Hazard #5"
+          "(1a) Composite Materials Hazards and First Aid",
+          "(1b) Precautions That Must Be Taken",
+          "(1c) Safety Data Sheet SDS"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false
+        "rows": [
+          "(1a) Composite Materials Hazards and First Aid",
+          "(1b) Precautions That Must Be Taken",
+          "(1c) Safety Data Sheet SDS"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Composite Materials hands-on activities and address hazards only after an incident occurs.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Composite Materials prevents field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Composite Materials prevents field injuries.",
-        "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)"
+        "misconception": "Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 44, p. 46).",
+        "fact_correction": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 44, p. 46).",
+        "pamphlet_page_ref": "p. 44, p. 46"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -317,61 +347,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Handling Storing Disposing: Handling, storing, and disposing of substances used in composite materials can create safety and environmental hazards.",
-        "Bytaking Proper Precautions: Bytaking proper precautions, you can reduce these hazards andsafely use these materials.",
-        "Working Projects Similarto: Working on projects for this merit badge is similarto work you have done for other badges involving tools, paints, and coatings or other chemicals.",
-        "However Specific: However, some specific safetyrequirements apply when you are using composite materials."
+        "Hazards, First Aid & Safety: Handling, storing, and disposing of substances used in composite materials can create safety and environmental hazards (p. 44).",
+        "Hazards, First Aid & Safety Principle 2: Bytaking proper precautions, you can reduce these hazards andsafely use these materials (p. 44).",
+        "Hazards, First Aid & Safety Principle 3: Working on projects for this merit badge is similar to work you have done for other badges involving tools, paints, and coatings or other chemicals (p. 44).",
+        "Hazards, First Aid & Safety Principle 4: However, some specific safetyrequirements apply when you are using composite materials (p. 44)."
       ],
       "step_by_step_procedure": [
-        "Knowledgeable Materials: You must be knowledgeable about the materials and toolsyou will use for your projects.",
-        "Understand Theproper Methods: Understand theproper methods for safely handling the materials.",
-        "Observe Rules Working with: Observe two important rules when working with composites for this merit badge: • N \u0007 ever work alone.",
-        "Youare Probably Moreaware: As a Scout, youare probably moreaware of safetythan many otherpeople are."
+        "Step 1 (Hazards, First Aid & Safety): You must be knowledgeable about the materials and toolsyou will use for your projects (p. 44).",
+        "Step 2 (Hazards, First Aid & Safety): Understand theproper methods for safely handling the materials (p. 44).",
+        "Step 3 (Hazards, First Aid & Safety): Observe two important rules when working with composites for this merit badge: • N \u0007 ever work alone (p. 44).",
+        "Step 4 (Hazards, First Aid & Safety): As a Scout, you are probably moreaware of safetythan many otherpeople (p. 44)."
       ],
       "gear_checklist": [
-        "Official Composite Materials Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Composite Materials Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Hazards, First Aid & Safety)",
+        "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
+        "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs.",
+        "Emergency action plan checklist and simulated patient assessment cards."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Composite Materials Approach",
-        "right_header": "Official BSA Composite Materials Standard (Hazards, First Aid & Safety)",
+        "left_header": "Proactive Hazard Prevention (Hazards, First Aid & Safety)",
+        "right_header": "Acute Emergency Response (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Eliminate environmental and equipment risks before starting.",
+          "Hazards, First Aid & Safety: Handling, storing, and disposing of substances used in composite materials can create safety and environmental.",
+          "Pre-activity PPE, weather, and buddy shakedown."
         ],
         "right_points": [
-          "Reviews Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Composite Materials Workbook organizer.",
-          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Hazards, First Aid & Safety Principle 2: Bytaking proper precautions, you can reduce these hazards andsafely use these materials (p. 44).",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Hazards, First Aid & Safety: Handling, storing, and disposing of substances used in composite materials can create safety and environmental ",
+            "right": "Hazards, First Aid & Safety Principle 2: Bytaking proper precautions, you can reduce these hazards andsafely use these materials (p. 44)."
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Composite Materials Req 1",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Composite Materials Req 1 (Hazards, First Aid & Safety)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
-          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
-          "Primary Standard": "Explain to your counselor the most likely hazards you may encounter while working with composite materials and what you should do to anticipate, mitigate, prevent, and respond to these hazards.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Composite Materials terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46) and verified during counselor conference."
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Hazards, First Aid & Safety.",
+          "Preventive Controls & PPE": "Hazards, First Aid & Safety: Handling, storing, and disposing of substances used in composite materials can create safety and environmental hazards (p. 44).",
+          "Acute First-Aid Response": "Hazards, First Aid & Safety Principle 2: Bytaking proper precautions, you can reduce these hazards andsafely use these materials (p. 44).",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)."
         },
-        "counselor_tip": "Complete your Composite Materials Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Hazards, First Aid & Safety: Hazards, First Aid & Safety: Handling, storing, and disposing of substances used in composite materials can create safety and environmental ",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before starting hands-on or field work for Composite Materials (Hazards, First Aid & Safety), which patrol preparation step best aligns with the official Composite Materials standard?",
+        "scenario_prompt": "While working on Composite Materials Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Composite Materials Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
         "options": [
-          "Review the Composite Materials hazards, PPE, and prerequisite standards in Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46) with your counselor and patrol buddy before beginning",
-          "Begin the practical station immediately and review the safety rules only if a problem occurs",
-          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
-          "Skip the pre-activity briefing when practicing indoors"
+          "A. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+          "B. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
         ],
-        "correct_answer": "Option A - Review the Composite Materials hazards, PPE, and prerequisite standards in Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46) with your counselor and patrol buddy before beginning",
-        "explanation": "Per Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
+        "choices": [
+          "A. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+          "B. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+        "explanation": "Correct Answer (A): The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 44, p. 46). (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)).",
+        "pamphlet_page_ref": "p. 44, p. 46"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Composite Materials Workbook organizer table and practical demonstration for Req 1."
+      "homework_verification_note": "Verify completed Composite Materials Workbook organizer table and practical demonstration for Req 1.",
+      "workbook_diagram_url": "assets/ai_illustrations/composite_materials_req_1_workbook_diagram.png"
     },
     {
       "req_id": "2",
@@ -398,28 +457,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Study & Explanation Notes",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Composite Materials Origins and Evolution)",
             "headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what composite materials are",
-              "2. Include a brief history of composites and how they have developed"
+              "1. Core Definition & Mechanism (Composite Materials Origins and Evolution)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Composite Materials Origins and Evolution)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain what composite materials are.",
-            "fact": "Scouts must explain explain what composite materials are using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20).",
-            "fact_correction": "Scouts must explain explain what composite materials are using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)"
+            "misconception": "General familiarity with Explain, composite is sufficient for Composite Materials Requirement 2a without citing specific functional mechanisms.",
+            "fact": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Historical Origins and Evolution (p. 19, p. 20).",
+            "fact_correction": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Historical Origins and Evolution (p. 19, p. 20).",
+            "pamphlet_page_ref": "p. 19, p. 20"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -444,7 +511,12 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Explain what composite materials are. Include a brief history of composites and how they have developed."
+          "sub_req_text": "Explain what composite materials are. Include a brief history of composites and how they have developed.",
+          "topic_title": "Req 2a: Composite Materials Origins and Evolution",
+          "pamphlet_summary": "Composite Materials Origins and Evolution: Historical Origins and Evolution: Composite materials Principle 4: Boats, trucks, sports cars, storage tanks, pipes, and ducts, almostanything imaginable, werebuilt using composites (p. 19).",
+          "pamphlet_excerpts": [
+            "Composite Materials Origins and Evolution: Historical Origins and Evolution: Composite materials Principle 4: Boats, trucks, sports cars, storage tanks, pipes, and ducts, almostanything imaginable, werebuilt using composites (p. 19)."
+          ]
         },
         {
           "sub_id": "2b",
@@ -460,31 +532,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2b Differential Comparison Matrix",
+            "table_title": "Req 2b Technical Comparison Matrix (Similarities and Differences Between Composites)",
             "headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "column_headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "row_labels": [
-              "1. Compare the similarities and differences between composites and wood",
-              "2. Describe the physical, electrical, mechanical, corrosive, flammability, cost",
-              "3. For each of these raw materials, give one example of how it can be shaped"
+              "1. Operating Principle & Design (Similarities and Differences Between Composites)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Operating Principle & Design (Similarities and Differences Between Composites)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on compare the similarities and differences between composites and wood.",
-            "fact": "Scouts must compare compare the similarities and differences between composites and wood using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20).",
-            "fact_correction": "Scouts must compare compare the similarities and differences between composites and wood using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)"
+            "misconception": "All methods covered under Compare The Similarities and Differences in Composite Materials are interchangeable regardless of operating conditions.",
+            "fact": "Each method or system in Compare The Similarities and Differences has distinct operating limits, efficiency trade-offs, and field applications defined in the Composite Materials pamphlet (p. 19, p. 20).",
+            "fact_correction": "Each method or system in Compare The Similarities and Differences has distinct operating limits, efficiency trade-offs, and field applications defined in the Composite Materials pamphlet (p. 19, p. 20).",
+            "pamphlet_page_ref": "p. 19, p. 20"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -509,7 +586,12 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Compare the similarities and differences between composites and wood, aluminum, copper, and steel. Describe the physical, electrical, mechanical, corrosive, flammability, cost, and other such properties. For each of these raw materials, give one example of how it can be shaped and used for a specific application."
+          "sub_req_text": "Compare the similarities and differences between composites and wood, aluminum, copper, and steel. Describe the physical, electrical, mechanical, corrosive, flammability, cost, and other such properties. For each of these raw materials, give one example of how it can be shaped and used for a specific application.",
+          "topic_title": "Req 2b: Similarities and Differences Between Composites",
+          "pamphlet_summary": "Similarities and Differences Between Composites: Compare The Similarities and Differences: The new composites industry developed further during World War (p. 19).",
+          "pamphlet_excerpts": [
+            "Similarities and Differences Between Composites: Compare The Similarities and Differences: The new composites industry developed further during World War (p. 19)."
+          ]
         }
       ],
       "resources": [
@@ -544,29 +626,31 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Differential Comparison Matrix",
+        "table_title": "Req 2 Technical Comparison Matrix (Composite materials)",
         "headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "column_headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "row_labels": [
-          "(a) Explain what composite materials are",
-          "(b) Compare the similarities and differences between composites and wood"
+          "(2a) Composite Materials Origins and Evolution",
+          "(2b) Similarities and Differences Between Composites"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false
+        "rows": [
+          "(2a) Composite Materials Origins and Evolution",
+          "(2b) Similarities and Differences Between Composites"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explain what composite materials are.",
-        "fact": "Scouts must demonstrate explain what composite materials are using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20).",
-        "fact_correction": "Scouts must demonstrate explain what composite materials are using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20).",
-        "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)"
+        "misconception": "All methods covered under Composite materials in Composite Materials are interchangeable regardless of operating conditions.",
+        "fact": "Each method or system in Composite materials has distinct operating limits, efficiency trade-offs, and field applications defined in the Composite Materials pamphlet (p. 19, p. 20).",
+        "fact_correction": "Each method or system in Composite materials has distinct operating limits, efficiency trade-offs, and field applications defined in the Composite Materials pamphlet (p. 19, p. 20).",
+        "pamphlet_page_ref": "p. 19, p. 20"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -590,49 +674,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "New Composites Industry: The new composites industry developed further during World War II.",
-        "Air Force Navy: The U.S. Air Force and Navy made good use ofthese properties of composites in many aircraft and watercraft.",
-        "Composites Grew Quickly: After the war, the use of composites grew quickly.",
-        "Boats Trucks Sports: Boats, trucks, sports cars, storage tanks, pipes, and ducts, almostanything imaginable, werebuilt using composites."
+        "Composite materials: The new composites industry developed further during World War (p. 19).",
+        "Composite materials Principle 2: The U. S. Air Force and Navy made good use of these properties of composites in many aircraft and watercraft (p. 19).",
+        "Composite materials Principle 3: After the war, the use of composites grew quickly (p. 19).",
+        "Composite materials Principle 4: Boats, trucks, sports cars, storage tanks, pipes, and ducts, almostanything imaginable, werebuilt using composites (p. 19)."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Review Standard (Req 2): Read the official Composite Materials requirement and identify the key questions, terms, or skills covered in Composite materials.",
-        "Step 2 - Gather Evidence & Examples: Research the required facts in the Composite Materials Pamphlet and record structured notes in your Scout Workbook.",
-        "Step 3 - Practice & Apply (Demonstrate): Work with your patrol buddy or family (as required) to demonstrate each element of Composite materials with concrete real-world examples.",
-        "Step 4 - Counselor Conference & Sign-Off: Present your completed workbook organizer and demonstrate your understanding to your Merit Badge Counselor for Blue Card verification."
+        "Step 1 (Composite materials Preparation): Inspect the workspace, reference materials, and safety controls required for Composite Materials Requirement 2 (p. 14).",
+        "Step 2 (Composite materials Execution): Apply the official Composite Materials pamphlet method for Composite materials while recording observations in your Scout Workbook (p. 14).",
+        "Step 3 (Composite materials Buddy Check): Cross-check your Composite materials technique, measurements, and results with a patrol buddy using the EDGE method (p. 14).",
+        "Step 4 (Composite materials Verification): Review your completed Composite materials evidence and demonstrate proficiency during your counselor conference (p. 14)."
       ],
       "gear_checklist": [
-        "Official Composite Materials Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Composite materials",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Composite Materials Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Composite materials)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Composite Materials Approach",
-        "right_header": "Official BSA Composite Materials Standard (Composite materials)",
+        "left_header": "Foundational Principles (Composite materials)",
+        "right_header": "Applied Field Execution (Composite materials)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Composite materials.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Composite materials.",
+          "Composite materials: The new composites industry developed further during World War (p. 19).",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Composite Materials Workbook organizer.",
-          "Clearly demonstrates and explains Composite materials using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Composite Materials.",
+          "Composite materials Principle 2: The U. S. Air Force and Navy made good use ofthese properties of composites in many aircraft and watercraft.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Composite materials.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Composite Materials."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Composite materials: The new composites industry developed further during World War II (p. 19).",
+            "right": "Composite materials Principle 2: The U. S. Air Force and Navy made good use ofthese properties of composites in many aircraft and watercraft"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Composite Materials Req 2",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Technical Analysis: Composite Materials Req 2 (Composite materials)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Requirement & Topic": "Req 2 - Composite materials",
-          "Primary Standard": "Explain what composite materials are. Include a brief history of composites and how they have developed.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Composite Materials terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20) and verified during counselor conference."
+          "Core Technical Principle": "Composite materials: The new composites industry developed further during World War (p. 19).",
+          "Applied Field Mechanism": "Composite materials Principle 2: The U. S. Air Force and Navy made good use of these properties of composites in many aircraft and watercraft (p. 19).",
+          "Real-World Case Example": "Concrete application of Composite materials documented during Composite Materials study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)."
         },
-        "counselor_tip": "Complete your Composite Materials Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Composite materials: Composite materials: The new composites industry developed further during World War II (p. 19).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Composite Materials Requirement 2 (Composite materials), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Composite Materials Requirement 2 (Composite materials), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Each method or system in Composite materials has distinct operating limits, efficiency trade-offs, and field applications defined.",
+          "B. All methods covered under Composite materials in Composite Materials are interchangeable regardless of operating conditions.",
+          "C. Defer all Composite materials measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+        ],
+        "choices": [
+          "A. Each method or system in Composite materials has distinct operating limits, efficiency trade-offs, and field applications defined.",
+          "B. All methods covered under Composite materials in Composite Materials are interchangeable regardless of operating conditions.",
+          "C. Defer all Composite materials measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Each method or system in Composite materials has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "explanation": "Correct Answer (A): Each method or system in Composite materials has distinct operating limits, efficiency trade-offs, and field applications defined in the Composite Materials pamphlet (p. 19, p. 20). (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)).",
+        "pamphlet_page_ref": "p. 19, p. 20"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Composite Materials Workbook organizer table and practical demonstration for Req 2."
     },
@@ -657,28 +779,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Study & Explanation Notes",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Different Composite Reinforcement Materials)",
             "headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss three different composite reinforcement materials, their positive",
-              "2. Obtain the SDS for each one and discuss the toxicity, disposal"
+              "1. Core Definition & Mechanism (Different Composite Reinforcement Materials)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Different Composite Reinforcement Materials)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss three different composite reinforcement materials, their positive.",
-            "fact": "Scouts must discuss discuss three different composite reinforcement materials, their positive using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35).",
-            "fact_correction": "Scouts must discuss discuss three different composite reinforcement materials, their positive using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)"
+            "misconception": "Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Three Different Composite Reinforcement Materials activity (p. 31, p. 35).",
+            "fact_correction": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Three Different Composite Reinforcement Materials activity (p. 31, p. 35).",
+            "pamphlet_page_ref": "p. 31, p. 35"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -703,7 +833,12 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Discuss three different composite reinforcement materials, their positive and negative characteristics, and their uses. Obtain the SDS for each one and discuss the toxicity, disposal, and safe-handling sections for these materials."
+          "sub_req_text": "Discuss three different composite reinforcement materials, their positive and negative characteristics, and their uses. Obtain the SDS for each one and discuss the toxicity, disposal, and safe-handling sections for these materials.",
+          "topic_title": "Req 3a: Different Composite Reinforcement Materials",
+          "pamphlet_summary": "Different Composite Reinforcement Materials: Three Different Composite Reinforcement Materials: Composite materials are made: Resins used in composites can be either thermoset orthermoplastic (p. 31).",
+          "pamphlet_excerpts": [
+            "Different Composite Reinforcement Materials: Three Different Composite Reinforcement Materials: Composite materials are made: Resins used in composites can be either thermoset orthermoplastic (p. 31)."
+          ]
         },
         {
           "sub_id": "3b",
@@ -719,29 +854,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Study & Explanation Notes",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Different Resins Used in Composites)",
             "headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss three different resins used in composites, their positive",
-              "2. Obtain the SDS for each one and discuss the toxicity, disposal",
-              "3. Include thermoset resins and thermoplastic resins in your discussion"
+              "1. Core Definition & Mechanism (Different Resins Used in Composites)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Different Resins Used in Composites)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss three different resins used in composites, their positive.",
-            "fact": "Scouts must discuss discuss three different resins used in composites, their positive using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35).",
-            "fact_correction": "Scouts must discuss discuss three different resins used in composites, their positive using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)"
+            "misconception": "Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Three Different Resins Used activity (p. 31, p. 35).",
+            "fact_correction": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Three Different Resins Used activity (p. 31, p. 35).",
+            "pamphlet_page_ref": "p. 31, p. 35"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -766,7 +908,12 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Discuss three different resins used in composites, their positive and negative characteristics, and their uses. Obtain the SDS for each one and discuss the toxicity, disposal, and safe-handling sections for these materials. Include thermoset resins and thermoplastic resins in your discussion."
+          "sub_req_text": "Discuss three different resins used in composites, their positive and negative characteristics, and their uses. Obtain the SDS for each one and discuss the toxicity, disposal, and safe-handling sections for these materials. Include thermoset resins and thermoplastic resins in your discussion.",
+          "topic_title": "Req 3b: Different Resins Used in Composites",
+          "pamphlet_summary": "Different Resins Used in Composites: Three Different Resins Used: Composite materials are made Principle 2: Thermoset resins are changed from a liquid to a solid in an irreversible process calledcrosslinking (p. 31).",
+          "pamphlet_excerpts": [
+            "Different Resins Used in Composites: Three Different Resins Used: Composite materials are made Principle 2: Thermoset resins are changed from a liquid to a solid in an irreversible process calledcrosslinking (p. 31)."
+          ]
         },
         {
           "sub_id": "3c",
@@ -777,29 +924,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Study & Explanation Notes",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Resins You Chose)",
             "headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. For each of the three resins you chose for requirement 3(b), think",
-              "2. Key Pamphlet Examples & Evidence (Req 3c)",
-              "3. Practical Explain & Safety Verification"
+              "1. Core Definition & Mechanism (Resins You Chose)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Resins You Chose)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on for each of the three resins you chose for requirement 3(b), think.",
-            "fact": "Scouts must explain for each of the three resins you chose for requirement 3(b), think using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35).",
-            "fact_correction": "Scouts must explain for each of the three resins you chose for requirement 3(b), think using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)"
+            "misconception": "General familiarity with three, resins is sufficient for Composite Materials Requirement 3c without citing specific functional mechanisms.",
+            "fact": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Each of The Three Resins (p. 31, p. 35).",
+            "fact_correction": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Each of The Three Resins (p. 31, p. 35).",
+            "pamphlet_page_ref": "p. 31, p. 35"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -824,7 +978,12 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "For each of the three resins you chose for requirement 3(b), think of a new application that might be worth developing."
+          "sub_req_text": "For each of the three resins you chose for requirement 3(b), think of a new application that might be worth developing.",
+          "topic_title": "Req 3c: Resins You Chose",
+          "pamphlet_summary": "Resins You Chose: Each of The Three Resins: Composite materials are made Principle 3: Thermoplastic resins, on the other hand, can be remelted and recycled; the hardening processis reversible (p. 31).",
+          "pamphlet_excerpts": [
+            "Resins You Chose: Each of The Three Resins: Composite materials are made Principle 3: Thermoplastic resins, on the other hand, can be remelted and recycled; the hardening processis reversible (p. 31)."
+          ]
         }
       ],
       "resources": [
@@ -859,28 +1018,33 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Study & Explanation Notes",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Composite materials are made)",
         "headers": [
-          "Req 3 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 3 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Discuss three different composite reinforcement materials, their positive",
-          "(b) Discuss three different resins used in composites, their positive",
-          "(c) For each of the three resins you chose for requirement 3(b), think of a new"
+          "(3a) Different Composite Reinforcement Materials",
+          "(3b) Different Resins Used in Composites",
+          "(3c) Resins You Chose"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": false
+        "rows": [
+          "(3a) Different Composite Reinforcement Materials",
+          "(3b) Different Resins Used in Composites",
+          "(3c) Resins You Chose"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss three different composite reinforcement materials, their positive.",
-        "fact": "Scouts must discuss discuss three different composite reinforcement materials, their positive using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35).",
-        "fact_correction": "Scouts must discuss discuss three different composite reinforcement materials, their positive using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35).",
-        "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)"
+        "misconception": "Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Composite materials are made activity (p. 31, p. 35).",
+        "fact_correction": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Composite materials are made activity (p. 31, p. 35).",
+        "pamphlet_page_ref": "p. 31, p. 35"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -904,49 +1068,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Resins Composites Thermoset: Resins used in composites can be either thermoset orthermoplastic.",
-        "Thermoset Resins Changed: Thermoset resins are changed from a liquid to a solid in an irreversible process calledcrosslinking.",
-        "Thermoplastic Resins Hand: Thermoplastic resins, on the other hand, can be remelted and recycled; the hardening processis reversible.",
-        "Thermoplastics Typical: Thermoplastics are the typical plastics we are familiar with athome and at school."
+        "Composite materials are made: Resins used in composites can be either thermoset orthermoplastic (p. 31).",
+        "Composite materials are made Principle 2: Thermoset resins are changed from a liquid to a solid in an irreversible process calledcrosslinking (p. 31).",
+        "Composite materials are made Principle 3: Thermoplastic resins, on the other hand, can be remelted and recycled; the hardening processis reversible (p. 31).",
+        "Composite materials are made Principle 4: Thermoplastics are the typical plastics we are familiar with athome and at school (p. 31)."
       ],
       "step_by_step_procedure": [
-        "Includes Toys Plastic: This includes toys, plastic containers of alltypes, and hundreds of common items we use every day.",
-        "Common Thermoset Resins: Common thermoset resins include polyester, vinyl ester, andepoxy.",
-        "Polyester Resins Commonly: Polyester resins are the most commonly used because theyare low in cost and are suitable for many products.",
-        "Epoxy Resin Tough: Epoxy resin is tough, nonconductive, resistant to chemicals, and dimensionally stable."
+        "Step 1 (Composite materials are made): This includes toys, plastic containers of alltypes, and hundreds of common items we use every day (p. 31).",
+        "Step 2 (Composite materials are made): Common thermoset resins include polyester, vinyl ester, andepoxy (p. 31).",
+        "Step 3 (Composite materials are made): Polyester resins are the most commonly used because they are low in cost and are suitable for many products (p. 31).",
+        "Step 4 (Composite materials are made): Epoxy resin is tough, nonconductive, resistant to chemicals, and dimensionally stable (p. 31)."
       ],
       "gear_checklist": [
-        "Official Composite Materials Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Composite materials are made",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Composite Materials Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Composite materials are made)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Composite Materials Approach",
-        "right_header": "Official BSA Composite Materials Standard (Composite materials are made)",
+        "left_header": "Proactive Hazard Prevention (Composite materials are made)",
+        "right_header": "Acute Emergency Response (Composite materials are made)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Composite materials are made.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Eliminate environmental and equipment risks before starting.",
+          "Composite materials are made: Resins used in composites can be either thermoset orthermoplastic (p. 31).",
+          "Pre-activity PPE, weather, and buddy shakedown."
         ],
         "right_points": [
-          "Reviews Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Composite Materials Workbook organizer.",
-          "Clearly demonstrates and explains Composite materials are made using the BSA EDGE method."
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Composite materials are made Principle 2: Thermoset resins are changed from a liquid to a solid in an irreversible process calledcrosslinkin.",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Composite materials are made: Resins used in composites can be either thermoset orthermoplastic (p. 31).",
+            "right": "Composite materials are made Principle 2: Thermoset resins are changed from a liquid to a solid in an irreversible process calledcrosslinkin"
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Composite Materials Req 3",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Composite Materials Req 3 (Composite materials are made)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
-          "Requirement & Topic": "Req 3 - Composite materials are made",
-          "Primary Standard": "Discuss three different composite reinforcement materials, their positive and negative characteristics, and their uses. Obtain the SDS for each one and discuss the toxicity, disposal, and safe-handling sections for these materials.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Composite Materials terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35) and verified during counselor conference."
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Composite materials are made.",
+          "Preventive Controls & PPE": "Composite materials are made: Resins used in composites can be either thermoset orthermoplastic (p. 31).",
+          "Acute First-Aid Response": "Composite materials are made Principle 2: Thermoset resins are changed from a liquid to a solid in an irreversible process calledcrosslinking (p. 31).",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)."
         },
-        "counselor_tip": "Complete your Composite Materials Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Composite materials are made: Composite materials are made: Resins used in composites can be either thermoset orthermoplastic (p. 31).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Composite Materials Requirement 3 (Composite materials are made), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Composite Materials Requirement 3 (Composite materials are made), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Composite materials are made measurements and safety checks until after the field session concludes.",
+          "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+        ],
+        "choices": [
+          "A. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Composite materials are made measurements and safety checks until after the field session concludes.",
+          "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+        "explanation": "Correct Answer (C): The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Composite materials are made activity (p. 31, p. 35). (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)).",
+        "pamphlet_page_ref": "p. 31, p. 35"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Composite Materials Workbook organizer table and practical demonstration for Req 3."
     },
@@ -966,28 +1168,36 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Study & Explanation Notes",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Company That Manufactures or Repairs)",
             "headers": [
-              "Req 4a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Visit a company that manufactures or repairs products made with composites",
-              "2. Discuss what you learned with your counselor"
+              "1. Core Definition & Mechanism (Company That Manufactures or Repairs)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Company That Manufactures or Repairs)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit a company that manufactures or repairs products made with composites.",
-            "fact": "Scouts must discuss visit a company that manufactures or repairs products made with composites using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41).",
-            "fact_correction": "Scouts must discuss visit a company that manufactures or repairs products made with composites using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)"
+            "misconception": "Watching a generic video without preparing questions or counselor approval fulfills the Visit A Company That Manufactures field investigation in Composite Materials.",
+            "fact": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit A Company That Manufactures, and document specific findings (p. 40, p. 41).",
+            "fact_correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit A Company That Manufactures, and document specific findings (p. 40, p. 41).",
+            "pamphlet_page_ref": "p. 40, p. 41"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1012,7 +1222,12 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Visit a company that manufactures or repairs products made with composites. Discuss what you learned with your counselor."
+          "sub_req_text": "Visit a company that manufactures or repairs products made with composites. Discuss what you learned with your counselor.",
+          "topic_title": "Req 4a: Company That Manufactures or Repairs",
+          "pamphlet_summary": "Company That Manufactures or Repairs: Visit A Company That Manufactures: Your Parent or Guardian's Permission Principle 2: This will help you develop a list of questions to ask (p. 40).",
+          "pamphlet_excerpts": [
+            "Company That Manufactures or Repairs: Visit A Company That Manufactures: Your Parent or Guardian's Permission Principle 2: This will help you develop a list of questions to ask (p. 40)."
+          ]
         },
         {
           "sub_id": "4b",
@@ -1023,28 +1238,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Study & Explanation Notes",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Composites-related Websites)",
             "headers": [
-              "Req 4b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Find three composites-related websites",
-              "2. Share and discuss what you learned with your counselor"
+              "1. Core Definition & Mechanism (Composites-related Websites)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Composites-related Websites)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on find three composites-related websites.",
-            "fact": "Scouts must discuss find three composites-related websites using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41).",
-            "fact_correction": "Scouts must discuss find three composites-related websites using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)"
+            "misconception": "General familiarity with three, composites-related is sufficient for Composite Materials Requirement 4b without citing specific functional mechanisms.",
+            "fact": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Find Three Composites-related Websites (p. 40, p. 41).",
+            "fact_correction": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Find Three Composites-related Websites (p. 40, p. 41).",
+            "pamphlet_page_ref": "p. 40, p. 41"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1069,7 +1292,12 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Find three composites-related websites. Share and discuss what you learned with your counselor."
+          "sub_req_text": "Find three composites-related websites. Share and discuss what you learned with your counselor.",
+          "topic_title": "Req 4b: Composites-related Websites",
+          "pamphlet_summary": "Composites-related Websites: Find Three Composites-related Websites: Your Parent or Guardian's Permission Principle 3: Are the resins thermoplastic or thermoset? • Are the fiber reinforcements being used natural or synthetic (p. 40).",
+          "pamphlet_excerpts": [
+            "Composites-related Websites: Find Three Composites-related Websites: Your Parent or Guardian's Permission Principle 3: Are the resins thermoplastic or thermoset? • Are the fiber reinforcements being used natural or synthetic (p. 40)."
+          ]
         }
       ],
       "resources": [],
@@ -1081,7 +1309,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: With your parent or guardian's permission",
+      "topic_title": "Req 4: Counselor's Approval Do ONE",
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
@@ -1091,27 +1319,31 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Study & Explanation Notes",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Counselor's Approval Do ONE)",
         "headers": [
-          "Req 4 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 4 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 4 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 4 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Visit a company that manufactures or repairs products made with composites",
-          "(b) Find three composites-related websites"
+          "(4a) Company That Manufactures or Repairs",
+          "(4b) Composites-related Websites"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": true
+        "rows": [
+          "(4a) Company That Manufactures or Repairs",
+          "(4b) Composites-related Websites"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit a company that manufactures or repairs products made with composites.",
-        "fact": "Scouts must explain visit a company that manufactures or repairs products made with composites using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41).",
-        "fact_correction": "Scouts must explain visit a company that manufactures or repairs products made with composites using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41).",
-        "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)"
+        "misconception": "Watching a generic video without preparing questions or counselor approval fulfills the Your Parent or Guardian's Permission field investigation in Composite Materials.",
+        "fact": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Your Parent or Guardian's Permission, and document specific findings (p. 40, p. 41).",
+        "fact_correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Your Parent or Guardian's Permission, and document specific findings (p. 40, p. 41).",
+        "pamphlet_page_ref": "p. 40, p. 41"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1140,36 +1372,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Homework Outwhat Kinds: Before the visit or tour, do some homework to find outwhat kinds of composite products the company manufactures.",
-        "Develop List Questions: This will help you develop a list of questions to ask.",
-        "Resins Thermoplastic: Are the resins thermoplastic or thermoset? • Are the fiber reinforcements being used natural or synthetic?.",
-        "Properties Fibers Them: What properties of the fibers make them right for theproducts being made?."
+        "Counselor's Approval Do ONE: Your Parent or Guardian's Permission: Before the visit or tour, do some homework to find outwhat kinds of composite products the company manufactures (p. 40).",
+        "Counselor's Approval Do ONE Principle 2: Your Parent or Guardian's Permission Principle 2: This will help you develop a list of questions to ask (p. 40).",
+        "Counselor's Approval Do ONE Principle 3: Your Parent or Guardian's Permission Principle 3: Are the resins thermoplastic or thermoset? • Are the fiber reinforcements being used natural or synthetic (p. 40).",
+        "Counselor's Approval Do ONE Principle 4: Your Parent or Guardian's Permission Principle 4: What properties of the fibers make them right for theproducts being made (p. 40)."
       ],
       "step_by_step_procedure": [
-        "Ask Core Materials: You could also ask about any core materials (balsa, varieties of foam, honeycomb), fillers or additives, and gelcoats that are used.",
-        "Composites Positioned: How Are Composites Made? positioned, hardware can be inserted and the two halves of themold are clamped together.",
-        "Then Molds Areseparated: Then the molds areseparated and the hood is carefully removed.",
-        "Method Nogel Coat: This method needs nogel coat or cleaning of the mold surfaces."
+        "Step 1 (Counselor's Approval Do ONE): Step 1 (Your Parent or Guardian's Permission): You could also ask about any core materials (balsa, varieties of foam, honeycomb), fillers or additives, and gelcoats that are used (p. 40).",
+        "Step 2 (Counselor's Approval Do ONE): Step 2 (Your Parent or Guardian's Permission): How Are Composites Made? positioned, hardware can be inserted and the two halves of themold are clamped together (p. 40).",
+        "Step 3 (Counselor's Approval Do ONE): Step 3 (Your Parent or Guardian's Permission): Then the molds areseparated and the hood is carefully removed (p. 40).",
+        "Step 4 (Counselor's Approval Do ONE): Step 4 (Your Parent or Guardian's Permission): This method needs nogel coat or cleaning of the mold surfaces (p. 40)."
       ],
       "gear_checklist": [
-        "Official Composite Materials Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for With your parent or guardian's permission",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Composite Materials Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Counselor's Approval Do ONE)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Composite Materials Req 4",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 4 - With your parent or guardian's permission",
-          "Primary Standard": "Visit a company that manufactures or repairs products made with composites. Discuss what you learned with your counselor.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Composite Materials terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Composite Materials Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Your Parent or Guardian's Permission)",
+        "right_header": "Applied Field Execution (Your Parent or Guardian's Permission)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Your Parent or Guardian's Permission.",
+          "Your Parent or Guardian's Permission: Before the visit or tour, do some homework to find outwhat kinds of composite products the company man.",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Composite Materials.",
+          "Your Parent or Guardian's Permission Principle 2: This will help you develop a list of questions to ask (p. 40).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Your Parent or Guardian's Permission.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Composite Materials."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Your Parent or Guardian's Permission: Before the visit or tour, do some homework to find outwhat kinds of composite products the company man",
+            "right": "Your Parent or Guardian's Permission Principle 2: This will help you develop a list of questions to ask (p. 40)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Composite Materials Req 4 (Counselor's Approval Do ONE)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Counselor's Approval Do ONE: Your Parent or Guardian's Permission: Before the visit or tour, do some homework to find outwhat kinds of composite products the company manufactures ()",
+          "Applied Field Mechanism": "Counselor's Approval Do ONE Principle 2: Your Parent or Guardian's Permission Principle 2: This will help you develop a list of questions to ask (p. 40).",
+          "Real-World Case Example": "Concrete application of Counselor's Approval Do ONE documented during Composite Materials study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)."
+        },
+        "sample_output": "Counselor's Approval Do ONE: Counselor's Approval Do ONE: Your Parent or Guardian's Permission: Before the visit or tour, do some homework to find outwhat kinds of compo",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Composite Materials Requirement 4 (Counselor's Approval Do ONE), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Composite Materials Requirement 4 (Counselor's Approval Do ONE), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Watching a generic video without preparing questions or counselor approval fulfills the Your Parent or Guardian's Permission field.",
+          "B. Defer all Counselor's Approval Do ONE measurements and safety checks until after the field session concludes.",
+          "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Your Parent or Guardian's.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+        ],
+        "choices": [
+          "A. Watching a generic video without preparing questions or counselor approval fulfills the Your Parent or Guardian's Permission field.",
+          "B. Defer all Counselor's Approval Do ONE measurements and safety checks until after the field session concludes.",
+          "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Your Parent or Guardian's.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Your Parent or Guardian's.",
+        "explanation": "Correct Answer (C): Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Your Parent or Guardian's Permission, and document specific findings (p. 40, p. 41). (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)).",
+        "pamphlet_page_ref": "p. 40, p. 41"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Composite Materials Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1189,28 +1472,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Study & Explanation Notes",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Composite Materials to Complete Two)",
             "headers": [
-              "Req 5a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Use composite materials to complete two projects, at least one",
-              "2. The second project may come from the pamphlet OR may be one you select"
+              "1. Core Definition & Mechanism (Composite Materials to Complete Two)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": true
+            "rows": [
+              "1. Core Definition & Mechanism (Composite Materials to Complete Two)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on use composite materials to complete two projects, at least one.",
-            "fact": "Scouts must explain use composite materials to complete two projects, at least one using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70).",
-            "fact_correction": "Scouts must explain use composite materials to complete two projects, at least one using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)"
+            "misconception": "General familiarity with composite, materials is sufficient for Composite Materials Requirement 5a without citing specific functional mechanisms.",
+            "fact": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Use Composite Materials to Complete (p. 60, p. 70).",
+            "fact_correction": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Use Composite Materials to Complete (p. 60, p. 70).",
+            "pamphlet_page_ref": "p. 60, p. 70"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1240,7 +1531,12 @@
           ],
           "id": "5a",
           "sub_req_label": "5a",
-          "sub_req_text": "Use composite materials to complete two projects, at least one of which must come from the Composite Materials merit badge pamphlet. The second project may come from the pamphlet OR may be one you select on your own that has been approved by your counselor in advance."
+          "sub_req_text": "Use composite materials to complete two projects, at least one of which must come from the Composite Materials merit badge pamphlet. The second project may come from the pamphlet OR may be one you select on your own that has been approved by your counselor in advance.",
+          "topic_title": "Req 5a: Composite Materials to Complete Two",
+          "pamphlet_summary": "Composite Materials to Complete Two: Use composite materials to complete Principle 3: This ensures that the structural properties of the laminate are not weakened (p. 60).",
+          "pamphlet_excerpts": [
+            "Composite Materials to Complete Two: Use composite materials to complete Principle 3: This ensures that the structural properties of the laminate are not weakened (p. 60)."
+          ]
         },
         {
           "sub_id": "5b",
@@ -1251,29 +1547,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Study & Explanation Notes",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Counselor's Assistance Find)",
             "headers": [
-              "Req 5b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With your counselor's assistance, find an appropriate site where",
-              "2. Key Pamphlet Examples & Evidence (Req 5b)",
-              "3. Practical Explain & Safety Verification"
+              "1. Core Definition & Mechanism (Counselor's Assistance Find)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": true
+            "rows": [
+              "1. Core Definition & Mechanism (Counselor's Assistance Find)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your counselor's assistance, find an appropriate site where.",
-            "fact": "Scouts must explain with your counselor's assistance, find an appropriate site where using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70).",
-            "fact_correction": "Scouts must explain with your counselor's assistance, find an appropriate site where using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)"
+            "misconception": "Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Your Counselor's Assistance Find activity (p. 60, p. 70).",
+            "fact_correction": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Your Counselor's Assistance Find activity (p. 60, p. 70).",
+            "pamphlet_page_ref": "p. 60, p. 70"
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1303,7 +1606,12 @@
           ],
           "id": "5b",
           "sub_req_label": "5b",
-          "sub_req_text": "With your counselor's assistance, find an appropriate site where the projects can be safely completed under your counselor's supervision and/or the supervision of an adult approved by your counselor who is knowledgeable about composites."
+          "sub_req_text": "With your counselor's assistance, find an appropriate site where the projects can be safely completed under your counselor's supervision and/or the supervision of an adult approved by your counselor who is knowledgeable about composites.",
+          "topic_title": "Req 5b: Counselor's Assistance Find",
+          "pamphlet_summary": "Counselor's Assistance Find: Your Counselor's Assistance Find: Use composite materials to complete Principle 4: If you use more than one layer of reinforcement, be sure to stagger or space out theoverlaps to avoid thick buildups that also can createweak areas (p. 60).",
+          "pamphlet_excerpts": [
+            "Counselor's Assistance Find: Your Counselor's Assistance Find: Use composite materials to complete Principle 4: If you use more than one layer of reinforcement, be sure to stagger or space out theoverlaps to avoid thick buildups that also can createweak areas (p. 60)."
+          ]
         },
         {
           "sub_id": "5c",
@@ -1314,28 +1622,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Study & Explanation Notes",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Counselor Determine How The Finished)",
             "headers": [
-              "Req 5c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 5c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With your counselor, determine how the finished projects will be evaluated",
-              "2. Using those guidelines, evaluate the completed projects with your counselor"
+              "1. Core Definition & Mechanism (Counselor Determine How The Finished)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Counselor Determine How The Finished)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your counselor, determine how the finished projects will be evaluated.",
-            "fact": "Scouts must explain with your counselor, determine how the finished projects will be evaluated using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70).",
-            "fact_correction": "Scouts must explain with your counselor, determine how the finished projects will be evaluated using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)"
+            "misconception": "General familiarity with counselor, determine is sufficient for Composite Materials Requirement 5c without citing specific functional mechanisms.",
+            "fact": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Your Counselor Determine How (p. 60, p. 70).",
+            "fact_correction": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Your Counselor Determine How (p. 60, p. 70).",
+            "pamphlet_page_ref": "p. 60, p. 70"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1360,7 +1676,12 @@
           ],
           "id": "5c",
           "sub_req_label": "5c",
-          "sub_req_text": "With your counselor, determine how the finished projects will be evaluated. Using those guidelines, evaluate the completed projects with your counselor."
+          "sub_req_text": "With your counselor, determine how the finished projects will be evaluated. Using those guidelines, evaluate the completed projects with your counselor.",
+          "topic_title": "Req 5c: Counselor Determine How The Finished",
+          "pamphlet_summary": "Counselor Determine How The Finished: Your Counselor Determine How: Use composite materials to complete: In large composites projects, several pieces of fiberglassreinforcement might be necessary to cover the surface (p. 60).",
+          "pamphlet_excerpts": [
+            "Counselor Determine How The Finished: Your Counselor Determine How: Use composite materials to complete: In large composites projects, several pieces of fiberglassreinforcement might be necessary to cover the surface (p. 60)."
+          ]
         }
       ],
       "resources": [
@@ -1385,7 +1706,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Use composite materials to complete",
+      "topic_title": "Req 5: Composite Materials Applied Field Standard",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -1394,34 +1715,34 @@
       "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 5 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Composite Materials Applied Field Standard)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 5 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 5 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Use composite materials to complete two projects, at least one",
-          "(b) With your counselor's assistance, find an appropriate site where the projects",
-          "(c) With your counselor, determine how the finished projects will be evaluated"
+          "(5a) Composite Materials to Complete Two",
+          "(5b) Counselor's Assistance Find",
+          "(5c) Counselor Determine How The Finished"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": true,
-        "is_physical_demonstration": true
+        "rows": [
+          "(5a) Composite Materials to Complete Two",
+          "(5b) Counselor's Assistance Find",
+          "(5c) Counselor Determine How The Finished"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on use composite materials to complete two projects, at least one.",
-        "fact": "Scouts must demonstrate use composite materials to complete two projects, at least one using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70).",
-        "fact_correction": "Scouts must demonstrate use composite materials to complete two projects, at least one using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70).",
-        "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)"
+        "misconception": "Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Use composite materials to complete activity (p. 60, p. 70).",
+        "fact_correction": "The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Use composite materials to complete activity (p. 60, p. 70).",
+        "pamphlet_page_ref": "p. 60, p. 70"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1450,36 +1771,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Large Composites Projects: In large composites projects, several pieces of fiberglassreinforcement might be necessary to cover the surface.",
-        "Join Pieces Fiberglass: When you join pieces of fiberglass reinforcementto form a seam, overlap the pieces by 1 to 3 inches.",
-        "Ensures Structural: This ensures that the structural properties of the laminate are not weakened.",
-        "Than Layerof Reinforcement: If you use more than one layerof reinforcement, be sure to stagger or space out theoverlaps to avoid thick buildups that also can createweak areas."
+        "Composite Materials Applied Field Standard: Use composite materials to complete: In large composites projects, several pieces of fiberglassreinforcement might be necessary to cover the surface (p. 60).",
+        "Composite Materials Applied Field Standard Principle 2: Use composite materials to complete Principle 2: When you join pieces of fiberglass reinforcement to form a seam, overlap the pieces by 1 to 3 inches (p. 60).",
+        "Composite Materials Applied Field Standard Principle 3: Use composite materials to complete Principle 3: This ensures that the structural properties of the laminate are not weakened (p. 60).",
+        "Composite Materials Applied Field Standard Principle 4: Use composite materials to complete Principle 4: If you use more than one layer of reinforcement, be sure to stagger or space out theoverlaps to avoid thick buildups that also can createweak areas (p. 60)."
       ],
       "step_by_step_procedure": [
-        "Saturate Fiberglass: When you saturate the fiberglass reinforcement with resin, air can be trapped in the laminate, creating voids.",
-        "Air Voids Aresimply: Air voids aresimply bubbles, which when trapped in the cured laminate cancause problems ranging from poor appearance to structuralfailure.",
-        "Squeegee Paint Rollerto: To remove air bubbles, use a squeegee or a paint rollerto push the saturated glass reinforcement evenly down to themold surface, squeezing air.",
-        "Temperature Properly Curing: Temperature is important in properly curing resins."
+        "Step 1 (Composite Materials Applied Field Standard): Step 1 (Use composite materials to complete): When you saturate the fiberglass reinforcement with resin, air can be trapped in the laminate, creating voids (p. 60).",
+        "Step 2 (Composite Materials Applied Field Standard): Step 2 (Use composite materials to complete): Air voids aresimply bubbles, which when trapped in the cured laminate cancause problems ranging from poor appearance to structuralfailure (p. 60).",
+        "Step 3 (Composite Materials Applied Field Standard): Step 3 (Use composite materials to complete): To remove air bubbles, use a squeegee or a paint roller to push the saturated glass reinforcement evenly down to themold surface, squeezing air (p. 60).",
+        "Step 4 (Composite Materials Applied Field Standard): Step 4 (Use composite materials to complete): Temperature is important in properly curing resins (p. 60)."
       ],
       "gear_checklist": [
-        "Official Composite Materials Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Use composite materials to complete",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Composite Materials Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Composite Materials Applied Field Standard)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Composite Materials Req 5",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 5 - Use composite materials to complete",
-          "Primary Standard": "Use composite materials to complete two projects, at least one of which must come from the Composite Materials merit badge pamphlet.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Composite Materials terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Composite Materials Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Proactive Hazard Prevention (Use composite materials to complete)",
+        "right_header": "Acute Emergency Response (Use composite materials to complete)",
+        "left_points": [
+          "Eliminate environmental and equipment risks before starting.",
+          "Use composite materials to complete: In large composites projects, several pieces of fiberglassreinforcement might be necessary to cover.",
+          "Pre-activity PPE, weather, and buddy shakedown."
+        ],
+        "right_points": [
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Use composite materials to complete Principle 2: When you join pieces of fiberglass reinforcementto form a seam, overlap the pieces by 1.",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Use composite materials to complete: In large composites projects, several pieces of fiberglassreinforcement might be necessary to cover the",
+            "right": "Use composite materials to complete Principle 2: When you join pieces of fiberglass reinforcementto form a seam, overlap the pieces by 1 to "
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Composite Materials Req 5 (Composite Materials Applied Field Standard)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
+        "fields": {
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Composite Materials Applied Field Standard.",
+          "Preventive Controls & PPE": "Composite Materials Applied Field Standard: Use composite materials to complete: In large composites projects, several pieces of fiberglassreinforcement might be necessary to cover.",
+          "Acute First-Aid Response": "Composite Materials Applied Field Standard Principle 2: Use composite materials to complete Principle 2: When you join pieces of fiberglass reinforcement to form a seam, overlap.",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)."
+        },
+        "sample_output": "Composite Materials Applied Field Standard: Composite Materials Applied Field Standard: Use composite materials to complete: In large composites projects, several pieces of fiberglassr",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Composite Materials Requirement 5 (Composite Materials Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Composite Materials Requirement 5 (Composite Materials Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Composite Materials Applied Field Standard measurements and safety checks until after the field session concludes.",
+          "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+        ],
+        "choices": [
+          "A. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Composite Materials Applied Field Standard measurements and safety checks until after the field session concludes.",
+          "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+        "explanation": "Correct Answer (C): The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Use composite materials to complete activity (p. 60, p. 70). (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)).",
+        "pamphlet_page_ref": "p. 60, p. 70"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Composite Materials Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1488,12 +1860,12 @@
       "req_number": "6",
       "topic_heading": null,
       "lead_text": "Do ONE of the following:",
-      "req_text": "Do ONE of the following: (a) Explore careers related to the Composite Materials merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include—with your parent or guardian's permission—an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
+      "req_text": "Do ONE of the following: (a) Explore careers related to the Composite Materials merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
       "sub_requirements": [
         {
           "sub_id": "6a",
           "label": "(a)",
-          "text": "Explore careers related to the Composite Materials merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include—with your parent or guardian's permission—an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
+          "text": "Explore careers related to the Composite Materials merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
           "resources": [
             {
               "title": "Materials Engineer - Careers in Science and Engineering (video)",
@@ -1512,25 +1884,29 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "CAREER_EXPLORATION_CARD",
-            "table_title": "Req 6a Career & Pathway Exploration Card",
+            "table_title": "Req 6a Career & Professional Pathway Investigation Matrix",
             "headers": [
               "Career Research Dimension",
-              "Selected Career Details",
-              "Education, Training & Personal Goals"
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
             ],
             "column_headers": [
               "Career Research Dimension",
-              "Selected Career Details",
-              "Education, Training & Personal Goals"
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
             ],
             "row_labels": [
-              "1. Three Career Opportunities Identified",
-              "2. Selected Career: Education & Training Required",
-              "3. Daily Duties, Licensing & Expenses",
-              "4. Starting Salary, Job Outlook & Personal Goals"
+              "1. Three Related Careers Identified",
+              "2. Selected Career: Education, Training & Licensing",
+              "3. Daily Responsibilities, Tools & Working Conditions",
+              "4. Salary Range, Advancement Outlook & Personal Fit"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": true
+            "rows": [
+              "1. Three Related Careers Identified",
+              "2. Selected Career: Education, Training & Licensing",
+              "3. Daily Responsibilities, Tools & Working Conditions",
+              "4. Salary Range, Advancement Outlook & Personal Fit"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)",
           "common_misconception_pair": {
@@ -1567,12 +1943,17 @@
           ],
           "id": "6a",
           "sub_req_label": "6a",
-          "sub_req_text": "Explore careers related to the Composite Materials merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include—with your parent or guardian's permission—an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career."
+          "sub_req_text": "Explore careers related to the Composite Materials merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
+          "topic_title": "Req 6a: Composite Materials Careers and Pathways",
+          "pamphlet_summary": "Composite Materials Careers and Pathways: Careers & Professional Pathways Principle 4: You might workin design, creating new applications for composite materials (p. 72).",
+          "pamphlet_excerpts": [
+            "Composite Materials Careers and Pathways: Careers & Professional Pathways Principle 4: You might workin design, creating new applications for composite materials (p. 72)."
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
+          "text": "Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
           "resources": [
             {
               "title": "Surfboard Shaping and Glassing (video)",
@@ -1587,29 +1968,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Study & Explanation Notes",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (You Could Use Knowledge)",
             "headers": [
-              "Req 6b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 6b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 6b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 6b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explore how you could use knowledge and skills from the Composite Materials",
-              "2. Research any training needed, expenses, and organizations that promote",
-              "3. Discuss with your counselor what short-term and long-term goals you"
+              "1. Core Definition & Mechanism (You Could Use Knowledge)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (You Could Use Knowledge)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on explore how you could use knowledge and skills from the composite materials.",
-            "fact": "Scouts must explain explore how you could use knowledge and skills from the composite materials using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74).",
-            "fact_correction": "Scouts must explain explore how you could use knowledge and skills from the composite materials using verified procedures, field evidence, and safety standards from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74).",
-            "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)"
+            "misconception": "General familiarity with Explore, knowledge is sufficient for Composite Materials Requirement 6b without citing specific functional mechanisms.",
+            "fact": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Explore How You Could Use (p. 72, p. 74).",
+            "fact_correction": "The Composite Materials pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Explore How You Could Use (p. 72, p. 74).",
+            "pamphlet_page_ref": "p. 72, p. 74"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1634,7 +2022,12 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this."
+          "sub_req_text": "Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "topic_title": "Req 6b: You Could Use Knowledge",
+          "pamphlet_summary": "You Could Use Knowledge: Explore How You Could Use: Careers & Professional Pathways: Careers in the Composites Industry The composites industry offers many career opportunities (p. 72).",
+          "pamphlet_excerpts": [
+            "You Could Use Knowledge: Explore How You Could Use: Careers & Professional Pathways: Careers in the Composites Industry The composites industry offers many career opportunities (p. 72)."
+          ]
         }
       ],
       "resources": [
@@ -1669,33 +2062,37 @@
       },
       "topic_title": "Req 6: Careers & Professional Pathways",
       "action_verb": "Explain",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Composite Materials Requirement 6 activities.",
       "pamphlet_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)",
       "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)",
-      "syllabus_bucket": "Make-Up Eligible",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "CAREER_EXPLORATION_CARD",
-        "table_title": "Req 6 Career & Pathway Exploration Card",
+        "table_title": "Req 6 Career & Professional Pathway Investigation Matrix",
         "headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "column_headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. Three Career Opportunities Identified",
-          "2. Selected Career: Education & Training Required",
-          "3. Daily Duties, Licensing & Expenses",
-          "4. Starting Salary, Job Outlook & Personal Goals"
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": true
+        "rows": [
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Listing three job titles from a quick web search satisfies the Composite Materials career exploration requirement.",
@@ -1730,44 +2127,229 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Careers Composites Industry: Careers in the Composites Industry The composites industry offers many career opportunities.",
-        "Position Company Produces: You might find a position with a company that produces theraw materials used in manufacturing composites, or a companythat makes composite parts.",
-        "Youmight Work University: Youmight work at a university or in a laboratory doing research anddevelopment on new materials or processes.",
-        "Workin Design Creating: You might workin design, creating new applications for composite materials."
+        "Careers & Professional Pathways: Careers in the Composites Industry The composites industry offers many career opportunities (p. 72).",
+        "Careers & Professional Pathways Principle 2: You might find a position with a company that produces theraw materials used in manufacturing composites, or a company that makes composite parts (p. 72).",
+        "Careers & Professional Pathways Principle 3: Youmight work at a university or in a laboratory doing research anddevelopment on new materials or processes (p. 72).",
+        "Careers & Professional Pathways Principle 4: You might workin design, creating new applications for composite materials (p. 72)."
       ],
       "step_by_step_procedure": [
-        "Further Education Training: Further education or training is necessary, however, for mostopportunities in the composites industry.",
-        "Educational Requirements: Educational requirements beyond high school depend onthe career path you choose.",
-        "Positions Require: Some positions require a two-yeartechnical or associate degree; others require a four-year bachelor’sdegree.",
-        "Advanced Positions Master: For advanced positions, you might need a master’s degreeor doctorate."
+        "Step 1 (Careers & Professional Pathways): Further education or training is necessary, however, for mostopportunities in the composites industry (p. 72).",
+        "Step 2 (Careers & Professional Pathways): Educational requirements beyond high school depend on the career path you choose (p. 72).",
+        "Step 3 (Careers & Professional Pathways): Some positions require a two-yeartechnical or associate degree; others require a four-year bachelor'sdegree (p. 72).",
+        "Step 4 (Careers & Professional Pathways): For advanced positions, you might need a master's degreeor doctorate (p. 72)."
       ],
       "gear_checklist": [
-        "Official Composite Materials Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Composite Materials Merit Badge Pamphlet and Fillable Workbook (open to Req 6: Careers & Professional Pathways)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Composite Materials Req 6",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 6 - Careers & Professional Pathways",
-          "Primary Standard": "Explore careers related to the Composite Materials merit badge.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Composite Materials terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Composite Materials Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Professional Career Track in Composite Materials",
+        "right_header": "Lifelong Avocation & Civic Service in Composite Materials",
+        "left_points": [
+          "Accredited degree, trade apprenticeship, or industry license.",
+          "Careers & Professional Pathways: Careers in the Composites Industry The composites industry offers many career opportunities (p. 72).",
+          "Full-time compensation and technical leadership."
+        ],
+        "right_points": [
+          "Merit badge mastery, club mentorship, and volunteer service.",
+          "Careers & Professional Pathways Principle 2: You might find a position with a company that produces theraw materials used in manufacturing.",
+          "Community stewardship, outdoor recreation, and teaching others."
+        ],
+        "rows": [
+          {
+            "attribute": "Training Pathway",
+            "left": "Accredited degree, trade apprenticeship, or industry license.",
+            "right": "Merit badge mastery, club mentorship, and volunteer service."
+          },
+          {
+            "attribute": "Core Responsibilities",
+            "left": "Careers & Professional Pathways: Careers in the Composites Industry The composites industry offers many career opportunities (p. 72).",
+            "right": "Careers & Professional Pathways Principle 2: You might find a position with a company that produces theraw materials used in manufacturing c"
+          },
+          {
+            "attribute": "Long-Term Outcome",
+            "left": "Full-time compensation and technical leadership.",
+            "right": "Community stewardship, outdoor recreation, and teaching others."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Composite Materials Req 6 (Careers & Professional Pathways)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Careers & Professional Pathways.",
+          "Step-by-Step Execution": "Careers & Professional Pathways: Careers in the Composites Industry The composites industry offers many career opportunities (p. 72).",
+          "Quality & Tolerance Check": "Careers & Professional Pathways Principle 2: You might find a position with a company that produces theraw materials used in manufacturing composites, or a company that makes compo.",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74))"
+        },
+        "sample_output": "Careers & Professional Pathways: Careers & Professional Pathways: Careers in the Composites Industry The composites industry offers many career opportunities (p. 72).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Composite Materials Requirement 6 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Composite Materials Requirement 6 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Listing three job titles from a quick web search satisfies the Composite Materials career exploration requirement.",
+          "B. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure.",
+          "D. Scouts must research specific Composite Materials career pathways and discuss required education, training, licensing, and daily."
+        ],
+        "choices": [
+          "A. Listing three job titles from a quick web search satisfies the Composite Materials career exploration requirement.",
+          "B. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure.",
+          "D. Scouts must research specific Composite Materials career pathways and discuss required education, training, licensing, and daily."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Scouts must research specific Composite Materials career pathways and discuss required education, training, licensing, and daily.",
+        "explanation": "Correct Answer (D): Scouts must research specific Composite Materials career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)).",
+        "pamphlet_page_ref": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Composite Materials Workbook organizer table and practical demonstration for Req 6."
     }
   ],
-  "badge_slug": "composite-materials",
+  "badge_slug": "composite_materials",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0",
+  "schema_baseline_version": "2026.v30",
   "is_test_lab": false,
   "is_discontinued": false,
-  "status": "ACTIVE"
+  "status": "OFFICIAL",
+  "patrol_quiz_bank": [
+    {
+      "scenario_prompt": "While working on Composite Materials Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Composite Materials Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+        "B. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+      ],
+      "choices": [
+        "A. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+        "B. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+      "explanation": "Correct Answer (A): The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 44, p. 46). (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)).",
+      "pamphlet_page_ref": "p. 44, p. 46",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Composite Materials Requirement 2 (Composite materials), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Composite Materials Requirement 2 (Composite materials), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Each method or system in Composite materials has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "B. All methods covered under Composite materials in Composite Materials are interchangeable regardless of operating conditions.",
+        "C. Defer all Composite materials measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+      ],
+      "choices": [
+        "A. Each method or system in Composite materials has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "B. All methods covered under Composite materials in Composite Materials are interchangeable regardless of operating conditions.",
+        "C. Defer all Composite materials measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Each method or system in Composite materials has distinct operating limits, efficiency trade-offs, and field applications defined.",
+      "explanation": "Correct Answer (A): Each method or system in Composite materials has distinct operating limits, efficiency trade-offs, and field applications defined in the Composite Materials pamphlet (p. 19, p. 20). (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)).",
+      "pamphlet_page_ref": "p. 19, p. 20",
+      "req_id": "2",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Composite Materials Requirement 3 (Composite materials are made), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Composite Materials Requirement 3 (Composite materials are made), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Composite materials are made measurements and safety checks until after the field session concludes.",
+        "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+      ],
+      "choices": [
+        "A. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Composite materials are made measurements and safety checks until after the field session concludes.",
+        "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+      "explanation": "Correct Answer (C): The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Composite materials are made activity (p. 31, p. 35). (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)).",
+      "pamphlet_page_ref": "p. 31, p. 35",
+      "req_id": "3",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Composite Materials Requirement 4 (Counselor's Approval Do ONE), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Composite Materials Requirement 4 (Counselor's Approval Do ONE), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Watching a generic video without preparing questions or counselor approval fulfills the Your Parent or Guardian's Permission field.",
+        "B. Defer all Counselor's Approval Do ONE measurements and safety checks until after the field session concludes.",
+        "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Your Parent or Guardian's.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+      ],
+      "choices": [
+        "A. Watching a generic video without preparing questions or counselor approval fulfills the Your Parent or Guardian's Permission field.",
+        "B. Defer all Counselor's Approval Do ONE measurements and safety checks until after the field session concludes.",
+        "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Your Parent or Guardian's.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Your Parent or Guardian's.",
+      "explanation": "Correct Answer (C): Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Your Parent or Guardian's Permission, and document specific findings (p. 40, p. 41). (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)).",
+      "pamphlet_page_ref": "p. 40, p. 41",
+      "req_id": "4",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Composite Materials Requirement 5 (Composite Materials Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Composite Materials Requirement 5 (Composite Materials Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Composite Materials Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Composite Materials Applied Field Standard measurements and safety checks until after the field session concludes.",
+        "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+      ],
+      "choices": [
+        "A. Experienced Composite Materials participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Composite Materials Applied Field Standard measurements and safety checks until after the field session concludes.",
+        "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Composite Materials pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening.",
+      "explanation": "Correct Answer (C): The Composite Materials pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Use composite materials to complete activity (p. 60, p. 70). (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)).",
+      "pamphlet_page_ref": "p. 60, p. 70",
+      "req_id": "5",
+      "option_id": null
+    }
+  ],
+  "quartermaster_manifest": {
+    "badge_name": "Composite Materials",
+    "patrol_equipment": [
+      "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
+      "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs",
+      "Emergency action plan checklist and simulated patient assessment cards",
+      "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron",
+      "Steel tape measure, vernier caliper or machinist square, and layout marking tools",
+      "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet"
+    ],
+    "individual_scout_gear": [
+      "Official Composite Materials Merit Badge Pamphlet",
+      "Printed or Fillable Composite Materials Scout Workbook",
+      "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
+      "Field notebook, pen/pencil, and personal safety equipment (PPE)"
+    ]
+  }
 }

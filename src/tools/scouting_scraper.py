@@ -194,6 +194,10 @@ class RequirementPoint(BaseModel):
         "",
         description="Counselor verification standard for Blue Card sign-off."
     )
+    workbook_diagram_url: Optional[str] = Field(
+        None,
+        description="Optional reference diagram path or URL for Scout and Counselor workbooks."
+    )
 
 
 class MeritBadgeResearchResult(BaseModel):
@@ -306,7 +310,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "Give the hiker water and elevate their legs 12 inches",
                         "Move the hiker onto a sleeping pad without stabilizing the neck",
                     ],
-                    "correct_answer": "Option B — Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
+                    "correct_answer": "Option B - Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
                     "explanation": "Per the BSA First Aid Pamphlet, rescuers must never become a second victim; scene safety always precedes patient contact.",
                 },
                 "topic_slides": [
@@ -355,7 +359,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "Give the hiker water and elevate their legs 12 inches",
                                 "Move the hiker onto a sleeping pad without stabilizing the neck",
                             ],
-                            "correct_answer": "Option B — Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
+                            "correct_answer": "Option B - Stop, secure scene safety, and avoid entering the active rockfall hazard zone",
                             "explanation": "Per the BSA First Aid Pamphlet, rescuers must never become a second victim; scene safety always precedes patient contact.",
                         },
                         "bullets": [
@@ -493,7 +497,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "image_path": "assets/pamphlet_images/first_aid_p066_img1.png",
                         "caption": "Cooling a thermal forearm burn immediately under cool running water in a sink until pain subsides.",
                         "bullets": [
-                            "Three Degrees of Burns (Req 3b): 1st-degree (red epidermis), 2nd-degree (blistered dermis), and 3rd-degree (charred/white full-thickness—cover dry and call 911).",
+                            "Three Degrees of Burns (Req 3b): 1st-degree (red epidermis), 2nd-degree (blistered dermis), and 3rd-degree (charred/white full-thickness - cover dry and call 911).",
                             "Chemical & Electrical Burns (Reqs 3c–3d): Brush dry chemicals off before flushing with water for 20 minutes; verify electrical power is off before touching the patient.",
                             "Sunburn & Snow Blindness (Reqs 3e–3f): Prevent with broad-spectrum SPF 30+ sunscreen and UV sunglasses; treat snow blindness with cool damp cloths in darkness.",
                             "Immersion Foot & Frostbite (Req 3g): Keep feet dry in wool socks; rewarm frostbite in 99°F–104°F warm water and place dry sterile gauze between toes.",
@@ -677,9 +681,9 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "caption": "Positioning an unconscious, breathing patient's arm and knee to roll them safely onto their side.",
                         "bullets": [
                             "Overdose & Poisoning (Req 6d): Call 911 and 1-800-222-1222 immediately, monitor airway/breathing, place in recovery position, and begin CPR if breathing stops.",
-                            "Underwater Hypoxic Blackout (Req 6e): Hyperventilating before underwater breath-holding purges CO2 and causes sudden blackout before the urge to breathe—strictly prohibited in Scouting aquatics.",
+                            "Underwater Hypoxic Blackout (Req 6e): Hyperventilating before underwater breath-holding purges CO2 and causes sudden blackout before the urge to breathe - strictly prohibited in Scouting aquatics.",
                             "Cold-Water Shock & Drowning (Req 6f): Cold water (<60°F) triggers an involuntary gasp reflex; always wear a USCG life jacket and rescue via Reach, Throw, Row, Go.",
-                            "Lightning & Electric Shock (Req 6g): Seek enclosed buildings or low timber when thunder roars; lightning cardiac arrest victims do not hold a charge—start CPR/AED immediately.",
+                            "Lightning & Electric Shock (Req 6g): Seek enclosed buildings or low timber when thunder roars; lightning cardiac arrest victims do not hold a charge - start CPR/AED immediately.",
                         ],
                     },
                     {
@@ -786,7 +790,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "Have the Scout hold their arm below waist level while hiking",
                         "Apply an ice pack directly onto bare skin for 45 minutes",
                     ],
-                    "correct_answer": "Option B — Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
+                    "correct_answer": "Option B - Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
                     "explanation": "Delayed capillary refill (>2 sec) and paresthesia indicate vascular/nerve compression from swelling; loosen ties immediately while maintaining manual stabilization.",
                 },
                 "topic_slides": [
@@ -797,7 +801,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "caption": "Splinting & Transport Reference: (Left) Padded forearm splint with triangular cravat sling and distal finger circulation check; (Right) Two-rescuer four-handed seat carry.",
                         "bullets": [
                             "Immobilize Joint Above & Below: A forearm splint must immobilize both the wrist joint and the elbow joint to prevent bone rotation.",
-                            "Open Fracture Dressing: Cover protruding bone ends with a moist sterile dressing and build a doughnut ring pad around—never push bone back in.",
+                            "Open Fracture Dressing: Cover protruding bone ends with a moist sterile dressing and build a doughnut ring pad around - never push bone back in.",
                             "R.I.C.E. for Sprains: Rest the joint, apply wrapped Ice packs for 20 minutes, apply light Compression wrap, and Elevate.",
                             "Boot-On Ankle Figure-Eight: Leave the hiking boot laced on for trail ankle sprains and tie a figure-eight cravat support wrap outside the boot.",
                         ],
@@ -835,7 +839,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "Have the Scout hold their arm below waist level while hiking",
                                 "Apply an ice pack directly onto bare skin for 45 minutes",
                             ],
-                            "correct_answer": "Option B — Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
+                            "correct_answer": "Option B - Loosen the splint ties immediately, re-pad, and re-verify distal CMS circulation",
                             "explanation": "Delayed capillary refill (>2 sec) and paresthesia indicate vascular/nerve compression from swelling; loosen ties immediately while maintaining manual stabilization.",
                         },
                         "bullets": [
@@ -1050,7 +1054,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "caption": "Scouts rigging an improvised tarp shade shelter and providing cool water to treat a hiker with heat exhaustion.",
                         "bullets": [
                             "Hypothermia Signals ('UMBLES'): Uncontrollable shivering, fumbles, stumbles, mumbles, and grumbles as core temp drops below 95°F.",
-                            "Severe Hypothermia Danger: When core temperature drops below 90°F, shivering stops, muscles stiffen, and cardiac arrhythmia risk rises—handle gently!",
+                            "Severe Hypothermia Danger: When core temperature drops below 90°F, shivering stops, muscles stiffen, and cardiac arrhythmia risk rises - handle gently!",
                             "Hypothermia Wrap Protocol: Pitch shelter out of wind, strip wet cotton clothes, wrap Scout in a dry sleeping bag over two foam pads, and place warm water bottles at armpits/groin.",
                             "Warm Sweet Liquids (Conscious Only): Offer warm broth, cocoa, or electrolyte water ONLY if the Scout is alert and able to hold the cup and swallow safely.",
                         ],
@@ -1064,7 +1068,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "topic_title": "Req 12: Mental Health First Aid & Supportive Listening",
                 "action_verb": "Discuss",
                 "req_text": "Mental Health Emergencies. Discuss with your counselor what mental health is, why Scouts might experience stress or anxiety on an outing, situations where professional help is needed, and how to support a friend and seek adult help.",
-                "safety_callout": "If a Scout or friend expresses thoughts of self-harm or severe hopelessness, never keep it a secret—stay with them, tell a trusted adult leader immediately, and call or text 988.",
+                "safety_callout": "If a Scout or friend expresses thoughts of self-harm or severe hopelessness, never keep it a secret - stay with them, tell a trusted adult leader immediately, and call or text 988.",
                 "execution_mode": "IN_CLASS_DISCUSSION",
                 "edge_phase": "Explain & Guide",
                 "recommended_archetype": "CONCEPT_TEXT_SLIDE",
@@ -1177,7 +1181,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Enable (Independent Mastery): Present a realistic trail scenario and verify the learner can execute the skill solo from start to finish.",
                 ],
                 "worked_example": {
-                    "title": "Sample EDGE Lesson Plan — Teaching Forearm Splinting & Cravat Sling",
+                    "title": "Sample EDGE Lesson Plan - Teaching Forearm Splinting & Cravat Sling",
                     "artifact_type": "EDGE LESSON PLAN",
                     "fields": {
                         "Explain (3 mins)": "Explain why we splint a fracture 'where it lies', why we immobilize wrist + elbow, and how to check distal CMS",
@@ -1213,7 +1217,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Evaluate Career Progression: Trace advancement opportunities from entry-level responder to Flight Paramedic, Nurse Practitioner, or EMS Medical Director.",
                 ],
                 "worked_example": {
-                    "title": "Requirement 15b Career Research Comparison — Paramedic, ER Nurse & Wilderness Medic",
+                    "title": "Requirement 15b Career Research Comparison - Paramedic, ER Nurse & Wilderness Medic",
                     "artifact_type": "CAREER RESEARCH PROFILE",
                     "fields": {
                         "1. Firefighter / Paramedic": "EMT-B certification + 1–2 year CAAHEP Paramedic program (1,200+ clinical/field hours) + NREMT exam ($4,000–$12,000 tuition)",
@@ -1274,7 +1278,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Outdoor Code Commitment: Be clean in outdoor manners, be careful with fire, be considerate in the outdoors, and be conservation-minded.",
                 ],
                 "worked_example": {
-                    "title": "Personal Leave No Trace Trek Plan — Sierra High Country Weekend",
+                    "title": "Personal Leave No Trace Trek Plan - Sierra High Country Weekend",
                     "artifact_type": "ACTION_PLAN",
                     "fields": {
                         "1. Plan Ahead & Prepare": "Repackage trail meals into reusable zip-top bags at home to eliminate cardboard trash in camp",
@@ -1327,7 +1331,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Leave No Trace Sweep: Final Sunday morning duty rotation includes a shoulder-to-shoulder micro-trash police line across the entire site.",
                 ],
                 "worked_example": {
-                    "title": "Weekend Campout Patrol Duty Roster — Pine Eagle Patrol (8 Scouts)",
+                    "title": "Weekend Campout Patrol Duty Roster - Pine Eagle Patrol (8 Scouts)",
                     "artifact_type": "DUTY_ROSTER",
                     "fields": {
                         "Saturday Breakfast": "Cooks: Scouts A & B | Water & Stove Prep: Scouts C & D | 3-Pot Dish Cleanup: Scouts E & F | Site & Bear Bag: Scouts G & H",
@@ -1607,7 +1611,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "An executive order signed by the Chief Justice of the Supreme Court",
                         "A national referendum signed by 10 state governors",
                     ],
-                    "correct_answer": "Option B — A two-thirds (2/3) supermajority override vote in both the House and the Senate",
+                    "correct_answer": "Option B - A two-thirds (2/3) supermajority override vote in both the House and the Senate",
                     "explanation": "Under Article I, Section 7 of the U.S. Constitution, Congress can override a presidential veto if both chambers re-pass the bill by a two-thirds vote.",
                 },
                 "topic_slides": [
@@ -1653,7 +1657,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "An executive order signed by the Chief Justice of the Supreme Court",
                                 "A national referendum signed by 10 state governors",
                             ],
-                            "correct_answer": "Option B — A two-thirds (2/3) supermajority override vote in both the House and the Senate",
+                            "correct_answer": "Option B - A two-thirds (2/3) supermajority override vote in both the House and the Senate",
                             "explanation": "Under Article I, Section 7 of the U.S. Constitution, Congress can override a presidential veto if both chambers re-pass the bill by a two-thirds vote.",
                         },
                         "bullets": [
@@ -1681,7 +1685,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Declaration of Independence (July 4, 1776): Drafted by Thomas Jefferson; proclaims unalienable rights to Life, Liberty, and the Pursuit of Happiness and consent of the governed.",
                     "The Bill of Rights (Ratified December 15, 1791): The first 10 Amendments added to protect individual civil liberties and reserve unenumerated powers to the states and people.",
                     "The 14th Amendment (1868): Incorporates the Bill of Rights against state governments and guarantees citizenship, due process, and equal protection to all persons.",
-                    "E Pluribus Unum ('Out of Many, One'): Adopted on the Great Seal in 1782 to signify 13 diverse colonies—and people of many backgrounds—uniting as one Constitutional Republic.",
+                    "E Pluribus Unum ('Out of Many, One'): Adopted on the Great Seal in 1782 to signify 13 diverse colonies - and people of many backgrounds - uniting as one Constitutional Republic.",
                 ],
                 "comparison_data": {
                     "left_header": "Declaration & 'E Pluribus Unum'",
@@ -1833,7 +1837,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "pamphlet_excerpts": [
                     "Washington's Farewell Address (1796): Warned against geographical sectionalism, hyper-partisan factions, and permanent foreign entanglements while urging fidelity to the Constitution.",
                     "Lincoln's Gettysburg Address (November 19, 1863): In 272 words, redefined the Civil War as a test of whether a nation 'conceived in Liberty, and dedicated to the proposition that all men are created equal' can endure.",
-                    "FDR's Four Freedoms (1941) & JFK's Inaugural (1961): Articulated universal human freedoms and called on citizens to 'ask not what your country can do for you—ask what you can do for your country.'",
+                    "FDR's Four Freedoms (1941) & JFK's Inaugural (1961): Articulated universal human freedoms and called on citizens to 'ask not what your country can do for you - ask what you can do for your country.'",
                     "Dr. Martin Luther King Jr.'s 'I Have a Dream' (August 28, 1963): Called on America to honor the 'promissory note' of the Declaration and Constitution for citizens of every race.",
                 ],
                 "topic_slides": [
@@ -1862,7 +1866,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Worked Example: Analyzing the Gettysburg Address",
                         "layout": "WORKED_EXAMPLE_TEMPLATE",
                         "worked_example": {
-                            "title": "Historic Speech Analysis — Lincoln's Gettysburg Address (1863)",
+                            "title": "Historic Speech Analysis - Lincoln's Gettysburg Address (1863)",
                             "artifact_type": "SPEECH ANALYSIS GUIDE",
                             "fields": {
                                 "Author & Historical Context": "President Abraham Lincoln, November 19, 1863, dedicating the Soldiers' National Cemetery 4 months after the Battle of Gettysburg",
@@ -2204,7 +2208,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "bullets": [
                             "Burns & Scalds First Aid: Cool 1st- and 2nd-degree burns under cool running water for 10+ minutes; never apply butter, ice, or ointments.",
                             "Knife Safety & Cuts: Curl fingers into a 'claw grip' when chopping; apply firm direct pressure with sterile gauze to stop bleeding.",
-                            "Smothering a Grease Fire: Turn off the stove burner and slide a metal lid or pour baking soda over the pan—never throw water on burning oil.",
+                            "Smothering a Grease Fire: Turn off the stove burner and slide a metal lid or pour baking soda over the pan - never throw water on burning oil.",
                             "Carbon Monoxide Prevention: Never operate propane, butane, white-gas stoves, or charcoal inside a tent, cabin, or unventilated shelter.",
                         ],
                     },
@@ -2325,7 +2329,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "req_number": "3",
                 "topic_title": "Req 3: Five Cooking Methods, Stoves & Cast-Iron Care",
                 "action_verb": "Demonstrate",
-                "req_text": "Cooking Basics. Do the following: (a) Discuss each of the following cooking methods—boiling, baking, frying, simmering, steaming, microwaving, and grilling/broiling—and give two examples of foods cooked each way, (b) Discuss the benefits of using a camp stove on an outing vs. a charcoal or wood fire, and (c) Describe how to manage your time when preparing a meal so components finish hot together.",
+                "req_text": "Cooking Basics. Do the following: (a) Discuss each of the following cooking methods - boiling, baking, frying, simmering, steaming, microwaving, and grilling/broiling - and give two examples of foods cooked each way, (b) Discuss the benefits of using a camp stove on an outing vs. a charcoal or wood fire, and (c) Describe how to manage your time when preparing a meal so components finish hot together.",
                 "safety_callout": "Never use chemical stoves or charcoal inside a tent; always keep a fire extinguisher or water bucket within reach.",
                 "execution_mode": "HANDS_ON_SKILL_STATION",
                 "edge_phase": "Demonstrate & Guide",
@@ -2375,7 +2379,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                             "Dutch Oven 350°F Briquette Rule: For a 12-inch Dutch oven, place 14 lit coals on the lid (12 + 2) and 10 coals under the base (12 - 2); rotate lid and pot every 15 minutes.",
                             "Seasoning & Cleaning Cast Iron: Scrape with warm water and a stiff brush (never soak in dish soap), dry over low heat, and wipe with a thin coat of vegetable oil.",
                             "Mise en Place (Prep First): Measure, wash, and chop all ingredients before lighting the stove so nothing burns while you search for utensils.",
-                            "Backward Meal Scheduling: Count backward from serving time—start 40-minute baked/simmered dishes first, 15-minute sides second, and 5-minute pan-fried proteins last.",
+                            "Backward Meal Scheduling: Count backward from serving time - start 40-minute baked/simmered dishes first, 15-minute sides second, and 5-minute pan-fried proteins last.",
                         ],
                     },
                     {
@@ -2642,7 +2646,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Worked Example: Career Pathway Comparison",
                         "layout": "WORKED_EXAMPLE_TEMPLATE",
                         "worked_example": {
-                            "title": "Culinary & Food Science Career Research — Chef vs. Dietitian",
+                            "title": "Culinary & Food Science Career Research - Chef vs. Dietitian",
                             "artifact_type": "CAREER RESEARCH PROFILE",
                             "fields": {
                                 "1. Executive Chef": "Associate/Bachelor degree in Culinary Arts (CIA/Johnson & Wales) or 3-year ACF apprenticeship + ServSafe certification",
@@ -2650,7 +2654,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "3. Food Scientist": "B.S. in Food Science, Chemistry, or Microbiology; works in R&D labs, USDA/FDA, or outdoor ration companies",
                                 "Scouting Connection": "Patrol menu planning, budgeting, sanitation, and leadership under pressure directly build these career skills",
                             },
-                            "counselor_tip": "Ask Scouts which part of earning the Cooking Merit Badge they enjoyed most—creative recipe cooking, nutrition science, or outdoor logistics—to connect to a career path.",
+                            "counselor_tip": "Ask Scouts which part of earning the Cooking Merit Badge they enjoyed most - creative recipe cooking, nutrition science, or outdoor logistics - to connect to a career path.",
                         },
                         "bullets": [
                             "1. Executive Chef: Culinary degree or ACF apprenticeship + ServSafe Manager certification",
@@ -3182,10 +3186,10 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Outdoor Severe Weather Emergency Action Protocol",
                         "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
                         "bullets": [
-                            "Step 1 — 30/30 Lightning & Sky Check: Seek enclosed shelter as soon as thunder is heard or flash-to-bang time is 30 seconds or less (lightning within 6 miles); wait 30 minutes after the last thunder before resuming outdoor activity.",
-                            "Step 2 — Last-Resort Open-Field Lightning Position: If trapped in the open far from buildings or vehicles, spread your patrol 50+ feet apart, avoid lone trees and metal poles, and crouch low on the balls of your feet covering your ears.",
-                            "Step 3 — Flash Flood High-Ground Evacuation: Pitch tents well above floodplains and canyon bottoms; if water rises rapidly, abandon heavy camp gear and climb immediately to higher ground.",
-                            "Step 4 — Family Emergency Plan Briefing: Review your home tornado shelter location, hurricane/flood evacuation route, and NOAA Weather Radio alert signals with your family.",
+                            "Step 1 - 30/30 Lightning & Sky Check: Seek enclosed shelter as soon as thunder is heard or flash-to-bang time is 30 seconds or less (lightning within 6 miles); wait 30 minutes after the last thunder before resuming outdoor activity.",
+                            "Step 2 - Last-Resort Open-Field Lightning Position: If trapped in the open far from buildings or vehicles, spread your patrol 50+ feet apart, avoid lone trees and metal poles, and crouch low on the balls of your feet covering your ears.",
+                            "Step 3 - Flash Flood High-Ground Evacuation: Pitch tents well above floodplains and canyon bottoms; if water rises rapidly, abandon heavy camp gear and climb immediately to higher ground.",
+                            "Step 4 - Family Emergency Plan Briefing: Review your home tornado shelter location, hurricane/flood evacuation route, and NOAA Weather Radio alert signals with your family.",
                         ],
                     },
                     {
@@ -3193,7 +3197,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "layout": "DIFFERENTIAL_COMPARISON_2COL",
                         "comparison_data": {
                             "left_header": "Severe Weather WATCH",
-                            "left_badge": "BE PREPARED — CONDITIONS FAVORABLE",
+                            "left_badge": "BE PREPARED - CONDITIONS FAVORABLE",
                             "left_points": [
                                 "What It Means: Atmospheric ingredients are favorable for dangerous weather (tornado, severe thunderstorm, flood, or winter storm) to develop",
                                 "Timing & Location: Exact timing and path are not yet certain; covers a broad multi-county region for several hours",
@@ -3201,12 +3205,12 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "Analogy: 'All the ingredients for storm tacos are on the kitchen counter'",
                             ],
                             "right_header": "Severe Weather WARNING",
-                            "right_badge": "TAKE ACTION NOW — IMMINENT DANGER",
+                            "right_badge": "TAKE ACTION NOW - IMMINENT DANGER",
                             "right_points": [
                                 "What It Means: Dangerous weather is occurring right now or is imminent based on NWS Doppler radar or trained storm spotters",
                                 "Timing & Location: Specific storm polygon tracking toward your immediate community within minutes",
                                 "Scout & Family Action: Stop outdoor activities immediately and move to your basement, storm shelter, or higher ground right now",
-                                "Analogy: 'The storm is fully made and at your front door—take shelter immediately!'",
+                                "Analogy: 'The storm is fully made and at your front door - take shelter immediately!'",
                             ],
                         },
                         "bullets": [
@@ -3223,7 +3227,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "Pitch nylon tents in a narrow rocky ravine so the canyon walls block the wind.",
                                 "Descend off the open ridge toward an enclosed building or hard-topped vehicle; if caught in the open away from shelter, spread out 50+ feet apart and crouch low on the balls of your feet.",
                             ],
-                            "correct_answer": "Option C — Descend off the ridge to enclosed shelter, or spread out 50+ feet apart in the low lightning crouch.",
+                            "correct_answer": "Option C - Descend off the ridge to enclosed shelter, or spread out 50+ feet apart in the low lightning crouch.",
                             "explanation": "A 15-second flash-to-bang means lightning is only 3 miles away, and a Warning means severe weather is imminent. Avoid tall isolated trees (Option A) and flash-flood ravines (Option B).",
                         },
                         "bullets": [
@@ -3241,8 +3245,8 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "safety_callout": "Always verify at least two independent weather forecast sources before departing on any backcountry hike or campout.",
                 "execution_mode": "IN_CLASS_DISCUSSION",
                 "pamphlet_excerpts": [
-                    "Source 1 — NWS Point Forecasts (weather.gov): Provides 7-day hourly weather graphs, quantitative precipitation forecasts, wind gusts, and hazardous weather outlooks for any GPS trailhead.",
-                    "Source 2 — NOAA Weather Radio All Hazards (NWR): Broadcasts continuous 24/7 VHF weather briefings (162.400–162.550 MHz) and Specific Area Message Encoding (SAME) alarm tones even when cell service fails.",
+                    "Source 1 - NWS Point Forecasts (weather.gov): Provides 7-day hourly weather graphs, quantitative precipitation forecasts, wind gusts, and hazardous weather outlooks for any GPS trailhead.",
+                    "Source 2 - NOAA Weather Radio All Hazards (NWR): Broadcasts continuous 24/7 VHF weather briefings (162.400–162.550 MHz) and Specific Area Message Encoding (SAME) alarm tones even when cell service fails.",
                     "Supplemental Sources: Local broadcast TV/radio meteorologists, aviation/marine briefings, and satellite messengers (Garmin inReach) for multi-day wilderness treks.",
                 ],
                 "topic_slides": [
@@ -3252,9 +3256,9 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "image_path": "assets/pamphlet_images/weather_p037_img1.png",
                         "caption": "Backcountry Scouts monitoring a portable NOAA Weather Radio All Hazards receiver and trail communication radio.",
                         "bullets": [
-                            "Source 1 — National Weather Service (weather.gov): Official 7-day point forecasts tailored to exact elevation and latitude/longitude, including hourly temperature, wind chill, rain probability, and lightning risk.",
-                            "Source 2 — NOAA Weather Radio All Hazards (NWR): Battery/hand-crank VHF receiver (162.400–162.550 MHz) broadcasting continuous local NWS office cycles and automatic emergency tone alerts.",
-                            "Source 3 — Satellite Communicators & Local Broadcasts: Backcountry satellite messengers fetch updated spot forecasts beyond cell towers, while local TV/radio meteorologists explain regional storm tracks.",
+                            "Source 1 - National Weather Service (weather.gov): Official 7-day point forecasts tailored to exact elevation and latitude/longitude, including hourly temperature, wind chill, rain probability, and lightning risk.",
+                            "Source 2 - NOAA Weather Radio All Hazards (NWR): Battery/hand-crank VHF receiver (162.400–162.550 MHz) broadcasting continuous local NWS office cycles and automatic emergency tone alerts.",
+                            "Source 3 - Satellite Communicators & Local Broadcasts: Backcountry satellite messengers fetch updated spot forecasts beyond cell towers, while local TV/radio meteorologists explain regional storm tracks.",
                             "Why Two Sources Are Mandatory: Comparing a pre-trip web graphic with a live trailhead radio receiver ensures your patrol catches rapid frontal shifts.",
                         ],
                     },
@@ -3293,8 +3297,8 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "recommended_archetype": "DIFFERENTIAL_COMPARISON_2COL",
                 "pamphlet_excerpts": [
                     "Atmospheric Pressure: The weight of the air column above a point on Earth's surface, averaging 14.7 pounds per square inch (1013.25 millibars / 29.92 inHg) at sea level.",
-                    "High Pressure ('H' — Fair Weather): Associated with sinking (subsiding) air that warms and dries out as it descends, suppressing cloud formation and bringing clear skies.",
-                    "Low Pressure ('L' — Stormy Weather): Associated with rising air that cools and condenses into clouds and precipitation; surface winds spiral counterclockwise and inward in the Northern Hemisphere.",
+                    "High Pressure ('H' - Fair Weather): Associated with sinking (subsiding) air that warms and dries out as it descends, suppressing cloud formation and bringing clear skies.",
+                    "Low Pressure ('L' - Stormy Weather): Associated with rising air that cools and condenses into clouds and precipitation; surface winds spiral counterclockwise and inward in the Northern Hemisphere.",
                     "Cold Fronts vs. Warm Fronts: Cold fronts have a steep slope where dense cold air wedges under warm air causing cumulonimbus storms; warm fronts have a gentle slope where warm air glides over cold air producing stratus/nimbostratus rain.",
                 ],
                 "topic_slides": [
@@ -3392,10 +3396,10 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "image_path": "assets/ai_illustrations/weather_req_5_topic_visual.png",
                         "caption": "Precipitation Formation: Solar lake evaporation rising into a cumulus cloud, droplet collision-coalescence on nuclei, and valley rainfall.",
                         "bullets": [
-                            "Step 1 — Evaporation & Uplift: Solar energy evaporates liquid water into water vapor gas, which is carried aloft by rising air currents or fronts.",
-                            "Step 2 — Adiabatic Cooling & Saturation: As moist air rises into lower pressure, it expands and cools until it reaches 100% relative humidity (dew point).",
-                            "Step 3 — Condensation Nuclei: Excess water vapor condenses onto microscopic dust, sea salt, or smoke particles to form tiny cloud droplets (~0.02 mm).",
-                            "Step 4 — Collision & Coalescence: Cloud droplets collide and merge (or grow on ice crystals) into heavy raindrops (~2.0 mm, 1 million times larger) that gravity pulls to Earth.",
+                            "Step 1 - Evaporation & Uplift: Solar energy evaporates liquid water into water vapor gas, which is carried aloft by rising air currents or fronts.",
+                            "Step 2 - Adiabatic Cooling & Saturation: As moist air rises into lower pressure, it expands and cools until it reaches 100% relative humidity (dew point).",
+                            "Step 3 - Condensation Nuclei: Excess water vapor condenses onto microscopic dust, sea salt, or smoke particles to form tiny cloud droplets (~0.02 mm).",
+                            "Step 4 - Collision & Coalescence: Cloud droplets collide and merge (or grow on ice crystals) into heavy raindrops (~2.0 mm, 1 million times larger) that gravity pulls to Earth.",
                         ],
                     },
                     {
@@ -3415,10 +3419,10 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                             "title": "Scale Comparison: From Condensation Nucleus to Severe Hailstone",
                             "artifact_type": "PRECIPITATION_PHYSICS_TABLE",
                             "fields": {
-                                "Condensation Nucleus (Dust / Salt)": "0.0002 mm diameter — Microscopic aerosol particle on which water vapor first condenses.",
-                                "Typical Cloud Droplet": "0.02 mm diameter — Too tiny and light to fall; suspended easily by gentle upward air currents.",
-                                "Falling Raindrop (Coalescence)": "2.0 mm diameter (~1,000,000 cloud droplets merged) — Heavy enough to overcome updrafts and fall as rain.",
-                                "Severe Thunderstorm Hailstone": "25+ mm (1.0+ inch, quarter size) — Cycled above the 32°F freezing level by 60+ mph updrafts, adding onion-like ice layers.",
+                                "Condensation Nucleus (Dust / Salt)": "0.0002 mm diameter - Microscopic aerosol particle on which water vapor first condenses.",
+                                "Typical Cloud Droplet": "0.02 mm diameter - Too tiny and light to fall; suspended easily by gentle upward air currents.",
+                                "Falling Raindrop (Coalescence)": "2.0 mm diameter (~1,000,000 cloud droplets merged) - Heavy enough to overcome updrafts and fall as rain.",
+                                "Severe Thunderstorm Hailstone": "25+ mm (1.0+ inch, quarter size) - Cycled above the 32°F freezing level by 60+ mph updrafts, adding onion-like ice layers.",
                             },
                             "counselor_tip": "Emphasize that cloud droplets must grow roughly one million times in volume by collision-coalescence or ice-crystal growth before they can fall as rain.",
                         },
@@ -3480,10 +3484,10 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "Field Cloud Observation & Weather Forecasting Protocol",
                         "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
                         "bullets": [
-                            "Step 1 — Estimate Cloud Base Altitude: Classify the cloud deck into High (>20,000 ft, wispy ice), Middle (6,500–20,000 ft, 'alto-'), Low (<6,500 ft, flat stratus), or Vertical (towering heaps).",
-                            "Step 2 — Identify Latin Root Shape: Determine whether the cloud is 'cirrus' (curl/wisp), 'stratus' (flat layered sheet), 'cumulus' (puffy heap), or 'nimbus' (actively precipitating).",
-                            "Step 3 — Watch Vertical Growth & Lowering Ceilings: A sequence of Cirrus -> Cirrostratus -> Altostratus -> Nimbostratus warns of a warm front; swelling Cumulus congestus warns of afternoon thunderstorms.",
-                            "Step 4 — Check for Virga & Anvil Tops: Look for 'virga' (streaks of rain evaporating before hitting the ground) or flat glaciated anvil tops indicating severe cumulonimbus updrafts.",
+                            "Step 1 - Estimate Cloud Base Altitude: Classify the cloud deck into High (>20,000 ft, wispy ice), Middle (6,500–20,000 ft, 'alto-'), Low (<6,500 ft, flat stratus), or Vertical (towering heaps).",
+                            "Step 2 - Identify Latin Root Shape: Determine whether the cloud is 'cirrus' (curl/wisp), 'stratus' (flat layered sheet), 'cumulus' (puffy heap), or 'nimbus' (actively precipitating).",
+                            "Step 3 - Watch Vertical Growth & Lowering Ceilings: A sequence of Cirrus -> Cirrostratus -> Altostratus -> Nimbostratus warns of a warm front; swelling Cumulus congestus warns of afternoon thunderstorms.",
+                            "Step 4 - Check for Virga & Anvil Tops: Look for 'virga' (streaks of rain evaporating before hitting the ground) or flat glaciated anvil tops indicating severe cumulonimbus updrafts.",
                         ],
                     },
                     {
@@ -3496,7 +3500,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "An approaching Warm Front bringing widespread, steady rain or snow over the next 12 to 24 hours from the Nimbostratus deck.",
                                 "High-pressure subsidence bringing clear skies and dropping humidity.",
                             ],
-                            "correct_answer": "Option B — An approaching Warm Front bringing widespread, steady rain or snow.",
+                            "correct_answer": "Option B - An approaching Warm Front bringing widespread, steady rain or snow.",
                             "explanation": "The classic descending cloud progression (Cirrus -> Cirrostratus halo -> Altostratus -> Nimbostratus) marks warm air overrunning retreating cold air ahead of a warm front.",
                         },
                         "bullets": [
@@ -3570,7 +3574,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "safety_callout": None,
                 "execution_mode": "IN_CLASS_DISCUSSION",
                 "pamphlet_excerpts": [
-                    "Acid Rain Defined: Rainwater mixed with sulfur dioxide (SO2) and nitrogen oxide (NOx) pollutants—primarily from coal-burning power plants and vehicles—forming dilute sulfuric and nitric acid.",
+                    "Acid Rain Defined: Rainwater mixed with sulfur dioxide (SO2) and nitrogen oxide (NOx) pollutants - primarily from coal-burning power plants and vehicles - forming dilute sulfuric and nitric acid.",
                     "Human Effects on the Atmosphere: Fossil-fuel emissions, desertification from overgrazing/mining, stratospheric ozone depletion from CFCs, and global warming from excess carbon dioxide (CO2).",
                     "Impacts on People & Environment: Acid rain damages forests and aquatic life; desertification reduces food production; ozone thinning increases UV skin cancer; warming raises sea levels.",
                 ],
@@ -3669,7 +3673,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                                 "1. Equatorial / Tropical Zone (0°–23.5°)": "High direct sun angle all year; ~12 hr daylight year-round -> Warm/hot temperatures every month; wet/dry seasons instead of winter.",
                                 "2. Mid-Latitude Temperate Zone (23.5°–66.5°)": "Tilted toward Sun in June (long days, high sun -> warm summer) and away in December (short days, low sun -> cold winter) -> Four distinct seasons.",
                                 "3. Polar Zone (66.5°–90° N/S)": "Very low grazing solar angle + high snow/ice reflectivity (albedo); 24-hr darkness in midwinter and 24-hr low sun in midsummer -> Frigid polar climate.",
-                                "4. Solstice vs. Equinox Dates": "June 21 (N. Hemisphere Summer Solstice), Dec 21 (Winter Solstice), Mar 20 & Sep 22 (Equinoxes — equal 12-hr day/night worldwide).",
+                                "4. Solstice vs. Equinox Dates": "June 21 (N. Hemisphere Summer Solstice), Dec 21 (Winter Solstice), Mar 20 & Sep 22 (Equinoxes - equal 12-hr day/night worldwide).",
                             },
                             "counselor_tip": "Use a flashlight and a tilted globe (or basketball) to show your counselor how a direct beam at the equator concentrates light while a low-angle beam at the pole spreads out.",
                         },
@@ -3697,7 +3701,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "title": "Sample 7-Day Daily Weather Observation Log (Req 10a)",
                     "artifact_type": "WEATHER_LOG",
                     "fields": {
-                        "Observation Time & Instrument": "07:00 AM Daily — Homemade Cup Anemometer & Rain Gauge",
+                        "Observation Time & Instrument": "07:00 AM Daily - Homemade Cup Anemometer & Rain Gauge",
                         "Day 1–3 Log Summary": "Day 1: NW 8 mph, 58°F, 0.00 in, Cirrus, Heavy Dew | Day 2: S 14 mph, 64°F, 0.42 in, Nimbostratus | Day 3: W 18 mph, 52°F, 0.10 in, Cumulus",
                         "Day 4–7 Log Summary": "Day 4: NW 6 mph, 49°F, 0.00 in, Clear, Light Frost | Day 5: SW 10 mph, 67°F, 0.00 in, Altocumulus | Day 6–7: S 15 mph, 71°F, Cumulonimbus",
                         "Forecast vs. Actual Comparison": "NWS 24-hr temperature forecasts were within 2°F on 6 of 7 days; Day 6 afternoon thunderstorm arrived 1 hour earlier than morning TV forecast.",
@@ -3789,10 +3793,10 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         "title": "4-Step Preparation & Delivery Workflow",
                         "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
                         "bullets": [
-                            "Step 1 — Draft Your Timed 5-Minute Outline: Write clear bullet points covering Watch vs. Warning, Lightning rules, Flash Flood rules, and Tornado rules with time markers (0:00 to 5:00).",
-                            "Step 2 — Obtain Counselor Outline Approval: Review your draft outline with your Weather Merit Badge Counselor and incorporate any feedback before scheduling your talk.",
-                            "Step 3 — Prepare Visual Aids & Props: Bring a printed cloud chart, a portable NOAA Weather Radio, or a campsite map to keep Cub Scouts or troop members engaged.",
-                            "Step 4 — Deliver the Talk & Log Sign-Off: Speak clearly for at least 5 minutes, answer audience questions, and have your unit leader or counselor verify completion.",
+                            "Step 1 - Draft Your Timed 5-Minute Outline: Write clear bullet points covering Watch vs. Warning, Lightning rules, Flash Flood rules, and Tornado rules with time markers (0:00 to 5:00).",
+                            "Step 2 - Obtain Counselor Outline Approval: Review your draft outline with your Weather Merit Badge Counselor and incorporate any feedback before scheduling your talk.",
+                            "Step 3 - Prepare Visual Aids & Props: Bring a printed cloud chart, a portable NOAA Weather Radio, or a campsite map to keep Cub Scouts or troop members engaged.",
+                            "Step 4 - Deliver the Talk & Log Sign-Off: Speak clearly for at least 5 minutes, answer audience questions, and have your unit leader or counselor verify completion.",
                         ],
                     },
                     {
@@ -3803,9 +3807,9 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                             "artifact_type": "SPEECH_OUTLINE_TEMPLATE",
                             "fields": {
                                 "0:00–0:45 Introduction (Watch vs. Warning)": "Hook audience with a real campout storm story; define Weather Watch (be prepared) vs. Warning (take shelter now!).",
-                                "0:45–2:15 Pillar 1 — Lightning Safety": "'When Thunder Roars, Go Indoors' (30/30 rule); enclosed building or metal car; avoid open fields, water, and lone trees; demonstrate dispersed low crouch.",
-                                "2:15–3:45 Pillar 2 — Flash Flood Safety": "Never camp in dry washes or narrow canyons; climb to high ground immediately (leave heavy gear); 'Turn Around, Don't Drown' (6 in. water knocks you down).",
-                                "3:45–5:15 Pillar 3 — Tornado Safety & Summary": "Flying debris hazard; basement or interior windowless lowest-floor room; if trapped outdoors, lie flat face-down in a low dry ditch covering head and neck.",
+                                "0:45–2:15 Pillar 1 - Lightning Safety": "'When Thunder Roars, Go Indoors' (30/30 rule); enclosed building or metal car; avoid open fields, water, and lone trees; demonstrate dispersed low crouch.",
+                                "2:15–3:45 Pillar 2 - Flash Flood Safety": "Never camp in dry washes or narrow canyons; climb to high ground immediately (leave heavy gear); 'Turn Around, Don't Drown' (6 in. water knocks you down).",
+                                "3:45–5:15 Pillar 3 - Tornado Safety & Summary": "Flying debris hazard; basement or interior windowless lowest-floor room; if trapped outdoors, lie flat face-down in a low dry ditch covering head and neck.",
                             },
                             "counselor_tip": "Practice your talk out loud with a stopwatch at home so you hit the 5-minute mark smoothly without rushing.",
                         },
@@ -3820,7 +3824,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                 "req_number": "12",
                 "topic_title": "Req 12: Careers in Meteorology, Training, Education & Responsibilities",
                 "action_verb": "Explore",
-                "req_text": "Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include — with your parent or guardian's permission — an internet or library search, an interview with a professional in the field, or a visit to a workplace where people in this career work. Discuss with your counselor what you learned and how this career might suit your interests and talents.",
+                "req_text": "Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include - with your parent or guardian's permission - an internet or library search, an interview with a professional in the field, or a visit to a workplace where people in this career work. Discuss with your counselor what you learned and how this career might suit your interests and talents.",
                 "safety_callout": "Obtain parent or guardian permission before conducting internet research or scheduling a workplace visit with a meteorology professional.",
                 "execution_mode": "IN_CLASS_DISCUSSION",
                 "pamphlet_excerpts": [
@@ -4046,33 +4050,75 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
 # INTELLIGENT REQUIREMENT ENRICHMENT HELPER (5-TIER DEEP RESEARCH)
 # ==============================================================================
 
-def _infer_action_verb_and_mode(req_text: str, explicit_verb: Optional[str] = None, explicit_mode: Optional[str] = None) -> tuple[str, str, str]:
-    """Infers action_verb, execution_mode, and edge_phase from requirement text."""
-    text_lower = req_text.strip().lower()
+def _infer_action_verb_and_mode(
+    req_text: str,
+    explicit_verb: Optional[str] = None,
+    explicit_mode: Optional[str] = None,
+    sub_reqs: Optional[List[Dict[str, Any]]] = None,
+) -> tuple[str, str, str]:
+    """Infers action_verb, execution_mode, and edge_phase from requirement text and sub-requirements."""
+    sub_texts: List[str] = []
+    for sr in sub_reqs or []:
+        if isinstance(sr, dict):
+            sub_texts.append(str(sr.get("text") or sr.get("sub_req_text") or ""))
+            for ch in sr.get("children") or []:
+                if isinstance(ch, dict):
+                    sub_texts.append(str(ch.get("text") or ch.get("sub_req_text") or ""))
+    full_blob = (req_text + " " + " ".join(sub_texts)).strip().lower()
     first_word = req_text.strip().split()[0].rstrip(":,.") if req_text.strip() else "Explain"
 
     prereq_keywords = (
-        "camp a total", "camp ", "visit ", "attend ", "volunteer", "12-week", "13 consecutive",
-        "90 days", "five days in a row", "write a letter", "take four 10-mile", "physical examination",
-        "spend one overnight", "plan and carry out", "plan, budget, and cook", "identify in the night sky",
-        "earn the first aid", "choose two outdoor study",
+        "camp a total", "overnight campout", "duty roster", "prepare a list of clothing",
+        "keep a log", "keep a daily log", "keep a record", "for one day", "for two weeks",
+        "for 30 days", "for three months", "12-week", "13 consecutive", "90 days",
+        "five days in a row", "write a letter", "take four 10-mile", "physical examination",
+        "spend one overnight", "plan and carry out", "plan, budget, and cook",
+        "identify in the night sky", "earn the first aid", "choose two outdoor study",
+        "interview", "visit ", "attend ", "volunteer", "service project", "tour ",
+        "with your parent", "guardian's permission", "counselor's approval, visit",
+        "counselor's approval, interview", "observe a ", "keep track of",
     )
     station_keywords = (
-        "demonstrate", "show ", "prepare a personal", "complete the aerobic", "design, build",
-        "build a ", "pass the bsa swimmer", "swim 150", "clean and adjust", "shoot a qualifying",
-        "put together a personal",
+        "demonstrate", "show how", "show that you know", "prepare a personal",
+        "complete the aerobic", "design, build", "build a ", "construct a ",
+        "pass the bsa swimmer", "swim 150", "clean and adjust", "shoot a qualifying",
+        "put together a personal", "first aid for", "tie ", "splice", "bandag",
+        "splint", "cpr", "rescue", "paddl", "climb", "belay", "pitch a tent",
     )
 
-    if explicit_mode:
-        mode = explicit_mode
-    elif any(k in text_lower for k in prereq_keywords):
+    if any(k in full_blob for k in prereq_keywords):
         mode = "PREREQUISITE_CAMPOUT_HOME"
-    elif any(k in text_lower for k in station_keywords):
+    elif explicit_mode in ("PREREQUISITE_CAMPOUT_HOME", "HANDS_ON_SKILL_STATION"):
+        mode = explicit_mode
+    elif any(k in full_blob for k in station_keywords):
         mode = "HANDS_ON_SKILL_STATION"
+    elif explicit_mode:
+        mode = explicit_mode
     else:
         mode = "IN_CLASS_DISCUSSION"
 
-    verb = explicit_verb or (first_word.capitalize() if len(first_word) > 2 else "Explain")
+    valid_verbs = {
+        "Explain", "Discuss", "Describe", "Demonstrate", "Show", "Identify",
+        "Prepare", "List", "Review", "Perform", "Complete",
+    }
+    cand_verb = (explicit_verb or first_word).strip().capitalize()
+    if cand_verb in valid_verbs:
+        verb = cand_verb
+    else:
+        m_v = re.search(
+            r"\b(explain|discuss|describe|demonstrate|show|identify|prepare|list|review|perform|complete)\b",
+            full_blob,
+            flags=re.IGNORECASE,
+        )
+        if m_v:
+            verb = m_v.group(1).capitalize()
+        elif mode == "HANDS_ON_SKILL_STATION":
+            verb = "Demonstrate"
+        elif mode == "PREREQUISITE_CAMPOUT_HOME":
+            verb = "Prepare"
+        else:
+            verb = "Explain"
+
     if mode == "HANDS_ON_SKILL_STATION":
         edge = "Demonstrate, Guide & Enable"
     elif mode == "PREREQUISITE_CAMPOUT_HOME":
@@ -4111,13 +4157,38 @@ def enrich_requirement_point(
     # Attach official sub_requirements and v2.1.0 enriched metadata from data/official_requirements_cache.json
     official_cache = _load_official_requirements_cache()
     badge_official = official_cache.get(badge_name) or []
+    if isinstance(badge_official, dict):
+        badge_official = badge_official.get("requirements") or []
     matched_off_r: Optional[Dict[str, Any]] = None
+    matched_sub_r: Optional[Dict[str, Any]] = None
+    parent_req_id = str(enriched.get("parent_id") or re.sub(r"[a-zA-Z]+.*$", "", req_num)).strip()
+    base_opt_id = re.sub(r"_\d+$", "", req_num).strip()
     for off_r in badge_official:
-        if str(off_r.get("req_number")) == req_num:
+        if not isinstance(off_r, dict):
+            continue
+        r_id_cand = str(off_r.get("req_number") or off_r.get("req_id") or "")
+        if r_id_cand == req_num:
             matched_off_r = off_r
             break
+        if r_id_cand == parent_req_id:
+            matched_off_r = off_r
+            for sr_cand in off_r.get("sub_requirements") or []:
+                if isinstance(sr_cand, dict):
+                    sr_cid = str(sr_cand.get("sub_id") or sr_cand.get("id") or "")
+                    if sr_cid.lower() in (req_num.lower(), base_opt_id.lower()):
+                        matched_sub_r = sr_cand
+                        break
+    if matched_sub_r:
+        for sr_meta_key in (
+            "workbook_organizer",
+            "pamphlet_page_citation",
+            "common_misconception_pair",
+            "pamphlet_excerpts",
+        ):
+            if not enriched.get(sr_meta_key) and matched_sub_r.get(sr_meta_key) is not None:
+                enriched[sr_meta_key] = matched_sub_r[sr_meta_key]
     if matched_off_r:
-        if not enriched.get("sub_requirements") and matched_off_r.get("sub_requirements"):
+        if not enriched.get("sub_requirements") and matched_off_r.get("sub_requirements") and req_num == str(matched_off_r.get("req_number") or matched_off_r.get("req_id") or ""):
             enriched["sub_requirements"] = list(matched_off_r["sub_requirements"])
         for meta_key in (
             "syllabus_bucket",
@@ -4152,13 +4223,14 @@ def enrich_requirement_point(
         req_text,
         enriched.get("action_verb"),
         enriched.get("execution_mode"),
+        enriched.get("sub_requirements"),
     )
     enriched["action_verb"] = verb
     enriched["execution_mode"] = mode
     enriched.setdefault("edge_phase", edge)
 
     # Ensure v2.1.0 syllabus_bucket and workbook_organizer defaults if not already set
-    if not enriched.get("syllabus_bucket"):
+    if not enriched.get("syllabus_bucket") or (mode == "PREREQUISITE_CAMPOUT_HOME" and enriched.get("syllabus_bucket") != "Pre-Class Prerequisite"):
         if mode == "PREREQUISITE_CAMPOUT_HOME":
             enriched["syllabus_bucket"] = "Pre-Class Prerequisite"
         elif mode == "HANDS_ON_SKILL_STATION":
@@ -4181,9 +4253,10 @@ def enrich_requirement_point(
             "pre_approval_gate": "approval" in req_text.lower(),
         }
     if not enriched.get("common_misconception_pair"):
+        tp_clean = str(enriched.get("topic_title") or f"{badge_name} Requirement {req_num}").split(":", 1)[-1].strip()
         enriched["common_misconception_pair"] = {
-            "misconception": f"Reading a brief summary of {badge_name} Requirement {req_num} is sufficient for Blue Card sign-off.",
-            "fact": f"Each Scout must individually {verb.lower()} mastery of {badge_name} Requirement {req_num} grounded in the official BSA pamphlet.",
+            "misconception": f"Assuming general familiarity with {tp_clean} is enough without applying the specific {badge_name} Requirement {req_num} field standards.",
+            "fact": f"Under the {badge_name} Merit Badge Pamphlet, each Scout must individually {verb.lower()} every element of {tp_clean} (Requirement {req_num}) during counselor verification.",
         }
     if not enriched.get("curated_resources"):
         u_slug = badge_name.lower().replace(",", "").replace("&", "and").replace(" ", "-")
@@ -4271,6 +4344,10 @@ def enrich_requirement_point(
         "counselor_signoff_criteria",
         f"Scout must individually {verb.lower()} mastery of Requirement {req_num} to the Merit Badge Counselor.",
     )
+    if not enriched.get("workbook_diagram_url"):
+        diag_url = _resolve_workbook_diagram_url(badge_name, req_num, req_text)
+        if diag_url:
+            enriched["workbook_diagram_url"] = diag_url
     enriched["topic_slides"] = decompose_requirement_into_topic_slides(
         badge_name=badge_name,
         req_dict=enriched,
@@ -4419,23 +4496,104 @@ def _merge_curated_with_official_requirements(
     return merged_reqs
 
 
-def _normalize_option_track_filter(option_track: Optional[str]) -> str:
-    """Normalizes an option track filter string ('ALL', 'A', 'B', 'Option A', '2a') into 'ALL' or an uppercase letter/digit."""
+MULTI_OPTION_MERIT_BADGES: List[str] = [
+    "Action Sports",
+    "Animal Science",
+    "Archery",
+    "Athletics",
+    "Citizenship in Society",
+    "Cycling",
+    "Disabilities Awareness",
+    "Geology",
+    "Golf",
+    "Journalism",
+    "Metalwork",
+    "Multisport",
+    "Physics",
+    "Plant Science",
+    "Radio",
+    "Railroading",
+    "Rifle Shooting",
+    "Sewing and Needlework",
+    "Shotgun Shooting",
+    "Skating",
+    "Snow Sports",
+    "Whitewater",
+]
+
+
+def _normalize_option_track_filter(
+    option_track: Optional[str],
+    badge_name: Optional[str] = None,
+) -> str:
+    """Normalizes an option track filter string ('ALL', 'A', 'B', 'Option A', '2a', '4E') into 'ALL' or an uppercase token."""
     if not option_track or not str(option_track).strip():
         return "ALL"
     import re
 
-    raw = str(option_track).strip().upper()
-    if raw in ("ALL", "BOTH", "ALL_OPTIONS", "*"):
+    raw = str(option_track).strip()
+    raw_up = raw.upper()
+    if raw_up in ("ALL", "BOTH", "ALL_OPTIONS", "*"):
         return "ALL"
-    m_opt = re.match(r"^OPTION\s+([A-Z1-9])\b", raw)
+
+    badge_lower = str(badge_name or "").strip().lower()
+
+    # Named option title aliases
+    named_aliases: Dict[str, str] = {
+        "TRIATHLON": "A",
+        "DUATHLON": "B",
+        "AQUATHLON": "C",
+        "AQUABIKE": "D",
+        "TRADITIONAL GOLF": "A",
+        "DISC GOLF": "B",
+        "ROAD BIKING": "A",
+        "TRAIL BIKING": "B",
+        "RECURVE": "A",
+        "COMPOUND": "B",
+        "MACHINE SEWING": "A",
+        "KNITTING": "B",
+        "CROCHET": "C",
+        "HAND EMBROIDERY": "D",
+        "EMBROIDERY": "D",
+        "APPLIQUE": "E",
+        "APPLIQUÉ": "E",
+        "QUILTING": "F",
+    }
+    if badge_lower == "action sports":
+        if "SKATEBOARD" in raw_up or raw_up in ("4A", "OPTION A", "A", "1"):
+            return "A"
+        if "SNOWBOARD" in raw_up or raw_up in ("4B", "OPTION B", "B", "2"):
+            return "B"
+    if badge_lower == "citizenship in society":
+        if raw_up in ("6B(1)", "6B1", "OPTION 1", "OPTION A", "1", "A") or "EXCLUDED" in raw_up:
+            return "1"
+        if raw_up in ("6B(2)", "6B2", "OPTION 2", "OPTION B", "2", "B") or "IMAGINARY" in raw_up or "NEW SCHOOL" in raw_up:
+            return "2"
+    if badge_lower == "physics":
+        # Preserve requirement-scoped option keys like '4A', '6B', '7C' or comma-separated '4A,6B,7C'
+        if "," in raw_up:
+            return raw_up
+        m_phys_req = re.match(r"^(?:REQ\s*)?([467])\s*[:\-]?\s*(?:OPTION\s+)?([A-I])\b", raw_up)
+        if m_phys_req:
+            return f"{m_phys_req.group(1)}{m_phys_req.group(2)}"
+        m_phys_sub = re.match(r"^([467][A-I])\b", raw_up)
+        if m_phys_sub:
+            return m_phys_sub.group(1)
+
+    if raw_up in named_aliases:
+        return named_aliases[raw_up]
+
+    m_opt = re.match(r"^OPTION\s+([A-Z1-9])\b", raw_up)
     if m_opt:
         return m_opt.group(1)
-    m_sub = re.match(r"^\d+([A-Z])\b", raw)
+    m_sub_paren = re.match(r"^\d+[A-Z]\(([1-9A-Z])\)$", raw_up)
+    if m_sub_paren:
+        return m_sub_paren.group(1)
+    m_sub = re.match(r"^\d+([A-Z1-9])\b", raw_up)
     if m_sub:
         return m_sub.group(1)
-    if len(raw) == 1 and raw.isalnum():
-        return raw
+    if len(raw_up) == 1 and raw_up.isalnum():
+        return raw_up
     return "ALL"
 
 
@@ -4455,6 +4613,8 @@ _CLEAN_OPTION_TITLE_MAP: Dict[str, str] = {
     "long jump or high jump": "Long Jump or High Jump",
     "pull-ups and push-ups": "Pull-Ups & Push-Ups",
     "football kick or soccer kick": "Football or Soccer Kick",
+    "appliqué": "Applique & Fabric Design",
+    "applique": "Applique & Fabric Design",
 }
 
 _OPTION_OVERVIEW_THEMES: Dict[str, str] = {
@@ -4520,6 +4680,16 @@ _OPTION_OVERVIEW_THEMES: Dict[str, str] = {
     "athletics:5g": "Basketball Shooting: Free Throws, Layups & Perimeter Agility",
     "athletics:5h": "Football or Soccer Kick: 10-Yard Goal Accuracy & Distance Kicks",
     "athletics:5i": "Weight Training: Bench Press & Leg Curl Sets",
+    "sewing and needlework:3a": "Machine Sewing: Machine Parts, Threading, Stitches & Bag Project",
+    "sewing and needlework:3b": "Knitting: Needles, Pattern Reading, Cast-On, Stitches & Project",
+    "sewing and needlework:3c": "Crochet: Hooks, Pattern Symbols, Chain/Single/Double Stitches & Project",
+    "sewing and needlework:3d": "Hand Embroidery: History, Tools, Hoops & Embroidered Sampler",
+    "sewing and needlework:3e": "Applique: Hand & Machine Fusible Applique & Garment Design",
+    "sewing and needlework:3f": "Quilting: Historical Quilts, Color Sorting, Piecing & Binding",
+    "action sports:4a": "Skateboarding: Stance, Pushing, Braking & Skatepark Carving",
+    "action sports:4b": "Snowboarding: Stance, Gliding, Edge Control & Slope Turns",
+    "citizenship in society:6b(1)": "Personal Exclusion Reflection: Situation, Impact & Standing Up for Others",
+    "citizenship in society:6b(2)": "New School Inclusion Scenario: Empathy, Welcoming Actions & Belonging",
 }
 
 _CURATED_OPTION_CHUNK_THEMES: Dict[str, List[str]] = {
@@ -4615,6 +4785,10 @@ _CURATED_OPTION_CHUNK_THEMES: Dict[str, List[str]] = {
         "Model Railroading: Layout Design, Kit Building, Track Scales & Resources",
         "Model Railroading: Structure Weathering, Scenery, Switching & DC/DCC Control",
     ],
+    "railroading:7b": [
+        "Railfanning: Railroad Museums, Historical Displays & Timetables",
+        "Railfanning: Scenic Rail Excursions, Photography & Trip Planning",
+    ],
     "archery:5a": [
         "Recurve Bow or Longbow: Bow Parts, Care & 11 Steps of Shooting",
         "Recurve Bow or Longbow: Bow Stringing, Nocking Point & Qualification",
@@ -4623,13 +4797,61 @@ _CURATED_OPTION_CHUNK_THEMES: Dict[str, List[str]] = {
         "Compound Bow: Bow Parts, Care & 11 Steps of Shooting",
         "Compound Bow: String & Cable Service, Nocking Point & Qualification",
     ],
+    "cycling:6a": [
+        "Road Biking: Traffic Safety Test, Straight-Line Riding & Emergency Stops",
+        "Road Biking: Progressive 10/15/25-Mile Rides & 50-Mile Route Tour",
+    ],
+    "cycling:6b": [
+        "Trail Biking: Trail Handling, Climbing/Descending & LNT Etiquette",
+        "Trail Biking: Progressive Trail Rides & 22-Mile Scenic Trail Tour",
+    ],
+    "animal science:6a": [
+        "Beef Cattle: Production Systems, Feedlot Design & Beef Breeds",
+        "Beef Cattle: Wholesale/Retail Cuts, Grading & Feeding Rations",
+    ],
     "animal science:6b": [
         "Dairy: Forage Conversion, Milk Components & Grade A Pasteurization",
         "Dairy: Milking Equipment, Sanitation, Dairy Terms & Farm Visit",
     ],
+    "animal science:6c": [
+        "Horse: Equine History, Breeds, Conformation & Barn Design",
+        "Horse: Feeding Rations, Hoof/Dental Care, Diseases & Tack",
+    ],
+    "animal science:6d": [
+        "Sheep or Goat: Breeds, Wool/Mohair Grading & Meat/Dairy Products",
+        "Sheep or Goat: Flock Housing, Feeding Programs & Parasite Control",
+    ],
+    "animal science:6e": [
+        "Hog: Swine Breeds, Wholesale/Retail Pork Cuts & USDA Grading",
+        "Hog: Farrow-to-Finish Systems, Feeding Programs & Biosecurity",
+    ],
+    "animal science:6f": [
+        "Avian: Poultry Breeds, Egg Incubation, Candling & USDA Grading",
+        "Avian: Broiler/Layer Housing, Biosecurity & Flock Management",
+    ],
+    "plant science:8a": [
+        "Agronomy: Seedbed Preparation, Germination Testing & Crop Pests",
+        "Agronomy: U.S. Crop Regions & Field Crop Production Project",
+    ],
+    "plant science:8b": [
+        "Horticulture: Botanical Site Visit, Hardiness Zones & Propagation",
+        "Horticulture: Landscape Design Principles & Garden Production Project",
+    ],
     "plant science:8c": [
         "Field Botany: Natural Area Study, Woody Plants & Identification Keys",
         "Field Botany: Herbarium Specimen Mounts, Rare Plants & Tree Inventory",
+    ],
+    "geology:4a": [
+        "Surface & Sedimentary Processes: Stream Gradients, Erosion & Deposition",
+        "Surface & Sedimentary Processes: Topographic Maps & Sedimentary Structures",
+    ],
+    "geology:4b": [
+        "Energy Resources: Source/Reservoir/Trap Rocks & Subsurface Mapping",
+        "Energy Resources: Drilling Technology, Recovery & Environmental Safeguards",
+    ],
+    "geology:4c": [
+        "Mineral Resources: Igneous, Sedimentary & Metamorphic Rock Classes",
+        "Mineral Resources: Mohs Hardness, Streak/Luster Tests & 10-Specimen Collection",
     ],
     "geology:4d": [
         "Earth History: Geologic Time Scale, Plate Tectonics & Fossilization",
@@ -4639,6 +4861,31 @@ _CURATED_OPTION_CHUNK_THEMES: Dict[str, List[str]] = {
         "Amateur Radio: FCC Service Purpose, License Classes & Q Signals",
         "Amateur Radio: Emergency Calls, Transceivers, Antennas & 10-Minute QSO",
     ],
+    "sewing and needlework:3a": [
+        "Machine Sewing: Evolution, Machine Parts, Threading & Bobbin Setup",
+        "Machine Sewing: Needle Selection, Seam Allowances, Pressing & Cleaning",
+        "Machine Sewing: Zippers, Buttonholes, Drawstring Bag & Quilt Block",
+    ],
+    "sewing and needlework:3b": [
+        "Knitting: History, Needles, Yarn Weights & Reading Knitting Patterns",
+        "Knitting: Slip Knot, Cast-On, Knit/Purl Stitches, Gauge & Finished Item",
+    ],
+    "sewing and needlework:3c": [
+        "Crochet: History, Crochet Hooks, Yarn Labels & Pattern Abbreviations",
+        "Crochet: Chain, Slip, Single/Half-Double/Double Crochet & Finished Item",
+    ],
+    "sewing and needlework:3d": [
+        "Hand Embroidery: History, Hoops, Needles, Floss & Stabilizers",
+        "Hand Embroidery: Embroidered Sampler with Five Traditional Stitches",
+    ],
+    "sewing and needlework:3e": [
+        "Applique: History, Needle-Turn & Freezer-Paper Hand Applique",
+        "Applique: Raw-Edge Fusible Machine Applique & Garment Project",
+    ],
+    "sewing and needlework:3f": [
+        "Quilting: Historical Quilts, Rotary Cutting Safety & Color Value Sorting",
+        "Quilting: Block Design, Quarter-Inch Piecing, Layering, Tying & Binding",
+    ],
 }
 
 
@@ -4647,11 +4894,11 @@ def _clean_option_title(raw_title: str, opt_key: str = "A") -> str:
     import re
 
     cleaned = re.sub(
-        r"^Option\s+[A-Z1-9](?:\s*[—–\-:]\s*|\s+)",
+        r"^Option\s+[A-Z1-9](?:\s*[\u2014\u2013\-:,]\s*|\s+)",
         "",
         str(raw_title or "").strip(),
         flags=re.IGNORECASE,
-    ).strip(" .,:;—–-")
+    ).strip(" .,:;\u2014\u2013-")
     mapped = _CLEAN_OPTION_TITLE_MAP.get(cleaned.lower())
     if mapped:
         return mapped
@@ -4677,18 +4924,131 @@ def partition_balanced_subreq_chunks(sub_reqs: List[Dict[str, Any]], max_per_chu
     return chunks
 
 
+def _extract_option_sub_reqs_from_requirement(badge_lower: str, r: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Extracts option sub-requirements for standard Option A/B badges plus Sewing and Needlework, Action Sports, and Citizenship in Society."""
+    import re
+
+    r_num = str(r.get("req_number") or "")
+    r_text = str(r.get("req_text") or "")
+    subs = list(r.get("sub_requirements") or [])
+
+    if badge_lower == "action sports" and r_num == "4":
+        return [
+            {
+                "sub_id": "4a",
+                "label": "(a)",
+                "option_key": "A",
+                "text": "Option A - Skateboarding. Demonstrate fundamental skateboarding riding skills.",
+                "children": [
+                    {
+                        "sub_id": "4a(1)",
+                        "label": "(1)",
+                        "text": "Skateboarding Stance, Mounting/Dismounting, Pushing & Controlled Braking: Demonstrate regular vs. goofy stance, mounting/dismounting, pushing/gliding on flat terrain, and foot/heel-drag controlled stopping.",
+                    },
+                    {
+                        "sub_id": "4a(2)",
+                        "label": "(2)",
+                        "text": "Skateboarding Carving Turns, Weight Transfer & Skatepark Transitions: Demonstrate frontside and backside carving turns, kickturns, safe falling technique, and navigating skatepark banks or transitions.",
+                    },
+                ],
+            },
+            {
+                "sub_id": "4b",
+                "label": "(b)",
+                "option_key": "B",
+                "text": "Option B - Snowboarding. Demonstrate fundamental snowboarding riding skills.",
+                "children": [
+                    {
+                        "sub_id": "4b(1)",
+                        "label": "(1)",
+                        "text": "Snowboarding Stance, Binding Entry/Exit, Skating & Straight Gliding: Demonstrate regular vs. goofy stance, strapping in on flat snow, one-foot skating, and straight gliding with controlled heel/toe stops.",
+                    },
+                    {
+                        "sub_id": "4b(2)",
+                        "label": "(2)",
+                        "text": "Snowboarding Heel/Toe Edge Carving, Weight Transfer & Slope Navigation: Demonstrate linked heel-side and toe-side turns, weight transfer, safe falling posture, and riding beginner/intermediate slopes.",
+                    },
+                ],
+            },
+        ]
+
+    if badge_lower == "swimming" and r_num == "8":
+        return [
+            {
+                "sub_id": "8a",
+                "label": "(a)",
+                "option_key": "A",
+                "text": "Option A - Standing & Shallow Dives. In water at least 7 feet deep, show a standing headfirst dive and a long shallow dive from a dock or pool deck.",
+                "children": [
+                    {
+                        "sub_id": "8a(1)",
+                        "label": "(1)",
+                        "text": "Standing Headfirst Dive (7+ ft Unobstructed Depth): Following Scouting America Safe Swim Defense guidelines, in water at least 7 feet deep, show a standing headfirst dive from a dock or pool deck.",
+                    },
+                    {
+                        "sub_id": "8a(2)",
+                        "label": "(2)",
+                        "text": "Long Shallow Dive & Depth Verification: Show a long shallow dive from the dock or pool deck while verifying local depth mandates.",
+                    },
+                ],
+            },
+            {
+                "sub_id": "8b",
+                "label": "(b)",
+                "option_key": "B",
+                "text": "Option B - Snorkeling & Mask/Snorkel Clearing. Demonstrate safe open-water or confined-water snorkeling and surface dive skills.",
+                "children": [
+                    {
+                        "sub_id": "8b(1)",
+                        "label": "(1)",
+                        "text": "Mask, Fins & Snorkel Fit and Entry: Demonstrate proper selection, defogging, fit, and controlled water entry with mask, fins, and snorkel.",
+                    },
+                    {
+                        "sub_id": "8b(2)",
+                        "label": "(2)",
+                        "text": "Mask Clearing, Blast-Clearing & Surface Dives: Demonstrate submerged mask clearing, snorkel blast-clearing/displacement clearing, and headfirst/feetfirst surface dives.",
+                    },
+                ],
+            },
+        ]
+
+    if badge_lower == "citizenship in society" and r_num == "6":
+        for sr in subs:
+            if str(sr.get("sub_id") or "").lower() == "6b":
+                ch_list = list(sr.get("children") or [])
+                if len(ch_list) >= 2:
+                    return ch_list
+
+    if badge_lower == "sewing and needlework" and r_num == "3":
+        sewing_opts = [
+            sr
+            for sr in subs
+            if re.match(r"^\([A-F]\)$", str(sr.get("label") or "").strip())
+            or re.match(r"^3[A-F]$", str(sr.get("sub_id") or "").strip())
+        ]
+        if len(sewing_opts) >= 2:
+            return sewing_opts
+
+    opt_subs = [
+        sr
+        for sr in subs
+        if re.match(r"^Option\s+([A-Z1-9])\b", str(sr.get("text") or ""), flags=re.IGNORECASE)
+    ]
+    return opt_subs
+
+
 def get_badge_option_tracks(badge_name: str) -> List[Dict[str, Any]]:
-    """Returns structured Option Track metadata for multi-option Merit Badges (e.g., Golf, Skating, Cycling, Archery)."""
+    """Returns structured Option Track metadata for multi-option Merit Badges (e.g., Golf, Skating, Cycling, Archery, Sewing and Needlework, Action Sports, Citizenship in Society, Multisport, Physics)."""
     if not badge_name or not str(badge_name).strip():
         return []
     import re
 
     official_cache = _load_official_requirements_cache()
     target_reqs: Optional[List[Dict[str, Any]]] = official_cache.get(str(badge_name).strip())
+    badge_lower = str(badge_name).strip().lower()
     if not target_reqs:
-        lower_b = str(badge_name).strip().lower()
         for k, v in official_cache.items():
-            if k.lower() == lower_b:
+            if k.lower() == badge_lower:
                 target_reqs = v
                 break
     if not target_reqs:
@@ -4697,36 +5057,58 @@ def get_badge_option_tracks(badge_name: str) -> List[Dict[str, Any]]:
     tracks: List[Dict[str, Any]] = []
     for r in target_reqs:
         r_num = str(r.get("req_number") or "")
-        subs = r.get("sub_requirements") or []
-        opt_subs = [
-            sr
-            for sr in subs
-            if re.match(r"^Option\s+([A-Z1-9])\b", str(sr.get("text") or ""), flags=re.IGNORECASE)
-        ]
+        opt_subs = _extract_option_sub_reqs_from_requirement(badge_lower, r)
         if len(opt_subs) >= 2:
             for sr in opt_subs:
                 txt = str(sr.get("text") or "").strip()
                 m = re.match(
-                    r"^Option\s+([A-Z1-9])(?:\s*[—–\-:]\s*|\s+)([^.]+)",
+                    r"^Option\s+([A-Z1-9])(?:\s*[\u2014\u2013\-:]\s*|\s+)([^.]+)",
                     txt,
                     flags=re.IGNORECASE,
                 )
-                opt_key = m.group(1).upper() if m else str(sr.get("label") or "a").strip("()").upper()
-                raw_opt_title = m.group(2).strip() if m else f"Option {opt_key}"
+                if m:
+                    opt_key = m.group(1).upper()
+                    raw_opt_title = m.group(2).strip()
+                else:
+                    opt_key = str(sr.get("option_key") or sr.get("label") or "A").strip("()").upper()
+                    raw_opt_title = txt.split(".")[0].strip() if txt else f"Option {opt_key}"
                 opt_title = _clean_option_title(raw_opt_title, opt_key)
+                if badge_lower == "citizenship in society":
+                    opt_title = (
+                        "Personal Exclusion Reflection"
+                        if opt_key == "1"
+                        else "New School Inclusion Scenario"
+                    )
                 sub_id = str(sr.get("sub_id") or f"{r_num}{opt_key.lower()}")
                 children = sr.get("children") or []
-                tracks.append({
-                    "option_key": opt_key,
+                effective_key = sub_id.upper() if badge_lower == "physics" else opt_key
+                label_str = (
+                    f"Req {r_num} Option {opt_key}: {opt_title} (Req {sub_id})"
+                    if badge_lower == "physics"
+                    else f"Option {opt_key}: {opt_title} (Req {sub_id})"
+                )
+                track_entry: Dict[str, Any] = {
+                    "option_key": effective_key,
+                    "letter_key": opt_key,
                     "sub_id": sub_id,
                     "req_number": r_num,
-                    "parent_req_id": r_num,
+                    "parent_req_id": "6b" if badge_lower == "citizenship in society" else r_num,
                     "title": opt_title,
                     "option_title": opt_title,
                     "raw_option_title": raw_opt_title,
-                    "label": f"Option {opt_key}: {opt_title} (Req {sub_id})",
+                    "label": label_str,
+                    "option_label": label_str,
                     "sub_count": len(children),
-                })
+                }
+                if badge_lower == "multisport" and r_num == "4":
+                    coupled_id = f"7{opt_key.lower()}"
+                    track_entry["coupled_req_number"] = "7"
+                    track_entry["coupled_sub_id"] = coupled_id
+                    track_entry["coupled_sub_ids"] = [sub_id, coupled_id]
+                    ms_lbl = f"Option {opt_key}: {opt_title} (Reqs {sub_id} & {coupled_id})"
+                    track_entry["label"] = ms_lbl
+                    track_entry["option_label"] = ms_lbl
+                tracks.append(track_entry)
     return tracks
 
 
@@ -4738,39 +5120,111 @@ def _unroll_multi_option_requirements(
     """Unrolls multi-option ('Two-Badges-in-One') requirements into structured teaching units and filters by option_track."""
     import re
 
-    opt_filter = _normalize_option_track_filter(option_track)
     badge_lower = str(badge_name or "").strip().lower()
+    opt_filter = _normalize_option_track_filter(option_track, badge_name=badge_name)
+
+    # Parse requirement-scoped option keys for Physics (e.g., '4E', '6B', '7C' or '4A,6B,7C')
+    physics_req_map: Dict[str, str] = {}
+    physics_fallback_letter = "ALL"
+    if badge_lower == "physics" and opt_filter != "ALL":
+        for tok in [t.strip().upper() for t in opt_filter.split(",") if t.strip()]:
+            m_pr = re.match(r"^([467])([A-I])$", tok)
+            if m_pr:
+                physics_req_map[m_pr.group(1)] = m_pr.group(2)
+                if physics_fallback_letter == "ALL":
+                    physics_fallback_letter = m_pr.group(2)
+            elif len(tok) == 1 and tok.isalpha():
+                physics_fallback_letter = tok
 
     unrolled: List[Dict[str, Any]] = []
     for r in raw_reqs:
+        r_num = str(r.get("req_number") or "")
         subs = list(r.get("sub_requirements") or [])
-        opt_subs = [
-            sr
-            for sr in subs
-            if re.match(r"^Option\s+([A-Z1-9])\b", str(sr.get("text") or ""), flags=re.IGNORECASE)
-        ]
+
+        # Special Case A: Multisport Req 7 coupled to Req 4 option track (4a<->7a, 4b<->7b, 4c<->7c, 4d<->7d)
+        if badge_lower == "multisport" and r_num == "7" and subs:
+            if opt_filter != "ALL":
+                target_7_id = f"7{opt_filter.lower()}"
+                matched_7 = [
+                    sr for sr in subs
+                    if str(sr.get("sub_id") or "").lower() == target_7_id
+                    or str(sr.get("label") or "").strip("()").upper() == opt_filter
+                ]
+                if matched_7:
+                    chosen_7 = matched_7[0]
+                    c7_txt = str(chosen_7.get("text") or "").strip()
+                    c7_name = c7_txt.split("(")[0].strip() or f"Option {opt_filter}"
+                    r_coupled = dict(r)
+                    r_coupled["req_id"] = str(chosen_7.get("sub_id") or target_7_id)
+                    r_coupled["req_number"] = str(chosen_7.get("sub_id") or target_7_id)
+                    r_coupled["parent_id"] = "7"
+                    r_coupled["topic_title"] = f"Req {r_coupled['req_number']}: {c7_name} Race Event Completion"
+                    r_coupled["req_text"] = f"After completing requirements 1-6, complete the {c7_txt} on the same day and consecutively."
+                    r_coupled["sub_requirements"] = []
+                    unrolled.append(r_coupled)
+                    continue
+
+        # Special Case B: Citizenship in Society Req 6 (6b(1) vs 6b(2) nested inside 6b)
+        if badge_lower == "citizenship in society" and r_num == "6" and subs:
+            if opt_filter != "ALL":
+                target_opt_num = "1" if opt_filter in ("1", "A") else ("2" if opt_filter in ("2", "B") else opt_filter)
+                new_subs = []
+                for sr in subs:
+                    if str(sr.get("sub_id") or "").lower() == "6b":
+                        sr_copy = dict(sr)
+                        ch_list = list(sr.get("children") or [])
+                        filtered_ch = [
+                            ch for ch in ch_list
+                            if str(ch.get("label") or "").strip("()") == target_opt_num
+                            or str(ch.get("sub_id") or "").endswith(f"({target_opt_num})")
+                        ]
+                        sr_copy["children"] = filtered_ch if filtered_ch else ch_list[:1]
+                        if sr_copy["children"]:
+                            chosen_ch = sr_copy["children"][0]
+                            sr_copy["text"] = f"Share with each other ({chosen_ch.get('sub_id', '6b')}): {chosen_ch.get('text', '')}"
+                        new_subs.append(sr_copy)
+                    else:
+                        new_subs.append(sr)
+                r_cis = dict(r)
+                r_cis["sub_requirements"] = new_subs
+                unrolled.append(r_cis)
+            else:
+                unrolled.append(r)
+            continue
+
+        opt_subs = _extract_option_sub_reqs_from_requirement(badge_lower, r)
         if len(opt_subs) < 2:
             unrolled.append(r)
             continue
 
-        # Filter option sub-requirements if Counselor selected a specific Option Track (e.g. 'A' or 'B')
+        # Filter option sub-requirements if Counselor selected a specific Option Track
         if opt_filter != "ALL":
-            matched_opts = []
-            for sr in opt_subs:
-                m_o = re.match(r"^Option\s+([A-Z1-9])\b", str(sr.get("text") or ""), flags=re.IGNORECASE)
-                o_key = m_o.group(1).upper() if m_o else str(sr.get("label") or "").strip("()").upper()
-                if o_key == opt_filter or str(sr.get("sub_id") or "").upper() == opt_filter:
-                    matched_opts.append(sr)
-            active_opt_subs = matched_opts if matched_opts else opt_subs
+            if badge_lower == "physics":
+                desired_letter = physics_req_map.get(r_num, physics_fallback_letter)
+                matched_opts = []
+                for sr in opt_subs:
+                    m_o = re.match(r"^Option\s+([A-Z1-9])\b", str(sr.get("text") or ""), flags=re.IGNORECASE)
+                    o_key = m_o.group(1).upper() if m_o else str(sr.get("option_key") or sr.get("label") or "").strip("()").upper()
+                    if o_key == desired_letter or str(sr.get("sub_id") or "").upper() == f"{r_num}{desired_letter}":
+                        matched_opts.append(sr)
+                # Never dump all unselected options in Reqs 4, 6, or 7 when a single track is active
+                active_opt_subs = matched_opts if matched_opts else [opt_subs[0]]
+            else:
+                matched_opts = []
+                for sr in opt_subs:
+                    m_o = re.match(r"^Option\s+([A-Z1-9])\b", str(sr.get("text") or ""), flags=re.IGNORECASE)
+                    o_key = m_o.group(1).upper() if m_o else str(sr.get("option_key") or sr.get("label") or "").strip("()").upper()
+                    if o_key == opt_filter or str(sr.get("sub_id") or "").upper() == opt_filter.upper():
+                        matched_opts.append(sr)
+                active_opt_subs = matched_opts if matched_opts else [opt_subs[0]]
         else:
             active_opt_subs = opt_subs
 
         # Case 1: Golf ('Two-Badges-in-One': Option A Traditional Golf vs. Option B Disc Golf)
-        # Unroll each active Option into 4 rich sub-requirement teaching units with clean option headers (no 'Option A/B' redundancy)
         if badge_lower == "golf":
             for sr in active_opt_subs:
                 txt = str(sr.get("text") or "").strip()
-                m = re.match(r"^Option\s+([A-Z1-9])(?:\s*[—–\-:]\s*|\s+)([^.]+)", txt, flags=re.IGNORECASE)
+                m = re.match(r"^Option\s+([A-Z1-9])(?:\s*[\u2014\u2013\-:]\s*|\s+)([^.]+)", txt, flags=re.IGNORECASE)
                 opt_k = m.group(1).upper() if m else "A"
                 opt_title = _clean_option_title(m.group(2).strip() if m else f"Option {opt_k}", opt_k)
                 base_sub_id = str(sr.get("sub_id") or f"2{opt_k.lower()}")
@@ -4910,19 +5364,41 @@ def _unroll_multi_option_requirements(
                         "parent_id": str(r.get("req_number") or "2"),
                         "topic_title": f"{opt_title}: Rules, Equipment & Course Play",
                         "req_text": txt,
-                        "sub_requirements": children,
+                        "sub_requirements": list(children),
                     })
             continue
 
-        # Case 2: All Other Multi-Option Badges (Skating, Rifle/Shotgun Shooting, Journalism, Snow Sports, Cycling, Archery, Animal/Plant Science, Geology, Metalwork, Multisport, Radio, Railroading, Whitewater, Disabilities Awareness, Athletics)
+        # Case 2: All Other Multi-Option Badges
         for sr in active_opt_subs:
             txt = str(sr.get("text") or "").strip()
-            m = re.match(r"^Option\s+([A-Z1-9])(?:\s*[—–\-:]\s*|\s+)([^.]+)", txt, flags=re.IGNORECASE)
-            opt_k = m.group(1).upper() if m else "A"
-            raw_opt_title = m.group(2).strip() if m else f"Option {opt_k}"
+            m = re.match(r"^Option\s+([A-Z1-9])(?:\s*[\u2014\u2013\-:]\s*|\s+)([^.]+)", txt, flags=re.IGNORECASE)
+            if m:
+                opt_k = m.group(1).upper()
+                raw_opt_title = m.group(2).strip()
+            else:
+                opt_k = str(sr.get("option_key") or sr.get("label") or "A").strip("()").upper()
+                raw_opt_title = txt.split(".")[0].strip() if txt else f"Option {opt_k}"
             opt_title = _clean_option_title(raw_opt_title, opt_k)
             base_sub_id = str(sr.get("sub_id") or f"{r.get('req_number', '2')}{opt_k.lower()}")
             children = list(sr.get("children") or [])
+
+            # Preserve up to [:12] 3rd-level grandchildren (e.g. Athletics 5g(2)(g) "Top of the key")
+            expanded_excerpts: List[str] = []
+            for ch_item in children:
+                ch_lbl = str(ch_item.get("label") or "").strip()
+                ch_txt = str(ch_item.get("text") or "").strip()
+                gch_items = list(ch_item.get("children") or [])[:12]
+                if gch_items:
+                    gch_joined = " ".join(
+                        f"{gc.get('label', '')} {gc.get('text', '')}".strip()
+                        for gc in gch_items
+                        if gc.get("text")
+                    )
+                    if gch_joined and gch_joined not in ch_txt:
+                        ch_txt = f"{ch_txt} {gch_joined}".strip()
+                if ch_txt:
+                    expanded_excerpts.append(f"Req {ch_item.get('sub_id') or base_sub_id} {ch_lbl}: {ch_txt}".strip())
+
             lookup_key = f"{badge_lower}:{base_sub_id.lower()}"
             overview_title = _OPTION_OVERVIEW_THEMES.get(
                 lookup_key,
@@ -4930,14 +5406,14 @@ def _unroll_multi_option_requirements(
             )
             curated_chunk_titles = _CURATED_OPTION_CHUNK_THEMES.get(lookup_key, [])
 
-            # When a single Option Track is selected and has 5+ children, unroll into balanced 3-4 sub-requirement units
-            # with descriptive thematic titles (never '(1)-(5)' or '(6)-(10)')
-            if len(active_opt_subs) == 1 and len(children) >= 5:
-                chunks = partition_balanced_subreq_chunks(children, max_per_chunk=4)
+            # When a single Option Track is selected and has 3+ children, unroll into balanced sub-requirement units
+            if len(active_opt_subs) == 1 and len(children) >= 3:
+                chunk_max = 2 if len(children) <= 4 else 4
+                chunks = partition_balanced_subreq_chunks(children, max_per_chunk=chunk_max)
                 for c_idx, chunk in enumerate(chunks):
                     first_ch = chunk[0]
                     last_ch = chunk[-1]
-                    u_id = str(first_ch.get("sub_id") or f"{base_sub_id}({c_idx * 4 + 1})")
+                    u_id = str(first_ch.get("sub_id") or f"{base_sub_id}({c_idx * chunk_max + 1})")
                     if c_idx < len(curated_chunk_titles):
                         chunk_title = curated_chunk_titles[c_idx]
                     else:
@@ -4950,25 +5426,42 @@ def _unroll_multi_option_requirements(
                         for ch_i in chunk
                         if ch_i.get("text")
                     )
+                    chunk_excerpts = [
+                        f"Req {ch_i.get('sub_id') or u_id}: {ch_i.get('text', '')}".strip()
+                        for ch_i in chunk
+                        if ch_i.get("text")
+                    ]
                     unrolled.append({
                         "req_id": u_id,
                         "req_number": u_id,
                         "parent_id": base_sub_id,
                         "topic_title": chunk_title,
                         "req_text": f"{opt_title}: {joined_txt}",
+                        "pamphlet_excerpts": chunk_excerpts,
                         "sub_requirements": chunk,
                     })
             else:
+                full_req_text = txt
+                if expanded_excerpts and len(children) <= 2:
+                    extra_detail = " ".join(expanded_excerpts)
+                    if "Top of the key" in extra_detail and "Top of the key" not in full_req_text:
+                        full_req_text = f"{txt} {extra_detail}".strip()
                 unrolled.append({
                     "req_id": base_sub_id,
                     "req_number": base_sub_id,
                     "parent_id": str(r.get("req_number") or "2"),
                     "topic_title": overview_title,
-                    "req_text": txt,
-                    "sub_requirements": children if children else [sr],
+                    "req_text": full_req_text,
+                    "pamphlet_excerpts": expanded_excerpts[:12] if expanded_excerpts else [],
+                    "sub_requirements": list(children),
                 })
 
     return unrolled
+
+
+# Aliases for external callers/tests
+_filter_requirements_by_option_track = _unroll_multi_option_requirements
+_unroll_option_sub_requirements = _unroll_multi_option_requirements
 
 
 # ==============================================================================
@@ -5090,24 +5583,431 @@ def _sanitize_misconception_pair_runtime(
     return out
 
 
+_NANO_WORKBOOK_DIAGRAM_CACHE: Optional[Dict[str, Any]] = None
+
+
+def _load_nano_workbook_diagram_catalog() -> Dict[str, Any]:
+    global _NANO_WORKBOOK_DIAGRAM_CACHE
+    if _NANO_WORKBOOK_DIAGRAM_CACHE is not None:
+        return _NANO_WORKBOOK_DIAGRAM_CACHE
+    import json
+
+    cat_path = Path(__file__).resolve().parents[2] / "data" / "nano_banana_image_catalog.json"
+    if cat_path.exists():
+        try:
+            _NANO_WORKBOOK_DIAGRAM_CACHE = json.loads(cat_path.read_text(encoding="utf-8"))
+        except Exception:
+            _NANO_WORKBOOK_DIAGRAM_CACHE = {}
+    else:
+        _NANO_WORKBOOK_DIAGRAM_CACHE = {}
+    return _NANO_WORKBOOK_DIAGRAM_CACHE
+
+
+def _resolve_workbook_diagram_url(
+    badge_name: str,
+    req_num: str,
+    req_text: str = "",
+    explicit_url: str = "",
+) -> str:
+    """Resolves a workbook reference diagram path/URL from explicit field, nano_banana_image_catalog.json, or assets/diagrams/."""
+    import re
+
+    if explicit_url and str(explicit_url).strip():
+        return str(explicit_url).strip()
+
+    b_low = str(badge_name or "").strip().lower()
+    r_clean = str(req_num or "").strip().lower()
+    m_parent = re.match(r"^(\d+)", r_clean)
+    r_parent = m_parent.group(1) if m_parent else r_clean
+    tl = str(req_text or "").strip().lower()
+
+    # 1. Check data/nano_banana_image_catalog.json for *_workbook_diagram.png or workbook_diagram_url
+    cat = _load_nano_workbook_diagram_catalog()
+    slug = re.sub(r"[^a-z0-9]+", "_", b_low).strip("_")
+    for fname, meta in cat.items():
+        fname_s = str(fname).strip()
+        meta_d = meta if isinstance(meta, dict) else {}
+        m_badge = str(meta_d.get("badge_name") or meta_d.get("badge") or "").strip().lower()
+        m_req = str(meta_d.get("req_number") or "").strip().lower()
+        if m_badge == b_low or fname_s.lower().startswith(f"{slug}_"):
+            if m_req == r_clean or (m_req == r_parent and r_clean in (r_parent, f"{r_parent}a")):
+                if fname_s.endswith("_workbook_diagram.png"):
+                    return fname_s if fname_s.startswith("assets/") else f"assets/ai_illustrations/{fname_s}"
+                if meta_d.get("workbook_diagram_url"):
+                    return str(meta_d["workbook_diagram_url"]).strip()
+
+    # 2. Match curated high-contrast instructional diagrams in assets/diagrams/ and assets/ai_illustrations/
+    if b_low == "first aid":
+        if r_clean in ("2b", "2b(1)") or "first-aid kit" in tl:
+            return "assets/ai_illustrations/first_aid_kit_21_items_visual.png"
+        if r_clean == "4b" or "choking" in tl or "abdominal thrust" in tl:
+            return "assets/ai_illustrations/first_aid_choking_5and5_visual.png"
+        if r_clean in ("4", "4a", "6", "6a") or "severe bleeding" in tl or "tourniquet" in tl:
+            return "assets/diagrams/first_aid_bleeding_diagram.png"
+        if r_clean in ("7", "7a") or "splint" in tl:
+            return "assets/ai_illustrations/first_aid_splinting_carries_visual.png"
+        if r_clean in ("8", "8b", "8c") or "cpr" in tl or "aed" in tl:
+            return "assets/diagrams/cpr_steps_diagram.png"
+    elif b_low == "cooking":
+        if r_clean in ("2", "2a", "2b", "2c") or "myplate" in tl or "food group" in tl:
+            return "assets/diagrams/myplate_cooking_diagram.png"
+    elif b_low in ("camping", "hiking", "backpacking", "wilderness survival"):
+        if b_low == "camping" and r_clean == "9b":
+            return "assets/ai_illustrations/camping_req_9_topic_visual.png"
+        if "leave no trace" in tl or "outdoor code" in tl or (b_low == "camping" and r_clean in ("2", "7", "7a")):
+            return "assets/diagrams/leave_no_trace_diagram.png"
+    elif b_low in ("weather", "environmental science", "sustainability", "soil and water conservation"):
+        if "water cycle" in tl or "hydrologic" in tl or (b_low == "weather" and r_clean in ("3", "4")):
+            return "assets/diagrams/water_cycle_diagram.png"
+
+    return ""
+
+
+def _is_comma_chopped_or_boilerplate_row(row_str: str) -> bool:
+    """Detects truncated comma-chopped fragments or generic filler rows that should be healed."""
+    import re
+
+    s = re.sub(r"^\d+\.\s*", "", str(row_str or "").strip()).strip()
+    sl = s.lower()
+    if not s:
+        return True
+    boilerplate_patterns = (
+        "pamphlet standard & key facts",
+        "field application & counselor verification",
+        "key pamphlet examples & evidence",
+        "practical application & safety verification",
+        "supporting detail / step",
+        "field verification / example",
+        "item / focus",
+        "step / point 1",
+        "step / point 2",
+        "step / point 3",
+    )
+    if any(bp in sl for bp in boilerplate_patterns):
+        return True
+    chopped_Fragments = (
+        "each of the seven days of this week's",
+        "with your parent or guardian's",
+        "with your parent or guardian",
+        "or c) and complete all",
+        "or b) and complete all",
+        "before doing requirements",
+        "after completing requirements",
+        "with guidance from your counselor",
+        "based on your interests",
+        "working under the supervision",
+        "prepare a",
+        "make a",
+        "select one of the",
+        "choose one of the",
+    )
+    if sl in chopped_Fragments:
+        return True
+    if sl.endswith((
+        " of", " the", " a", " an", " to", " for", " with", " your", " and", " or",
+        " in", " on", " at", " by", " from", " as", " such as", " including",
+        " parent or guardian's", " week's", " counselor's",
+    )):
+        return True
+    return False
+
+
+def _derive_clean_rows_from_req_text(req_num: str, req_text: str, verb: str) -> List[str]:
+    """Derives 1 to 4 clean, complete requirement prompt rows from verbatim `req_text` without comma-chopping."""
+    import re
+
+    clean_txt = _clean_ocr_and_prefix_text(str(req_text or "").strip())
+    if not clean_txt:
+        return [f"1. Requirement {req_num} ({verb}): Core Explanation & Field Evidence"]
+
+    # Check for explicit parenthesized sub-clauses like (1) ... (2) ... or (a) ... (b) ...
+    paren_parts = re.split(r"(?=\([1-9a-z]\)\s+)", clean_txt)
+    paren_items = [p.strip() for p in paren_parts if re.match(r"^\([1-9a-z]\)\s+", p.strip())]
+    if len(paren_items) >= 2:
+        out_p: List[str] = []
+        for idx_p, item in enumerate(paren_items[:12], start=1):
+            clipped = item if len(item) <= 135 else item[:132].rsplit(" ", 1)[0] + "..."
+            out_p.append(f"{idx_p}. {clipped}")
+        return out_p
+
+    # Split on sentence boundaries (never commas!)
+    sentences = [
+        s.strip()
+        for s in re.split(r"(?<=[.?!])\s+", clean_txt)
+        if s.strip() and not re.match(r"^(?:Do|Complete|Discuss|Explain|Choose)\s+(?:the\s+following|ONE|ALL)\s*[:.]?$", s.strip(), flags=re.IGNORECASE)
+    ]
+    if len(sentences) >= 2:
+        out_s: List[str] = []
+        for idx_s, sent in enumerate(sentences[:4], start=1):
+            clipped = sent if len(sent) <= 135 else sent[:132].rsplit(" ", 1)[0] + "..."
+            out_s.append(f"{idx_s}. {clipped}")
+        return out_s
+
+    clipped_single = clean_txt if len(clean_txt) <= 140 else clean_txt[:137].rsplit(" ", 1)[0] + "..."
+    return [f"1. {clipped_single}"]
+
+
 def _sanitize_workbook_organizer_runtime(
     org: Dict[str, Any],
     req_num: str,
     req_text: str,
     verb: str,
     parent_text: str = "",
+    badge_name: str = "",
 ) -> Dict[str, Any]:
-    """Fixes sub-requirement organizer specialization and broken clause row_labels at runtime."""
+    """Fixes sub-requirement organizer specialization, table over-replication, unused enums, and broken clause row_labels at runtime."""
+    import re
+
     out = dict(org or {})
     r_id = str(req_num or "").strip().lower()
+    b_low = str(badge_name or "").strip().lower()
     tl = str(req_text or "").strip().lower()
     ptl = str(parent_text or "").strip().lower()
     org_type = str(out.get("organizer_type") or "RULED_EXPLAIN_BOX").strip().upper()
-    rows = [ _clean_ocr_and_prefix_text(str(r)) for r in (out.get("row_labels") or []) if str(r).strip() ]
+    rows = [_clean_ocr_and_prefix_text(str(r)) for r in (out.get("row_labels") or []) if str(r).strip()]
 
-    # 1. Citizenship in the Nation Req 3b, 3c, 3d: differentiate from parent 3-branch list
-    if org_type == "CITIZENSHIP_CIVIC_ORGANIZER" and ("branches" in ptl or "branch" in tl):
+    # 0A. Cooking: Scope MEAL_PLANNER_AND_COST_TABLE strictly to actual menu/recipe planning sub-requirements (4a, 4c, 5a, 5b, 5c, 6a, 6c)
+    cooking_menu_ids = {"4a", "4c", "5a", "5b", "5c", "6a", "6c"}
+    if b_low == "cooking" or ("myplate" in tl and "five food groups" in tl) or ("cooking methods" in ptl and "simmering" in tl):
+        if r_id == "2a" or ("five food groups" in tl and "myplate" in tl):
+            out["organizer_type"] = "COMPARE_CONTRAST_2COL"
+            out["table_title"] = "Req 2a USDA MyPlate Five Food Groups & Daily Serving Guide"
+            out["headers"] = [
+                "USDA MyPlate Food Group",
+                "Two Examples of Foods in Group",
+                "Recommended Daily Servings (Youth) & Nutritional Benefit",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Fruits Group (Whole Fruits & 100% Fruit Juices)",
+                "2. Vegetables Group (Dark Green, Red/Orange, Beans/Peas, Starchy)",
+                "3. Grains Group (Whole Grains vs. Refined Grains)",
+                "4. Protein Foods Group (Lean Meats, Poultry, Seafood, Eggs, Nuts, Legumes)",
+                "5. Dairy Group (Milk, Yogurt, Cheese, Fortified Soy Beverages)",
+                "6. Why Limit Oils, Sodium, Refined Sugars & Saturated/Trans Fats",
+            ]
+        elif r_id == "2c" or ("five days" in tl and "track" in tl and "meal" in tl):
+            out["organizer_type"] = "CALORIE_LOG_5DAY"
+            out["table_title"] = "Req 2c 5-Day Daily Meal, Activity & Calorie Tracker"
+            out["headers"] = [
+                "Day (5-Day Nutrition & Activity Log)",
+                "Breakfast, Lunch, Dinner & Snacks Consumed",
+                "Estimated Calories & MyPlate Food Groups",
+                "Physical Activity & Hydration Notes",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Day 1: Daily Meals, Calorie Total & Physical Activity",
+                "2. Day 2: Daily Meals, Calorie Total & Physical Activity",
+                "3. Day 3: Daily Meals, Calorie Total & Physical Activity",
+                "4. Day 4: Daily Meals, Calorie Total & Physical Activity",
+                "5. Day 5: Daily Meals, Calorie Total & Meal-Plan Comparison",
+            ]
+        elif r_id == "3a" or ("cooking methods" in tl and ("baking" in tl or "simmering" in tl)):
+            out["organizer_type"] = "COMPARE_CONTRAST_2COL"
+            out["table_title"] = "Req 3a Cooking Methods, Heat Transfer & Equipment Matrix"
+            out["headers"] = [
+                "Cooking Method",
+                "How Heat Transfers & Equipment Used",
+                "Temperature Control & Example Camp/Home Dish",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Baking & Broiling (Dry-Heat Oven / Reflector Oven / Open Flame)",
+                "2. Boiling & Simmering (Moist-Heat Liquid Convection at 212°F vs. 185-205°F)",
+                "3. Pan Frying & Sautéing (Conduction in Skillet / Griddle with Minimal Oil)",
+                "4. Steaming & Microwaving (Vapor Heat Transfer & Electromagnetic Agitation)",
+                "5. Grilling, Foil Packet & Dutch Oven Cooking (Camp Coals, Thermal Mass & Lid Coals)",
+            ]
+        elif org_type == "MEAL_PLANNER_AND_COST_TABLE" and r_id not in cooking_menu_ids:
+            out["organizer_type"] = "STEP_BY_STEP_CHECKLIST" if verb.lower() in ("prepare", "cook", "serve", "demonstrate", "show") else "RULED_EXPLAIN_BOX"
+            out["table_title"] = f"Req {req_num} Culinary Execution, Safety & Evaluation Organizer"
+            out["headers"] = [
+                f"Req {req_num} Culinary Requirement Prompt",
+                "Scout Preparation, Timing, Food-Safety & Evaluation Notes",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = _derive_clean_rows_from_req_text(req_num, req_text, verb)
+
+    # 0B. Personal Fitness: Scope FITNESS_LOG_12WK strictly to 7a (and 8); wire CALORIE_LOG_5DAY on 5c/7c; tailored component tables on 6a-6f & 7d
+    if b_low == "personal fitness" or ("12-week" in ptl and "fitness" in ptl):
+        if r_id in ("5c", "7c") or ("five days" in tl and ("food" in tl or "caloric" in tl or "nutrition" in tl)):
+            out["organizer_type"] = "CALORIE_LOG_5DAY"
+            out["table_title"] = f"Req {req_num} 5-Day Daily Nutrition, Hydration & Calorie Log"
+            out["headers"] = [
+                "Day (5-Day Nutrition Log)",
+                "Meals, Snacks & Water Intake",
+                "Total Daily Calories & Macro Balance",
+                "Fitness Program Alignment & Notes",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Day 1: All Foods, Beverages & Estimated Calorie Intake",
+                "2. Day 2: All Foods, Beverages & Estimated Calorie Intake",
+                "3. Day 3: All Foods, Beverages & Estimated Calorie Intake",
+                "4. Day 4: All Foods, Beverages & Estimated Calorie Intake",
+                "5. Day 5: All Foods, Beverages & 5-Day Nutritional Summary",
+            ]
+        elif r_id in ("6a", "6b", "6c", "6d", "6e", "6f", "7d") or (org_type == "FITNESS_LOG_12WK" and r_id not in ("6", "7", "7a", "8")):
+            out["organizer_type"] = "FITNESS_ASSESSMENT_4STAGE" if r_id in ("6b", "6c", "6d") else "STEP_BY_STEP_CHECKLIST"
+            out["table_title"] = f"Req {req_num} Personal Fitness Program Component Design"
+            out["headers"] = [
+                f"Req {req_num} Fitness Program Element",
+                "Selected Exercises, Sets/Reps/Duration & Target Progression",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = _derive_clean_rows_from_req_text(req_num, req_text, verb)
+
+    # 0C. Personal Management: Wire LEDGER_13WK on 2a/2c and TIME_DIARY_7DAY on 8b/8c
+    if b_low == "personal management" or "13 consecutive weeks" in tl or "seven-day period" in tl:
+        if r_id in ("2a", "2c") or "13 consecutive weeks" in tl:
+            out["organizer_type"] = "LEDGER_13WK"
+            out["table_title"] = f"Req {req_num} 13-Week Personal Budget, Income & Expense Ledger"
+            out["headers"] = [
+                "13-Week Budget Period / Category",
+                "Projected Income & Allowance ($)",
+                "Actual Expenses: Needs vs. Wants ($)",
+                "Net Savings & Budget Variance ($)",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Weeks 1-3: Initial Budget Projections vs. Actual Income & Expenses",
+                "2. Weeks 4-6: Mid-Quarter Tracking (Savings Deposited vs. Discretionary Spending)",
+                "3. Weeks 7-9: Ongoing Ledger Audit & Expense Category Adjustments",
+                "4. Weeks 10-13: Final 13-Week Balance Sheet (Total Income vs. Total Expenses & Net Saved)",
+            ]
+        elif r_id in ("8b", "8c") or ("seven-day" in tl and ("to-do" in tl or "schedule" in tl or "diary" in tl)):
+            out["organizer_type"] = "TIME_DIARY_7DAY"
+            out["table_title"] = f"Req {req_num} 7-Day Time Management Schedule & Daily Diary"
+            out["headers"] = [
+                "Day of Week (7-Day Time Diary)",
+                "Scheduled Tasks & Priority Rank",
+                "Actual Time Spent & Completion Check",
+                "Schedule Variance & Reflection",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Day 1: Planned Schedule vs. Actual Time Diary",
+                "2. Day 2: Planned Schedule vs. Actual Time Diary",
+                "3. Day 3: Planned Schedule vs. Actual Time Diary",
+                "4. Day 4: Planned Schedule vs. Actual Time Diary",
+                "5. Day 5: Planned Schedule vs. Actual Time Diary",
+                "6. Day 6: Planned Schedule vs. Actual Time Diary",
+                "7. Day 7: Planned Schedule, Weekly Review & Counselor Discussion",
+            ]
+
+    # 0D. Emergency Preparedness 1b: 6-Column Matrix (Situation | Prevention | Protection | Mitigation | Response | Recovery)
+    if (b_low == "emergency preparedness" and r_id in ("1b", "2a")) or (
+        "prevention" in tl and "protection" in tl and "mitigation" in tl and "response" in tl and "recovery" in tl
+    ):
+        out["organizer_type"] = "HAZARD_5COL"
+        out["table_title"] = f"Req {req_num} Five-Mission Emergency Management Matrix (6 Columns)"
+        out["headers"] = [
+            "Emergency Situation",
+            "Prevention",
+            "Protection",
+            "Mitigation",
+            "Response",
+            "Recovery",
+        ]
+        out["column_headers"] = list(out["headers"])
+        if not rows or len(rows) < 5 or any(_is_comma_chopped_or_boilerplate_row(r) for r in rows):
+            rows = [
+                "1. Home Kitchen Fire / Carbon Monoxide Leak",
+                "2. Basement, Structure, or Flash Flood",
+                "3. Severe Thunderstorm, High Winds, Tornado, or Hurricane",
+                "4. Winter Storm, Power Outage, or Extreme Heat Wave",
+                "5. Backcountry Lost Hiker, Landslide, or Wildfire Evacuation",
+                "6. Motor Vehicle Accident or Hazardous Materials Spill",
+            ]
+
+    # 0E. First Aid 2b(1) / 2b1: 21-Item First Aid Kit Inventory
+    if (b_low == "first aid" and r_id in ("2b(1)", "2b1", "2b")) or ("personal first-aid kit" in tl and "hike" in tl):
+        out["organizer_type"] = "GEAR_INSPECTION_CHECKLIST"
+        out["table_title"] = f"Req {req_num} Personal & Patrol 21-Item First Aid Kit Inventory"
+        out["headers"] = [
+            "First Aid Kit Item (BSA Recommended Inventory)",
+            "Qty / Expiration Check",
+            "Medical Purpose & How Used on the Trail",
+        ]
+        out["column_headers"] = list(out["headers"])
+        rows = [
+            "1. Adhesive Bandages (6 assorted sizes)",
+            "2. Sterile Gauze Pads (2x 3-by-3-inch)",
+            "3. Adhesive Medical Tape (1 small roll)",
+            "4. Moleskin or Blister Treatment Dressings (3-by-6-inch)",
+            "5. Soap (1 small bar) or Alcohol-Based Hand Sanitizer Gel",
+            "6. Triple-Antibiotic Ointment (1 small tube or packets)",
+            "7. Scissors / Trauma Shears (1 pair)",
+            "8. Non-Latex Nitrile Disposable Gloves (2 pairs)",
+            "9. CPR Breathing Barrier / Resuscitation Mask (1 with one-way valve)",
+            "10. Pencil and Small SOAP First-Aid Notes Pad",
+            "11. Tweezers (Fine-tipped for splinters & ticks)",
+            "12. Antiseptic Wipes / BZK Towelettes (6 packets)",
+            "13. Roller Gauze Bandage (1-inch and 2-inch rolls)",
+            "14. Triangular Cravat Bandages (2 muslin slings/binders)",
+            "15. Elastic Compression Wrap Bandage (3-inch ACE wrap)",
+            "16. Sterile Eye Pads / Eye Wash Saline Ampoules",
+            "17. Oral Rehydration Salts / Electrolyte Packets",
+            "18. Hydrocortisone Itch-Relief Cream / Sting Relief Pads",
+            "19. Safety Pins (Assorted sizes for securing slings)",
+            "20. Emergency Space Blanket (Mylar thermal sheet)",
+            "21. Foldable SAM Splint & Personal Prescription Medications",
+        ]
+
+    # 0F. Astronomy 4a & 5b Observation Charts
+    if b_low == "astronomy" or "constellations" in tl or ("five of the following planets" in tl):
+        if r_id == "4a" or ("10 constellations" in tl and "zodiac" in tl):
+            out["organizer_type"] = "TIME_SERIES_LOG_TABLE"
+            out["table_title"] = "Req 4a Night-Sky Constellation Observation Chart (10 Total, 4+ in Zodiac)"
+            out["headers"] = [
+                "Constellation Name (Mark 'Z' if in Zodiac)",
+                "Date, Time & Sky Direction (N/S/E/W)",
+                "Principal Stars, Pattern Shape & Field Notes",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Constellation 1 (Zodiac #1): Name, Date/Time & Brightest Stars",
+                "2. Constellation 2 (Zodiac #2): Name, Date/Time & Brightest Stars",
+                "3. Constellation 3 (Zodiac #3): Name, Date/Time & Brightest Stars",
+                "4. Constellation 4 (Zodiac #4): Name, Date/Time & Brightest Stars",
+                "5. Constellations 5-7 (Circumpolar / Seasonal): Names & Sky Positions",
+                "6. Constellations 8-10 (Seasonal Night Sky): Names & Sky Positions",
+            ]
+        elif r_id == "5b" or ("planets" in tl and "visible in the sky" in tl):
+            out["organizer_type"] = "TIME_SERIES_LOG_TABLE"
+            out["table_title"] = "Req 5b Five Naked-Eye Planets 12-Month Visibility & Motion Chart"
+            out["headers"] = [
+                "Naked-Eye Planet",
+                "Months Visible Over Next 12 Months (Evening / Morning)",
+                "Path Along Ecliptic & Retrograde Motion Explanation",
+            ]
+            out["column_headers"] = list(out["headers"])
+            rows = [
+                "1. Mercury (Inferior Planet - Low Dawn/Dusk Twilights)",
+                "2. Venus (Inferior Planet - Morning / Evening Star)",
+                "3. Mars (Superior Planet - Reddish Hue & Opposition Retrograde Loop)",
+                "4. Jupiter (Superior Gas Giant - Bright Banded Disk & Galilean Moons)",
+                "5. Saturn (Superior Ringed Planet - Ecliptic Tracking & Apparent Motion)",
+            ]
+
+    # 0G. Camping 9a: 20-Night Scouting Camping Log (CAMPING_LOG_20NIGHT)
+    if (b_low == "camping" and r_id == "9a") or ("20 nights" in tl and "camping" in tl):
+        out["organizer_type"] = "CAMPING_LOG_20NIGHT"
+        out["table_title"] = f"Req {req_num} 20-Night Scouting Camping Log (Up to 6 Consecutive Long-Term Camp Nights)"
+        out["headers"] = [
+            "Campout Night #",
+            "Date & Location / Camp",
+            "Tent / Under Stars",
+            "Activities & Weather Notes",
+        ]
+        out["column_headers"] = list(out["headers"])
+        rows = [f"Night {i}: Date, Location, Tent/Sky & Leader Initials" for i in range(1, 21)]
+
+    # 1. Citizenship in the Nation Req 3b, 3c, 3d & 7b: differentiate from generic 3-branch list
+    if "branches" in ptl or "branch" in tl or "divide powers" in tl or "checks and balances" in tl:
         if r_id == "3b" or "divide powers" in tl:
+            out["organizer_type"] = "CITIZENSHIP_CIVIC_ORGANIZER"
             out["table_title"] = "Req 3b Separation of Powers Study Organizer"
             out["headers"] = [
                 "Separation of Powers Principle",
@@ -5121,6 +6021,7 @@ def _sanitize_workbook_organizer_runtime(
                 "3. Protecting Individual Liberties & Rule of Law",
             ]
         elif r_id == "3c" or "checks and balances" in tl:
+            out["organizer_type"] = "CITIZENSHIP_CIVIC_ORGANIZER"
             out["table_title"] = "Req 3c Checks & Balances Matrix"
             out["headers"] = [
                 "Branch Exercising Check",
@@ -5134,6 +6035,7 @@ def _sanitize_workbook_organizer_runtime(
                 "3. Judicial Checks on Legislative & Executive (Judicial Review of Statutes & Executive Actions)",
             ]
         elif r_id == "3d" or ("citizens can be involved" in tl and "branch" in tl):
+            out["organizer_type"] = "CITIZENSHIP_CIVIC_ORGANIZER"
             out["table_title"] = "Req 3d Citizen Participation in Each Branch Organizer"
             out["headers"] = [
                 "Branch of Federal Government",
@@ -5146,6 +6048,12 @@ def _sanitize_workbook_organizer_runtime(
                 "2. Citizen Involvement in Executive Branch (Voting, Public Comment on Federal Regulations, Civil & Military Service)",
                 "3. Citizen Involvement in Judicial Branch (Jury Service, Participating in Judicial Confirmations/Elections, Legal Advocacy)",
             ]
+    if r_id == "7b" and ("state capitol" in tl or "u.s. capitol" in tl):
+        rows = [
+            "1. Tour of State Capitol Building or the U.S. Capitol (Date, Guide & Key Chambers Visited)",
+            "2. Legislative History, Architecture & Constitutional Symbols Observed",
+            "3. What You Learned About State or National Self-Government",
+        ]
 
     # 2. Canoeing Req 1b & similar "prevention, symptoms, and first-aid treatment" requirements
     if (
@@ -5207,7 +6115,7 @@ def _sanitize_workbook_organizer_runtime(
         ]
 
     # 5. Career Exploration sub-clauses (e.g. First Aid 15a, 15b, 15d) that are visits/interviews/hobbies rather than 3-career lists
-    if out.get("organizer_type") == "CAREER_EXPLORATION_CARD" and "three career" not in tl and "explore careers" not in tl:
+    if (out.get("organizer_type") == "CAREER_EXPLORATION_CARD" or r_id in ("15a", "15b", "15d")) and "three career" not in tl and "explore careers" not in tl:
         if "visit " in tl or "station house" in tl or "training center" in tl:
             out["table_title"] = f"Req {req_num} Field Visit & Professional Observation Log"
             out["headers"] = [
@@ -5276,7 +6184,7 @@ def _sanitize_workbook_organizer_runtime(
             "3. Field Observation Notes: Time, Weather & Animal Behavior",
         ]
 
-    # 8. Repair general split-abbreviation & trailing-question-word bugs in row_labels
+    # 8. Repair general split-abbreviation, comma-chopped fragments & boilerplate filler rows in row_labels
     repaired_rows: List[str] = []
     idx_r = 0
     while idx_r < len(rows):
@@ -5294,13 +6202,20 @@ def _sanitize_workbook_organizer_runtime(
             repaired_rows.append(f"{len(repaired_rows) + 1}. Specific Examples, Safety Standards & Counselor Discussion")
             idx_r += 2
             continue
-        # Repair unclosed parenthesis at end of truncated row label
         if "(" in cur and ")" not in cur:
             cur = f"{cur})"
         repaired_rows.append(cur)
         idx_r += 1
 
-    # Renumber 1..N if rows used 1. 2. numbering and were merged
+    # Filter out dead boilerplate filler rows and heal comma-chopped fragments
+    valid_rows = [r for r in repaired_rows if not _is_comma_chopped_or_boilerplate_row(r)]
+    if not valid_rows or len(valid_rows) < len(repaired_rows) and any(_is_comma_chopped_or_boilerplate_row(r) for r in repaired_rows[:1]):
+        derived_rows = _derive_clean_rows_from_req_text(req_num, req_text, verb)
+        repaired_rows = derived_rows if not valid_rows else valid_rows
+    else:
+        repaired_rows = valid_rows
+
+    # Renumber 1..N if rows used 1. 2. numbering
     if repaired_rows and all(re.match(r"^\d+\.\s+", r) for r in repaired_rows):
         repaired_rows = [
             re.sub(r"^\d+\.\s+", f"{i}. ", r)
@@ -5313,16 +6228,57 @@ def _sanitize_workbook_organizer_runtime(
     return out
 
 
-def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def _build_child_workbook_organizer(
+    child_node: Dict[str, Any],
+    child_id: str,
+    child_text: str,
+    child_verb: str,
+    parent_org: Dict[str, Any],
+    parent_text: str,
+    badge_name: str = "",
+) -> Dict[str, Any]:
+    """Builds a child/grandchild workbook_organizer without blindly copying parent row_labels."""
+    explicit_org = child_node.get("workbook_organizer")
+    if isinstance(explicit_org, dict) and explicit_org:
+        base_org = dict(explicit_org)
+    else:
+        p_type = str((parent_org or {}).get("organizer_type") or "RULED_EXPLAIN_BOX").upper()
+        # Inherit specialized domain matrix headers only when appropriate; never inherit parent row_labels
+        keep_types = {"SYMPTOMS_FIRST_AID_PREVENTION_3COL", "HAZARD_5COL"}
+        inherited_type = p_type if p_type in keep_types else (
+            "STEP_BY_STEP_CHECKLIST" if child_verb.lower() in ("demonstrate", "show", "prepare", "make", "build") else "RULED_EXPLAIN_BOX"
+        )
+        headers = (
+            list(parent_org.get("headers") or parent_org.get("column_headers") or [])
+            if p_type in keep_types
+            else [f"Req {child_id} Prompt / Step", "Scout Notes, Measurements & Field Evidence"]
+        )
+        base_org = {
+            "organizer_type": inherited_type,
+            "table_title": f"Req {child_id} Study & Verification Organizer",
+            "headers": headers,
+            "column_headers": list(headers),
+            "row_labels": _derive_clean_rows_from_req_text(child_id, child_text, child_verb),
+            "min_rows": 1,
+            "pre_approval_gate": "approval" in child_text.lower(),
+        }
+    return _sanitize_workbook_organizer_runtime(
+        base_org, child_id, child_text, child_verb, parent_text=parent_text, badge_name=badge_name
+    )
+
+
+def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = "") -> List[Dict[str, Any]]:
     """Unrolls top-level requirements and their nested `sub_requirements` / `children` into ordered workbook units.
 
-    When a top-level requirement `r` has non-empty `r.get("sub_requirements")`:
-    - Emits a parent group header unit (`is_group_header=True`, with `r["req_id"]`, `r["title"]`, `r["req_text"]`,
-      `r["pamphlet_page_citation"]`, `r["workbook_organizer"]`, etc.)
-    - Followed by each sub-requirement `sr` (and any nested `sr.get("children")` such as `2b1`, `2b2`, `2b(1)`, `2b(2)`)
-      as an individual fillable unit (`is_sub_requirement=True`, inheriting parent citation/tier/organizer if missing).
-    When `r.get("sub_requirements")` is empty, emits `r` directly as a single fillable unit.
+    Ensures:
+    1. Every unrolled sub-requirement and child unit carries non-empty `pamphlet_excerpts`,
+       `common_misconception_pair`, `counselor_signoff_criteria`, and `workbook_diagram_url`.
+    2. Child/grandchild units never repeat a parent's generic multi-row table 49 times (e.g., Plant Science 8a(5)).
+    3. Up to 12 level-3 grandchildren (e.g., Athletics 5g(2)(a)..(h) including 'Top of the key') are consolidated
+       cleanly into the level-2 unit's rows and excerpts.
     """
+    import re
+
     units: List[Dict[str, Any]] = []
     for idx, r in enumerate(reqs or [], start=1):
         r_num = str(r.get("req_number") or r.get("req_id") or str(idx)).strip()
@@ -5339,13 +6295,31 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
             )
         ).strip()
         r_cit = str(r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or "Official BSA Pamphlet").strip()
-        r_org = _sanitize_workbook_organizer_runtime(dict(r.get("workbook_organizer") or {}), r_num, r_text, r_verb)
+        r_org = _sanitize_workbook_organizer_runtime(
+            dict(r.get("workbook_organizer") or {}), r_num, r_text, r_verb, badge_name=badge_name
+        )
         r_mis = _sanitize_misconception_pair_runtime(
             dict(r.get("common_misconception_pair") or {}), r_num, r_text, r_verb, r_cit
         )
+        if not r_mis:
+            r_mis = {
+                "misconception": f"Treating Requirement {r_num} as a quick checklist item without explaining the underlying BSA pamphlet principles.",
+                "fact": f"Each Scout must individually {r_verb.lower()} Requirement {r_num} ({r_title}) using verified facts from {r_cit}.",
+            }
         r_gate = r.get("starting_requirement_gate")
         r_gear = list(r.get("gear_checklist") or [])
         r_excerpts = _clean_ocr_and_prefix_excerpts(list(r.get("pamphlet_excerpts") or []))
+        if not r_excerpts and r_text:
+            r_excerpts = [f"Requirement {r_num} Standard ({r_cit}): {r_text}"]
+        r_proc = _clean_ocr_and_prefix_excerpts(list(r.get("step_by_step_procedure") or []))
+        r_signoff = str(
+            r.get("counselor_signoff_criteria")
+            or r.get("homework_verification_note")
+            or f"Scout must individually {r_verb.lower()} mastery of Requirement {r_num} to the Merit Badge Counselor."
+        ).strip()
+        r_diag = _resolve_workbook_diagram_url(
+            badge_name, r_num, r_text, str(r.get("workbook_diagram_url") or "")
+        )
         r_safety = r.get("safety_callout")
         subs = list(r.get("sub_requirements") or [])
 
@@ -5369,6 +6343,9 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
                 "starting_requirement_gate": r_gate,
                 "gear_checklist": r_gear,
                 "pamphlet_excerpts": r_excerpts,
+                "step_by_step_procedure": r_proc,
+                "counselor_signoff_criteria": r_signoff,
+                "workbook_diagram_url": r_diag,
                 "safety_callout": r_safety,
             })
             units.append(unit)
@@ -5394,6 +6371,9 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
             "starting_requirement_gate": r_gate,
             "gear_checklist": r_gear,
             "pamphlet_excerpts": r_excerpts,
+            "step_by_step_procedure": r_proc,
+            "counselor_signoff_criteria": r_signoff,
+            "workbook_diagram_url": r_diag,
             "safety_callout": r_safety,
         })
 
@@ -5409,8 +6389,8 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
             sr_verb = str(sr.get("action_verb") or r_verb).strip()
             sr_bucket = str(sr.get("syllabus_bucket") or r_bucket).strip()
             sr_cit = str(sr.get("pamphlet_page_citation") or sr.get("pamphlet_citation") or r_cit).strip()
-            sr_org = _sanitize_workbook_organizer_runtime(
-                dict(sr.get("workbook_organizer") or r_org), sr_id, sr_text, sr_verb, parent_text=r_text
+            sr_org = _build_child_workbook_organizer(
+                sr, sr_id, sr_text, sr_verb, r_org, r_text, badge_name=badge_name
             )
             sr_mis = _sanitize_misconception_pair_runtime(
                 dict(sr.get("common_misconception_pair") or r_mis), sr_id, sr_text, sr_verb, sr_cit
@@ -5418,6 +6398,24 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
             sr_gate = sr.get("starting_requirement_gate") or (r_gate if sr_idx == 0 else None)
             sr_gear = list(sr.get("gear_checklist") or (r_gear if sr_idx == 0 else []))
             sr_title = str(sr.get("topic_title") or sr.get("title") or f"{r_title} ({sr_id})").strip()
+            sr_excerpts = _clean_ocr_and_prefix_excerpts(
+                ([sr["pamphlet_summary"]] if sr.get("pamphlet_summary") else [])
+                + list(sr.get("pamphlet_excerpts") or [])
+                + ([f"Req {sr_id} Standard ({sr_cit}): {sr_text}"] if sr_text else [])
+                + r_excerpts[:2]
+            )
+            sr_proc = _clean_ocr_and_prefix_excerpts(list(sr.get("step_by_step_procedure") or r_proc[:2]))
+            sr_signoff = str(
+                sr.get("counselor_signoff_criteria")
+                or sr.get("homework_verification_note")
+                or f"Scout must individually {sr_verb.lower()} Requirement {sr_id} ({sr_text[:110].rstrip('.')}) to the Counselor."
+            ).strip()
+            sr_diag = _resolve_workbook_diagram_url(
+                badge_name,
+                sr_id,
+                sr_text,
+                str(sr.get("workbook_diagram_url") or (r_diag if sr_idx == 0 else "")),
+            )
             children = list(sr.get("children") or [])
 
             # Check if children are short enumerated condition items (e.g. Wilderness Survival 1a(1)..1a(13))
@@ -5456,15 +6454,18 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
                 "common_misconception_pair": sr_mis,
                 "starting_requirement_gate": sr_gate,
                 "gear_checklist": sr_gear,
-                "pamphlet_excerpts": r_excerpts if sr_idx == 0 else [],
+                "pamphlet_excerpts": sr_excerpts,
+                "step_by_step_procedure": sr_proc,
+                "counselor_signoff_criteria": sr_signoff,
+                "workbook_diagram_url": sr_diag,
                 "safety_callout": r_safety if sr_idx == 0 else None,
             })
 
             if children_are_short_condition_rows:
                 continue
 
-            for ch in children:
-                ch_id = str(
+            for ch_idx, ch in enumerate(children, start=1):
+                raw_ch_id = str(
                     ch.get("sub_id")
                     or ch.get("id")
                     or ch.get("sub_req_label")
@@ -5472,11 +6473,19 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
                     or f"{sr_id}{ch.get('label', '')}"
                 ).strip()
                 ch_text = str(ch.get("text") or ch.get("sub_req_text") or ch.get("req_text") or "").strip()
+                # Normalize duplicate Plant Science IDs like 8a(5)(5) with text '(a) Corn ...' -> 8a(5)(a)
+                m_dup_id = re.match(r"^(\d+[a-z]\(\d+\))\(\d+\)$", raw_ch_id, flags=re.IGNORECASE)
+                m_lead_lbl = re.match(r"^\(([a-z])\)\s+", ch_text, flags=re.IGNORECASE)
+                if m_dup_id and m_lead_lbl:
+                    ch_id = f"{m_dup_id.group(1)}({m_lead_lbl.group(1).lower()})"
+                else:
+                    ch_id = raw_ch_id
+
                 ch_verb = str(ch.get("action_verb") or sr_verb).strip()
                 ch_bucket = str(ch.get("syllabus_bucket") or sr_bucket).strip()
                 ch_cit = str(ch.get("pamphlet_page_citation") or ch.get("pamphlet_citation") or sr_cit).strip()
-                ch_org = _sanitize_workbook_organizer_runtime(
-                    dict(ch.get("workbook_organizer") or sr_org), ch_id, ch_text, ch_verb, parent_text=sr_text
+                ch_org = _build_child_workbook_organizer(
+                    ch, ch_id, ch_text, ch_verb, sr_org, sr_text, badge_name=badge_name
                 )
                 ch_mis = _sanitize_misconception_pair_runtime(
                     dict(ch.get("common_misconception_pair") or sr_mis), ch_id, ch_text, ch_verb, ch_cit
@@ -5484,10 +6493,42 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
                 ch_gate = ch.get("starting_requirement_gate")
                 ch_gear = list(ch.get("gear_checklist") or [])
                 ch_title = str(ch.get("topic_title") or ch.get("title") or f"{r_title} ({ch_id})").strip()
-                grand_children = list(ch.get("children") or [])
-                ch_is_group_header = bool(grand_children)
+                grand_children = list(ch.get("children") or [])[:12]
+
+                # Consolidate level-3 grand_children (e.g. Plant Science 8a(5)(a) (1)-(3) or Athletics 5g(2)(a)-(h))
+                # directly into ch_org["row_labels"] so they never explode into 49 identical 4-column tables
+                if grand_children:
+                    gch_rows: List[str] = []
+                    for gc_i, gc in enumerate(grand_children, start=1):
+                        gc_lbl = str(gc.get("label") or f"({gc_i})").strip()
+                        gc_txt = _clean_ocr_and_prefix_text(str(gc.get("text") or gc.get("sub_req_text") or "").strip())
+                        if gc_txt:
+                            gch_rows.append(f"{gc_lbl} {gc_txt}".strip())
+                    if gch_rows:
+                        ch_org["row_labels"] = gch_rows
+                        ch_org["min_rows"] = len(gch_rows)
+                        gch_joined = " ".join(gch_rows)
+                        if gch_joined and gch_joined not in ch_text:
+                            ch_text = f"{ch_text} {gch_joined}".strip()
+
+                ch_excerpts = _clean_ocr_and_prefix_excerpts(
+                    ([ch["pamphlet_summary"]] if ch.get("pamphlet_summary") else [])
+                    + list(ch.get("pamphlet_excerpts") or [])
+                    + ([f"Req {ch_id} Standard ({ch_cit}): {ch_text}"] if ch_text else [])
+                    + sr_excerpts[:2]
+                )
+                ch_proc = _clean_ocr_and_prefix_excerpts(list(ch.get("step_by_step_procedure") or sr_proc[:2]))
+                ch_signoff = str(
+                    ch.get("counselor_signoff_criteria")
+                    or ch.get("homework_verification_note")
+                    or f"Scout must individually {ch_verb.lower()} Requirement {ch_id} ({ch_text[:110].rstrip('.')}) to the Counselor."
+                ).strip()
+                ch_diag = _resolve_workbook_diagram_url(
+                    badge_name, ch_id, ch_text, str(ch.get("workbook_diagram_url") or "")
+                )
+
                 units.append({
-                    "is_group_header": ch_is_group_header,
+                    "is_group_header": False,
                     "is_sub_requirement": True,
                     "req_id": ch_id,
                     "req_number": ch_id,
@@ -5504,49 +6545,12 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]]) -> List[Dict[str, 
                     "common_misconception_pair": ch_mis,
                     "starting_requirement_gate": ch_gate,
                     "gear_checklist": ch_gear,
-                    "pamphlet_excerpts": [],
+                    "pamphlet_excerpts": ch_excerpts,
+                    "step_by_step_procedure": ch_proc,
+                    "counselor_signoff_criteria": ch_signoff,
+                    "workbook_diagram_url": ch_diag,
                     "safety_callout": None,
                 })
-                for gch in grand_children:
-                    gch_id = str(
-                        gch.get("sub_id")
-                        or gch.get("id")
-                        or gch.get("sub_req_label")
-                        or gch.get("req_number")
-                        or f"{ch_id}{gch.get('label', '')}"
-                    ).strip()
-                    gch_text = str(gch.get("text") or gch.get("sub_req_text") or gch.get("req_text") or "").strip()
-                    gch_verb = str(gch.get("action_verb") or ch_verb).strip()
-                    gch_bucket = str(gch.get("syllabus_bucket") or ch_bucket).strip()
-                    gch_cit = ch_cit
-                    gch_org = _sanitize_workbook_organizer_runtime(
-                        dict(gch.get("workbook_organizer") or ch_org), gch_id, gch_text, gch_verb, parent_text=ch_text
-                    )
-                    gch_mis = _sanitize_misconception_pair_runtime(
-                        dict(gch.get("common_misconception_pair") or ch_mis), gch_id, gch_text, gch_verb, gch_cit
-                    )
-                    gch_title = str(gch.get("topic_title") or gch.get("title") or f"{r_title} ({gch_id})").strip()
-                    units.append({
-                        "is_group_header": False,
-                        "is_sub_requirement": True,
-                        "req_id": gch_id,
-                        "req_number": gch_id,
-                        "parent_id": ch_id,
-                        "title": gch_title,
-                        "topic_title": gch_title,
-                        "req_text": gch_text,
-                        "action_verb": gch_verb,
-                        "execution_mode": r_mode,
-                        "syllabus_bucket": gch_bucket,
-                        "pamphlet_page_citation": gch_cit,
-                        "pamphlet_citation": gch_cit,
-                        "workbook_organizer": gch_org,
-                        "common_misconception_pair": gch_mis,
-                        "starting_requirement_gate": gch.get("starting_requirement_gate"),
-                        "gear_checklist": list(gch.get("gear_checklist") or []),
-                        "pamphlet_excerpts": [],
-                        "safety_callout": None,
-                    })
 
     return units
 
@@ -5620,7 +6624,7 @@ def generate_counselor_workbook_markdown(
     c_email = c_info.get("email_address") if "email_address" in c_info else "counselor@troop123.org"
     c_phone = c_info.get("phone_number") if "phone_number" in c_info else "(000) 555-1234"
     contact_parts = [p for p in [c_email, c_phone] if p]
-    contact_suffix = f" — `{' • '.join(contact_parts)}`" if contact_parts else ""
+    contact_suffix = f" - `{' • '.join(contact_parts)}`" if contact_parts else ""
 
     lines: List[str] = [
         f"# {badge_name} Merit Badge - Scout & Counselor Class Preparation Workbook",
@@ -5694,7 +6698,7 @@ def generate_counselor_workbook_markdown(
         "## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries",
         "",
     ])
-    unrolled_units = _iter_unrolled_workbook_units(reqs)
+    unrolled_units = _iter_unrolled_workbook_units(reqs, badge_name=badge_name)
     for u in unrolled_units:
         u_num = str(u.get("req_number") or u.get("req_id") or "")
         topic = str(u.get("topic_title") or u.get("title") or f"Requirement {u_num}")
@@ -5832,7 +6836,7 @@ def generate_fillable_scout_workbook_html(
     if option_track and option_track.upper() != "ALL":
         badge_pills_html += f' <span class="wb-pill option">OPTION TRACK {_html.escape(option_track.upper())}</span>'
 
-    unrolled_units = _iter_unrolled_workbook_units(reqs)
+    unrolled_units = _iter_unrolled_workbook_units(reqs, badge_name=resolved_badge)
     req_sections_html: List[str] = []
     for idx, u in enumerate(unrolled_units, start=1):
         r_num_raw = str(u.get("req_number") or u.get("req_id") or str(idx))
@@ -5914,6 +6918,29 @@ def generate_fillable_scout_workbook_html(
                 "</div>"
             )
 
+        diag_html = ""
+        diag_url_raw = str(u.get("workbook_diagram_url") or "").strip().lstrip("/")
+        if diag_url_raw:
+            try:
+                from src.tools.asset_hydrator import hydrate_single_asset_on_demand
+                hydrate_single_asset_on_demand(diag_url_raw)
+            except Exception:
+                pass
+            diag_src = (
+                f"/{_html.escape(diag_url_raw)}"
+                if not diag_url_raw.startswith(("http://", "https://", "/"))
+                else _html.escape(diag_url_raw)
+            )
+            diag_html = (
+                f'<figure class="wb-reference-diagram" data-diagram-url="{_html.escape(diag_url_raw)}" '
+                'style="margin:6px 0 8px 0; padding:6px 10px; border:1px solid #cbd5e1; border-radius:6px; background:#f8fafc; text-align:center;">'
+                f'<img src="{diag_src}" alt="Req {r_num} Instructional Reference Diagram" '
+                'style="max-width:100%; max-height:160px; height:auto; object-fit:contain; display:block; margin:0 auto;" />'
+                '<figcaption style="font-size:10.5px; color:#475569; margin-top:4px; font-weight:600;">'
+                f'Instructional Reference Diagram - Req {r_num}: {r_title}</figcaption>'
+                '</figure>'
+            )
+
         sketch_html = ""
         if org_type_raw == "SKETCH_AND_OBSERVATION_CANVAS" or any(
             k in r_text_raw.lower() for k in ("sketch", "draw a ", "draw the ", "diagram", "map")
@@ -5942,6 +6969,7 @@ def generate_fillable_scout_workbook_html(
               {pre_app_html}
               {mis_html}
               {gear_html}
+              {diag_html}
               <table class="wb-organizer-table" id="wb-table-req-{r_num}">
                 <thead><tr>{th_cells}</tr></thead>
                 <tbody>{"".join(tbody_rows)}</tbody>
@@ -5971,7 +6999,7 @@ def generate_fillable_scout_workbook_html(
         p_key = m_p.group(1) if m_p else p_id
         if p_key and p_key not in raw_parent_titles:
             t_raw = str(r_item.get("topic_title") or r_item.get("title") or r_item.get("req_text") or "").strip()
-            t_clean = re.sub(r"^(?:Requirement\s+\S+\s*[:\-–—]\s*)", "", t_raw, flags=re.IGNORECASE).strip()
+            t_clean = re.sub(r"^(?:Requirement\s+\S+\s*[:\-\u2013\u2014]\s*)", "", t_raw, flags=re.IGNORECASE).strip()
             if len(t_clean) > 48:
                 t_clean = t_clean[:45].rsplit(" ", 1)[0] + "..."
             raw_parent_titles[p_key] = t_clean or f"Requirement {p_key}"
@@ -6087,7 +7115,7 @@ def generate_fillable_scout_workbook_html(
 <body>
   <div class="no-print" style="display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; background:#003f87; color:#fff; padding:10px 14px; border-radius:8px; margin-bottom:14px;">
     <div style="font-size:13px; font-weight:700;">
-      📝 Interactive Fillable Scout Workbook (GTA §7.0.3.2) — Type directly into any table cell below or download the Fillable PDF:
+      📝 Interactive Fillable Scout Workbook (GTA §7.0.3.2) - Type directly into any table cell below or download the Fillable PDF:
     </div>
     <div style="display:flex; gap:8px; flex-wrap:wrap;">
       <a href="/api/v1/studiokit/fillable-workbook.pdf?badge_name={_html.escape(resolved_badge.replace(' ', '%20'))}&amp;option_track={_html.escape(option_track.upper())}" download style="background:#f59e0b; color:#0f172a; text-decoration:none; padding:6px 12px; border-radius:6px; font-size:12px; font-weight:800;">
@@ -6100,7 +7128,7 @@ def generate_fillable_scout_workbook_html(
   </div>
   <div class="wb-header">
     <div>
-      <h1 class="wb-title">{_html.escape(resolved_badge)} Merit Badge — Fillable Form (GTA §7.0.3.2) Scout Workbook</h1>
+      <h1 class="wb-title">{_html.escape(resolved_badge)} Merit Badge - Fillable Form (GTA §7.0.3.2) Scout Workbook</h1>
       <div>{badge_pills_html}</div>
       <div style="font-size:12px; color:#475569; margin-top:4px;">Counselor: {c_name} ({c_troop}) • {c_email} • Schedule: {_html.escape(dates_str)}</div>
     </div>
@@ -6181,9 +7209,10 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
     official_cache = _load_official_requirements_cache()
 
     # 1. Case-insensitive lookup in rich benchmark database + live BSA Pamphlet PDF enrichment
-    req_opt_track = _normalize_option_track_filter(getattr(request, "option_track", None))
+    req_opt_track = _normalize_option_track_filter(getattr(request, "option_track", None), badge_name=badge_title)
     for key, data in BENCHMARK_BADGES_DATA.items():
         if key.lower() == badge_title.lower():
+            req_opt_track = _normalize_option_track_filter(getattr(request, "option_track", None), badge_name=key)
             raw_reqs = _merge_curated_with_official_requirements(
                 key,
                 list(data["requirements"]),
@@ -6243,6 +7272,7 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
                 break
 
     resolved_name = canonical_match or badge_title
+    req_opt_track = _normalize_option_track_filter(getattr(request, "option_track", None), badge_name=resolved_name)
     encoded_name = resolved_name.replace(" ", "%20")
     slug_url = resolved_name.lower().replace(",", "").replace("&", "and").replace(" ", "-")
     pdf_url = (

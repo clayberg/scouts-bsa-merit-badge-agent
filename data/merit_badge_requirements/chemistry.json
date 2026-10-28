@@ -33,31 +33,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 1a Differential Comparison Matrix",
+            "table_title": "Req 1a Technical Comparison Matrix (Safety Data Sheets SDS)",
             "headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "column_headers": [
-              "Concept / Method A",
-              "Concept / Method B",
-              "Key Field Distinction & When to Use"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "row_labels": [
-              "Handling",
-              "Disposal guidelines",
-              "Toxicity information"
+              "1. Operating Principle & Design (Safety Data Sheets SDS)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Operating Principle & Design (Safety Data Sheets SDS)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on handling.",
-            "fact": "Scouts must explain handling using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23).",
-            "fact_correction": "Scouts must explain handling using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)"
+            "misconception": "Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Obtain Safety Data Sheets SDS activity (p. 22, p. 23).",
+            "fact_correction": "The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Obtain Safety Data Sheets SDS activity (p. 22, p. 23).",
+            "pamphlet_page_ref": "p. 22, p. 23"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -82,12 +87,17 @@
           ],
           "id": "1a",
           "sub_req_label": "1a",
-          "sub_req_text": "Obtain safety data sheets (SDS) for sucrose (sugar), isopropyl alcohol (rubbing alcohol), and a waterproofing spray. Compare their properties and potential hazard(s), including handling and disposal guidelines and toxicity information."
+          "sub_req_text": "Obtain safety data sheets (SDS) for sucrose (sugar), isopropyl alcohol (rubbing alcohol), and a waterproofing spray. Compare their properties and potential hazard(s), including handling and disposal guidelines and toxicity information.",
+          "topic_title": "Req 1a: Safety Data Sheets SDS",
+          "pamphlet_summary": "Safety Data Sheets SDS: Obtain Safety Data Sheets SDS: Chemistry and Safety Principle 3: An SDS allows the hazardous chemical manufacturer toalert the chemical user and emergency personnel about important safety information (p. 22).",
+          "pamphlet_excerpts": [
+            "Safety Data Sheets SDS: Obtain Safety Data Sheets SDS: Chemistry and Safety Principle 3: An SDS allows the hazardous chemical manufacturer toalert the chemical user and emergency personnel about important safety information (p. 22)."
+          ]
         },
         {
           "sub_id": "1b",
           "label": "(b)",
-          "text": "What types of personal protective equipment (PPE) are recommended for each, and why? How does the recommended PPE change with toxicity and route of exposure?",
+          "text": "What types of personal protective equipment (PPE) are recommended for each, and why? How does the recommended PPE change with toxicity and route of exposure.",
           "resources": [
             {
               "title": "How to Dress in the Lab and the Use of PPE (video)",
@@ -98,28 +108,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Study & Explanation Notes",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Types of Personal Protective Equipment)",
             "headers": [
-              "Req 1b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. What types of personal protective equipment (PPE) are recommended for each",
-              "2. Why?"
+              "1. Core Definition & Mechanism (Types of Personal Protective Equipment)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Types of Personal Protective Equipment)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on what types of personal protective equipment (ppe) are recommended for each.",
-            "fact": "Scouts must explain what types of personal protective equipment (ppe) are recommended for each using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23).",
-            "fact_correction": "Scouts must explain what types of personal protective equipment (ppe) are recommended for each using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)"
+            "misconception": "General familiarity with types, personal is sufficient for Chemistry Requirement 1b without citing specific functional mechanisms.",
+            "fact": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Types of Personal Protective Equipment (p. 22, p. 23).",
+            "fact_correction": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Types of Personal Protective Equipment (p. 22, p. 23).",
+            "pamphlet_page_ref": "p. 22, p. 23"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -144,12 +162,17 @@
           ],
           "id": "1b",
           "sub_req_label": "1b",
-          "sub_req_text": "What types of personal protective equipment (PPE) are recommended for each, and why? How does the recommended PPE change with toxicity and route of exposure?"
+          "sub_req_text": "What types of personal protective equipment (PPE) are recommended for each, and why? How does the recommended PPE change with toxicity and route of exposure.",
+          "topic_title": "Req 1b: Types of Personal Protective Equipment",
+          "pamphlet_summary": "Types of Personal Protective Equipment: Chemistry and Safety Principle 4: Although formats can differ, U. S. lawrequires an SDS to include certain data (p. 22).",
+          "pamphlet_excerpts": [
+            "Types of Personal Protective Equipment: Chemistry and Safety Principle 4: Although formats can differ, U. S. lawrequires an SDS to include certain data (p. 22)."
+          ]
         },
         {
           "sub_id": "1c",
           "label": "(c)",
-          "text": "Review the pictograms in Section 2 of each SDS. What do they mean, and how do you see them used in your community?",
+          "text": "Review the pictograms in Section 2 of each SDS. What do they mean, and how do you see them used in your community.",
           "resources": [
             {
               "title": "Safety Pictograms in SDS (video)",
@@ -160,28 +183,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Study & Explanation Notes",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Pictograms in Section)",
             "headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Review the pictograms in Section 2 of each SDS",
-              "2. What do they mean, and how do you see them used in your community?"
+              "1. Core Definition & Mechanism (Pictograms in Section)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Pictograms in Section)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on review the pictograms in section 2 of each sds.",
-            "fact": "Scouts must explain review the pictograms in section 2 of each sds using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23).",
-            "fact_correction": "Scouts must explain review the pictograms in section 2 of each sds using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)"
+            "misconception": "General familiarity with Review, pictograms is sufficient for Chemistry Requirement 1c without citing specific functional mechanisms.",
+            "fact": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Review The Pictograms in Section (p. 22, p. 23).",
+            "fact_correction": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Review The Pictograms in Section (p. 22, p. 23).",
+            "pamphlet_page_ref": "p. 22, p. 23"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -206,12 +237,17 @@
           ],
           "id": "1c",
           "sub_req_label": "1c",
-          "sub_req_text": "Review the pictograms in Section 2 of each SDS. What do they mean, and how do you see them used in your community?"
+          "sub_req_text": "Review the pictograms in Section 2 of each SDS. What do they mean, and how do you see them used in your community.",
+          "topic_title": "Req 1c: Pictograms in Section",
+          "pamphlet_summary": "Pictograms in Section: Review The Pictograms in Section: Chemistry and Safety: An SDS gives both consumers and emergency personnel thecorrect procedures for using a particular substance (p. 22).",
+          "pamphlet_excerpts": [
+            "Pictograms in Section: Review The Pictograms in Section: Chemistry and Safety: An SDS gives both consumers and emergency personnel thecorrect procedures for using a particular substance (p. 22)."
+          ]
         },
         {
           "sub_id": "1d",
           "label": "(d)",
-          "text": "Discuss the safe storage of chemicals. How does the safe storage of chemicals apply to your home, school, community, and the environment?",
+          "text": "Discuss the safe storage of chemicals. How does the safe storage of chemicals apply to your home, school, community, and the environment.",
           "resources": [
             {
               "title": "Chemical Storage Safety (video)",
@@ -226,28 +262,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Study & Explanation Notes",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (Safe Storage of Chemicals)",
             "headers": [
-              "Req 1d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the safe storage of chemicals",
-              "2. How does the safe storage of chemicals apply to your home, school, community"
+              "1. Core Definition & Mechanism (Safe Storage of Chemicals)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Safe Storage of Chemicals)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss the safe storage of chemicals.",
-            "fact": "Scouts must discuss discuss the safe storage of chemicals using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23).",
-            "fact_correction": "Scouts must discuss discuss the safe storage of chemicals using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)"
+            "misconception": "Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safe Storage of Chemicals activity (p. 22, p. 23).",
+            "fact_correction": "The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safe Storage of Chemicals activity (p. 22, p. 23).",
+            "pamphlet_page_ref": "p. 22, p. 23"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -272,7 +316,12 @@
           ],
           "id": "1d",
           "sub_req_label": "1d",
-          "sub_req_text": "Discuss the safe storage of chemicals. How does the safe storage of chemicals apply to your home, school, community, and the environment?"
+          "sub_req_text": "Discuss the safe storage of chemicals. How does the safe storage of chemicals apply to your home, school, community, and the environment.",
+          "topic_title": "Req 1d: Safe Storage of Chemicals",
+          "pamphlet_summary": "Safe Storage of Chemicals: Chemistry and Safety Principle 2: A government agency called the Occupational Safety and Health Administration (OSHA) monitors exposure tochemicals in the workplace and SDS reporting (p. 22).",
+          "pamphlet_excerpts": [
+            "Safe Storage of Chemicals: Chemistry and Safety Principle 2: A government agency called the Occupational Safety and Health Administration (OSHA) monitors exposure tochemicals in the workplace and SDS reporting (p. 22)."
+          ]
         }
       ],
       "resources": [
@@ -315,31 +364,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 1 Differential Comparison Matrix",
+        "table_title": "Req 1 Technical Comparison Matrix (Chemistry and Safety)",
         "headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "column_headers": [
-          "Concept / Method A",
-          "Concept / Method B",
-          "Key Field Distinction & When to Use"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "row_labels": [
-          "(a) Obtain safety data sheets (SDS) for sucrose (sugar), isopropyl alcohol",
-          "(b) What types of personal protective equipment (PPE) are recommended for each",
-          "(c) Review the pictograms in Section 2 of each SDS",
-          "(d) Discuss the safe storage of chemicals"
+          "(1a) Safety Data Sheets SDS",
+          "(1b) Types of Personal Protective Equipment",
+          "(1c) Pictograms in Section",
+          "(1d) Safe Storage of Chemicals"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "(1a) Safety Data Sheets SDS",
+          "(1b) Types of Personal Protective Equipment",
+          "(1c) Pictograms in Section",
+          "(1d) Safe Storage of Chemicals"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on obtain safety data sheets (sds) for sucrose (sugar), isopropyl alcohol.",
-        "fact": "Scouts must demonstrate obtain safety data sheets (sds) for sucrose (sugar), isopropyl alcohol using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23).",
-        "fact_correction": "Scouts must demonstrate obtain safety data sheets (sds) for sucrose (sugar), isopropyl alcohol using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23).",
-        "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)"
+        "misconception": "Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Chemistry and Safety activity (p. 22, p. 23).",
+        "fact_correction": "The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Chemistry and Safety activity (p. 22, p. 23).",
+        "pamphlet_page_ref": "p. 22, p. 23"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -363,61 +416,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "SDS Consumers Emergency: An SDS gives both consumers and emergency personnel thecorrect procedures for using a particular substance.",
-        "Government Agency: A government agency called the Occupational Safety and Health Administration (OSHA) monitors exposure tochemicals in the workplace and SDS reporting.",
-        "SDS Allows Hazardous: An SDS allows the hazardous chemical manufacturer toalert the chemical user and emergency personnel about important safety information.",
-        "Formats Differ Lawrequires: Although formats can differ, U.S. lawrequires an SDS to include certain data."
+        "Chemistry and Safety: An SDS gives both consumers and emergency personnel thecorrect procedures for using a particular substance (p. 22).",
+        "Chemistry and Safety Principle 2: A government agency called the Occupational Safety and Health Administration (OSHA) monitors exposure tochemicals in the workplace and SDS reporting (p. 22).",
+        "Chemistry and Safety Principle 3: An SDS allows the hazardous chemical manufacturer toalert the chemical user and emergency personnel about important safety information (p. 22).",
+        "Chemistry and Safety Principle 4: Although formats can differ, U. S. lawrequires an SDS to include certain data (p. 22)."
       ],
       "step_by_step_procedure": [
-        "Schools Chemicals Stored: At most schools, all chemicals are stored in a common area, often organized by hazard classification.",
-        "Schools Selectless-toxic: Schools try to selectless-toxic chemicals and minimize chemical use to reducewaste and safety risk.",
-        "Teachers Working Chemicals: Teachers working with chemicals receivetraining in safe storage, proper use, potential hazards, anddisposal.",
-        "Schools Chemical Spill: Schools have a chemical spill plan in case of anaccident."
+        "Step 1 (Chemistry and Safety): At most schools, all chemicals are stored in a common area, often organized by hazard classification (p. 22).",
+        "Step 2 (Chemistry and Safety): Schools try to selectless-toxic chemicals and minimize chemical use to reducewaste and safety risk (p. 22).",
+        "Step 3 (Chemistry and Safety): Teachers working with chemicals receivetraining in safe storage, proper use, potential hazards, anddisposal (p. 22).",
+        "Step 4 (Chemistry and Safety): Schools have a chemical spill plan in case of anaccident (p. 22)."
       ],
       "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Chemistry and Safety",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Chemistry Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Chemistry and Safety)",
+        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
+        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
+        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Chemistry Approach",
-        "right_header": "Official BSA Chemistry Standard (Chemistry and Safety)",
+        "left_header": "Proactive Hazard Prevention (Chemistry and Safety)",
+        "right_header": "Acute Emergency Response (Chemistry and Safety)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Chemistry and Safety.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Eliminate environmental and equipment risks before starting.",
+          "Chemistry and Safety: An SDS gives both consumers and emergency personnel thecorrect procedures for using a particular substance (p. 22).",
+          "Pre-activity PPE, weather, and buddy shakedown."
         ],
         "right_points": [
-          "Reviews Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Chemistry Workbook organizer.",
-          "Clearly demonstrates and explains Chemistry and Safety using the BSA EDGE method."
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Chemistry and Safety Principle 2: A government agency called the Occupational Safety and Health Administration (OSHA) monitors exposure toch.",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Chemistry and Safety: An SDS gives both consumers and emergency personnel thecorrect procedures for using a particular substance (p. 22).",
+            "right": "Chemistry and Safety Principle 2: A government agency called the Occupational Safety and Health Administration (OSHA) monitors exposure toch"
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Chemistry Req 1",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Chemistry Req 1 (Chemistry and Safety)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
-          "Requirement & Topic": "Req 1 - Chemistry and Safety",
-          "Primary Standard": "Obtain safety data sheets (SDS) for sucrose (sugar), isopropyl alcohol (rubbing alcohol), and a waterproofing spray. Compare their properties and potential hazard(s), including handling and disposal guidelines and toxicity information.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Chemistry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23) and verified during counselor conference."
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Chemistry and Safety.",
+          "Preventive Controls & PPE": "Chemistry and Safety: An SDS gives both consumers and emergency personnel thecorrect procedures for using a particular substance (p. 22).",
+          "Acute First-Aid Response": "Chemistry and Safety Principle 2: A government agency called the Occupational Safety and Health Administration (OSHA) monitors exposure tochemicals in the workplace and SDS reporti.",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)."
         },
-        "counselor_tip": "Complete your Chemistry Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Chemistry and Safety: Chemistry and Safety: An SDS gives both consumers and emergency personnel thecorrect procedures for using a particular substance (p. 22).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before starting hands-on or field work for Chemistry (Chemistry and Safety), which patrol preparation step best aligns with the official Chemistry standard?",
+        "scenario_prompt": "While working on Chemistry Requirement 1 (Chemistry and Safety), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Chemistry Requirement 1 (Chemistry and Safety), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
         "options": [
-          "Review the Chemistry hazards, PPE, and prerequisite standards in Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23) with your counselor and patrol buddy before beginning",
-          "Begin the practical station immediately and review the safety rules only if a problem occurs",
-          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
-          "Skip the pre-activity briefing when practicing indoors"
+          "A. Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Chemistry and Safety measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+          "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
         ],
-        "correct_answer": "Option A - Review the Chemistry hazards, PPE, and prerequisite standards in Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23) with your counselor and patrol buddy before beginning",
-        "explanation": "Per Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
+        "choices": [
+          "A. Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Chemistry and Safety measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+          "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "explanation": "Correct Answer (D): The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Chemistry and Safety activity (p. 22, p. 23). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)).",
+        "pamphlet_page_ref": "p. 22, p. 23"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Chemistry Workbook organizer table and practical demonstration for Req 1."
+      "homework_verification_note": "Verify completed Chemistry Workbook organizer table and practical demonstration for Req 1.",
+      "workbook_diagram_url": "assets/ai_illustrations/chemistry_req_1_workbook_diagram.png"
     },
     {
       "req_id": "2",
@@ -440,28 +522,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Study & Explanation Notes",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (You Think Soap and Alcohol)",
             "headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor why you think soap and alcohol are used to clean",
-              "2. Discuss how you could test your hypotheses with your counselor"
+              "1. Core Definition & Mechanism (You Think Soap and Alcohol)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (You Think Soap and Alcohol)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor why you think soap and alcohol are used to clean.",
-            "fact": "Scouts must discuss discuss with your counselor why you think soap and alcohol are used to clean using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68).",
-            "fact_correction": "Scouts must discuss discuss with your counselor why you think soap and alcohol are used to clean using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)"
+            "misconception": "General familiarity with Discuss, counselor is sufficient for Chemistry Requirement 2a without citing specific functional mechanisms.",
+            "fact": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of You Think Soap and Alcohol (p. 40, p. 68).",
+            "fact_correction": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of You Think Soap and Alcohol (p. 40, p. 68).",
+            "pamphlet_page_ref": "p. 40, p. 68"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -486,7 +576,12 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Discuss with your counselor why you think soap and alcohol are used to clean cuts and scrapes. Discuss how you could test your hypotheses with your counselor."
+          "sub_req_text": "Discuss with your counselor why you think soap and alcohol are used to clean cuts and scrapes. Discuss how you could test your hypotheses with your counselor.",
+          "topic_title": "Req 2a: You Think Soap and Alcohol",
+          "pamphlet_summary": "You Think Soap and Alcohol: Chemistry and First Principle 4: Fill a clear empty plastic bottle half full of water (p. 40).",
+          "pamphlet_excerpts": [
+            "You Think Soap and Alcohol: Chemistry and First Principle 4: Fill a clear empty plastic bottle half full of water (p. 40)."
+          ]
         },
         {
           "sub_id": "2b",
@@ -501,31 +596,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Study & Explanation Notes",
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 2b Technical Comparison Matrix (Coat Your Hands)",
             "headers": [
-              "Req 2b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "column_headers": [
-              "Req 2b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "row_labels": [
-              "1. Coat your hands with a mixture of cooking oil and a nontoxic powder",
-              "2. Wash your hands with water and observe what happens",
-              "3. Coat your hands again, then wash with soap and water",
-              "4. Discuss the differences with your counselor"
+              "1. Operating Principle & Design (Coat Your Hands)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Operating Principle & Design (Coat Your Hands)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on coat your hands with a mixture of cooking oil and a nontoxic powder.",
-            "fact": "Scouts must explain coat your hands with a mixture of cooking oil and a nontoxic powder using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68).",
-            "fact_correction": "Scouts must explain coat your hands with a mixture of cooking oil and a nontoxic powder using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)"
+            "misconception": "All methods covered under Coat Your Hands in Chemistry are interchangeable regardless of operating conditions.",
+            "fact": "Each method or system in Coat Your Hands has distinct operating limits, efficiency trade-offs, and field applications defined in the Chemistry pamphlet (p. 40, p. 68).",
+            "fact_correction": "Each method or system in Coat Your Hands has distinct operating limits, efficiency trade-offs, and field applications defined in the Chemistry pamphlet (p. 40, p. 68).",
+            "pamphlet_page_ref": "p. 40, p. 68"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -550,7 +651,12 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Coat your hands with a mixture of cooking oil and a nontoxic powder, such as sand or cocoa. Wash your hands with water and observe what happens. Coat your hands again, then wash with soap and water. Discuss the differences with your counselor."
+          "sub_req_text": "Coat your hands with a mixture of cooking oil and a nontoxic powder, such as sand or cocoa. Wash your hands with water and observe what happens. Coat your hands again, then wash with soap and water. Discuss the differences with your counselor.",
+          "topic_title": "Req 2b: Coat Your Hands",
+          "pamphlet_summary": "Coat Your Hands: Chemistry and First: Closely related to medicines are the chemicals used in everydayfoods (p. 40).",
+          "pamphlet_excerpts": [
+            "Coat Your Hands: Chemistry and First: Closely related to medicines are the chemicals used in everydayfoods (p. 40)."
+          ]
         },
         {
           "sub_id": "2c",
@@ -560,34 +666,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
-            "table_title": "Req 2c Scientific Experiment & Investigation Sheet",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 2c Hands-On Skill Station & EDGE Verification Checklist (Experiment to Demonstrate How Rubbing)",
             "headers": [
-              "Step",
-              "Your Plan / Hypothesis / Data",
-              "Pamphlet Principle & Conclusion"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Step",
-              "Your Plan / Hypothesis / Data",
-              "Pamphlet Principle & Conclusion"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. State the Problem",
-              "2. Form a Hypothesis",
-              "3. Experimental Procedure",
-              "4. Observed Data & Results",
-              "5. Conclusion"
+              "1. Pre-Operation Tool & Safety Check (Experiment to Demonstrate How Rubbing)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Experiment to Demonstrate How Rubbing)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform an experiment to demonstrate how rubbing alcohol affects microbial.",
-            "fact": "Scouts must demonstrate perform an experiment to demonstrate how rubbing alcohol affects microbial using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68).",
-            "fact_correction": "Scouts must demonstrate perform an experiment to demonstrate how rubbing alcohol affects microbial using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)"
+            "misconception": "Describing how to perform Perform An Experiment to Demonstrate verbally can substitute for a physical hands-on demonstration in Chemistry Requirement 2c.",
+            "fact": "Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate Perform An Experiment to Demonstrate with proper technique (p. 40, p. 68).",
+            "fact_correction": "Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate Perform An Experiment to Demonstrate with proper technique (p. 40, p. 68).",
+            "pamphlet_page_ref": "p. 40, p. 68"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -612,7 +721,12 @@
           ],
           "id": "2c",
           "sub_req_label": "2c",
-          "sub_req_text": "Perform an experiment to demonstrate how rubbing alcohol affects microbial growth using baker's yeast. Discuss the results with your counselor. Resource: Watching How Alcohol Kills Virus and Bacteria Under a Microscope (video)"
+          "sub_req_text": "Perform an experiment to demonstrate how rubbing alcohol affects microbial growth using baker's yeast. Discuss the results with your counselor. Resource: Watching How Alcohol Kills Virus and Bacteria Under a Microscope (video)",
+          "topic_title": "Req 2c: Experiment to Demonstrate How Rubbing",
+          "pamphlet_summary": "Experiment to Demonstrate How Rubbing: Perform An Experiment to Demonstrate: Chemistry and First Principle 2: An extremely pure chemical available around the houseis sucrose, or table sugar (p. 40).",
+          "pamphlet_excerpts": [
+            "Experiment to Demonstrate How Rubbing: Perform An Experiment to Demonstrate: Chemistry and First Principle 2: An extremely pure chemical available around the houseis sucrose, or table sugar (p. 40)."
+          ]
         }
       ],
       "resources": [
@@ -642,33 +756,34 @@
       "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
-        "table_title": "Req 2 Scientific Experiment & Investigation Sheet",
+        "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 2 Technical Comparison Matrix (Chemistry and First)",
         "headers": [
-          "Step",
-          "Your Plan / Hypothesis / Data",
-          "Pamphlet Principle & Conclusion"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "column_headers": [
-          "Step",
-          "Your Plan / Hypothesis / Data",
-          "Pamphlet Principle & Conclusion"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "row_labels": [
-          "1. State the Problem",
-          "2. Form a Hypothesis",
-          "3. Experimental Procedure",
-          "4. Observed Data & Results",
-          "5. Conclusion"
+          "(2a) You Think Soap and Alcohol",
+          "(2b) Coat Your Hands",
+          "(2c) Experiment to Demonstrate How Rubbing"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false
+        "rows": [
+          "(2a) You Think Soap and Alcohol",
+          "(2b) Coat Your Hands",
+          "(2c) Experiment to Demonstrate How Rubbing"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on discuss with your counselor why you think soap and alcohol are used to clean.",
-        "fact": "Scouts must explain discuss with your counselor why you think soap and alcohol are used to clean using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68).",
-        "fact_correction": "Scouts must explain discuss with your counselor why you think soap and alcohol are used to clean using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68).",
-        "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)"
+        "misconception": "Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Chemistry and First activity (p. 40, p. 68).",
+        "fact_correction": "The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Chemistry and First activity (p. 40, p. 68).",
+        "pamphlet_page_ref": "p. 40, p. 68"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -692,49 +807,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Closely Related Medicines: Closely related to medicines are the chemicals used in everydayfoods.",
-        "Extremely Pure Chemical: An extremely pure chemical available around the houseis sucrose, or table sugar.",
-        "Onearea Active Research: Onearea of active research is noncaloric sweeteners like saccharin, aspartame, and sucralose.",
-        "Empty Plastic Bottle: Fill a clear empty plastic bottle half full of water."
+        "Chemistry and First: Closely related to medicines are the chemicals used in everydayfoods (p. 40).",
+        "Chemistry and First Principle 2: An extremely pure chemical available around the houseis sucrose, or table sugar (p. 40).",
+        "Chemistry and First Principle 3: Onearea of active research is noncaloric sweeteners like saccharin, aspartame, and sucralose (p. 40).",
+        "Chemistry and First Principle 4: Fill a clear empty plastic bottle half full of water (p. 40)."
       ],
       "step_by_step_procedure": [
-        "Asdiscovered Oil Water: Asdiscovered in the oil and water separation experiment, oil andwater do not mix.",
-        "Here is the challenge: Find a mystery ingredient to add to Surface Tension Tip: Rememberthe wordsurfactant because itdisrupts thesurface tension.",
-        "Surface Water Molecules: Surface water molecules are strongly attracted to themolecules on their sides and directly below them.",
-        "Water Moleculeson Surface: The water moleculeson the surface exert all their strong attractive forces, called cohesion, on the molecules beside them anddirectly."
+        "Step 1 (Chemistry and First): Asdiscovered in the oil and water separation experiment, oil and water do not mix (p. 40).",
+        "Step 2 (Chemistry and First): Here is the challenge: Find a mystery ingredient to add to Surface Tension Tip: Remember the wordsurfactant because itdisrupts thesurface tension (p. 40).",
+        "Step 3 (Chemistry and First): Surface water molecules are strongly attracted to themolecules on their sides and directly below them (p. 40).",
+        "Step 4 (Chemistry and First): The water moleculeson the surface exert all their strong attractive forces, called cohesion, on the molecules beside them anddirectly (p. 40)."
       ],
       "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Chemistry and First",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Chemistry Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Chemistry and First)",
+        "Calibrated instant-read digital food thermometer and sanitizing wipes.",
+        "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves.",
+        "USDA MyPlate nutrition chart, recipe cards, and biodegradable three-pot wash basin kit."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Chemistry Approach",
-        "right_header": "Official BSA Chemistry Standard (Chemistry and First)",
+        "left_header": "Proactive Hazard Prevention (Chemistry and First)",
+        "right_header": "Acute Emergency Response (Chemistry and First)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Chemistry and First.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Eliminate environmental and equipment risks before starting.",
+          "Chemistry and First: Closely related to medicines are the chemicals used in everydayfoods (p. 40).",
+          "Pre-activity PPE, weather, and buddy shakedown."
         ],
         "right_points": [
-          "Reviews Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Chemistry Workbook organizer.",
-          "Clearly demonstrates and explains Chemistry and First using the BSA EDGE method."
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Chemistry and First Principle 2: An extremely pure chemical available around the houseis sucrose, or table sugar (p. 40).",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Chemistry and First: Closely related to medicines are the chemicals used in everydayfoods (p. 40).",
+            "right": "Chemistry and First Principle 2: An extremely pure chemical available around the houseis sucrose, or table sugar (p. 40)."
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Chemistry Req 2",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Chemistry Req 2 (Chemistry and First)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
-          "Requirement & Topic": "Req 2 - Chemistry and First",
-          "Primary Standard": "Discuss with your counselor why you think soap and alcohol are used to clean cuts and scrapes. Discuss how you could test your hypotheses with your counselor.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Chemistry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68) and verified during counselor conference."
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Chemistry and First.",
+          "Preventive Controls & PPE": "Chemistry and First: Closely related to medicines are the chemicals used in everydayfoods (p. 40).",
+          "Acute First-Aid Response": "Chemistry and First Principle 2: An extremely pure chemical available around the houseis sucrose, or table sugar (p. 40).",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)."
         },
-        "counselor_tip": "Complete your Chemistry Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Chemistry and First: Chemistry and First: Closely related to medicines are the chemicals used in everydayfoods (p. 40).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Chemistry Requirement 2 (Chemistry and First), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Chemistry Requirement 2 (Chemistry and First), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Chemistry and First measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+          "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        ],
+        "choices": [
+          "A. Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "B. Defer all Chemistry and First measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+          "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "explanation": "Correct Answer (D): The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Chemistry and First activity (p. 40, p. 68). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)).",
+        "pamphlet_page_ref": "p. 40, p. 68"
+      },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Chemistry Workbook organizer table and practical demonstration for Req 2."
     },
@@ -766,34 +919,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 3a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Maillard or Browning Reaction)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Perform a Maillard, or browning, reaction",
-              "2. Discuss with your counselor whether a physical or chemical change"
+              "1. Core Definition & Mechanism (Maillard or Browning Reaction)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Core Definition & Mechanism (Maillard or Browning Reaction)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a maillard, or browning, reaction.",
-            "fact": "Scouts must discuss perform a maillard, or browning, reaction using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17).",
-            "fact_correction": "Scouts must discuss perform a maillard, or browning, reaction using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)"
+            "misconception": "Describing how to perform Perform A Maillard or Browning verbally can substitute for a physical hands-on demonstration in Chemistry Requirement 3a.",
+            "fact": "Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate Perform A Maillard or Browning with proper technique (p. 15, p. 17).",
+            "fact_correction": "Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate Perform A Maillard or Browning with proper technique (p. 15, p. 17).",
+            "pamphlet_page_ref": "p. 15, p. 17"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -818,7 +974,12 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Perform a Maillard, or browning, reaction. Discuss with your counselor whether a physical or chemical change has occurred, and what happened to molecules in the food during the cooking process."
+          "sub_req_text": "Perform a Maillard, or browning, reaction. Discuss with your counselor whether a physical or chemical change has occurred, and what happened to molecules in the food during the cooking process.",
+          "topic_title": "Req 3a: Maillard or Browning Reaction",
+          "pamphlet_summary": "Maillard or Browning Reaction: Perform A Maillard or Browning: Chemistry and Cooking: When people hear the word chemicals, they may feelafraid (p. 15).",
+          "pamphlet_excerpts": [
+            "Maillard or Browning Reaction: Perform A Maillard or Browning: Chemistry and Cooking: When people hear the word chemicals, they may feelafraid (p. 15)."
+          ]
         },
         {
           "sub_id": "3b",
@@ -841,34 +1002,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 3b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Red Cabbage Indicator to Measure)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Prepare and use red cabbage indicator to measure the pH of five common",
-              "2. Discuss your observations with your counselor"
+              "1. Core Definition & Mechanism (Red Cabbage Indicator to Measure)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Core Definition & Mechanism (Red Cabbage Indicator to Measure)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on prepare and use red cabbage indicator to measure the ph of five common.",
-            "fact": "Scouts must prepare prepare and use red cabbage indicator to measure the ph of five common using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17).",
-            "fact_correction": "Scouts must prepare prepare and use red cabbage indicator to measure the ph of five common using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)"
+            "misconception": "General familiarity with Prepare, cabbage is sufficient for Chemistry Requirement 3b without citing specific functional mechanisms.",
+            "fact": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Prepare and Use Red Cabbage (p. 15, p. 17).",
+            "fact_correction": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Prepare and Use Red Cabbage (p. 15, p. 17).",
+            "pamphlet_page_ref": "p. 15, p. 17"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -893,7 +1057,12 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Prepare and use red cabbage indicator to measure the pH of five common household liquids, including water. Discuss your observations with your counselor."
+          "sub_req_text": "Prepare and use red cabbage indicator to measure the pH of five common household liquids, including water. Discuss your observations with your counselor.",
+          "topic_title": "Req 3b: Red Cabbage Indicator to Measure",
+          "pamphlet_summary": "Red Cabbage Indicator to Measure: Prepare and Use Red Cabbage: Chemistry and Cooking Principle 2: They unconsciously may think that all chemicals are poisonous, but not all chemicals are even dangerous (p. 15).",
+          "pamphlet_excerpts": [
+            "Red Cabbage Indicator to Measure: Prepare and Use Red Cabbage: Chemistry and Cooking Principle 2: They unconsciously may think that all chemicals are poisonous, but not all chemicals are even dangerous (p. 15)."
+          ]
         }
       ],
       "resources": [
@@ -932,40 +1101,39 @@
       },
       "topic_title": "Req 3: Chemistry and Cooking",
       "action_verb": "Explain",
-      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Chemistry Requirement 3 activities.",
       "pamphlet_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)",
       "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)",
-      "syllabus_bucket": "In-Class Demonstration",
+      "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 3 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Chemistry and Cooking)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Perform a Maillard, or browning, reaction",
-          "(b) Prepare and use red cabbage indicator to measure the pH of five common"
+          "(3a) Maillard or Browning Reaction",
+          "(3b) Red Cabbage Indicator to Measure"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(3a) Maillard or Browning Reaction",
+          "(3b) Red Cabbage Indicator to Measure"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on perform a maillard, or browning, reaction.",
-        "fact": "Scouts must explain perform a maillard, or browning, reaction using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17).",
-        "fact_correction": "Scouts must explain perform a maillard, or browning, reaction using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17).",
-        "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)"
+        "misconception": "Describing how to perform Chemistry and Cooking verbally can substitute for a physical hands-on demonstration in Chemistry Requirement 3.",
+        "fact": "Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate Chemistry and Cooking with proper technique (p. 15, p. 17).",
+        "fact_correction": "Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate Chemistry and Cooking with proper technique (p. 15, p. 17).",
+        "pamphlet_page_ref": "p. 15, p. 17"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -989,49 +1157,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "People Hear Word: When people hear the word chemicals, they may feelafraid.",
-        "They Unconsciously Think: They unconsciously may think that all chemicalsare poisonous, but not all chemicals are even dangerous.",
-        "Everything House Chemicals: Everything in your house is made from chemicals, including the food you eat and the clothes you wear.",
-        "Continuously Carry Out: To live and breathe, you must continuously carry out many chemical reactions within your body."
+        "Chemistry and Cooking: When people hear the word chemicals, they may feelafraid (p. 15).",
+        "Chemistry and Cooking Principle 2: They unconsciously may think that all chemicals are poisonous, but not all chemicals are even dangerous (p. 15).",
+        "Chemistry and Cooking Principle 3: Everything in your house is made from chemicals, including the food you eat and the clothes you wear (p. 15).",
+        "Chemistry and Cooking Principle 4: To live and breathe, you must continuously carry out many chemical reactions within your body (p. 15)."
       ],
       "step_by_step_procedure": [
-        "Youeat Complex Molecules: Youeat complex molecules of carbohydrates, fats, and proteins.",
-        "Your body Molecules Energy: Your body uses these molecules for energy and to make new biomolecules for tissues such as muscle, hair, and nails.",
-        "Combustion Way Tell: Combustion is one way to tell if achemical change has taken place.",
-        "Trythis Experiment Flame: Trythis experiment with a flame, one signof chemical change."
+        "Step 1 (Chemistry and Cooking): Youeat complex molecules of carbohydrates, fats, and proteins (p. 15).",
+        "Step 2 (Chemistry and Cooking): Your body uses these molecules for energy and to make new biomolecules for tissues such as muscle, hair, and nails (p. 15).",
+        "Step 3 (Chemistry and Cooking): Combustion is one way to tell if achemical change has taken place (p. 15).",
+        "Step 4 (Chemistry and Cooking): Trythis experiment with a flame, one sign of chemical change (p. 15)."
       ],
       "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Chemistry and Cooking",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Chemistry Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Chemistry and Cooking)",
+        "Calibrated instant-read digital food thermometer and sanitizing wipes.",
+        "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves.",
+        "USDA MyPlate nutrition chart, recipe cards, and biodegradable three-pot wash basin kit."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Chemistry Approach",
-        "right_header": "Official BSA Chemistry Standard (Chemistry and Cooking)",
+        "left_header": "Foundational Principles (Chemistry and Cooking)",
+        "right_header": "Applied Field Execution (Chemistry and Cooking)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Chemistry and Cooking.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Chemistry and Cooking.",
+          "Chemistry and Cooking: When people hear the word chemicals, they may feelafraid (p. 15).",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Chemistry Workbook organizer.",
-          "Clearly demonstrates and explains Chemistry and Cooking using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Chemistry.",
+          "Chemistry and Cooking Principle 2: They unconsciously may think that all chemicalsare poisonous, but not all chemicals are even dangerous.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Chemistry and Cooking.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Chemistry."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Chemistry and Cooking: When people hear the word chemicals, they may feelafraid (p. 15).",
+            "right": "Chemistry and Cooking Principle 2: They unconsciously may think that all chemicalsare poisonous, but not all chemicals are even dangerous (p"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Chemistry Req 3",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Technical Analysis: Chemistry Req 3 (Chemistry and Cooking)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Requirement & Topic": "Req 3 - Chemistry and Cooking",
-          "Primary Standard": "Perform a Maillard, or browning, reaction. Discuss with your counselor whether a physical or chemical change has occurred, and what happened to molecules in the food during the cooking process.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Chemistry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17) and verified during counselor conference."
+          "Core Technical Principle": "Chemistry and Cooking: When people hear the word chemicals, they may feelafraid (p. 15).",
+          "Applied Field Mechanism": "Chemistry and Cooking Principle 2: They unconsciously may think that all chemicals are poisonous, but not all chemicals are even dangerous (p. 15).",
+          "Real-World Case Example": "Concrete application of Chemistry and Cooking documented during Chemistry study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)."
         },
-        "counselor_tip": "Complete your Chemistry Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Chemistry and Cooking: Chemistry and Cooking: When people hear the word chemicals, they may feelafraid (p. 15).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Chemistry Requirement 3 (Chemistry and Cooking), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Chemistry Requirement 3 (Chemistry and Cooking), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate.",
+          "B. Describing how to perform Chemistry and Cooking verbally can substitute for a physical hands-on demonstration in Chemistry.",
+          "C. Defer all Chemistry and Cooking measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+        ],
+        "choices": [
+          "A. Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate.",
+          "B. Describing how to perform Chemistry and Cooking verbally can substitute for a physical hands-on demonstration in Chemistry.",
+          "C. Defer all Chemistry and Cooking measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate.",
+        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate Chemistry and Cooking with proper technique (p. 15, p. 17). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)).",
+        "pamphlet_page_ref": "p. 15, p. 17"
+      },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Chemistry Workbook organizer table and practical demonstration for Req 3."
     },
@@ -1045,7 +1251,7 @@
         {
           "sub_id": "4a",
           "label": "(a)",
-          "text": "Design and conduct an experiment to compare at least two different types of waterproofing. Discuss with your counselor which one you would prefer to use on your tent and which one you would prefer to use on your boots, and why.",
+          "text": "Design and conduct an experiment to compare at least two different types of waterproofing. Discuss with your counselor which one you would prefer to use on your tent and which one you would prefer to use on your boots.",
           "resources": [
             {
               "title": "Transforming Paper into a Waterproof Marvel (video)",
@@ -1063,34 +1269,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
-            "table_title": "Req 4a Scientific Experiment & Investigation Sheet",
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 4a Technical Comparison Matrix (Experiment to Compare)",
             "headers": [
-              "Step",
-              "Your Plan / Hypothesis / Data",
-              "Pamphlet Principle & Conclusion"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "column_headers": [
-              "Step",
-              "Your Plan / Hypothesis / Data",
-              "Pamphlet Principle & Conclusion"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "row_labels": [
-              "1. State the Problem",
-              "2. Form a Hypothesis",
-              "3. Experimental Procedure",
-              "4. Observed Data & Results",
-              "5. Conclusion"
+              "1. Operating Principle & Design (Experiment to Compare)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Operating Principle & Design (Experiment to Compare)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on design and conduct an experiment to compare at least two different types.",
-            "fact": "Scouts must design design and conduct an experiment to compare at least two different types using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40).",
-            "fact_correction": "Scouts must design design and conduct an experiment to compare at least two different types using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)"
+            "misconception": "All methods covered under Design and Conduct An Experiment in Chemistry are interchangeable regardless of operating conditions.",
+            "fact": "Each method or system in Design and Conduct An Experiment has distinct operating limits, efficiency trade-offs, and field applications defined in the Chemistry pamphlet (p. 21, p. 40).",
+            "fact_correction": "Each method or system in Design and Conduct An Experiment has distinct operating limits, efficiency trade-offs, and field applications defined in the Chemistry pamphlet (p. 21, p. 40).",
+            "pamphlet_page_ref": "p. 21, p. 40"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1115,7 +1324,12 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Design and conduct an experiment to compare at least two different types of waterproofing. Discuss with your counselor which one you would prefer to use on your tent and which one you would prefer to use on your boots, and why."
+          "sub_req_text": "Design and conduct an experiment to compare at least two different types of waterproofing. Discuss with your counselor which one you would prefer to use on your tent and which one you would prefer to use on your boots.",
+          "topic_title": "Req 4a: Experiment to Compare",
+          "pamphlet_summary": "Experiment to Compare: Design and Conduct An Experiment: Chemistry and Camping Principle 2: Cook and stir for about three minutes, until the onion becomes translucent (kind of see-through) (p. 21).",
+          "pamphlet_excerpts": [
+            "Experiment to Compare: Design and Conduct An Experiment: Chemistry and Camping Principle 2: Cook and stir for about three minutes, until the onion becomes translucent (kind of see-through) (p. 21)."
+          ]
         },
         {
           "sub_id": "4b",
@@ -1135,28 +1349,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Study & Explanation Notes",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Classes of Fires)",
             "headers": [
-              "Req 4b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the four classes of fires, and the four classes of fire extinguishers",
-              "2. Discuss with your counselor how sand, baking soda, and the four classes"
+              "1. Core Definition & Mechanism (Classes of Fires)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Classes of Fires)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe the four classes of fires, and the four classes of fire extinguishers.",
-            "fact": "Scouts must discuss describe the four classes of fires, and the four classes of fire extinguishers using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40).",
-            "fact_correction": "Scouts must discuss describe the four classes of fires, and the four classes of fire extinguishers using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)"
+            "misconception": "General familiarity with Describe, classes is sufficient for Chemistry Requirement 4b without citing specific functional mechanisms.",
+            "fact": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Four Classes of Fires (p. 21, p. 40).",
+            "fact_correction": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Four Classes of Fires (p. 21, p. 40).",
+            "pamphlet_page_ref": "p. 21, p. 40"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1181,7 +1403,12 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Describe the four classes of fires, and the four classes of fire extinguishers. Discuss with your counselor how sand, baking soda, and the four classes of extinguishers work to put out fires."
+          "sub_req_text": "Describe the four classes of fires, and the four classes of fire extinguishers. Discuss with your counselor how sand, baking soda, and the four classes of extinguishers work to put out fires.",
+          "topic_title": "Req 4b: Classes of Fires",
+          "pamphlet_summary": "Classes of Fires: Four Classes of Fires: Chemistry and Camping Principle 3: Some chemicals are safeenough to be eaten, such as sugar, cookingoil, and baking soda (p. 21).",
+          "pamphlet_excerpts": [
+            "Classes of Fires: Four Classes of Fires: Chemistry and Camping Principle 3: Some chemicals are safeenough to be eaten, such as sugar, cookingoil, and baking soda (p. 21)."
+          ]
         },
         {
           "sub_id": "4c",
@@ -1197,29 +1424,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Study & Explanation Notes",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Counselor's Supervision And/or The Supervision)",
             "headers": [
-              "Req 4c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Under your counselor's supervision and/or the supervision",
-              "2. Key Pamphlet Examples & Evidence (Req 4c)",
-              "3. Practical Explain & Safety Verification"
+              "1. Core Definition & Mechanism (Counselor's Supervision And/or The Supervision)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Counselor's Supervision And/or The Supervision)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on under your counselor's supervision and/or the supervision.",
-            "fact": "Scouts must explain under your counselor's supervision and/or the supervision using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40).",
-            "fact_correction": "Scouts must explain under your counselor's supervision and/or the supervision using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)"
+            "misconception": "General familiarity with counselor's, supervision is sufficient for Chemistry Requirement 4c without citing specific functional mechanisms.",
+            "fact": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Under Your Counselor's Supervision And/or (p. 21, p. 40).",
+            "fact_correction": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Under Your Counselor's Supervision And/or (p. 21, p. 40).",
+            "pamphlet_page_ref": "p. 21, p. 40"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1244,12 +1478,17 @@
           ],
           "id": "4c",
           "sub_req_label": "4c",
-          "sub_req_text": "Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, conduct flame tests of at least five elements using a kitchen or propane torch."
+          "sub_req_text": "Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, conduct flame tests of at least five elements using a kitchen or propane torch.",
+          "topic_title": "Req 4c: Counselor's Supervision And/or The Supervision",
+          "pamphlet_summary": "Counselor's Supervision And/or The Supervision: Under Your Counselor's Supervision And/or: Chemistry and Camping Principle 4: Other chemicals are sopotentially dangerous that you need to weargloves and safety goggleswhen you handle them (p. 21).",
+          "pamphlet_excerpts": [
+            "Counselor's Supervision And/or The Supervision: Under Your Counselor's Supervision And/or: Chemistry and Camping Principle 4: Other chemicals are sopotentially dangerous that you need to weargloves and safety goggleswhen you handle them (p. 21)."
+          ]
         },
         {
           "sub_id": "4d",
           "label": "(d)",
-          "text": "Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, synthesize nylon (may be from a kit).",
+          "text": "Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, synthesize nylon (may be from a kit)",
           "resources": [
             {
               "title": "Making Nylon (video)",
@@ -1260,29 +1499,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Study & Explanation Notes",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Counselor's Supervision And/or The Supervision)",
             "headers": [
-              "Req 4d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 4d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 4d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Under your counselor's supervision and/or the supervision",
-              "2. Key Pamphlet Examples & Evidence (Req 4d)",
-              "3. Practical Explain & Safety Verification"
+              "1. Core Definition & Mechanism (Counselor's Supervision And/or The Supervision)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Counselor's Supervision And/or The Supervision)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on under your counselor's supervision and/or the supervision.",
-            "fact": "Scouts must explain under your counselor's supervision and/or the supervision using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40).",
-            "fact_correction": "Scouts must explain under your counselor's supervision and/or the supervision using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)"
+            "misconception": "General familiarity with counselor's, supervision is sufficient for Chemistry Requirement 4d without citing specific functional mechanisms.",
+            "fact": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Under Your Counselor's Supervision And/or (p. 21, p. 40).",
+            "fact_correction": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Under Your Counselor's Supervision And/or (p. 21, p. 40).",
+            "pamphlet_page_ref": "p. 21, p. 40"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1307,7 +1553,12 @@
           ],
           "id": "4d",
           "sub_req_label": "4d",
-          "sub_req_text": "Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, synthesize nylon (may be from a kit)."
+          "sub_req_text": "Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, synthesize nylon (may be from a kit)",
+          "topic_title": "Req 4d: Counselor's Supervision And/or The Supervision",
+          "pamphlet_summary": "Counselor's Supervision And/or The Supervision: Under Your Counselor's Supervision And/or: Chemistry and Camping: Ask an adult to help with this cooking experiment and use hot pads at the stove (p. 21).",
+          "pamphlet_excerpts": [
+            "Counselor's Supervision And/or The Supervision: Under Your Counselor's Supervision And/or: Chemistry and Camping: Ask an adult to help with this cooking experiment and use hot pads at the stove (p. 21)."
+          ]
         }
       ],
       "resources": [
@@ -1357,33 +1608,36 @@
       "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "SCIENTIFIC_EXPERIMENT_SHEET",
-        "table_title": "Req 4 Scientific Experiment & Investigation Sheet",
+        "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 4 Technical Comparison Matrix (Chemistry and Camping)",
         "headers": [
-          "Step",
-          "Your Plan / Hypothesis / Data",
-          "Pamphlet Principle & Conclusion"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "column_headers": [
-          "Step",
-          "Your Plan / Hypothesis / Data",
-          "Pamphlet Principle & Conclusion"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "row_labels": [
-          "1. State the Problem",
-          "2. Form a Hypothesis",
-          "3. Experimental Procedure",
-          "4. Observed Data & Results",
-          "5. Conclusion"
+          "(4a) Experiment to Compare",
+          "(4b) Classes of Fires",
+          "(4c) Counselor's Supervision And/or The Supervision",
+          "(4d) Counselor's Supervision And/or The Supervision"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false
+        "rows": [
+          "(4a) Experiment to Compare",
+          "(4b) Classes of Fires",
+          "(4c) Counselor's Supervision And/or The Supervision",
+          "(4d) Counselor's Supervision And/or The Supervision"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on design and conduct an experiment to compare at least two different types.",
-        "fact": "Scouts must explain design and conduct an experiment to compare at least two different types using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40).",
-        "fact_correction": "Scouts must explain design and conduct an experiment to compare at least two different types using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40).",
-        "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)"
+        "misconception": "All methods covered under Chemistry and Camping in Chemistry are interchangeable regardless of operating conditions.",
+        "fact": "Each method or system in Chemistry and Camping has distinct operating limits, efficiency trade-offs, and field applications defined in the Chemistry pamphlet (p. 21, p. 40).",
+        "fact_correction": "Each method or system in Chemistry and Camping has distinct operating limits, efficiency trade-offs, and field applications defined in the Chemistry pamphlet (p. 21, p. 40).",
+        "pamphlet_page_ref": "p. 21, p. 40"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1407,49 +1661,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Ask Cooking Experiment: Ask an adult to help with this cooking experiment and use hot pads at the stove.",
-        "Cook Stir Minutes: Cook and stir for about three minutes, until the onion becomes translucent (kind of see-through).",
-        "Chemicals Safeenough Eaten: Some chemicals are safeenough to be eaten, such as sugar, cookingoil, and baking soda.",
-        "Chemicals Sopotentially: Other chemicals are sopotentially dangerousthat you need to weargloves and safety goggleswhen you handle them."
+        "Chemistry and Camping: Ask an adult to help with this cooking experiment and use hot pads at the stove (p. 21).",
+        "Chemistry and Camping Principle 2: Cook and stir for about three minutes, until the onion becomes translucent (kind of see-through) (p. 21).",
+        "Chemistry and Camping Principle 3: Some chemicals are safeenough to be eaten, such as sugar, cookingoil, and baking soda (p. 21).",
+        "Chemistry and Camping Principle 4: Other chemicals are sopotentially dangerous that you need to weargloves and safety goggleswhen you handle them (p. 21)."
       ],
       "step_by_step_procedure": [
-        "Examples Dangerouschemicals: Examples of dangerouschemicals are bathroomcleaners, drain cleaners, and acids.",
-        "Manychemicals Storedsafely: Manychemicals must be storedsafely to avoid possiblefires or poisonings.",
-        "Flammable Materialsshould: Flammable materialsshould be stored away from heat and flame, which are sourcesof ignition.",
-        "Younger Brothers Sisters: If you have younger brothers and sisters, make sure your parent or guardian places childproof locking devices on kitchenand bathroom cabinets."
+        "Step 1 (Chemistry and Camping): Examples of dangerouschemicals are bathroomcleaners, drain cleaners, and acids (p. 21).",
+        "Step 2 (Chemistry and Camping): Manychemicals must be storedsafely to avoid possiblefires or poisonings (p. 21).",
+        "Step 3 (Chemistry and Camping): Flammable materialsshould be stored away from heat and flame, which are sources of ignition (p. 21).",
+        "Step 4 (Chemistry and Camping): If you have younger brothers and sisters, make sure your parent or guardian places childproof locking devices on kitchen and bathroom cabinets (p. 21)."
       ],
       "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Chemistry and Camping",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Chemistry Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Chemistry and Camping)",
+        "Calibrated instant-read digital food thermometer and sanitizing wipes.",
+        "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves.",
+        "USDA MyPlate nutrition chart, recipe cards, and biodegradable three-pot wash basin kit."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Chemistry Approach",
-        "right_header": "Official BSA Chemistry Standard (Chemistry and Camping)",
+        "left_header": "Foundational Principles (Chemistry and Camping)",
+        "right_header": "Applied Field Execution (Chemistry and Camping)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Chemistry and Camping.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Chemistry and Camping.",
+          "Chemistry and Camping: Ask an adult to help with this cooking experiment and use hot pads at the stove (p. 21).",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Chemistry Workbook organizer.",
-          "Clearly demonstrates and explains Chemistry and Camping using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Chemistry.",
+          "Chemistry and Camping Principle 2: Cook and stir for about three minutes, until the onion becomes translucent (kind of see-through) (p. 21).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Chemistry and Camping.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Chemistry."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Chemistry and Camping: Ask an adult to help with this cooking experiment and use hot pads at the stove (p. 21).",
+            "right": "Chemistry and Camping Principle 2: Cook and stir for about three minutes, until the onion becomes translucent (kind of see-through) (p. 21)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Chemistry Req 4",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Technical Analysis: Chemistry Req 4 (Chemistry and Camping)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Requirement & Topic": "Req 4 - Chemistry and Camping",
-          "Primary Standard": "Design and conduct an experiment to compare at least two different types of waterproofing. Discuss with your counselor which one you would prefer to use on your tent and which one you would prefer to use on your boots, and why.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Chemistry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40) and verified during counselor conference."
+          "Core Technical Principle": "Chemistry and Camping: Ask an adult to help with this cooking experiment and use hot pads at the stove (p. 21).",
+          "Applied Field Mechanism": "Chemistry and Camping Principle 2: Cook and stir for about three minutes, until the onion becomes translucent (kind of see-through) (p. 21).",
+          "Real-World Case Example": "Concrete application of Chemistry and Camping documented during Chemistry study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)."
         },
-        "counselor_tip": "Complete your Chemistry Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Chemistry and Camping: Chemistry and Camping: Ask an adult to help with this cooking experiment and use hot pads at the stove (p. 21).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Chemistry Requirement 4 (Chemistry and Camping), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Chemistry Requirement 4 (Chemistry and Camping), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. All methods covered under Chemistry and Camping in Chemistry are interchangeable regardless of operating conditions.",
+          "B. Defer all Chemistry and Camping measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+          "D. Each method or system in Chemistry and Camping has distinct operating limits, efficiency trade-offs, and field applications defined."
+        ],
+        "choices": [
+          "A. All methods covered under Chemistry and Camping in Chemistry are interchangeable regardless of operating conditions.",
+          "B. Defer all Chemistry and Camping measurements and safety checks until after the field session concludes.",
+          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+          "D. Each method or system in Chemistry and Camping has distinct operating limits, efficiency trade-offs, and field applications defined."
+        ],
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Each method or system in Chemistry and Camping has distinct operating limits, efficiency trade-offs, and field applications defined.",
+        "explanation": "Correct Answer (D): Each method or system in Chemistry and Camping has distinct operating limits, efficiency trade-offs, and field applications defined in the Chemistry pamphlet (p. 21, p. 40). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)).",
+        "pamphlet_page_ref": "p. 21, p. 40"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Chemistry Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1492,29 +1784,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Study & Explanation Notes",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Chemistry can be used to reduce)",
         "headers": [
-          "Req 5 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 5 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 5 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 5 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "Water bottles",
-          "Bags",
-          "Straws",
-          "Batteries"
+          "1. Core Definition & Mechanism (Chemistry can be used to reduce)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Core Definition & Mechanism (Chemistry can be used to reduce)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on water bottles.",
-        "fact": "Scouts must describe water bottles using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 52, p. 58).",
-        "fact_correction": "Scouts must describe water bottles using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 52, p. 58).",
-        "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 52, p. 58)"
+        "misconception": "General familiarity with Describe, chemistry is sufficient for Chemistry Requirement 5 without citing specific functional mechanisms.",
+        "fact": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Chemistry can be used to reduce (p. 52, p. 58).",
+        "fact_correction": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Chemistry can be used to reduce (p. 52, p. 58).",
+        "pamphlet_page_ref": "p. 52, p. 58"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1538,36 +1836,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Heating Teakettle Brought: Heating the teakettle brought the water to its boiling pointtemperature, where it began to boil, making steam.",
-        "Steampassed Straw Cooled: The steampassed through the straw and was cooled by the ice.",
-        "Thecooled Steam Condensed: Thecooled steam condensed, became a liquid, and dripped downinto the glass.",
-        "Empty Liter Bottle: Fill an empty 2-liter bottle with 3 or 4 inches ofcooking oil, baby oil, or mineral oil."
+        "Chemistry can be used to reduce: Heating the teakettle brought the water to its boiling pointtemperature, where it began to boil, making steam (p. 52).",
+        "Chemistry can be used to reduce Principle 2: The steampassed through the straw and was cooled by the ice (p. 52).",
+        "Chemistry can be used to reduce Principle 3: Thecooled steam condensed, became a liquid, and dripped downinto the glass (p. 52).",
+        "Chemistry can be used to reduce Principle 4: Fill an empty 2-liter bottle with 3 or 4 inches ofcooking oil, baby oil, or mineral oil (p. 52)."
       ],
       "step_by_step_procedure": [
-        "Add Approximately Thesame: Add approximately thesame amount of water and a few drops of food coloring.",
-        "Oil Water Beginto: The oil and water beginto separate as soon as you stopshaking the bottle.",
-        "Chemical Industry Gets: The chemical industry often gets blamed for creating pollution and otherenvironmental problems, but green chemistry actually uses.",
-        "Goal Reduce Eliminate: The goal is to reduce or eliminate both theuse and the creation of hazardous substances."
+        "Step 1 (Chemistry can be used to reduce): Add approximately the same amount of water and a few drops of food coloring (p. 52).",
+        "Step 2 (Chemistry can be used to reduce): The oil and water begin to separate as soon as you stopshaking the bottle (p. 52).",
+        "Step 3 (Chemistry can be used to reduce): The chemical industry often gets blamed for creating pollution and otherenvironmental problems, but green chemistry actually uses (p. 52).",
+        "Step 4 (Chemistry can be used to reduce): The goal is to reduce or eliminate both theuse and the creation of hazardous substances (p. 52)."
       ],
       "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Chemistry can be used to reduce",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Chemistry Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Chemistry can be used to reduce)",
+        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
+        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
+        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Chemistry Req 5",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 5 - Chemistry can be used to reduce",
-          "Primary Standard": "Describe how chemistry can be used to reduce the environmental impacts of single-use items, such as water bottles, bags, straws, or batteries.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Chemistry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Chemistry Merit Badge Pamphlet (p. 52, p. 58) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Chemistry Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Chemistry can be used to reduce)",
+        "right_header": "Applied Field Execution (Chemistry can be used to reduce)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Chemistry can be used to reduce.",
+          "Chemistry can be used to reduce: Heating the teakettle brought the water to its boiling pointtemperature, where it began to boil, making ste.",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Chemistry.",
+          "Chemistry can be used to reduce Principle 2: The steampassed through the straw and was cooled by the ice (p. 52).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Chemistry can be used to reduce.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Chemistry."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Chemistry can be used to reduce: Heating the teakettle brought the water to its boiling pointtemperature, where it began to boil, making ste",
+            "right": "Chemistry can be used to reduce Principle 2: The steampassed through the straw and was cooled by the ice (p. 52)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Chemistry Req 5 (Chemistry can be used to reduce)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Chemistry can be used to reduce: Heating the teakettle brought the water to its boiling pointtemperature, where it began to boil, making steam (p. 52).",
+          "Applied Field Mechanism": "Chemistry can be used to reduce Principle 2: The steampassed through the straw and was cooled by the ice (p. 52).",
+          "Real-World Case Example": "Concrete application of Chemistry can be used to reduce documented during Chemistry study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Chemistry Merit Badge Pamphlet (p. 52, p. 58)."
+        },
+        "sample_output": "Chemistry can be used to reduce: Chemistry can be used to reduce: Heating the teakettle brought the water to its boiling pointtemperature, where it began to boil, making ste",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Chemistry Merit Badge Pamphlet (p. 52, p. 58)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Chemistry Requirement 5 (Chemistry can be used to reduce), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Chemistry Requirement 5 (Chemistry can be used to reduce), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+          "B. General familiarity with Describe, chemistry is sufficient for Chemistry Requirement 5 without citing specific functional mechanisms.",
+          "C. Defer all Chemistry can be used to reduce measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+        ],
+        "choices": [
+          "A. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+          "B. General familiarity with Describe, chemistry is sufficient for Chemistry Requirement 5 without citing specific functional mechanisms.",
+          "C. Defer all Chemistry can be used to reduce measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+        "explanation": "Correct Answer (A): The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Chemistry can be used to reduce (p. 52, p. 58). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 52, p. 58)).",
+        "pamphlet_page_ref": "p. 52, p. 58"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Chemistry Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1592,7 +1941,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Five fields of chemistry",
+      "topic_title": "Req 6: Fields of Chemistry",
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -1602,27 +1951,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Study & Explanation Notes",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Fields of Chemistry)",
         "headers": [
-          "Req 6 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 6 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 6 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 6 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Identify five fields of chemistry",
-          "2. Briefly describe each, tell how each applies to your life and how they"
+          "1. Core Definition & Mechanism (Fields of Chemistry)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Core Definition & Mechanism (Fields of Chemistry)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify five fields of chemistry.",
-        "fact": "Scouts must describe identify five fields of chemistry using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 9, p. 80).",
-        "fact_correction": "Scouts must describe identify five fields of chemistry using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 9, p. 80).",
-        "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 9, p. 80)"
+        "misconception": "General familiarity with Identify, fields is sufficient for Chemistry Requirement 6 without citing specific functional mechanisms.",
+        "fact": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Five Fields of Chemistry (p. 9, p. 80).",
+        "fact_correction": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Five Fields of Chemistry (p. 9, p. 80).",
+        "pamphlet_page_ref": "p. 9, p. 80"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1646,36 +2003,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "There Sources Liquid: There are many sources of liquid and solid particulatepollution.",
-        "Volcanoes Forest Fires: Volcanoes and forest fires are two natural sources.",
-        "Humans Contribute Activities: Humans contribute much more from activities like grinding andspraying, which cause dust, and burning fossil fuels like coal, diesel.",
-        "General Smaller Particle: In general, the smaller the particle, the longer it will stay airborne."
+        "Fields of Chemistry: Five Fields of Chemistry: There are many sources of liquid and solid particulatepollution (p. 9).",
+        "Fields of Chemistry Principle 2: Five Fields of Chemistry Principle 2: Volcanoes and forest fires are two natural sources (p. 9).",
+        "Fields of Chemistry Principle 3: Five Fields of Chemistry Principle 3: Humans contribute much more from activities like grinding andspraying, which cause dust, and burning fossil fuels like coal, diesel (p. 9).",
+        "Fields of Chemistry Principle 4: Five Fields of Chemistry Principle 4: In general, the smaller the particle, the longer it will stay airborne (p. 9)."
       ],
       "step_by_step_procedure": [
-        "Big Problem Particulate: This is a big problem because particulate pollution can be carried across the United States or even tocountries overseas.",
-        "Oxygen Atoms Bond: Three oxygen atoms bond togetherto make an ozone (O3) molecule.",
-        "Ozone Nature Primarilyin: Ozone is found in nature primarilyin a thin layer of atmosphereabout 20 miles above Earth.",
-        "Scientists Concerned: Scientists are concerned aboutthe hole in the ozone layer over Antarctica, where there are verylow levels of ozone."
+        "Step 1 (Fields of Chemistry): Step 1 (Five Fields of Chemistry): This is a big problem because particulate pollution can be carried across the United States or even tocountries overseas (p. 9).",
+        "Step 2 (Fields of Chemistry): Step 2 (Five Fields of Chemistry): Three oxygen atoms bond together to make an ozone (O3) molecule (p. 9).",
+        "Step 3 (Fields of Chemistry): Step 3 (Five Fields of Chemistry): Ozone is found in nature primarilyin a thin layer of atmosphereabout 20 miles above Earth (p. 9).",
+        "Step 4 (Fields of Chemistry): Step 4 (Five Fields of Chemistry): Scientists are concerned about the hole in the ozone layer over Antarctica, where there are verylow levels of ozone (p. 9)."
       ],
       "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Five fields of chemistry",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Chemistry Merit Badge Pamphlet and Fillable Workbook (open to Req 6: Fields of Chemistry)",
+        "Digital multimeter (volt/ohm/ammeter), breadboard jumper kit, or diagnostic workstation.",
+        "Schematic symbol reference chart, engineering graph pad, and insulated hand tools.",
+        "ESD wrist strap, safety goggles, and component datasheet packet for Req 6."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Chemistry Req 6",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 6 - Five fields of chemistry",
-          "Primary Standard": "Identify five fields of chemistry. Briefly describe each, tell how each applies to your life and how they interact.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Chemistry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Chemistry Merit Badge Pamphlet (p. 9, p. 80) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Chemistry Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Five Fields of Chemistry)",
+        "right_header": "Applied Field Execution (Five Fields of Chemistry)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Five Fields of Chemistry.",
+          "Five Fields of Chemistry: There are many sources of liquid and solid particulatepollution (p. 9).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Chemistry.",
+          "Five Fields of Chemistry Principle 2: Volcanoes and forest fires are two natural sources (p. 9).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Five Fields of Chemistry.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Chemistry."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Five Fields of Chemistry: There are many sources of liquid and solid particulatepollution (p. 9).",
+            "right": "Five Fields of Chemistry Principle 2: Volcanoes and forest fires are two natural sources (p. 9)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Chemistry Req 6 (Fields of Chemistry)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Fields of Chemistry: Five Fields of Chemistry: There are many sources of liquid and solid particulatepollution (p. 9).",
+          "Applied Field Mechanism": "Fields of Chemistry Principle 2: Five Fields of Chemistry Principle 2: Volcanoes and forest fires are two natural sources (p. 9).",
+          "Real-World Case Example": "Concrete application of Fields of Chemistry documented during Chemistry study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Chemistry Merit Badge Pamphlet (p. 9, p. 80)."
+        },
+        "sample_output": "Fields of Chemistry: Fields of Chemistry: Five Fields of Chemistry: There are many sources of liquid and solid particulatepollution (p. 9).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Chemistry Merit Badge Pamphlet (p. 9, p. 80)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Chemistry Requirement 6 (Fields of Chemistry), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Chemistry Requirement 6 (Fields of Chemistry), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. General familiarity with Identify, fields is sufficient for Chemistry Requirement 6 without citing specific functional mechanisms.",
+          "B. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Five.",
+          "C. Defer all Fields of Chemistry measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+        ],
+        "choices": [
+          "A. General familiarity with Identify, fields is sufficient for Chemistry Requirement 6 without citing specific functional mechanisms.",
+          "B. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Five.",
+          "C. Defer all Fields of Chemistry measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Five.",
+        "explanation": "Correct Answer (B): The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Five Fields of Chemistry (p. 9, p. 80). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 9, p. 80)).",
+        "pamphlet_page_ref": "p. 9, p. 80"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Chemistry Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1712,7 +2120,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Three government agencies that oversee",
+      "topic_title": "Req 7: Government Agencies That Oversee",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -1722,28 +2130,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Study & Explanation Notes",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Government Agencies That Oversee)",
         "headers": [
-          "Req 7 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 7 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 7 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 7 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Identify three government agencies that oversee or provide guidance",
-          "2. Industrial use",
-          "3. Discuss the agencies' history and responsibilities with your counselor"
+          "1. Core Definition & Mechanism (Government Agencies That Oversee)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Core Definition & Mechanism (Government Agencies That Oversee)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on identify three government agencies that oversee or provide guidance.",
-        "fact": "Scouts must identify identify three government agencies that oversee or provide guidance using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 17, p. 92).",
-        "fact_correction": "Scouts must identify identify three government agencies that oversee or provide guidance using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 17, p. 92).",
-        "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 17, p. 92)"
+        "misconception": "General familiarity with Identify, three is sufficient for Chemistry Requirement 7 without citing specific functional mechanisms.",
+        "fact": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Three Government Agencies That Oversee (p. 17, p. 92).",
+        "fact_correction": "The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Three Government Agencies That Oversee (p. 17, p. 92).",
+        "pamphlet_page_ref": "p. 17, p. 92"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1767,36 +2182,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Careers Chemistry Physics: Careers in Chemistry. physics, mathematics, and computer science.",
-        "Chemistsstay School Earning: Many chemistsstay in school after earning a bachelor’s degree and earnadvanced degrees.",
-        "Master Degree Typically: The master’s degree typically requires twoyears of study, and the doctorate requires at least four yearsbeyond the undergraduate degree.",
-        "Scarcely Anything Society: Scarcely anything used by society is untouched by chemistry."
+        "Government Agencies That Oversee: Three Government Agencies That Oversee: Careers in Chemistry. physics, mathematics, and computer science (p. 17).",
+        "Government Agencies That Oversee Principle 2: Three Government Agencies That Oversee Principle 2: Many chemistsstay in school after earning a bachelor's degree and earnadvanced degrees (p. 17).",
+        "Government Agencies That Oversee Principle 3: Three Government Agencies That Oversee Principle 3: The master's degree typically requires twoyears of study, and the doctorate requires at least four yearsbeyond the undergraduate degree (p. 17).",
+        "Government Agencies That Oversee Principle 4: Three Government Agencies That Oversee Principle 4: Scarcely anything used by society is untouched by chemistry (p. 17)."
       ],
       "step_by_step_procedure": [
-        "Chemical Companies Big: Chemical companies big and small employ chemists, as dopharmaceutical companies, large manufacturers, utilities, and biotechnology companies.",
-        "Chemical Businesses: Chemical businesses often have many careeropportunities like technical sales and service, manufacturing, marketing, and research and development.",
-        "Chemical Engineer: A chemical engineer is a professional with a broad background inchemistry combined with training in manufacturingprinci-ples, physical design.",
-        "Computers Vital Tool: Computers are a vital tool for the chemical engineer."
+        "Step 1 (Government Agencies That Oversee): Step 1 (Three Government Agencies That Oversee): Chemical companies big and small employ chemists, as dopharmaceutical companies, large manufacturers, utilities, and biotechnology companies (p. 17).",
+        "Step 2 (Government Agencies That Oversee): Step 2 (Three Government Agencies That Oversee): Chemical businesses often have many careeropportunities like technical sales and service, manufacturing, marketing, and research and development (p. 17).",
+        "Step 3 (Government Agencies That Oversee): Step 3 (Three Government Agencies That Oversee): A chemical engineer is a professional with a broad background inchemistry combined with training in manufacturingprinci-ples, physical design (p. 17).",
+        "Step 4 (Government Agencies That Oversee): Step 4 (Three Government Agencies That Oversee): Computers are a vital tool for the chemical engineer (p. 17)."
       ],
       "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Three government agencies that oversee",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Chemistry Merit Badge Pamphlet and Fillable Workbook (open to Req 7: Government Agencies That Oversee)",
+        "Digital multimeter (volt/ohm/ammeter), breadboard jumper kit, or diagnostic workstation.",
+        "Schematic symbol reference chart, engineering graph pad, and insulated hand tools.",
+        "ESD wrist strap, safety goggles, and component datasheet packet for Req 7."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Chemistry Req 7",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 7 - Three government agencies that oversee",
-          "Primary Standard": "Identify three government agencies that oversee or provide guidance on the use of chemicals for personal, pharmaceutical, commercial, or industrial use, and discuss the agencies' history and responsibilities with your counselor.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Chemistry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Chemistry Merit Badge Pamphlet (p. 17, p. 92) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Chemistry Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Three Government Agencies That Oversee)",
+        "right_header": "Applied Field Execution (Three Government Agencies That Oversee)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Three Government Agencies That Oversee.",
+          "Three Government Agencies That Oversee: Careers in Chemistry. physics, mathematics, and computer science (p. 17).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Chemistry.",
+          "Three Government Agencies That Oversee Principle 2: Many chemistsstay in school after earning a bachelor's degree and earnadvanced degrees ()",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Three Government Agencies That Oversee.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Chemistry."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Three Government Agencies That Oversee: Careers in Chemistry. physics, mathematics, and computer science (p. 17).",
+            "right": "Three Government Agencies That Oversee Principle 2: Many chemistsstay in school after earning a bachelor's degree and earnadvanced degrees ("
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Chemistry Req 7 (Government Agencies That Oversee)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Government Agencies That Oversee: Three Government Agencies That Oversee: Careers in Chemistry. physics, mathematics, and computer science (p. 17).",
+          "Applied Field Mechanism": "Government Agencies That Oversee Principle 2: Three Government Agencies That Oversee Principle 2: Many chemistsstay in school after earning a bachelor's degree and earnadvanced deg.",
+          "Real-World Case Example": "Concrete application of Government Agencies That Oversee documented during Chemistry study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Chemistry Merit Badge Pamphlet (p. 17, p. 92)."
+        },
+        "sample_output": "Government Agencies That Oversee: Government Agencies That Oversee: Three Government Agencies That Oversee: Careers in Chemistry. physics, mathematics, and computer science (",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Chemistry Merit Badge Pamphlet (p. 17, p. 92)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Chemistry Requirement 7 (Government Agencies That Oversee), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Chemistry Requirement 7 (Government Agencies That Oversee), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. General familiarity with Identify, three is sufficient for Chemistry Requirement 7 without citing specific functional mechanisms.",
+          "B. Defer all Government Agencies That Oversee measurements and safety checks until after the field session concludes.",
+          "C. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Three.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+        ],
+        "choices": [
+          "A. General familiarity with Identify, three is sufficient for Chemistry Requirement 7 without citing specific functional mechanisms.",
+          "B. Defer all Government Agencies That Oversee measurements and safety checks until after the field session concludes.",
+          "C. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Three.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Three.",
+        "explanation": "Correct Answer (C): The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Three Government Agencies That Oversee (p. 17, p. 92). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 17, p. 92)).",
+        "pamphlet_page_ref": "p. 17, p. 92"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Chemistry Workbook organizer table and practical demonstration for Req 7."
     },
@@ -1815,34 +2281,37 @@
           "children": [],
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 8a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Laboratory and Discuss The Research)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 8a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 8a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Visit a research laboratory, and discuss the research performed there",
-              "2. Learn what education and training they received"
+              "1. Core Definition & Mechanism (Laboratory and Discuss The Research)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Core Definition & Mechanism (Laboratory and Discuss The Research)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit a research laboratory, and discuss the research performed there.",
-            "fact": "Scouts must discuss visit a research laboratory, and discuss the research performed there using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94).",
-            "fact_correction": "Scouts must discuss visit a research laboratory, and discuss the research performed there using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)"
+            "misconception": "Entry into a professional Chemistry career relies only on hobby experience rather than formal training or certification.",
+            "fact": "Professional pathways in Chemistry require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 93, p. 94).",
+            "fact_correction": "Professional pathways in Chemistry require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 93, p. 94).",
+            "pamphlet_page_ref": "p. 93, p. 94"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1867,7 +2336,12 @@
           ],
           "id": "8a",
           "sub_req_label": "8a",
-          "sub_req_text": "Visit a research laboratory, and discuss the research performed there with a chemist or chemical technician. Learn what education and training they received."
+          "sub_req_text": "Visit a research laboratory, and discuss the research performed there with a chemist or chemical technician. Learn what education and training they received.",
+          "topic_title": "Req 8a: Laboratory and Discuss The Research",
+          "pamphlet_summary": "Laboratory and Discuss The Research: Visit a research laboratory Principle 2: Students training as chemicaltechnicians take courses in chemistry with emphasis onlaboratory procedures, test methods, and instruments used foranalysis (p. 93).",
+          "pamphlet_excerpts": [
+            "Laboratory and Discuss The Research: Visit a research laboratory Principle 2: Students training as chemicaltechnicians take courses in chemistry with emphasis onlaboratory procedures, test methods, and instruments used foranalysis (p. 93)."
+          ]
         },
         {
           "sub_id": "8b",
@@ -1878,29 +2352,36 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Study & Explanation Notes",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Company or Plant That Makes)",
             "headers": [
-              "Req 8b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 8b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 8b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 8b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Visit a company or plant that makes chemical products or uses chemical",
-              "2. Learn about their products or processes, and talk with someone who works there",
-              "3. Learn what they do, and what education and training they received"
+              "1. Core Definition & Mechanism (Company or Plant That Makes)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Company or Plant That Makes)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on visit a company or plant that makes chemical products or uses chemical.",
-            "fact": "Scouts must visit visit a company or plant that makes chemical products or uses chemical using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94).",
-            "fact_correction": "Scouts must visit visit a company or plant that makes chemical products or uses chemical using verified procedures, field evidence, and safety standards from Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94).",
-            "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)"
+            "misconception": "Entry into a professional Chemistry career relies only on hobby experience rather than formal training or certification.",
+            "fact": "Professional pathways in Chemistry require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 93, p. 94).",
+            "fact_correction": "Professional pathways in Chemistry require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 93, p. 94).",
+            "pamphlet_page_ref": "p. 93, p. 94"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1925,7 +2406,12 @@
           ],
           "id": "8b",
           "sub_req_label": "8b",
-          "sub_req_text": "Visit a company or plant that makes chemical products or uses chemical processes. Learn about their products or processes, and talk with someone who works there. Learn what they do, and what education and training they received."
+          "sub_req_text": "Visit a company or plant that makes chemical products or uses chemical processes. Learn about their products or processes, and talk with someone who works there. Learn what they do, and what education and training they received.",
+          "topic_title": "Req 8b: Company or Plant That Makes",
+          "pamphlet_summary": "Company or Plant That Makes: Visit A Company or Plant: Visit a research laboratory Principle 3: Acareer as a science librarian also is a specialty that may beappropriate (p. 93).",
+          "pamphlet_excerpts": [
+            "Company or Plant That Makes: Visit A Company or Plant: Visit a research laboratory Principle 3: Acareer as a science librarian also is a specialty that may beappropriate (p. 93)."
+          ]
         },
         {
           "sub_id": "8c",
@@ -1949,25 +2435,29 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "CAREER_EXPLORATION_CARD",
-            "table_title": "Req 8c Career & Pathway Exploration Card",
+            "table_title": "Req 8c Career & Professional Pathway Investigation Matrix",
             "headers": [
               "Career Research Dimension",
-              "Selected Career Details",
-              "Education, Training & Personal Goals"
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
             ],
             "column_headers": [
               "Career Research Dimension",
-              "Selected Career Details",
-              "Education, Training & Personal Goals"
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
             ],
             "row_labels": [
-              "1. Three Career Opportunities Identified",
-              "2. Selected Career: Education & Training Required",
-              "3. Daily Duties, Licensing & Expenses",
-              "4. Starting Salary, Job Outlook & Personal Goals"
+              "1. Three Related Careers Identified",
+              "2. Selected Career: Education, Training & Licensing",
+              "3. Daily Responsibilities, Tools & Working Conditions",
+              "4. Salary Range, Advancement Outlook & Personal Fit"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Three Related Careers Identified",
+              "2. Selected Career: Education, Training & Licensing",
+              "3. Daily Responsibilities, Tools & Working Conditions",
+              "4. Salary Range, Advancement Outlook & Personal Fit"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)",
           "common_misconception_pair": {
@@ -1999,7 +2489,12 @@
           ],
           "id": "8c",
           "sub_req_label": "8c",
-          "sub_req_text": "Identify three career opportunities that would use skills and knowledge in chemistry. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career."
+          "sub_req_text": "Identify three career opportunities that would use skills and knowledge in chemistry. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.",
+          "topic_title": "Req 8c: Chemistry Careers and Pathways",
+          "pamphlet_summary": "Chemistry Careers and Pathways: Careers and Professional Pathways: Visit a research laboratory Principle 4: A chemist or chemical engineer with a doctoratemay spe-cialize in research and development (p. 93).",
+          "pamphlet_excerpts": [
+            "Chemistry Careers and Pathways: Careers and Professional Pathways: Visit a research laboratory Principle 4: A chemist or chemical engineer with a doctoratemay spe-cialize in research and development (p. 93)."
+          ]
         }
       ],
       "resources": [
@@ -2024,7 +2519,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Visit a research laboratory",
+      "topic_title": "Req 8: Chemistry Careers and Pathways",
       "action_verb": "Discuss",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
@@ -2034,25 +2529,29 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "CAREER_EXPLORATION_CARD",
-        "table_title": "Req 8 Career & Pathway Exploration Card",
+        "table_title": "Req 8 Career & Professional Pathway Investigation Matrix",
         "headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "column_headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. Three Career Opportunities Identified",
-          "2. Selected Career: Education & Training Required",
-          "3. Daily Duties, Licensing & Expenses",
-          "4. Starting Salary, Job Outlook & Personal Goals"
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Listing three job titles from a quick web search satisfies the Chemistry career exploration requirement.",
@@ -2082,44 +2581,231 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Years Study Beyond: Two or three years of study beyond high school are neededto qualify for the associate’s degree given by many juniorcolleges and technical institutes.",
-        "Students Training: Students training as chemicaltechnicians take courses in chemistry with emphasis onlaboratory procedures, test methods, and instruments used foranalysis.",
-        "Acareer Science Librarian: Acareer as a science librarian also is a specialty that may beappropriate.",
-        "Chemist Chemical Engineer: A chemist or chemical engineer with a doctoratemay spe-cialize in research and development."
+        "Chemistry Careers and Pathways: Visit a research laboratory: Two or three years of study beyond high school are needed to qualify for the associate's degree given by many juniorcolleges and technical institutes (p. 93).",
+        "Chemistry Careers and Pathways Principle 2: Visit a research laboratory Principle 2: Students training as chemicaltechnicians take courses in chemistry with emphasis onlaboratory procedures, test methods, and instruments used foranalysis (p. 93).",
+        "Chemistry Careers and Pathways Principle 3: Visit a research laboratory Principle 3: Acareer as a science librarian also is a specialty that may beappropriate (p. 93).",
+        "Chemistry Careers and Pathways Principle 4: Visit a research laboratory Principle 4: A chemist or chemical engineer with a doctoratemay spe-cialize in research and development (p. 93)."
       ],
       "step_by_step_procedure": [
-        "Chemists Teachin High: Chemists teachin high schools, technical institutes, colleges, and universities.",
-        "Chemists Interested Law: Chemists interested in law may becomepatent attorneys.",
-        "Specialty Servedby: This specialty is best servedby an undergraduate degree in chemistry, followed by a law degree.",
-        "Career Builds Undergraduate: Another career that builds on an undergraduate degree in chemistry is high-level management in industrial companies."
+        "Step 1 (Chemistry Careers and Pathways): Step 1 (Visit a research laboratory): Chemists teachin high schools, technical institutes, colleges, and universities (p. 93).",
+        "Step 2 (Chemistry Careers and Pathways): Step 2 (Visit a research laboratory): Chemists interested in law may becomepatent attorneys (p. 93).",
+        "Step 3 (Chemistry Careers and Pathways): Step 3 (Visit a research laboratory): This specialty is best servedby an undergraduate degree in chemistry, followed by a law degree (p. 93).",
+        "Step 4 (Chemistry Careers and Pathways): Step 4 (Visit a research laboratory): Another career that builds on an undergraduate degree in chemistry is high-level management in industrial companies (p. 93)."
       ],
       "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Visit a research laboratory",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Chemistry Merit Badge Pamphlet and Fillable Workbook (open to Req 8: Chemistry Careers and Pathways)",
+        "10x pocket hand lens (loupe) or field binoculars and regional species/mineral identification guide.",
+        "Graduated collection vials, soil/water testing strips, or botanical specimen press.",
+        "Waterproof field observation notebook, metric ruler, and GPS/topographic map reference."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Chemistry Req 8",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 8 - Visit a research laboratory",
-          "Primary Standard": "Visit a research laboratory, and discuss the research performed there with a chemist or chemical technician. Learn what education and training they received.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Chemistry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Chemistry Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Professional Career Track in Chemistry",
+        "right_header": "Lifelong Avocation & Civic Service in Chemistry",
+        "left_points": [
+          "Accredited degree, trade apprenticeship, or industry license.",
+          "Visit a research laboratory: Two or three years of study beyond high school are neededto qualify for the associate's degree given by many.",
+          "Full-time compensation and technical leadership."
+        ],
+        "right_points": [
+          "Merit badge mastery, club mentorship, and volunteer service.",
+          "Visit a research laboratory Principle 2: Students training as chemicaltechnicians take courses in chemistry with emphasis onlaboratory proce.",
+          "Community stewardship, outdoor recreation, and teaching others."
+        ],
+        "rows": [
+          {
+            "attribute": "Training Pathway",
+            "left": "Accredited degree, trade apprenticeship, or industry license.",
+            "right": "Merit badge mastery, club mentorship, and volunteer service."
+          },
+          {
+            "attribute": "Core Responsibilities",
+            "left": "Visit a research laboratory: Two or three years of study beyond high school are neededto qualify for the associate's degree given by many ju",
+            "right": "Visit a research laboratory Principle 2: Students training as chemicaltechnicians take courses in chemistry with emphasis onlaboratory proce"
+          },
+          {
+            "attribute": "Long-Term Outcome",
+            "left": "Full-time compensation and technical leadership.",
+            "right": "Community stewardship, outdoor recreation, and teaching others."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Chemistry Req 8 (Chemistry Careers and Pathways)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Chemistry Careers and Pathways.",
+          "Step-by-Step Execution": "Chemistry Careers and Pathways: Visit a research laboratory: Two or three years of study beyond high school are needed to qualify for the associate's degree given by many juniorcol.",
+          "Quality & Tolerance Check": "Chemistry Careers and Pathways Principle 2: Visit a research laboratory Principle 2: Students training as chemicaltechnicians take courses in chemistry with emphasis onlaboratory.",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94))"
+        },
+        "sample_output": "Chemistry Careers and Pathways: Chemistry Careers and Pathways: Visit a research laboratory: Two or three years of study beyond high school are needed to qualify for the as",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Chemistry Requirement 8 (Chemistry Careers and Pathways), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Chemistry Requirement 8 (Chemistry Careers and Pathways), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Listing three job titles from a quick web search satisfies the Chemistry career exploration requirement.",
+          "B. Defer all Chemistry Careers and Pathways measurements and safety checks until after the field session concludes.",
+          "C. Scouts must research specific Chemistry career pathways and discuss required education, training, licensing, and daily duties with.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+        ],
+        "choices": [
+          "A. Listing three job titles from a quick web search satisfies the Chemistry career exploration requirement.",
+          "B. Defer all Chemistry Careers and Pathways measurements and safety checks until after the field session concludes.",
+          "C. Scouts must research specific Chemistry career pathways and discuss required education, training, licensing, and daily duties with.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Scouts must research specific Chemistry career pathways and discuss required education, training, licensing, and daily duties with.",
+        "explanation": "Correct Answer (C): Scouts must research specific Chemistry career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)).",
+        "pamphlet_page_ref": "Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Chemistry Workbook organizer table and practical demonstration for Req 8."
     }
   ],
   "badge_slug": "chemistry",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0",
+  "schema_baseline_version": "2026.v30",
   "is_test_lab": false,
   "is_discontinued": false,
-  "status": "ACTIVE"
+  "status": "OFFICIAL",
+  "patrol_quiz_bank": [
+    {
+      "scenario_prompt": "While working on Chemistry Requirement 1 (Chemistry and Safety), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Chemistry Requirement 1 (Chemistry and Safety), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Chemistry and Safety measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+        "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "choices": [
+        "A. Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Chemistry and Safety measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+        "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (D): The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Chemistry and Safety activity (p. 22, p. 23). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)).",
+      "pamphlet_page_ref": "p. 22, p. 23",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Chemistry Requirement 2 (Chemistry and First), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Chemistry Requirement 2 (Chemistry and First), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Chemistry and First measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+        "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "choices": [
+        "A. Experienced Chemistry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Chemistry and First measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+        "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (D): The Chemistry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Chemistry and First activity (p. 40, p. 68). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)).",
+      "pamphlet_page_ref": "p. 40, p. 68",
+      "req_id": "2",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Chemistry Requirement 3 (Chemistry and Cooking), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Chemistry Requirement 3 (Chemistry and Cooking), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate.",
+        "B. Describing how to perform Chemistry and Cooking verbally can substitute for a physical hands-on demonstration in Chemistry.",
+        "C. Defer all Chemistry and Cooking measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+      ],
+      "choices": [
+        "A. Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate.",
+        "B. Describing how to perform Chemistry and Cooking verbally can substitute for a physical hands-on demonstration in Chemistry.",
+        "C. Defer all Chemistry and Cooking measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate.",
+      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Chemistry pamphlet, each Scout must physically execute and demonstrate Chemistry and Cooking with proper technique (p. 15, p. 17). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)).",
+      "pamphlet_page_ref": "p. 15, p. 17",
+      "req_id": "3",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Chemistry Requirement 4 (Chemistry and Camping), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Chemistry Requirement 4 (Chemistry and Camping), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. All methods covered under Chemistry and Camping in Chemistry are interchangeable regardless of operating conditions.",
+        "B. Defer all Chemistry and Camping measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+        "D. Each method or system in Chemistry and Camping has distinct operating limits, efficiency trade-offs, and field applications defined."
+      ],
+      "choices": [
+        "A. All methods covered under Chemistry and Camping in Chemistry are interchangeable regardless of operating conditions.",
+        "B. Defer all Chemistry and Camping measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure.",
+        "D. Each method or system in Chemistry and Camping has distinct operating limits, efficiency trade-offs, and field applications defined."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Each method or system in Chemistry and Camping has distinct operating limits, efficiency trade-offs, and field applications defined.",
+      "explanation": "Correct Answer (D): Each method or system in Chemistry and Camping has distinct operating limits, efficiency trade-offs, and field applications defined in the Chemistry pamphlet (p. 21, p. 40). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)).",
+      "pamphlet_page_ref": "p. 21, p. 40",
+      "req_id": "4",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Chemistry Requirement 5 (Chemistry can be used to reduce), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Chemistry Requirement 5 (Chemistry can be used to reduce), your patrol encounters a decision point on proper procedure. According to the Chemistry Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+        "B. General familiarity with Describe, chemistry is sufficient for Chemistry Requirement 5 without citing specific functional mechanisms.",
+        "C. Defer all Chemistry can be used to reduce measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+      ],
+      "choices": [
+        "A. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+        "B. General familiarity with Describe, chemistry is sufficient for Chemistry Requirement 5 without citing specific functional mechanisms.",
+        "C. Defer all Chemistry can be used to reduce measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Chemistry pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+      "explanation": "Correct Answer (A): The Chemistry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Chemistry can be used to reduce (p. 52, p. 58). (Official Scouting America Chemistry Merit Badge Pamphlet (p. 52, p. 58)).",
+      "pamphlet_page_ref": "p. 52, p. 58",
+      "req_id": "5",
+      "option_id": null
+    }
+  ],
+  "quartermaster_manifest": {
+    "badge_name": "Chemistry",
+    "patrol_equipment": [
+      "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout",
+      "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle",
+      "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board",
+      "Calibrated instant-read digital food thermometer and sanitizing wipes",
+      "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves",
+      "USDA MyPlate nutrition chart, recipe cards, and biodegradable three-pot wash basin kit",
+      "Digital multimeter (volt/ohm/ammeter), breadboard jumper kit, or diagnostic workstation",
+      "Schematic symbol reference chart, engineering graph pad, and insulated hand tools"
+    ],
+    "individual_scout_gear": [
+      "Official Chemistry Merit Badge Pamphlet",
+      "Printed or Fillable Chemistry Scout Workbook",
+      "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
+      "Field notebook, pen/pencil, and personal safety equipment (PPE)"
+    ]
+  }
 }

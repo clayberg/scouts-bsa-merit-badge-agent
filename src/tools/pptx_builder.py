@@ -196,7 +196,81 @@ _DANGLING_TAIL_WORDS = {
     "and", "or", "with", "to", "for", "in", "on", "of", "by", "the", "a", "an",
     "that", "which", "while", "when", "if", "from", "into", "at", "as", "such",
     "including", "through", "during", "before", "after", "under", "over", "between",
+    "you", "your", "yours", "we", "our", "they", "their", "them", "it", "its",
+    "he", "his", "she", "her", "who", "whom", "whose", "what", "where", "how", "why",
+    "this", "these", "those", "can", "will", "should", "must", "may", "might",
+    "would", "could", "shall", "do", "does", "did", "is", "are", "was", "were",
+    "be", "been", "being", "have", "has", "had", "not", "no", "any", "some",
+    "each", "every", "both", "either", "neither", "more", "most", "other", "another",
+    "than", "about", "against", "among", "around", "without", "within", "upon",
+    "toward", "towards", "across", "behind", "beyond", "near", "off", "out",
+    "&", "-", "/",
 }
+
+_VALID_TWO_CHAR_WORDS = {
+    "id", "uk", "un", "us", "dc", "tv", "pc", "ai", "ph", "uv", "ac",
+    "am", "pm", "oz", "lb", "ft", "cm", "mm", "km", "kg", "mg", "ml", "no",
+}
+
+_ABBREV_PROTECTION_PAIRS: Tuple[Tuple[str, str], ...] = (
+    ("U.S.A.", "U_S_A_"),
+    ("U.S.", "U_S_"),
+    ("U.N.", "U_N_"),
+    ("D.C.", "D_C_"),
+    ("Reqs.", "Reqs_"),
+    ("Req.", "Req_"),
+    ("pp.", "pp_"),
+    ("p.", "p_"),
+    ("Dr.", "Dr_"),
+    ("Mr.", "Mr_"),
+    ("Mrs.", "Mrs_"),
+    ("Ms.", "Ms_"),
+    ("St.", "St_"),
+    ("Mt.", "Mt_"),
+    ("Ft.", "Ft_"),
+    ("ft.", "ft_"),
+    ("in.", "in_"),
+    ("No.", "No_"),
+    ("Fig.", "Fig_"),
+    ("vs.", "vs_"),
+    ("oz.", "oz_"),
+    ("lb.", "lb_"),
+    ("lbs.", "lbs_"),
+    ("min.", "min_"),
+    ("sec.", "sec_"),
+    ("hr.", "hr_"),
+    ("hrs.", "hrs_"),
+    ("pt.", "pt_"),
+    ("qt.", "qt_"),
+    ("gal.", "gal_"),
+    ("e.g.", "eg_"),
+    ("i.e.", "ie_"),
+    ("approx.", "approx_"),
+    ("Ch.", "Ch_"),
+    ("ch.", "ch_"),
+)
+
+_PAGE_CITATION_PAREN_RE = re.compile(
+    r"\s*\((?:(?:Official\s+)?(?:Scouting\s+America\s+|BSA\s+|Scouts\s+BSA\s+)?[^()]*?\b)?p{1,2}\.\s*\d+[^()]*\)",
+    re.IGNORECASE,
+)
+
+
+def _protect_abbreviations(text: str) -> str:
+    s = text
+    for orig, tok in _ABBREV_PROTECTION_PAIRS:
+        s = s.replace(orig, tok)
+    # Also protect single-letter initials or list markers like "A." or "1." inside parens
+    s = re.sub(r"\b(Req|Reqs|p|pp|No|Fig|St|Mt|Ft|Dr|Mr|Mrs|Ms)\.\s*(\d)", r"\1_ \2", s, flags=re.IGNORECASE)
+    return s
+
+
+def _restore_abbreviations(text: str) -> str:
+    s = text
+    s = re.sub(r"\b(Req|Reqs|p|pp|No|Fig|St|Mt|Ft|Dr|Mr|Mrs|Ms)_\s*(\d)", r"\1. \2", s, flags=re.IGNORECASE)
+    for orig, tok in _ABBREV_PROTECTION_PAIRS:
+        s = s.replace(tok, orig)
+    return s
 
 
 _MEANING_PRESERVING_REWRITES: List[Tuple[str, str]] = [
@@ -244,12 +318,34 @@ def _compress_preserving_meaning(text: str) -> str:
     s = _clean_text(text)
     if not s:
         return ""
+    # Strip trailing or inline page-citation parentheticals (since page refs appear in top pill & speaker notes)
+    s = _PAGE_CITATION_PAREN_RE.sub("", s)
+    # Strip any trailing incomplete citation/requirement parenthetical like "(p." or "(Req."
+    s = re.sub(r"\s*\((?:p{1,2}|reqs?)\.?\s*[0-9a-zA-Z,\-\s]*$", "", s, flags=re.IGNORECASE)
     for pat, repl in _MEANING_PRESERVING_REWRITES:
         s = re.sub(pat, repl, s)
     s = re.sub(r"\s+", " ", s).strip()
     if s and s[0].islower():
         s = s[0].upper() + s[1:]
     return s
+
+
+def _trim_dangling_words(tokens: List[str], min_keep: int = 3) -> List[str]:
+    """Removes trailing prepositions, pronouns, modals, conjunctions, and clipped 1-2 char fragments."""
+    out = list(tokens)
+    while len(out) > min_keep:
+        last_clean = out[-1].lower().strip(",;:-.()[]\"'&/")
+        if not last_clean:
+            out.pop()
+            continue
+        if last_clean in _DANGLING_TAIL_WORDS:
+            out.pop()
+            continue
+        if len(last_clean) <= 2 and not last_clean.isdigit() and last_clean not in _VALID_TWO_CHAR_WORDS:
+            out.pop()
+            continue
+        break
+    return out
 
 
 def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140) -> str:
@@ -259,34 +355,16 @@ def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140
         return ""
     words = cleaned.split()
     if len(words) <= max_words and len(cleaned) <= max_chars:
-        return cleaned
+        trimmed_short = _trim_dangling_words(words, min_keep=min(3, len(words)))
+        res_short = " ".join(trimmed_short).rstrip(",;:-(&/")
+        if res_short.count("(") > res_short.count(")"):
+            res_short = res_short.rsplit("(", 1)[0].strip().rstrip(",;:-&/")
+        if res_short and not res_short.endswith((".", "!", "?")):
+            res_short += "."
+        return res_short
 
     # Protect common abbreviations with periods before splitting on '. '
-    protected = (
-        cleaned.replace("U.S.", "U_S_")
-        .replace("U.N.", "U_N_")
-        .replace("D.C.", "D_C_")
-        .replace("Dr.", "Dr_")
-        .replace("Mr.", "Mr_")
-        .replace("Mrs.", "Mrs_")
-        .replace("Ms.", "Ms_")
-        .replace("St.", "St_")
-        .replace("Mt.", "Mt_")
-        .replace("Ft.", "Ft_")
-        .replace("No.", "No_")
-        .replace("Fig.", "Fig_")
-        .replace("vs.", "vs_")
-        .replace("oz.", "oz_")
-        .replace("lb.", "lb_")
-        .replace("lbs.", "lbs_")
-        .replace("min.", "min_")
-        .replace("sec.", "sec_")
-        .replace("pt.", "pt_")
-        .replace("qt.", "qt_")
-        .replace("gal.", "gal_")
-        .replace("e.g.", "eg_")
-        .replace("i.e.", "ie_")
-    )
+    protected = _protect_abbreviations(cleaned)
 
     # Try splitting ONLY at genuine sentence or subordinate clause boundaries (never at ', and ' in Oxford comma lists,
     # and never split on '; ' when describing multi-panel (Left) and (Right) visuals)
@@ -307,32 +385,11 @@ def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140
             continue
         if sep in protected:
             raw_head = protected.split(sep, 1)[0].strip().rstrip(",;:-")
-            head = (
-                raw_head.replace("U_S_", "U.S.")
-                .replace("U_N_", "U.N.")
-                .replace("D_C_", "D.C.")
-                .replace("Dr_", "Dr.")
-                .replace("Mr_", "Mr.")
-                .replace("Mrs_", "Mrs.")
-                .replace("Ms_", "Ms.")
-                .replace("St_", "St.")
-                .replace("Mt_", "Mt.")
-                .replace("Ft_", "Ft.")
-                .replace("No_", "No.")
-                .replace("Fig_", "Fig.")
-                .replace("vs_", "vs.")
-                .replace("oz_", "oz.")
-                .replace("lb_", "lb.")
-                .replace("lbs_", "lbs.")
-                .replace("min_", "min.")
-                .replace("sec_", "sec.")
-                .replace("pt_", "pt.")
-                .replace("qt_", "qt.")
-                .replace("gal_", "gal.")
-                .replace("eg_", "e.g.")
-                .replace("ie_", "i.e.")
-            )
-            head_words = head.split()
+            head = _restore_abbreviations(raw_head)
+            if head.count("(") != head.count(")"):
+                continue
+            head_words = _trim_dangling_words(head.split(), min_keep=5)
+            head = " ".join(head_words).rstrip(",;:-(&/")
             if 7 <= len(head_words) <= max_words + 2 and len(head) <= max_chars + 15:
                 return head if head.endswith((".", "!", "?")) else f"{head}."
 
@@ -341,27 +398,42 @@ def _concise_card_body(body_text: str, max_words: int = 22, max_chars: int = 140
     # rather than chopping off the final 1-3 words mid-phrase; _compute_fitting_font_size
     # (with min_pt=12.5) will step down the font size cleanly if needed.
     if len(words) <= max_words + 12 and len(cleaned) <= max_chars + 80:
-        return cleaned if cleaned.endswith((".", "!", "?")) else f"{cleaned}."
+        trimmed_mid = _trim_dangling_words(words, min_keep=min(4, len(words)))
+        res_mid = " ".join(trimmed_mid).rstrip(",;:-(&/")
+        if res_mid.count("(") > res_mid.count(")"):
+            res_mid = res_mid.rsplit("(", 1)[0].strip().rstrip(",;:-&/")
+        return res_mid if res_mid.endswith((".", "!", "?")) else f"{res_mid}."
 
     # Otherwise cap at max_words + 6 and trim any trailing conjunction/preposition/article cleanly
     capped = list(words[: max_words + 6])
     while len(capped) > 6 and " ".join(capped) and len(" ".join(capped)) > max_chars + 55:
         capped.pop()
-    while len(capped) > 6 and capped[-1].lower().strip(",;:-.()") in _DANGLING_TAIL_WORDS:
-        capped.pop()
-    result = " ".join(capped).rstrip(",;:-(")
+    capped = _trim_dangling_words(capped, min_keep=4)
+    result = " ".join(capped).rstrip(",;:-(&/")
     if result.count("(") > result.count(")"):
-        result = result.rsplit("(", 1)[0].strip().rstrip(",;:-")
+        result = result.rsplit("(", 1)[0].strip().rstrip(",;:-&/")
+        result = " ".join(_trim_dangling_words(result.split(), min_keep=3)).rstrip(",;:-(&/")
     if result and not result.endswith((".", "!", "?")):
         result += "."
     return result
 
 
+def _smart_truncate(text: str, max_chars: int = 140, max_words: int = 22) -> str:
+    """Abbreviation- and parenthesis-safe sentence truncator alias for `_concise_card_body`."""
+    return _concise_card_body(text, max_words=max_words, max_chars=max_chars)
+
+
 def _concise_anchor_title(raw_anchor: str, max_chars: int = 44) -> str:
-    """Ensures card header anchor titles fit on a single line without wrapping in Google Slides."""
-    s = _clean_text(raw_anchor).strip(" .,:;-—")
-    if not s or len(s) <= max_chars:
-        return s
+    """Ensures card header anchor titles fit on a single line without wrapping or ending with dangling symbols."""
+    s = _clean_text(raw_anchor).strip(" .,:;-—–&/(")
+    if not s:
+        return ""
+    if len(s) <= max_chars:
+        s_words = _trim_dangling_words(s.split(), min_keep=1)
+        s_clean = " ".join(s_words).strip(" .,:;-—–&/(")
+        if s_clean.count("(") > s_clean.count(")"):
+            s_clean = s_clean.rsplit("(", 1)[0].strip(" .,:;-—–&/(")
+        return s_clean or s
     # If there is a parenthetical label like 'Req 1a (Long Topic Name)', shorten inside parens or drop parens if needed
     m_req = re.match(r"^(Req\s+[0-9a-zA-Z]+)\s*\((.+)\)$", s, flags=re.IGNORECASE)
     if m_req:
@@ -377,9 +449,8 @@ def _concise_anchor_title(raw_anchor: str, max_chars: int = 44) -> str:
                     kept.append(w)
                 else:
                     break
-            while len(kept) > 1 and kept[-1].lower().strip(",;:-.()") in _DANGLING_TAIL_WORDS:
-                kept.pop()
-            short_inner = " ".join(kept).rstrip(",;:-")
+            kept = _trim_dangling_words(kept, min_keep=1)
+            short_inner = " ".join(kept).rstrip(",;:-&/(")
             if short_inner:
                 return f"{req_lbl} ({short_inner})"
         return req_lbl
@@ -392,12 +463,11 @@ def _concise_anchor_title(raw_anchor: str, max_chars: int = 44) -> str:
             kept_words.append(w)
         else:
             break
-    while len(kept_words) > 1 and kept_words[-1].lower().strip(",;:-.()") in _DANGLING_TAIL_WORDS:
-        kept_words.pop()
-    res = " ".join(kept_words).rstrip(",;:-(")
+    kept_words = _trim_dangling_words(kept_words, min_keep=1)
+    res = " ".join(kept_words).rstrip(",;:-(&/")
     if res.count("(") > res.count(")"):
-        res = res.rsplit("(", 1)[0].strip().rstrip(",;:-")
-    return res or s[:max_chars].strip()
+        res = res.rsplit("(", 1)[0].strip().rstrip(",;:-&/")
+    return res or s[:max_chars].strip(" .,:;-—–&/(")
 
 
 def _format_top_requirement_strip_text(req_number: str, raw_verbatim: str, max_chars: int = 210) -> str:
@@ -458,6 +528,16 @@ def _is_acute_safety_hazard(warning_text: Optional[str], badge_name: str = "") -
     return any(kw in txt for kw in _ACUTE_HAZARD_KEYWORDS)
 
 
+def _relative_luminance(rgb: Tuple[int, int, int]) -> float:
+    """Computes WCAG 2.1 relative luminance (0.0 to 1.0) for an (R, G, B) tuple."""
+    def _chan(c: int) -> float:
+        v = max(0.0, min(255.0, float(c))) / 255.0
+        return v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4
+
+    r, g, b = rgb
+    return 0.2126 * _chan(r) + 0.7152 * _chan(g) + 0.0722 * _chan(b)
+
+
 def _get_slide_effective_style(slide_spec: Optional[SlideSpec]) -> Dict[str, Any]:
     """Resolves the effective slide layout style and updates ContextVar-isolated active rendering state."""
     if slide_spec is None:
@@ -468,6 +548,14 @@ def _get_slide_effective_style(slide_spec: Optional[SlideSpec]) -> Dict[str, Any
             deck_style=getattr(slide_spec, "deck_style", None),
             slide_spec=slide_spec,
         )
+        s_ds = getattr(slide_spec, "deck_style", None)
+        if isinstance(s_ds, dict):
+            cf = str(s_ds.get("card_frame") or "").strip().upper()
+            if cf in ("CLEAN_OPEN", "LEFT_ACCENT_LINE", "BOXED_CARDS"):
+                eff["text_container_style"] = cf
+        cf_slide = str(getattr(slide_spec, "card_frame", "") or "").strip().upper()
+        if cf_slide in ("CLEAN_OPEN", "LEFT_ACCENT_LINE", "BOXED_CARDS"):
+            eff["text_container_style"] = cf_slide
     _ACTIVE_CONTAINER_STYLE.set(str(eff.get("text_container_style") or "BOXED_CARDS").upper())
     _ACTIVE_FONT_DELTA_PT.set(float(eff.get("font_size_delta_pt") or 0.0))
     return eff
@@ -726,6 +814,8 @@ def _add_step_pill_badge(
     height_in: float = 0.26,
 ) -> Any:
     """Adds a dedicated dark/colored rounded pill shape (`CardAccent_StepPill_...`) for `01`–`04` and `STEP 1`–`STEP 4`."""
+    if _relative_luminance(bg_rgb) > 0.18:
+        text_rgb = (15, 23, 42)
     pill = slide.shapes.add_shape(
         MSO_SHAPE.ROUNDED_RECTANGLE,
         Inches(left_in),
@@ -1058,25 +1148,30 @@ def _render_stacked_point_cards(
     """Renders each bullet point as an individual horizontal card matching UI preview `.m3-slide-card-item`
     (with Bold Anchor on Line 1 and Regular Body on Line 2 when sufficient vertical height exists).
     """
+    _get_slide_effective_style(slide_spec)
     primary_rgb, accent_rgb, card_bg_rgb = _resolve_palette_tokens(slide_spec)
     anchor_rgb, body_rgb, _ = _resolve_text_colors(slide_spec, primary_rgb)
     theme = str(getattr(slide_spec, "visual_theme", "") or "").upper()
     use_top_bar = "BENTO" in theme or "THREE_PILLAR" in theme or "ASYMMETRIC" in theme
 
     total_h = max(2.00, bottom_in - top_in)
-    # Cap card count based on available vertical height so each card has >= 1.10" breathing room in Google Slides
+    raw_non_empty = [p for p in (points or []) if _clean_text(p)]
+    # Cap card count based on available vertical height while allowing 4 cards whenever total_h >= 4.15
+    # (or >= 3.55 when the slide explicitly carries 4 points) so zero slides silently drop a 4th bullet
     if total_h < 3.20:
         max_pts = 2
-    elif (width_in < 7.0 and total_h < 4.55) or total_h < 4.05:
+    elif total_h < 4.15 and len(raw_non_empty) < 4:
+        max_pts = 3
+    elif total_h < 3.55:
         max_pts = 3
     else:
         max_pts = 4
-    clean_pts = [p for p in (points or [])[:max_pts] if _clean_text(p)]
+    clean_pts = raw_non_empty[:max_pts]
     if not clean_pts:
         clean_pts = [f"{default_anchor_prefix}: Review and discuss these principles with your Merit Badge Counselor."]
 
     n_pts = len(clean_pts)
-    gap_y = 0.08 if total_h < 4.15 else 0.10
+    gap_y = 0.07 if (n_pts >= 4 or total_h < 4.15) else 0.10
     avail_cards_h = max(1.50, total_h - gap_y * max(0, n_pts - 1))
     avg_h = avail_cards_h / float(max(1, n_pts))
 
@@ -1463,7 +1558,8 @@ def _render_requirement_intro_slide(
 
     teach_top = round(1.10 + req_h + 0.10, 2)
     left_w = 6.20 if has_hero else 12.133
-    max_intro_pts = 3 if (has_hero and (content_bottom - teach_top) < 4.55) else 4
+    avail_intro_h = content_bottom - teach_top
+    max_intro_pts = 3 if (has_hero and avail_intro_h < 3.55) else 4
     teaching_points = slide_spec.bullet_points[:max_intro_pts]
     if not teaching_points:
         teaching_points = [f"Key Principle: Review and discuss Requirement {slide_spec.req_number} with your counselor."]
@@ -2820,7 +2916,7 @@ def generate_bsa_slide_deck_pptx(
             banner_bg.fill.fore_color.rgb = RGBColor(*s_primary_rgb)
             banner_bg.line.fill.background()
             banner_bg.text_frame.word_wrap = True
-            hdr_title_rgb = (255, 255, 255)
+            hdr_title_rgb = (15, 23, 42) if _relative_luminance(s_primary_rgb) > 0.18 else (255, 255, 255)
 
         header_box = content_slide.shapes.add_textbox(
             Inches(0.60), Inches(hdr_top_in), Inches(12.133), Inches(hdr_h_in)

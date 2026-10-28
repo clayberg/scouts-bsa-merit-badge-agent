@@ -1,35 +1,35 @@
 {
   "manifest_version": "1.0.0",
-  "generated_at_utc": "2026-10-27T20:29:50.951781+00:00",
+  "generated_at_utc": "2026-10-28T22:09:21.293355+00:00",
   "total_curated_visual_assets": 4124,
   "total_official_merit_badges": 149,
   "builtin_pptx_templates": 17,
   "deployment_note": "The full 1.2 GB assets/ directory (4,124 PNG visual assets, 149 BSA Pamphlet PDFs, and 17 PowerPoint templates) is present in the live workspace and baked into the Argolis Cloud Run Docker container image (Dockerfile COPY assets/ ./assets/). The standalone go/capstone-app submission bundle omits bulk binary PNG/PDF media to satisfy the portal's < 30 MB upload cap (MAX_BUNDLE_SIZE_MB = 30).",
   "category_breakdown": {
     "ai_illustrations": {
-      "file_count": 1428,
-      "total_bytes": 275049182,
-      "total_mb": 262.31
+      "file_count": 2977,
+      "total_bytes": 435149429,
+      "total_mb": 414.99
     },
     "pamphlet_images": {
       "file_count": 2815,
-      "total_bytes": 449927203,
-      "total_mb": 429.08
+      "total_bytes": 452323043,
+      "total_mb": 431.37
     },
     "badge_emblems": {
-      "file_count": 150,
-      "total_bytes": 27061033,
-      "total_mb": 25.81
+      "file_count": 152,
+      "total_bytes": 27684946,
+      "total_mb": 26.4
     },
     "pamphlet_covers": {
-      "file_count": 149,
-      "total_bytes": 16534341,
-      "total_mb": 15.77
+      "file_count": 151,
+      "total_bytes": 17724983,
+      "total_mb": 16.9
     },
     "templates": {
-      "file_count": 124,
-      "total_bytes": 26287767,
-      "total_mb": 25.07
+      "file_count": 286,
+      "total_bytes": 79624344,
+      "total_mb": 75.94
     },
     "construction_anim": {
       "file_count": 15,
@@ -52,9 +52,9 @@
     },
     {
       "category": "ai_illustrations",
-      "rel_path": "assets/ai_illustrations/action_sports_req_2_nano_hero.png",
-      "size_bytes": "248686",
-      "sha256": "268dd6c078cbcb6de16c7d698413319b5d60119d24bc08d5987f3102212022d1"
+      "rel_path": "assets/ai_illustrations/action_sports_req_1_workbook_diagram.png",
+      "size_bytes": "108360",
+      "sha256": "789df48e5e6e3e5ee58e650bcd711c9da7b8e31a31d4252c1d7377081b94db80"
     },
     {
       "category": "pamphlet_images",

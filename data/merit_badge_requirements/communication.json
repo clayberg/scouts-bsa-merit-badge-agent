@@ -37,36 +37,38 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 1a Activity & Observation Log Table",
+            "table_title": "Req 1a Quantitative Field Observation & Activity Log (Day Keep A Log)",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "column_headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "row_labels": [
-              "Talking person-to-person",
-              "Listening to teachers",
-              "Listening to the radio",
-              "Podcasts",
-              "Watching television",
-              "Using social media"
+              "1. Baseline Entry & Starting Conditions (Day Keep A Log)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
             ],
-            "min_rows": 6,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Baseline Entry & Starting Conditions (Day Keep A Log)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on talking person-to-person.",
-            "fact": "Scouts must describe talking person-to-person using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
-            "fact_correction": "Scouts must describe talking person-to-person using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
-            "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)"
+            "misconception": "Estimating One Day Keep A Log entries from memory at the end of the project satisfies the Communication Requirement 1a standard.",
+            "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each One Day Keep A Log milestone is completed (p. 18, p. 22).",
+            "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each One Day Keep A Log milestone is completed (p. 18, p. 22).",
+            "pamphlet_page_ref": "p. 18, p. 22"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -91,7 +93,12 @@
           ],
           "id": "1a",
           "sub_req_label": "1a",
-          "sub_req_text": "For one day, keep a log in which you describe your communication activities. Keep track of the time and different ways you spend communicating, such as talking person-to-person, listening to teachers, listening to the radio or podcasts, watching television, using social media, reading books and other print media, and using any electronic communication device. Discuss with your counselor what your log reveals about the importance of communication in your life. Think of ways to improve your communication skills."
+          "sub_req_text": "For one day, keep a log in which you describe your communication activities. Keep track of the time and different ways you spend communicating, such as talking person-to-person, listening to teachers, listening to the radio or podcasts, watching television, using social media, reading books and other print media, and using any electronic communication device. Discuss with your counselor what your log reveals about the importance of communication in your life. Think of ways to improve your communication skills.",
+          "topic_title": "Req 1a: Day Keep A Log",
+          "pamphlet_summary": "Day Keep A Log: One Day Keep A Log: For one day, keep a log Principle 3: They can bejust about any length and can have attachments such as photographs, videos, or documents (p. 18).",
+          "pamphlet_excerpts": [
+            "Day Keep A Log: One Day Keep A Log: For one day, keep a log Principle 3: They can bejust about any length and can have attachments such as photographs, videos, or documents (p. 18)."
+          ]
         },
         {
           "sub_id": "1b",
@@ -123,32 +130,38 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 1b Activity & Observation Log Table",
+            "table_title": "Req 1b Quantitative Field Observation & Activity Log (Days Keep A Journal)",
             "headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "column_headers": [
-              "Date / Entry #",
-              "Activity / Observation / Metric",
-              "Measured Result / Notes",
-              "Verifier Initials"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "row_labels": [
-              "1. For three days, keep a journal of your listening experiences",
-              "2. Identify one example of each of the following, and discuss with your"
+              "1. Baseline Entry & Starting Conditions (Days Keep A Journal)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Baseline Entry & Starting Conditions (Days Keep A Journal)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on for three days, keep a journal of your listening experiences.",
-            "fact": "Scouts must identify for three days, keep a journal of your listening experiences using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
-            "fact_correction": "Scouts must identify for three days, keep a journal of your listening experiences using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
-            "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)"
+            "misconception": "General familiarity with three, journal is sufficient for Communication Requirement 1b without citing specific functional mechanisms.",
+            "fact": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Three Days Keep A Journal (p. 18, p. 22).",
+            "fact_correction": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Three Days Keep A Journal (p. 18, p. 22).",
+            "pamphlet_page_ref": "p. 18, p. 22"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -173,7 +186,12 @@
           ],
           "id": "1b",
           "sub_req_label": "1b",
-          "sub_req_text": "For three days, keep a journal of your listening experiences. Identify one example of each of the following, and discuss with your counselor when you have listened to each: obtain information, be persuaded, appreciate or enjoy something, and understand someone's feelings."
+          "sub_req_text": "For three days, keep a journal of your listening experiences. Identify one example of each of the following, and discuss with your counselor when you have listened to each: obtain information, be persuaded, appreciate or enjoy something, and understand someone's feelings.",
+          "topic_title": "Req 1b: Days Keep A Journal",
+          "pamphlet_summary": "Days Keep A Journal: Three Days Keep A Journal: For one day, keep a log Principle 4: Anemail usually reaches its destinationalmost instantly (p. 18).",
+          "pamphlet_excerpts": [
+            "Days Keep A Journal: Three Days Keep A Journal: For one day, keep a log Principle 4: Anemail usually reaches its destinationalmost instantly (p. 18)."
+          ]
         },
         {
           "sub_id": "1c",
@@ -188,31 +206,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Study & Explanation Notes",
+            "organizer_type": "COMPARE_CONTRAST_2COL",
+            "table_title": "Req 1c Technical Comparison Matrix (Small-group Setting Meet)",
             "headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "column_headers": [
-              "Req 1c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Comparison Dimension",
+              "Method / System A Analysis",
+              "Method / System B Analysis"
             ],
             "row_labels": [
-              "1. In a small-group setting, meet with other Scouts or with friends",
-              "2. Have them share personal stories about significant events in their lives",
-              "3. Take note of how each Scout participates in the group discussion and how",
-              "4. Report what you have learned to your counselor about the differences you"
+              "1. Operating Principle & Design (Small-group Setting Meet)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Operating Principle & Design (Small-group Setting Meet)",
+              "2. Key Advantages & Ideal Field Conditions",
+              "3. Limitations, Cost & Maintenance Trade-Offs",
+              "4. Safety & Selection Criteria"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on in a small-group setting, meet with other scouts or with friends.",
-            "fact": "Scouts must explain in a small-group setting, meet with other scouts or with friends using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
-            "fact_correction": "Scouts must explain in a small-group setting, meet with other scouts or with friends using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
-            "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)"
+            "misconception": "All methods covered under In A Small-group Setting Meet in Communication are interchangeable regardless of operating conditions.",
+            "fact": "Each method or system in In A Small-group Setting Meet has distinct operating limits, efficiency trade-offs, and field applications defined in the Communication pamphlet (p. 18, p. 22).",
+            "fact_correction": "Each method or system in In A Small-group Setting Meet has distinct operating limits, efficiency trade-offs, and field applications defined in the Communication pamphlet (p. 18, p. 22).",
+            "pamphlet_page_ref": "p. 18, p. 22"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -237,7 +261,12 @@
           ],
           "id": "1c",
           "sub_req_label": "1c",
-          "sub_req_text": "In a small-group setting, meet with other Scouts or with friends. Have them share personal stories about significant events in their lives that affected them in some way. Take note of how each Scout participates in the group discussion and how effectively each Scout communicates their story. Report what you have learned to your counselor about the differences you observed in effective communication."
+          "sub_req_text": "In a small-group setting, meet with other Scouts or with friends. Have them share personal stories about significant events in their lives that affected them in some way. Take note of how each Scout participates in the group discussion and how effectively each Scout communicates their story. Report what you have learned to your counselor about the differences you observed in effective communication.",
+          "topic_title": "Req 1c: Small-group Setting Meet",
+          "pamphlet_summary": "Small-group Setting Meet: In A Small-group Setting Meet: For one day, keep a log: If you need toleave someone a voice mailmessage, speakslowly and clearly (p. 18).",
+          "pamphlet_excerpts": [
+            "Small-group Setting Meet: In A Small-group Setting Meet: For one day, keep a log: If you need toleave someone a voice mailmessage, speakslowly and clearly (p. 18)."
+          ]
         },
         {
           "sub_id": "1d",
@@ -261,28 +290,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Study & Explanation Notes",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (Many Ways As You)",
             "headers": [
-              "Req 1d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1d Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1d Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. List as many ways as you can think of to communicate with others",
-              "2. For each type of communication, discuss with your counselor an instance when"
+              "1. Core Definition & Mechanism (Many Ways As You)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Many Ways As You)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on list as many ways as you can think of to communicate with others.",
-            "fact": "Scouts must list list as many ways as you can think of to communicate with others using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
-            "fact_correction": "Scouts must list list as many ways as you can think of to communicate with others using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
-            "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)"
+            "misconception": "General familiarity with think, communicate is sufficient for Communication Requirement 1d without citing specific functional mechanisms.",
+            "fact": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of As Many Ways As You (p. 18, p. 22).",
+            "fact_correction": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of As Many Ways As You (p. 18, p. 22).",
+            "pamphlet_page_ref": "p. 18, p. 22"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -307,7 +344,12 @@
           ],
           "id": "1d",
           "sub_req_label": "1d",
-          "sub_req_text": "List as many ways as you can think of to communicate with others (face-to-face, by telephone, letter, email, text messages, social media, and so on). For each type of communication, discuss with your counselor an instance when that method might not be appropriate or effective."
+          "sub_req_text": "List as many ways as you can think of to communicate with others (face-to-face, by telephone, letter, email, text messages, social media, and so on). For each type of communication, discuss with your counselor an instance when that method might not be appropriate or effective.",
+          "topic_title": "Req 1d: Many Ways As You",
+          "pamphlet_summary": "Many Ways As You: As Many Ways As You: For one day, keep a log Principle 2: Email, short for \"electronic mail,\" has changed how many of uscommunicate (p. 18).",
+          "pamphlet_excerpts": [
+            "Many Ways As You: As Many Ways As You: For one day, keep a log Principle 2: Email, short for \"electronic mail,\" has changed how many of uscommunicate (p. 18)."
+          ]
         }
       ],
       "resources": [
@@ -366,41 +408,43 @@
       },
       "topic_title": "Req 1: For one day, keep a log",
       "action_verb": "Describe",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Communication Requirement 1 activities.",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
-      "syllabus_bucket": "In-Class Concept",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 1 Activity & Observation Log Table",
+        "organizer_type": "COMPARE_CONTRAST_2COL",
+        "table_title": "Req 1 Technical Comparison Matrix (For one day, keep a log)",
         "headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "column_headers": [
-          "Date / Entry #",
-          "Activity / Observation / Metric",
-          "Measured Result / Notes",
-          "Verifier Initials"
+          "Comparison Dimension",
+          "Method / System A Analysis",
+          "Method / System B Analysis"
         ],
         "row_labels": [
-          "(a) For one day, keep a log in which you describe your communication activities",
-          "(b) For three days, keep a journal of your listening experiences",
-          "(c) In a small-group setting, meet with other Scouts or with friends",
-          "(d) List as many ways as you can think of to communicate with others"
+          "(1a) Day Keep A Log",
+          "(1b) Days Keep A Journal",
+          "(1c) Small-group Setting Meet",
+          "(1d) Many Ways As You"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "(1a) Day Keep A Log",
+          "(1b) Days Keep A Journal",
+          "(1c) Small-group Setting Meet",
+          "(1d) Many Ways As You"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on for one day, keep a log in which you describe your communication activities.",
-        "fact": "Scouts must describe for one day, keep a log in which you describe your communication activities using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
-        "fact_correction": "Scouts must describe for one day, keep a log in which you describe your communication activities using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22).",
-        "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)"
+        "misconception": "Estimating For one day, keep a log entries from memory at the end of the project satisfies the Communication Requirement 1 standard.",
+        "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each For one day, keep a log milestone is completed (p. 18, p. 22).",
+        "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each For one day, keep a log milestone is completed (p. 18, p. 22).",
+        "pamphlet_page_ref": "p. 18, p. 22"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -424,61 +468,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Toleave Someone Voice: If you need toleave someone a voice mailmessage, speakslowly and clearly.",
-        "Email Short Electronic: Email, short for “electronic mail,” has changed how many of uscommunicate.",
-        "They Bejust Length: They can bejust about any length and can have attachments such as photographs, videos, or documents.",
-        "Anemail Reaches Its: Anemail usually reaches its destinationalmost instantly."
+        "For one day, keep a log: If you need toleave someone a voice mailmessage, speakslowly and clearly (p. 18).",
+        "For one day, keep a log Principle 2: Email, short for \"electronic mail,\" has changed how many of uscommunicate (p. 18).",
+        "For one day, keep a log Principle 3: They can bejust about any length and can have attachments such as photographs, videos, or documents (p. 18).",
+        "For one day, keep a log Principle 4: Anemail usually reaches its destinationalmost instantly (p. 18)."
       ],
       "step_by_step_procedure": [
-        "Send Emailjust Anywhere: You can send emailjust about anywhere in the world andstore emails as long as you want.",
-        "Email Easy Thatmany: Email is so easy to use thatmany people write a note quicklyand click “send” without reviewingtheir message.",
-        "Alwaysreview Email Sending: You should alwaysreview an email before sending it.",
-        "Easy Understand Contains: Make sure that it is easy to understand, contains good spelling and grammar, and is respectful."
+        "Step 1 (For one day, keep a log): You can send emailjust about anywhere in the world andstore emails as long as you want (p. 18).",
+        "Step 2 (For one day, keep a log): Email is so easy to use thatmany people write a note quickly and click \"send\" without reviewingtheir message (p. 18).",
+        "Step 3 (For one day, keep a log): You should alwaysreview an email before sending (p. 18).",
+        "Step 4 (For one day, keep a log): Make sure that it is easy to understand, contains good spelling and grammar, and is respectful (p. 18)."
       ],
       "gear_checklist": [
-        "Official Communication Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for For one day, keep a log",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Communication Merit Badge Pamphlet and Fillable Workbook (open to Req 1: For one day, keep a log)",
+        "Digital multimeter (volt/ohm/ammeter), breadboard jumper kit, or diagnostic workstation.",
+        "Schematic symbol reference chart, engineering graph pad, and insulated hand tools.",
+        "ESD wrist strap, safety goggles, and component datasheet packet for Req 1."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Communication Approach",
-        "right_header": "Official BSA Communication Standard (For one day, keep a log)",
+        "left_header": "Foundational Principles (For one day, keep a log)",
+        "right_header": "Applied Field Execution (For one day, keep a log)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during For one day, keep a log.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for For one day, keep a log.",
+          "For one day, keep a log: If you need toleave someone a voice mailmessage, speakslowly and clearly (p. 18).",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Communication Workbook organizer.",
-          "Clearly demonstrates and explains For one day, keep a log using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Communication.",
+          "For one day, keep a log Principle 2: Email, short for \"electronic mail,\" has changed how many of uscommunicate (p. 18).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for For one day, keep a log.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Communication."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "For one day, keep a log: If you need toleave someone a voice mailmessage, speakslowly and clearly (p. 18).",
+            "right": "For one day, keep a log Principle 2: Email, short for \"electronic mail,\" has changed how many of uscommunicate (p. 18)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Communication Req 1",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Quantitative Log Entry: Communication Req 1 (For one day, keep a log)",
+        "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
-          "Requirement & Topic": "Req 1 - For one day, keep a log",
-          "Primary Standard": "For one day, keep a log in which you describe your communication activities.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Communication terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22) and verified during counselor conference."
+          "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for For one day, keep a log.",
+          "Tracked Field Data": "For one day, keep a log: If you need toleave someone a voice mailmessage, speakslowly and clearly (p. 18).",
+          "Variance & Outcome Analysis": "For one day, keep a log Principle 2: Email, short for \"electronic mail,\" has changed how many of uscommunicate (p. 18).",
+          "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22))"
         },
-        "counselor_tip": "Complete your Communication Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "For one day, keep a log: For one day, keep a log: If you need toleave someone a voice mailmessage, speakslowly and clearly (p. 18).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before starting hands-on or field work for Communication (For one day, keep a log), which patrol preparation step best aligns with the official Communication standard?",
+        "scenario_prompt": "While working on Communication Requirement 1 (For one day, keep a log), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Communication Requirement 1 (For one day, keep a log), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
         "options": [
-          "Review the Communication hazards, PPE, and prerequisite standards in Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22) with your counselor and patrol buddy before beginning",
-          "Begin the practical station immediately and review the safety rules only if a problem occurs",
-          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
-          "Skip the pre-activity briefing when practicing indoors"
+          "A. Estimating For one day, keep a log entries from memory at the end of the project satisfies the Communication Requirement 1 standard.",
+          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each For one.",
+          "C. Defer all For one day, keep a log measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
         ],
-        "correct_answer": "Option A - Review the Communication hazards, PPE, and prerequisite standards in Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22) with your counselor and patrol buddy before beginning",
-        "explanation": "Per Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
+        "choices": [
+          "A. Estimating For one day, keep a log entries from memory at the end of the project satisfies the Communication Requirement 1 standard.",
+          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each For one.",
+          "C. Defer all For one day, keep a log measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each For one.",
+        "explanation": "Correct Answer (B): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each For one day, keep a log milestone is completed (p. 18, p. 22). (Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)).",
+        "pamphlet_page_ref": "p. 18, p. 22"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 1."
+      "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 1.",
+      "workbook_diagram_url": "assets/ai_illustrations/communication_req_1_workbook_diagram.png"
     },
     {
       "req_id": "2",
@@ -508,29 +581,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Study & Explanation Notes",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (Think of A Creative Way)",
             "headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Req 2a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Think of a creative way to describe yourself using, for example, a collage",
-              "2. Using the aid you created, make a presentation to your counselor"
+              "1. Pre-Operation Tool & Safety Check (Think of A Creative Way)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Think of A Creative Way)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on think of a creative way to describe yourself using, for example, a collage.",
-            "fact": "Scouts must describe think of a creative way to describe yourself using, for example, a collage using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
-            "fact_correction": "Scouts must describe think of a creative way to describe yourself using, for example, a collage using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
-            "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)"
+            "misconception": "Describing how to perform Think of A Creative Way verbally can substitute for a physical hands-on demonstration in Communication Requirement 2a.",
+            "fact": "Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate Think of A Creative Way with proper technique (p. 24, p. 25).",
+            "fact_correction": "Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate Think of A Creative Way with proper technique (p. 24, p. 25).",
+            "pamphlet_page_ref": "p. 24, p. 25"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -555,12 +636,17 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Think of a creative way to describe yourself using, for example, a collage, short story or autobiography, drawing or series of photographs, or a song or skit. Using the aid you created, make a presentation to your counselor about yourself."
+          "sub_req_text": "Think of a creative way to describe yourself using, for example, a collage, short story or autobiography, drawing or series of photographs, or a song or skit. Using the aid you created, make a presentation to your counselor about yourself.",
+          "topic_title": "Req 2a: Think of A Creative Way",
+          "pamphlet_summary": "Think of a creative way Principle 4: Asales pitch is a persuasive speech in which you try to get someone to buy your productor service (p. 24).",
+          "pamphlet_excerpts": [
+            "Think of a creative way Principle 4: Asales pitch is a persuasive speech in which you try to get someone to buy your productor service (p. 24)."
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Choose a concept, product, or service in which you have great confidence. Build a sales plan based on its good points. Try to persuade the counselor to agree with, use, or buy your concept, product, or service. After your sales talk, discuss with your counselor how persuasive you were.",
+          "text": "Choose a concept, product, or service in which you have great confidence. Build a sales plan based on its good points. Try to persuade the counselor to agree with, use, or buy your concept, product, or service. After your sales talk, discuss with your counselor how persuasive.",
           "resources": [
             {
               "title": "Making a Speech Powerful & Persuasive (video)",
@@ -570,36 +656,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 2b Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (Concept Product or Service)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Choose a concept, product, or service in which you have great confidence",
-              "2. Build a sales plan based on its good points",
-              "3. Try to persuade the counselor to agree with, use, or buy your concept",
-              "4. After your sales talk, discuss with your counselor how persuasive you were"
+              "1. Pre-Operation Tool & Safety Check (Concept Product or Service)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
             ],
-            "min_rows": 4,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Pre-Operation Tool & Safety Check (Concept Product or Service)",
+              "2. Step-by-Step Setup & Alignment Procedure",
+              "3. Live Execution & Technique Verification",
+              "4. Post-Task Inspection, Maintenance & Stowage"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on choose a concept, product, or service in which you have great confidence.",
-            "fact": "Scouts must build choose a concept, product, or service in which you have great confidence using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
-            "fact_correction": "Scouts must build choose a concept, product, or service in which you have great confidence using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
-            "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)"
+            "misconception": "Describing how to perform Choose A Concept Product verbally can substitute for a physical hands-on demonstration in Communication Requirement 2b.",
+            "fact": "Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate Choose A Concept Product with proper technique (p. 24, p. 25).",
+            "fact_correction": "Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate Choose A Concept Product with proper technique (p. 24, p. 25).",
+            "pamphlet_page_ref": "p. 24, p. 25"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -624,7 +711,12 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Choose a concept, product, or service in which you have great confidence. Build a sales plan based on its good points. Try to persuade the counselor to agree with, use, or buy your concept, product, or service. After your sales talk, discuss with your counselor how persuasive you were."
+          "sub_req_text": "Choose a concept, product, or service in which you have great confidence. Build a sales plan based on its good points. Try to persuade the counselor to agree with, use, or buy your concept, product, or service. After your sales talk, discuss with your counselor how persuasive.",
+          "topic_title": "Req 2b: Concept Product or Service",
+          "pamphlet_summary": "Concept Product or Service: Choose A Concept Product: Think of a creative way: If you are artistic, you might want to create a series of drawings showing yourself and some people and events important in your life (p. 24).",
+          "pamphlet_excerpts": [
+            "Concept Product or Service: Choose A Concept Product: Think of a creative way: If you are artistic, you might want to create a series of drawings showing yourself and some people and events important in your life (p. 24)."
+          ]
         }
       ],
       "resources": [
@@ -662,28 +754,32 @@
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Study & Explanation Notes",
+        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Think of a creative way)",
         "headers": [
-          "Req 2 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "column_headers": [
-          "Req 2 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(a) Think of a creative way to describe yourself using, for example, a collage",
-          "(b) Choose a concept, product, or service in which you have great confidence"
+          "(2a) Think of A Creative Way",
+          "(2b) Concept Product or Service"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false
+        "rows": [
+          "(2a) Think of A Creative Way",
+          "(2b) Concept Product or Service"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on think of a creative way to describe yourself using, for example, a collage.",
-        "fact": "Scouts must describe think of a creative way to describe yourself using, for example, a collage using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
-        "fact_correction": "Scouts must describe think of a creative way to describe yourself using, for example, a collage using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25).",
-        "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)"
+        "misconception": "Describing how to perform Think of a creative way verbally can substitute for a physical hands-on demonstration in Communication Requirement 2.",
+        "fact": "Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate Think of a creative way with proper technique (p. 24, p. 25).",
+        "fact_correction": "Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate Think of a creative way with proper technique (p. 24, p. 25).",
+        "pamphlet_page_ref": "p. 24, p. 25"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -707,38 +803,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Want Create Series: If you are artistic, you might want to create a series of drawings showing yourself andsome people and events important in your life.",
-        "Similarly Musical Theatrical: Similarly, if you are musical or theatrical, you may choose to write a song or a shortskit to fulfill this requirement.",
-        "Requirement Asks Salespitch: Requirement 2(b) asks you to make a salespitch for a concept, product, or service.",
-        "Asales Pitch Persuasive: Asales pitch is a persuasive speech in which you try to get someone to buy your productor service."
+        "Think of a creative way: If you are artistic, you might want to create a series of drawings showing yourself and some people and events important in your life (p. 24).",
+        "Think of a creative way Principle 2: Similarly, if you are musical or theatrical, you may choose to write a song or a shortskit to fulfill this requirement (p. 24).",
+        "Think of a creative way Principle 3: Requirement 2(b) asks you to make a salespitch for a concept, product, or service (p. 24).",
+        "Think of a creative way Principle 4: Asales pitch is a persuasive speech in which you try to get someone to buy your productor service (p. 24)."
       ],
       "step_by_step_procedure": [
-        "Here Way Organize: Here is one way to organize asales pitch that works.",
-        "Tell Astory Product: Tell astory about how your product or servicechanged your life or the life of someonelike the people in your audience. 2.",
-        "Audience Doesnot Necessarily: Your audience doesnot necessarily care about your product.",
-        "Knowenough Audience: Knowenough about your audience beforehand so that you cantailor your presentation to fit their needs."
+        "Step 1 (Think of a creative way): Here is one way to organize asales pitch that works (p. 24).",
+        "Step 2 (Think of a creative way): Tell astory about how your product or servicechanged your life or the life of someonelike the people in your audience. 2 (p. 24).",
+        "Step 3 (Think of a creative way): Your audience doesnot necessarily care about your product (p. 24).",
+        "Step 4 (Think of a creative way): Knowenough about your audience beforehand so that you cantailor your presentation to fit their needs (p. 24)."
       ],
       "gear_checklist": [
-        "Official Communication Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Think of a creative way",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Communication Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Think of a creative way)",
+        "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron.",
+        "Steel tape measure, vernier caliper or machinist square, and layout marking tools.",
+        "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Communication Req 2",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 2 - Think of a creative way",
-          "Primary Standard": "Think of a creative way to describe yourself using, for example, a collage, short story or autobiography, drawing or series of photographs, or a song or skit. Using the aid you created, make a presentation to your counselor about yourself.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Communication terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Communication Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Think of a creative way)",
+        "right_header": "Applied Field Execution (Think of a creative way)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Think of a creative way.",
+          "Think of a creative way: If you are artistic, you might want to create a series of drawings showing yourself andsome people and events impor.",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Communication.",
+          "Think of a creative way Principle 2: Similarly, if you are musical or theatrical, you may choose to write a song or a shortskit to fulfill.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Think of a creative way.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Communication."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Think of a creative way: If you are artistic, you might want to create a series of drawings showing yourself andsome people and events impor",
+            "right": "Think of a creative way Principle 2: Similarly, if you are musical or theatrical, you may choose to write a song or a shortskit to fulfill t"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Communication Req 2 (Think of a creative way)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Think of a creative way.",
+          "Step-by-Step Execution": "Think of a creative way: If you are artistic, you might want to create a series of drawings showing yourself and some people and events important in your life (p. 24).",
+          "Quality & Tolerance Check": "Think of a creative way Principle 2: Similarly, if you are musical or theatrical, you may choose to write a song or a shortskit to fulfill this requirement (p. 24).",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25))"
+        },
+        "sample_output": "Think of a creative way: Think of a creative way: If you are artistic, you might want to create a series of drawings showing yourself and some people and events impo",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Communication Requirement 2 (Think of a creative way), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Communication Requirement 2 (Think of a creative way), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate.",
+          "B. Describing how to perform Think of a creative way verbally can substitute for a physical hands-on demonstration in Communication.",
+          "C. Defer all Think of a creative way measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "choices": [
+          "A. Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate.",
+          "B. Describing how to perform Think of a creative way verbally can substitute for a physical hands-on demonstration in Communication.",
+          "C. Defer all Think of a creative way measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate.",
+        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate Think of a creative way with proper technique (p. 24, p. 25). (Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)).",
+        "pamphlet_page_ref": "p. 24, p. 25"
+      },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 2."
+      "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 2.",
+      "workbook_diagram_url": "assets/ai_illustrations/communication_req_2_workbook_diagram.png"
     },
     {
       "req_id": "3",
@@ -769,8 +917,8 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Write a five-minute speech",
-      "action_verb": "Write",
+      "topic_title": "Req 3: Five-minute Speech",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Communication Requirement 3 activities.",
@@ -779,27 +927,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Study & Explanation Notes",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Five-minute Speech)",
         "headers": [
-          "Req 3 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 3 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Write a five-minute speech",
-          "2. Give it at a meeting of a group"
+          "1. Core Definition & Mechanism (Five-minute Speech)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Core Definition & Mechanism (Five-minute Speech)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write a five-minute speech.",
-        "fact": "Scouts must write write a five-minute speech using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35).",
-        "fact_correction": "Scouts must write write a five-minute speech using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35).",
-        "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35)"
+        "misconception": "General familiarity with Write, five-minute is sufficient for Communication Requirement 3 without citing specific functional mechanisms.",
+        "fact": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Write a five-minute speech (p. 33, p. 35).",
+        "fact_correction": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Write a five-minute speech (p. 33, p. 35).",
+        "pamphlet_page_ref": "p. 33, p. 35"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -823,49 +979,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Contact Person Phone: If you contact the person by phone, ask if this is a good timeto talk.",
-        "Not Time Ask: If it is not a good time, ask when you should callback.",
-        "Start Asking Person: Start by asking the person to spell his or her nameand tell you his or her title.",
-        "Speak Clearly Slowly: Speak clearly and slowly so the person can understand your questions. • If you do not understand a response, ask the same question inanother way."
+        "Five-minute Speech: Write a five-minute speech: If you contact the person by phone, ask if this is a good time to talk (p. 33).",
+        "Five-minute Speech Principle 2: Write a five-minute speech Principle 2: If it is not a good time, ask when you should callback (p. 33).",
+        "Five-minute Speech Principle 3: Write a five-minute speech Principle 3: Start by asking the person to spell his or her name and tell you his or her title (p. 33).",
+        "Five-minute Speech Principle 4: Write a five-minute speech Principle 4: Speak clearly and slowly so the person can understand your questions. • If you do not understand a response, ask the same question inanother way (p. 33)."
       ],
       "step_by_step_procedure": [
-        "State Response Ownwords: You could also state the response in your ownwords and ask if you got it right.",
-        "Follow-up Questions Todig: Use follow-up questions todig more deeply into a topic. • Save your hardest questions for last.",
-        "Conversationis Fresh Mind: While the conversationis still fresh in your mind, rewrite or type your notes foreasier reading.",
-        "Task Not Write: Your task is not to write down everything every personsays."
+        "Step 1 (Five-minute Speech): Step 1 (Write a five-minute speech): You could also state the response in your ownwords and ask if you got it right (p. 33).",
+        "Step 2 (Five-minute Speech): Step 2 (Write a five-minute speech): Use follow-up questions todig more deeply into a topic. • Save your hardest questions for last (p. 33).",
+        "Step 3 (Five-minute Speech): Step 3 (Write a five-minute speech): While the conversationis still fresh in your mind, rewrite or type your notes foreasier reading (p. 33).",
+        "Step 4 (Five-minute Speech): Step 4 (Write a five-minute speech): Your task is not to write down everything every personsays (p. 33)."
       ],
       "gear_checklist": [
-        "Official Communication Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Write a five-minute speech",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Communication Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Five-minute Speech)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Five-minute Speech.",
+        "Structured Communication Requirement 3 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Communication Approach",
-        "right_header": "Official BSA Communication Standard (Write a five-minute speech)",
+        "left_header": "Foundational Principles (Write a five-minute speech)",
+        "right_header": "Applied Field Execution (Write a five-minute speech)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Write a five-minute speech.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Write a five-minute speech.",
+          "Write a five-minute speech: If you contact the person by phone, ask if this is a good timeto talk (p. 33).",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Communication Workbook organizer.",
-          "Clearly demonstrates and explains Write a five-minute speech using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Communication.",
+          "Write a five-minute speech Principle 2: If it is not a good time, ask when you should callback (p. 33).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Write a five-minute speech.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Communication."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Write a five-minute speech: If you contact the person by phone, ask if this is a good timeto talk (p. 33).",
+            "right": "Write a five-minute speech Principle 2: If it is not a good time, ask when you should callback (p. 33)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Communication Req 3",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Technical Analysis: Communication Req 3 (Five-minute Speech)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Requirement & Topic": "Req 3 - Write a five-minute speech",
-          "Primary Standard": "Write a five-minute speech. Give it at a meeting of a group.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Communication terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35) and verified during counselor conference."
+          "Core Technical Principle": "Five-minute Speech: Write a five-minute speech: If you contact the person by phone, ask if this is a good time to talk (p. 33).",
+          "Applied Field Mechanism": "Five-minute Speech Principle 2: Write a five-minute speech Principle 2: If it is not a good time, ask when you should callback (p. 33).",
+          "Real-World Case Example": "Concrete application of Five-minute Speech documented during Communication study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35)."
         },
-        "counselor_tip": "Complete your Communication Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Five-minute Speech: Five-minute Speech: Write a five-minute speech: If you contact the person by phone, ask if this is a good time to talk (p. 33).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Communication Requirement 3 (Five-minute Speech), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Communication Requirement 3 (Five-minute Speech), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+          "B. General familiarity with Write, five-minute is sufficient for Communication Requirement 3 without citing specific functional.",
+          "C. Defer all Five-minute Speech measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "choices": [
+          "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+          "B. General familiarity with Write, five-minute is sufficient for Communication Requirement 3 without citing specific functional.",
+          "C. Defer all Five-minute Speech measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+        "explanation": "Correct Answer (A): The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Write a five-minute speech (p. 33, p. 35). (Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35)).",
+        "pamphlet_page_ref": "p. 33, p. 35"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 3."
     },
@@ -892,33 +1086,37 @@
       },
       "topic_title": "Req 4: Interview someone you know fairly well",
       "action_verb": "Discuss",
-      "execution_mode": "HANDS_ON_SKILL_STATION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Demonstrate, Guide & Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Communication Requirement 4 activities.",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30)",
-      "syllabus_bucket": "In-Class Demonstration",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "CAREER_EXPLORATION_CARD",
-        "table_title": "Req 4 Career & Pathway Exploration Card",
+        "table_title": "Req 4 Career & Professional Pathway Investigation Matrix",
         "headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "column_headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. Three Career Opportunities Identified",
-          "2. Selected Career: Education & Training Required",
-          "3. Daily Duties, Licensing & Expenses",
-          "4. Starting Salary, Job Outlook & Personal Goals"
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Listing three job titles from a quick web search satisfies the Communication career exploration requirement.",
@@ -948,36 +1146,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Tips Interviewing: Tips for Interviewing and Introducing a Guest Speaker Let’s say you have a neighbor who is a policedetective.",
-        "Toshow Invite Your neighbor: You also need toshow your counselor how you will invite your neighbor to speak at the meeting.",
-        "Asmall Notebook Pen: Have asmall notebook and pen or a laptop or computer withyou when you make the call.",
-        "Wirelessheadset Cellphone: If you have a wirelessheadset for a cellphone, you can listen hands-freewhile typing your notes."
+        "Interview someone you know fairly well: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a policedetective (p. 17).",
+        "Interview someone you know fairly well Principle 2: You also need toshow your counselor how you will invite your neighbor to speak at the meeting (p. 17).",
+        "Interview someone you know fairly well Principle 3: Have asmall notebook and pen or a laptop or computer withyou when you make the call (p. 17).",
+        "Interview someone you know fairly well Principle 4: If you have a wirelessheadset for a cellphone, you can listen hands-freewhile typing your notes (p. 17)."
       ],
       "step_by_step_procedure": [
-        "Tell Neighbor Youare: Tell the neighbor that youare a member of Scouts BSA and ask her politely if you couldinterview her as part of your Communication merit.",
-        "Explain Requirements Include: Explain that the requirements include interviewingand preparing to introduce a guest speaker.",
-        "She Agrees Ask: If she agrees to help you, ask if this is a good time to talk.",
-        "Based Person Answers: Based on the person’s answers, write a short introductionof the speaker."
+        "Step 1 (Interview someone you know fairly well): Tell the neighbor that you are a member of Scouts BSA and ask her politely if you couldinterview her as part of your Communication merit (p. 17).",
+        "Step 2 (Interview someone you know fairly well): Explain that the requirements include interviewing and preparing to introduce a guest speaker (p. 17).",
+        "Step 3 (Interview someone you know fairly well): If she agrees to help you, ask if this is a good time to talk (p. 17).",
+        "Step 4 (Interview someone you know fairly well): Based on the person's answers, write a short introduction of the speaker (p. 17)."
       ],
       "gear_checklist": [
-        "Official Communication Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 4)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Interview someone you know fairly well",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Communication Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Interview someone you know fairly well)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Interview someone you know fairly well.",
+        "Structured Communication Requirement 4 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Communication Req 4",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 4 - Interview someone you know fairly well",
-          "Primary Standard": "Interview someone you know fairly well, like, or respect because of his or her position, talent, career, or life experiences.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Communication terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Communication Req 4 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Professional Career Track in Communication",
+        "right_header": "Lifelong Avocation & Civic Service in Communication",
+        "left_points": [
+          "Accredited degree, trade apprenticeship, or industry license.",
+          "Interview someone you know fairly well: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a policed.",
+          "Full-time compensation and technical leadership."
+        ],
+        "right_points": [
+          "Merit badge mastery, club mentorship, and volunteer service.",
+          "Interview someone you know fairly well Principle 2: You also need toshow your counselor how you will invite your neighbor to speak.",
+          "Community stewardship, outdoor recreation, and teaching others."
+        ],
+        "rows": [
+          {
+            "attribute": "Training Pathway",
+            "left": "Accredited degree, trade apprenticeship, or industry license.",
+            "right": "Merit badge mastery, club mentorship, and volunteer service."
+          },
+          {
+            "attribute": "Core Responsibilities",
+            "left": "Interview someone you know fairly well: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a policed",
+            "right": "Interview someone you know fairly well Principle 2: You also need toshow your counselor how you will invite your neighbor to speak at the me"
+          },
+          {
+            "attribute": "Long-Term Outcome",
+            "left": "Full-time compensation and technical leadership.",
+            "right": "Community stewardship, outdoor recreation, and teaching others."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Communication Req 4 (Interview someone you know fairly well)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Interview someone you know fairly well.",
+          "Step-by-Step Execution": "Interview someone you know fairly well: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a policedetective (p. 17).",
+          "Quality & Tolerance Check": "Interview someone you know fairly well Principle 2: You also need toshow your counselor how you will invite your neighbor to speak at the meeting (p. 17).",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30))"
+        },
+        "sample_output": "Interview someone you know fairly well: Interview someone you know fairly well: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a policed",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Communication Requirement 4 (Interview someone you know fairly well), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Communication Requirement 4 (Interview someone you know fairly well), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Listing three job titles from a quick web search satisfies the Communication career exploration requirement.",
+          "B. Defer all Interview someone you know fairly well measurements and safety checks until after the field session concludes.",
+          "C. Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "choices": [
+          "A. Listing three job titles from a quick web search satisfies the Communication career exploration requirement.",
+          "B. Defer all Interview someone you know fairly well measurements and safety checks until after the field session concludes.",
+          "C. Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties.",
+        "explanation": "Correct Answer (C): Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30)).",
+        "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30)"
+      },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 4."
     },
@@ -1006,8 +1255,8 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 5: Attend a public meeting approved",
-      "action_verb": "Attend",
+      "topic_title": "Req 5: Public Meeting City Council School",
+      "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Communication Requirement 5 activities.",
@@ -1016,28 +1265,35 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Study & Explanation Notes",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Public Meeting City Council School)",
         "headers": [
-          "Req 5 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 5 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 5 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 5 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Attend a public meeting (city council, school board, debate) approved by your",
-          "2. Practice active listening skills and take careful notes of each point of view",
-          "3. Prepare an objective report that includes all points of view"
+          "1. Core Definition & Mechanism (Public Meeting City Council School)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": true
+        "rows": [
+          "1. Core Definition & Mechanism (Public Meeting City Council School)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on attend a public meeting (city council, school board, debate) approved by your.",
-        "fact": "Scouts must attend attend a public meeting (city council, school board, debate) approved by your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35).",
-        "fact_correction": "Scouts must attend attend a public meeting (city council, school board, debate) approved by your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35).",
-        "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35)"
+        "misconception": "General familiarity with Attend, public is sufficient for Communication Requirement 5 without citing specific functional mechanisms.",
+        "fact": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Attend a public meeting approved (p. 30, p. 35).",
+        "fact_correction": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Attend a public meeting approved (p. 30, p. 35).",
+        "pamphlet_page_ref": "p. 30, p. 35"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1066,36 +1322,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Tips Interviewing: Tips for Interviewing and Introducing a Guest Speaker Let’s say you have a neighbor who is a policedetective.",
-        "Toshow Invite Your neighbor: You also need toshow your counselor how you will invite your neighbor to speak at the meeting.",
-        "Asmall Notebook Pen: Have asmall notebook and pen or a laptop or computer withyou when you make the call.",
-        "Wirelessheadset Cellphone: If you have a wirelessheadset for a cellphone, you can listen hands-freewhile typing your notes."
+        "Public Meeting City Council School: Attend a public meeting approved: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a policedetective (p. 30).",
+        "Public Meeting City Council School Principle 2: Attend a public meeting approved Principle 2: You also need toshow your counselor how you will invite your neighbor to speak at the meeting (p. 30).",
+        "Public Meeting City Council School Principle 3: Attend a public meeting approved Principle 3: Have asmall notebook and pen or a laptop or computer withyou when you make the call (p. 30).",
+        "Public Meeting City Council School Principle 4: Attend a public meeting approved Principle 4: If you have a wirelessheadset for a cellphone, you can listen hands-freewhile typing your notes (p. 30)."
       ],
       "step_by_step_procedure": [
-        "Tell Neighbor Youare: Tell the neighbor that youare a member of Scouts BSA and ask her politely if you couldinterview her as part of your Communication merit.",
-        "Explain Requirements Include: Explain that the requirements include interviewingand preparing to introduce a guest speaker.",
-        "She Agrees Ask: If she agrees to help you, ask if this is a good time to talk.",
-        "Based Person Answers: Based on the person’s answers, write a short introductionof the speaker."
+        "Step 1 (Public Meeting City Council School): Step 1 (Attend a public meeting approved): Tell the neighbor that you are a member of Scouts BSA and ask her politely if you couldinterview her as part of your Communication merit (p. 30).",
+        "Step 2 (Public Meeting City Council School): Step 2 (Attend a public meeting approved): Explain that the requirements include interviewing and preparing to introduce a guest speaker (p. 30).",
+        "Step 3 (Public Meeting City Council School): Step 3 (Attend a public meeting approved): If she agrees to help you, ask if this is a good time to talk (p. 30).",
+        "Step 4 (Public Meeting City Council School): Step 4 (Attend a public meeting approved): Based on the person's answers, write a short introduction of the speaker (p. 30)."
       ],
       "gear_checklist": [
-        "Official Communication Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 5)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Attend a public meeting approved",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Communication Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Public Meeting City Council School)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Public Meeting City Council School.",
+        "Structured Communication Requirement 5 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Communication Req 5",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 5 - Attend a public meeting approved",
-          "Primary Standard": "Attend a public meeting (city council, school board, debate) approved by your counselor where several points of view are given on a single issue.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Communication terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Communication Req 5 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Attend a public meeting approved)",
+        "right_header": "Applied Field Execution (Attend a public meeting approved)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Attend a public meeting approved.",
+          "Attend a public meeting approved: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a policedetecti.",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Communication.",
+          "Attend a public meeting approved Principle 2: You also need toshow your counselor how you will invite your neighbor to speak at the meeting.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Attend a public meeting approved.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Communication."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Attend a public meeting approved: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a policedetecti",
+            "right": "Attend a public meeting approved Principle 2: You also need toshow your counselor how you will invite your neighbor to speak at the meeting "
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Communication Req 5 (Public Meeting City Council School)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Public Meeting City Council School: Attend a public meeting approved: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a policedetective ()",
+          "Applied Field Mechanism": "Public Meeting City Council School Principle 2: Attend a public meeting approved Principle 2: You also need toshow your counselor how you will invite your neighbor to speak.",
+          "Real-World Case Example": "Concrete application of Public Meeting City Council School documented during Communication study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35)."
+        },
+        "sample_output": "Public Meeting City Council School: Public Meeting City Council School: Attend a public meeting approved: Tips for Interviewing and Introducing a Guest Speaker Let's say you ha",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Communication Requirement 5 (Public Meeting City Council School), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Communication Requirement 5 (Public Meeting City Council School), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+          "B. General familiarity with Attend, public is sufficient for Communication Requirement 5 without citing specific functional mechanisms.",
+          "C. Defer all Public Meeting City Council School measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "choices": [
+          "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+          "B. General familiarity with Attend, public is sufficient for Communication Requirement 5 without citing specific functional mechanisms.",
+          "C. Defer all Public Meeting City Council School measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+        "explanation": "Correct Answer (A): The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Attend a public meeting approved (p. 30, p. 35). (Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35)).",
+        "pamphlet_page_ref": "p. 30, p. 35"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 5."
     },
@@ -1121,7 +1428,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 6: Teach a skill or inform someone",
-      "action_verb": "Plan",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Communication Requirement 6 activities.",
@@ -1130,29 +1437,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Study & Explanation Notes",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Teach a skill or inform someone)",
         "headers": [
-          "Req 6 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 6 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 6 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 6 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. With your counselor's approval, develop a plan to teach a skill or inform",
-          "2. Prepare teaching aids for your plan",
-          "3. Carry out your plan",
-          "4. With your counselor, determine whether the person has learned what you"
+          "1. Core Definition & Mechanism (Teach a skill or inform someone)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": true
+        "rows": [
+          "1. Core Definition & Mechanism (Teach a skill or inform someone)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on with your counselor's approval, develop a plan to teach a skill or inform.",
-        "fact": "Scouts must plan with your counselor's approval, develop a plan to teach a skill or inform using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39).",
-        "fact_correction": "Scouts must plan with your counselor's approval, develop a plan to teach a skill or inform using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39).",
-        "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39)"
+        "misconception": "General familiarity with counselor's, approval is sufficient for Communication Requirement 6 without citing specific functional mechanisms.",
+        "fact": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Teach a skill or inform someone (p. 37, p. 39).",
+        "fact_correction": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Teach a skill or inform someone (p. 37, p. 39).",
+        "pamphlet_page_ref": "p. 37, p. 39"
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1181,36 +1494,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Requirement Develop Plan: For requirement 6, you will develop a plan to teach a skill orinform someone about a subject.",
-        "Process Similar Prepare: Use a process similar to the one you used to prepare your shortspeech.",
-        "Form Outline Think: As you form the outline, think about how you couldbreak down the subject into step-by-step instructions.",
-        "Pick Asubject Skill: Pick asubject or skill that is (1) something you know well, and (2) something that a friend, relative, or troop member mightlike to learn."
+        "Teach a skill or inform someone: For requirement 6, you will develop a plan to teach a skill orinform someone about a subject (p. 37).",
+        "Teach a skill or inform someone Principle 2: Use a process similar to the one you used to prepare your shortspeech (p. 37).",
+        "Teach a skill or inform someone Principle 3: As you form the outline, think about how you couldbreak down the subject into step-by-step instructions (p. 37).",
+        "Teach a skill or inform someone Principle 4: Pick asubject or skill that is (1) something you know well, and (2) something that a friend, relative, or troop member mightlike to learn (p. 37)."
       ],
       "step_by_step_procedure": [
-        "Choose Basic Knots: First, choose four basic knots that are useful in differentsituations.",
-        "Foreach Knot Write: Foreach knot, write an outline that lists the steps for how to tiethe knot.",
-        "BSA Handbooks Resources: Look in the Scouts BSA handbooks, other Scouting resources, librarybooks, and search the internet (with your parent or guardian's permission).",
-        "Want Enlarge Diagrams: You might want to enlarge these diagrams on aphotocopier or computer printer to make them easier for abeginner to follow."
+        "Step 1 (Teach a skill or inform someone): First, choose four basic knots that are useful in differentsituations (p. 37).",
+        "Step 2 (Teach a skill or inform someone): Foreach knot, write an outline that lists the steps for how to tiethe knot (p. 37).",
+        "Step 3 (Teach a skill or inform someone): Look in the Scouts BSA handbooks, other Scouting resources, librarybooks, and search the internet (with your parent or guardian's permission) (p. 37).",
+        "Step 4 (Teach a skill or inform someone): You might want to enlarge these diagrams on aphotocopier or computer printer to make them easier for abeginner to follow (p. 37)."
       ],
       "gear_checklist": [
-        "Official Communication Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 6)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Teach a skill or inform someone",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Communication Merit Badge Pamphlet and Fillable Workbook (open to Req 6: Teach a skill or inform someone)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Teach a skill or inform someone.",
+        "Structured Communication Requirement 6 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Communication Req 6",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 6 - Teach a skill or inform someone",
-          "Primary Standard": "With your counselor's approval, develop a plan to teach a skill or inform someone about something. Prepare teaching aids for your plan. Carry out your plan. With your counselor, determine whether the person has learned what you intended.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Communication terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Communication Req 6 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Teach a skill or inform someone)",
+        "right_header": "Applied Field Execution (Teach a skill or inform someone)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Teach a skill or inform someone.",
+          "Teach a skill or inform someone: For requirement 6, you will develop a plan to teach a skill orinform someone about a subject (p. 37).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Communication.",
+          "Teach a skill or inform someone Principle 2: Use a process similar to the one you used to prepare your shortspeech (p. 37).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Teach a skill or inform someone.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Communication."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Teach a skill or inform someone: For requirement 6, you will develop a plan to teach a skill orinform someone about a subject (p. 37).",
+            "right": "Teach a skill or inform someone Principle 2: Use a process similar to the one you used to prepare your shortspeech (p. 37)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Communication Req 6 (Teach a skill or inform someone)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Teach a skill or inform someone: For requirement 6, you will develop a plan to teach a skill orinform someone about a subject (p. 37).",
+          "Applied Field Mechanism": "Teach a skill or inform someone Principle 2: Use a process similar to the one you used to prepare your shortspeech (p. 37).",
+          "Real-World Case Example": "Concrete application of Teach a skill or inform someone documented during Communication study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39)."
+        },
+        "sample_output": "Teach a skill or inform someone: Teach a skill or inform someone: For requirement 6, you will develop a plan to teach a skill orinform someone about a subject (p. 37).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Communication Requirement 6 (Teach a skill or inform someone), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Communication Requirement 6 (Teach a skill or inform someone), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. General familiarity with counselor's, approval is sufficient for Communication Requirement 6 without citing specific functional.",
+          "B. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+          "C. Defer all Teach a skill or inform someone measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "choices": [
+          "A. General familiarity with counselor's, approval is sufficient for Communication Requirement 6 without citing specific functional.",
+          "B. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+          "C. Defer all Teach a skill or inform someone measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+        "explanation": "Correct Answer (B): The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Teach a skill or inform someone (p. 37, p. 39). (Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39)).",
+        "pamphlet_page_ref": "p. 37, p. 39"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 6."
     },
@@ -1239,28 +1603,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Study & Explanation Notes",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Editor of A Magazine)",
             "headers": [
-              "Req 7a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 7a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 7a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 7a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Write to the editor of a magazine or your local newspaper to express your",
-              "2. Send your message by fax, email, or regular mail"
+              "1. Core Definition & Mechanism (Editor of A Magazine)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Editor of A Magazine)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write to the editor of a magazine or your local newspaper to express your.",
-            "fact": "Scouts must write write to the editor of a magazine or your local newspaper to express your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
-            "fact_correction": "Scouts must write write to the editor of a magazine or your local newspaper to express your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
-            "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)"
+            "misconception": "General familiarity with Write, editor is sufficient for Communication Requirement 7a without citing specific functional mechanisms.",
+            "fact": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Write to The Editor (p. 49, p. 50).",
+            "fact_correction": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Write to The Editor (p. 49, p. 50).",
+            "pamphlet_page_ref": "p. 49, p. 50"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1285,7 +1657,12 @@
           ],
           "id": "7a",
           "sub_req_label": "7a",
-          "sub_req_text": "Write to the editor of a magazine or your local newspaper to express your opinion or share information on any subject you choose. Send your message by fax, email, or regular mail."
+          "sub_req_text": "Write to the editor of a magazine or your local newspaper to express your opinion or share information on any subject you choose. Send your message by fax, email, or regular mail.",
+          "topic_title": "Req 7a: Editor of A Magazine",
+          "pamphlet_summary": "Editor of A Magazine: Write to the editor: Active Communication and the Digital Revolution. the blogger, with the newest at the top (p. 49).",
+          "pamphlet_excerpts": [
+            "Editor of A Magazine: Write to the editor: Active Communication and the Digital Revolution. the blogger, with the newest at the top (p. 49)."
+          ]
         },
         {
           "sub_id": "7b",
@@ -1312,29 +1689,39 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Study & Explanation Notes",
+            "organizer_type": "TIME_SERIES_LOG_TABLE",
+            "table_title": "Req 7b Quantitative Field Observation & Activity Log (Webpage or Blog of Special)",
             "headers": [
-              "Req 7b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "column_headers": [
-              "Req 7b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Create a webpage or blog of special interest to you (for instance, your troop",
-              "2. Include at least three articles or entries and one photograph"
+              "1. Baseline Entry & Starting Conditions (Webpage or Blog of Special)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": true
+            "rows": [
+              "1. Baseline Entry & Starting Conditions (Webpage or Blog of Special)",
+              "2. Milestone 1 Observation & Measurements",
+              "3. Milestone 2 Observation & Measurements",
+              "4. Final Summary, Totals & Counselor Review"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on create a webpage or blog of special interest to you (for instance, your troop.",
-            "fact": "Scouts must explain create a webpage or blog of special interest to you (for instance, your troop using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
-            "fact_correction": "Scouts must explain create a webpage or blog of special interest to you (for instance, your troop using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
-            "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)"
+            "misconception": "Estimating Create A Webpage or Blog entries from memory at the end of the project satisfies the Communication Requirement 7b standard.",
+            "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each Create A Webpage or Blog milestone is completed (p. 49, p. 50).",
+            "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each Create A Webpage or Blog milestone is completed (p. 49, p. 50).",
+            "pamphlet_page_ref": "p. 49, p. 50"
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1364,7 +1751,12 @@
           ],
           "id": "7b",
           "sub_req_label": "7b",
-          "sub_req_text": "Create a webpage or blog of special interest to you (for instance, your troop or crew, a hobby, or a sport). Include at least three articles or entries and one photograph or illustration, and one link to some other webpage or blog that would be helpful to someone who visits the webpage or blog you have created. Note: It is not necessary to post your webpage or blog to the internet, but if you decide to do so, you must first share it with your parent or guardian and counselor and get their permission."
+          "sub_req_text": "Create a webpage or blog of special interest to you (for instance, your troop or crew, a hobby, or a sport). Include at least three articles or entries and one photograph or illustration, and one link to some other webpage or blog that would be helpful to someone who visits the webpage or blog you have created. Note: It is not necessary to post your webpage or blog to the internet, but if you decide to do so, you must first share it with your parent or guardian and counselor and get their permission.",
+          "topic_title": "Req 7b: Webpage or Blog of Special",
+          "pamphlet_summary": "Webpage or Blog of Special: Create A Webpage or Blog: Write to the editor Principle 2: The website often willhave space for the blog's readers to post comments of their own (p. 49).",
+          "pamphlet_excerpts": [
+            "Webpage or Blog of Special: Create A Webpage or Blog: Write to the editor Principle 2: The website often willhave space for the blog's readers to post comments of their own (p. 49)."
+          ]
         },
         {
           "sub_id": "7c",
@@ -1388,28 +1780,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Study & Explanation Notes",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Desktop Publishing to Produce)",
             "headers": [
-              "Req 7c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 7c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 7c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 7c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Use desktop publishing to produce a newsletter, brochure, flyer, or other",
-              "2. Include at least one article and one photograph or illustration"
+              "1. Core Definition & Mechanism (Desktop Publishing to Produce)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 2,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Desktop Publishing to Produce)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on use desktop publishing to produce a newsletter, brochure, flyer, or other.",
-            "fact": "Scouts must explain use desktop publishing to produce a newsletter, brochure, flyer, or other using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
-            "fact_correction": "Scouts must explain use desktop publishing to produce a newsletter, brochure, flyer, or other using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
-            "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)"
+            "misconception": "General familiarity with desktop, publishing is sufficient for Communication Requirement 7c without citing specific functional mechanisms.",
+            "fact": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Use Desktop Publishing to Produce (p. 49, p. 50).",
+            "fact_correction": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Use Desktop Publishing to Produce (p. 49, p. 50).",
+            "pamphlet_page_ref": "p. 49, p. 50"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1434,7 +1834,12 @@
           ],
           "id": "7c",
           "sub_req_label": "7c",
-          "sub_req_text": "Use desktop publishing to produce a newsletter, brochure, flyer, or other printed material for your troop or crew, class at school, or other group. Include at least one article and one photograph or illustration."
+          "sub_req_text": "Use desktop publishing to produce a newsletter, brochure, flyer, or other printed material for your troop or crew, class at school, or other group. Include at least one article and one photograph or illustration.",
+          "topic_title": "Req 7c: Desktop Publishing to Produce",
+          "pamphlet_summary": "Desktop Publishing to Produce: Use Desktop Publishing to Produce: Write to the editor Principle 3: Fancier blogs may have news stories, links to other websites, photographs, and video (p. 49).",
+          "pamphlet_excerpts": [
+            "Desktop Publishing to Produce: Use Desktop Publishing to Produce: Write to the editor Principle 3: Fancier blogs may have news stories, links to other websites, photographs, and video (p. 49)."
+          ]
         }
       ],
       "resources": [
@@ -1483,38 +1888,45 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Write to the editor",
-      "action_verb": "Write",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "topic_title": "Req 7: Editor of A Magazine",
+      "action_verb": "Prepare",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Communication Requirement 7 activities.",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
-      "syllabus_bucket": "In-Class Concept",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Study & Explanation Notes",
+        "organizer_type": "TIME_SERIES_LOG_TABLE",
+        "table_title": "Req 7 Quantitative Field Observation & Activity Log (Editor of A Magazine)",
         "headers": [
-          "Req 7 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
         ],
         "column_headers": [
-          "Req 7 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
         ],
         "row_labels": [
-          "(a) Write to the editor of a magazine or your local newspaper to express your",
-          "(b) Create a webpage or blog of special interest to you (for instance, your troop",
-          "(c) Use desktop publishing to produce a newsletter, brochure, flyer, or other"
+          "(7a) Editor of A Magazine",
+          "(7b) Webpage or Blog of Special",
+          "(7c) Desktop Publishing to Produce"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": true
+        "rows": [
+          "(7a) Editor of A Magazine",
+          "(7b) Webpage or Blog of Special",
+          "(7c) Desktop Publishing to Produce"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on write to the editor of a magazine or your local newspaper to express your.",
-        "fact": "Scouts must write write to the editor of a magazine or your local newspaper to express your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
-        "fact_correction": "Scouts must write write to the editor of a magazine or your local newspaper to express your using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50).",
-        "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)"
+        "misconception": "Estimating Write to the editor entries from memory at the end of the project satisfies the Communication Requirement 7 standard.",
+        "fact": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each Write to the editor milestone is completed (p. 49, p. 50).",
+        "fact_correction": "Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each Write to the editor milestone is completed (p. 49, p. 50).",
+        "pamphlet_page_ref": "p. 49, p. 50"
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1543,36 +1955,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Active Communication Digital: Active Communication and the Digital Revolution. the blogger, with the newest at the top.",
-        "Website Willhave Space: The website often willhave space for the blog’s readers to post comments of their own.",
-        "Fancier Blogs News: Fancier blogs may have news stories, links to other websites, photographs, and video.",
-        "Blogs Read Small: Many blogs are read by a small audience with commoninterests."
+        "Editor of A Magazine: Write to the editor: Active Communication and the Digital Revolution. the blogger, with the newest at the top (p. 49).",
+        "Editor of A Magazine Principle 2: Write to the editor Principle 2: The website often willhave space for the blog's readers to post comments of their own (p. 49).",
+        "Editor of A Magazine Principle 3: Write to the editor Principle 3: Fancier blogs may have news stories, links to other websites, photographs, and video (p. 49).",
+        "Editor of A Magazine Principle 4: Write to the editor Principle 4: Many blogs are read by a small audience with commoninterests (p. 49)."
       ],
       "step_by_step_procedure": [
-        "Blogging Becomeso Popular: Blogging has becomeso popular that many big companies have started blogs ontheir websites.",
-        "Blogging Become Form: Blogging has become an important form ofmass communication.",
-        "Today People Their living: Today, some people even make their living as bloggers.",
-        "Want Decorate Webpage: You will want to decorate your webpage or blog with a fewgraphics."
+        "Step 1 (Editor of A Magazine): Step 1 (Write to the editor): Blogging has becomeso popular that many big companies have started blogs on their websites (p. 49).",
+        "Step 2 (Editor of A Magazine): Step 2 (Write to the editor): Blogging has become an important form ofmass communication (p. 49).",
+        "Step 3 (Editor of A Magazine): Step 3 (Write to the editor): Today, some people even make their living as bloggers (p. 49).",
+        "Step 4 (Editor of A Magazine): Step 4 (Write to the editor): You will want to decorate your webpage or blog with a fewgraphics (p. 49)."
       ],
       "gear_checklist": [
-        "Official Communication Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 7)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Write to the editor",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Communication Merit Badge Pamphlet and Fillable Workbook (open to Req 7: Editor of A Magazine)",
+        "Digital stopwatch, 100-foot measuring tape, and heart-rate/recovery log sheet.",
+        "Discipline-specific protective headgear (ASTM/Snell helmet) and properly fitted footwear.",
+        "Hydration water bottle (1L minimum), electrolyte pack, and pre-activity warm-up mat."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Communication Req 7",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 7 - Write to the editor",
-          "Primary Standard": "Write to the editor of a magazine or your local newspaper to express your opinion or share information on any subject you choose. Send your message by fax, email, or regular mail.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Communication terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Communication Req 7 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Write to the editor)",
+        "right_header": "Applied Field Execution (Write to the editor)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Write to the editor.",
+          "Write to the editor: Active Communication and the Digital Revolution. the blogger, with the newest at the top (p. 49).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Communication.",
+          "Write to the editor Principle 2: The website often willhave space for the blog's readers to post comments of their own (p. 49).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Write to the editor.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Communication."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Write to the editor: Active Communication and the Digital Revolution. the blogger, with the newest at the top (p. 49).",
+            "right": "Write to the editor Principle 2: The website often willhave space for the blog's readers to post comments of their own (p. 49)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Quantitative Log Entry: Communication Req 7 (Editor of A Magazine)",
+        "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
+        "fields": {
+          "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Editor of A Magazine.",
+          "Tracked Field Data": "Editor of A Magazine: Write to the editor: Active Communication and the Digital Revolution. the blogger, with the newest at the top (p. 49).",
+          "Variance & Outcome Analysis": "Editor of A Magazine Principle 2: Write to the editor Principle 2: The website often willhave space for the blog's readers to post comments of their own (p. 49).",
+          "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50))"
+        },
+        "sample_output": "Editor of A Magazine: Editor of A Magazine: Write to the editor: Active Communication and the Digital Revolution. the blogger, with the newest at the top (p. 49).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Communication Requirement 7 (Editor of A Magazine), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Communication Requirement 7 (Editor of A Magazine), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Estimating Write to the editor entries from memory at the end of the project satisfies the Communication Requirement 7 standard.",
+          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each Write to.",
+          "C. Defer all Editor of A Magazine measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "choices": [
+          "A. Estimating Write to the editor entries from memory at the end of the project satisfies the Communication Requirement 7 standard.",
+          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each Write to.",
+          "C. Defer all Editor of A Magazine measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each Write to.",
+        "explanation": "Correct Answer (B): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each Write to the editor milestone is completed (p. 49, p. 50). (Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)).",
+        "pamphlet_page_ref": "p. 49, p. 50"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 7."
     },
@@ -1621,8 +2084,8 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Plan a troop or crew court",
-      "action_verb": "Plan",
+      "topic_title": "Req 8: Troop or Crew Court",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Communication Requirement 8 activities.",
@@ -1631,28 +2094,35 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Study & Explanation Notes",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Troop or Crew Court)",
         "headers": [
-          "Req 8 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 8 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 8 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 8 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Plan a troop or crew court of honor, campfire program, or an interfaith",
-          "2. Have the patrol leaders' council approve it, then write the script",
-          "3. Serve as master of ceremonies"
+          "1. Core Definition & Mechanism (Troop or Crew Court)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Core Definition & Mechanism (Troop or Crew Court)",
+          "2. Key Pamphlet Facts & Technical Standards",
+          "3. Practical Scouting / Field Application Example",
+          "4. Counselor Discussion & Verification Summary"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on plan a troop or crew court of honor, campfire program, or an interfaith.",
-        "fact": "Scouts must plan plan a troop or crew court of honor, campfire program, or an interfaith using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68).",
-        "fact_correction": "Scouts must plan plan a troop or crew court of honor, campfire program, or an interfaith using verified procedures, field evidence, and safety standards from Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68).",
-        "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68)"
+        "misconception": "General familiarity with troop, court is sufficient for Communication Requirement 8 without citing specific functional mechanisms.",
+        "fact": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan a troop or crew court (p. 57, p. 68).",
+        "fact_correction": "The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan a troop or crew court (p. 57, p. 68).",
+        "pamphlet_page_ref": "p. 57, p. 68"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1676,36 +2146,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Health Strength Daily: For health, strength, and daily food, we give You thanks, O Lord.",
-        "Serve Lord Gladness: Serve the Lord with gladness! \u0007Come into his presence with singing!.",
-        "Lord God Andwe: Know that the Lord is God! \u0007It is he who made us, andwe are his! \u0007We are his people and the sheepof his pasture.",
-        "Enter His Gates: Enter into his gates with thanksgiving, and his courts with praise! \u0007Give thanks to him; bless his name!."
+        "Troop or Crew Court: Plan a troop or crew court: For health, strength, and daily food, we give You thanks, O Lord (p. 57).",
+        "Troop or Crew Court Principle 2: Plan a troop or crew court Principle 2: Serve the Lord with gladness! \u0007Come into his presence with singing (p. 57).",
+        "Troop or Crew Court Principle 3: Plan a troop or crew court Principle 3: Know that the Lord is God! \u0007It is he who made us, andwe are his! \u0007We are his people and the sheep of his pasture (p. 57).",
+        "Troop or Crew Court Principle 4: Plan a troop or crew court Principle 4: Enter into his gates with thanksgiving, and his courts with praise! \u0007Give thanks to him; bless his name (p. 57)."
       ],
       "step_by_step_procedure": [
-        "Lord His Steadfast: For the Lord is good; his steadfast loveendures forever, and his faithfulness toall generations. 2.",
-        "Mercies Lord Truly: For this and all Your mercies, Lord, make us truly grateful. 3.",
-        "Food Health Friendship: For food, health, friendship, we give You thanks, O Lord. 4.",
-        "Food Raiment Life: For food, for raiment, for life, foropportunity, for friendship andfellowship, we thank You, O Lord. (Philmont grace) 5."
+        "Step 1 (Troop or Crew Court): Step 1 (Plan a troop or crew court): For the Lord is good; his steadfast loveendures forever, and his faithfulness toall generations. 2 (p. 57).",
+        "Step 2 (Troop or Crew Court): Step 2 (Plan a troop or crew court): For this and all Your mercies, Lord, make us truly grateful. 3 (p. 57).",
+        "Step 3 (Troop or Crew Court): Step 3 (Plan a troop or crew court): For food, health, friendship, we give You thanks, O Lord. 4 (p. 57).",
+        "Step 4 (Troop or Crew Court): Step 4 (Plan a troop or crew court): For food, for raiment, for life, foropportunity, for friendship andfellowship, we thank You, O Lord. (Philmont grace) 5 (p. 57)."
       ],
       "gear_checklist": [
-        "Official Communication Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 8)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Plan a troop or crew court",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Communication Merit Badge Pamphlet and Fillable Workbook (open to Req 8: Troop or Crew Court)",
+        "Calibrated instant-read digital food thermometer and sanitizing wipes.",
+        "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves.",
+        "USDA MyPlate nutrition chart, recipe cards, and biodegradable three-pot wash basin kit."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Communication Req 8",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 8 - Plan a troop or crew court",
-          "Primary Standard": "Plan a troop or crew court of honor, campfire program, or an interfaith worship service. Have the patrol leaders' council approve it, then write the script and prepare the program. Serve as master of ceremonies.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Communication terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Communication Req 8 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Plan a troop or crew court)",
+        "right_header": "Applied Field Execution (Plan a troop or crew court)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Plan a troop or crew court.",
+          "Plan a troop or crew court: For health, strength, and daily food, we give You thanks, O Lord (p. 57).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Communication.",
+          "Plan a troop or crew court Principle 2: Serve the Lord with gladness! \u0007Come into his presence with singing (p. 57).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Plan a troop or crew court.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Communication."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Plan a troop or crew court: For health, strength, and daily food, we give You thanks, O Lord (p. 57).",
+            "right": "Plan a troop or crew court Principle 2: Serve the Lord with gladness! \u0007Come into his presence with singing (p. 57)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Communication Req 8 (Troop or Crew Court)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Troop or Crew Court: Plan a troop or crew court: For health, strength, and daily food, we give You thanks, O Lord (p. 57).",
+          "Applied Field Mechanism": "Troop or Crew Court Principle 2: Plan a troop or crew court Principle 2: Serve the Lord with gladness! \u0007Come into his presence with singing (p. 57).",
+          "Real-World Case Example": "Concrete application of Troop or Crew Court documented during Communication study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68)."
+        },
+        "sample_output": "Troop or Crew Court: Troop or Crew Court: Plan a troop or crew court: For health, strength, and daily food, we give You thanks, O Lord (p. 57).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Communication Requirement 8 (Troop or Crew Court), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Communication Requirement 8 (Troop or Crew Court), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. General familiarity with troop, court is sufficient for Communication Requirement 8 without citing specific functional mechanisms.",
+          "B. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan.",
+          "C. Defer all Troop or Crew Court measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "choices": [
+          "A. General familiarity with troop, court is sufficient for Communication Requirement 8 without citing specific functional mechanisms.",
+          "B. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan.",
+          "C. Defer all Troop or Crew Court measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan.",
+        "explanation": "Correct Answer (B): The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan a troop or crew court (p. 57, p. 68). (Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68)).",
+        "pamphlet_page_ref": "p. 57, p. 68"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 8."
     },
@@ -1747,7 +2268,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 9: Careers & Professional Pathways",
-      "action_verb": "Research",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Communication Requirement 9 activities.",
@@ -1756,25 +2277,29 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "CAREER_EXPLORATION_CARD",
-        "table_title": "Req 9 Career & Pathway Exploration Card",
+        "table_title": "Req 9 Career & Professional Pathway Investigation Matrix",
         "headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "column_headers": [
           "Career Research Dimension",
-          "Selected Career Details",
-          "Education, Training & Personal Goals"
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. Three Career Opportunities Identified",
-          "2. Selected Career: Education & Training Required",
-          "3. Daily Duties, Licensing & Expenses",
-          "4. Starting Salary, Job Outlook & Personal Goals"
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4,
-        "pre_approval_gate": false
+        "rows": [
+          "1. Three Related Careers Identified",
+          "2. Selected Career: Education, Training & Licensing",
+          "3. Daily Responsibilities, Tools & Working Conditions",
+          "4. Salary Range, Advancement Outlook & Personal Fit"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Listing three job titles from a quick web search satisfies the Communication career exploration requirement.",
@@ -1804,44 +2329,231 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Career Communication Choices: A career in communication will give you many choices.",
-        "Inmost Fields Education: As inmost fields, the better your education, the more likely your success.",
-        "Communication Professionals: Many communication professionals have bachelor’sdegrees from colleges with journalism or communication departments.",
-        "Their Specialty Public: Their specialty might be public relations, advertising, or print or broadcast journalism."
+        "Careers & Professional Pathways: A career in communication will give you many choices (p. 71).",
+        "Careers & Professional Pathways Principle 2: As inmost fields, the better your education, the more likely your success (p. 71).",
+        "Careers & Professional Pathways Principle 3: Many communication professionals have bachelor'sdegrees from colleges with journalism or communication departments (p. 71).",
+        "Careers & Professional Pathways Principle 4: Their specialty might be public relations, advertising, or print or broadcast journalism (p. 71)."
       ],
       "step_by_step_procedure": [
-        "Others Bachelor Sor: Others may have a bachelor’sor an advanced degree in business, law, or engineering.",
-        "Competition Communication: Competition for communication positions is fierce, and morestudents are learning to work with all types of media.",
-        "Trainingin Technology: Trainingin technology is very helpful, because many communicationspecialists now work mostly with websites and other digitalmedia.",
-        "Links Among Video: This is because of the links among video, audio, andtext in online communication."
+        "Step 1 (Careers & Professional Pathways): Others may have a bachelor'sor an advanced degree in business, law, or engineering (p. 71).",
+        "Step 2 (Careers & Professional Pathways): Competition for communication positions is fierce, and morestudents are learning to work with all types of media (p. 71).",
+        "Step 3 (Careers & Professional Pathways): Trainingin technology is very helpful, because many communicationspecialists now work mostly with websites and other digitalmedia (p. 71).",
+        "Step 4 (Careers & Professional Pathways): This is because of the links among video, audio, andtext in online communication (p. 71)."
       ],
       "gear_checklist": [
-        "Official Communication Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 9)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Careers & Professional Pathways",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Communication Merit Badge Pamphlet and Fillable Workbook (open to Req 9: Careers & Professional Pathways)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Careers & Professional Pathways.",
+        "Structured Communication Requirement 9 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Communication Req 9",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 9 - Careers & Professional Pathways",
-          "Primary Standard": "Find out about three career opportunities in communication. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this profession might interest you.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Communication terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Communication Merit Badge Pamphlet (p. 71, p. 75) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Communication Req 9 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Professional Career Track in Communication",
+        "right_header": "Lifelong Avocation & Civic Service in Communication",
+        "left_points": [
+          "Accredited degree, trade apprenticeship, or industry license.",
+          "Careers & Professional Pathways: A career in communication will give you many choices (p. 71).",
+          "Full-time compensation and technical leadership."
+        ],
+        "right_points": [
+          "Merit badge mastery, club mentorship, and volunteer service.",
+          "Careers & Professional Pathways Principle 2: As inmost fields, the better your education, the more likely your success (p. 71).",
+          "Community stewardship, outdoor recreation, and teaching others."
+        ],
+        "rows": [
+          {
+            "attribute": "Training Pathway",
+            "left": "Accredited degree, trade apprenticeship, or industry license.",
+            "right": "Merit badge mastery, club mentorship, and volunteer service."
+          },
+          {
+            "attribute": "Core Responsibilities",
+            "left": "Careers & Professional Pathways: A career in communication will give you many choices (p. 71).",
+            "right": "Careers & Professional Pathways Principle 2: As inmost fields, the better your education, the more likely your success (p. 71)."
+          },
+          {
+            "attribute": "Long-Term Outcome",
+            "left": "Full-time compensation and technical leadership.",
+            "right": "Community stewardship, outdoor recreation, and teaching others."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Technical Analysis: Communication Req 9 (Careers & Professional Pathways)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "fields": {
+          "Core Technical Principle": "Careers & Professional Pathways: A career in communication will give you many choices (p. 71).",
+          "Applied Field Mechanism": "Careers & Professional Pathways Principle 2: As inmost fields, the better your education, the more likely your success (p. 71).",
+          "Real-World Case Example": "Concrete application of Careers & Professional Pathways documented during Communication study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Communication Merit Badge Pamphlet (p. 71, p. 75)."
+        },
+        "sample_output": "Careers & Professional Pathways: Careers & Professional Pathways: A career in communication will give you many choices (p. 71).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Communication Merit Badge Pamphlet (p. 71, p. 75)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Communication Requirement 9 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Communication Requirement 9 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Listing three job titles from a quick web search satisfies the Communication career exploration requirement.",
+          "B. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "C. Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "choices": [
+          "A. Listing three job titles from a quick web search satisfies the Communication career exploration requirement.",
+          "B. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
+          "C. Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties.",
+        "explanation": "Correct Answer (C): Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Communication Merit Badge Pamphlet (p. 71, p. 75)).",
+        "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 71, p. 75)"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Communication Workbook organizer table and practical demonstration for Req 9."
     }
   ],
   "badge_slug": "communication",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0",
+  "schema_baseline_version": "2026.v30",
   "is_test_lab": false,
   "is_discontinued": false,
-  "status": "ACTIVE"
+  "status": "OFFICIAL",
+  "patrol_quiz_bank": [
+    {
+      "scenario_prompt": "While working on Communication Requirement 1 (For one day, keep a log), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Communication Requirement 1 (For one day, keep a log), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Estimating For one day, keep a log entries from memory at the end of the project satisfies the Communication Requirement 1 standard.",
+        "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each For one.",
+        "C. Defer all For one day, keep a log measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+      ],
+      "choices": [
+        "A. Estimating For one day, keep a log entries from memory at the end of the project satisfies the Communication Requirement 1 standard.",
+        "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each For one.",
+        "C. Defer all For one day, keep a log measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+      ],
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each For one.",
+      "explanation": "Correct Answer (B): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Communication log as each For one day, keep a log milestone is completed (p. 18, p. 22). (Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)).",
+      "pamphlet_page_ref": "p. 18, p. 22",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Communication Requirement 2 (Think of a creative way), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Communication Requirement 2 (Think of a creative way), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate.",
+        "B. Describing how to perform Think of a creative way verbally can substitute for a physical hands-on demonstration in Communication.",
+        "C. Defer all Think of a creative way measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+      ],
+      "choices": [
+        "A. Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate.",
+        "B. Describing how to perform Think of a creative way verbally can substitute for a physical hands-on demonstration in Communication.",
+        "C. Defer all Think of a creative way measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate.",
+      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Communication pamphlet, each Scout must physically execute and demonstrate Think of a creative way with proper technique (p. 24, p. 25). (Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)).",
+      "pamphlet_page_ref": "p. 24, p. 25",
+      "req_id": "2",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Communication Requirement 3 (Five-minute Speech), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Communication Requirement 3 (Five-minute Speech), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+        "B. General familiarity with Write, five-minute is sufficient for Communication Requirement 3 without citing specific functional.",
+        "C. Defer all Five-minute Speech measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+      ],
+      "choices": [
+        "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+        "B. General familiarity with Write, five-minute is sufficient for Communication Requirement 3 without citing specific functional.",
+        "C. Defer all Five-minute Speech measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+      "explanation": "Correct Answer (A): The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Write a five-minute speech (p. 33, p. 35). (Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35)).",
+      "pamphlet_page_ref": "p. 33, p. 35",
+      "req_id": "3",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Communication Requirement 4 (Interview someone you know fairly well), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Communication Requirement 4 (Interview someone you know fairly well), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Listing three job titles from a quick web search satisfies the Communication career exploration requirement.",
+        "B. Defer all Interview someone you know fairly well measurements and safety checks until after the field session concludes.",
+        "C. Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+      ],
+      "choices": [
+        "A. Listing three job titles from a quick web search satisfies the Communication career exploration requirement.",
+        "B. Defer all Interview someone you know fairly well measurements and safety checks until after the field session concludes.",
+        "C. Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties.",
+      "explanation": "Correct Answer (C): Scouts must research specific Communication career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30)).",
+      "pamphlet_page_ref": "Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30)",
+      "req_id": "4",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Communication Requirement 5 (Public Meeting City Council School), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Communication Requirement 5 (Public Meeting City Council School), your patrol encounters a decision point on proper procedure. According to the Communication Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+        "B. General familiarity with Attend, public is sufficient for Communication Requirement 5 without citing specific functional mechanisms.",
+        "C. Defer all Public Meeting City Council School measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+      ],
+      "choices": [
+        "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+        "B. General familiarity with Attend, public is sufficient for Communication Requirement 5 without citing specific functional mechanisms.",
+        "C. Defer all Public Meeting City Council School measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Communication pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
+      "explanation": "Correct Answer (A): The Communication pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Attend a public meeting approved (p. 30, p. 35). (Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35)).",
+      "pamphlet_page_ref": "p. 30, p. 35",
+      "req_id": "5",
+      "option_id": null
+    }
+  ],
+  "quartermaster_manifest": {
+    "badge_name": "Communication",
+    "patrol_equipment": [
+      "Digital multimeter (volt/ohm/ammeter), breadboard jumper kit, or diagnostic workstation",
+      "Schematic symbol reference chart, engineering graph pad, and insulated hand tools",
+      "ESD wrist strap, safety goggles, and component datasheet packet for Req 1",
+      "ANSI Z87.1 wrap-around safety glasses, heavy leather work gloves, and shop apron",
+      "Steel tape measure, vernier caliper or machinist square, and layout marking tools",
+      "Calibrated hand/power tools with intact guards, clamps, and shop ventilation check sheet",
+      "Primary reference documents, case-study exhibits, and regulation charts for Five-minute Speech",
+      "Structured Communication Requirement 3 worksheet, index cards, and verification rubric"
+    ],
+    "individual_scout_gear": [
+      "Official Communication Merit Badge Pamphlet",
+      "Printed or Fillable Communication Scout Workbook",
+      "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
+      "Field notebook, pen/pencil, and personal safety equipment (PPE)"
+    ]
+  }
 }

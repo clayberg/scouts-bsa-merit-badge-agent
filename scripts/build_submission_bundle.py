@@ -145,6 +145,7 @@ def build_lightweight_submission_bundle(
         "assets/badge_emblems/",
         "assets/pamphlet_covers/",
         "assets/pamphlets/",
+        "assets/templates/overlays/",
         "docs/images/",
         "docs/screenshots/",
     )
@@ -158,6 +159,8 @@ def build_lightweight_submission_bundle(
         "iso_heavy_4_foreground_cable.png",
         "mermaid-readme-1.png",
         "mermaid-tdd-1.png",
+        "assets/templates/overlays/nano_base_pinewood_campfire.jpg",
+        "assets/templates/overlays/nano_base_bsa_emblem_color.jpg",
     )
 
     selected_files: list[str] = []

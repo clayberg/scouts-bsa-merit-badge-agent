@@ -2,7 +2,7 @@
  * Scouts BSA Merit Badge Counselor Workbench Client (`ui/app.js`)
  *
  * Provides:
- * - Full 144-Badge Catalog search, category filter, and Eagle-Required / Elective filter
+ * - Full 149-Badge Catalog search, category filter, and Eagle-Required / Elective filter
  * - Clean research & slide deck generation progress via SSE (`/api/workflow/stream`)
  * - Interactive Slide Deck Preview (including Cover Slide 1 with badge patch & pamphlet cover,
  *   plus all requirement & topic teaching slides)
@@ -1046,12 +1046,321 @@ function bindFilterAndSlideControls() {
     });
   });
 
+  // 20-State Slide Edit Undo/Redo Stack (Deliverable 6)
+  state.slideUndoStack = state.slideUndoStack || [];
+  state.slideRedoStack = state.slideRedoStack || [];
+
+  const syncStageUndoRedoButtonsUi = () => {
+    const undoBtn = document.getElementById("btn-stage-undo");
+    const redoBtn = document.getElementById("btn-stage-redo");
+    if (undoBtn) {
+      undoBtn.disabled = !Array.isArray(state.slideUndoStack) || state.slideUndoStack.length === 0;
+      undoBtn.title = `Undo last slide edit (${(state.slideUndoStack || []).length} step${(state.slideUndoStack || []).length === 1 ? "" : "s"} available • Ctrl+Z)`;
+    }
+    if (redoBtn) {
+      redoBtn.disabled = !Array.isArray(state.slideRedoStack) || state.slideRedoStack.length === 0;
+      redoBtn.title = `Redo slide edit (${(state.slideRedoStack || []).length} step${(state.slideRedoStack || []).length === 1 ? "" : "s"} available • Ctrl+Y)`;
+    }
+  };
+  window.syncStageUndoRedoButtonsUi = syncStageUndoRedoButtonsUi;
+
+  const cloneSlidesSnapshot = (slidesArr) => {
+    try {
+      if (typeof structuredClone === "function") {
+        return structuredClone(slidesArr || []);
+      }
+    } catch (_e) {}
+    return JSON.parse(JSON.stringify(slidesArr || []));
+  };
+
+  const pushSlideUndoState = (label = "Slide Edit") => {
+    const slides = state.currentResult?.storyboard?.slides;
+    if (!Array.isArray(slides)) return;
+    state.slideUndoStack = state.slideUndoStack || [];
+    state.slideRedoStack = [];
+    state.slideUndoStack.push({
+      label,
+      activeSlideIdx: state.activeSlideIdx,
+      slides: cloneSlidesSnapshot(slides),
+    });
+    if (state.slideUndoStack.length > 20) {
+      state.slideUndoStack.shift();
+    }
+    syncStageUndoRedoButtonsUi();
+  };
+  window.pushSlideUndoState = pushSlideUndoState;
+
+  const performSlideUndo = () => {
+    const slides = state.currentResult?.storyboard?.slides;
+    if (!Array.isArray(slides) || !Array.isArray(state.slideUndoStack) || state.slideUndoStack.length === 0) {
+      return;
+    }
+    const prevEntry = state.slideUndoStack.pop();
+    state.slideRedoStack = state.slideRedoStack || [];
+    state.slideRedoStack.push({
+      label: prevEntry.label || "Slide Edit",
+      activeSlideIdx: state.activeSlideIdx,
+      slides: cloneSlidesSnapshot(slides),
+    });
+    if (state.slideRedoStack.length > 20) {
+      state.slideRedoStack.shift();
+    }
+    state.currentResult.storyboard.slides = cloneSlidesSnapshot(prevEntry.slides);
+    state.activeSlideIdx = Math.min(
+      Math.max(-1, prevEntry.activeSlideIdx ?? state.activeSlideIdx),
+      state.currentResult.storyboard.slides.length - 1
+    );
+    syncStageUndoRedoButtonsUi();
+    renderFilmstrip(state.currentResult.storyboard.slides);
+    renderActiveSlide(state.activeSlideIdx);
+    if (typeof scheduleDebouncedDeckPptxSync === "function") {
+      scheduleDebouncedDeckPptxSync(800);
+    }
+    showToast(`↩️ Undid: ${prevEntry.label || "Slide Edit"}`, "info");
+  };
+  window.performSlideUndo = performSlideUndo;
+
+  const performSlideRedo = () => {
+    const slides = state.currentResult?.storyboard?.slides;
+    if (!Array.isArray(slides) || !Array.isArray(state.slideRedoStack) || state.slideRedoStack.length === 0) {
+      return;
+    }
+    const nextEntry = state.slideRedoStack.pop();
+    state.slideUndoStack = state.slideUndoStack || [];
+    state.slideUndoStack.push({
+      label: nextEntry.label || "Slide Edit",
+      activeSlideIdx: state.activeSlideIdx,
+      slides: cloneSlidesSnapshot(slides),
+    });
+    if (state.slideUndoStack.length > 20) {
+      state.slideUndoStack.shift();
+    }
+    state.currentResult.storyboard.slides = cloneSlidesSnapshot(nextEntry.slides);
+    state.activeSlideIdx = Math.min(
+      Math.max(-1, nextEntry.activeSlideIdx ?? state.activeSlideIdx),
+      state.currentResult.storyboard.slides.length - 1
+    );
+    syncStageUndoRedoButtonsUi();
+    renderFilmstrip(state.currentResult.storyboard.slides);
+    renderActiveSlide(state.activeSlideIdx);
+    if (typeof scheduleDebouncedDeckPptxSync === "function") {
+      scheduleDebouncedDeckPptxSync(800);
+    }
+    showToast(`↪️ Redid: ${nextEntry.label || "Slide Edit"}`, "info");
+  };
+  window.performSlideRedo = performSlideRedo;
+
+  document.getElementById("btn-stage-undo")?.addEventListener("click", () => performSlideUndo());
+  document.getElementById("btn-stage-redo")?.addEventListener("click", () => performSlideRedo());
+
+  // Direct On-Stage Inline contenteditable Click-to-Edit (Deliverable 5)
+  state.stageInlineEditActive = false;
+  const setStageInlineEditMode = (enable, focusTarget = null) => {
+    if (!state.currentResult || state.activeSlideIdx < 0) {
+      if (enable) {
+        showToast("Select a content slide (Slide 2+) to edit text directly on stage.", "info");
+      }
+      enable = false;
+    }
+    state.stageInlineEditActive = Boolean(enable);
+    const barEl = document.getElementById("stage-inline-edit-bar");
+    const toggleBtn = document.getElementById("btn-stage-inline-edit");
+    barEl?.classList.toggle("hidden", !state.stageInlineEditActive);
+    toggleBtn?.classList.toggle("active", state.stageInlineEditActive);
+
+    const titleEl = document.getElementById("stage-slide-title");
+    const capEl = document.getElementById("stage-diagram-caption");
+    const leftZone = document.getElementById("stage-left-zone");
+    const cardEls = leftZone
+      ? Array.from(leftZone.querySelectorAll(".m3-slide-card-item:not(.m3-quiz-reveal-card)"))
+      : [];
+
+    [titleEl, capEl, ...cardEls].filter(Boolean).forEach((el) => {
+      if (state.stageInlineEditActive) {
+        el.setAttribute("contenteditable", "true");
+        el.setAttribute("spellcheck", "true");
+        el.classList.add("m3-stage-inline-editable");
+      } else {
+        el.removeAttribute("contenteditable");
+        el.classList.remove("m3-stage-inline-editable");
+      }
+    });
+
+    if (state.stageInlineEditActive) {
+      const target = focusTarget || titleEl || cardEls[0];
+      if (target && typeof target.focus === "function") {
+        target.focus();
+      }
+    }
+  };
+  window.setStageInlineEditMode = setStageInlineEditMode;
+
+  const commitStageInlineEdits = () => {
+    if (!state.currentResult || state.activeSlideIdx < 0) {
+      setStageInlineEditMode(false);
+      return;
+    }
+    const titleEl = document.getElementById("stage-slide-title");
+    const capEl = document.getElementById("stage-diagram-caption");
+    const leftZone = document.getElementById("stage-left-zone");
+    const cardEls = leftZone
+      ? Array.from(leftZone.querySelectorAll(".m3-slide-card-item:not(.m3-quiz-reveal-card)"))
+      : [];
+
+    const qeTitle = document.getElementById("quickedit-slide-title");
+    const qeCaption = document.getElementById("quickedit-slide-caption");
+    const qeBullets = document.getElementById("quickedit-slide-bullets");
+
+    if (qeTitle && titleEl) {
+      qeTitle.value = (titleEl.innerText || titleEl.textContent || "").trim();
+    }
+    if (qeCaption && capEl && capEl.offsetParent !== null) {
+      qeCaption.value = (capEl.innerText || capEl.textContent || "").trim();
+    }
+    if (qeBullets && cardEls.length > 0) {
+      const extractedBullets = cardEls
+        .map((cEl) => {
+          const anchorNode = cEl.querySelector(".m3-slide-card-anchor, .m3-clean-point-lead");
+          const bodyNode = cEl.querySelector(".m3-slide-card-text, .m3-clean-point-body");
+          if (anchorNode && bodyNode) {
+            const aTxt = (anchorNode.innerText || anchorNode.textContent || "")
+              .replace(/^(?:STEP\s*\d+|0\d+|\[\✓\]|[▸★◆❝])\s*/i, "")
+              .replace(/:$/, "")
+              .trim();
+            const bTxt = (bodyNode.innerText || bodyNode.textContent || "").trim();
+            return aTxt && bTxt ? `${aTxt}: ${bTxt}` : aTxt || bTxt;
+          }
+          return (cEl.innerText || cEl.textContent || "")
+            .replace(/^(?:STEP\s*\d+|0\d+|\[\✓\]|[▸★◆❝])\s*/i, "")
+            .replace(/\s+/g, " ")
+            .trim();
+        })
+        .filter(Boolean);
+      if (extractedBullets.length > 0) {
+        qeBullets.value = extractedBullets.join("\n");
+      }
+    }
+    setStageInlineEditMode(false);
+    document.getElementById("btn-save-quickedit")?.click();
+  };
+
+  document.getElementById("btn-stage-inline-edit")?.addEventListener("click", () => {
+    setStageInlineEditMode(!state.stageInlineEditActive);
+  });
+  document.getElementById("btn-stage-inline-save")?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    commitStageInlineEdits();
+  });
+  document.getElementById("btn-stage-inline-cancel")?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    setStageInlineEditMode(false);
+    if (state.currentResult && state.activeSlideIdx >= 0) {
+      renderActiveSlide(state.activeSlideIdx);
+    }
+  });
+  document.getElementById("widescreen-slide-stage")?.addEventListener("dblclick", (ev) => {
+    if (state.activeSlideIdx < 0) return;
+    const hitTarget = ev.target?.closest(
+      "#stage-slide-title, .m3-slide-card-item:not(.m3-quiz-reveal-card), #stage-diagram-caption"
+    );
+    if (hitTarget && !state.stageInlineEditActive) {
+      setStageInlineEditMode(true, hitTarget);
+    }
+  });
+
+  // 1-Click Complete Class Packet (.ZIP) Download (Deliverable 4)
+  const downloadCompleteClassPacketZip = async (triggerBtn = null) => {
+    const res = state.currentResult || {};
+    const badgeName = res.badge_name || document.getElementById("badge-select")?.value || "First Aid";
+    const optTrack =
+      res.option_track || document.getElementById("option-track-select")?.value || "ALL";
+    const schedCfg =
+      typeof window.getActiveScheduleConfig === "function" ? window.getActiveScheduleConfig() : {};
+    const roster =
+      typeof loadBadgeBlueCardRoster === "function" ? loadBadgeBlueCardRoster(badgeName) : { scouts: [] };
+
+    const origText = triggerBtn ? triggerBtn.innerHTML : "";
+    if (triggerBtn) {
+      triggerBtn.disabled = true;
+      triggerBtn.textContent = "⏳ Packaging 9-File Class Packet (.ZIP)...";
+    }
+    showToast(`📦 Packaging Complete ${badgeName} Class Packet (.ZIP)...`, "info");
+
+    try {
+      const resp = await fetch("/api/v1/export/class-packet.zip", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          badge_name: badgeName,
+          option_track: optTrack,
+          template_id: state.activeTemplateId || res.template_id || "bsa_scouting_america",
+          beautification_tier:
+            res.beautification_tier || document.getElementById("beautification-select")?.value || "BEAUTIFIED",
+          output_path: res.output_path || "",
+          pptx_download_url: res.pptx_download_url || "",
+          workbook_markdown: res.workbook_markdown || "",
+          counselor_guide_markdown: res.counselor_guide_markdown || "",
+          storyboard_slides: res.storyboard?.slides || [],
+          requirements: res.research_artifact?.requirements || [],
+          counselor_info: res.counselor_info || {
+            counselor_name: document.getElementById("input-counselor-name")?.value || "Merit Badge Counselor",
+            troop_affiliation: document.getElementById("input-troop-name")?.value || "Scouts BSA Unit",
+            email_address: document.getElementById("input-counselor-email")?.value || "",
+            phone_number: document.getElementById("input-counselor-phone")?.value || "",
+          },
+          session_dates: schedCfg.sessionPillLabels || [],
+          patrol_size: parseInt(document.getElementById("gear-patrol-size-select")?.value || "8", 10) || 8,
+          station_minutes: parseInt(document.getElementById("rotator-minutes-select")?.value || "15", 10) || 15,
+          scouts_roster: roster.scouts || [],
+        }),
+      });
+      if (!resp.ok) {
+        throw new Error(`HTTP ${resp.status}`);
+      }
+      const blob = await resp.blob();
+      const safeSlug = String(badgeName)
+        .trim()
+        .replace(/[^A-Za-z0-9]+/g, "_")
+        .replace(/^_+|_+$/g, "");
+      const filename = `Scouts_BSA_${safeSlug}_Complete_Class_Packet.zip`;
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 5000);
+      showToast(`✅ Downloaded ${filename} (9 files ready for class)!`, "info");
+    } catch (err) {
+      showToast(`⚠️ Could not build Class Packet .ZIP: ${err.message}`, "warning");
+    } finally {
+      if (triggerBtn) {
+        triggerBtn.disabled = false;
+        triggerBtn.innerHTML = origText;
+      }
+    }
+  };
+  window.downloadCompleteClassPacketZip = downloadCompleteClassPacketZip;
+
+  document.querySelectorAll('[data-action="download-class-packet-zip"]').forEach((btn) => {
+    btn.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      document.getElementById("deck-export-mode-menu")?.classList.add("hidden");
+      document.getElementById("top-export-dropdown-menu")?.classList.add("hidden");
+      downloadCompleteClassPacketZip(ev.currentTarget);
+    });
+  });
+
   // Quick-Edit Slide Text & Notes Save Handler (rebuilds .pptx on disk)
   document.getElementById("btn-save-quickedit")?.addEventListener("click", async () => {
     if (!state.currentResult || state.activeSlideIdx < 0) return;
     const slides = state.currentResult.storyboard?.slides || [];
     const slide = slides[state.activeSlideIdx];
     if (!slide) return;
+
+    pushSlideUndoState(`Edit Slide ${state.activeSlideIdx + 2} Text`);
 
     const newTitle = (document.getElementById("quickedit-slide-title")?.value || "").trim();
     const newCaption = (document.getElementById("quickedit-slide-caption")?.value || "").trim();
@@ -1247,6 +1556,10 @@ function bindFilterAndSlideControls() {
       if (srcSelEl) srcSelEl.value = "keep_current";
     } else if (rawSourceVal !== "none" && !slide.diagram_url && (slide.original_diagram_url || slide.original_diagram_path)) {
       visSourceMode = "restore_original";
+    }
+
+    if (typeof window.pushSlideUndoState === "function") {
+      window.pushSlideUndoState(`Co-Design Slide ${state.activeSlideIdx + 2}`);
     }
 
     // 1. Optimistic immediate (<5ms) update on the live stage so rapid clicks (Split Visual -> Full Text -> Split Visual -> Big Visual) never lag or block
@@ -3151,6 +3464,7 @@ function renderRequirementJumpBar(slides) {
 
   const seenReqs = new Map();
   const reqCounts = new Map();
+  const reqSlideIndices = new Map();
   slides.forEach((s, idx) => {
     const reqKey = String(s.req_number || "").trim();
     if (!reqKey) return;
@@ -3158,6 +3472,10 @@ function renderRequirementJumpBar(slides) {
     if (!seenReqs.has(reqKey)) {
       seenReqs.set(reqKey, idx);
     }
+    if (!reqSlideIndices.has(reqKey)) {
+      reqSlideIndices.set(reqKey, []);
+    }
+    reqSlideIndices.get(reqKey).push(idx);
   });
 
   seenReqs.forEach((slideIdx, reqKey) => {
@@ -3173,6 +3491,7 @@ function renderRequirementJumpBar(slides) {
         sub: "Slide 1",
         targetIdx: -1,
         isActive: activeReq === "__COVER__",
+        subChips: [],
       },
     ];
     seenReqs.forEach((slideIdx, reqKey) => {
@@ -3184,11 +3503,33 @@ function renderRequirementJumpBar(slides) {
         count > 1
           ? `Slides ${startSlideNum}–${startSlideNum + count - 1}`
           : `Slide ${startSlideNum}`;
+      const groupIndices = reqSlideIndices.get(reqKey) || [slideIdx];
+      const subChips =
+        groupIndices.length > 1
+          ? groupIndices.map((sIdx, subPos) => {
+              const sl = slides[sIdx] || {};
+              const isQuizSl =
+                sl.archetype === "SOCRATIC_CHECKPOINT_QUIZ" || /quiz|checkpoint|scenario/i.test(sl.title || "");
+              const mSub = String(sl.title || "").match(/\b([0-9]+[a-z])\b/i);
+              const chipLbl = isQuizSl
+                ? "Quiz"
+                : mSub
+                ? mSub[1]
+                : `${reqKey}${String.fromCharCode(97 + subPos)}`;
+              return {
+                label: chipLbl,
+                slideNum: sIdx + 2,
+                targetIdx: sIdx,
+                isActive: state.activeSlideIdx === sIdx,
+              };
+            })
+          : [];
       items.push({
         label: pillLabel,
         sub,
         targetIdx: slideIdx,
         isActive: activeReq === reqKey,
+        subChips,
       });
     });
 
@@ -3200,15 +3541,29 @@ function renderRequirementJumpBar(slides) {
         ${items
           .map(
             (it) => `
-          <button
-            type="button"
-            class="m3-req-jump-menu-item ${it.isActive ? "active" : ""}"
-            data-req-jump-idx="${it.targetIdx}"
-            role="menuitem"
-          >
-            <span class="m3-req-jump-item-title">${escapeHtml(it.label)}${it.isActive ? " ✓" : ""}</span>
-            <span class="m3-req-jump-item-sub">${escapeHtml(it.sub)}</span>
-          </button>
+          <div class="m3-req-jump-menu-item-wrap" style="display:flex; flex-direction:column; gap:3px;">
+            <button
+              type="button"
+              class="m3-req-jump-menu-item ${it.isActive ? "active" : ""}"
+              data-req-jump-idx="${it.targetIdx}"
+              role="menuitem"
+            >
+              <span class="m3-req-jump-item-title">${escapeHtml(it.label)}${it.isActive ? " ✓" : ""}</span>
+              <span class="m3-req-jump-item-sub">${escapeHtml(it.sub)}</span>
+            </button>
+            ${
+              it.subChips && it.subChips.length > 1
+                ? `<div class="m3-req-jump-subchips-row" style="display:flex; flex-wrap:wrap; gap:3px; padding:0 4px 3px;">
+                    ${it.subChips
+                      .map(
+                        (sc) =>
+                          `<button type="button" class="m3-req-jump-subchip ${sc.isActive ? "active" : ""}" data-req-jump-idx="${sc.targetIdx}" title="Jump to Slide ${sc.slideNum} (${escapeHtml(sc.label)})">${escapeHtml(sc.label)}</button>`
+                      )
+                      .join("")}
+                  </div>`
+                : ""
+            }
+          </div>
         `
           )
           .join("")}
@@ -3310,7 +3665,18 @@ function renderFilmstrip(slides) {
         ? "Diagram"
         : "Teaching";
     if (q) {
-      const haystack = `slide ${idx + 2} req ${s.req_number || ""} ${kindLabel} ${arch} ${s.title || ""}`.toLowerCase();
+      const haystack = [
+        `slide ${idx + 2}`,
+        `req ${s.req_number || ""}`,
+        kindLabel,
+        arch,
+        s.title || "",
+        (s.bullet_points || []).join(" "),
+        s.verbatim_requirement_text || "",
+        s.visual_caption || "",
+      ]
+        .join(" ")
+        .toLowerCase();
       if (!haystack.includes(q)) return;
     }
 
@@ -3334,6 +3700,16 @@ function renderFilmstrip(slides) {
     const thumb = document.createElement("div");
     thumb.className = `m3-slide-thumb ${isActiveSlide ? "active" : ""} ${isHidden ? "hidden-slide" : ""}`;
     const badgeFlags = `${hasHero ? " ✨" : ""}`;
+    const deleteCustomBtnHtml = isCustom
+      ? `<button
+          type="button"
+          class="m3-thumb-micro-pill m3-thumb-micro-pill-delete"
+          data-thumb-custom-act="delete_custom"
+          title="Delete this custom slide from the deck (updates .PPTX)"
+          aria-label="Delete custom slide"
+          style="color:#DC2626;"
+        >🗑️</button>`
+      : "";
     const activeCustomizerClusterHtml = isActiveSlide
       ? `
         <div class="m3-thumb-customizer-cluster" role="group" aria-label="Active Slide Customizer Actions">
@@ -3351,6 +3727,7 @@ function renderFilmstrip(slides) {
             title="${isHidden ? "Unhide this slide (restore to presentation and .PPTX export)" : "Hide or skip this slide during presentation and .PPTX export"}"
             aria-label="${isHidden ? "Unhide slide" : "Hide slide"}"
           >👁️</button>
+          ${deleteCustomBtnHtml}
           <button
             type="button"
             class="m3-thumb-micro-pill"
@@ -3413,6 +3790,8 @@ function renderFilmstrip(slides) {
           document.getElementById("btn-insert-custom-slide")?.click();
         } else if (act === "toggle_hide") {
           customizeActiveSlideDeck("toggle_hide");
+        } else if (act === "delete_custom") {
+          customizeActiveSlideDeck("delete_custom");
         } else if (act === "move_up") {
           customizeActiveSlideDeck("move_up");
         } else if (act === "move_down") {
@@ -3430,6 +3809,26 @@ function renderFilmstrip(slides) {
   });
   list.scrollTop = savedScrollTop;
 }
+
+function getHexLuminance(hexColor) {
+  const clean = String(hexColor || "").trim().replace(/^#/, "");
+  const full = clean.length === 3 ? clean.split("").map((c) => c + c).join("") : clean.padEnd(6, "0").slice(0, 6);
+  const r8 = parseInt(full.slice(0, 2), 16);
+  const g8 = parseInt(full.slice(2, 4), 16);
+  const b8 = parseInt(full.slice(4, 6), 16);
+  if (Number.isNaN(r8) || Number.isNaN(g8) || Number.isNaN(b8)) return 0;
+  const toLinear = (c) => {
+    const s = c / 255;
+    return s <= 0.03928 ? s / 12.92 : Math.pow((s + 0.055) / 1.055, 2.4);
+  };
+  return 0.2126 * toLinear(r8) + 0.7152 * toLinear(g8) + 0.0722 * toLinear(b8);
+}
+window.getHexLuminance = getHexLuminance;
+
+function getContrastPillTextHex(bgHex) {
+  return getHexLuminance(bgHex) > 0.18 ? "#0F172A" : "#FFFFFF";
+}
+window.getContrastPillTextHex = getContrastPillTextHex;
 
 function resolveSlidePaletteTokens(slide, deckTier) {
   const tier = String(slide?.beautification_tier || deckTier || "BEAUTIFIED").toUpperCase();
@@ -3473,12 +3872,13 @@ function resolveSlidePaletteTokens(slide, deckTier) {
         stageBg: "#0F172A",
         textFg: "#F8FAFC",
         subTextFg: "#E2E8F0",
-        primaryHex: "#38BDF8",
-        accentHex: tplProf.accent_hex || "#435835",
+        primaryHex: "#F4C430",
+        secondaryAccentHex: "#38BDF8",
+        accentHex: tplProf.accent_hex || "#38BDF8",
         cardBg: "#1E293B",
         badgeBg: "#1E293B",
-        badgeFg: tplProf.accent_hex || "#435835",
-        stageBorder: `3px solid ${tplProf.accent_hex || "#435835"}`,
+        badgeFg: tplProf.accent_hex || "#F4C430",
+        stageBorder: `3px solid ${tplProf.accent_hex || "#38BDF8"}`,
         headerBg: "linear-gradient(90deg, rgba(30,41,59,0.92) 0%, rgba(15,23,42,0.92) 100%)",
         footerColor: "#94A3B8",
       };
@@ -3502,10 +3902,10 @@ function resolveSlidePaletteTokens(slide, deckTier) {
   }
   if (tier === "STUDIO") {
     const studioAccents = {
-      NAVY_GOLD: { primaryHex: "#38BDF8", accentHex: "#F4C430" },
+      NAVY_GOLD: { primaryHex: "#F4C430", accentHex: "#38BDF8" },
       OLIVE_FOREST: { primaryHex: "#4ADE80", accentHex: "#A3E635" },
-      EAGLE_CRIMSON: { primaryHex: "#FB7185", accentHex: "#F4C430" },
-      SLATE_ACTION: { primaryHex: "#60A5FA", accentHex: "#38BDF8" },
+      EAGLE_CRIMSON: { primaryHex: "#F4C430", accentHex: "#FB7185" },
+      SLATE_ACTION: { primaryHex: "#F4C430", accentHex: "#38BDF8" },
     };
     const st = studioAccents[paletteKey] || studioAccents.NAVY_GOLD;
     return {
@@ -3516,6 +3916,7 @@ function resolveSlidePaletteTokens(slide, deckTier) {
       textFg: "#F8FAFC",
       subTextFg: "#E2E8F0",
       primaryHex: st.primaryHex,
+      secondaryAccentHex: "#38BDF8",
       accentHex: st.accentHex,
       cardBg: "#1E293B",
       badgeBg: "#1E293B",
@@ -3650,6 +4051,7 @@ function getCurrentDeckStyleConfig() {
   const hdrEl = document.getElementById("deck-header-chrome-select");
   const typoEl = document.getElementById("deck-typography-scale-select");
   const safetyEl = document.getElementById("deck-safety-banner-select");
+  const coverBackdropEl = document.getElementById("style-cover-backdrop");
 
   return {
     layout_style: layoutEl?.value || state.deckStyle?.layout_style || "AUTO_TEMPLATE",
@@ -3658,9 +4060,28 @@ function getCurrentDeckStyleConfig() {
     header_chrome_style: hdrEl?.value || state.deckStyle?.header_chrome_style || "AUTO",
     typography_scale: typoEl?.value || state.deckStyle?.typography_scale || "COMFORTABLE",
     safety_banner_mode: safetyEl?.value || state.deckStyle?.safety_banner_mode || "ACUTE_HAZARDS_ONLY",
+    cover_backdrop_id: coverBackdropEl?.value || state.deckStyle?.cover_backdrop_id || "AUTO_TEMPLATE",
   };
 }
 window.getCurrentDeckStyleConfig = getCurrentDeckStyleConfig;
+
+function syncAdvancedDeckSettingsSummaryBadge() {
+  const badgeEl = document.getElementById("advanced-deck-settings-summary-badge");
+  if (!badgeEl) return;
+  const themeVal = document.getElementById("beautification-select")?.value || "BEAUTIFIED";
+  const layoutVal = document.getElementById("deck-layout-style-select")?.value || "AUTO_TEMPLATE";
+  const audVal = document.getElementById("audience-select")?.value || "All Scouts (Ages 11–17)";
+  const themeShort = themeVal === "STUDIO" ? "Dark Slate" : themeVal === "STANDARD" ? "Crisp White" : "Warm Cream";
+  const layoutShort =
+    layoutVal === "BOXED_CARDS"
+      ? "Boxed Cards"
+      : layoutVal === "LEFT_ACCENT_LINE"
+      ? "Left Line"
+      : "Clean Open";
+  const audShort = /14/.test(audVal) ? "Older 14–17" : /11.*13/.test(audVal) ? "First-Year 11–13" : "All Ages";
+  badgeEl.textContent = `${themeShort} • ${layoutShort} • ${audShort}`;
+}
+window.syncAdvancedDeckSettingsSummaryBadge = syncAdvancedDeckSettingsSummaryBadge;
 
 function resolveEffectiveSlideStyle(slide) {
   const ds = getCurrentDeckStyleConfig();
@@ -3798,6 +4219,12 @@ window.formatUiExecutionModeLabel = formatUiExecutionModeLabel;
 function renderActiveSlide(idx) {
   window.renderActiveSlide = renderActiveSlide;
   window.renderFilmstrip = renderFilmstrip;
+  if (state.stageInlineEditActive && typeof window.setStageInlineEditMode === "function") {
+    window.setStageInlineEditMode(false);
+  }
+  if (typeof window.syncStageUndoRedoButtonsUi === "function") {
+    window.syncStageUndoRedoButtonsUi();
+  }
   const res = state.currentResult;
   if (!res) return;
   if (idx === undefined) idx = state.activeSlideIdx ?? -1;
@@ -4299,9 +4726,10 @@ function renderActiveSlide(idx) {
     } else if (effectiveCardTheme === "SAFETY_ALERT_SPLIT") {
       const sBg = tokens.isStudio ? "#311018" : "#FFF1F2";
       const sBorder = tokens.isStudio ? "#FB7185" : "#CE1126";
+      const sTextFg = getContrastPillTextHex(sBorder);
       style = `background:${sBg}; border:1.5px solid ${sBorder}; border-left:6px solid ${sBorder}; color:${tokens.textFg}; box-shadow:0 3px 10px rgba(206,17,38,0.10);${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
       anchorColor = sBorder;
-      prefix = `<span style="display:inline-block; background:${sBorder}; color:#FFFFFF; font-size:0.70rem; font-weight:800; padding:1px 6px; border-radius:5px; margin-right:6px;">⚠️ SAFETY</span>`;
+      prefix = `<span style="display:inline-block; background:${sBorder}; color:${sTextFg}; font-size:0.70rem; font-weight:800; padding:1px 6px; border-radius:5px; margin-right:6px;">⚠️ SAFETY</span>`;
     } else if (effectiveCardTheme === "TIMELINE_CHEVRON_CARDS") {
       style = `background:${tokens.cardBg}; border:1.5px solid ${tokens.accentHex}; border-left:6px solid ${tokens.primaryHex}; color:${tokens.textFg};${isSplitWithReqBanner ? " padding:9px 12px;" : ""}`;
       prefix = `<span style="display:inline-block; background:${tokens.badgeBg}; color:${tokens.badgeFg}; border:1px solid ${tokens.accentHex}; font-family:'JetBrains Mono',monospace; font-size:0.71rem; font-weight:800; padding:1px 7px; border-radius:999px; margin-right:7px;">STEP ${bpIdx + 1} &#10140;</span>`;
@@ -4318,7 +4746,7 @@ function renderActiveSlide(idx) {
       if (!slide._customThemeOverride && !isSequentialSlide) {
         prefix = `<span class="m3-clean-point-marker" style="color:${anchorColor}; margin-right:5px;">▸</span>`;
       } else {
-        const numFg = tokens.isStudio ? "#0F172A" : "#FFFFFF";
+        const numFg = getContrastPillTextHex(tokens.primaryHex);
         prefix = `<span style="display:inline-block; background:${tokens.primaryHex}; color:${numFg}; font-family:'JetBrains Mono',monospace; font-size:0.73rem; font-weight:700; padding:1px 7px; border-radius:6px; margin-right:7px;">0${bpIdx + 1}</span>`;
       }
     }
@@ -4441,7 +4869,7 @@ function renderActiveSlide(idx) {
       const colonParts = String(bp).split(":");
       const badgeTag =
         archetype === "STEP_BY_STEP_PROCEDURE_4CARD"
-          ? `<span style="display:inline-block; background:${cSpec.anchorColor}; color:${tokens.isStudio ? "#0F172A" : "#FFFFFF"}; font-family:'JetBrains Mono',monospace; font-size:0.72rem; font-weight:700; padding:1px 7px; border-radius:6px; margin-right:6px;">STEP ${bpIdx + 1}</span>`
+          ? `<span style="display:inline-block; background:${cSpec.anchorColor}; color:${getContrastPillTextHex(cSpec.anchorColor)}; font-family:'JetBrains Mono',monospace; font-size:0.72rem; font-weight:700; padding:1px 7px; border-radius:6px; margin-right:6px;">STEP ${bpIdx + 1}</span>`
           : `<span style="color:${cSpec.anchorColor}; font-weight:800; margin-right:6px;">[✓]</span>`;
       let inner = "";
       const isGenericStepPrefix = /^(?:step|phase|part|stage|card|item)\s*\d+$/i.test(colonParts[0].trim());
@@ -8529,41 +8957,176 @@ function printBlueCardSignOffSheet(result) {
   );
 }
 
+function parseRfc4180CsvRows(csvText) {
+  const rows = [];
+  let row = [];
+  let field = "";
+  let inQuotes = false;
+  const s = String(csvText || "");
+  for (let i = 0; i < s.length; i++) {
+    const ch = s[i];
+    const next = s[i + 1];
+    if (inQuotes) {
+      if (ch === '"' && next === '"') {
+        field += '"';
+        i += 1;
+      } else if (ch === '"') {
+        inQuotes = false;
+      } else {
+        field += ch;
+      }
+    } else if (ch === '"') {
+      inQuotes = true;
+    } else if (ch === ",") {
+      row.push(field.trim());
+      field = "";
+    } else if (ch === "\r" || ch === "\n") {
+      if (ch === "\r" && next === "\n") {
+        i += 1;
+      }
+      row.push(field.trim());
+      if (row.some((c) => c.length > 0)) {
+        rows.push(row);
+      }
+      row = [];
+      field = "";
+    } else {
+      field += ch;
+    }
+  }
+  if (field.length > 0 || row.length > 0) {
+    row.push(field.trim());
+    if (row.some((c) => c.length > 0)) {
+      rows.push(row);
+    }
+  }
+  return rows;
+}
+window.parseRfc4180CsvRows = parseRfc4180CsvRows;
+
 function importBlueCardCsvFile(file, result) {
   if (!file || !result) return;
   const badgeName = result.badge_name || "First Aid";
   const reader = new FileReader();
   reader.onload = (ev) => {
     const text = String(ev.target?.result || "");
-    const lines = text.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
-    if (lines.length === 0) return;
+    const parsedRows = parseRfc4180CsvRows(text);
+    if (parsedRows.length === 0) return;
+
     const roster = loadBadgeBlueCardRoster(badgeName);
     const byName = new Map();
-    roster.scouts.forEach((s) => byName.set(s.name.toLowerCase(), s));
+    const byBsaId = new Map();
+    roster.scouts.forEach((s) => {
+      if (s.name) byName.set(s.name.toLowerCase(), s);
+      if (s.bsaId) byBsaId.set(String(s.bsaId).trim().toLowerCase(), s);
+    });
 
-    lines.forEach((line, idx) => {
-      const cols = line.split(",").map((c) => c.replace(/^"|"$/g, "").trim());
-      if (idx === 0 && cols.some((c) => /scout|name|first|last|member/i.test(c))) {
-        return;
+    let headerMap = null;
+    const firstRow = parsedRows[0] || [];
+    if (firstRow.some((c) => /scout|name|first|last|member|troop|unit|patrol|req/i.test(c))) {
+      headerMap = {};
+      firstRow.forEach((col, cIdx) => {
+        const lower = col.toLowerCase();
+        if (/bsa.*id|member.*id/.test(lower) && headerMap.bsaId === undefined) headerMap.bsaId = cIdx;
+        else if (/first\s*name/.test(lower) && headerMap.firstName === undefined) headerMap.firstName = cIdx;
+        else if (/last\s*name/.test(lower) && headerMap.lastName === undefined) headerMap.lastName = cIdx;
+        else if (/scout\s*name|^name$/.test(lower) && headerMap.name === undefined) headerMap.name = cIdx;
+        else if (/troop|unit/.test(lower) && headerMap.troop === undefined) headerMap.troop = cIdx;
+        else if (/patrol/.test(lower) && headerMap.patrol === undefined) headerMap.patrol = cIdx;
+        else if (/requirement|^req/.test(lower) && headerMap.req === undefined) headerMap.req = cIdx;
+        else if (/completed|status|done/.test(lower) && headerMap.completed === undefined) headerMap.completed = cIdx;
+        else if (/attend|session/.test(lower) && headerMap.attended === undefined) headerMap.attended = cIdx;
+      });
+    }
+
+    let addedCount = 0;
+    let mergedCount = 0;
+    const touchedScouts = new Set();
+
+    parsedRows.forEach((cols, idx) => {
+      if (idx === 0 && headerMap) return;
+      let scoutName = "";
+      let troopVal = "";
+      let bsaIdVal = "";
+      let patrolVal = "";
+      let attendedRaw = "";
+
+      if (headerMap) {
+        if (headerMap.name !== undefined) {
+          scoutName = cols[headerMap.name] || "";
+        } else if (headerMap.firstName !== undefined || headerMap.lastName !== undefined) {
+          scoutName = `${cols[headerMap.firstName] || ""} ${cols[headerMap.lastName] || ""}`.trim();
+        } else {
+          scoutName = cols[0] || "";
+        }
+        if (headerMap.troop !== undefined) troopVal = cols[headerMap.troop] || "";
+        if (headerMap.bsaId !== undefined) bsaIdVal = cols[headerMap.bsaId] || "";
+        if (headerMap.patrol !== undefined) patrolVal = cols[headerMap.patrol] || "";
+        if (headerMap.attended !== undefined) attendedRaw = cols[headerMap.attended] || "";
+      } else {
+        const firstCol = cols[0] || "";
+        const secondCol = cols[1] || "";
+        scoutName = firstCol;
+        if (firstCol && secondCol && !/troop|pack|crew|unit|bsa|\d/i.test(secondCol) && cols.length >= 3) {
+          scoutName = `${firstCol} ${secondCol}`.trim();
+          troopVal = cols[2] || "";
+        } else if (/troop|pack|crew|unit/i.test(secondCol)) {
+          troopVal = secondCol;
+        }
       }
-      const firstCol = cols[0] || "";
-      const secondCol = cols[1] || "";
-      let scoutName = firstCol;
-      if (firstCol && secondCol && !/troop|pack|crew|unit|bsa|\d/i.test(secondCol) && cols.length >= 3) {
-        scoutName = `${firstCol} ${secondCol}`.trim();
-      }
+
+      scoutName = String(scoutName || "").replace(/^["']|["']$/g, "").trim();
       if (!scoutName) return;
-      let scoutObj = byName.get(scoutName.toLowerCase());
+
+      const bsaIdKey = String(bsaIdVal || "").trim().toLowerCase();
+      const nameKey = scoutName.toLowerCase();
+      let scoutObj = (bsaIdKey && byBsaId.get(bsaIdKey)) || byName.get(nameKey);
       if (!scoutObj) {
-        scoutObj = { name: scoutName, completedReqs: [] };
+        scoutObj = {
+          name: scoutName,
+          troop: troopVal || undefined,
+          bsaId: bsaIdVal || undefined,
+          patrol: patrolVal || undefined,
+          completedReqs: [],
+        };
         roster.scouts.push(scoutObj);
-        byName.set(scoutName.toLowerCase(), scoutObj);
+        byName.set(nameKey, scoutObj);
+        if (bsaIdKey) byBsaId.set(bsaIdKey, scoutObj);
+        addedCount += 1;
+      } else {
+        if (!touchedScouts.has(scoutObj)) {
+          mergedCount += 1;
+        }
+        if (troopVal) scoutObj.troop = troopVal;
+        if (bsaIdVal) scoutObj.bsaId = bsaIdVal;
+        if (patrolVal) scoutObj.patrol = patrolVal;
       }
-      // If CSV row includes requirement completion (e.g. Req 1, YES)
-      const reqCol = cols.find((c) => /^req\s*\d+/i.test(c));
-      const doneCol = cols.find((c) => /^(yes|true|complete|completed)$/i.test(c));
-      if (reqCol && doneCol) {
-        const reqNum = reqCol.replace(/^req\s*/i, "").trim();
+      touchedScouts.add(scoutObj);
+
+      if (attendedRaw) {
+        const tokens = String(attendedRaw)
+          .toUpperCase()
+          .split(/[\s,;+|]+/)
+          .filter(Boolean);
+        if (tokens.length > 0) {
+          scoutObj.attendedSessions = tokens;
+          scoutObj.attendance = scoutObj.attendance || { S1: false, S2: false, S3: false, S4: false, M: false };
+          ["S1", "S2", "S3", "S4", "M"].forEach((k) => {
+            if (tokens.includes(k)) scoutObj.attendance[k] = true;
+          });
+        }
+      }
+
+      const reqCol =
+        headerMap && headerMap.req !== undefined
+          ? cols[headerMap.req]
+          : cols.find((c) => /^req\s*\d+/i.test(c));
+      const doneCol =
+        headerMap && headerMap.completed !== undefined
+          ? cols[headerMap.completed]
+          : cols.find((c) => /^(yes|true|complete|completed)$/i.test(c));
+      if (reqCol && doneCol && /^(yes|true|complete|completed|1)$/i.test(String(doneCol).trim())) {
+        const reqNum = String(reqCol).replace(/^req(?:uirement)?\s*/i, "").trim();
         if (reqNum && !scoutObj.completedReqs.includes(reqNum)) {
           scoutObj.completedReqs.push(reqNum);
         }
@@ -8572,6 +9135,10 @@ function importBlueCardCsvFile(file, result) {
 
     saveBadgeBlueCardRoster(badgeName, roster);
     renderBlueCardTracker(result);
+    const totalImported = addedCount + mergedCount;
+    if (typeof showToast === "function") {
+      showToast(`✅ Imported ${totalImported} Scouts (${addedCount} added, ${mergedCount} merged)`, "info");
+    }
   };
   reader.readAsText(file);
 }
@@ -9913,7 +10480,7 @@ function populateAdminBadgeSelector() {
       : Array.isArray(state.catalog) && state.catalog.length > 0
       ? state.catalog
       : [{ badge_name: "First Aid" }];
-  if (sel.options.length >= 144) return;
+  if (sel.options.length >= 149) return;
   const prevVal = sel.value || state.currentBadge || "First Aid";
   sel.innerHTML = badgesList
     .map((b) => {
@@ -10370,7 +10937,7 @@ async function loadAdminAssetDiagnostics() {
     state.adminAssetMatrixRows = data.badges || [];
     const subEl = document.getElementById("admin-asset-summary-subtitle");
     if (subEl) {
-      subEl.innerHTML = `Verified <strong>${data.total_badges || 144} Merit Badges</strong>: <strong>${data.covers_present || 0}/144</strong> Covers &bull; <strong>${data.emblems_present || 0}/144</strong> Emblems &bull; <strong>${data.total_pamphlet_figures || 0}</strong> Pamphlet Figures &bull; <strong>${data.total_nano_banana_heroes || 0}</strong> Nano Banana Heroes`;
+      subEl.innerHTML = `Verified <strong>${data.total_badges || 149} Merit Badges</strong>: <strong>${data.covers_present || 0}/149</strong> Covers &bull; <strong>${data.emblems_present || 0}/149</strong> Emblems &bull; <strong>${data.total_pamphlet_figures || 0}</strong> Pamphlet Figures &bull; <strong>${data.total_nano_banana_heroes || 0}</strong> Nano Banana Heroes`;
     }
     renderAdminAssetMatrixTable();
 
@@ -10596,10 +11163,13 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
     }
   };
 
-  // Immediate (0ms) optimistic client-side updates for Move Up, Move Down, Hide/Unhide, Hide Prereqs, and Insert Slide
+  // Immediate (0ms) optimistic client-side updates for Move Up, Move Down, Hide/Unhide, Delete Custom, Hide Prereqs, and Insert Slide
   if (act === "move_up") {
     const idx = state.activeSlideIdx;
     if (idx <= 0 || idx >= slides.length) return;
+    if (typeof window.pushSlideUndoState === "function") {
+      window.pushSlideUndoState(`Move Slide ${idx + 2} Up`);
+    }
     const tmp = slides[idx - 1];
     slides[idx - 1] = slides[idx];
     slides[idx] = tmp;
@@ -10612,6 +11182,9 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
   if (act === "move_down") {
     const idx = state.activeSlideIdx;
     if (idx < 0 || idx >= slides.length - 1) return;
+    if (typeof window.pushSlideUndoState === "function") {
+      window.pushSlideUndoState(`Move Slide ${idx + 2} Down`);
+    }
     const tmp = slides[idx + 1];
     slides[idx + 1] = slides[idx];
     slides[idx] = tmp;
@@ -10624,13 +11197,38 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
   if (act === "toggle_hide" || act === "toggle_hide_slide") {
     const idx = state.activeSlideIdx;
     if (idx < 0 || idx >= slides.length) return;
+    if (typeof window.pushSlideUndoState === "function") {
+      window.pushSlideUndoState(`${slides[idx].hidden ? "Unhide" : "Hide"} Slide ${idx + 2}`);
+    }
     slides[idx].hidden = !Boolean(slides[idx].hidden);
     refreshStageImmediately(true);
     scheduleDebouncedDeckPptxSync(1200);
     return;
   }
 
+  if (act === "delete_custom" || act === "delete_custom_slide") {
+    const idx = state.activeSlideIdx;
+    if (idx < 0 || idx >= slides.length) return;
+    const targetSlide = slides[idx];
+    if (!targetSlide?.is_custom_slide) {
+      showToast("Only custom slides can be deleted. Use 👁️ Hide Slide for official requirement slides.", "info");
+      return;
+    }
+    if (typeof window.pushSlideUndoState === "function") {
+      window.pushSlideUndoState(`Delete Custom Slide ${idx + 2}`);
+    }
+    slides.splice(idx, 1);
+    state.activeSlideIdx = Math.min(idx, Math.max(-1, slides.length - 1));
+    refreshStageImmediately(false);
+    scheduleDebouncedDeckPptxSync(250);
+    showToast("🗑️ Deleted custom slide from deck.", "info");
+    return;
+  }
+
   if (act === "hide_prereqs" || act === "hide_home_prereq_slides") {
+    if (typeof window.pushSlideUndoState === "function") {
+      window.pushSlideUndoState("Toggle Prerequisite Slides");
+    }
     const prereqKeywords = [
       "home", "30 day", "90 day", "chore", "log", "budget", "family", "parent",
       "prerequisite", "prereq", "before camp", "track for", "menu for",
@@ -10654,6 +11252,9 @@ async function customizeActiveSlideDeck(action, extraPayload = {}) {
   }
 
   if ((act === "insert" || act === "insert_custom_slide") && extraPayload.custom_slide) {
+    if (typeof window.pushSlideUndoState === "function") {
+      window.pushSlideUndoState("Insert Custom Slide");
+    }
     const cs = extraPayload.custom_slide;
     const newSlide = {
       _uid: `sl_custom_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
@@ -10731,7 +11332,7 @@ function renderPatchGalleryModal() {
   const grid = document.getElementById("patch-gallery-grid");
   if (!grid) return;
 
-  // Populate category dropdown from all 144 badges if not yet populated
+  // Populate category dropdown from all 149 badges if not yet populated
   const catSelect = document.getElementById("patch-gallery-category-select");
   const allBadges =
     state.badges?.length > 0
@@ -10811,18 +11412,12 @@ function renderPatchGalleryModal() {
       const testLabClass = b.is_test_lab_pilot ? "testlab-patch" : "";
       const tracks = Array.isArray(b.option_tracks) ? b.option_tracks : [];
       const isMultiOpt = Boolean(b.has_option_tracks || tracks.length >= 2);
-      const colIdx = cardIdx % 6;
-      const isLeftCol = colIdx === 0 || filtered.length === 1;
-      const isBottomRow = filtered.length > 6 && cardIdx >= filtered.length - 6;
-      const posClasses = [isLeftCol ? "drop-right" : "", isBottomRow ? "drop-up" : ""]
-        .filter(Boolean)
-        .join(" ");
       const multiOptTitle = isMultiOpt
         ? `Click or hover to choose an Option Track (${tracks.map((t) => t.option_title || t.title).join(" • ")})`
         : "";
       const multiOptMenuHtml = isMultiOpt
         ? `
-          <div class="m3-patch-multiopt-wrap ${posClasses}" data-multiopt-wrap="${escapeHtml(name)}">
+          <div class="m3-patch-multiopt-wrap" data-multiopt-wrap="${escapeHtml(name)}">
             <button type="button" class="m3-patch-multiopt-badge" data-multiopt-toggle="${escapeHtml(name)}" aria-haspopup="true" aria-expanded="false" title="${escapeHtml(multiOptTitle)}">
               A<span class="m3-patch-multiopt-sep">|</span>B<span style="font-size:0.48rem; margin-left:1px; opacity:0.88;">▾</span>
             </button>
@@ -10921,6 +11516,11 @@ function renderPatchGalleryModal() {
     wrap.addEventListener("mouseenter", () => adjustMultiOptMenuPosition(wrap));
     wrap.addEventListener("focusin", () => adjustMultiOptMenuPosition(wrap));
   });
+  if (typeof window.requestAnimationFrame === "function") {
+    window.requestAnimationFrame(() => {
+      grid.querySelectorAll(".m3-patch-multiopt-wrap").forEach((wrap) => adjustMultiOptMenuPosition(wrap));
+    });
+  }
 
   grid.querySelectorAll("[data-multiopt-toggle]").forEach((toggleBtn) => {
     toggleBtn.addEventListener("click", (ev) => {
@@ -11641,7 +12241,7 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     } catch (_e) {}
   });
 
-  // UI-6 & Plan 7 #1b: 144-Badge Patch Gallery Modal + Eagle/Elective & Category Filters
+  // UI-6 & Plan 7 #1b: 149-Badge Patch Gallery Modal + Eagle/Elective & Category Filters
   const patchModal = document.getElementById("patch-gallery-modal");
   document.getElementById("btn-open-patch-gallery")?.addEventListener("click", () => {
     renderPatchGalleryModal();
@@ -11985,6 +12585,14 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     const q = (ev.target.value || "").trim().toLowerCase();
     const previewEl = document.getElementById("workbook-markdown-preview");
     if (!previewEl || !state.currentResult) return;
+    ["btn-workbook-view-default", "btn-workbook-open-fillable-html", "btn-workbook-open-cpp"].forEach((id) => {
+      const btnEl = document.getElementById(id);
+      if (btnEl) {
+        const isAct = id === "btn-workbook-view-default";
+        btnEl.classList.toggle("active", isAct);
+        btnEl.setAttribute("aria-selected", isAct ? "true" : "false");
+      }
+    });
     const rawMd = state.currentResult.workbook_markdown || "";
     if (!q) {
       previewEl.innerHTML = renderMarkdownToStyledHtml(rawMd);
@@ -12101,9 +12709,26 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     }
     const storyboardPanel = document.getElementById("panel-storyboard");
     const isStoryboardHidden = Boolean(storyboardPanel && storyboardPanel.classList.contains("hidden"));
+
+    // Undo / Redo on Storyboard tab (Ctrl+Z / Ctrl+Y / Cmd+Shift+Z)
+    if (!isStoryboardHidden && (ev.ctrlKey || ev.metaKey) && !ev.altKey) {
+      const kLower = ev.key.toLowerCase();
+      if (kLower === "z" && !ev.shiftKey) {
+        ev.preventDefault();
+        if (typeof window.performSlideUndo === "function") window.performSlideUndo();
+        return;
+      }
+      if (kLower === "y" || (kLower === "z" && ev.shiftKey)) {
+        ev.preventDefault();
+        if (typeof window.performSlideRedo === "function") window.performSlideRedo();
+        return;
+      }
+    }
+
+    // Global modal shortcuts allowed across all 4 tabs (?, D, W, G, M, Ctrl+Shift+A)
     if (
       isStoryboardHidden &&
-      !["?", "d", "D"].includes(ev.key) &&
+      !["?", "d", "D", "w", "W", "g", "G", "m", "M"].includes(ev.key) &&
       !(ev.ctrlKey && ev.shiftKey && ev.key.toLowerCase() === "a")
     ) {
       return;
@@ -12112,6 +12737,15 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
       ev.preventDefault();
       const isHidden = shortcutsModal?.classList.toggle("hidden");
       shortcutsModal?.classList.toggle("open", !isHidden);
+    } else if (ev.key.toLowerCase() === "w" && !ev.ctrlKey && !ev.metaKey && !ev.altKey) {
+      ev.preventDefault();
+      document.getElementById("btn-open-saved-workspaces")?.click();
+    } else if (ev.key.toLowerCase() === "g" && !ev.ctrlKey && !ev.metaKey && !ev.altKey) {
+      ev.preventDefault();
+      document.getElementById("btn-open-patch-gallery")?.click();
+    } else if (ev.key.toLowerCase() === "m" && !ev.ctrlKey && !ev.metaKey && !ev.altKey) {
+      ev.preventDefault();
+      (document.getElementById("btn-open-mcp-playground") || document.getElementById("btn-top-mcp-hub"))?.click();
     } else if (ev.key === "[" || (ev.altKey && ev.key === "ArrowLeft")) {
       ev.preventDefault();
       cycleSlideImageChoice(-1);
@@ -12446,31 +13080,36 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     el.textContent = msg;
   };
   document.getElementById("btn-admin-maint-purge-cache")?.addEventListener("click", async () => {
-    setMaintStatus("⏳ Purging temporary web/AI cache files across all 144 badges...");
+    setMaintStatus("⏳ Purging temporary web/AI cache files across all 149 badges...");
     const resp = await fetch("/api/v1/admin/maintenance/purge-temp-cache", { method: "POST" });
     if (resp.ok) {
       const d = await resp.json();
-      setMaintStatus(`✅ Purged ${d.removed_files || 0} temporary web/AI cache file(s) across ${d.badges_scanned || 144} badges.`);
+      setMaintStatus(`✅ Purged ${d.removed_files || 0} temporary web/AI cache file(s) across ${d.badges_scanned || 149} badges.`);
     }
   });
   document.getElementById("btn-admin-maint-repair-covers")?.addEventListener("click", async () => {
-    setMaintStatus("⏳ Verifying & repairing all 144 pamphlet covers and emblems...");
+    setMaintStatus("⏳ Verifying & repairing all 149 pamphlet covers and emblems...");
     const resp = await fetch("/api/v1/admin/maintenance/repair-covers", { method: "POST" });
     if (resp.ok) {
       const d = await resp.json();
-      setMaintStatus(`✅ Verified ${d.covers_verified || 144}/144 covers & ${d.emblems_verified || 144}/144 emblems (${d.repaired_count || 0} repaired).`);
+      setMaintStatus(`✅ Verified ${d.covers_verified || 149}/149 covers & ${d.emblems_verified || 149}/149 emblems (${d.repaired_count || 0} repaired).`);
       await loadAdminAssetDiagnostics();
     }
   });
   document.getElementById("btn-admin-maint-refresh-senators")?.addEventListener("click", async () => {
-    setMaintStatus("⏳ Refreshing 24h U.S. Senator & Regional Civic Grounding cache...");
+    const locVal = (document.getElementById("input-counselor-location")?.value || "").trim();
+    const stateMatch =
+      locVal.match(/,\s*([A-Za-z]{2})\b/) ||
+      locVal.match(/\b([A-Z]{2})\b/);
+    const stateCode = stateMatch ? stateMatch[1].toUpperCase() : "MA";
+    setMaintStatus(`⏳ Refreshing 24h U.S. Senator & Regional Civic Grounding cache (${stateCode})...`);
     const resp = await fetch("/api/v1/admin/senators/refresh", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ state_code: "MA" }),
+      body: JSON.stringify({ state_code: stateCode }),
     });
     if (resp.ok) {
-      setMaintStatus("✅ Refreshed U.S. Senator & Regional Civic Grounding cache!");
+      setMaintStatus(`✅ Refreshed U.S. Senator & Regional Civic Grounding cache for ${stateCode}!`);
     }
   });
   document.getElementById("btn-admin-maint-download-snapshot")?.addEventListener("click", () => {
@@ -13515,10 +14154,34 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     if (!u) return "";
     return u.includes("?") ? u : `${u}?v=20261019h`;
   };
+  const coverBackdropSelVal =
+    document.getElementById("style-cover-backdrop")?.value ||
+    state.deckStyle?.cover_backdrop_id ||
+    "AUTO_TEMPLATE";
+  const curBadgeForCover =
+    state.currentResult?.badge_name ||
+    state.currentBadge ||
+    document.getElementById("badge-select")?.value ||
+    "First Aid";
+  let effectiveCoverBgUrl = prof.cover_bg_url || "";
+  if (String(coverBackdropSelVal).toUpperCase() === "NONE") {
+    effectiveCoverBgUrl = "";
+  } else if (
+    coverBackdropSelVal &&
+    !["AUTO", "AUTO_TEMPLATE"].includes(String(coverBackdropSelVal).toUpperCase()) &&
+    window.BUILTIN_BACKDROP_URLS?.[coverBackdropSelVal]
+  ) {
+    effectiveCoverBgUrl = window.BUILTIN_BACKDROP_URLS[coverBackdropSelVal];
+  } else if (!effectiveCoverBgUrl && prof.template_id !== "default_workbench") {
+    if (typeof window.resolveDefaultCoverBackdropForBadge === "function") {
+      effectiveCoverBgUrl = window.resolveDefaultCoverBackdropForBadge(curBadgeForCover, prof.template_id);
+    }
+  }
+
   const parts = [];
-  if (isCover && prof.cover_bg_url) {
+  if (isCover && effectiveCoverBgUrl) {
     parts.push(
-      `<img src="${escapeHtml(withTplVer(prof.cover_bg_url))}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.28" : "0.26"}; pointer-events:none;" />`
+      `<img src="${escapeHtml(withTplVer(effectiveCoverBgUrl))}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.28" : "0.26"}; pointer-events:none;" />`
     );
   } else if (prof.canvas_watermark_url) {
     parts.push(
@@ -13585,6 +14248,14 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     } else if (silUrl) {
       const leftPct = hasLeftLogoInBanner ? `${((footerLeftIn / 13.333) * 100).toFixed(1)}%` : "1.8%";
       const rightEdgePct = hasRightLogo ? "26.5%" : "1.8%";
+      const isLightDarkModeSilhouette =
+        isDarkSlide &&
+        (prof.family_id === "outdoor_silhouette" ||
+          String(prof.template_id || "").startsWith("classic_outdoor_silhouette"));
+      const silTextColor = isLightDarkModeSilhouette ? "#0F172A" : "#FFFFFF";
+      const silTextShadow = isLightDarkModeSilhouette
+        ? "0 1px 2px rgba(255,255,255,0.88)"
+        : "0 1px 3px rgba(0,0,0,0.82)";
       footerStrip.style.position = "absolute";
       footerStrip.style.left = leftPct;
       footerStrip.style.right = rightEdgePct;
@@ -13599,16 +14270,16 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
       footerStrip.style.alignItems = "center";
       footerStrip.style.justifyContent = "space-between";
       footerStrip.style.zIndex = "5";
-      footerStrip.style.color = "#FFFFFF";
+      footerStrip.style.color = silTextColor;
       if (footerLeft) {
-        footerLeft.style.color = "#FFFFFF";
+        footerLeft.style.color = silTextColor;
         footerLeft.style.fontWeight = "700";
-        footerLeft.style.textShadow = "0 1px 3px rgba(0,0,0,0.82)";
+        footerLeft.style.textShadow = silTextShadow;
       }
       if (footerRight) {
-        footerRight.style.color = "#FFFFFF";
+        footerRight.style.color = silTextColor;
         footerRight.style.fontWeight = "700";
-        footerRight.style.textShadow = "0 1px 3px rgba(0,0,0,0.82)";
+        footerRight.style.textShadow = silTextShadow;
       }
     } else {
       footerStrip.style.cssText = "";
@@ -14011,6 +14682,7 @@ function syncDeckStyleSelectorsUi(styleObj) {
   const hdrSel = document.getElementById("deck-header-chrome-select");
   const typoSel = document.getElementById("deck-typography-scale-select");
   const safetySel = document.getElementById("deck-safety-banner-select");
+  const coverBackdropSel = document.getElementById("style-cover-backdrop");
 
   if (sidebarLayoutSel && ds.layout_style) sidebarLayoutSel.value = ds.layout_style;
   if (modalLayoutSel && ds.layout_style) modalLayoutSel.value = ds.layout_style;
@@ -14019,6 +14691,10 @@ function syncDeckStyleSelectorsUi(styleObj) {
   if (hdrSel && ds.header_chrome_style) hdrSel.value = ds.header_chrome_style;
   if (typoSel && ds.typography_scale) typoSel.value = ds.typography_scale;
   if (safetySel && ds.safety_banner_mode) safetySel.value = ds.safety_banner_mode;
+  if (coverBackdropSel && ds.cover_backdrop_id) coverBackdropSel.value = ds.cover_backdrop_id;
+  if (typeof syncAdvancedDeckSettingsSummaryBadge === "function") {
+    syncAdvancedDeckSettingsSummaryBadge();
+  }
 }
 
 async function applyDeckStyleToActiveDeck(showNotification = false) {
@@ -14496,12 +15172,14 @@ async function initPowerPointTemplateStudio() {
   sidebarLayoutSel?.addEventListener("change", () => {
     if (modalLayoutSel) modalLayoutSel.value = sidebarLayoutSel.value;
     resetSubStyleOverridesToAuto();
+    syncAdvancedDeckSettingsSummaryBadge();
     applyDeckStyleToActiveDeck(true);
   });
 
   modalLayoutSel?.addEventListener("change", () => {
     if (sidebarLayoutSel) sidebarLayoutSel.value = modalLayoutSel.value;
     resetSubStyleOverridesToAuto();
+    syncAdvancedDeckSettingsSummaryBadge();
     applyDeckStyleToActiveDeck(true);
   });
 
@@ -14511,11 +15189,21 @@ async function initPowerPointTemplateStudio() {
     "deck-header-chrome-select",
     "deck-typography-scale-select",
     "deck-safety-banner-select",
+    "style-cover-backdrop",
   ].forEach((selId) => {
     document.getElementById(selId)?.addEventListener("change", () => {
+      syncAdvancedDeckSettingsSummaryBadge();
       applyDeckStyleToActiveDeck(true);
     });
   });
+
+  document.getElementById("beautification-select")?.addEventListener("change", () => {
+    syncAdvancedDeckSettingsSummaryBadge();
+  });
+  document.getElementById("audience-select")?.addEventListener("change", () => {
+    syncAdvancedDeckSettingsSummaryBadge();
+  });
+  syncAdvancedDeckSettingsSummaryBadge();
 
   document.getElementById("codesign-container-style-select")?.addEventListener("change", (ev) => {
     const val = ev.target?.value || "AUTO_DECK";
@@ -14817,6 +15505,23 @@ async function initPowerPointTemplateStudio() {
     if (nameIn) {
       nameIn.value = suggestNextAvailableAiTemplateName(nameIn.value);
     }
+    const promptIn = document.getElementById("tpl-ai-prompt-input");
+    const activeBadgeName =
+      state.currentResult?.badge_name ||
+      state.currentBadge ||
+      document.getElementById("badge-select")?.value ||
+      "First Aid";
+    if (
+      promptIn &&
+      (!promptIn.value.trim() ||
+        promptIn.value.includes("Camp Hidden Valley") ||
+        promptIn.value.includes("Summer Scout Camp"))
+    ) {
+      const matchedId = matchBackdropIdFromPrompt("", activeBadgeName);
+      const matchedLabel =
+        (BUILTIN_BACKDROP_LABELS[matchedId] || "Pinewood Forest & Campfire Clearing").replace(/^[^\s]+\s+/, "");
+      promptIn.value = `${activeBadgeName} Merit Badge theme with washed ${matchedLabel} cover backdrop, high-contrast Scouting header strip, and collision-free bottom footer band.`;
+    }
     switchTemplateStudioTab("ai");
     nameIn?.focus();
   });
@@ -14829,39 +15534,62 @@ async function initPowerPointTemplateStudio() {
   const BUILTIN_BACKDROP_URLS = {
     pinewood_campfire: "/assets/templates/overlays/nano_base_pinewood_campfire.jpg",
     topographic_adventure: "/assets/templates/overlays/nano_base_topographic_adventure.jpg",
+    high_adventure_summit: "/assets/templates/overlays/nano_base_topographic_adventure.jpg",
     heritage_embroidery: "/assets/templates/overlays/nano_base_heritage_embroidery.jpg",
     collegiate_mbc: "/assets/templates/overlays/nano_base_collegiate_mbc.jpg",
     aquatics_nautical: "/assets/templates/overlays/nano_base_aquatics_nautical.jpg",
     stem_blueprint: "/assets/templates/overlays/nano_base_stem_blueprint.jpg",
+    stem_robotics_lab: "/assets/templates/overlays/nano_base_stem_blueprint.jpg",
     bsa_emblem_color: "/assets/templates/overlays/nano_base_bsa_emblem_color.jpg",
     apollo_rocket_launch: "/assets/templates/overlays/nano_base_apollo_rocket_launch.jpg",
     archery_target_range: "/assets/templates/overlays/nano_base_archery_target_range.jpg",
     pioneering_signal_tower: "/assets/templates/overlays/nano_base_pioneering_signal_tower.jpg",
+    pioneering_timber_tower: "/assets/templates/overlays/nano_base_pioneering_signal_tower.jpg",
     whitewater_kayak_rapids: "/assets/templates/overlays/nano_base_whitewater_kayak_rapids.jpg",
     first_aid_search_rescue: "/assets/templates/overlays/nano_base_first_aid_search_rescue.jpg",
     eagle_court_of_honor: "/assets/templates/overlays/nano_base_eagle_court_of_honor.jpg",
     environmental_wetlands: "/assets/templates/overlays/nano_base_environmental_wetlands.jpg",
     aviation_glider_airfield: "/assets/templates/overlays/nano_base_aviation_glider_airfield.jpg",
     dutch_oven_camp_cooking: "/assets/templates/overlays/nano_base_dutch_oven_camp_cooking.jpg",
+    citizenship_capitol_civic: "/assets/templates/overlays/nano_base_citizenship_capitol_civic.jpg",
+    personal_management_ledger: "/assets/templates/overlays/nano_base_personal_management_ledger.jpg",
+    fitness_cycling_trail: "/assets/templates/overlays/nano_base_fitness_cycling_trail.jpg",
+    communications_studio: "/assets/templates/overlays/nano_base_communications_studio.jpg",
+    trades_welding_workshop: "/assets/templates/overlays/nano_base_trades_welding_workshop.jpg",
+    wildlife_forestry_conservation: "/assets/templates/overlays/nano_base_wildlife_forestry_conservation.jpg",
+    astronomy_deep_space_observatory: "/assets/templates/overlays/nano_base_astronomy_deep_space_observatory.jpg",
+    emergency_medical_triage: "/assets/templates/overlays/nano_base_emergency_medical_triage.jpg",
   };
+  window.BUILTIN_BACKDROP_URLS = BUILTIN_BACKDROP_URLS;
 
   const BUILTIN_BACKDROP_LABELS = {
     pinewood_campfire: "🌲 Pinewood Forest & Campfire Clearing",
     topographic_adventure: "🏔️ High Adventure Alpine Summit Ridge",
+    high_adventure_summit: "🏔️ High Adventure Alpine Summit Ridge",
     heritage_embroidery: "🏕️ Rustic Timber Council Lodge & Stone Hearth",
     collegiate_mbc: "🎓 Collegiate Brick Quadrangle & Bell Cupola",
     aquatics_nautical: "⚓ Coastal Lighthouse & Waterfront Dock",
     stem_blueprint: "🔬 STEM Robotics Lab & Observatory Dome",
+    stem_robotics_lab: "🔬 STEM Robotics Lab & Observatory Dome",
     bsa_emblem_color: "⚜️ Large Washed Color BSA Universal Emblem",
     apollo_rocket_launch: "🚀 Space Exploration & Apollo Rocket Launch",
     archery_target_range: "🏹 Archery & Target Sports Timber Range",
     pioneering_signal_tower: "🪢 Pioneering Lashed Signal Tower & Monkey Bridge",
+    pioneering_timber_tower: "🪢 Pioneering Lashed Signal Tower & Monkey Bridge",
     whitewater_kayak_rapids: "🛶 Whitewater Kayaking & Canoeing River Rapids",
     first_aid_search_rescue: "⛑️ Wilderness First Aid & Search-and-Rescue Basecamp",
     eagle_court_of_honor: "🦅 Eagle Scout Court of Honor Ceremony Amphitheater",
     environmental_wetlands: "🌿 Environmental Science & Nature Wetland Boardwalk",
     aviation_glider_airfield: "✈️ Aviation Airfield & Sailplane Glider Flight Line",
     dutch_oven_camp_cooking: "🍳 Campfire Dutch Oven & Backcountry Trail Cooking",
+    citizenship_capitol_civic: "🏛️ Capitol Dome, Constitution & Civic Heritage",
+    personal_management_ledger: "🧭 Financial Ledger, Planning Compass & Time Management",
+    fitness_cycling_trail: "🚴 Athletic Track, Cycling Trail & Personal Fitness",
+    communications_studio: "🎙️ Broadcast Microphone, Press Notebook & Council Podium",
+    trades_welding_workshop: "🛠️ Craftsman Workbench, Welding Sparks & Skilled Trades",
+    wildlife_forestry_conservation: "🦌 Old-Growth Forest Canopy, Wildlife Habitat & Conservation",
+    astronomy_deep_space_observatory: "🔭 Night Sky Observatory Dome, Telescope & Milky Way",
+    emergency_medical_triage: "🚑 Emergency First Aid Kit, Rescue Litter & Field Triage",
   };
 
   const matchBackdropIdFromPrompt = (styleFamily, promptText) => {
@@ -14869,50 +15597,81 @@ async function initPowerPointTemplateStudio() {
     if (/apollo|rocket|launch|saturn|nasa|astronaut|space\s+exploration|launchpad/.test(customLower)) {
       return "apollo_rocket_launch";
     }
+    if (/astronomy|night\s+sky|observatory\s+dome|telescope|milky\s+way|constellation|planetarium/.test(customLower)) {
+      return "astronomy_deep_space_observatory";
+    }
     if (/bsa\s+logo|bsa\s+emblem|fleur|universal\s+emblem|scouting\s+logo|color\s+bsa/.test(customLower)) {
       return "bsa_emblem_color";
     }
     if (/archery|bow|arrow|target\s+range|rifle|shotgun|shooting\s+sports/.test(customLower)) {
       return "archery_target_range";
     }
-    if (/pioneer|signal\s+tower|monkey\s+bridge|lashing|lashed|spar/.test(customLower)) {
+    if (/pioneer|signal\s+tower|monkey\s+bridge|lashing|lashed|spar|timber\s+tower/.test(customLower)) {
       return "pioneering_signal_tower";
     }
     if (/whitewater|kayak|canoe|rapids|rafting|paddle/.test(customLower)) {
       return "whitewater_kayak_rapids";
     }
-    if (/first\s+aid|search\s+and\s+rescue|triage|emergency\s+medical|stretcher|wilderness\s+survival/.test(customLower)) {
+    if (/emergency\s+preparedness|emergency\s+medical|field\s+triage|rescue\s+litter|first\s+aid\s+kit|dentistry|health\s+care|medicine|public\s+health|disabilities\s+awareness/.test(customLower)) {
+      return "emergency_medical_triage";
+    }
+    if (/first\s+aid|search\s+and\s+rescue|triage|stretcher|wilderness\s+survival|lifesaving|safety|fire\s+safety|crime\s+prevention|traffic\s+safety|signs,\s*signals/.test(customLower)) {
       return "first_aid_search_rescue";
     }
-    if (/court\s+of\s+honor|eagle\s+scout|amphitheater|ceremony\s+stage|color\s+guard/.test(customLower)) {
+    if (/citizenship|american\s+heritage|american\s+cultures|american\s+labor|\blaw\b|capitol\s+dome|constitution|civic\s+heritage/.test(customLower)) {
+      return "citizenship_capitol_civic";
+    }
+    if (/court\s+of\s+honor|eagle\s+scout|amphitheater|ceremony\s+stage|color\s+guard|scouting\s+heritage/.test(customLower)) {
       return "eagle_court_of_honor";
     }
-    if (/wetland|marsh|boardwalk|environmental\s+science|ecology|wildlife|nature\s+study/.test(customLower)) {
+    if (/personal\s+management|family\s+life|american\s+business|entrepreneurship|salesmanship|coin\s+collecting|stamp\s+collecting|collections|genealogy|scholarship|reading|financial\s+ledger|planning\s+compass/.test(customLower)) {
+      return "personal_management_ledger";
+    }
+    if (/personal\s+fitness|cycling|athletics|sports|skating|golf|geocaching|snow\s+sports|climbing|athletic\s+track|cycling\s+trail/.test(customLower)) {
+      return "fitness_cycling_trail";
+    }
+    if (/communication|journalism|public\s+speaking|radio|theater|moviemaking|photography|graphic\s+arts|music|bugling|animation|\bart\b|sculpture|pottery|broadcast\s+microphone|press\s+notebook/.test(customLower)) {
+      return "communications_studio";
+    }
+    if (/welding|metalwork|woodwork|wood\s+carving|plumbing|electricity|automotive\s+maintenance|home\s+repairs|painting|pulp\s+and\s+paper|textile|leatherwork|basketry|model\s+design|composite\s+materials|drafting|surveying|farm\s+mechanics|truck\s+transportation|railroading|craftsman\s+workbench/.test(customLower)) {
+      return "trades_welding_workshop";
+    }
+    if (/forestry|fish\s+and\s+wildlife|mammal\s+study|bird\s+study|reptile\s+and\s+amphibian|insect\s+study|\bnature\b|plant\s+science|gardening|landscape\s+architecture|animal\s+science|veterinary|dog\s+care|pets|horsemanship|old-growth\s+forest|wildlife\s+habitat/.test(customLower)) {
+      return "wildlife_forestry_conservation";
+    }
+    if (/environmental\s+science|sustainability|soil\s+and\s+water|oceanography|weather|geology|energy|wetland|marsh|boardwalk|ecology/.test(customLower)) {
       return "environmental_wetlands";
     }
     if (/aviation|glider|sailplane|airfield|airplane|aircraft|flight\s+line/.test(customLower)) {
       return "aviation_glider_airfield";
     }
-    if (/dutch\s+oven|camp\s+cooking|cast\s+iron|chuck\s+box|campfire\s+cooking|outdoor\s+kitchen/.test(customLower)) {
+    if (/cooking|dutch\s+oven|camp\s+cooking|cast\s+iron|chuck\s+box|campfire\s+cooking|outdoor\s+kitchen/.test(customLower)) {
       return "dutch_oven_camp_cooking";
     }
     if (/collegiate|university|school|cupola|campus|academic|danvers|holten|brick/.test(customLower)) {
       return "collegiate_mbc";
     }
-    if (/aquatic|nautical|lighthouse|ocean|harbor|cove|sail|waterfront/.test(customLower)) {
+    if (/swimming|small-boat\s+sailing|motorboating|water\s+sports|scuba|rowing|fishing|fly-fishing|aquatic|nautical|lighthouse|ocean|harbor|cove|sail|waterfront/.test(customLower)) {
       return "aquatics_nautical";
     }
-    if (/stem|blueprint|robot|circuit|observatory|engineering|cad/.test(customLower)) {
+    if (/robotics|programming|cybersecurity|digital\s+technology|electronics|engineering|chemistry|nuclear\s+science|mining\s+in\s+society|inventing|game\s+design|architecture|chess|stem|blueprint|robot|circuit|cad/.test(customLower)) {
       return "stem_blueprint";
     }
-    if (/lodge|fireplace|council\s+ring|pavilion/.test(customLower)) {
+    if (/indian\s+lore|archaeology|lodge|fireplace|council\s+ring|pavilion|embroidery/.test(customLower)) {
       return "heritage_embroidery";
     }
-    if (/summit|alpine|mountain|ridge|topographic|philmont/.test(customLower)) {
+    if (/backpacking|hiking|orienteering|mountaineering|summit|alpine|mountain|ridge|topographic|philmont/.test(customLower)) {
       return "topographic_adventure";
     }
     return BUILTIN_BACKDROP_URLS[styleFamily] ? styleFamily : "pinewood_campfire";
   };
+
+  const resolveDefaultCoverBackdropForBadge = (badgeName, templateId = "") => {
+    const cleanBadge = String(badgeName || "").trim();
+    const matchedId = matchBackdropIdFromPrompt(templateId, cleanBadge || templateId);
+    return BUILTIN_BACKDROP_URLS[matchedId] || "/assets/templates/overlays/nano_base_pinewood_campfire.jpg";
+  };
+  window.resolveDefaultCoverBackdropForBadge = resolveDefaultCoverBackdropForBadge;
 
   const resolvePhotorealisticCoverBackdropUrl = (styleFamily, promptText, explicitBackdropId = "") => {
     const backdropSelVal =
@@ -14933,7 +15692,13 @@ async function initPowerPointTemplateStudio() {
     if (state.tplAiCustomBgDataUrl) {
       return state.tplAiCustomBgDataUrl;
     }
-    const matchedId = matchBackdropIdFromPrompt(styleFamily, promptText);
+    const effectiveQuery =
+      (promptText || "").trim() ||
+      state.currentResult?.badge_name ||
+      state.currentBadge ||
+      document.getElementById("badge-select")?.value ||
+      "";
+    const matchedId = matchBackdropIdFromPrompt(styleFamily, effectiveQuery);
     return BUILTIN_BACKDROP_URLS[matchedId] || "/assets/templates/overlays/nano_base_pinewood_campfire.jpg";
   };
 
@@ -17090,6 +17855,10 @@ async function initMultiBadgeWorkspacesAndFavorites() {
         sessionLabels.join(" | ")
       )} &bull; 📍 ${escapeHtml(roomLoc)}`;
     }
+    const drawerSchedTextEl = document.getElementById("logistics-drawer-schedule-summary-text");
+    if (drawerSchedTextEl) {
+      drawerSchedTextEl.textContent = `${combinedSectionLabel} • ${fullTimeRange} • 📍 ${roomLoc} • ${datesSummary}`;
+    }
 
     syncCustomPresetSaveBtnUi("btn-ws-add-custom-location", "ws-room-location-input", CUSTOM_LOCATIONS_KEY);
     syncCustomPresetSaveBtnUi("btn-ws-add-custom-tag", "ws-bundle-tag-input", CUSTOM_TAGS_KEY);
@@ -17178,6 +17947,31 @@ async function initMultiBadgeWorkspacesAndFavorites() {
   document.getElementById("btn-ws-open-library")?.addEventListener("click", openWsModal);
   document.getElementById("btn-close-workspaces-modal")?.addEventListener("click", closeWsModal);
   document.getElementById("btn-close-saved-workspaces")?.addEventListener("click", closeWsModal);
+
+  const openScheduleBuilderInWsModal = () => {
+    openWsModal();
+    const collapsibleBody = document.getElementById("ws-schedule-builder-collapsible-body");
+    const toggleBtn = document.getElementById("btn-ws-toggle-schedule-builder");
+    if (collapsibleBody && collapsibleBody.classList.contains("hidden")) {
+      collapsibleBody.classList.remove("hidden");
+      if (toggleBtn) {
+        toggleBtn.setAttribute("aria-expanded", "true");
+        toggleBtn.textContent = "▴ Collapse Builder";
+      }
+    }
+    const panel = document.getElementById("ws-class-logistics-panel") || collapsibleBody;
+    setTimeout(() => {
+      panel?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }, 60);
+  };
+  window.openScheduleBuilderInWsModal = openScheduleBuilderInWsModal;
+  document.querySelectorAll('[data-action="open-schedule-builder"]').forEach((btn) => {
+    btn.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      openScheduleBuilderInWsModal();
+    });
+  });
 
   // Delete Deck Confirmation Modal handlers
   const closeDeleteConfirmModal = () => {
@@ -19574,7 +20368,7 @@ const DEMO_SCENARIOS_CATALOG = [
       {
         title: "Section 2 Grounded Resource: Clicking 'Read' on 'bsa://catalog/badges'",
         narration:
-          "Selecting 'bsa://catalog/badges — Official 144 Merit Badges Catalog' (the first item in '2. Grounded bsa:// Resources (6) & Guided Prompts (4)') and clicking '▶ Read' to load the catalog in the Visual Card Preview.",
+          "Selecting 'bsa://catalog/badges — Official 149 Merit Badges Catalog' (the first item in '2. Grounded bsa:// Resources (6) & Guided Prompts (4)') and clicking '▶ Read' to load the catalog in the Visual Card Preview.",
         preActionSelector:
           '#mcp-resources-and-prompts-list [data-mcp-exec-resource="bsa://catalog/badges"], #mcp-resources-and-prompts-list .m3-mcp-resource-item',
         targetSelector:
@@ -19693,7 +20487,7 @@ const DEMO_SCENARIOS_CATALOG = [
       {
         title: "Documentation Studio (2 of 3): Switching to the Super-User Admin Guide",
         narration:
-          "Clicking '🛡️ Admin Guide' in the top audience bar to view the Super-User Admin Console, Zero-PII Telemetry, and 144-Badge Asset Health documentation.",
+          "Clicking '🛡️ Admin Guide' in the top audience bar to view the Super-User Admin Console, Zero-PII Telemetry, and 149-Badge Asset Health documentation.",
         preActionSelector: "#btn-docs-select-admin-guide",
         targetSelector: "#btn-docs-select-admin-guide, #docs-viewer-markdown-body",
         placement: "bottom",

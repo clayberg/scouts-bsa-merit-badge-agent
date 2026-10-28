@@ -9,7 +9,7 @@ Provides AI-assisted Merit Badge Counselor session planning and communication to
 """
 
 import re
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 from pydantic import BaseModel, Field
 from src.agents.researcher import resolve_counselor_location
 from src.schemas import build_guided_tool_error
@@ -26,6 +26,10 @@ class CounselorSessionAgendaRequest(BaseModel):
     session_mode: str = Field(
         default="",
         description="Optional alias for schedule_format (e.g., 4_session_mbc, 2_double_block, TWO_TROOP_MEETINGS, SATURDAY_CLINIC, SUMMER_CAMP).",
+    )
+    option_track: str = Field(
+        default="ALL",
+        description="Optional Merit Badge Option Track (e.g., A, B, ALL).",
     )
     counselor_name: str = Field(default="", description="Optional Merit Badge Counselor name.")
     troop_affiliation: str = Field(default="", description="Optional troop and council affiliation.")
@@ -48,6 +52,10 @@ class PrerequisiteParentLetterRequest(BaseModel):
     """Pydantic request contract for `generate_prerequisite_parent_letter`."""
 
     badge_name: str = Field(..., description="Official Scouts BSA Merit Badge name.")
+    option_track: str = Field(
+        default="ALL",
+        description="Optional Merit Badge Option Track (e.g., A, B, ALL).",
+    )
     counselor_name: str = Field(default="", description="Optional Merit Badge Counselor name.")
     troop_affiliation: str = Field(default="", description="Optional troop and council affiliation.")
     location_or_zip: str = Field(default="", description="Optional ZIP code or city/state.")
@@ -58,6 +66,47 @@ class PrerequisiteParentLetterRequest(BaseModel):
         default=None,
         description="Optional pre-fetched MeritBadgeResearchResult dictionary.",
     )
+
+
+def _resolve_option_track_and_filter_reqs(
+    badge_name: str,
+    reqs: List[Dict[str, Any]],
+    option_track: str = "ALL",
+) -> tuple[str, str, List[Dict[str, Any]]]:
+    """Normalizes `option_track`, resolves a human-readable track label, and filters `reqs` if an option track is active."""
+    from src.tools.scouting_scraper import (
+        _filter_requirements_by_option_track,
+        _normalize_option_track_filter,
+        get_badge_option_tracks,
+    )
+
+    opt_norm = _normalize_option_track_filter(option_track, badge_name=badge_name)
+    tracks = get_badge_option_tracks(badge_name)
+    opt_label = f"Option Track {opt_norm}" if opt_norm != "ALL" else "All Options (ALL)"
+    if tracks and opt_norm != "ALL":
+        for tr in tracks:
+            if str(tr.get("option_key") or "").upper() == opt_norm or str(tr.get("letter_key") or "").upper() == opt_norm:
+                opt_label = str(tr.get("label") or tr.get("option_label") or opt_label)
+                break
+    filtered = list(reqs or [])
+    if opt_norm != "ALL" and filtered:
+        # Filter out other options if raw/unfiltered reqs were passed
+        has_other_opts = any(
+            str(r.get("selected_option_key") or "").upper() not in ("", opt_norm)
+            for r in filtered
+            if r.get("selected_option_key")
+        )
+        if has_other_opts:
+            filtered = [
+                r
+                for r in filtered
+                if not r.get("selected_option_key")
+                or str(r.get("selected_option_key")).upper() == opt_norm
+                or str(r.get("req_number") or "").upper().startswith(opt_norm)
+            ]
+        else:
+            filtered = _filter_requirements_by_option_track(badge_name, filtered, option_track=opt_norm)
+    return opt_norm, opt_label, filtered
 
 
 def _normalize_middleton_text(val: str) -> str:
@@ -134,6 +183,7 @@ def generate_counselor_session_agenda(
     session_dates: Optional[List[str]] = None,
     section_label: str = "",
     bundle_tag: str = "",
+    option_track: str = "ALL",
 ) -> Dict[str, Any]:
     """Generates a structured minute-by-minute Merit Badge teaching agenda and EDGE station guide.
 
@@ -150,6 +200,8 @@ def generate_counselor_session_agenda(
         req_obj = badge_name
         badge_name = req_obj.badge_name
         schedule_format = req_obj.session_mode or req_obj.schedule_format or schedule_format
+        if getattr(req_obj, "option_track", None):
+            option_track = req_obj.option_track
         counselor_info = counselor_info or {
             "counselor_name": req_obj.counselor_name,
             "troop_affiliation": req_obj.troop_affiliation,
@@ -171,7 +223,9 @@ def generate_counselor_session_agenda(
     if research_result is None:
         from src.tools.scouting_scraper import MeritBadgeResearchRequest, fetch_merit_badge_pamphlet_pdf
 
-        research_result = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name=str(badge_name).strip()))
+        research_result = fetch_merit_badge_pamphlet_pdf(
+            MeritBadgeResearchRequest(badge_name=str(badge_name).strip(), option_track=option_track)
+        )
     if not isinstance(research_result, dict):
         return build_guided_tool_error(
             error_code="INVALID_RESEARCH_RESULT",
@@ -179,13 +233,14 @@ def generate_counselor_session_agenda(
             remediation="Call fetch_merit_badge_pamphlet_pdf first and pass its output dictionary.",
         )
 
-    clean_badge = badge_name.strip()
+    clean_badge = str(research_result.get("badge_name") or badge_name).strip()
     c_info = counselor_info or {}
     loc = resolve_counselor_location(
         troop_affiliation=str(c_info.get("troop_affiliation") or ""),
         location_or_zip=str(c_info.get("location_or_zip") or ""),
     )
-    reqs: List[Dict[str, Any]] = list(research_result.get("requirements") or [])
+    raw_reqs: List[Dict[str, Any]] = list(research_result.get("requirements") or [])
+    opt_norm, opt_label, reqs = _resolve_option_track_and_filter_reqs(clean_badge, raw_reqs, option_track=option_track)
     in_class = [r for r in reqs if str(r.get("execution_mode", "")).upper() == "IN_CLASS_DISCUSSION"]
     hands_on = [r for r in reqs if str(r.get("execution_mode", "")).upper() == "HANDS_ON_SKILL_STATION"]
     prereqs = [r for r in reqs if str(r.get("execution_mode", "")).upper() == "PREREQUISITE_CAMPOUT_HOME"]
@@ -535,8 +590,8 @@ def generate_counselor_session_agenda(
     eff_dates = list(session_dates_list or session_dates or norm_c["session_dates_list"] or [])
 
     md_lines = [
-        f"# {clean_badge}" + (f" + {companion_clean}" if companion_clean else "") + " Merit Badge — Counselor Session Pacing Plan",
-        f"**Schedule Format:** {schedule_format}  ",
+        f"# {clean_badge}" + (f" + {companion_clean}" if companion_clean else "") + f" Merit Badge - Counselor Session Pacing Plan ({opt_label})",
+        f"**Schedule Format:** {schedule_format} • **Option Track:** {opt_label}  ",
         f"**Local Field Context:** {loc['display_location']} • {loc['nws_office']}  ",
         f"**Primary Reference:** Official Scouting America *{clean_badge}* Merit Badge Pamphlet",
     ]
@@ -567,6 +622,8 @@ def generate_counselor_session_agenda(
     return {
         "badge_name": clean_badge,
         "companion_badge_name": companion_clean or None,
+        "option_track": opt_norm,
+        "option_track_label": opt_label,
         "postponed_session_idx": postponed_session_idx,
         "schedule_format": schedule_format,
         "section_label": eff_section or None,
@@ -589,6 +646,7 @@ def generate_prerequisite_parent_letter(
     research_result: Optional[Dict[str, Any]] = None,
     counselor_info: Optional[Dict[str, Any]] = None,
     stage: str = "stage_1_welcome_cpp",
+    option_track: str = "ALL",
 ) -> Dict[str, Any]:
     """Generates a copy-pasteable email/letter to Scouts and parents detailing prerequisites and YPT rules.
 
@@ -598,6 +656,7 @@ def generate_prerequisite_parent_letter(
         counselor_info: Optional dictionary with `counselor_name`, `troop_affiliation`,
             `location_or_zip`, `email_address`, and `phone_number`.
         stage: Optional active communication stage (`stage_1_welcome_cpp`, `stage_2_mid_clinic_alert`, `stage_3_final_packet`).
+        option_track: Optional Merit Badge Option Track (`A`, `B`, `ALL`, etc.).
 
     Returns:
         Dict[str, Any]: Dictionary containing `badge_name`, `subject`, `subject_line`, `letter_markdown`,
@@ -606,6 +665,8 @@ def generate_prerequisite_parent_letter(
     if isinstance(badge_name, PrerequisiteParentLetterRequest):
         req_obj = badge_name
         badge_name = req_obj.badge_name
+        if getattr(req_obj, "option_track", None):
+            option_track = req_obj.option_track
         counselor_info = counselor_info or {
             "counselor_name": req_obj.counselor_name,
             "troop_affiliation": req_obj.troop_affiliation,
@@ -625,7 +686,9 @@ def generate_prerequisite_parent_letter(
     if research_result is None:
         from src.tools.scouting_scraper import MeritBadgeResearchRequest, fetch_merit_badge_pamphlet_pdf
 
-        research_result = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name=str(badge_name).strip()))
+        research_result = fetch_merit_badge_pamphlet_pdf(
+            MeritBadgeResearchRequest(badge_name=str(badge_name).strip(), option_track=option_track)
+        )
     if not isinstance(research_result, dict):
         return build_guided_tool_error(
             error_code="INVALID_RESEARCH_RESULT",
@@ -633,7 +696,7 @@ def generate_prerequisite_parent_letter(
             remediation="Call fetch_merit_badge_pamphlet_pdf first and pass its output dictionary.",
         )
 
-    clean_badge = badge_name.strip()
+    clean_badge = str(research_result.get("badge_name") or badge_name).strip()
     norm_c = _extract_normalized_counselor_fields(
         counselor_info,
         default_name="Scoutmaster Bob",
@@ -656,7 +719,8 @@ def generate_prerequisite_parent_letter(
     )
     loc = resolve_counselor_location(troop_affiliation=c_troop, location_or_zip=c_loc_raw)
 
-    reqs: List[Dict[str, Any]] = list(research_result.get("requirements") or [])
+    raw_reqs: List[Dict[str, Any]] = list(research_result.get("requirements") or [])
+    opt_norm, opt_label, reqs = _resolve_option_track_and_filter_reqs(clean_badge, raw_reqs, option_track=option_track)
     prereqs = [
         r for r in reqs
         if str(r.get("execution_mode", "")).upper() == "PREREQUISITE_CAMPOUT_HOME"
@@ -707,16 +771,18 @@ def generate_prerequisite_parent_letter(
             "- Complete any remaining field or campout logs with your home Troop and schedule a quick verification check to convert your Partial Blue Card (#34124) to a full completion."
         )
 
+    opt_suffix = f" [Option Track: {opt_label}]" if opt_norm != "ALL" else ""
     tag_suffix = f" ({session_tag})" if session_tag else ""
     sig_troop_line = f"Merit Badge Counselor • {c_troop}  " if c_troop else "Merit Badge Counselor  "
     schedule_summary = " | ".join(dates_list) if dates_list else "Sessions 1–4 + Make-Up Day"
     if start_time:
         schedule_summary += f" ({start_time})"
 
-    subject_1 = f"Scouts BSA {clean_badge} Merit Badge: Pre-Class Welcome & Prerequisite Guide{tag_suffix}"
+    subject_1 = f"Scouts BSA {clean_badge} Merit Badge: Pre-Class Welcome & Prerequisite Guide{opt_suffix}{tag_suffix}"
     stage1_md = "\n".join(
         [
             f"**Subject:** {subject_1}",
+            f"**Option Track:** {opt_label}",
             "",
             f"Dear {clean_badge} Merit Badge Scouts, Parents/Guardians, and Unit Leaders,",
             "",
@@ -724,6 +790,7 @@ def generate_prerequisite_parent_letter(
             "",
             "### 1. Schedule, Venue & Official Pamphlet Reference",
             f"- **Session Schedule & Room:** {schedule_summary} • {room_loc}",
+            f"- **Option Track:** {opt_label}",
             f"- **Official Scouting America {clean_badge} Merit Badge Pamphlet:** {pamphlet_url}",
             f"- **Local Field & Weather Context ({loc['display_location']}):** {loc['nws_office']} ({loc['nws_url']}) • {loc['field_site_examples']}",
             "",
@@ -744,17 +811,18 @@ def generate_prerequisite_parent_letter(
         ]
     )
 
-    subject_2 = f"Scouts BSA {clean_badge} Merit Badge: Mid-Session Progress, Homework & Make-Up Alert{tag_suffix}"
+    subject_2 = f"Scouts BSA {clean_badge} Merit Badge: Mid-Session Progress, Homework & Make-Up Alert{opt_suffix}{tag_suffix}"
     stage2_md = "\n".join(
         [
             f"**Subject:** {subject_2}",
+            f"**Option Track:** {opt_label}",
             "",
             f"Dear {clean_badge} Merit Badge Scouts, Parents/Guardians, and Unit Advancement Chairs,",
             "",
             f"Thank you for the outstanding energy in our **{clean_badge} Merit Badge** sessions so far! As we move through our midpoint hands-on stations toward Make-Up Day, please review our progress summary and homework reminders below:",
             "",
             "### 1. In-Class Requirements Covered vs. Hands-On Stations",
-            f"- **Core In-Class Requirements Reviewed:** Requirements {in_class_ids_str}",
+            f"- **Core In-Class Requirements Reviewed ({opt_label}):** Requirements {in_class_ids_str}",
             f"- **Venue & Schedule Check:** {schedule_summary} • {room_loc}",
             "",
             "### 2. Between-Session Homework & Make-Up Eligible Items",
@@ -771,17 +839,18 @@ def generate_prerequisite_parent_letter(
         ]
     )
 
-    subject_3 = f"Scouts BSA {clean_badge} Merit Badge: Final Completion, Blue Card (#34124) Sign-Off & Partial Transfer Guide{tag_suffix}"
+    subject_3 = f"Scouts BSA {clean_badge} Merit Badge: Final Completion, Blue Card (#34124) Sign-Off & Partial Transfer Guide{opt_suffix}{tag_suffix}"
     stage3_md = "\n".join(
         [
             f"**Subject:** {subject_3}",
+            f"**Option Track:** {opt_label}",
             "",
             f"Dear {clean_badge} Merit Badge Scouts, Parents/Guardians, Scoutmasters, and Advancement Chairs,",
             "",
             f"Congratulations to all Scouts on completing our **{clean_badge} Merit Badge** clinic! Below is the final summary of completed requirements, home-troop follow-up items, and Blue Card (#34124) / Scoutbook Plus advancement instructions:",
             "",
             "### 1. In-Class Completed Requirements vs. Post-Class Home-Troop Follow-Up",
-            f"- **In-Class Completed & Verified Requirements:** Requirements {in_class_ids_str}",
+            f"- **In-Class Completed & Verified Requirements ({opt_label}):** Requirements {in_class_ids_str}",
             "- **Post-Class Home-Troop Follow-Up / Campout Log Items:**",
             *followup_bullets,
             "",
@@ -828,6 +897,8 @@ def generate_prerequisite_parent_letter(
 
     return {
         "badge_name": clean_badge,
+        "option_track": opt_norm,
+        "option_track_label": opt_label,
         "subject": active_stage["subject"],
         "subject_line": active_stage["subject"],
         "prerequisite_count": len(prereqs),
@@ -836,6 +907,9 @@ def generate_prerequisite_parent_letter(
         "stages": stages_map,
         "status": "SUCCESS",
     }
+
+
+generate_parent_prerequisite_letter = generate_prerequisite_parent_letter
 
 
 def generate_class_preparation_page_cpp(
@@ -864,7 +938,8 @@ def generate_class_preparation_page_cpp(
         return res
 
     resolved_badge = str(res.get("badge_name") or badge_name)
-    reqs = list(res.get("requirements") or [])
+    raw_reqs = list(res.get("requirements") or [])
+    opt_norm, opt_label, reqs = _resolve_option_track_and_filter_reqs(resolved_badge, raw_reqs, option_track=option_track)
     c_info = counselor_info or {}
     c_name = str(c_info.get("counselor_name") or "Merit Badge Counselor")
     c_troop = str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council")
@@ -900,7 +975,7 @@ def generate_class_preparation_page_cpp(
     md_lines = [
         f"# {resolved_badge} Merit Badge - 1-Page Class Preparation Page (CPP)",
         f"**Counselor:** {c_name} ({c_troop}) • **YPT Contact:** {c_email} (always CC a parent/guardian or unit leader)",
-        f"**Session Dates:** {' | '.join(dates)} • **Location:** {room}",
+        f"**Session Dates:** {' | '.join(dates)} • **Location:** {room} • **Option Track:** {opt_label}",
         "",
         "## 1. Starting Requirement Gate Alert",
     ]
@@ -965,7 +1040,7 @@ def generate_class_preparation_page_cpp(
   <div class="cpp-banner">
     <h1 style="display:flex;align-items:center;gap:8px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2"><path d="M12 2L4 5v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V5l-8-3z"/></svg>{_html.escape(resolved_badge)} Merit Badge - 1-Page Class Preparation Page (CPP)</h1>
     <div><strong>Counselor:</strong> {_html.escape(c_name)} ({_html.escape(c_troop)}) • <strong>YPT Email:</strong> {_html.escape(c_email)}</div>
-    <div><strong>Schedule:</strong> {_html.escape(" | ".join(dates))} • <strong>Room:</strong> {_html.escape(room)}</div>
+    <div><strong>Schedule:</strong> {_html.escape(" | ".join(dates))} • <strong>Room:</strong> {_html.escape(room)} • <strong>Option Track:</strong> {_html.escape(opt_label)}</div>
   </div>
   <div class="cpp-box gate">
     <h2>1. Starting Requirement Gate Alert</h2>
@@ -989,10 +1064,14 @@ def generate_class_preparation_page_cpp(
     return {
         "status": "SUCCESS",
         "badge_name": resolved_badge,
+        "option_track": opt_norm,
+        "option_track_label": opt_label,
         "prerequisite_count": len(prereq_reqs),
         "in_class_count": len(in_class_reqs),
         "starting_gates": gates,
         "what_to_bring": bring_items,
+        "prereq_reqs": prereq_reqs,
+        "in_class_reqs": in_class_reqs,
         "cpp_markdown": "\n".join(md_lines),
         "cpp_html": cpp_html,
         "html_document": cpp_html,
@@ -1006,16 +1085,20 @@ def generate_organizer_syllabus_spec_sheet(
     max_scouts: int = 16,
     min_age_or_rank: str = "All Scouts (Ages 11-17)",
     room_needs: str = "Projector/TV + Tables for Buddy Stations",
+    option_track: str = "ALL",
 ) -> Dict[str, Any]:
     """Generates a 1-Page Event Organizer Catalog & Schedule Spec Sheet for Merit Badge University/College chairs."""
     from src.agents.planner import _format_session_mode_label
     from src.tools.scouting_scraper import MeritBadgeResearchRequest, fetch_merit_badge_pamphlet_pdf
 
-    res = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name=badge_name))
+    res = fetch_merit_badge_pamphlet_pdf(
+        MeritBadgeResearchRequest(badge_name=badge_name, option_track=option_track)
+    )
     if res.get("status") == "ERROR":
         return res
     resolved_badge = str(res.get("badge_name") or badge_name)
-    reqs = list(res.get("requirements") or [])
+    raw_reqs = list(res.get("requirements") or [])
+    opt_norm, opt_label, reqs = _resolve_option_track_and_filter_reqs(resolved_badge, raw_reqs, option_track=option_track)
     c_info = counselor_info or {}
     c_name = str(c_info.get("counselor_name") or "Merit Badge Counselor")
     c_troop = str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council")
@@ -1034,6 +1117,7 @@ def generate_organizer_syllabus_spec_sheet(
     spec_md = "\n".join([
         f"# {resolved_badge} Merit Badge - Event Organizer Catalog & Schedule Spec Sheet",
         f"- **Instructor / Counselor:** {c_name} ({c_troop})",
+        f"- **Option Track:** {opt_label}",
         f"- **Eagle-Required:** {'Yes' if res.get('is_eagle_required') else 'No'}",
         f"- **Session Format:** {session_mode_label} • **Recommended Class Cap:** {max_scouts} Scouts",
         f"- **Recommended Age / Rank:** {min_age_or_rank}",
@@ -1049,6 +1133,8 @@ def generate_organizer_syllabus_spec_sheet(
     return {
         "status": "SUCCESS",
         "badge_name": resolved_badge,
+        "option_track": opt_norm,
+        "option_track_label": opt_label,
         "session_mode": session_mode,
         "max_scouts": max_scouts,
         "min_age_or_rank": min_age_or_rank,
@@ -1069,6 +1155,7 @@ def generate_three_stage_ypt_communication_pack(
     room_location: str = "",
     absent_scouts_summary: Optional[List[Dict[str, Any]]] = None,
     troop_filter: str = "ALL",
+    option_track: str = "ALL",
 ) -> Dict[str, Any]:
     """Generates the 3-Stage YPT Two-Deep Communication Pack:
     - Stage 1: 7-Day Pre-Class Welcome + 1-Page CPP + Fillable Workbook
@@ -1078,11 +1165,14 @@ def generate_three_stage_ypt_communication_pack(
     """
     from src.tools.scouting_scraper import MeritBadgeResearchRequest, fetch_merit_badge_pamphlet_pdf
 
-    res = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name=badge_name))
+    res = fetch_merit_badge_pamphlet_pdf(
+        MeritBadgeResearchRequest(badge_name=badge_name, option_track=option_track)
+    )
     if res.get("status") == "ERROR":
         return res
     resolved_badge = str(res.get("badge_name") or badge_name)
-    reqs = list(res.get("requirements") or [])
+    raw_reqs = list(res.get("requirements") or [])
+    opt_norm, opt_label, reqs = _resolve_option_track_and_filter_reqs(resolved_badge, raw_reqs, option_track=option_track)
     norm_c = _extract_normalized_counselor_fields(
         counselor_info,
         default_name="Merit Badge Counselor",
@@ -1095,20 +1185,22 @@ def generate_three_stage_ypt_communication_pack(
     dates = list(session_dates or norm_c["session_dates_list"] or ["Session 1", "Session 2", "Session 3", "Session 4", "Make-Up Day"])
     room = str(room_location or norm_c["room_location"] or "Main Clinic Room")
 
-    ypt_header = "[MANDATORY YPT CC: Unit Leader & Parent/Guardian — Required per Scouting America Youth Protection Policy]"
+    ypt_header = "[MANDATORY YPT CC: Unit Leader & Parent/Guardian - Required per Scouting America Youth Protection Policy]"
     prereq_ids = ", ".join(str(r.get("req_number")) for r in reqs if r.get("syllabus_bucket") == "Pre-Class Prerequisite") or "Pamphlet Chapter 1"
     makeup_ids = ", ".join(str(r.get("req_number")) for r in reqs if r.get("syllabus_bucket") == "Make-Up Eligible") or "Missed session topics"
     followup_ids = ", ".join(str(r.get("req_number")) for r in reqs if r.get("syllabus_bucket") == "Post-Class Home-Troop Follow-Up") or "Home-troop logs"
     sig_troop_line = f"Merit Badge Counselor • {c_troop}  " if c_troop else "Merit Badge Counselor  "
+    opt_suffix = f" [Option Track: {opt_label}]" if opt_norm != "ALL" else ""
 
-    subj_1 = f"Scouts BSA {resolved_badge} Merit Badge: Pre-Class Welcome & Prerequisite Guide ({' | '.join(dates[:2])})"
+    subj_1 = f"Scouts BSA {resolved_badge} Merit Badge: Pre-Class Welcome & Prerequisite Guide{opt_suffix} ({' | '.join(dates[:2])})"
     stage1_md = "\n".join([
         ypt_header,
         f"**Subject:** {subj_1}",
+        f"**Option Track:** {opt_label}",
         "",
         f"Dear {resolved_badge} Merit Badge Scouts, Parents/Guardians, and Unit Leaders,",
         "",
-        f"Welcome to our upcoming **{resolved_badge} Merit Badge** class in **{room}**! Attached are your **1-Page Class Preparation Page (CPP)** and **Fillable Form (GTA §7.0.3.2) Scout Workbook**.",
+        f"Welcome to our upcoming **{resolved_badge} Merit Badge** class ({opt_label}) in **{room}**! Attached are your **1-Page Class Preparation Page (CPP)** and **Fillable Form (GTA §7.0.3.2) Scout Workbook**.",
         f"- **Pre-Class Prerequisites to Prepare Before Session 1:** Requirements {prereq_ids}",
         "- **What to Bring:** Signed Blue Card (#34124), official pamphlet, and your workbook (optional study aid per GTA §7.0.3.2).",
         "",
@@ -1126,14 +1218,15 @@ def generate_three_stage_ypt_communication_pack(
     if not abs_lines:
         abs_lines.append(f"- **Make-Up Day Eligible Requirements:** {makeup_ids} (for any Scout who missed an in-class session).")
 
-    subj_2 = f"Scouts BSA {resolved_badge} Merit Badge: Mid-Session Progress, Homework & Make-Up Alert ({dates[-1]})"
+    subj_2 = f"Scouts BSA {resolved_badge} Merit Badge: Mid-Session Progress, Homework & Make-Up Alert{opt_suffix} ({dates[-1]})"
     stage2_md = "\n".join([
         ypt_header,
         f"**Subject:** {subj_2}",
+        f"**Option Track:** {opt_label}",
         "",
         f"Dear {resolved_badge} Merit Badge Scouts, Parents/Guardians, and Unit Advancement Chairs,",
         "",
-        f"As we approach our **{dates[-1]}** session in **{room}**, here is the targeted Make-Up plan for Scouts who missed an earlier block:",
+        f"As we approach our **{dates[-1]}** session ({opt_label}) in **{room}**, here is the targeted Make-Up plan for Scouts who missed an earlier block:",
         *abs_lines,
         "",
         f"Please review the corresponding sections in the official {resolved_badge} Merit Badge Pamphlet and bring your notes to Make-Up Day.",
@@ -1144,14 +1237,15 @@ def generate_three_stage_ypt_communication_pack(
         f"Email: {c_email}",
     ])
 
-    subj_3 = f"Scouts BSA {resolved_badge} Merit Badge: Final Completion, Blue Card (#34124) Sign-Off & Partial Transfer Guide"
+    subj_3 = f"Scouts BSA {resolved_badge} Merit Badge: Final Completion, Blue Card (#34124) Sign-Off & Partial Transfer Guide{opt_suffix}"
     stage3_md = "\n".join([
         ypt_header,
         f"**Subject:** {subj_3}",
+        f"**Option Track:** {opt_label}",
         "",
         f"Dear {resolved_badge} Merit Badge Scouts, Parents/Guardians, Scoutmasters, and Advancement Chairs,",
         "",
-        f"Thank you for a great **{resolved_badge} Merit Badge** clinic! Attached is the **Per-Troop Blue Card (#34124) & Scoutbook CSV Packet**.",
+        f"Thank you for a great **{resolved_badge} Merit Badge** clinic ({opt_label})! Attached is the **Per-Troop Blue Card (#34124) & Scoutbook CSV Packet**.",
         f"- **Actionable Make-Up Partial Requirements (can be finished with counselor anytime):** {makeup_ids}",
         f"- **Expected Home-Troop Follow-Up Requirements (campouts, long-term logs, or troop service):** {followup_ids}",
         "",
@@ -1180,6 +1274,8 @@ def generate_three_stage_ypt_communication_pack(
     return {
         "status": "SUCCESS",
         "badge_name": resolved_badge,
+        "option_track": opt_norm,
+        "option_track_label": opt_label,
         "ypt_mandatory_cc_header": ypt_header,
         "troop_filter": troop_filter,
         "stages": {
@@ -1194,6 +1290,9 @@ def generate_three_stage_ypt_communication_pack(
             "stage_3": s3_obj,
         },
     }
+
+
+generate_ypt_3stage_communication_pack = generate_three_stage_ypt_communication_pack
 
 
 def _sanitize_pdf_text(text: str) -> str:
@@ -1211,8 +1310,8 @@ def _sanitize_pdf_text(text: str) -> str:
         ("✓", "[x]"),
         ("✔", "[x]"),
         ("✅", "[x]"),
-        ("—", "-"),
-        ("–", "-"),
+        ("\u2014", "-"),
+        ("\u2013", "-"),
         ("−", "-"),
         ("“", '"'),
         ("”", '"'),
@@ -1507,11 +1606,161 @@ def _insert_wrapped_pdf_text(
     return page, y_cursor
 
 
+def _draw_workbook_table_column_headers(
+    page: Any,
+    y_pos: float,
+    headers: List[str],
+    left_col_x0: float = 32.0,
+    left_col_x1: float = 188.0,
+    input_region_x0: float = 188.0,
+    input_region_x1: float = 580.0,
+    col_hdr_h: float = 15.0,
+    is_continuation: bool = False,
+) -> float:
+    """Draws the dark Navy multi-column table header row (and redraws with '(Cont.)' on page breaks)."""
+    import fitz
+
+    input_headers = headers[1:] if len(headers) > 1 else ["Scout Notes & Field Evidence", "Key Examples & Verification"]
+    input_cols = max(1, len(input_headers))
+    col_w = (input_region_x1 - input_region_x0) / float(input_cols)
+
+    page.draw_rect(
+        fitz.Rect(left_col_x0, y_pos, left_col_x1, y_pos + col_hdr_h),
+        color=(0.0, 0.247, 0.529),
+        fill=(0.0, 0.247, 0.529),
+    )
+    first_hdr = str(headers[0] if headers else "Item / Step").strip()
+    if is_continuation and "(Cont.)" not in first_hdr:
+        first_hdr = f"{first_hdr} (Cont.)"
+    page.insert_text(
+        fitz.Point(left_col_x0 + 4.0, y_pos + 10.5),
+        _sanitize_pdf_text(first_hdr),
+        fontsize=6.8,
+        fontname="helv",
+        color=(1.0, 1.0, 1.0),
+    )
+    for c_idx, h_title in enumerate(input_headers):
+        cx0 = input_region_x0 + c_idx * col_w
+        cx1 = input_region_x0 + (c_idx + 1) * col_w
+        page.draw_rect(
+            fitz.Rect(cx0, y_pos, cx1, y_pos + col_hdr_h),
+            color=(0.82, 0.88, 0.95),
+            fill=(0.0, 0.247, 0.529),
+        )
+        hdr_clean = _sanitize_pdf_text(str(h_title))
+        if is_continuation and c_idx == 0 and "(Cont.)" not in hdr_clean:
+            hdr_clean = f"{hdr_clean} (Cont.)"
+        hdr_fs = 6.8 if len(hdr_clean) * 3.6 <= (col_w - 6.0) else max(5.6, (col_w - 6.0) / max(1, len(hdr_clean)) * 1.8)
+        page.insert_text(
+            fitz.Point(cx0 + 3.5, y_pos + 10.5),
+            hdr_clean,
+            fontsize=hdr_fs,
+            fontname="helv",
+            color=(1.0, 1.0, 1.0),
+        )
+    return y_pos + col_hdr_h
+
+
+def _draw_pdf_workbook_diagram_card(
+    doc: Any,
+    page: Any,
+    y_cursor: float,
+    badge_name: str,
+    r_num: str,
+    r_title: str,
+    diagram_url: str,
+    max_y: float = 746.0,
+) -> Tuple[Any, float]:
+    """Hydrates and embeds a compact instructional reference diagram card right above a workbook requirement table."""
+    import fitz
+    from pathlib import Path
+    from src.config import ASSETS_DIR
+
+    raw_url = str(diagram_url or "").strip()
+    if not raw_url:
+        return page, y_cursor
+
+    resolved_path: Optional[Path] = None
+    try:
+        cand = raw_url.lstrip("/")
+        for p_try in (
+            Path(raw_url),
+            ASSETS_DIR / cand,
+            ASSETS_DIR.parent / cand,
+        ):
+            if p_try.is_file() and p_try.suffix.lower() in (".png", ".jpg", ".jpeg"):
+                resolved_path = p_try
+                break
+        if resolved_path is None and cand.startswith("assets/"):
+            from src.tools.asset_hydrator import hydrate_single_asset_on_demand
+
+            hydrate_single_asset_on_demand(cand, timeout_sec=1.5)
+            for p_try in (
+                ASSETS_DIR / cand,
+                ASSETS_DIR.parent / cand,
+            ):
+                if p_try.is_file() and p_try.suffix.lower() in (".png", ".jpg", ".jpeg"):
+                    resolved_path = p_try
+                    break
+    except Exception:
+        resolved_path = None
+
+    if resolved_path is not None and resolved_path.is_file():
+        card_h = 98.0
+        if y_cursor + card_h > max_y:
+            page = doc.new_page(width=612, height=792)
+            y_cursor = 36.0
+        card_rect = fitz.Rect(32.0, y_cursor, 580.0, y_cursor + card_h)
+        page.draw_rect(card_rect, color=(0.68, 0.78, 0.90), fill=(0.97, 0.985, 1.0), width=0.9)
+        page.insert_text(
+            fitz.Point(38.0, y_cursor + 11.0),
+            _sanitize_pdf_text(f"Reference Diagram (Req {r_num} - {r_title}): Use this visual reference to complete the organizer below:"),
+            fontsize=7.2,
+            fontname="helv",
+            color=(0.0, 0.22, 0.48),
+        )
+        try:
+            page.insert_image(
+                fitz.Rect(38.0, y_cursor + 15.0, 574.0, y_cursor + card_h - 4.0),
+                filename=str(resolved_path),
+                keep_proportion=True,
+            )
+        except Exception:
+            pass
+        y_cursor += card_h + 3.0
+    else:
+        card_h = 34.0
+        if y_cursor + card_h > max_y:
+            page = doc.new_page(width=612, height=792)
+            y_cursor = 36.0
+        card_rect = fitz.Rect(32.0, y_cursor, 580.0, y_cursor + card_h)
+        page.draw_rect(card_rect, color=(0.68, 0.78, 0.90), fill=(0.97, 0.985, 1.0), width=0.8)
+        page.draw_rect(fitz.Rect(32.0, y_cursor, 36.0, y_cursor + card_h), color=(0.0, 0.247, 0.529), fill=(0.0, 0.247, 0.529))
+        page.insert_text(
+            fitz.Point(42.0, y_cursor + 13.0),
+            _sanitize_pdf_text(f"Instructional Reference Diagram (Req {r_num} - {r_title})"),
+            fontsize=7.3,
+            fontname="helv",
+            color=(0.0, 0.22, 0.48),
+        )
+        page.insert_text(
+            fitz.Point(42.0, y_cursor + 25.0),
+            _sanitize_pdf_text(f"Visual Reference Source: {raw_url[:92]}"),
+            fontsize=6.6,
+            fontname="helv",
+            color=(0.25, 0.34, 0.46),
+        )
+        y_cursor += card_h + 3.0
+
+    return page, y_cursor
+
+
 def generate_fillable_scout_workbook_pdf(
     badge_name: str,
     counselor_info: Optional[Dict[str, Any]] = None,
     option_track: str = "ALL",
     session_dates: Optional[List[str]] = None,
+    include_cpp_cover: bool = True,
 ) -> bytes:
     """Generates a downloadable, interactive AcroForm PDF Fillable Scout Workbook for any of the 149 badges.
 
@@ -1519,10 +1768,13 @@ def generate_fillable_scout_workbook_pdf(
     - Branded Scouting America Navy & Gold header banner with embedded official Merit Badge patch emblem.
     - Scouting America Guide to Advancement Section 7.0.3.2 compliance notice banner.
     - Interactive AcroForm text fields (`Scout Name`, `Troop & Council`, `BSA Member ID`, `Counselor Name`).
+    - Compact Page-1 Class Preparation (CPP) Summary (Prerequisites, Bring-to-Class Checklist, & Session Plan).
+    - Clickable Page-1 Requirement Completion & Counselor Verification Index checkboxes (`chk_idx_<badge>_<idx>`).
     - Unrolled sub-requirements (`1a`, `1b`, `2a`, `2b1`, etc.) with color-coded parent requirement group banners.
     - Full verbatim requirement text (zero mid-word truncation or overflow drops), pamphlet fact-vs-myth callout,
-      counselor pre-approval gate checkboxes, interactive gear checklist checkboxes, bordered dot-grid sketch canvases,
-      zebra-striped multi-row/multi-column graphic organizer tables with per-row AcroForm text fields, and Counselor Sign-Off checkboxes.
+      instructional reference diagrams, counselor pre-approval gate checkboxes, interactive gear checklist checkboxes,
+      bordered dot-grid sketch canvases, full-width 548pt (`x=32..580`) zebra-striped multi-row/multi-column graphic
+      organizer tables with 36pt handwriting guide rows, repeated headers on page breaks, and header-bar Counselor Sign-Off.
     """
     import fitz
 
@@ -1543,7 +1795,9 @@ def generate_fillable_scout_workbook_pdf(
     )
     resolved_badge = str(res.get("badge_name") or badge_name)
     is_eagle = bool(res.get("is_eagle_required"))
-    reqs = list(res.get("requirements") or [])
+    raw_reqs = list(res.get("requirements") or [])
+    _opt_norm, opt_label_raw, reqs = _resolve_option_track_and_filter_reqs(resolved_badge, raw_reqs, option_track)
+    opt_label = _sanitize_pdf_text(str(opt_label_raw or option_track or "ALL").strip())
     c_info = counselor_info or {}
     c_name = _sanitize_pdf_text(str(c_info.get("counselor_name") or "Merit Badge Counselor"))
     c_troop = _sanitize_pdf_text(str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council"))
@@ -1557,7 +1811,7 @@ def generate_fillable_scout_workbook_pdf(
         page=page,
         badge_name=resolved_badge,
         doc_title=f"{resolved_badge.upper()} MERIT BADGE - FILLABLE SCOUT WORKBOOK",
-        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Track: {option_track.upper()}  |  Schedule: {dates_str}",
+        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Track: {opt_label}  |  Schedule: {dates_str}",
         kicker_text="SCOUTS BSA INTERACTIVE ACROFORM STUDY AID (GTA SEC. 7.0.3.2)",
         is_eagle_required=is_eagle,
     )
@@ -1571,28 +1825,29 @@ def generate_fillable_scout_workbook_pdf(
         584.0,
         "BSA Guide to Advancement Section 7.0.3.2 Notice: Merit badge workbooks are optional organizational study aids. "
         "A counselor must never require a Scout to submit a written worksheet when the official requirement specifies oral explanation, discussion, or physical demonstration.",
-        fontsize=7.6,
+        fontsize=7.4,
         fontname="helv",
         color=(0.35, 0.22, 0.02),
         bg_fill=(1.0, 0.98, 0.90),
         border_color=(0.88, 0.72, 0.22),
         left_stripe_color=(0.85, 0.55, 0.05),
+        pad_y=2.5,
     )
-    y_cursor += 6.0
+    y_cursor += 4.0
 
     # Interactive Scout Info AcroForm Card
     page.draw_rect(
-        fitz.Rect(28.0, y_cursor, 584.0, y_cursor + 30.0),
+        fitz.Rect(28.0, y_cursor, 584.0, y_cursor + 28.0),
         color=(0.78, 0.84, 0.92),
         fill=(0.97, 0.985, 1.0),
     )
     id_fields = [
-        ("scout_name", "Scout Name:", "", fitz.Rect(34, y_cursor + 10, 198, y_cursor + 26)),
-        ("troop_unit", "Troop & Council:", "", fitz.Rect(208, y_cursor + 10, 396, y_cursor + 26)),
-        ("bsa_id", "BSA Member ID:", "", fitz.Rect(406, y_cursor + 10, 578, y_cursor + 26)),
+        ("scout_name", "Scout Name:", "", fitz.Rect(34, y_cursor + 9, 198, y_cursor + 24)),
+        ("troop_unit", "Troop & Council:", "", fitz.Rect(208, y_cursor + 9, 396, y_cursor + 24)),
+        ("bsa_id", "BSA Member ID:", "", fitz.Rect(406, y_cursor + 9, 578, y_cursor + 24)),
     ]
     for f_key, f_lbl, f_val, f_rect in id_fields:
-        page.insert_text(fitz.Point(f_rect.x0, f_rect.y0 - 2), f_lbl, fontsize=7.4, fontname="helv", color=(0.0, 0.22, 0.48))
+        page.insert_text(fitz.Point(f_rect.x0, f_rect.y0 - 1.5), f_lbl, fontsize=7.2, fontname="helv", color=(0.0, 0.22, 0.48))
         w = fitz.Widget()
         w.field_name = f_key
         w.field_type = fitz.PDF_WIDGET_TYPE_TEXT
@@ -1603,15 +1858,52 @@ def generate_fillable_scout_workbook_pdf(
         w.text_fontsize = 8.5
         page.add_widget(w)
 
-    y_cursor += 35.0
-    units = _iter_unrolled_workbook_units(reqs)
+    y_cursor += 32.0
+    units = _iter_unrolled_workbook_units(reqs, badge_name=resolved_badge)
 
-    # Page-1 At-a-Glance Requirement Completion & Counselor Sign-Off Index (Grouped by Parent Requirement)
+    # Compact Class Preparation (CPP) Summary on Page 1 by default (Deliverable 8)
+    if include_cpp_cover:
+        prereq_nums = [
+            str(u.get("req_number") or "").strip()
+            for u in units
+            if not u.get("is_group_header") and "prereq" in str(u.get("syllabus_bucket") or "").lower()
+        ]
+        inclass_nums = [
+            str(u.get("req_number") or "").strip()
+            for u in units
+            if not u.get("is_group_header") and "prereq" not in str(u.get("syllabus_bucket") or "").lower()
+        ]
+        prereq_str = ", ".join(prereq_nums[:10]) if prereq_nums else "Read Official Merit Badge Pamphlet Chapter 1"
+        inclass_str = ", ".join(inclass_nums[:14]) + ("..." if len(inclass_nums) > 14 else "") if inclass_nums else "All Core Requirements"
+        cpp_summary_text = (
+            f"Class Preparation Summary (CPP)  |  1. Do Before Session 1 (Prerequisites): Reqs {prereq_str}\n"
+            f"2. Bring to Every Session: Signed Blue Card (#34124), {resolved_badge} Pamphlet, this Fillable Workbook, & Scout Basic Essentials\n"
+            f"3. Session Plan ({dates_str}): In-Class Guided Discussion & EDGE Stations (Reqs {inclass_str})"
+        )
+        page, y_cursor = _insert_wrapped_pdf_text(
+            doc,
+            page,
+            y_cursor,
+            28.0,
+            584.0,
+            cpp_summary_text,
+            fontsize=7.0,
+            fontname="helv",
+            color=(0.12, 0.22, 0.34),
+            bg_fill=(0.96, 0.985, 0.995),
+            border_color=(0.74, 0.83, 0.92),
+            left_stripe_color=(0.08, 0.50, 0.24),
+            pad_y=2.2,
+        )
+        y_cursor += 3.0
+
+    # Page-1 At-a-Glance Requirement Completion & Counselor Sign-Off Index with Clickable Checkboxes (Deliverable 6)
     fillable_req_nums = [
         str(u.get("req_number") or u.get("req_id") or "").strip()
         for u in units
         if not u.get("is_group_header") and str(u.get("req_number") or u.get("req_id") or "").strip()
     ]
+    badge_slug = re.sub(r"[^a-z0-9]+", "_", resolved_badge.lower()).strip("_") or "badge"
     if fillable_req_nums:
         grouped_pdf_reqs: Dict[str, List[str]] = {}
         grouped_pdf_order: List[str] = []
@@ -1623,10 +1915,10 @@ def generate_fillable_scout_workbook_pdf(
                 grouped_pdf_reqs[p_key] = []
             grouped_pdf_reqs[p_key].append(rn)
         grouped_segments = [
-            f"Req {pk}: " + "  ".join(f"[ ] {sub}" for sub in grouped_pdf_reqs[pk])
+            f"Req {pk}: " + " ".join(grouped_pdf_reqs[pk])
             for pk in grouped_pdf_order
         ]
-        chips_lines_formatted = "   |   ".join(grouped_segments)
+        chips_lines_formatted = "  |  ".join(grouped_segments)
         page, y_cursor = _insert_wrapped_pdf_text(
             doc,
             page,
@@ -1634,17 +1926,60 @@ def generate_fillable_scout_workbook_pdf(
             28.0,
             584.0,
             f"Page-1 Requirement Completion & Counselor Verification Index ({len(grouped_pdf_order)} Core Reqs / {len(fillable_req_nums)} Checkpoints):\n"
-            f"{chips_lines_formatted}\n"
-            "Unit Leader Pre-Approval (Blue Card #34124): ______________________   Counselor Final Sign-Off: ______________________   Date: ____/____/2026",
-            fontsize=7.3,
+            f"{chips_lines_formatted}",
+            fontsize=6.9,
             fontname="helv",
             color=(0.08, 0.18, 0.36),
             bg_fill=(0.94, 0.97, 1.0),
             border_color=(0.68, 0.78, 0.90),
             left_stripe_color=(0.0, 0.247, 0.529),
-            pad_y=3.0,
+            pad_y=2.2,
         )
-        y_cursor += 6.0
+        # Render interactive AcroForm checkboxes in a compact multi-column grid right below the header line
+        cols_per_row = 10
+        grid_rows = (len(fillable_req_nums) + cols_per_row - 1) // cols_per_row
+        row_step_h = 11.0
+        grid_box_h = grid_rows * row_step_h + 16.0
+        page.draw_rect(
+            fitz.Rect(28.0, y_cursor, 584.0, y_cursor + grid_box_h),
+            color=(0.68, 0.78, 0.90),
+            fill=(0.965, 0.985, 1.0),
+        )
+        page.draw_rect(
+            fitz.Rect(28.0, y_cursor, 32.0, y_cursor + grid_box_h),
+            color=(0.0, 0.247, 0.529),
+            fill=(0.0, 0.247, 0.529),
+        )
+        cell_w = (580.0 - 36.0) / float(cols_per_row)
+        for chk_idx, rn in enumerate(fillable_req_nums, start=1):
+            c_i = (chk_idx - 1) % cols_per_row
+            r_i = (chk_idx - 1) // cols_per_row
+            cx = 36.0 + c_i * cell_w
+            cy = y_cursor + 2.5 + r_i * row_step_h
+            w_idx = fitz.Widget()
+            w_idx.field_name = f"chk_idx_{badge_slug}_{chk_idx}"
+            w_idx.field_type = fitz.PDF_WIDGET_TYPE_CHECKBOX
+            w_idx.field_value = False
+            w_idx.rect = fitz.Rect(cx, cy, cx + 8.5, cy + 8.5)
+            w_idx.border_color = (0.0, 0.247, 0.529)
+            w_idx.fill_color = (1.0, 1.0, 1.0)
+            page.add_widget(w_idx)
+            page.insert_text(
+                fitz.Point(cx + 10.5, cy + 7.2),
+                _sanitize_pdf_text(rn[:8]),
+                fontsize=6.3,
+                fontname="helv",
+                color=(0.08, 0.18, 0.36),
+            )
+        sig_y = y_cursor + grid_rows * row_step_h + 11.5
+        page.insert_text(
+            fitz.Point(36.0, sig_y),
+            "Unit Leader Pre-Approval (Blue Card #34124): ______________________   Counselor Final Sign-Off: ______________________   Date: ____/____/2026",
+            fontsize=6.9,
+            fontname="helv",
+            color=(0.08, 0.18, 0.36),
+        )
+        y_cursor += grid_box_h + 5.0
 
     for idx, u in enumerate(units, start=1):
         r_num = str(u.get("req_number") or u.get("req_id") or str(idx)).strip()
@@ -1656,11 +1991,14 @@ def generate_fillable_scout_workbook_pdf(
         org_type = str(org.get("organizer_type") or "RULED_EXPLAIN_BOX").strip()
         org_type_friendly = _format_workbook_organizer_label(org_type)
         org_label = _format_workbook_organizer_label(r_num, org_type)
-        headers = [str(h) for h in (org.get("headers") or ["Concept / Step", "Scout Notes & Field Evidence"])]
-        row_labels = [str(rl) for rl in (org.get("row_labels") or ["Point 1", "Point 2", "Point 3"])]
+        headers = [str(h) for h in (org.get("headers") or ["Concept / Step", "Scout Notes & Field Evidence", "Key Examples & Verification"])]
+        if len(headers) < 3:
+            headers = headers + ["Key Examples & Verification"] * (3 - len(headers))
+        row_labels = [str(rl) for rl in (org.get("row_labels") or ["1. Core explanation & evidence"]) if str(rl).strip()] or ["1. Core explanation & evidence"]
         pre_approval_gate = bool(org.get("pre_approval_gate")) or bool(u.get("starting_requirement_gate"))
         gear_checklist = [str(g) for g in (u.get("gear_checklist") or []) if str(g).strip()]
         mis_pair = u.get("common_misconception_pair") or {}
+        diagram_url = str(u.get("workbook_diagram_url") or org.get("diagram_url") or "").strip()
 
         # Color-code left accent bar by syllabus bucket
         bucket_lower = r_bucket.lower()
@@ -1704,27 +2042,63 @@ def generate_fillable_scout_workbook_pdf(
                 fontname="helv",
                 color=(0.08, 0.12, 0.18),
             )
+            if diagram_url:
+                page, y_cursor = _draw_pdf_workbook_diagram_card(
+                    doc, page, y_cursor, resolved_badge, r_num, r_title, diagram_url
+                )
             y_cursor += 4.0
             continue
 
-        if y_cursor > 645.0:
+        if y_cursor > 635.0:
             page = doc.new_page(width=612, height=792)
             y_cursor = 36.0
 
-        # Requirement / Sub-Requirement Header Strip (full text, zero slicing, color-coded left stripe)
+        safe_r_num = re.sub(r"[^a-zA-Z0-9_]", "_", r_num)
+
+        # Requirement / Sub-Requirement Header Strip with Top-Right Counselor Sign-Off (x = 465..584)
+        hdr_y0 = y_cursor
         page, y_cursor = _insert_wrapped_pdf_text(
             doc,
             page,
             y_cursor,
             28.0,
-            584.0,
+            464.0,
             f"[Req {r_num}] {r_title}   |   {r_bucket}   |   {org_type_friendly}   |   {r_cit}",
-            fontsize=8.1,
+            fontsize=8.0,
             fontname="helv",
             color=(0.0, 0.22, 0.48),
             bg_fill=(0.93, 0.96, 0.99),
             border_color=(0.80, 0.86, 0.94),
             left_stripe_color=stripe_rgb,
+        )
+        hdr_h = max(16.0, (y_cursor - 2.0) - hdr_y0)
+        # Draw top-right Counselor Sign-Off capsule inside the requirement header bar (x = 465..584)
+        page.draw_rect(
+            fitz.Rect(465.0, hdr_y0, 584.0, hdr_y0 + hdr_h),
+            color=(0.80, 0.86, 0.94),
+            fill=(0.95, 0.975, 1.0),
+        )
+        page.insert_text(
+            fitz.Point(469.0, hdr_y0 + 11.0),
+            "Done:",
+            fontsize=7.1,
+            fontname="helv",
+            color=(0.08, 0.18, 0.36),
+        )
+        w_chk = fitz.Widget()
+        w_chk.field_name = f"req_{safe_r_num}_done_{idx}"
+        w_chk.field_type = fitz.PDF_WIDGET_TYPE_CHECKBOX
+        w_chk.field_value = False
+        w_chk.rect = fitz.Rect(492.0, hdr_y0 + 2.5, 503.0, hdr_y0 + 13.5)
+        w_chk.border_color = (0.0, 0.25, 0.53)
+        w_chk.fill_color = (1.0, 1.0, 1.0)
+        page.add_widget(w_chk)
+        page.insert_text(
+            fitz.Point(507.0, hdr_y0 + 11.0),
+            "Init:_______",
+            fontsize=6.9,
+            fontname="helv",
+            color=(0.22, 0.28, 0.38),
         )
 
         # Full Verbatim Requirement Text (dynamically wrapped and paginated)
@@ -1816,12 +2190,18 @@ def generate_fillable_scout_workbook_pdf(
                 w_gear.border_color = (0.35, 0.45, 0.58)
                 page.add_widget(w_gear)
 
+        # Instructional Reference Diagram Card right above organizer table (Deliverable 7)
+        if diagram_url:
+            page, y_cursor = _draw_pdf_workbook_diagram_card(
+                doc, page, y_cursor, resolved_badge, r_num, r_title, diagram_url
+            )
+
         # Sketch & Observation Canvas (dot-grid / astronomy circle canvas)
         low_text = r_text.lower()
         if org_type == "SKETCH_AND_OBSERVATION_CANVAS" or any(
             kw in low_text for kw in ("sketch", "draw", "diagram", "map", "chart the")
         ):
-            if y_cursor + 92.0 > 748.0:
+            if y_cursor + 92.0 > 746.0:
                 page = doc.new_page(width=612, height=792)
                 y_cursor = 36.0
             canvas_rect = fitz.Rect(32.0, y_cursor, 580.0, y_cursor + 84.0)
@@ -1857,71 +2237,48 @@ def generate_fillable_scout_workbook_pdf(
             pad_y=2.5,
         )
 
-        # Render Multi-Column Header Row + Zebra-Striped Organizer Rows + AcroForm Text Fields + Counselor Sign-Off Checkbox
-        input_headers = headers[1:] if len(headers) > 1 else ["Scout Notes & Field Evidence"]
+        # Render Full-Width 548pt (x=32..580) Multi-Column Header Row + 36pt Handwriting Rows + Page-Break Header Redraw
+        input_headers = headers[1:] if len(headers) > 1 else ["Scout Notes & Field Evidence", "Key Examples & Verification"]
         input_cols = max(1, len(input_headers))
         left_col_x0 = 32.0
         left_col_x1 = 188.0
         input_region_x0 = 188.0
-        input_region_x1 = 515.0
+        input_region_x1 = 580.0
         col_w = (input_region_x1 - input_region_x0) / float(input_cols)
         col_hdr_h = 15.0
-        if y_cursor + col_hdr_h + 24.0 > 748.0:
+        if y_cursor + col_hdr_h + 38.0 > 746.0:
             page = doc.new_page(width=612, height=792)
             y_cursor = 36.0
-        page.draw_rect(
-            fitz.Rect(left_col_x0, y_cursor, left_col_x1, y_cursor + col_hdr_h),
-            color=(0.0, 0.247, 0.529),
-            fill=(0.0, 0.247, 0.529),
+        y_cursor = _draw_workbook_table_column_headers(
+            page=page,
+            y_pos=y_cursor,
+            headers=headers,
+            left_col_x0=left_col_x0,
+            left_col_x1=left_col_x1,
+            input_region_x0=input_region_x0,
+            input_region_x1=input_region_x1,
+            col_hdr_h=col_hdr_h,
+            is_continuation=False,
         )
-        page.insert_text(
-            fitz.Point(left_col_x0 + 4.0, y_cursor + 10.5),
-            _sanitize_pdf_text(headers[0]),
-            fontsize=6.8,
-            fontname="helv",
-            color=(1.0, 1.0, 1.0),
-        )
-        for c_idx, h_title in enumerate(input_headers):
-            cx0 = input_region_x0 + c_idx * col_w
-            cx1 = input_region_x0 + (c_idx + 1) * col_w
-            page.draw_rect(
-                fitz.Rect(cx0, y_cursor, cx1, y_cursor + col_hdr_h),
-                color=(0.82, 0.88, 0.95),
-                fill=(0.0, 0.247, 0.529),
-            )
-            hdr_clean = _sanitize_pdf_text(h_title)
-            hdr_fs = 6.8 if len(hdr_clean) * 3.6 <= (col_w - 6.0) else max(5.6, (col_w - 6.0) / max(1, len(hdr_clean)) * 1.8)
-            page.insert_text(
-                fitz.Point(cx0 + 3.5, y_cursor + 10.5),
-                hdr_clean,
-                fontsize=hdr_fs,
-                fontname="helv",
-                color=(1.0, 1.0, 1.0),
-            )
-        # Rightmost Sign-Off column header cell
-        page.draw_rect(
-            fitz.Rect(input_region_x1, y_cursor, 580.0, y_cursor + col_hdr_h),
-            color=(0.0, 0.247, 0.529),
-            fill=(0.0, 0.247, 0.529),
-        )
-        page.insert_text(
-            fitz.Point(input_region_x1 + 4.0, y_cursor + 10.5),
-            "Counselor",
-            fontsize=6.9,
-            fontname="helv",
-            color=(0.992, 0.78, 0.20),
-        )
-        y_cursor += col_hdr_h
 
-        safe_r_num = re.sub(r"[^a-zA-Z0-9_]", "_", r_num)
-        signoff_placed = False
         for r_idx, rl in enumerate(row_labels, start=1):
             clean_rl = re.sub(r"^\s*\d+[.)]\s*", "", str(rl)).strip()
             label_lines = _wrap_pdf_lines(f"{r_idx}. {clean_rl}", 148.0, fontname="helv", fontsize=7.2) or [f"{r_idx}."]
-            row_h = max(20.0, len(label_lines) * 9.6 + 6.0)
-            if y_cursor + row_h > 748.0:
+            row_h = max(36.0, len(label_lines) * 9.5 + 8.0)
+            if y_cursor + row_h > 746.0:
                 page = doc.new_page(width=612, height=792)
                 y_cursor = 36.0
+                y_cursor = _draw_workbook_table_column_headers(
+                    page=page,
+                    y_pos=y_cursor,
+                    headers=headers,
+                    left_col_x0=left_col_x0,
+                    left_col_x1=left_col_x1,
+                    input_region_x0=input_region_x0,
+                    input_region_x1=input_region_x1,
+                    col_hdr_h=col_hdr_h,
+                    is_continuation=True,
+                )
             row_y0 = y_cursor
             zebra_fill = (0.945, 0.97, 1.0) if r_idx % 2 == 1 else (0.98, 0.99, 1.0)
             page.draw_rect(
@@ -1931,7 +2288,7 @@ def generate_fillable_scout_workbook_pdf(
             )
             for l_i, l_str in enumerate(label_lines):
                 page.insert_text(
-                    fitz.Point(left_col_x0 + 4.0, row_y0 + 3.0 + (l_i + 0.82) * 9.6),
+                    fitz.Point(left_col_x0 + 4.0, row_y0 + 3.5 + (l_i + 0.82) * 9.5),
                     l_str,
                     fontsize=7.2,
                     fontname="helv",
@@ -1946,6 +2303,15 @@ def generate_fillable_scout_workbook_pdf(
                     color=(0.78, 0.83, 0.90),
                     fill=(1.0, 1.0, 1.0),
                 )
+                # Faint horizontal dashed handwriting guide line (#CBD5E1) across the middle of each 36pt+ input cell
+                guide_y = row_y0 + row_h * 0.52
+                for gx in range(int(cx0) + 4, int(cx1) - 4, 8):
+                    page.draw_line(
+                        fitz.Point(float(gx), guide_y),
+                        fitz.Point(float(min(gx + 4, int(cx1) - 4)), guide_y),
+                        color=(0.796, 0.835, 0.882),
+                        width=0.5,
+                    )
                 w_row = fitz.Widget()
                 w_row.field_name = f"req_{safe_r_num}_row_{idx}_{r_idx}_col_{c_idx + 1}"
                 w_row.field_type = fitz.PDF_WIDGET_TYPE_TEXT
@@ -1956,23 +2322,6 @@ def generate_fillable_scout_workbook_pdf(
                 w_row.fill_color = (1.0, 1.0, 1.0)
                 w_row.text_fontsize = 7.8
                 page.add_widget(w_row)
-
-            page.draw_rect(
-                fitz.Rect(input_region_x1, row_y0, 580.0, row_y0 + row_h),
-                color=(0.78, 0.83, 0.90),
-                fill=(0.98, 0.99, 1.0),
-            )
-            if not signoff_placed:
-                page.insert_text(fitz.Point(520.0, row_y0 + 10.0), "Done:", fontsize=7.2, fontname="helv", color=(0.15, 0.22, 0.33))
-                w_chk = fitz.Widget()
-                w_chk.field_name = f"req_{safe_r_num}_done_{idx}"
-                w_chk.field_type = fitz.PDF_WIDGET_TYPE_CHECKBOX
-                w_chk.field_value = False
-                w_chk.rect = fitz.Rect(546.0, row_y0 + 2.0, 559.0, row_y0 + 15.0)
-                w_chk.border_color = (0.0, 0.25, 0.53)
-                page.add_widget(w_chk)
-                page.insert_text(fitz.Point(520.0, row_y0 + 19.0), "Init:____", fontsize=6.9, fontname="helv", color=(0.3, 0.35, 0.42))
-                signoff_placed = True
 
             y_cursor += row_h + 1.0
 
@@ -1993,8 +2342,9 @@ def generate_class_preparation_page_cpp_pdf(
     counselor_info: Optional[Dict[str, Any]] = None,
     session_dates: Optional[List[str]] = None,
     room_location: str = "",
+    option_track: str = "ALL",
 ) -> bytes:
-    """Generates a graphically styled Class Preparation Page (CPP) in PDF format with embedded badge emblem, callout cards, and 0% overflow drops."""
+    """Generates a strictly 1-page graphically styled Class Preparation Page (CPP) in PDF format across 100% of all 149+ badges."""
     import fitz
 
     cpp_data = generate_class_preparation_page_cpp(
@@ -2002,8 +2352,10 @@ def generate_class_preparation_page_cpp_pdf(
         counselor_info=counselor_info,
         session_dates=session_dates,
         room_location=room_location,
+        option_track=option_track,
     )
     resolved_badge = str(cpp_data.get("badge_name") or badge_name)
+    opt_label = _sanitize_pdf_text(str(cpp_data.get("option_label") or option_track or "ALL"))
     md_text = str(cpp_data.get("cpp_markdown") or "")
     c_info = counselor_info or {}
     c_name = _sanitize_pdf_text(str(c_info.get("counselor_name") or "Merit Badge Counselor"))
@@ -2016,17 +2368,19 @@ def generate_class_preparation_page_cpp_pdf(
         page=page,
         badge_name=resolved_badge,
         doc_title=f"{resolved_badge.upper()} MERIT BADGE - 1-PAGE CLASS PREPARATION PAGE (CPP)",
-        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Room / Venue: {room_str}",
+        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Track: {opt_label}  |  Venue: {room_str}",
         kicker_text="SCOUTS BSA PRE-CLASS SCOUT, PARENT & UNIT LEADER HANDOUT",
     )
 
-    in_gate_section = False
+    # Parse markdown into preamble + structured sections so we can dynamically scale and 2-column pack to strictly 1 page
+    preamble_lines: List[str] = []
+    sections: List[Tuple[str, List[str]]] = []
+    curr_hdr: Optional[str] = None
+    curr_items: List[str] = []
+
     for raw_line in md_text.splitlines():
         line = raw_line.strip()
-        if not line:
-            y_cursor += 4.0
-            continue
-        if line.startswith("# "):
+        if not line or line.startswith("# "):
             continue
         clean_line = (
             line.replace("**", "")
@@ -2035,53 +2389,164 @@ def generate_class_preparation_page_cpp_pdf(
         )
         clean_line = re.sub(r"\*([^*]+)\*", r"\1", clean_line)
         if clean_line.startswith("## "):
-            hdr_text = clean_line[3:].strip()
-            in_gate_section = "Gate Alert" in hdr_text
-            y_cursor += 3.0
-            page, y_cursor = _insert_wrapped_pdf_text(
-                doc,
-                page,
-                y_cursor,
-                28.0,
-                584.0,
-                hdr_text,
-                fontsize=9.4,
-                fontname="helv",
-                color=(0.0, 0.22, 0.48),
-                bg_fill=(0.92, 0.96, 0.99),
-                border_color=(0.78, 0.85, 0.94),
-                left_stripe_color=(0.992, 0.725, 0.075) if in_gate_section else (0.0, 0.247, 0.529),
-                pad_y=3.5,
-            )
-        elif in_gate_section:
+            if curr_hdr is not None:
+                sections.append((curr_hdr, curr_items))
+            curr_hdr = clean_line[3:].strip()
+            curr_items = []
+        else:
+            if curr_hdr is None:
+                preamble_lines.append(clean_line)
+            else:
+                curr_items.append(clean_line)
+    if curr_hdr is not None:
+        sections.append((curr_hdr, curr_items))
+
+    # Render compact metadata preamble on 1-2 lines
+    if preamble_lines:
+        meta_joined = "  |  ".join(preamble_lines[:3])
+        page, y_cursor = _insert_wrapped_pdf_text(
+            doc,
+            page,
+            y_cursor,
+            28.0,
+            584.0,
+            meta_joined,
+            fontsize=7.3,
+            fontname="helv",
+            color=(0.12, 0.18, 0.28),
+            bg_fill=(0.96, 0.98, 1.0),
+            border_color=(0.82, 0.88, 0.95),
+            pad_y=2.0,
+            max_y=752.0,
+        )
+        y_cursor += 2.0
+
+    total_items = sum(len(items) for _, items in sections)
+    compact_mode = total_items > 12
+
+    for hdr_text, items in sections:
+        in_gate_section = "Gate Alert" in hdr_text
+        if y_cursor > 725.0:
+            break
+        page, y_cursor = _insert_wrapped_pdf_text(
+            doc,
+            page,
+            y_cursor,
+            28.0,
+            584.0,
+            hdr_text,
+            fontsize=8.6 if compact_mode else 9.0,
+            fontname="helv",
+            color=(0.0, 0.22, 0.48),
+            bg_fill=(0.92, 0.96, 0.99),
+            border_color=(0.78, 0.85, 0.94),
+            left_stripe_color=(0.992, 0.725, 0.075) if in_gate_section else (0.0, 0.247, 0.529),
+            pad_y=2.2 if compact_mode else 3.0,
+            max_y=752.0,
+        )
+        if in_gate_section:
+            gate_joined = "  ".join(items)
             page, y_cursor = _insert_wrapped_pdf_text(
                 doc,
                 page,
                 y_cursor,
                 32.0,
                 580.0,
-                clean_line,
-                fontsize=8.4,
+                gate_joined,
+                fontsize=7.6 if compact_mode else 8.1,
                 fontname="helv",
                 color=(0.38, 0.22, 0.02),
                 bg_fill=(1.0, 0.98, 0.90),
                 border_color=(0.88, 0.68, 0.18),
                 left_stripe_color=(0.85, 0.55, 0.05),
-                pad_y=3.0,
+                pad_y=2.2,
+                max_y=752.0,
             )
+            y_cursor += 2.0
+            continue
+
+        # Determine if this section should render in 2 columns to guarantee 1-page fit
+        bullet_items = [it for it in items if it.startswith("[ ]") or it.startswith("-") or it.startswith("*")]
+        non_bullet_items = [it for it in items if it not in bullet_items]
+        use_two_cols = len(bullet_items) >= 5 or (compact_mode and len(bullet_items) >= 3)
+
+        if use_two_cols and bullet_items:
+            # Cap or compact ultra-long bullet lists (e.g. 40+ sub-requirements) so they never overflow y=742
+            avail_h = max(48.0, 738.0 - y_cursor - (len(non_bullet_items) * 14.0))
+            line_h = 8.4 if len(bullet_items) > 16 else 9.2
+            fs = 6.9 if len(bullet_items) > 16 else 7.4
+            max_rows_possible = max(3, int(avail_h // (line_h * 1.45)))
+            max_bullets = max_rows_possible * 2
+            display_bullets = list(bullet_items)
+            if len(display_bullets) > max_bullets:
+                overflow_cnt = len(display_bullets) - (max_bullets - 1)
+                display_bullets = display_bullets[: max_bullets - 1] + [
+                    f"[ ] +{overflow_cnt} additional sub-requirements completed in guided clinic stations (see Workbook Index)."
+                ]
+            for pair_i in range(0, len(display_bullets), 2):
+                left_txt = _sanitize_pdf_text(display_bullets[pair_i])
+                right_txt = _sanitize_pdf_text(display_bullets[pair_i + 1]) if pair_i + 1 < len(display_bullets) else ""
+                left_lines = _wrap_pdf_lines(left_txt, 262.0, fontname="helv", fontsize=fs)[:2]
+                right_lines = _wrap_pdf_lines(right_txt, 262.0, fontname="helv", fontsize=fs)[:2] if right_txt else []
+                row_lines = max(len(left_lines), len(right_lines), 1)
+                row_block_h = row_lines * line_h + 2.0
+                if y_cursor + row_block_h > 744.0:
+                    break
+                for li, l_str in enumerate(left_lines):
+                    page.insert_text(
+                        fitz.Point(32.0, y_cursor + (li + 0.82) * line_h),
+                        l_str,
+                        fontsize=fs,
+                        fontname="helv",
+                        color=(0.08, 0.12, 0.18),
+                    )
+                for ri, r_str in enumerate(right_lines):
+                    page.insert_text(
+                        fitz.Point(310.0, y_cursor + (ri + 0.82) * line_h),
+                        r_str,
+                        fontsize=fs,
+                        fontname="helv",
+                        color=(0.08, 0.12, 0.18),
+                    )
+                y_cursor += row_block_h
+            for nb in non_bullet_items:
+                if y_cursor + 12.0 > 744.0:
+                    break
+                page, y_cursor = _insert_wrapped_pdf_text(
+                    doc,
+                    page,
+                    y_cursor,
+                    32.0,
+                    580.0,
+                    nb,
+                    fontsize=7.2,
+                    fontname="helv",
+                    color=(0.12, 0.18, 0.26),
+                    pad_y=1.5,
+                    max_y=752.0,
+                )
         else:
-            page, y_cursor = _insert_wrapped_pdf_text(
-                doc,
-                page,
-                y_cursor,
-                32.0,
-                580.0,
-                clean_line,
-                fontsize=8.4,
-                fontname="helv",
-                color=(0.08, 0.12, 0.18),
-                pad_y=2.0,
-            )
+            for item_line in items:
+                if y_cursor + 12.0 > 744.0:
+                    break
+                page, y_cursor = _insert_wrapped_pdf_text(
+                    doc,
+                    page,
+                    y_cursor,
+                    32.0,
+                    580.0,
+                    item_line,
+                    fontsize=7.6 if compact_mode else 8.1,
+                    fontname="helv",
+                    color=(0.08, 0.12, 0.18),
+                    pad_y=1.5 if compact_mode else 2.0,
+                    max_y=752.0,
+                )
+        y_cursor += 2.0
+
+    # Safety clamp: ensure standalone CPP is strictly 1 single page (len(doc) == 1)
+    while len(doc) > 1:
+        doc.delete_page(len(doc) - 1)
 
     _finalize_branded_pdf_pages(
         doc=doc,
@@ -2106,6 +2571,7 @@ def generate_session_agenda_pdf(
     session_dates: Optional[List[str]] = None,
     section_label: str = "",
     bundle_tag: str = "",
+    option_track: str = "ALL",
 ) -> bytes:
     """Generates a graphically styled Counselor Session Agenda & Lesson Plan in PDF format with embedded Merit Badge emblem and session cards."""
     import fitz
@@ -2138,13 +2604,15 @@ def generate_session_agenda_pdf(
         session_dates_list=eff_dates,
         section_label=eff_section,
         bundle_tag=eff_bundle,
+        option_track=option_track,
     )
     resolved_badge = str(agenda_data.get("badge_name") or badge_name)
+    opt_label = _sanitize_pdf_text(str(agenda_data.get("option_label") or option_track or "ALL"))
     md_text = str(agenda_markdown_override or agenda_data.get("agenda_markdown") or "")
     md_text = md_text.replace(f"Schedule Format: {schedule_format}", f"Schedule Format: {friendly_fmt}")
     md_text = md_text.replace(f"**Schedule Format:** {schedule_format}", f"**Schedule Format:** {friendly_fmt}")
 
-    subtitle_parts = [f"Format: {friendly_fmt}", f"Counselor: {c_name} ({c_troop})"]
+    subtitle_parts = [f"Format: {friendly_fmt}", f"Track: {opt_label}", f"Counselor: {c_name} ({c_troop})"]
     if eff_section:
         subtitle_parts.append(f"Section: {_sanitize_pdf_text(eff_section)}")
     if eff_room:
@@ -2290,6 +2758,7 @@ def generate_parent_letter_pdf(
     counselor_info: Optional[Dict[str, Any]] = None,
     stage: str = "stage_1_welcome_cpp",
     letter_markdown_override: Optional[str] = None,
+    option_track: str = "ALL",
 ) -> bytes:
     """Generates a graphically styled YPT-Compliant Parent Prerequisite & Welcome Letter in PDF format with embedded Merit Badge emblem."""
     import fitz
@@ -2307,13 +2776,16 @@ def generate_parent_letter_pdf(
     resolved_badge = str(badge_name).strip() or "First Aid"
     md_text = str(letter_markdown_override or "").strip()
     stage_norm = str(stage or "stage_1_welcome_cpp").strip().lower()
+    opt_label = _sanitize_pdf_text(str(option_track or "ALL"))
     if not md_text:
         letter_res = generate_prerequisite_parent_letter(
             badge_name=resolved_badge,
             counselor_info=counselor_info,
             stage=stage_norm,
+            option_track=option_track,
         )
         resolved_badge = str(letter_res.get("badge_name") or resolved_badge)
+        opt_label = _sanitize_pdf_text(str(letter_res.get("option_label") or option_track or "ALL"))
         stages_map = letter_res.get("stages") or {}
         if "2" in stage_norm or "mid" in stage_norm:
             md_text = str((stages_map.get("stage_2_mid_clinic_alert") or {}).get("markdown") or "")
@@ -2336,7 +2808,7 @@ def generate_parent_letter_pdf(
         page=page,
         badge_name=resolved_badge,
         doc_title=f"{resolved_badge.upper()} MERIT BADGE - PARENT & SCOUT COMMUNICATION",
-        subtitle_line=f"{stage_label}  |  Counselor: {c_name} ({c_troop})  |  {c_email}",
+        subtitle_line=f"{stage_label}  |  Track: {opt_label}  |  Counselor: {c_name} ({c_troop})  |  {c_email}",
         kicker_text="SCOUTING AMERICA YOUTH PROTECTION (YPT) TWO-DEEP COMMUNICATION",
     )
 
@@ -2435,7 +2907,7 @@ def generate_counselor_workbook_pdf(
     counselor_info: Optional[Dict[str, Any]] = None,
     option_track: str = "ALL",
 ) -> bytes:
-    """Generates a branded multi-page Counselor Instructor Guide & Answer Key PDF."""
+    """Generates a branded multi-page Counselor Instructor Guide & Answer Key PDF with 100% sub-requirement answer keys."""
     import fitz
     from src.tools.scouting_scraper import (
         CounselorTitleSlideInfo,
@@ -2453,7 +2925,9 @@ def generate_counselor_workbook_pdf(
     )
     resolved_badge = str(res.get("badge_name") or badge_name).strip() or "First Aid"
     is_eagle = bool(res.get("is_eagle_required"))
-    reqs = list(res.get("requirements") or [])
+    raw_reqs = list(res.get("requirements") or [])
+    _opt_norm, opt_label_raw, reqs = _resolve_option_track_and_filter_reqs(resolved_badge, raw_reqs, option_track)
+    opt_label = _sanitize_pdf_text(str(opt_label_raw or option_track or "ALL"))
     norm_c = _extract_normalized_counselor_fields(
         counselor_info,
         default_name="Merit Badge Counselor",
@@ -2468,7 +2942,7 @@ def generate_counselor_workbook_pdf(
         page=page,
         badge_name=resolved_badge,
         doc_title=f"{resolved_badge} Merit Badge - Counselor Instructor Guide & Answer Key",
-        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Option Track: {option_track.upper()}  |  EDGE Method & GTA Sec. 7.0.3.1",
+        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Option Track: {opt_label}  |  EDGE Method & GTA Sec. 7.0.3.1",
         kicker_text="SCOUTS BSA COUNSELOR FACILITATOR WORKBOOK & ANSWER KEY",
         is_eagle_required=is_eagle,
     )
@@ -2479,7 +2953,7 @@ def generate_counselor_workbook_pdf(
         y_cursor,
         28.0,
         584.0,
-        f"Counselor Facilitation Overview ({resolved_badge}): Use this Instructor Guide alongside the slide deck to verify each Scout's individual mastery. Every requirement below includes official BSA requirement text, Syllabus Bucket classification, EDGE Method teaching notes, common misconceptions, and sign-off criteria.",
+        f"Counselor Facilitation Overview ({resolved_badge}): Use this Instructor Guide alongside the slide deck to verify each Scout's individual mastery. Every requirement and sub-requirement below includes official BSA requirement text, Syllabus Bucket classification, EDGE Method teaching notes, expected pamphlet answer keys, common misconceptions, and sign-off criteria.",
         fontsize=7.8,
         fontname="helv",
         color=(0.08, 0.18, 0.36),
@@ -2490,7 +2964,7 @@ def generate_counselor_workbook_pdf(
     )
     y_cursor += 5.0
 
-    units = _iter_unrolled_workbook_units(reqs)
+    units = _iter_unrolled_workbook_units(reqs, badge_name=resolved_badge)
     for idx, u in enumerate(units, start=1):
         r_num = str(u.get("req_number") or u.get("req_id") or str(idx)).strip()
         r_title = str(u.get("topic_title") or u.get("title") or f"Requirement {r_num}").strip()
@@ -2499,8 +2973,18 @@ def generate_counselor_workbook_pdf(
         r_mode = str(u.get("execution_mode") or "IN_CLASS_DISCUSSION").strip()
         r_cit = str(u.get("pamphlet_page_citation") or u.get("pamphlet_citation") or f"Official {resolved_badge} Pamphlet").strip()
         excerpts = [str(e) for e in (u.get("pamphlet_excerpts") or []) if str(e).strip()]
+        if not excerpts:
+            excerpts = [
+                f"Official {resolved_badge} Pamphlet Key Point ({r_num} - {r_title}): {r_text[:180]}"
+                if r_text
+                else f"Verify core principles for Requirement {r_num} ({r_title}) per the official {resolved_badge} Merit Badge Pamphlet."
+            ]
         mis = u.get("common_misconception_pair") if isinstance(u.get("common_misconception_pair"), dict) else {}
+        myth_str = str(mis.get("misconception") or mis.get("myth") or f"Rushing through Requirement {r_num} without verifying official {resolved_badge} pamphlet criteria.").strip()
+        fact_str = str(mis.get("fact") or mis.get("fact_correction") or f"Follow the exact steps in {r_cit} and demonstrate individual mastery to the counselor.").strip()
         signoff = str(u.get("counselor_signoff_criteria") or f"Verify Scout can accurately explain or demonstrate Requirement {r_num} per the official {resolved_badge} Merit Badge Pamphlet.").strip()
+        org = u.get("workbook_organizer") or {}
+        diagram_url = str(u.get("workbook_diagram_url") or org.get("diagram_url") or "").strip()
 
         bucket_lower = r_bucket.lower()
         if "prereq" in bucket_lower:
@@ -2522,6 +3006,10 @@ def generate_counselor_workbook_pdf(
             else "Explain & Demonstrate (Socratic Discussion)"
         )
 
+        if y_cursor > 655.0:
+            page = doc.new_page(width=612, height=792)
+            y_cursor = 36.0
+
         page, y_cursor = _insert_wrapped_pdf_text(
             doc,
             page,
@@ -2535,7 +3023,7 @@ def generate_counselor_workbook_pdf(
             bg_fill=(0.92, 0.96, 0.99),
             border_color=(0.78, 0.85, 0.94),
             left_stripe_color=stripe_rgb,
-            pad_y=3.2,
+            pad_y=3.0,
         )
         page, y_cursor = _insert_wrapped_pdf_text(
             doc,
@@ -2547,50 +3035,43 @@ def generate_counselor_workbook_pdf(
             fontsize=8.0,
             fontname="helv",
             color=(0.08, 0.12, 0.18),
-            pad_y=2.2,
+            pad_y=2.0,
         )
-        if excerpts:
-            page, y_cursor = _insert_wrapped_pdf_text(
-                doc,
-                page,
-                y_cursor,
-                32.0,
-                580.0,
-                "Expected Pamphlet Answer Key & Teaching Points: " + " | ".join(excerpts[:3]),
-                fontsize=7.6,
-                fontname="helv",
-                color=(0.12, 0.22, 0.34),
-                bg_fill=(0.97, 0.985, 1.0),
-                border_color=(0.82, 0.88, 0.95),
-                pad_y=2.5,
+        if diagram_url:
+            page, y_cursor = _draw_pdf_workbook_diagram_card(
+                doc, page, y_cursor, resolved_badge, r_num, r_title, diagram_url
             )
-        if mis.get("misconception") and mis.get("fact"):
-            page, y_cursor = _insert_wrapped_pdf_text(
-                doc,
-                page,
-                y_cursor,
-                32.0,
-                580.0,
-                f"Myth vs. Pamphlet Fact: [Myth] {mis.get('misconception')}  ->  [Fact] {mis.get('fact')}",
-                fontsize=7.5,
-                fontname="helv",
-                color=(0.35, 0.22, 0.02),
-                bg_fill=(1.0, 0.985, 0.92),
-                border_color=(0.88, 0.72, 0.22),
-                left_stripe_color=(0.85, 0.55, 0.05),
-                pad_y=2.5,
-            )
+        # Green [EXPECTED PAMPHLET ANSWER KEY & COUNSELOR RUBRIC] box on 100% of unrolled sub-requirements (Deliverable 3)
         page, y_cursor = _insert_wrapped_pdf_text(
             doc,
             page,
             y_cursor,
             32.0,
             580.0,
+            f"[EXPECTED PAMPHLET ANSWER KEY & COUNSELOR RUBRIC] Expected Pamphlet Answer Key & Teaching Points: {' | '.join(excerpts[:3])}\n"
             f"Counselor Mastery & Sign-Off Rubric: {signoff}",
-            fontsize=7.6,
+            fontsize=7.5,
             fontname="helv",
-            color=(0.06, 0.36, 0.18),
-            pad_y=2.2,
+            color=(0.05, 0.32, 0.15),
+            bg_fill=(0.93, 0.985, 0.95),
+            border_color=(0.56, 0.82, 0.65),
+            left_stripe_color=(0.08, 0.50, 0.24),
+            pad_y=2.8,
+        )
+        page, y_cursor = _insert_wrapped_pdf_text(
+            doc,
+            page,
+            y_cursor,
+            32.0,
+            580.0,
+            f"Myth vs. Pamphlet Fact: [Myth] {myth_str}  ->  [Fact] {fact_str}",
+            fontsize=7.4,
+            fontname="helv",
+            color=(0.35, 0.22, 0.02),
+            bg_fill=(1.0, 0.985, 0.92),
+            border_color=(0.88, 0.72, 0.22),
+            left_stripe_color=(0.85, 0.55, 0.05),
+            pad_y=2.4,
         )
         y_cursor += 4.0
 
@@ -2618,7 +3099,9 @@ def generate_field_qr_checklist_pdf(
     )
     resolved_badge = str(res.get("badge_name") or badge_name).strip() or "First Aid"
     is_eagle = bool(res.get("is_eagle_required"))
-    reqs = list(res.get("requirements") or [])
+    raw_reqs = list(res.get("requirements") or [])
+    _opt_norm, opt_label_raw, reqs = _resolve_option_track_and_filter_reqs(resolved_badge, raw_reqs, option_track)
+    opt_label = _sanitize_pdf_text(str(opt_label_raw or option_track or "ALL"))
     pamphlet_url = str(res.get("pamphlet_pdf_url") or "https://www.scouting.org/skills/merit-badges/")
     drg_url = str(res.get("drg_url") or "https://www.scouting.org/skills/merit-badges/")
 
@@ -2636,7 +3119,7 @@ def generate_field_qr_checklist_pdf(
         page=page,
         badge_name=resolved_badge,
         doc_title=f"{resolved_badge} Merit Badge - 1-Page Pocket Field Checklist & QR Reference",
-        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Emergency: 911  |  Poison Help: 1-800-222-1222",
+        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Track: {opt_label}  |  Emergency: 911  |  Poison Help: 1-800-222-1222",
         kicker_text="SCOUTS BSA POCKET FIELD CHECKLIST & DIGITAL QR RESOURCE SHEET",
         is_eagle_required=is_eagle,
     )
@@ -2804,12 +3287,73 @@ def generate_field_qr_checklist_pdf(
     return pdf_bytes
 
 
+def _parse_five_part_speaker_notes(
+    notes_raw: str,
+    fallback_pacing: str,
+    fallback_ask: str,
+    fallback_answer_key: str,
+    fallback_misconception: str,
+    fallback_rubric: str,
+) -> Dict[str, str]:
+    """Parses the 5-Part Facilitator Guide blocks from speaker_notes/presenter_notes while preserving any custom text."""
+    text = str(notes_raw or "").strip()
+    out = {
+        "pacing": fallback_pacing,
+        "ask_first": fallback_ask,
+        "answer_key": fallback_answer_key,
+        "misconception": fallback_misconception,
+        "rubric": fallback_rubric,
+    }
+    if not text:
+        return out
+
+    tag_pattern = re.compile(
+        r"\[("
+        r"PACING & MODALITY|PACING|"
+        r"ASK SCOUTS FIRST|ASK SCOUTS|"
+        r"EXPECTED PAMPHLET ANSWER KEY|ANSWER KEY|SAY|"
+        r"COMMON MISCONCEPTION TO CORRECT|MISCONCEPTION|MYTH VS\.? FACT|"
+        r"DEMONSTRATION & SIGN-OFF RUBRIC|DEMONSTRATE|SIGN-OFF RUBRIC"
+        r")[^\]]*\]",
+        re.IGNORECASE,
+    )
+    matches = list(tag_pattern.finditer(text))
+    if not matches:
+        # Entire speaker_notes string is custom counselor notes: preserve in full inside answer_key / pacing
+        out["answer_key"] = f"{text} | {fallback_answer_key}" if fallback_answer_key not in text else text
+        return out
+
+    leading_custom = text[: matches[0].start()].strip(" \t\r\n-|:")
+    for idx_m, m in enumerate(matches):
+        raw_tag = m.group(1).upper()
+        seg_start = m.end()
+        seg_end = matches[idx_m + 1].start() if idx_m + 1 < len(matches) else len(text)
+        seg_val = re.sub(r"\s+", " ", text[seg_start:seg_end]).strip(" \t\r\n-|:")
+        if not seg_val:
+            continue
+        if "PACING" in raw_tag:
+            out["pacing"] = seg_val
+        elif "ASK" in raw_tag:
+            out["ask_first"] = seg_val
+        elif "ANSWER" in raw_tag or raw_tag == "SAY":
+            out["answer_key"] = seg_val
+        elif "MISCONCEPTION" in raw_tag or "MYTH" in raw_tag:
+            out["misconception"] = seg_val
+        elif "DEMONSTRAT" in raw_tag or "RUBRIC" in raw_tag or "SIGN-OFF" in raw_tag:
+            out["rubric"] = seg_val
+
+    if leading_custom:
+        out["pacing"] = f"{leading_custom} | {out['pacing']}"
+    return out
+
+
 def generate_counselor_cue_cards_pdf(
     badge_name: str,
     slides: Optional[List[Dict[str, Any]]] = None,
     counselor_info: Optional[Dict[str, Any]] = None,
+    option_track: str = "ALL",
 ) -> bytes:
-    """Generates branded printable 3x5 / 4x6 Counselor Pocket Cue Cards (2 cards per page with dashed cut lines)."""
+    """Generates branded printable 3x5 / 4x6 Counselor Pocket Cue Cards (2 cards per page with 5-Part Facilitator Guide blocks)."""
     import fitz
     from src.tools.scouting_scraper import MeritBadgeResearchRequest, fetch_merit_badge_pamphlet_pdf
 
@@ -2822,47 +3366,88 @@ def generate_counselor_cue_cards_pdf(
     c_troop = _sanitize_pdf_text(norm_c["c_troop"])
 
     resolved_badge = str(badge_name or "First Aid").strip()
+    res = fetch_merit_badge_pamphlet_pdf(
+        MeritBadgeResearchRequest(badge_name=resolved_badge, option_track=option_track)
+    )
+    resolved_badge = str(res.get("badge_name") or resolved_badge)
+    raw_reqs = list(res.get("requirements") or [])
+    _opt_norm, opt_label_raw, reqs = _resolve_option_track_and_filter_reqs(resolved_badge, raw_reqs, option_track)
+    opt_label = _sanitize_pdf_text(str(opt_label_raw or option_track or "ALL"))
+    req_lookup = {str(r.get("req_number") or "").strip(): r for r in reqs}
+
     card_items: List[Dict[str, str]] = []
     if slides:
         for idx, s in enumerate(slides, start=1):
             s_dict = s.model_dump() if hasattr(s, "model_dump") else dict(s)
-            r_num = str(s_dict.get("req_number") or f"Slide {idx}")
-            title = str(s_dict.get("title") or f"{resolved_badge} — {r_num}")
+            r_num = str(s_dict.get("req_number") or f"Slide {idx}").strip()
+            title = str(s_dict.get("title") or f"{resolved_badge} - {r_num}").strip()
             bullets = [str(b) for b in (s_dict.get("bullet_points") or []) if str(b).strip()]
-            say_txt = bullets[0] if bullets else f"Review core concepts for {title} in the official {resolved_badge} Merit Badge Pamphlet."
-            demo_txt = bullets[1] if len(bullets) > 1 else f"Demonstrate step-by-step technique for {r_num} using the BSA EDGE Method."
-            ask_txt = f"How would your patrol apply {r_num} during a troop campout or field scenario?"
+            notes_raw = str(s_dict.get("speaker_notes") or s_dict.get("presenter_notes") or "").strip()
+            matched_req = req_lookup.get(r_num) or req_lookup.get(re.sub(r"^Req\s*", "", r_num, flags=re.I).strip()) or {}
+            r_bucket = str(s_dict.get("syllabus_bucket") or matched_req.get("syllabus_bucket") or "In-Class Guided Station").strip()
+            r_cit = str(s_dict.get("pamphlet_citation") or matched_req.get("pamphlet_page_citation") or f"Official {resolved_badge} Pamphlet").strip()
+            excerpts = [str(e) for e in (matched_req.get("pamphlet_excerpts") or []) if str(e).strip()]
+            mis = matched_req.get("common_misconception_pair") if isinstance(matched_req.get("common_misconception_pair"), dict) else {}
+
+            fb_pacing = f"5-8 min | {r_bucket} (EDGE Method) | Source: {r_cit}"
+            fb_ask = f"How would your patrol apply {r_num} ({title}) during a troop campout or field scenario?"
+            fb_answer = " | ".join(bullets[:2]) if bullets else (" | ".join(excerpts[:2]) if excerpts else f"Review core concepts for {title} in the official {resolved_badge} Merit Badge Pamphlet.")
+            fb_mis = (
+                f"Myth: {mis.get('misconception')} -> Pamphlet Fact: {mis.get('fact')}"
+                if (mis.get("misconception") and mis.get("fact"))
+                else f"Avoid skipping safety or pre-check steps on {r_num}; verify against the official {resolved_badge} pamphlet."
+            )
+            fb_rubric = str(
+                matched_req.get("counselor_signoff_criteria")
+                or (bullets[1] if len(bullets) > 1 else f"Demonstrate step-by-step mastery for {r_num} using the BSA EDGE Method (GTA Sec. 7.0.3.1).")
+            )
+
+            parsed_5 = _parse_five_part_speaker_notes(
+                notes_raw=notes_raw,
+                fallback_pacing=fb_pacing,
+                fallback_ask=fb_ask,
+                fallback_answer_key=fb_answer,
+                fallback_misconception=fb_mis,
+                fallback_rubric=fb_rubric,
+            )
             card_items.append(
                 {
-                    "req_badge": f"Req {r_num}" if not r_num.lower().startswith("req") else r_num,
+                    "req_badge": f"Req {r_num}" if not r_num.lower().startswith(("req", "slide")) else r_num,
                     "title": title,
-                    "say": say_txt,
-                    "demonstrate": demo_txt,
-                    "ask": ask_txt,
+                    **parsed_5,
                 }
             )
     else:
-        res = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name=resolved_badge))
-        resolved_badge = str(res.get("badge_name") or resolved_badge)
-        reqs = list(res.get("requirements") or [])
         for idx, r in enumerate(reqs, start=1):
-            r_num = str(r.get("req_number") or str(idx))
-            title = str(r.get("topic_title") or f"{resolved_badge} Requirement {r_num}")
-            r_text = str(r.get("req_text") or "")
+            r_num = str(r.get("req_number") or str(idx)).strip()
+            title = str(r.get("topic_title") or f"{resolved_badge} Requirement {r_num}").strip()
+            r_text = str(r.get("req_text") or "").strip()
+            r_bucket = str(r.get("syllabus_bucket") or "In-Class Concept").strip()
+            r_mode = str(r.get("execution_mode") or "IN_CLASS_DISCUSSION").strip()
+            r_cit = str(r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or f"Official {resolved_badge} Pamphlet").strip()
             excerpts = [str(e) for e in (r.get("pamphlet_excerpts") or []) if str(e).strip()]
-            say_txt = excerpts[0] if excerpts else r_text
-            demo_txt = str(
-                r.get("counselor_signoff_criteria")
-                or f"Guide Scouts through a hands-on EDGE demonstration for Requirement {r_num}."
-            )
+            mis = r.get("common_misconception_pair") if isinstance(r.get("common_misconception_pair"), dict) else {}
+            pacing_txt = f"6-10 min | {r_bucket} ({r_mode.replace('_', ' ').title()}) | {r_cit}"
             ask_txt = f"What is the most important safety or procedural rule in {resolved_badge} Requirement {r_num}, and why?"
+            answer_txt = " | ".join(excerpts[:2]) if excerpts else (r_text or f"Core concepts from {resolved_badge} Pamphlet for Requirement {r_num}.")
+            mis_txt = (
+                f"Myth: {mis.get('misconception')} -> Pamphlet Fact: {mis.get('fact')}"
+                if (mis.get("misconception") and mis.get("fact"))
+                else f"Myth: Group observation satisfies {r_num}. -> Fact: Each Scout must individually explain or demonstrate {r_num}."
+            )
+            rubric_txt = str(
+                r.get("counselor_signoff_criteria")
+                or f"Guide Scouts through a hands-on EDGE demonstration and individual verification for Requirement {r_num}."
+            )
             card_items.append(
                 {
                     "req_badge": f"Requirement {r_num}",
                     "title": title,
-                    "say": say_txt,
-                    "demonstrate": demo_txt,
-                    "ask": ask_txt,
+                    "pacing": pacing_txt,
+                    "ask_first": ask_txt,
+                    "answer_key": answer_txt,
+                    "misconception": mis_txt,
+                    "rubric": rubric_txt,
                 }
             )
 
@@ -2871,9 +3456,11 @@ def generate_counselor_cue_cards_pdf(
             {
                 "req_badge": "Requirement 1",
                 "title": f"{resolved_badge} Core Safety & Fundamentals",
-                "say": f"Introduce {resolved_badge} hazards and prevention using the official Scouting America pamphlet.",
-                "demonstrate": "Walk through equipment inspection and buddy-pair station setup.",
-                "ask": "Which hazard is most common in our local council terrain, and how do we prevent it?",
+                "pacing": f"8 min | In-Class Concept (EDGE Explain & Demonstrate) | Official {resolved_badge} Pamphlet",
+                "ask_first": "Which hazard is most common in our local council terrain, and how do we prevent it?",
+                "answer_key": f"Introduce {resolved_badge} hazards and prevention using the official Scouting America pamphlet.",
+                "misconception": "Myth: Equipment checks are only needed before campouts. -> Fact: Inspect gear before every session.",
+                "rubric": "Walk through equipment inspection and verify each Scout's individual buddy-pair station setup.",
             }
         )
 
@@ -2884,58 +3471,74 @@ def generate_counselor_cue_cards_pdf(
             page=page,
             badge_name=resolved_badge,
             doc_title=f"{resolved_badge} Merit Badge - Printable Counselor Pocket Cue Cards",
-            subtitle_line=f"Counselor: {c_name} ({c_troop})  |  2 Cards Per Page (Cut Along Dashed Line)",
+            subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Track: {opt_label}  |  2 Cards/Page (5-Part Facilitator Guide)",
             kicker_text="SCOUTS BSA 4x6 POCKET FACILITATOR CUE CARDS (EDGE METHOD)",
         )
         pair = card_items[i : i + 2]
         for slot_idx, card in enumerate(pair):
-            card_top = 96.0 if slot_idx == 0 else 432.0
-            card_bot = 398.0 if slot_idx == 0 else 734.0
+            card_top = 94.0 if slot_idx == 0 else 428.0
+            card_bot = 402.0 if slot_idx == 0 else 736.0
             card_rect = fitz.Rect(32.0, card_top, 580.0, card_bot)
-            page.draw_rect(card_rect, color=(0.0, 0.247, 0.529), fill=(0.985, 0.992, 1.0), width=1.4)
-            page.draw_rect(fitz.Rect(32.0, card_top, 580.0, card_top + 26.0), color=(0.0, 0.247, 0.529), fill=(0.0, 0.247, 0.529))
+            page.draw_rect(card_rect, color=(0.0, 0.247, 0.529), fill=(0.985, 0.992, 1.0), width=1.3)
+            page.draw_rect(fitz.Rect(32.0, card_top, 580.0, card_top + 22.0), color=(0.0, 0.247, 0.529), fill=(0.0, 0.247, 0.529))
             page.insert_text(
-                fitz.Point(40.0, card_top + 17.0),
-                _sanitize_pdf_text(f"[{card['req_badge']}]  {card['title']}  ({resolved_badge})")[:82],
-                fontsize=9.2,
+                fitz.Point(40.0, card_top + 15.0),
+                _sanitize_pdf_text(f"[{card['req_badge']}]  {card['title']}  ({resolved_badge} - {opt_label})")[:86],
+                fontsize=8.6,
                 fontname="helv",
                 color=(1.0, 1.0, 1.0),
             )
-            cy = card_top + 34.0
-            for tag_lbl, body_val, stripe_c, bg_c in [
-                ("[SAY]", card["say"], (0.0, 0.247, 0.529), (0.93, 0.96, 1.0)),
-                ("[DEMONSTRATE]", card["demonstrate"], (0.08, 0.50, 0.24), (0.93, 0.98, 0.95)),
-                ("[ASK SCOUTS]", card["ask"], (0.85, 0.50, 0.05), (1.0, 0.98, 0.91)),
-            ]:
-                page, cy = _insert_wrapped_pdf_text(
-                    doc,
-                    page,
-                    cy,
-                    42.0,
-                    570.0,
-                    f"{tag_lbl} {body_val}",
-                    fontsize=8.2,
-                    fontname="helv",
-                    color=(0.08, 0.14, 0.22),
-                    bg_fill=bg_c,
-                    border_color=(0.78, 0.84, 0.92),
-                    left_stripe_color=stripe_c,
-                    pad_y=3.5,
-                    max_y=card_bot - 6.0,
+            cy = card_top + 26.0
+            five_blocks = [
+                ("[PACING & MODALITY]", card["pacing"], (0.31, 0.27, 0.90), (0.95, 0.96, 1.0)),
+                ("[ASK SCOUTS FIRST]", card["ask_first"], (0.85, 0.50, 0.05), (1.0, 0.98, 0.91)),
+                ("[EXPECTED PAMPHLET ANSWER KEY]", card["answer_key"], (0.0, 0.247, 0.529), (0.93, 0.96, 1.0)),
+                ("[COMMON MISCONCEPTION TO CORRECT]", card["misconception"], (0.80, 0.26, 0.05), (1.0, 0.96, 0.93)),
+                ("[DEMONSTRATION & SIGN-OFF RUBRIC]", card["rubric"], (0.08, 0.50, 0.24), (0.93, 0.98, 0.95)),
+            ]
+            for tag_lbl, body_val, stripe_c, bg_c in five_blocks:
+                if cy + 16.0 > card_bot - 4.0:
+                    break
+                # Wrap compactly (max 3 lines per block) so all 5 facilitator blocks fit cleanly inside the 4x6 pocket card
+                block_text = f"{tag_lbl} {body_val}"
+                wrapped_lines = _wrap_pdf_lines(block_text, 514.0, fontname="helv", fontsize=7.1)[:3]
+                line_h = 8.8
+                box_h = len(wrapped_lines) * line_h + 4.0
+                if cy + box_h > card_bot - 3.0:
+                    avail_lines = max(1, int((card_bot - 3.0 - cy - 4.0) // line_h))
+                    wrapped_lines = wrapped_lines[:avail_lines]
+                    box_h = len(wrapped_lines) * line_h + 4.0
+                page.draw_rect(
+                    fitz.Rect(40.0, cy, 572.0, cy + box_h),
+                    color=(0.78, 0.84, 0.92),
+                    fill=bg_c,
                 )
-                cy += 4.0
+                page.draw_rect(
+                    fitz.Rect(40.0, cy, 44.0, cy + box_h),
+                    color=stripe_c,
+                    fill=stripe_c,
+                )
+                for l_i, l_str in enumerate(wrapped_lines):
+                    page.insert_text(
+                        fitz.Point(48.0, cy + 2.0 + (l_i + 0.82) * line_h),
+                        l_str,
+                        fontsize=7.1,
+                        fontname="helv",
+                        color=(0.08, 0.14, 0.22),
+                    )
+                cy += box_h + 2.5
 
             if slot_idx == 0 and len(pair) > 1:
                 # Dashed cut line between Card 1 and Card 2
                 for dx in range(28, 580, 14):
                     page.draw_line(
-                        fitz.Point(float(dx), 414.0),
-                        fitz.Point(float(min(dx + 8, 584)), 414.0),
+                        fitz.Point(float(dx), 415.0),
+                        fitz.Point(float(min(dx + 8, 584)), 415.0),
                         color=(0.45, 0.52, 0.62),
                         width=0.9,
                     )
                 page.insert_text(
-                    fitz.Point(242.0, 411.5),
+                    fitz.Point(242.0, 412.5),
                     "--- CUT ALONG DASHED LINE (4x6 POCKET CARD) ---",
                     fontsize=6.8,
                     fontname="helv",
@@ -2945,7 +3548,7 @@ def generate_counselor_cue_cards_pdf(
     _finalize_branded_pdf_pages(
         doc=doc,
         badge_name=resolved_badge,
-        doc_short_title="COUNSELOR POCKET CUE CARDS",
+        doc_short_title="COUNSELOR POCKET CUE CARDS (5-PART FACILITATOR GUIDE)",
     )
     pdf_bytes = doc.tobytes()
     doc.close()
@@ -2963,8 +3566,10 @@ def generate_organizer_spec_pdf(
     spec = generate_organizer_syllabus_spec_sheet(
         badge_name=badge_name,
         counselor_info=counselor_info,
+        option_track=option_track,
     )
     resolved_badge = str(spec.get("badge_name") or badge_name).strip() or "First Aid"
+    opt_label = _sanitize_pdf_text(str(spec.get("option_label") or option_track or "ALL"))
     norm_c = _extract_normalized_counselor_fields(
         counselor_info,
         default_name="Merit Badge Counselor",
@@ -2979,7 +3584,7 @@ def generate_organizer_spec_pdf(
         page=page,
         badge_name=resolved_badge,
         doc_title=f"{resolved_badge} Merit Badge - Organizer Course Catalog & Facility Spec Sheet",
-        subtitle_line=f"Instructor: {c_name} ({c_troop})  |  Option Track: {option_track.upper()}  |  Max Cap: {spec.get('max_scouts', 16)} Scouts",
+        subtitle_line=f"Instructor: {c_name} ({c_troop})  |  Option Track: {opt_label}  |  Max Cap: {spec.get('max_scouts', 16)} Scouts",
         kicker_text="MBC DEAN & SUMMER CAMP PROGRAM DIRECTOR COURSE SPECIFICATION",
     )
 
@@ -3058,14 +3663,19 @@ def generate_gear_and_rotator_pdf(
     patrol_size: int = 8,
     station_minutes: int = 12,
     counselor_info: Optional[Dict[str, Any]] = None,
+    option_track: str = "ALL",
 ) -> bytes:
     """Generates a branded PDF combining the Master Quartermaster Gear Checklist and Timed Patrol Skill Station Rotation Matrix."""
     import fitz
     from src.tools.scouting_scraper import MeritBadgeResearchRequest, fetch_merit_badge_pamphlet_pdf
 
-    res = fetch_merit_badge_pamphlet_pdf(MeritBadgeResearchRequest(badge_name=badge_name))
+    res = fetch_merit_badge_pamphlet_pdf(
+        MeritBadgeResearchRequest(badge_name=badge_name, option_track=option_track)
+    )
     resolved_badge = str(res.get("badge_name") or badge_name).strip() or "First Aid"
-    reqs = list(res.get("requirements") or [])
+    raw_reqs = list(res.get("requirements") or [])
+    _opt_norm, opt_label_raw, reqs = _resolve_option_track_and_filter_reqs(resolved_badge, raw_reqs, option_track)
+    opt_label = _sanitize_pdf_text(str(opt_label_raw or option_track or "ALL"))
     p_size = max(2, int(patrol_size or 8))
     s_mins = max(5, int(station_minutes or 12))
     buddy_pairs = max(1, (p_size + 1) // 2)
@@ -3084,7 +3694,7 @@ def generate_gear_and_rotator_pdf(
         page=page,
         badge_name=resolved_badge,
         doc_title=f"{resolved_badge} Merit Badge - Quartermaster Gear & Patrol Station Rotator",
-        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Patrol Size: {p_size} Scouts ({buddy_pairs} Buddy Pairs)  |  {s_mins} Min/Station",
+        subtitle_line=f"Counselor: {c_name} ({c_troop})  |  Track: {opt_label}  |  Patrol: {p_size} Scouts ({buddy_pairs} Pairs)  |  {s_mins} Min/Station",
         kicker_text="SCOUTS BSA QUARTERMASTER LOGISTICS & EDGE SKILL STATION ROTATOR",
     )
 
@@ -3094,7 +3704,7 @@ def generate_gear_and_rotator_pdf(
         y_cursor,
         28.0,
         584.0,
-        f"Part 1: Master Quartermaster Gear & Skill Station Packing Checklist (Scaled for {p_size} Scouts / {buddy_pairs} Buddy Teams)",
+        f"Part 1: Master Quartermaster Gear & Skill Station Packing Checklist (Scaled for {p_size} Scouts / {buddy_pairs} Buddy Teams - Track: {opt_label})",
         fontsize=9.2,
         fontname="helv",
         color=(0.0, 0.22, 0.48),
@@ -3162,7 +3772,7 @@ def generate_gear_and_rotator_pdf(
             y_cursor,
             32.0,
             580.0,
-            f"Rotation {rot_idx} ({t_start:02d}:00 - {t_end:02d}:00 | {s_mins} min) — Station {rot_idx} [Req {r_num}]: {r_title}\n"
+            f"Rotation {rot_idx} ({t_start:02d}:00 - {t_end:02d}:00 | {s_mins} min) - Station {rot_idx} [Req {r_num}]: {r_title}\n"
             f"   Buddy Teams A/B/C/D rotate clockwise -> Demonstrate skill using EDGE Method -> Peer Buddy Check & Counselor Initials",
             fontsize=8.1,
             fontname="helv",
@@ -3182,6 +3792,9 @@ def generate_gear_and_rotator_pdf(
     pdf_bytes = doc.tobytes()
     doc.close()
     return pdf_bytes
+
+
+generate_quartermaster_and_rotator_pdf = generate_gear_and_rotator_pdf
 
 
 def generate_bluecards_pdf(

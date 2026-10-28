@@ -41,37 +41,38 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "HAZARD_5COL",
-            "table_title": "Req 1a Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+            "table_title": "Req 1a Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix",
             "headers": [
-              "Hazard / Risk",
-              "Anticipate",
-              "Help Prevent",
-              "Mitigate",
-              "Respond"
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
             ],
             "column_headers": [
-              "Hazard / Risk",
-              "Anticipate",
-              "Help Prevent",
-              "Mitigate",
-              "Respond"
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
             ],
             "row_labels": [
-              "Hazard #1",
-              "Hazard #2",
-              "Hazard #3",
-              "Hazard #4",
-              "Hazard #5"
+              "1. Primary Environmental Hazard in Basketry",
+              "2. Equipment or Tool Handling Hazard",
+              "3. Acute Physical / Medical Injury Risk",
+              "4. Emergency Communication & Evacuation Protocol"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Primary Environmental Hazard in Basketry",
+              "2. Equipment or Tool Handling Hazard",
+              "3. Acute Physical / Medical Injury Risk",
+              "4. Emergency Communication & Evacuation Protocol"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
-            "misconception": "Scouts can jump straight into Basketry hands-on activities and address hazards only after an incident occurs.",
-            "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Basketry prevents field injuries.",
-            "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Basketry prevents field injuries.",
-            "pamphlet_page_ref": "Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)"
+            "misconception": "Experienced Basketry participants only need to review safety rules and emergency procedures after an incident occurs.",
+            "fact": "The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Basketry Hazards and First Aid activity (p. 8, p. 9).",
+            "fact_correction": "The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Basketry Hazards and First Aid activity (p. 8, p. 9).",
+            "pamphlet_page_ref": "p. 8, p. 9"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -96,7 +97,12 @@
           ],
           "id": "1a",
           "sub_req_label": "1a",
-          "sub_req_text": "Explain to your counselor the hazards you are most likely to encounter while using basketry tools and materials, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards."
+          "sub_req_text": "Explain to your counselor the hazards you are most likely to encounter while using basketry tools and materials, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
+          "topic_title": "Req 1a: Basketry Hazards and First Aid",
+          "pamphlet_summary": "Basketry Hazards and First Aid: Hazards, First Aid & Safety Principle 3: The projects needed to complete the Basketry merit badge weredesigned to increase your weaving skills (p. 8).",
+          "pamphlet_excerpts": [
+            "Basketry Hazards and First Aid: Hazards, First Aid & Safety Principle 3: The projects needed to complete the Basketry merit badge weredesigned to increase your weaving skills (p. 8)."
+          ]
         },
         {
           "sub_id": "1b",
@@ -112,31 +118,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Study & Explanation Notes",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Prevention of and First-aid Treatment)",
             "headers": [
-              "Req 1b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 1b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 1b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Cuts",
-              "Scratches",
-              "Scrapes",
-              "That could occur while working with basketry tools",
-              "Materials"
+              "1. Core Definition & Mechanism (Prevention of and First-aid Treatment)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 5,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Prevention of and First-aid Treatment)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on cuts.",
-            "fact": "Scouts must discuss cuts using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9).",
-            "fact_correction": "Scouts must discuss cuts using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9).",
-            "pamphlet_page_ref": "Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)"
+            "misconception": "General familiarity with Discuss, prevention is sufficient for Basketry Requirement 1b without citing specific functional mechanisms.",
+            "fact": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Prevention of and First-aid Treatment (p. 8, p. 9).",
+            "fact_correction": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Prevention of and First-aid Treatment (p. 8, p. 9).",
+            "pamphlet_page_ref": "p. 8, p. 9"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -161,7 +172,12 @@
           ],
           "id": "1b",
           "sub_req_label": "1b",
-          "sub_req_text": "Discuss the prevention of and first-aid treatment for injuries, including cuts, scratches, and scrapes, that could occur while working with basketry tools and materials."
+          "sub_req_text": "Discuss the prevention of and first-aid treatment for injuries, including cuts, scratches, and scrapes, that could occur while working with basketry tools and materials.",
+          "topic_title": "Req 1b: Prevention of and First-aid Treatment",
+          "pamphlet_summary": "Prevention of and First-aid Treatment: Hazards, First Aid & Safety Principle 4: Traditional styles ofbasket weaving are perhaps as old as the art itself, and thebasic steps are easy to learn (p. 8).",
+          "pamphlet_excerpts": [
+            "Prevention of and First-aid Treatment: Hazards, First Aid & Safety Principle 4: Traditional styles ofbasket weaving are perhaps as old as the art itself, and thebasic steps are easy to learn (p. 8)."
+          ]
         }
       ],
       "resources": [
@@ -200,36 +216,33 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "HAZARD_5COL",
-        "table_title": "Req 1 Five-Column Hazard Matrix (Anticipate, Prevent, Mitigate, Respond)",
+        "table_title": "Req 1 Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix",
         "headers": [
-          "Hazard / Risk",
-          "Anticipate",
-          "Help Prevent",
-          "Mitigate",
-          "Respond"
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
         ],
         "column_headers": [
-          "Hazard / Risk",
-          "Anticipate",
-          "Help Prevent",
-          "Mitigate",
-          "Respond"
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
         ],
         "row_labels": [
-          "Hazard #1",
-          "Hazard #2",
-          "Hazard #3",
-          "Hazard #4",
-          "Hazard #5"
+          "(1a) Basketry Hazards and First Aid",
+          "(1b) Prevention of and First-aid Treatment"
         ],
-        "min_rows": 5,
-        "pre_approval_gate": false
+        "rows": [
+          "(1a) Basketry Hazards and First Aid",
+          "(1b) Prevention of and First-aid Treatment"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can jump straight into Basketry hands-on activities and address hazards only after an incident occurs.",
-        "fact": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Basketry prevents field injuries.",
-        "fact_correction": "Anticipating hazards, verifying PPE, and establishing prevention, mitigation, and response plans before starting Basketry prevents field injuries.",
-        "pamphlet_page_ref": "Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)"
+        "misconception": "Experienced Basketry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "fact": "The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 8, p. 9).",
+        "fact_correction": "The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 8, p. 9).",
+        "pamphlet_page_ref": "p. 8, p. 9"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -253,61 +266,90 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Point Scissors Pliers: Point scissors and pliers away from your body when working with reed.",
-        "Bracing Hand Away: Keep your bracing hand away from the path ofthe scissors.",
-        "Projects Complete Basketry: The projects needed to complete the Basketry merit badge weredesigned to increase your weaving skills.",
-        "Traditional Styles Ofbasket: Traditional styles ofbasket weaving are perhaps as old as the art itself, and thebasic steps are easy to learn."
+        "Hazards, First Aid & Safety: Point scissors and pliers away from your body when working with reed (p. 8).",
+        "Hazards, First Aid & Safety Principle 2: Keep your bracing hand away from the path of the scissors (p. 8).",
+        "Hazards, First Aid & Safety Principle 3: The projects needed to complete the Basketry merit badge weredesigned to increase your weaving skills (p. 8).",
+        "Hazards, First Aid & Safety Principle 4: Traditional styles ofbasket weaving are perhaps as old as the art itself, and thebasic steps are easy to learn (p. 8)."
       ],
       "step_by_step_procedure": [
-        "Section Sometips Understand: This section will give you sometips to help you understand the fundamentals.",
-        "Note: The instructions and photos in this pamphletdescribe projects from a right-handed person’s viewpoint.",
-        "Left-handed Adjust Stepsso: If you are left-handed, you may adjust the stepsso that you are more comfortable.",
-        "Pocketknife Cut Willow: You can use a pocketknife to cut willow or whatever natural materials youcan gather to make a basket."
+        "Step 1 (Hazards, First Aid & Safety): This section will give you sometips to help you understand the fundamentals (p. 8).",
+        "Step 2 (Hazards, First Aid & Safety): Note: The instructions and photos in this pamphletdescribe projects from a right-handed person's viewpoint (p. 8).",
+        "Step 3 (Hazards, First Aid & Safety): If you are left-handed, you may adjust the stepsso that you are more comfortable (p. 8).",
+        "Step 4 (Hazards, First Aid & Safety): You can use a pocketknife to cut willow or whatever natural materials you can gather to make a basket (p. 8)."
       ],
       "gear_checklist": [
-        "Official Basketry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 1)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Hazards, First Aid & Safety",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Basketry Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Hazards, First Aid & Safety)",
+        "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
+        "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs.",
+        "Emergency action plan checklist and simulated patient assessment cards."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Basketry Approach",
-        "right_header": "Official BSA Basketry Standard (Hazards, First Aid & Safety)",
+        "left_header": "Proactive Hazard Prevention (Hazards, First Aid & Safety)",
+        "right_header": "Acute Emergency Response (Hazards, First Aid & Safety)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Hazards, First Aid & Safety.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Eliminate environmental and equipment risks before starting.",
+          "Hazards, First Aid & Safety: Point scissors and pliers away from your body when working with reed (p. 8).",
+          "Pre-activity PPE, weather, and buddy shakedown."
         ],
         "right_points": [
-          "Reviews Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Basketry Workbook organizer.",
-          "Clearly demonstrates and explains Hazards, First Aid & Safety using the BSA EDGE method."
+          "Stabilize injuries and prevent secondary harm immediately.",
+          "Hazards, First Aid & Safety Principle 2: Keep your bracing hand away from the path of the scissors (p. 8).",
+          "Scene safety assessment, triage, and first-aid execution."
+        ],
+        "rows": [
+          {
+            "attribute": "Primary Objective",
+            "left": "Eliminate environmental and equipment risks before starting.",
+            "right": "Stabilize injuries and prevent secondary harm immediately."
+          },
+          {
+            "attribute": "Key Field Action",
+            "left": "Hazards, First Aid & Safety: Point scissors and pliers away from your body when working with reed (p. 8).",
+            "right": "Hazards, First Aid & Safety Principle 2: Keep your bracing hand away from the path of the scissors (p. 8)."
+          },
+          {
+            "attribute": "Verification Check",
+            "left": "Pre-activity PPE, weather, and buddy shakedown.",
+            "right": "Scene safety assessment, triage, and first-aid execution."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Basketry Req 1",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Field Hazard & First-Aid Protocol: Basketry Req 1 (Hazards, First Aid & Safety)",
+        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
-          "Requirement & Topic": "Req 1 - Hazards, First Aid & Safety",
-          "Primary Standard": "Explain to your counselor the hazards you are most likely to encounter while using basketry tools and materials, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Basketry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9) and verified during counselor conference."
+          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Hazards, First Aid & Safety.",
+          "Preventive Controls & PPE": "Hazards, First Aid & Safety: Point scissors and pliers away from your body when working with reed (p. 8).",
+          "Acute First-Aid Response": "Hazards, First Aid & Safety Principle 2: Keep your bracing hand away from the path of the scissors (p. 8).",
+          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)."
         },
-        "counselor_tip": "Complete your Basketry Req 1 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Hazards, First Aid & Safety: Hazards, First Aid & Safety: Point scissors and pliers away from your body when working with reed (p. 8).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before starting hands-on or field work for Basketry (Hazards, First Aid & Safety), which patrol preparation step best aligns with the official Basketry standard?",
+        "scenario_prompt": "While working on Basketry Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Basketry Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
         "options": [
-          "Review the Basketry hazards, PPE, and prerequisite standards in Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9) with your counselor and patrol buddy before beginning",
-          "Begin the practical station immediately and review the safety rules only if a problem occurs",
-          "Rely on another patrol's notes instead of inspecting your own equipment and workspace",
-          "Skip the pre-activity briefing when practicing indoors"
+          "A. The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+          "B. Experienced Basketry participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
         ],
-        "correct_answer": "Option A - Review the Basketry hazards, PPE, and prerequisite standards in Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9) with your counselor and patrol buddy before beginning",
-        "explanation": "Per Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9), anticipating hazards, inspecting gear, and reviewing requirements before starting keeps every Scout safe and prepared."
+        "choices": [
+          "A. The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+          "B. Experienced Basketry participants only need to review safety rules and emergency procedures after an incident occurs.",
+          "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+        ],
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "explanation": "Correct Answer (A): The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 8, p. 9). (Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)).",
+        "pamphlet_page_ref": "p. 8, p. 9"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Basketry Workbook organizer table and practical demonstration for Req 1."
+      "homework_verification_note": "Verify completed Basketry Workbook organizer table and practical demonstration for Req 1.",
+      "workbook_diagram_url": "assets/ai_illustrations/basketry_req_1_workbook_diagram.png"
     },
     {
       "req_id": "2",
@@ -333,35 +375,37 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "STEP_BY_STEP_CHECKLIST",
-            "table_title": "Req 2a Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Counselor That You)",
             "headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Skill / Step Element",
-              "Technique & Safety Standard",
-              "Buddy Practice Check",
-              "Counselor Sign-Off"
+              "Req 2a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show your counselor that you are able to identify the following types",
-              "2. Key Pamphlet Examples & Evidence (Req 2a)",
-              "3. Practical Show & Safety Verification"
+              "1. Core Definition & Mechanism (Counselor That You)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false,
-            "is_physical_demonstration": true
+            "rows": [
+              "1. Core Definition & Mechanism (Counselor That You)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show your counselor that you are able to identify the following types.",
-            "fact": "Scouts must show show your counselor that you are able to identify the following types using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12).",
-            "fact_correction": "Scouts must show show your counselor that you are able to identify the following types using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12).",
-            "pamphlet_page_ref": "Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)"
+            "misconception": "Describing how to perform Show Your Counselor That You verbally can substitute for a physical hands-on demonstration in Basketry Requirement 2a.",
+            "fact": "Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Show Your Counselor That You with proper technique (p. 11, p. 12).",
+            "fact_correction": "Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Show Your Counselor That You with proper technique (p. 11, p. 12).",
+            "pamphlet_page_ref": "p. 11, p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -386,7 +430,12 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Show your counselor that you are able to identify the following types of baskets: plaited, coiled, ribbed, and wicker."
+          "sub_req_text": "Show your counselor that you are able to identify the following types of baskets: plaited, coiled, ribbed, and wicker.",
+          "topic_title": "Req 2a: Counselor That You",
+          "pamphlet_summary": "Counselor That You: Show Your Counselor That You: Your counselor that you are able Principle 4: Continuous weave looks much the same as plainweave, but it is woven with a different technique (p. 11).",
+          "pamphlet_excerpts": [
+            "Counselor That You: Show Your Counselor That You: Your counselor that you are able Principle 4: Continuous weave looks much the same as plainweave, but it is woven with a different technique (p. 11)."
+          ]
         },
         {
           "sub_id": "2b",
@@ -410,29 +459,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Study & Explanation Notes",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Different Types of Weaves)",
             "headers": [
-              "Req 2b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 2b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Describe three different types of weaves to your counselor",
-              "Pamphlet Standard & Key Facts (2b)",
-              "Field Application & Counselor Verification (Describe)"
+              "1. Core Definition & Mechanism (Different Types of Weaves)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Different Types of Weaves)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on describe three different types of weaves to your counselor.",
-            "fact": "Scouts must describe describe three different types of weaves to your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12).",
-            "fact_correction": "Scouts must describe describe three different types of weaves to your counselor using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12).",
-            "pamphlet_page_ref": "Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)"
+            "misconception": "General familiarity with Describe, three is sufficient for Basketry Requirement 2b without citing specific functional mechanisms.",
+            "fact": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Three Different Types of Weaves (p. 11, p. 12).",
+            "fact_correction": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Three Different Types of Weaves (p. 11, p. 12).",
+            "pamphlet_page_ref": "p. 11, p. 12"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -457,7 +513,12 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Describe three different types of weaves to your counselor."
+          "sub_req_text": "Describe three different types of weaves to your counselor.",
+          "topic_title": "Req 2b: Different Types of Weaves",
+          "pamphlet_summary": "Different Types of Weaves: Three Different Types of Weaves: Your counselor that you are able: The following are common weaves used in this pamphlet (p. 11).",
+          "pamphlet_excerpts": [
+            "Different Types of Weaves: Three Different Types of Weaves: Your counselor that you are able: The following are common weaves used in this pamphlet (p. 11)."
+          ]
         }
       ],
       "resources": [
@@ -490,7 +551,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Your counselor that you are able",
+      "topic_title": "Req 2: Basketry Applied Field Standard",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -499,33 +560,32 @@
       "pamphlet_page_citation": "Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "STEP_BY_STEP_CHECKLIST",
-        "table_title": "Req 2 Practical Skill & Verification Checklist (GTA 7.0.3.2)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Basketry Applied Field Standard)",
         "headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 2 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill / Step Element",
-          "Technique & Safety Standard",
-          "Buddy Practice Check",
-          "Counselor Sign-Off"
+          "Req 2 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Show your counselor that you are able to identify the following types",
-          "(b) Describe three different types of weaves to your counselor"
+          "(2a) Counselor That You",
+          "(2b) Different Types of Weaves"
         ],
-        "min_rows": 2,
-        "pre_approval_gate": false,
-        "is_physical_demonstration": true
+        "rows": [
+          "(2a) Counselor That You",
+          "(2b) Different Types of Weaves"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on show your counselor that you are able to identify the following types.",
-        "fact": "Scouts must demonstrate show your counselor that you are able to identify the following types using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12).",
-        "fact_correction": "Scouts must demonstrate show your counselor that you are able to identify the following types using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12).",
-        "pamphlet_page_ref": "Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)"
+        "misconception": "Describing how to perform Your counselor that you are able verbally can substitute for a physical hands-on demonstration in Basketry Requirement 2.",
+        "fact": "Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your counselor that you are able with proper technique (p. 11, p. 12).",
+        "fact_correction": "Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your counselor that you are able with proper technique (p. 11, p. 12).",
+        "pamphlet_page_ref": "p. 11, p. 12"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -549,36 +609,87 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Common Weaves: The following are common weaves used in this pamphlet.",
-        "Over-under Weave Plainweave: Sometimes called over-under weave, the plainweave is done with rigid stakes or spokes, and weavers thatwrap around the stakes in an over-one.",
-        "Spokes Stakes Rigid: Spokes and stakes usually are more rigid and thicker reedthan weavers.",
-        "Continuous Weave Looks: Continuous weave looks much the same as plainweave, but it is woven with a different technique."
+        "Basketry Applied Field Standard: Your counselor that you are able: The following are common weaves used in this pamphlet (p. 11).",
+        "Basketry Applied Field Standard Principle 2: Your counselor that you are able Principle 2: Sometimes called over-under weave, the plainweave is done with rigid stakes or spokes, and weavers thatwrap around the stakes in an over-one (p. 11).",
+        "Basketry Applied Field Standard Principle 3: Your counselor that you are able Principle 3: Spokes and stakes usually are more rigid and thicker reedthan weavers (p. 11).",
+        "Basketry Applied Field Standard Principle 4: Your counselor that you are able Principle 4: Continuous weave looks much the same as plainweave, but it is woven with a different technique (p. 11)."
       ],
       "step_by_step_procedure": [
-        "Weave Created Odd: This weave is created over an odd numberof stakes.",
-        "Not Done Row: It is not done one row at a time, but continuously from beginning to end, with additional weavers added whenmore length is needed.",
-        "Method Weaving Involves: This method of weaving involves the weaverpassing over two or more stakes and under two or more stakesat a time.",
-        "Weave Pairing Involvestwo: This weave, sometimes called pairing, involvestwo weavers, each alternately twisting over and underconsecutive spokes."
+        "Step 1 (Basketry Applied Field Standard): Step 1 (Your counselor that you are able): This weave is created over an odd number of stakes (p. 11).",
+        "Step 2 (Basketry Applied Field Standard): Step 2 (Your counselor that you are able): It is not done one row at a time, but continuously from beginning to end, with additional weavers added whenmore length is needed (p. 11).",
+        "Step 3 (Basketry Applied Field Standard): Step 3 (Your counselor that you are able): This method of weaving involves the weaverpassing over two or more stakes and under two or more stakesat a time (p. 11).",
+        "Step 4 (Basketry Applied Field Standard): Step 4 (Your counselor that you are able): This weave, sometimes called pairing, involvestwo weavers, each alternately twisting over and underconsecutive spokes (p. 11)."
       ],
       "gear_checklist": [
-        "Official Basketry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 2)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Your counselor that you are able",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Basketry Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Basketry Applied Field Standard)",
+        "Primary reference documents, case-study exhibits, and regulation charts for Basketry Applied Field Standard.",
+        "Structured Basketry Requirement 2 worksheet, index cards, and verification rubric.",
+        "Buddy-pair discussion prompt cards and counselor sign-off checklist."
       ],
-      "comparison_data": null,
-      "worked_example": {
-        "title": "Sample Verified Workbook Entry: Basketry Req 2",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
-        "fields": {
-          "Requirement & Topic": "Req 2 - Your counselor that you are able",
-          "Primary Standard": "Show your counselor that you are able to identify the following types of baskets: plaited, coiled, ribbed, and wicker.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Basketry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12) and verified during counselor conference."
-        },
-        "counselor_tip": "Complete your Basketry Req 2 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+      "comparison_data": {
+        "left_header": "Foundational Principles (Your counselor that you are able)",
+        "right_header": "Applied Field Execution (Your counselor that you are able)",
+        "left_points": [
+          "Theoretical rules, terminology, and specifications for Your counselor that you are able.",
+          "Your counselor that you are able: The following are common weaves used in this pamphlet (p. 11).",
+          "Accurate explanation of underlying causes and definitions."
+        ],
+        "right_points": [
+          "Hands-on measurement, operation, and troubleshooting in Basketry.",
+          "Your counselor that you are able Principle 2: Sometimes called over-under weave, the plainweave is done with rigid stakes or spokes, and wea.",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Your counselor that you are able.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Basketry."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Your counselor that you are able: The following are common weaves used in this pamphlet (p. 11).",
+            "right": "Your counselor that you are able Principle 2: Sometimes called over-under weave, the plainweave is done with rigid stakes or spokes, and wea"
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
+        ]
       },
-      "quiz_item": null,
+      "worked_example": {
+        "title": "Exemplar Skill Station Walkthrough: Basketry Req 2 (Basketry Applied Field Standard)",
+        "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
+        "fields": {
+          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Basketry Applied Field Standard.",
+          "Step-by-Step Execution": "Basketry Applied Field Standard: Your counselor that you are able: The following are common weaves used in this pamphlet (p. 11).",
+          "Quality & Tolerance Check": "Basketry Applied Field Standard Principle 2: Your counselor that you are able Principle 2: Sometimes called over-under weave, the plainweave is done with rigid stakes or spokes.",
+          "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12))"
+        },
+        "sample_output": "Basketry Applied Field Standard: Basketry Applied Field Standard: Your counselor that you are able: The following are common weaves used in this pamphlet (p. 11).",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)."
+      },
+      "quiz_item": {
+        "scenario_prompt": "While working on Basketry Requirement 2 (Basketry Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Basketry Requirement 2 (Basketry Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. Describing how to perform Your counselor that you are able verbally can substitute for a physical hands-on demonstration in.",
+          "B. Defer all Basketry Applied Field Standard measurements and safety checks until after the field session concludes.",
+          "C. Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+        ],
+        "choices": [
+          "A. Describing how to perform Your counselor that you are able verbally can substitute for a physical hands-on demonstration in.",
+          "B. Defer all Basketry Applied Field Standard measurements and safety checks until after the field session concludes.",
+          "C. Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your.",
+        "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your counselor that you are able with proper technique (p. 11, p. 12). (Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)).",
+        "pamphlet_page_ref": "p. 11, p. 12"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Basketry Workbook organizer table and practical demonstration for Req 2."
     },
@@ -592,7 +703,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Square basket",
+          "text": "Square basket.",
           "resources": [
             {
               "title": "Bamboo Basket Tokari Weaving (video)",
@@ -603,29 +714,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Study & Explanation Notes",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Square Basket)",
             "headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3a Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3a Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Square basket",
-              "Pamphlet Standard & Key Facts (3a)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Square Basket)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Square Basket)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on square basket.",
-            "fact": "Scouts must explain square basket using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34).",
-            "fact_correction": "Scouts must explain square basket using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34).",
-            "pamphlet_page_ref": "Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)"
+            "misconception": "General familiarity with Square, basket is sufficient for Basketry Requirement 3a without citing specific functional mechanisms.",
+            "fact": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Square Basket (p. 16, p. 34).",
+            "fact_correction": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Square Basket (p. 16, p. 34).",
+            "pamphlet_page_ref": "p. 16, p. 34"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -650,12 +768,17 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Square basket"
+          "sub_req_text": "Square basket.",
+          "topic_title": "Req 3a: Square Basket",
+          "pamphlet_summary": "Square Basket: Beginning weavers should start with a simple project andbuild on their skill by trying projects of increased difficulty (p. 16).",
+          "pamphlet_excerpts": [
+            "Square Basket: Beginning weavers should start with a simple project andbuild on their skill by trying projects of increased difficulty (p. 16)."
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Round basket",
+          "text": "Round basket.",
           "resources": [
             {
               "title": "How to Make a Rustic Round Basket out of Wild Vines (video)",
@@ -674,29 +797,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Study & Explanation Notes",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Round Basket)",
             "headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3b Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3b Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Round basket",
-              "Pamphlet Standard & Key Facts (3b)",
-              "Field Application & Counselor Verification (Explain)"
+              "1. Core Definition & Mechanism (Round Basket)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Round Basket)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on round basket.",
-            "fact": "Scouts must explain round basket using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34).",
-            "fact_correction": "Scouts must explain round basket using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34).",
-            "pamphlet_page_ref": "Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)"
+            "misconception": "General familiarity with Round, basket is sufficient for Basketry Requirement 3b without citing specific functional mechanisms.",
+            "fact": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Round Basket (p. 16, p. 34).",
+            "fact_correction": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Round Basket (p. 16, p. 34).",
+            "pamphlet_page_ref": "p. 16, p. 34"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -721,12 +851,17 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Round basket"
+          "sub_req_text": "Round basket.",
+          "topic_title": "Req 3b: Round Basket",
+          "pamphlet_summary": "Round Basket: Basketry Projects Principle 2: The following projects can be used to meet the merit badgerequirements, but any qualifying project (p. 16).",
+          "pamphlet_excerpts": [
+            "Round Basket: Basketry Projects Principle 2: The following projects can be used to meet the merit badgerequirements, but any qualifying project (p. 16)."
+          ]
         },
         {
           "sub_id": "3c",
           "label": "(c)",
-          "text": "Campstool seat",
+          "text": "Campstool seat.",
           "resources": [
             {
               "title": "Weaving a Camp Stool (video)",
@@ -745,29 +880,36 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Study & Explanation Notes",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Campstool Seat)",
             "headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3c Clause / Topic",
-              "Key Pamphlet Facts & Real-World Scouting Application"
+              "Req 3c Analysis Dimension",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "Campstool seat",
-              "Pamphlet Standard & Key Facts (3c)",
-              "Field Application & Counselor Verification (Camp)"
+              "1. Core Definition & Mechanism (Campstool Seat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
             ],
-            "min_rows": 3,
-            "pre_approval_gate": false
+            "rows": [
+              "1. Core Definition & Mechanism (Campstool Seat)",
+              "2. Key Pamphlet Facts & Technical Standards",
+              "3. Practical Scouting / Field Application Example",
+              "4. Counselor Discussion & Verification Summary"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)",
           "common_misconception_pair": {
-            "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on campstool seat.",
-            "fact": "Scouts must camp campstool seat using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34).",
-            "fact_correction": "Scouts must camp campstool seat using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34).",
-            "pamphlet_page_ref": "Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)"
+            "misconception": "General familiarity with Campstool is sufficient for Basketry Requirement 3c without citing specific functional mechanisms.",
+            "fact": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Campstool Seat (p. 16, p. 34).",
+            "fact_correction": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Campstool Seat (p. 16, p. 34).",
+            "pamphlet_page_ref": "p. 16, p. 34"
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -792,7 +934,12 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "Campstool seat"
+          "sub_req_text": "Campstool seat.",
+          "topic_title": "Req 3c: Campstool Seat",
+          "pamphlet_summary": "Campstool Seat: Basketry Projects Principle 3: To earn the Basketry merit badge, you must weave a squarebasket, a round basket, and a campstool seat (p. 16).",
+          "pamphlet_excerpts": [
+            "Campstool Seat: Basketry Projects Principle 3: To earn the Basketry merit badge, you must weave a squarebasket, a round basket, and a campstool seat (p. 16)."
+          ]
         }
       ],
       "resources": [
@@ -834,7 +981,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Basketry Projects",
-      "action_verb": "Plan",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Basketry Requirement 3 activities.",
@@ -843,28 +990,33 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Study & Explanation Notes",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Basketry Projects)",
         "headers": [
-          "Req 3 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 3 Clause / Topic",
-          "Key Pamphlet Facts & Real-World Scouting Application"
+          "Req 3 Analysis Dimension",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(a) Square basket",
-          "(b) Round basket",
-          "(c) Campstool seat Square basket Round basket Campstool seat"
+          "(3a) Square Basket",
+          "(3b) Round Basket",
+          "(3c) Campstool Seat"
         ],
-        "min_rows": 3,
-        "pre_approval_gate": false
+        "rows": [
+          "(3a) Square Basket",
+          "(3b) Round Basket",
+          "(3c) Campstool Seat"
+        ]
       },
       "common_misconception_pair": {
-        "misconception": "Relying on unverified assumptions or skipping field preparation is acceptable when working on square basket.",
-        "fact": "Scouts must plan square basket using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34).",
-        "fact_correction": "Scouts must plan square basket using verified procedures, field evidence, and safety standards from Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34).",
-        "pamphlet_page_ref": "Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)"
+        "misconception": "General familiarity with weave, following is sufficient for Basketry Requirement 3 without citing specific functional mechanisms.",
+        "fact": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Basketry Projects (p. 16, p. 34).",
+        "fact_correction": "The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Basketry Projects (p. 16, p. 34).",
+        "pamphlet_page_ref": "p. 16, p. 34"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -888,57 +1040,231 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Beginning Weavers Start: Beginning weavers should start with a simple project andbuild on their skill by trying projects of increased difficulty.",
-        "Projects Meet: The following projects can be used to meet the merit badgerequirements, but any qualifying project will do.",
-        "Weave Squarebasket Round: To earn the Basketry merit badge, you must weave a squarebasket, a round basket, and a campstool seat.",
-        "Convenience BSA National: For your convenience, the BSA National Distribution Center hasprepackaged kits available for thesquare basket, round basket, and campstool seat."
+        "Basketry Projects: Beginning weavers should start with a simple project andbuild on their skill by trying projects of increased difficulty (p. 16).",
+        "Basketry Projects Principle 2: The following projects can be used to meet the merit badgerequirements, but any qualifying project (p. 16).",
+        "Basketry Projects Principle 3: To earn the Basketry merit badge, you must weave a squarebasket, a round basket, and a campstool seat (p. 16).",
+        "Basketry Projects Principle 4: For your convenience, the BSA National Distribution Center hasprepackaged kits available for thesquare basket, round basket, and campstool seat (p. 16)."
       ],
       "step_by_step_procedure": [
-        "Toll-free telephone: 800-323-0736 Website: www.scoutshop.org.",
-        "Project Designed Beginner: This project, designed for the beginner who has considerablepractice in basket weaving, is both easy to make and durable.",
-        "Twill Weave Inches: It uses a twill weave. 9 by 12 inches ■ 9-by-12-inch frame ■ \u0007Several very longpieces of 1/2-inch flatreed, about 77 feet Step 1, Assemble the frame.",
-        "Soak Several Long: Step 2, Soak several long pieces of reed in water."
+        "Step 1 (Basketry Projects): Toll-free telephone: 800-323-0736 Website: www. scoutshop. org (p. 16).",
+        "Step 2 (Basketry Projects): This project, designed for the beginner who has considerablepractice in basket weaving, is both easy to make and durable (p. 16).",
+        "Step 3 (Basketry Projects): It uses a twill weave. 9 by 12 inches ■ 9-by-12-inch frame ■ \u0007Several very longpieces of 1/2-inch flatreed, about 77 feet Step 1, Assemble the frame (p. 16).",
+        "Step 4 (Basketry Projects): Step 2, Soak several long pieces of reed in water (p. 16)."
       ],
       "gear_checklist": [
-        "Official Basketry Merit Badge Pamphlet & Fillable Scout Workbook (open to Req 3)",
-        "Activity-Specific Tools, Reference Charts & Study Materials for Basketry Projects",
-        "Personal Protective Equipment (PPE) & First-Aid Readiness Kit per BSA Guide to Safe Scouting",
-        "Signed Blue Card (Application for Merit Badge #34124) or Scoutbook Digital Record"
+        "Official Basketry Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Basketry Projects)",
+        "Calibrated instant-read digital food thermometer and sanitizing wipes.",
+        "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves.",
+        "USDA MyPlate nutrition chart, recipe cards, and biodegradable three-pot wash basin kit."
       ],
       "comparison_data": {
-        "left_header": "Unprepared / Informal Basketry Approach",
-        "right_header": "Official BSA Basketry Standard (Basketry Projects)",
+        "left_header": "Foundational Principles (Basketry Projects)",
+        "right_header": "Applied Field Execution (Basketry Projects)",
         "left_points": [
-          "Skips pre-task preparation and relies on guesswork during Basketry Projects.",
-          "Brings incomplete, one-word notes without verifiable examples or measurements.",
-          "Cannot explain how the requirement connects to safety, ethics, or real-world practice."
+          "Theoretical rules, terminology, and specifications for Basketry Projects.",
+          "Basketry Projects: Beginning weavers should start with a simple project andbuild on their skill by trying projects of increased difficulty ()",
+          "Accurate explanation of underlying causes and definitions."
         ],
         "right_points": [
-          "Reviews Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34) and completes all prerequisite preparation before the session.",
-          "Records concrete examples, definitions, and observations in the Basketry Workbook organizer.",
-          "Clearly demonstrates and explains Basketry Projects using the BSA EDGE method."
+          "Hands-on measurement, operation, and troubleshooting in Basketry.",
+          "Basketry Projects Principle 2: The following projects can be used to meet the merit badgerequirements, but any qualifying project (p. 16).",
+          "Repeatable, safe execution under real field conditions."
+        ],
+        "rows": [
+          {
+            "attribute": "Core Focus",
+            "left": "Theoretical rules, terminology, and specifications for Basketry Projects.",
+            "right": "Hands-on measurement, operation, and troubleshooting in Basketry."
+          },
+          {
+            "attribute": "Pamphlet Standard",
+            "left": "Basketry Projects: Beginning weavers should start with a simple project andbuild on their skill by trying projects of increased difficulty (",
+            "right": "Basketry Projects Principle 2: The following projects can be used to meet the merit badgerequirements, but any qualifying project (p. 16)."
+          },
+          {
+            "attribute": "Mastery Indicator",
+            "left": "Accurate explanation of underlying causes and definitions.",
+            "right": "Repeatable, safe execution under real field conditions."
+          }
         ]
       },
       "worked_example": {
-        "title": "Sample Verified Workbook Entry: Basketry Req 3",
-        "artifact_type": "COUNSELOR_VERIFIED_LOG",
+        "title": "Exemplar Technical Analysis: Basketry Req 3 (Basketry Projects)",
+        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Requirement & Topic": "Req 3 - Basketry Projects",
-          "Primary Standard": "Square basket.",
-          "Field Evidence Recorded": "Completed structured workbook organizer with specific examples, dates, and Basketry terminology.",
-          "Safety & Verification": "Reviewed against Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34) and verified during counselor conference."
+          "Core Technical Principle": "Basketry Projects: Beginning weavers should start with a simple project andbuild on their skill by trying projects of increased difficulty (p. 16).",
+          "Applied Field Mechanism": "Basketry Projects Principle 2: The following projects can be used to meet the merit badgerequirements, but any qualifying project (p. 16).",
+          "Real-World Case Example": "Concrete application of Basketry Projects documented during Basketry study.",
+          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)."
         },
-        "counselor_tip": "Complete your Basketry Req 3 workbook organizer before class so we can spend our session time on active discussion and hands-on verification."
+        "sample_output": "Basketry Projects: Basketry Projects: Beginning weavers should start with a simple project andbuild on their skill by trying projects of increased difficulty (",
+        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)."
       },
-      "quiz_item": null,
+      "quiz_item": {
+        "scenario_prompt": "While working on Basketry Requirement 3 (Basketry Projects), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+        "question": "While working on Basketry Requirement 3 (Basketry Projects), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+        "options": [
+          "A. General familiarity with weave, following is sufficient for Basketry Requirement 3 without citing specific functional mechanisms.",
+          "B. The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Basketry.",
+          "C. Defer all Basketry Projects measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+        ],
+        "choices": [
+          "A. General familiarity with weave, following is sufficient for Basketry Requirement 3 without citing specific functional mechanisms.",
+          "B. The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Basketry.",
+          "C. Defer all Basketry Projects measurements and safety checks until after the field session concludes.",
+          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Basketry.",
+        "explanation": "Correct Answer (B): The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Basketry Projects (p. 16, p. 34). (Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)).",
+        "pamphlet_page_ref": "p. 16, p. 34"
+      },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Basketry Workbook organizer table and practical demonstration for Req 3."
     }
   ],
   "badge_slug": "basketry",
   "is_test_lab_pilot": false,
-  "schema_baseline_version": "2.1.0",
+  "schema_baseline_version": "2026.v30",
   "is_test_lab": false,
   "is_discontinued": false,
-  "status": "ACTIVE"
+  "status": "OFFICIAL",
+  "patrol_quiz_bank": [
+    {
+      "scenario_prompt": "While working on Basketry Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Basketry Requirement 1 (Hazards, First Aid & Safety), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "B. Experienced Basketry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+      ],
+      "choices": [
+        "A. The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "B. Experienced Basketry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "C. Defer all Hazards, First Aid & Safety measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+      ],
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (A): The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 8, p. 9). (Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)).",
+      "pamphlet_page_ref": "p. 8, p. 9",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Basketry Requirement 2 (Basketry Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Basketry Requirement 2 (Basketry Applied Field Standard), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Describing how to perform Your counselor that you are able verbally can substitute for a physical hands-on demonstration in.",
+        "B. Defer all Basketry Applied Field Standard measurements and safety checks until after the field session concludes.",
+        "C. Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+      ],
+      "choices": [
+        "A. Describing how to perform Your counselor that you are able verbally can substitute for a physical hands-on demonstration in.",
+        "B. Defer all Basketry Applied Field Standard measurements and safety checks until after the field session concludes.",
+        "C. Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your.",
+      "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your counselor that you are able with proper technique (p. 11, p. 12). (Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)).",
+      "pamphlet_page_ref": "p. 11, p. 12",
+      "req_id": "2",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Basketry Requirement 3 (Basketry Projects), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Basketry Requirement 3 (Basketry Projects), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. General familiarity with weave, following is sufficient for Basketry Requirement 3 without citing specific functional mechanisms.",
+        "B. The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Basketry.",
+        "C. Defer all Basketry Projects measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+      ],
+      "choices": [
+        "A. General familiarity with weave, following is sufficient for Basketry Requirement 3 without citing specific functional mechanisms.",
+        "B. The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Basketry.",
+        "C. Defer all Basketry Projects measurements and safety checks until after the field session concludes.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+      ],
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Basketry.",
+      "explanation": "Correct Answer (B): The Basketry pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Basketry Projects (p. 16, p. 34). (Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)).",
+      "pamphlet_page_ref": "p. 16, p. 34",
+      "req_id": "3",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Basketry Requirement 1_extra3 (Hazards, First Aid & Safety Field Scenario 4), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Basketry Requirement 1_extra3 (Hazards, First Aid & Safety Field Scenario 4), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Experienced Basketry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Hazards, First Aid & Safety Field Scenario 4 measurements and safety checks until after the field session concludes.",
+        "C. The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+      ],
+      "choices": [
+        "A. Experienced Basketry participants only need to review safety rules and emergency procedures after an incident occurs.",
+        "B. Defer all Hazards, First Aid & Safety Field Scenario 4 measurements and safety checks until after the field session concludes.",
+        "C. The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure."
+      ],
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
+      "explanation": "Correct Answer (C): The Basketry pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Hazards, First Aid & Safety activity (p. 8, p. 9). (Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)).",
+      "pamphlet_page_ref": "p. 8, p. 9",
+      "req_id": "1",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "While working on Basketry Requirement 2_extra4 (Basketry Applied Field Standard Field Scenario 5), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+      "question": "While working on Basketry Requirement 2_extra4 (Basketry Applied Field Standard Field Scenario 5), your patrol encounters a decision point on proper procedure. According to the Basketry Merit Badge Pamphlet, which action is correct?",
+      "options": [
+        "A. Describing how to perform Your counselor that you are able verbally can substitute for a physical hands-on demonstration in.",
+        "B. Defer all Basketry Applied Field Standard Field Scenario 5 measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure.",
+        "D. Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your."
+      ],
+      "choices": [
+        "A. Describing how to perform Your counselor that you are able verbally can substitute for a physical hands-on demonstration in.",
+        "B. Defer all Basketry Applied Field Standard Field Scenario 5 measurements and safety checks until after the field session concludes.",
+        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Basketry pamphlet procedure.",
+        "D. Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your.",
+      "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Basketry pamphlet, each Scout must physically execute and demonstrate Your counselor that you are able with proper technique (p. 11, p. 12). (Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)).",
+      "pamphlet_page_ref": "p. 11, p. 12",
+      "req_id": "2",
+      "option_id": null
+    }
+  ],
+  "quartermaster_manifest": {
+    "badge_name": "Basketry",
+    "patrol_equipment": [
+      "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
+      "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs",
+      "Emergency action plan checklist and simulated patient assessment cards",
+      "Primary reference documents, case-study exhibits, and regulation charts for Basketry Applied Field Standard",
+      "Structured Basketry Requirement 2 worksheet, index cards, and verification rubric",
+      "Buddy-pair discussion prompt cards and counselor sign-off checklist",
+      "Calibrated instant-read digital food thermometer and sanitizing wipes",
+      "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves"
+    ],
+    "individual_scout_gear": [
+      "Official Basketry Merit Badge Pamphlet",
+      "Printed or Fillable Basketry Scout Workbook",
+      "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
+      "Field notebook, pen/pencil, and personal safety equipment (PPE)"
+    ]
+  }
 }

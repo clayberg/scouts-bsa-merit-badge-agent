@@ -152,7 +152,11 @@
         <button type="button" class="m3-btn m3-btn-tonal m3-top-compact-btn" id="btn-export-menu-toggle" tabindex="-1">
           <span id="btn-header-export-print-caret">🖨️ Export &amp; Print ▾</span>
         </button>
-        <div class="m3-export-dropdown-menu hidden" id="top-export-dropdown-menu" role="menu"></div>
+        <div class="m3-export-dropdown-menu hidden" id="top-export-dropdown-menu" role="menu">
+          <button type="button" class="m3-export-menu-item" id="btn-top-export-class-packet-zip" data-action="download-class-packet-zip" role="menuitem" style="font-weight:800; color:var(--md-sys-color-primary);">
+            <span>📦 Download Complete Class Packet (.ZIP)</span>
+          </button>
+        </div>
       </div>
       <!-- UNIFIED EXPORT, DOWNLOAD & PRINT SPLIT-BUTTON -->
       <div class="m3-split-btn-group" id="pptx-export-split-group" style="display:inline-flex;">
@@ -166,6 +170,10 @@
           </button>
           <div class="m3-export-dropdown-menu m3-split-dropdown-menu hidden" id="deck-export-mode-menu" role="menu" aria-label="Unified Export, Download &amp; Print Menu">
             <div id="pptx-export-menu">
+              <div class="m3-menu-section-label">1-Click Complete Class Archive</div>
+              <button type="button" class="m3-export-menu-item" id="btn-export-complete-class-packet-zip" data-action="download-class-packet-zip" role="menuitem" style="font-weight:800; color:var(--md-sys-color-primary); background:var(--md-sys-color-info-surface); border-bottom:1px solid var(--md-sys-color-outline-variant);">
+                <span>📦 Download Complete Class Packet (.ZIP)</span>
+              </button>
               <div class="m3-menu-section-label">Slide Deck Formats</div>
               <button type="button" class="m3-export-menu-item active" data-export-mode="pptx" id="menu-export-mode-pptx" role="menuitem">
                 <span>📥 Download Slide Deck (.PPTX)</span>
@@ -326,22 +334,13 @@
         </div>
 
         <div class="m3-field-group">
-          <label class="m3-field-label" for="beautification-select">Slide Theme &amp; Visuals</label>
-          <select class="m3-select" id="beautification-select">
-            <option value="STANDARD">Crisp White — Pamphlet Figures Only</option>
-            <option value="BEAUTIFIED" selected>Warm Cream — Pamphlet + AI Visuals</option>
-            <option value="STUDIO">Dark Slate — Pamphlet + AI Visuals</option>
-          </select>
-        </div>
-
-        <div class="m3-field-group">
           <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:4px;">
             <label class="m3-field-label" for="template-select" style="margin-bottom:0;">PowerPoint Template</label>
             <button
               type="button"
               class="m3-btn m3-btn-tonal"
               id="btn-open-template-studio-sidebar"
-              title="Open PowerPoint Template Studio (Browse 17 Built-In Scouting Templates Across 7 Style Families, Upload .PPTX/.PPT/Image, or Import URL)"
+              title="Open PowerPoint Template Studio (Browse 23 Built-In Scouting Templates Across 13 Style Families, Upload .PPTX/.PPT/Image, or Import URL)"
               style="padding:2px 8px; font-size:0.71rem; font-weight:800;"
             >
               🎨 Template Studio
@@ -379,90 +378,153 @@
               <option value="scouting_america_250">BSA America 250™</option>
               <option value="scouting_america_high_adventure_rock">BSA High Adventure</option>
             </optgroup>
+            <optgroup label="7. Program &amp; Leadership Editions">
+              <option value="stem_nova_blueprint">BSA STEM Nova &amp; Engineering Blueprint</option>
+              <option value="eagle_court_of_honor">BSA Eagle Scout Court of Honor</option>
+              <option value="sea_scouts_maritime">Sea Scouts Maritime &amp; Quarterdeck</option>
+              <option value="oa_ceremonial_lodge">Order of the Arrow Ceremonial Lodge</option>
+              <option value="venturing_alpine_emerald">Venturing Crew Alpine Emerald</option>
+              <option value="wood_badge_gilwell">Wood Badge Gilwell Tartan &amp; Timber</option>
+            </optgroup>
           </select>
         </div>
 
-        <div class="m3-field-group">
-          <label class="m3-field-label" for="deck-layout-style-select">Deck Layout Style</label>
-          <select id="deck-layout-style-select" class="m3-select">
-            <option value="AUTO_TEMPLATE" selected>✨ Match Template Style (Recommended)</option>
-            <option value="CLEAN_OPEN">📖 Clean &amp; Open (Borderless Text &amp; Frameless Images)</option>
-            <option value="LEFT_ACCENT_LINE">📏 Editorial Left-Accent Line (No Boxes)</option>
-            <option value="BOXED_CARDS">🗂️ Classic Boxed Cards (Framed Containers)</option>
-          </select>
-
-          <details id="deck-style-customizer-details" class="m3-sub-expander">
-            <summary>🎛️ Customize Boxes, Image Frame &amp; Font Size...</summary>
-            <div class="m3-sub-expander-grid">
-              <label for="deck-text-container-select">Text Points Style
-                <select id="deck-text-container-select" class="m3-select-sm">
-                  <option value="AUTO" selected>Auto (From Layout Style)</option>
-                  <option value="CLEAN_OPEN">Borderless Hierarchy (Bold Colored Lead-In)</option>
-                  <option value="LEFT_ACCENT_LINE">Left Accent Line Only (No Box Outline)</option>
-                  <option value="BOXED_CARDS">Boxed Cards (Fill + Outline)</option>
-                </select>
-              </label>
-              <label for="deck-image-frame-select">Right Image Frame
-                <select id="deck-image-frame-select" class="m3-select-sm">
-                  <option value="AUTO" selected>Auto (From Layout Style)</option>
-                  <option value="FRAMELESS_CLEAN">Frameless Image + Clean Caption</option>
-                  <option value="SOFT_SHADOW">Rounded Image + Subtle Shadow</option>
-                  <option value="FRAMED_CARD">Framed Card Box Around Image</option>
-                </select>
-              </label>
-              <label for="deck-header-chrome-select">Top Header &amp; Requirement Strip
-                <select id="deck-header-chrome-select" class="m3-select-sm">
-                  <option value="AUTO" selected>Auto (Minimal on Artwork Templates)</option>
-                  <option value="MINIMAL_ACCENT">Minimal Kicker + Thin Accent Rule</option>
-                  <option value="FULL_BANNER">Full Solid Navy Header Banner</option>
-                </select>
-              </label>
-              <label for="deck-typography-scale-select">Slide Font Size Scale
-                <select id="deck-typography-scale-select" class="m3-select-sm">
-                  <option value="COMFORTABLE" selected>Comfortable Classroom (15–16pt Body)</option>
-                  <option value="LARGE_PROJECTOR">Large Projector / Camp Hall (17–18pt Body)</option>
-                  <option value="COMPACT">Compact Reference (13.5–14.5pt Body)</option>
-                </select>
-              </label>
-              <label for="deck-safety-banner-select">Bottom Safety Strip
-                <select id="deck-safety-banner-select" class="m3-select-sm">
-                  <option value="ACUTE_HAZARDS_ONLY" selected>Acute Physical / Field Hazards Only</option>
-                  <option value="COMPACT_ACCENT">Compact Bottom Accent Line</option>
-                  <option value="ALL_WARNINGS">Full Warning Box on Every Slide</option>
-                </select>
-              </label>
-              <div class="m3-sub-expander-actions">
-                <button type="button" id="btn-save-default-deck-style" class="m3-btn m3-btn-tonal m3-btn-xs" title="Save active template &amp; layout style as your sticky default for all new Merit Badge decks">
-                  📌 Save as My Default Style
-                </button>
-                <button type="button" id="btn-reset-default-deck-style" class="m3-btn m3-btn-outlined m3-btn-xs" title="Reset to Recommended Default (BSA Scouting America + Clean Open)">
-                  ↺ Reset
-                </button>
-              </div>
+        <!-- Collapsible Advanced Deck Settings Accordion (Theme, Layout, Audience, Local Grounding) -->
+        <details class="m3-profile-accordion m3-counselor-accordion" id="advanced-deck-settings-accordion" style="margin-bottom:8px;">
+          <summary class="m3-profile-summary m3-profile-summary-bar" title="Expand or collapse Slide Theme, Deck Layout Style, Target Scout Audience, and Local Grounding">
+            <div style="display:flex; flex-direction:column; gap:2px; min-width:0;">
+              <span style="font-size:0.72rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:var(--md-sys-color-primary);">
+                ⚙️ Advanced Deck Settings
+              </span>
+              <span id="advanced-deck-settings-summary-badge" style="font-size:0.78rem; font-weight:600; color:var(--md-sys-color-on-surface-strong); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+                Warm Cream &bull; Match Template &bull; All Scouts
+              </span>
             </div>
-          </details>
-        </div>
+            <span id="advanced-deck-settings-chevron" class="m3-chip m3-chip-primary" style="font-size:0.68rem; padding:3px 9px; flex-shrink:0;">Customize ▾</span>
+          </summary>
 
-        <div class="m3-field-group">
-          <label class="m3-field-label" for="audience-select">Target Scout Audience Level</label>
-          <select class="m3-select" id="audience-select">
-            <option value="All Scouts (Ages 11–17)" selected>All Scouts (Ages 11–17)</option>
-            <option value="First-Year / Tenderfoot Focus (Ages 11–12)">First-Year / Tenderfoot Focus (Ages 11–12)</option>
-            <option value="Older Scouts / Eagle Prep (Ages 14–17)">Older Scouts / Eagle Prep (Ages 14–17)</option>
-          </select>
-        </div>
+          <div class="m3-profile-accordion-body">
+            <div class="m3-field-group">
+              <label class="m3-field-label" for="beautification-select">Slide Theme &amp; Visuals</label>
+              <select class="m3-select" id="beautification-select">
+                <option value="STANDARD">Crisp White — Pamphlet Figures Only</option>
+                <option value="BEAUTIFIED" selected>Warm Cream — Pamphlet + AI Visuals</option>
+                <option value="STUDIO">Dark Slate — Pamphlet + AI Visuals</option>
+              </select>
+            </div>
 
-        <label class="m3-grounding-toggle-card" id="local-grounding-toggle-card" for="deep-research-checkbox">
-          <input id="deep-research-checkbox" type="checkbox" checked class="m3-grounding-checkbox" />
-          <div class="m3-grounding-toggle-body">
-            <span class="m3-grounding-toggle-title">
-              📍 Enable Local Regional Grounding
-            </span>
-            <span class="m3-grounding-toggle-subtitle">
-              NOAA weather, terrain &amp; council field sites
-            </span>
+            <div class="m3-field-group">
+              <label class="m3-field-label" for="deck-layout-style-select">Deck Layout Style</label>
+              <select id="deck-layout-style-select" class="m3-select">
+                <option value="AUTO_TEMPLATE" selected>✨ Match Template Style (Recommended)</option>
+                <option value="CLEAN_OPEN">📖 Clean &amp; Open (Borderless Text &amp; Frameless Images)</option>
+                <option value="LEFT_ACCENT_LINE">📏 Editorial Left-Accent Line (No Boxes)</option>
+                <option value="BOXED_CARDS">🗂️ Classic Boxed Cards (Framed Containers)</option>
+              </select>
+
+              <details id="deck-style-customizer-details" class="m3-sub-expander">
+                <summary>🎛️ Customize Boxes, Image Frame &amp; Font Size...</summary>
+                <div class="m3-sub-expander-grid">
+                  <label for="deck-text-container-select">Text Points Style
+                    <select id="deck-text-container-select" class="m3-select-sm">
+                      <option value="AUTO" selected>Auto (From Layout Style)</option>
+                      <option value="CLEAN_OPEN">Borderless Hierarchy (Bold Colored Lead-In)</option>
+                      <option value="LEFT_ACCENT_LINE">Left Accent Line Only (No Box Outline)</option>
+                      <option value="BOXED_CARDS">Boxed Cards (Fill + Outline)</option>
+                    </select>
+                  </label>
+                  <label for="deck-image-frame-select">Right Image Frame
+                    <select id="deck-image-frame-select" class="m3-select-sm">
+                      <option value="AUTO" selected>Auto (From Layout Style)</option>
+                      <option value="FRAMELESS_CLEAN">Frameless Image + Clean Caption</option>
+                      <option value="SOFT_SHADOW">Rounded Image + Subtle Shadow</option>
+                      <option value="FRAMED_CARD">Framed Card Box Around Image</option>
+                    </select>
+                  </label>
+                  <label for="deck-header-chrome-select">Top Header &amp; Requirement Strip
+                    <select id="deck-header-chrome-select" class="m3-select-sm">
+                      <option value="AUTO" selected>Auto (Minimal on Artwork Templates)</option>
+                      <option value="MINIMAL_ACCENT">Minimal Kicker + Thin Accent Rule</option>
+                      <option value="FULL_BANNER">Full Solid Navy Header Banner</option>
+                    </select>
+                  </label>
+                  <label for="deck-typography-scale-select">Slide Font Size Scale
+                    <select id="deck-typography-scale-select" class="m3-select-sm">
+                      <option value="COMFORTABLE" selected>Comfortable Classroom (15–16pt Body)</option>
+                      <option value="LARGE_PROJECTOR">Large Projector / Camp Hall (17–18pt Body)</option>
+                      <option value="COMPACT">Compact Reference (13.5–14.5pt Body)</option>
+                    </select>
+                  </label>
+                  <label for="deck-safety-banner-select">Bottom Safety Strip
+                    <select id="deck-safety-banner-select" class="m3-select-sm">
+                      <option value="ACUTE_HAZARDS_ONLY" selected>Acute Physical / Field Hazards Only</option>
+                      <option value="COMPACT_ACCENT">Compact Bottom Accent Line</option>
+                      <option value="ALL_WARNINGS">Full Warning Box on Every Slide</option>
+                    </select>
+                  </label>
+                  <label for="style-cover-backdrop">Slide 1 Washed Cover Backdrop
+                    <select id="style-cover-backdrop" class="m3-select-sm">
+                      <option value="AUTO_TEMPLATE" selected>✨ Auto-Match Badge &amp; Template</option>
+                      <option value="bsa_emblem_color">⚜️ BSA Universal Emblem</option>
+                      <option value="eagle_court_of_honor">🦅 Eagle Court of Honor</option>
+                      <option value="heritage_embroidery">🏕️ Rustic Timber Council Lodge</option>
+                      <option value="collegiate_mbc">🎓 Collegiate Quadrangle</option>
+                      <option value="pinewood_campfire">🌲 Pinewood Forest &amp; Campfire</option>
+                      <option value="topographic_adventure">🏔️ High Adventure Alpine Ridge</option>
+                      <option value="pioneering_signal_tower">🪢 Pioneering Signal Tower</option>
+                      <option value="archery_target_range">🏹 Archery &amp; Target Range</option>
+                      <option value="dutch_oven_camp_cooking">🍳 Campfire Dutch Oven Cooking</option>
+                      <option value="first_aid_search_rescue">⛑️ Wilderness Search &amp; Rescue</option>
+                      <option value="apollo_rocket_launch">🚀 Space &amp; Rocket Launch</option>
+                      <option value="aviation_glider_airfield">✈️ Aviation Airfield &amp; Glider</option>
+                      <option value="aquatics_nautical">⚓ Coastal Lighthouse &amp; Waterfront</option>
+                      <option value="whitewater_kayak_rapids">🛶 Whitewater Kayaking Rapids</option>
+                      <option value="environmental_wetlands">🌿 Environmental Wetland Boardwalk</option>
+                      <option value="stem_blueprint">🔬 STEM Robotics &amp; Engineering</option>
+                      <option value="citizenship_capitol_civic">🏛️ Civic Capitol Dome &amp; Constitution Hall</option>
+                      <option value="personal_management_ledger">📊 Personal Finance &amp; Planning Desk</option>
+                      <option value="fitness_cycling_trail">🚴 Trail Cycling &amp; Athletic Track</option>
+                      <option value="communications_studio">🎙️ Broadcast &amp; Journalism Studio</option>
+                      <option value="trades_welding_workshop">🔧 Skilled Trades &amp; Woodworking Shop</option>
+                      <option value="wildlife_forestry_conservation">🦌 Wildlife &amp; Forestry Conservation</option>
+                      <option value="astronomy_deep_space_observatory">🔭 Deep-Space Observatory &amp; Milky Way</option>
+                      <option value="emergency_medical_triage">🚑 Emergency Medical &amp; Disaster Triage</option>
+                    </select>
+                  </label>
+                  <div class="m3-sub-expander-actions">
+                    <button type="button" id="btn-save-default-deck-style" class="m3-btn m3-btn-tonal m3-btn-xs" title="Save active template &amp; layout style as your sticky default for all new Merit Badge decks">
+                      📌 Save as My Default Style
+                    </button>
+                    <button type="button" id="btn-reset-default-deck-style" class="m3-btn m3-btn-outlined m3-btn-xs" title="Reset to Recommended Default (BSA Scouting America + Clean Open)">
+                      ↺ Reset
+                    </button>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+            <div class="m3-field-group">
+              <label class="m3-field-label" for="audience-select">Target Scout Audience Level</label>
+              <select class="m3-select" id="audience-select">
+                <option value="All Scouts (Ages 11–17)" selected>All Scouts (Ages 11–17)</option>
+                <option value="First-Year / Tenderfoot Focus (Ages 11–12)">First-Year / Tenderfoot Focus (Ages 11–12)</option>
+                <option value="Older Scouts / Eagle Prep (Ages 14–17)">Older Scouts / Eagle Prep (Ages 14–17)</option>
+              </select>
+            </div>
+
+            <label class="m3-grounding-toggle-card" id="local-grounding-toggle-card" for="deep-research-checkbox">
+              <input id="deep-research-checkbox" type="checkbox" checked class="m3-grounding-checkbox" />
+              <div class="m3-grounding-toggle-body">
+                <span class="m3-grounding-toggle-title">
+                  📍 Enable Local Regional Grounding
+                </span>
+                <span class="m3-grounding-toggle-subtitle">
+                  NOAA weather, terrain &amp; council field sites
+                </span>
+              </div>
+            </label>
           </div>
-        </label>
+        </details>
 
         <!-- Pre-Cached Graphics & Local Grounding Status Pill placed ABOVE the collapsible Counselor Profile -->
         <div id="finops-cost-pill" style="background:var(--md-sys-color-info-surface); border:1px solid var(--md-sys-color-info-outline); border-radius:10px; padding:8px 12px; margin:4px 0 8px 0; font-size:0.78rem; color:var(--md-sys-color-on-info-strong); display:flex; align-items:center; justify-content:space-between;">
@@ -728,7 +790,7 @@
             <span class="m3-inline-icon" style="font-size:18px;" aria-hidden="true">🗓️</span>
             4. Class Prep &amp; Letters
           </button>
-          <button type="button" class="m3-tab-btn hidden" role="tab" aria-selected="false" aria-controls="panel-admin" id="tab-btn-admin" data-panel="panel-admin" title="Super-User Admin Console (Cached Image &amp; Caption Studio, Zero-PII Telemetry, 144-Badge Asset Health)">
+          <button type="button" class="m3-tab-btn hidden" role="tab" aria-selected="false" aria-controls="panel-admin" id="tab-btn-admin" data-panel="panel-admin" title="Super-User Admin Console (Cached Image &amp; Caption Studio, Zero-PII Telemetry, 149-Badge Asset Health)">
             <span class="m3-inline-icon" style="font-size:18px;" aria-hidden="true">⚙️</span>
             🛡️ Admin Console
           </button>
@@ -1032,6 +1094,35 @@
               </div>
             </div>
             <div class="m3-stage-toolbar-right">
+              <button
+                type="button"
+                class="m3-btn m3-btn-outlined m3-stage-compact-btn"
+                id="btn-stage-undo"
+                title="Undo Slide Edit (Shortcut: Ctrl+Z)"
+                disabled
+                style="padding:4px 8px; font-size:0.74rem;"
+              >
+                ↩ Undo
+              </button>
+              <button
+                type="button"
+                class="m3-btn m3-btn-outlined m3-stage-compact-btn"
+                id="btn-stage-redo"
+                title="Redo Slide Edit (Shortcut: Ctrl+Y)"
+                disabled
+                style="padding:4px 8px; font-size:0.74rem;"
+              >
+                ↪ Redo
+              </button>
+              <button
+                type="button"
+                class="m3-btn m3-btn-tonal m3-stage-compact-btn"
+                id="btn-stage-inline-edit"
+                title="Click or double-click slide title, teaching cards, or caption to edit text directly on the 16:9 canvas"
+                style="padding:4px 9px; font-size:0.74rem; font-weight:700;"
+              >
+                ✏️ Edit Text on Stage
+              </button>
               <!-- OPTION TP1: COMPACT LIVE COUNTDOWN BADGE (SHOWN ONLY WHEN TIMER IS RUNNING/ACTIVE) -->
               <button
                 type="button"
@@ -1189,6 +1280,17 @@
               <div id="fullscreen-teleprompter-content" style="font-size:0.84rem; line-height:1.45; color:var(--md-sys-color-surface);"></div>
             </div>
 
+            <!-- DIRECT ON-STAGE INLINE CLICK-TO-EDIT FLOATING ACTION PILL BAR -->
+            <div class="m3-stage-inline-edit-bar hidden" id="stage-inline-edit-bar" role="toolbar" aria-label="On-Stage Inline Text Editor Controls">
+              <span class="m3-stage-inline-edit-hint">✏️ Editing Slide Text on Stage</span>
+              <button type="button" class="m3-btn m3-btn-filled m3-stage-inline-save-btn" id="btn-stage-inline-save" title="Save on-stage text edits and rebuild .PPTX (Ctrl+Enter)">
+                💾 Save Slide Edits
+              </button>
+              <button type="button" class="m3-btn m3-btn-outlined m3-stage-inline-cancel-btn" id="btn-stage-inline-cancel" title="Discard unsaved on-stage text edits (Esc)">
+                Esc Cancel
+              </button>
+            </div>
+
             <div class="m3-slide-footer-strip" id="stage-footer-strip">
               <span id="stage-footer-left">Scouts BSA Merit Badge Series</span>
               <span id="stage-footer-right">Slide 1</span>
@@ -1323,34 +1425,39 @@
                   <span>🏫 Optional Class Logistics Slides (Slide 2 Session Roadmap &amp; Slide N Homework / Blue Card Check-Out)</span>
                   <span class="m3-chip m3-chip-primary" style="font-size:0.68rem;">Multi-Session Clinic Ready</span>
                 </summary>
-                <div style="margin-top:8px; display:grid; grid-template-columns:repeat(auto-fit, minmax(175px, 1fr)); gap:8px; align-items:end;">
-                  <label style="display:flex; align-items:center; gap:6px; font-size:0.78rem; font-weight:700; cursor:pointer;">
-                    <input type="checkbox" id="chk-inject-slide2-roadmap" checked style="width:15px; height:15px;" />
-                    Include Slide 2 (Overview &amp; Pre-Work Gate)
-                  </label>
-                  <label style="display:flex; align-items:center; gap:6px; font-size:0.78rem; font-weight:700; cursor:pointer;">
-                    <input type="checkbox" id="chk-inject-sliden-checkout" checked style="width:15px; height:15px;" />
-                    Include Final Slide (Homework &amp; Check-Out)
-                  </label>
-                  <div>
-                    <label class="m3-field-label" for="input-logistics-time" style="font-size:0.71rem;">Class Start Time</label>
-                    <input type="text" id="input-logistics-time" class="m3-input" value="8:30 AM – 10:00 AM" style="padding:4px 8px; font-size:0.76rem;" />
-                  </div>
-                  <div>
-                    <label class="m3-field-label" for="input-logistics-room" style="font-size:0.71rem;">Room / Teaching Station</label>
-                    <input type="text" id="input-logistics-room" class="m3-input" value="Science Lab 204 / Outdoor Pavilion" style="padding:4px 8px; font-size:0.76rem;" />
-                  </div>
-                  <div>
-                    <label class="m3-field-label" for="input-logistics-sessions" style="font-size:0.71rem;">Session Dates / Schedule</label>
-                    <input type="text" id="input-logistics-sessions" class="m3-input" value="4x 75-Min Sessions (S1–S4) + Make-Up Block" style="padding:4px 8px; font-size:0.76rem;" />
-                  </div>
-                  <div style="display:flex; gap:6px; flex-wrap:wrap;">
-                    <button type="button" class="m3-btn m3-btn-filled" id="btn-apply-logistics-slides" style="padding:6px 12px; font-size:0.76rem;">
-                      ➕ Inject / Update Logistics Slides
+                <div style="margin-top:8px; display:flex; flex-direction:column; gap:8px;">
+                  <div id="logistics-drawer-schedule-summary-strip" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; padding:6px 10px; border-radius:8px; background:rgba(255,255,255,0.65); border:1px solid var(--md-sys-color-outline);">
+                    <div id="logistics-drawer-schedule-summary-text" style="font-size:0.76rem; color:var(--md-sys-color-on-surface);">
+                      🗓️ <strong>Active Class Schedule:</strong> 8:30 AM – 10:00 AM &bull; Science Lab 204 / Outdoor Pavilion &bull; 4x 75-Min Sessions (S1–S4) + Make-Up Block
+                    </div>
+                    <button type="button" class="m3-btn m3-btn-tonal" id="btn-logistics-drawer-open-schedule-builder" data-action="open-schedule-builder" style="padding:4px 10px; font-size:0.74rem; font-weight:700;">
+                      🗓️ Edit Schedule &amp; Dates in Builder
                     </button>
-                    <button type="button" class="m3-btn m3-btn-outlined" id="btn-remove-logistics-slides" style="padding:6px 10px; font-size:0.75rem;">
-                      🗑️ Remove Logistics Slides
-                    </button>
+                  </div>
+                  <div class="hidden" aria-hidden="true">
+                    <input type="text" id="input-logistics-time" class="m3-input" value="8:30 AM – 10:00 AM" />
+                    <input type="text" id="input-logistics-room" class="m3-input" value="Science Lab 204 / Outdoor Pavilion" />
+                    <input type="text" id="input-logistics-sessions" class="m3-input" value="4x 75-Min Sessions (S1–S4) + Make-Up Block" />
+                  </div>
+                  <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
+                    <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+                      <label style="display:flex; align-items:center; gap:6px; font-size:0.78rem; font-weight:700; cursor:pointer;">
+                        <input type="checkbox" id="chk-inject-slide2-roadmap" checked style="width:15px; height:15px;" />
+                        Include Slide 2 (Overview &amp; Pre-Work Gate)
+                      </label>
+                      <label style="display:flex; align-items:center; gap:6px; font-size:0.78rem; font-weight:700; cursor:pointer;">
+                        <input type="checkbox" id="chk-inject-sliden-checkout" checked style="width:15px; height:15px;" />
+                        Include Final Slide (Homework &amp; Check-Out)
+                      </label>
+                    </div>
+                    <div style="display:flex; gap:6px; flex-wrap:wrap;">
+                      <button type="button" class="m3-btn m3-btn-filled" id="btn-apply-logistics-slides" style="padding:6px 12px; font-size:0.76rem;">
+                        ➕ Inject / Update Logistics Slides
+                      </button>
+                      <button type="button" class="m3-btn m3-btn-outlined" id="btn-remove-logistics-slides" style="padding:6px 10px; font-size:0.75rem;">
+                        🗑️ Remove Logistics Slides
+                      </button>
+                    </div>
                   </div>
                 </div>
               </details>
@@ -1659,6 +1766,16 @@
                     style="width:142px; padding:5px 8px; font-size:0.78rem;"
                   />
                 </span>
+                <button
+                  type="button"
+                  class="m3-btn m3-btn-tonal"
+                  id="btn-bluecard-open-schedule-builder"
+                  data-action="open-schedule-builder"
+                  title="Open Classroom Session &amp; Schedule Builder (Sessions S1-S4 | M, Dates, Times &amp; Location)"
+                  style="padding:5px 10px; font-size:0.76rem; font-weight:700;"
+                >
+                  🗓️ Schedule &amp; Dates
+                </button>
               </div>
 
               <!-- Right Cluster: 3 Split Action Menus -->
@@ -1900,7 +2017,17 @@
             <button type="button" class="m3-studiokit-pill" data-studiokit-filter="PREREQ">✅ 3. Pre-Class Readiness</button>
             <button type="button" class="m3-studiokit-pill" data-studiokit-filter="FINOPS">📚 4. Grounded Citations &amp; Counselor Rating</button>
           </div>
-          <div style="display:flex; gap:6px; flex-wrap:wrap;">
+          <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center;">
+            <button
+              type="button"
+              class="m3-btn m3-btn-filled"
+              id="btn-studiokit-download-class-packet-zip"
+              data-action="download-class-packet-zip"
+              title="Download 1-Click Complete Class Packet (.ZIP) with Slide Deck (.PPTX), 7 Printable PDFs, and 3-Stage YPT Emails (.MD)"
+              style="padding:6px 12px; font-size:0.77rem; font-weight:800;"
+            >
+              📦 Download Complete Class Packet (.ZIP)
+            </button>
             <div class="m3-split-btn-group" id="studiokit-handouts-split-group" style="position:relative;">
               <button type="button" class="m3-btn m3-btn-tonal m3-split-btn-primary" id="btn-studiokit-fillable-workbook" title="Download 3x5 Counselor Field Pocket Cue Cards (.PDF) ([SAY], [DEMONSTRATE], [ASK SCOUTS])" style="padding:6px 11px; font-size:0.77rem; font-weight:800;">
                 <span id="btn-print-cue-cards"><span id="btn-studiokit-open-fillable-workbook">🃏 Download 3&times;5 Cue Cards (.PDF)</span></span>
@@ -1955,6 +2082,16 @@
                 <option value="Saturday Merit Badge Clinic (3-Hour Block)">Saturday Merit Badge Midway / Clinic (3-Hour Block)</option>
                 <option value="Weekend Campout Practicum">Weekend Campout Practicum (Fri Eve + Sat Field + Sun Sign-Off)</option>
               </select>
+              <button
+                type="button"
+                class="m3-btn m3-btn-tonal"
+                id="btn-studiokit-open-schedule-builder"
+                data-action="open-schedule-builder"
+                title="Open Classroom Session &amp; Schedule Builder (Dates, Times, Room &amp; 1-Click Venue Macros)"
+                style="padding:5px 10px; font-size:0.75rem; font-weight:800; white-space:nowrap;"
+              >
+                🗓️ Schedule &amp; Dates
+              </button>
             </div>
 
             <!-- SNOW-DAY SHIFT & COMPANION DUAL-BADGE (2-IN-1) CONTROLS -->
@@ -2177,7 +2314,7 @@
             <div>
               <h3 class="m3-card-title" style="color:var(--md-sys-color-primary); font-size:1.08rem;">
                 <span class="m3-inline-icon" aria-hidden="true">⚙️</span>
-                🛡️ Super-User Admin Console — Image &amp; Caption Studio, Zero-PII Telemetry &amp; 144-Badge Diagnostics
+                🛡️ Super-User Admin Console — Image &amp; Caption Studio, Zero-PII Telemetry &amp; 149-Badge Diagnostics
               </h3>
               <div id="admin-console-header-subtitle" style="font-size:0.80rem; color:var(--md-sys-color-on-surface-secondary); margin-top:2px;">
                 Curate cached Merit Badge visuals, edit captions &amp; requirement tags, promote Alternates to Primary Default, and inspect strictly anonymous operational telemetry.
@@ -2212,7 +2349,7 @@
               📊 2. Zero-PII Usage &amp; Latency Telemetry
             </button>
             <button type="button" class="m3-studiokit-pill" data-admin-subtab="admin-subtab-diagnostics" id="btn-admin-subtab-diagnostics">
-              🩺 3. System Diagnostics &amp; 144-Badge Asset Health
+              🩺 3. System Diagnostics &amp; 149-Badge Asset Health
             </button>
           </div>
         </div>
@@ -2222,7 +2359,7 @@
           <div class="m3-card" style="margin-bottom:14px;">
             <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(170px, 1fr)); gap:10px; align-items:end;">
               <div>
-                <label class="m3-field-label" for="admin-catalog-badge-select" style="font-size:0.73rem;">1. Merit Badge (All 144)</label>
+                <label class="m3-field-label" for="admin-catalog-badge-select" style="font-size:0.73rem;">1. Merit Badge (All 149)</label>
                 <select class="m3-select" id="admin-catalog-badge-select" style="padding:6px 9px; font-size:0.80rem;"></select>
               </div>
               <div>
@@ -2445,7 +2582,7 @@
           </div>
         </div>
 
-        <!-- ADMIN SUB-TAB 3: SYSTEM DIAGNOSTICS & 144-BADGE ASSET HEALTH -->
+        <!-- ADMIN SUB-TAB 3: SYSTEM DIAGNOSTICS & 149-BADGE ASSET HEALTH -->
         <div id="admin-subtab-diagnostics" class="hidden">
           <!-- ADMIN #9: 1-CLICK MAINTENANCE ACTIONS CARD -->
           <div class="m3-card" style="margin-bottom:16px; background:var(--md-sys-color-surface); border:1.5px solid var(--md-sys-color-outline);">
@@ -2456,7 +2593,7 @@
                   🧰 1-Click Super-User Maintenance Actions
                 </h4>
                 <div style="font-size:0.78rem; color:var(--md-sys-color-on-surface-variant);">
-                  Execute safe, non-destructive maintenance sweeps on temporary caches, 144-badge cover/emblem assets, U.S. Senator delegations, and Zero-PII telemetry snapshots.
+                  Execute safe, non-destructive maintenance sweeps on temporary caches, 149-badge cover/emblem assets, U.S. Senator delegations, and Zero-PII telemetry snapshots.
                 </div>
               </div>
               <span id="admin-maintenance-status-pill" class="m3-chip m3-chip-secondary">Ready</span>
@@ -2466,7 +2603,7 @@
                 🗑️ Purge Temporary Web/AI Caches
               </button>
               <button type="button" class="m3-btn m3-btn-tonal" id="btn-admin-maint-repair-covers" style="justify-content:center; padding:8px 12px; font-size:0.78rem;">
-                🔧 Verify &amp; Repair 144 Covers &amp; Emblems
+                🔧 Verify &amp; Repair 149 Covers &amp; Emblems
               </button>
               <button type="button" class="m3-btn m3-btn-tonal" id="btn-admin-maint-refresh-senators" style="justify-content:center; padding:8px 12px; font-size:0.78rem;">
                 🏛️ Refresh 100 U.S. Senators Cache
@@ -2500,13 +2637,13 @@
               <div>
                 <h4 class="m3-card-title" style="font-size:0.95rem;">
                   <span class="m3-inline-icon" aria-hidden="true">📦</span>
-                  144-Badge Visual Asset Health Matrix
+                  149-Badge Visual Asset Health Matrix
                 </h4>
                 <div style="font-size:0.78rem; color:var(--md-sys-color-on-surface-variant);" id="admin-asset-summary-subtitle">
-                  Auditing all 144 official Merit Badges for pamphlet covers, high-DPI emblems, extracted pamphlet figures, Nano Banana heroes, and PDF/requirement indexes.
+                  Auditing all 149 official Merit Badges for pamphlet covers, high-DPI emblems, extracted pamphlet figures, Nano Banana heroes, and PDF/requirement indexes.
                 </div>
               </div>
-              <input type="search" class="m3-input" id="admin-asset-matrix-search" placeholder="🔎 Filter 144 badges..." style="width:220px; padding:6px 10px; font-size:0.79rem;" />
+              <input type="search" class="m3-input" id="admin-asset-matrix-search" placeholder="🔎 Filter 149 badges..." style="width:220px; padding:6px 10px; font-size:0.79rem;" />
             </div>
             <div class="m3-sticky-matrix-scroll" style="max-height:480px; overflow-y:auto; border:1px solid var(--md-sys-color-outline-variant); border-radius:10px;">
               <table class="m3-finops-table m3-sticky-matrix-table" style="width:100%;">
@@ -2826,6 +2963,7 @@
       </div>
       <div style="display:grid; grid-template-columns:auto 1fr; gap:8px 16px; font-size:0.83rem; align-items:center;">
         <kbd class="m3-kbd">← / →</kbd><span>Previous / Next Slide in Storyboard</span>
+        <kbd class="m3-kbd">Ctrl + Z / Ctrl + Y</kbd><span>Undo / Redo Slide Edits (20-State Stack)</span>
         <kbd class="m3-kbd">[ / ]</kbd><span>Previous / Next Slide Image Choice (Easy Slide Image Switcher)</span>
         <kbd class="m3-kbd">Alt + ← / →</kbd><span>Cycle Slide Image Choice (Alternate Shortcut)</span>
         <kbd class="m3-kbd">Space</kbd><span>Reveal Quiz Answer Card on Active Slide</span>
@@ -2834,6 +2972,9 @@
         <kbd class="m3-kbd">P</kbd><span>Open Split-Screen Presenter Console &amp; 2nd-Monitor Notes</span>
         <kbd class="m3-kbd">Q</kbd><span>Toggle Classroom Quiz &amp; Scenario Answer Reveal Mode</span>
         <kbd class="m3-kbd">T</kbd><span>Start / Pause Classroom Session Countdown Timer</span>
+        <kbd class="m3-kbd">W</kbd><span>Open / Close My Merit Badge Decks &amp; Classroom Sessions Library</span>
+        <kbd class="m3-kbd">G</kbd><span>Open / Close 149-Badge Visual Patch Gallery</span>
+        <kbd class="m3-kbd">M</kbd><span>Open / Close PowerPoint Template &amp; Theme Studio</span>
         <kbd class="m3-kbd">D</kbd><span>Open / Close User &amp; Engineering Documentation Viewer</span>
         <kbd class="m3-kbd">?</kbd><span>Open / Close Keyboard Shortcuts Cheat-Sheet</span>
         <kbd class="m3-kbd">Ctrl + Shift + A</kbd><span>Open Super-User Admin Console</span>
@@ -2841,7 +2982,7 @@
     </div>
   </div>
 
-  <!-- MODAL: 144 MERIT BADGE VISUAL PATCH GALLERY (UI-6) -->
+  <!-- MODAL: 149 MERIT BADGE VISUAL PATCH GALLERY (UI-6) -->
   <div class="m3-modal-backdrop hidden" id="patch-gallery-modal" role="dialog" aria-modal="true" aria-labelledby="patch-gallery-modal-title">
     <div class="m3-modal-dialog m3-patch-gallery-dialog" style="max-width:980px; width:95%; max-height:88vh; display:flex; flex-direction:column; overflow:hidden; padding:0;">
       <div class="m3-patch-gallery-sticky-header" style="display:flex; flex-direction:column; gap:10px; border-bottom:2px solid var(--md-sys-color-outline-variant); padding:16px 22px 12px; background:var(--md-sys-color-surface-bright); flex-shrink:0; z-index:3;">
@@ -3320,7 +3461,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
             📤 3. Upload .PPTX or Import URL
           </button>
         </div>
-        <span class="m3-chip m3-chip-secondary" id="template-catalog-count-chip">17 Templates &bull; 7 Style Families</span>
+        <span class="m3-chip m3-chip-secondary" id="template-catalog-count-chip">23 Templates &bull; 13 Style Families</span>
       </div>
 
       <div style="padding:14px 22px 22px; overflow-y:auto; flex:1 1 auto; min-height:0;" id="template-studio-body">
@@ -3487,6 +3628,16 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                       <option value="whitewater_kayak_rapids">🛶 Whitewater Kayaking &amp; Canoeing River Rapids</option>
                       <option value="environmental_wetlands">🌿 Environmental Science &amp; Nature Wetland Boardwalk</option>
                       <option value="stem_blueprint">🔬 STEM Robotics Lab &amp; Observatory Dome</option>
+                      <option value="wildlife_forestry_conservation">🦌 Wildlife &amp; Forestry Conservation Meadow</option>
+                      <option value="astronomy_deep_space_observatory">🔭 Deep-Space Observatory &amp; Milky Way</option>
+                    </optgroup>
+                    <optgroup label="Civics, Finance, Fitness, Media, Trades &amp; Emergency Backdrops (Built-In)">
+                      <option value="citizenship_capitol_civic">🏛️ Civic Capitol Dome &amp; Constitution Hall</option>
+                      <option value="personal_management_ledger">📊 Personal Finance &amp; Project Planning Desk</option>
+                      <option value="fitness_cycling_trail">🚴 Trail Cycling, Running &amp; Athletic Track</option>
+                      <option value="communications_studio">🎙️ Broadcast, Journalism &amp; Digital Media Studio</option>
+                      <option value="trades_welding_workshop">🔧 Skilled Trades, Welding &amp; Woodworking Shop</option>
+                      <option value="emergency_medical_triage">🚑 Emergency Medical &amp; Disaster Response Triage</option>
                     </optgroup>
                   </select>
                   <button type="button" class="m3-btn m3-btn-tonal" id="btn-tpl-ai-synthesize-prompt-bg" title="Synthesize or match a photorealistic washed background directly from your Custom Theme Prompt" style="padding:4px 9px; font-size:0.71rem; font-weight:800; white-space:nowrap;">
@@ -3966,7 +4117,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
               <div style="min-width:0;">
                 <label class="m3-field-label" for="mcp-playground-tool-select" style="font-size:0.73rem;">Select MCP Tool, Resource URI, or Guided Prompt</label>
                 <select id="mcp-playground-tool-select" class="m3-select" style="padding:6px 10px; font-size:0.79rem; width:100%;">
-                  <option value="search_merit_badges">🛠️ Tool: search_merit_badges (Filter 144 Merit Badges)</option>
+                  <option value="search_merit_badges">🛠️ Tool: search_merit_badges (Filter 149 Merit Badges)</option>
                   <option value="query_merit_badge_pamphlet">🛠️ Tool: query_merit_badge_pamphlet (Hybrid BM25+Vector RRF RAG)</option>
                   <option value="create_merit_badge_slide_deck">🛠️ Tool: create_merit_badge_slide_deck (Build Deck + Apply Template)</option>
                   <option value="get_slide_deck_workspace">🛠️ Tool: get_slide_deck_workspace (Inspect Workspace &amp; Roster)</option>
@@ -3978,7 +4129,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                   <option value="generate_class_prep_and_parent_letter">🛠️ Tool: generate_class_prep_and_parent_letter (Agenda + Parent Letter)</option>
                   <option value="manage_patrol_blue_card_roster">🛠️ Tool: manage_patrol_blue_card_roster (#34124 Roster &amp; Scoutbook CSV)</option>
                   <option value="audit_deck_conformance">🛠️ Tool: audit_deck_conformance (Stage-1 AABB Geometry Audit)</option>
-                  <option value="resource:bsa://catalog/badges">📚 Resource: bsa://catalog/badges (Read All 144 Merit Badges)</option>
+                  <option value="resource:bsa://catalog/badges">📚 Resource: bsa://catalog/badges (Read All 149 Merit Badges)</option>
                   <option value="resource:bsa://badges/First Aid/requirements">📚 Resource: bsa://badges/First Aid/requirements (Read Verbatim Reqs)</option>
                   <option value="resource:bsa://badges/First Aid/images">📚 Resource: bsa://badges/First Aid/images (Read Curated Visuals)</option>
                   <option value="resource:bsa://templates/catalog">📚 Resource: bsa://templates/catalog (Read Template Profiles)</option>

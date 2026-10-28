@@ -872,10 +872,11 @@ def beautify_slide_storyboard(
                     slide["full_bullet_points"] = raw_bps
                     slide["bullet_points"] = raw_bps[:4]
 
-        # Enforce strict image deduplication across the deck so no image (by file MD5) repeats excessively,
+        # Enforce strict image deduplication across the deck so no image (by file MD5) repeats across slides,
         # and ensure any replacement pamphlet image is requirement-matched and carries its verified caption!
         from src.tools.pamphlet_extractor import (
             _compose_pamphlet_visual_card,
+            _is_discardable_pamphlet_image,
             _load_pamphlet_image_catalog,
             strip_pamphlet_and_req_caption_prefixes,
         )
@@ -896,7 +897,7 @@ def beautify_slide_storyboard(
                 _topic_override_caps = {
                     "first_aid_req_12_topic_visual.png": "Scouts practicing Mental Health First Aid by noticing a distressed peer, listening with Two-Deep leadership, guiding slow breathing, and connecting with an adult leader.",
                     "first_aid_req_14_topic_visual.png": "Older Scout instructor teaching forearm splinting using the BSA EDGE method by explaining on a chart, demonstrating, guiding cravat practice, and enabling independent care.",
-                    "first_aid_req_15_topic_visual.png": "Uniformed Scout interviewing an EMS paramedic beside an ambulance, a wilderness rescue litter team on a mountain trail, and an ER nurse and physician mentoring a Scout.",
+                    "first_aid_req_15_topic_visual.png": "Scout interviewing an EMS paramedic beside an ambulance, a wilderness rescue litter team on a mountain trail, and an ER nurse and physician mentoring a Scout.",
                 }
                 slide["visual_caption"] = _topic_override_caps[cur_diag_fname]
             elif "ai_illustrations" in str(cur_diag):
@@ -909,19 +910,37 @@ def beautify_slide_storyboard(
                         slide["visual_caption"] = cat_c
             cur_md5 = _file_md5(str(cur_diag))
             if cur_md5:
-                if used_diagram_md5s.get(cur_md5, 0) >= 1 and not is_req_lead_slide:
-                    # Only replace a duplicate image on a non-intro slide if a verified pamphlet image or topic_visual for THIS requirement exists
+                if used_diagram_md5s.get(cur_md5, 0) >= 1:
+                    # Replace a duplicate image (including across multi-part chunk lead slides like 4a_1, 4a_2)
+                    # if a verified pamphlet image or topic_visual for THIS requirement exists
                     pamphlet_dir = AI_ILLUSTRATIONS_DIR.parent / "pamphlet_images"
                     catalog = _load_pamphlet_image_catalog()
                     replacement_found = False
                     if pamphlet_dir.exists() and catalog:
                         for fname, entry in catalog.items():
-                            if not fname.startswith(f"{badge_slug_check}_p"):
+                            if not fname.startswith(f"{badge_slug_check}_p") or entry.get("discard"):
                                 continue
+                            entry_r = str(entry.get("req_number") or "").strip()
                             allowed_r = [str(r).strip() for r in (entry.get("req_numbers") or []) if str(r).strip()]
-                            if (str(entry.get("req_number") or "").strip() == str(base_req_num).strip() or str(base_req_num).strip() in allowed_r) and not entry.get("discard"):
+                            all_e_r = [entry_r] + allowed_r
+                            matches_req = (
+                                str(req_num).strip() in all_e_r
+                                or (opt_prefix_check and any(r_x.lower() == opt_prefix_check for r_x in all_e_r))
+                                or (
+                                    str(base_req_num).strip() in all_e_r
+                                    and not (
+                                        badge_slug_check == "animal_science"
+                                        and opt_prefix_check in ("6c", "6d", "6e", "6f")
+                                        and any(
+                                            w in (str(entry.get("caption") or "") + " " + str(entry.get("topic") or "")).lower()
+                                            for w in ("cow", "cattle", "bull", "calf", "dairy", "beef", "shorthorn")
+                                        )
+                                    )
+                                )
+                            )
+                            if matches_req:
                                 cand = pamphlet_dir / fname
-                                if not cand.exists():
+                                if not cand.exists() or _is_discardable_pamphlet_image(cand):
                                     continue
                                 cand_md5 = _file_md5(str(cand))
                                 composed_rep = _compose_pamphlet_visual_card(
@@ -945,20 +964,24 @@ def beautify_slide_storyboard(
                                     replacement_found = True
                                     break
                     if not replacement_found:
-                        cand_tv = AI_ILLUSTRATIONS_DIR / f"{badge_slug_check}_req_{base_req_num}_topic_visual.png"
-                        if cand_tv.exists() and cand_tv.stat().st_size >= 35_000:
-                            tv_md5 = _file_md5(str(cand_tv))
-                            if tv_md5 and used_diagram_md5s.get(tv_md5, 0) == 0:
-                                slide["diagram_path"] = str(cand_tv)
-                                slide["ai_hero_image_path"] = str(cand_tv)
-                                slide["visual_source_label"] = "🍌 Nano Banana Visual"
-                                used_diagram_md5s[tv_md5] = 1
-                                replacement_found = True
-                                nc_map = _get_nano_banana_catalog()
-                                if cand_tv.name in nc_map:
-                                    slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(
-                                        str(nc_map[cand_tv.name].get("caption") or title), badge_name
-                                    )
+                        for tv_tag in (req_slug_check, opt_prefix_check, str(base_req_num).strip()):
+                            if not tv_tag:
+                                continue
+                            cand_tv = AI_ILLUSTRATIONS_DIR / f"{badge_slug_check}_req_{tv_tag}_topic_visual.png"
+                            if cand_tv.exists() and cand_tv.stat().st_size >= 35_000:
+                                tv_md5 = _file_md5(str(cand_tv))
+                                if tv_md5 and used_diagram_md5s.get(tv_md5, 0) == 0:
+                                    slide["diagram_path"] = str(cand_tv)
+                                    slide["ai_hero_image_path"] = str(cand_tv)
+                                    slide["visual_source_label"] = "🍌 Nano Banana Visual"
+                                    used_diagram_md5s[tv_md5] = 1
+                                    replacement_found = True
+                                    nc_map = _get_nano_banana_catalog()
+                                    if cand_tv.name in nc_map:
+                                        slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(
+                                            str(nc_map[cand_tv.name].get("caption") or title), badge_name
+                                        )
+                                    break
                     if not replacement_found:
                         slide["diagram_path"] = None
                         slide["ai_hero_image_path"] = None
@@ -973,20 +996,39 @@ def beautify_slide_storyboard(
             from src.tools.pamphlet_extractor import _ensure_complete_caption_sentence
 
             raw_vc_final = str(slide.get("visual_caption") or "").strip()
+            raw_vc_final = _re.sub(r"^Uniformed\s+Scouts\b", "Scouts", raw_vc_final, flags=_re.IGNORECASE)
+            raw_vc_final = _re.sub(r"^Uniformed\s+Scout\b", "A Scout", raw_vc_final, flags=_re.IGNORECASE)
+            raw_vc_final = _re.sub(r"\s+in\s+a\s+realistic\s+outdoor\s+setting\b", "", raw_vc_final, flags=_re.IGNORECASE)
             if ":" in raw_vc_final:
                 if ": " in raw_vc_final:
                     h_p, b_p = raw_vc_final.split(": ", 1)
-                    raw_vc_final = b_p.strip() if len(b_p.strip()) >= 24 else f"{h_p.strip()} — {b_p.strip()}"
-                raw_vc_final = raw_vc_final.replace(":", " — ")
+                    raw_vc_final = b_p.strip() if len(b_p.strip()) >= 24 else f"{h_p.strip()} - {b_p.strip()}"
+                raw_vc_final = raw_vc_final.replace(":", " - ")
+            raw_vc_final = raw_vc_final.replace("—", "-").replace("–", "-")
             raw_vc_final = _ensure_complete_caption_sentence(raw_vc_final, max_chars=125)
             norm_vc = _re.sub(r"[^a-z0-9]+", " ", raw_vc_final.lower()).strip()
+            norm_title = _re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
+            bullet_norms = [
+                _re.sub(r"[^a-z0-9]+", " ", str(b).lower()).strip()
+                for b in (slide.get("bullet_points") or [])
+                if str(b).strip()
+            ]
+            overlaps_bullet = any(
+                nb and (norm_vc == nb or (len(norm_vc) > 35 and norm_vc[:45] in nb))
+                for nb in bullet_norms
+            )
 
-            if not norm_vc:
-                clean_t = strip_pamphlet_and_req_caption_prefixes(title, badge_name).replace(":", " - ").strip(" .,-—")
-                clean_t = _re.sub(r"\s*[—\-]\s*(?:Core Principles & Field Reference|Field Visual & Key Principles)$", "", clean_t, flags=_re.IGNORECASE).strip()
-                alt_cap = f"Uniformed Scouts demonstrating {clean_t} skills during {badge_name} field practice."
+            if not norm_vc or norm_vc == norm_title or norm_vc in seen_visual_captions or overlaps_bullet:
+                clean_t = strip_pamphlet_and_req_caption_prefixes(title, badge_name).replace(":", " - ").replace("—", "-").strip(" .,-")
+                clean_t = _re.sub(r"\s*[-]\s*(?:Core Principles & Field Reference|Field Visual & Key Principles)$", "", clean_t, flags=_re.IGNORECASE).strip()
+                clean_t = _re.sub(r"\s*\((?:Visual Guide|Core Principles|Req[^)]*)\)$", "", clean_t, flags=_re.IGNORECASE).strip()
+                alt_cap = f"Field reference illustration for {badge_name} Requirement {req_num} showing {clean_t} principles."
                 raw_vc_final = _ensure_complete_caption_sentence(alt_cap.replace(":", ""), max_chars=125)
                 norm_vc = _re.sub(r"[^a-z0-9]+", " ", raw_vc_final.lower()).strip()
+                if norm_vc in seen_visual_captions:
+                    alt_cap_2 = f"Technical field diagram for {badge_name} Requirement {req_num} slide {idx + 1} covering {clean_t}."
+                    raw_vc_final = _ensure_complete_caption_sentence(alt_cap_2.replace(":", ""), max_chars=125)
+                    norm_vc = _re.sub(r"[^a-z0-9]+", " ", raw_vc_final.lower()).strip()
 
             seen_visual_captions.add(norm_vc)
             slide["visual_caption"] = raw_vc_final

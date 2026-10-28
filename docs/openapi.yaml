@@ -1477,11 +1477,187 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/deck/customize:
+    post:
+      summary: Api Customize Slide Deck
+      description: Inserts a custom local slide, hides/skips slides, reorders slides,
+        or deletes custom slides, and rebuilds the .pptx excluding hidden slides.
+      operationId: api_customize_slide_deck_api_v1_deck_customize_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideDeckCustomizeRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Customize Slide Deck Api V1 Deck Customize Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/deck/customize:
+    post:
+      summary: Api Customize Slide Deck
+      description: Inserts a custom local slide, hides/skips slides, reorders slides,
+        or deletes custom slides, and rebuilds the .pptx excluding hidden slides.
+      operationId: api_customize_slide_deck_api_deck_customize_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideDeckCustomizeRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Customize Slide Deck Api Deck Customize Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/slide/customize:
+    post:
+      summary: Api Customize Slide Deck
+      description: Inserts a custom local slide, hides/skips slides, reorders slides,
+        or deletes custom slides, and rebuilds the .pptx excluding hidden slides.
+      operationId: api_customize_slide_deck_api_v1_slide_customize_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideDeckCustomizeRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Customize Slide Deck Api V1 Slide Customize Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/slide/customize:
+    post:
+      summary: Api Customize Slide Deck
+      description: Inserts a custom local slide, hides/skips slides, reorders slides,
+        or deletes custom slides, and rebuilds the .pptx excluding hidden slides.
+      operationId: api_customize_slide_deck_api_slide_customize_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SlideDeckCustomizeRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+                title: Response Api Customize Slide Deck Api Slide Customize Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
   /api/v1/slide/deck-customize:
     post:
       summary: Api Customize Slide Deck
-      description: Inserts a custom local slide, hides/skips slides, or reorders slides,
-        and rebuilds the .pptx excluding hidden slides.
+      description: Inserts a custom local slide, hides/skips slides, reorders slides,
+        or deletes custom slides, and rebuilds the .pptx excluding hidden slides.
       operationId: api_customize_slide_deck_api_v1_slide_deck_customize_post
       parameters:
       - name: authorization
@@ -1525,8 +1701,8 @@ paths:
   /api/slide/deck-customize:
     post:
       summary: Api Customize Slide Deck
-      description: Inserts a custom local slide, hides/skips slides, or reorders slides,
-        and rebuilds the .pptx excluding hidden slides.
+      description: Inserts a custom local slide, hides/skips slides, reorders slides,
+        or deletes custom slides, and rebuilds the .pptx excluding hidden slides.
       operationId: api_customize_slide_deck_api_slide_deck_customize_post
       parameters:
       - name: authorization
@@ -2097,6 +2273,268 @@ paths:
                 additionalProperties: true
                 title: Response Api Generate Class Prep Cpp Api Studiokit Class Prep
                   Cpp Post
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/export/class-packet.zip:
+    get:
+      summary: Api Get Complete Class Packet Zip
+      description: Downloads the 1-Click Complete Class Packet (.ZIP) containing all
+        9 organized slide, Scout, counselor, and YPT files.
+      operationId: api_get_complete_class_packet_zip_api_v1_export_class_packet_zip_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: First Aid
+          title: Badge Name
+      - name: option_track
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ALL
+          title: Option Track
+      - name: schedule_format
+        in: query
+        required: false
+        schema:
+          type: string
+          default: 4_session_mbc
+          title: Schedule Format
+      - name: template_id
+        in: query
+        required: false
+        schema:
+          type: string
+          default: scouting_america_forest_sunrise
+          title: Template Id
+      - name: counselor_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Merit Badge Counselor
+          title: Counselor Name
+      - name: troop_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Troop 19, Northeast Massachusetts Council
+          title: Troop Name
+      - name: room_location
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ''
+          title: Room Location
+      - name: session_dates
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ''
+          title: Session Dates
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    post:
+      summary: Api Post Complete Class Packet Zip
+      description: Builds and downloads the 1-Click Complete Class Packet (.ZIP) using
+        active deck slides and counselor configuration.
+      operationId: api_post_complete_class_packet_zip_api_v1_export_class_packet_zip_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ClassPacketZipRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/export/class-packet.zip:
+    get:
+      summary: Api Get Complete Class Packet Zip
+      description: Downloads the 1-Click Complete Class Packet (.ZIP) containing all
+        9 organized slide, Scout, counselor, and YPT files.
+      operationId: api_get_complete_class_packet_zip_api_export_class_packet_zip_get
+      parameters:
+      - name: badge_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: First Aid
+          title: Badge Name
+      - name: option_track
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ALL
+          title: Option Track
+      - name: schedule_format
+        in: query
+        required: false
+        schema:
+          type: string
+          default: 4_session_mbc
+          title: Schedule Format
+      - name: template_id
+        in: query
+        required: false
+        schema:
+          type: string
+          default: scouting_america_forest_sunrise
+          title: Template Id
+      - name: counselor_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Merit Badge Counselor
+          title: Counselor Name
+      - name: troop_name
+        in: query
+        required: false
+        schema:
+          type: string
+          default: Troop 19, Northeast Massachusetts Council
+          title: Troop Name
+      - name: room_location
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ''
+          title: Room Location
+      - name: session_dates
+        in: query
+        required: false
+        schema:
+          type: string
+          default: ''
+          title: Session Dates
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+    post:
+      summary: Api Post Complete Class Packet Zip
+      description: Builds and downloads the 1-Click Complete Class Packet (.ZIP) using
+        active deck slides and counselor configuration.
+      operationId: api_post_complete_class_packet_zip_api_export_class_packet_zip_post
+      parameters:
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      - name: X-API-Key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ClassPacketZipRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
         '422':
           description: Validation Error
           content:
@@ -7633,6 +8071,57 @@ components:
           default: ''
       type: object
       title: AnonymousImageSwapTelemetryRequest
+    ClassPacketZipRequest:
+      properties:
+        badge_name:
+          type: string
+          title: Badge Name
+          default: First Aid
+        option_track:
+          type: string
+          title: Option Track
+          default: ALL
+        schedule_format:
+          type: string
+          title: Schedule Format
+          default: 4_session_mbc
+        template_id:
+          type: string
+          title: Template Id
+          default: scouting_america_forest_sunrise
+        counselor_info:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Counselor Info
+        class_logistics:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Class Logistics
+        storyboard_slides:
+          anyOf:
+          - items:
+              additionalProperties: true
+              type: object
+            type: array
+          - type: 'null'
+          title: Storyboard Slides
+        pptx_download_url:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Pptx Download Url
+        deck_style:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Deck Style
+      type: object
+      title: ClassPacketZipRequest
     CounselorFeedbackRequest:
       properties:
         badge_name:
@@ -8239,13 +8728,19 @@ components:
           type: string
           title: Action
           description: Customization action (`insert_custom_slide`, `toggle_hide_slide`,
-            `hide_home_prereq_slides`, `reorder_slide`, `sync_slides`).
+            `hide_home_prereq_slides`, `reorder_slide`, `delete_custom`, `sync_slides`).
           default: sync_slides
         slide_index:
           type: integer
           title: Slide Index
           description: Target slide index in storyboard_slides.
           default: 0
+        target_slide_index:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Target Slide Index
+          description: Optional alias for slide_index.
         direction:
           anyOf:
           - type: string
@@ -8272,6 +8767,15 @@ components:
           type: array
           title: Storyboard Slides
           description: Full slide array from client state.
+        slides:
+          anyOf:
+          - items:
+              additionalProperties: true
+              type: object
+            type: array
+          - type: 'null'
+          title: Slides
+          description: Optional alias for storyboard_slides.
         counselor_info:
           anyOf:
           - additionalProperties: true
