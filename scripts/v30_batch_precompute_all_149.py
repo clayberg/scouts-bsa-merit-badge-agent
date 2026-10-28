@@ -48,14 +48,13 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 import hashlib
 import json
 import math
-import os
 from pathlib import Path
 import random
 import re
 import sys
 from typing import Any, Dict, List, Optional, Tuple
 
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT) not in sys.path:
@@ -1025,9 +1024,9 @@ def build_bespoke_workbook_organizer(
         if not row_labels:
             row_labels = [
                 f"1. Primary Environmental Hazard in {badge_name}",
-                f"2. Equipment or Tool Handling Hazard",
-                f"3. Acute Physical / Medical Injury Risk",
-                f"4. Emergency Communication & Evacuation Protocol",
+                "2. Equipment or Tool Handling Hazard",
+                "3. Acute Physical / Medical Injury Risk",
+                "4. Emergency Communication & Evacuation Protocol",
             ]
         return {
             "organizer_type": "HAZARD_5COL",
@@ -1121,9 +1120,9 @@ def build_bespoke_workbook_organizer(
     if not row_labels:
         row_labels = [
             f"1. Core Definition & Mechanism ({clean_tp})",
-            f"2. Key Pamphlet Facts & Technical Standards",
-            f"3. Practical Scouting / Field Application Example",
-            f"4. Counselor Discussion & Verification Summary",
+            "2. Key Pamphlet Facts & Technical Standards",
+            "3. Practical Scouting / Field Application Example",
+            "4. Counselor Discussion & Verification Summary",
         ]
     return {
         "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1490,7 +1489,7 @@ def build_5part_facilitator_note(
             f"[PACING & MODALITY] 2 min | Session Launch | EDGE: Explain | {cite}. [Gesture to the title slide] Welcome to the {clean_b} Merit Badge clinic, Scouts! Confirm every buddy pair has their {clean_b} Workbook and Blue Card (#34124) ready.",
             f"[ASK SCOUTS FIRST] What real-world skill or outdoor challenge made you want to earn the {clean_b} Merit Badge today?",
             f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. [Expected Answer: Scouts share their personal goals while connecting {clean_b} to the Scout Oath, Scout Law, and Outdoor Code.]",
-            f"[COMMON MISCONCEPTION TO CORRECT] Myth: Group attendance alone completes a Merit Badge. | BSA Pamphlet Fact: Under Guide to Advancement Section 7.0.3.2, each Scout must individually demonstrate or explain every requirement as written.",
+            "[COMMON MISCONCEPTION TO CORRECT] Myth: Group attendance alone completes a Merit Badge. | BSA Pamphlet Fact: Under Guide to Advancement Section 7.0.3.2, each Scout must individually demonstrate or explain every requirement as written.",
             f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up Blue Card #34124 and the {clean_b} Workbook] Verify Scout names, unit numbers, and prerequisite preparation before moving to the Requirements Overview.",
         ])
 
@@ -1499,7 +1498,7 @@ def build_5part_facilitator_note(
             f"[PACING & MODALITY] 3 min | Syllabus Roadmap | EDGE: Explain & Plan | {cite}. [Point to the Requirements Triage Matrix] Walk Patrols through the three requirement tracks for {clean_b}: In-Class Discussions, Hands-On Skill Stations, and Home/Troop Prerequisites.",
             f"[ASK SCOUTS FIRST] Looking at our {clean_b} roadmap, which requirements demand field logs or hands-on demonstrations versus patrol discussion?",
             f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. [Expected Answer: In-class concepts are discussed together, skill stations use the BSA EDGE method with buddy pairs, and prerequisite logs require documented field evidence.]",
-            f"[COMMON MISCONCEPTION TO CORRECT] Myth: Unfinished prerequisites mean starting over after camp. | BSA Pamphlet Fact: Signed partial Blue Cards (#34124) remain valid until the Scout's 18th birthday.",
+            "[COMMON MISCONCEPTION TO CORRECT] Myth: Unfinished prerequisites mean starting over after camp. | BSA Pamphlet Fact: Signed partial Blue Cards (#34124) remain valid until the Scout's 18th birthday.",
             f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Point to the Workbook Table of Contents] Have Scouts circle their target session milestones in their {clean_b} Fillable Workbook.",
         ])
 
@@ -1509,7 +1508,7 @@ def build_5part_facilitator_note(
             f"[ASK SCOUTS FIRST] Before stepping up for your final {clean_b} Blue Card (#34124) verification, which workbook tables and field artifacts must you have ready?",
             f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. [Expected Answer: Completed {clean_b} Workbook organizers, any required sketches or logs, and a signed Blue Card or Scoutbook record.]",
             f"[COMMON MISCONCEPTION TO CORRECT] Myth: Once the Blue Card is signed, the workbook notes can be discarded immediately. | BSA Pamphlet Fact: Keep your {clean_b} Workbook and Applicant's Record as permanent proof for Boards of Review.",
-            f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up Blue Card #34124] Initial each verified requirement in the Counselor Triage Matrix and review Smart Partial next steps for any open home-troop items.",
+            "[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up Blue Card #34124] Initial each verified requirement in the Counselor Triage Matrix and review Smart Partial next steps for any open home-troop items.",
         ])
 
     slide_roles = [
@@ -1870,7 +1869,7 @@ def step4_retag_pamphlet_catalog(all_badge_jsons: Dict[str, Dict[str, Any]]) -> 
         b_data = all_badge_jsons.get(u_slug, {})
         req_map = {str(r.get("req_id")): r for r in (b_data.get("requirements") or [])}
         base_r = req_map.get(rid) or req_map.get(re.sub(r"[a-zA-Z()]+.*$", "", rid)) or {}
-        tp = str(meta.get("topic") or base_r.get("topic_title") or f"{bname} Req {rid}").replace(f"Field Reference Figure", "").strip()
+        tp = str(meta.get("topic") or base_r.get("topic_title") or f"{bname} Req {rid}").replace("Field Reference Figure", "").strip()
         old_cap = str(meta.get("caption") or "")
         new_cap = polish_caption_text(old_cap, bname, rid, tp, fname.replace(".png", "").split("_")[-1])
         b_set = seen_badge_caps.setdefault(bname, set())
@@ -1902,7 +1901,7 @@ def _render_single_diagram_png(task: Dict[str, Any]) -> Tuple[str, int]:
 
     width, height = 800, 600
     seed_bytes = hashlib.sha256(f"{fname}::{bname}::{rid}::{v_kind}::{title}".encode("utf-8")).digest()
-    rng = random.Random(int.from_bytes(seed_bytes[:8], "big"))
+    random.Random(int.from_bytes(seed_bytes[:8], "big"))
 
     # Distinct palette per visual_kind and badge seed
     palettes = [

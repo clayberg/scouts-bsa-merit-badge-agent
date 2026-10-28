@@ -15,21 +15,21 @@ client = TestClient(app)
 
 def test_class_packet_zip_get_and_post_endpoints() -> None:
     """Verifies GET and POST /api/v1/export/class-packet.zip return a valid 9-file ZIP archive."""
-    resp_get = client.get("/api/v1/export/class-packet.zip?badge_name=First%20Aid")
+    resp_get = client.get("/api/v1/export/class-packet.zip?badge_name=Bugling")
     assert resp_get.status_code == 200
     assert resp_get.headers["content-type"] == "application/zip"
-    assert "First_Aid_Complete_Class_Packet.zip" in resp_get.headers.get("content-disposition", "")
+    assert "Bugling_Complete_Class_Packet.zip" in resp_get.headers.get("content-disposition", "")
 
     expected_entries = {
-        "01_Slide_Deck/First_Aid_Merit_Badge_Deck.pptx",
-        "02_Scout_Handouts/First_Aid_Fillable_Scout_Workbook.pdf",
-        "02_Scout_Handouts/First_Aid_1Page_Class_Preparation_CPP.pdf",
-        "02_Scout_Handouts/First_Aid_Pocket_Field_QR_Checklist.pdf",
-        "03_Counselor_Materials/First_Aid_Counselor_Answer_Key_Guide.pdf",
-        "03_Counselor_Materials/First_Aid_Session_Lesson_Plan_Agenda.pdf",
-        "03_Counselor_Materials/First_Aid_3x5_EDGE_Pocket_Cue_Cards.pdf",
-        "03_Counselor_Materials/First_Aid_Quartermaster_Gear_and_Rotator.pdf",
-        "04_YPT_Communications/First_Aid_3Stage_Parent_Scoutmaster_Emails.md",
+        "01_Slide_Deck/Bugling_Merit_Badge_Deck.pptx",
+        "02_Scout_Handouts/Bugling_Fillable_Scout_Workbook.pdf",
+        "02_Scout_Handouts/Bugling_1Page_Class_Preparation_CPP.pdf",
+        "02_Scout_Handouts/Bugling_Pocket_Field_QR_Checklist.pdf",
+        "03_Counselor_Materials/Bugling_Counselor_Answer_Key_Guide.pdf",
+        "03_Counselor_Materials/Bugling_Session_Lesson_Plan_Agenda.pdf",
+        "03_Counselor_Materials/Bugling_3x5_EDGE_Pocket_Cue_Cards.pdf",
+        "03_Counselor_Materials/Bugling_Quartermaster_Gear_and_Rotator.pdf",
+        "04_YPT_Communications/Bugling_3Stage_Parent_Scoutmaster_Emails.md",
     }
 
     with zipfile.ZipFile(io.BytesIO(resp_get.content), "r") as zf:

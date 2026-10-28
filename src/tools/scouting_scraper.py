@@ -4929,7 +4929,7 @@ def _extract_option_sub_reqs_from_requirement(badge_lower: str, r: Dict[str, Any
     import re
 
     r_num = str(r.get("req_number") or "")
-    r_text = str(r.get("req_text") or "")
+    str(r.get("req_text") or "")
     subs = list(r.get("sub_requirements") or [])
 
     if badge_lower == "action sports" and r_num == "4":
