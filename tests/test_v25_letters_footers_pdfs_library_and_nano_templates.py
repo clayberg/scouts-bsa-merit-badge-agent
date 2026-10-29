@@ -228,6 +228,7 @@ def test_item6_nano_banana_three_variant_template_studio_and_guardrails() -> Non
     logo_b64 = "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode("ascii")
 
     # 4. Generate full 3-variant template family with consent
+    from src.tools.template_engine import delete_custom_template
     gen_res = generate_nano_banana_template_family(
         family_name="Camp Hidden Valley — Summer 2026 Theme",
         visual_style="pinewood_campfire",
@@ -240,12 +241,17 @@ def test_item6_nano_banana_three_variant_template_studio_and_guardrails() -> Non
         preview_only=False,
         user_consented=True,
     )
-    assert gen_res["status"] == "SUCCESS"
-    assert gen_res["family_id"].startswith("nanobanana_tpl_")
-    assert len(gen_res["variants"]) == 3
-    v_a, v_b, v_c = gen_res["variants"]
-    assert v_a["family_id"] == v_b["family_id"] == v_c["family_id"]
-    assert v_a["primary_hex"].upper() != v_b["primary_hex"].upper()
+    try:
+        assert gen_res["status"] == "SUCCESS"
+        assert gen_res["family_id"].startswith("nanobanana_tpl_")
+        assert len(gen_res["variants"]) == 3
+        v_a, v_b, v_c = gen_res["variants"]
+        assert v_a["family_id"] == v_b["family_id"] == v_c["family_id"]
+        assert v_a["primary_hex"].upper() != v_b["primary_hex"].upper()
+    finally:
+        for v in gen_res.get("variants", []):
+            if v.get("template_id"):
+                delete_custom_template(v["template_id"])
 
     # 5. Verify FastAPI endpoint /api/v1/templates/generate-ai works
     client = TestClient(app)

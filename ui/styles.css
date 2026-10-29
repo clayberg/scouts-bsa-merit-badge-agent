@@ -7361,10 +7361,35 @@ body.m3-dark-mode .m3-shortcuts-key-btn {
   left: 0;
   right: auto;
   top: calc(100% + 6px);
-  min-width: 325px;
-  max-height: 620px;
-  overflow-y: visible;
-  z-index: 80;
+  width: 320px;
+  min-width: 320px;
+  max-height: min(76vh, 520px);
+  overflow: hidden;
+  z-index: 1200;
+  padding: 0 !important;
+}
+
+.m3-stage-template-dropdown-menu:not(.hidden) {
+  display: flex !important;
+  flex-direction: column;
+  width: 320px;
+  max-height: min(76vh, 520px);
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  border-radius: 12px;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.24);
+  z-index: 1200;
+}
+
+#stage-template-dropdown-list,
+.m3-stage-template-dropdown-list {
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: 340px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 6px;
 }
 
 /* 5. Custom Template Card Edit (✏️) & Delete (🗑️) Icon Buttons */
@@ -7468,9 +7493,18 @@ body.m3-dark-mode .m3-tpl-action-icon-btn.delete:hover {
 }
 
 .m3-stage-template-menu-footer {
-  margin-top: 6px;
-  padding-top: 6px;
+  flex-shrink: 0;
+  background: #F8FAFC;
   border-top: 1px solid #E2E8F0;
+  padding: 10px 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-top: 0;
+}
+
+body.m3-dark-mode .m3-stage-template-menu-footer {
+  background: #1E293B !important;
+  border-top-color: #334155 !important;
 }
 
 body.m3-dark-mode .m3-stage-template-menu-item {
@@ -10647,20 +10681,261 @@ body.dark-mode .workbook-view-segmented-control {
    ============================================================================ */
 
 .m3-stage-inline-editable {
-  cursor: text;
+  cursor: text !important;
   border-radius: 6px;
-  transition: outline 0.14s ease, background-color 0.14s ease;
+  transition: outline 0.14s ease, background-color 0.14s ease, box-shadow 0.14s ease;
 }
 
 .m3-stage-inline-editable:hover {
-  outline: 1.5px dashed rgba(37, 99, 235, 0.45);
+  outline: 1.5px dashed rgba(37, 99, 235, 0.65);
   outline-offset: 2px;
 }
 
 .m3-stage-inline-editable[contenteditable="true"] {
-  outline: 2px dashed var(--md-sys-color-primary, #003F87) !important;
-  outline-offset: 3px;
-  background-color: rgba(255, 255, 255, 0.14);
+  outline: 1.5px dashed rgba(37, 99, 235, 0.65) !important;
+  outline-offset: 2px;
+  background-color: rgba(255, 255, 255, 0.12);
+  cursor: text !important;
+}
+
+.m3-stage-inline-editable[contenteditable="true"]:focus {
+  outline: 2px dashed rgba(37, 99, 235, 0.9) !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Fix 2: Workbook Embedded Images Click-to-Zoom Affordance */
+#workbook-markdown-preview img,
+.m3-fillable-workbook-embed img {
+  cursor: zoom-in;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+#workbook-markdown-preview img:hover,
+.m3-fillable-workbook-embed img:hover {
+  transform: scale(1.015);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.22);
+}
+
+/* Fix 8: Admin Promote Image Replacement Button Hover */
+.btn-promote-image-override:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.35) !important;
+  filter: brightness(1.05);
+}
+
+/* Fix 7: Download Progress Modal with Fast Badge-Building Animation & Moving Timer Bar */
+.m3-download-progress-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9500;
+  background: rgba(15, 23, 42, 0.62);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.m3-download-progress-backdrop.hidden {
+  display: none !important;
+}
+
+.m3-download-progress-card {
+  width: 100%;
+  max-width: 440px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+  border: 1.5px solid #CBD5E1;
+  border-top: 5px solid #003F87;
+  border-radius: 16px;
+  padding: 22px 24px 20px;
+  box-shadow: 0 24px 48px rgba(15, 23, 42, 0.34);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+body.m3-dark-mode .m3-download-progress-card {
+  background: linear-gradient(180deg, #0F172A 0%, #1E293B 100%);
+  border-color: #334155;
+  border-top-color: #38BDF8;
+  color: #F8FAFC;
+}
+
+.m3-download-badge-stage {
+  position: relative;
+  width: 86px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m3-download-orbital-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 3px dashed #D97706;
+  border-top-color: #003F87;
+  border-bottom-color: #15803D;
+  animation: m3BadgeOrbitalSpin 1.5s linear infinite;
+}
+
+.m3-download-emblem-disc {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #FEFCE8 0%, #F1F5F9 100%);
+  border: 2.5px solid #003F87;
+  box-shadow: 0 6px 16px rgba(0, 63, 135, 0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  animation: m3BadgePulsePop 0.75s ease-in-out infinite alternate;
+}
+
+.m3-download-emblem-disc img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.m3-download-emblem-fallback {
+  font-size: 1.7rem;
+  display: none;
+}
+
+.m3-download-sparkle {
+  position: absolute;
+  color: #F59E0B;
+  font-size: 0.85rem;
+  font-weight: 900;
+  pointer-events: none;
+  animation: m3SparkleTwinkle 0.75s ease-in-out infinite alternate;
+}
+
+.m3-sparkle-1 { top: -4px; right: 4px; animation-delay: 0s; }
+.m3-sparkle-2 { bottom: 2px; left: -4px; color: #2563EB; animation-delay: 0.25s; }
+.m3-sparkle-3 { top: 14px; left: -6px; color: #16A34A; animation-delay: 0.5s; }
+
+@keyframes m3BadgeOrbitalSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes m3BadgePulsePop {
+  0% { transform: scale(0.95); }
+  100% { transform: scale(1.05); }
+}
+
+@keyframes m3SparkleTwinkle {
+  0% { opacity: 0.25; transform: scale(0.75) rotate(-10deg); }
+  100% { opacity: 1; transform: scale(1.2) rotate(12deg); }
+}
+
+.m3-download-progress-title {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.02rem;
+  font-weight: 800;
+  color: #003F87;
+}
+
+body.m3-dark-mode .m3-download-progress-title {
+  color: #93C5FD;
+}
+
+.m3-download-progress-subtitle {
+  margin: 4px 0 0;
+  font-size: 0.76rem;
+  color: #475569;
+  font-weight: 600;
+}
+
+body.m3-dark-mode .m3-download-progress-subtitle {
+  color: #CBD5E1;
+}
+
+.m3-download-step-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.74rem;
+}
+
+.m3-download-step-label {
+  font-weight: 700;
+  color: #1E293B;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+body.m3-dark-mode .m3-download-step-label {
+  color: #E2E8F0;
+}
+
+.m3-download-timer-pill {
+  flex-shrink: 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.71rem;
+  font-weight: 800;
+  background: #EFF6FF;
+  color: #1D4ED8;
+  border: 1px solid #BFDBFE;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+body.m3-dark-mode .m3-download-timer-pill {
+  background: rgba(37, 99, 235, 0.2);
+  color: #93C5FD;
+  border-color: rgba(147, 197, 253, 0.35);
+}
+
+.m3-download-bar-track {
+  width: 100%;
+  height: 10px;
+  background: #E2E8F0;
+  border-radius: 999px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.12);
+}
+
+body.m3-dark-mode .m3-download-bar-track {
+  background: #334155;
+}
+
+.m3-download-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #003F87 0%, #2563EB 55%, #D97706 100%);
+  border-radius: 999px;
+  transition: width 0.14s ease-out;
+}
+
+.m3-download-phase-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.m3-download-phase-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #CBD5E1;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.m3-download-phase-dot.is-active {
+  background: #D97706;
+  transform: scale(1.3);
 }
 
 .m3-stage-inline-edit-bar {

@@ -1153,8 +1153,65 @@ function bindFilterAndSlideControls() {
   document.getElementById("btn-stage-undo")?.addEventListener("click", () => performSlideUndo());
   document.getElementById("btn-stage-redo")?.addEventListener("click", () => performSlideRedo());
 
-  // Direct On-Stage Inline contenteditable Click-to-Edit (Deliverable 5)
+  // Direct On-Stage Inline contenteditable Click-to-Edit (Deliverable 5 / Fix 1)
   state.stageInlineEditActive = false;
+  const getStageInlineEditableNodes = () => {
+    const titleEl = document.getElementById("stage-slide-title");
+    const capEl = document.getElementById("stage-diagram-caption");
+    const reqVerbEl = document.getElementById("stage-req-verbatim");
+    const reqStripBox = document.getElementById("stage-req-strip-box");
+    const miscEl = document.getElementById("stage-misconception-text");
+    const miscBar = document.getElementById("stage-misconception-bar");
+    const safetyEl = document.getElementById("stage-safety-text");
+    const safetyBar = document.getElementById("stage-safety-bar");
+    const leftZone =
+      document.getElementById("stage-left-cards") || document.getElementById("stage-left-zone");
+    const cardEls = leftZone
+      ? Array.from(
+          leftZone.querySelectorAll(
+            ".stage-content-card, .m3-slide-card-item:not(.m3-quiz-reveal-card)"
+          )
+        )
+      : [];
+    const subCardEls = leftZone
+      ? Array.from(
+          leftZone.querySelectorAll(
+            ".stage-card-heading, .stage-card-body, .m3-slide-card-anchor:not(.m3-quiz-reveal-card *), .m3-slide-card-text:not(.m3-quiz-reveal-card *), .m3-clean-point-lead, .m3-clean-point-body"
+          )
+        )
+      : [];
+    const reqVisible =
+      reqVerbEl && reqStripBox && !reqStripBox.classList.contains("hidden") && reqStripBox.style.display !== "none";
+    const miscVisible =
+      miscEl && miscBar && !miscBar.classList.contains("hidden") && miscBar.style.display !== "none";
+    const safetyVisible =
+      safetyEl && safetyBar && !safetyBar.classList.contains("hidden") && safetyBar.style.display !== "none";
+    const capVisible = capEl && capEl.offsetParent !== null;
+    const allEditable = [
+      titleEl,
+      reqVisible ? reqVerbEl : null,
+      ...cardEls,
+      ...subCardEls,
+      capVisible ? capEl : null,
+      miscVisible ? miscEl : null,
+      safetyVisible ? safetyEl : null,
+    ].filter(Boolean);
+    return {
+      titleEl,
+      capEl,
+      reqVerbEl,
+      reqVisible,
+      miscEl,
+      miscVisible,
+      safetyEl,
+      safetyVisible,
+      leftZone,
+      cardEls,
+      subCardEls,
+      allEditable,
+    };
+  };
+
   const setStageInlineEditMode = (enable, focusTarget = null) => {
     if (!state.currentResult || state.activeSlideIdx < 0) {
       if (enable) {
@@ -1165,24 +1222,41 @@ function bindFilterAndSlideControls() {
     state.stageInlineEditActive = Boolean(enable);
     const barEl = document.getElementById("stage-inline-edit-bar");
     const toggleBtn = document.getElementById("btn-stage-inline-edit");
+    const hintEl = document.getElementById("stage-inline-edit-hint");
     barEl?.classList.toggle("hidden", !state.stageInlineEditActive);
     toggleBtn?.classList.toggle("active", state.stageInlineEditActive);
+    if (toggleBtn) {
+      toggleBtn.textContent = state.stageInlineEditActive ? "✓ Done Editing" : "✏️ Edit Text on Stage";
+      toggleBtn.title =
+        "Edit Title, Body Cards, Requirement Text & Caption directly on the slide (Press Esc or click Done Editing to finish)";
+    }
+    if (hintEl) {
+      hintEl.textContent =
+        "✏️ Edit Title, Body Cards, Requirement Text & Caption directly on the slide (Press Esc or click Done Editing to finish)";
+    }
 
-    const titleEl = document.getElementById("stage-slide-title");
-    const capEl = document.getElementById("stage-diagram-caption");
-    const leftZone = document.getElementById("stage-left-zone");
-    const cardEls = leftZone
-      ? Array.from(leftZone.querySelectorAll(".m3-slide-card-item:not(.m3-quiz-reveal-card)"))
-      : [];
+    const { titleEl, cardEls, allEditable } = getStageInlineEditableNodes();
+    const cleanupNodes = [
+      document.getElementById("stage-slide-title"),
+      document.getElementById("stage-diagram-caption"),
+      document.getElementById("stage-req-verbatim"),
+      document.getElementById("stage-misconception-text"),
+      document.getElementById("stage-safety-text"),
+      ...allEditable,
+    ].filter(Boolean);
 
-    [titleEl, capEl, ...cardEls].filter(Boolean).forEach((el) => {
-      if (state.stageInlineEditActive) {
+    cleanupNodes.forEach((el) => {
+      if (state.stageInlineEditActive && allEditable.includes(el)) {
         el.setAttribute("contenteditable", "true");
         el.setAttribute("spellcheck", "true");
         el.classList.add("m3-stage-inline-editable");
+        el.style.outline = "1.5px dashed rgba(37, 99, 235, 0.65)";
+        el.style.cursor = "text";
       } else {
         el.removeAttribute("contenteditable");
         el.classList.remove("m3-stage-inline-editable");
+        el.style.outline = "";
+        el.style.cursor = "";
       }
     });
 
@@ -1200,56 +1274,143 @@ function bindFilterAndSlideControls() {
       setStageInlineEditMode(false);
       return;
     }
-    const titleEl = document.getElementById("stage-slide-title");
-    const capEl = document.getElementById("stage-diagram-caption");
-    const leftZone = document.getElementById("stage-left-zone");
-    const cardEls = leftZone
-      ? Array.from(leftZone.querySelectorAll(".m3-slide-card-item:not(.m3-quiz-reveal-card)"))
-      : [];
+    const slides = state.currentResult.storyboard?.slides || [];
+    const slide = slides[state.activeSlideIdx];
+    const {
+      titleEl,
+      capEl,
+      reqVerbEl,
+      reqVisible,
+      miscEl,
+      miscVisible,
+      safetyEl,
+      safetyVisible,
+      cardEls,
+    } = getStageInlineEditableNodes();
 
     const qeTitle = document.getElementById("quickedit-slide-title");
     const qeCaption = document.getElementById("quickedit-slide-caption");
     const qeBullets = document.getElementById("quickedit-slide-bullets");
 
-    if (qeTitle && titleEl) {
-      qeTitle.value = (titleEl.innerText || titleEl.textContent || "").trim();
+    if (titleEl) {
+      const cleanTitle = (titleEl.innerText || titleEl.textContent || "").trim();
+      if (cleanTitle) {
+        if (qeTitle) qeTitle.value = cleanTitle;
+        if (slide) slide.title = cleanTitle;
+      }
     }
-    if (qeCaption && capEl && capEl.offsetParent !== null) {
-      qeCaption.value = (capEl.innerText || capEl.textContent || "").trim();
+    if (capEl && capEl.offsetParent !== null) {
+      const cleanCap = (capEl.innerText || capEl.textContent || "").trim();
+      if (qeCaption) qeCaption.value = cleanCap;
+      if (slide) {
+        slide.visual_caption = cleanCap;
+        slide.image_caption = cleanCap;
+        if (slide.visual && typeof slide.visual === "object") {
+          slide.visual.caption = cleanCap;
+        }
+      }
     }
-    if (qeBullets && cardEls.length > 0) {
+    if (reqVisible && reqVerbEl && slide) {
+      const rawVerb = (reqVerbEl.innerText || reqVerbEl.textContent || "")
+        .replace(/^(?:Official\s+Req(?:uirement)?\s+[^:]+|Curriculum\s*&\s*Local\s+Context)\s*:\s*/i, "")
+        .trim();
+      if (rawVerb) {
+        slide.verbatim_text = rawVerb;
+        slide.verbatim_requirement_text = rawVerb;
+        if ("requirement_verbatim" in slide) {
+          slide.requirement_verbatim = rawVerb;
+        }
+      }
+    }
+    if (miscVisible && miscEl && slide) {
+      const rawMisc = (miscEl.innerText || miscEl.textContent || "").trim();
+      if (rawMisc) {
+        if (slide.misconception_callout && typeof slide.misconception_callout === "object") {
+          slide.misconception_callout.text = rawMisc;
+        } else {
+          slide.misconception_callout = rawMisc;
+        }
+        const arrowParts = rawMisc.split(/\s*(?:→|->)\s*/);
+        if (arrowParts.length >= 2) {
+          const mTxt = arrowParts[0].replace(/^Myth\s*:\s*/i, "").trim();
+          const fTxt = arrowParts.slice(1).join(" → ").replace(/^(?:Pamphlet\s+)?Fact\s*:\s*/i, "").trim();
+          slide.misconception_pair = {
+            ...(slide.misconception_pair || {}),
+            misconception: mTxt,
+            myth: mTxt,
+            fact: fTxt,
+            fact_correction: fTxt,
+          };
+        }
+      }
+    }
+    if (safetyVisible && safetyEl && slide) {
+      const rawSafety = (safetyEl.innerText || safetyEl.textContent || "")
+        .replace(/^Guide\s+to\s+Safe\s+Scouting\s*:\s*/i, "")
+        .trim();
+      if (rawSafety) {
+        slide.safety_warning = rawSafety;
+        if (slide.safety_callout && typeof slide.safety_callout === "object") {
+          slide.safety_callout.text = rawSafety;
+        } else {
+          slide.safety_callout = rawSafety;
+        }
+      }
+    }
+    if (cardEls.length > 0) {
       const extractedBullets = cardEls
         .map((cEl) => {
-          const anchorNode = cEl.querySelector(".m3-slide-card-anchor, .m3-clean-point-lead");
-          const bodyNode = cEl.querySelector(".m3-slide-card-text, .m3-clean-point-body");
+          const anchorNode = cEl.querySelector(
+            ".stage-card-heading, .m3-slide-card-anchor, .m3-clean-point-lead"
+          );
+          const bodyNode = cEl.querySelector(
+            ".stage-card-body, .m3-slide-card-text, .m3-clean-point-body"
+          );
           if (anchorNode && bodyNode) {
             const aTxt = (anchorNode.innerText || anchorNode.textContent || "")
-              .replace(/^(?:STEP\s*\d+|0\d+|\[\✓\]|[▸★◆❝])\s*/i, "")
+              .replace(/^(?:⚠️\s*SAFETY|STEP\s*\d+(?:\s*➔)?|0\d+|\[\✓\]|[▸★◆❝])\s*/i, "")
               .replace(/:$/, "")
               .trim();
             const bTxt = (bodyNode.innerText || bodyNode.textContent || "").trim();
             return aTxt && bTxt ? `${aTxt}: ${bTxt}` : aTxt || bTxt;
           }
           return (cEl.innerText || cEl.textContent || "")
-            .replace(/^(?:STEP\s*\d+|0\d+|\[\✓\]|[▸★◆❝])\s*/i, "")
+            .replace(/^(?:⚠️\s*SAFETY|STEP\s*\d+(?:\s*➔)?|0\d+|\[\✓\]|[▸★◆❝])\s*/i, "")
             .replace(/\s+/g, " ")
             .trim();
         })
         .filter(Boolean);
       if (extractedBullets.length > 0) {
-        qeBullets.value = extractedBullets.join("\n");
+        if (qeBullets) qeBullets.value = extractedBullets.join("\n");
+        if (slide) {
+          slide.bullet_points = extractedBullets;
+          slide.full_bullet_points = extractedBullets.slice();
+        }
       }
     }
     setStageInlineEditMode(false);
     document.getElementById("btn-save-quickedit")?.click();
   };
+  window.commitStageInlineEdits = commitStageInlineEdits;
 
   document.getElementById("btn-stage-inline-edit")?.addEventListener("click", () => {
-    setStageInlineEditMode(!state.stageInlineEditActive);
+    if (state.stageInlineEditActive) {
+      if (document.activeElement && typeof document.activeElement.blur === "function") {
+        document.activeElement.blur();
+      }
+      commitStageInlineEdits();
+      showToast("✓ Stage text edits saved", "info");
+    } else {
+      setStageInlineEditMode(true);
+    }
   });
   document.getElementById("btn-stage-inline-save")?.addEventListener("click", (ev) => {
     ev.stopPropagation();
+    if (document.activeElement && typeof document.activeElement.blur === "function") {
+      document.activeElement.blur();
+    }
     commitStageInlineEdits();
+    showToast("✓ Stage text edits saved", "info");
   });
   document.getElementById("btn-stage-inline-cancel")?.addEventListener("click", (ev) => {
     ev.stopPropagation();
@@ -1258,15 +1419,265 @@ function bindFilterAndSlideControls() {
       renderActiveSlide(state.activeSlideIdx);
     }
   });
+  document.getElementById("stage-diagram-caption")?.addEventListener("click", (ev) => {
+    if (state.stageInlineEditActive) {
+      ev.stopPropagation();
+    }
+  });
+  document.getElementById("stage-diagram-caption")?.addEventListener("dblclick", (ev) => {
+    ev.stopPropagation();
+    if (state.activeSlideIdx >= 0 && !state.stageInlineEditActive) {
+      setStageInlineEditMode(true, ev.currentTarget);
+    }
+  });
   document.getElementById("widescreen-slide-stage")?.addEventListener("dblclick", (ev) => {
     if (state.activeSlideIdx < 0) return;
     const hitTarget = ev.target?.closest(
-      "#stage-slide-title, .m3-slide-card-item:not(.m3-quiz-reveal-card), #stage-diagram-caption"
+      "#stage-slide-title, #stage-left-cards, .stage-content-card, .m3-slide-card-item:not(.m3-quiz-reveal-card), #stage-req-verbatim, #stage-diagram-caption, #stage-misconception-text, #stage-safety-text"
     );
     if (hitTarget && !state.stageInlineEditActive) {
-      setStageInlineEditMode(true, hitTarget);
+      ev.stopPropagation();
+      const focusNode =
+        ev.target?.closest(
+          ".stage-card-heading, .stage-card-body, .m3-slide-card-anchor, .m3-slide-card-text, .m3-clean-point-lead, .m3-clean-point-body"
+        ) ||
+        (hitTarget.id === "stage-left-cards"
+          ? hitTarget.querySelector(".stage-content-card, .m3-slide-card-item")
+          : hitTarget);
+      setStageInlineEditMode(true, focusNode || hitTarget);
     }
   });
+
+  // Fix 7: Progress Indicator Modal with Fast Badge-Building Animation & Moving Timer Bar for Long Downloads
+  const DOWNLOAD_BADGE_CYCLE_SLUGS = [
+    "first_aid",
+    "camping",
+    "environmental_science",
+    "citizenship_in_the_nation",
+    "emergency_preparedness",
+    "space_exploration",
+    "kayaking",
+    "archery",
+  ];
+  const DOWNLOAD_BADGE_FALLBACK_ICONS = ["⚜️", "🏕️", "🧭", "⛑️", "🦅", "🚀", "🛶", "🏹"];
+  let _downloadProgressTimerId = null;
+  let _downloadProgressPhaseTimerId = null;
+  let _downloadProgressOpenedAt = 0;
+
+  const showDownloadProgressModal = ({
+    title = "Building Printable Scouting Packet...",
+    subtitle = "Assembling official BSA requirements, vector tables & print-ready pages",
+    steps = [
+      "1/4 Hydrating official BSA requirements & diagrams...",
+      "2/4 Laying out fillable tables & checklists...",
+      "3/4 Rendering print-ready vector PDF pages...",
+      "4/4 Finalizing download stream...",
+    ],
+  } = {}) => {
+    const modal = document.getElementById("download-progress-modal");
+    if (!modal) return;
+    if (_downloadProgressTimerId) clearInterval(_downloadProgressTimerId);
+    if (_downloadProgressPhaseTimerId) clearInterval(_downloadProgressPhaseTimerId);
+
+    const titleEl = document.getElementById("download-progress-modal-title");
+    const subEl = document.getElementById("download-progress-modal-subtitle");
+    const stepEl = document.getElementById("download-progress-step-label");
+    const timerEl = document.getElementById("download-progress-timer-pill");
+    const fillEl = document.getElementById("download-progress-bar-fill");
+    const trackEl = document.getElementById("download-progress-bar-track");
+    const emblemImg = document.getElementById("download-progress-emblem-img");
+    const emblemIcon = document.getElementById("download-progress-emblem-icon");
+    const dotsWrap = document.getElementById("download-progress-phase-dots");
+
+    if (titleEl) titleEl.textContent = title;
+    if (subEl) subEl.textContent = subtitle;
+    const validSteps =
+      Array.isArray(steps) && steps.length > 0
+        ? steps
+        : [
+            "1/4 Hydrating official BSA requirements & diagrams...",
+            "2/4 Laying out fillable tables & checklists...",
+            "3/4 Rendering print-ready vector PDF pages...",
+            "4/4 Finalizing download stream...",
+          ];
+    if (stepEl) stepEl.textContent = validSteps[0];
+    if (timerEl) timerEl.textContent = "Elapsed: 0.0s";
+    if (fillEl) fillEl.style.width = "10%";
+    if (trackEl) trackEl.setAttribute("aria-valuenow", "10");
+
+    const activeBadgeName =
+      state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
+    const primarySlug =
+      typeof badgeNameToEmblemSlug === "function" ? badgeNameToEmblemSlug(activeBadgeName) : "first_aid";
+    const cycleSlugs = [
+      primarySlug,
+      ...DOWNLOAD_BADGE_CYCLE_SLUGS.filter((s) => s !== primarySlug),
+    ];
+
+    let phaseIdx = 0;
+    const updatePhaseVisuals = (idx) => {
+      const slug = cycleSlugs[idx % cycleSlugs.length] || "first_aid";
+      if (emblemImg) {
+        emblemImg.style.display = "block";
+        emblemImg.src = `/assets/badge_emblems/${slug}.png`;
+      }
+      if (emblemIcon) {
+        emblemIcon.textContent = DOWNLOAD_BADGE_FALLBACK_ICONS[idx % DOWNLOAD_BADGE_FALLBACK_ICONS.length];
+      }
+      const stepIdx = Math.min(validSteps.length - 1, idx % validSteps.length);
+      if (stepEl) stepEl.textContent = validSteps[stepIdx];
+      if (dotsWrap) {
+        const dots = dotsWrap.querySelectorAll(".m3-download-phase-dot");
+        dots.forEach((d, dIdx) => d.classList.toggle("is-active", dIdx === idx % dots.length));
+      }
+    };
+    updatePhaseVisuals(0);
+
+    _downloadProgressOpenedAt = performance.now();
+    modal.classList.remove("hidden");
+    modal.classList.add("open");
+
+    // Live 0.1s elapsed timer & smooth asymptotic 0% -> 92% progress bar
+    _downloadProgressTimerId = setInterval(() => {
+      const elapsedSec = Math.max(0, (performance.now() - _downloadProgressOpenedAt) / 1000);
+      if (timerEl) {
+        timerEl.textContent = `Elapsed: ${elapsedSec.toFixed(1)}s`;
+      }
+      const pct = Math.min(92, Math.round(12 + 80 * (1 - Math.exp(-elapsedSec / 2.2))));
+      if (fillEl) fillEl.style.width = `${pct}%`;
+      if (trackEl) trackEl.setAttribute("aria-valuenow", String(pct));
+    }, 100);
+
+    // Fast 750ms badge-building phase cycler
+    _downloadProgressPhaseTimerId = setInterval(() => {
+      phaseIdx += 1;
+      updatePhaseVisuals(phaseIdx);
+    }, 750);
+  };
+  window.showDownloadProgressModal = showDownloadProgressModal;
+
+  const hideDownloadProgressModal = async () => {
+    const modal = document.getElementById("download-progress-modal");
+    if (_downloadProgressTimerId) {
+      clearInterval(_downloadProgressTimerId);
+      _downloadProgressTimerId = null;
+    }
+    if (_downloadProgressPhaseTimerId) {
+      clearInterval(_downloadProgressPhaseTimerId);
+      _downloadProgressPhaseTimerId = null;
+    }
+    if (!modal || modal.classList.contains("hidden")) return;
+
+    const fillEl = document.getElementById("download-progress-bar-fill");
+    const trackEl = document.getElementById("download-progress-bar-track");
+    const stepEl = document.getElementById("download-progress-step-label");
+    if (fillEl) fillEl.style.width = "100%";
+    if (trackEl) trackEl.setAttribute("aria-valuenow", "100");
+    if (stepEl) stepEl.textContent = "✓ Complete — Starting browser download...";
+
+    const elapsedMs = performance.now() - (_downloadProgressOpenedAt || 0);
+    const minDisplayMs = 420;
+    const waitMs = elapsedMs < minDisplayMs ? minDisplayMs - elapsedMs : 160;
+    await new Promise((r) => setTimeout(r, waitMs));
+    modal.classList.remove("open");
+    modal.classList.add("hidden");
+  };
+  window.hideDownloadProgressModal = hideDownloadProgressModal;
+
+  const downloadUrlWithProgressModal = async (urlPath, options = {}) => {
+    if (!urlPath || urlPath === "#") return;
+    const lowerUrl = String(urlPath).toLowerCase();
+    const isPptx = lowerUrl.includes(".pptx") || options.kind === "pptx";
+    const isWorkbook = lowerUrl.includes("fillable-workbook") || options.kind === "workbook";
+    const isBlueCard = lowerUrl.includes("bluecard") || options.kind === "bluecards";
+    const badgeName =
+      state.currentResult?.badge_name || document.getElementById("badge-select")?.value || "First Aid";
+
+    const modalConfig = isPptx
+      ? {
+          title: `Exporting ${badgeName} PowerPoint (.PPTX)...`,
+          subtitle: "Packaging 16:9 widescreen slides, speaker notes & embedded figures",
+          steps: [
+            "1/4 Verifying 16:9 slide layouts & theme tokens...",
+            "2/4 Embedding official pamphlet figures & captions...",
+            "3/4 Formatting 5-part counselor speaker notes...",
+            "4/4 Finalizing .PPTX download stream...",
+          ],
+        }
+      : isWorkbook
+      ? {
+          title: `Building ${badgeName} Fillable Scout Workbook (.PDF)...`,
+          subtitle: "Generating interactive AcroForm fields, tables & requirement checklists",
+          steps: [
+            "1/4 Hydrating official BSA requirements & diagrams...",
+            "2/4 Laying out fillable tables & checklists...",
+            "3/4 Rendering print-ready vector PDF pages...",
+            "4/4 Finalizing download stream...",
+          ],
+        }
+      : isBlueCard
+      ? {
+          title: `Generating ${badgeName} 3-Panel Blue Cards (.PDF)...`,
+          subtitle: "Formatting official #34124 advancement records & scout sign-off matrix",
+          steps: [
+            "1/4 Loading unit advancement roster & troop metadata...",
+            "2/4 Mapping completed requirement initials...",
+            "3/4 Rendering 3-panel perforated Blue Card layout...",
+            "4/4 Finalizing download stream...",
+          ],
+        }
+      : {
+          title: options.title || `Building ${badgeName} Printable Handout (.PDF)...`,
+          subtitle: options.subtitle || "Rendering print-ready vector PDF handout for your class",
+          steps: options.steps || [
+            "1/4 Hydrating official BSA requirements & diagrams...",
+            "2/4 Formatting counselor & patrol layout tables...",
+            "3/4 Rendering print-ready vector PDF pages...",
+            "4/4 Finalizing download stream...",
+          ],
+        };
+
+    showDownloadProgressModal(modalConfig);
+    try {
+      const resp = await fetch(urlPath);
+      if (!resp.ok) {
+        throw new Error(`HTTP ${resp.status}`);
+      }
+      const blob = await resp.blob();
+      let filename = options.filename || "";
+      const disp = resp.headers.get("Content-Disposition") || "";
+      const fnMatch = disp.match(/filename\*?=(?:UTF-8'')?["']?([^"';\n]+)["']?/i);
+      if (fnMatch && fnMatch[1]) {
+        filename = decodeURIComponent(fnMatch[1].trim());
+      }
+      if (!filename) {
+        const cleanPath = String(urlPath).split("?")[0];
+        const base = cleanPath.split("/").pop() || "download";
+        const safeBadge = String(badgeName)
+          .trim()
+          .replace(/[^A-Za-z0-9]+/g, "_");
+        filename = base.includes(".") ? `${safeBadge}_${base}` : `${safeBadge}_${base}.pdf`;
+      }
+      const objUrl = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = objUrl;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(objUrl), 5000);
+    } catch (_err) {
+      const a = document.createElement("a");
+      a.href = urlPath;
+      a.setAttribute("download", options.filename || "");
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    } finally {
+      await hideDownloadProgressModal();
+    }
+  };
+  window.downloadUrlWithProgressModal = downloadUrlWithProgressModal;
 
   // 1-Click Complete Class Packet (.ZIP) Download (Deliverable 4)
   const downloadCompleteClassPacketZip = async (triggerBtn = null) => {
@@ -1285,6 +1696,16 @@ function bindFilterAndSlideControls() {
       triggerBtn.textContent = "⏳ Packaging 9-File Class Packet (.ZIP)...";
     }
     showToast(`📦 Packaging Complete ${badgeName} Class Packet (.ZIP)...`, "info");
+    showDownloadProgressModal({
+      title: `Packaging Complete ${badgeName} Class Packet (.ZIP)...`,
+      subtitle: "Bundling .PPTX slide deck, Fillable Scout Workbook PDF, Blue Cards & Counselor StudioKit",
+      steps: [
+        "1/4 Hydrating official BSA requirements & 16:9 slide deck (.PPTX)...",
+        "2/4 Laying out Fillable Scout Workbook & Counselor Guide PDFs...",
+        "3/4 Rendering 3x5 Cue Cards, Field QR Checklist & Blue Cards...",
+        "4/4 Compressing 9-file Complete Class Packet (.ZIP) stream...",
+      ],
+    });
 
     try {
       const resp = await fetch("/api/v1/export/class-packet.zip", {
@@ -1335,6 +1756,7 @@ function bindFilterAndSlideControls() {
     } catch (err) {
       showToast(`⚠️ Could not build Class Packet .ZIP: ${err.message}`, "warning");
     } finally {
+      await hideDownloadProgressModal();
       if (triggerBtn) {
         triggerBtn.disabled = false;
         triggerBtn.innerHTML = origText;
@@ -1485,6 +1907,28 @@ function bindFilterAndSlideControls() {
 
   // Keyboard Arrow Navigation (Left / Right / F for Fullscreen / Escape to exit)
   document.addEventListener("keydown", (ev) => {
+    if (state.stageInlineEditActive) {
+      if (ev.key === "Escape") {
+        ev.preventDefault();
+        ev.stopPropagation();
+        if (document.activeElement && typeof document.activeElement.blur === "function") {
+          document.activeElement.blur();
+        }
+        commitStageInlineEdits();
+        showToast("✓ Stage text edits saved", "info");
+        return;
+      }
+      if (ev.key === "Enter" && (ev.ctrlKey || ev.metaKey)) {
+        ev.preventDefault();
+        ev.stopPropagation();
+        if (document.activeElement && typeof document.activeElement.blur === "function") {
+          document.activeElement.blur();
+        }
+        commitStageInlineEdits();
+        showToast("✓ Stage text edits saved", "info");
+        return;
+      }
+    }
     if (window.isAnyModalOpen && window.isAnyModalOpen()) {
       if (ev.key === "Escape") {
         ev.preventDefault();
@@ -4216,6 +4660,49 @@ function formatUiExecutionModeLabel(rawMode) {
 }
 window.formatUiExecutionModeLabel = formatUiExecutionModeLabel;
 
+const TRANSPARENT_1X1_GIF =
+  "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+
+function setStageDiagramImageSrcCleanly(imgEl, newSrc, onLoadedCallback) {
+  if (!imgEl) return;
+  const loadId = String((parseInt(imgEl.dataset.loadToken || "0", 10) || 0) + 1);
+  imgEl.dataset.loadToken = loadId;
+  if (!newSrc) {
+    imgEl.style.transition = "none";
+    imgEl.style.opacity = "0";
+    imgEl.style.visibility = "hidden";
+    imgEl.src = TRANSPARENT_1X1_GIF;
+    return;
+  }
+  const currentSrcAttr = imgEl.getAttribute("src") || "";
+  if (currentSrcAttr !== newSrc) {
+    imgEl.style.transition = "none";
+    imgEl.style.opacity = "0";
+    imgEl.style.visibility = "hidden";
+    imgEl.src = TRANSPARENT_1X1_GIF;
+  }
+  const revealLoadedImage = () => {
+    if (imgEl.dataset.loadToken !== loadId) return;
+    imgEl.style.transition = "opacity 120ms ease-out";
+    imgEl.style.visibility = "visible";
+    imgEl.style.opacity = "1";
+    if (typeof onLoadedCallback === "function") {
+      onLoadedCallback();
+    }
+  };
+  imgEl.onload = revealLoadedImage;
+  imgEl.onerror = () => {
+    if (imgEl.dataset.loadToken !== loadId) return;
+    imgEl.style.visibility = "visible";
+    imgEl.style.opacity = "1";
+  };
+  imgEl.src = newSrc;
+  if (imgEl.complete && imgEl.naturalWidth > 0) {
+    requestAnimationFrame(revealLoadedImage);
+  }
+}
+window.setStageDiagramImageSrcCleanly = setStageDiagramImageSrcCleanly;
+
 function renderActiveSlide(idx) {
   window.renderActiveSlide = renderActiveSlide;
   window.renderFilmstrip = renderFilmstrip;
@@ -4413,9 +4900,9 @@ function renderActiveSlide(idx) {
       rightZone.style.background = "transparent";
       if (splitContainer) splitContainer.style.gridTemplateColumns = "1.2fr 0.8fr";
       if (imgEl) {
-        imgEl.src = res.cover_url;
         imgEl.alt = `${res.badge_name} Official Pamphlet Cover`;
         imgEl.style.maxHeight = "340px";
+        setStageDiagramImageSrcCleanly(imgEl, res.cover_url, () => fitActiveSlideToStage());
       }
       if (capEl) {
         capEl.textContent = "";
@@ -4662,14 +5149,17 @@ function renderActiveSlide(idx) {
   }
 
   // Always show the full Requirement Definition / Overview text in all modes (never truncate)
-  const hasVerbatimReq = Boolean(slide.verbatim_requirement_text && slide.verbatim_requirement_text.trim());
+  const resolvedVerbatimText = String(
+    slide.verbatim_requirement_text || slide.verbatim_text || slide.requirement_verbatim || ""
+  ).trim();
+  const hasVerbatimReq = Boolean(resolvedVerbatimText);
   const reqHeaderLabel = slide.req_number === "Overview" ? "Curriculum & Local Context" : `Official ${reqLabel}`;
   if (reqStripBox) {
     if (hasVerbatimReq) {
       reqStripBox.style.display = "flex";
       reqStripBox.style.borderColor = tokens.accentHex;
       reqStripBox.style.background = tokens.isBeautified ? tokens.cardBg : "#FFFFFF";
-      const rawVerbatim = String(slide.verbatim_requirement_text || "").trim();
+      const rawVerbatim = resolvedVerbatimText;
       reqStripBox.title = rawVerbatim;
       const reqLabelColor = tokens.isStudio ? "#93C5FD" : tokens.primaryHex;
       const reqBodyColor = tokens.isStudio ? "#F1F5F9" : tokens.textFg;
@@ -4876,17 +5366,17 @@ function renderActiveSlide(idx) {
       if (colonParts.length >= 3 && isGenericStepPrefix && colonParts[1].trim().split(/\s+/).length <= 7) {
         const anchor = colonParts[1].trim();
         const body = conciseCardBody(colonParts.slice(2).join(":").trim());
-        inner = `<div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(anchor)}</div>
-                 <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(body)}</div>`;
+        inner = `<div class="m3-slide-card-anchor stage-card-heading" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(anchor)}</div>
+                 <div class="m3-slide-card-text stage-card-body" style="color:${cSpec.bodyColor};">${escapeHtml(body)}</div>`;
       } else if (colonParts.length >= 2 && colonParts[0].trim().length <= 78) {
         const body = conciseCardBody(colonParts.slice(1).join(":").trim());
-        inner = `<div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(colonParts[0].trim())}</div>
-                 <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(body)}</div>`;
+        inner = `<div class="m3-slide-card-anchor stage-card-heading" style="color:${cSpec.anchorColor};">${badgeTag}${escapeHtml(colonParts[0].trim())}</div>
+                 <div class="m3-slide-card-text stage-card-body" style="color:${cSpec.bodyColor};">${escapeHtml(body)}</div>`;
       } else {
-        inner = `<div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${badgeTag}${escapeHtml(conciseCardBody(bp))}</div>`;
+        inner = `<div class="m3-slide-card-text stage-card-body" style="color:${cSpec.bodyColor};">${badgeTag}${escapeHtml(conciseCardBody(bp))}</div>`;
       }
       const itemEl = document.createElement("div");
-      itemEl.className = "m3-slide-card-item m3-slide-step-card m3-slide-card";
+      itemEl.className = "m3-slide-card-item m3-slide-step-card m3-slide-card stage-content-card";
       itemEl.style.cssText = cSpec.style;
       itemEl.innerHTML = inner;
       grid2x2.appendChild(itemEl);
@@ -5020,8 +5510,8 @@ function renderActiveSlide(idx) {
       const cSpec = getCardThemeSpec(bpIdx);
       const card = document.createElement("div");
       card.className = isCleanOrLineMode
-        ? "m3-slide-card-item m3-slide-bullet-row m3-slide-card"
-        : "m3-slide-card-item m3-slide-card";
+        ? "m3-slide-card-item m3-slide-bullet-row m3-slide-card stage-content-card"
+        : "m3-slide-card-item m3-slide-card stage-content-card";
       card.style.cssText = cSpec.style;
       const colonIdx = bp.indexOf(":");
       const isSourcesSlide = archetype === "SOURCES_AND_REFERENCES";
@@ -5036,15 +5526,15 @@ function renderActiveSlide(idx) {
             <div class="m3-clean-point-row">
               <span class="m3-clean-point-marker" style="color:${cSpec.anchorColor};">▸</span>
               <div>
-                <span class="m3-clean-point-lead" style="color:${cSpec.anchorColor};">${escapeHtml(anchor)}:</span>
-                <span class="m3-clean-point-body" style="color:${cSpec.bodyColor};"> ${escapeHtml(rest)}</span>
+                <span class="m3-clean-point-lead stage-card-heading" style="color:${cSpec.anchorColor};">${escapeHtml(anchor)}:</span>
+                <span class="m3-clean-point-body stage-card-body" style="color:${cSpec.bodyColor};"> ${escapeHtml(rest)}</span>
               </div>
             </div>
           `;
         } else {
           card.innerHTML = `
-            <div class="m3-slide-card-anchor" style="color:${cSpec.anchorColor};">${cSpec.prefix}${escapeHtml(anchor)}</div>
-            <div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${escapeHtml(rest)}</div>
+            <div class="m3-slide-card-anchor stage-card-heading" style="color:${cSpec.anchorColor};">${cSpec.prefix}${escapeHtml(anchor)}</div>
+            <div class="m3-slide-card-text stage-card-body" style="color:${cSpec.bodyColor};">${escapeHtml(rest)}</div>
           `;
         }
       } else {
@@ -5053,11 +5543,11 @@ function renderActiveSlide(idx) {
           card.innerHTML = `
             <div class="m3-clean-point-row">
               <span class="m3-clean-point-marker" style="color:${cSpec.anchorColor};">▸</span>
-              <div class="m3-clean-point-body" style="color:${cSpec.bodyColor};">${escapeHtml(bodyTxt)}</div>
+              <div class="m3-clean-point-body stage-card-body" style="color:${cSpec.bodyColor};">${escapeHtml(bodyTxt)}</div>
             </div>
           `;
         } else {
-          card.innerHTML = `<div class="m3-slide-card-text" style="color:${cSpec.bodyColor};">${cSpec.prefix}${escapeHtml(bodyTxt)}</div>`;
+          card.innerHTML = `<div class="m3-slide-card-text stage-card-body" style="color:${cSpec.bodyColor};">${cSpec.prefix}${escapeHtml(bodyTxt)}</div>`;
         }
       }
       leftZone.appendChild(card);
@@ -5088,14 +5578,16 @@ function renderActiveSlide(idx) {
     if (rightZone) rightZone.style.display = "none";
     if (leftZone) leftZone.style.display = "flex";
     if (splitContainer) splitContainer.style.gridTemplateColumns = "1fr";
+    if (imgEl) setStageDiagramImageSrcCleanly(imgEl, "");
   } else if (archetype === "FULL_BLEED_IMAGE_EXPLAINER") {
     if (leftZone) leftZone.style.display = "none";
     if (rightZone) rightZone.style.display = "flex";
     if (splitContainer) splitContainer.style.gridTemplateColumns = "1fr";
     if (imgEl) {
-      imgEl.src = `${slide.diagram_url}${slide.diagram_url.includes("?") ? "&" : "?"}v=3`;
+      const targetSrc = `${slide.diagram_url}${slide.diagram_url.includes("?") ? "&" : "?"}v=3`;
       imgEl.alt = slide.visual_caption || slide.title || "Merit Badge Diagram";
       imgEl.style.maxHeight = "310px";
+      setStageDiagramImageSrcCleanly(imgEl, targetSrc, () => fitActiveSlideToStage());
     }
     if (capEl) {
       capEl.textContent = slide.visual_caption || (slide.bullet_points && slide.bullet_points[0]) || slide.title || "";
@@ -5105,9 +5597,10 @@ function renderActiveSlide(idx) {
     if (rightZone) rightZone.style.display = "flex";
     if (splitContainer) splitContainer.style.gridTemplateColumns = "minmax(0, 1.15fr) minmax(0, 0.85fr)";
     if (imgEl) {
-      imgEl.src = `${slide.diagram_url}${slide.diagram_url.includes("?") ? "&" : "?"}v=3`;
+      const targetSrc = `${slide.diagram_url}${slide.diagram_url.includes("?") ? "&" : "?"}v=3`;
       imgEl.alt = slide.visual_caption || slide.title || "Merit Badge Diagram";
       imgEl.style.maxHeight = "250px";
+      setStageDiagramImageSrcCleanly(imgEl, targetSrc, () => fitActiveSlideToStage());
     }
     if (capEl) {
       capEl.textContent = slide.visual_caption || slide.title || "";
@@ -6000,6 +6493,11 @@ async function selectSlideImageChoice(targetEntry, options = {}) {
     targetEntry.caption || targetEntry.description || targetEntry.title || slide.visual_caption || slide.title || "";
   if (targetEntry.image_url) {
     slide.diagram_url = targetEntry.image_url;
+    const stageImgEl = document.getElementById("stage-diagram-img");
+    if (stageImgEl) {
+      const cleanChoiceSrc = `${targetEntry.image_url}${targetEntry.image_url.includes("?") ? "&" : "?"}v=3`;
+      setStageDiagramImageSrcCleanly(stageImgEl, cleanChoiceSrc, () => fitActiveSlideToStage());
+    }
   }
   if (targetEntry.image_path) {
     slide.diagram_path = targetEntry.image_path;
@@ -7467,6 +7965,10 @@ function bindCounselorToolkitActions() {
   snowdaySel?.addEventListener("change", rebuildStudioKitAgenda);
 
   const triggerPdfEndpointDownload = (urlPath) => {
+    if (typeof window.downloadUrlWithProgressModal === "function") {
+      window.downloadUrlWithProgressModal(urlPath);
+      return;
+    }
     const a = document.createElement("a");
     a.href = urlPath;
     a.setAttribute("download", "");
@@ -7503,6 +8005,31 @@ function bindCounselorToolkitActions() {
           cntEl.textContent = `${checkedCount}/${allBoxes.length} Done`;
         }
       });
+    });
+    // Fix 2: Wire click-to-zoom on all embedded Workbook images & figures
+    rootEl.querySelectorAll("img").forEach((img) => {
+      if (img.closest(".wb-lightbox-overlay, #wb-image-lightbox")) return;
+      img.style.cursor = "zoom-in";
+      if (!img.getAttribute("title")) {
+        img.setAttribute("title", "🔍 Click to zoom in Lightbox (up to 500%)");
+      }
+      if (!img.dataset.wbZoomBound) {
+        img.dataset.wbZoomBound = "1";
+        img.addEventListener("click", (ev) => {
+          ev.preventDefault();
+          ev.stopPropagation();
+          const src = img.getAttribute("src") || "";
+          if (!src) return;
+          const fig = img.closest("figure, .wb-figure-box, .wb-diagram-card, .wb-visual-ref");
+          const capEl = fig?.querySelector("figcaption, .wb-figure-caption, .wb-caption");
+          const caption = (capEl?.textContent || img.getAttribute("alt") || "Workbook Diagram").trim();
+          if (typeof window.openWorkbookImageZoom === "function") {
+            window.openWorkbookImageZoom(src, caption);
+          } else if (typeof openImageZoomLightbox === "function") {
+            openImageZoomLightbox({ src, title: caption || "Workbook Visual Reference", caption });
+          }
+        });
+      }
     });
   };
 
@@ -7631,9 +8158,22 @@ function bindCounselorToolkitActions() {
     } catch (_e) {}
     window.open(htmlUrl, "_blank", "noopener,noreferrer");
   };
+  const handleFillableWorkbookPdfDownloadClick = async (ev) => {
+    ev.preventDefault();
+    const { pdfHref } = syncWorkbookPdfDownloadLinks();
+    await downloadUrlWithProgressModal(pdfHref, { kind: "workbook" });
+  };
   document.getElementById("btn-workbook-open-fillable-html")?.addEventListener("click", handleOpenFillableWorkbook);
-  document.getElementById("btn-workbook-download-fillable-pdf")?.addEventListener("click", syncWorkbookPdfDownloadLinks);
-  document.getElementById("btn-studiokit-download-fillable-pdf")?.addEventListener("click", syncWorkbookPdfDownloadLinks);
+  document.getElementById("btn-workbook-download-fillable-pdf")?.addEventListener("click", handleFillableWorkbookPdfDownloadClick);
+  document.getElementById("btn-studiokit-download-fillable-pdf")?.addEventListener("click", handleFillableWorkbookPdfDownloadClick);
+  document.getElementById("btn-download-workbook-top")?.addEventListener("click", handleFillableWorkbookPdfDownloadClick);
+  document.getElementById("btn-download-workbook")?.addEventListener("click", handleFillableWorkbookPdfDownloadClick);
+  document.getElementById("btn-class-prep-cpp-pdf")?.addEventListener("click", async (ev) => {
+    ev.preventDefault();
+    syncWorkbookPdfDownloadLinks();
+    const href = ev.currentTarget?.getAttribute("href") || `/api/v1/studiokit/cpp.pdf?badge_name=${encodeURIComponent(state.currentResult?.badge_name || "First Aid")}`;
+    await downloadUrlWithProgressModal(href);
+  });
 
   const handleDownloadCueCardsPdf = (ev) => {
     if (ev) ev.preventDefault();
@@ -10824,22 +11364,29 @@ async function loadAdminZeroPiiTelemetry() {
         swapsWrap.innerHTML = `
           <table class="m3-finops-table" style="width:100%;">
             <thead>
-              <tr><th>Merit Badge</th><th>Req</th><th>Replacement Target</th><th>Swaps</th><th>Action</th></tr>
+              <tr><th>Merit Badge</th><th>Req</th><th>Replacement Target</th><th>Swaps</th><th style="white-space:nowrap; width:1%;">Action</th></tr>
             </thead>
             <tbody>
               ${swaps
                 .map((s, idx) => {
                   const slug = badgeNameToEmblemSlug(s.badge_name || "First Aid");
+                  const topTarget = String(s.to_image_id || s.top_target || s.event_type || "alternate").trim();
+                  const isHexHash = /^[0-9a-f]{10,16}$/i.test(topTarget);
+                  const formattedTargetHtml = isHexHash
+                    ? `<span style="font-family:monospace; font-size:0.72rem; background:#F1F5F9; color:#334155; padding:2px 6px; border-radius:4px; border:1px solid #CBD5E1; white-space:nowrap;">🖼️ Asset #${escapeHtml(topTarget.slice(0, 8))}</span>`
+                    : `<span style="font-family:monospace; font-size:0.72rem; background:#F1F5F9; color:#334155; padding:2px 6px; border-radius:4px; border:1px solid #CBD5E1;">${escapeHtml(topTarget)}</span>`;
                   return `
                 <tr>
                   <td><div style="display:inline-flex; align-items:center; gap:6px;"><img class="m3-pill-badge-emblem" src="/assets/badge_emblems/${escapeHtml(slug)}.png" alt="" loading="lazy" /><strong>${escapeHtml(s.badge_name)}</strong></div></td>
-                  <td>Req ${escapeHtml(s.req_number)}</td>
-                  <td><code>${escapeHtml(s.to_image_id || s.event_type || "alternate")}</code></td>
+                  <td style="white-space:nowrap;">Req ${escapeHtml(s.req_number)}</td>
+                  <td>${formattedTargetHtml}</td>
                   <td><strong>${s.event_count}</strong></td>
-                  <td>
+                  <td style="white-space:nowrap; width:1%;">
                     ${
                       s.to_image_id
-                        ? `<button type="button" class="m3-btn m3-btn-tonal" data-promote-hotspot-idx="${idx}" style="padding:2px 8px; font-size:0.68rem;">⚡ Promote Top Replacement to Default</button>`
+                        ? `<button type="button" class="btn-promote-image-override" data-promote-hotspot-idx="${idx}" data-badge="${escapeHtml(s.badge_name || "")}" data-req="${escapeHtml(s.req_id || s.req_number || "")}" data-slide="${escapeHtml(s.slide_id || "")}" data-target="${escapeHtml(topTarget)}" title="Promote Top Replacement (${escapeHtml(topTarget)}) to Global Default" style="display:inline-flex; align-items:center; justify-content:center; gap:6px; font-size:0.74rem; font-weight:700; padding:6px 12px; border-radius:8px; white-space:nowrap; background:linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%); color:#FFFFFF; border:1px solid #1E40AF; box-shadow:0 1px 3px rgba(37, 99, 235, 0.25); cursor:pointer; transition:all 0.15s ease;">
+                            <span>⚡</span><span>Promote to Default</span>
+                          </button>`
                         : `<span style="font-size:0.70rem; color:#64748B;">Logged</span>`
                     }
                   </td>
@@ -12004,6 +12551,13 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     if (state.preferredExportMode === "gslides") {
       ev.preventDefault();
       await exportActiveDeckToGoogleSlides();
+      return;
+    }
+    const href =
+      ev.currentTarget?.getAttribute("href") || state.currentResult?.pptx_download_url || "";
+    if (href && href !== "#" && typeof window.downloadUrlWithProgressModal === "function") {
+      ev.preventDefault();
+      await window.downloadUrlWithProgressModal(href, { kind: "pptx" });
     }
   });
 
@@ -12044,6 +12598,10 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     closeAllPopoverMenus(null);
   });
   const downloadPdfFromUrl = (urlPath) => {
+    if (typeof window.downloadUrlWithProgressModal === "function") {
+      window.downloadUrlWithProgressModal(urlPath);
+      return;
+    }
     const a = document.createElement("a");
     a.href = urlPath;
     a.setAttribute("download", "");
@@ -13738,6 +14296,28 @@ function closeImageZoomLightbox() {
   modal?.classList.remove("open");
   modal?.classList.add("hidden");
 }
+window.openImageZoomLightbox = openImageZoomLightbox;
+window.closeImageZoomLightbox = closeImageZoomLightbox;
+
+// Fix 2: Global helper & postMessage bridge for zooming images inside the Fillable Scout Workbook
+window.openWorkbookImageZoom = function openWorkbookImageZoom(src, caption = "", title = "") {
+  if (!src) return;
+  const cleanCap = String(caption || title || "Workbook Visual Diagram").trim();
+  const cleanTitle = String(title || caption || "Workbook Visual Diagram").trim();
+  openImageZoomLightbox({ src, title: cleanTitle, caption: cleanCap });
+};
+
+window.addEventListener("message", (ev) => {
+  const data = ev?.data;
+  if (
+    data &&
+    typeof data === "object" &&
+    (data.type === "OPEN_WORKBOOK_IMAGE_LIGHTBOX" || data.type === "WORKBOOK_IMAGE_ZOOM") &&
+    data.src
+  ) {
+    window.openWorkbookImageZoom(data.src, data.caption || "", data.title || "");
+  }
+});
 
 async function openDocumentationViewerModal(initialDocId = null) {
   const modal = document.getElementById("docs-viewer-modal");
@@ -13814,10 +14394,13 @@ function bindDocumentationViewerModal() {
   // Allow clicking the 16:9 slide diagram (#stage-diagram-img) or its 🔍 Click to zoom pill (#btn-stage-zoom-image)
   // to open the Click-to-Zoom Lightbox with the slide's title and visual caption
   const openActiveSlideDiagramInLightbox = (ev) => {
+    if (state.stageInlineEditActive && ev?.target?.closest("#stage-diagram-caption")) {
+      return;
+    }
     ev?.stopPropagation();
     const stageImg = document.getElementById("stage-diagram-img");
     const src = stageImg?.getAttribute("src") || "";
-    if (!src) return;
+    if (!src || src === TRANSPARENT_1X1_GIF) return;
     const slides = state.currentResult?.storyboard?.slides || [];
     const activeSlide = slides[state.activeSlideIdx] || {};
     const title = activeSlide.title || stageImg?.getAttribute("alt") || "Slide Visual Diagram";
@@ -13830,6 +14413,30 @@ function bindDocumentationViewerModal() {
   };
   document.getElementById("stage-diagram-img")?.addEventListener("click", openActiveSlideDiagramInLightbox);
   document.getElementById("btn-stage-zoom-image")?.addEventListener("click", openActiveSlideDiagramInLightbox);
+
+  // Fix 2: Delegated click-to-zoom for any image rendered inside #workbook-markdown-preview
+  document.getElementById("workbook-markdown-preview")?.addEventListener("click", (ev) => {
+    const zoomBtn = ev.target?.closest("[data-wb-zoom-src], .wb-fig-zoom-btn");
+    if (zoomBtn) {
+      ev.preventDefault();
+      ev.stopPropagation();
+      const zSrc = zoomBtn.getAttribute("data-wb-zoom-src") || zoomBtn.closest("figure")?.querySelector("img")?.getAttribute("src") || "";
+      const zCap = zoomBtn.getAttribute("data-wb-zoom-caption") || zoomBtn.closest("figure")?.querySelector("figcaption")?.textContent || "";
+      if (zSrc) window.openWorkbookImageZoom(zSrc, zCap);
+      return;
+    }
+    const imgEl = ev.target?.closest("img");
+    if (imgEl && !imgEl.closest(".wb-lightbox-overlay, #wb-image-lightbox")) {
+      ev.preventDefault();
+      ev.stopPropagation();
+      const src = imgEl.getAttribute("src") || "";
+      if (!src) return;
+      const fig = imgEl.closest("figure, .wb-figure-box, .wb-diagram-card, .wb-visual-ref");
+      const capEl = fig?.querySelector("figcaption, .wb-figure-caption, .wb-caption");
+      const caption = (capEl?.textContent || imgEl.getAttribute("alt") || "Workbook Visual Reference").trim();
+      window.openWorkbookImageZoom(src, caption);
+    }
+  });
 
   // Allow clicking the Admin "Image & Caption Inspector" preview image (#admin-inspector-img) or its 🔍 Click to zoom pill (#btn-admin-inspector-zoom)
   const openAdminInspectorImageInLightbox = (ev) => {
@@ -14613,19 +15220,19 @@ function renderStageTemplateSplitDropdown() {
     .join("");
 
   menuEl.innerHTML = `
-    <div class="m3-stage-template-menu-header" style="padding:4px 10px 6px; font-size:0.68rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-bottom:1px solid #E2E8F0; margin-bottom:4px;">
+    <div class="m3-stage-template-menu-header" style="flex-shrink:0; padding:8px 12px 6px; font-size:0.68rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-bottom:1px solid #E2E8F0; background:#F8FAFC; border-top-left-radius:12px; border-top-right-radius:12px;">
       Switch Slide Template (${list.length} Across ${groups.length} Styles)
     </div>
-    <div style="max-height:none; overflow:visible;">
+    <div id="stage-template-dropdown-list" class="m3-stage-template-dropdown-list" style="flex:1 1 auto; min-height:0; max-height:340px; overflow-y:auto; overscroll-behavior:contain; padding:6px;">
       ${itemsHtml}
     </div>
-    <div class="m3-stage-template-menu-header" style="padding:6px 10px 4px; font-size:0.67rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B; border-top:1px solid #E2E8F0; margin-top:4px;">
-      Deck Layout Style (Live Stage + .PPTX)
-    </div>
-    <div class="m3-stage-style-quick-row" role="group" aria-label="Quick Deck Layout Style">
-      ${quickLayoutBtnsHtml}
-    </div>
-    <div class="m3-stage-template-menu-footer">
+    <div class="m3-stage-template-menu-footer" style="flex-shrink:0; background:#F8FAFC; border-top:1px solid #E2E8F0; padding:10px 12px; border-bottom-left-radius:12px; border-bottom-right-radius:12px;">
+      <div class="m3-stage-template-menu-header" style="padding:0 0 6px; font-size:0.67rem; font-weight:800; text-transform:uppercase; letter-spacing:0.04em; color:#64748B;">
+        Deck Layout Style (Live Stage + .PPTX)
+      </div>
+      <div class="m3-stage-style-quick-row" role="group" aria-label="Quick Deck Layout Style" style="margin-bottom:8px;">
+        ${quickLayoutBtnsHtml}
+      </div>
       <button type="button" class="m3-btn m3-btn-tonal m3-tonal-btn" id="btn-stage-menu-open-studio" style="width:100%; font-size:0.74rem; padding:6px 10px; font-weight:700; justify-content:center;">
         🎨 Open Template Studio &amp; Upload...
       </button>
@@ -15679,12 +16286,16 @@ async function initPowerPointTemplateStudio() {
     if (backdropSelVal === "custom_upload" && state.tplAiCustomBgDataUrl) {
       return state.tplAiCustomBgDataUrl;
     }
+    const synthUrl = state.tplAiSynthesizedBackdropUrl || state.tplAiSynthesizedPromptBgUrl || "";
+    if ((backdropSelVal === "ai_prompt" || backdropSelVal === "ai_synthesize") && synthUrl) {
+      return synthUrl;
+    }
     if (
-      (backdropSelVal === "ai_prompt" || backdropSelVal === "auto") &&
-      state.tplAiSynthesizedBackdropUrl &&
+      backdropSelVal === "auto" &&
+      synthUrl &&
       state.tplAiSynthesizedBackdropPrompt === (promptText || "").trim()
     ) {
-      return state.tplAiSynthesizedBackdropUrl;
+      return synthUrl;
     }
     if (backdropSelVal && BUILTIN_BACKDROP_URLS[backdropSelVal]) {
       return BUILTIN_BACKDROP_URLS[backdropSelVal];
@@ -15804,30 +16415,37 @@ async function initPowerPointTemplateStudio() {
         ? "bottom:8px; right:10px;"
         : "top:7px; right:10px;";
 
-    const previewMode = state.tplAiPreviewSlideMode || "cover";
+    const rawPreviewMode = state.tplAiPreviewSlideMode || "cover";
+    const isBackdropMode = rawPreviewMode === "backdrop" || rawPreviewMode === "washed_bg";
+    const isCoverMode = rawPreviewMode === "cover" || rawPreviewMode === "slide_1";
     const backdropSelEl = document.getElementById("tpl-ai-backdrop-select");
     const backdropSelVal = backdropSelEl?.value || "auto";
     const customBgDesc = (document.getElementById("tpl-ai-custom-bg-desc-input")?.value || "").trim();
+    const synthUrl = state.tplAiSynthesizedBackdropUrl || state.tplAiSynthesizedPromptBgUrl || "";
 
     if (stageBox) {
       const effectiveBackdropId =
-        backdropSelVal === "auto" || backdropSelVal === "ai_prompt"
+        backdropSelVal === "auto" || backdropSelVal === "ai_prompt" || backdropSelVal === "ai_synthesize"
           ? matchBackdropIdFromPrompt(styleFamily, promptText || customBgDesc)
           : backdropSelVal;
       const backdropDisplayLabel =
         backdropSelVal === "custom_upload" && state.tplAiCustomBgDataUrl
           ? customBgDesc || "Uploaded Custom Background Image"
+          : (backdropSelVal === "ai_prompt" || backdropSelVal === "ai_synthesize") && synthUrl
+          ? state.tplAiSynthesizedBackdropLabel || "✨ Custom AI Synthesized Backdrop"
           : BUILTIN_BACKDROP_LABELS[effectiveBackdropId] || customBgDesc || "Washed Scouting Backdrop";
 
       const coverBgUrl =
-        genVar?.cover_bg_url ||
-        resolvePhotorealisticCoverBackdropUrl(styleFamily, promptText || customBgDesc, backdropSelVal);
+        ((backdropSelVal === "ai_prompt" || backdropSelVal === "ai_synthesize") && synthUrl)
+          ? synthUrl
+          : genVar?.cover_bg_url ||
+            resolvePhotorealisticCoverBackdropUrl(styleFamily, promptText || customBgDesc, backdropSelVal);
 
-      if (previewMode === "backdrop") {
+      if (isBackdropMode) {
         stageBox.style.backgroundImage = `linear-gradient(135deg, rgba(250,248,245,0.68) 0%, ${pHex}22 50%, rgba(250,248,245,0.72) 100%), url('${coverBgUrl}')`;
         stageBox.style.backgroundSize = "cover";
         stageBox.style.backgroundPosition = "center";
-      } else if (previewMode === "cover") {
+      } else if (isCoverMode) {
         stageBox.style.backgroundImage = `linear-gradient(135deg, rgba(250,248,245,0.72) 0%, ${pHex}1F 50%, rgba(250,248,245,0.76) 100%), url('${coverBgUrl}')`;
         stageBox.style.backgroundSize = "cover";
         stageBox.style.backgroundPosition = "center";
@@ -15848,7 +16466,7 @@ async function initPowerPointTemplateStudio() {
           ? ""
           : "margin-right:32px;";
 
-      if (previewMode === "backdrop") {
+      if (isBackdropMode) {
         stageBox.innerHTML = `
           <div id="tpl-ai-preview-backdrop-mode" style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; justify-content:space-between; ${perimeterBorder}">
             <div style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px;">
@@ -15866,7 +16484,7 @@ async function initPowerPointTemplateStudio() {
             <img id="tpl-ai-preview-corner-logo" src="${escapeHtml(logoSrc)}" alt="Template Corner Emblem" style="position:absolute; ${logoCornerStyle} width:28px; height:28px; object-fit:contain; background:rgba(255,255,255,0.92); border-radius:50%; padding:2px; box-shadow:0 2px 6px rgba(15,23,42,0.22); z-index:4;" />
           </div>
         `;
-      } else if (previewMode === "cover") {
+      } else if (isCoverMode) {
         stageBox.innerHTML = `
           <div id="tpl-ai-preview-cover-mode" style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; justify-content:space-between; ${perimeterBorder}">
             <div id="tpl-ai-preview-header-band" style="background:linear-gradient(135deg, ${escapeHtml(pHex)} 0%, ${escapeHtml(pHex)}E6 100%); border-bottom:3px solid ${escapeHtml(aHex)}; padding:7px 14px; color:#FFFFFF; display:flex; align-items:center; justify-content:space-between; gap:8px;">
@@ -15939,6 +16557,7 @@ async function initPowerPointTemplateStudio() {
     }
   };
   window.updateNanoBananaLivePreview = updateNanoBananaLivePreview;
+  window.renderNanoBananaLivePreview = updateNanoBananaLivePreview;
 
   document.querySelectorAll("[data-tpl-ai-slide-mode]").forEach((modeBtn) => {
     modeBtn.addEventListener("click", () => {
@@ -16008,7 +16627,10 @@ async function initPowerPointTemplateStudio() {
   ].forEach((id) => {
     const handleEditChange = () => {
       if (id === "tpl-ai-prompt-input") {
-        state.tplAiSynthesizedPromptBgUrl = "";
+        const bdSel = document.getElementById("tpl-ai-backdrop-select");
+        if (bdSel?.value !== "ai_prompt") {
+          state.tplAiSynthesizedPromptBgUrl = "";
+        }
       }
       invalidateAiGeneratedVariantsDraft();
       updateNanoBananaLivePreview();
@@ -16027,6 +16649,12 @@ async function initPowerPointTemplateStudio() {
       if (bdSel) bdSel.value = "custom_upload";
       const clearBtn = document.getElementById("btn-tpl-ai-clear-custom-bg");
       clearBtn?.classList.remove("hidden");
+      const thumbWrap = document.getElementById("tpl-ai-synthesized-thumb-wrap");
+      const thumbImg = document.getElementById("tpl-ai-synthesized-thumb-img");
+      if (thumbWrap && thumbImg) {
+        thumbImg.src = state.tplAiCustomBgDataUrl;
+        thumbWrap.classList.remove("hidden");
+      }
       const statusSpan = document.getElementById("tpl-ai-custom-bg-status");
       if (statusSpan) {
         statusSpan.textContent = `✓ Loaded custom backdrop (${file.name})`;
@@ -16041,28 +16669,35 @@ async function initPowerPointTemplateStudio() {
   document.getElementById("btn-tpl-ai-clear-custom-bg")?.addEventListener("click", () => {
     state.tplAiCustomBgDataUrl = "";
     state.tplAiSynthesizedPromptBgUrl = "";
+    state.tplAiSynthesizedBackdropUrl = "";
+    state.tplAiSynthesizedBackdropPrompt = "";
+    state.tplAiSynthesizedBackdropLabel = "";
     const fileIn = document.getElementById("tpl-ai-custom-bg-file-input");
     if (fileIn) fileIn.value = "";
     const bdSel = document.getElementById("tpl-ai-backdrop-select");
-    if (bdSel && (bdSel.value === "custom_upload" || bdSel.value === "ai_synthesize")) {
+    if (bdSel && (bdSel.value === "custom_upload" || bdSel.value === "ai_synthesize" || bdSel.value === "ai_prompt")) {
       bdSel.value = "auto";
     }
     document.getElementById("btn-tpl-ai-clear-custom-bg")?.classList.add("hidden");
+    document.getElementById("tpl-ai-synthesized-thumb-wrap")?.classList.add("hidden");
     const statusSpan = document.getElementById("tpl-ai-custom-bg-status");
     if (statusSpan) statusSpan.textContent = "";
     invalidateAiGeneratedVariantsDraft();
     updateNanoBananaLivePreview();
   });
 
-  document.getElementById("btn-tpl-ai-synthesize-prompt-bg")?.addEventListener("click", async () => {
+  const synthesizeWashedBackdropFromPrompt = async ({ switchPreviewMode = true, showToastSuccess = true } = {}) => {
     const promptText = (document.getElementById("tpl-ai-prompt-input")?.value || "").trim();
     const customDesc = (document.getElementById("tpl-ai-custom-bg-desc-input")?.value || "").trim();
+    const promptVal = promptText || customDesc || "Scouting outdoor adventure landscape";
     const styleVal = document.getElementById("tpl-ai-style-select")?.value || "pinewood_campfire";
     const c1 = document.getElementById("tpl-ai-color1")?.value || "#1B5E20";
     const c2 = document.getElementById("tpl-ai-color2")?.value || "#0284C7";
     const c3 = document.getElementById("tpl-ai-color3")?.value || "#D97706";
     const synthBtn = document.getElementById("btn-tpl-ai-synthesize-prompt-bg");
     const statusSpan = document.getElementById("tpl-ai-custom-bg-status");
+    const thumbWrap = document.getElementById("tpl-ai-synthesized-thumb-wrap");
+    const thumbImg = document.getElementById("tpl-ai-synthesized-thumb-img");
     if (synthBtn) {
       synthBtn.disabled = true;
       synthBtn.textContent = "⏳ Synthesizing Backdrop...";
@@ -16072,7 +16707,7 @@ async function initPowerPointTemplateStudio() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          prompt: promptText || customDesc || "Scouting outdoor adventure landscape",
+          prompt: promptVal,
           visual_style: styleVal,
           primary_hex: c1,
           secondary_hex: c2,
@@ -16083,28 +16718,58 @@ async function initPowerPointTemplateStudio() {
       });
       const data = await resp.json().catch(() => ({}));
       if (resp.ok && data.backdrop_url) {
-        state.tplAiSynthesizedPromptBgUrl = `${data.backdrop_url}?t=${Date.now()}`;
+        state.tplAiSynthesizedBackdropUrl = data.backdrop_url;
+        state.tplAiSynthesizedPromptBgUrl = data.backdrop_url;
+        state.tplAiSynthesizedBackdropPrompt = promptText;
+        state.tplAiSynthesizedBackdropLabel = data.source_label || "✨ Custom AI Synthesized Backdrop";
         const bdSel = document.getElementById("tpl-ai-backdrop-select");
         if (bdSel && !state.tplAiCustomBgDataUrl) {
-          bdSel.value = "ai_synthesize";
+          bdSel.value = "ai_prompt";
+        }
+        if (thumbWrap && thumbImg) {
+          thumbImg.src = data.backdrop_url;
+          thumbWrap.classList.remove("hidden");
         }
         if (statusSpan) {
-          statusSpan.textContent = `✓ ${data.source_label || "Washed backdrop ready"}`;
+          statusSpan.textContent = "✓ Custom AI Backdrop Active in Preview";
+        }
+        document.getElementById("btn-tpl-ai-clear-custom-bg")?.classList.remove("hidden");
+        if (switchPreviewMode) {
+          if (state.tplAiPreviewSlideMode !== "cover" && state.tplAiPreviewSlideMode !== "slide_1") {
+            state.tplAiPreviewSlideMode = "backdrop";
+            document.querySelectorAll("[data-tpl-ai-slide-mode]").forEach((b) => {
+              b.classList.toggle("active", b.getAttribute("data-tpl-ai-slide-mode") === "backdrop");
+            });
+          }
         }
         invalidateAiGeneratedVariantsDraft();
-        updateNanoBananaLivePreview();
-        showToast(`✨ Synthesized washed backdrop (${data.source_label || "Nano Banana"}): ready in Live 16:9 Preview.`, "success");
-      } else {
+        renderNanoBananaLivePreview();
+        if (showToastSuccess) {
+          showToast(
+            `✨ Synthesized washed backdrop (${data.source_label || "Nano Banana"}): active in Live 16:9 Preview.`,
+            "success"
+          );
+        }
+        return data.backdrop_url;
+      }
+      if (showToastSuccess) {
         showToast(data.detail || "Could not synthesize backdrop from prompt.", "warning");
       }
     } catch (_err) {
-      showToast("Backdrop synthesis failed; using prompt-matched built-in theme.", "warning");
+      if (showToastSuccess) {
+        showToast("Backdrop synthesis failed; using prompt-matched built-in theme.", "warning");
+      }
     } finally {
       if (synthBtn) {
         synthBtn.disabled = false;
         synthBtn.textContent = "✨ Synthesize Washed Backdrop from Prompt";
       }
     }
+    return "";
+  };
+
+  document.getElementById("btn-tpl-ai-synthesize-prompt-bg")?.addEventListener("click", async () => {
+    await synthesizeWashedBackdropFromPrompt({ switchPreviewMode: true, showToastSuccess: true });
   });
 
   document.querySelectorAll("[data-tpl-palette-c1]").forEach((chip) => {
@@ -16334,10 +16999,21 @@ async function initPowerPointTemplateStudio() {
     const requestedName = (nameIn?.value || "Summer Scout Camp - 2026 Theme").trim();
     const styleVal = document.getElementById("tpl-ai-style-select")?.value || "pinewood_campfire";
     const frameVal = document.getElementById("tpl-ai-frame-select")?.value || "horizon_silhouette";
-    const backdropVal = document.getElementById("tpl-ai-backdrop-select")?.value || "auto";
+    const initialBackdropVal = document.getElementById("tpl-ai-backdrop-select")?.value || "auto";
     const customBgDescVal = (document.getElementById("tpl-ai-custom-bg-desc-input")?.value || "").trim();
     const logoPosVal = (document.getElementById("tpl-ai-logo-pos-select")?.value || "top_right").replace(/-/g, "_");
     const removeBgVal = document.getElementById("tpl-ai-logo-remove-bg")?.checked !== false;
+
+    if (
+      promptText &&
+      !state.tplAiCustomBgDataUrl &&
+      (initialBackdropVal === "auto" || initialBackdropVal === "ai_prompt") &&
+      (!state.tplAiSynthesizedBackdropUrl || state.tplAiSynthesizedBackdropPrompt !== promptText)
+    ) {
+      await synthesizeWashedBackdropFromPrompt({ switchPreviewMode: false, showToastSuccess: false });
+    }
+
+    const backdropVal = document.getElementById("tpl-ai-backdrop-select")?.value || initialBackdropVal;
 
     const payload = {
       family_name: requestedName,
@@ -16347,6 +17023,7 @@ async function initPowerPointTemplateStudio() {
       frame_geometry: frameVal,
       frame_preset: frameVal,
       backdrop_id: backdropVal,
+      custom_backdrop_url: state.tplAiSynthesizedBackdropUrl || "",
       custom_bg_data_url: state.tplAiCustomBgDataUrl || "",
       custom_bg_description: customBgDescVal,
       colors,

@@ -1118,7 +1118,7 @@
                 type="button"
                 class="m3-btn m3-btn-tonal m3-stage-compact-btn"
                 id="btn-stage-inline-edit"
-                title="Click or double-click slide title, teaching cards, or caption to edit text directly on the 16:9 canvas"
+                title="Edit Title, Body Cards, Requirement Text &amp; Caption directly on the slide (Press Esc or click Done Editing to finish)"
                 style="padding:4px 9px; font-size:0.74rem; font-weight:700;"
               >
                 ✏️ Edit Text on Stage
@@ -1282,12 +1282,12 @@
 
             <!-- DIRECT ON-STAGE INLINE CLICK-TO-EDIT FLOATING ACTION PILL BAR -->
             <div class="m3-stage-inline-edit-bar hidden" id="stage-inline-edit-bar" role="toolbar" aria-label="On-Stage Inline Text Editor Controls">
-              <span class="m3-stage-inline-edit-hint">✏️ Editing Slide Text on Stage</span>
-              <button type="button" class="m3-btn m3-btn-filled m3-stage-inline-save-btn" id="btn-stage-inline-save" title="Save on-stage text edits and rebuild .PPTX (Ctrl+Enter)">
-                💾 Save Slide Edits
+              <span class="m3-stage-inline-edit-hint" id="stage-inline-edit-hint">✏️ Edit Title, Body Cards, Requirement Text &amp; Caption directly on the slide (Press Esc or click Done Editing to finish)</span>
+              <button type="button" class="m3-btn m3-btn-filled m3-stage-inline-save-btn" id="btn-stage-inline-save" title="Save on-stage text edits and rebuild .PPTX (Press Esc or Ctrl+Enter)">
+                ✓ Done Editing
               </button>
-              <button type="button" class="m3-btn m3-btn-outlined m3-stage-inline-cancel-btn" id="btn-stage-inline-cancel" title="Discard unsaved on-stage text edits (Esc)">
-                Esc Cancel
+              <button type="button" class="m3-btn m3-btn-outlined m3-stage-inline-cancel-btn" id="btn-stage-inline-cancel" title="Discard unsaved on-stage text edits">
+                ✕ Discard
               </button>
             </div>
 
@@ -3563,14 +3563,19 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
               </div>
 
               <div class="m3-tpl-ai-section-box">
-                <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; flex-wrap:wrap; margin-bottom:5px;">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; flex-wrap:wrap; margin-bottom:6px;">
                   <label class="m3-field-label" for="tpl-ai-prompt-input" style="font-size:0.74rem; font-weight:800; margin:0;">5. Custom Theme Prompt (Drives Slide 1 Washed Cover Backdrop &amp; Frame)</label>
                   <div style="display:flex; gap:6px; flex-wrap:wrap;">
                     <button type="button" class="m3-btn m3-btn-tonal" id="btn-tpl-ai-sample-safe" title="Click repeatedly to cycle through 6 curated Camp &amp; Merit Badge College theme prompts" style="padding:3px 8px; font-size:0.71rem;">✨ Sample Camp / MBC Prompt (1/6)</button>
                     <button type="button" class="m3-btn m3-btn-outlined" id="btn-tpl-ai-sample-guardrail" style="padding:3px 8px; font-size:0.71rem;">🛡️ Test YPT / PII Safety Guardrail</button>
                   </div>
                 </div>
-                <textarea id="tpl-ai-prompt-input" class="m3-input" rows="2" placeholder="Describe scenic camp silhouettes, pine ridges, lake sunsets, waterfront motifs, or collegiate headers (no youth faces or PII)..." style="font-size:0.76rem; width:100%;">Crisp pine forest and mountain lake shoreline silhouette at dusk with subtle topographic contour lines and classic Scouting outdoor emblem accents.</textarea>
+                <div id="tpl-ai-how-to-callout" style="margin-bottom:7px; padding:8px 10px; border-radius:8px; background:#EFF6FF; border:1px solid #BFDBFE; color:#1E3A8A; font-size:0.72rem; line-height:1.4;">
+                  <div style="font-weight:800; margin-bottom:3px; color:#1D4ED8;">🪄 How to Generate a Custom AI Washed Backdrop (2 Easy Steps)</div>
+                  <div><strong>Step 1:</strong> Type any scene description in the prompt box below (e.g., <em>"Distance shot of an Apollo rocket launch"</em> or <em>"Canoes on a misty alpine lake at sunrise"</em>).</div>
+                  <div><strong>Step 2:</strong> Click <strong>✨ Synthesize Washed Backdrop from Prompt</strong> (or simply click <strong>Generate &amp; Save AI Template Family</strong> with the dropdown set to <code>✨ Synthesize New Backdrop from Prompt</code>). The Live 16:9 Preview immediately updates with your custom photorealistic washed artwork!</div>
+                </div>
+                <textarea id="tpl-ai-prompt-input" class="m3-input" rows="2" placeholder="Describe scenic camp silhouettes, pine ridges, lake sunsets, Apollo rocket launch, waterfront motifs, or collegiate headers (no youth faces or PII)..." style="font-size:0.76rem; width:100%;">Crisp pine forest and mountain lake shoreline silhouette at dusk with subtle topographic contour lines and classic Scouting outdoor emblem accents.</textarea>
                 <div id="tpl-ai-guardrail-banner" class="hidden" style="margin-top:6px; padding:7px 10px; border-radius:8px; background:var(--md-sys-color-error-container); color:var(--md-sys-color-on-error-container); font-size:0.74rem; font-weight:700;"></div>
               </div>
 
@@ -3605,7 +3610,7 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                   </label>
                   <select id="tpl-ai-backdrop-select" class="m3-select" style="flex:1; min-width:210px; padding:4px 8px; font-size:0.74rem; font-weight:700;">
                     <option value="auto" selected>✨ Auto (Match Custom Prompt or Visual Style)</option>
-                    <option value="ai_prompt">🍌 AI Synthesized from Custom Prompt</option>
+                    <option value="ai_prompt">✨ Synthesize New Backdrop from Prompt</option>
                     <option value="custom_upload" id="tpl-ai-backdrop-opt-custom" disabled>📤 Uploaded Custom Background Image</option>
                     <optgroup label="Scouting Emblem &amp; Heritage Backdrops (Built-In)">
                       <option value="bsa_emblem_color">⚜️ Large Washed Color BSA Universal Emblem</option>
@@ -3640,9 +3645,13 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                       <option value="emergency_medical_triage">🚑 Emergency Medical &amp; Disaster Response Triage</option>
                     </optgroup>
                   </select>
-                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-tpl-ai-synthesize-prompt-bg" title="Synthesize or match a photorealistic washed background directly from your Custom Theme Prompt" style="padding:4px 9px; font-size:0.71rem; font-weight:800; white-space:nowrap;">
-                    🍌 Match / Generate from Prompt
+                  <button type="button" class="m3-btn m3-btn-tonal" id="btn-tpl-ai-synthesize-prompt-bg" title="Synthesize a photorealistic washed background directly from your Custom Theme Prompt (#5)" style="padding:4px 10px; font-size:0.72rem; font-weight:800; white-space:nowrap;">
+                    ✨ Synthesize Washed Backdrop from Prompt
                   </button>
+                  <div id="tpl-ai-synthesized-thumb-wrap" class="hidden" style="display:inline-flex; align-items:center; gap:6px; background:#ECFDF5; border:1px solid #6EE7B7; border-radius:8px; padding:2px 8px;">
+                    <img id="tpl-ai-synthesized-thumb-img" src="" alt="Synthesized Washed Backdrop Thumbnail" style="width:36px; height:21px; object-fit:cover; border-radius:4px; border:1px solid #10B981;" />
+                    <span id="tpl-ai-custom-bg-status" style="font-size:0.69rem; font-weight:800; color:#047857; white-space:nowrap;">✓ Custom AI Backdrop Active in Preview</span>
+                  </div>
                 </div>
                 <div style="display:grid; grid-template-columns:auto 1fr auto; gap:6px; align-items:center;">
                   <label class="m3-btn m3-btn-outlined" for="tpl-ai-custom-bg-file-input" title="Upload a custom photo (PNG, JPG, WebP) to process into a washed slide background" style="padding:4px 9px; font-size:0.71rem; font-weight:700; cursor:pointer; margin:0; white-space:nowrap;">
@@ -4260,6 +4269,39 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
       <circle class="m3-demo-cursor-pulse" cx="10" cy="10" r="9" fill="rgba(253, 185, 19, 0.42)" />
       <path d="M6 4L22 11.5L14.5 14.2L18.5 21.5L15.2 23.2L11.2 15.8L6 20V4Z" fill="#003F87" stroke="#FDB913" stroke-width="2" stroke-linejoin="round"/>
     </svg>
+  </div>
+
+  <!-- DOWNLOAD PROGRESS MODAL WITH FAST BADGE-BUILDING ANIMATION & MOVING TIMER BAR (Fix 7) -->
+  <div id="download-progress-modal" class="m3-modal-backdrop m3-download-progress-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="download-progress-modal-title" aria-live="polite">
+    <div class="m3-download-progress-card">
+      <div class="m3-download-badge-stage" aria-hidden="true">
+        <div class="m3-download-orbital-ring"></div>
+        <div class="m3-download-sparkle m3-sparkle-1">✦</div>
+        <div class="m3-download-sparkle m3-sparkle-2">★</div>
+        <div class="m3-download-sparkle m3-sparkle-3">✦</div>
+        <div class="m3-download-emblem-disc" id="download-progress-emblem-disc">
+          <img id="download-progress-emblem-img" src="/assets/badge_emblems/first_aid.png" alt="" onerror="this.style.display='none'" />
+          <span id="download-progress-emblem-icon" class="m3-download-emblem-fallback">⚜️</span>
+        </div>
+      </div>
+      <div class="m3-download-progress-header">
+        <h3 id="download-progress-modal-title" class="m3-download-progress-title">Building Fillable Scout Workbook (.PDF)...</h3>
+        <p id="download-progress-modal-subtitle" class="m3-download-progress-subtitle">Assembling official BSA requirements, vector tables &amp; print-ready pages</p>
+      </div>
+      <div class="m3-download-step-row">
+        <span id="download-progress-step-label" class="m3-download-step-label">1/4 Hydrating official BSA requirements &amp; diagrams...</span>
+        <span id="download-progress-timer-pill" class="m3-download-timer-pill">Elapsed: 0.0s</span>
+      </div>
+      <div class="m3-download-bar-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="12" id="download-progress-bar-track">
+        <div class="m3-download-bar-fill" id="download-progress-bar-fill" style="width: 12%;"></div>
+      </div>
+      <div class="m3-download-phase-dots" id="download-progress-phase-dots" aria-hidden="true">
+        <span class="m3-download-phase-dot is-active"></span>
+        <span class="m3-download-phase-dot"></span>
+        <span class="m3-download-phase-dot"></span>
+        <span class="m3-download-phase-dot"></span>
+      </div>
+    </div>
   </div>
 
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->

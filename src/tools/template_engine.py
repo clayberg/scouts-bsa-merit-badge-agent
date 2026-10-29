@@ -2747,11 +2747,14 @@ def _resolve_nano_photorealistic_base_cover(
                         matched_builtin_path = cand_p
                         break
 
-    # Live AI Image Synthesis when requested (`ai_prompt` or custom_prompt with `allow_live_synthesis`)
+    # Live AI Image Synthesis when requested (`ai_prompt` / `ai_synthesize` or custom_prompt with `allow_live_synthesis`)
+    wants_live_ai_prompt = clean_backdrop_id in ("ai_prompt", "ai_synthesize") or (
+        bool(custom_lc and len(custom_lc) >= 6) and clean_backdrop_id in ("", "auto", "ai_prompt", "ai_synthesize")
+    )
     if (
         allow_live_synthesis
         and family_id
-        and (clean_backdrop_id == "ai_prompt" or (custom_lc and matched_builtin_path is None))
+        and wants_live_ai_prompt
         and not os.getenv("PYTEST_CURRENT_TEST")
         and os.getenv("ENABLE_LIVE_TEMPLATE_COVER_AI", "true").lower() in ("true", "1", "yes")
     ):
@@ -3244,6 +3247,7 @@ def generate_nano_banana_template_family(
     backdrop_id: str = "auto",
     custom_bg_data_url: str = "",
     custom_bg_description: str = "",
+    custom_backdrop_url: str = "",
 ) -> Dict[str, Any]:
     """Generates a coordinated 1-to-3 Color Variant Nano Banana AI Slide Template Family with YPT/Zero-PII guardrails and FinOps gating."""
     import base64
@@ -3428,6 +3432,17 @@ def generate_nano_banana_template_family(
                 fitted_ub.save(uploaded_bg_path, "JPEG", quality=92)
         except Exception:
             uploaded_bg_path = None
+
+    if uploaded_bg_path is None and custom_backdrop_url and str(custom_backdrop_url).strip():
+        clean_cb_url = str(custom_backdrop_url).strip().split("?", 1)[0].lstrip("/")
+        for cand_cb in (
+            CUSTOM_TEMPLATES_DIR / Path(clean_cb_url).name,
+            CUSTOM_TEMPLATES_DIR.parents[1] / clean_cb_url,
+            CUSTOM_TEMPLATES_DIR.parent / clean_cb_url,
+        ):
+            if cand_cb.is_file():
+                uploaded_bg_path = cand_cb
+                break
 
     family_base_cover = _resolve_nano_photorealistic_base_cover(
         visual_style=style_key,

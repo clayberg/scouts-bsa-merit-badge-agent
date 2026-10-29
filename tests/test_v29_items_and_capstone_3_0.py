@@ -84,8 +84,10 @@ def test_custom_uploaded_photo_washed_backdrop_processing():
     assert res["status"] == "SUCCESS"
     out_file = ROOT_DIR / res["backdrop_url"].split("?")[0].lstrip("/")
     assert out_file.exists()
+    out_file.unlink(missing_ok=True)
 
     # Also verify generate_nano_banana_template_family with backdrop_id="bsa_emblem_color"
+    from src.tools.template_engine import delete_custom_template
     gen = generate_nano_banana_template_family(
         family_name="Test BSA Logo Washed Theme",
         visual_style="heritage_embroidery",
@@ -95,9 +97,14 @@ def test_custom_uploaded_photo_washed_backdrop_processing():
         backdrop_id="bsa_emblem_color",
         user_consented=True,
     )
-    assert gen["status"] == "SUCCESS"
-    assert gen["backdrop_id"] == "bsa_emblem_color"
-    assert len(gen["variants"]) == 2
+    try:
+        assert gen["status"] == "SUCCESS"
+        assert gen["backdrop_id"] == "bsa_emblem_color"
+        assert len(gen["variants"]) == 2
+    finally:
+        for v in gen.get("variants", []):
+            if v.get("template_id"):
+                delete_custom_template(v["template_id"])
 
 
 def test_inject_and_remove_logistics_slides_inherits_template_and_cleans_parentheses():

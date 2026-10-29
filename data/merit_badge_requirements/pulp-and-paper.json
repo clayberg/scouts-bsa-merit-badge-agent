@@ -45,32 +45,28 @@
         "organizer_type": "RULED_EXPLAIN_BOX",
         "table_title": "Req 1 Structured Technical Study & Explanation Matrix (History of Papermaking)",
         "headers": [
-          "Req 1 Analysis Dimension",
+          "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 1 Analysis Dimension",
+          "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (History of Papermaking)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Tell the history of papermaking.",
+          "2. Describe the part paper products play in our society and economy."
         ],
         "rows": [
-          "1. Core Definition & Mechanism (History of Papermaking)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Tell the history of papermaking.",
+          "2. Describe the part paper products play in our society and economy."
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with history, papermaking is sufficient for Pulp and Paper Requirement 1 without citing specific functional mechanisms.",
-        "fact": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History of Papermaking (p. 6, p. 7).",
-        "fact_correction": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History of Papermaking (p. 6, p. 7).",
+        "misconception": "Memorizing a one-line definition of History of Papermaking without explaining how it works in practice satisfies Pulp and Paper Requirement 1.",
+        "fact": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History of Papermaking (History of Papermaking) (p. 6, p. 7).",
+        "fact_correction": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History of Papermaking (History of Papermaking) (p. 6, p. 7).",
         "pamphlet_page_ref": "p. 6, p. 7"
       },
       "starting_requirement_gate": null,
@@ -156,24 +152,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Pulp and Paper Requirement 1 (History of Papermaking), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Pulp and Paper Requirement 1 (History of Papermaking), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "How does the Pulp and Paper Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (History of Papermaking: Tell the history of papermaking)?",
+        "question": "How does the Pulp and Paper Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (History of Papermaking: Tell the history of papermaking)?",
         "options": [
-          "A. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-          "B. General familiarity with history, papermaking is sufficient for Pulp and Paper Requirement 1 without citing specific functional.",
-          "C. Defer all History of Papermaking measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+          "B. Memorizing a one-line definition of History of Papermaking without explaining how it works in practice satisfies Pulp and Paper.",
+          "C. Focus only on Tell the history of papermaking while omitting Describe the part paper products play in our society an and its required field verification.",
+          "D. Assume History of Papermaking applies only to indoor classroom theory and has no effect on real-world Pulp and Paper practice."
         ],
         "choices": [
-          "A. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-          "B. General familiarity with history, papermaking is sufficient for Pulp and Paper Requirement 1 without citing specific functional.",
-          "C. Defer all History of Papermaking measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+          "B. Memorizing a one-line definition of History of Papermaking without explaining how it works in practice satisfies Pulp and Paper.",
+          "C. Focus only on Tell the history of papermaking while omitting Describe the part paper products play in our society an and its required field verification.",
+          "D. Assume History of Papermaking applies only to indoor classroom theory and has no effect on real-world Pulp and Paper practice."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "explanation": "Correct Answer (A): The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History of Papermaking (p. 6, p. 7). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)).",
+        "correct_answer": "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "explanation": "Correct Answer (A): The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History of Papermaking (History of Papermaking). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)).",
         "pamphlet_page_ref": "p. 6, p. 7"
       },
       "estimated_minutes": 15,
@@ -201,35 +197,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Ways The Industry Plants Grows)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Industry Plants Grows and Harvests)",
             "headers": [
-              "Req 2a Analysis Dimension",
+              "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2a Analysis Dimension",
+              "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Ways The Industry Plants Grows)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Describe the ways the industry plants, grows, and harvests trees.",
+              "2. Key Pamphlet Facts & Mechanism (Industry Plants Grows and Harvests)",
+              "3. Field Application & Counselor Discussion (Industry Plants Grows and Harvests)"
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Ways The Industry Plants Grows)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Describe the ways the industry plants, grows, and harvests trees.",
+              "2. Key Pamphlet Facts & Mechanism (Industry Plants Grows and Harvests)",
+              "3. Field Application & Counselor Discussion (Industry Plants Grows and Harvests)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with Describe, industry is sufficient for Pulp and Paper Requirement 2a without citing specific functional mechanisms.",
-            "fact": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ways The Industry Plants Grows (p. 6).",
-            "fact_correction": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ways The Industry Plants Grows (p. 6).",
+            "misconception": "Memorizing a one-line definition of Industry Plants Grows and Harvests without explaining how it works in practice satisfies Pulp and Paper Requirement 2a.",
+            "fact": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Industry Plants Grows and Harvests (Industry Plants Grows and Harvests) (p. 6).",
+            "fact_correction": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Industry Plants Grows and Harvests (Industry Plants Grows and Harvests) (p. 6).",
             "pamphlet_page_ref": "p. 6"
           },
           "starting_requirement_gate": null,
@@ -256,7 +250,7 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Describe the ways the industry plants, grows, and harvests trees.",
-          "topic_title": "Req 2a: Ways The Industry Plants Grows",
+          "topic_title": "Req 2a: Industry Plants Grows and Harvests",
           "pamphlet_summary": "Ways The Industry Plants Grows: Learn About The Pulp Principle 4: Pulp and Paper Sub-Req 2b: Explain how the industry manages its forests so that the supply of trees keeps pace with the demand (p. 6).",
           "pamphlet_excerpts": [
             "Ways The Industry Plants Grows: Learn About The Pulp Principle 4: Pulp and Paper Sub-Req 2b: Explain how the industry manages its forests so that the supply of trees keeps pace with the demand (p. 6)."
@@ -279,33 +273,31 @@
             "organizer_type": "RULED_EXPLAIN_BOX",
             "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Industry Manages Its Forests)",
             "headers": [
-              "Req 2b Analysis Dimension",
+              "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2b Analysis Dimension",
+              "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Industry Manages Its Forests)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Explain how the industry manages its forests so that the supply of trees keeps pace with the demand.",
+              "2. Key Pamphlet Facts & Mechanism (Industry Manages Its Forests)",
+              "3. Field Application & Counselor Discussion (Industry Manages Its Forests)"
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Industry Manages Its Forests)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Explain how the industry manages its forests so that the supply of trees keeps pace with the demand.",
+              "2. Key Pamphlet Facts & Mechanism (Industry Manages Its Forests)",
+              "3. Field Application & Counselor Discussion (Industry Manages Its Forests)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with Explain, industry is sufficient for Pulp and Paper Requirement 2b without citing specific functional mechanisms.",
-            "fact": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Industry Manages Its Forests (p. 6).",
-            "fact_correction": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Industry Manages Its Forests (p. 6).",
+            "misconception": "Memorizing a one-line definition of Industry Manages Its Forests without explaining how it works in practice satisfies Pulp and Paper Requirement 2b.",
+            "fact": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Industry Manages Its Forests (Industry Manages Its Forests) (p. 6).",
+            "fact_correction": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Industry Manages Its Forests (Industry Manages Its Forests) (p. 6).",
             "pamphlet_page_ref": "p. 6"
           },
           "starting_requirement_gate": null,
@@ -355,33 +347,31 @@
             "organizer_type": "RULED_EXPLAIN_BOX",
             "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Industry Has Incorporated The Concepts)",
             "headers": [
-              "Req 2c Analysis Dimension",
+              "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2c Analysis Dimension",
+              "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Industry Has Incorporated The Concepts)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Tell how the industry has incorporated the concepts of sustainable forest management (SFM)",
+              "2. Key Pamphlet Facts & Mechanism (Industry Has Incorporated The Concepts)",
+              "3. Field Application & Counselor Discussion (Industry Has Incorporated The Concepts)"
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Industry Has Incorporated The Concepts)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Tell how the industry has incorporated the concepts of sustainable forest management (SFM)",
+              "2. Key Pamphlet Facts & Mechanism (Industry Has Incorporated The Concepts)",
+              "3. Field Application & Counselor Discussion (Industry Has Incorporated The Concepts)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with industry, incorporated is sufficient for Pulp and Paper Requirement 2c without citing specific functional mechanisms.",
-            "fact": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Industry Has Incorporated The Concepts (p. 6).",
-            "fact_correction": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Industry Has Incorporated The Concepts (p. 6).",
+            "misconception": "Memorizing a one-line definition of Industry Has Incorporated The Concepts without explaining how it works in practice satisfies Pulp and Paper Requirement 2c.",
+            "fact": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Industry Has Incorporated The Concepts (Industry Has Incorporated The Concepts) (p. 6).",
+            "fact_correction": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Industry Has Incorporated The Concepts (Industry Has Incorporated The Concepts) (p. 6).",
             "pamphlet_page_ref": "p. 6"
           },
           "starting_requirement_gate": null,
@@ -429,35 +419,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Ways The Papermaking Industry)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Papermaking Industry Has Addressed Pollution)",
             "headers": [
-              "Req 2d Analysis Dimension",
+              "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2d Analysis Dimension",
+              "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Ways The Papermaking Industry)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Describe two ways the papermaking industry has addressed pollution.",
+              "2. Key Pamphlet Facts & Mechanism (Papermaking Industry Has Addressed Pollution)",
+              "3. Field Application & Counselor Discussion (Papermaking Industry Has Addressed Pollution)"
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Ways The Papermaking Industry)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Describe two ways the papermaking industry has addressed pollution.",
+              "2. Key Pamphlet Facts & Mechanism (Papermaking Industry Has Addressed Pollution)",
+              "3. Field Application & Counselor Discussion (Papermaking Industry Has Addressed Pollution)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with Describe, papermaking is sufficient for Pulp and Paper Requirement 2d without citing specific functional mechanisms.",
-            "fact": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Two Ways The Papermaking Industry (p. 6).",
-            "fact_correction": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Two Ways The Papermaking Industry (p. 6).",
+            "misconception": "Memorizing a one-line definition of Papermaking Industry Has Addressed Pollution without explaining how it works in practice satisfies Pulp and Paper Requirement 2d.",
+            "fact": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Papermaking Industry Has Addressed Pollution (Papermaking Industry Has Addressed Pollution) (p. 6).",
+            "fact_correction": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Papermaking Industry Has Addressed Pollution (Papermaking Industry Has Addressed Pollution) (p. 6).",
             "pamphlet_page_ref": "p. 6"
           },
           "starting_requirement_gate": null,
@@ -484,7 +472,7 @@
           "id": "2d",
           "sub_req_label": "2d",
           "sub_req_text": "Describe two ways the papermaking industry has addressed pollution.",
-          "topic_title": "Req 2d: Ways The Papermaking Industry",
+          "topic_title": "Req 2d: Papermaking Industry Has Addressed Pollution",
           "pamphlet_summary": "Ways The Papermaking Industry: Two Ways The Papermaking Industry: Learn About The Pulp Principle 3: Pulp and Paper Sub-Req 2a: Describe the ways the industry plants, grows, and harvests trees (p. 6).",
           "pamphlet_excerpts": [
             "Ways The Papermaking Industry: Two Ways The Papermaking Industry: Learn About The Pulp Principle 3: Pulp and Paper Sub-Req 2a: Describe the ways the industry plants, grows, and harvests trees (p. 6)."
@@ -518,7 +506,7 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Pulp and Paper Industry",
+      "topic_title": "Req 2: Learn About The Pulp and",
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -528,34 +516,34 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Pulp and Paper Industry)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Learn About The Pulp and)",
         "headers": [
-          "Req 2 Analysis Dimension",
+          "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 2 Analysis Dimension",
+          "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(2a) Ways The Industry Plants Grows",
+          "(2a) Industry Plants Grows and Harvests",
           "(2b) Industry Manages Its Forests",
           "(2c) Industry Has Incorporated The Concepts",
-          "(2d) Ways The Papermaking Industry"
+          "(2d) Papermaking Industry Has Addressed Pollution"
         ],
         "rows": [
-          "(2a) Ways The Industry Plants Grows",
+          "(2a) Industry Plants Grows and Harvests",
           "(2b) Industry Manages Its Forests",
           "(2c) Industry Has Incorporated The Concepts",
-          "(2d) Ways The Papermaking Industry"
+          "(2d) Papermaking Industry Has Addressed Pollution"
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with Learn, paper is sufficient for Pulp and Paper Requirement 2 without citing specific functional mechanisms.",
-        "fact": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Learn About The Pulp (p. 6).",
-        "fact_correction": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Learn About The Pulp (p. 6).",
+        "misconception": "Memorizing a one-line definition of Learn About The Pulp and without explaining how it works in practice satisfies Pulp and Paper Requirement 2.",
+        "fact": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Learn About The Pulp and (Learn About The Pulp and) (p. 6).",
+        "fact_correction": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Learn About The Pulp and (Learn About The Pulp and) (p. 6).",
         "pamphlet_page_ref": "p. 6"
       },
       "starting_requirement_gate": null,
@@ -641,29 +629,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Pulp and Paper Requirement 2 (Pulp and Paper Industry), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Pulp and Paper Requirement 2 (Pulp and Paper Industry), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "When preparing for your counselor conference on Pulp and Paper Requirement 2 (Learn About The Pulp and), which statement accurately reflects the official BSA standard for Describe the ways the industry plants, grows, and harvests trees?",
+        "question": "When preparing for your counselor conference on Pulp and Paper Requirement 2 (Learn About The Pulp and), which statement accurately reflects the official BSA standard for Describe the ways the industry plants, grows, and harvests trees?",
         "options": [
-          "A. General familiarity with Learn, paper is sufficient for Pulp and Paper Requirement 2 without citing specific functional mechanisms.",
-          "B. Defer all Pulp and Paper Industry measurements and safety checks until after the field session concludes.",
-          "C. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+          "B. Memorizing a one-line definition of Learn About The Pulp and without explaining how it works in practice satisfies Pulp and Paper.",
+          "C. Focus only on Describe the ways the industry plants, grows, and harve while omitting Explain how the industry manages its forests so that th and its required field verification.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Learn About The Pulp and."
         ],
         "choices": [
-          "A. General familiarity with Learn, paper is sufficient for Pulp and Paper Requirement 2 without citing specific functional mechanisms.",
-          "B. Defer all Pulp and Paper Industry measurements and safety checks until after the field session concludes.",
-          "C. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+          "B. Memorizing a one-line definition of Learn About The Pulp and without explaining how it works in practice satisfies Pulp and Paper.",
+          "C. Focus only on Describe the ways the industry plants, grows, and harve while omitting Explain how the industry manages its forests so that th and its required field verification.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Learn About The Pulp and."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "explanation": "Correct Answer (C): The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Learn About The Pulp (p. 6). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "explanation": "Correct Answer (A): The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Learn About The Pulp and (Learn About The Pulp and). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
         "pamphlet_page_ref": "p. 6"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Pulp and Paper Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/pulp_and_paper_p004_img1.png"
     },
     {
       "req_id": "3",
@@ -686,35 +674,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Uses Are Made)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Discuss What Other Uses Are)",
             "headers": [
-              "Req 3a Analysis Dimension",
+              "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3a Analysis Dimension",
+              "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Uses Are Made)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Discuss what other uses are made of the trees and the forestland owned by the pulp and paper industry.",
+              "2. Key Pamphlet Facts & Mechanism (Discuss What Other Uses Are)",
+              "3. Field Application & Counselor Discussion (Discuss What Other Uses Are)"
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Uses Are Made)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Discuss what other uses are made of the trees and the forestland owned by the pulp and paper industry.",
+              "2. Key Pamphlet Facts & Mechanism (Discuss What Other Uses Are)",
+              "3. Field Application & Counselor Discussion (Discuss What Other Uses Are)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with Discuss, trees is sufficient for Pulp and Paper Requirement 3a without citing specific functional mechanisms.",
-            "fact": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Other Uses Are Made (p. 6).",
-            "fact_correction": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Other Uses Are Made (p. 6).",
+            "misconception": "Memorizing a one-line definition of Discuss What Other Uses Are without explaining how it works in practice satisfies Pulp and Paper Requirement 3a.",
+            "fact": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss What Other Uses Are (Discuss What Other Uses Are) (p. 6).",
+            "fact_correction": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss What Other Uses Are (Discuss What Other Uses Are) (p. 6).",
             "pamphlet_page_ref": "p. 6"
           },
           "starting_requirement_gate": null,
@@ -741,7 +727,7 @@
           "id": "3a",
           "sub_req_label": "3a",
           "sub_req_text": "Discuss what other uses are made of the trees and the forestland owned by the pulp and paper industry.",
-          "topic_title": "Req 3a: Uses Are Made",
+          "topic_title": "Req 3a: Discuss What Other Uses Are",
           "pamphlet_summary": "Uses Are Made: Other Uses Are Made: Name at least four types: Describe the major uses for different kinds of coated papers (p. 6).",
           "pamphlet_excerpts": [
             "Uses Are Made: Other Uses Are Made: Name at least four types: Describe the major uses for different kinds of coated papers (p. 6)."
@@ -762,35 +748,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3b Technical Comparison Matrix (Ways of Getting Fibers)",
+            "table_title": "Req 3b Technical Comparison Matrix (Getting Fibers From Wood)",
             "headers": [
               "Comparison Dimension",
-              "Method / System A Analysis",
-              "Method / System B Analysis"
+              "Primary Concept / System A",
+              "Comparison Concept / System B"
             ],
             "column_headers": [
               "Comparison Dimension",
-              "Method / System A Analysis",
-              "Method / System B Analysis"
+              "Primary Concept / System A",
+              "Comparison Concept / System B"
             ],
             "row_labels": [
-              "1. Operating Principle & Design (Ways of Getting Fibers)",
-              "2. Key Advantages & Ideal Field Conditions",
-              "3. Limitations, Cost & Maintenance Trade-Offs",
-              "4. Safety & Selection Criteria"
+              "1. Describe two ways of getting fibers from wood, and explain the major differences between them.",
+              "2. Key Pamphlet Facts & Mechanism (Getting Fibers From Wood)",
+              "3. Field Application & Counselor Discussion (Getting Fibers From Wood)"
             ],
             "rows": [
-              "1. Operating Principle & Design (Ways of Getting Fibers)",
-              "2. Key Advantages & Ideal Field Conditions",
-              "3. Limitations, Cost & Maintenance Trade-Offs",
-              "4. Safety & Selection Criteria"
+              "1. Describe two ways of getting fibers from wood, and explain the major differences between them.",
+              "2. Key Pamphlet Facts & Mechanism (Getting Fibers From Wood)",
+              "3. Field Application & Counselor Discussion (Getting Fibers From Wood)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)",
           "common_misconception_pair": {
-            "misconception": "All methods covered under Two Ways of Getting Fibers in Pulp and Paper are interchangeable regardless of operating conditions.",
-            "fact": "Each method or system in Two Ways of Getting Fibers has distinct operating limits, efficiency trade-offs, and field applications defined in the Pulp and Paper pamphlet (p. 6).",
-            "fact_correction": "Each method or system in Two Ways of Getting Fibers has distinct operating limits, efficiency trade-offs, and field applications defined in the Pulp and Paper pamphlet (p. 6).",
+            "misconception": "All concepts or systems compared under Getting Fibers From Wood in Pulp and Paper behave identically regardless of operating conditions.",
+            "fact": "Each system or condition in Getting Fibers From Wood has distinct physical mechanisms, operating limits, and field indicators defined in the Pulp and Paper pamphlet (p. 6).",
+            "fact_correction": "Each system or condition in Getting Fibers From Wood has distinct physical mechanisms, operating limits, and field indicators defined in the Pulp and Paper pamphlet (p. 6).",
             "pamphlet_page_ref": "p. 6"
           },
           "starting_requirement_gate": null,
@@ -817,7 +801,7 @@
           "id": "3b",
           "sub_req_label": "3b",
           "sub_req_text": "Describe two ways of getting fibers from wood, and explain the major differences between them.",
-          "topic_title": "Req 3b: Ways of Getting Fibers",
+          "topic_title": "Req 3b: Getting Fibers From Wood",
           "pamphlet_summary": "Ways of Getting Fibers: Two Ways of Getting Fibers: Name at least four types Principle 2: Describe one other way that paper is changed by chemical or mechanical means to make new uses possible (p. 6).",
           "pamphlet_excerpts": [
             "Ways of Getting Fibers: Two Ways of Getting Fibers: Name at least four types Principle 2: Describe one other way that paper is changed by chemical or mechanical means to make new uses possible (p. 6)."
@@ -840,33 +824,31 @@
             "organizer_type": "RULED_EXPLAIN_BOX",
             "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Pulps Are Bleached)",
             "headers": [
-              "Req 3c Analysis Dimension",
+              "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 3c Analysis Dimension",
+              "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Pulps Are Bleached)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Tell why some pulps are bleached, and describe the process.",
+              "2. Key Pamphlet Facts & Mechanism (Pulps Are Bleached)",
+              "3. Field Application & Counselor Discussion (Pulps Are Bleached)"
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Pulps Are Bleached)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Tell why some pulps are bleached, and describe the process.",
+              "2. Key Pamphlet Facts & Mechanism (Pulps Are Bleached)",
+              "3. Field Application & Counselor Discussion (Pulps Are Bleached)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with pulps, bleached is sufficient for Pulp and Paper Requirement 3c without citing specific functional mechanisms.",
-            "fact": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Some Pulps Are Bleached (p. 6).",
-            "fact_correction": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Some Pulps Are Bleached (p. 6).",
+            "misconception": "Memorizing a one-line definition of Pulps Are Bleached without explaining how it works in practice satisfies Pulp and Paper Requirement 3c.",
+            "fact": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Pulps Are Bleached (Pulps Are Bleached) (p. 6).",
+            "fact_correction": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Pulps Are Bleached (Pulps Are Bleached) (p. 6).",
             "pamphlet_page_ref": "p. 6"
           },
           "starting_requirement_gate": null,
@@ -927,7 +909,7 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Types of Trees",
+      "topic_title": "Req 3: Trees That Are Major Sources",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -937,32 +919,32 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Types of Trees)",
+        "table_title": "Req 3 Technical Comparison Matrix (Trees That Are Major Sources)",
         "headers": [
           "Comparison Dimension",
-          "Method / System A Analysis",
-          "Method / System B Analysis"
+          "Primary Concept / System A",
+          "Comparison Concept / System B"
         ],
         "column_headers": [
           "Comparison Dimension",
-          "Method / System A Analysis",
-          "Method / System B Analysis"
+          "Primary Concept / System A",
+          "Comparison Concept / System B"
         ],
         "row_labels": [
-          "(3a) Uses Are Made",
-          "(3b) Ways of Getting Fibers",
+          "(3a) Discuss What Other Uses Are",
+          "(3b) Getting Fibers From Wood",
           "(3c) Pulps Are Bleached"
         ],
         "rows": [
-          "(3a) Uses Are Made",
-          "(3b) Ways of Getting Fibers",
+          "(3a) Discuss What Other Uses Are",
+          "(3b) Getting Fibers From Wood",
           "(3c) Pulps Are Bleached"
         ]
       },
       "common_misconception_pair": {
-        "misconception": "All methods covered under Name at least four types in Pulp and Paper are interchangeable regardless of operating conditions.",
-        "fact": "Each method or system in Name at least four types has distinct operating limits, efficiency trade-offs, and field applications defined in the Pulp and Paper pamphlet (p. 6).",
-        "fact_correction": "Each method or system in Name at least four types has distinct operating limits, efficiency trade-offs, and field applications defined in the Pulp and Paper pamphlet (p. 6).",
+        "misconception": "All concepts or systems compared under Trees That Are Major Sources in Pulp and Paper behave identically regardless of operating conditions.",
+        "fact": "Each system or condition in Trees That Are Major Sources has distinct physical mechanisms, operating limits, and field indicators defined in the Pulp and Paper pamphlet (p. 6).",
+        "fact_correction": "Each system or condition in Trees That Are Major Sources has distinct physical mechanisms, operating limits, and field indicators defined in the Pulp and Paper pamphlet (p. 6).",
         "pamphlet_page_ref": "p. 6"
       },
       "starting_requirement_gate": null,
@@ -1048,24 +1030,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Pulp and Paper Requirement 3 (Types of Trees), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Pulp and Paper Requirement 3 (Types of Trees), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "When preparing for your counselor conference on Pulp and Paper Requirement 3 (Trees That Are Major Sources), which statement accurately reflects the official BSA standard for Discuss what other uses are made of the trees and the forestland owned by t?",
+        "question": "When preparing for your counselor conference on Pulp and Paper Requirement 3 (Trees That Are Major Sources), which statement accurately reflects the official BSA standard for Discuss what other uses are made of the trees and the forestland owned by t?",
         "options": [
-          "A. All methods covered under Name at least four types in Pulp and Paper are interchangeable regardless of operating conditions.",
-          "B. Defer all Types of Trees measurements and safety checks until after the field session concludes.",
-          "C. Each method or system in Name at least four types has distinct operating limits, efficiency trade-offs, and field applications.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "A. All concepts or systems compared under Trees That Are Major Sources in Pulp and Paper behave identically regardless of operating.",
+          "B. Skip the Pulp and Paper Pamphlet technical criteria for Trees That Are Major Sources and use rules from an unrelated activity.",
+          "C. Each system or condition in Trees That Are Major Sources has distinct physical mechanisms, operating limits, and field indicators.",
+          "D. Substitute a casual verbal guess about Discuss what other uses are made of the trees and the f in place of documented Pulp and Paper observations."
         ],
         "choices": [
-          "A. All methods covered under Name at least four types in Pulp and Paper are interchangeable regardless of operating conditions.",
-          "B. Defer all Types of Trees measurements and safety checks until after the field session concludes.",
-          "C. Each method or system in Name at least four types has distinct operating limits, efficiency trade-offs, and field applications.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "A. All concepts or systems compared under Trees That Are Major Sources in Pulp and Paper behave identically regardless of operating.",
+          "B. Skip the Pulp and Paper Pamphlet technical criteria for Trees That Are Major Sources and use rules from an unrelated activity.",
+          "C. Each system or condition in Trees That Are Major Sources has distinct physical mechanisms, operating limits, and field indicators.",
+          "D. Substitute a casual verbal guess about Discuss what other uses are made of the trees and the f in place of documented Pulp and Paper observations."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Each method or system in Name at least four types has distinct operating limits, efficiency trade-offs, and field applications.",
-        "explanation": "Correct Answer (C): Each method or system in Name at least four types has distinct operating limits, efficiency trade-offs, and field applications defined in the Pulp and Paper pamphlet (p. 6). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
+        "correct_answer": "C. Each system or condition in Trees That Are Major Sources has distinct physical mechanisms, operating limits, and field indicators.",
+        "explanation": "Correct Answer (C): Each system or condition in Trees That Are Major Sources has distinct physical mechanisms, operating limits, and field indicators defined in the Pulp and Paper pamphlet. (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
         "pamphlet_page_ref": "p. 6"
       },
       "estimated_minutes": 15,
@@ -1101,7 +1083,7 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Paper is made",
+      "topic_title": "Req 4: Paper Is Made Discuss How",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -1111,7 +1093,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Paper is made)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Paper Is Made Discuss How)",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1123,16 +1105,14 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Pre-Operation Tool & Safety Check (Paper is made)",
-          "2. Step-by-Step Setup & Alignment Procedure",
-          "3. Live Execution & Technique Verification",
-          "4. Post-Task Inspection, Maintenance & Stowage"
+          "1. Describe how paper is made.",
+          "2. Discuss how paper is recycled.",
+          "3. Make a sheet of paper by hand."
         ],
         "rows": [
-          "1. Pre-Operation Tool & Safety Check (Paper is made)",
-          "2. Step-by-Step Setup & Alignment Procedure",
-          "3. Live Execution & Technique Verification",
-          "4. Post-Task Inspection, Maintenance & Stowage"
+          "1. Describe how paper is made.",
+          "2. Discuss how paper is recycled.",
+          "3. Make a sheet of paper by hand."
         ]
       },
       "common_misconception_pair": {
@@ -1224,24 +1204,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Pulp and Paper Requirement 4 (Paper is made), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Pulp and Paper Requirement 4 (Paper is made), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "During the hands-on skill station for Pulp and Paper Requirement 4 (Paper Is Made Discuss How), what execution standard is required when demonstrating Describe how paper is made?",
+        "question": "During the hands-on skill station for Pulp and Paper Requirement 4 (Paper Is Made Discuss How), what execution standard is required when demonstrating Describe how paper is made?",
         "options": [
-          "A. Describing how to perform Paper is made verbally can substitute for a physical hands-on demonstration in Pulp and Paper Requirement 4.",
-          "B. Defer all Paper is made measurements and safety checks until after the field session concludes.",
-          "C. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
+          "B. Describing how to perform Paper is made verbally can substitute for a physical hands-on demonstration in Pulp and Paper Requirement 4.",
+          "C. Focus only on Describe how paper is made while omitting Discuss how paper is recycled and its required field verification.",
+          "D. Assume Paper Is Made Discuss How applies only to indoor classroom theory and has no effect on real-world Pulp and Paper practice."
         ],
         "choices": [
-          "A. Describing how to perform Paper is made verbally can substitute for a physical hands-on demonstration in Pulp and Paper Requirement 4.",
-          "B. Defer all Paper is made measurements and safety checks until after the field session concludes.",
-          "C. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
+          "B. Describing how to perform Paper is made verbally can substitute for a physical hands-on demonstration in Pulp and Paper Requirement 4.",
+          "C. Focus only on Describe how paper is made while omitting Discuss how paper is recycled and its required field verification.",
+          "D. Assume Paper Is Made Discuss How applies only to indoor classroom theory and has no effect on real-world Pulp and Paper practice."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-        "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate Paper is made with proper technique (p. 6). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
+        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate Paper is made with proper technique. (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
         "pamphlet_page_ref": "p. 6"
       },
       "estimated_minutes": 15,
@@ -1281,26 +1261,24 @@
         "organizer_type": "RULED_EXPLAIN_BOX",
         "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Coated Paper Properties and Uses)",
         "headers": [
-          "Req 5 Analysis Dimension",
+          "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 5 Analysis Dimension",
+          "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (Coated Paper Properties and Uses)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Explain what coated paper is and why it is coated.",
+          "2. Describe the major uses for different kinds of coated papers.",
+          "3. Describe one other way that paper is changed by chemical or mechanical means to make new uses possible."
         ],
         "rows": [
-          "1. Core Definition & Mechanism (Coated Paper Properties and Uses)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Explain what coated paper is and why it is coated.",
+          "2. Describe the major uses for different kinds of coated papers.",
+          "3. Describe one other way that paper is changed by chemical or mechanical means to make new uses possible."
         ]
       },
       "common_misconception_pair": {
@@ -1392,24 +1370,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Pulp and Paper Requirement 5 (Coated Paper Properties and Uses), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Pulp and Paper Requirement 5 (Coated Paper Properties and Uses), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "During the hands-on skill station for Pulp and Paper Requirement 5 (Coated Paper Properties and Uses), what execution standard is required when demonstrating Explain what coated paper is and why it is coated?",
+        "question": "During the hands-on skill station for Pulp and Paper Requirement 5 (Coated Paper Properties and Uses), what execution standard is required when demonstrating Explain what coated paper is and why it is coated?",
         "options": [
           "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
           "B. Describing how to perform Coated Paper Properties and Uses verbally can substitute for a physical hands-on demonstration in Pulp.",
-          "C. Defer all Coated Paper Properties and Uses measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "C. Focus only on Explain what coated paper is and why it is coated while omitting Describe the major uses for different kinds of coated p and its required field verification.",
+          "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Coated Paper Properties and Uses standard."
         ],
         "choices": [
           "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
           "B. Describing how to perform Coated Paper Properties and Uses verbally can substitute for a physical hands-on demonstration in Pulp.",
-          "C. Defer all Coated Paper Properties and Uses measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "C. Focus only on Explain what coated paper is and why it is coated while omitting Describe the major uses for different kinds of coated p and its required field verification.",
+          "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Coated Paper Properties and Uses standard."
         ],
         "correct_index": 0,
         "correct_letter": "A",
         "correct_answer": "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate Coated Paper Properties and Uses with proper technique (p. 6). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
+        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate Coated Paper Properties and Uses with proper technique. (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
         "pamphlet_page_ref": "p. 6"
       },
       "estimated_minutes": 15,
@@ -1454,16 +1432,12 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Pre-Operation Tool & Safety Check (Pulp or Paper Products Found)",
-          "2. Step-by-Step Setup & Alignment Procedure",
-          "3. Live Execution & Technique Verification",
-          "4. Post-Task Inspection, Maintenance & Stowage"
+          "1. Make a list of 15 pulp or paper products found in your home.",
+          "2. Share examples of 10 such products with your counselor."
         ],
         "rows": [
-          "1. Pre-Operation Tool & Safety Check (Pulp or Paper Products Found)",
-          "2. Step-by-Step Setup & Alignment Procedure",
-          "3. Live Execution & Technique Verification",
-          "4. Post-Task Inspection, Maintenance & Stowage"
+          "1. Make a list of 15 pulp or paper products found in your home.",
+          "2. Share examples of 10 such products with your counselor."
         ]
       },
       "common_misconception_pair": {
@@ -1555,24 +1529,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Pulp and Paper Requirement 6 (Pulp or Paper Products Found), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Pulp and Paper Requirement 6 (Pulp or Paper Products Found), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "During the hands-on skill station for Pulp and Paper Requirement 6 (Pulp or Paper Products Found), what execution standard is required when demonstrating Make a list of 15 pulp or paper products found in your home?",
+        "question": "During the hands-on skill station for Pulp and Paper Requirement 6 (Pulp or Paper Products Found), what execution standard is required when demonstrating Make a list of 15 pulp or paper products found in your home?",
         "options": [
           "A. Describing how to perform Make A List verbally can substitute for a physical hands-on demonstration in Pulp and Paper Requirement 6.",
           "B. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-          "C. Defer all Pulp or Paper Products Found measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "C. Rely on a group summary of Pulp or Paper Products Found instead of individually explaining or demonstrating Make a list of 15 pulp or paper products found in your home.",
+          "D. Assume Pulp or Paper Products Found applies only to indoor classroom theory and has no effect on real-world Pulp and Paper practice."
         ],
         "choices": [
           "A. Describing how to perform Make A List verbally can substitute for a physical hands-on demonstration in Pulp and Paper Requirement 6.",
           "B. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-          "C. Defer all Pulp or Paper Products Found measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "C. Rely on a group summary of Pulp or Paper Products Found instead of individually explaining or demonstrating Make a list of 15 pulp or paper products found in your home.",
+          "D. Assume Pulp or Paper Products Found applies only to indoor classroom theory and has no effect on real-world Pulp and Paper practice."
         ],
         "correct_index": 1,
         "correct_letter": "B",
         "correct_answer": "B. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-        "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate Make A List with proper technique (p. 6, p. 7). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)).",
+        "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate Make A List with proper technique. (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)).",
         "pamphlet_page_ref": "p. 6, p. 7"
       },
       "estimated_minutes": 15,
@@ -1600,28 +1574,24 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Pulp Mill)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Pulp Mill Describe How The)",
             "headers": [
-              "Req 7a Analysis Dimension",
+              "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 7a Analysis Dimension",
+              "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Pulp Mill)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Visit a pulp mill.",
+              "2. Describe how the mill converts wood to cellulose fibers."
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Pulp Mill)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Visit a pulp mill.",
+              "2. Describe how the mill converts wood to cellulose fibers."
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)",
@@ -1655,7 +1625,7 @@
           "id": "7a",
           "sub_req_label": "7a",
           "sub_req_text": "Visit a pulp mill. Describe how the mill converts wood to cellulose fibers.",
-          "topic_title": "Req 7a: Pulp Mill",
+          "topic_title": "Req 7a: Pulp Mill Describe How The",
           "pamphlet_summary": "Pulp Mill: Visit A Pulp Mill: Do ONE of The Following: Share examples of 10 such products with your counselor (p. 6).",
           "pamphlet_excerpts": [
             "Pulp Mill: Visit A Pulp Mill: Do ONE of The Following: Share examples of 10 such products with your counselor (p. 6)."
@@ -1671,28 +1641,26 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Paper Mill and Get)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Paper Mill and Get A)",
             "headers": [
-              "Req 7b Analysis Dimension",
+              "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 7b Analysis Dimension",
+              "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Paper Mill and Get)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Visit a paper mill and get a sample of the paper made there.",
+              "2. Describe the processes used for making this paper.",
+              "3. Tell how it will be used."
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Paper Mill and Get)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Visit a paper mill and get a sample of the paper made there.",
+              "2. Describe the processes used for making this paper.",
+              "3. Tell how it will be used."
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)",
@@ -1726,7 +1694,7 @@
           "id": "7b",
           "sub_req_label": "7b",
           "sub_req_text": "Visit a paper mill and get a sample of the paper made there. Describe the processes used for making this paper. Tell how it will be used.",
-          "topic_title": "Req 7b: Paper Mill and Get",
+          "topic_title": "Req 7b: Paper Mill and Get A",
           "pamphlet_summary": "Paper Mill and Get: Visit A Paper Mill: Do ONE of The Following Principle 2: Describe the major uses for different kinds of coated papers (p. 6).",
           "pamphlet_excerpts": [
             "Paper Mill and Get: Visit A Paper Mill: Do ONE of The Following Principle 2: Describe the major uses for different kinds of coated papers (p. 6)."
@@ -1747,28 +1715,24 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Container Plant or Box Plant)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Container Plant or Box)",
             "headers": [
-              "Req 7c Analysis Dimension",
+              "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 7c Analysis Dimension",
+              "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Container Plant or Box Plant)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Visit a container plant or box plant.",
+              "2. Describe how the plant's products are made."
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Container Plant or Box Plant)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Visit a container plant or box plant.",
+              "2. Describe how the plant's products are made."
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)",
@@ -1802,7 +1766,7 @@
           "id": "7c",
           "sub_req_label": "7c",
           "sub_req_text": "Visit a container plant or box plant. Describe how the plant's products are made.",
-          "topic_title": "Req 7c: Container Plant or Box Plant",
+          "topic_title": "Req 7c: Container Plant or Box",
           "pamphlet_summary": "Container Plant or Box Plant: Visit A Container Plant: Do ONE of The Following Principle 3: Describe one other way that paper is changed by chemical or mechanical means to make new uses possible (p. 6).",
           "pamphlet_excerpts": [
             "Container Plant or Box Plant: Visit A Container Plant: Do ONE of The Following Principle 3: Describe one other way that paper is changed by chemical or mechanical means to make new uses possible (p. 6)."
@@ -1833,26 +1797,22 @@
             "organizer_type": "RULED_EXPLAIN_BOX",
             "table_title": "Req 7d Structured Technical Study & Explanation Matrix (Recycled Paper Collection or Sorting)",
             "headers": [
-              "Req 7d Analysis Dimension",
+              "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 7d Analysis Dimension",
+              "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Recycled Paper Collection or Sorting)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Visit a recycled paper collection or sorting facility.",
+              "2. Describe the operations there."
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Recycled Paper Collection or Sorting)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Visit a recycled paper collection or sorting facility.",
+              "2. Describe the operations there."
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)",
@@ -1911,35 +1871,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7e Structured Technical Study & Explanation Matrix (Using Books Magazines)",
+            "table_title": "Req 7e Structured Technical Study & Explanation Matrix (Books Magazines Your Local Library)",
             "headers": [
-              "Req 7e Analysis Dimension",
+              "Req 7e Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 7e Analysis Dimension",
+              "Req 7e Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Using Books Magazines)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Using books, magazines, your local library, the internet (with your parent or guardian's permission), and any other suitable...",
+              "2. Find out what role research and development play in the papermaking industry.",
+              "3. Share what you learned with your counselor."
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Using Books Magazines)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Using books, magazines, your local library, the internet (with your parent or guardian's permission), and any other suitable...",
+              "2. Find out what role research and development play in the papermaking industry.",
+              "3. Share what you learned with your counselor."
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with Using, books is sufficient for Pulp and Paper Requirement 7e without citing specific functional mechanisms.",
-            "fact": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Using Books Magazines Your Local (p. 6, p. 7).",
-            "fact_correction": "The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Using Books Magazines Your Local (p. 6, p. 7).",
+            "misconception": "Memorizing a one-line definition of Books Magazines Your Local Library without explaining how it works in practice satisfies Pulp and Paper Requirement 7e.",
+            "fact": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Books Magazines Your Local Library (Books Magazines Your Local Library) (p. 6, p. 7).",
+            "fact_correction": "The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Books Magazines Your Local Library (Books Magazines Your Local Library) (p. 6, p. 7).",
             "pamphlet_page_ref": "p. 6, p. 7"
           },
           "starting_requirement_gate": {
@@ -1971,7 +1929,7 @@
           "id": "7e",
           "sub_req_label": "7e",
           "sub_req_text": "Using books, magazines, your local library, the internet (with your parent or guardian's permission), and any other suitable research tool, find out how paper products are developed. Find out what role research and development play in the papermaking industry. Share what you learned with your counselor.",
-          "topic_title": "Req 7e: Using Books Magazines",
+          "topic_title": "Req 7e: Books Magazines Your Local Library",
           "pamphlet_summary": "Using Books Magazines Your Local: Do ONE of The Following: Share examples of 10 such products with your counselor (p. 6).",
           "pamphlet_excerpts": [
             "Using Books Magazines Your Local: Do ONE of The Following: Share examples of 10 such products with your counselor (p. 6)."
@@ -2017,7 +1975,7 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Pulp Mill",
+      "topic_title": "Req 7: Pulp Mill Describe How The",
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
@@ -2027,30 +1985,30 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Pulp Mill)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Pulp Mill Describe How The)",
         "headers": [
-          "Req 7 Analysis Dimension",
+          "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 7 Analysis Dimension",
+          "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(7a) Pulp Mill",
-          "(7b) Paper Mill and Get",
-          "(7c) Container Plant or Box Plant",
+          "(7a) Pulp Mill Describe How The",
+          "(7b) Paper Mill and Get A",
+          "(7c) Container Plant or Box",
           "(7d) Recycled Paper Collection or Sorting",
-          "(7e) Using Books Magazines"
+          "(7e) Books Magazines Your Local Library"
         ],
         "rows": [
-          "(7a) Pulp Mill",
-          "(7b) Paper Mill and Get",
-          "(7c) Container Plant or Box Plant",
+          "(7a) Pulp Mill Describe How The",
+          "(7b) Paper Mill and Get A",
+          "(7c) Container Plant or Box",
           "(7d) Recycled Paper Collection or Sorting",
-          "(7e) Using Books Magazines"
+          "(7e) Books Magazines Your Local Library"
         ]
       },
       "common_misconception_pair": {
@@ -2147,24 +2105,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Pulp and Paper Requirement 7 (Pulp Mill), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Pulp and Paper Requirement 7 (Pulp Mill), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "How does the Pulp and Paper Merit Badge Pamphlet guide Scouts on fulfilling Requirement 7 (Pulp Mill Describe How The: Visit a pulp mill. Describe how the mill converts wood to cellulose fi)?",
+        "question": "How does the Pulp and Paper Merit Badge Pamphlet guide Scouts on fulfilling Requirement 7 (Pulp Mill Describe How The: Visit a pulp mill. Describe how the mill converts wood to cellulose fi)?",
         "options": [
-          "A. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Do ONE of The Following.",
-          "B. Watching a generic video without preparing questions or counselor approval fulfills the Do ONE of The Following field investigation.",
-          "C. Defer all Pulp Mill measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "A. Watching a generic video without preparing questions or counselor approval fulfills the Do ONE of The Following field investigation.",
+          "B. Skip the Pulp and Paper Pamphlet technical criteria for Pulp Mill Describe How The and use rules from an unrelated activity.",
+          "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Do ONE of The Following.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Pulp Mill Describe How The."
         ],
         "choices": [
-          "A. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Do ONE of The Following.",
-          "B. Watching a generic video without preparing questions or counselor approval fulfills the Do ONE of The Following field investigation.",
-          "C. Defer all Pulp Mill measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "A. Watching a generic video without preparing questions or counselor approval fulfills the Do ONE of The Following field investigation.",
+          "B. Skip the Pulp and Paper Pamphlet technical criteria for Pulp Mill Describe How The and use rules from an unrelated activity.",
+          "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Do ONE of The Following.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Pulp Mill Describe How The."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Do ONE of The Following.",
-        "explanation": "Correct Answer (A): Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Do ONE of The Following, and document specific findings (p. 6, p. 7). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)).",
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Do ONE of The Following.",
+        "explanation": "Correct Answer (C): Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Do ONE of The Following, and document specific findings. (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)).",
         "pamphlet_page_ref": "p. 6, p. 7"
       },
       "estimated_minutes": 15,
@@ -2208,7 +2166,7 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Careers & Professional Pathways",
+      "topic_title": "Req 8: Pulp and Paper Careers and Pathways",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -2230,16 +2188,14 @@
           "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. Three Related Careers Identified",
-          "2. Selected Career: Education, Training & Licensing",
-          "3. Daily Responsibilities, Tools & Working Conditions",
-          "4. Salary Range, Advancement Outlook & Personal Fit"
+          "1. Find out about three career opportunities in the papermaking industry that interest you.",
+          "2. Pick one and find out the education, training, and experience required for this profession.",
+          "3. Discuss this with your counselor, and explain why this profession might interest you."
         ],
         "rows": [
-          "1. Three Related Careers Identified",
-          "2. Selected Career: Education, Training & Licensing",
-          "3. Daily Responsibilities, Tools & Working Conditions",
-          "4. Salary Range, Advancement Outlook & Personal Fit"
+          "1. Find out about three career opportunities in the papermaking industry that interest you.",
+          "2. Pick one and find out the education, training, and experience required for this profession.",
+          "3. Discuss this with your counselor, and explain why this profession might interest you."
         ]
       },
       "common_misconception_pair": {
@@ -2331,19 +2287,19 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Pulp and Paper Requirement 8 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Pulp and Paper Requirement 8 (Careers & Professional Pathways), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "When evaluating professional pathways for Pulp and Paper Requirement 8 (Pulp and Paper Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "question": "When evaluating professional pathways for Pulp and Paper Requirement 8 (Pulp and Paper Careers and Pathways), what qualification and career-research standard must a Scout verify?",
         "options": [
           "A. Scouts must research specific Pulp and Paper career pathways and discuss required education, training, licensing, and daily duties.",
           "B. Listing three job titles from a quick web search satisfies the Pulp and Paper career exploration requirement.",
-          "C. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "C. Focus only on Find out about three career opportunities in the paperm while omitting Pick one and find out the education, training, and expe and its required field verification.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Pulp and Paper Careers and Pathways."
         ],
         "choices": [
           "A. Scouts must research specific Pulp and Paper career pathways and discuss required education, training, licensing, and daily duties.",
           "B. Listing three job titles from a quick web search satisfies the Pulp and Paper career exploration requirement.",
-          "C. Defer all Careers & Professional Pathways measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+          "C. Focus only on Find out about three career opportunities in the paperm while omitting Pick one and find out the education, training, and expe and its required field verification.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Pulp and Paper Careers and Pathways."
         ],
         "correct_index": 0,
         "correct_letter": "A",
@@ -2364,116 +2320,116 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "While working on Pulp and Paper Requirement 1 (History of Papermaking), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Pulp and Paper Requirement 1 (History of Papermaking), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "How does the Pulp and Paper Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (History of Papermaking: Tell the history of papermaking)?",
+      "question": "How does the Pulp and Paper Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (History of Papermaking: Tell the history of papermaking)?",
       "options": [
-        "A. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "B. General familiarity with history, papermaking is sufficient for Pulp and Paper Requirement 1 without citing specific functional.",
-        "C. Defer all History of Papermaking measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+        "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "B. Memorizing a one-line definition of History of Papermaking without explaining how it works in practice satisfies Pulp and Paper.",
+        "C. Focus only on Tell the history of papermaking while omitting Describe the part paper products play in our society an and its required field verification.",
+        "D. Assume History of Papermaking applies only to indoor classroom theory and has no effect on real-world Pulp and Paper practice."
       ],
       "choices": [
-        "A. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "B. General familiarity with history, papermaking is sufficient for Pulp and Paper Requirement 1 without citing specific functional.",
-        "C. Defer all History of Papermaking measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+        "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "B. Memorizing a one-line definition of History of Papermaking without explaining how it works in practice satisfies Pulp and Paper.",
+        "C. Focus only on Tell the history of papermaking while omitting Describe the part paper products play in our society an and its required field verification.",
+        "D. Assume History of Papermaking applies only to indoor classroom theory and has no effect on real-world Pulp and Paper practice."
       ],
       "correct_index": 0,
       "correct_letter": "A",
-      "correct_answer": "A. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-      "explanation": "Correct Answer (A): The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History of Papermaking (p. 6, p. 7). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)).",
+      "correct_answer": "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+      "explanation": "Correct Answer (A): The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History of Papermaking (History of Papermaking). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)).",
       "pamphlet_page_ref": "p. 6, p. 7",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Pulp and Paper Requirement 2 (Pulp and Paper Industry), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Pulp and Paper Requirement 2 (Pulp and Paper Industry), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Pulp and Paper Requirement 2 (Learn About The Pulp and), which statement accurately reflects the official BSA standard for Describe the ways the industry plants, grows, and harvests trees?",
+      "question": "When preparing for your counselor conference on Pulp and Paper Requirement 2 (Learn About The Pulp and), which statement accurately reflects the official BSA standard for Describe the ways the industry plants, grows, and harvests trees?",
       "options": [
-        "A. General familiarity with Learn, paper is sufficient for Pulp and Paper Requirement 2 without citing specific functional mechanisms.",
-        "B. Defer all Pulp and Paper Industry measurements and safety checks until after the field session concludes.",
-        "C. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+        "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "B. Memorizing a one-line definition of Learn About The Pulp and without explaining how it works in practice satisfies Pulp and Paper.",
+        "C. Focus only on Describe the ways the industry plants, grows, and harve while omitting Explain how the industry manages its forests so that th and its required field verification.",
+        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Learn About The Pulp and."
       ],
       "choices": [
-        "A. General familiarity with Learn, paper is sufficient for Pulp and Paper Requirement 2 without citing specific functional mechanisms.",
-        "B. Defer all Pulp and Paper Industry measurements and safety checks until after the field session concludes.",
-        "C. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+        "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "B. Memorizing a one-line definition of Learn About The Pulp and without explaining how it works in practice satisfies Pulp and Paper.",
+        "C. Focus only on Describe the ways the industry plants, grows, and harve while omitting Explain how the industry manages its forests so that th and its required field verification.",
+        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Learn About The Pulp and."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-      "explanation": "Correct Answer (C): The Pulp and Paper pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Learn About The Pulp (p. 6). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+      "explanation": "Correct Answer (A): The Pulp and Paper pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Learn About The Pulp and (Learn About The Pulp and). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
       "pamphlet_page_ref": "p. 6",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Pulp and Paper Requirement 3 (Types of Trees), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Pulp and Paper Requirement 3 (Types of Trees), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Pulp and Paper Requirement 3 (Trees That Are Major Sources), which statement accurately reflects the official BSA standard for Discuss what other uses are made of the trees and the forestland owned by t?",
+      "question": "When preparing for your counselor conference on Pulp and Paper Requirement 3 (Trees That Are Major Sources), which statement accurately reflects the official BSA standard for Discuss what other uses are made of the trees and the forestland owned by t?",
       "options": [
-        "A. All methods covered under Name at least four types in Pulp and Paper are interchangeable regardless of operating conditions.",
-        "B. Defer all Types of Trees measurements and safety checks until after the field session concludes.",
-        "C. Each method or system in Name at least four types has distinct operating limits, efficiency trade-offs, and field applications.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+        "A. All concepts or systems compared under Trees That Are Major Sources in Pulp and Paper behave identically regardless of operating.",
+        "B. Skip the Pulp and Paper Pamphlet technical criteria for Trees That Are Major Sources and use rules from an unrelated activity.",
+        "C. Each system or condition in Trees That Are Major Sources has distinct physical mechanisms, operating limits, and field indicators.",
+        "D. Substitute a casual verbal guess about Discuss what other uses are made of the trees and the f in place of documented Pulp and Paper observations."
       ],
       "choices": [
-        "A. All methods covered under Name at least four types in Pulp and Paper are interchangeable regardless of operating conditions.",
-        "B. Defer all Types of Trees measurements and safety checks until after the field session concludes.",
-        "C. Each method or system in Name at least four types has distinct operating limits, efficiency trade-offs, and field applications.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+        "A. All concepts or systems compared under Trees That Are Major Sources in Pulp and Paper behave identically regardless of operating.",
+        "B. Skip the Pulp and Paper Pamphlet technical criteria for Trees That Are Major Sources and use rules from an unrelated activity.",
+        "C. Each system or condition in Trees That Are Major Sources has distinct physical mechanisms, operating limits, and field indicators.",
+        "D. Substitute a casual verbal guess about Discuss what other uses are made of the trees and the f in place of documented Pulp and Paper observations."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. Each method or system in Name at least four types has distinct operating limits, efficiency trade-offs, and field applications.",
-      "explanation": "Correct Answer (C): Each method or system in Name at least four types has distinct operating limits, efficiency trade-offs, and field applications defined in the Pulp and Paper pamphlet (p. 6). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
+      "correct_answer": "C. Each system or condition in Trees That Are Major Sources has distinct physical mechanisms, operating limits, and field indicators.",
+      "explanation": "Correct Answer (C): Each system or condition in Trees That Are Major Sources has distinct physical mechanisms, operating limits, and field indicators defined in the Pulp and Paper pamphlet. (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
       "pamphlet_page_ref": "p. 6",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Pulp and Paper Requirement 4 (Paper is made), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Pulp and Paper Requirement 4 (Paper is made), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "During the hands-on skill station for Pulp and Paper Requirement 4 (Paper Is Made Discuss How), what execution standard is required when demonstrating Describe how paper is made?",
+      "question": "During the hands-on skill station for Pulp and Paper Requirement 4 (Paper Is Made Discuss How), what execution standard is required when demonstrating Describe how paper is made?",
       "options": [
-        "A. Describing how to perform Paper is made verbally can substitute for a physical hands-on demonstration in Pulp and Paper Requirement 4.",
-        "B. Defer all Paper is made measurements and safety checks until after the field session concludes.",
-        "C. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+        "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
+        "B. Describing how to perform Paper is made verbally can substitute for a physical hands-on demonstration in Pulp and Paper Requirement 4.",
+        "C. Focus only on Describe how paper is made while omitting Discuss how paper is recycled and its required field verification.",
+        "D. Assume Paper Is Made Discuss How applies only to indoor classroom theory and has no effect on real-world Pulp and Paper practice."
       ],
       "choices": [
-        "A. Describing how to perform Paper is made verbally can substitute for a physical hands-on demonstration in Pulp and Paper Requirement 4.",
-        "B. Defer all Paper is made measurements and safety checks until after the field session concludes.",
-        "C. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+        "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
+        "B. Describing how to perform Paper is made verbally can substitute for a physical hands-on demonstration in Pulp and Paper Requirement 4.",
+        "C. Focus only on Describe how paper is made while omitting Discuss how paper is recycled and its required field verification.",
+        "D. Assume Paper Is Made Discuss How applies only to indoor classroom theory and has no effect on real-world Pulp and Paper practice."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-      "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate Paper is made with proper technique (p. 6). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
+      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate Paper is made with proper technique. (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
       "pamphlet_page_ref": "p. 6",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Pulp and Paper Requirement 5 (Coated Paper Properties and Uses), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Pulp and Paper Requirement 5 (Coated Paper Properties and Uses), your patrol encounters a decision point on proper procedure. According to the Pulp and Paper Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "During the hands-on skill station for Pulp and Paper Requirement 5 (Coated Paper Properties and Uses), what execution standard is required when demonstrating Explain what coated paper is and why it is coated?",
+      "question": "During the hands-on skill station for Pulp and Paper Requirement 5 (Coated Paper Properties and Uses), what execution standard is required when demonstrating Explain what coated paper is and why it is coated?",
       "options": [
         "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
         "B. Describing how to perform Coated Paper Properties and Uses verbally can substitute for a physical hands-on demonstration in Pulp.",
-        "C. Defer all Coated Paper Properties and Uses measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+        "C. Focus only on Explain what coated paper is and why it is coated while omitting Describe the major uses for different kinds of coated p and its required field verification.",
+        "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Coated Paper Properties and Uses standard."
       ],
       "choices": [
         "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
         "B. Describing how to perform Coated Paper Properties and Uses verbally can substitute for a physical hands-on demonstration in Pulp.",
-        "C. Defer all Coated Paper Properties and Uses measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Pulp and Paper pamphlet procedure."
+        "C. Focus only on Explain what coated paper is and why it is coated while omitting Describe the major uses for different kinds of coated p and its required field verification.",
+        "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Coated Paper Properties and Uses standard."
       ],
       "correct_index": 0,
       "correct_letter": "A",
       "correct_answer": "A. Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate.",
-      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate Coated Paper Properties and Uses with proper technique (p. 6). (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
+      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Pulp and Paper pamphlet, each Scout must physically execute and demonstrate Coated Paper Properties and Uses with proper technique. (Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)).",
       "pamphlet_page_ref": "p. 6",
       "req_id": "5",
       "option_id": null

@@ -5722,12 +5722,29 @@ def _resolve_workbook_diagram_url(
         }
         return first_aid_exact_map.get(r_clean, "")
 
-    # 2. If an explicit non-synthetic diagram URL is provided, honor it
-    exp_s = str(explicit_url or "").strip()
-    if exp_s and not exp_s.endswith("_workbook_diagram.png"):
-        return exp_s
+    # 2. Exact subject-matter diagram mapping for Weather (12 requirements)
+    if b_low == "weather":
+        weather_exact_map = {
+            "1": "assets/pamphlet_images/weather_p007_img1.png",
+            "2": "assets/ai_illustrations/weather_doppler_radar_nano.png",
+            "4": "assets/ai_illustrations/weather_warm_front_3d_sidebyside.png",
+            "5": "assets/ai_illustrations/weather_sea_land_breeze_nano.png",
+            "6": "assets/ai_illustrations/weather_cloud_classification_nano.png",
+            "7": "assets/diagrams/water_cycle_diagram.png",
+            "9": "assets/ai_illustrations/weather_earth_orbit_seasons_nano.png",
+        }
+        w_cand = weather_exact_map.get(r_clean, "")
+        if w_cand and (Path(__file__).resolve().parents[2] / w_cand).exists():
+            return w_cand
+        return ""
 
-    # 3. Curated subject-matter diagrams in assets/diagrams/ and assets/ai_illustrations/
+    # 3. If an explicit non-synthetic diagram URL is provided and exists on disk, honor it
+    exp_s = str(explicit_url or "").strip().lstrip("/")
+    if exp_s and not exp_s.endswith("_workbook_diagram.png"):
+        if (Path(__file__).resolve().parents[2] / exp_s).exists():
+            return exp_s
+
+    # 4. Curated subject-matter diagrams in assets/diagrams/ and assets/ai_illustrations/
     if b_low == "cooking":
         if r_clean in ("2", "2a"):
             return "assets/diagrams/myplate_cooking_diagram.png"
@@ -5736,8 +5753,8 @@ def _resolve_workbook_diagram_url(
             return "assets/ai_illustrations/camping_req_9_topic_visual.png"
         if r_clean in ("2", "2a", "7", "7a") and ("leave no trace" in tl or "outdoor code" in tl or b_low == "camping"):
             return "assets/diagrams/leave_no_trace_diagram.png"
-    elif b_low in ("weather", "environmental science", "sustainability", "soil and water conservation"):
-        if r_clean in ("1", "1a", "2", "2a", "3", "3a") and ("water cycle" in tl or "hydrologic" in tl or b_low == "weather"):
+    elif b_low in ("environmental science", "sustainability", "soil and water conservation"):
+        if r_clean in ("1", "1a", "2", "2a", "3", "3a") and ("water cycle" in tl or "hydrologic" in tl):
             return "assets/diagrams/water_cycle_diagram.png"
 
     # 4. Authentic BSA Pamphlet figure for Req 1 (and Req 2 when available)
@@ -5777,6 +5794,22 @@ def _is_comma_chopped_or_boilerplate_row(row_str: str) -> bool:
         "step / point 1",
         "step / point 2",
         "step / point 3",
+        "core definition & mechanism (",
+        "key pamphlet facts & technical standards",
+        "practical scouting / field application example",
+        "counselor discussion & verification summary",
+        "pre-operation tool & safety check (",
+        "step-by-step setup & alignment procedure",
+        "live execution & technique verification",
+        "post-task inspection, maintenance & stowage",
+        "operating principle & design (",
+        "key advantages & ideal field conditions",
+        "limitations, cost & maintenance trade-offs",
+        "safety & selection criteria",
+        "baseline entry & starting conditions (",
+        "milestone 1 observation & measurements",
+        "milestone 2 observation & measurements",
+        "final summary, totals & counselor review",
     )
     if any(bp in sl for bp in boilerplate_patterns):
         return True
@@ -6404,11 +6437,22 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             }
         r_gate = r.get("starting_requirement_gate")
         _r_has_gear_context = (
-            r_mode == "HANDS_ON_SKILL_STATION"
-            or r_verb.lower() in ("demonstrate", "show", "build", "prepare", "assemble", "construct")
-            or any(
-                kw in r_text.lower()
-                for kw in ("kit", "gear", "equipment", "pack", "demonstrate", "show how", "inspect", "supply", "supplies")
+            r_verb.lower() in ("demonstrate", "show", "build", "prepare", "assemble", "construct", "make")
+            and not r_text.lower().startswith(("define ", "explain ", "discuss ", "identify ", "name ", "tell ", "describe ", "draw ", "explore ", "give a talk"))
+        ) or any(
+            kw in r_text.lower()
+            for kw in (
+                "first-aid kit",
+                "first aid kit",
+                "survival kit",
+                "emergency kit",
+                "clothing you would need",
+                "pack a ",
+                "ten essentials",
+                "make one of the following instruments",
+                "personal flotation",
+                "protective equipment",
+                "protective gear",
             )
         )
         r_gear = list(r.get("gear_checklist") or []) if _r_has_gear_context else []
@@ -6505,16 +6549,27 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             )
             sr_gate = sr.get("starting_requirement_gate") or (r_gate if sr_idx == 0 else None)
             _sr_has_gear_context = (
-                _r_has_gear_context
-                or sr_verb.lower() in ("demonstrate", "show", "build", "prepare", "assemble", "construct")
-                or any(
-                    kw in sr_text.lower()
-                    for kw in ("kit", "gear", "equipment", "pack", "demonstrate", "show how", "inspect", "supply", "supplies")
+                sr_verb.lower() in ("demonstrate", "show", "build", "prepare", "assemble", "construct", "make")
+                and not sr_text.lower().startswith(("define ", "explain ", "discuss ", "identify ", "name ", "tell ", "describe ", "draw ", "visit ", "explore ", "give a talk"))
+            ) or any(
+                kw in sr_text.lower()
+                for kw in (
+                    "first-aid kit",
+                    "first aid kit",
+                    "survival kit",
+                    "emergency kit",
+                    "clothing you would need",
+                    "pack a ",
+                    "ten essentials",
+                    "make one of the following instruments",
+                    "personal flotation",
+                    "protective equipment",
+                    "protective gear",
                 )
             )
             sr_gear = (
                 list(sr.get("gear_checklist") or (r_gear if sr_idx == 0 else []))
-                if _sr_has_gear_context and sr_idx == 0
+                if _sr_has_gear_context
                 else []
             )
             sr_title = str(sr.get("topic_title") or sr.get("title") or f"{r_title} ({sr_id})").strip()
@@ -6617,7 +6672,14 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                     dict(ch.get("common_misconception_pair") or sr_mis), ch_id, ch_text, ch_verb, ch_cit
                 )
                 ch_gate = ch.get("starting_requirement_gate")
-                ch_gear = list(ch.get("gear_checklist") or [])
+                ch_gear = (
+                    list(ch.get("gear_checklist") or [])
+                    if any(
+                        kw in ch_text.lower()
+                        for kw in ("first-aid kit", "first aid kit", "survival kit", "emergency kit", "pack a ", "make one of the following instruments")
+                    )
+                    else []
+                )
                 ch_title = str(ch.get("topic_title") or ch.get("title") or f"{r_title} ({ch_id})").strip()
                 grand_children = list(ch.get("children") or [])[:12]
 
@@ -6858,7 +6920,8 @@ def generate_counselor_workbook_markdown(
             continue
 
         heading_prefix = "####" if u.get("is_sub_requirement") else "###"
-        lines.append(f"{heading_prefix} Req {u_num}: {topic}")
+        clean_md_topic = re.sub(r"^Req(?:uirement)?\s+[0-9a-zA-Z().\-]+\s*[:\-]\s*", "", str(topic), flags=re.IGNORECASE).strip() or topic
+        lines.append(f"{heading_prefix} Req {u_num}: {clean_md_topic}")
         lines.append(f"**Official Requirement {u_num}:** {u.get('req_text', '')}")
         if u.get("pamphlet_page_citation") or u.get("pamphlet_citation"):
             lines.append(
@@ -6880,6 +6943,10 @@ def generate_counselor_workbook_markdown(
             lines.append("**Gear & Readiness Checklist:**")
             for gi in gear_list:
                 lines.append(f"- [ ] {gi}")
+        md_diag_url = str(u.get("workbook_diagram_url") or "").strip().lstrip("/")
+        if md_diag_url:
+            lines.append("")
+            lines.append(f"![Instructional Reference Diagram - Req {u_num}: {clean_md_topic}](/{md_diag_url})")
         if isinstance(org, dict) and (org.get("headers") or org.get("column_headers")):
             headers = org.get("headers") or org.get("column_headers") or ["Sub-Part / Step", "Scout Notes & Field Evidence"]
             row_labels = org.get("row_labels") or ["Row 1", "Row 2", "Row 3"]
@@ -6971,7 +7038,9 @@ def generate_fillable_scout_workbook_html(
     for idx, u in enumerate(unrolled_units, start=1):
         r_num_raw = str(u.get("req_number") or u.get("req_id") or str(idx))
         r_num = _html.escape(r_num_raw)
-        r_title = _html.escape(str(u.get("topic_title") or u.get("title") or f"Requirement {r_num_raw}"))
+        raw_r_title = str(u.get("topic_title") or u.get("title") or f"Requirement {r_num_raw}").strip()
+        clean_r_title = re.sub(r"^Req(?:uirement)?\s+[0-9a-zA-Z().\-]+\s*[:\-]\s*", "", raw_r_title, flags=re.IGNORECASE).strip() or raw_r_title
+        r_title = _html.escape(clean_r_title)
         r_text_raw = str(u.get("req_text") or "")
         r_text = _html.escape(r_text_raw)
         r_verb = _html.escape(str(u.get("action_verb") or "Explain"))
@@ -7061,13 +7130,19 @@ def generate_fillable_scout_workbook_html(
                 if not diag_url_raw.startswith(("http://", "https://", "/"))
                 else _html.escape(diag_url_raw)
             )
+            diag_caption_str = f"Instructional Reference Diagram - Req {r_num}: {r_title}"
             diag_html = (
                 f'<figure class="wb-reference-diagram" data-diagram-url="{_html.escape(diag_url_raw)}" '
-                'style="margin:8px 0 10px 0; padding:10px 14px; border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; text-align:center;">'
-                f'<img src="{diag_src}" alt="Req {r_num} Instructional Reference Diagram" '
-                'style="max-width:100%; max-height:280px; height:auto; object-fit:contain; display:block; margin:0 auto;" />'
+                'onclick="if(window.openWorkbookImageZoom){var im=this.querySelector(\'img\'),fc=this.querySelector(\'figcaption\');if(im)window.openWorkbookImageZoom(im.src,fc?fc.textContent:im.alt);}else if(window.openWbStandaloneLightbox){window.openWbStandaloneLightbox(this);}" '
+                'title="Click to zoom diagram in full-screen lightbox" '
+                'style="margin:8px 0 10px 0; padding:10px 14px; border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; text-align:center; cursor:zoom-in; position:relative; transition:box-shadow 0.15s ease, border-color 0.15s ease;">'
+                f'<img src="{diag_src}" alt="{diag_caption_str}" class="wb-diagram-img" '
+                'style="max-width:100%; max-height:280px; height:auto; object-fit:contain; display:block; margin:0 auto; cursor:zoom-in;" />'
                 '<figcaption style="font-size:11px; color:#334155; margin-top:6px; font-weight:600;">'
-                f'Instructional Reference Diagram - Req {r_num}: {r_title}</figcaption>'
+                f'{diag_caption_str}</figcaption>'
+                '<div class="no-print" style="margin-top:4px;">'
+                '<span style="display:inline-flex; align-items:center; gap:4px; font-size:10.5px; font-weight:700; color:#1e40af; background:#dbeafe; border:1px solid #93c5fd; border-radius:999px; padding:2px 9px;">🔍 Click diagram to zoom</span>'
+                '</div>'
                 '</figure>'
             )
 
@@ -7274,6 +7349,48 @@ def generate_fillable_scout_workbook_html(
   </div>
   {signoff_index_html}
   {"".join(req_sections_html)}
+  <div id="wb-standalone-lightbox" class="no-print" onclick="if(event.target===this)this.style.display='none';" style="display:none; position:fixed; inset:0; z-index:99999; background:rgba(15,23,42,0.88); backdrop-filter:blur(4px); align-items:center; justify-content:center; flex-direction:column; padding:24px;">
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; width:min(94vw,1100px); margin-bottom:10px; color:#fff;">
+      <div id="wb-standalone-lightbox-caption" style="font-size:14px; font-weight:700; color:#f8fafc;">Instructional Reference Diagram</div>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <button type="button" onclick="var im=document.getElementById('wb-standalone-lightbox-img'); if(im){{var z=parseFloat(im.getAttribute('data-zoom')||'1'); z=z>=2?1:z+0.5; im.setAttribute('data-zoom',String(z)); im.style.transform='scale('+z+')'; this.textContent='🔍 Zoom: '+Math.round(z*100)+'%';}}" style="background:#1e40af; color:#fff; border:1px solid #60a5fa; border-radius:6px; padding:5px 11px; font-size:12px; font-weight:700; cursor:pointer;">🔍 Zoom: 100%</button>
+        <button type="button" onclick="document.getElementById('wb-standalone-lightbox').style.display='none';" style="background:#dc2626; color:#fff; border:none; border-radius:6px; padding:5px 12px; font-size:12px; font-weight:800; cursor:pointer;">✕ Close (Esc)</button>
+      </div>
+    </div>
+    <div style="max-width:94vw; max-height:82vh; overflow:auto; background:#ffffff; border-radius:10px; padding:12px; box-shadow:0 20px 50px rgba(0,0,0,0.5);">
+      <img id="wb-standalone-lightbox-img" src="" alt="Zoomed Workbook Reference Diagram" data-zoom="1" style="max-width:88vw; max-height:76vh; object-fit:contain; display:block; margin:0 auto; transition:transform 0.18s ease; transform-origin:center center; cursor:zoom-in;" onclick="var z=parseFloat(this.getAttribute('data-zoom')||'1'); z=z>=2?1:z+0.5; this.setAttribute('data-zoom',String(z)); this.style.transform='scale('+z+')';" />
+    </div>
+  </div>
+  <script>
+    window.openWbStandaloneLightbox = function(figEl) {{
+      if (!figEl) return;
+      var img = figEl.querySelector('img');
+      var cap = figEl.querySelector('figcaption');
+      if (!img) return;
+      if (window.parent && window.parent !== window && window.parent.openWorkbookImageZoom) {{
+        window.parent.openWorkbookImageZoom(img.src, cap ? cap.textContent : img.alt);
+        return;
+      }}
+      var modal = document.getElementById('wb-standalone-lightbox');
+      var mImg = document.getElementById('wb-standalone-lightbox-img');
+      var mCap = document.getElementById('wb-standalone-lightbox-caption');
+      if (modal && mImg) {{
+        mImg.src = img.src;
+        mImg.setAttribute('data-zoom', '1');
+        mImg.style.transform = 'scale(1)';
+        if (mCap) mCap.textContent = cap ? cap.textContent : (img.alt || 'Instructional Reference Diagram');
+        modal.style.display = 'flex';
+      }}
+    }};
+    document.addEventListener('keydown', function(ev) {{
+      if (ev.key === 'Escape') {{
+        var modal = document.getElementById('wb-standalone-lightbox');
+        if (modal && modal.style.display !== 'none') {{
+          modal.style.display = 'none';
+        }}
+      }}
+    }});
+  </script>
 </body>
 </html>"""
 

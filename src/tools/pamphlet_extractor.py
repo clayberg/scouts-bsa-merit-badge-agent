@@ -2815,6 +2815,16 @@ _CURATED_REQ1_SAFETY_QUIZZES: Dict[str, Dict[str, Any]] = {
         "correct_answer": "Option B — Power off the sewing machine before touching the needle clamp, account for all sharp needle pieces, and install the proper needle size.",
         "explanation": "Turning off power prevents accidental foot-pedal activation while fingers are near the needle bar, and recovering broken needle tips prevents puncture injuries.",
     },
+    "weather": {
+        "scenario_prompt": "Your patrol is hiking across an open alpine ridgeline when towering cumulonimbus clouds build rapidly and you hear thunder 10 seconds after seeing a lightning flash (roughly 2 miles away). What is the safest immediate action for the patrol?",
+        "options": [
+            "Stay on the ridgeline under a tall isolated pine tree to keep dry until the rain passes.",
+            "Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
+            "Huddle together in a tight circle on top of metal-frame backpacks.",
+        ],
+        "correct_answer": "Option B — Descend immediately off exposed high ground, avoid isolated trees and water, and use lower shelter or spread out in lightning position.",
+        "explanation": "Sound travels about 1 mile every 5 seconds; a 10-second flash-to-bang interval means lightning is within 2 miles and already in strike range, requiring immediate descent from ridges and avoidance of tall isolated objects.",
+    },
 }
 
 
@@ -2829,27 +2839,38 @@ def _get_selective_safety_quiz_for_requirement(
     """Returns a genuine, non-boilerplate Patrol Scenario Quiz only where pedagogically appropriate.
 
     Policy:
-    - Never emit generic strawman quizzes ('Rely on guesswork...', 'Sign off the requirement before completing...').
+    - Never emit generic strawman quizzes ('Rely on guesswork...', 'encounters a decision point on proper procedure...').
     - Never force quizzes onto every requirement or across multi-option skill tracks.
-    - Include a quiz ONLY if:
-      (a) the requirement has a curated, non-boilerplate `explicit_quiz`, OR
-      (b) this is Requirement 1 (`req_index == 0`) of a badge with a curated field-safety scenario in `_CURATED_REQ1_SAFETY_QUIZZES`.
+    - Include a slide-deck checkpoint quiz ONLY on Requirement 1 (`req_index == 0` or `1`/`1a`).
     """
+    slug = _badge_slug(badge_name)
+    clean_num = str(req_num or "").strip().lower()
+    if req_index != 0 and clean_num not in ("1", "1a"):
+        return None
+
+    curated = _CURATED_REQ1_SAFETY_QUIZZES.get(slug)
+    if curated:
+        return dict(curated)
+
     if isinstance(explicit_quiz, dict):
         raw_opts = [str(o).strip() for o in (explicit_quiz.get("options") or []) if str(o).strip()]
-        opts_blob = " ".join(raw_opts).lower()
+        prompt = str(explicit_quiz.get("scenario_prompt") or explicit_quiz.get("question") or "").strip()
+        opts_blob = (prompt + " " + " ".join(raw_opts)).lower()
         if (
             raw_opts
             and "rely on guesswork" not in opts_blob
             and "sign off the requirement before completing" not in opts_blob
+            and "sign off the requirement without" not in opts_blob
             and "unverified shortcuts" not in opts_blob
             and "claim partial credit" not in opts_blob
+            and "encounters a decision point on proper procedure" not in opts_blob
+            and "defer all " not in opts_blob
+            and "substitute uncalibrated equipment" not in opts_blob
         ):
             clean_opts = [
                 re.sub(r"^(?:Option\s+[A-D]\s*[:.\-—–]\s*|\(?[A-D]\)\s*|[A-D]\.\s*)", "", o, flags=re.IGNORECASE).strip()
                 for o in raw_opts
             ]
-            prompt = str(explicit_quiz.get("scenario_prompt") or explicit_quiz.get("question") or "").strip()
             ans = str(explicit_quiz.get("correct_answer") or explicit_quiz.get("correct_option") or "").strip()
             exp = str(explicit_quiz.get("explanation") or "").strip()
             if prompt and len(clean_opts) >= 2:
@@ -2860,35 +2881,29 @@ def _get_selective_safety_quiz_for_requirement(
                     "explanation": exp,
                 }
 
-    slug = _badge_slug(badge_name)
-    clean_num = str(req_num or "").strip().lower()
-    if req_index == 0 or clean_num in ("1", "1a"):
-        curated = _CURATED_REQ1_SAFETY_QUIZZES.get(slug)
-        if curated:
-            return dict(curated)
-        if req_index == 0:
-            clean_t = re.sub(r"\s*\(Reqs?\s+[^)]+\)", "", str(base_title or f"{badge_name} Fundamentals")).strip()
-            short_req = re.sub(r"\s+", " ", str(req_text or clean_t)).strip().rstrip(".")
-            if len(short_req) > 130:
-                short_req = short_req[:127].rsplit(" ", 1)[0].rstrip(" ,;:-")
-            return {
-                "scenario_prompt": (
-                    f"Before beginning hands-on field work for {badge_name} Requirement {req_num} ({clean_t}), "
-                    f"your patrol reviews the required preparation and safety standards. Which action best satisfies the BSA {badge_name} Pamphlet standard?"
-                ),
-                "options": [
-                    f"Begin the {clean_t} activity immediately before inspecting equipment, workspace hazards, or buddy readiness.",
-                    f"Review the official {badge_name} Pamphlet guidance for {clean_t} ({short_req}), verify scene and equipment safety with your buddy, and confirm counselor expectations before starting.",
-                    f"Skip the pre-activity safety briefing and complete only half of the {clean_t} steps on your own.",
-                ],
-                "correct_answer": (
-                    f"Option B — Verify scene and equipment safety with your buddy and follow the {badge_name} Pamphlet standard for {clean_t}."
-                ),
-                "explanation": (
-                    f"Under the BSA Guide to Safe Scouting and the {badge_name} Merit Badge Pamphlet, Scouts must establish scene safety, "
-                    f"use the Buddy System, and apply the verified technical steps for {clean_t} ({short_req})."
-                ),
-            }
+    if req_index == 0:
+        clean_t = re.sub(r"\s*\(Reqs?\s+[^)]+\)", "", str(base_title or f"{badge_name} Fundamentals")).strip()
+        short_req = re.sub(r"\s+", " ", str(req_text or clean_t)).strip().rstrip(".")
+        if len(short_req) > 130:
+            short_req = short_req[:127].rsplit(" ", 1)[0].rstrip(" ,;:-")
+        return {
+            "scenario_prompt": (
+                f"Before beginning hands-on field work for {badge_name} Requirement {req_num} ({clean_t}), "
+                f"your patrol reviews the required preparation and safety standards. Which action best satisfies the BSA {badge_name} Pamphlet standard?"
+            ),
+            "options": [
+                f"Begin the {clean_t} activity immediately before inspecting equipment, workspace hazards, or buddy readiness.",
+                f"Review the official {badge_name} Pamphlet guidance for {clean_t} ({short_req}), verify scene and equipment safety with your buddy, and confirm counselor expectations before starting.",
+                f"Skip the pre-activity safety briefing and complete only half of the {clean_t} steps on your own.",
+            ],
+            "correct_answer": (
+                f"Option B — Verify scene and equipment safety with your buddy and follow the {badge_name} Pamphlet standard for {clean_t}."
+            ),
+            "explanation": (
+                f"Under the BSA Guide to Safe Scouting and the {badge_name} Merit Badge Pamphlet, Scouts must establish scene safety, "
+                f"use the Buddy System, and apply the verified technical steps for {clean_t} ({short_req})."
+            ),
+        }
 
     return None
 

@@ -151,14 +151,14 @@ def _infer_archetype(req: Dict[str, Any], idx: int, exec_mode: str) -> str:
 
     if req.get("comparison_data"):
         return SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value
-    if req.get("worked_example"):
-        return SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value
     if req.get("gear_checklist"):
         return SlideArchetype.GEAR_CHECKLIST_GRID.value
-    if req.get("quiz_item"):
-        return SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value
     if req.get("step_by_step_procedure"):
         return SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value
+    if req.get("worked_example"):
+        return SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value
+    if req.get("quiz_item") and idx == 0:
+        return SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value
 
     text_lower = str(req.get("req_text", "")).lower()
     if any(kw in text_lower for kw in ("kit", "clothing", "layering", "equipment", "ppe", "gear")):
@@ -576,6 +576,16 @@ def _is_generic_meta_misconception(myth_str: str, fact_str: str = "") -> bool:
         "safety & verification",
         "step-by-step execution",
         "individually option mastery",
+        "applied field standard",
+        "estimating define",
+        "estimating explain",
+        "estimating identify",
+        "estimating discuss",
+        "estimating tell",
+        "estimating do the following",
+        "general familiarity with ",
+        "students often overlook the real-world impact of ",
+        "skipping the preliminary setup for ",
     )
     if any(marker in m_low for marker in generic_markers) or any(marker in f_low for marker in generic_markers):
         return True

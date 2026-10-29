@@ -50,32 +50,30 @@
         "organizer_type": "RULED_EXPLAIN_BOX",
         "table_title": "Req 1 Structured Technical Study & Explanation Matrix (History and Origins of the Bugle)",
         "headers": [
-          "Req 1 Analysis Dimension",
+          "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 1 Analysis Dimension",
+          "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (History and Origins of the Bugle)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Give a brief history of the bugle.",
+          "2. Key Pamphlet Facts & Mechanism (History and Origins of the Bugle)",
+          "3. Field Application & Counselor Discussion (History and Origins of the Bugle)"
         ],
         "rows": [
-          "1. Core Definition & Mechanism (History and Origins of the Bugle)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Give a brief history of the bugle.",
+          "2. Key Pamphlet Facts & Mechanism (History and Origins of the Bugle)",
+          "3. Field Application & Counselor Discussion (History and Origins of the Bugle)"
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with brief, history is sufficient for Bugling Requirement 1 without citing specific functional mechanisms.",
-        "fact": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History and Origins of the Bugle (p. 12).",
-        "fact_correction": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History and Origins of the Bugle (p. 12).",
+        "misconception": "Memorizing a one-line definition of History and Origins of the Bugle without explaining how it works in practice satisfies Bugling Requirement 1.",
+        "fact": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History and Origins of the Bugle (History and Origins of the Bugle) (p. 12).",
+        "fact_correction": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History and Origins of the Bugle (History and Origins of the Bugle) (p. 12).",
         "pamphlet_page_ref": "p. 12"
       },
       "starting_requirement_gate": null,
@@ -161,24 +159,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Bugling Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Bugling Requirement 1 (History and Origins of the Bugle), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Bugling Requirement 1 (History and Origins of the Bugle), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "When preparing for your counselor conference on Bugling Requirement 1 (History and Origins of the Bugle), which statement accurately reflects the official BSA standard for Give a brief history of the bugle?",
+        "question": "When preparing for your counselor conference on Bugling Requirement 1 (History and Origins of the Bugle), which statement accurately reflects the official BSA standard for Give a brief history of the bugle?",
         "options": [
-          "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History.",
-          "B. General familiarity with brief, history is sufficient for Bugling Requirement 1 without citing specific functional mechanisms.",
-          "C. Defer all History and Origins of the Bugle measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+          "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History.",
+          "B. Memorizing a one-line definition of History and Origins of the Bugle without explaining how it works in practice satisfies Bugling.",
+          "C. Focus only on Give a brief history of the bugle while omitting History and Origins of the Bugle: Give a brief history  and its required field verification.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on History and Origins of the Bugle."
         ],
         "choices": [
-          "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History.",
-          "B. General familiarity with brief, history is sufficient for Bugling Requirement 1 without citing specific functional mechanisms.",
-          "C. Defer all History and Origins of the Bugle measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+          "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History.",
+          "B. Memorizing a one-line definition of History and Origins of the Bugle without explaining how it works in practice satisfies Bugling.",
+          "C. Focus only on Give a brief history of the bugle while omitting History and Origins of the Bugle: Give a brief history  and its required field verification.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on History and Origins of the Bugle."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History.",
-        "explanation": "Correct Answer (A): The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History and Origins of the Bugle (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+        "correct_answer": "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History.",
+        "explanation": "Correct Answer (A): The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History and Origins of the Bugle (History and Origins of the Bugle). (Official Scouting America Bugling Merit Badge Pamphlet).",
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
@@ -218,16 +216,14 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Pre-Operation Tool & Safety Check (Bugle Makes Sound)",
-              "2. Step-by-Step Setup & Alignment Procedure",
-              "3. Live Execution & Technique Verification",
-              "4. Post-Task Inspection, Maintenance & Stowage"
+              "1. Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to other brass wind instruments.",
+              "2. Key Pamphlet Facts & Mechanism (Bugle Makes Sound)",
+              "3. Field Application & Counselor Discussion (Bugle Makes Sound)"
             ],
             "rows": [
-              "1. Pre-Operation Tool & Safety Check (Bugle Makes Sound)",
-              "2. Step-by-Step Setup & Alignment Procedure",
-              "3. Live Execution & Technique Verification",
-              "4. Post-Task Inspection, Maintenance & Stowage"
+              "1. Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to other brass wind instruments.",
+              "2. Key Pamphlet Facts & Mechanism (Bugle Makes Sound)",
+              "3. Field Application & Counselor Discussion (Bugle Makes Sound)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Bugling Merit Badge Pamphlet",
@@ -279,33 +275,29 @@
             "organizer_type": "RULED_EXPLAIN_BOX",
             "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Compose A Bugle Call)",
             "headers": [
-              "Req 2b Analysis Dimension",
+              "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 2b Analysis Dimension",
+              "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Compose A Bugle Call)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Compose a bugle call for your troop or patrol to signal a common group activity, such as assembling for mealtime or striking a...",
+              "2. Play the call that you have composed before your unit or patrol."
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Compose A Bugle Call)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Compose a bugle call for your troop or patrol to signal a common group activity, such as assembling for mealtime or striking a...",
+              "2. Play the call that you have composed before your unit or patrol."
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Bugling Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "General familiarity with Compose, bugle is sufficient for Bugling Requirement 2b without citing specific functional mechanisms.",
-            "fact": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Compose A Bugle Call (p. 12).",
-            "fact_correction": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Compose A Bugle Call (p. 12).",
+            "misconception": "Memorizing a one-line definition of Compose A Bugle Call without explaining how it works in practice satisfies Bugling Requirement 2b.",
+            "fact": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Compose A Bugle Call (Compose A Bugle Call) (p. 12).",
+            "fact_correction": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Compose A Bugle Call (Compose A Bugle Call) (p. 12).",
             "pamphlet_page_ref": "p. 12"
           },
           "starting_requirement_gate": null,
@@ -473,29 +465,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Bugling Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Bugling Requirement 2 (Reading and Composing Bugle Music), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Bugling Requirement 2 (Reading and Composing Bugle Music), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "During the hands-on skill station for Bugling Requirement 2 (Reading and Composing Bugle Music), what execution standard is required when demonstrating Explain and demonstrate how the bugle makes sound, and explain how the bugl?",
+        "question": "During the hands-on skill station for Bugling Requirement 2 (Reading and Composing Bugle Music), what execution standard is required when demonstrating Explain and demonstrate how the bugle makes sound, and explain how the bugl?",
         "options": [
           "A. Describing how to perform Reading and Composing Bugle Music verbally can substitute for a physical hands-on demonstration in.",
           "B. Under Scouting America advancement standards and the Bugling pamphlet, each Scout must physically execute and demonstrate Reading.",
-          "C. Defer all Reading and Composing Bugle Music measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+          "C. Rely on a group summary of Reading and Composing Bugle Music instead of individually explaining or demonstrating Explain and demonstrate how the bugle makes sound, and expla.",
+          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Reading and Composing Bugle Music standard."
         ],
         "choices": [
           "A. Describing how to perform Reading and Composing Bugle Music verbally can substitute for a physical hands-on demonstration in.",
           "B. Under Scouting America advancement standards and the Bugling pamphlet, each Scout must physically execute and demonstrate Reading.",
-          "C. Defer all Reading and Composing Bugle Music measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+          "C. Rely on a group summary of Reading and Composing Bugle Music instead of individually explaining or demonstrating Explain and demonstrate how the bugle makes sound, and expla.",
+          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Reading and Composing Bugle Music standard."
         ],
         "correct_index": 1,
         "correct_letter": "B",
         "correct_answer": "B. Under Scouting America advancement standards and the Bugling pamphlet, each Scout must physically execute and demonstrate Reading.",
-        "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Bugling pamphlet, each Scout must physically execute and demonstrate Reading and Composing Bugle Music with proper technique (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+        "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Bugling pamphlet, each Scout must physically execute and demonstrate Reading and Composing Bugle Music with proper technique. (Official Scouting America Bugling Merit Badge Pamphlet).",
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Bugling Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/bugling_p004_img1.png"
     },
     {
       "req_id": "3",
@@ -586,32 +578,30 @@
         "organizer_type": "RULED_EXPLAIN_BOX",
         "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Ten Official Camp Bugle Calls)",
         "headers": [
-          "Req 3 Analysis Dimension",
+          "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 3 Analysis Dimension",
+          "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (Ten Official Camp Bugle Calls)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Sound 10 of the following bugle calls: \"First Call,\" \"Reveille,\" \"Assembly,\" \"Mess,\" \"Drill,\" \"Fatigue,\" \"Officers,\" \"Recall,\" \"Church,\"...",
+          "2. Key Pamphlet Facts & Mechanism (Ten Official Camp Bugle Calls)",
+          "3. Field Application & Counselor Discussion (Ten Official Camp Bugle Calls)"
         ],
         "rows": [
-          "1. Core Definition & Mechanism (Ten Official Camp Bugle Calls)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Sound 10 of the following bugle calls: \"First Call,\" \"Reveille,\" \"Assembly,\" \"Mess,\" \"Drill,\" \"Fatigue,\" \"Officers,\" \"Recall,\" \"Church,\"...",
+          "2. Key Pamphlet Facts & Mechanism (Ten Official Camp Bugle Calls)",
+          "3. Field Application & Counselor Discussion (Ten Official Camp Bugle Calls)"
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with Sound, following is sufficient for Bugling Requirement 3 without citing specific functional mechanisms.",
-        "fact": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ten Official Camp Bugle Calls (p. 12).",
-        "fact_correction": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ten Official Camp Bugle Calls (p. 12).",
+        "misconception": "Memorizing a one-line definition of Ten Official Camp Bugle Calls without explaining how it works in practice satisfies Bugling Requirement 3.",
+        "fact": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ten Official Camp Bugle Calls (Ten Official Camp Bugle Calls) (p. 12).",
+        "fact_correction": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ten Official Camp Bugle Calls (Ten Official Camp Bugle Calls) (p. 12).",
         "pamphlet_page_ref": "p. 12"
       },
       "starting_requirement_gate": null,
@@ -697,24 +687,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Bugling Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Bugling Requirement 3 (Ten Official Camp Bugle Calls), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Bugling Requirement 3 (Ten Official Camp Bugle Calls), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "When preparing for your counselor conference on Bugling Requirement 3 (Ten Official Camp Bugle Calls), which statement accurately reflects the official BSA standard for Sound 10 of the following bugle calls: \"First Call,\" \"Reveille,\" \"Assembly,?",
+        "question": "When preparing for your counselor conference on Bugling Requirement 3 (Ten Official Camp Bugle Calls), which statement accurately reflects the official BSA standard for Sound 10 of the following bugle calls: \"First Call,\" \"Reveille,\" \"Assembly,?",
         "options": [
-          "A. General familiarity with Sound, following is sufficient for Bugling Requirement 3 without citing specific functional mechanisms.",
-          "B. Defer all Ten Official Camp Bugle Calls measurements and safety checks until after the field session concludes.",
-          "C. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ten.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+          "A. Memorizing a one-line definition of Ten Official Camp Bugle Calls without explaining how it works in practice satisfies Bugling.",
+          "B. Skip the Bugling Pamphlet technical criteria for Ten Official Camp Bugle Calls and use rules from an unrelated activity.",
+          "C. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ten.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Ten Official Camp Bugle Calls."
         ],
         "choices": [
-          "A. General familiarity with Sound, following is sufficient for Bugling Requirement 3 without citing specific functional mechanisms.",
-          "B. Defer all Ten Official Camp Bugle Calls measurements and safety checks until after the field session concludes.",
-          "C. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ten.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+          "A. Memorizing a one-line definition of Ten Official Camp Bugle Calls without explaining how it works in practice satisfies Bugling.",
+          "B. Skip the Bugling Pamphlet technical criteria for Ten Official Camp Bugle Calls and use rules from an unrelated activity.",
+          "C. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ten.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Ten Official Camp Bugle Calls."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ten.",
-        "explanation": "Correct Answer (C): The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ten Official Camp Bugle Calls (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+        "correct_answer": "C. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ten.",
+        "explanation": "Correct Answer (C): The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ten Official Camp Bugle Calls (Ten Official Camp Bugle Calls). (Official Scouting America Bugling Merit Badge Pamphlet).",
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
@@ -754,32 +744,30 @@
         "organizer_type": "RULED_EXPLAIN_BOX",
         "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Daily Schedule for Camp Bugle Calls)",
         "headers": [
-          "Req 4 Analysis Dimension",
+          "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 4 Analysis Dimension",
+          "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (Daily Schedule for Camp Bugle Calls)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Explain when each of the calls in requirement 3 is used.",
+          "2. Key Pamphlet Facts & Mechanism (Daily Schedule for Camp Bugle Calls)",
+          "3. Field Application & Counselor Discussion (Daily Schedule for Camp Bugle Calls)"
         ],
         "rows": [
-          "1. Core Definition & Mechanism (Daily Schedule for Camp Bugle Calls)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Explain when each of the calls in requirement 3 is used.",
+          "2. Key Pamphlet Facts & Mechanism (Daily Schedule for Camp Bugle Calls)",
+          "3. Field Application & Counselor Discussion (Daily Schedule for Camp Bugle Calls)"
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with Explain, calls is sufficient for Bugling Requirement 4 without citing specific functional mechanisms.",
-        "fact": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Daily Schedule for Camp Bugle Calls (p. 12).",
-        "fact_correction": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Daily Schedule for Camp Bugle Calls (p. 12).",
+        "misconception": "Memorizing a one-line definition of Daily Schedule for Camp Bugle Calls without explaining how it works in practice satisfies Bugling Requirement 4.",
+        "fact": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Daily Schedule for Camp Bugle Calls (Daily Schedule for Camp Bugle Calls) (p. 12).",
+        "fact_correction": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Daily Schedule for Camp Bugle Calls (Daily Schedule for Camp Bugle Calls) (p. 12).",
         "pamphlet_page_ref": "p. 12"
       },
       "starting_requirement_gate": null,
@@ -865,24 +853,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Bugling Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Bugling Requirement 4 (Daily Schedule for Camp Bugle Calls), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Bugling Requirement 4 (Daily Schedule for Camp Bugle Calls), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "How does the Bugling Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Daily Schedule for Camp Bugle Calls: Explain when each of the calls in requirement 3 is used)?",
+        "question": "How does the Bugling Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Daily Schedule for Camp Bugle Calls: Explain when each of the calls in requirement 3 is used)?",
         "options": [
-          "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Daily.",
-          "B. General familiarity with Explain, calls is sufficient for Bugling Requirement 4 without citing specific functional mechanisms.",
-          "C. Defer all Daily Schedule for Camp Bugle Calls measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+          "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Daily.",
+          "B. Memorizing a one-line definition of Daily Schedule for Camp Bugle Calls without explaining how it works in practice satisfies.",
+          "C. Focus only on Explain when each of the calls in requirement 3 is used while omitting Daily Schedule for Camp Bugle Calls: Explain when each  and its required field verification.",
+          "D. Assume Daily Schedule for Camp Bugle Calls applies only to indoor classroom theory and has no effect on real-world Bugling practice."
         ],
         "choices": [
-          "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Daily.",
-          "B. General familiarity with Explain, calls is sufficient for Bugling Requirement 4 without citing specific functional mechanisms.",
-          "C. Defer all Daily Schedule for Camp Bugle Calls measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+          "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Daily.",
+          "B. Memorizing a one-line definition of Daily Schedule for Camp Bugle Calls without explaining how it works in practice satisfies.",
+          "C. Focus only on Explain when each of the calls in requirement 3 is used while omitting Daily Schedule for Camp Bugle Calls: Explain when each  and its required field verification.",
+          "D. Assume Daily Schedule for Camp Bugle Calls applies only to indoor classroom theory and has no effect on real-world Bugling practice."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Daily.",
-        "explanation": "Correct Answer (A): The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Daily Schedule for Camp Bugle Calls (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+        "correct_answer": "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Daily.",
+        "explanation": "Correct Answer (A): The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Daily Schedule for Camp Bugle Calls (Daily Schedule for Camp Bugle Calls). (Official Scouting America Bugling Merit Badge Pamphlet).",
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
@@ -922,32 +910,30 @@
         "organizer_type": "RULED_EXPLAIN_BOX",
         "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Bugle Care, Cleaning, and Maintenance)",
         "headers": [
-          "Req 5 Analysis Dimension",
+          "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 5 Analysis Dimension",
+          "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (Bugle Care, Cleaning, and Maintenance)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Explain how to care for, clean, and maintain a bugle.",
+          "2. Key Pamphlet Facts & Mechanism (Bugle Care, Cleaning, and Maintenance)",
+          "3. Field Application & Counselor Discussion (Bugle Care, Cleaning, and Maintenance)"
         ],
         "rows": [
-          "1. Core Definition & Mechanism (Bugle Care, Cleaning, and Maintenance)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Explain how to care for, clean, and maintain a bugle.",
+          "2. Key Pamphlet Facts & Mechanism (Bugle Care, Cleaning, and Maintenance)",
+          "3. Field Application & Counselor Discussion (Bugle Care, Cleaning, and Maintenance)"
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with Explain, clean is sufficient for Bugling Requirement 5 without citing specific functional mechanisms.",
-        "fact": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Bugle Care, Cleaning, and Maintenance (p. 12).",
-        "fact_correction": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Bugle Care, Cleaning, and Maintenance (p. 12).",
+        "misconception": "Memorizing a one-line definition of Bugle Care, Cleaning, and Maintenance without explaining how it works in practice satisfies Bugling Requirement 5.",
+        "fact": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Bugle Care, Cleaning, and Maintenance (Bugle Care, Cleaning, and Maintenance) (p. 12).",
+        "fact_correction": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Bugle Care, Cleaning, and Maintenance (Bugle Care, Cleaning, and Maintenance) (p. 12).",
         "pamphlet_page_ref": "p. 12"
       },
       "starting_requirement_gate": null,
@@ -1033,24 +1019,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Bugling Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Bugling Requirement 5 (Bugle Care, Cleaning, and Maintenance), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Bugling Requirement 5 (Bugle Care, Cleaning, and Maintenance), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "When preparing for your counselor conference on Bugling Requirement 5 (Bugle Care, Cleaning, and Maintenance), which statement accurately reflects the official BSA standard for Explain how to care for, clean, and maintain a bugle?",
+        "question": "When preparing for your counselor conference on Bugling Requirement 5 (Bugle Care, Cleaning, and Maintenance), which statement accurately reflects the official BSA standard for Explain how to care for, clean, and maintain a bugle?",
         "options": [
-          "A. General familiarity with Explain, clean is sufficient for Bugling Requirement 5 without citing specific functional mechanisms.",
-          "B. Defer all Bugle Care, Cleaning, and Maintenance measurements and safety checks until after the field session concludes.",
-          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure.",
-          "D. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Bugle."
+          "A. Memorizing a one-line definition of Bugle Care, Cleaning, and Maintenance without explaining how it works in practice satisfies.",
+          "B. Reverse the sequence of Bugle Care, Cleaning, and Maintenance steps by attempting final sign-off before completing Explain how to care for, clean, and maintain a bugle.",
+          "C. Substitute a casual verbal guess about Explain how to care for, clean, and maintain a bugle in place of documented Bugling observations.",
+          "D. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Bugle."
         ],
         "choices": [
-          "A. General familiarity with Explain, clean is sufficient for Bugling Requirement 5 without citing specific functional mechanisms.",
-          "B. Defer all Bugle Care, Cleaning, and Maintenance measurements and safety checks until after the field session concludes.",
-          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure.",
-          "D. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Bugle."
+          "A. Memorizing a one-line definition of Bugle Care, Cleaning, and Maintenance without explaining how it works in practice satisfies.",
+          "B. Reverse the sequence of Bugle Care, Cleaning, and Maintenance steps by attempting final sign-off before completing Explain how to care for, clean, and maintain a bugle.",
+          "C. Substitute a casual verbal guess about Explain how to care for, clean, and maintain a bugle in place of documented Bugling observations.",
+          "D. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Bugle."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Bugle.",
-        "explanation": "Correct Answer (D): The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Bugle Care, Cleaning, and Maintenance (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+        "correct_answer": "D. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Bugle.",
+        "explanation": "Correct Answer (D): The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Bugle Care, Cleaning, and Maintenance (Bugle Care, Cleaning, and Maintenance). (Official Scouting America Bugling Merit Badge Pamphlet).",
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
@@ -1085,32 +1071,30 @@
         "organizer_type": "RULED_EXPLAIN_BOX",
         "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Troop Bugler Leadership Service)",
         "headers": [
-          "Req 6 Analysis Dimension",
+          "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 6 Analysis Dimension",
+          "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (Troop Bugler Leadership Service)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Serve as bugler in your troop for three months.",
+          "2. Key Pamphlet Facts & Mechanism (Troop Bugler Leadership Service)",
+          "3. Field Application & Counselor Discussion (Troop Bugler Leadership Service)"
         ],
         "rows": [
-          "1. Core Definition & Mechanism (Troop Bugler Leadership Service)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Serve as bugler in your troop for three months.",
+          "2. Key Pamphlet Facts & Mechanism (Troop Bugler Leadership Service)",
+          "3. Field Application & Counselor Discussion (Troop Bugler Leadership Service)"
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with Serve, bugler is sufficient for Bugling Requirement 6 without citing specific functional mechanisms.",
-        "fact": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Troop Bugler Leadership Service (p. 12).",
-        "fact_correction": "The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Troop Bugler Leadership Service (p. 12).",
+        "misconception": "Memorizing a one-line definition of Troop Bugler Leadership Service without explaining how it works in practice satisfies Bugling Requirement 6.",
+        "fact": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Troop Bugler Leadership Service (Troop Bugler Leadership Service) (p. 12).",
+        "fact_correction": "The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Troop Bugler Leadership Service (Troop Bugler Leadership Service) (p. 12).",
         "pamphlet_page_ref": "p. 12"
       },
       "starting_requirement_gate": null,
@@ -1196,24 +1180,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Bugling Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Bugling Requirement 6 (Troop Bugler Leadership Service), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Bugling Requirement 6 (Troop Bugler Leadership Service), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "How does the Bugling Merit Badge Pamphlet guide Scouts on fulfilling Requirement 6 (Troop Bugler Leadership Service: Serve as bugler in your troop for three months)?",
+        "question": "How does the Bugling Merit Badge Pamphlet guide Scouts on fulfilling Requirement 6 (Troop Bugler Leadership Service: Serve as bugler in your troop for three months)?",
         "options": [
-          "A. General familiarity with Serve, bugler is sufficient for Bugling Requirement 6 without citing specific functional mechanisms.",
-          "B. Defer all Troop Bugler Leadership Service measurements and safety checks until after the field session concludes.",
-          "C. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Troop.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+          "A. Memorizing a one-line definition of Troop Bugler Leadership Service without explaining how it works in practice satisfies Bugling.",
+          "B. Skip the Bugling Pamphlet technical criteria for Troop Bugler Leadership Service and use rules from an unrelated activity.",
+          "C. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Troop.",
+          "D. Substitute a casual verbal guess about Serve as bugler in your troop for three months in place of documented Bugling observations."
         ],
         "choices": [
-          "A. General familiarity with Serve, bugler is sufficient for Bugling Requirement 6 without citing specific functional mechanisms.",
-          "B. Defer all Troop Bugler Leadership Service measurements and safety checks until after the field session concludes.",
-          "C. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Troop.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+          "A. Memorizing a one-line definition of Troop Bugler Leadership Service without explaining how it works in practice satisfies Bugling.",
+          "B. Skip the Bugling Pamphlet technical criteria for Troop Bugler Leadership Service and use rules from an unrelated activity.",
+          "C. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Troop.",
+          "D. Substitute a casual verbal guess about Serve as bugler in your troop for three months in place of documented Bugling observations."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Troop.",
-        "explanation": "Correct Answer (C): The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Troop Bugler Leadership Service (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+        "correct_answer": "C. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Troop.",
+        "explanation": "Correct Answer (C): The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Troop Bugler Leadership Service (Troop Bugler Leadership Service). (Official Scouting America Bugling Merit Badge Pamphlet).",
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
@@ -1229,116 +1213,116 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "While working on Bugling Requirement 1 (History and Origins of the Bugle), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Bugling Requirement 1 (History and Origins of the Bugle), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Bugling Requirement 1 (History and Origins of the Bugle), which statement accurately reflects the official BSA standard for Give a brief history of the bugle?",
+      "question": "When preparing for your counselor conference on Bugling Requirement 1 (History and Origins of the Bugle), which statement accurately reflects the official BSA standard for Give a brief history of the bugle?",
       "options": [
-        "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History.",
-        "B. General familiarity with brief, history is sufficient for Bugling Requirement 1 without citing specific functional mechanisms.",
-        "C. Defer all History and Origins of the Bugle measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+        "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History.",
+        "B. Memorizing a one-line definition of History and Origins of the Bugle without explaining how it works in practice satisfies Bugling.",
+        "C. Focus only on Give a brief history of the bugle while omitting History and Origins of the Bugle: Give a brief history  and its required field verification.",
+        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on History and Origins of the Bugle."
       ],
       "choices": [
-        "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History.",
-        "B. General familiarity with brief, history is sufficient for Bugling Requirement 1 without citing specific functional mechanisms.",
-        "C. Defer all History and Origins of the Bugle measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+        "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History.",
+        "B. Memorizing a one-line definition of History and Origins of the Bugle without explaining how it works in practice satisfies Bugling.",
+        "C. Focus only on Give a brief history of the bugle while omitting History and Origins of the Bugle: Give a brief history  and its required field verification.",
+        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on History and Origins of the Bugle."
       ],
       "correct_index": 0,
       "correct_letter": "A",
-      "correct_answer": "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History.",
-      "explanation": "Correct Answer (A): The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of History and Origins of the Bugle (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+      "correct_answer": "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History.",
+      "explanation": "Correct Answer (A): The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of History and Origins of the Bugle (History and Origins of the Bugle). (Official Scouting America Bugling Merit Badge Pamphlet).",
       "pamphlet_page_ref": "p. 12",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Bugling Requirement 2 (Reading and Composing Bugle Music), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Bugling Requirement 2 (Reading and Composing Bugle Music), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "During the hands-on skill station for Bugling Requirement 2 (Reading and Composing Bugle Music), what execution standard is required when demonstrating Explain and demonstrate how the bugle makes sound, and explain how the bugl?",
+      "question": "During the hands-on skill station for Bugling Requirement 2 (Reading and Composing Bugle Music), what execution standard is required when demonstrating Explain and demonstrate how the bugle makes sound, and explain how the bugl?",
       "options": [
         "A. Describing how to perform Reading and Composing Bugle Music verbally can substitute for a physical hands-on demonstration in.",
         "B. Under Scouting America advancement standards and the Bugling pamphlet, each Scout must physically execute and demonstrate Reading.",
-        "C. Defer all Reading and Composing Bugle Music measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+        "C. Rely on a group summary of Reading and Composing Bugle Music instead of individually explaining or demonstrating Explain and demonstrate how the bugle makes sound, and expla.",
+        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Reading and Composing Bugle Music standard."
       ],
       "choices": [
         "A. Describing how to perform Reading and Composing Bugle Music verbally can substitute for a physical hands-on demonstration in.",
         "B. Under Scouting America advancement standards and the Bugling pamphlet, each Scout must physically execute and demonstrate Reading.",
-        "C. Defer all Reading and Composing Bugle Music measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+        "C. Rely on a group summary of Reading and Composing Bugle Music instead of individually explaining or demonstrating Explain and demonstrate how the bugle makes sound, and expla.",
+        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Reading and Composing Bugle Music standard."
       ],
       "correct_index": 1,
       "correct_letter": "B",
       "correct_answer": "B. Under Scouting America advancement standards and the Bugling pamphlet, each Scout must physically execute and demonstrate Reading.",
-      "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Bugling pamphlet, each Scout must physically execute and demonstrate Reading and Composing Bugle Music with proper technique (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+      "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Bugling pamphlet, each Scout must physically execute and demonstrate Reading and Composing Bugle Music with proper technique. (Official Scouting America Bugling Merit Badge Pamphlet).",
       "pamphlet_page_ref": "p. 12",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Bugling Requirement 3 (Ten Official Camp Bugle Calls), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Bugling Requirement 3 (Ten Official Camp Bugle Calls), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Bugling Requirement 3 (Ten Official Camp Bugle Calls), which statement accurately reflects the official BSA standard for Sound 10 of the following bugle calls: \"First Call,\" \"Reveille,\" \"Assembly,?",
+      "question": "When preparing for your counselor conference on Bugling Requirement 3 (Ten Official Camp Bugle Calls), which statement accurately reflects the official BSA standard for Sound 10 of the following bugle calls: \"First Call,\" \"Reveille,\" \"Assembly,?",
       "options": [
-        "A. General familiarity with Sound, following is sufficient for Bugling Requirement 3 without citing specific functional mechanisms.",
-        "B. Defer all Ten Official Camp Bugle Calls measurements and safety checks until after the field session concludes.",
-        "C. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ten.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+        "A. Memorizing a one-line definition of Ten Official Camp Bugle Calls without explaining how it works in practice satisfies Bugling.",
+        "B. Skip the Bugling Pamphlet technical criteria for Ten Official Camp Bugle Calls and use rules from an unrelated activity.",
+        "C. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ten.",
+        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Ten Official Camp Bugle Calls."
       ],
       "choices": [
-        "A. General familiarity with Sound, following is sufficient for Bugling Requirement 3 without citing specific functional mechanisms.",
-        "B. Defer all Ten Official Camp Bugle Calls measurements and safety checks until after the field session concludes.",
-        "C. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ten.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+        "A. Memorizing a one-line definition of Ten Official Camp Bugle Calls without explaining how it works in practice satisfies Bugling.",
+        "B. Skip the Bugling Pamphlet technical criteria for Ten Official Camp Bugle Calls and use rules from an unrelated activity.",
+        "C. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ten.",
+        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Ten Official Camp Bugle Calls."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ten.",
-      "explanation": "Correct Answer (C): The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Ten Official Camp Bugle Calls (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+      "correct_answer": "C. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ten.",
+      "explanation": "Correct Answer (C): The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ten Official Camp Bugle Calls (Ten Official Camp Bugle Calls). (Official Scouting America Bugling Merit Badge Pamphlet).",
       "pamphlet_page_ref": "p. 12",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Bugling Requirement 4 (Daily Schedule for Camp Bugle Calls), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Bugling Requirement 4 (Daily Schedule for Camp Bugle Calls), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "How does the Bugling Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Daily Schedule for Camp Bugle Calls: Explain when each of the calls in requirement 3 is used)?",
+      "question": "How does the Bugling Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Daily Schedule for Camp Bugle Calls: Explain when each of the calls in requirement 3 is used)?",
       "options": [
-        "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Daily.",
-        "B. General familiarity with Explain, calls is sufficient for Bugling Requirement 4 without citing specific functional mechanisms.",
-        "C. Defer all Daily Schedule for Camp Bugle Calls measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+        "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Daily.",
+        "B. Memorizing a one-line definition of Daily Schedule for Camp Bugle Calls without explaining how it works in practice satisfies.",
+        "C. Focus only on Explain when each of the calls in requirement 3 is used while omitting Daily Schedule for Camp Bugle Calls: Explain when each  and its required field verification.",
+        "D. Assume Daily Schedule for Camp Bugle Calls applies only to indoor classroom theory and has no effect on real-world Bugling practice."
       ],
       "choices": [
-        "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Daily.",
-        "B. General familiarity with Explain, calls is sufficient for Bugling Requirement 4 without citing specific functional mechanisms.",
-        "C. Defer all Daily Schedule for Camp Bugle Calls measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure."
+        "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Daily.",
+        "B. Memorizing a one-line definition of Daily Schedule for Camp Bugle Calls without explaining how it works in practice satisfies.",
+        "C. Focus only on Explain when each of the calls in requirement 3 is used while omitting Daily Schedule for Camp Bugle Calls: Explain when each  and its required field verification.",
+        "D. Assume Daily Schedule for Camp Bugle Calls applies only to indoor classroom theory and has no effect on real-world Bugling practice."
       ],
       "correct_index": 0,
       "correct_letter": "A",
-      "correct_answer": "A. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Daily.",
-      "explanation": "Correct Answer (A): The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Daily Schedule for Camp Bugle Calls (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+      "correct_answer": "A. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Daily.",
+      "explanation": "Correct Answer (A): The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Daily Schedule for Camp Bugle Calls (Daily Schedule for Camp Bugle Calls). (Official Scouting America Bugling Merit Badge Pamphlet).",
       "pamphlet_page_ref": "p. 12",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Bugling Requirement 5 (Bugle Care, Cleaning, and Maintenance), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Bugling Requirement 5 (Bugle Care, Cleaning, and Maintenance), your patrol encounters a decision point on proper procedure. According to the Bugling Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Bugling Requirement 5 (Bugle Care, Cleaning, and Maintenance), which statement accurately reflects the official BSA standard for Explain how to care for, clean, and maintain a bugle?",
+      "question": "When preparing for your counselor conference on Bugling Requirement 5 (Bugle Care, Cleaning, and Maintenance), which statement accurately reflects the official BSA standard for Explain how to care for, clean, and maintain a bugle?",
       "options": [
-        "A. General familiarity with Explain, clean is sufficient for Bugling Requirement 5 without citing specific functional mechanisms.",
-        "B. Defer all Bugle Care, Cleaning, and Maintenance measurements and safety checks until after the field session concludes.",
-        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure.",
-        "D. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Bugle."
+        "A. Memorizing a one-line definition of Bugle Care, Cleaning, and Maintenance without explaining how it works in practice satisfies.",
+        "B. Reverse the sequence of Bugle Care, Cleaning, and Maintenance steps by attempting final sign-off before completing Explain how to care for, clean, and maintain a bugle.",
+        "C. Substitute a casual verbal guess about Explain how to care for, clean, and maintain a bugle in place of documented Bugling observations.",
+        "D. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Bugle."
       ],
       "choices": [
-        "A. General familiarity with Explain, clean is sufficient for Bugling Requirement 5 without citing specific functional mechanisms.",
-        "B. Defer all Bugle Care, Cleaning, and Maintenance measurements and safety checks until after the field session concludes.",
-        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Bugling pamphlet procedure.",
-        "D. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Bugle."
+        "A. Memorizing a one-line definition of Bugle Care, Cleaning, and Maintenance without explaining how it works in practice satisfies.",
+        "B. Reverse the sequence of Bugle Care, Cleaning, and Maintenance steps by attempting final sign-off before completing Explain how to care for, clean, and maintain a bugle.",
+        "C. Substitute a casual verbal guess about Explain how to care for, clean, and maintain a bugle in place of documented Bugling observations.",
+        "D. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Bugle."
       ],
       "correct_index": 3,
       "correct_letter": "D",
-      "correct_answer": "D. The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Bugle.",
-      "explanation": "Correct Answer (D): The Bugling pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Bugle Care, Cleaning, and Maintenance (p. 12). (Official Scouting America Bugling Merit Badge Pamphlet).",
+      "correct_answer": "D. The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Bugle.",
+      "explanation": "Correct Answer (D): The Bugling pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Bugle Care, Cleaning, and Maintenance (Bugle Care, Cleaning, and Maintenance). (Official Scouting America Bugling Merit Badge Pamphlet).",
       "pamphlet_page_ref": "p. 12",
       "req_id": "5",
       "option_id": null

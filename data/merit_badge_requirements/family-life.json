@@ -49,32 +49,30 @@
         "organizer_type": "RULED_EXPLAIN_BOX",
         "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Outline on What A Family)",
         "headers": [
-          "Req 1 Analysis Dimension",
+          "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 1 Analysis Dimension",
+          "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (Outline on What A Family)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Prepare an outline on what a family is and discuss this with your counselor.",
+          "2. Tell why families are important to individuals and to society.",
+          "3. Discuss how the actions of one member can affect other members."
         ],
         "rows": [
-          "1. Core Definition & Mechanism (Outline on What A Family)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Prepare an outline on what a family is and discuss this with your counselor.",
+          "2. Tell why families are important to individuals and to society.",
+          "3. Discuss how the actions of one member can affect other members."
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with Prepare, outline is sufficient for Family Life Requirement 1 without citing specific functional mechanisms.",
-        "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Prepare an outline (p. 9, p. 10).",
-        "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Prepare an outline (p. 9, p. 10).",
+        "misconception": "Memorizing a one-line definition of Outline on What A Family without explaining how it works in practice satisfies Family Life Requirement 1.",
+        "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Outline on What A Family (Outline on What A Family) (p. 9, p. 10).",
+        "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Outline on What A Family (Outline on What A Family) (p. 9, p. 10).",
         "pamphlet_page_ref": "p. 9, p. 10"
       },
       "starting_requirement_gate": null,
@@ -160,24 +158,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Family Life Merit Badge Pamphlet (p. 9, p. 10)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Family Life Requirement 1 (Outline on What A Family), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Family Life Requirement 1 (Outline on What A Family), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "How does the Family Life Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Outline on What A Family: Prepare an outline on what a family is and discuss this with your coun)?",
+        "question": "How does the Family Life Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Outline on What A Family: Prepare an outline on what a family is and discuss this with your coun)?",
         "options": [
-          "A. General familiarity with Prepare, outline is sufficient for Family Life Requirement 1 without citing specific functional mechanisms.",
-          "B. Defer all Outline on What A Family measurements and safety checks until after the field session concludes.",
-          "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+          "A. Memorizing a one-line definition of Outline on What A Family without explaining how it works in practice satisfies Family Life.",
+          "B. Skip the Family Life Pamphlet technical criteria for Outline on What A Family and use rules from an unrelated activity.",
+          "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Outline on What A Family."
         ],
         "choices": [
-          "A. General familiarity with Prepare, outline is sufficient for Family Life Requirement 1 without citing specific functional mechanisms.",
-          "B. Defer all Outline on What A Family measurements and safety checks until after the field session concludes.",
-          "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+          "A. Memorizing a one-line definition of Outline on What A Family without explaining how it works in practice satisfies Family Life.",
+          "B. Skip the Family Life Pamphlet technical criteria for Outline on What A Family and use rules from an unrelated activity.",
+          "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Outline on What A Family."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "explanation": "Correct Answer (C): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Prepare an outline (p. 9, p. 10). (Official Scouting America Family Life Merit Badge Pamphlet (p. 9, p. 10)).",
+        "correct_answer": "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "explanation": "Correct Answer (C): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Outline on What A Family (Outline on What A Family). (Official Scouting America Family Life Merit Badge Pamphlet (p. 9, p. 10)).",
         "pamphlet_page_ref": "p. 9, p. 10"
       },
       "estimated_minutes": 15,
@@ -205,7 +203,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Several Reasons Why You",
+      "topic_title": "Req 2: Several Reasons Why You Are",
       "action_verb": "Discuss",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
@@ -215,34 +213,32 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Several Reasons Why You)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Several Reasons Why You Are)",
         "headers": [
-          "Req 2 Analysis Dimension",
+          "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 2 Analysis Dimension",
+          "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (Several Reasons Why You)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. List several reasons why you are important to your family and discuss this with your parent or guardian and with your counselor.",
+          "2. Key Pamphlet Facts & Mechanism (Several Reasons Why You Are)",
+          "3. Field Application & Counselor Discussion (Several Reasons Why You Are)"
         ],
         "rows": [
-          "1. Core Definition & Mechanism (Several Reasons Why You)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. List several reasons why you are important to your family and discuss this with your parent or guardian and with your counselor.",
+          "2. Key Pamphlet Facts & Mechanism (Several Reasons Why You Are)",
+          "3. Field Application & Counselor Discussion (Several Reasons Why You Are)"
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with several, reasons is sufficient for Family Life Requirement 2 without citing specific functional mechanisms.",
-        "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Several Reasons Why You (p. 58, p. 59).",
-        "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Several Reasons Why You (p. 58, p. 59).",
+        "misconception": "Memorizing a one-line definition of Several Reasons Why You Are without explaining how it works in practice satisfies Family Life Requirement 2.",
+        "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Several Reasons Why You Are (Several Reasons Why You Are) (p. 58, p. 59).",
+        "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Several Reasons Why You Are (Several Reasons Why You Are) (p. 58, p. 59).",
         "pamphlet_page_ref": "p. 58, p. 59"
       },
       "starting_requirement_gate": {
@@ -333,24 +329,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 59)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Family Life Requirement 2 (Several Reasons Why You), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Family Life Requirement 2 (Several Reasons Why You), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "When preparing for your counselor conference on Family Life Requirement 2 (Several Reasons Why You Are), which statement accurately reflects the official BSA standard for List several reasons why you are important to your family and discuss this ?",
+        "question": "When preparing for your counselor conference on Family Life Requirement 2 (Several Reasons Why You Are), which statement accurately reflects the official BSA standard for List several reasons why you are important to your family and discuss this ?",
         "options": [
-          "A. General familiarity with several, reasons is sufficient for Family Life Requirement 2 without citing specific functional mechanisms.",
-          "B. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-          "C. Defer all Several Reasons Why You measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+          "A. Memorizing a one-line definition of Several Reasons Why You Are without explaining how it works in practice satisfies Family Life.",
+          "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+          "C. Rely on a group summary of Several Reasons Why You Are instead of individually explaining or demonstrating List several reasons why you are important to your family an.",
+          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Several Reasons Why You Are standard."
         ],
         "choices": [
-          "A. General familiarity with several, reasons is sufficient for Family Life Requirement 2 without citing specific functional mechanisms.",
-          "B. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-          "C. Defer all Several Reasons Why You measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+          "A. Memorizing a one-line definition of Several Reasons Why You Are without explaining how it works in practice satisfies Family Life.",
+          "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+          "C. Rely on a group summary of Several Reasons Why You Are instead of individually explaining or demonstrating List several reasons why you are important to your family an.",
+          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Several Reasons Why You Are standard."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "explanation": "Correct Answer (B): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Several Reasons Why You (p. 58, p. 59). (Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 59)).",
+        "correct_answer": "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "explanation": "Correct Answer (B): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Several Reasons Why You Are (Several Reasons Why You Are). (Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 59)).",
         "pamphlet_page_ref": "p. 58, p. 59"
       },
       "estimated_minutes": 15,
@@ -418,16 +414,14 @@
           "Analysis & Verification"
         ],
         "row_labels": [
-          "1. Baseline Entry & Starting Conditions (Regular Home Duties or Chores)",
-          "2. Milestone 1 Observation & Measurements",
-          "3. Milestone 2 Observation & Measurements",
-          "4. Final Summary, Totals & Counselor Review"
+          "1. Prepare a list of your regular home duties or chores (at least five) and do them for 90 days.",
+          "2. Keep a record of how often you do each of them.",
+          "3. Discuss with your counselor the effect your chores had on your family."
         ],
         "rows": [
-          "1. Baseline Entry & Starting Conditions (Regular Home Duties or Chores)",
-          "2. Milestone 1 Observation & Measurements",
-          "3. Milestone 2 Observation & Measurements",
-          "4. Final Summary, Totals & Counselor Review"
+          "1. Prepare a list of your regular home duties or chores (at least five) and do them for 90 days.",
+          "2. Keep a record of how often you do each of them.",
+          "3. Discuss with your counselor the effect your chores had on your family."
         ]
       },
       "common_misconception_pair": {
@@ -519,24 +513,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 58)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Family Life Requirement 3 (Regular Home Duties or Chores), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Family Life Requirement 3 (Regular Home Duties or Chores), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "When preparing for your counselor conference on Family Life Requirement 3 (Regular Home Duties or Chores), which statement accurately reflects the official BSA standard for Prepare a list of your regular home duties or chores (at least five) and do?",
+        "question": "When preparing for your counselor conference on Family Life Requirement 3 (Regular Home Duties or Chores), which statement accurately reflects the official BSA standard for Prepare a list of your regular home duties or chores (at least five) and do?",
         "options": [
           "A. Estimating Prepare A List entries from memory at the end of the project satisfies the Family Life Requirement 3 standard.",
-          "B. Defer all Regular Home Duties or Chores measurements and safety checks until after the field session concludes.",
-          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure.",
+          "B. Reverse the sequence of Regular Home Duties or Chores steps by attempting final sign-off before completing Prepare a list of your regular home duties or chores (at lea.",
+          "C. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Regular Home Duties or Chores standard.",
           "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Prepare A."
         ],
         "choices": [
           "A. Estimating Prepare A List entries from memory at the end of the project satisfies the Family Life Requirement 3 standard.",
-          "B. Defer all Regular Home Duties or Chores measurements and safety checks until after the field session concludes.",
-          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure.",
+          "B. Reverse the sequence of Regular Home Duties or Chores steps by attempting final sign-off before completing Prepare a list of your regular home duties or chores (at lea.",
+          "C. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Regular Home Duties or Chores standard.",
           "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Prepare A."
         ],
         "correct_index": 3,
         "correct_letter": "D",
         "correct_answer": "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Prepare A.",
-        "explanation": "Correct Answer (D): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Prepare A List milestone is completed (p. 26, p. 58). (Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 58)).",
+        "explanation": "Correct Answer (D): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Prepare A List milestone is completed. (Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 58)).",
         "pamphlet_page_ref": "p. 26, p. 58"
       },
       "estimated_minutes": 15,
@@ -568,7 +562,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Parent or Guardian",
+      "topic_title": "Req 4: Decide on and Carry Out",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -578,34 +572,30 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Parent or Guardian)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Decide on and Carry Out)",
         "headers": [
-          "Req 4 Analysis Dimension",
+          "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 4 Analysis Dimension",
+          "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (Parent or Guardian)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. With the approval of your parent or guardian and your counselor, decide on and carry out an individual project that you would do...",
+          "2. After completion, discuss the objective or goal and the results of the project with your family and then your counselor."
         ],
         "rows": [
-          "1. Core Definition & Mechanism (Parent or Guardian)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. With the approval of your parent or guardian and your counselor, decide on and carry out an individual project that you would do...",
+          "2. After completion, discuss the objective or goal and the results of the project with your family and then your counselor."
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with approval, parent is sufficient for Family Life Requirement 4 without citing specific functional mechanisms.",
-        "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Approval of Your Parent (p. 26, p. 27).",
-        "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Approval of Your Parent (p. 26, p. 27).",
+        "misconception": "Memorizing a one-line definition of Decide on and Carry Out without explaining how it works in practice satisfies Family Life Requirement 4.",
+        "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Decide on and Carry Out (Decide on and Carry Out) (p. 26, p. 27).",
+        "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Decide on and Carry Out (Decide on and Carry Out) (p. 26, p. 27).",
         "pamphlet_page_ref": "p. 26, p. 27"
       },
       "starting_requirement_gate": {
@@ -696,24 +686,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 27)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Family Life Requirement 4 (Parent or Guardian), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Family Life Requirement 4 (Parent or Guardian), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "When preparing for your counselor conference on Family Life Requirement 4 (Decide on and Carry Out), which statement accurately reflects the official BSA standard for With the approval of your parent or guardian and your counselor, decide on ?",
+        "question": "When preparing for your counselor conference on Family Life Requirement 4 (Decide on and Carry Out), which statement accurately reflects the official BSA standard for With the approval of your parent or guardian and your counselor, decide on ?",
         "options": [
-          "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-          "B. General familiarity with approval, parent is sufficient for Family Life Requirement 4 without citing specific functional mechanisms.",
-          "C. Defer all Parent or Guardian measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+          "A. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+          "B. Memorizing a one-line definition of Decide on and Carry Out without explaining how it works in practice satisfies Family Life.",
+          "C. Focus only on With the approval of your parent or guardian and your c while omitting After completion, discuss the objective or goal and the and its required field verification.",
+          "D. Complete only a single sub-part of Requirement 4 rather than fulfilling the full Decide on and Carry Out standard."
         ],
         "choices": [
-          "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-          "B. General familiarity with approval, parent is sufficient for Family Life Requirement 4 without citing specific functional mechanisms.",
-          "C. Defer all Parent or Guardian measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+          "A. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+          "B. Memorizing a one-line definition of Decide on and Carry Out without explaining how it works in practice satisfies Family Life.",
+          "C. Focus only on With the approval of your parent or guardian and your c while omitting After completion, discuss the objective or goal and the and its required field verification.",
+          "D. Complete only a single sub-part of Requirement 4 rather than fulfilling the full Decide on and Carry Out standard."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "explanation": "Correct Answer (A): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Approval of Your Parent (p. 26, p. 27). (Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 27)).",
+        "correct_answer": "A. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "explanation": "Correct Answer (A): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Decide on and Carry Out (Decide on and Carry Out). (Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 27)).",
         "pamphlet_page_ref": "p. 26, p. 27"
       },
       "estimated_minutes": 15,
@@ -736,35 +726,33 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Objective or Goal)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Objective or Goal of The)",
             "headers": [
-              "Req 5a Analysis Dimension",
+              "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5a Analysis Dimension",
+              "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Objective or Goal)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. The objective or goal of the project.",
+              "2. Key Pamphlet Facts & Mechanism (Objective or Goal of The)",
+              "3. Field Application & Counselor Discussion (Objective or Goal of The)"
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Objective or Goal)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. The objective or goal of the project.",
+              "2. Key Pamphlet Facts & Mechanism (Objective or Goal of The)",
+              "3. Field Application & Counselor Discussion (Objective or Goal of The)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with objective, project is sufficient for Family Life Requirement 5a without citing specific functional mechanisms.",
-            "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Objective or Goal (p. 20, p. 26).",
-            "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Objective or Goal (p. 20, p. 26).",
+            "misconception": "Memorizing a one-line definition of Objective or Goal of The without explaining how it works in practice satisfies Family Life Requirement 5a.",
+            "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Objective or Goal of The (Objective or Goal of The) (p. 20, p. 26).",
+            "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Objective or Goal of The (Objective or Goal of The) (p. 20, p. 26).",
             "pamphlet_page_ref": "p. 20, p. 26"
           },
           "starting_requirement_gate": null,
@@ -791,7 +779,7 @@
           "id": "5a",
           "sub_req_label": "5a",
           "sub_req_text": "The objective or goal of the project.",
-          "topic_title": "Req 5a: Objective or Goal",
+          "topic_title": "Req 5a: Objective or Goal of The",
           "pamphlet_summary": "Objective or Goal: Plan and carry out a project Principle 3: Before you decide • Create a scrapbook or video of your family's history (p. 20).",
           "pamphlet_excerpts": [
             "Objective or Goal: Plan and carry out a project Principle 3: Before you decide • Create a scrapbook or video of your family's history (p. 20)."
@@ -809,33 +797,31 @@
             "organizer_type": "RULED_EXPLAIN_BOX",
             "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Individual Members of Your Family)",
             "headers": [
-              "Req 5b Analysis Dimension",
+              "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5b Analysis Dimension",
+              "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Individual Members of Your Family)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. How individual members of your family participated.",
+              "2. Key Pamphlet Facts & Mechanism (Individual Members of Your Family)",
+              "3. Field Application & Counselor Discussion (Individual Members of Your Family)"
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Individual Members of Your Family)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. How individual members of your family participated.",
+              "2. Key Pamphlet Facts & Mechanism (Individual Members of Your Family)",
+              "3. Field Application & Counselor Discussion (Individual Members of Your Family)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with individual, members is sufficient for Family Life Requirement 5b without citing specific functional mechanisms.",
-            "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Individual Members of Your Family (p. 20, p. 26).",
-            "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Individual Members of Your Family (p. 20, p. 26).",
+            "misconception": "Memorizing a one-line definition of Individual Members of Your Family without explaining how it works in practice satisfies Family Life Requirement 5b.",
+            "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Individual Members of Your Family (Individual Members of Your Family) (p. 20, p. 26).",
+            "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Individual Members of Your Family (Individual Members of Your Family) (p. 20, p. 26).",
             "pamphlet_page_ref": "p. 20, p. 26"
           },
           "starting_requirement_gate": null,
@@ -880,33 +866,31 @@
             "organizer_type": "RULED_EXPLAIN_BOX",
             "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Results of The Project)",
             "headers": [
-              "Req 5c Analysis Dimension",
+              "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 5c Analysis Dimension",
+              "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Results of The Project)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. The results of the project.",
+              "2. Key Pamphlet Facts & Mechanism (Results of The Project)",
+              "3. Field Application & Counselor Discussion (Results of The Project)"
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Results of The Project)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. The results of the project.",
+              "2. Key Pamphlet Facts & Mechanism (Results of The Project)",
+              "3. Field Application & Counselor Discussion (Results of The Project)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with results, project is sufficient for Family Life Requirement 5c without citing specific functional mechanisms.",
-            "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Results of The Project (p. 20, p. 26).",
-            "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Results of The Project (p. 20, p. 26).",
+            "misconception": "Memorizing a one-line definition of Results of The Project without explaining how it works in practice satisfies Family Life Requirement 5c.",
+            "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Results of The Project (Results of The Project) (p. 20, p. 26).",
+            "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Results of The Project (Results of The Project) (p. 20, p. 26).",
             "pamphlet_page_ref": "p. 20, p. 26"
           },
           "starting_requirement_gate": null,
@@ -955,7 +939,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Carry Out A Project",
+      "topic_title": "Req 5: Out A Project That Involves",
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
@@ -965,32 +949,32 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Carry Out A Project)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Out A Project That Involves)",
         "headers": [
-          "Req 5 Analysis Dimension",
+          "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 5 Analysis Dimension",
+          "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(5a) Objective or Goal",
+          "(5a) Objective or Goal of The",
           "(5b) Individual Members of Your Family",
           "(5c) Results of The Project"
         ],
         "rows": [
-          "(5a) Objective or Goal",
+          "(5a) Objective or Goal of The",
           "(5b) Individual Members of Your Family",
           "(5c) Results of The Project"
         ]
       },
       "common_misconception_pair": {
-        "misconception": "General familiarity with carry, project is sufficient for Family Life Requirement 5 without citing specific functional mechanisms.",
-        "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan and carry out a project (p. 20, p. 26).",
-        "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan and carry out a project (p. 20, p. 26).",
+        "misconception": "Memorizing a one-line definition of Out A Project That Involves without explaining how it works in practice satisfies Family Life Requirement 5.",
+        "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out A Project That Involves (Out A Project That Involves) (p. 20, p. 26).",
+        "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out A Project That Involves (Out A Project That Involves) (p. 20, p. 26).",
         "pamphlet_page_ref": "p. 20, p. 26"
       },
       "starting_requirement_gate": null,
@@ -1076,24 +1060,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Family Life Requirement 5 (Carry Out A Project), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Family Life Requirement 5 (Carry Out A Project), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "When preparing for your counselor conference on Family Life Requirement 5 (Out A Project That Involves), which statement accurately reflects the official BSA standard for The objective or goal of the project?",
+        "question": "When preparing for your counselor conference on Family Life Requirement 5 (Out A Project That Involves), which statement accurately reflects the official BSA standard for The objective or goal of the project?",
         "options": [
-          "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan.",
-          "B. General familiarity with carry, project is sufficient for Family Life Requirement 5 without citing specific functional mechanisms.",
-          "C. Defer all Carry Out A Project measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+          "A. Memorizing a one-line definition of Out A Project That Involves without explaining how it works in practice satisfies Family Life.",
+          "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out.",
+          "C. Rely on a group summary of Out A Project That Involves instead of individually explaining or demonstrating The objective or goal of the project.",
+          "D. Assume Out A Project That Involves applies only to indoor classroom theory and has no effect on real-world Family Life practice."
         ],
         "choices": [
-          "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan.",
-          "B. General familiarity with carry, project is sufficient for Family Life Requirement 5 without citing specific functional mechanisms.",
-          "C. Defer all Carry Out A Project measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+          "A. Memorizing a one-line definition of Out A Project That Involves without explaining how it works in practice satisfies Family Life.",
+          "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out.",
+          "C. Rely on a group summary of Out A Project That Involves instead of individually explaining or demonstrating The objective or goal of the project.",
+          "D. Assume Out A Project That Involves applies only to indoor classroom theory and has no effect on real-world Family Life practice."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan.",
-        "explanation": "Correct Answer (A): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan and carry out a project (p. 20, p. 26). (Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)).",
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out.",
+        "explanation": "Correct Answer (B): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out A Project That Involves (Out A Project That Involves). (Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)).",
         "pamphlet_page_ref": "p. 20, p. 26"
       },
       "estimated_minutes": 15,
@@ -1125,35 +1109,33 @@
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Carry Out A Family Meeting)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Discuss Family Meeting)",
             "headers": [
-              "Req 6a Analysis Dimension",
+              "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Req 6a Analysis Dimension",
+              "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core Definition & Mechanism (Carry Out A Family Meeting)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Discuss with your counselor how to plan and carry out a family meeting.",
+              "2. Key Pamphlet Facts & Mechanism (Discuss Family Meeting)",
+              "3. Field Application & Counselor Discussion (Discuss Family Meeting)"
             ],
             "rows": [
-              "1. Core Definition & Mechanism (Carry Out A Family Meeting)",
-              "2. Key Pamphlet Facts & Technical Standards",
-              "3. Practical Scouting / Field Application Example",
-              "4. Counselor Discussion & Verification Summary"
+              "1. Discuss with your counselor how to plan and carry out a family meeting.",
+              "2. Key Pamphlet Facts & Mechanism (Discuss Family Meeting)",
+              "3. Field Application & Counselor Discussion (Discuss Family Meeting)"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
           "common_misconception_pair": {
-            "misconception": "General familiarity with Discuss, counselor is sufficient for Family Life Requirement 6a without citing specific functional mechanisms.",
-            "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan and Carry (p. 33, p. 36).",
-            "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan and Carry (p. 33, p. 36).",
+            "misconception": "Memorizing a one-line definition of Discuss Family Meeting without explaining how it works in practice satisfies Family Life Requirement 6a.",
+            "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss Family Meeting (Discuss Family Meeting) (p. 33, p. 36).",
+            "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss Family Meeting (Discuss Family Meeting) (p. 33, p. 36).",
             "pamphlet_page_ref": "p. 33, p. 36"
           },
           "starting_requirement_gate": null,
@@ -1180,7 +1162,7 @@
           "id": "6a",
           "sub_req_label": "6a",
           "sub_req_text": "Discuss with your counselor how to plan and carry out a family meeting.",
-          "topic_title": "Req 6a: Carry Out A Family Meeting",
+          "topic_title": "Req 6a: Discuss Family Meeting",
           "pamphlet_summary": "Carry Out A Family Meeting: Plan and Carry: Conflict Resolution Principle 4: Many topics may be addressed in a family meeting (p. 33).",
           "pamphlet_excerpts": [
             "Carry Out A Family Meeting: Plan and Carry: Conflict Resolution Principle 4: Many topics may be addressed in a family meeting (p. 33)."
@@ -1209,33 +1191,31 @@
                 "organizer_type": "RULED_EXPLAIN_BOX",
                 "table_title": "Req 6b(1) Structured Technical Study & Explanation Matrix (Living The Principles)",
                 "headers": [
-                  "Req 6b(1) Analysis Dimension",
+                  "Req 6b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
                   "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Req 6b(1) Analysis Dimension",
+                  "Req 6b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core Definition & Mechanism (Living The Principles)",
-                  "2. Key Pamphlet Facts & Technical Standards",
-                  "3. Practical Scouting / Field Application Example",
-                  "4. Counselor Discussion & Verification Summary"
+                  "1. How living the principles of the Scout Oath and Scout Law contributes to your family life.",
+                  "2. Key Pamphlet Facts & Mechanism (Living The Principles)",
+                  "3. Field Application & Counselor Discussion (Living The Principles)"
                 ],
                 "rows": [
-                  "1. Core Definition & Mechanism (Living The Principles)",
-                  "2. Key Pamphlet Facts & Technical Standards",
-                  "3. Practical Scouting / Field Application Example",
-                  "4. Counselor Discussion & Verification Summary"
+                  "1. How living the principles of the Scout Oath and Scout Law contributes to your family life.",
+                  "2. Key Pamphlet Facts & Mechanism (Living The Principles)",
+                  "3. Field Application & Counselor Discussion (Living The Principles)"
                 ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "General familiarity with living, principles is sufficient for Family Life Requirement 6b(1) without citing specific functional mechanisms.",
-                "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Living The Principles (p. 33, p. 36).",
-                "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Living The Principles (p. 33, p. 36).",
+                "misconception": "Memorizing a one-line definition of Living The Principles without explaining how it works in practice satisfies Family Life Requirement 6b(1).",
+                "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Living The Principles (Living The Principles) (p. 33, p. 36).",
+                "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Living The Principles (Living The Principles) (p. 33, p. 36).",
                 "pamphlet_page_ref": "p. 33, p. 36"
               },
               "starting_requirement_gate": null,
@@ -1309,33 +1289,31 @@
                 "organizer_type": "RULED_EXPLAIN_BOX",
                 "table_title": "Req 6b(2) Structured Technical Study & Explanation Matrix (Greatest Dangers and Addictions Facing)",
                 "headers": [
-                  "Req 6b(2) Analysis Dimension",
+                  "Req 6b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
                   "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Req 6b(2) Analysis Dimension",
+                  "Req 6b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core Definition & Mechanism (Greatest Dangers and Addictions Facing)",
-                  "2. Key Pamphlet Facts & Technical Standards",
-                  "3. Practical Scouting / Field Application Example",
-                  "4. Counselor Discussion & Verification Summary"
+                  "1. The greatest dangers and addictions facing youth in today's society (examples include mental health challenges, use of tobacco products,...",
+                  "2. Key Pamphlet Facts & Mechanism (Greatest Dangers and Addictions Facing)",
+                  "3. Field Application & Counselor Discussion (Greatest Dangers and Addictions Facing)"
                 ],
                 "rows": [
-                  "1. Core Definition & Mechanism (Greatest Dangers and Addictions Facing)",
-                  "2. Key Pamphlet Facts & Technical Standards",
-                  "3. Practical Scouting / Field Application Example",
-                  "4. Counselor Discussion & Verification Summary"
+                  "1. The greatest dangers and addictions facing youth in today's society (examples include mental health challenges, use of tobacco products,...",
+                  "2. Key Pamphlet Facts & Mechanism (Greatest Dangers and Addictions Facing)",
+                  "3. Field Application & Counselor Discussion (Greatest Dangers and Addictions Facing)"
                 ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "General familiarity with greatest, dangers is sufficient for Family Life Requirement 6b(2) without citing specific functional mechanisms.",
-                "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Greatest Dangers and Addictions Facing (p. 33, p. 36).",
-                "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Greatest Dangers and Addictions Facing (p. 33, p. 36).",
+                "misconception": "Memorizing a one-line definition of Greatest Dangers and Addictions Facing without explaining how it works in practice satisfies Family Life Requirement 6b(2).",
+                "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Greatest Dangers and Addictions Facing (Greatest Dangers and Addictions Facing) (p. 33, p. 36).",
+                "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Greatest Dangers and Addictions Facing (Greatest Dangers and Addictions Facing) (p. 33, p. 36).",
                 "pamphlet_page_ref": "p. 33, p. 36"
               },
               "starting_requirement_gate": null,
@@ -1377,29 +1355,27 @@
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
-                "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 6b(3) Hands-On Skill Station & EDGE Verification Checklist (Parent or Guardian How Bodily)",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 6b(3) Structured Technical Study & Explanation Matrix (Discuss Bodily Changes Affect)",
                 "headers": [
-                  "Skill Station Step",
-                  "Required Technique & Safety Standard",
-                  "Buddy / Counselor Sign-Off Notes"
+                  "Req 6b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Skill Station Step",
-                  "Required Technique & Safety Standard",
-                  "Buddy / Counselor Sign-Off Notes"
+                  "Req 6b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Pre-Operation Tool & Safety Check (Parent or Guardian How Bodily)",
-                  "2. Step-by-Step Setup & Alignment Procedure",
-                  "3. Live Execution & Technique Verification",
-                  "4. Post-Task Inspection, Maintenance & Stowage"
+                  "1. Discuss with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature.",
+                  "2. Key Pamphlet Facts & Mechanism (Discuss Bodily Changes Affect)",
+                  "3. Field Application & Counselor Discussion (Discuss Bodily Changes Affect)"
                 ],
                 "rows": [
-                  "1. Pre-Operation Tool & Safety Check (Parent or Guardian How Bodily)",
-                  "2. Step-by-Step Setup & Alignment Procedure",
-                  "3. Live Execution & Technique Verification",
-                  "4. Post-Task Inspection, Maintenance & Stowage"
+                  "1. Discuss with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature.",
+                  "2. Key Pamphlet Facts & Mechanism (Discuss Bodily Changes Affect)",
+                  "3. Field Application & Counselor Discussion (Discuss Bodily Changes Affect)"
                 ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
@@ -1438,7 +1414,7 @@
               "id": "6b(3)",
               "sub_req_label": "6b(3)",
               "sub_req_text": "Discuss with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature.",
-              "topic_title": "Req 6b(3): Parent or Guardian How Bodily",
+              "topic_title": "Req 6b(3): Discuss Bodily Changes Affect",
               "pamphlet_summary": "Parent or Guardian How Bodily: You can use the problem-solving process to successfully resolve aconflict (p. 33).",
               "pamphlet_excerpts": [
                 "Parent or Guardian How Bodily: You can use the problem-solving process to successfully resolve aconflict (p. 33)."
@@ -1465,33 +1441,31 @@
                 "organizer_type": "RULED_EXPLAIN_BOX",
                 "table_title": "Req 6b(4) Structured Technical Study & Explanation Matrix (Personal and Family Finances)",
                 "headers": [
-                  "Req 6b(4) Analysis Dimension",
+                  "Req 6b(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
                   "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Req 6b(4) Analysis Dimension",
+                  "Req 6b(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core Definition & Mechanism (Personal and Family Finances)",
-                  "2. Key Pamphlet Facts & Technical Standards",
-                  "3. Practical Scouting / Field Application Example",
-                  "4. Counselor Discussion & Verification Summary"
+                  "1. Personal and family finances.",
+                  "2. Key Pamphlet Facts & Mechanism (Personal and Family Finances)",
+                  "3. Field Application & Counselor Discussion (Personal and Family Finances)"
                 ],
                 "rows": [
-                  "1. Core Definition & Mechanism (Personal and Family Finances)",
-                  "2. Key Pamphlet Facts & Technical Standards",
-                  "3. Practical Scouting / Field Application Example",
-                  "4. Counselor Discussion & Verification Summary"
+                  "1. Personal and family finances.",
+                  "2. Key Pamphlet Facts & Mechanism (Personal and Family Finances)",
+                  "3. Field Application & Counselor Discussion (Personal and Family Finances)"
                 ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "General familiarity with Personal, family is sufficient for Family Life Requirement 6b(4) without citing specific functional mechanisms.",
-                "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Personal and Family Finances (p. 33, p. 36).",
-                "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Personal and Family Finances (p. 33, p. 36).",
+                "misconception": "Memorizing a one-line definition of Personal and Family Finances without explaining how it works in practice satisfies Family Life Requirement 6b(4).",
+                "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Personal and Family Finances (Personal and Family Finances) (p. 33, p. 36).",
+                "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Personal and Family Finances (Personal and Family Finances) (p. 33, p. 36).",
                 "pamphlet_page_ref": "p. 33, p. 36"
               },
               "starting_requirement_gate": null,
@@ -1541,33 +1515,31 @@
                 "organizer_type": "RULED_EXPLAIN_BOX",
                 "table_title": "Req 6b(5) Structured Technical Study & Explanation Matrix (Crisis Situation Within Your Family)",
                 "headers": [
-                  "Req 6b(5) Analysis Dimension",
+                  "Req 6b(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
                   "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Req 6b(5) Analysis Dimension",
+                  "Req 6b(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core Definition & Mechanism (Crisis Situation Within Your Family)",
-                  "2. Key Pamphlet Facts & Technical Standards",
-                  "3. Practical Scouting / Field Application Example",
-                  "4. Counselor Discussion & Verification Summary"
+                  "1. A crisis situation within your family and whom you can turn to for support during these situations.",
+                  "2. Key Pamphlet Facts & Mechanism (Crisis Situation Within Your Family)",
+                  "3. Field Application & Counselor Discussion (Crisis Situation Within Your Family)"
                 ],
                 "rows": [
-                  "1. Core Definition & Mechanism (Crisis Situation Within Your Family)",
-                  "2. Key Pamphlet Facts & Technical Standards",
-                  "3. Practical Scouting / Field Application Example",
-                  "4. Counselor Discussion & Verification Summary"
+                  "1. A crisis situation within your family and whom you can turn to for support during these situations.",
+                  "2. Key Pamphlet Facts & Mechanism (Crisis Situation Within Your Family)",
+                  "3. Field Application & Counselor Discussion (Crisis Situation Within Your Family)"
                 ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "General familiarity with crisis, situation is sufficient for Family Life Requirement 6b(5) without citing specific functional mechanisms.",
-                "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Crisis Situation Within Your Family (p. 33, p. 36).",
-                "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Crisis Situation Within Your Family (p. 33, p. 36).",
+                "misconception": "Memorizing a one-line definition of Crisis Situation Within Your Family without explaining how it works in practice satisfies Family Life Requirement 6b(5).",
+                "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Crisis Situation Within Your Family (Crisis Situation Within Your Family) (p. 33, p. 36).",
+                "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Crisis Situation Within Your Family (Crisis Situation Within Your Family) (p. 33, p. 36).",
                 "pamphlet_page_ref": "p. 33, p. 36"
               },
               "starting_requirement_gate": null,
@@ -1614,31 +1586,27 @@
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
-                "organizer_type": "TIME_SERIES_LOG_TABLE",
-                "table_title": "Req 6b(6) Quantitative Field Observation & Activity Log (Effect of Technology)",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 6b(6) Structured Technical Study & Explanation Matrix (Technology on Your Family)",
                 "headers": [
-                  "Log Entry / Milestone",
-                  "Date, Location & Conditions",
-                  "Recorded Measurements & Quantitative Data",
-                  "Analysis & Verification"
+                  "Req 6b(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Log Entry / Milestone",
-                  "Date, Location & Conditions",
-                  "Recorded Measurements & Quantitative Data",
-                  "Analysis & Verification"
+                  "Req 6b(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Baseline Entry & Starting Conditions (Effect of Technology)",
-                  "2. Milestone 1 Observation & Measurements",
-                  "3. Milestone 2 Observation & Measurements",
-                  "4. Final Summary, Totals & Counselor Review"
+                  "1. The effect of technology on your family.",
+                  "2. Key Pamphlet Facts & Mechanism (Technology on Your Family)",
+                  "3. Field Application & Counselor Discussion (Technology on Your Family)"
                 ],
                 "rows": [
-                  "1. Baseline Entry & Starting Conditions (Effect of Technology)",
-                  "2. Milestone 1 Observation & Measurements",
-                  "3. Milestone 2 Observation & Measurements",
-                  "4. Final Summary, Totals & Counselor Review"
+                  "1. The effect of technology on your family.",
+                  "2. Key Pamphlet Facts & Mechanism (Technology on Your Family)",
+                  "3. Field Application & Counselor Discussion (Technology on Your Family)"
                 ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
@@ -1672,7 +1640,7 @@
               "id": "6b(6)",
               "sub_req_label": "6b(6)",
               "sub_req_text": "The effect of technology on your family.",
-              "topic_title": "Req 6b(6): Effect of Technology",
+              "topic_title": "Req 6b(6): Technology on Your Family",
               "pamphlet_summary": "Effect of Technology: Conflict Resolution Principle 4: Many topics may be addressed in a family meeting (p. 33).",
               "pamphlet_excerpts": [
                 "Effect of Technology: Conflict Resolution Principle 4: Many topics may be addressed in a family meeting (p. 33)."
@@ -1693,35 +1661,33 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(7) Structured Technical Study & Explanation Matrix (Good Etiquette and Manners)",
+                "table_title": "Req 6b(7) Structured Technical Study & Explanation Matrix (Etiquette and Manners)",
                 "headers": [
-                  "Req 6b(7) Analysis Dimension",
+                  "Req 6b(7) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
                   "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Req 6b(7) Analysis Dimension",
+                  "Req 6b(7) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core Definition & Mechanism (Good Etiquette and Manners)",
-                  "2. Key Pamphlet Facts & Technical Standards",
-                  "3. Practical Scouting / Field Application Example",
-                  "4. Counselor Discussion & Verification Summary"
+                  "1. Good etiquette and manners.",
+                  "2. Key Pamphlet Facts & Mechanism (Etiquette and Manners)",
+                  "3. Field Application & Counselor Discussion (Etiquette and Manners)"
                 ],
                 "rows": [
-                  "1. Core Definition & Mechanism (Good Etiquette and Manners)",
-                  "2. Key Pamphlet Facts & Technical Standards",
-                  "3. Practical Scouting / Field Application Example",
-                  "4. Counselor Discussion & Verification Summary"
+                  "1. Good etiquette and manners.",
+                  "2. Key Pamphlet Facts & Mechanism (Etiquette and Manners)",
+                  "3. Field Application & Counselor Discussion (Etiquette and Manners)"
                 ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "General familiarity with etiquette, manners is sufficient for Family Life Requirement 6b(7) without citing specific functional mechanisms.",
-                "fact": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Good Etiquette and Manners (p. 33, p. 36).",
-                "fact_correction": "The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Good Etiquette and Manners (p. 33, p. 36).",
+                "misconception": "Memorizing a one-line definition of Etiquette and Manners without explaining how it works in practice satisfies Family Life Requirement 6b(7).",
+                "fact": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Etiquette and Manners (Etiquette and Manners) (p. 33, p. 36).",
+                "fact_correction": "The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Etiquette and Manners (Etiquette and Manners) (p. 33, p. 36).",
                 "pamphlet_page_ref": "p. 33, p. 36"
               },
               "starting_requirement_gate": null,
@@ -1748,7 +1714,7 @@
               "id": "6b(7)",
               "sub_req_label": "6b(7)",
               "sub_req_text": "Good etiquette and manners.",
-              "topic_title": "Req 6b(7): Good Etiquette and Manners",
+              "topic_title": "Req 6b(7): Etiquette and Manners",
               "pamphlet_summary": "Good Etiquette and Manners: You can use the problem-solving process to successfully resolve aconflict (p. 33).",
               "pamphlet_excerpts": [
                 "Good Etiquette and Manners: You can use the problem-solving process to successfully resolve aconflict (p. 33)."
@@ -1758,35 +1724,35 @@
           ],
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
           "workbook_organizer": {
-            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist (Meeting Agenda)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Meeting Agenda That Includes)",
             "headers": [
-              "Skill Station Step",
-              "Required Technique & Safety Standard",
-              "Buddy / Counselor Sign-Off Notes"
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Skill Station Step",
-              "Required Technique & Safety Standard",
-              "Buddy / Counselor Sign-Off Notes"
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "(6b(1)) Living The Principles",
               "(6b(2)) Greatest Dangers and Addictions Facing",
-              "(6b(3)) Parent or Guardian How Bodily",
+              "(6b(3)) Discuss Bodily Changes Affect",
               "(6b(4)) Personal and Family Finances",
               "(6b(5)) Crisis Situation Within Your Family",
-              "(6b(6)) Effect of Technology",
-              "(6b(7)) Good Etiquette and Manners"
+              "(6b(6)) Technology on Your Family",
+              "(6b(7)) Etiquette and Manners"
             ],
             "rows": [
               "(6b(1)) Living The Principles",
               "(6b(2)) Greatest Dangers and Addictions Facing",
-              "(6b(3)) Parent or Guardian How Bodily",
+              "(6b(3)) Discuss Bodily Changes Affect",
               "(6b(4)) Personal and Family Finances",
               "(6b(5)) Crisis Situation Within Your Family",
-              "(6b(6)) Effect of Technology",
-              "(6b(7)) Good Etiquette and Manners"
+              "(6b(6)) Technology on Your Family",
+              "(6b(7)) Etiquette and Manners"
             ]
           },
           "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
@@ -1825,7 +1791,7 @@
           "id": "6b",
           "sub_req_label": "6b",
           "sub_req_text": "Prepare a meeting agenda that includes the following topics, review it with your parent or guardian, and then carry out one or more family meetings: (1) How living the principles of the Scout Oath and Scout Law contributes to your family life (2) The greatest dangers and addictions facing youth in today's society (examples include mental health challenges, use of tobacco products, alcohol, or drugs and other items such as debts, social media, etc.) (3) Discuss with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature. (4) Personal and family finances (5) A crisis situation within your family and whom you can turn to for support during these situations. (6) The effect of technology on your family (7) Good etiquette and manners.",
-          "topic_title": "Req 6b: Meeting Agenda",
+          "topic_title": "Req 6b: Meeting Agenda That Includes",
           "pamphlet_summary": "Meeting Agenda: Prepare A Meeting Agenda: You can use the problem-solving process to successfully resolve aconflict (p. 33).",
           "pamphlet_excerpts": [
             "Meeting Agenda: Prepare A Meeting Agenda: You can use the problem-solving process to successfully resolve aconflict (p. 33)."
@@ -1903,7 +1869,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Conflict Resolution",
+      "topic_title": "Req 6: Note Some of The Issues",
       "action_verb": "Demonstrate",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
@@ -1912,25 +1878,25 @@
       "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
       "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
       "workbook_organizer": {
-        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Conflict Resolution)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Note Some of The Issues)",
         "headers": [
-          "Skill Station Step",
-          "Required Technique & Safety Standard",
-          "Buddy / Counselor Sign-Off Notes"
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Skill Station Step",
-          "Required Technique & Safety Standard",
-          "Buddy / Counselor Sign-Off Notes"
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(6a) Carry Out A Family Meeting",
-          "(6b) Meeting Agenda"
+          "(6a) Discuss Family Meeting",
+          "(6b) Meeting Agenda That Includes"
         ],
         "rows": [
-          "(6a) Carry Out A Family Meeting",
-          "(6b) Meeting Agenda"
+          "(6a) Discuss Family Meeting",
+          "(6b) Meeting Agenda That Includes"
         ]
       },
       "common_misconception_pair": {
@@ -2027,24 +1993,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Family Life Requirement 6 (Conflict Resolution), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Family Life Requirement 6 (Conflict Resolution), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "During the hands-on skill station for Family Life Requirement 6 (Note Some of The Issues), what execution standard is required when demonstrating Discuss with your counselor how to plan and carry out a family meeting?",
+        "question": "During the hands-on skill station for Family Life Requirement 6 (Note Some of The Issues), what execution standard is required when demonstrating Discuss with your counselor how to plan and carry out a family meeting?",
         "options": [
           "A. Estimating Conflict Resolution entries from memory at the end of the project satisfies the Family Life Requirement 6 standard.",
-          "B. Defer all Conflict Resolution measurements and safety checks until after the field session concludes.",
-          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure.",
+          "B. Reverse the sequence of Note Some of The Issues steps by attempting final sign-off before completing Discuss with your counselor how to plan and carry out a fami.",
+          "C. Substitute a casual verbal guess about Discuss with your counselor how to plan and carry out a in place of documented Family Life observations.",
           "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Conflict."
         ],
         "choices": [
           "A. Estimating Conflict Resolution entries from memory at the end of the project satisfies the Family Life Requirement 6 standard.",
-          "B. Defer all Conflict Resolution measurements and safety checks until after the field session concludes.",
-          "C. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure.",
+          "B. Reverse the sequence of Note Some of The Issues steps by attempting final sign-off before completing Discuss with your counselor how to plan and carry out a fami.",
+          "C. Substitute a casual verbal guess about Discuss with your counselor how to plan and carry out a in place of documented Family Life observations.",
           "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Conflict."
         ],
         "correct_index": 3,
         "correct_letter": "D",
         "correct_answer": "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Conflict.",
-        "explanation": "Correct Answer (D): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Conflict Resolution milestone is completed (p. 33, p. 36). (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
+        "explanation": "Correct Answer (D): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Conflict Resolution milestone is completed. (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
         "pamphlet_page_ref": "p. 33, p. 36"
       },
       "estimated_minutes": 15,
@@ -2080,7 +2046,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Understanding of What Makes",
+      "topic_title": "Req 7: Discuss With Your Counselor Your",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -2090,28 +2056,26 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Understanding of What Makes)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Your)",
         "headers": [
-          "Req 7 Analysis Dimension",
+          "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Req 7 Analysis Dimension",
+          "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Core Definition & Mechanism (Understanding of What Makes)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Discuss with your counselor your understanding of what makes an effective parent or guardian and why, and your thoughts on the parent or...",
+          "2. Key Pamphlet Facts & Mechanism (Discuss With Your Counselor Your)",
+          "3. Field Application & Counselor Discussion (Discuss With Your Counselor Your)"
         ],
         "rows": [
-          "1. Core Definition & Mechanism (Understanding of What Makes)",
-          "2. Key Pamphlet Facts & Technical Standards",
-          "3. Practical Scouting / Field Application Example",
-          "4. Counselor Discussion & Verification Summary"
+          "1. Discuss with your counselor your understanding of what makes an effective parent or guardian and why, and your thoughts on the parent or...",
+          "2. Key Pamphlet Facts & Mechanism (Discuss With Your Counselor Your)",
+          "3. Field Application & Counselor Discussion (Discuss With Your Counselor Your)"
         ]
       },
       "common_misconception_pair": {
@@ -2208,24 +2172,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 60)."
       },
       "quiz_item": {
-        "scenario_prompt": "While working on Family Life Requirement 7 (Understanding of What Makes), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-        "question": "While working on Family Life Requirement 7 (Understanding of What Makes), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+        "scenario_prompt": "How does the Family Life Merit Badge Pamphlet guide Scouts on fulfilling Requirement 7 (Discuss With Your Counselor Your: Discuss with your counselor your understanding of what makes an effect)?",
+        "question": "How does the Family Life Merit Badge Pamphlet guide Scouts on fulfilling Requirement 7 (Discuss With Your Counselor Your: Discuss with your counselor your understanding of what makes an effect)?",
         "options": [
           "A. Describing how to perform Your understanding of what makes verbally can substitute for a physical hands-on demonstration in Family.",
-          "B. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate Your.",
-          "C. Defer all Understanding of What Makes measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+          "B. Skip the Family Life Pamphlet technical criteria for Discuss With Your Counselor Your and use rules from an unrelated activity.",
+          "C. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate Your.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Discuss With Your Counselor Your."
         ],
         "choices": [
           "A. Describing how to perform Your understanding of what makes verbally can substitute for a physical hands-on demonstration in Family.",
-          "B. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate Your.",
-          "C. Defer all Understanding of What Makes measurements and safety checks until after the field session concludes.",
-          "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+          "B. Skip the Family Life Pamphlet technical criteria for Discuss With Your Counselor Your and use rules from an unrelated activity.",
+          "C. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate Your.",
+          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Discuss With Your Counselor Your."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate Your.",
-        "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate Your understanding of what makes with proper technique (p. 58, p. 60). (Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 60)).",
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate Your.",
+        "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate Your understanding of what makes with proper technique. (Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 60)).",
         "pamphlet_page_ref": "p. 58, p. 60"
       },
       "estimated_minutes": 15,
@@ -2241,231 +2205,231 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "While working on Family Life Requirement 1 (Outline on What A Family), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Family Life Requirement 1 (Outline on What A Family), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "How does the Family Life Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Outline on What A Family: Prepare an outline on what a family is and discuss this with your coun)?",
+      "question": "How does the Family Life Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Outline on What A Family: Prepare an outline on what a family is and discuss this with your coun)?",
       "options": [
-        "A. General familiarity with Prepare, outline is sufficient for Family Life Requirement 1 without citing specific functional mechanisms.",
-        "B. Defer all Outline on What A Family measurements and safety checks until after the field session concludes.",
-        "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. Memorizing a one-line definition of Outline on What A Family without explaining how it works in practice satisfies Family Life.",
+        "B. Skip the Family Life Pamphlet technical criteria for Outline on What A Family and use rules from an unrelated activity.",
+        "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Outline on What A Family."
       ],
       "choices": [
-        "A. General familiarity with Prepare, outline is sufficient for Family Life Requirement 1 without citing specific functional mechanisms.",
-        "B. Defer all Outline on What A Family measurements and safety checks until after the field session concludes.",
-        "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. Memorizing a one-line definition of Outline on What A Family without explaining how it works in practice satisfies Family Life.",
+        "B. Skip the Family Life Pamphlet technical criteria for Outline on What A Family and use rules from an unrelated activity.",
+        "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Outline on What A Family."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-      "explanation": "Correct Answer (C): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Prepare an outline (p. 9, p. 10). (Official Scouting America Family Life Merit Badge Pamphlet (p. 9, p. 10)).",
+      "correct_answer": "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+      "explanation": "Correct Answer (C): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Outline on What A Family (Outline on What A Family). (Official Scouting America Family Life Merit Badge Pamphlet (p. 9, p. 10)).",
       "pamphlet_page_ref": "p. 9, p. 10",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Family Life Requirement 2 (Several Reasons Why You), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Family Life Requirement 2 (Several Reasons Why You), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Family Life Requirement 2 (Several Reasons Why You Are), which statement accurately reflects the official BSA standard for List several reasons why you are important to your family and discuss this ?",
+      "question": "When preparing for your counselor conference on Family Life Requirement 2 (Several Reasons Why You Are), which statement accurately reflects the official BSA standard for List several reasons why you are important to your family and discuss this ?",
       "options": [
-        "A. General familiarity with several, reasons is sufficient for Family Life Requirement 2 without citing specific functional mechanisms.",
-        "B. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "C. Defer all Several Reasons Why You measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. Memorizing a one-line definition of Several Reasons Why You Are without explaining how it works in practice satisfies Family Life.",
+        "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "C. Rely on a group summary of Several Reasons Why You Are instead of individually explaining or demonstrating List several reasons why you are important to your family an.",
+        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Several Reasons Why You Are standard."
       ],
       "choices": [
-        "A. General familiarity with several, reasons is sufficient for Family Life Requirement 2 without citing specific functional mechanisms.",
-        "B. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "C. Defer all Several Reasons Why You measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. Memorizing a one-line definition of Several Reasons Why You Are without explaining how it works in practice satisfies Family Life.",
+        "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "C. Rely on a group summary of Several Reasons Why You Are instead of individually explaining or demonstrating List several reasons why you are important to your family an.",
+        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Several Reasons Why You Are standard."
       ],
       "correct_index": 1,
       "correct_letter": "B",
-      "correct_answer": "B. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-      "explanation": "Correct Answer (B): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Several Reasons Why You (p. 58, p. 59). (Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 59)).",
+      "correct_answer": "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+      "explanation": "Correct Answer (B): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Several Reasons Why You Are (Several Reasons Why You Are). (Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 59)).",
       "pamphlet_page_ref": "p. 58, p. 59",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Family Life Requirement 3 (Regular Home Duties or Chores), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Family Life Requirement 3 (Regular Home Duties or Chores), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Family Life Requirement 3 (Regular Home Duties or Chores), which statement accurately reflects the official BSA standard for Prepare a list of your regular home duties or chores (at least five) and do?",
+      "question": "When preparing for your counselor conference on Family Life Requirement 3 (Regular Home Duties or Chores), which statement accurately reflects the official BSA standard for Prepare a list of your regular home duties or chores (at least five) and do?",
       "options": [
         "A. Estimating Prepare A List entries from memory at the end of the project satisfies the Family Life Requirement 3 standard.",
-        "B. Defer all Regular Home Duties or Chores measurements and safety checks until after the field session concludes.",
-        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure.",
+        "B. Reverse the sequence of Regular Home Duties or Chores steps by attempting final sign-off before completing Prepare a list of your regular home duties or chores (at lea.",
+        "C. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Regular Home Duties or Chores standard.",
         "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Prepare A."
       ],
       "choices": [
         "A. Estimating Prepare A List entries from memory at the end of the project satisfies the Family Life Requirement 3 standard.",
-        "B. Defer all Regular Home Duties or Chores measurements and safety checks until after the field session concludes.",
-        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure.",
+        "B. Reverse the sequence of Regular Home Duties or Chores steps by attempting final sign-off before completing Prepare a list of your regular home duties or chores (at lea.",
+        "C. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Regular Home Duties or Chores standard.",
         "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Prepare A."
       ],
       "correct_index": 3,
       "correct_letter": "D",
       "correct_answer": "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Prepare A.",
-      "explanation": "Correct Answer (D): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Prepare A List milestone is completed (p. 26, p. 58). (Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 58)).",
+      "explanation": "Correct Answer (D): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Family Life log as each Prepare A List milestone is completed. (Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 58)).",
       "pamphlet_page_ref": "p. 26, p. 58",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Family Life Requirement 4 (Parent or Guardian), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Family Life Requirement 4 (Parent or Guardian), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Family Life Requirement 4 (Decide on and Carry Out), which statement accurately reflects the official BSA standard for With the approval of your parent or guardian and your counselor, decide on ?",
+      "question": "When preparing for your counselor conference on Family Life Requirement 4 (Decide on and Carry Out), which statement accurately reflects the official BSA standard for With the approval of your parent or guardian and your counselor, decide on ?",
       "options": [
-        "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "B. General familiarity with approval, parent is sufficient for Family Life Requirement 4 without citing specific functional mechanisms.",
-        "C. Defer all Parent or Guardian measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "B. Memorizing a one-line definition of Decide on and Carry Out without explaining how it works in practice satisfies Family Life.",
+        "C. Focus only on With the approval of your parent or guardian and your c while omitting After completion, discuss the objective or goal and the and its required field verification.",
+        "D. Complete only a single sub-part of Requirement 4 rather than fulfilling the full Decide on and Carry Out standard."
       ],
       "choices": [
-        "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "B. General familiarity with approval, parent is sufficient for Family Life Requirement 4 without citing specific functional mechanisms.",
-        "C. Defer all Parent or Guardian measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "B. Memorizing a one-line definition of Decide on and Carry Out without explaining how it works in practice satisfies Family Life.",
+        "C. Focus only on With the approval of your parent or guardian and your c while omitting After completion, discuss the objective or goal and the and its required field verification.",
+        "D. Complete only a single sub-part of Requirement 4 rather than fulfilling the full Decide on and Carry Out standard."
       ],
       "correct_index": 0,
       "correct_letter": "A",
-      "correct_answer": "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-      "explanation": "Correct Answer (A): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Approval of Your Parent (p. 26, p. 27). (Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 27)).",
+      "correct_answer": "A. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+      "explanation": "Correct Answer (A): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Decide on and Carry Out (Decide on and Carry Out). (Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 27)).",
       "pamphlet_page_ref": "p. 26, p. 27",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Family Life Requirement 5 (Carry Out A Project), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Family Life Requirement 5 (Carry Out A Project), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Family Life Requirement 5 (Out A Project That Involves), which statement accurately reflects the official BSA standard for The objective or goal of the project?",
+      "question": "When preparing for your counselor conference on Family Life Requirement 5 (Out A Project That Involves), which statement accurately reflects the official BSA standard for The objective or goal of the project?",
       "options": [
-        "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan.",
-        "B. General familiarity with carry, project is sufficient for Family Life Requirement 5 without citing specific functional mechanisms.",
-        "C. Defer all Carry Out A Project measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. Memorizing a one-line definition of Out A Project That Involves without explaining how it works in practice satisfies Family Life.",
+        "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out.",
+        "C. Rely on a group summary of Out A Project That Involves instead of individually explaining or demonstrating The objective or goal of the project.",
+        "D. Assume Out A Project That Involves applies only to indoor classroom theory and has no effect on real-world Family Life practice."
       ],
       "choices": [
-        "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan.",
-        "B. General familiarity with carry, project is sufficient for Family Life Requirement 5 without citing specific functional mechanisms.",
-        "C. Defer all Carry Out A Project measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. Memorizing a one-line definition of Out A Project That Involves without explaining how it works in practice satisfies Family Life.",
+        "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out.",
+        "C. Rely on a group summary of Out A Project That Involves instead of individually explaining or demonstrating The objective or goal of the project.",
+        "D. Assume Out A Project That Involves applies only to indoor classroom theory and has no effect on real-world Family Life practice."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan.",
-      "explanation": "Correct Answer (A): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Plan and carry out a project (p. 20, p. 26). (Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)).",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out.",
+      "explanation": "Correct Answer (B): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out A Project That Involves (Out A Project That Involves). (Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)).",
       "pamphlet_page_ref": "p. 20, p. 26",
       "req_id": "5",
       "option_id": null
     },
     {
-      "scenario_prompt": "While working on Family Life Requirement 6b(1)_q1 (Living The Principles (Check 1)), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Family Life Requirement 6b(1)_q1 (Living The Principles (Check 1)), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "How does the Family Life Merit Badge Pamphlet guide Scouts on fulfilling Requirement 6b(1)_q1 (Living The Principles (Check 1): How living the principles of the Scout Oath and Scout Law contributes )?",
+      "question": "How does the Family Life Merit Badge Pamphlet guide Scouts on fulfilling Requirement 6b(1)_q1 (Living The Principles (Check 1): How living the principles of the Scout Oath and Scout Law contributes )?",
       "options": [
-        "A. General familiarity with living, principles is sufficient for Family Life Requirement 6b(1) without citing specific functional.",
-        "B. Defer all Living The Principles (Check 1) measurements and safety checks until after the field session concludes.",
-        "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Living.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. Memorizing a one-line definition of Living The Principles without explaining how it works in practice satisfies Family Life.",
+        "B. Skip the Family Life Pamphlet technical criteria for Living The Principles (Check 1) and use rules from an unrelated activity.",
+        "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "D. Assume Living The Principles (Check 1) applies only to indoor classroom theory and has no effect on real-world Family Life practice."
       ],
       "choices": [
-        "A. General familiarity with living, principles is sufficient for Family Life Requirement 6b(1) without citing specific functional.",
-        "B. Defer all Living The Principles (Check 1) measurements and safety checks until after the field session concludes.",
-        "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Living.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. Memorizing a one-line definition of Living The Principles without explaining how it works in practice satisfies Family Life.",
+        "B. Skip the Family Life Pamphlet technical criteria for Living The Principles (Check 1) and use rules from an unrelated activity.",
+        "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "D. Assume Living The Principles (Check 1) applies only to indoor classroom theory and has no effect on real-world Family Life practice."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Living.",
-      "explanation": "Correct Answer (C): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Living The Principles (p. 33, p. 36). (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
+      "correct_answer": "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+      "explanation": "Correct Answer (C): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Living The Principles (Living The Principles). (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
       "pamphlet_page_ref": "p. 33, p. 36",
       "req_id": "6b(1)",
       "option_id": "6b"
     },
     {
-      "scenario_prompt": "While working on Family Life Requirement 6b(2)_q2 (Greatest Dangers and Addictions Facing (Check 2)), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Family Life Requirement 6b(2)_q2 (Greatest Dangers and Addictions Facing (Check 2)), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "How does the Family Life Merit Badge Pamphlet guide Scouts on fulfilling Requirement 6b(2)_q2 (Greatest Dangers and Addictions Facing (Check 2): The greatest dangers and addictions facing youth in today's society (e)?",
+      "question": "How does the Family Life Merit Badge Pamphlet guide Scouts on fulfilling Requirement 6b(2)_q2 (Greatest Dangers and Addictions Facing (Check 2): The greatest dangers and addictions facing youth in today's society (e)?",
       "options": [
-        "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "B. General familiarity with greatest, dangers is sufficient for Family Life Requirement 6b(2) without citing specific functional.",
-        "C. Defer all Greatest Dangers and Addictions Facing (Check 2) measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "B. Memorizing a one-line definition of Greatest Dangers and Addictions Facing without explaining how it works in practice satisfies.",
+        "C. Focus only on The greatest dangers and addictions facing youth in tod while omitting Greatest Dangers and Addictions Facing: Conflict Resolu and its required field verification.",
+        "D. Complete only a single sub-part of Requirement 6b(2)_q2 rather than fulfilling the full Greatest Dangers and Addictions Facing (Check 2) standard."
       ],
       "choices": [
-        "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-        "B. General familiarity with greatest, dangers is sufficient for Family Life Requirement 6b(2) without citing specific functional.",
-        "C. Defer all Greatest Dangers and Addictions Facing (Check 2) measurements and safety checks until after the field session concludes.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "B. Memorizing a one-line definition of Greatest Dangers and Addictions Facing without explaining how it works in practice satisfies.",
+        "C. Focus only on The greatest dangers and addictions facing youth in tod while omitting Greatest Dangers and Addictions Facing: Conflict Resolu and its required field verification.",
+        "D. Complete only a single sub-part of Requirement 6b(2)_q2 rather than fulfilling the full Greatest Dangers and Addictions Facing (Check 2) standard."
       ],
       "correct_index": 0,
       "correct_letter": "A",
-      "correct_answer": "A. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-      "explanation": "Correct Answer (A): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Greatest Dangers and Addictions Facing (p. 33, p. 36). (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
+      "correct_answer": "A. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+      "explanation": "Correct Answer (A): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Greatest Dangers and Addictions Facing (Greatest Dangers and Addictions Facing). (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
       "pamphlet_page_ref": "p. 33, p. 36",
       "req_id": "6b(2)",
       "option_id": "6b"
     },
     {
-      "scenario_prompt": "While working on Family Life Requirement 6b(3)_q3 (Parent or Guardian How Bodily (Check 3)), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Family Life Requirement 6b(3)_q3 (Parent or Guardian How Bodily (Check 3)), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "During the hands-on skill station for Family Life Requirement 6b(3)_q3 (Discuss Bodily Changes Affect (Check 3)), what execution standard is required when demonstrating Discuss with a parent or guardian how bodily changes can affect the choices?",
+      "question": "During the hands-on skill station for Family Life Requirement 6b(3)_q3 (Discuss Bodily Changes Affect (Check 3)), what execution standard is required when demonstrating Discuss with a parent or guardian how bodily changes can affect the choices?",
       "options": [
         "A. Describing how to perform Parent or Guardian How Bodily verbally can substitute for a physical hands-on demonstration in Family.",
-        "B. Defer all Parent or Guardian How Bodily (Check 3) measurements and safety checks until after the field session concludes.",
-        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure.",
-        "D. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate."
+        "B. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate.",
+        "C. Rely on a group summary of Discuss Bodily Changes Affect (Check 3) instead of individually explaining or demonstrating Discuss with a parent or guardian how bodily changes can aff.",
+        "D. Substitute a casual verbal guess about Discuss with a parent or guardian how bodily changes ca in place of documented Family Life observations."
       ],
       "choices": [
         "A. Describing how to perform Parent or Guardian How Bodily verbally can substitute for a physical hands-on demonstration in Family.",
-        "B. Defer all Parent or Guardian How Bodily (Check 3) measurements and safety checks until after the field session concludes.",
-        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure.",
-        "D. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate."
+        "B. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate.",
+        "C. Rely on a group summary of Discuss Bodily Changes Affect (Check 3) instead of individually explaining or demonstrating Discuss with a parent or guardian how bodily changes can aff.",
+        "D. Substitute a casual verbal guess about Discuss with a parent or guardian how bodily changes ca in place of documented Family Life observations."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate.",
-      "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate Parent or Guardian How Bodily with proper technique (p. 33, p. 36). (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate.",
+      "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Family Life pamphlet, each Scout must physically execute and demonstrate Parent or Guardian How Bodily with proper technique. (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
       "pamphlet_page_ref": "p. 33, p. 36",
       "req_id": "6b(3)",
       "option_id": "6b"
     },
     {
-      "scenario_prompt": "While working on Family Life Requirement 6b(4)_q4 (Personal and Family Finances (Check 4)), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Family Life Requirement 6b(4)_q4 (Personal and Family Finances (Check 4)), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Family Life Requirement 6b(4)_q4 (Personal and Family Finances (Check 4)), which statement accurately reflects the official BSA standard for Personal and family finances?",
+      "question": "When preparing for your counselor conference on Family Life Requirement 6b(4)_q4 (Personal and Family Finances (Check 4)), which statement accurately reflects the official BSA standard for Personal and family finances?",
       "options": [
-        "A. General familiarity with Personal, family is sufficient for Family Life Requirement 6b(4) without citing specific functional.",
-        "B. Defer all Personal and Family Finances (Check 4) measurements and safety checks until after the field session concludes.",
-        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure.",
-        "D. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of."
+        "A. Memorizing a one-line definition of Personal and Family Finances without explaining how it works in practice satisfies Family Life.",
+        "B. Reverse the sequence of Personal and Family Finances (Check 4) steps by attempting final sign-off before completing Personal and family finances.",
+        "C. Complete only a single sub-part of Requirement 6b(4)_q4 rather than fulfilling the full Personal and Family Finances (Check 4) standard.",
+        "D. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of."
       ],
       "choices": [
-        "A. General familiarity with Personal, family is sufficient for Family Life Requirement 6b(4) without citing specific functional.",
-        "B. Defer all Personal and Family Finances (Check 4) measurements and safety checks until after the field session concludes.",
-        "C. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure.",
-        "D. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of."
+        "A. Memorizing a one-line definition of Personal and Family Finances without explaining how it works in practice satisfies Family Life.",
+        "B. Reverse the sequence of Personal and Family Finances (Check 4) steps by attempting final sign-off before completing Personal and family finances.",
+        "C. Complete only a single sub-part of Requirement 6b(4)_q4 rather than fulfilling the full Personal and Family Finances (Check 4) standard.",
+        "D. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of."
       ],
       "correct_index": 3,
       "correct_letter": "D",
-      "correct_answer": "D. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of.",
-      "explanation": "Correct Answer (D): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Personal and Family Finances (p. 33, p. 36). (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
+      "correct_answer": "D. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+      "explanation": "Correct Answer (D): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Personal and Family Finances (Personal and Family Finances). (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
       "pamphlet_page_ref": "p. 33, p. 36",
       "req_id": "6b(4)",
       "option_id": "6b"
     },
     {
-      "scenario_prompt": "While working on Family Life Requirement 6b(5)_q5 (Crisis Situation Within Your Family (Check 5)), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
-      "question": "While working on Family Life Requirement 6b(5)_q5 (Crisis Situation Within Your Family (Check 5)), your patrol encounters a decision point on proper procedure. According to the Family Life Merit Badge Pamphlet, which action is correct?",
+      "scenario_prompt": "When preparing for your counselor conference on Family Life Requirement 6b(5)_q5 (Crisis Situation Within Your Family (Check 5)), which statement accurately reflects the official BSA standard for A crisis situation within your family and whom you can turn to for support ?",
+      "question": "When preparing for your counselor conference on Family Life Requirement 6b(5)_q5 (Crisis Situation Within Your Family (Check 5)), which statement accurately reflects the official BSA standard for A crisis situation within your family and whom you can turn to for support ?",
       "options": [
-        "A. General familiarity with crisis, situation is sufficient for Family Life Requirement 6b(5) without citing specific functional.",
-        "B. Defer all Crisis Situation Within Your Family (Check 5) measurements and safety checks until after the field session concludes.",
-        "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Crisis.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. Memorizing a one-line definition of Crisis Situation Within Your Family without explaining how it works in practice satisfies.",
+        "B. Skip the Family Life Pamphlet technical criteria for Crisis Situation Within Your Family (Check 5) and use rules from an unrelated activity.",
+        "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Crisis Situation Within Your Family (Check 5)."
       ],
       "choices": [
-        "A. General familiarity with crisis, situation is sufficient for Family Life Requirement 6b(5) without citing specific functional.",
-        "B. Defer all Crisis Situation Within Your Family (Check 5) measurements and safety checks until after the field session concludes.",
-        "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Crisis.",
-        "D. Substitute uncalibrated equipment and unverified assumptions in place of the Family Life pamphlet procedure."
+        "A. Memorizing a one-line definition of Crisis Situation Within Your Family without explaining how it works in practice satisfies.",
+        "B. Skip the Family Life Pamphlet technical criteria for Crisis Situation Within Your Family (Check 5) and use rules from an unrelated activity.",
+        "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Crisis Situation Within Your Family (Check 5)."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Crisis.",
-      "explanation": "Correct Answer (C): The Family Life pamphlet specifies that Scouts must explain the exact mechanism, practical purpose, and real-world impact of Crisis Situation Within Your Family (p. 33, p. 36). (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
+      "correct_answer": "C. The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
+      "explanation": "Correct Answer (C): The Family Life pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Crisis Situation Within Your Family (Crisis Situation Within Your Family). (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)).",
       "pamphlet_page_ref": "p. 33, p. 36",
       "req_id": "6b(5)",
       "option_id": "6b"

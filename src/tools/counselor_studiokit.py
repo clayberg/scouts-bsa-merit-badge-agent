@@ -1778,29 +1778,6 @@ def _draw_pdf_workbook_diagram_card(
             except Exception:
                 pass
         y_cursor += card_h + 4.0
-    else:
-        card_h = 34.0
-        if y_cursor + card_h > max_y:
-            page = doc.new_page(width=612, height=792)
-            y_cursor = 36.0
-        card_rect = fitz.Rect(32.0, y_cursor, 580.0, y_cursor + card_h)
-        page.draw_rect(card_rect, color=(0.68, 0.78, 0.90), fill=(0.97, 0.985, 1.0), width=0.8)
-        page.draw_rect(fitz.Rect(32.0, y_cursor, 36.0, y_cursor + card_h), color=(0.0, 0.247, 0.529), fill=(0.0, 0.247, 0.529))
-        page.insert_text(
-            fitz.Point(42.0, y_cursor + 13.0),
-            _sanitize_pdf_text(f"Instructional Reference Diagram (Req {r_num} - {r_title})"),
-            fontsize=7.3,
-            fontname="helv",
-            color=(0.0, 0.22, 0.48),
-        )
-        page.insert_text(
-            fitz.Point(42.0, y_cursor + 25.0),
-            _sanitize_pdf_text(f"Visual Reference Source: {raw_url[:92]}"),
-            fontsize=6.6,
-            fontname="helv",
-            color=(0.25, 0.34, 0.46),
-        )
-        y_cursor += card_h + 3.0
 
     return page, y_cursor
 

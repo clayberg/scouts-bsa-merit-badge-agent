@@ -5680,6 +5680,7 @@ class NanoBananaTemplateGenerateRequest(BaseModel):
     backdrop_id: str = Field("auto", description="Built-in washed backdrop ID, 'auto', 'ai_prompt', or 'custom_upload'.")
     custom_bg_data_url: str = Field("", description="Optional base64 data URL of uploaded custom background image.")
     custom_bg_description: str = Field("", description="Optional description of uploaded custom background image.")
+    custom_backdrop_url: str = Field("", description="Optional already-synthesized custom backdrop URL from /api/templates/synthesize-backdrop.")
     preview_only: bool = Field(False, description="When True, previews the variants at $0.00 without saving to catalog.")
     user_consented: bool = Field(False, description="Explicit FinOps ($0.08 USD) user consent.")
     confirm_finops_cost: Optional[bool] = Field(default=None, description="Alias for user_consented.")
@@ -5721,6 +5722,7 @@ async def api_generate_nano_banana_template_family(
         backdrop_id=req.backdrop_id,
         custom_bg_data_url=req.custom_bg_data_url,
         custom_bg_description=req.custom_bg_description,
+        custom_backdrop_url=req.custom_backdrop_url,
     )
     if res.get("status") == "SUCCESS" and not req.preview_only:
         all_profiles = await asyncio.to_thread(load_template_catalog)
