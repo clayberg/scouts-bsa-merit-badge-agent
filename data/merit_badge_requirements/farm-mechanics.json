@@ -71,14 +71,7 @@
             "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)",
-          "common_misconception_pair": {
-            "misconception": "Remove the plastic PTO master shield for easier greasing, step across the spinning shaft while the engine is at full throttle, and leave the seatbelt unbuckled with a ROPS frame.",
-            "fact": "Keep all PTO master shields and driveline guards securely in place, disengage the PTO, shut off the engine, and pocket the ignition key before servicing implements, wear the seatbelt whenever ROPS is installed, and use a piece of cardboard or wood (never bare skin) to check for pinhole hydraulic leaks.",
-            "fact_correction": "Keep all PTO master shields and driveline guards securely in place, disengage the PTO, shut off the engine, and pocket the ignition key before servicing implements, wear the seatbelt whenever ROPS is installed, and use a piece of cardboard or wood (never bare skin) to check for pinhole hydraulic leaks.",
-            "pamphlet_page_ref": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)",
-            "myth": "Remove the plastic PTO master shield for easier greasing, step across the spinning shaft while the engine is at full throttle, and leave the seatbelt unbuckled with a ROPS frame.",
-            "correction": "Keep all PTO master shields and driveline guards securely in place, disengage the PTO, shut off the engine, and pocket the ignition key before servicing implements, wear the seatbelt whenever ROPS is installed, and use a piece of cardboard or wood (never bare skin) to check for pinhole hydraulic leaks."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": null,
           "curated_resources": [
             {
@@ -103,12 +96,14 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing farm equipment. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge.",
-          "topic_title": "Req 1a: Discuss With Your Counselor The",
+          "topic_title": "Req 1a: Safety Equipment Tools and Clothing Used",
           "pamphlet_summary": "Safety Equipment Tools and Clothing: Discuss With Your Counselor Principle 3: SDSs have 16 sections that provide general information about the chemical, identification, hazards, composition, safehandling practices, and emergency (p. 38).",
           "pamphlet_excerpts": [
             "Safety Equipment Tools and Clothing: Discuss With Your Counselor Principle 3: SDSs have 16 sections that provide general information about the chemical, identification, hazards, composition, safehandling practices, and emergency (p. 38)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p003_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p003_img1.png",
+          "title": "Req 1a: Safety Equipment Tools and Clothing Used",
+          "workbook_diagram_caption": "Field reference diagram showing Farm Mechanics Requirement 1 equipment, technique, and verification milestones for Farm Mechanics Requirement 1 (img1)."
         },
         {
           "sub_id": "1b",
@@ -556,7 +551,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Farm Mechanics Workbook organizer table and practical demonstration for Req 1.",
-      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p003_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/farm_mechanics_req_1_nano_hero.png",
+      "workbook_diagram_caption": "Technical illustrations display internal tractor mechanisms, hydraulic systems, and essential safety maintenance practices for agricultural equipment."
     },
     {
       "req_id": "2",
@@ -640,7 +636,8 @@
           "pamphlet_excerpts": [
             "Diesel Engine: Power is produced or transferred Principle 4: Change fluids and filters at therecommended intervals (p. 50)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p007_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p007_img1.png",
+          "workbook_diagram_caption": "Field reference diagram showing Farm Mechanics Requirement 2 equipment, technique, and verification milestones for Farm Mechanics Requirement 2 (img1)."
         },
         {
           "sub_id": "2b",
@@ -961,7 +958,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Farm Mechanics Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p007_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/farm_mechanics_req_2_nano_hero.png",
+      "workbook_diagram_caption": "Two Scouts carefully inspect the exposed engine components of an antique tractor outside an open barn."
     },
     {
       "req_id": "3",
@@ -1040,12 +1038,14 @@
           "id": "3a",
           "sub_req_label": "3a",
           "sub_req_text": "Replace the handle of any tool found on the farm.",
-          "topic_title": "Req 3a: Replace The Handle of Any",
+          "topic_title": "Req 3a: Replace the Handle of Any Tool Found",
           "pamphlet_summary": "Replace the handle of any tool: Choose a chisel only large enough for the task so that you use the fullcutting edge (p. 24).",
           "pamphlet_excerpts": [
             "Replace the handle of any tool: Choose a chisel only large enough for the task so that you use the fullcutting edge (p. 24)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p012_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p012_img1.png",
+          "title": "Req 3a: Replace the Handle of Any Tool Found",
+          "workbook_diagram_caption": "Field reference diagram showing Farm Mechanics Requirement 3 equipment, technique, and verification milestones for Farm Mechanics Requirement 3 (img1)."
         },
         {
           "sub_id": "3b",
@@ -1202,12 +1202,13 @@
           "id": "3c",
           "sub_req_label": "3c",
           "sub_req_text": "Using a hand file, properly dress the mushroomed head of a chisel or punch.",
-          "topic_title": "Req 3c: Hand File Properly Dress The",
+          "topic_title": "Req 3c: Using a Hand File Properly Dress",
           "pamphlet_summary": "Using A Hand File Properly: Replace the handle of any tool Principle 3: Choose the smallest cold chisel that suits the task, but not so small thatyou risk breaking the tool (p. 24).",
           "pamphlet_excerpts": [
             "Using A Hand File Properly: Replace the handle of any tool Principle 3: Choose the smallest cold chisel that suits the task, but not so small thatyou risk breaking the tool (p. 24)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 3c: Using a Hand File Properly Dress"
         },
         {
           "sub_id": "3d",
@@ -1275,12 +1276,13 @@
           "id": "3d",
           "sub_req_label": "3d",
           "sub_req_text": "Using a hand file, correctly dress a screwdriver tip.",
-          "topic_title": "Req 3d: Hand File Correctly Dress A",
+          "topic_title": "Req 3d: Using a Hand File Correctly Dress",
           "pamphlet_summary": "Using A Hand File Correctly: Replace the handle of any tool Principle 4: When using a chisel or a punch: • Wear eye protection (p. 24).",
           "pamphlet_excerpts": [
             "Using A Hand File Correctly: Replace the handle of any tool Principle 4: When using a chisel or a punch: • Wear eye protection (p. 24)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 3d: Using a Hand File Correctly Dress"
         }
       ],
       "resources": [
@@ -1477,7 +1479,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Farm Mechanics Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p012_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/farm_mechanics_req_3_nano_hero.png",
+      "workbook_diagram_caption": "A Scout examines a clean mechanical engine part closely while standing inside a rustic repair shop."
     },
     {
       "req_id": "4",
@@ -1557,7 +1560,8 @@
           "pamphlet_excerpts": [
             "Engine-powered Machine: On an engine-powered machine Principle 2: Inany tractor, use the type of fluid or fluids recommended in theoperator's manual (p. 56)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p056_img2.png"
+          "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p056_img2.png",
+          "workbook_diagram_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level."
         },
         {
           "sub_id": "4b",
@@ -1884,7 +1888,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Farm Mechanics Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p056_img2.png"
+      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p056_img2.png",
+      "workbook_diagram_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level."
     },
     {
       "req_id": "5",
@@ -2050,7 +2055,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Farm Mechanics Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p052_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p052_img1.png",
+      "workbook_diagram_caption": "A technician inspects electrical wiring and terminals on an engine to ensure conductivity."
     },
     {
       "req_id": "6",
@@ -2130,7 +2136,8 @@
           "pamphlet_excerpts": [
             "Tightening Hydraulic Fittings: Each step Principle 4: That iswhy you hearmechanics talkabout \"bleeding the air\" out ofbrake lines (p. 50)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p031_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p031_img1.png",
+          "workbook_diagram_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder."
         },
         {
           "sub_id": "6b",
@@ -2447,7 +2454,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Farm Mechanics Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p031_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p031_img1.png",
+      "workbook_diagram_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder."
     },
     {
       "req_id": "7",
@@ -2632,7 +2640,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Farm Mechanics Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p071_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p071_img1.png",
+      "workbook_diagram_caption": "A mechanic silhouette holding a wrench depicts labor in agricultural repair trades."
     }
   ],
   "badge_slug": "farm_mechanics",

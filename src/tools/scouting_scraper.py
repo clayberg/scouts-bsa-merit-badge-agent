@@ -198,6 +198,10 @@ class RequirementPoint(BaseModel):
         None,
         description="Optional reference diagram path or URL for Scout and Counselor workbooks."
     )
+    workbook_diagram_caption: Optional[str] = Field(
+        None,
+        description="Optional reference diagram caption matching the slide deck visual caption."
+    )
 
 
 class MeritBadgeResearchResult(BaseModel):
@@ -4236,6 +4240,8 @@ def enrich_requirement_point(
             "pamphlet_page_citation",
             "common_misconception_pair",
             "pamphlet_excerpts",
+            "workbook_diagram_url",
+            "workbook_diagram_caption",
         ):
             if not enriched.get(sr_meta_key) and matched_sub_r.get(sr_meta_key) is not None:
                 enriched[sr_meta_key] = matched_sub_r[sr_meta_key]
@@ -4258,6 +4264,8 @@ def enrich_requirement_point(
             "worked_example",
             "quiz_item",
             "safety_callout",
+            "workbook_diagram_url",
+            "workbook_diagram_caption",
         ):
             if not enriched.get(meta_key) and matched_off_r.get(meta_key) is not None:
                 enriched[meta_key] = matched_off_r[meta_key]
@@ -4413,6 +4421,14 @@ def enrich_requirement_point(
         diag_url = _resolve_workbook_diagram_url(badge_name, req_num, req_text)
         if diag_url:
             enriched["workbook_diagram_url"] = diag_url
+    if enriched.get("workbook_diagram_url"):
+        enriched["workbook_diagram_caption"] = _resolve_workbook_diagram_caption(
+            badge_name=badge_name,
+            req_num=req_num,
+            diagram_url=str(enriched.get("workbook_diagram_url") or ""),
+            explicit_caption=str(enriched.get("workbook_diagram_caption") or ""),
+            r_title=str(enriched.get("topic_title") or f"Requirement {req_num}"),
+        )
     return enriched
 
 
@@ -4523,6 +4539,7 @@ def _merge_curated_with_official_requirements(
                 "estimated_minutes",
                 "homework_verification_note",
                 "workbook_diagram_url",
+                "workbook_diagram_caption",
             ):
                 if off_r.get(extra_k) is not None and not m_req.get(extra_k):
                     m_req[extra_k] = off_r[extra_k]
@@ -5639,6 +5656,7 @@ def _sanitize_misconception_pair_runtime(
         # Repair unclosed parenthesis from truncated clause slices like '(with your.' or '(with your parent.'
         if "(" in val and ")" not in val:
             val = re.sub(r"\s*\([^)]*?(?=\s+using\s+verified|\.\s*$)", "", val)
+        val = val.replace("compress ions", "compressions")
         out[k] = val
     if not out.get("misconception") and out.get("myth"):
         out["misconception"] = out["myth"]
@@ -5649,6 +5667,112 @@ def _sanitize_misconception_pair_runtime(
 
 _NANO_WORKBOOK_DIAGRAM_CACHE: Optional[Dict[str, Any]] = None
 _PAMPHLET_BADGE_DIAGRAM_INDEX: Optional[Dict[str, List[str]]] = None
+_BADGE_IMAGE_CAPTION_INDEX: Optional[Dict[str, str]] = None
+
+
+def _get_badge_image_caption_index() -> Dict[str, str]:
+    """Builds an O(1) filename -> slide caption lookup across all 149 badge catalogs, Nano Banana catalog, and Pamphlet catalog."""
+    global _BADGE_IMAGE_CAPTION_INDEX
+    if _BADGE_IMAGE_CAPTION_INDEX is not None:
+        return _BADGE_IMAGE_CAPTION_INDEX
+    import json
+
+    idx: Dict[str, str] = {}
+    root_dir = Path(__file__).resolve().parents[2]
+    cat_dir = root_dir / "assets" / "badge_image_catalog"
+    if cat_dir.exists():
+        for cf in sorted(cat_dir.glob("*/catalog.json")):
+            try:
+                raw_cat = json.loads(cf.read_text(encoding="utf-8"))
+                items = raw_cat.get("images") if isinstance(raw_cat, dict) else raw_cat
+                for it in items or []:
+                    if not isinstance(it, dict):
+                        continue
+                    fn = Path(str(it.get("image_url") or it.get("image_path") or it.get("filename") or "")).name
+                    cap = str(it.get("caption") or it.get("description") or "").strip()
+                    if fn and cap and "Field reference diagram" not in cap and "Four-panel instructional diagram" not in cap:
+                        idx[fn] = cap
+            except Exception:
+                pass
+    try:
+        for _bname, bdata in (BENCHMARK_BADGES_DATA or {}).items():
+            for r_item in bdata.get("requirements") or []:
+                for ts in r_item.get("topic_slides") or []:
+                    if isinstance(ts, dict):
+                        fn = Path(str(ts.get("image_path") or ts.get("diagram_path") or "")).name
+                        cap = str(ts.get("caption") or ts.get("visual_caption") or "").strip()
+                        if fn and cap:
+                            idx[fn] = cap
+    except Exception:
+        pass
+    for cat_rel in ("data/nano_banana_image_catalog.json", "data/pamphlet_image_catalog.json"):
+        cpath = root_dir / cat_rel
+        if cpath.exists():
+            try:
+                cdata = json.loads(cpath.read_text(encoding="utf-8"))
+                if isinstance(cdata, dict):
+                    for fn, entry in cdata.items():
+                        if isinstance(entry, dict):
+                            cap = str(entry.get("caption") or entry.get("description") or "").strip()
+                            if fn and cap and (
+                                fn not in idx
+                                or "Field reference diagram" in idx[fn]
+                                or "Four-panel instructional diagram" in idx[fn]
+                            ):
+                                idx[fn] = cap
+            except Exception:
+                pass
+    _BADGE_IMAGE_CAPTION_INDEX = idx
+    return _BADGE_IMAGE_CAPTION_INDEX
+
+
+def _resolve_workbook_diagram_caption(
+    badge_name: str,
+    req_num: str,
+    diagram_url: str,
+    explicit_caption: str = "",
+    fallback_title: str = "",
+    r_title: str = "",
+) -> str:
+    """Resolves the exact slide deck image caption for a workbook diagram so workbooks never show generic 'Instructional Reference Diagram - Req X' text."""
+    from src.tools.pamphlet_extractor import strip_pamphlet_and_req_caption_prefixes
+
+    fallback_title = fallback_title or r_title
+
+    raw_u = str(diagram_url or "").strip()
+    if raw_u:
+        fname = Path(raw_u).name
+        cap_idx = _get_badge_image_caption_index()
+        cat_cap = cap_idx.get(fname, "")
+        if (
+            cat_cap
+            and "Field reference diagram" not in cat_cap
+            and "Four-panel instructional diagram" not in cat_cap
+        ):
+            cleaned = strip_pamphlet_and_req_caption_prefixes(cat_cap, badge_name)
+            if cleaned:
+                return cleaned
+
+    exp_c = str(explicit_caption or "").strip()
+    if (
+        exp_c
+        and not exp_c.lower().startswith("instructional reference diagram")
+        and "Field reference diagram" not in exp_c
+        and "Four-panel instructional diagram" not in exp_c
+    ):
+        return strip_pamphlet_and_req_caption_prefixes(exp_c, badge_name)
+
+    if raw_u:
+        fname = Path(raw_u).name
+        cap_idx = _get_badge_image_caption_index()
+        cat_cap = cap_idx.get(fname, "")
+        if cat_cap:
+            cleaned = strip_pamphlet_and_req_caption_prefixes(cat_cap, badge_name)
+            if cleaned:
+                return cleaned
+
+    clean_fb = strip_pamphlet_and_req_caption_prefixes(str(fallback_title or ""), badge_name)
+    return clean_fb or f"{badge_name} Requirement {req_num} Visual Reference"
 
 
 def _load_nano_workbook_diagram_catalog() -> Dict[str, Any]:
@@ -6383,8 +6507,20 @@ def _build_child_workbook_organizer(
 ) -> Dict[str, Any]:
     """Builds a child/grandchild workbook_organizer without blindly copying parent row_labels."""
     explicit_org = child_node.get("workbook_organizer")
+    parent_rows = list((parent_org or {}).get("row_labels") or [])
     if isinstance(explicit_org, dict) and explicit_org:
         base_org = dict(explicit_org)
+        if (
+            parent_rows
+            and list(base_org.get("row_labels") or []) == parent_rows
+            and child_text
+            and child_text.strip() != (parent_text or "").strip()
+        ):
+            derived_rows = _derive_clean_rows_from_req_text(child_id, child_text, child_verb)
+            if derived_rows:
+                base_org["row_labels"] = derived_rows
+                base_org["rows"] = list(derived_rows)
+                base_org["min_rows"] = len(derived_rows)
     else:
         p_type = str((parent_org or {}).get("organizer_type") or "RULED_EXPLAIN_BOX").upper()
         # Inherit specialized domain matrix headers only when appropriate; never inherit parent row_labels
@@ -6416,15 +6552,38 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
 
     Ensures:
     1. Every unrolled sub-requirement and child unit carries non-empty `pamphlet_excerpts`,
-       `common_misconception_pair`, `counselor_signoff_criteria`, and `workbook_diagram_url`.
-    2. Child/grandchild units never repeat a parent's generic multi-row table 49 times (e.g., Plant Science 8a(5)).
-    3. Up to 12 level-3 grandchildren (e.g., Athletics 5g(2)(a)..(h) including 'Top of the key') are consolidated
+       `counselor_signoff_criteria`, and `workbook_diagram_url` / `workbook_diagram_caption`.
+    2. `common_misconception_pair` is never duplicated across sub-requirements (`1a..1g`, `3a..3q`) or across the workbook.
+    3. Child/grandchild units never repeat a parent's or sibling's multi-row table.
+    4. Up to 12 level-3 grandchildren (e.g., Athletics 5g(2)(a)..(h) including 'Top of the key') are consolidated
        cleanly into the level-2 unit's rows and excerpts.
     """
     import re
 
     units: List[Dict[str, Any]] = []
     seen_diagrams: set = set()
+    seen_misconceptions: set = set()
+
+    def _claim_unique_misconception(
+        cand: Optional[Dict[str, Any]],
+        u_id: str,
+        u_text: str,
+        u_verb: str,
+        u_cit: str,
+    ) -> Dict[str, str]:
+        if not isinstance(cand, dict) or not cand:
+            return {}
+        san = _sanitize_misconception_pair_runtime(dict(cand), u_id, u_text, u_verb, u_cit)
+        myth_str = str(san.get("misconception") or san.get("myth") or "").strip()
+        fact_str = str(san.get("fact") or san.get("fact_correction") or "").strip()
+        if not myth_str or not fact_str:
+            return {}
+        norm_key = re.sub(r"\s+", " ", myth_str.lower())
+        if norm_key in seen_misconceptions:
+            return {}
+        seen_misconceptions.add(norm_key)
+        return {"misconception": myth_str, "fact": fact_str}
+
     for idx, r in enumerate(reqs or [], start=1):
         r_num = str(r.get("req_number") or r.get("req_id") or str(idx)).strip()
         r_title = str(r.get("topic_title") or r.get("title") or f"Requirement {r_num}").strip()
@@ -6443,14 +6602,13 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
         r_org = _sanitize_workbook_organizer_runtime(
             dict(r.get("workbook_organizer") or {}), r_num, r_text, r_verb, badge_name=badge_name
         )
-        r_mis = _sanitize_misconception_pair_runtime(
-            dict(r.get("common_misconception_pair") or {}), r_num, r_text, r_verb, r_cit
-        )
-        if not r_mis:
-            r_mis = {
+        raw_r_mis = dict(r.get("common_misconception_pair") or {})
+        if not raw_r_mis:
+            raw_r_mis = {
                 "misconception": f"Treating Requirement {r_num} as a quick checklist item without explaining the underlying BSA pamphlet principles.",
                 "fact": f"Each Scout must individually {r_verb.lower()} Requirement {r_num} ({r_title}) using verified facts from {r_cit}.",
             }
+        r_mis = _claim_unique_misconception(raw_r_mis, r_num, r_text, r_verb, r_cit)
         r_gate = r.get("starting_requirement_gate")
         _r_has_gear_context = (
             r_verb.lower() in ("demonstrate", "show", "build", "prepare", "assemble", "construct", "make")
@@ -6492,6 +6650,17 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 r_diag = ""
             elif r_diag:
                 seen_diagrams.add(r_diag)
+            r_diag_cap = (
+                _resolve_workbook_diagram_caption(
+                    badge_name,
+                    r_num,
+                    r_diag,
+                    str(r.get("workbook_diagram_caption") or ""),
+                    r_title,
+                )
+                if r_diag
+                else ""
+            )
             unit = dict(r)
             unit.update({
                 "is_group_header": False,
@@ -6514,6 +6683,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 "step_by_step_procedure": r_proc,
                 "counselor_signoff_criteria": r_signoff,
                 "workbook_diagram_url": r_diag,
+                "workbook_diagram_caption": r_diag_cap,
                 "safety_callout": r_safety,
             })
             units.append(unit)
@@ -6542,10 +6712,12 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             "step_by_step_procedure": r_proc,
             "counselor_signoff_criteria": r_signoff,
             "workbook_diagram_url": "",
+            "workbook_diagram_caption": "",
             "safety_callout": r_safety,
         })
 
         req_diag_emitted = False
+        seen_sr_row_tuples: set = set()
         for sr_idx, sr in enumerate(subs):
             sr_id = str(
                 sr.get("sub_id")
@@ -6561,8 +6733,9 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             sr_org = _build_child_workbook_organizer(
                 sr, sr_id, sr_text, sr_verb, r_org, r_text, badge_name=badge_name
             )
-            sr_mis = _sanitize_misconception_pair_runtime(
-                dict(sr.get("common_misconception_pair") or r_mis), sr_id, sr_text, sr_verb, sr_cit
+
+            sr_mis = _claim_unique_misconception(
+                sr.get("common_misconception_pair"), sr_id, sr_text, sr_verb, sr_cit
             )
             sr_gate = sr.get("starting_requirement_gate") or (r_gate if sr_idx == 0 else None)
             _sr_has_gear_context = (
@@ -6590,13 +6763,17 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 else []
             )
             sr_title = str(sr.get("topic_title") or sr.get("title") or f"{r_title} ({sr_id})").strip()
-            sr_excerpts = _clean_ocr_and_prefix_excerpts(
+            sr_own_excerpts = (
                 ([sr["pamphlet_summary"]] if sr.get("pamphlet_summary") else [])
                 + list(sr.get("pamphlet_excerpts") or [])
                 + ([f"Req {sr_id} Standard ({sr_cit}): {sr_text}"] if sr_text else [])
-                + r_excerpts[:2]
             )
-            sr_proc = _clean_ocr_and_prefix_excerpts(list(sr.get("step_by_step_procedure") or r_proc[:2]))
+            sr_excerpts = _clean_ocr_and_prefix_excerpts(
+                sr_own_excerpts if sr_own_excerpts else r_excerpts[:2]
+            )
+            sr_proc = _clean_ocr_and_prefix_excerpts(
+                list(sr.get("step_by_step_procedure") or (r_proc[:2] if sr_idx == 0 else []))
+            )
             sr_signoff = str(
                 sr.get("counselor_signoff_criteria")
                 or sr.get("homework_verification_note")
@@ -6628,6 +6805,22 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                     sr_org["rows"] = list(consolidated_rows)
                     sr_org["min_rows"] = len(consolidated_rows)
 
+            sr_row_tup = tuple(str(x).strip().lower() for x in (sr_org.get("row_labels") or []))
+            if len(sr_row_tup) >= 2 and sr_row_tup in seen_sr_row_tuples:
+                re_derived_sr = _derive_clean_rows_from_req_text(sr_id, sr_text, sr_verb)
+                cand_tup = tuple(str(x).strip().lower() for x in (re_derived_sr or []))
+                if re_derived_sr and cand_tup not in seen_sr_row_tuples:
+                    sr_org["row_labels"] = re_derived_sr
+                    sr_org["rows"] = list(re_derived_sr)
+                    sr_org["min_rows"] = len(re_derived_sr)
+                    sr_row_tup = cand_tup
+                else:
+                    prefixed_rows = [f"[Req {sr_id}] {x}" for x in (sr_org.get("row_labels") or [])]
+                    sr_org["row_labels"] = prefixed_rows
+                    sr_org["rows"] = list(prefixed_rows)
+                    sr_row_tup = tuple(str(x).strip().lower() for x in prefixed_rows)
+            seen_sr_row_tuples.add(sr_row_tup)
+
             sr_is_group_header = bool(children) and not children_are_short_condition_rows
             if sr_is_group_header or sr_diag in seen_diagrams:
                 sr_diag_emit = ""
@@ -6636,6 +6829,18 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 if sr_diag_emit:
                     seen_diagrams.add(sr_diag_emit)
                     req_diag_emitted = True
+
+            sr_diag_cap = (
+                _resolve_workbook_diagram_caption(
+                    badge_name,
+                    sr_id,
+                    sr_diag_emit,
+                    str(sr.get("workbook_diagram_caption") or r.get("workbook_diagram_caption") or ""),
+                    sr_title,
+                )
+                if sr_diag_emit
+                else ""
+            )
 
             units.append({
                 "is_group_header": sr_is_group_header,
@@ -6659,12 +6864,14 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 "step_by_step_procedure": sr_proc,
                 "counselor_signoff_criteria": sr_signoff,
                 "workbook_diagram_url": sr_diag_emit,
+                "workbook_diagram_caption": sr_diag_cap,
                 "safety_callout": r_safety if sr_idx == 0 else None,
             })
 
             if children_are_short_condition_rows:
                 continue
 
+            seen_ch_row_tuples: set = set()
             for ch_idx, ch in enumerate(children, start=1):
                 raw_ch_id = str(
                     ch.get("sub_id")
@@ -6688,8 +6895,8 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 ch_org = _build_child_workbook_organizer(
                     ch, ch_id, ch_text, ch_verb, sr_org, sr_text, badge_name=badge_name
                 )
-                ch_mis = _sanitize_misconception_pair_runtime(
-                    dict(ch.get("common_misconception_pair") or sr_mis), ch_id, ch_text, ch_verb, ch_cit
+                ch_mis = _claim_unique_misconception(
+                    ch.get("common_misconception_pair"), ch_id, ch_text, ch_verb, ch_cit
                 )
                 ch_gate = ch.get("starting_requirement_gate")
                 ch_gear = (
@@ -6719,13 +6926,27 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                         if gch_joined and gch_joined not in ch_text:
                             ch_text = f"{ch_text} {gch_joined}".strip()
 
-                ch_excerpts = _clean_ocr_and_prefix_excerpts(
+                ch_row_tup = tuple(str(x).strip().lower() for x in (ch_org.get("row_labels") or []))
+                if len(ch_row_tup) >= 2 and ch_row_tup in seen_ch_row_tuples and ch_text:
+                    re_derived_ch = _derive_clean_rows_from_req_text(ch_id, ch_text, ch_verb)
+                    if re_derived_ch:
+                        ch_org["row_labels"] = re_derived_ch
+                        ch_org["rows"] = list(re_derived_ch)
+                        ch_org["min_rows"] = len(re_derived_ch)
+                        ch_row_tup = tuple(str(x).strip().lower() for x in re_derived_ch)
+                seen_ch_row_tuples.add(ch_row_tup)
+
+                ch_own_excerpts = (
                     ([ch["pamphlet_summary"]] if ch.get("pamphlet_summary") else [])
                     + list(ch.get("pamphlet_excerpts") or [])
                     + ([f"Req {ch_id} Standard ({ch_cit}): {ch_text}"] if ch_text else [])
-                    + sr_excerpts[:2]
                 )
-                ch_proc = _clean_ocr_and_prefix_excerpts(list(ch.get("step_by_step_procedure") or sr_proc[:2]))
+                ch_excerpts = _clean_ocr_and_prefix_excerpts(
+                    ch_own_excerpts if ch_own_excerpts else sr_excerpts[:2]
+                )
+                ch_proc = _clean_ocr_and_prefix_excerpts(
+                    list(ch.get("step_by_step_procedure") or (sr_proc[:2] if ch_idx == 1 else []))
+                )
                 ch_signoff = str(
                     ch.get("counselor_signoff_criteria")
                     or ch.get("homework_verification_note")
@@ -6742,6 +6963,18 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 elif ch_diag:
                     seen_diagrams.add(ch_diag)
                     req_diag_emitted = True
+
+                ch_diag_cap = (
+                    _resolve_workbook_diagram_caption(
+                        badge_name,
+                        ch_id,
+                        ch_diag,
+                        str(ch.get("workbook_diagram_caption") or sr.get("workbook_diagram_caption") or r.get("workbook_diagram_caption") or ""),
+                        ch_title,
+                    )
+                    if ch_diag
+                    else ""
+                )
 
                 units.append({
                     "is_group_header": False,
@@ -6765,6 +6998,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                     "step_by_step_procedure": ch_proc,
                     "counselor_signoff_criteria": ch_signoff,
                     "workbook_diagram_url": ch_diag,
+                    "workbook_diagram_caption": ch_diag_cap,
                     "safety_callout": None,
                 })
 
@@ -6934,6 +7168,10 @@ def generate_counselor_workbook_markdown(
             if isinstance(gate, dict) and gate.get("gate_label"):
                 g_lbl = _format_starting_gate_label(gate.get("gate_type", "GATE"))
                 lines.append(f"> **Starting Gate ({g_lbl}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
+            grp_mis = u.get("common_misconception_pair") or {}
+            if isinstance(grp_mis, dict) and grp_mis.get("misconception") and grp_mis.get("fact"):
+                lines.append(f"- **Common Myth:** {grp_mis['misconception']}")
+                lines.append(f"- **Pamphlet Fact:** {grp_mis['fact']}")
             excerpts = u.get("pamphlet_excerpts") or []
             if excerpts:
                 lines.append("")
@@ -6969,8 +7207,15 @@ def generate_counselor_workbook_markdown(
                 lines.append(f"- [ ] {gi}")
         md_diag_url = str(u.get("workbook_diagram_url") or "").strip().lstrip("/")
         if md_diag_url:
+            md_diag_cap = str(u.get("workbook_diagram_caption") or "").strip() or _resolve_workbook_diagram_caption(
+                badge_name=badge_name,
+                req_num=u_num,
+                diagram_url=md_diag_url,
+                explicit_caption="",
+                r_title=clean_md_topic,
+            )
             lines.append("")
-            lines.append(f"![Instructional Reference Diagram - Req {u_num}: {clean_md_topic}](/{md_diag_url})")
+            lines.append(f"![{md_diag_cap}](/{md_diag_url})")
         if isinstance(org, dict) and (org.get("headers") or org.get("column_headers")):
             headers = org.get("headers") or org.get("column_headers") or ["Sub-Part / Step", "Scout Notes & Field Evidence"]
             row_labels = org.get("row_labels") or ["Row 1", "Row 2", "Row 3"]
@@ -7076,6 +7321,15 @@ def generate_fillable_scout_workbook_html(
         org_display_label = _html.escape(_format_workbook_organizer_label(org_type_raw))
 
         if u.get("is_group_header"):
+            grp_mis = u.get("common_misconception_pair") or {}
+            grp_mis_html = ""
+            if isinstance(grp_mis, dict) and grp_mis.get("misconception") and grp_mis.get("fact"):
+                grp_mis_html = (
+                    '<div class="wb-misconception-strip" style="margin-top:8px; margin-bottom:2px;">'
+                    f'<span class="wb-myth"><strong>Common Myth:</strong> {_html.escape(str(grp_mis["misconception"]))}</span> '
+                    f'<span class="wb-fact"><strong>Pamphlet Fact:</strong> {_html.escape(str(grp_mis["fact"]))}</span>'
+                    "</div>"
+                )
             req_sections_html.append(
                 f"""
                 <div class="wb-group-header" data-req-group="{r_num}" data-organizer-type="{org_type}" style="background:#e0f2fe; border-left:5px solid #003f87; padding:10px 14px; border-radius:6px; margin:16px 0 10px 0;">
@@ -7090,6 +7344,7 @@ def generate_fillable_scout_workbook_html(
                     </div>
                   </div>
                   <p style="margin:6px 0 0 0; font-size:12px; color:#1e293b;">{r_text}</p>
+                  {grp_mis_html}
                 </div>
                 """
             )
@@ -7122,11 +7377,17 @@ def generate_fillable_scout_workbook_html(
                 f"{chk_items}</div>"
             )
 
+        r_verb_low = str(u.get("action_verb") or "Explain").strip().lower()
+        if len(row_labels) == 1:
+            cell_min_h_px = 96 if (r_verb_low in ("explain", "discuss", "describe", "tell", "compare", "contrast") or len(headers) >= 3) else 76
+        else:
+            cell_min_h_px = 48
+
         th_cells = "".join(f"<th>{_html.escape(h)}</th>" for h in headers)
         tbody_rows: List[str] = []
         for rl in row_labels:
             editable_cells = "".join(
-                '<td class="wb-fillable-cell" contenteditable="true">&nbsp;</td>'
+                f'<td class="wb-fillable-cell" contenteditable="true" data-min-height-px="{cell_min_h_px}" style="min-height:{cell_min_h_px}px;"><div class="wb-fillable-editor" style="min-height:{cell_min_h_px}px;">&nbsp;</div></td>'
                 for _ in headers[1:]
             )
             tbody_rows.append(f"<tr><td class='wb-row-label'><strong>{_html.escape(rl)}</strong></td>{editable_cells}</tr>")
@@ -7154,7 +7415,14 @@ def generate_fillable_scout_workbook_html(
                 if not diag_url_raw.startswith(("http://", "https://", "/"))
                 else _html.escape(diag_url_raw)
             )
-            diag_caption_str = f"Instructional Reference Diagram - Req {r_num}: {r_title}"
+            raw_diag_caption = str(u.get("workbook_diagram_caption") or "").strip() or _resolve_workbook_diagram_caption(
+                badge_name=resolved_badge,
+                req_num=r_num_raw,
+                diagram_url=diag_url_raw,
+                explicit_caption="",
+                r_title=clean_r_title,
+            )
+            diag_caption_str = _html.escape(raw_diag_caption)
             diag_html = (
                 f'<figure class="wb-reference-diagram" data-diagram-url="{_html.escape(diag_url_raw)}" '
                 'onclick="if(window.openWorkbookImageZoom){var im=this.querySelector(\'img\'),fc=this.querySelector(\'figcaption\');if(im)window.openWorkbookImageZoom(im.src,fc?fc.textContent:im.alt);}else if(window.openWbStandaloneLightbox){window.openWbStandaloneLightbox(this);}" '
@@ -7336,7 +7604,8 @@ def generate_fillable_scout_workbook_html(
     .wb-organizer-table th {{ background: #003f87; color: #fff; text-align: left; padding: 6px 8px; border: 1px solid #003f87; }}
     .wb-organizer-table td {{ border: 1px solid #94a3b8; padding: 8px; vertical-align: top; }}
     .wb-row-label {{ width: 28%; background: #f8fafc; }}
-    .wb-fillable-cell {{ min-height: 28px; background: #ffffff; }}
+    .wb-fillable-cell {{ min-height: 48px; background: #ffffff; padding: 6px 8px; vertical-align: top; }}
+    .wb-fillable-editor {{ width: 100%; min-height: 48px; line-height: 24px; background-image: repeating-linear-gradient(to bottom, transparent 0px, transparent 23px, #e2e8f0 23px, #e2e8f0 24px); outline: none; }}
     .wb-signoff-strip {{ display: flex; justify-content: space-between; font-size: 11px; color: #475569; padding-top: 4px; }}
     @media print {{ body {{ margin: 0.4in; }} .no-print {{ display: none !important; }} }}
   </style>

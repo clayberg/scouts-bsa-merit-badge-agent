@@ -1691,11 +1691,13 @@ def _draw_pdf_workbook_diagram_card(
     r_title: str,
     diagram_url: str,
     max_y: float = 746.0,
+    diagram_caption: str = "",
 ) -> Tuple[Any, float]:
     """Hydrates and embeds a compact instructional reference diagram card right above a workbook requirement table."""
     import fitz
     from pathlib import Path
     from src.config import ASSETS_DIR
+    from src.tools.scouting_scraper import _resolve_workbook_diagram_caption
 
     raw_url = str(diagram_url or "").strip()
     if not raw_url:
@@ -1734,10 +1736,19 @@ def _draw_pdf_workbook_diagram_card(
         card_rect = fitz.Rect(32.0, y_cursor, 580.0, y_cursor + card_h)
         page.draw_rect(card_rect, color=(0.68, 0.78, 0.90), fill=(0.97, 0.985, 1.0), width=0.9)
         clean_diag_title = re.sub(r"^Req(?:uirement)?\s+[0-9a-zA-Z().\-]+\s*[:\-]\s*", "", str(r_title), flags=re.IGNORECASE).strip() or r_title
+        resolved_cap = str(diagram_caption or "").strip() or _resolve_workbook_diagram_caption(
+            badge_name=badge_name,
+            req_num=r_num,
+            diagram_url=raw_url,
+            explicit_caption="",
+            r_title=clean_diag_title,
+        )
+        if len(resolved_cap) > 108:
+            resolved_cap = resolved_cap[:105].rsplit(" ", 1)[0] + "..."
         page.insert_text(
             fitz.Point(38.0, y_cursor + 11.5),
-            _sanitize_pdf_text(f"Reference Diagram (Req {r_num} - {clean_diag_title}): Use this visual reference to complete the organizer below:"),
-            fontsize=7.5,
+            _sanitize_pdf_text(f"Figure (Req {r_num}): {resolved_cap}"),
+            fontsize=7.3,
             fontname="helv",
             color=(0.0, 0.22, 0.48),
         )
@@ -2082,9 +2093,34 @@ def generate_fillable_scout_workbook_pdf(
                 fontname="helv",
                 color=(0.08, 0.12, 0.18),
             )
+            grp_myth_val = str(mis_pair.get("misconception") or mis_pair.get("myth") or "").strip() if isinstance(mis_pair, dict) else ""
+            grp_fact_val = str(mis_pair.get("fact") or mis_pair.get("fact_correction") or "").strip() if isinstance(mis_pair, dict) else ""
+            if grp_myth_val and grp_fact_val:
+                page, y_cursor = _insert_wrapped_pdf_text(
+                    doc,
+                    page,
+                    y_cursor,
+                    32.0,
+                    580.0,
+                    f"Common Misconception: {grp_myth_val}  |  Pamphlet Fact: {grp_fact_val}",
+                    fontsize=7.2,
+                    fontname="helv",
+                    color=(0.32, 0.22, 0.04),
+                    bg_fill=(1.0, 0.99, 0.94),
+                    border_color=(0.90, 0.78, 0.38),
+                    left_stripe_color=(0.85, 0.55, 0.05),
+                    pad_y=2.5,
+                )
             if diagram_url:
                 page, y_cursor = _draw_pdf_workbook_diagram_card(
-                    doc, page, y_cursor, resolved_badge, r_num, r_title, diagram_url
+                    doc,
+                    page,
+                    y_cursor,
+                    resolved_badge,
+                    r_num,
+                    r_title,
+                    diagram_url,
+                    diagram_caption=str(u.get("workbook_diagram_caption") or ""),
                 )
             y_cursor += 4.0
             continue
@@ -2233,7 +2269,14 @@ def generate_fillable_scout_workbook_pdf(
         # Instructional Reference Diagram Card right above organizer table (Deliverable 7)
         if diagram_url:
             page, y_cursor = _draw_pdf_workbook_diagram_card(
-                doc, page, y_cursor, resolved_badge, r_num, r_title, diagram_url
+                doc,
+                page,
+                y_cursor,
+                resolved_badge,
+                r_num,
+                r_title,
+                diagram_url,
+                diagram_caption=str(u.get("workbook_diagram_caption") or ""),
             )
 
         # Sketch & Observation Canvas (dot-grid / astronomy circle canvas)
@@ -2305,10 +2348,16 @@ def generate_fillable_scout_workbook_pdf(
             is_continuation=False,
         )
 
+        r_verb_low = str(u.get("action_verb") or "Explain").strip().lower()
+        if len(row_labels) == 1:
+            base_row_min_h = 80.0 if (r_verb_low in ("explain", "discuss", "describe", "tell", "compare", "contrast") or len(headers) >= 3) else 66.0
+        else:
+            base_row_min_h = 42.0
+
         for r_idx, rl in enumerate(row_labels, start=1):
             clean_rl = re.sub(r"^\s*\d+[.)]\s*", "", str(rl)).strip()
             label_lines = _wrap_pdf_lines(f"{r_idx}. {clean_rl}", 148.0, fontname="helv", fontsize=7.2) or [f"{r_idx}."]
-            row_h = max(36.0, len(label_lines) * 9.5 + 8.0)
+            row_h = max(base_row_min_h, len(label_lines) * 9.5 + 10.0)
             if y_cursor + row_h > 746.0:
                 page = doc.new_page(width=612, height=792)
                 y_cursor = 36.0
@@ -2335,12 +2384,13 @@ def generate_fillable_scout_workbook_pdf(
                 row_shape.draw_rect(fitz.Rect(cx0, row_y0, cx1, row_y0 + row_h))
             row_shape.finish(color=(0.78, 0.83, 0.90), fill=(1.0, 1.0, 1.0))
 
-            # Faint horizontal dashed handwriting guide line (#CBD5E1) across the middle of each 36pt+ input cell
-            guide_y = row_y0 + row_h * 0.52
-            for c_idx in range(input_cols):
-                cx0 = input_region_x0 + c_idx * col_w
-                cx1 = input_region_x0 + (c_idx + 1) * col_w
-                row_shape.draw_line(fitz.Point(cx0 + 4.0, guide_y), fitz.Point(cx1 - 4.0, guide_y))
+            # Faint horizontal dashed handwriting guide lines (#CBD5E1) spaced every 18pt across each input cell
+            for gy_offset in range(18, int(row_h) - 6, 18):
+                guide_y = row_y0 + float(gy_offset)
+                for c_idx in range(input_cols):
+                    cx0 = input_region_x0 + c_idx * col_w
+                    cx1 = input_region_x0 + (c_idx + 1) * col_w
+                    row_shape.draw_line(fitz.Point(cx0 + 4.0, guide_y), fitz.Point(cx1 - 4.0, guide_y))
             row_shape.finish(color=(0.796, 0.835, 0.882), width=0.5, dashes="[4 4] 0")
 
             for l_i, l_str in enumerate(label_lines):

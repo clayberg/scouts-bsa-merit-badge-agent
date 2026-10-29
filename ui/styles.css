@@ -10558,6 +10558,22 @@ body.dark-mode .workbook-view-segmented-control {
   margin-top: 5px;
 }
 
+.m3-fillable-workbook-embed .wb-fillable-cell,
+.wb-fillable-cell {
+  min-height: 48px;
+  background: #FFFFFF;
+  vertical-align: top;
+}
+
+.m3-fillable-workbook-embed .wb-fillable-editor,
+.wb-fillable-editor {
+  width: 100%;
+  min-height: 48px;
+  line-height: 24px;
+  background-image: repeating-linear-gradient(to bottom, transparent 0px, transparent 23px, #E2E8F0 23px, #E2E8F0 24px);
+  outline: none;
+}
+
 /* Item 5 & 6: Template Studio Segmented Tab Bar, Variant Pills, & Schedule Builder */
 .m3-tpl-studio-tab-btn.active {
   background: var(--md-sys-color-primary, #003F87) !important;

@@ -57,14 +57,7 @@
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)",
-          "common_misconception_pair": {
-            "misconception": "Immediately open the bolt to eject the cartridge and inspect the firing pin indent.",
-            "fact": "Keep the rifle muzzle pointed safely downrange, raise your non-shooting hand to notify the Range Safety Officer, and wait at least 30 seconds before opening the action in case of a hangfire.",
-            "fact_correction": "Keep the rifle muzzle pointed safely downrange, raise your non-shooting hand to notify the Range Safety Officer, and wait at least 30 seconds before opening the action in case of a hangfire.",
-            "pamphlet_page_ref": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)",
-            "myth": "Immediately open the bolt to eject the cartridge and inspect the firing pin indent.",
-            "correction": "Keep the rifle muzzle pointed safely downrange, raise your non-shooting hand to notify the Range Safety Officer, and wait at least 30 seconds before opening the action in case of a hangfire."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": null,
           "curated_resources": [
             {
@@ -89,12 +82,14 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations.",
-          "topic_title": "Req 1a: Projectile Is and Why Any",
+          "topic_title": "Req 1a: Projectile Is and Why Any Device",
           "pamphlet_summary": "Projectile Is and Why: Projectile Safety, Range Rules & Wildlife Principle 3: It is critically important to learn andpractice all of the rifle safety rules (p. 17).",
           "pamphlet_excerpts": [
             "Projectile Is and Why: Projectile Safety, Range Rules & Wildlife Principle 3: It is critically important to learn andpractice all of the rifle safety rules (p. 17)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/rifle_shooting_p003_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/rifle_shooting_p003_img1.png",
+          "title": "Req 1a: Projectile Is and Why Any Device",
+          "workbook_diagram_caption": "Field reference diagram showing Rifle Shooting Requirement 1 equipment, technique, and verification milestones for Rifle Shooting Requirement 1 (img1)."
         },
         {
           "sub_id": "1b",
@@ -234,12 +229,13 @@
           "id": "1c",
           "sub_req_label": "1c",
           "sub_req_text": "Describe how you would react if a friend visiting your home asked to see your or your family's firearm.",
-          "topic_title": "Req 1c: You Would React If A",
+          "topic_title": "Req 1c: React If a Friend Visiting Your Home",
           "pamphlet_summary": "You Would React: Projectile Safety, Range Rules & Wildlife: In marksmanship, nothing is more important than safety (p. 17).",
           "pamphlet_excerpts": [
             "You Would React: Projectile Safety, Range Rules & Wildlife: In marksmanship, nothing is more important than safety (p. 17)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 1c: React If a Friend Visiting Your Home"
         },
         {
           "sub_id": "1d",
@@ -443,12 +439,13 @@
           "id": "1f",
           "sub_req_label": "1f",
           "sub_req_text": "Explain how hunting is related to the wise use of renewable wildlife resources.",
-          "topic_title": "Req 1f: Hunting Is Related to The",
+          "topic_title": "Req 1f: Hunting Is Related to the Wise Use",
           "pamphlet_summary": "Rifle Shooting Applied Field Standard: Hunting Is Related: Projectile Safety, Range Rules & Wildlife Principle 4: When handled correctly and used properly, a rifle is notdangerous (p. 17).",
           "pamphlet_excerpts": [
             "Rifle Shooting Applied Field Standard: Hunting Is Related: Projectile Safety, Range Rules & Wildlife Principle 4: When handled correctly and used properly, a rifle is notdangerous (p. 17)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 1f: Hunting Is Related to the Wise Use"
         },
         {
           "sub_id": "1g",
@@ -791,12 +788,13 @@
           "id": "1i",
           "sub_req_label": "1i",
           "sub_req_text": "Identify places in your community where you can join or be a part of range and target activities.",
-          "topic_title": "Req 1i: Places in Your Community Where",
+          "topic_title": "Req 1i: Places in Your Community Where You",
           "pamphlet_summary": "Places in Your Community: Projectile Safety, Range Rules & Wildlife Principle 3: It is critically important to learn andpractice all of the rifle safety rules (p. 17).",
           "pamphlet_excerpts": [
             "Places in Your Community: Projectile Safety, Range Rules & Wildlife Principle 3: It is critically important to learn andpractice all of the rifle safety rules (p. 17)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 1i: Places in Your Community Where You"
         },
         {
           "sub_id": "1j",
@@ -1057,7 +1055,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Rifle Shooting Workbook organizer table and practical demonstration for Req 1.",
-      "workbook_diagram_url": "assets/pamphlet_images/rifle_shooting_p003_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/rifle_shooting_req_1_nano_hero.png",
+      "workbook_diagram_caption": "Instructional charts demonstrate proper sight alignment, steady grip positions, and prone rifle shooting fundamentals."
     },
     {
       "req_id": "2",
@@ -1300,12 +1299,13 @@
               "id": "2a(3)",
               "sub_req_label": "2a(3)",
               "sub_req_text": "Identify the two types of cartridges, their parts, and how they function.",
-              "topic_title": "Req 2a(3): Cartridges Their Parts and How",
+              "topic_title": "Req 2a(3): Two Types of Cartridges Their Parts",
               "pamphlet_summary": "Types of Cartridges Their Parts: Two Types of Cartridges: Historical Origins and Evolution Principle 4: The objective of shooting is to place all your shots in one hole or get them asclose together as possible (p. 19).",
               "pamphlet_excerpts": [
                 "Types of Cartridges Their Parts: Two Types of Cartridges: Historical Origins and Evolution Principle 4: The objective of shooting is to place all your shots in one hole or get them asclose together as possible (p. 19)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "",
+              "title": "Req 2a(3): Two Types of Cartridges Their Parts"
             },
             {
               "sub_id": "2a(4)",
@@ -1404,14 +1404,7 @@
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)",
-              "common_misconception_pair": {
-                "misconception": "Performing Requirement 2a.",
-                "fact": "Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through.",
-                "fact_correction": "Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through.",
-                "pamphlet_page_ref": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)",
-                "myth": "Performing Requirement 2a.",
-                "correction": "Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through."
-              },
+              "common_misconception_pair": {},
               "starting_requirement_gate": null,
               "curated_resources": [
                 {
@@ -1708,12 +1701,13 @@
               "id": "2a(9)",
               "sub_req_label": "2a(9)",
               "sub_req_text": "Discuss what points you would consider in selecting a rifle.",
-              "topic_title": "Req 2a(9): Discuss What Points You Would",
+              "topic_title": "Req 2a(9): Points You Would Consider in Selecting",
               "pamphlet_summary": "Points You Would Consider: Historical Origins and Evolution Principle 2: The gun, the targets, and the distancesvary in the options offered for the cartridge rifle, the air rifle, and the muzzleloader (p. 19).",
               "pamphlet_excerpts": [
                 "Points You Would Consider: Historical Origins and Evolution Principle 2: The gun, the targets, and the distancesvary in the options offered for the cartridge rifle, the air rifle, and the muzzleloader (p. 19)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "",
+              "title": "Req 2a(9): Points You Would Consider in Selecting"
             },
             {
               "sub_id": "2a(10)",
@@ -1778,12 +1772,13 @@
               "id": "2a(10)",
               "sub_req_label": "2a(10)",
               "sub_req_text": "Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle.",
-              "topic_title": "Req 2a(10): Bolt-action.22 Caliber Rimfire Rifle and",
+              "topic_title": "Req 2a(10): Using a Bolt-action",
               "pamphlet_summary": "Using A Bolt-action: Historical Origins and Evolution Principle 2: The gun, the targets, and the distancesvary in the options offered for the cartridge rifle, the air rifle, and the muzzleloader (p. 19).",
               "pamphlet_excerpts": [
                 "Using A Bolt-action: Historical Origins and Evolution Principle 2: The gun, the targets, and the distancesvary in the options offered for the cartridge rifle, the air rifle, and the muzzleloader (p. 19)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "",
+              "title": "Req 2a(10): Using a Bolt-action"
             },
             {
               "sub_id": "2a(11)",
@@ -1934,7 +1929,8 @@
           "pamphlet_excerpts": [
             "Option A Rifle Shooting Modern: Historical Origins and Evolution Principle 4: The objective of shooting is to place all your shots in one hole or get them asclose together as possible (p. 19)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/rifle_shooting_p007_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/rifle_shooting_p007_img1.png",
+          "workbook_diagram_caption": "Field reference diagram showing Rifle Shooting Requirement 2 equipment, technique, and verification milestones for Rifle Shooting Requirement 2 (img1)."
         },
         {
           "sub_id": "2b",
@@ -2185,14 +2181,7 @@
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)",
-              "common_misconception_pair": {
-                "misconception": "Performing Requirement 2b.",
-                "fact": "Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through.",
-                "fact_correction": "Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through.",
-                "pamphlet_page_ref": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)",
-                "myth": "Performing Requirement 2b.",
-                "correction": "Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through."
-              },
+              "common_misconception_pair": {},
               "starting_requirement_gate": null,
               "curated_resources": [
                 {
@@ -2321,14 +2310,7 @@
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)",
-              "common_misconception_pair": {
-                "misconception": "Protective equipment checks and hazard mitigation in Rifle Shooting are only needed during severe weather or unfamiliar locations.",
-                "fact": "Every Rifle Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: For Rifle Shooting 2b(6) (The basic safety rules for cleaning), Scouts apply: Explain the basic safety rules for cleaning an air rifle.",
-                "fact_correction": "Every Rifle Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: For Rifle Shooting 2b(6) (The basic safety rules for cleaning), Scouts apply: Explain the basic safety rules for cleaning an air rifle.",
-                "pamphlet_page_ref": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)",
-                "myth": "Protective equipment checks and hazard mitigation in Rifle Shooting are only needed during severe weather or unfamiliar locations.",
-                "correction": "Every Rifle Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: For Rifle Shooting 2b(6) (The basic safety rules for cleaning), Scouts apply: Explain the basic safety rules for cleaning an air rifle."
-              },
+              "common_misconception_pair": {},
               "starting_requirement_gate": null,
               "curated_resources": [
                 {
@@ -2489,12 +2471,13 @@
               "id": "2b(8)",
               "sub_req_label": "2b(8)",
               "sub_req_text": "Discuss what points you would consider in selecting an air rifle.",
-              "topic_title": "Req 2b(8): Discuss What Points You Would",
+              "topic_title": "Req 2b(8): Points You Would Consider in Selecting",
               "pamphlet_summary": "Points You Would Consider: Historical Origins and Evolution Principle 2: The gun, the targets, and the distancesvary in the options offered for the cartridge rifle, the air rifle, and the muzzleloader (p. 19).",
               "pamphlet_excerpts": [
                 "Points You Would Consider: Historical Origins and Evolution Principle 2: The gun, the targets, and the distancesvary in the options offered for the cartridge rifle, the air rifle, and the muzzleloader (p. 19)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "",
+              "title": "Req 2b(8): Points You Would Consider in Selecting"
             },
             {
               "sub_id": "2b(9)",
@@ -2557,12 +2540,13 @@
               "id": "2b(9)",
               "sub_req_label": "2b(9)",
               "sub_req_text": "Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter.",
-              "topic_title": "Req 2b(9): Gun or Pellet Rifle and",
+              "topic_title": "Req 2b(9): Using a BB Gun or Pellet Rifle",
               "pamphlet_summary": "Using A BB Gun: Historical Origins and Evolution Principle 3: All shooting required for this merit badge is done from thesupported benchrest or supported prone position (p. 19).",
               "pamphlet_excerpts": [
                 "Using A BB Gun: Historical Origins and Evolution Principle 3: All shooting required for this merit badge is done from thesupported benchrest or supported prone position (p. 19)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "",
+              "title": "Req 2b(9): Using a BB Gun or Pellet Rifle"
             },
             {
               "sub_id": "2b(10)",
@@ -2708,12 +2692,13 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following: (1) Identify the three main parts of an air rifle, and explain how they function. (2) Identify and demonstrate the rules for safely storing and handling an air rifle. (3) Identify the two most common types of air rifle ammunition. (4) Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through. (5) Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands. (6) Explain the basic safety rules for cleaning an air rifle, and identify the materials needed. (7) Demonstrate how to clean an air rifle properly and safely. (8) Discuss what points you would consider in selecting an air rifle. (9) Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter. (10) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6. Note: Other suitable NRA targets may be used if the specified targets are unavailable.",
-          "topic_title": "Req 2b: Air Rifle Shooting BB or",
+          "topic_title": "Req 2b: Option B Air Rifle Shooting",
           "pamphlet_summary": "Option B Air Rifle Shooting: Historical Origins and Evolution: When you have answered the questions and done the demonstrations called for in the requirements, you are ready for your shooting to be scored (p. 19).",
           "pamphlet_excerpts": [
             "Option B Air Rifle Shooting: Historical Origins and Evolution: When you have answered the questions and done the demonstrations called for in the requirements, you are ready for your shooting to be scored (p. 19)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 2b: Option B Air Rifle Shooting"
         },
         {
           "sub_id": "2c",
@@ -3391,14 +3376,7 @@
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)",
-              "common_misconception_pair": {
-                "misconception": "Protective equipment checks and hazard mitigation in Rifle Shooting are only needed during severe weather or unfamiliar locations.",
-                "fact": "Every Rifle Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: For Rifle Shooting 2c(10) (The basic safety rules for cleaning), Scouts apply: Explain the basic safety rules for cleaning a muzzle loading rifle.",
-                "fact_correction": "Every Rifle Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: For Rifle Shooting 2c(10) (The basic safety rules for cleaning), Scouts apply: Explain the basic safety rules for cleaning a muzzle loading rifle.",
-                "pamphlet_page_ref": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)",
-                "myth": "Protective equipment checks and hazard mitigation in Rifle Shooting are only needed during severe weather or unfamiliar locations.",
-                "correction": "Every Rifle Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: For Rifle Shooting 2c(10) (The basic safety rules for cleaning), Scouts apply: Explain the basic safety rules for cleaning a muzzle loading rifle."
-              },
+              "common_misconception_pair": {},
               "starting_requirement_gate": null,
               "curated_resources": [
                 {
@@ -3559,12 +3537,13 @@
               "id": "2c(12)",
               "sub_req_label": "2c(12)",
               "sub_req_text": "Discuss what points you would consider in selecting a muzzleloading rifle.",
-              "topic_title": "Req 2c(12): Discuss What Points You Would",
+              "topic_title": "Req 2c(12): Points You Would Consider in Selecting",
               "pamphlet_summary": "Points You Would Consider: Historical Origins and Evolution Principle 2: The gun, the targets, and the distancesvary in the options offered for the cartridge rifle, the air rifle, and the muzzleloader (p. 19).",
               "pamphlet_excerpts": [
                 "Points You Would Consider: Historical Origins and Evolution Principle 2: The gun, the targets, and the distancesvary in the options offered for the cartridge rifle, the air rifle, and the muzzleloader (p. 19)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "",
+              "title": "Req 2c(12): Points You Would Consider in Selecting"
             },
             {
               "sub_id": "2c(13)",
@@ -3746,14 +3725,7 @@
             "min_rows": 8
           },
           "pamphlet_page_citation": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)",
-          "common_misconception_pair": {
-            "misconception": "Protective equipment checks and hazard mitigation in Rifle Shooting are only needed during severe weather or unfamiliar locations.",
-            "fact": "Every Rifle Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: The gun, the targets, and the distances vary in the options offered for the cartridge rifle, the air rifle, and the muzzle loader.",
-            "fact_correction": "Every Rifle Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: The gun, the targets, and the distances vary in the options offered for the cartridge rifle, the air rifle, and the muzzle loader.",
-            "pamphlet_page_ref": "Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)",
-            "myth": "Protective equipment checks and hazard mitigation in Rifle Shooting are only needed during severe weather or unfamiliar locations.",
-            "correction": "Every Rifle Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: The gun, the targets, and the distances vary in the options offered for the cartridge rifle, the air rifle, and the muzzle loader."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": null,
           "curated_resources": [
             {
@@ -3998,7 +3970,8 @@
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Rifle Shooting Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/rifle_shooting_p007_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/rifle_shooting_req_2_nano_hero.png",
+      "workbook_diagram_caption": "A shooting sports instructor and smiling Scout evaluate target accuracy results on an outdoor firing range."
     },
     {
       "req_id": "3",
@@ -4162,7 +4135,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Rifle Shooting Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": "assets/pamphlet_images/rifle_shooting_p012_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/rifle_shooting_req_3_nano_hero.png",
+      "workbook_diagram_caption": "A Scout aims a rifle downrange while a range safety officer and fellow Scout observe."
     }
   ],
   "badge_slug": "rifle_shooting",

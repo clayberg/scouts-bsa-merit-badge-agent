@@ -53,14 +53,7 @@
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)",
-          "common_misconception_pair": {
-            "misconception": "A 20-gauge shell has a wider brass rim that refuses to enter a 12-gauge receiver.",
-            "fact": "A 20-gauge shell dropped into a 12-gauge chamber will slide partway down the barrel and lodge out of sight; if a 12-gauge shell is then loaded and fired behind it, the barrel will burst.",
-            "fact_correction": "A 20-gauge shell dropped into a 12-gauge chamber will slide partway down the barrel and lodge out of sight; if a 12-gauge shell is then loaded and fired behind it, the barrel will burst.",
-            "pamphlet_page_ref": "Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)",
-            "myth": "A 20-gauge shell has a wider brass rim that refuses to enter a 12-gauge receiver.",
-            "correction": "A 20-gauge shell dropped into a 12-gauge chamber will slide partway down the barrel and lodge out of sight; if a 12-gauge shell is then loaded and fired behind it, the barrel will burst."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": null,
           "curated_resources": [
             {
@@ -85,12 +78,14 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations.",
-          "topic_title": "Req 1a: Projectile Is and Why Any",
+          "topic_title": "Req 1a: Projectile Is and Why Any Device",
           "pamphlet_summary": "Projectile Is and Why: Projectile Safety, Range Rules & Wildlife Principle 3: Do not shoot powerline insulators, pipeline valves, signs, or similar property (p. 57).",
           "pamphlet_excerpts": [
             "Projectile Is and Why: Projectile Safety, Range Rules & Wildlife Principle 3: Do not shoot powerline insulators, pipeline valves, signs, or similar property (p. 57)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/shotgun_shooting_p003_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/shotgun_shooting_p003_img1.png",
+          "title": "Req 1a: Projectile Is and Why Any Device",
+          "workbook_diagram_caption": "Field reference diagram showing Shotgun Shooting Requirement 1 equipment, technique, and verification milestones for Shotgun Shooting Requirement 1 (img1)."
         },
         {
           "sub_id": "1b",
@@ -230,12 +225,13 @@
           "id": "1c",
           "sub_req_label": "1c",
           "sub_req_text": "Describe how you would react if a friend visiting your home asked to see your or your family's firearm.",
-          "topic_title": "Req 1c: You Would React If A",
+          "topic_title": "Req 1c: React If a Friend Visiting Your Home",
           "pamphlet_summary": "You Would React: Projectile Safety, Range Rules & Wildlife: Sportsmanship applies to all of shooting, whether recreational, competitive, or hunting (p. 57).",
           "pamphlet_excerpts": [
             "You Would React: Projectile Safety, Range Rules & Wildlife: Sportsmanship applies to all of shooting, whether recreational, competitive, or hunting (p. 57)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 1c: React If a Friend Visiting Your Home"
         },
         {
           "sub_id": "1d",
@@ -439,12 +435,13 @@
           "id": "1f",
           "sub_req_label": "1f",
           "sub_req_text": "Explain how hunting is related to the wise use of renewable wildlife resources.",
-          "topic_title": "Req 1f: Hunting Is Related to The",
+          "topic_title": "Req 1f: Hunting Is Related to the Wise Use",
           "pamphlet_summary": "Shotgun Shooting Applied Field Standard: Hunting Is Related: Projectile Safety, Range Rules & Wildlife Principle 4: Confine your shots to proper targets. • When hunting in the field, give fellow hunters a fair chanceat game (p. 57).",
           "pamphlet_excerpts": [
             "Shotgun Shooting Applied Field Standard: Hunting Is Related: Projectile Safety, Range Rules & Wildlife Principle 4: Confine your shots to proper targets. • When hunting in the field, give fellow hunters a fair chanceat game (p. 57)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 1f: Hunting Is Related to the Wise Use"
         },
         {
           "sub_id": "1g",
@@ -1051,7 +1048,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Shotgun Shooting Workbook organizer table and practical demonstration for Req 1.",
-      "workbook_diagram_url": "assets/pamphlet_images/shotgun_shooting_p003_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/shotgun_shooting_req_1_nano_hero.png",
+      "workbook_diagram_caption": "Panels detail shotgun cleaning procedures, range safety gear, shooting stance, and secure ammunition storage lockers."
     },
     {
       "req_id": "2",
@@ -1702,12 +1700,13 @@
               "id": "2a(9)",
               "sub_req_label": "2a(9)",
               "sub_req_text": "Discuss what points you would consider in selecting a shotgun.",
-              "topic_title": "Req 2a(9): Discuss What Points You Would",
+              "topic_title": "Req 2a(9): Points You Would Consider in Selecting",
               "pamphlet_summary": "Points You Would Consider: Historical Origins and Evolution Principle 2: In skeet, the remaining shot is either a repeat of the shooter's first missed target or, if all 24 targets have beenbroken, a repeat of the last shot (p. 47).",
               "pamphlet_excerpts": [
                 "Points You Would Consider: Historical Origins and Evolution Principle 2: In skeet, the remaining shot is either a repeat of the shooter's first missed target or, if all 24 targets have beenbroken, a repeat of the last shot (p. 47)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "",
+              "title": "Req 2a(9): Points You Would Consider in Selecting"
             },
             {
               "sub_id": "2a(10)",
@@ -1858,7 +1857,8 @@
           "pamphlet_excerpts": [
             "Option A Shotgun Shooting Modern: Shotgun Shooting Specialized Field Options: Historical Origins and Evolution Principle 4: Sinceit is a close-range sport, guns with skeet or improved cylinderchokes using No. 8 or No. 9 shot are preferred (p. 47)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/shotgun_shooting_p007_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/shotgun_shooting_p007_img1.png",
+          "workbook_diagram_caption": "Field reference diagram showing Shotgun Shooting Requirement 2 equipment, technique, and verification milestones for Shotgun Shooting Requirement 2 (img1)."
         },
         {
           "sub_id": "2b",
@@ -2519,14 +2519,7 @@
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)",
-              "common_misconception_pair": {
-                "misconception": "Protective equipment checks and hazard mitigation in Shotgun Shooting are only needed during severe weather or unfamiliar locations.",
-                "fact": "Every Shotgun Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: For Shotgun Shooting 2b(10) (The basic safety rules for cleaning), Scouts apply: Explain the basic safety rules for cleaning a muzzle loading shotgun.",
-                "fact_correction": "Every Shotgun Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: For Shotgun Shooting 2b(10) (The basic safety rules for cleaning), Scouts apply: Explain the basic safety rules for cleaning a muzzle loading shotgun.",
-                "pamphlet_page_ref": "Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)",
-                "myth": "Protective equipment checks and hazard mitigation in Shotgun Shooting are only needed during severe weather or unfamiliar locations.",
-                "correction": "Every Shotgun Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: For Shotgun Shooting 2b(10) (The basic safety rules for cleaning), Scouts apply: Explain the basic safety rules for cleaning a muzzle loading shotgun."
-              },
+              "common_misconception_pair": {},
               "starting_requirement_gate": null,
               "curated_resources": [
                 {
@@ -2687,12 +2680,13 @@
               "id": "2b(12)",
               "sub_req_label": "2b(12)",
               "sub_req_text": "Discuss what points you would consider in selecting a muzzleloading shotgun.",
-              "topic_title": "Req 2b(12): Discuss What Points You Would",
+              "topic_title": "Req 2b(12): Points You Would Consider in Selecting",
               "pamphlet_summary": "Points You Would Consider: Historical Origins and Evolution: If you've been counting, you have noticed that this accounts for only 24 shots (p. 47).",
               "pamphlet_excerpts": [
                 "Points You Would Consider: Historical Origins and Evolution: If you've been counting, you have noticed that this accounts for only 24 shots (p. 47)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "",
+              "title": "Req 2b(12): Points You Would Consider in Selecting"
             },
             {
               "sub_id": "2b(13)",
@@ -2806,14 +2800,7 @@
             "min_rows": 8
           },
           "pamphlet_page_citation": "Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)",
-          "common_misconception_pair": {
-            "misconception": "Protective equipment checks and hazard mitigation in Shotgun Shooting are only needed during severe weather or unfamiliar locations.",
-            "fact": "Every Shotgun Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: If you've been counting, you have noticed that this accounts for only 24 shots.",
-            "fact_correction": "Every Shotgun Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: If you've been counting, you have noticed that this accounts for only 24 shots.",
-            "pamphlet_page_ref": "Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)",
-            "myth": "Protective equipment checks and hazard mitigation in Shotgun Shooting are only needed during severe weather or unfamiliar locations.",
-            "correction": "Every Shotgun Shooting activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: If you've been counting, you have noticed that this accounts for only 24 shots."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": null,
           "curated_resources": [
             {
@@ -3028,7 +3015,8 @@
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Shotgun Shooting Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/shotgun_shooting_p007_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/shotgun_shooting_req_2_nano_hero.png",
+      "workbook_diagram_caption": "A clay target launches across an open grass range while Scouts and instructors practice trap shooting positions."
     },
     {
       "req_id": "3",
@@ -3192,7 +3180,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Shotgun Shooting Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": "assets/pamphlet_images/shotgun_shooting_p012_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/shotgun_shooting_req_3_nano_hero.png",
+      "workbook_diagram_caption": "A certified range instructor guides a young Scout in proper shotgun shoulder mount and firearm aiming technique."
     }
   ],
   "badge_slug": "shotgun_shooting",

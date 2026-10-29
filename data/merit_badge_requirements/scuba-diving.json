@@ -117,7 +117,8 @@
           "pamphlet_excerpts": [
             "Emergency First Aid and Prevention: First aid for injuries or illnesses Principle 3: Such a condition isunlikely in diving if the participants are properly prepared for each new skill level (p. 21)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p003_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p003_img1.png",
+          "workbook_diagram_caption": "Field reference diagram showing Scuba Diving Requirement 1 equipment, technique, and verification milestones for Scuba Diving Requirement 1 (img1)."
         },
         {
           "sub_id": "1b",
@@ -155,14 +156,7 @@
             "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
-          "common_misconception_pair": {
-            "misconception": "Stop chest compress ions every 30 seconds to check for a carotid pulse.",
-            "fact": "Deliver continuous chest compress ions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
-            "fact_correction": "Deliver continuous chest compress ions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
-            "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
-            "myth": "Stop chest compress ions every 30 seconds to check for a carotid pulse.",
-            "correction": "Deliver continuous chest compress ions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
             "gate_label": "Counselor Pre-Approval Required",
@@ -192,12 +186,13 @@
           "id": "1b",
           "sub_req_label": "1b",
           "sub_req_text": "Identify the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions. Demonstrate the proper technique for performing CPR using a training device approved by your counselor.",
-          "topic_title": "Req 1b: Conditions That Must Exist Before",
+          "topic_title": "Req 1b: Performing CPR on a Person",
           "pamphlet_summary": "Conditions That Must Exist: First aid for injuries or illnesses Principle 4: If a diver shows signs of panicat any time, bring that person back into the boat or ontoshore, calm the person, and encourage slow breathing (p. 21).",
           "pamphlet_excerpts": [
             "Conditions That Must Exist: First aid for injuries or illnesses Principle 4: If a diver shows signs of panicat any time, bring that person back into the boat or ontoshore, calm the person, and encourage slow breathing (p. 21)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 1b: Performing CPR on a Person"
         }
       ],
       "resources": [
@@ -272,11 +267,11 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Stop chest compress ions every 30 seconds to check for a carotid pulse.",
-        "fact": "Deliver continuous chest compress ions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
-        "fact_correction": "Deliver continuous chest compress ions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
+        "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
+        "fact": "Deliver continuous chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
+        "fact_correction": "Deliver continuous chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
         "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
-        "myth": "Stop chest compress ions every 30 seconds to check for a carotid pulse.",
+        "myth": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
         "correction": "Deliver continuous chest compress ions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
       },
       "starting_requirement_gate": {
@@ -389,7 +384,8 @@
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 1.",
-      "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p003_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/scuba_diving_req_1_nano_hero.png",
+      "workbook_diagram_caption": "Diagrams explain essential scuba gear components, underwater buddy checks, and ear equalization techniques for safe diving."
     },
     {
       "req_id": "2",
@@ -559,7 +555,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p007_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/scuba_diving_req_2_nano_hero.png",
+      "workbook_diagram_caption": "A dive instructor explains scuba gear and flippers to Scouts outside a PADI dive center near a marina."
     },
     {
       "req_id": "3",
@@ -724,7 +721,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p012_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/scuba_diving_req_3_nano_hero.png",
+      "workbook_diagram_caption": "Certified divers inspect regulators and oxygen cylinders on a sunny beach before embarking on an ocean dive."
     },
     {
       "req_id": "4",
@@ -889,7 +887,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p010_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p010_img1.png",
+      "workbook_diagram_caption": "A scuba buoyancy control device provides essential underwater lift."
     },
     {
       "req_id": "5",
@@ -1054,7 +1053,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p073_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p073_img1.png",
+      "workbook_diagram_caption": "An educational chart illustrates diverse species living in a marine ecosystem."
     },
     {
       "req_id": "6",
@@ -1239,7 +1239,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p083_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p083_img1.png",
+      "workbook_diagram_caption": "A diver swims carefully along the rusted superstructure of a sunken wreck."
     }
   ],
   "badge_slug": "scuba_diving",

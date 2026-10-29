@@ -150,7 +150,11 @@ def test_all_149_badges_enriched_and_canonical_hashes_intact() -> None:
                 )
                 sr_mis = sr.get("common_misconception_pair") or {}
                 sr_myth = str(sr_mis.get("misconception") or sr_mis.get("myth") or "")
-                assert sr_myth and "Reading a short definition of" not in sr_myth
+                if sr_myth:
+                    assert "Reading a short definition of" not in sr_myth
+                    assert sr_myth.strip().lower() != myth.strip().lower(), (
+                        f"Duplicate parent myth on sub-req {sr.get('sub_id')} in {badge_name}"
+                    )
 
 
 def test_bespoke_organizers_on_benchmark_badges() -> None:

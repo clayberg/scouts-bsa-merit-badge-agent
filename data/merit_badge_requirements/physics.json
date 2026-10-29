@@ -167,7 +167,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Physics Workbook organizer table and practical demonstration for Req 1.",
-      "workbook_diagram_url": "assets/pamphlet_images/physics_p003_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/physics_p003_img1.png",
+      "workbook_diagram_caption": "Scouts and counselor demonstrate Physics Requirement 1 field procedures and safety checks."
     },
     {
       "req_id": "2",
@@ -334,7 +335,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Physics Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/physics_p007_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/physics_p007_img1.png",
+      "workbook_diagram_caption": "Scouts and counselor demonstrate Physics Requirement 2 field procedures and safety checks."
     },
     {
       "req_id": "3",
@@ -495,7 +497,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Physics Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": "assets/pamphlet_images/physics_p012_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/physics_p012_img1.png",
+      "workbook_diagram_caption": "Scouts and counselor demonstrate Physics Requirement 3 field procedures and safety checks."
     },
     {
       "req_id": "4",
@@ -578,7 +581,8 @@
           "pamphlet_excerpts": [
             "Physics Applied Field Standard: Physics Core Field Standard: Hands-On Physics Experiments & Data Analysis Principle 2: Physics Sub-Req 4B: Option B: Momentum: Stacked Ball Drop. Drop different-sized stacked balls to show momentum (p. 22)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/physics_p004_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/physics_p004_img1.png",
+          "workbook_diagram_caption": "Field reference diagram showing Hands-On Physics Experiments & Data Analysis equipment, technique, and verification milestones for Physics Requirement 4 (page 4 figure 1)."
         },
         {
           "sub_id": "4B",
@@ -1349,7 +1353,8 @@
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Physics Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": "assets/pamphlet_images/physics_p004_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/physics_req_4_nano_hero.png",
+      "workbook_diagram_caption": "Uniformed Scouts conducting physics experiments with a projectile ramp, glass prism light refraction, and electromagnets."
     },
     {
       "req_id": "5",
@@ -1395,14 +1400,7 @@
             "min_rows": 2
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 28-33",
-          "common_misconception_pair": {
-            "misconception": "Heavier objects always accelerate faster than lighter objects.",
-            "fact": "In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction.",
-            "fact_correction": "In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction.",
-            "pamphlet_page_ref": "Physics Test Lab Resource Guide, pp. 28-33",
-            "myth": "Heavier objects always accelerate faster than lighter objects.",
-            "correction": "In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": null,
           "curated_resources": [
             {
@@ -1432,7 +1430,8 @@
           "pamphlet_excerpts": [
             "Physics in Everyday Life: Physics All Around You Principle 3: Physics Sub-Req 5c: Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation (p. 28)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/physics_p005_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/physics_p005_img1.png",
+          "workbook_diagram_caption": "Field reference diagram showing Physics All Around You equipment, technique, and verification milestones for Physics Requirement 5 (page 5 figure 1)."
         },
         {
           "sub_id": "5b",
@@ -1684,12 +1683,13 @@
           "id": "5d",
           "sub_req_label": "5d",
           "sub_req_text": "Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering.",
-          "topic_title": "Req 5d: Physics in Scouting Explain How",
+          "topic_title": "Req 5d: Physics in Scouting",
           "pamphlet_summary": "Physics in Scouting: Physics All Around You Principle 2: Physics Sub-Req 5b: Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration (p. 28).",
           "pamphlet_excerpts": [
             "Physics in Scouting: Physics All Around You Principle 2: Physics Sub-Req 5b: Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration (p. 28)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 5d: Physics in Scouting"
         }
       ],
       "topic_title": "Req 5: Physics All Around",
@@ -1840,7 +1840,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Physics Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": "assets/pamphlet_images/physics_p005_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/physics_req_5_nano_hero.png",
+      "workbook_diagram_caption": "Everyday physics applications showing bicycle gear leverage, soccer ball aerodynamics, and solar photovoltaics."
     },
     {
       "req_id": "6",
@@ -2030,14 +2031,7 @@
             "min_rows": 2
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
-          "common_misconception_pair": {
-            "misconception": "Heavier objects always accelerate faster than lighter objects.",
-            "fact": "In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction.",
-            "fact_correction": "In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction.",
-            "pamphlet_page_ref": "Physics Test Lab Resource Guide, pp. 34-39",
-            "myth": "Heavier objects always accelerate faster than lighter objects.",
-            "correction": "In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": null,
           "curated_resources": [
             {
@@ -2067,7 +2061,8 @@
           "pamphlet_excerpts": [
             "Physics Applied Field Standard: Physics Core Field Standard: Future of Physics Principle 4: Physics Sub-Req 6B: Option B: Quantum Mechanics & Computing. Discuss the following with your counselor (p. 34)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/physics_p006_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/physics_p006_img1.png",
+          "workbook_diagram_caption": "Field reference diagram showing Future of Physics equipment, technique, and verification milestones for Physics Requirement 6 (page 6 figure 1)."
         },
         {
           "sub_id": "6B",
@@ -2883,7 +2878,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Physics Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": "assets/pamphlet_images/physics_p006_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/physics_req_6_nano_hero.png",
+      "workbook_diagram_caption": "Frontier physics technologies featuring magnetic levitation, fusion energy models, quantum hardware, and telescopes."
     },
     {
       "req_id": "7",
@@ -2933,14 +2929,7 @@
             "min_rows": 2
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 40-45",
-          "common_misconception_pair": {
-            "misconception": "Heavier objects always accelerate faster than lighter objects.",
-            "fact": "In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction.",
-            "fact_correction": "In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction.",
-            "pamphlet_page_ref": "Physics Test Lab Resource Guide, pp. 40-45",
-            "myth": "Heavier objects always accelerate faster than lighter objects.",
-            "correction": "In the absence of air resistance, gravitational acceleration (g = 9.8 m/s^2) acts equally on all masses; controlled variables isolate drag and friction."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": null,
           "curated_resources": [
             {
@@ -2970,7 +2959,8 @@
           "pamphlet_excerpts": [
             "Physics Applied Field Standard: Physics Core Field Standard: Engineering & Physics Design Challenge: Physics Sub-Req 7A: Option A: Fastest Pinewood Derby Car. Build pinewood derby cars using physics principles to get the fastest time on the track (p. 40)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
+          "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
         },
         {
           "sub_id": "7B",
@@ -3062,12 +3052,13 @@
           "id": "7B",
           "sub_req_label": "7B",
           "sub_req_text": "Option B: Rube Goldberg Machine. Build a machine using household materials to perform a simple task. You can use examples of tasks from the annual Rube Goldberg competition, or you can create your own task.",
-          "topic_title": "Req 7B: Rube Goldberg Machine Build A",
+          "topic_title": "Req 7B: Option B Rube Goldberg Machine",
           "pamphlet_summary": "Physics Applied Field Standard: Physics Core Field Standard: Engineering & Physics Design Challenge Principle 2: Physics Sub-Req 7B: Option B: Rube Goldberg Machine (p. 40).",
           "pamphlet_excerpts": [
             "Physics Applied Field Standard: Physics Core Field Standard: Engineering & Physics Design Challenge Principle 2: Physics Sub-Req 7B: Option B: Rube Goldberg Machine (p. 40)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 7B: Option B Rube Goldberg Machine"
         },
         {
           "sub_id": "7C",
@@ -3144,12 +3135,13 @@
           "id": "7C",
           "sub_req_label": "7C",
           "sub_req_text": "Option C: Egg Drop Challenge. Explore the physics of energy and momentum by building a structure using household materials to prevent an egg from breaking when dropped from a significant height. The location of the egg drop must be approved by your counselor.",
-          "topic_title": "Req 7C: Egg Drop Challenge Explore The",
+          "topic_title": "Req 7C: Option C Egg Drop Challenge",
           "pamphlet_summary": "Physics Applied Field Standard: Physics Core Field Standard: Engineering & Physics Design Challenge Principle 3: Physics Sub-Req 7C: Option C: Egg Drop Challenge (p. 40).",
           "pamphlet_excerpts": [
             "Physics Applied Field Standard: Physics Core Field Standard: Engineering & Physics Design Challenge Principle 3: Physics Sub-Req 7C: Option C: Egg Drop Challenge (p. 40)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 7C: Option C Egg Drop Challenge"
         },
         {
           "sub_id": "7D",
@@ -3295,12 +3287,13 @@
           "id": "7E",
           "sub_req_label": "7E",
           "sub_req_text": "Option E: Design your Own Physics Challenge. Create a physics challenge with your counselor's approval.",
-          "topic_title": "Req 7E: Own Physics Challenge Create A",
+          "topic_title": "Req 7E: Option E Design Your Own Physics Challenge",
           "pamphlet_summary": "Physics Applied Field Standard: Physics Core Field Standard: Engineering & Physics Design Challenge: Physics Sub-Req 7A: Option A: Fastest Pinewood Derby Car. Build pinewood derby cars using physics principles to get the fastest time on the track (p. 40).",
           "pamphlet_excerpts": [
             "Physics Applied Field Standard: Physics Core Field Standard: Engineering & Physics Design Challenge: Physics Sub-Req 7A: Option A: Fastest Pinewood Derby Car. Build pinewood derby cars using physics principles to get the fastest time on the track (p. 40)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 7E: Option E Design Your Own Physics Challenge"
         }
       ],
       "topic_title": "Req 7: Engineering and Physics Challenge",
@@ -3458,7 +3451,8 @@
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Physics Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
+      "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
     },
     {
       "req_id": "8",
@@ -3512,14 +3506,7 @@
             "min_rows": 4
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 46-51",
-          "common_misconception_pair": {
-            "misconception": "Casual hobby familiarity with Physics is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
-            "fact": "Pursuing a career or advanced pathway in Physics (Req 8a) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
-            "fact_correction": "Pursuing a career or advanced pathway in Physics (Req 8a) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
-            "pamphlet_page_ref": "Physics Test Lab Resource Guide, pp. 46-51",
-            "myth": "Casual hobby familiarity with Physics is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
-            "correction": "Pursuing a career or advanced pathway in Physics (Req 8a) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
@@ -3554,7 +3541,8 @@
           "pamphlet_excerpts": [
             "Physics Careers and Pathways: Physics Careers, Research & STEM Pathways Principle 2: Physics Sub-Req 8b: Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle (p. 46)."
           ],
-          "workbook_diagram_url": "assets/ai_illustrations/physics_req_8_topic_visual.png"
+          "workbook_diagram_url": "assets/ai_illustrations/physics_req_8_topic_visual.png",
+          "workbook_diagram_caption": "Four-panel physics career pathways showing astrophysics, medical imaging, acoustics engineering, and telescope making."
         },
         {
           "sub_id": "8b",
@@ -3630,12 +3618,13 @@
           "id": "8b",
           "sub_req_label": "8b",
           "sub_req_text": "Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
-          "topic_title": "Req 8b: You Could Use Knowledge and",
+          "topic_title": "Req 8b: Explore How You Could Use Knowledge",
           "pamphlet_summary": "You Could Use Knowledge: Explore How You Could Use: Physics Careers, Research & STEM Pathways Principle 3: Do ONE of the following: (a) Explore careers related to this badge (p. 46).",
           "pamphlet_excerpts": [
             "You Could Use Knowledge: Explore How You Could Use: Physics Careers, Research & STEM Pathways Principle 3: Do ONE of the following: (a) Explore careers related to this badge (p. 46)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 8b: Explore How You Could Use Knowledge"
         }
       ],
       "topic_title": "Req 8: Physics Careers and Pathways",
@@ -3791,7 +3780,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Physics Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": "assets/ai_illustrations/physics_req_8_topic_visual.png"
+      "workbook_diagram_url": "assets/ai_illustrations/physics_req_8_nano_hero.png",
+      "workbook_diagram_caption": "Research physicist and aerospace engineer mentoring a uniformed Scout beside an optical bench and wind tunnel."
     },
     {
       "req_id": "9",
@@ -3943,7 +3933,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Physics Workbook organizer table and practical demonstration for Req 9.",
-      "workbook_diagram_url": "assets/ai_illustrations/physics_req_9_topic_visual.png"
+      "workbook_diagram_url": "assets/ai_illustrations/physics_req_9_nano_hero.png",
+      "workbook_diagram_caption": "Uniformed Scout and counselor reviewing experiment data graphs and submitting Physics Test Lab feedback."
     }
   ],
   "badge_slug": "physics",

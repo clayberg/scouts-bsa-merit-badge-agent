@@ -108,7 +108,8 @@
           "pamphlet_excerpts": [
             "Different Minerals: Select 10 different minerals Principle 3: Geologic events determine where different rock formations are found that contain the minerals we value (p. 21)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p003_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p003_img1.png",
+          "workbook_diagram_caption": "Field reference diagram showing Mining in Society Requirement 1 equipment, technique, and verification milestones for Mining in Society Requirement 1 (img1)."
         },
         {
           "sub_id": "1b",
@@ -432,7 +433,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Mining in Society Workbook organizer table and practical demonstration for Req 1.",
-      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p003_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/mining_in_society_req_1_nano_hero.png",
+      "workbook_diagram_caption": "Visual diagrams depict underground excavation, open pit quarrying, ore processing, and mineral products used in society."
     },
     {
       "req_id": "2",
@@ -598,7 +600,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Mining in Society Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p007_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/mining_in_society_req_2_nano_hero.png",
+      "workbook_diagram_caption": "Three Scouts in uniform inspect the geological strata and terraced benches of an open pit excavation site."
     },
     {
       "req_id": "3",
@@ -678,12 +681,14 @@
           "id": "3a",
           "sub_req_label": "3a",
           "sub_req_text": "The miner's personal protective equipment is worn and used, including a hard hat, safety glasses, earplugs, dust mask or respirator, self-rescue device, and high-visibility vest.",
-          "topic_title": "Req 3a: Miner's Personal Protective Equipment Is",
+          "topic_title": "Req 3a: Miner's Personal Protective Equipment Is Worn",
           "pamphlet_summary": "Miner's Personal Protective Equipment: Mining in Society Hazards and First Aid: Health and Safety in Mines Personal Protective Equipment Miners wear personal protective equipment to guard againstinjury (p. 74).",
           "pamphlet_excerpts": [
             "Miner's Personal Protective Equipment: Mining in Society Hazards and First Aid: Health and Safety in Mines Personal Protective Equipment Miners wear personal protective equipment to guard againstinjury (p. 74)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p012_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p012_img1.png",
+          "title": "Req 3a: Miner's Personal Protective Equipment Is Worn",
+          "workbook_diagram_caption": "Field reference diagram showing Mining in Society Requirement 3 equipment, technique, and verification milestones for Mining in Society Requirement 3 (img1)."
         },
         {
           "sub_id": "3b",
@@ -719,14 +724,7 @@
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Mining in Society Merit Badge Pamphlet (p. 74, p. 76)",
-          "common_misconception_pair": {
-            "misconception": "Protective equipment checks and hazard mitigation in Mining in Society are only needed during severe weather or unfamiliar locations.",
-            "fact": "Every Mining in Society activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Where needed, respirators protect against inhaling harmful dust, fumes, or gases.",
-            "fact_correction": "Every Mining in Society activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Where needed, respirators protect against inhaling harmful dust, fumes, or gases.",
-            "pamphlet_page_ref": "Official Scouting America Mining in Society Merit Badge Pamphlet (p. 74, p. 76)",
-            "myth": "Protective equipment checks and hazard mitigation in Mining in Society are only needed during severe weather or unfamiliar locations.",
-            "correction": "Every Mining in Society activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Where needed, respirators protect against inhaling harmful dust, fumes, or gases."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": null,
           "curated_resources": [
             {
@@ -751,12 +749,13 @@
           "id": "3b",
           "sub_req_label": "3b",
           "sub_req_text": "Miners protect their hands and feet from impact, pinch, vibration, slipping, and tripping/falling hazards.",
-          "topic_title": "Req 3b: Miners Protect Their Hands and",
+          "topic_title": "Req 3b: Miners Protect Their Hands and Feet",
           "pamphlet_summary": "Miners Protect Their Hands: Mining in Society Hazards and First Aid Principle 2: Whereneeded, respirators protect against inhaling harmful dust, fumes, or gases (p. 74).",
           "pamphlet_excerpts": [
             "Miners Protect Their Hands: Mining in Society Hazards and First Aid Principle 2: Whereneeded, respirators protect against inhaling harmful dust, fumes, or gases (p. 74)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 3b: Miners Protect Their Hands and Feet"
         },
         {
           "sub_id": "3c",
@@ -840,12 +839,13 @@
           "id": "3c",
           "sub_req_label": "3c",
           "sub_req_text": "Monitoring equipment warns miners of imminent danger, and how robots, drones, and other technology may be used in mine rescues.",
-          "topic_title": "Req 3c: Monitoring Equipment Warns Miners of",
+          "topic_title": "Req 3c: Monitoring Equipment Warns Miners of Imminent Danger",
           "pamphlet_summary": "Monitoring Equipment Warns Miners: Mining in Society Hazards and First Aid Principle 3: Underground miners carry a \"self-rescue device\" forprotection from smoke and toxic gases, such as carbonmonoxide, when escaping in the event of fire (p. 74).",
           "pamphlet_excerpts": [
             "Monitoring Equipment Warns Miners: Mining in Society Hazards and First Aid Principle 3: Underground miners carry a \"self-rescue device\" forprotection from smoke and toxic gases, such as carbonmonoxide, when escaping in the event of fire (p. 74)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 3c: Monitoring Equipment Warns Miners of Imminent Danger"
         }
       ],
       "resources": [
@@ -1037,7 +1037,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Mining in Society Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p012_img1.png"
+      "workbook_diagram_url": "assets/ai_illustrations/mining_in_society_req_3_nano_hero.png",
+      "workbook_diagram_caption": "A safety professional in high visibility gear reviews ventilation and eye test charts with workers in an underground tunnel."
     },
     {
       "req_id": "4",
@@ -1202,7 +1203,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Mining in Society Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p042_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p042_img1.png",
+      "workbook_diagram_caption": "Steep carved terraces descend hundreds of feet into an enormous commercial open pit mine."
     },
     {
       "req_id": "5",
@@ -1286,7 +1288,8 @@
           "pamphlet_excerpts": [
             "Counselor's Assistance Use The Internet: Your Parent or Guardian's Approval: Do ONE of The Following Principle 3: Drilling also provides moregeochemical or geophysical data (p. 33)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p036_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p036_img1.png",
+          "workbook_diagram_caption": "A circular graphic diagrams every phase of a mining operation from exploration to reclamation."
         },
         {
           "sub_id": "5b",
@@ -1437,12 +1440,13 @@
           "id": "5c",
           "sub_req_label": "5c",
           "sub_req_text": "With your parent or guardian's permission and counselor's approval, visit an active mine. Find out about the tasks required to explore, plan, permit, mine, and process the resource mined at that site. Take photographs, if allowed, and request brochures from your visit. Share photos, brochures, and what you have learned with your counselor.",
-          "topic_title": "Req 5c: Active Mine Find Out",
+          "topic_title": "Req 5c: Your Parent or Guardian's Permission and Counselor's",
           "pamphlet_summary": "Counselor's Approval Visit An Active: Your Parent or Guardian's Permission: Do ONE of The Following: Typically, a team has specialists who findout about land ownership and obtain the necessary permits (p. 33).",
           "pamphlet_excerpts": [
             "Counselor's Approval Visit An Active: Your Parent or Guardian's Permission: Do ONE of The Following: Typically, a team has specialists who findout about land ownership and obtain the necessary permits (p. 33)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 5c: Your Parent or Guardian's Permission and Counselor's"
         },
         {
           "sub_id": "5d",
@@ -1868,7 +1872,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Mining in Society Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p036_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p036_img1.png",
+      "workbook_diagram_caption": "A circular graphic diagrams every phase of a mining operation from exploration to reclamation."
     },
     {
       "req_id": "6",
@@ -1947,12 +1952,14 @@
           "id": "6a",
           "sub_req_label": "6a",
           "sub_req_text": "Choose a modern mining site. Find out what is being done to help control environmental impacts. Share what you have learned about mining and sustainability.",
-          "topic_title": "Req 6a: Modern Mining Site Find Out",
+          "topic_title": "Req 6a: Modern Mining Site",
           "pamphlet_summary": "Modern Mining Site: Choose A Modern Mining Site: Leave No Trace and Outdoor Ethics Principle 4: The futureeffect of mining on each is determined, and plans are made torestore the land (p. 39).",
           "pamphlet_excerpts": [
             "Modern Mining Site: Choose A Modern Mining Site: Leave No Trace and Outdoor Ethics Principle 4: The futureeffect of mining on each is determined, and plans are made torestore the land (p. 39)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p039_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p039_img1.png",
+          "title": "Req 6a: Modern Mining Site",
+          "workbook_diagram_caption": "An overland truss conveyor transports crushed ore efficiently across rugged mining terrain."
         },
         {
           "sub_id": "6b",
@@ -1988,14 +1995,7 @@
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82)",
-          "common_misconception_pair": {
-            "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-            "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks.",
-            "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks.",
-            "pamphlet_page_ref": "Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82)",
-            "myth": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-            "correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": null,
           "curated_resources": [
             {
@@ -2103,12 +2103,13 @@
           "id": "6c",
           "sub_req_label": "6c",
           "sub_req_text": "Discuss with your counselor what values society has about returning the land to the benefit of wildlife and people after mining has ended. Discuss the transformation of the Summit Bechtel Reserve from a mine site to its current role.",
-          "topic_title": "Req 6c: Discuss With Your Counselor What",
+          "topic_title": "Req 6c: Values Society Has About Returning the Land",
           "pamphlet_summary": "Values Society Has About Returning: Leave No Trace and Outdoor Ethics Principle 2: Before miningbegins, the condition of the land is assessed (p. 39).",
           "pamphlet_excerpts": [
             "Values Society Has About Returning: Leave No Trace and Outdoor Ethics Principle 2: Before miningbegins, the condition of the land is assessed (p. 39)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "",
+          "title": "Req 6c: Values Society Has About Returning the Land"
         }
       ],
       "resources": [
@@ -2287,7 +2288,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Mining in Society Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p039_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p039_img1.png",
+      "workbook_diagram_caption": "An overland truss conveyor transports crushed ore efficiently across rugged mining terrain."
     },
     {
       "req_id": "7",
@@ -2373,7 +2375,8 @@
           "pamphlet_excerpts": [
             "Anticipated Benefits of Interplanetary Mining: Explore The Anticipated Benefits: Do ONE of The Following: Your home is built of numerous materials that were mined (p. 13)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p014_img2.png"
+          "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p014_img2.png",
+          "workbook_diagram_caption": "A heavy unrefined mineral ore sample contains valuable metallic elements before processing."
         },
         {
           "sub_id": "7b",
@@ -2585,14 +2588,7 @@
             "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34)",
-          "common_misconception_pair": {
-            "misconception": "Protective equipment checks and hazard mitigation in Mining in Society are only needed during severe weather or unfamiliar locations.",
-            "fact": "Every Mining in Society activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: In a typical home, the inside walls are wallboard made of gypsum.",
-            "fact_correction": "Every Mining in Society activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: In a typical home, the inside walls are wallboard made of gypsum.",
-            "pamphlet_page_ref": "Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34)",
-            "myth": "Protective equipment checks and hazard mitigation in Mining in Society are only needed during severe weather or unfamiliar locations.",
-            "correction": "Every Mining in Society activity requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: In a typical home, the inside walls are wallboard made of gypsum."
-          },
+          "common_misconception_pair": {},
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
             "gate_label": "Parent/Guardian Consent & Review",
@@ -2821,7 +2817,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Mining in Society Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p014_img2.png"
+      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p014_img2.png",
+      "workbook_diagram_caption": "A heavy unrefined mineral ore sample contains valuable metallic elements before processing."
     },
     {
       "req_id": "8",
@@ -3005,7 +3002,8 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Mining in Society Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p087_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/mining_in_society_p087_img1.png",
+      "workbook_diagram_caption": "Underground miners operate heavy machinery to bore through rock faces inside an active shaft."
     }
   ],
   "badge_slug": "mining_in_society",
