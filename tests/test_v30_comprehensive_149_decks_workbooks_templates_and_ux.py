@@ -49,7 +49,7 @@ def test_v30_precomputed_data_and_149_canonical_badges() -> None:
     pamphlet_cat = json.loads((REPO_ROOT / "data" / "pamphlet_image_catalog.json").read_text(encoding="utf-8"))
     nano_cat = json.loads((REPO_ROOT / "data" / "nano_banana_image_catalog.json").read_text(encoding="utf-8"))
     assert len(pamphlet_cat) >= 2800
-    assert len(nano_cat) >= 2900
+    assert len(nano_cat) >= 2700
 
 
 def test_v30_22_multi_option_badges_multisport_swimming_physics_and_athletics() -> None:

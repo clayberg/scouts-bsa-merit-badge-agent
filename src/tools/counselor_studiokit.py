@@ -1329,6 +1329,26 @@ def _sanitize_pdf_text(text: str) -> str:
     return "".join(ch for ch in out if ch == "\n" or ch == "\t" or 32 <= ord(ch) <= 255)
 
 
+_PDF_WORD_WIDTH_CACHE: Dict[Tuple[str, float, str], float] = {}
+_PDF_DIAGRAM_STREAM_CACHE: Dict[str, bytes] = {}
+_WORKBOOK_PDF_LRU_CACHE: Dict[Tuple[str, str, str, str, str, bool], bytes] = {}
+_COUNSELOR_PDF_LRU_CACHE: Dict[Tuple[str, str, str, str, str], bytes] = {}
+
+
+def _measure_pdf_text_cached(text: str, fontname: str, fontsize: float) -> float:
+    """Fast memoized wrapper around `fitz.get_text_length` to avoid redundant SWIG font-metric calls."""
+    import fitz
+
+    key = (fontname, round(float(fontsize), 2), text)
+    cached = _PDF_WORD_WIDTH_CACHE.get(key)
+    if cached is not None:
+        return cached
+    val = float(fitz.get_text_length(text, fontname=fontname, fontsize=fontsize))
+    if len(_PDF_WORD_WIDTH_CACHE) < 60000:
+        _PDF_WORD_WIDTH_CACHE[key] = val
+    return val
+
+
 def _wrap_pdf_lines(
     text: str,
     max_width: float,
@@ -1336,12 +1356,11 @@ def _wrap_pdf_lines(
     fontsize: float = 8.0,
 ) -> List[str]:
     """Word-wraps sanitized text using exact PyMuPDF font metrics so every line fits inside `max_width`."""
-    import fitz
-
     clean = _sanitize_pdf_text(text)
     if not clean.strip():
         return []
     usable_width = max(40.0, float(max_width) - 4.0)
+    space_w = _measure_pdf_text_cached(" ", fontname, fontsize)
     wrapped: List[str] = []
     for raw_para in clean.splitlines():
         para = raw_para.strip()
@@ -1350,32 +1369,42 @@ def _wrap_pdf_lines(
             continue
         words = para.split(" ")
         cur_line = ""
+        cur_w = 0.0
         for word in words:
             if not word:
                 continue
+            word_w = _measure_pdf_text_cached(word, fontname, fontsize)
             # Break single ultra-long unbroken tokens (e.g. URLs) if needed
-            if fitz.get_text_length(word, fontname=fontname, fontsize=fontsize) > usable_width:
+            if word_w > usable_width:
                 if cur_line:
                     wrapped.append(cur_line)
                     cur_line = ""
+                    cur_w = 0.0
                 chunk = ""
+                chunk_w = 0.0
                 for ch in word:
-                    cand_chunk = chunk + ch
-                    if fitz.get_text_length(cand_chunk, fontname=fontname, fontsize=fontsize) <= usable_width:
-                        chunk = cand_chunk
+                    ch_w = _measure_pdf_text_cached(ch, fontname, fontsize)
+                    if chunk_w + ch_w <= usable_width:
+                        chunk += ch
+                        chunk_w += ch_w
                     else:
                         if chunk:
                             wrapped.append(chunk)
                         chunk = ch
+                        chunk_w = ch_w
                 cur_line = chunk
+                cur_w = chunk_w
                 continue
-            cand = f"{cur_line} {word}".strip() if cur_line else word
-            if fitz.get_text_length(cand, fontname=fontname, fontsize=fontsize) <= usable_width:
-                cur_line = cand
-            else:
-                if cur_line:
-                    wrapped.append(cur_line)
+            if not cur_line:
                 cur_line = word
+                cur_w = word_w
+            elif cur_w + space_w + word_w <= usable_width:
+                cur_line = f"{cur_line} {word}"
+                cur_w += space_w + word_w
+            else:
+                wrapped.append(cur_line)
+                cur_line = word
+                cur_w = word_w
         if cur_line:
             wrapped.append(cur_line)
     return wrapped
@@ -1575,28 +1604,24 @@ def _insert_wrapped_pdf_text(
 
         chunk = lines[idx : idx + max_lines_here]
         box_h = len(chunk) * line_h + 2.0 * pad_y
+        sh = page.new_shape()
         if bg_fill is not None or border_color is not None:
-            page.draw_rect(
-                fitz.Rect(x0, y_cursor, x1, y_cursor + box_h),
-                color=border_color or bg_fill,
-                fill=bg_fill,
-            )
+            sh.draw_rect(fitz.Rect(x0, y_cursor, x1, y_cursor + box_h))
+            sh.finish(color=border_color or bg_fill, fill=bg_fill)
         if left_stripe_color is not None:
-            page.draw_rect(
-                fitz.Rect(x0, y_cursor, x0 + 4.0, y_cursor + box_h),
-                color=left_stripe_color,
-                fill=left_stripe_color,
-            )
+            sh.draw_rect(fitz.Rect(x0, y_cursor, x0 + 4.0, y_cursor + box_h))
+            sh.finish(color=left_stripe_color, fill=left_stripe_color)
         for line_idx, line_str in enumerate(chunk):
             if line_str:
                 baseline_y = y_cursor + pad_y + (line_idx + 0.82) * line_h
-                page.insert_text(
+                sh.insert_text(
                     fitz.Point(x0 + eff_pad_x, baseline_y),
                     line_str,
                     fontsize=fontsize,
                     fontname=fontname,
                     color=color,
                 )
+        sh.commit()
         y_cursor += box_h + 2.0
         idx += len(chunk)
         if idx < total_lines:
@@ -1624,15 +1649,13 @@ def _draw_workbook_table_column_headers(
     input_cols = max(1, len(input_headers))
     col_w = (input_region_x1 - input_region_x0) / float(input_cols)
 
-    page.draw_rect(
-        fitz.Rect(left_col_x0, y_pos, left_col_x1, y_pos + col_hdr_h),
-        color=(0.0, 0.247, 0.529),
-        fill=(0.0, 0.247, 0.529),
-    )
+    hdr_shape = page.new_shape()
+    hdr_shape.draw_rect(fitz.Rect(left_col_x0, y_pos, left_col_x1, y_pos + col_hdr_h))
+    hdr_shape.finish(color=(0.0, 0.247, 0.529), fill=(0.0, 0.247, 0.529))
     first_hdr = str(headers[0] if headers else "Item / Step").strip()
     if is_continuation and "(Cont.)" not in first_hdr:
         first_hdr = f"{first_hdr} (Cont.)"
-    page.insert_text(
+    hdr_shape.insert_text(
         fitz.Point(left_col_x0 + 4.0, y_pos + 10.5),
         _sanitize_pdf_text(first_hdr),
         fontsize=6.8,
@@ -1642,22 +1665,20 @@ def _draw_workbook_table_column_headers(
     for c_idx, h_title in enumerate(input_headers):
         cx0 = input_region_x0 + c_idx * col_w
         cx1 = input_region_x0 + (c_idx + 1) * col_w
-        page.draw_rect(
-            fitz.Rect(cx0, y_pos, cx1, y_pos + col_hdr_h),
-            color=(0.82, 0.88, 0.95),
-            fill=(0.0, 0.247, 0.529),
-        )
+        hdr_shape.draw_rect(fitz.Rect(cx0, y_pos, cx1, y_pos + col_hdr_h))
+        hdr_shape.finish(color=(0.82, 0.88, 0.95), fill=(0.0, 0.247, 0.529))
         hdr_clean = _sanitize_pdf_text(str(h_title))
         if is_continuation and c_idx == 0 and "(Cont.)" not in hdr_clean:
             hdr_clean = f"{hdr_clean} (Cont.)"
         hdr_fs = 6.8 if len(hdr_clean) * 3.6 <= (col_w - 6.0) else max(5.6, (col_w - 6.0) / max(1, len(hdr_clean)) * 1.8)
-        page.insert_text(
+        hdr_shape.insert_text(
             fitz.Point(cx0 + 3.5, y_pos + 10.5),
             hdr_clean,
             fontsize=hdr_fs,
             fontname="helv",
             color=(1.0, 1.0, 1.0),
         )
+    hdr_shape.commit()
     return y_pos + col_hdr_h
 
 
@@ -1706,28 +1727,57 @@ def _draw_pdf_workbook_diagram_card(
         resolved_path = None
 
     if resolved_path is not None and resolved_path.is_file():
-        card_h = 98.0
+        card_h = 196.0
         if y_cursor + card_h > max_y:
             page = doc.new_page(width=612, height=792)
             y_cursor = 36.0
         card_rect = fitz.Rect(32.0, y_cursor, 580.0, y_cursor + card_h)
         page.draw_rect(card_rect, color=(0.68, 0.78, 0.90), fill=(0.97, 0.985, 1.0), width=0.9)
+        clean_diag_title = re.sub(r"^Req(?:uirement)?\s+[0-9a-zA-Z().\-]+\s*[:\-]\s*", "", str(r_title), flags=re.IGNORECASE).strip() or r_title
         page.insert_text(
-            fitz.Point(38.0, y_cursor + 11.0),
-            _sanitize_pdf_text(f"Reference Diagram (Req {r_num} - {r_title}): Use this visual reference to complete the organizer below:"),
-            fontsize=7.2,
+            fitz.Point(38.0, y_cursor + 11.5),
+            _sanitize_pdf_text(f"Reference Diagram (Req {r_num} - {clean_diag_title}): Use this visual reference to complete the organizer below:"),
+            fontsize=7.5,
             fontname="helv",
             color=(0.0, 0.22, 0.48),
         )
         try:
+            cache_key = str(resolved_path.resolve())
+            img_stream = _PDF_DIAGRAM_STREAM_CACHE.get(cache_key)
+            if img_stream is None:
+                import io as _io
+                from PIL import Image as _PILImage
+
+                with _PILImage.open(resolved_path) as _im:
+                    if _im.mode in ("RGBA", "LA") or (_im.mode == "P" and "transparency" in _im.info):
+                        _rgba = _im.convert("RGBA")
+                        _bg = _PILImage.new("RGB", _rgba.size, (248, 251, 255))
+                        _bg.paste(_rgba, mask=_rgba.split()[3])
+                        _rgb = _bg
+                    else:
+                        _rgb = _im.convert("RGB")
+                    if _rgb.width > 760 or _rgb.height > 570:
+                        _rgb.thumbnail((760, 570), _PILImage.Resampling.LANCZOS)
+                    _buf = _io.BytesIO()
+                    _rgb.save(_buf, format="JPEG", quality=76, optimize=True)
+                    img_stream = _buf.getvalue()
+                if len(_PDF_DIAGRAM_STREAM_CACHE) < 512:
+                    _PDF_DIAGRAM_STREAM_CACHE[cache_key] = img_stream
             page.insert_image(
-                fitz.Rect(38.0, y_cursor + 15.0, 574.0, y_cursor + card_h - 4.0),
-                filename=str(resolved_path),
+                fitz.Rect(38.0, y_cursor + 16.0, 574.0, y_cursor + card_h - 4.0),
+                stream=img_stream,
                 keep_proportion=True,
             )
         except Exception:
-            pass
-        y_cursor += card_h + 3.0
+            try:
+                page.insert_image(
+                    fitz.Rect(38.0, y_cursor + 16.0, 574.0, y_cursor + card_h - 4.0),
+                    filename=str(resolved_path),
+                    keep_proportion=True,
+                )
+            except Exception:
+                pass
+        y_cursor += card_h + 4.0
     else:
         card_h = 34.0
         if y_cursor + card_h > max_y:
@@ -1786,6 +1836,22 @@ def generate_fillable_scout_workbook_pdf(
         fetch_merit_badge_pamphlet_pdf,
     )
 
+    c_info = counselor_info or {}
+    c_name = _sanitize_pdf_text(str(c_info.get("counselor_name") or "Merit Badge Counselor"))
+    c_troop = _sanitize_pdf_text(str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council"))
+    dates_str = _sanitize_pdf_text(" | ".join(session_dates) if session_dates else "Sessions 1-4 + Make-Up Day")
+
+    lru_key = (
+        str(badge_name or "").strip().lower(),
+        str(option_track or "ALL").strip().upper(),
+        c_name,
+        c_troop,
+        dates_str,
+        bool(include_cpp_cover),
+    )
+    if lru_key in _WORKBOOK_PDF_LRU_CACHE:
+        return _WORKBOOK_PDF_LRU_CACHE[lru_key]
+
     res = fetch_merit_badge_pamphlet_pdf(
         MeritBadgeResearchRequest(
             badge_name=badge_name,
@@ -1798,10 +1864,6 @@ def generate_fillable_scout_workbook_pdf(
     raw_reqs = list(res.get("requirements") or [])
     _opt_norm, opt_label_raw, reqs = _resolve_option_track_and_filter_reqs(resolved_badge, raw_reqs, option_track)
     opt_label = _sanitize_pdf_text(str(opt_label_raw or option_track or "ALL").strip())
-    c_info = counselor_info or {}
-    c_name = _sanitize_pdf_text(str(c_info.get("counselor_name") or "Merit Badge Counselor"))
-    c_troop = _sanitize_pdf_text(str(c_info.get("troop_affiliation") or "Troop 19, Northeast Massachusetts Council"))
-    dates_str = _sanitize_pdf_text(" | ".join(session_dates) if session_dates else "Sessions 1-4 + Make-Up Day")
 
     doc = fitz.open()
     page = doc.new_page(width=612, height=792)
@@ -1983,7 +2045,8 @@ def generate_fillable_scout_workbook_pdf(
 
     for idx, u in enumerate(units, start=1):
         r_num = str(u.get("req_number") or u.get("req_id") or str(idx)).strip()
-        r_title = str(u.get("topic_title") or u.get("title") or f"Requirement {r_num}").strip()
+        raw_r_title = str(u.get("topic_title") or u.get("title") or f"Requirement {r_num}").strip()
+        r_title = re.sub(r"^Req(?:uirement)?\s+[0-9a-zA-Z().\-]+\s*[:\-]\s*", "", raw_r_title, flags=re.IGNORECASE).strip() or raw_r_title
         r_text = str(u.get("req_text") or "").strip()
         r_bucket = str(u.get("syllabus_bucket") or "In-Class Concept").strip()
         r_cit = str(u.get("pamphlet_page_citation") or u.get("pamphlet_citation") or "Official BSA Pamphlet").strip()
@@ -2205,7 +2268,17 @@ def generate_fillable_scout_workbook_pdf(
                 page = doc.new_page(width=612, height=792)
                 y_cursor = 36.0
             canvas_rect = fitz.Rect(32.0, y_cursor, 580.0, y_cursor + 84.0)
-            page.draw_rect(canvas_rect, color=(0.55, 0.64, 0.76), fill=(0.99, 0.995, 1.0))
+            sk_shape = page.new_shape()
+            sk_shape.draw_rect(canvas_rect)
+            sk_shape.finish(color=(0.55, 0.64, 0.76), fill=(0.99, 0.995, 1.0))
+            for gy in range(int(y_cursor) + 22, int(y_cursor) + 78, 16):
+                sk_shape.draw_line(fitz.Point(44.0, float(gy)), fitz.Point(568.0, float(gy)))
+            sk_shape.finish(color=(0.76, 0.81, 0.87), width=0.6, dashes="[1 11] 0")
+            if any(k in low_text for k in ("moon", "planet", "constellation", "sky", "eclipse", "telescope", "horizon")):
+                sk_shape.draw_circle(fitz.Point(500.0, y_cursor + 46.0), 22.0)
+                sk_shape.draw_line(fitz.Point(40.0, y_cursor + 72.0), fitz.Point(455.0, y_cursor + 72.0))
+                sk_shape.finish(color=(0.60, 0.68, 0.78), width=0.8)
+            sk_shape.commit()
             page.insert_text(
                 fitz.Point(38.0, y_cursor + 11.0),
                 _sanitize_pdf_text(f"Sketch & Observation Canvas (Req {r_num}) - Draw, diagram, and label key features:"),
@@ -2213,12 +2286,6 @@ def generate_fillable_scout_workbook_pdf(
                 fontname="helv",
                 color=(0.25, 0.32, 0.42),
             )
-            for gx in range(48, 570, 24):
-                for gy in range(int(y_cursor) + 20, int(y_cursor) + 78, 16):
-                    page.draw_circle(fitz.Point(float(gx), float(gy)), 0.6, color=(0.75, 0.80, 0.86), fill=(0.75, 0.80, 0.86))
-            if any(k in low_text for k in ("moon", "planet", "constellation", "sky", "eclipse", "telescope", "horizon")):
-                page.draw_circle(fitz.Point(500.0, y_cursor + 46.0), 22.0, color=(0.60, 0.68, 0.78))
-                page.draw_line(fitz.Point(40.0, y_cursor + 72.0), fitz.Point(455.0, y_cursor + 72.0), color=(0.65, 0.72, 0.80))
             y_cursor += 88.0
 
         # Structured Graphic Organizer Header Strip
@@ -2281,37 +2348,37 @@ def generate_fillable_scout_workbook_pdf(
                 )
             row_y0 = y_cursor
             zebra_fill = (0.945, 0.97, 1.0) if r_idx % 2 == 1 else (0.98, 0.99, 1.0)
-            page.draw_rect(
-                fitz.Rect(left_col_x0, row_y0, left_col_x1, row_y0 + row_h),
-                color=(0.78, 0.83, 0.90),
-                fill=zebra_fill,
-            )
+            row_shape = page.new_shape()
+            row_shape.draw_rect(fitz.Rect(left_col_x0, row_y0, left_col_x1, row_y0 + row_h))
+            row_shape.finish(color=(0.78, 0.83, 0.90), fill=zebra_fill)
+
+            for c_idx in range(input_cols):
+                cx0 = input_region_x0 + c_idx * col_w
+                cx1 = input_region_x0 + (c_idx + 1) * col_w
+                row_shape.draw_rect(fitz.Rect(cx0, row_y0, cx1, row_y0 + row_h))
+            row_shape.finish(color=(0.78, 0.83, 0.90), fill=(1.0, 1.0, 1.0))
+
+            # Faint horizontal dashed handwriting guide line (#CBD5E1) across the middle of each 36pt+ input cell
+            guide_y = row_y0 + row_h * 0.52
+            for c_idx in range(input_cols):
+                cx0 = input_region_x0 + c_idx * col_w
+                cx1 = input_region_x0 + (c_idx + 1) * col_w
+                row_shape.draw_line(fitz.Point(cx0 + 4.0, guide_y), fitz.Point(cx1 - 4.0, guide_y))
+            row_shape.finish(color=(0.796, 0.835, 0.882), width=0.5, dashes="[4 4] 0")
+
             for l_i, l_str in enumerate(label_lines):
-                page.insert_text(
+                row_shape.insert_text(
                     fitz.Point(left_col_x0 + 4.0, row_y0 + 3.5 + (l_i + 0.82) * 9.5),
                     l_str,
                     fontsize=7.2,
                     fontname="helv",
                     color=(0.12, 0.18, 0.26),
                 )
+            row_shape.commit()
 
             for c_idx in range(input_cols):
                 cx0 = input_region_x0 + c_idx * col_w
                 cx1 = input_region_x0 + (c_idx + 1) * col_w
-                page.draw_rect(
-                    fitz.Rect(cx0, row_y0, cx1, row_y0 + row_h),
-                    color=(0.78, 0.83, 0.90),
-                    fill=(1.0, 1.0, 1.0),
-                )
-                # Faint horizontal dashed handwriting guide line (#CBD5E1) across the middle of each 36pt+ input cell
-                guide_y = row_y0 + row_h * 0.52
-                for gx in range(int(cx0) + 4, int(cx1) - 4, 8):
-                    page.draw_line(
-                        fitz.Point(float(gx), guide_y),
-                        fitz.Point(float(min(gx + 4, int(cx1) - 4)), guide_y),
-                        color=(0.796, 0.835, 0.882),
-                        width=0.5,
-                    )
                 w_row = fitz.Widget()
                 w_row.field_name = f"req_{safe_r_num}_row_{idx}_{r_idx}_col_{c_idx + 1}"
                 w_row.field_type = fitz.PDF_WIDGET_TYPE_TEXT
@@ -2334,6 +2401,8 @@ def generate_fillable_scout_workbook_pdf(
     )
     pdf_bytes = doc.tobytes()
     doc.close()
+    if len(_WORKBOOK_PDF_LRU_CACHE) < 64:
+        _WORKBOOK_PDF_LRU_CACHE[lru_key] = pdf_bytes
     return pdf_bytes
 
 
@@ -2967,7 +3036,8 @@ def generate_counselor_workbook_pdf(
     units = _iter_unrolled_workbook_units(reqs, badge_name=resolved_badge)
     for idx, u in enumerate(units, start=1):
         r_num = str(u.get("req_number") or u.get("req_id") or str(idx)).strip()
-        r_title = str(u.get("topic_title") or u.get("title") or f"Requirement {r_num}").strip()
+        raw_r_title = str(u.get("topic_title") or u.get("title") or f"Requirement {r_num}").strip()
+        r_title = re.sub(r"^Req(?:uirement)?\s+[0-9a-zA-Z().\-]+\s*[:\-]\s*", "", raw_r_title, flags=re.IGNORECASE).strip() or raw_r_title
         r_text = str(u.get("req_text") or "").strip()
         r_bucket = str(u.get("syllabus_bucket") or "In-Class Concept").strip()
         r_mode = str(u.get("execution_mode") or "IN_CLASS_DISCUSSION").strip()

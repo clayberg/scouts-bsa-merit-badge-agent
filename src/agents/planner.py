@@ -35,9 +35,10 @@ class StoryboardPlan(BaseModel):
 
 
 def _sanitize_no_ellipsis_or_emdash(text: str) -> str:
-    """Removes ellipses ('...'), em-dashes ('—', '--'), en-dashes ('–'), and PDF kerning glitches."""
+    """Removes ellipses ('...'), em-dashes ('—', '--'), en-dashes ('–'), trailing dangling stopwords, and PDF kerning glitches."""
     if not text:
         return ""
+    import re
     from src.tools.pamphlet_extractor import _repair_pdf_word_concatenations
 
     cleaned = _repair_pdf_word_concatenations(str(text))
@@ -47,6 +48,14 @@ def _sanitize_no_ellipsis_or_emdash(text: str) -> str:
     cleaned = cleaned.replace(" , ", ", ")
     while ".." in cleaned:
         cleaned = cleaned.replace("..", ".")
+    cleaned = cleaned.strip()
+    if cleaned.endswith("."):
+        cleaned = re.sub(
+            r"(?:\s+(?:and\s+identify\s+the|and\s+the|or\s+the|to\s+the|in\s+the|of\s+the|for\s+the|with\s+the|the|a|an|and|or|to|of|in|for|with|on|at|by|from))+\.$",
+            ".",
+            cleaned,
+            flags=re.IGNORECASE,
+        )
     return cleaned.strip()
 
 
@@ -435,16 +444,18 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
 
     # Case 1: 'Requirement 1a (Scene Safety & 3 Cs)' -> 'Scene Safety & 3 Cs'
     m_paren = re.match(
-        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.]+\s*)\(([^)]+)\)$",
+        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.()]+\s*)\(([^)]+)\)$",
         clean_anc,
         flags=re.IGNORECASE,
     )
     if m_paren and len(m_paren.group(1).strip()) >= 3:
-        return m_paren.group(1).strip()
+        paren_topic = m_paren.group(1).strip()
+        if not re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do)\b", paren_topic, flags=re.IGNORECASE):
+            return paren_topic
 
     # Strip leading 'Requirement 1a:' or 'Req 1a -' or '(1)' from anchor
     stripped_anc = re.sub(
-        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.]+\s*[:\-]?\s*|\([0-9a-zA-Z]+\)\s*)",
+        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.()]+\s*[:\-]?\s*|\([0-9a-zA-Z]+\)\s*)",
         "",
         clean_anc,
         flags=re.IGNORECASE,
@@ -453,21 +464,41 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
     is_bare_req = bool(
         re.match(r"^(?:Req(?:uirement)?\s*|Option\s*)?[()0-9a-zA-Z.]+$", stripped_anc or clean_anc, flags=re.IGNORECASE)
     )
+    is_verb_clause = bool(
+        re.match(
+            r"^(?:Explain(?!\s+Phase)|Discuss|Describe|Demonstrate(?!\s+Phase)|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do|Prevent|Avoid|Always|Never|Every|Ever)\b",
+            stripped_anc,
+            flags=re.IGNORECASE,
+        )
+    )
     if (
         stripped_anc
         and not is_bare_req
+        and not is_verb_clause
         and stripped_anc.lower() not in _GENERIC_META_ANCHORS
         and clean_anc.lower() not in _GENERIC_META_ANCHORS
     ):
         return stripped_anc
 
-    # Derive a concrete topic phrase from the card body
+    # Derive a concrete topic phrase from the card body via _derive_topic_title when available
     candidate = re.sub(
-        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.]+\s*(?:\([^)]+\))?\s*[:\-]?\s*|\([a-z0-9]+\)\s*|Option\s+[A-Z0-9]+\s*[:\-]?\s*)",
+        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.()]+\s*(?:\([^)]+\))?\s*[:\-]?\s*|\([a-z0-9]+\)\s*|Option\s+[A-Z0-9]+\s*[:\-]?\s*)",
         "",
         clean_bdy,
         flags=re.IGNORECASE,
     ).strip()
+    try:
+        from src.tools.pamphlet_extractor import _derive_topic_title
+        derived = _derive_topic_title("X", candidate).replace("Req X:", "").strip()
+        if (
+            derived
+            and len(derived) >= 4
+            and derived.lower() not in {"requirement overview", "core standard", "field execution"}
+            and not re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell)\b", derived, flags=re.IGNORECASE)
+        ):
+            return derived
+    except Exception:
+        pass
     if " - " in candidate:
         left_seg = candidate.split(" - ", 1)[0].strip()
         if 2 <= len(left_seg.split()) <= 8 and not re.match(
@@ -1415,7 +1446,7 @@ def _polish_slide_bullet_for_card(
     txt = re.sub(r"\s{2,}", " ", txt).strip()
 
     raw_a, raw_b = _split_anchor_and_body(txt, fallback_anchor)
-    clean_a = _concise_anchor_title(raw_a, max_chars=max_anchor_chars).replace(":", "").strip(" .,-;()")
+    clean_a = _concise_anchor_title(raw_a, max_chars=max_anchor_chars).replace(":", "").strip(" .,-;")
     if "(" in clean_a and ")" not in clean_a:
         clean_a = clean_a.split("(", 1)[0].strip()
     elif clean_a.count("(") != clean_a.count(")"):
@@ -1453,10 +1484,10 @@ def _polish_slide_bullet_for_card(
         "lbs", "sec", "min", "hr", "hrs", "fig", "figs", "no", "nos", "vol", "ch",
         "pp", "approx", "vs", "etc", "dept", "assn", "inc", "corp", "co", "jr", "sr",
     }
-    b_words = clean_b.rstrip(".!?\"') ").split()
+    b_words = clean_b.rstrip(".!?\"') -").split()
     while len(b_words) > 3:
         last_tok = re.sub(r"^[^A-Za-z0-9']+|[^A-Za-z0-9'.]+$", "", b_words[-1]).lower().rstrip(".")
-        if last_tok in _dangling_words or last_tok in _abbrev_tails:
+        if not last_tok or last_tok in _dangling_words or last_tok in _abbrev_tails:
             b_words.pop()
         else:
             break
@@ -1824,7 +1855,7 @@ def generate_slide_storyboard(
             raw_core_points = _build_bullet_points_for_req(req, req_num, req_text)
             intro_title = (
                 f"{clean_section_title} (Req {req_num})"
-                if ":" in clean_section_title
+                if ": " in clean_section_title
                 else f"Requirement {req_num}: {clean_section_title}"
             )
             core_teaching_points = _polish_slide_bullets_list(
@@ -1970,18 +2001,25 @@ def generate_slide_storyboard(
                 if str(g).strip()
             ]
 
-            ts_bullets = _polish_slide_bullets_list(
-                [str(b) for b in raw_ts_bullets if str(b).strip()],
-                max_count=4,
-                max_total_chars=435,
-                max_anchor_chars=32 if ts_layout == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value else 34,
-                max_body_words=15,
-                max_body_chars=96,
-                deck_seen_norms=deck_seen_bullet_norms,
-                badge_name=clean_badge,
-                req_num=req_num,
-                slide_title=ts_title,
-            )
+            if ts_layout == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value and isinstance(ts_quiz, dict):
+                ts_bullets = [
+                    f"Scenario Prompt: {_sanitize_no_ellipsis_or_emdash(str(ts_quiz.get('scenario_prompt') or ''))}",
+                    f"Correct Action: {_sanitize_no_ellipsis_or_emdash(str(ts_quiz.get('correct_answer') or ''))}",
+                    f"Clinical Rationale: {_sanitize_no_ellipsis_or_emdash(str(ts_quiz.get('explanation') or ''))}",
+                ]
+            else:
+                ts_bullets = _polish_slide_bullets_list(
+                    [str(b) for b in raw_ts_bullets if str(b).strip()],
+                    max_count=4,
+                    max_total_chars=435,
+                    max_anchor_chars=32 if ts_layout == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value else 34,
+                    max_body_words=15,
+                    max_body_chars=96,
+                    deck_seen_norms=deck_seen_bullet_norms,
+                    badge_name=clean_badge,
+                    req_num=req_num,
+                    slide_title=ts_title,
+                )
 
             ts_cards = _build_cards_for_req({"req_text": req_text, "step_by_step_procedure": ts_bullets}, ts_bullets)
             ts_img = ts.get("image_path")

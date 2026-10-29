@@ -546,8 +546,8 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     {
                         "title": "Direct Pressure & Pressure Bandages for Severe Bleeding (Req 4c)",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
-                        "image_path": "assets/pamphlet_images/first_aid_p036_img1.png",
-                        "caption": "Applying firm direct pressure with a sterile gauze pad over a forearm wound to control severe bleeding.",
+                        "image_path": "assets/diagrams/first_aid_bleeding_diagram.png",
+                        "caption": "Applying firm direct pressure with sterile gauze, wrapping a pressure bandage, and positioning a windlass tourniquet 2 inches above a severe limb wound.",
                         "bullets": [
                             "Continuous Firm Pressure: Hold uninterrupted direct pressure with a sterile gauze pad for at least 5 full minutes without lifting to peek.",
                             "Never Peel Blood-Soaked Gauze: Pulling off the first pad rips away clotting fibrin; stack a second sterile pad on top and wrap snugly.",
@@ -1085,6 +1085,30 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Ground & Reassure: For acute anxiety or hyperventilation, guide slow 'box breathing' (inhale 4 sec, hold 4 sec, exhale 4 sec) and offer water.",
                     "Involve Trusted Adults & 988: Never promise to keep safety concerns secret; bring in the Scoutmaster, parent, counselor, or call/text 988.",
                 ],
+                "topic_slides": [
+                    {
+                        "title": "Mental Health First Aid, Campout Stressors & 988 Lifeline (Reqs 12a-12d)",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_req_12_topic_visual.png",
+                        "caption": "Supportive Listening on a Campout: A Scout buddy and adult leader offering calm, nonjudgmental support and grounding at camp.",
+                        "bullets": [
+                            "Mental Health Parity (Req 12a): Emotional and psychological well-being is just as vital as physical health during every Scouting adventure.",
+                            "Campout & Outing Stressors (Req 12b): Homesickness, fatigue, dehydration, weather, or group conflict can trigger acute anxiety or panic.",
+                            "Warning Signs for Help (Req 12c): Persistent sadness, sudden withdrawal, panic attacks, or any talk of self-harm require immediate adult help.",
+                            "Supportive Listening & 988 (Req 12d): Listen calmly without judgment, stay with your buddy, alert an adult leader, and call or text 988.",
+                        ],
+                    },
+                    {
+                        "title": "Four-Step Buddy Support & Escalation Protocol (ALGEE)",
+                        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+                        "bullets": [
+                            "Notice Behavioral Changes: Watch for a buddy withdrawing from patrol meals, struggling to sleep, hyperventilating, or expressing hopelessness.",
+                            "Listen Without Judgment: Move to a calm, quiet spot with Two-Deep visibility, ask 'How can I help right now?', and listen empathetically.",
+                            "Ground & Reassure: For acute anxiety or hyperventilation, guide slow 'box breathing' (inhale 4 sec, hold 4 sec, exhale 4 sec) and offer water.",
+                            "Involve Trusted Adults & 988: Never promise to keep safety concerns secret; bring in the Scoutmaster, parent, counselor, or call/text 988.",
+                        ],
+                    },
+                ],
                 "worked_example": {
                     "title": "Mental Health First Aid Action Plan (ALGEE / Buddy Support Model)",
                     "artifact_type": "SUPPORT PROTOCOL",
@@ -1180,6 +1204,20 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Guide (Coach Practice): Hand the supplies to the learner and coach them through the skill, checking CMS circulation or compression depth.",
                     "Enable (Independent Mastery): Present a realistic trail scenario and verify the learner can execute the skill solo from start to finish.",
                 ],
+                "topic_slides": [
+                    {
+                        "title": "Teaching First Aid with the BSA EDGE Method (Req 14)",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_req_14_topic_visual.png",
+                        "caption": "BSA EDGE Method in Action: Explaining, Demonstrating, Guiding, and Enabling a younger Scout to apply a padded forearm splint and cravat sling.",
+                        "bullets": [
+                            "Explain Phase (Step 1): State what the first-aid skill is, when it is needed, universal precautions (PPE gloves), and the sequence of steps.",
+                            "Demonstrate Phase (Step 2): Perform the skill smoothly at half-speed using real bandages or splints while narrating each safety checkpoint.",
+                            "Guide Phase (Step 3): Coach the learner through hands-on practice, offering positive feedback and checking knot tension and distal CMS.",
+                            "Enable Phase (Step 4): Present a realistic trail scenario and verify the learner can execute the complete first-aid skill independently.",
+                        ],
+                    },
+                ],
                 "worked_example": {
                     "title": "Sample EDGE Lesson Plan - Teaching Forearm Splinting & Cravat Sling",
                     "artifact_type": "EDGE LESSON PLAN",
@@ -1215,6 +1253,20 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     "Map Education & Licensing: List required coursework, clinical/field internship hours, and national registry board exams (NREMT, NCLEX, USMLE).",
                     "Estimate Training Expenses: Calculate community college or university tuition, lab fees, textbooks, stethoscope/uniforms, and certification renewal costs.",
                     "Evaluate Career Progression: Trace advancement opportunities from entry-level responder to Flight Paramedic, Nurse Practitioner, or EMS Medical Director.",
+                ],
+                "topic_slides": [
+                    {
+                        "title": "Emergency Medical, Nursing & Search-and-Rescue Careers (Reqs 15a-15b)",
+                        "layout": "SPLIT_VISUAL_EXPLAINER",
+                        "image_path": "assets/ai_illustrations/first_aid_req_15_topic_visual.png",
+                        "caption": "Emergency Medical Careers: Scouts visiting an ambulance station with a Firefighter-Paramedic, Emergency Department Nurse, and Wilderness Rescue Medic.",
+                        "bullets": [
+                            "EMS Station Visit or Interview (Req 15a): Tour a local fire-rescue or EMS station with Two-Deep Leadership to see cardiac monitors, airway kits, and rigs.",
+                            "EMT & Paramedic Pathway (Req 15b): EMT-Basic (150-200 hrs + NREMT exam) and Paramedics (1,200-1,800 hrs + degree) lead pre-hospital emergency care.",
+                            "Career Opportunities & Nursing (Req 15c): Trauma Nurses (BSN + NCLEX-RN), Search-and-Rescue medics, and Emergency Physicians direct emergency care.",
+                            "Lifelong Service & Hobby Readiness (Req 15d): Apply first-aid and Wilderness First Aid (WFA) training to high-adventure treks, sports, and community service.",
+                        ],
+                    },
                 ],
                 "worked_example": {
                     "title": "Requirement 15b Career Research Comparison - Paramedic, ER Nurse & Wilderness Medic",
@@ -4478,9 +4530,10 @@ def _merge_curated_with_official_requirements(
                 for ts in m_req["topic_slides"]:
                     ts_c = dict(ts)
                     if ts_c.get("title"):
+                        # Only rewrite bare parent requirement numbers that changed, preserving sub-requirement suffixes like Req 4c or Req 13e
                         ts_c["title"] = re.sub(
-                            r"\bReq(uirement)?\s+[0-9a-zA-Z]+\b",
-                            lambda m: f"{m.group(0).split()[0]} {r_num}",
+                            r"\b(Req(?:uirement)?)\s+(\d+)([a-zA-Z]*)\b",
+                            lambda m: f"{m.group(1)} {r_num}{m.group(3)}" if m.group(2) != r_num else m.group(0),
                             str(ts_c["title"]),
                         )
                     updated_ts.append(ts_c)
@@ -5584,6 +5637,7 @@ def _sanitize_misconception_pair_runtime(
 
 
 _NANO_WORKBOOK_DIAGRAM_CACHE: Optional[Dict[str, Any]] = None
+_PAMPHLET_BADGE_DIAGRAM_INDEX: Optional[Dict[str, List[str]]] = None
 
 
 def _load_nano_workbook_diagram_catalog() -> Dict[str, Any]:
@@ -5603,62 +5657,103 @@ def _load_nano_workbook_diagram_catalog() -> Dict[str, Any]:
     return _NANO_WORKBOOK_DIAGRAM_CACHE
 
 
+def _get_pamphlet_badge_diagram_index() -> Dict[str, List[str]]:
+    """Pre-indexes authentic extracted BSA Pamphlet figures (assets/pamphlet_images/) per badge slug for O(1) lookup."""
+    global _PAMPHLET_BADGE_DIAGRAM_INDEX
+    if _PAMPHLET_BADGE_DIAGRAM_INDEX is not None:
+        return _PAMPHLET_BADGE_DIAGRAM_INDEX
+    import re
+
+    idx: Dict[str, List[str]] = {}
+    p_dir = Path(__file__).resolve().parents[2] / "assets" / "pamphlet_images"
+    if p_dir.exists():
+        for p in sorted(p_dir.glob("*.png")):
+            try:
+                sz = p.stat().st_size
+            except Exception:
+                sz = 0
+            if sz < 15_000:
+                continue
+            m = re.match(r"^([a-z0-9_]+)_p(\d+)_img\d+\.png$", p.name)
+            if not m:
+                continue
+            slug_k, page_s = m.group(1), m.group(2)
+            # Prefer interior instructional figures (page >= 4) over cover pages
+            if int(page_s) <= 2:
+                continue
+            idx.setdefault(slug_k, []).append(f"assets/pamphlet_images/{p.name}")
+    _PAMPHLET_BADGE_DIAGRAM_INDEX = idx
+    return _PAMPHLET_BADGE_DIAGRAM_INDEX
+
+
 def _resolve_workbook_diagram_url(
     badge_name: str,
     req_num: str,
     req_text: str = "",
     explicit_url: str = "",
 ) -> str:
-    """Resolves a workbook reference diagram path/URL from explicit field, nano_banana_image_catalog.json, or assets/diagrams/."""
+    """Resolves an authentic workbook reference diagram path/URL from curated diagrams or BSA pamphlet figures."""
     import re
-
-    if explicit_url and str(explicit_url).strip():
-        return str(explicit_url).strip()
 
     b_low = str(badge_name or "").strip().lower()
     r_clean = str(req_num or "").strip().lower()
     m_parent = re.match(r"^(\d+)", r_clean)
     r_parent = m_parent.group(1) if m_parent else r_clean
     tl = str(req_text or "").strip().lower()
-
-    # 1. Check data/nano_banana_image_catalog.json for *_workbook_diagram.png or workbook_diagram_url
-    cat = _load_nano_workbook_diagram_catalog()
     slug = re.sub(r"[^a-z0-9]+", "_", b_low).strip("_")
-    for fname, meta in cat.items():
-        fname_s = str(fname).strip()
-        meta_d = meta if isinstance(meta, dict) else {}
-        m_badge = str(meta_d.get("badge_name") or meta_d.get("badge") or "").strip().lower()
-        m_req = str(meta_d.get("req_number") or "").strip().lower()
-        if m_badge == b_low or fname_s.lower().startswith(f"{slug}_"):
-            if m_req == r_clean or (m_req == r_parent and r_clean in (r_parent, f"{r_parent}a")):
-                if fname_s.endswith("_workbook_diagram.png"):
-                    return fname_s if fname_s.startswith("assets/") else f"assets/ai_illustrations/{fname_s}"
-                if meta_d.get("workbook_diagram_url"):
-                    return str(meta_d["workbook_diagram_url"]).strip()
 
-    # 2. Match curated high-contrast instructional diagrams in assets/diagrams/ and assets/ai_illustrations/
+    # 1. Exact 2025/2026 sub-requirement clinical diagram mapping for First Aid
     if b_low == "first aid":
-        if r_clean in ("2b", "2b(1)") or "first-aid kit" in tl:
-            return "assets/ai_illustrations/first_aid_kit_21_items_visual.png"
-        if r_clean == "4b" or "choking" in tl or "abdominal thrust" in tl:
-            return "assets/ai_illustrations/first_aid_choking_5and5_visual.png"
-        if r_clean in ("4", "4a", "6", "6a") or "severe bleeding" in tl or "tourniquet" in tl:
-            return "assets/diagrams/first_aid_bleeding_diagram.png"
-        if r_clean in ("7", "7a") or "splint" in tl:
-            return "assets/ai_illustrations/first_aid_splinting_carries_visual.png"
-        if r_clean in ("8", "8b", "8c") or "cpr" in tl or "aed" in tl:
-            return "assets/diagrams/cpr_steps_diagram.png"
-    elif b_low == "cooking":
-        if r_clean in ("2", "2a", "2b", "2c") or "myplate" in tl or "food group" in tl:
+        first_aid_exact_map = {
+            "1a": "assets/ai_illustrations/first_aid_triage_scene_visual.png",
+            "2b(1)": "assets/ai_illustrations/first_aid_kit_21_items_visual.png",
+            "3i": "assets/ai_illustrations/first_aid_wound_cleaning_blister_visual.png",
+            "4c": "assets/diagrams/first_aid_bleeding_diagram.png",
+            "5a": "assets/ai_illustrations/first_aid_choking_5and5_visual.png",
+            "6b": "assets/ai_illustrations/first_aid_burns_epi_visual.png",
+            "7d": "assets/diagrams/cpr_steps_diagram.png",
+            "8d(1)": "assets/ai_illustrations/first_aid_splinting_carries_visual.png",
+            "10a": "assets/ai_illustrations/first_aid_bites_stings_ticks_visual.png",
+            "11c": "assets/ai_illustrations/first_aid_heat_hypothermia_visual.png",
+            "12a": "assets/ai_illustrations/first_aid_req_12_topic_visual.png",
+            "13e": "assets/ai_illustrations/first_aid_stroke_fast_seizure_visual.png",
+            "14": "assets/ai_illustrations/first_aid_req_14_topic_visual.png",
+            "15b": "assets/ai_illustrations/first_aid_req_15_topic_visual.png",
+        }
+        return first_aid_exact_map.get(r_clean, "")
+
+    # 2. If an explicit non-synthetic diagram URL is provided, honor it
+    exp_s = str(explicit_url or "").strip()
+    if exp_s and not exp_s.endswith("_workbook_diagram.png"):
+        return exp_s
+
+    # 3. Curated subject-matter diagrams in assets/diagrams/ and assets/ai_illustrations/
+    if b_low == "cooking":
+        if r_clean in ("2", "2a"):
             return "assets/diagrams/myplate_cooking_diagram.png"
     elif b_low in ("camping", "hiking", "backpacking", "wilderness survival"):
         if b_low == "camping" and r_clean == "9b":
             return "assets/ai_illustrations/camping_req_9_topic_visual.png"
-        if "leave no trace" in tl or "outdoor code" in tl or (b_low == "camping" and r_clean in ("2", "7", "7a")):
+        if r_clean in ("2", "2a", "7", "7a") and ("leave no trace" in tl or "outdoor code" in tl or b_low == "camping"):
             return "assets/diagrams/leave_no_trace_diagram.png"
     elif b_low in ("weather", "environmental science", "sustainability", "soil and water conservation"):
-        if "water cycle" in tl or "hydrologic" in tl or (b_low == "weather" and r_clean in ("3", "4")):
+        if r_clean in ("1", "1a", "2", "2a", "3", "3a") and ("water cycle" in tl or "hydrologic" in tl or b_low == "weather"):
             return "assets/diagrams/water_cycle_diagram.png"
+
+    # 4. Authentic BSA Pamphlet figure for Req 1 (and Req 2 when available)
+    if r_clean in ("1", "1a", "2", "2a"):
+        pamphlet_idx = _get_pamphlet_badge_diagram_index()
+        figs = pamphlet_idx.get(slug) or []
+        if figs:
+            if r_parent == "1":
+                return figs[0]
+            if r_parent == "2" and len(figs) >= 2:
+                return figs[1]
+        # Fallback to badge Req 1 hero illustration if pamphlet figure not present
+        hero_rel = f"assets/ai_illustrations/{slug}_req_{r_parent}_nano_hero.png"
+        hero_abs = Path(__file__).resolve().parents[2] / hero_rel
+        if hero_abs.exists():
+            return hero_rel
 
     return ""
 
@@ -6280,6 +6375,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
     import re
 
     units: List[Dict[str, Any]] = []
+    seen_diagrams: set = set()
     for idx, r in enumerate(reqs or [], start=1):
         r_num = str(r.get("req_number") or r.get("req_id") or str(idx)).strip()
         r_title = str(r.get("topic_title") or r.get("title") or f"Requirement {r_num}").strip()
@@ -6307,7 +6403,15 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 "fact": f"Each Scout must individually {r_verb.lower()} Requirement {r_num} ({r_title}) using verified facts from {r_cit}.",
             }
         r_gate = r.get("starting_requirement_gate")
-        r_gear = list(r.get("gear_checklist") or [])
+        _r_has_gear_context = (
+            r_mode == "HANDS_ON_SKILL_STATION"
+            or r_verb.lower() in ("demonstrate", "show", "build", "prepare", "assemble", "construct")
+            or any(
+                kw in r_text.lower()
+                for kw in ("kit", "gear", "equipment", "pack", "demonstrate", "show how", "inspect", "supply", "supplies")
+            )
+        )
+        r_gear = list(r.get("gear_checklist") or []) if _r_has_gear_context else []
         r_excerpts = _clean_ocr_and_prefix_excerpts(list(r.get("pamphlet_excerpts") or []))
         if not r_excerpts and r_text:
             r_excerpts = [f"Requirement {r_num} Standard ({r_cit}): {r_text}"]
@@ -6324,6 +6428,10 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
         subs = list(r.get("sub_requirements") or [])
 
         if not subs:
+            if r_diag in seen_diagrams:
+                r_diag = ""
+            elif r_diag:
+                seen_diagrams.add(r_diag)
             unit = dict(r)
             unit.update({
                 "is_group_header": False,
@@ -6351,7 +6459,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             units.append(unit)
             continue
 
-        # Emit parent group header unit
+        # Emit parent group header unit (never attach diagram to group header so it isn't duplicated on 1a)
         units.append({
             "is_group_header": True,
             "is_sub_requirement": False,
@@ -6373,7 +6481,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             "pamphlet_excerpts": r_excerpts,
             "step_by_step_procedure": r_proc,
             "counselor_signoff_criteria": r_signoff,
-            "workbook_diagram_url": r_diag,
+            "workbook_diagram_url": "",
             "safety_callout": r_safety,
         })
 
@@ -6396,7 +6504,19 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 dict(sr.get("common_misconception_pair") or r_mis), sr_id, sr_text, sr_verb, sr_cit
             )
             sr_gate = sr.get("starting_requirement_gate") or (r_gate if sr_idx == 0 else None)
-            sr_gear = list(sr.get("gear_checklist") or (r_gear if sr_idx == 0 else []))
+            _sr_has_gear_context = (
+                _r_has_gear_context
+                or sr_verb.lower() in ("demonstrate", "show", "build", "prepare", "assemble", "construct")
+                or any(
+                    kw in sr_text.lower()
+                    for kw in ("kit", "gear", "equipment", "pack", "demonstrate", "show how", "inspect", "supply", "supplies")
+                )
+            )
+            sr_gear = (
+                list(sr.get("gear_checklist") or (r_gear if sr_idx == 0 else []))
+                if _sr_has_gear_context and sr_idx == 0
+                else []
+            )
             sr_title = str(sr.get("topic_title") or sr.get("title") or f"{r_title} ({sr_id})").strip()
             sr_excerpts = _clean_ocr_and_prefix_excerpts(
                 ([sr["pamphlet_summary"]] if sr.get("pamphlet_summary") else [])
@@ -6435,6 +6555,12 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                     sr_org["min_rows"] = len(consolidated_rows)
 
             sr_is_group_header = bool(children) and not children_are_short_condition_rows
+            if sr_is_group_header or sr_diag in seen_diagrams:
+                sr_diag_emit = ""
+            else:
+                sr_diag_emit = sr_diag
+                if sr_diag_emit:
+                    seen_diagrams.add(sr_diag_emit)
 
             units.append({
                 "is_group_header": sr_is_group_header,
@@ -6457,7 +6583,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 "pamphlet_excerpts": sr_excerpts,
                 "step_by_step_procedure": sr_proc,
                 "counselor_signoff_criteria": sr_signoff,
-                "workbook_diagram_url": sr_diag,
+                "workbook_diagram_url": sr_diag_emit,
                 "safety_callout": r_safety if sr_idx == 0 else None,
             })
 
@@ -6526,6 +6652,10 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 ch_diag = _resolve_workbook_diagram_url(
                     badge_name, ch_id, ch_text, str(ch.get("workbook_diagram_url") or "")
                 )
+                if ch_diag in seen_diagrams:
+                    ch_diag = ""
+                elif ch_diag:
+                    seen_diagrams.add(ch_diag)
 
                 units.append({
                     "is_group_header": False,
@@ -6933,10 +7063,10 @@ def generate_fillable_scout_workbook_html(
             )
             diag_html = (
                 f'<figure class="wb-reference-diagram" data-diagram-url="{_html.escape(diag_url_raw)}" '
-                'style="margin:6px 0 8px 0; padding:6px 10px; border:1px solid #cbd5e1; border-radius:6px; background:#f8fafc; text-align:center;">'
+                'style="margin:8px 0 10px 0; padding:10px 14px; border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; text-align:center;">'
                 f'<img src="{diag_src}" alt="Req {r_num} Instructional Reference Diagram" '
-                'style="max-width:100%; max-height:160px; height:auto; object-fit:contain; display:block; margin:0 auto;" />'
-                '<figcaption style="font-size:10.5px; color:#475569; margin-top:4px; font-weight:600;">'
+                'style="max-width:100%; max-height:280px; height:auto; object-fit:contain; display:block; margin:0 auto;" />'
+                '<figcaption style="font-size:11px; color:#334155; margin-top:6px; font-weight:600;">'
                 f'Instructional Reference Diagram - Req {r_num}: {r_title}</figcaption>'
                 '</figure>'
             )
@@ -7207,9 +7337,16 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
     badge_title = raw_name.title()
     used_image_paths: set = set()
     official_cache = _load_official_requirements_cache()
+    req_opt_track = _normalize_option_track_filter(getattr(request, "option_track", None), badge_name=badge_title)
+    c_info_key = repr(request.counselor_info.model_dump()) if request.counselor_info else ""
+    research_cache_key = (badge_title.lower(), req_opt_track, c_info_key)
+    if not hasattr(fetch_merit_badge_pamphlet_pdf, "_lru_cache"):
+        fetch_merit_badge_pamphlet_pdf._lru_cache = {}
+    if research_cache_key in fetch_merit_badge_pamphlet_pdf._lru_cache:
+        import copy
+        return copy.deepcopy(fetch_merit_badge_pamphlet_pdf._lru_cache[research_cache_key])
 
     # 1. Case-insensitive lookup in rich benchmark database + live BSA Pamphlet PDF enrichment
-    req_opt_track = _normalize_option_track_filter(getattr(request, "option_track", None), badge_name=badge_title)
     for key, data in BENCHMARK_BADGES_DATA.items():
         if key.lower() == badge_title.lower():
             req_opt_track = _normalize_option_track_filter(getattr(request, "option_track", None), badge_name=key)
@@ -7258,7 +7395,11 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
                 selected_option_track=req_opt_track,
                 status="SUCCESS",
             )
-            return result.model_dump()
+            out_dict = result.model_dump()
+            if len(fetch_merit_badge_pamphlet_pdf._lru_cache) < 256:
+                import copy
+                fetch_merit_badge_pamphlet_pdf._lru_cache[research_cache_key] = copy.deepcopy(out_dict)
+            return out_dict
 
     # 2. Check if badge is in the 149-badge OFFICIAL_BSA_MERIT_BADGES_CATALOG
     from src.config import get_merit_badge_metadata
@@ -7424,7 +7565,11 @@ def fetch_merit_badge_pamphlet_pdf(request: Union[MeritBadgeResearchRequest, Dic
         selected_option_track=req_opt_track,
         status="SUCCESS",
     )
-    return result.model_dump()
+    out_dict = result.model_dump()
+    if len(fetch_merit_badge_pamphlet_pdf._lru_cache) < 256:
+        import copy
+        fetch_merit_badge_pamphlet_pdf._lru_cache[research_cache_key] = copy.deepcopy(out_dict)
+    return out_dict
 
 
 def fetch_official_merit_badge_requirements(

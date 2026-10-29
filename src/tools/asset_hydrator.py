@@ -178,14 +178,20 @@ def collect_badge_asset_rel_paths(
             or fname_s.startswith(nano_hyphen_prefix)
         ):
             clean_fname = fname_s.lstrip("/")
-            if clean_fname.startswith("assets/"):
+            explicit_path = str(meta_dict.get("path") or meta_dict.get("rel_path") or "").strip().lstrip("/")
+            if explicit_path.startswith("assets/"):
+                rel_paths.append(explicit_path)
+            elif clean_fname.startswith("assets/"):
                 rel_paths.append(clean_fname)
+            elif (root / "assets" / "diagrams" / clean_fname).exists() and not (
+                root / "assets" / "ai_illustrations" / clean_fname
+            ).exists():
+                rel_paths.append(f"assets/diagrams/{clean_fname}")
             else:
                 rel_paths.append(f"assets/ai_illustrations/{clean_fname}")
-            for path_key in ("rel_path", "path", "workbook_diagram_url"):
-                extra_p = str(meta_dict.get(path_key) or "").strip().lstrip("/")
-                if extra_p.startswith("assets/"):
-                    rel_paths.append(extra_p)
+            extra_wb = str(meta_dict.get("workbook_diagram_url") or "").strip().lstrip("/")
+            if extra_wb.startswith("assets/"):
+                rel_paths.append(extra_wb)
 
     # Inspect data/merit_badge_requirements/<slug>.json for workbook_diagram_url paths
     req_dir = root / "data" / "merit_badge_requirements"

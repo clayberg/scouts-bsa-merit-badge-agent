@@ -107,7 +107,8 @@ def _repair_pdf_word_concatenations(text: str) -> str:
     # Strip synthetic 3-word OCR prefixes and "Core Standard N (Req N):" prefixes
     s = re.sub(
         r"^(?:Seen\s+Golfers\s+Lick|There\s+Few\s+First-aid|Party\s*trusts\s+She\s+Promised|"
-        r"Course\s+Profit\s+Not\s*be|Situation\s+Members\s*of|Core\s+Standard\s+\d+\s*\(\s*Req\.?\s*[0-9a-zA-Z()]+\s*\))\s*:\s*",
+        r"Course\s+Profit\s+Not\s*be|Situation\s+Members\s*of|Ever\s+Feeling\s+Gut|"
+        r"Core\s+Standard\s+\d+\s*\(\s*Req\.?\s*[0-9a-zA-Z()]+\s*\))\s*:\s*",
         "",
         s,
         flags=re.IGNORECASE,
@@ -141,6 +142,15 @@ def _repair_pdf_word_concatenations(text: str) -> str:
         "willroll": "will roll",
         "themsafe": "them safe",
         "thatcan": "that can",
+        "thathelps": "that helps",
+        "thatsomeone": "that someone",
+        "medicalcrews": "medical crews",
+        "mayexperience": "may experience",
+        "symptomsthan": "symptoms than",
+        "checksand": "checks and",
+        "interpretsthe": "interprets the",
+        "yourselfwith": "yourself with",
+        "tobeinfectious": "to be infectious",
         "shouldbe": "should be",
         "mustbe": "must be",
         "canbe": "can be",
@@ -240,21 +250,31 @@ def _load_pamphlet_image_catalog() -> Dict[str, Dict[str, Any]]:
     return _PAMPHLET_VISION_CATALOG_CACHE
 
 
+_DISCARDABLE_IMAGE_MEMO: Dict[Tuple[str, int, int], bool] = {}
+
+
 def _is_discardable_pamphlet_image(img_path: Path, page_num: int = 0, page_count: int = 100) -> bool:
     """Inspects an extracted pamphlet image and returns True if it is a full-page text scan, frontmatter/backmatter
     ad, QR code, or block of printed text that should be discarded rather than placed on a teaching slide."""
+    memo_key = (str(img_path), page_num, page_count)
+    if memo_key in _DISCARDABLE_IMAGE_MEMO:
+        return _DISCARDABLE_IMAGE_MEMO[memo_key]
     name = img_path.name
     if name.endswith("_figure.png") or name in _DISCARDED_PAMPHLET_FILENAMES:
+        _DISCARDABLE_IMAGE_MEMO[memo_key] = True
         return True
     # Page 2 in BSA pamphlets is "How to Use This Pamphlet" text; last 2 pages are back-cover ads / photo credits
     if page_num == 2 or (page_count > 12 and page_num >= page_count - 2):
+        _DISCARDABLE_IMAGE_MEMO[memo_key] = True
         return True
     m_p = re.search(r"_p(\d+)_img", name)
     if m_p:
         p_parsed = int(m_p.group(1))
         if p_parsed == 2:
+            _DISCARDABLE_IMAGE_MEMO[memo_key] = True
             return True
     if not img_path.exists():
+        _DISCARDABLE_IMAGE_MEMO[memo_key] = True
         return True
     try:
         with Image.open(img_path) as im:
@@ -266,6 +286,7 @@ def _is_discardable_pamphlet_image(img_path: Path, page_num: int = 0, page_count
                 or (w / max(1, h)) > 3.2
                 or (h / max(1, w)) > 2.8
             ):
+                _DISCARDABLE_IMAGE_MEMO[memo_key] = True
                 return True
             gray = im.convert("L").resize((160, 160))
             px = gray.load()
@@ -288,9 +309,12 @@ def _is_discardable_pamphlet_image(img_path: Path, page_num: int = 0, page_count
             white_ratio = white_cnt / float(max(1, total_sampled))
             # High white ratio combined with many high-frequency dark/light scanlines indicates a text page or QR code
             if white_ratio >= 0.66 and text_like_rows >= 16:
+                _DISCARDABLE_IMAGE_MEMO[memo_key] = True
                 return True
     except Exception:
+        _DISCARDABLE_IMAGE_MEMO[memo_key] = True
         return True
+    _DISCARDABLE_IMAGE_MEMO[memo_key] = False
     return False
 
 
@@ -1647,6 +1671,7 @@ _SHORT_SUBREQ_INSTRUCTIONAL_GLOSSARY: Dict[str, str] = {
     "bite of a pet or wild mammal or human": "Mammal or Human Bites — Irrigate thoroughly with soap and running water for 5 minutes, control bleeding with sterile gauze, and seek medical evaluation for rabies/tetanus.",
     "bite of a venomous snake": "Venomous Snakebite — Keep the victim calm, immobilize the bitten limb at heart level, remove rings/watches, never cut/suck/tourniquet, and arrange rapid EMS transport.",
     "a nosebleed": "Nosebleed Epistaxis Care — Sit upright leaning slightly forward (never tilt head back) and pinch the soft lower nostrils firmly together for 10 to 15 full minutes.",
+    "an open wound with severe bleeding, including the use of direct pressure and when to use a tourniquet": "Severe Bleeding & Tourniquet Use — Apply firm direct pressure with sterile gauze dressings; if life-threatening limb bleeding continues, apply a CoTCCC windlass tourniquet 2 to 3 inches above the wound and record the time.",
     "choking": "Conscious & Unconscious Choking — For severe airway obstruction, alternate 5 firm back blows between shoulder blades and 5 upward abdominal thrusts until cleared.",
     "asthmatic attack": "Asthma Attack Response — Sit the person upright in a comfortable position, loosen tight clothing, assist with their prescribed quick-relief bronchodilator inhaler, and call 911 if severe.",
     "inhalation injuries": "Smoke & Carbon Monoxide Inhalation — Move the victim to fresh air immediately once safe, monitor airway for hoarseness or soot burns, administer oxygen if trained, and call 911.",
@@ -1660,6 +1685,8 @@ _SHORT_SUBREQ_INSTRUCTIONAL_GLOSSARY: Dict[str, str] = {
     "lightning strike and electric shock": "Lightning Strike & Electric Shock — Ensure scene electrical safety, perform reverse triage on lightning victims (treat cardiac/respiratory arrest first with CPR/AED), and treat burns.",
     "explain what a heart attack is": "Myocardial Infarction (Heart Attack) — Blockage of a coronary artery deprives heart muscle of oxygen, causing chest pressure, arm/jaw pain, sweating, and shortness of breath.",
     "explain the use of an automated external defibrillator (aed)": "Automated External Defibrillator (AED) — Analyzes heart rhythm and delivers a life-saving shock for ventricular fibrillation; power on, attach pads, clear victim, and resume CPR.",
+    "demonstrate proper cpr technique using a training device approved by your counselor": "Hands-On 30:2 CPR Manikin Demonstration — Compress center of chest 2 inches deep at 100 to 120 BPM with full recoil, alternating 30 compressions and 2 rescue breaths.",
+    "or simulate the proper use of an automated external defibrillator (aed) using a training device": "AED Trainer Pad Placement & Shock Protocol — Power on the AED trainer, apply adult pads to bare upper-right chest and lower-left ribs, clear rescuers during analysis/shock, and resume CPR.",
     "dehydration and over-hydration": "Dehydration vs. Hyponatremia (Over-Hydration) — Prevent dehydration by drinking water until urine is pale yellow; prevent sodium-depleting over-hydration by balancing fluids with electrolytes.",
     "heat cramps and muscle pain after exertion": "Exertional Heat Cramps — Move to shade, rest the cramping muscle, sip cool water with electrolytes or sports drink, and gently stretch and massage the muscle.",
     "heat exhaustion": "Heat Exhaustion — Cool, pale, clammy skin with heavy sweating, dizziness, and nausea; move to shade/AC, remove excess gear, apply cool wet cloths, and sip water.",
@@ -1820,12 +1847,18 @@ def _build_sub_requirement_slides(
             if " — " in sr_txt:
                 topic_head, topic_body = sr_txt.split(" — ", 1)
                 clean_head = re.sub(rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*", "", topic_head.strip(), flags=re.IGNORECASE).rstrip(".:;")
+                clean_head = re.sub(r"\s*\([^)]*\)", "", clean_head).strip()
+                if re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do)\b", clean_head, flags=re.IGNORECASE):
+                    clean_head = _derive_topic_title(sr_id, raw_sr_txt or clean_head).replace(f"Req {sr_id}:", "").strip()
                 combined = f"Requirement {sr_id} ({clean_head}): {topic_body.strip()}"
                 if clean_head and len(clean_head.split()) <= 5:
                     chunk_short_topics.append(clean_head)
-            elif ":" in sr_txt[:60]:
-                topic_head, topic_body = sr_txt.split(":", 1)
+            elif ": " in sr_txt[:60]:
+                topic_head, topic_body = sr_txt.split(": ", 1)
                 clean_head = re.sub(rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*", "", topic_head.strip(), flags=re.IGNORECASE).rstrip(".:;")
+                clean_head = re.sub(r"\s*\([^)]*\)", "", clean_head).strip()
+                if re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do)\b", clean_head, flags=re.IGNORECASE):
+                    clean_head = _derive_topic_title(sr_id, raw_sr_txt or clean_head).replace(f"Req {sr_id}:", "").strip()
                 combined = f"Requirement {sr_id} ({clean_head}): {topic_body.strip()}"
                 if clean_head and len(clean_head.split()) <= 5:
                     chunk_short_topics.append(clean_head)
@@ -1838,7 +1871,10 @@ def _build_sub_requirement_slides(
                 if sr_topic and len(sr_topic.split()) <= 5:
                     chunk_short_topics.append(sr_topic)
             else:
-                combined = f"Requirement {sr_id}: {sr_txt}"
+                sr_topic = _derive_topic_title(sr_id, raw_sr_txt or sr_txt).replace(f"Req {sr_id}:", "").strip()
+                if sr_topic and len(sr_topic.split()) <= 5:
+                    chunk_short_topics.append(sr_topic)
+                combined = f"Requirement {sr_id} ({sr_topic}): {sr_txt}" if sr_topic and len(sr_topic) <= 32 else f"Requirement {sr_id}: {sr_txt}"
             chunk_bullets.append(combined)
 
         first_raw = str(chunk[0].get("sub_id") or chunk[0].get("id") or chunk[0].get("sub_req_label") or f"{req_num}a").strip()
@@ -1851,8 +1887,8 @@ def _build_sub_requirement_slides(
         if c_idx < len(curated_chunk_titles):
             cur_t = str(curated_chunk_titles[c_idx]).strip()
             slide_title = cur_t if (f"({range_label})" in cur_t or "(Req" in cur_t) else f"{cur_t} ({range_label})"
-        elif ":" in base_title:
-            opt_prefix = base_title.split(":", 1)[0].strip()
+        elif ": " in base_title:
+            opt_prefix = base_title.split(": ", 1)[0].strip()
             if len(sub_chunks) == 1:
                 slide_title = base_title if (f"({range_label})" in base_title or "(Req" in base_title) else f"{base_title} ({range_label})"
             elif chunk_short_topics:
@@ -1860,6 +1896,9 @@ def _build_sub_requirement_slides(
                 slide_title = f"{opt_prefix}: {', '.join(uniq_topics)} ({range_label})"
             else:
                 slide_title = base_title if (f"({range_label})" in base_title or "(Req" in base_title) else f"{base_title} ({range_label})"
+        elif chunk_short_topics:
+            uniq_topics = list(dict.fromkeys(chunk_short_topics))[:3]
+            slide_title = f"{base_title}: {', '.join(uniq_topics)} ({range_label})"
         else:
             slide_title = f"{base_title}: Sub-Requirement Deep Dive ({range_label})"
 
@@ -2250,7 +2289,7 @@ def decompose_requirement_into_topic_slides(
             )
             if eff_q:
                 resolved_slides.append({
-                    "title": f"{base_title} (Safety Scenario)" if ":" in base_title else f"{base_title}: Patrol Safety Scenario",
+                    "title": f"{base_title} (Safety Scenario)" if ": " in base_title else f"{base_title}: Patrol Safety Scenario",
                     "layout": "SOCRATIC_CHECKPOINT_QUIZ",
                     "quiz_item": eff_q,
                     "bullets": [
@@ -2409,7 +2448,7 @@ def decompose_requirement_into_topic_slides(
         for vb in vis_bullets:
             used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", vb.lower()).strip()[:55])
         generated.append({
-            "title": f"{base_title} (Visual Guide)" if ":" in base_title else f"{base_title}: Field Visual & Key Principles",
+            "title": f"{base_title} (Visual Guide)" if ": " in base_title else f"{base_title}: Field Visual & Key Principles",
             "layout": "SPLIT_VISUAL_EXPLAINER" if vis_img else "CONCEPT_TEXT_SLIDE",
             "bullets": vis_bullets,
             "image_path": vis_img,
@@ -2440,7 +2479,7 @@ def decompose_requirement_into_topic_slides(
         else:
             slide_img, slide_cap = None, base_title
         generated.append({
-            "title": f"{base_title} (Core Principles)" if ":" in base_title else f"{base_title}: Core Principles & Field Reference",
+            "title": f"{base_title} (Core Principles)" if ": " in base_title else f"{base_title}: Core Principles & Field Reference",
             "layout": "SPLIT_VISUAL_EXPLAINER" if slide_img else "CONCEPT_TEXT_SLIDE",
             "bullets": deep_bullets,
             "image_path": slide_img,
@@ -2471,7 +2510,7 @@ def decompose_requirement_into_topic_slides(
         ]
 
     generated.append({
-        "title": f"{base_title} (Step-by-Step)" if ":" in base_title else f"{base_title}: Step-by-Step Execution",
+        "title": f"{base_title} (Step-by-Step)" if ": " in base_title else f"{base_title}: Step-by-Step Execution",
         "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
         "bullets": proc_bullets[:4],
         "image_path": None,
@@ -2483,7 +2522,7 @@ def decompose_requirement_into_topic_slides(
     if len(generated) < 6:
         if comp_data:
             generated.append({
-                "title": f"{base_title} (Technical Comparison)" if ":" in base_title else f"{base_title}: Technical Comparison & Standards",
+                "title": f"{base_title} (Technical Comparison)" if ": " in base_title else f"{base_title}: Technical Comparison & Standards",
                 "layout": "DIFFERENTIAL_COMPARISON_2COL",
                 "comparison_data": comp_data,
                 "bullets": (comp_data.get("left_points", [])[:2] + comp_data.get("right_points", [])[:2]),
@@ -2491,7 +2530,7 @@ def decompose_requirement_into_topic_slides(
             })
         if worked_ex and len(generated) < 6:
             generated.append({
-                "title": f"{base_title} (Scout Log)" if ":" in base_title else f"{base_title}: Worked Example & Scout Log",
+                "title": f"{base_title} (Scout Log)" if ": " in base_title else f"{base_title}: Worked Example & Scout Log",
                 "layout": "WORKED_EXAMPLE_TEMPLATE",
                 "worked_example": worked_ex,
                 "bullets": [f"{k}: {v}" for k, v in list((worked_ex.get("fields") or {}).items())[:4]],
@@ -2517,7 +2556,7 @@ def decompose_requirement_into_topic_slides(
                     else:
                         fields_map[f"Workbook Entry {idx_f}"] = pt.strip()
             generated.append({
-                "title": f"{base_title} (Workbook Guide)" if ":" in base_title else f"{base_title}: Scout Workbook & Review Guide",
+                "title": f"{base_title} (Workbook Guide)" if ": " in base_title else f"{base_title}: Scout Workbook & Review Guide",
                 "layout": "WORKED_EXAMPLE_TEMPLATE",
                 "worked_example": {
                     "title": f"Requirement {req_num} Verification Log — {base_title}",
@@ -2532,7 +2571,7 @@ def decompose_requirement_into_topic_slides(
     # D. Equipment Checklist (if explicitly curated) & Patrol Scenario Review (Enable Phase)
     if checklist and len(generated) < 6:
         generated.append({
-            "title": f"{base_title} (Equipment Checklist)" if ":" in base_title else f"{base_title}: Equipment & Inspection Checklist",
+            "title": f"{base_title} (Equipment Checklist)" if ": " in base_title else f"{base_title}: Equipment & Inspection Checklist",
             "layout": "GEAR_CHECKLIST_GRID",
             "gear_checklist": checklist[:4],
             "bullets": checklist[:4],
@@ -2549,7 +2588,7 @@ def decompose_requirement_into_topic_slides(
     )
     if effective_quiz:
         generated.append({
-            "title": f"{base_title} (Safety Scenario)" if ":" in base_title else f"{base_title}: Patrol Safety Scenario",
+            "title": f"{base_title} (Safety Scenario)" if ": " in base_title else f"{base_title}: Patrol Safety Scenario",
             "layout": "SOCRATIC_CHECKPOINT_QUIZ",
             "quiz_item": effective_quiz,
             "bullets": [

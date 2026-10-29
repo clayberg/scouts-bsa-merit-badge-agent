@@ -174,6 +174,26 @@ def _split_anchor_and_body(point_text: str, default_anchor: str = "Key Point") -
     cleaned = _clean_text(point_text)
     if not cleaned:
         return default_anchor, "Review this concept with your Merit Badge Counselor."
+    # Handle 'Requirement 4c (Long Parenthetical Topic): Body' even when parenthetical exceeds 72 chars
+    m_req_lead = re.match(
+        r"^(Req(?:uirement)?\s+[0-9a-zA-Z().\-]+(?:\s*\([^)]+\))?)\s*:\s+(.+)$",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    if m_req_lead:
+        req_anc = m_req_lead.group(1).strip()
+        req_bdy = m_req_lead.group(2).strip()
+        # Strip short 1-3 word conversational fragment prefixes like "A dressing. Let's start with..."
+        req_bdy = re.sub(
+            r"^(?:[A-Z][a-z]+(?:\s+[a-z]+){0,2}[.:]\s+)?(?:Let'?s\s+start\s+with\s+|First,\s+let'?s\s+look\s+at\s+)",
+            "",
+            req_bdy,
+            flags=re.IGNORECASE,
+        ).strip()
+        if req_bdy and req_bdy[0].islower():
+            req_bdy = req_bdy[0].upper() + req_bdy[1:]
+        if req_bdy:
+            return req_anc, req_bdy
     if ": " in cleaned:
         parts = [p.strip() for p in re.split(r":\s+", cleaned)]
         if len(parts) >= 3 and 1 <= len(parts[1].split()) <= 7 and ": ".join(parts[2:]).strip():
@@ -182,7 +202,7 @@ def _split_anchor_and_body(point_text: str, default_anchor: str = "Key Point") -
         if first_Match:
             anchor_candidate = cleaned[: first_Match.start()].strip()
             body_candidate = cleaned[first_Match.end() :].strip()
-            if 1 <= len(anchor_candidate.split()) <= 12 and len(anchor_candidate) <= 72 and body_candidate:
+            if 1 <= len(anchor_candidate.split()) <= 14 and len(anchor_candidate) <= 88 and body_candidate:
                 return anchor_candidate, body_candidate
     words = cleaned.split()
     if len(words) <= 4:
@@ -341,7 +361,7 @@ def _trim_dangling_words(tokens: List[str], min_keep: int = 3) -> List[str]:
         if last_clean in _DANGLING_TAIL_WORDS:
             out.pop()
             continue
-        if len(last_clean) <= 2 and not last_clean.isdigit() and last_clean not in _VALID_TWO_CHAR_WORDS:
+        if len(last_clean) <= 2 and not any(ch.isdigit() for ch in last_clean) and last_clean not in _VALID_TWO_CHAR_WORDS:
             out.pop()
             continue
         break
@@ -434,11 +454,15 @@ def _concise_anchor_title(raw_anchor: str, max_chars: int = 44) -> str:
         if s_clean.count("(") > s_clean.count(")"):
             s_clean = s_clean.rsplit("(", 1)[0].strip(" .,:;-—–&/(")
         return s_clean or s
-    # If there is a parenthetical label like 'Req 1a (Long Topic Name)', shorten inside parens or drop parens if needed
-    m_req = re.match(r"^(Req\s+[0-9a-zA-Z]+)\s*\((.+)\)$", s, flags=re.IGNORECASE)
+    # If there is a parenthetical label like 'Req 1a (Long Topic Name)' or 'Requirement 4c (Long Topic Name)', shorten inside parens
+    m_req = re.match(r"^(Req(?:uirement)?)\s+([0-9a-zA-Z().\-]+)\s*\((.+)\)$", s, flags=re.IGNORECASE)
     if m_req:
-        req_lbl = m_req.group(1).strip()
-        inner = m_req.group(2).strip()
+        req_lbl = f"Req {m_req.group(2).strip()}"
+        inner = m_req.group(3).strip()
+        # Strip leading articles/fillers inside parens so shortened label is a crisp topic noun phrase
+        inner = re.sub(r"^(?:an?\s+open\s+wound\s+with\s+|an?\s+|the\s+)", "", inner, flags=re.IGNORECASE).strip()
+        if inner and inner[0].islower():
+            inner = inner[0].upper() + inner[1:]
         avail_inner = max_chars - len(req_lbl) - 3
         if avail_inner >= 8:
             words = inner.split()

@@ -789,21 +789,28 @@ def synthesize_gear_checklist(
 ) -> List[str]:
     """Replaces boilerplate 'Activity-Specific Tools, Reference Charts & Study Materials' with concrete domain gear."""
     clean_tp = clean_prose(topic_phrase).replace(f"Req {req_id}:", "").strip() or f"{badge_name} Req {req_id}"
+    b_low = badge_name.strip().lower()
     low = f"{badge_name} {req_text} {clean_tp}".lower()
 
     gear: List[str] = [f"Official {badge_name} Merit Badge Pamphlet and Fillable Workbook (open to Req {req_id}: {clean_tp})"]
 
-    if any(k in low for k in ("cook", "meal", "recipe", "stove", "food", "kitchen", "camp")):
+    if b_low == "cooking" or (b_low not in ("first aid", "camping", "backpacking", "hiking", "wilderness survival", "emergency preparedness") and any(k in low for k in ("cooking", "myplate", "culinary"))):
         gear.extend([
             "Calibrated instant-read digital food thermometer and sanitizing wipes",
             "Camp stove or Dutch oven, fuel canister, long-reach lighter, and heat-resistant gloves",
             "USDA MyPlate nutrition chart, recipe cards, and biodegradable three-pot wash basin kit",
         ])
-    elif any(k in low for k in ("first aid", "triage", "emergency", "bandage", "splint", "cpr", "rescue")):
+    elif b_low in ("first aid", "emergency preparedness", "safety", "search and rescue", "public health", "medicine", "health care professions") or any(k in low for k in ("first aid", "triage", "bandage", "splint", "cpr")):
         gear.extend([
             "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
             "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs",
             "Emergency action plan checklist and simulated patient assessment cards",
+        ])
+    elif b_low in ("camping", "backpacking", "hiking", "wilderness survival", "orienteering", "pioneering", "exploration"):
+        gear.extend([
+            "Ten Essentials daypack, topographic map, magnetic baseplate compass, and headlamp",
+            "Three-season tent or tarp shelter, ground cloth, sleeping bag, and insulated sleeping pad",
+            "Leave No Trace Principles reference card, paracord/lashings, and waterproof pack cover",
         ])
     elif any(k in low for k in ("swim", "water", "canoe", "kayak", "row", "sail", "scuba", "whitewater", "lifesaving")):
         gear.extend([

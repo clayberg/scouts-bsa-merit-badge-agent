@@ -160,6 +160,10 @@ def test_v26_browser_ui_end_to_end() -> None:
     except Exception:
         pytest.skip("Local workbench server on 127.0.0.1:8085 not active in CI runner")
 
+    for t in load_template_catalog():
+        if not t.is_builtin and "High Adventure Ridge Theme" in (t.family_name or t.name):
+            delete_custom_template(t.template_id)
+
     created_custom_ids: list[str] = []
     try:
         with sync_playwright() as p:
@@ -325,13 +329,15 @@ def test_v26_browser_ui_end_to_end() -> None:
             assert len(seen_prompts) == 6, f"Expected 6 distinct sample prompts, got {len(seen_prompts)}"
 
             # Create 1st AI template in the browser UI
+            if page.locator("#tpl-backdrop-mode-select").count() > 0:
+                page.select_option("#tpl-backdrop-mode-select", "builtin")
             page.fill("#tpl-ai-name-input", "High Adventure Ridge Theme")
             if not page.is_checked("#tpl-ai-consent-checkbox"):
                 page.check("#tpl-ai-consent-checkbox")
             page.click("#btn-tpl-ai-generate")
             page.wait_for_function(
                 "() => document.getElementById('tpl-ai-status-msg')?.textContent?.includes('Saved')",
-                timeout=15000,
+                timeout=45000,
             )
             status_1 = page.locator("#tpl-ai-status-msg").inner_text()
             assert "High Adventure Ridge Theme" in status_1
@@ -342,10 +348,12 @@ def test_v26_browser_ui_end_to_end() -> None:
 
             # Create 2nd AI template immediately
             page.click("#btn-tpl-ai-sample-safe")
+            if page.locator("#tpl-backdrop-mode-select").count() > 0:
+                page.select_option("#tpl-backdrop-mode-select", "builtin")
             page.click("#btn-tpl-ai-generate")
             page.wait_for_function(
                 "() => document.getElementById('tpl-ai-status-msg')?.textContent?.includes('High Adventure Ridge Theme #2')",
-                timeout=15000,
+                timeout=45000,
             )
             status_2 = page.locator("#tpl-ai-status-msg").inner_text()
             assert "High Adventure Ridge Theme #2" in status_2

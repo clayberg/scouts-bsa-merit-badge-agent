@@ -177,7 +177,13 @@ def test_v22_first_aid_speaker_notes_non_repetitive_and_archetype_aware() -> Non
     assert len(set(demo_lines)) == len(req1_slides), "Req 1 slides must have distinct [DEMONSTRATION & SIGN-OFF RUBRIC] lines"
 
     # Verify Sub-Requirement Deep Dive (1a-1d) and (1e-1g) scope to their own sub-requirements
-    deep_dive_slides = [s for s in req1_slides if "Sub-Requirement Deep Dive" in str(s.get("title") or "")]
+    deep_dive_slides = [
+        s
+        for s in req1_slides
+        if "Sub-Requirement Deep Dive" in str(s.get("title") or "")
+        or "Reqs 1a-1d" in str(s.get("title") or "")
+        or "Reqs 1e-1g" in str(s.get("title") or "")
+    ]
     assert len(deep_dive_slides) >= 2
     dd_1_notes = str(deep_dive_slides[0].get("presenter_notes") or "")
     dd_2_notes = str(deep_dive_slides[1].get("presenter_notes") or "")
