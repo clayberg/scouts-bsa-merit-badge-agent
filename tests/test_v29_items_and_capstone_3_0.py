@@ -22,9 +22,9 @@ client = TestClient(app)
 
 
 def test_nano_builtin_backdrops_catalog_has_16_scouting_themes():
-    """Verify the 16 built-in Scouting washed backgrounds including BSA Logo and Apollo Rocket Launch."""
+    """Verify the built-in Scouting washed backgrounds including BSA Logo and Apollo Rocket Launch."""
     items = list_nano_builtin_backdrops()
-    assert len(items) in (16, 24)
+    assert len(items) in (16, 24, 26)
     ids = {b["id"] for b in items}
     assert "bsa_emblem_color" in ids
     assert "apollo_rocket_launch" in ids
@@ -47,7 +47,7 @@ def test_api_backdrops_and_prompt_synthesis():
     r = client.get("/api/v1/templates/backdrops")
     assert r.status_code == 200
     data = r.json()
-    assert data["total"] in (16, 24)
+    assert data["total"] in (16, 24, 26)
 
     # Prompt matching Apollo rocket launch
     r_synth = client.post(

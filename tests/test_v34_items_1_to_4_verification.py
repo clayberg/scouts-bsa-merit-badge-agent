@@ -11,7 +11,6 @@ import re
 from pathlib import Path
 
 import fitz
-import pytest
 
 from src.tools.counselor_studiokit import generate_fillable_scout_workbook_pdf
 from src.tools.scouting_scraper import (

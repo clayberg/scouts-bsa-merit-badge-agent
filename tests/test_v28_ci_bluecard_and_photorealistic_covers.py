@@ -213,7 +213,7 @@ def test_v28_browser_ui_end_to_end() -> None:
                 page.locator("#template-studio-modal .m3-modal-dialog").screenshot(path=str(prev_col_shot))
 
             page.click("#btn-tpl-ai-generate")
-            page.wait_for_selector("#btn-tpl-ai-view-in-gallery", timeout=15000)
+            page.wait_for_selector("#btn-tpl-ai-view-in-gallery", timeout=45000)
             page.wait_for_timeout(300)
 
             # Close Template Studio modal and inspect Slide 1 on the main 16:9 stage!

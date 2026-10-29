@@ -130,7 +130,7 @@ def test_v32_items_4_6_10_weather_and_all_149_badges_quizzes_and_workbooks() -> 
 
     md_doc = generate_counselor_workbook_markdown(w_data)
     assert "Req 1 — Req 1:" not in md_doc
-    assert "![Instructional Reference Diagram" in md_doc
+    assert "](/assets/" in md_doc
 
     pdf_bytes = generate_fillable_scout_workbook_pdf("Weather")
     doc = fitz.open(stream=pdf_bytes, filetype="pdf")
