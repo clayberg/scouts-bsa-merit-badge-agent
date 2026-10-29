@@ -1484,8 +1484,13 @@ def build_5part_facilitator_note(
     page_cite: str,
     slide_idx: int,
     safety_callout: str = "",
+    procs: Optional[List[str]] = None,
+    comp_data: Optional[Dict[str, Any]] = None,
+    worked_ex: Optional[Dict[str, Any]] = None,
+    quiz_item: Optional[Dict[str, Any]] = None,
+    gear_list: Optional[List[str]] = None,
 ) -> str:
-    """Builds a rich, Socratic, non-redundant 5-Part Facilitator Guide note for a specific slide index."""
+    """Builds a rich, Socratic, role-specific 5-Part Facilitator Guide note for a specific slide index."""
     clean_b = clean_prose(badge_name)
     clean_r = clean_prose(req_id)
     clean_tp = clean_prose(topic_phrase).replace(f"Req {clean_r}:", "").strip() or f"{clean_b} Req {clean_r}"
@@ -1527,31 +1532,84 @@ def build_5part_facilitator_note(
         ("Quartermaster Gear & Safety Shakedown", "Demonstrate & Enable", "3 min"),
         ("Extended Deep-Dive & Field Application", "Guide & Enable", "4 min"),
     ]
-    role_name, edge_stage, est_min = slide_roles[slide_idx % len(slide_roles)]
+    role_idx = slide_idx % len(slide_roles)
+    role_name, edge_stage, est_min = slide_roles[role_idx]
     ex1 = clean_prose(excerpts[slide_idx % len(excerpts)]) if excerpts else clean_prose(req_text)
     ex2 = clean_prose(excerpts[(slide_idx + 1) % len(excerpts)]) if len(excerpts) > 1 else ex1
+    pr_list = procs or excerpts
+    pr1 = clean_prose(pr_list[0]) if pr_list else ex1
+    pr2 = clean_prose(pr_list[1]) if len(pr_list) > 1 else ex2
     wb_title = clean_prose(str(wb_org.get("table_title") or f"Req {clean_r} Structured Study Table"))
     myth = clean_prose(str(misc_pair.get("misconception") or ""))
     fact = clean_prose(str(misc_pair.get("fact") or misc_pair.get("fact_correction") or ""))
     safe_str = f" [Safety Check: {clean_prose(safety_callout)}]" if safety_callout else ""
 
-    pacing = (
-        f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
-        f"[Point to Card 1: {clean_tp}] Guide buddy pairs through {clean_tp} ({role_name}) for {clean_b} Requirement {clean_r}. "
-        f"Emphasize how {ex1[:130].rstrip('.')} applies during real troop operations rather than reading the slide verbatim.{safe_str}"
-    )
-    ask = (
-        f"[ASK SCOUTS FIRST] When applying {clean_tp} ({role_name}) in {clean_b} Requirement {clean_r}, what is the first field clue that confirms your patrol is following the official pamphlet standard?"
-    )
-    key = (
-        f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex1} {ex2} "
-        f"[Expected Answer: Scouts must cite the specific mechanism for {clean_tp} and verify it using {wb_title}.]"
-    )
+    if role_idx == 0:
+        pacing = (
+            f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
+            f"[Point to Card 1: {clean_tp}] Introduce {clean_tp} for {clean_b} Requirement {clean_r} by unpacking {ex1[:135].rstrip('.')}.{safe_str}"
+        )
+        ask = f"[ASK SCOUTS FIRST] Before reading the pamphlet details on screen, why does {clean_tp} matter in {clean_b}, and where have you seen it in action?"
+        key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex1} {ex2} [Expected Answer: Scouts explain the core principle of {clean_tp} in their own words.]"
+        rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Open the {clean_b} Workbook to {wb_title}] Have each Scout record the primary definition and pamphlet facts for Requirement {clean_r} ({cite})."
+    elif role_idx == 1:
+        pacing = (
+            f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
+            f"[Step to the demonstration table] Model the 4-step sequence for {clean_tp} starting with {pr1[:130].rstrip('.')}, then coach buddy pairs as they practice.{safe_str}"
+        )
+        ask = f"[ASK SCOUTS FIRST] Looking at our procedural sequence for {clean_tp} (Req {clean_r}), why must we complete the first step before advancing to {pr2[:90].rstrip('.')}?"
+        key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {pr1} {pr2} [Expected Answer: Scouts follow the step-by-step sequence for {clean_tp} without skipping safety or verification checks.]"
+        rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Observe live buddy-pair practice] Verify each Scout physically demonstrates or walks through all steps of Requirement {clean_r} per Guide to Advancement Section 7.0.3.2."
+    elif role_idx == 2:
+        lh = clean_prose(str((comp_data or {}).get("left_header") or f"{clean_tp} Aspect A"))
+        rh = clean_prose(str((comp_data or {}).get("right_header") or f"{clean_tp} Aspect B"))
+        pacing = (
+            f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
+            f"[Point to the two comparison columns: {lh} vs. {rh}] Contrast {lh} against {rh} for {clean_b} Requirement {clean_r}.{safe_str}"
+        )
+        ask = f"[ASK SCOUTS FIRST] How do you distinguish between {lh} and {rh} in the field, and when would your patrol choose one over the other?"
+        key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex1} {ex2} [Expected Answer: Scouts contrast {lh} and {rh} using concrete examples from the {clean_b} pamphlet.]"
+        rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Point to {wb_title}] Confirm each Scout compares {lh} and {rh} accurately in their {clean_b} Workbook."
+    elif role_idx == 3:
+        we_out = clean_prose(str((worked_ex or {}).get("sample_output") or ex1))
+        we_tip = clean_prose(str((worked_ex or {}).get("counselor_tip") or f"Verify specific details for {clean_tp} ({cite})."))
+        pacing = (
+            f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
+            f"[Point to the Exemplar Workbook Entry] Show Scouts what a complete, sign-off-ready entry looks like for Requirement {clean_r} ({clean_tp}).{safe_str}"
+        )
+        ask = f"[ASK SCOUTS FIRST] Comparing a one-word note to this worked example for {clean_tp}, what specific measurements or details make this entry ready for counselor sign-off?"
+        key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {we_out} [Expected Answer: {we_tip}]"
+        rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Inspect individual {clean_b} Workbooks] Check that each Scout's entry in {wb_title} includes their own specific observations and data."
+    elif role_idx == 4:
+        q_prompt = clean_prose(str((quiz_item or {}).get("scenario_prompt") or f"How should your patrol apply {clean_tp} during {clean_b} Requirement {clean_r}?"))
+        q_ans = clean_prose(str((quiz_item or {}).get("correct_answer") or fact))
+        q_exp = clean_prose(str((quiz_item or {}).get("explanation") or ex1))
+        pacing = (
+            f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
+            f"[Pose the Patrol Checkpoint Quiz] Give buddy pairs 45 seconds to debate the scenario for {clean_b} Requirement {clean_r} before revealing the answer.{safe_str}"
+        )
+        ask = f"[ASK SCOUTS FIRST] Scenario Check: \"{q_prompt}\" Which option does your buddy pair select, and why?"
+        key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. [Expected Answer: {q_ans} {q_exp}]"
+        rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Poll patrol responses] Have buddy pairs explain why the three distractor choices fail the {clean_b} pamphlet standard."
+    elif role_idx == 5:
+        g1 = clean_prose(gear_list[0]) if gear_list else f"Required reference materials and field gear for {clean_tp}"
+        pacing = (
+            f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
+            f"[Hold up the station gear: {g1}] Conduct a patrol equipment and safety shakedown for {clean_b} Requirement {clean_r} ({clean_tp}).{safe_str}"
+        )
+        ask = f"[ASK SCOUTS FIRST] Before starting our hands-on work for {clean_tp}, what inspection check confirms that {g1} is safe and ready for use?"
+        key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex1} [Expected Answer: Scouts inspect {g1} and verify scene safety before execution.]"
+        rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Check station readiness] Confirm every buddy pair has inspected their gear and recorded safety checks in {wb_title}."
+    else:
+        pacing = (
+            f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
+            f"[Facilitate deep-dive discussion on {clean_tp}] Connect {ex2[:130].rstrip('.')} to real-world application and troubleshooting in {clean_b} Requirement {clean_r}.{safe_str}"
+        )
+        ask = f"[ASK SCOUTS FIRST] If conditions change unexpectedly while applying {clean_tp} in {clean_b}, how should your patrol adapt while staying within the pamphlet standard?"
+        key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex2} {ex1} [Expected Answer: Scouts connect {clean_tp} to practical field decision-making and verify their notes in {wb_title}.]"
+        rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Final check for Requirement {clean_r}] Initial Blue Card (#34124) once each Scout individually explains or demonstrates {clean_tp} ({cite})."
+
     misc = f"[COMMON MISCONCEPTION TO CORRECT] Myth: {myth} | BSA Pamphlet Fact: {fact}"
-    rubric = (
-        f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up the {clean_b} Workbook open to {wb_title}] "
-        f"Coach buddy pairs to complete their individual entries for Requirement {clean_r} and demonstrate mastery of {clean_tp} per Guide to Advancement Section 7.0.3.2 ({cite})."
-    )
     return "\n".join(clean_prose(line) for line in (pacing, ask, key, misc, rubric))
 
 
@@ -1607,6 +1665,11 @@ def step3_generate_precomputed_facilitator_notes(all_badge_jsons: Dict[str, Dict
                     page_cite=cite,
                     slide_idx=s_idx,
                     safety_callout=safe,
+                    procs=list(req.get("step_by_step_procedure") or []),
+                    comp_data=req.get("comparison_data") or {},
+                    worked_ex=req.get("worked_example") or {},
+                    quiz_item=req.get("quiz_item") or {},
+                    gear_list=list(req.get("gear_checklist") or []),
                 )
                 notes_map[f"{u_slug}::{rid}::{s_idx}"] = note_txt
                 notes_map[f"{f_slug}::{rid}::{s_idx}"] = note_txt

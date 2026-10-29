@@ -586,6 +586,20 @@ def _is_generic_meta_misconception(myth_str: str, fact_str: str = "") -> bool:
         "general familiarity with ",
         "students often overlook the real-world impact of ",
         "skipping the preliminary setup for ",
+        "emerged all at once rather than evolving through the historical milestones",
+        "works the same way under all conditions regardless of how",
+        "operate identically and can be used interchangeably",
+        "adjust automatically without manual verification",
+        "standard household habits can replace",
+        "focusing only on ",
+        "while bypassing ",
+        "only affects appearance and does not alter",
+        "only need to review safety rules and emergency procedures after an incident occurs",
+        "relies only on hobby experience rather than formal training",
+        "from memory at the end of the project satisfies",
+        "are interchangeable regardless of operating conditions",
+        "verbally can substitute for a physical hands-on demonstration",
+        "watching a generic video without preparing questions",
     )
     if any(marker in m_low for marker in generic_markers) or any(marker in f_low for marker in generic_markers):
         return True

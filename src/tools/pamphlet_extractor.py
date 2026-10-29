@@ -2612,13 +2612,11 @@ _CURATED_REQ1_SAFETY_QUIZZES: Dict[str, Dict[str, Any]] = {
             "A. Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
             "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
             "C. Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
-            "D. Pour cold stream water onto the open arterial wound and elevate both legs 18 inches before checking scene hazards.",
         ],
         "choices": [
             "A. Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
             "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
             "C. Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
-            "D. Pour cold stream water onto the open arterial wound and elevate both legs 18 inches before checking scene hazards.",
         ],
         "correct_index": 1,
         "correct_letter": "B",
@@ -3109,8 +3107,15 @@ _BOILERPLATE_QUIZ_REJECTION_SUBSTRINGS = (
     "using only a single unverified observation",
     "delay protective gear adjustments",
     "rely solely on post-activity cleanup",
-    "execute ",
+    "execute phase ",
     "apply the setup parameters from",
+    "rely on a rough visual guess of",
+    "focus only on ",
+    "for a post-session summary",
+    "reverse the relationship between ",
+    "which approach satisfies the official scouting america standard",
+    "what does the official scouting america",
+    "specify regarding",
 )
 
 

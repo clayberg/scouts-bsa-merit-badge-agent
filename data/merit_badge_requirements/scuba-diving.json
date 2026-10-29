@@ -76,12 +76,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
-            "fact": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
-            "fact_correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming.",
-            "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
-            "myth": "Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
-            "correction": "Heatstroke requires rapid active cooling and 911 activation, while hypothermia requires removing wet clothing and gradual core-first rewarming."
+            "misconception": "If a diver begins to panic at the surface, you should encourage them to descend immediately where the water is calmer.",
+            "fact": "If a diver shows signs of panic at any time, you must bring that person back into the boat or onto shore, calm them, encourage slow breathing, and resolve the cause before resuming activity (p. 21).",
+            "fact_correction": "If a diver shows signs of panic at any time, you must bring that person back into the boat or onto shore, calm them, encourage slow breathing, and resolve the cause before resuming activity (p. 21).",
+            "pamphlet_page_ref": "p. 21, p. 25"
           },
           "starting_requirement_gate": {
             "gate_type": "HARD_PREREQ_BADGE",
@@ -112,10 +110,10 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Show that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, hyperventilation, squeezes, decompression illness, nitrogen narcosis, motion sickness, fatigue, overexertion, heat reactions, dehydration, injuries by aquatic life, and cuts and scrapes.",
-          "topic_title": "Req 1a: Emergency First Aid and Prevention",
-          "pamphlet_summary": "Emergency First Aid and Prevention: First aid for injuries or illnesses Principle 3: Such a condition isunlikely in diving if the participants are properly prepared for each new skill level (p. 21).",
+          "topic_title": "Req 1a: First Aid for Diving Injuries",
+          "pamphlet_summary": "First Aid for Diving Injuries: Such a condition isunlikely in diving if the participants are properly prepared for each new skill level (p. 21).",
           "pamphlet_excerpts": [
-            "Emergency First Aid and Prevention: First aid for injuries or illnesses Principle 3: Such a condition isunlikely in diving if the participants are properly prepared for each new skill level (p. 21)."
+            "First Aid for Diving Injuries: Such a condition isunlikely in diving if the participants are properly prepared for each new skill level (p. 21)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p003_img1.png",
           "workbook_diagram_caption": "Field reference diagram showing Scuba Diving Requirement 1 equipment, technique, and verification milestones for Scuba Diving Requirement 1 (img1)."
@@ -156,7 +154,12 @@
             "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
-          "common_misconception_pair": {},
+          "common_misconception_pair": {
+            "misconception": "Ear and sinus squeezes happen only during ascent when expanding air pushes outward on the eardrum.",
+            "fact": "Squeezes occur primarily during descent when increasing water pressure compresses trapped air spaces that a diver fails to equalize early and often (p. 25).",
+            "fact_correction": "Squeezes occur primarily during descent when increasing water pressure compresses trapped air spaces that a diver fails to equalize early and often (p. 25).",
+            "pamphlet_page_ref": "p. 21, p. 25"
+          },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
             "gate_label": "Counselor Pre-Approval Required",
@@ -186,10 +189,10 @@
           "id": "1b",
           "sub_req_label": "1b",
           "sub_req_text": "Identify the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions. Demonstrate the proper technique for performing CPR using a training device approved by your counselor.",
-          "topic_title": "Req 1b: Performing CPR on a Person",
-          "pamphlet_summary": "Conditions That Must Exist: First aid for injuries or illnesses Principle 4: If a diver shows signs of panicat any time, bring that person back into the boat or ontoshore, calm the person, and encourage slow breathing (p. 21).",
+          "topic_title": "Req 1b: Conditions for Performing CPR",
+          "pamphlet_summary": "Conditions for Performing CPR: If a diver shows signs of panicat any time, bring that person back into the boat or ontoshore, calm the person, and encourage slow breathing (p. 21).",
           "pamphlet_excerpts": [
-            "Conditions That Must Exist: First aid for injuries or illnesses Principle 4: If a diver shows signs of panicat any time, bring that person back into the boat or ontoshore, calm the person, and encourage slow breathing (p. 21)."
+            "Conditions for Performing CPR: If a diver shows signs of panicat any time, bring that person back into the boat or ontoshore, calm the person, and encourage slow breathing (p. 21)."
           ],
           "workbook_diagram_url": "",
           "title": "Req 1b: Performing CPR on a Person"
@@ -233,7 +236,7 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: Emergency First Aid and Prevention",
+      "topic_title": "Req 1: Diving First Aid and CPR",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
@@ -267,12 +270,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
-        "fact": "Deliver continuous chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
-        "fact_correction": "Deliver continuous chest compressions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED.",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
-        "myth": "Stop chest compressions every 30 seconds to check for a carotid pulse.",
-        "correction": "Deliver continuous chest compress ions (100-120/min, 2 inches deep) and minimize interruptions to under 10 seconds while attaching the AED."
+        "misconception": "Deliberately hyperventilating before diving is a safe way to stay underwater much longer without needing to breathe.",
+        "fact": "Hyperventilation results from over-breathing due to panic or deliberate effort and causes dizziness, fainting, and a sensation of suffocation rather than safely extending air supply (p. 21).",
+        "fact_correction": "Hyperventilation results from over-breathing due to panic or deliberate effort and causes dizziness, fainting, and a sensation of suffocation rather than safely extending air supply (p. 21).",
+        "pamphlet_page_ref": "p. 21, p. 25"
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -301,65 +302,63 @@
         }
       ],
       "pamphlet_excerpts": [
-        "First aid for injuries or illnesses: Hyperventilation is the result of over breathing, either deliberately or because of panic (p. 21).",
-        "First aid for injuries or illnesses Principle 2: The likely result of hyperventilation is dizziness and fainting, and victims will feel as if they are being suffocated (p. 21).",
-        "First aid for injuries or illnesses Principle 3: Such a condition is unlikely in diving if the participants are properly prepared for each new skill level (p. 21).",
-        "First aid for injuries or illnesses Principle 4: If a diver shows signs of panic at any time, bring that person back into the boat or onto shore, calm the person, and encourage slow breathing (p. 21)."
+        "Causes of Diver Hyperventilation: Hyperventilation is the result of over breathing, either deliberately or because of panic (p. 21).",
+        "Dizziness and Suffocation Feelings: The likely result of hyperventilation is dizziness and fainting, and victims will feel as if they are being suffocated (p. 21).",
+        "Preparation Prevents Diving Panic: Such a condition is unlikely in diving if the participants are properly prepared for each new skill level (p. 21).",
+        "Calming a Panicked Diver: If a diver shows signs of panic at any time, bring that person back into the boat or onto shore, calm the person, and encourage slow breathing (p. 21)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (First aid for injuries or illnesses): Make sure the person rests in a comfortable position and has plenty of open, fresh air (p. 21).",
-        "Step 2 (First aid for injuries or illnesses): Before resuming any activity, find out and resolve the cause of the panic (p. 21).",
-        "Step 3 (First aid for injuries or illnesses): Ifyou feel sinus pain while descending, stop your descent and end the dive (p. 21).",
-        "Step 4 (First aid for injuries or illnesses): A scuba diver may be injured by failing to equalize these air spaces, either while descending or ascending (p. 21)."
+        "Step 1 - Prepare Divers Before Entry: Such a condition is unlikely in diving if the participants are properly prepared for each new skill level (p. 21).",
+        "Step 2 - Bring Panicked Diver Ashore: If a diver shows signs of panic at any time, bring that person back into the boat or onto shore, calm the person, and encourage slow breathing (p. 21).",
+        "Step 3 - Provide Rest and Air: Make sure the person rests in a comfortable position and has plenty of open, fresh air (p. 21).",
+        "Step 4 - Resolve Underlying Panic Cause: Before resuming any activity, find out and resolve the cause of the panic (p. 21)."
       ],
       "gear_checklist": [
-        "Official Scuba Diving Merit Badge Pamphlet and Fillable Workbook (open to Req 1: First aid for injuries or illnesses)",
-        "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
-        "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs.",
-        "Emergency action plan checklist and simulated patient assessment cards."
+        "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled",
+        "Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle",
+        "BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist",
+        "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer"
       ],
       "comparison_data": {
-        "left_header": "Proactive Hazard Prevention (First aid for injuries or illnesses)",
-        "right_header": "Acute Emergency Response (First aid for injuries or illnesses)",
+        "left_header": "Pressure-Related Barotrauma and Decompression Illness",
+        "right_header": "Environmental Exposure and Marine Envenomation",
         "left_points": [
-          "Eliminate environmental and equipment risks before starting.",
-          "First aid for injuries or illnesses: Hyperventilation is the result of overbreathing, eitherdeliberately or because of panic (p. 21).",
-          "Pre-activity PPE, weather, and buddy shakedown."
+          "(1a) First Aid for Diving Injuries: Such a condition isunlikely in diving if the participants are properly prepared for each new skill (p. 21).",
+          "Dizziness and Suffocation Feelings: The likely result of hyperventilation is dizziness and fainting, and victims will feel as if they (p. 21).",
+          "Preparation Prevents Diving Panic: Such a condition is unlikely in diving if the participants are properly prepared for each new skill (p. 21)."
         ],
         "right_points": [
-          "Stabilize injuries and prevent secondary harm immediately.",
-          "First aid for injuries or illnesses Principle 2: The likely result ofhyperventilation is dizziness and fainting, and victims willfeel.",
-          "Scene safety assessment, triage, and first-aid execution."
+          "(1b) Conditions for Performing CPR: If a diver shows signs of panicat any time, bring that person back into the boat or ontoshore, calm (p. 21).",
+          "Step 2 - Bring Panicked Diver Ashore: If a diver shows signs of panic at any time, bring that person back into the boat or onto shore (p. 21).",
+          "Step 3 - Provide Rest and Air: Make sure the person rests in a comfortable position and has plenty of open, fresh air (p. 21)."
         ],
         "rows": [
           {
-            "attribute": "Primary Objective",
-            "left": "Eliminate environmental and equipment risks before starting.",
-            "right": "Stabilize injuries and prevent secondary harm immediately."
+            "attribute": "Dimension 1",
+            "left": "(1a) First Aid for Diving Injuries: Such a condition isunlikely in diving if the participants are properly prepared for each new skill (p. 21).",
+            "right": "(1b) Conditions for Performing CPR: If a diver shows signs of panicat any time, bring that person back into the boat or ontoshore, calm (p. 21)."
           },
           {
-            "attribute": "Key Field Action",
-            "left": "First aid for injuries or illnesses: Hyperventilation is the result of overbreathing, eitherdeliberately or because of panic (p. 21).",
-            "right": "First aid for injuries or illnesses Principle 2: The likely result ofhyperventilation is dizziness and fainting, and victims willfeel as if "
+            "attribute": "Dimension 2",
+            "left": "Dizziness and Suffocation Feelings: The likely result of hyperventilation is dizziness and fainting, and victims will feel as if they (p. 21).",
+            "right": "Step 2 - Bring Panicked Diver Ashore: If a diver shows signs of panic at any time, bring that person back into the boat or onto shore (p. 21)."
           },
           {
-            "attribute": "Verification Check",
-            "left": "Pre-activity PPE, weather, and buddy shakedown.",
-            "right": "Scene safety assessment, triage, and first-aid execution."
+            "attribute": "Dimension 3",
+            "left": "Preparation Prevents Diving Panic: Such a condition is unlikely in diving if the participants are properly prepared for each new skill (p. 21).",
+            "right": "Step 3 - Provide Rest and Air: Make sure the person rests in a comfortable position and has plenty of open, fresh air (p. 21)."
           }
         ]
       },
       "worked_example": {
-        "title": "Exemplar Field Hazard & First-Aid Protocol: Scuba Diving Req 1 (First aid for injuries or illnesses)",
-        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
+        "title": "Scuba Diving Req 1 Exemplar Workbook Entry: Diving First Aid and CPR",
+        "artifact_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
         "fields": {
-          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during First aid for injuries or illnesses.",
-          "Preventive Controls & PPE": "First aid for injuries or illnesses: Hyperventilation is the result of over breathing, either deliberately or because of panic (p. 21).",
-          "Acute First-Aid Response": "First aid for injuries or illnesses Principle 2: The likely result of hyperventilation is dizziness and fainting, and victims will feel as if they are being suffocated (p. 21).",
-          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)."
+          "Req 1a (First Aid for Diving)": "Such a condition isunlikely in diving if the participants are properly prepared for each new skill level (p. 21).",
+          "Req 1b (Conditions for Performing)": "If a diver shows signs of panicat any time, bring that person back into the boat or ontoshore, calm the person, and encourage slow breathing (p. 21)."
         },
-        "sample_output": "First aid for injuries or illnesses: First aid for injuries or illnesses: Hyperventilation is the result of overbreathing, eitherdeliberately or because of panic (p. 21).",
-        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)."
+        "sample_output": "Diving First Aid and CPR: Such a condition isunlikely in diving if the participants are properly prepared for each new skill level (p. 21).",
+        "counselor_tip": "For Scuba Diving Requirement 1 (Diving First Aid and CPR), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25))."
       },
       "quiz_item": {
         "scenario_prompt": "Why is the most important rule in scuba diving to breathe continuously and never hold your breath while ascending with compressed air?",
@@ -380,7 +379,7 @@
         "correct_letter": "B",
         "correct_answer": "B. As water pressure decreases during ascent, trapped air in the lungs expands according to Boyle's Law and can rupture lung tissue (pulmonary barotrauma) if not exhaled.",
         "explanation": "Correct Answer (B): Under Boyle's Law, gas volume increases as surrounding water pressure drops during ascent; holding your breath while breathing compressed air traps expanding gas in the lungs, risking life-threatening pulmonary barotrauma.",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)"
+        "pamphlet_page_ref": "p. 21, p. 25"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 1.",
@@ -408,7 +407,7 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: BSA Swimmer Qualification Check",
+      "topic_title": "Req 2: Swimming Merit Badge Prerequisite",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -438,12 +437,10 @@
         "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "Performing Before completing requirements 3 through 6 in Scuba Diving Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
-        "fact": "Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find.",
-        "fact_correction": "Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find.",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17)",
-        "myth": "Performing Before completing requirements 3 through 6 in Scuba Diving Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
-        "correction": "Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find."
+        "misconception": "Scouts can complete all their open-water scuba dives first and earn the Swimming merit badge later right before their board of review.",
+        "fact": "All Scouts working toward the Scuba Diving merit badge must earn the Swimming merit badge and present proof to their counselor prior to fulfilling requirements 3 through 6 (p. 9).",
+        "fact_correction": "All Scouts working toward the Scuba Diving merit badge must earn the Swimming merit badge and present proof to their counselor prior to fulfilling requirements 3 through 6 (p. 9).",
+        "pamphlet_page_ref": "p. 9, p. 17"
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -472,86 +469,81 @@
         }
       ],
       "pamphlet_excerpts": [
-        "BSA Swimmer Qualification Check: Your merit badge counselor can help you find a scuba agency recognized by Scouting America scuba policy so that you can fulfill requirement 4 (p. 9).",
-        "BSA Swimmer Qualification Check Principle 2: All Scouts working toward the Scuba Diving merit badge must earn the Swimming merit badge prior to fulfilling requirements 3 through 6 (p. 9).",
-        "BSA Swimmer Qualification Check Principle 3: Once you have presented proof of having earned your Swimming merit badge to your Scuba Diving merit badge counselor, you may begin working on requirements (p. 9).",
-        "BSA Swimmer Qualification Check Principle 4: During adrift dive, divers follow a current and may finish the dive aconsiderable distance from where they started (p. 9)."
+        "Recognized Scuba Training Agencies: Your merit badge counselor can help you find a scuba agency recognized by Scouting America scuba policy so that you can fulfill requirement 4 (p. 9).",
+        "Mandatory Swimming Badge Prerequisite: All Scouts working toward the Scuba Diving merit badge must earn the Swimming merit badge prior to fulfilling requirements 3 through 6 (p. 9).",
+        "Presenting Proof to Counselor: Once you have presented proof of having earned your Swimming merit badge to your Scuba Diving merit badge counselor, you may begin working on requirements (p. 9).",
+        "Following Currents in Drift Dives: During adrift dive, divers follow a current and may finish the dive aconsiderable distance from where they started (p. 9)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (BSA Swimmer Qualification Check): Either a single dive boat, or small tenders from a live-aboard vessel, may follow the group and be ready to quickly pick up divers who may end the dive (p. 9).",
-        "Step 2 (BSA Swimmer Qualification Check): The standard 100-yard Scouting America swimmer test defines the minimum ability needed for safe swimming in deep water (p. 9).",
-        "Step 3 (BSA Swimmer Qualification Check): However, the in-water comfort level demonstrated by those who earn the Swimming merit badge is a better starting level for scuba training (p. 9).",
-        "Step 4 (BSA Swimmer Qualification Check): Your Scuba Diving merit badge instructor will specify what your Open Water Diver Certification prepares (p. 9)."
+        "Step 1 - Verify Swimming Badge Completion: Once you have presented proof of having earned your Swimming merit badge to your Scuba Diving merit badge counselor, you may begin working on requirements (p. 9).",
+        "Step 2 - Understand Drift Dive Currents: During adrift dive, divers follow a current and may finish the dive aconsiderable distance from where they started (p. 9).",
+        "Step 3 - Coordinate Dive Boat Pickup: Either a single dive boat, or small tenders from a live-aboard vessel, may follow the group and be ready to quickly pick up divers who may end the dive (p. 9).",
+        "Step 4 - Maintain Deep-Water Swimming Fitness: The standard 100-yard Scouting America swimmer test defines the minimum ability needed for safe swimming in deep water (p. 9)."
       ],
-      "gear_checklist": [
-        "Official Scuba Diving Merit Badge Pamphlet and Fillable Workbook (open to Req 2: BSA Swimmer Qualification Check)",
-        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
-        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
-        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Foundational Principles (BSA Swimmer Qualification Check)",
-        "right_header": "Applied Field Execution (BSA Swimmer Qualification Check)",
+        "left_header": "Foundational Unassisted Surface Swimming Skills",
+        "right_header": "Equipment-Assisted Open Water Scuba Skills",
         "left_points": [
-          "Theoretical rules, terminology, and specifications for BSA Swimmer Qualification Check.",
-          "BSA Swimmer Qualification Check: Your merit badge counselor can help you find a scubaagency recognized by Scouting America scuba policy soth.",
-          "Accurate explanation of underlying causes and definitions."
+          "Recognized Scuba Training Agencies: Your merit badge counselor can help you find a scuba agency recognized by Scouting America scuba (p. 9).",
+          "Mandatory Swimming Badge Prerequisite: All Scouts working toward the Scuba Diving merit badge must earn the Swimming merit badge prior (p. 9).",
+          "Presenting Proof to Counselor: Once you have presented proof of having earned your Swimming merit badge to your Scuba Diving merit badge (p. 9)."
         ],
         "right_points": [
-          "Hands-on measurement, operation, and troubleshooting in Scuba Diving.",
-          "BSA Swimmer Qualification Check Principle 2: All Scouts workingtoward the Scuba Diving merit badgemust earn the Swimming meritbadge prior.",
-          "Repeatable, safe execution under real field conditions."
+          "Step 1 - Verify Swimming Badge Completion: Once you have presented proof of having earned your Swimming merit badge to your Scuba Diving (p. 9).",
+          "Step 2 - Understand Drift Dive Currents: During adrift dive, divers follow a current and may finish the dive aconsiderable distance (p. 9).",
+          "Step 3 - Coordinate Dive Boat Pickup: Either a single dive boat, or small tenders from a live-aboard vessel, may follow the group and be (p. 9)."
         ],
         "rows": [
           {
-            "attribute": "Core Focus",
-            "left": "Theoretical rules, terminology, and specifications for BSA Swimmer Qualification Check.",
-            "right": "Hands-on measurement, operation, and troubleshooting in Scuba Diving."
+            "attribute": "Dimension 1",
+            "left": "Recognized Scuba Training Agencies: Your merit badge counselor can help you find a scuba agency recognized by Scouting America scuba (p. 9).",
+            "right": "Step 1 - Verify Swimming Badge Completion: Once you have presented proof of having earned your Swimming merit badge to your Scuba Diving (p. 9)."
           },
           {
-            "attribute": "Pamphlet Standard",
-            "left": "BSA Swimmer Qualification Check: Your merit badge counselor can help you find a scubaagency recognized by Scouting America scuba policy soth",
-            "right": "BSA Swimmer Qualification Check Principle 2: All Scouts workingtoward the Scuba Diving merit badgemust earn the Swimming meritbadge prior to"
+            "attribute": "Dimension 2",
+            "left": "Mandatory Swimming Badge Prerequisite: All Scouts working toward the Scuba Diving merit badge must earn the Swimming merit badge prior (p. 9).",
+            "right": "Step 2 - Understand Drift Dive Currents: During adrift dive, divers follow a current and may finish the dive aconsiderable distance (p. 9)."
           },
           {
-            "attribute": "Mastery Indicator",
-            "left": "Accurate explanation of underlying causes and definitions.",
-            "right": "Repeatable, safe execution under real field conditions."
+            "attribute": "Dimension 3",
+            "left": "Presenting Proof to Counselor: Once you have presented proof of having earned your Swimming merit badge to your Scuba Diving merit badge (p. 9).",
+            "right": "Step 3 - Coordinate Dive Boat Pickup: Either a single dive boat, or small tenders from a live-aboard vessel, may follow the group and be (p. 9)."
           }
         ]
       },
       "worked_example": {
-        "title": "Exemplar Technical Analysis: Scuba Diving Req 2 (BSA Swimmer Qualification Check)",
-        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "title": "Scuba Diving Req 2 Exemplar Workbook Entry: Swimming Merit Badge Prerequisite",
+        "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Core Technical Principle": "BSA Swimmer Qualification Check: Your merit badge counselor can help you find a scuba agency recognized by Scouting America scuba policy so that you can fulfill requirement 4 (p. 9).",
-          "Applied Field Mechanism": "BSA Swimmer Qualification Check Principle 2: All Scouts working toward the Scuba Diving merit badge must earn the Swimming merit badge prior to fulfilling requirements 3 through 6.",
-          "Real-World Case Example": "Concrete application of BSA Swimmer Qualification Check documented during Scuba Diving study.",
-          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17)."
+          "Recognized Scuba Training Agencies": "Your merit badge counselor can help you find a scuba agency recognized by Scouting America scuba policy so that you can fulfill requirement 4 (p. 9).",
+          "Mandatory Swimming Badge Prerequisite": "All Scouts working toward the Scuba Diving merit badge must earn the Swimming merit badge prior to fulfilling requirements 3 through 6 (p. 9).",
+          "Presenting Proof to Counselor": "Once you have presented proof of having earned your Swimming merit badge to your Scuba Diving merit badge counselor, you may begin working on requirements (p. 9).",
+          "Following Currents in Drift Dives": "During adrift dive, divers follow a current and may finish the dive aconsiderable distance from where they started (p. 9)."
         },
-        "sample_output": "BSA Swimmer Qualification Check: BSA Swimmer Qualification Check: Your merit badge counselor can help you find a scubaagency recognized by Scouting America scuba policy soth",
-        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17)."
+        "sample_output": "Swimming Merit Badge Prerequisite: Your merit badge counselor can help you find a scuba agency recognized by Scouting America scuba policy so that (p. 9).",
+        "counselor_tip": "For Scuba Diving Requirement 2 (Swimming Merit Badge Prerequisite), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17))."
       },
       "quiz_item": {
-        "scenario_prompt": "During your patrol's preparation and review for Scuba Diving Requirement 2 (Before completing requirements 3 through 6), which statement accurately reflects the official Scuba Diving Merit Badge Pamphlet?",
-        "question": "During your patrol's preparation and review for Scuba Diving Requirement 2 (Before completing requirements 3 through 6), which statement accurately reflects the official Scuba Diving Merit Badge Pamphlet?",
+        "scenario_prompt": "When must a Scout complete the Swimming merit badge when working on the Scuba Diving merit badge?",
+        "question": "When must a Scout complete the Swimming merit badge when working on the Scuba Diving merit badge?",
         "options": [
-          "A. Performing Before completing requirements 3 through 6 in Scuba Diving Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
-          "B. Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find.",
-          "C. Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
-          "D. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations."
+          "A. Anytime before turning 18 years old",
+          "B. Only if the scuba instructor waives the open-water swim evaluation",
+          "C. Prior to beginning requirements 3 through 6, with proof shown to the counselor",
+          "D. Within 30 days after completing the final open-water certification dive"
         ],
         "choices": [
-          "A. Performing Before completing requirements 3 through 6 in Scuba Diving Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
-          "B. Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find.",
-          "C. Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
-          "D. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations."
+          "A. Anytime before turning 18 years old",
+          "B. Only if the scuba instructor waives the open-water swim evaluation",
+          "C. Prior to beginning requirements 3 through 6, with proof shown to the counselor",
+          "D. Within 30 days after completing the final open-water certification dive"
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find.",
-        "explanation": "Correct Answer (B): Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find. (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17)).",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17)"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Prior to beginning requirements 3 through 6, with proof shown to the counselor",
+        "explanation": "Correct Answer (C): Scouting America scuba policy requires all Scouts to earn the Swimming merit badge and present proof to their Scuba Diving merit badge counselor before starting requirements 3 through 6 (p. 9).",
+        "pamphlet_page_ref": "p. 9, p. 17"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 2.",
@@ -579,7 +571,7 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Discuss The Scuba Diver's",
+      "topic_title": "Req 3: Scuba Diver's Code and Safety",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -609,12 +601,10 @@
         "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
-        "fact": "Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification.",
-        "fact_correction": "Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification.",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)",
-        "myth": "During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
-        "correction": "Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification."
+        "misconception": "Because compressed scuba air contains mostly oxygen, divers do not need to worry about nitrogen absorption on recreational dives.",
+        "fact": "Nitrogen makes up 79 percent of the air we breathe, and increasing underwater pressure forces more nitrogen into body tissues the deeper and longer a diver stays down (p. 19).",
+        "fact_correction": "Nitrogen makes up 79 percent of the air we breathe, and increasing underwater pressure forces more nitrogen into body tissues the deeper and longer a diver stays down (p. 19).",
+        "pamphlet_page_ref": "p. 19, p. 50"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -638,86 +628,81 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Scuba Diver's Code: You may have one or more medical issues that may prevent you from scuba diving (p. 19).",
-        "Scuba Diver's Code Principle 2: Adjusting to the Underwater World Decompression, The Importance of Going Up Slow As you dive, your time underwater has limits (p. 19).",
-        "Scuba Diver's Code Principle 3: These limits are affected by depth, your air supply, the cold, and fatigue (p. 19).",
-        "Scuba Diver's Code Principle 4: The pressure on a diver's body increases with depth (p. 19)."
+        "Medical Fitness for Diving: You may have one or more medical issues that may prevent you from scuba diving (p. 19).",
+        "Importance of Ascending Slowly: Adjusting to the Underwater World Decompression, The Importance of Going Up Slow As you dive, your time underwater has limits (p. 19).",
+        "Depth and Air Limits: These limits are affected by depth, your air supply, the cold, and fatigue (p. 19).",
+        "Increasing Underwater Body Pressure: The pressure on a diver's body increases with depth (p. 19)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Scuba Diver's Code): This increase in pressure causes nitrogen (the gas that makes up 79 percent of the air we breathe) to be absorbed into the body's tissues (p. 19).",
-        "Step 2 (Scuba Diver's Code): The deeper a diver dives and the longer the diver stays underwater, the more nitrogen the body absorbs (p. 19).",
-        "Step 3 (Scuba Diver's Code): The nitrogen that dissolves into a diver's tissues must leave the body as the diver exhales while ascending to the surface, or the diver (p. 19).",
-        "Step 4 (Scuba Diver's Code): To make sure that the excess nitrogen is properly and slowly released, divers should always do the following. 1 (p. 19)."
+        "Step 1 - Monitor Depth and Air: These limits are affected by depth, your air supply, the cold, and fatigue (p. 19).",
+        "Step 2 - Account for Increasing Pressure: The pressure on a diver's body increases with depth (p. 19).",
+        "Step 3 - Track Tissue Nitrogen Absorption: This increase in pressure causes nitrogen (the gas that makes up 79 percent of the air we breathe) to be absorbed into the body's tissues (p. 19).",
+        "Step 4 - Respect No-Decompression Dive Limits: The deeper a diver dives and the longer the diver stays underwater, the more nitrogen the body absorbs (p. 19)."
       ],
-      "gear_checklist": [
-        "Official Scuba Diving Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Scuba Diver's Code)",
-        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
-        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
-        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Proactive Hazard Prevention (Scuba Diver's Code)",
-        "right_header": "Acute Emergency Response (Scuba Diver's Code)",
+        "left_header": "Descending Under Increasing Water Pressure",
+        "right_header": "Ascending Slowly for Safe Off-Gassing",
         "left_points": [
-          "Eliminate environmental and equipment risks before starting.",
-          "Scuba Diver's Code: You may have one or more medicalissues that may prevent you from scuba diving (p. 19).",
-          "Pre-activity PPE, weather, and buddy shakedown."
+          "Medical Fitness for Diving: You may have one or more medical issues that may prevent you from scuba diving (p. 19).",
+          "Importance of Ascending Slowly: Adjusting to the Underwater World Decompression, The Importance of Going Up Slow As you dive, your time (p. 19).",
+          "Depth and Air Limits: These limits are affected by depth, your air supply, the cold, and fatigue (p. 19)."
         ],
         "right_points": [
-          "Stabilize injuries and prevent secondary harm immediately.",
-          "Scuba Diver's Code Principle 2: Adjusting to the Underwater World Decompression, The Importance of Going Up Slow As you dive, your time unde.",
-          "Scene safety assessment, triage, and first-aid execution."
+          "Step 1 - Monitor Depth and Air: These limits are affected by depth, your air supply, the cold, and fatigue (p. 19).",
+          "Step 2 - Account for Increasing Pressure: The pressure on a diver's body increases with depth (p. 19).",
+          "Step 3 - Track Tissue Nitrogen Absorption: This increase in pressure causes nitrogen (p. 19)."
         ],
         "rows": [
           {
-            "attribute": "Primary Objective",
-            "left": "Eliminate environmental and equipment risks before starting.",
-            "right": "Stabilize injuries and prevent secondary harm immediately."
+            "attribute": "Dimension 1",
+            "left": "Medical Fitness for Diving: You may have one or more medical issues that may prevent you from scuba diving (p. 19).",
+            "right": "Step 1 - Monitor Depth and Air: These limits are affected by depth, your air supply, the cold, and fatigue (p. 19)."
           },
           {
-            "attribute": "Key Field Action",
-            "left": "Scuba Diver's Code: You may have one or more medicalissues that may prevent you from scuba diving (p. 19).",
-            "right": "Scuba Diver's Code Principle 2: Adjusting to the Underwater World Decompression, The Importance of Going Up Slow As you dive, your time unde"
+            "attribute": "Dimension 2",
+            "left": "Importance of Ascending Slowly: Adjusting to the Underwater World Decompression, The Importance of Going Up Slow As you dive, your time (p. 19).",
+            "right": "Step 2 - Account for Increasing Pressure: The pressure on a diver's body increases with depth (p. 19)."
           },
           {
-            "attribute": "Verification Check",
-            "left": "Pre-activity PPE, weather, and buddy shakedown.",
-            "right": "Scene safety assessment, triage, and first-aid execution."
+            "attribute": "Dimension 3",
+            "left": "Depth and Air Limits: These limits are affected by depth, your air supply, the cold, and fatigue (p. 19).",
+            "right": "Step 3 - Track Tissue Nitrogen Absorption: This increase in pressure causes nitrogen (p. 19)."
           }
         ]
       },
       "worked_example": {
-        "title": "Exemplar Field Hazard & First-Aid Protocol: Scuba Diving Req 3 (Scuba Diver's Code)",
-        "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
+        "title": "Scuba Diving Req 3 Exemplar Workbook Entry: Scuba Diver's Code and Safety",
+        "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Scuba Diver's Code.",
-          "Preventive Controls & PPE": "Scuba Diver's Code: You may have one or more medical issues that may prevent you from scuba diving (p. 19).",
-          "Acute First-Aid Response": "Scuba Diver's Code Principle 2: Adjusting to the Underwater World Decompression, The Importance of Going Up Slow As you dive, your time underwater has limits (p. 19).",
-          "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)."
+          "Medical Fitness for Diving": "You may have one or more medical issues that may prevent you from scuba diving (p. 19).",
+          "Importance of Ascending Slowly": "Adjusting to the Underwater World Decompression, The Importance of Going Up Slow As you dive, your time underwater has limits (p. 19).",
+          "Depth and Air Limits": "These limits are affected by depth, your air supply, the cold, and fatigue (p. 19).",
+          "Increasing Underwater Body Pressure": "The pressure on a diver's body increases with depth (p. 19)."
         },
-        "sample_output": "Scuba Diver's Code: Scuba Diver's Code: You may have one or more medicalissues that may prevent you from scuba diving (p. 19).",
-        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)."
+        "sample_output": "Scuba Diver's Code and Safety: You may have one or more medical issues that may prevent you from scuba diving (p. 19).",
+        "counselor_tip": "For Scuba Diving Requirement 3 (Scuba Diver's Code and Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50))."
       },
       "quiz_item": {
-        "scenario_prompt": "In Scuba Diving Requirement 3 (The Scuba Diver's Code), what technical standard and procedure does the Scouting America Scuba Diving Merit Badge Pamphlet require?",
-        "question": "In Scuba Diving Requirement 3 (The Scuba Diver's Code), what technical standard and procedure does the Scouting America Scuba Diving Merit Badge Pamphlet require?",
+        "scenario_prompt": "Why does a scuba diver's body absorb more nitrogen into its tissues during a dive?",
+        "question": "Why does a scuba diver's body absorb more nitrogen into its tissues during a dive?",
         "options": [
-          "A. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
-          "B. Performing Before completing requirements 3 through 6 in Scuba Diving Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
-          "C. Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification.",
-          "D. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms."
+          "A. Water pressure increases with depth, forcing nitrogen from breathing air into body tissues",
+          "B. Scuba cylinders are filled with 79 percent pure liquid nitrogen instead of normal air",
+          "C. Cold water converts carbon dioxide in the bloodstream into nitrogen gas",
+          "D. Swimming with fins increases heart rate and blocks the lungs from exhaling"
         ],
         "choices": [
-          "A. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
-          "B. Performing Before completing requirements 3 through 6 in Scuba Diving Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
-          "C. Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification.",
-          "D. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms."
+          "A. Water pressure increases with depth, forcing nitrogen from breathing air into body tissues",
+          "B. Scuba cylinders are filled with 79 percent pure liquid nitrogen instead of normal air",
+          "C. Cold water converts carbon dioxide in the bloodstream into nitrogen gas",
+          "D. Swimming with fins increases heart rate and blocks the lungs from exhaling"
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification.",
-        "explanation": "Correct Answer (C): Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification. (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)).",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Water pressure increases with depth, forcing nitrogen from breathing air into body tissues",
+        "explanation": "Correct Answer (A): Pressure on a diver's body increases with depth, causing nitrogen, which makes up 79 percent of the air we breathe, to be absorbed into tissues the deeper and longer the diver stays underwater (p. 19).",
+        "pamphlet_page_ref": "p. 19, p. 50"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 3.",
@@ -745,7 +730,7 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Earn An Open Water Diver",
+      "topic_title": "Req 4: Open Water Diver Certification",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -775,12 +760,10 @@
         "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms.",
-        "fact": "In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective.",
-        "fact_correction": "In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective.",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12)",
-        "myth": "Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms.",
-        "correction": "In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective."
+        "misconception": "Completing the Scuba Diving merit badge pamphlet workbook with your counselor automatically grants you an Open Water Diver certification card.",
+        "fact": "To fulfill Requirement 4, a Scout must complete full academic, confined-water, and open-water training through a recognized scuba agency meeting Recreational Scuba Training Council standards (p. 10).",
+        "fact_correction": "To fulfill Requirement 4, a Scout must complete full academic, confined-water, and open-water training through a recognized scuba agency meeting Recreational Scuba Training Council standards (p. 10).",
+        "pamphlet_page_ref": "p. 10, p. 12"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -804,86 +787,81 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Open Water Diver Certification: Earn an Open Water Diver Certification: Development of learning objectives is left to the respective training agencies (p. 10).",
-        "Open Water Diver Certification Principle 2: Earn an Open Water Diver Certification Principle 2: During the Open Water Diver course you can look forward to learning basic scuba theory and developing entry-level scuba skills required for certification (p. 10).",
-        "Open Water Diver Certification Principle 3: Earn an Open Water Diver Certification Principle 3: All scuba instruction must meet the minimum training standards for Entry-Level Scuba Certification set by the Recreational Scuba Training Council (p. 10).",
-        "Open Water Diver Certification Principle 4: Earn an Open Water Diver Certification Principle 4: Your course will consist of the topics and scuba skills required by the training organization and as outlined in this section (p. 10)."
+        "Agency Learning Objective Standards: Development of learning objectives is left to the respective training agencies (p. 10).",
+        "Basic Theory and Skills: During the Open Water Diver course you can look forward to learning basic scuba theory and developing entry-level scuba skills required for certification (p. 10).",
+        "RSTC Minimum Training Standards: All scuba instruction must meet the minimum training standards for Entry-Level Scuba Certification set by the Recreational Scuba Training Council (p. 10).",
+        "Required Course Topics Overview: Your course will consist of the topics and scuba skills required by the training organization and as outlined in this section (p. 10)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Open Water Diver Certification): Step 1 (Earn an Open Water Diver Certification): Learn the physical principles of matter and their application to diving activities and hazards (p. 10).",
-        "Step 2 (Open Water Diver Certification): Step 2 (Earn an Open Water Diver Certification): It introduces qualified Scouts BSA, Venturing, and registered adult participants to the special skills, equipment, and safety (p. 10).",
-        "Step 3 (Open Water Diver Certification): Step 3 (Earn an Open Water Diver Certification): The Scuba Award experience consists oftwo parts, knowledge development and skills development (p. 10).",
-        "Step 4 (Open Water Diver Certification): Step 4 (Earn an Open Water Diver Certification): A scuba instructor teaching through a Scouting America-recognized scuba agency conducts water skills development in a clear, confined water (p. 10)."
+        "Step 1 - Verify RSTC Training Standards: All scuba instruction must meet the minimum training standards for Entry-Level Scuba Certification set by the Recreational Scuba Training Council (p. 10).",
+        "Step 2 - Complete Required Course Modules: Your course will consist of the topics and scuba skills required by the training organization and as outlined in this section (p. 10).",
+        "Step 3 - Master Underwater Physics Principles: Learn the physical principles of matter and their application to diving activities and hazards (p. 10).",
+        "Step 4 - Demonstrate Confined and Open Skills: It introduces qualified Scouts BSA, Venturing, and registered adult participants to the special skills, equipment, and safety (p. 10)."
       ],
-      "gear_checklist": [
-        "Official Scuba Diving Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Open Water Diver Certification)",
-        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
-        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
-        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Foundational Principles (Earn an Open Water Diver Certification)",
-        "right_header": "Applied Field Execution (Earn an Open Water Diver Certification)",
+        "left_header": "Confined-Water Skill Development Sessions",
+        "right_header": "Open-Water Certification Evaluation Dives",
         "left_points": [
-          "Theoretical rules, terminology, and specifications for Earn an Open Water Diver Certification.",
-          "Earn an Open Water Diver Certification: Developmentof learning objectives is left to the respective training agencies (p. 10).",
-          "Accurate explanation of underlying causes and definitions."
+          "Agency Learning Objective Standards: Development of learning objectives is left to the respective training agencies (p. 10).",
+          "Basic Theory and Skills: During the Open Water Diver course you can look forward to learning basic scuba theory and developing (p. 10).",
+          "RSTC Minimum Training Standards: All scuba instruction must meet the minimum training standards for Entry-Level Scuba Certification set (p. 10)."
         ],
         "right_points": [
-          "Hands-on measurement, operation, and troubleshooting in Scuba Diving.",
-          "Earn an Open Water Diver Certification Principle 2: During the Open Water Diver course you can look forward to learningbasic scuba theory.",
-          "Repeatable, safe execution under real field conditions."
+          "Step 1 - Verify RSTC Training Standards: All scuba instruction must meet the minimum training standards for Entry-Level Scuba (p. 10).",
+          "Step 2 - Complete Required Course Modules: Your course will consist of the topics and scuba skills required by the training (p. 10).",
+          "Step 3 - Master Underwater Physics Principles: Learn the physical principles of matter and their application to diving activities (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Core Focus",
-            "left": "Theoretical rules, terminology, and specifications for Earn an Open Water Diver Certification.",
-            "right": "Hands-on measurement, operation, and troubleshooting in Scuba Diving."
+            "attribute": "Dimension 1",
+            "left": "Agency Learning Objective Standards: Development of learning objectives is left to the respective training agencies (p. 10).",
+            "right": "Step 1 - Verify RSTC Training Standards: All scuba instruction must meet the minimum training standards for Entry-Level Scuba (p. 10)."
           },
           {
-            "attribute": "Pamphlet Standard",
-            "left": "Earn an Open Water Diver Certification: Developmentof learning objectives is left to the respective training agencies (p. 10).",
-            "right": "Earn an Open Water Diver Certification Principle 2: During the Open Water Diver course you can look forward to learningbasic scuba theory an"
+            "attribute": "Dimension 2",
+            "left": "Basic Theory and Skills: During the Open Water Diver course you can look forward to learning basic scuba theory and developing (p. 10).",
+            "right": "Step 2 - Complete Required Course Modules: Your course will consist of the topics and scuba skills required by the training (p. 10)."
           },
           {
-            "attribute": "Mastery Indicator",
-            "left": "Accurate explanation of underlying causes and definitions.",
-            "right": "Repeatable, safe execution under real field conditions."
+            "attribute": "Dimension 3",
+            "left": "RSTC Minimum Training Standards: All scuba instruction must meet the minimum training standards for Entry-Level Scuba Certification set (p. 10).",
+            "right": "Step 3 - Master Underwater Physics Principles: Learn the physical principles of matter and their application to diving activities (p. 10)."
           }
         ]
       },
       "worked_example": {
-        "title": "Exemplar Technical Analysis: Scuba Diving Req 4 (Open Water Diver Certification)",
-        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "title": "Scuba Diving Req 4 Exemplar Workbook Entry: Open Water Diver Certification",
+        "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Core Technical Principle": "Open Water Diver Certification: Earn an Open Water Diver Certification: Development of learning objectives is left to the respective training agencies (p. 10).",
-          "Applied Field Mechanism": "Open Water Diver Certification Principle 2: Earn an Open Water Diver Certification Principle 2: During the Open Water Diver course you can look forward to learning basic scuba theor.",
-          "Real-World Case Example": "Concrete application of Open Water Diver Certification documented during Scuba Diving study.",
-          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12)."
+          "Agency Learning Objective Standards": "Development of learning objectives is left to the respective training agencies (p. 10).",
+          "Basic Theory and Skills": "During the Open Water Diver course you can look forward to learning basic scuba theory and developing entry-level scuba skills required for certification (p. 10).",
+          "RSTC Minimum Training Standards": "All scuba instruction must meet the minimum training standards for Entry-Level Scuba Certification set by the Recreational Scuba Training Council (p. 10).",
+          "Required Course Topics Overview": "Your course will consist of the topics and scuba skills required by the training organization and as outlined in this section (p. 10)."
         },
-        "sample_output": "Open Water Diver Certification: Open Water Diver Certification: Earn an Open Water Diver Certification: Development of learning objectives is left to the respective trainin",
-        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12)."
+        "sample_output": "Open Water Diver Certification: Development of learning objectives is left to the respective training agencies (p. 10).",
+        "counselor_tip": "For Scuba Diving Requirement 4 (Open Water Diver Certification), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12))."
       },
       "quiz_item": {
-        "scenario_prompt": "When demonstrating and explaining Earn an Open Water Diver Certification for Scuba Diving Requirement 4, which approach follows the verified Scuba Diving Merit Badge Pamphlet standard?",
-        "question": "When demonstrating and explaining Earn an Open Water Diver Certification for Scuba Diving Requirement 4, which approach follows the verified Scuba Diving Merit Badge Pamphlet standard?",
+        "scenario_prompt": "What benchmark must all entry-level scuba instruction meet under Scouting America scuba policy?",
+        "question": "What benchmark must all entry-level scuba instruction meet under Scouting America scuba policy?",
         "options": [
-          "A. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms.",
-          "B. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
-          "C. Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-          "D. In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective."
+          "A. Commercial deep-sea saturation diving standards set by the U.S. Navy",
+          "B. Minimum training standards set by the Recreational Scuba Training Council (RSTC)",
+          "C. Competitive collegiate freediving rules set by USA Swimming",
+          "D. Local municipal swimming pool lifeguard training guidelines"
         ],
         "choices": [
-          "A. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms.",
-          "B. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
-          "C. Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-          "D. In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective."
+          "A. Commercial deep-sea saturation diving standards set by the U.S. Navy",
+          "B. Minimum training standards set by the Recreational Scuba Training Council (RSTC)",
+          "C. Competitive collegiate freediving rules set by USA Swimming",
+          "D. Local municipal swimming pool lifeguard training guidelines"
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective.",
-        "explanation": "Correct Answer (D): In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective. (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12)).",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12)"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Minimum training standards set by the Recreational Scuba Training Council (RSTC)",
+        "explanation": "Correct Answer (B): All scuba instruction for the merit badge must meet the minimum training standards for Entry-Level Scuba Certification set by the Recreational Scuba Training Council (p. 10).",
+        "pamphlet_page_ref": "p. 10, p. 12"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 4.",
@@ -911,7 +889,7 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Ecosystem Is and Describe Four",
+      "topic_title": "Req 5: Exploring Aquatic Ecosystems",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -941,12 +919,10 @@
         "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-        "fact": "Throughout the world's oceans, there are many different environments, or ecosystems.",
-        "fact_correction": "Throughout the world's oceans, there are many different environments, or ecosystems.",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75)",
-        "myth": "Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-        "correction": "Throughout the world's oceans, there are many different environments, or ecosystems."
+        "misconception": "Coral reefs are lifeless mineral rock formations that do not depend on sunlight or microscopic plants.",
+        "fact": "Coral reefs are living tropical ecosystems powered by sunlight, where symbiotic algae provide essential nutrients and energy that pass from organism to organism up the food web (p. 73).",
+        "fact_correction": "Coral reefs are living tropical ecosystems powered by sunlight, where symbiotic algae provide essential nutrients and energy that pass from organism to organism up the food web (p. 73).",
+        "pamphlet_page_ref": "p. 73, p. 75"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -970,86 +946,81 @@
         }
       ],
       "pamphlet_excerpts": [
-        "An ecosystem: Throughout the world's oceans, there are many different environments, or ecosystems (p. 73).",
-        "An ecosystem Principle 2: Food webs and food pyramids illustrate the flow of energy (p. 73).",
-        "An ecosystem Principle 3: Nutrients from the algae provide energy to these organisms that in turn are eaten by other organisms (p. 73).",
-        "An ecosystem Principle 4: In this way, the sun's energy is passed from organism to organism in the ecosystem (p. 73)."
+        "Diverse Global Ocean Ecosystems: Throughout the world's oceans, there are many different environments, or ecosystems (p. 73).",
+        "Food Webs and Pyramids: Food webs and food pyramids illustrate the flow of energy (p. 73).",
+        "Algae Nutrient Energy Transfer: Nutrients from the algae provide energy to these organisms that in turn are eaten by other organisms (p. 73).",
+        "Passing Solar Energy Forward: In this way, the sun's energy is passed from organism to organism in the ecosystem (p. 73)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (An ecosystem): The entire tropical zone receives the sun's rays more directly than area sin higher latitudes, so the average annual temperature (p. 73).",
-        "Step 2 (An ecosystem): Seasonal temperatures vary less than in other places on Earth (p. 73).",
-        "Step 3 (An ecosystem): Of all Earth's ecosystems, few compare to the coral reef (p. 73).",
-        "Step 4 (An ecosystem): A coral reef consists of the hard outer skeletons of tiny animals called corals (p. 73)."
+        "Step 1 - Trace Algae Nutrient Production: Nutrients from the algae provide energy to these organisms that in turn are eaten by other organisms (p. 73).",
+        "Step 2 - Follow Food Web Energy: In this way, the sun's energy is passed from organism to organism in the ecosystem (p. 73).",
+        "Step 3 - Compare Tropical Sunlight Intensity: The entire tropical zone receives the sun's rays more directly than area sin higher latitudes, so the average annual temperature (p. 73).",
+        "Step 4 - Describe Four Aquatic Environments: Seasonal temperatures vary less than in other places on Earth (p. 73)."
       ],
-      "gear_checklist": [
-        "Official Scuba Diving Merit Badge Pamphlet and Fillable Workbook (open to Req 5: An ecosystem)",
-        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
-        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
-        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Foundational Principles (An ecosystem)",
-        "right_header": "Applied Field Execution (An ecosystem)",
+        "left_header": "Tropical Coral Reef Marine Ecosystems",
+        "right_header": "Temperate Kelp Forest and Freshwater Systems",
         "left_points": [
-          "Theoretical rules, terminology, and specifications for An ecosystem.",
-          "An ecosystem: Throughout the world's oceans, there are manydifferent environments, or ecosystems (p. 73).",
-          "Accurate explanation of underlying causes and definitions."
+          "Diverse Global Ocean Ecosystems: Throughout the world's oceans, there are many different environments, or ecosystems (p. 73).",
+          "Food Webs and Pyramids: Food webs and food pyramids illustrate the flow of energy (p. 73).",
+          "Algae Nutrient Energy Transfer: Nutrients from the algae provide energy to these organisms that in turn are eaten by other organisms (p. 73)."
         ],
         "right_points": [
-          "Hands-on measurement, operation, and troubleshooting in Scuba Diving.",
-          "An ecosystem Principle 2: Food webs and food pyramids illustrate the flow of energy (p. 73).",
-          "Repeatable, safe execution under real field conditions."
+          "Step 1 - Trace Algae Nutrient Production: Nutrients from the algae provide energy to these organisms that in turn are eaten by other (p. 73).",
+          "Step 2 - Follow Food Web Energy: In this way, the sun's energy is passed from organism to organism in the ecosystem (p. 73).",
+          "Step 3 - Compare Tropical Sunlight Intensity: The entire tropical zone receives the sun's rays more directly than area sin higher (p. 73)."
         ],
         "rows": [
           {
-            "attribute": "Core Focus",
-            "left": "Theoretical rules, terminology, and specifications for An ecosystem.",
-            "right": "Hands-on measurement, operation, and troubleshooting in Scuba Diving."
+            "attribute": "Dimension 1",
+            "left": "Diverse Global Ocean Ecosystems: Throughout the world's oceans, there are many different environments, or ecosystems (p. 73).",
+            "right": "Step 1 - Trace Algae Nutrient Production: Nutrients from the algae provide energy to these organisms that in turn are eaten by other (p. 73)."
           },
           {
-            "attribute": "Pamphlet Standard",
-            "left": "An ecosystem: Throughout the world's oceans, there are manydifferent environments, or ecosystems (p. 73).",
-            "right": "An ecosystem Principle 2: Food webs and food pyramids illustrate the flow of energy (p. 73)."
+            "attribute": "Dimension 2",
+            "left": "Food Webs and Pyramids: Food webs and food pyramids illustrate the flow of energy (p. 73).",
+            "right": "Step 2 - Follow Food Web Energy: In this way, the sun's energy is passed from organism to organism in the ecosystem (p. 73)."
           },
           {
-            "attribute": "Mastery Indicator",
-            "left": "Accurate explanation of underlying causes and definitions.",
-            "right": "Repeatable, safe execution under real field conditions."
+            "attribute": "Dimension 3",
+            "left": "Algae Nutrient Energy Transfer: Nutrients from the algae provide energy to these organisms that in turn are eaten by other organisms (p. 73).",
+            "right": "Step 3 - Compare Tropical Sunlight Intensity: The entire tropical zone receives the sun's rays more directly than area sin higher (p. 73)."
           }
         ]
       },
       "worked_example": {
-        "title": "Exemplar Technical Analysis: Scuba Diving Req 5 (An ecosystem)",
-        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "title": "Scuba Diving Req 5 Exemplar Workbook Entry: Exploring Aquatic Ecosystems",
+        "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Core Technical Principle": "An ecosystem: Throughout the world's oceans, there are many different environments, or ecosystems (p. 73).",
-          "Applied Field Mechanism": "An ecosystem Principle 2: Food webs and food pyramids illustrate the flow of energy (p. 73).",
-          "Real-World Case Example": "Concrete application of An ecosystem documented during Scuba Diving study.",
-          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75)."
+          "Diverse Global Ocean Ecosystems": "Throughout the world's oceans, there are many different environments, or ecosystems (p. 73).",
+          "Food Webs and Pyramids": "Food webs and food pyramids illustrate the flow of energy (p. 73).",
+          "Algae Nutrient Energy Transfer": "Nutrients from the algae provide energy to these organisms that in turn are eaten by other organisms (p. 73).",
+          "Passing Solar Energy Forward": "In this way, the sun's energy is passed from organism to organism in the ecosystem (p. 73)."
         },
-        "sample_output": "An ecosystem: An ecosystem: Throughout the world's oceans, there are manydifferent environments, or ecosystems (p. 73).",
-        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75)."
+        "sample_output": "Exploring Aquatic Ecosystems: Throughout the world's oceans, there are many different environments, or ecosystems (p. 73).",
+        "counselor_tip": "For Scuba Diving Requirement 5 (Exploring Aquatic Ecosystems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75))."
       },
       "quiz_item": {
-        "scenario_prompt": "When working on Scuba Diving Requirement 5 (An ecosystem), which principle and field standard is established in the Scuba Diving Merit Badge Pamphlet?",
-        "question": "When working on Scuba Diving Requirement 5 (An ecosystem), which principle and field standard is established in the Scuba Diving Merit Badge Pamphlet?",
+        "scenario_prompt": "Why do tropical marine ecosystems experience less seasonal temperature variation than aquatic environments at higher latitudes?",
+        "question": "Why do tropical marine ecosystems experience less seasonal temperature variation than aquatic environments at higher latitudes?",
         "options": [
-          "A. Throughout the world's oceans, there are many different environments, or ecosystems.",
-          "B. Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-          "C. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms.",
-          "D. Casual hobby familiarity with Scuba Diving is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing."
+          "A. Underwater volcanic vents heat tropical reefs evenly throughout the winter",
+          "B. Saltwater in the tropics has a higher salt concentration that traps heat",
+          "C. Heavy kelp canopies block cold air from reaching tropical ocean surfaces",
+          "D. The tropical zone receives the sun's rays more directly throughout the year"
         ],
         "choices": [
-          "A. Throughout the world's oceans, there are many different environments, or ecosystems.",
-          "B. Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-          "C. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms.",
-          "D. Casual hobby familiarity with Scuba Diving is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing."
+          "A. Underwater volcanic vents heat tropical reefs evenly throughout the winter",
+          "B. Saltwater in the tropics has a higher salt concentration that traps heat",
+          "C. Heavy kelp canopies block cold air from reaching tropical ocean surfaces",
+          "D. The tropical zone receives the sun's rays more directly throughout the year"
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Throughout the world's oceans, there are many different environments, or ecosystems.",
-        "explanation": "Correct Answer (A): Throughout the world's oceans, there are many different environments, or ecosystems. (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75)).",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75)"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. The tropical zone receives the sun's rays more directly throughout the year",
+        "explanation": "Correct Answer (D): The entire tropical zone receives the sun's rays more directly than areas in higher latitudes, keeping average annual temperatures warm with minimal seasonal variation (p. 73).",
+        "pamphlet_page_ref": "p. 73, p. 75"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 5.",
@@ -1073,7 +1044,7 @@
           "url": "https://youtu.be/S2yhU1KHoHM"
         },
         {
-          "title": "Navy Medical Deep Sea Diving Technician—DMT (video)",
+          "title": "Navy Medical Deep Sea Diving Technician, DMT (video)",
           "url": "https://youtu.be/TAB0-ZQ9cUU"
         },
         {
@@ -1093,7 +1064,7 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Scuba Diving Careers and Pathways",
+      "topic_title": "Req 6: Careers in the Scuba Industry",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -1127,12 +1098,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Casual hobby familiarity with Scuba Diving is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
-        "fact": "Pursuing a career or advanced pathway in Scuba Diving (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
-        "fact_correction": "Pursuing a career or advanced pathway in Scuba Diving (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 83, p. 86)",
-        "myth": "Casual hobby familiarity with Scuba Diving is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
-        "correction": "Pursuing a career or advanced pathway in Scuba Diving (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications."
+        "misconception": "Once you earn your entry-level Open Water Diver certification, you are legally qualified to get paid as a scuba instructor.",
+        "fact": "Open Water certification makes you a beginning recreational diver, requiring progressive advanced courses, logged experience, Divemaster training, and an Instructor Development Course to teach professionally (p. 83).",
+        "fact_correction": "Open Water certification makes you a beginning recreational diver, requiring progressive advanced courses, logged experience, Divemaster training, and an Instructor Development Course to teach professionally (p. 83).",
+        "pamphlet_page_ref": "p. 83, p. 86"
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1156,86 +1125,81 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Careers & Professional Pathways: As a Scout, you will first visit the underwater world as arecreational scuba diver (p. 83).",
-        "Careers & Professional Pathways Principle 2: You may also want to become a part of the Scuba Team (p. 83).",
-        "Careers & Professional Pathways Principle 3: As a professional recreational scuba instructor, you might work at a local dive center, at a resort, or on a dive boat (p. 83).",
-        "Careers & Professional Pathways Principle 4: Sailing out into the ocean to dive every day could be the rule, not the exception, especially if you work in a tropical dive destination (p. 83)."
+        "Beginning as Recreational Diver: As a Scout, you will first visit the underwater world as arecreational scuba diver (p. 83).",
+        "Joining a Scuba Team: You may also want to become a part of the Scuba Team (p. 83).",
+        "Recreational Scuba Instructor Workplaces: As a professional recreational scuba instructor, you might work at a local dive center, at a resort, or on a dive boat (p. 83).",
+        "Daily Tropical Destination Diving: Sailing out into the ocean to dive every day could be the rule, not the exception, especially if you work in a tropical dive destination (p. 83)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers & Professional Pathways): Your commute to work could beas easy as a 10-minute boat ride to an exotic reef (p. 83).",
-        "Step 2 (Careers & Professional Pathways): Once you become certified, you will be a beginning diver, and you can start expanding your diving knowledge and skills immediately by taking (p. 83).",
-        "Step 3 (Careers & Professional Pathways): First, set your sights on completing an advanced open water diver course (p. 83).",
-        "Step 4 (Careers & Professional Pathways): The course title does not mean you have to be advanced to take the course, it simply means you will advance your underwater abilities by taking (p. 83)."
+        "Step 1 - Explore Dive Center Roles: As a professional recreational scuba instructor, you might work at a local dive center, at a resort, or on a dive boat (p. 83).",
+        "Step 2 - Examine Resort Boat Careers: Sailing out into the ocean to dive every day could be the rule, not the exception, especially if you work in a tropical dive destination (p. 83).",
+        "Step 3 - Consider Daily Working Environments: Your commute to work could beas easy as a 10-minute boat ride to an exotic reef (p. 83).",
+        "Step 4 - Plan Advanced Diver Training: Once you become certified, you will be a beginning diver, and you can start expanding your diving knowledge and skills immediately by taking (p. 83)."
       ],
-      "gear_checklist": [
-        "Official Scuba Diving Merit Badge Pamphlet and Fillable Workbook (open to Req 6: Careers & Professional Pathways)",
-        "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout.",
-        "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle.",
-        "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Professional Career Track in Scuba Diving",
-        "right_header": "Lifelong Avocation & Civic Service in Scuba Diving",
+        "left_header": "Recreational Scuba Instruction and Tourism",
+        "right_header": "Commercial, Scientific, and Public Safety Diving",
         "left_points": [
-          "Accredited degree, trade apprenticeship, or industry license.",
-          "Careers & Professional Pathways: As a Scout, you will first visit the underwater world as arecreational scuba diver (p. 83).",
-          "Full-time compensation and technical leadership."
+          "Beginning as Recreational Diver: As a Scout, you will first visit the underwater world as arecreational scuba diver (p. 83).",
+          "Joining a Scuba Team: You may also want to become a part of the Scuba Team (p. 83).",
+          "Recreational Scuba Instructor Workplaces: As a professional recreational scuba instructor, you might work at a local dive center (p. 83)."
         ],
         "right_points": [
-          "Merit badge mastery, club mentorship, and volunteer service.",
-          "Careers & Professional Pathways Principle 2: You may also want to become a part of the Scuba Team (p. 83).",
-          "Community stewardship, outdoor recreation, and teaching others."
+          "Step 1 - Explore Dive Center Roles: As a professional recreational scuba instructor, you might work at a local dive center (p. 83).",
+          "Step 2 - Examine Resort Boat Careers: Sailing out into the ocean to dive every day could be the rule, not the exception, especially if (p. 83).",
+          "Step 3 - Consider Daily Working Environments: Your commute to work could beas easy as a 10-minute boat ride to an exotic reef (p. 83)."
         ],
         "rows": [
           {
-            "attribute": "Training Pathway",
-            "left": "Accredited degree, trade apprenticeship, or industry license.",
-            "right": "Merit badge mastery, club mentorship, and volunteer service."
+            "attribute": "Dimension 1",
+            "left": "Beginning as Recreational Diver: As a Scout, you will first visit the underwater world as arecreational scuba diver (p. 83).",
+            "right": "Step 1 - Explore Dive Center Roles: As a professional recreational scuba instructor, you might work at a local dive center (p. 83)."
           },
           {
-            "attribute": "Core Responsibilities",
-            "left": "Careers & Professional Pathways: As a Scout, you will first visit the underwater world as arecreational scuba diver (p. 83).",
-            "right": "Careers & Professional Pathways Principle 2: You may also want to become a part of the Scuba Team (p. 83)."
+            "attribute": "Dimension 2",
+            "left": "Joining a Scuba Team: You may also want to become a part of the Scuba Team (p. 83).",
+            "right": "Step 2 - Examine Resort Boat Careers: Sailing out into the ocean to dive every day could be the rule, not the exception, especially if (p. 83)."
           },
           {
-            "attribute": "Long-Term Outcome",
-            "left": "Full-time compensation and technical leadership.",
-            "right": "Community stewardship, outdoor recreation, and teaching others."
+            "attribute": "Dimension 3",
+            "left": "Recreational Scuba Instructor Workplaces: As a professional recreational scuba instructor, you might work at a local dive center (p. 83).",
+            "right": "Step 3 - Consider Daily Working Environments: Your commute to work could beas easy as a 10-minute boat ride to an exotic reef (p. 83)."
           }
         ]
       },
       "worked_example": {
-        "title": "Exemplar Technical Analysis: Scuba Diving Req 6 (Careers & Professional Pathways)",
-        "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
+        "title": "Scuba Diving Req 6 Exemplar Workbook Entry: Careers in the Scuba Industry",
+        "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Core Technical Principle": "Careers & Professional Pathways: As a Scout, you will first visit the underwater world as arecreational scuba diver (p. 83).",
-          "Applied Field Mechanism": "Careers & Professional Pathways Principle 2: You may also want to become a part of the Scuba Team (p. 83).",
-          "Real-World Case Example": "Concrete application of Careers & Professional Pathways documented during Scuba Diving study.",
-          "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 83, p. 86)."
+          "Beginning as Recreational Diver": "As a Scout, you will first visit the underwater world as arecreational scuba diver (p. 83).",
+          "Joining a Scuba Team": "You may also want to become a part of the Scuba Team (p. 83).",
+          "Recreational Scuba Instructor Workplaces": "As a professional recreational scuba instructor, you might work at a local dive center, at a resort, or on a dive boat (p. 83).",
+          "Daily Tropical Destination Diving": "Sailing out into the ocean to dive every day could be the rule, not the exception, especially if you work in a tropical dive destination (p. 83)."
         },
-        "sample_output": "Careers & Professional Pathways: Careers & Professional Pathways: As a Scout, you will first visit the underwater world as arecreational scuba diver (p. 83).",
-        "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 83, p. 86)."
+        "sample_output": "Careers in the Scuba Industry: As a Scout, you will first visit the underwater world as arecreational scuba diver (p. 83).",
+        "counselor_tip": "For Scuba Diving Requirement 6 (Careers in the Scuba Industry), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 83, p. 86))."
       },
       "quiz_item": {
-        "scenario_prompt": "During your patrol's preparation and review for Scuba Diving Requirement 6 (Careers & Professional Pathways), which statement accurately reflects the official Scuba Diving Merit Badge Pamphlet?",
-        "question": "During your patrol's preparation and review for Scuba Diving Requirement 6 (Careers & Professional Pathways), which statement accurately reflects the official Scuba Diving Merit Badge Pamphlet?",
+        "scenario_prompt": "Where might a professional recreational scuba instructor typically work according to the Scuba Diving merit badge pamphlet?",
+        "question": "Where might a professional recreational scuba instructor typically work according to the Scuba Diving merit badge pamphlet?",
         "options": [
-          "A. Casual hobby familiarity with Scuba Diving is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
-          "B. Pursuing a career or advanced pathway in Scuba Diving (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
-          "C. Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-          "D. Holding your breath causes nitrogen gas to freeze inside the first-stage regulator valve."
+          "A. Exclusively inside hyperbaric hospital chambers",
+          "B. At a local dive center, at a resort, or aboard a dive boat",
+          "C. Only on deep-sea offshore oil drilling platforms",
+          "D. Strictly at national merit badge headquarters in Texas"
         ],
         "choices": [
-          "A. Casual hobby familiarity with Scuba Diving is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
-          "B. Pursuing a career or advanced pathway in Scuba Diving (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
-          "C. Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-          "D. Holding your breath causes nitrogen gas to freeze inside the first-stage regulator valve."
+          "A. Exclusively inside hyperbaric hospital chambers",
+          "B. At a local dive center, at a resort, or aboard a dive boat",
+          "C. Only on deep-sea offshore oil drilling platforms",
+          "D. Strictly at national merit badge headquarters in Texas"
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Pursuing a career or advanced pathway in Scuba Diving (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
-        "explanation": "Correct Answer (B): Pursuing a career or advanced pathway in Scuba Diving (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 83, p. 86)).",
-        "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 83, p. 86)"
+        "correct_answer": "B. At a local dive center, at a resort, or aboard a dive boat",
+        "explanation": "Correct Answer (B): As a professional recreational scuba instructor, you might work at a local dive center, at a resort, or on a dive boat, often diving daily in tropical destinations (p. 83).",
+        "pamphlet_page_ref": "p. 83, p. 86"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Scuba Diving Workbook organizer table and practical demonstration for Req 6.",
@@ -1269,112 +1233,133 @@
       "correct_letter": "B",
       "correct_answer": "B. As water pressure decreases during ascent, trapped air in the lungs expands according to Boyle's Law and can rupture lung tissue (pulmonary barotrauma) if not exhaled.",
       "explanation": "Correct Answer (B): Under Boyle's Law, gas volume increases as surrounding water pressure drops during ascent; holding your breath while breathing compressed air traps expanding gas in the lungs, risking life-threatening pulmonary barotrauma.",
-      "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
+      "pamphlet_page_ref": "p. 21, p. 25",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "During your patrol's preparation and review for Scuba Diving Requirement 2 (Before completing requirements 3 through 6), which statement accurately reflects the official Scuba Diving Merit Badge Pamphlet?",
-      "question": "During your patrol's preparation and review for Scuba Diving Requirement 2 (Before completing requirements 3 through 6), which statement accurately reflects the official Scuba Diving Merit Badge Pamphlet?",
+      "scenario_prompt": "When must a Scout complete the Swimming merit badge when working on the Scuba Diving merit badge?",
+      "question": "When must a Scout complete the Swimming merit badge when working on the Scuba Diving merit badge?",
       "options": [
-        "A. Performing Before completing requirements 3 through 6 in Scuba Diving Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
-        "B. Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find.",
-        "C. Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
-        "D. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations."
+        "A. Anytime before turning 18 years old",
+        "B. Only if the scuba instructor waives the open-water swim evaluation",
+        "C. Prior to beginning requirements 3 through 6, with proof shown to the counselor",
+        "D. Within 30 days after completing the final open-water certification dive"
       ],
       "choices": [
-        "A. Performing Before completing requirements 3 through 6 in Scuba Diving Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
-        "B. Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find.",
-        "C. Heatstroke and hypothermia victims should be rewarmed or cooled as slowly as possible without active intervention.",
-        "D. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations."
+        "A. Anytime before turning 18 years old",
+        "B. Only if the scuba instructor waives the open-water swim evaluation",
+        "C. Prior to beginning requirements 3 through 6, with proof shown to the counselor",
+        "D. Within 30 days after completing the final open-water certification dive"
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find.",
-      "explanation": "Correct Answer (B): Hands-on execution of Scuba Diving Requirement 2 (Before completing requirements 3 through 6) depends on precise setup and step-by-step technique: Your merit badge counselor can help you find. (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17)).",
-      "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17)",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Prior to beginning requirements 3 through 6, with proof shown to the counselor",
+      "explanation": "Correct Answer (C): Scouting America scuba policy requires all Scouts to earn the Swimming merit badge and present proof to their Scuba Diving merit badge counselor before starting requirements 3 through 6 (p. 9).",
+      "pamphlet_page_ref": "p. 9, p. 17",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "In Scuba Diving Requirement 3 (The Scuba Diver's Code), what technical standard and procedure does the Scouting America Scuba Diving Merit Badge Pamphlet require?",
-      "question": "In Scuba Diving Requirement 3 (The Scuba Diver's Code), what technical standard and procedure does the Scouting America Scuba Diving Merit Badge Pamphlet require?",
+      "scenario_prompt": "Why does a scuba diver's body absorb more nitrogen into its tissues during a dive?",
+      "question": "Why does a scuba diver's body absorb more nitrogen into its tissues during a dive?",
       "options": [
-        "A. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
-        "B. Performing Before completing requirements 3 through 6 in Scuba Diving Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
-        "C. Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification.",
-        "D. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms."
+        "A. Water pressure increases with depth, forcing nitrogen from breathing air into body tissues",
+        "B. Scuba cylinders are filled with 79 percent pure liquid nitrogen instead of normal air",
+        "C. Cold water converts carbon dioxide in the bloodstream into nitrogen gas",
+        "D. Swimming with fins increases heart rate and blocks the lungs from exhaling"
       ],
       "choices": [
-        "A. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
-        "B. Performing Before completing requirements 3 through 6 in Scuba Diving Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
-        "C. Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification.",
-        "D. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms."
+        "A. Water pressure increases with depth, forcing nitrogen from breathing air into body tissues",
+        "B. Scuba cylinders are filled with 79 percent pure liquid nitrogen instead of normal air",
+        "C. Cold water converts carbon dioxide in the bloodstream into nitrogen gas",
+        "D. Swimming with fins increases heart rate and blocks the lungs from exhaling"
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification.",
-      "explanation": "Correct Answer (C): Every Scuba Diving outing requires proactive hazard screening, proper PPE fit verification. (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)).",
-      "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Water pressure increases with depth, forcing nitrogen from breathing air into body tissues",
+      "explanation": "Correct Answer (A): Pressure on a diver's body increases with depth, causing nitrogen, which makes up 79 percent of the air we breathe, to be absorbed into tissues the deeper and longer the diver stays underwater (p. 19).",
+      "pamphlet_page_ref": "p. 19, p. 50",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "When demonstrating and explaining Earn an Open Water Diver Certification for Scuba Diving Requirement 4, which approach follows the verified Scuba Diving Merit Badge Pamphlet standard?",
-      "question": "When demonstrating and explaining Earn an Open Water Diver Certification for Scuba Diving Requirement 4, which approach follows the verified Scuba Diving Merit Badge Pamphlet standard?",
+      "scenario_prompt": "What benchmark must all entry-level scuba instruction meet under Scouting America scuba policy?",
+      "question": "What benchmark must all entry-level scuba instruction meet under Scouting America scuba policy?",
       "options": [
-        "A. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms.",
-        "B. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
-        "C. Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-        "D. In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective."
+        "A. Commercial deep-sea saturation diving standards set by the U.S. Navy",
+        "B. Minimum training standards set by the Recreational Scuba Training Council (RSTC)",
+        "C. Competitive collegiate freediving rules set by USA Swimming",
+        "D. Local municipal swimming pool lifeguard training guidelines"
       ],
       "choices": [
-        "A. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms.",
-        "B. During Scuba Diving Requirement 3 (The Scuba Diver's Code), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
-        "C. Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-        "D. In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective."
+        "A. Commercial deep-sea saturation diving standards set by the U.S. Navy",
+        "B. Minimum training standards set by the Recreational Scuba Training Council (RSTC)",
+        "C. Competitive collegiate freediving rules set by USA Swimming",
+        "D. Local municipal swimming pool lifeguard training guidelines"
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective.",
-      "explanation": "Correct Answer (D): In Scuba Diving Requirement 4 (Earn an Open Water Diver Certification), each principle directly governs real-world performance: Development of learning objectives is left to the respective. (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12)).",
-      "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12)",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Minimum training standards set by the Recreational Scuba Training Council (RSTC)",
+      "explanation": "Correct Answer (B): All scuba instruction for the merit badge must meet the minimum training standards for Entry-Level Scuba Certification set by the Recreational Scuba Training Council (p. 10).",
+      "pamphlet_page_ref": "p. 10, p. 12",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "When working on Scuba Diving Requirement 5 (An ecosystem), which principle and field standard is established in the Scuba Diving Merit Badge Pamphlet?",
-      "question": "When working on Scuba Diving Requirement 5 (An ecosystem), which principle and field standard is established in the Scuba Diving Merit Badge Pamphlet?",
+      "scenario_prompt": "Why do tropical marine ecosystems experience less seasonal temperature variation than aquatic environments at higher latitudes?",
+      "question": "Why do tropical marine ecosystems experience less seasonal temperature variation than aquatic environments at higher latitudes?",
       "options": [
-        "A. Throughout the world's oceans, there are many different environments, or ecosystems.",
-        "B. Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-        "C. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms.",
-        "D. Casual hobby familiarity with Scuba Diving is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing."
+        "A. Underwater volcanic vents heat tropical reefs evenly throughout the winter",
+        "B. Saltwater in the tropics has a higher salt concentration that traps heat",
+        "C. Heavy kelp canopies block cold air from reaching tropical ocean surfaces",
+        "D. The tropical zone receives the sun's rays more directly throughout the year"
       ],
       "choices": [
-        "A. Throughout the world's oceans, there are many different environments, or ecosystems.",
-        "B. Assuming An ecosystem in Scuba Diving Requirement 5 operates identically across all environmental and technical conditions.",
-        "C. Treating the technical factors of Earn an Open Water Diver Certification in Scuba Diving Requirement 4 as isolated terms rather than interconnected field mechanisms.",
-        "D. Casual hobby familiarity with Scuba Diving is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing."
+        "A. Underwater volcanic vents heat tropical reefs evenly throughout the winter",
+        "B. Saltwater in the tropics has a higher salt concentration that traps heat",
+        "C. Heavy kelp canopies block cold air from reaching tropical ocean surfaces",
+        "D. The tropical zone receives the sun's rays more directly throughout the year"
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Throughout the world's oceans, there are many different environments, or ecosystems.",
-      "explanation": "Correct Answer (A): Throughout the world's oceans, there are many different environments, or ecosystems. (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75)).",
-      "pamphlet_page_ref": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75)",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. The tropical zone receives the sun's rays more directly throughout the year",
+      "explanation": "Correct Answer (D): The entire tropical zone receives the sun's rays more directly than areas in higher latitudes, keeping average annual temperatures warm with minimal seasonal variation (p. 73).",
+      "pamphlet_page_ref": "p. 73, p. 75",
       "req_id": "5",
+      "option_id": null
+    },
+    {
+      "scenario_prompt": "Where might a professional recreational scuba instructor typically work according to the Scuba Diving merit badge pamphlet?",
+      "question": "Where might a professional recreational scuba instructor typically work according to the Scuba Diving merit badge pamphlet?",
+      "options": [
+        "A. Exclusively inside hyperbaric hospital chambers",
+        "B. At a local dive center, at a resort, or aboard a dive boat",
+        "C. Only on deep-sea offshore oil drilling platforms",
+        "D. Strictly at national merit badge headquarters in Texas"
+      ],
+      "choices": [
+        "A. Exclusively inside hyperbaric hospital chambers",
+        "B. At a local dive center, at a resort, or aboard a dive boat",
+        "C. Only on deep-sea offshore oil drilling platforms",
+        "D. Strictly at national merit badge headquarters in Texas"
+      ],
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. At a local dive center, at a resort, or aboard a dive boat",
+      "explanation": "Correct Answer (B): As a professional recreational scuba instructor, you might work at a local dive center, at a resort, or on a dive boat, often diving daily in tropical destinations (p. 83).",
+      "pamphlet_page_ref": "p. 83, p. 86",
+      "req_id": "6",
       "option_id": null
     }
   ],
   "quartermaster_manifest": {
     "badge_name": "Scuba Diving",
     "patrol_equipment": [
-      "Patrol trauma and first-aid kit (sterile gauze, roller bandages, triangular cravats, SAM splint)",
-      "Non-latex nitrile exam gloves, CPR breathing barrier mask, and antiseptic swabs",
-      "Emergency action plan checklist and simulated patient assessment cards",
-      "U. S. Coast Guard-approved Type III Personal Flotation Device (PFD) fitted to each Scout",
-      "Waterfront rescue throw bag (50 ft floating polypropylene line) and safety whistle",
-      "BSA Safe Swim Defense / Safety Afloat waterproof station check-in board"
+      "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled",
+      "Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle",
+      "BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist",
+      "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer"
     ],
     "individual_scout_gear": [
       "Official Scuba Diving Merit Badge Pamphlet",
